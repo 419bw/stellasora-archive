@@ -177,6 +177,22 @@ BIN_STORY = load_json(BIN, 'Story.json')
 BIN_CHAPTER = load_json(BIN, 'StoryChapter.json')
 BIN_ACTIVITY = load_json(BIN, 'ActivityStory.json')
 BIN_ACTIVITY_CHAPTER = load_json(BIN, 'ActivityStoryChapter.json')
+BIN_CHARACTER = load_json(BIN, 'Character.json')
+BIN_PLOT = load_json(BIN, 'Plot.json')
+BIN_NPC_PLOT = load_json(BIN, 'NPCAffinityPlot.json')
+BIN_NPC = load_json(BIN, 'StarTowerNPC.json')
+BIN_DISC = load_json(BIN, 'DiscIP.json')
+BIN_SST_TAB = load_json(BIN, 'StorySetTab.json')
+BIN_SST_CHAPTER = load_json(BIN, 'StorySetChapter.json')
+BIN_SST_SECTION = load_json(BIN, 'StorySetSection.json')
+LANG_CHARACTER = load_json(LANG, 'Character.json')
+LANG_PLOT = load_json(LANG, 'Plot.json')
+LANG_NPC_PLOT = load_json(LANG, 'NPCAffinityPlot.json')
+LANG_NPC = load_json(LANG, 'StarTowerNPC.json')
+LANG_DISC = load_json(LANG, 'DiscIP.json')
+LANG_SST_TAB = load_json(LANG, 'StorySetTab.json')
+LANG_SST_CHAPTER = load_json(LANG, 'StorySetChapter.json')
+LANG_SST_SECTION = load_json(LANG, 'StorySetSection.json')
 
 _TAG_CACHE = {}
 
@@ -308,7 +324,7 @@ def extract_script(stem):
     stack = []
     pending_close = []
     last_marker = None
-    meta = {'recap': ''}
+    meta = {'recap': '', 'episode': '', 'title': ''}
 
     def frame_for(group):
         for fr in reversed(stack):
@@ -418,6 +434,8 @@ def extract_script(stem):
                 # [0] 代号 [1] 话数 [2] 标题 [3] 跳过概要（==RT== 是引擎的换行标记）
                 parts = [clean_dialogue(p) for p in s[3].split('==RT==')]
                 meta['recap'] = "\n".join(p for p in parts if p)
+                meta['episode'] = clean_dialogue(s[1])
+                meta['title'] = clean_dialogue(s[2])
 
     return {'meta': meta, 'beats': beats}
 
@@ -466,13 +484,13 @@ def render_beats(beats):
 
 
 
-def section_doc(heading, info, recap, body_title, beats):
-    """Shared page skeleton for both main and event sections.
+def section_doc(heading, info, recap, body_title, beats, info_title="关卡信息"):
+    """Shared page skeleton for every story family.
 
     The skip recap is authored inside the script (SetIntro[3], with ==RT== as the line
     break); the stage table's Desc is a one-line flavour hint and is not the recap.
     """
-    lines = [heading, "", "## 1. 关卡信息", *info, ""]
+    lines = [heading, "", "## 1. %s" % info_title, *info, ""]
     if recap:
         lines += ["## 2. 官方跳过概要", "",
                   "> " + recap.replace("\n", "\n> "), ""]
@@ -589,6 +607,275 @@ def build_events():
     return stats
 
 
+# ---------------------------------------------------------- other story families
+def rows_of(table):
+    return sorted(table.values(), key=lambda r: r.get('Id', 0))
+
+
+def field_lang(lang_table, row, field='Name'):
+    return lang_of(lang_table, row.get(field, ''))
+
+
+def character_name(cid):
+    row = BIN_CHARACTER.get(str(cid))
+    return field_lang(LANG_CHARACTER, row) if row else ''
+
+
+def build_character_plots():
+    """Plot.json mounts each traveller's personal story (CG_<char>_<part>).
+
+    Three parts per character, gated at affinity 1 / 5 / 10. Costume reissues register
+    their own Plot rows against the same script, so rows are grouped by script and the
+    titled row owns the page while the others are listed on it.
+    """
+    stats = collections.Counter()
+    by_stem = collections.OrderedDict()
+    for r in rows_of(BIN_PLOT):
+        by_stem.setdefault(r.get('AvgId'), []).append(r)
+    for stem, group in by_stem.items():
+        parsed = extract_script(stem)
+        if not parsed:
+            continue
+        owner = next((r for r in group if field_lang(LANG_PLOT, r)), group[0])
+        cname = character_name(owner.get('Char'))
+        title = field_lang(LANG_PLOT, owner) or stem
+        info = [
+            "- **所属角色**：%s（角色编号 `%s`）" % (cname or '未知', owner.get('Char')),
+            "- **解锁条件**：好感等级 %s" % owner.get('UnlockAffinityLevel'),
+            "- **剧情档案 ID**：`%s`" % owner['Id'],
+            "- **AVG 剧本**：`%s`" % stem,
+        ]
+        twins = [character_name(r.get('Char')) for r in group if r is not owner]
+        if twins:
+            info.append("- **复用此剧本的档案**：%s" % "、".join(x for x in twins if x))
+        folder = os.path.join(OUT, 'characters',
+                              safe_name('%s_%s' % (owner.get('Char'), cname or stem)))
+        write(os.path.join(folder, 'sections', safe_name('%s_%s' % (owner['Id'], title)) + '.md'),
+              section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                          parsed['beats'], info_title="剧情档案信息"))
+        stats['sections'] += 1
+        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+    return stats
+
+
+def build_npc_plots():
+    """NPCAffinityPlot.json mounts the star-tower staff bond stories (CG_npc<id>_<part>)."""
+    stats = collections.Counter()
+    for r in rows_of(BIN_NPC_PLOT):
+        parsed = extract_script(r.get('avgId'))
+        if not parsed:
+            continue
+        npc = BIN_NPC.get(str(r.get('NPCId')))
+        npc_name = field_lang(LANG_NPC, npc) if npc else ''
+        idx = field_lang(LANG_NPC_PLOT, r)
+        sub = field_lang(LANG_NPC_PLOT, r, 'Desc')
+        info = [
+            "- **所属 NPC**：%s（NPC 编号 `%s`）" % (npc_name or '未知', r.get('NPCId')),
+            "- **解锁条件**：好感等级 %s" % r.get('AffinityLevel'),
+            "- **剧情档案 ID**：`%s`" % r['Id'],
+            "- **AVG 剧本**：`%s`" % r.get('avgId'),
+        ]
+        folder = os.path.join(OUT, 'npc_bonds',
+                              safe_name('%s_%s' % (r.get('NPCId'), npc_name or r.get('avgId'))))
+        write(os.path.join(folder, 'sections', safe_name('%s_%s' % (r['Id'], idx or sub)) + '.md'),
+              section_doc("# %s" % " ".join(x for x in (idx, sub) if x), info,
+                          parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                          info_title="剧情档案信息"))
+        stats['sections'] += 1
+        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+    return stats
+
+
+def build_discs():
+    """DiscIP rows carrying an AvgId play a CG_disc* vignette.
+
+    The same row also stores a prose retelling in StoryDesc. It is table copy, not
+    script dialogue -- none of its lines appear in the AVG -- so it is kept as a
+    labelled appendix instead of being merged into the beat list.
+    """
+    stats = collections.Counter()
+    for r in rows_of(BIN_DISC):
+        stem = r.get('AvgId')
+        parsed = extract_script(stem) if stem else None
+        if not parsed:
+            continue
+        title = field_lang(LANG_DISC, r, 'StoryName')
+        owners = "、".join(x for x in (character_name(c) for c in (r.get('CharId') or [])) if x)
+        info = [
+            "- **唱片 ID**：`%s`" % r['Id'],
+            "- **关联角色**：%s" % (owners or '无'),
+            "- **AVG 剧本**：`%s`" % stem,
+        ]
+        doc = section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                          parsed['beats'], info_title="唱片信息")
+        prose = LANG_DISC.get(r.get('StoryDesc', ''), '').strip()
+        if prose:
+            doc += ("\n\n## 4. 唱片附文（DiscIP 表 StoryDesc 原文）\n\n"
+                    "> 与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。\n\n"
+                    + "\n".join("> " + ln for ln in prose.split("\n")) + "\n")
+        write(os.path.join(OUT, 'discs', safe_name('%s_%s' % (r['Id'], title or stem)) + '.md'), doc)
+        stats['sections'] += 1
+        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+    return stats
+
+
+def build_storysets():
+    """StorySet* tables mount the side-story collections (STsp_<chapter>_<part>).
+
+    Tab (栏目) -> Chapter (故事集) -> Section (小节); tab 1 is the site-wide "全部"
+    filter, not a category, so chapters are filed under their real tab only.
+    """
+    stats = collections.Counter()
+    tabs = {r['Id']: lang_of(LANG_SST_TAB, r.get('TabName', ''))
+            for r in rows_of(BIN_SST_TAB) if not r.get('IsAll')}
+    sections = collections.defaultdict(list)
+    for s in rows_of(BIN_SST_SECTION):
+        sections[s['ChapterId']].append(s)
+    for chap in rows_of(BIN_SST_CHAPTER):
+        secs = sections.get(chap['Id'])
+        if not secs:
+            continue
+        cname = lang_of(LANG_SST_CHAPTER, chap.get('Name', ''))
+        cno = lang_of(LANG_SST_CHAPTER, chap.get('Title', ''))
+        tab = tabs.get(chap.get('TabId'), '未分类')
+        folder = os.path.join(OUT, 'storysets', safe_name(tab),
+                              safe_name('%s_%s' % (chap['Id'], cname)))
+        for s in secs:
+            parsed = extract_script(s.get('AVGId'))
+            if not parsed:
+                continue
+            idx = lang_of(LANG_SST_SECTION, s.get('Title', ''))
+            desc = lang_of(LANG_SST_SECTION, s.get('Desc', ''))
+            info = [
+                "- **所属故事集**：%s《%s》" % (cno, cname),
+                "- **栏目**：%s" % tab,
+                "- **小节 ID**：`%s`" % s['Id'],
+                "- **AVG 剧本**：`%s`" % s.get('AVGId'),
+            ]
+            write(os.path.join(folder, 'sections',
+                               safe_name('%s_%s' % (s['Id'], idx or desc)) + '.md'),
+                  section_doc("# %s" % (desc or idx), info, parsed['meta']['recap'],
+                              "逐句台词", parsed['beats'], info_title="故事集小节信息"))
+            stats['sections'] += 1
+            stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+    return stats
+
+
+def build_prologue():
+    """STm00_* is the opening 序章《最初的起点》played during registration.
+
+    Story lists no chapter 0 row, so the stage table cannot mount it; the script's own
+    SetIntro carries the official episode labels, and BBm00_* are the battle bubbles of
+    that same desert mission (same trio, same 许愿箱).
+    """
+    stats = collections.Counter()
+    stems = sorted(f[:-4] for f in os.listdir(CFG) if f.startswith('STm00_'))
+    battle = sorted(f[:-4] for f in os.listdir(CFG) if f.startswith('BBm00_'))
+    for stem in stems:
+        parsed = extract_script(stem)
+        if not parsed:
+            continue
+        info = [
+            "- **所属**：序章《%s》" % (parsed['meta']['title'] or '最初的起点'),
+            "- **话数**：%s" % (parsed['meta']['episode'] or '序'),
+            "- **AVG 剧本**：`%s`" % stem,
+            "- **挂载状态**：Story 表从第 1 章起列关卡，序章由注册流程直接调用，故表内无行",
+        ]
+        if stem.startswith('STm00_01') and battle:
+            info.append("- **同场战斗气泡**：%s（见 `battles_unmounted/`）" % "、".join(battle))
+        write(os.path.join(OUT, 'prologue', 'sections',
+                           safe_name('%s_%s' % (stem, parsed['meta']['title'] or stem)) + '.md'),
+              section_doc("# %s %s" % (parsed['meta']['episode'] or '序',
+                                       parsed['meta']['title'] or ''),
+                          info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                          info_title="序章信息"))
+        stats['sections'] += 1
+        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+    return stats
+
+
+def build_orphan_battles(used):
+    """BBm* scripts no stage row points at.
+
+    No CN/bin table ever names a BBm script -- the client derives the name from the
+    chapter and stage index -- so these can only be filed by their own code. They are
+    still official dialogue, so they get pages rather than a footnote.
+    """
+    stats = collections.Counter()
+    orphans = sorted(f[:-4] for f in os.listdir(CFG)
+                     if f.startswith('BBm') and f[:-4] not in used)
+    for stem in orphans:
+        parsed = extract_script(stem)
+        if not parsed:
+            continue
+        n = sum(1 for b in parsed['beats'] if b['k'] == 'bubble')
+        who = "、".join(collections.Counter(b['speaker'] for b in parsed['beats']
+                                            if b['k'] == 'bubble'))
+        note = ("属序章《最初的起点》沙漠星塔一战，Story 表不列序章所以无行引用"
+                if stem.startswith('BBm00_') else
+                "包内没有任何关卡表引用此剧本，只按剧本代号存目")
+        doc = section_doc("# 战斗气泡 `%s`" % stem,
+                          ["- **AVG 剧本**：`%s`" % stem,
+                           "- **气泡条数**：%d" % n,
+                           "- **出场说话人**：%s" % who,
+                           "- **挂载状态**：%s" % note],
+                          "", "战斗气泡对白（SetBubble，随战斗阶段推进）", parsed['beats'],
+                          info_title="剧本信息")
+        write(os.path.join(OUT, 'battles_unmounted', safe_name(stem) + '.md'), doc)
+        stats['sections'] += 1
+        stats['lines'] += n
+    return stats, orphans
+
+
+def write_coverage():
+    """Every script in the pack is either rendered or named here with its mount source."""
+    rendered = set()
+    for dp, _d, fs in os.walk(OUT):
+        for f in fs:
+            if f.endswith('.md'):
+                txt = open(os.path.join(dp, f), encoding='utf-8').read()
+                rendered.update(re.findall(r'AVG 剧本\*\*：`([A-Za-z0-9_]+)`', txt))
+    alls = sorted(f[:-4] for f in os.listdir(CFG) if f.endswith('.lua'))
+    mounts = collections.defaultdict(set)
+    for tbl, fld in (('Story', 'AvgLuaName'), ('ActivityStory', 'AvgLuaName'),
+                     ('Plot', 'AvgId'), ('NPCAffinityPlot', 'avgId'), ('DiscIP', 'AvgId'),
+                     ('StorySetSection', 'AVGId'), ('Chat', 'AVGId'),
+                     ('AgentSpecialPerformance', 'Avg')):
+        for r in load_json(BIN, tbl + '.json').values():
+            v = r.get(fld)
+            if isinstance(v, str):
+                mounts[v].add(tbl)
+    fam = lambda s: re.match(r'[A-Za-z]+', s).group(0)
+    gap = collections.defaultdict(collections.Counter)
+    for s in alls:
+        gap[fam(s)]['all'] += 1
+        gap[fam(s)]['done' if s in rendered else 'todo'] += 1
+    src = {'STm': 'Story.AvgLuaName', 'STev': 'ActivityStory.AvgLuaName',
+           'CG': 'Plot / NPCAffinityPlot / DiscIP', 'STsp': 'StorySetSection.AVGId',
+           'BBm': '无表引用，客户端按「章号+关卡编号」拼名',
+           'PM': 'Chat.AVGId', 'DP': 'AgentSpecialPerformance.Avg', 'GD': '无表引用'}
+    note = {'PM': '手机聊天全篇，待决',
+            'DP': '委托玩法结算短演出，待决',
+            'GD': '抽卡演出小段（4 句），表不引用，待决',
+            'BBm': '战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战）',
+            'STm': '含序章 STm00_*，已渲染进 prologue/'}
+    todo = [s for s in alls if s not in rendered]
+    lines = ["# 剧本覆盖对账", "",
+             "- 包内 AVG 剧本：%d　已渲染：%d　未渲染：%d" % (len(alls), len(alls) - len(todo), len(todo)),
+             "",
+             "| 剧本前缀 | 文件数 | 已渲染 | 未渲染 | 挂载来源 | 备注 |",
+             "| --- | --- | --- | --- | --- | --- |"]
+    for f in sorted(gap, key=lambda x: -gap[x]['all']):
+        lines.append("| `%s_*` | %d | %d | %d | %s | %s |"
+                     % (f, gap[f]['all'], gap[f]['done'], gap[f]['todo'],
+                        src.get(f, '-'), note.get(f, '')))
+    lines += ["", "## 未渲染剧本清单", ""]
+    lines += ["- `%s`（挂载表：%s）" % (s, "、".join(sorted(mounts.get(s, []))) or "无")
+              for s in todo]
+    write(os.path.join(OUT, '_coverage.md'), "\n".join(lines) + "\n")
+    return len(alls), len(alls) - len(todo), len(todo)
+
+
 def main():
     print("Parsing official AVG scripts (main story)...")
     mstats, battle_map, skipped = build_main()
@@ -597,25 +884,37 @@ def main():
     print("Parsing event story scripts...")
     estat = build_events()
     print("  sections=%(sections)s lines=%(lines)s" % estat)
+    for label, fn in (("角色个人剧情", build_character_plots),
+                      ("星塔 NPC 好感剧情", build_npc_plots),
+                      ("唱片剧情", build_discs),
+                      ("故事集支线", build_storysets),
+                      ("序章", build_prologue)):
+        st = fn()
+        print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
 
     attached = [b for b in battle_map if b[2] == 'attached']
     missing = [b for b in battle_map if b[2] == 'MISSING']
     used = {b[1] for b in attached}
-    unattached = sorted(f for f in os.listdir(CFG) if f.startswith('BBm') and f[:-4] not in used)
+    ostats, unattached = build_orphan_battles(used)
+    print("  无关卡引用的战斗气泡剧本：剧本=%d 气泡=%d" % (ostats['sections'], ostats['lines']))
+    total, done, todo = write_coverage()
+    print("剧本覆盖对账：包内 %d 个，已渲染 %d 个，未渲染 %d 个" % (total, done, todo))
+
     lines = ["# 战斗气泡剧本对账", "",
              "- 战斗关卡行：%d，挂到气泡剧本：%d，包内暂无剧本：%d" % (len(battle_map), len(attached), len(missing)),
-             "- 有剧本但关卡表未引用（教学关或未上线）：%d 个" % len(unattached), "",
+             "- 有剧本但无关卡引用（全文见 `battles_unmounted/`）：%d 个" % len(unattached), "",
              "> 包内暂无剧本的关卡行全部集中在第十章《遥远的塔》。该章剧情目前只开放了部分线路，"
-             "关卡表先行、后续线路的剧本随版本补进客户端，因此这些行不是解包遗漏。", ""]
+             "关卡表先行、后续线路的剧本随版本补进客户端，因此这些行不是解包遗漏。", "",
+             "> BBm 剧本从不出现在任何配置表里，客户端按「章号 + 关卡编号」拼出文件名。"
+             "`BBm00_01`–`BBm00_06` 的说话人只有鸢尾/琥珀/尘沙，内容与序章剧本 `STm00_01`《最初的起点》"
+             "同为一场沙漠星塔许愿箱之战，即注册流程里打的那一关；"
+             "`BBm07_BT03` 是千都世的追加战，第七章表内只列了两场（`BAm06x5_01`/`BAm06x5_02`），无对应行。", ""]
     if missing:
         lines += ["## 无气泡剧本的战斗关卡", ""]
         lines += ["- `%s`（按命名规则期望：%s）" % (b[0], b[1]) for b in missing] + [""]
     if unattached:
         lines += ["## 未被任何关卡引用的 BBm 剧本", ""]
-        for f in unattached:
-            s = extract_script(f[:-4])
-            n = sum(1 for b in s['beats'] if b['k'] == 'bubble') if s else 0
-            lines.append("- `%s` —— %d 条气泡" % (f[:-4], n))
+        lines += ["- [`%s`](battles_unmounted/%s.md)" % (s, safe_name(s)) for s in unattached]
         lines.append("")
     if skipped:
         lines += ["## 关卡表已列出、包内无剧本的关卡行（未开放线路）", ""]
