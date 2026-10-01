@@ -15,7 +15,7 @@ Usage: python scripts/build_story.py
 Output: story_docs/
 """
 
-import sys, os, re, json, collections
+import sys, os, re, json, shutil, collections
 
 import graph_layout
 
@@ -579,6 +579,18 @@ def node_time(beats):
     return {'clock': head['time'], 'date': head['date']}
 
 
+def bubble_stem_for(story_id, code):
+    """The client names a battle's bubble script after the chapter token baked into the
+    stage's own StoryId, not after Story.Chapter: 特别篇 stages are `BAm06x5_*` while the
+    table numbers that chapter 7, and the bubble files follow `BBm07_*` for 第七章 stages
+    (`BAm07_*`). Verified against every stage: a script's speakers always appear in the
+    chapter its StoryId token points to, and never in the one Story.Chapter points to."""
+    m = re.match(r'^BA([0-9a-zA-Z]+)_[^_]+$', story_id or '')
+    if not m:
+        return None
+    return 'BB%s_%s' % (m.group(1), re.sub(r'[^A-Za-z0-9]', '', code or ''))
+
+
 def record_node(ch, row, page, bubble_stem, beats=None):
     """Every Story row is a graph node, even the ones with no script in the pack."""
     nodes = _CHAPTER_NODES.setdefault(ch, [])
@@ -636,13 +648,13 @@ def build_main():
             bubbles = None
             bubble_stem = None
             if parsed is None and r.get('IsBattle'):
-                cand = 'BBm%02d_%s' % (ch, re.sub(r'[^A-Za-z0-9]', '', idx))
-                if script_commands(cand):
+                cand = bubble_stem_for(stem, idx)
+                if cand and script_commands(cand):
                     bubbles = extract_script(cand)
                     bubble_stem = cand
-                    battle_map.append((stem, cand, 'attached'))
+                    battle_map.append((stem, cand, 'attached', ch))
                 else:
-                    battle_map.append((stem, cand, 'MISSING'))
+                    battle_map.append((stem, cand, 'MISSING', ch))
             if parsed is None and not bubbles:
                 record_node(ch, r, None, None)
                 skipped.append((ch, r['Id'], stem, title, '战斗关卡' if r.get('IsBattle') else '剧情关卡'))
@@ -1057,7 +1069,7 @@ def write_coverage():
         gap[fam(s)]['done' if s in rendered else 'todo'] += 1
     src = {'STm': 'Story.AvgLuaName', 'STev': 'ActivityStory.AvgLuaName',
            'CG': 'Plot / NPCAffinityPlot / DiscIP', 'STsp': 'StorySetSection.AVGId',
-           'BBm': '无表引用，客户端按「章号+关卡编号」拼名',
+           'BBm': '无表引用，客户端按「关卡代号里的章号+关卡编号」拼名',
            'PM': 'Chat.AVGId', 'DP': 'AgentSpecialPerformance.Avg', 'GD': '无表引用'}
     note = {'PM': '心链聊天全篇（`UIText.MainView_Phone` / `OpenFunc.Phone`），外部已有收录，不做',
             'DP': '委托玩法结算短演出，待决',
@@ -1082,6 +1094,10 @@ def write_coverage():
 
 
 def main():
+    # story_docs/ is fully generated: a mount change removes pages, and leaving the old
+    # files behind would let the validators read a tree this script never wrote
+    if os.path.isdir(OUT):
+        shutil.rmtree(OUT)
     print("Parsing official AVG scripts (main story)...")
     mstats, battle_map, skipped = build_main()
     mstats['empty'] = len(skipped)
@@ -1101,6 +1117,9 @@ def main():
     missing = [b for b in battle_map if b[2] == 'MISSING']
     used = {b[1] for b in attached}
     ostats, unattached = build_orphan_battles(used)
+    chlab = {int(c['Id']): (clean_text(lang_of(LANG_STORY_CHAP, c.get('Name', '')))
+                            or '表 Id %s' % c['Id']) for c in BIN_CHAPTER.values()}
+    miss_ch = sorted({chlab.get(b[3], b[3]) for b in missing})
     print("  无关卡引用的战斗气泡剧本：剧本=%d 气泡=%d" % (ostats['sections'], ostats['lines']))
     dstats = write_data()
     print("结构化侧车：章=%d 节点=%d 页=%d" % (dstats['chapters'], dstats['nodes'], dstats['pages']))
@@ -1110,15 +1129,22 @@ def main():
     lines = ["# 战斗气泡剧本对账", "",
              "- 战斗关卡行：%d，挂到气泡剧本：%d，包内暂无剧本：%d" % (len(battle_map), len(attached), len(missing)),
              "- 有剧本但无关卡引用（全文见 `battles_unmounted/`）：%d 个" % len(unattached), "",
-             "> 包内暂无剧本的关卡行全部集中在第十章《遥远的塔》。该章剧情目前只开放了部分线路，"
-             "关卡表先行、后续线路的剧本随版本补进客户端，因此这些行不是解包遗漏。", "",
-             "> BBm 剧本从不出现在任何配置表里，客户端按「章号 + 关卡编号」拼出文件名。"
-             "`BBm00_01`–`BBm00_06` 的说话人只有鸢尾/琥珀/尘沙，内容与序章剧本 `STm00_01`《最初的起点》"
-             "同为一场沙漠星塔许愿箱之战，即注册流程里打的那一关；"
-             "`BBm07_BT03` 是千都世的追加战，第七章表内只列了两场（`BAm06x5_01`/`BAm06x5_02`），无对应行。", ""]
+             "> 包内暂无剧本的战斗关卡行分布在：%s。"
+             "其中最新一章的关卡表先行、后续线路的剧本随版本补进客户端，因此不是解包遗漏。"
+             % '、'.join('《%s》' % x if not str(x).startswith('表') else str(x) for x in miss_ch), "",
+             "> BBm 剧本从不出现在任何配置表里，客户端按「关卡代号里的章号 + 关卡编号」拼出文件名："
+             "`BAm07_01` → `BBm07_BT01`，`BAm06x5_01` → `BBm06x5_BT01`。"
+             "注意这里跟的是关卡代号，**不是 `Story.Chapter`**：特别篇的关卡记作 `06x5`，"
+             "而表把它的 `Chapter` 记成 7，用表号拼名会把第七章的气泡挂到特别篇上。"
+             "判据是可核对的：每个 BBm 剧本的说话人集合都出现在其 StoryId 章号所指那一章的正篇演员表里，"
+             "而特别篇正篇没有夏花/小禾/千都世，所以 `BBm07_*` 不属于它；"
+             "特别篇的两场战斗（`BAm06x5_01`/`BAm06x5_02`）在包里确实没有气泡剧本。", "",
+             "> `BBm00_01`–`BBm00_06` 的说话人只有鸢尾/琥珀/尘沙，内容与序章剧本 `STm00_01`《最初的起点》"
+             "同为一场沙漠星塔许愿箱之战，即注册流程里打的那一关；关卡表里没有对应行。", ""]
     if missing:
         lines += ["## 无气泡剧本的战斗关卡", ""]
-        lines += ["- `%s`（按命名规则期望：%s）" % (b[0], b[1]) for b in missing] + [""]
+        lines += ["- `%s`（%s，按命名规则期望：%s）" % (b[0], chlab.get(b[3], b[3]), b[1])
+                  for b in missing] + [""]
     if unattached:
         lines += ["## 未被任何关卡引用的 BBm 剧本", ""]
         lines += ["- [`%s`](battles_unmounted/%s.md)" % (s, safe_name(s)) for s in unattached]

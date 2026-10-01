@@ -3954,11 +3954,11 @@
      "parents": [],
      "stems": {
       "story": null,
-      "bubble": "BBm07_BT01"
+      "bubble": null
      },
-     "state": "released",
+     "state": "unreleased",
      "time": null,
-     "page": "main/node/BAm06x5_01.html"
+     "page": null
     },
     {
      "sid": 6502,
@@ -3976,11 +3976,11 @@
      "parents": [],
      "stems": {
       "story": null,
-      "bubble": "BBm07_BT02"
+      "bubble": null
      },
-     "state": "released",
+     "state": "unreleased",
      "time": null,
-     "page": "main/node/BAm06x5_02.html"
+     "page": null
     },
     {
      "sid": 6503,
@@ -4403,7 +4403,7 @@
      ],
      "stems": {
       "story": null,
-      "bubble": "BBm08_BT01"
+      "bubble": "BBm07_BT01"
      },
      "state": "released",
      "time": null,
@@ -4431,7 +4431,7 @@
      ],
      "stems": {
       "story": null,
-      "bubble": "BBm08_BT02"
+      "bubble": "BBm07_BT02"
      },
      "state": "released",
      "time": null,
@@ -4459,7 +4459,7 @@
      ],
      "stems": {
       "story": null,
-      "bubble": "BBm08_BT03"
+      "bubble": "BBm07_BT03"
      },
      "state": "released",
      "time": null,
@@ -5360,7 +5360,7 @@
      ],
      "stems": {
       "story": null,
-      "bubble": "BBm09_BT01"
+      "bubble": "BBm08_BT01"
      },
      "state": "released",
      "time": null,
@@ -5664,7 +5664,7 @@
      ],
      "stems": {
       "story": null,
-      "bubble": "BBm09_BT02"
+      "bubble": "BBm08_BT02"
      },
      "state": "released",
      "time": null,
@@ -6061,7 +6061,7 @@
      ],
      "stems": {
       "story": null,
-      "bubble": "BBm09_BT03"
+      "bubble": "BBm08_BT03"
      },
      "state": "released",
      "time": null,
@@ -6418,11 +6418,11 @@
      ],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm09_BT01"
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null,
+     "page": "main/node/BAm09_BT01.html",
      "col": 3,
      "lane": 0,
      "x": 792,
@@ -6601,11 +6601,11 @@
      ],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm09_BT02"
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null,
+     "page": "main/node/BAm09_BT03.html",
      "col": 9,
      "lane": 0,
      "x": 2376,
@@ -6691,11 +6691,11 @@
      ],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm09_BT03"
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null,
+     "page": "main/node/BAm09_BT02.html",
      "col": 3,
      "lane": -1,
      "x": 792,

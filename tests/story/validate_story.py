@@ -11,6 +11,9 @@ B  气泡完整性 : every SetBubble text of the mapped BBm script appears, in o
 C  增量归因   : new-only lines are only scene headings / chat lines / battle bubbles /
                generic choices / branch markers, and their totals match Lua counts.
 D  变异测试   : planted errors must be caught.
+K  挂载语义   : a mounted BBm script only speaks with characters of that stage's chapter
+               (F checks content against the declared stem, so a wrong declaration is
+               invisible to it; this contract ignores file names entirely)
 """
 import sys, os, re, glob, json, collections
 
@@ -247,12 +250,19 @@ old_only = set(old_files) - set(new_files)
 
 
 def bbm_candidate(r):
-    return 'BBm%02d_%s' % (int(r['Chapter']), re.sub(r'[^A-Za-z0-9]', '', norm(lang.get(r.get('Index', ''), ''))))
+    """The client names a bubble script after the chapter token inside the stage's own
+    StoryId (BAm06x5_01 -> 06x5), which is NOT Story.Chapter (the 特别篇 is numbered 7 in
+    the table but filed as 06x5 between ch06 and ch07)."""
+    m = re.match(r'^BA([0-9a-zA-Z]+)_[^_]+$', str(r.get('StoryId') or ''))
+    if not m:
+        return None
+    return 'BB%s_%s' % (m.group(1), re.sub(r'[^A-Za-z0-9]', '', norm(lang.get(r.get('Index', ''), ''))))
 
 
 exp_main = {str(r['Id']) for r in story.values()
             if not os.path.exists(os.path.join(CFG, str(r.get('StoryId')) + '.lua'))
-            and not (r.get('IsBattle') and os.path.exists(os.path.join(CFG, bbm_candidate(r) + '.lua')))}
+            and not (r.get('IsBattle') and bbm_candidate(r)
+                     and os.path.exists(os.path.join(CFG, bbm_candidate(r) + '.lua')))}
 exp_act = {str(r['Id']) for r in act.values()
            if not os.path.exists(os.path.join(CFG, str(r.get('AvgLuaName') or '') + '.lua'))}
 expected = exp_main | exp_act
@@ -270,7 +280,9 @@ for r in story.values():
     if not r.get('IsBattle'):
         continue
     idx = re.sub(r'[^A-Za-z0-9]', '', norm(lang.get(r.get('Index', ''), '')))
-    stem = 'BBm%02d_%s' % (int(r['Chapter']), idx)
+    stem = bbm_candidate(r)
+    if not stem:
+        continue
     truth = lua_bubbles(stem)
     if not truth:
         continue
@@ -328,7 +340,7 @@ for i, p in new_files.items():
 orig = open(bt, encoding='utf-8').read()
 rows = {str(r['Id']): r for r in story.values()}
 r = rows[id_of(bt)]
-stem = 'BBm%02d_%s' % (int(r['Chapter']), re.sub(r'[^A-Za-z0-9]', '', norm(lang.get(r.get('Index', ''), ''))))
+stem = bbm_candidate(r)
 truth = lua_bubbles(stem)
 
 
@@ -580,3 +592,73 @@ for label, pick in (('序章台词', lambda q: q[1].startswith('STm00')),
         ok = md_bubbles(tmp) != (lua_bubbles(stem) or [])
     os.remove(tmp)
     print('%s 变异（%s）-> %s' % (label, stem, 'CAUGHT' if ok else 'MISSED'))
+
+
+# ============================================================ K  挂载语义
+print()
+print("=" * 66)
+print("K  气泡剧本挂得对不对：说话人必须出自该关卡所在章的演员表")
+print("=" * 66)
+print("   F 只保证「页面内容 == 声明的那份剧本」，声明错了它看不见。")
+print("   这里不看文件名规则，只看人：挂错章的剧本，说话人必然在那章的正篇里没出现过。")
+SPK = re.compile(r'"(avg\d+_\d+)')
+
+
+def cast_of(stem):
+    p = os.path.join(CFG, str(stem) + '.lua')
+    if not os.path.isfile(p):
+        return set()
+    return set(SPK.findall(open(p, encoding='utf-8', errors='replace').read()))
+
+
+ROWS = {str(r['Id']): r for r in story.values()}
+CHAP_CAST, ALL_CAST = collections.defaultdict(set), set()
+for r in story.values():
+    if r.get('IsBattle') or not r.get('StoryId'):
+        continue
+    s = cast_of(r['StoryId'])
+    CHAP_CAST[int(r['Chapter'])] |= s
+    ALL_CAST |= s
+
+
+def audit_mount(path, stem):
+    """Violations for one (page, declared script) pair. Empty list means consistent."""
+    row = ROWS.get(id_of(path))
+    if not row:
+        return ['关卡行不存在']
+    who, ch = cast_of(stem), int(row['Chapter'])
+    if not who:
+        return ['剧本查无文件']
+    return ['%s 出自第 %s 章而非第 %d 章' % (s, sorted(
+        c for c, u in CHAP_CAST.items() if s in u), ch)
+        for s in sorted(who) if s in ALL_CAST and s not in CHAP_CAST[ch]]
+
+
+bad_k, odd_k, checked_k = [], [], 0
+for p, stem in pages:
+    if not stem.startswith('BB') or not os.path.relpath(p, NEW).startswith('main'):
+        continue
+    checked_k += 1
+    for v in audit_mount(p, stem):
+        bad_k.append((os.path.relpath(p, NEW), stem, v))
+    odd_k += [(os.path.relpath(p, NEW), s) for s in sorted(cast_of(stem)) if s not in ALL_CAST]
+print('挂载气泡剧本的主线条目：%d   说话人越章：%d   正篇里没露过面的说话人（不计违例）：%d'
+      % (checked_k, len(bad_k), len(set(x[1] for x in odd_k))))
+for x in bad_k[:8]:
+    print('   ~', x)
+for x in sorted(set(odd_k))[:5]:
+    print('   ?', x)
+
+print()
+print('K2 变异测试')
+sp = next(p for p, s in pages if s == 'BBm07_BT01')
+print('正对照（第七章 BT01 挂 BBm07_BT01）: %s'
+      % ('PASS' if not audit_mount(sp, 'BBm07_BT01') else 'FAIL'))
+# 特别篇的战斗行现在没有页面，所以直接按关卡 Id 造一个路径来测规则本身
+sp_row = next(str(r['Id']) for r in story.values()
+              if r.get('IsBattle') and int(r['Chapter']) == 7)
+fake = os.path.join(NEW, 'main', 'x', 'sections', '%s_BT01_x.md' % sp_row)
+print('植入[把 BBm07_BT01 挂回特别篇]: %s'
+      % ('CAUGHT' if audit_mount(fake, 'BBm07_BT01') else 'MISSED'))
+print('植入[把 BBm08_BT01 挂到第七章]: %s'
+      % ('CAUGHT' if audit_mount(sp, 'BBm08_BT01') else 'MISSED'))

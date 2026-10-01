@@ -4856,75 +4856,6 @@
    "aim": "推进主线剧情"
   },
   {
-   "id": 6501,
-   "family": "main",
-   "code": "BT01",
-   "title": "沙漠来客",
-   "group": {
-    "kind": "chapter",
-    "id": 7,
-    "label": "特别篇",
-    "title": "谜影的序曲",
-    "year": "星塔历 996 年"
-   },
-   "page_md": "main/chapter_07_谜影的序曲/sections/6501_BT01_沙漠来客.md",
-   "page": "main/node/BAm06x5_01.html",
-   "stems": [
-    "BBm07_BT01"
-   ],
-   "recap": "",
-   "speakers": [
-    "夏花",
-    "小禾"
-   ],
-   "counts": {
-    "wave": 4,
-    "bubble": 14,
-    "sticker": 0
-   },
-   "preview": "",
-   "story_id": "BAm06x5_01",
-   "kind": "battle",
-   "parents": [],
-   "hint": "只有这点人，不够过瘾啊。",
-   "aim": "推进主线剧情"
-  },
-  {
-   "id": 6502,
-   "family": "main",
-   "code": "BT02",
-   "title": "狂沙之夜",
-   "group": {
-    "kind": "chapter",
-    "id": 7,
-    "label": "特别篇",
-    "title": "谜影的序曲",
-    "year": "星塔历 996 年"
-   },
-   "page_md": "main/chapter_07_谜影的序曲/sections/6502_BT02_狂沙之夜.md",
-   "page": "main/node/BAm06x5_02.html",
-   "stems": [
-    "BBm07_BT02"
-   ],
-   "recap": "",
-   "speakers": [
-    "尘沙",
-    "千都世",
-    "琥珀"
-   ],
-   "counts": {
-    "wave": 3,
-    "bubble": 15,
-    "sticker": 0
-   },
-   "preview": "",
-   "story_id": "BAm06x5_02",
-   "kind": "battle",
-   "parents": [],
-   "hint": "沙漠的风，终究吹不到菲莱。",
-   "aim": "推进主线剧情"
-  },
-  {
    "id": 6503,
    "family": "main",
    "code": "01",
@@ -5368,19 +5299,16 @@
    "page_md": "main/chapter_08_星之竞拍/sections/801_BT01_远方的心.md",
    "page": "main/node/BAm07_01.html",
    "stems": [
-    "BBm08_BT01"
+    "BBm07_BT01"
    ],
    "recap": "",
    "speakers": [
-    "千都世",
-    "乙叶",
-    "黎明近卫士兵男",
-    "帝国卫队男",
-    "黎明近卫士兵女"
+    "夏花",
+    "小禾"
    ],
    "counts": {
-    "wave": 18,
-    "bubble": 31,
+    "wave": 4,
+    "bubble": 14,
     "sticker": 0
    },
    "preview": "",
@@ -5407,19 +5335,17 @@
    "page_md": "main/chapter_08_星之竞拍/sections/802_BT02_酒店乱战.md",
    "page": "main/node/BAm07_02.html",
    "stems": [
-    "BBm08_BT02"
+    "BBm07_BT02"
    ],
    "recap": "",
    "speakers": [
-    "琥珀",
-    "鸢尾",
-    "帝国卫队男",
-    "沙蝎杂兵（女）",
-    "尘沙"
+    "尘沙",
+    "千都世",
+    "琥珀"
    ],
    "counts": {
-    "wave": 10,
-    "bubble": 27,
+    "wave": 3,
+    "bubble": 15,
     "sticker": 0
    },
    "preview": "",
@@ -5446,18 +5372,15 @@
    "page_md": "main/chapter_08_星之竞拍/sections/803_BT03_恐惧的尽头.md",
    "page": "main/node/BAm07_03.html",
    "stems": [
-    "BBm08_BT03"
+    "BBm07_BT03"
    ],
    "recap": "",
    "speakers": [
-    "哈萨娜",
-    "尘沙",
-    "鸢尾",
-    "琥珀"
+    "千都世"
    ],
    "counts": {
-    "wave": 8,
-    "bubble": 19,
+    "wave": 3,
+    "bubble": 6,
     "sticker": 0
    },
    "preview": "",
@@ -6592,17 +6515,19 @@
    "page_md": "main/chapter_09_往日残影/sections/902_BT01_鸣枪开路.md",
    "page": "main/node/BAm08_01.html",
    "stems": [
-    "BBm09_BT01"
+    "BBm08_BT01"
    ],
    "recap": "",
    "speakers": [
-    "琥珀",
-    "鸢尾",
-    "尘沙"
+    "千都世",
+    "乙叶",
+    "黎明近卫士兵男",
+    "帝国卫队男",
+    "黎明近卫士兵女"
    ],
    "counts": {
-    "wave": 8,
-    "bubble": 27,
+    "wave": 18,
+    "bubble": 31,
     "sticker": 0
    },
    "preview": "",
@@ -7046,20 +6971,19 @@
    "page_md": "main/chapter_09_往日残影/sections/912_BT02_好人、坏人与丑角.md",
    "page": "main/node/BAm08_02.html",
    "stems": [
-    "BBm09_BT02"
+    "BBm08_BT02"
    ],
    "recap": "",
    "speakers": [
     "琥珀",
     "鸢尾",
-    "尘沙",
-    "千都世",
-    "黎明近卫士兵男",
-    "夏花"
+    "帝国卫队男",
+    "沙蝎杂兵（女）",
+    "尘沙"
    ],
    "counts": {
-    "wave": 9,
-    "bubble": 24,
+    "wave": 10,
+    "bubble": 27,
     "sticker": 0
    },
    "preview": "",
@@ -7663,16 +7587,17 @@
    "page_md": "main/chapter_09_往日残影/sections/925_BT03_古老的智慧.md",
    "page": "main/node/BAm08_03.html",
    "stems": [
-    "BBm09_BT03"
+    "BBm08_BT03"
    ],
    "recap": "",
    "speakers": [
-    "艾蕾",
-    "安琪",
-    "格蕾霍恩"
+    "哈萨娜",
+    "尘沙",
+    "鸢尾",
+    "琥珀"
    ],
    "counts": {
-    "wave": 4,
+    "wave": 8,
     "bubble": 19,
     "sticker": 0
    },
@@ -8026,6 +7951,43 @@
    "aim": "推进主线剧情"
   },
   {
+   "id": 1004,
+   "family": "main",
+   "code": "BT01",
+   "title": "十面张网",
+   "group": {
+    "kind": "chapter",
+    "id": 10,
+    "label": "第九章",
+    "title": "遥远的塔",
+    "year": "星塔历 996 年"
+   },
+   "page_md": "main/chapter_10_遥远的塔/sections/1004_BT01_十面张网.md",
+   "page": "main/node/BAm09_BT01.html",
+   "stems": [
+    "BBm09_BT01"
+   ],
+   "recap": "",
+   "speakers": [
+    "琥珀",
+    "鸢尾",
+    "尘沙"
+   ],
+   "counts": {
+    "wave": 8,
+    "bubble": 27,
+    "sticker": 0
+   },
+   "preview": "",
+   "story_id": "BAm09_BT01",
+   "kind": "battle",
+   "parents": [
+    "STm09_01_a"
+   ],
+   "hint": "四正六隅，仍留一路。",
+   "aim": "推进主线剧情"
+  },
+  {
    "id": 1005,
    "family": "main",
    "code": "02A",
@@ -8265,6 +8227,46 @@
    "aim": "推进主线剧情"
   },
   {
+   "id": 1010,
+   "family": "main",
+   "code": "BT02",
+   "title": "一人成军",
+   "group": {
+    "kind": "chapter",
+    "id": 10,
+    "label": "第九章",
+    "title": "遥远的塔",
+    "year": "星塔历 996 年"
+   },
+   "page_md": "main/chapter_10_遥远的塔/sections/1010_BT02_一人成军.md",
+   "page": "main/node/BAm09_BT03.html",
+   "stems": [
+    "BBm09_BT02"
+   ],
+   "recap": "",
+   "speakers": [
+    "琥珀",
+    "鸢尾",
+    "尘沙",
+    "千都世",
+    "黎明近卫士兵男",
+    "夏花"
+   ],
+   "counts": {
+    "wave": 9,
+    "bubble": 24,
+    "sticker": 0
+   },
+   "preview": "",
+   "story_id": "BAm09_BT03",
+   "kind": "battle",
+   "parents": [
+    "STm09_06_a"
+   ],
+   "hint": "如城墙一般，她屹立不倒。",
+   "aim": "推进主线剧情"
+  },
+  {
    "id": 1011,
    "family": "main",
    "code": "终局",
@@ -8358,6 +8360,43 @@
     "STm09_00_b"
    ],
    "hint": "运筹至此，方为真知。",
+   "aim": "推进主线剧情"
+  },
+  {
+   "id": 1013,
+   "family": "main",
+   "code": "BT03",
+   "title": "两级反转",
+   "group": {
+    "kind": "chapter",
+    "id": 10,
+    "label": "第九章",
+    "title": "遥远的塔",
+    "year": "星塔历 996 年"
+   },
+   "page_md": "main/chapter_10_遥远的塔/sections/1013_BT03_两级反转.md",
+   "page": "main/node/BAm09_BT02.html",
+   "stems": [
+    "BBm09_BT03"
+   ],
+   "recap": "",
+   "speakers": [
+    "艾蕾",
+    "安琪",
+    "格蕾霍恩"
+   ],
+   "counts": {
+    "wave": 4,
+    "bubble": 19,
+    "sticker": 0
+   },
+   "preview": "",
+   "story_id": "BAm09_BT02",
+   "kind": "battle",
+   "parents": [
+    "STm09_01_b"
+   ],
+   "hint": "知己知彼，百战不殆。",
    "aim": "推进主线剧情"
   },
   {
@@ -19430,33 +19469,6 @@
    },
    "preview": "",
    "mount_note": "属序章《最初的起点》沙漠星塔一战，Story 表不列序章所以无行引用"
-  },
-  {
-   "id": "BBm07_BT03",
-   "family": "battles_unmounted",
-   "code": "",
-   "title": "BBm07_BT03",
-   "group": {
-    "kind": "unmounted",
-    "id": null,
-    "label": "无关卡引用的战斗气泡"
-   },
-   "page_md": "battles_unmounted/BBm07_BT03.md",
-   "page": "battles/BBm07_BT03.html",
-   "stems": [
-    "BBm07_BT03"
-   ],
-   "recap": "",
-   "speakers": [
-    "千都世"
-   ],
-   "counts": {
-    "wave": 3,
-    "bubble": 6,
-    "sticker": 0
-   },
-   "preview": "",
-   "mount_note": "包内没有任何关卡表引用此剧本，只按剧本代号存目"
   }
  ]
 }

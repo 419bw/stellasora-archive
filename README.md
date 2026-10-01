@@ -29,7 +29,7 @@
 │   ├── build_site.py           # 【站点】story_docs + 侧车 → site/
 │   ├── build_wiki.py           # 早期全量脚本（数值/纹章/索引，剧情部分已被上面取代）
 │   └── run_benchmark.py        # 离线事实检索基准
-├── tests/story/                # 独立校验器 A–J（不吃生成器代码，含植入变异测试）
+├── tests/story/                # 独立校验器 A–K（不吃生成器代码，含植入变异测试）
 ├── AI_HANDOVER_GUIDE.md        # 逆向提取与数据契约交接手册
 ├── OPERATION_MANUAL.md         # 构建与部署手册
 ├── package.json
@@ -44,10 +44,10 @@
 ```bash
 python scripts/build_story.py     # → story_docs/（507 个剧本页 + _data/*.json 结构化侧车）
 python scripts/build_site.py      # → site/（纯 Python 生成，零 npm 依赖）
-python tests/story/validate_story.py && python tests/story/validate_site.py   # 契约 A–J
+python tests/story/validate_story.py && python tests/story/validate_site.py   # 契约 A–K
 ```
 覆盖八族剧情：主线 185、活动 105、角色个人剧情 120、星塔 NPC 好感 8、唱片 24、故事集 56、
-序章 2、无关卡引用的战斗气泡 7；逐句之外还带场景卡、聊天正文、抉择/回应块、战斗气泡，
+序章 2、无关卡引用的战斗气泡 6；逐句之外还带场景卡、聊天正文、抉择/回应块、战斗气泡，
 以及抉择分支的互斥归属标记。主线按官方 `ParentStoryId` 画成游戏那种节点图。
 包里剩下 81 个剧本未渲染：`PM_*` 63 个是**心链**聊天全文（外部已有收录，决定不做），
 `DP_*` 17 个是委托玩法结算短演出、`GD_gacha` 1 个是抽卡小演出（均待决），

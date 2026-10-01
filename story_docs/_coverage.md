@@ -9,7 +9,7 @@
 | `STev_*` | 105 | 105 | 0 | ActivityStory.AvgLuaName |  |
 | `PM_*` | 63 | 0 | 63 | Chat.AVGId | 心链聊天全篇（`UIText.MainView_Phone` / `OpenFunc.Phone`），外部已有收录，不做 |
 | `STsp_*` | 56 | 56 | 0 | StorySetSection.AVGId |  |
-| `BBm_*` | 29 | 29 | 0 | 无表引用，客户端按「章号+关卡编号」拼名 | 战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战） |
+| `BBm_*` | 29 | 29 | 0 | 无表引用，客户端按「关卡代号里的章号+关卡编号」拼名 | 战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战） |
 | `DP_*` | 17 | 0 | 17 | AgentSpecialPerformance.Avg | 委托玩法结算短演出，待决 |
 | `GD_*` | 1 | 0 | 1 | 无表引用 | 抽卡演出小段（4 句），表不引用，待决 |
 
