@@ -206,6 +206,118 @@ def home():
 """ % (len(PAGES), format(lines, ','), tiles, axes, BASELINE), 0, '')
 
 
+STATE_LABEL = {'battle': '战斗', 'story': '剧情'}
+
+
+def node_state_label(n):
+    if n['state'] == 'unreleased':
+        return '未开放'
+    if n['memory'] == 1:
+        return '追忆'
+    if n['memory'] == 2:
+        return '真·终局'
+    if n['is_last']:
+        return '本章终幕'
+    if n['is_branch']:
+        return '终局'
+    if n['code'].startswith('幕间'):
+        return '幕间'
+    if n['code'].startswith('尾声'):
+        return '尾声'
+    return STATE_LABEL[n['kind']]
+
+
+def node_state_class(n):
+    if n['state'] == 'unreleased':
+        return 'locked'
+    if n['memory'] in (1, 2):
+        return 'memory'
+    if n['is_branch'] or n['is_last']:
+        return 'final'
+    if n['code'].startswith(('幕间', '尾声')):
+        return 'between'
+    return 'battle' if n['kind'] == 'battle' else 'story'
+
+
+def chapter_graph_page(c):
+    """The in-game style node map: positioned cards over one flat SVG connector layer."""
+    page = 'main/ch%s/index.html' % (c['no'] or 'sp')
+    d = depth_of(page)
+    root = '../' * d
+    g = c['geometry']
+    crumb = '<a href="%sindex.html">首页</a> › <a href="%smain/index.html">主线剧情</a> › %s' % (
+        root, root, esc(c['name'] or '特别篇'))
+    by_sid = {n['story_id']: n for n in c['nodes']}
+    pad = 24
+    if g is None:                       # 特别篇: the official table records no links at all
+        items = ''.join(
+            '<li><a href="%s"><span class="code">%s</span><span class="t">%s</span>'
+            '<span class="s">%s</span></a></li>'
+            % (rel(d, n['page']) if n['page'] else '#', esc(n['code']), esc(n['title']),
+               esc(node_state_label(n)))
+            for n in sorted(c['nodes'], key=lambda x: x['sid']))
+        body = ('<h1>%s《%s》</h1><p class="lede">%s</p>'
+                '<p class="aside">官方表未记录此篇的关卡连线，因此这里按关卡编号顺序列出，'
+                '不画虚构的分支。</p><ul class="plain linelist">%s</ul>'
+                % (esc(c['name'] or '特别篇'), esc(c['title']), esc(c['year']), items))
+        return layout(c['name'] or '特别篇', body, d, crumb)
+
+    paths = []
+    for u, v in g['edges']:
+        a, b = by_sid[u], by_sid[v]
+        x1, y1 = a['x'] + g['card'][0], a['y'] + g['card'][1] / 2.0
+        x2, y2 = b['x'], b['y'] + g['card'][1] / 2.0
+        mx = x1 + (x2 - x1) / 2.0
+        cls = node_state_class(b)
+        dash = ' dash' if b['state'] == 'unreleased' else ''
+        paths.append('<path class="edge %s%s" d="M%d %d C%d %d,%d %d,%d %d"/>'
+                     % (cls, dash, x1, y1, mx, y1, mx, y2, x2, y2))
+    cards = []
+    for n in sorted(c['nodes'], key=lambda x: (x['col'], x['lane'])):
+        style = 'left:%dpx;top:%dpx;width:%dpx;height:%dpx' % (
+            n['x'] + pad, n['y'] + pad, g['card'][0], g['card'][1])
+        t = n['time']
+        chip = '<span class="chip">%s</span>' % esc('%s %s' % (t['date'], t['clock'])) if t else ''
+        inner = ('<span class="code">%s</span><span class="t">%s</span>%s'
+                 % (esc(n['code'] or '·'), esc(n['title']), chip))
+        tag = 'a href="%s"' % rel(d, n['page']) if n['page'] else 'div'
+        cards.append('<%s class="node %s" style="%s" data-col="%d">%s'
+                     '<span class="state">%s</span></%s>'
+                     % (tag.split()[0], node_state_class(n), style, n['col'], inner,
+                        esc(node_state_label(n)), tag.split()[-1] if tag == 'div' else 'a'))
+    anchors = ''.join('<a href="#col%d" data-scroll-to="%d">%s</a>'
+                      % (col, col * g['step_x'] + pad,
+                         esc(min((n['code'] or '·') for n in c['nodes'] if n['col'] == col)))
+                      for col in range(g['columns']))
+    switch = ' '.join('<a href="%sch%s/index.html"%s>%s</a>' % (
+        root, x['no'] or 'sp', ' class="on"' if x['id'] == c['id'] else '',
+        esc(x['name'] or '特别篇')) for x in sorted(CH['chapters'], key=lambda y: y['id']))
+    unreleased = sum(1 for n in c['nodes'] if n['state'] == 'unreleased')
+    return layout('%s《%s》' % (c['name'], c['title']), """
+<h1>%s《%s》</h1>
+<p class="lede">%s　节点 %d　已开放 %d　战斗 %d%s</p>
+<nav class="chapsel">%s</nav>
+<nav class="anchors">%s</nav>
+<div class="map" style="width:%dpx;height:%dpx">
+<div class="canvas" style="width:%dpx;height:%dpx">
+<svg class="wires" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>
+%s
+</div>
+</div>
+<p class="aside">连线取自官方 <code>Story.ParentStoryId</code>（该关卡的前置关卡），列序与轨道
+由本库按最长路径确定性算出并逐页校验；游戏里每条时间槽属于哪一列写在 UI 预制体里，解包表内没有，
+所以时间条按关卡自身剧本的场景头显示，不冒充官方的按列分组。</p>
+""" % (esc(c['name']), esc(c['title']), esc(c['year']), len(c['nodes']),
+       sum(1 for n in c['nodes'] if n['state'] == 'released'),
+       sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
+       '　未开放 %d' % unreleased if unreleased else '',
+       switch, anchors, g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2, ''.join(paths), ''.join(cards)),
+        d, crumb)
+
+
 def write(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8', newline='\n') as f:
@@ -227,10 +339,15 @@ def main():
     for family, name, intro in FAMILIES:
         if family == 'main':
             write(os.path.join(SITE, 'main', 'index.html'), main_index())
+            for c in CH['chapters']:
+                write(os.path.join(SITE, 'main', 'ch%s' % (c['no'] or 'sp'), 'index.html'),
+                      chapter_graph_page(c))
         else:
             write(os.path.join(SITE, slug_of(family), 'index.html'),
                   family_index(family, intro))
-    print("站点已生成：site/  页面 %d 篇（含各族索引与首页）" % (n + 1 + len(FAMILIES)))
+    graphs = sum(1 for c in CH['chapters'])
+    print("站点已生成：site/  剧本页 %d 篇 + 索引 %d 页 + 章节点图 %d 页"
+          % (n, 1 + len(FAMILIES), graphs))
 
 
 CSS = """
@@ -321,22 +438,71 @@ blockquote p{margin:2px 0}
 .foot{max-width:960px;margin:0 auto;padding:18px 24px 40px;font-size:12px;color:var(--ink2);
   border-top:1px solid var(--rule)}
 mark{background:#FFF1C9;color:inherit}
+.chapsel{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;margin:14px 0 6px}
+.chapsel a{padding:2px 8px;border:1px solid var(--rule);border-radius:3px}
+.chapsel a.on{border-color:var(--ink);font-weight:600}
+.anchors{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--ink2);margin:0 0 10px}
+.anchors a{border:0;padding:1px 6px;background:var(--grid);border-radius:3px}
+.map{overflow-x:auto;border:1px solid var(--rule);background:var(--card);border-radius:4px}
+.canvas{position:relative}
+.wires{position:absolute;left:0;top:0;pointer-events:none}
+.edge{fill:none;stroke:var(--rule);stroke-width:1.5}
+.edge.battle{stroke:var(--battle)}
+.edge.final,.edge.memory{stroke:var(--final)}
+.edge.between{stroke:var(--between)}
+.edge.locked{stroke:var(--locked)}
+.edge.dash{stroke-dasharray:5 4}
+.node{position:absolute;display:block;padding:8px 10px;background:var(--card);
+  border:1px solid var(--rule);border-left-width:3px;border-radius:4px;overflow:hidden}
+.node:hover{border-color:var(--ink)}
+.node.story{border-left-color:var(--story)}
+.node.battle{border-left-color:var(--battle)}
+.node.between{border-left-color:var(--between)}
+.node.final,.node.memory{border-left-color:var(--final)}
+.node.locked{border-left-color:var(--locked);border-style:dashed;color:var(--ink2)}
+.node .code{display:block;font-family:var(--serif);font-size:17px;font-weight:600;line-height:1.25}
+.node .t{display:block;font-size:13px;line-height:1.4;white-space:nowrap;overflow:hidden;
+  text-overflow:ellipsis}
+.node .chip{display:block;font-size:11px;color:var(--ink2);letter-spacing:.02em}
+.node .state{position:absolute;right:8px;bottom:6px;font-size:10px;color:var(--ink2)}
+.linelist .code{display:inline-block;min-width:3.5em;font-family:var(--serif);font-weight:600}
+.linelist .t{margin-right:10px}
+.linelist .s{font-size:12px;color:var(--ink2)}
+@media (max-width:900px){
+  .map{overflow:visible;border:0}
+  .canvas{width:auto!important;height:auto!important}
+  .wires{display:none}
+  .node{position:static;width:auto!important;height:auto!important;margin:0 0 8px}
+  .node .state{position:static;display:block}
+}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 @media (max-width:760px){.wrap{padding:16px 14px 48px}.top{padding:12px 14px}.line{line-height:1.95}}
 """
 
 JS = """
 (function(){
-  var box=document.querySelector('.searchbox input'); if(!box) return;
-  var scope=box.getAttribute('data-scope');
-  var groups=[].slice.call(document.querySelectorAll('.grp, .chaplist li, .tiles li'));
-  box.addEventListener('input',function(){
-    var q=box.value.trim().toLowerCase();
-    groups.forEach(function(g){
-      var hit=!q||g.textContent.toLowerCase().indexOf(q)>=0;
-      g.style.display=hit?'':'none';
+  var box=document.querySelector('.searchbox input');
+  if(box){
+    var groups=[].slice.call(document.querySelectorAll('.grp, .chaplist li, .tiles li'));
+    box.addEventListener('input',function(){
+      var q=box.value.trim().toLowerCase();
+      groups.forEach(function(g){
+        g.style.display=(!q||g.textContent.toLowerCase().indexOf(q)>=0)?'':'none';
+      });
+    });
+  }
+  var map=document.querySelector('.map');
+  [].slice.call(document.querySelectorAll('[data-scroll-to]')).forEach(function(a){
+    a.addEventListener('click',function(e){
+      if(!map||window.innerWidth<=900)return;
+      e.preventDefault();
+      map.scrollTo({left:parseInt(a.getAttribute('data-scroll-to'),10)-40,behavior:'smooth'});
     });
   });
+  if(map){
+    var first=document.querySelector('.node');
+    if(first)map.scrollLeft=0;
+  }
 })();
 """
 
