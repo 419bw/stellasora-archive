@@ -7,7 +7,7 @@
 | `STm_*` | 165 | 165 | 0 | Story.AvgLuaName | 含序章 STm00_*，已渲染进 prologue/ |
 | `CG_*` | 152 | 152 | 0 | Plot / NPCAffinityPlot / DiscIP |  |
 | `STev_*` | 105 | 105 | 0 | ActivityStory.AvgLuaName |  |
-| `PM_*` | 63 | 0 | 63 | Chat.AVGId | 手机聊天全篇，待决 |
+| `PM_*` | 63 | 0 | 63 | Chat.AVGId | 心链聊天全篇（`UIText.MainView_Phone` / `OpenFunc.Phone`），外部已有收录，不做 |
 | `STsp_*` | 56 | 56 | 0 | StorySetSection.AVGId |  |
 | `BBm_*` | 29 | 29 | 0 | 无表引用，客户端按「章号+关卡编号」拼名 | 战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战） |
 | `DP_*` | 17 | 0 | 17 | AgentSpecialPerformance.Avg | 委托玩法结算短演出，待决 |

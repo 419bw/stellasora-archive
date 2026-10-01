@@ -854,7 +854,7 @@ def write_coverage():
            'CG': 'Plot / NPCAffinityPlot / DiscIP', 'STsp': 'StorySetSection.AVGId',
            'BBm': '无表引用，客户端按「章号+关卡编号」拼名',
            'PM': 'Chat.AVGId', 'DP': 'AgentSpecialPerformance.Avg', 'GD': '无表引用'}
-    note = {'PM': '手机聊天全篇，待决',
+    note = {'PM': '心链聊天全篇（`UIText.MainView_Phone` / `OpenFunc.Phone`），外部已有收录，不做',
             'DP': '委托玩法结算短演出，待决',
             'GD': '抽卡演出小段（4 句），表不引用，待决',
             'BBm': '战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战）',
