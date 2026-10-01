@@ -276,6 +276,7 @@ def chapter_graph_page(c):
         paths.append('<path class="edge %s%s" d="M%d %d C%d %d,%d %d,%d %d"/>'
                      % (cls, dash, x1, y1, mx, y1, mx, y2, x2, y2))
     cards = []
+    seen_col = set()
     for n in sorted(c['nodes'], key=lambda x: (x['col'], x['lane'])):
         style = 'left:%dpx;top:%dpx;width:%dpx;height:%dpx' % (
             n['x'] + pad, n['y'] + pad, g['card'][0], g['card'][1])
@@ -283,11 +284,19 @@ def chapter_graph_page(c):
         chip = '<span class="chip">%s</span>' % esc('%s %s' % (t['date'], t['clock'])) if t else ''
         inner = ('<span class="code">%s</span><span class="t">%s</span>%s'
                  % (esc(n['code'] or '·'), esc(n['title']), chip))
-        tag = 'a href="%s"' % rel(d, n['page']) if n['page'] else 'div'
-        cards.append('<%s class="node %s" style="%s" data-col="%d">%s'
-                     '<span class="state">%s</span></%s>'
-                     % (tag.split()[0], node_state_class(n), style, n['col'], inner,
-                        esc(node_state_label(n)), tag.split()[-1] if tag == 'div' else 'a'))
+        # the first card of each column is the anchor the jump bar points at
+        cid = '' if n['col'] in seen_col else ' id="col%d"' % n['col']
+        seen_col.add(n['col'])
+        if n['page']:
+            cards.append('<a%s class="node %s" style="%s" data-col="%d" href="%s">%s'
+                         '<span class="state">%s ›</span></a>'
+                         % (cid, node_state_class(n), style, n['col'], rel(d, n['page']), inner,
+                            esc(node_state_label(n))))
+        else:
+            cards.append('<div%s class="node %s" style="%s" data-col="%d">%s'
+                         '<span class="state">%s</span></div>'
+                         % (cid, node_state_class(n), style, n['col'], inner,
+                            esc(node_state_label(n))))
     anchors = ''.join('<a href="#col%d" data-scroll-to="%d">%s</a>'
                       % (col, col * g['step_x'] + pad,
                          esc(min((n['code'] or '·') for n in c['nodes'] if n['col'] == col)))
@@ -301,7 +310,7 @@ def chapter_graph_page(c):
 <p class="lede">%s　节点 %d　已开放 %d　战斗 %d%s</p>
 <nav class="chapsel">%s</nav>
 <nav class="anchors">%s</nav>
-<div class="map" style="width:%dpx;height:%dpx">
+<div class="map">
 <div class="canvas" style="width:%dpx;height:%dpx">
 <svg class="wires" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>
 %s
@@ -314,7 +323,7 @@ def chapter_graph_page(c):
        sum(1 for n in c['nodes'] if n['state'] == 'released'),
        sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
        '　未开放 %d' % unreleased if unreleased else '',
-       switch, anchors, g['width'] + pad * 2, g['height'] + pad * 2,
+       switch, anchors,
        g['width'] + pad * 2, g['height'] + pad * 2,
        g['width'] + pad * 2, g['height'] + pad * 2,
        g['width'] + pad * 2, g['height'] + pad * 2, ''.join(paths), ''.join(cards)),
@@ -393,11 +402,12 @@ h3{font-family:var(--serif);font-size:17px;margin:26px 0 8px;font-weight:600}
 blockquote{margin:14px 0;padding:10px 16px;background:var(--card);
   border-left:3px solid var(--rule);border-radius:0 4px 4px 0}
 blockquote p{margin:2px 0}
-.line{margin:6px 0;line-height:2.1;max-width:68ch}
-.who{font-family:var(--serif);font-weight:600;margin-right:6px}
+.line{margin:6px 0;line-height:2.1;max-width:68ch;display:grid;
+  grid-template-columns:max-content 1fr;column-gap:6px}
+.who{font-family:var(--serif);font-weight:600}
 .who::after{content:"："}
 .tag{font-style:normal;font-size:12px;color:var(--ink2);border:1px solid var(--rule);
-  border-radius:3px;padding:0 4px;margin-right:6px}
+  border-radius:3px;padding:0 4px;margin-left:6px;vertical-align:2px}
 .thought .say,.thought .who{color:var(--ink2)}
 .thought .say{font-style:normal}
 .bubble .who,.chat .who{color:var(--story)}
@@ -451,7 +461,8 @@ mark{background:#FFF1C9;color:inherit}
 .chapsel a.on{border-color:var(--ink);font-weight:600}
 .anchors{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--ink2);margin:0 0 10px}
 .anchors a{border:0;padding:1px 6px;background:var(--grid);border-radius:3px}
-.map{overflow-x:auto;border:1px solid var(--rule);background:var(--card);border-radius:4px}
+.map{overflow-x:auto;overflow-y:hidden;border:1px solid var(--rule);background:var(--card);
+  border-radius:4px;scrollbar-color:var(--rule) transparent}
 .canvas{position:relative}
 .wires{position:absolute;left:0;top:0;pointer-events:none}
 .edge{fill:none;stroke:var(--rule);stroke-width:1.5}

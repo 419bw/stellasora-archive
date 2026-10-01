@@ -9,12 +9,13 @@ G  图数据  : chapters.json 的每个节点字段 == 独立重导，且图不�
 G2 侧车一致: sections.json 的页面集合 == 磁盘上的 md 集合，stems/计数与剧本原文对得上
 G3 变异测试: 篡改 JSON 后必须被同一套断言抓到
 """
-import sys, os, re, json, collections, functools
+import sys, os, re, json, shutil, collections, functools
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, 'story_docs', '_data')
 OUT = os.path.join(ROOT, 'story_docs')
+SITE = os.path.join(ROOT, 'site')
 BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
 LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
 CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Config')
@@ -332,12 +333,81 @@ c8['geometry']['edges'] = [e for e in c8['geometry']['edges'] if e[1] != 'STm07_
 print('植入[删掉进汇合点的边]: %s' % ('CAUGHT' if audit_geometry(k['chapters']) else 'MISSED'))
 
 
+# ---- H3 图页面渲染出来的落点：锚点、卡片可点性、链接是否指向真实文件
+CARD = re.compile(r'<(a|div)( id="col\d+")? class="node [^"]*" style="[^"]*"'
+                  r' data-col="(\d+)"(?: href="([^"]*)")?>')
+ANCH = re.compile(r'<a href="#(col\d+)" data-scroll-to="\d+">')
+
+
+def audit_graph_page(c, site):
+    g = c['geometry']
+    if g is None:
+        return []            # 特别篇官方无连线，渲染成有序列表，不参与落点断言
+    rel = ['main', 'ch%s' % (c['no'] or 'sp'), 'index.html']
+    path = os.path.join(site, *rel)
+    if not os.path.isfile(path):
+        return [(c['id'], '图页面缺失', path)]
+    html = open(path, encoding='utf-8').read()
+    errs = []
+    cards = CARD.findall(html)
+    if len(cards) != len(c['nodes']):
+        errs.append((c['id'], '卡片数与节点数不等', len(cards), len(c['nodes'])))
+    want_link = sum(1 for n in c['nodes'] if n['page'])
+    got_link = sum(1 for t, _i, _c, h in cards if t == 'a')
+    if want_link != got_link:
+        errs.append((c['id'], '可点卡片数 != 有剧本的节点数', want_link, got_link))
+    for tag, cid, col, href in cards:
+        if cid and int(cid.split('"')[1][3:]) != int(col):
+            errs.append((c['id'], '锚点 id 挂在了别的列上', cid, col))
+        if tag == 'a':
+            target = os.path.normpath(os.path.join(os.path.dirname(path), href))
+            if not os.path.isfile(target):
+                errs.append((c['id'], '卡片链接指向空处', href))
+        if tag == 'div' and href:
+            errs.append((c['id'], '未开放节点却带链接', col))
+    ids = [cid.split('"')[1] for _t, cid, _c, _h in cards if cid]
+    if sorted(ids) != sorted('col%d' % i for i in range(g['columns'])):
+        errs.append((c['id'], '每列首卡锚点不齐', len(ids), g['columns']))
+    jump = ANCH.findall(html)
+    if jump != ['col%d' % i for i in range(g['columns'])]:
+        errs.append((c['id'], '跳转条与列数不符', len(jump)))
+    for j in jump:
+        if j not in ids:
+            errs.append((c['id'], '跳转条指向不存在的落点', j))
+    return errs
+
+
+h3_errs = []
+for c in CH['chapters']:
+    h3_errs += audit_graph_page(c, SITE)
+print()
+print('H3  图页面落点：卡片可点数 / 锚点 id / 链接可达')
+print('违例：%d' % len(h3_errs))
+for x in h3_errs[:8]:
+    print('   ~', x)
+k = CLONE()
+first = next(c for c in k['chapters'] if c['geometry'])
+h3_page = os.path.join(SITE, 'main', 'ch%s' % (first['no'] or 'sp'), 'index.html')
+src = open(h3_page, encoding='utf-8').read()
+tmp = h3_page + '.bak'
+shutil.copyfile(h3_page, tmp)
+try:
+    open(h3_page, 'w', encoding='utf-8').write(src.replace(' id="col1"', '', 1))
+    print('植入[抹掉一个列锚点]: %s'
+          % ('CAUGHT' if audit_graph_page(first, SITE) else 'MISSED'))
+    open(h3_page, 'w', encoding='utf-8').write(src.replace('main/node/', 'main/gone/', 1))
+    print('植入[卡片链接指空]  : %s'
+          % ('CAUGHT' if audit_graph_page(first, SITE) else 'MISSED'))
+finally:
+    shutil.move(tmp, h3_page)
+print('还原后复检: %s' % ('PASS' if not audit_graph_page(first, SITE) else 'FAIL'))
+
+
 # ============================================================ I  HTML 与 md 不漂移
 print()
 print("=" * 66)
 print("I  生成的 HTML 逐句序列 == 已评审的 md 逐句序列（md 对剧本由 validate_story F 保证）")
 print("=" * 66)
-SITE = os.path.join(ROOT, 'site')
 MD_LINE = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$', re.M)
 HTML_LINE = re.compile(r'<p class="line[^"]*"><b class="who">.*?</b>(?:<i class="tag">.*?</i>)?'
                        r'<span class="say">「(.*?)」</span>')

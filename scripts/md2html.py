@@ -118,7 +118,8 @@ def convert(md):
             cls = 'line'
             if tag:
                 cls += ' thought' if tag == '思考' else (' chat' if tag == '短信' else ' bubble')
-            out.append('<p class="%s"><b class="who">%s</b>%s<span class="say">「%s」</span></p>'
+            # the channel tag lives inside the speaker cell so .line stays a two-column grid
+            out.append('<p class="%s"><b class="who">%s%s</b><span class="say">「%s」</span></p>'
                        % (cls, escape(who),
                           '<i class="tag">%s</i>' % escape(tag) if tag else '', escape(text)))
             stats['line'] += 1
