@@ -214,7 +214,9 @@ STATE_LABEL = {'battle': '战斗', 'story': '剧情'}
 
 def node_state_label(n):
     if n['state'] == 'unreleased':
-        return '未开放'
+        # a battle stage can be open in game and still have no script in the pack,
+        # so saying 未开放 for it would be wrong
+        return '无对白剧本' if n['kind'] == 'battle' else '未开放'
     if n['memory'] == 1:
         return '追忆'
     if n['memory'] == 2:
@@ -254,10 +256,11 @@ def chapter_graph_page(c):
     pad = 24
     if g is None:                       # 特别篇: the official table records no links at all
         items = ''.join(
-            '<li><a href="%s"><span class="code">%s</span><span class="t">%s</span>'
-            '<span class="s">%s</span></a></li>'
-            % (rel(d, n['page']) if n['page'] else '#', esc(n['code']), esc(n['title']),
-               esc(node_state_label(n)))
+            '<li>%s<span class="code">%s</span><span class="t">%s</span>'
+            '<span class="s">%s</span>%s</li>'
+            % ('<a href="%s">' % rel(d, n['page']) if n['page'] else '',
+               esc(n['code']), esc(n['title']),
+               esc(node_state_label(n)), '</a>' if n['page'] else '')
             for n in sorted(c['nodes'], key=lambda x: x['sid']))
         body = ('<h1>%s《%s》</h1><p class="lede">%s</p>'
                 '<p class="aside">官方表未记录此篇的关卡连线，因此这里按关卡编号顺序列出，'
@@ -318,11 +321,13 @@ def chapter_graph_page(c):
 </div>
 <p class="aside">连线取自官方 <code>Story.ParentStoryId</code>（该关卡的前置关卡），列序与轨道
 由本库按最长路径确定性算出并逐页校验；游戏里每条时间槽属于哪一列写在 UI 预制体里，解包表内没有，
-所以时间条按关卡自身剧本的场景头显示，不冒充官方的按列分组。</p>
+所以时间条按关卡自身剧本的场景头显示，不冒充官方的按列分组。
+「未开放」指该线路的剧本尚未进包；「无对白剧本」指关卡表列出了这场战斗、
+但包里找不到它的气泡剧本，战斗本身可能早就开放了。</p>
 """ % (esc(c['name']), esc(c['title']), esc(c['year']), len(c['nodes']),
        sum(1 for n in c['nodes'] if n['state'] == 'released'),
        sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
-       '　未开放 %d' % unreleased if unreleased else '',
+       '　包内无剧本 %d' % unreleased if unreleased else '',
        switch, anchors,
        g['width'] + pad * 2, g['height'] + pad * 2,
        g['width'] + pad * 2, g['height'] + pad * 2,

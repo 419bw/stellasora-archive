@@ -142,8 +142,29 @@ pages = SEC['pages']
 page_links = {p['page'] for p in pages}
 unrel = [n for n in nodes.values() if n['state'] == 'unreleased']
 orphan_page = [n['sid'] for n in nodes.values() if n['page'] and n['page'] not in page_links]
-print('未开放节点：%d（应 11，全在第 %s 章）   page 指向不存在的剧本页：%d'
-      % (len(unrel), sorted({n['sid'] // 100 for n in unrel}), len(orphan_page)))
+
+
+def script_in_pack(n):
+    """Does the pack actually hold the script this node would render? Existence only —
+    whether the *name* is the right one is contract K's job in validate_story.py."""
+    sid = str(n['story_id'])
+    if n['kind'] != 'battle':
+        return os.path.isfile(os.path.join(CFG, sid + '.lua'))
+    m = re.match(r'^BA([0-9a-zA-Z]+)_[^_]+$', sid)
+    if not m:
+        return False
+    cand = 'BB%s_%s' % (m.group(1), re.sub(r'[^A-Za-z0-9]', '', n['code'] or ''))
+    return os.path.isfile(os.path.join(CFG, cand + '.lua'))
+
+
+no_pack = {str(n['sid']) for n in nodes.values() if not script_in_pack(n)}
+wrong_page = [n['sid'] for n in nodes.values()
+              if bool(n['page']) == (str(n['sid']) in no_pack)]
+by_chap = collections.Counter(c['id'] for c in CH['chapters']
+                              for n in c['nodes'] if n['state'] != 'released')
+print('包内无剧本的节点：%d（按表章 %s）   page 指向不存在的剧本页：%d'
+      % (len(unrel), dict(by_chap), len(orphan_page)))
+print('page 与「包里是否真有剧本」不符的节点：%d（应 0）' % len(wrong_page))
 bad_state = [n['sid'] for n in nodes.values()
              if (n['page'] is not None) != (n['state'] == 'released')]
 print('state 与 page 不自洽的节点：%d' % len(bad_state))
@@ -341,14 +362,27 @@ ANCH = re.compile(r'<a href="#(col\d+)" data-scroll-to="\d+">')
 
 def audit_graph_page(c, site):
     g = c['geometry']
-    if g is None:
-        return []            # 特别篇官方无连线，渲染成有序列表，不参与落点断言
     rel = ['main', 'ch%s' % (c['no'] or 'sp'), 'index.html']
     path = os.path.join(site, *rel)
     if not os.path.isfile(path):
         return [(c['id'], '图页面缺失', path)]
     html = open(path, encoding='utf-8').read()
     errs = []
+    if g is None:
+        # 特别篇官方无连线，渲染成有序列表，但"有剧本才可点"这条规则一样要成立
+        items = re.findall(r'<li>(<a href="([^"]*)">)?<span class="code">', html)
+        if len(items) != len(c['nodes']):
+            errs.append((c['id'], '列表条目数与节点数不等', len(items), len(c['nodes'])))
+        want = sum(1 for n in c['nodes'] if n['page'])
+        got = sum(1 for a, _h in items if a)
+        if want != got:
+            errs.append((c['id'], '可点条目数 != 有剧本的节点数', want, got))
+        for a, href in items:
+            if a and not os.path.isfile(os.path.normpath(os.path.join(os.path.dirname(path), href))):
+                errs.append((c['id'], '列表链接指向空处', href))
+        if 'href="#"' in html:
+            errs.append((c['id'], '无剧本的关卡仍给了占位链接'))
+        return errs
     cards = CARD.findall(html)
     if len(cards) != len(c['nodes']):
         errs.append((c['id'], '卡片数与节点数不等', len(cards), len(c['nodes'])))
@@ -401,6 +435,18 @@ try:
 finally:
     shutil.move(tmp, h3_page)
 print('还原后复检: %s' % ('PASS' if not audit_graph_page(first, SITE) else 'FAIL'))
+sp_c = next(c for c in CH['chapters'] if c['geometry'] is None)
+sp_page = os.path.join(SITE, 'main', 'chsp', 'index.html')
+sp_src = open(sp_page, encoding='utf-8').read()
+shutil.copyfile(sp_page, sp_page + '.bak')
+try:
+    open(sp_page, 'w', encoding='utf-8').write(sp_src.replace('<li><span class="code">BT01',
+                                                              '<li><a href="#"><span class="code">BT01', 1))
+    print('植入[无剧本关卡给占位链接]: %s'
+          % ('CAUGHT' if audit_graph_page(sp_c, SITE) else 'MISSED'))
+finally:
+    shutil.move(sp_page + '.bak', sp_page)
+print('还原后复检(特别篇): %s' % ('PASS' if not audit_graph_page(sp_c, SITE) else 'FAIL'))
 
 
 # ============================================================ I  HTML 与 md 不漂移
