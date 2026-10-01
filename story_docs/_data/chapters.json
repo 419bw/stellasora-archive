@@ -31,6 +31,74 @@
     "10": "花月 雏菊日 08:30",
     "11": "雨月 糖果日 09:00"
    },
+   "geometry": {
+    "columns": 11,
+    "width": 2848,
+    "height": 408,
+    "roots": [
+     "STm01_01"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm01_01",
+      "STm01_02"
+     ],
+     [
+      "STm01_02",
+      "STm01_03"
+     ],
+     [
+      "STm01_03",
+      "STm01_04"
+     ],
+     [
+      "STm01_04",
+      "STm01_05"
+     ],
+     [
+      "STm01_05",
+      "BAm01_05"
+     ],
+     [
+      "BAm01_05",
+      "STm01_06"
+     ],
+     [
+      "STm01_06",
+      "STm01_07"
+     ],
+     [
+      "STm01_07",
+      "STm01_08_a"
+     ],
+     [
+      "STm01_07",
+      "STm01_08_c"
+     ],
+     [
+      "STm01_07",
+      "STm01_08_b"
+     ],
+     [
+      "STm01_08_a",
+      "STm01_09"
+     ],
+     [
+      "STm01_08_c",
+      "STm01_09"
+     ],
+     [
+      "STm01_09",
+      "STm01_10"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 100,
@@ -54,7 +122,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm01_05.html"
+     "page": "main/node/BAm01_05.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 101,
@@ -76,7 +148,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm01_01.html"
+     "page": "main/node/STm01_01.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 102,
@@ -100,7 +176,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm01_02.html"
+     "page": "main/node/STm01_02.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 103,
@@ -127,7 +207,11 @@
       "clock": "10:00",
       "date": "花月 26日"
      },
-     "page": "main/node/STm01_03.html"
+     "page": "main/node/STm01_03.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 104,
@@ -154,7 +238,11 @@
       "clock": "11:25",
       "date": "花月 26日"
      },
-     "page": "main/node/STm01_04.html"
+     "page": "main/node/STm01_04.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 105,
@@ -181,7 +269,11 @@
       "clock": "15:00",
       "date": "花月 26日"
      },
-     "page": "main/node/STm01_05.html"
+     "page": "main/node/STm01_05.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 106,
@@ -208,7 +300,11 @@
       "clock": "17:20",
       "date": "花月 26日"
      },
-     "page": "main/node/STm01_06.html"
+     "page": "main/node/STm01_06.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 107,
@@ -235,7 +331,11 @@
       "clock": "12:00",
       "date": "花月 27日"
      },
-     "page": "main/node/STm01_07.html"
+     "page": "main/node/STm01_07.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 108,
@@ -262,7 +362,11 @@
       "clock": "17:45",
       "date": "花月 27日"
      },
-     "page": "main/node/STm01_08_a.html"
+     "page": "main/node/STm01_08_a.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 109,
@@ -289,7 +393,11 @@
       "clock": "18:30",
       "date": "花月 27日"
      },
-     "page": "main/node/STm01_08_c.html"
+     "page": "main/node/STm01_08_c.html",
+     "col": 8,
+     "lane": -1,
+     "x": 2112,
+     "y": 0
     },
     {
      "sid": 110,
@@ -316,7 +424,11 @@
       "clock": "21:00",
       "date": "花月 27日"
      },
-     "page": "main/node/STm01_08_b.html"
+     "page": "main/node/STm01_08_b.html",
+     "col": 8,
+     "lane": 1,
+     "x": 2112,
+     "y": 272
     },
     {
      "sid": 111,
@@ -344,7 +456,11 @@
       "clock": "08:30",
       "date": "花月 28日"
      },
-     "page": "main/node/STm01_09.html"
+     "page": "main/node/STm01_09.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 112,
@@ -371,7 +487,11 @@
       "clock": "09:00",
       "date": "雨月 1日"
      },
-     "page": "main/node/STm01_10.html"
+     "page": "main/node/STm01_10.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     }
    ]
   },
@@ -404,6 +524,90 @@
     "13": "雨月 兜帽日 16:10",
     "14": "雨月 绣球日 09:00"
    },
+   "geometry": {
+    "columns": 14,
+    "width": 3640,
+    "height": 408,
+    "roots": [
+     "STm02_01"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm02_01",
+      "STm02_02_a"
+     ],
+     [
+      "STm02_01",
+      "STm02_02_b"
+     ],
+     [
+      "STm02_01",
+      "STm02_02_c"
+     ],
+     [
+      "STm02_02_a",
+      "STm02_03_a"
+     ],
+     [
+      "STm02_02_b",
+      "STm02_03_b"
+     ],
+     [
+      "STm02_03_a",
+      "BAm02_03"
+     ],
+     [
+      "STm02_03_b",
+      "BAm02_03"
+     ],
+     [
+      "BAm02_03",
+      "STm02_04"
+     ],
+     [
+      "STm02_04",
+      "STm02_05"
+     ],
+     [
+      "STm02_05",
+      "STm02_06"
+     ],
+     [
+      "STm02_06",
+      "STm02_07"
+     ],
+     [
+      "STm02_07",
+      "STm02_08"
+     ],
+     [
+      "STm02_08",
+      "STm02_09"
+     ],
+     [
+      "STm02_09",
+      "BAm02_09"
+     ],
+     [
+      "BAm02_09",
+      "STm02_10"
+     ],
+     [
+      "STm02_10",
+      "BAm02_10"
+     ],
+     [
+      "BAm02_10",
+      "STm02_11"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 201,
@@ -428,7 +632,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm02_03.html"
+     "page": "main/node/BAm02_03.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 202,
@@ -452,7 +660,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm02_09.html"
+     "page": "main/node/BAm02_09.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     },
     {
      "sid": 203,
@@ -476,7 +688,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm02_10.html"
+     "page": "main/node/BAm02_10.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 136
     },
     {
      "sid": 204,
@@ -501,7 +717,11 @@
       "clock": "15:25",
       "date": "雨月 1日"
      },
-     "page": "main/node/STm02_01.html"
+     "page": "main/node/STm02_01.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 205,
@@ -528,7 +748,11 @@
       "clock": "23:30",
       "date": "雨月 1日"
      },
-     "page": "main/node/STm02_02_a.html"
+     "page": "main/node/STm02_02_a.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 206,
@@ -555,7 +779,11 @@
       "clock": "15:43",
       "date": "雨月 1日"
      },
-     "page": "main/node/STm02_02_b.html"
+     "page": "main/node/STm02_02_b.html",
+     "col": 1,
+     "lane": -1,
+     "x": 264,
+     "y": 0
     },
     {
      "sid": 207,
@@ -582,7 +810,11 @@
       "clock": "16:30",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_02_c.html"
+     "page": "main/node/STm02_02_c.html",
+     "col": 1,
+     "lane": 1,
+     "x": 264,
+     "y": 272
     },
     {
      "sid": 208,
@@ -609,7 +841,11 @@
       "clock": "03:13",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_03_a.html"
+     "page": "main/node/STm02_03_a.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 209,
@@ -636,7 +872,11 @@
       "clock": "18:00",
       "date": "雨月 1日"
      },
-     "page": "main/node/STm02_03_b.html"
+     "page": "main/node/STm02_03_b.html",
+     "col": 2,
+     "lane": -1,
+     "x": 528,
+     "y": 0
     },
     {
      "sid": 210,
@@ -663,7 +903,11 @@
       "clock": "07:15",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_04.html"
+     "page": "main/node/STm02_04.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 211,
@@ -690,7 +934,11 @@
       "clock": "08:30",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_05.html"
+     "page": "main/node/STm02_05.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 212,
@@ -717,7 +965,11 @@
       "clock": "10:10",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_06.html"
+     "page": "main/node/STm02_06.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 213,
@@ -744,7 +996,11 @@
       "clock": "11:05",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_07.html"
+     "page": "main/node/STm02_07.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 214,
@@ -771,7 +1027,11 @@
       "clock": "12:30",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_08.html"
+     "page": "main/node/STm02_08.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 215,
@@ -798,7 +1058,11 @@
       "clock": "13:00",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_09.html"
+     "page": "main/node/STm02_09.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 216,
@@ -825,7 +1089,11 @@
       "clock": "15:20",
       "date": "雨月 2日"
      },
-     "page": "main/node/STm02_10.html"
+     "page": "main/node/STm02_10.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 136
     },
     {
      "sid": 217,
@@ -852,7 +1120,11 @@
       "clock": "09:00",
       "date": "雨月 9日"
      },
-     "page": "main/node/STm02_11.html"
+     "page": "main/node/STm02_11.html",
+     "col": 13,
+     "lane": 0,
+     "x": 3432,
+     "y": 136
     }
    ]
   },
@@ -886,6 +1158,90 @@
     "14": "雨月 初晴日 15:00",
     "15": "雨月 初晴日 16:15"
    },
+   "geometry": {
+    "columns": 15,
+    "width": 3904,
+    "height": 408,
+    "roots": [
+     "STm03_00_a"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm03_00_a",
+      "STm03_00_b"
+     ],
+     [
+      "STm03_00_b",
+      "STm03_01"
+     ],
+     [
+      "STm03_01",
+      "STm03_02"
+     ],
+     [
+      "STm03_02",
+      "STm03_03"
+     ],
+     [
+      "STm03_03",
+      "STm03_04"
+     ],
+     [
+      "STm03_04",
+      "BAm03_04"
+     ],
+     [
+      "BAm03_04",
+      "STm03_05"
+     ],
+     [
+      "STm03_05",
+      "STm03_06_a"
+     ],
+     [
+      "STm03_05",
+      "STm03_06_b"
+     ],
+     [
+      "STm03_05",
+      "STm03_06_c"
+     ],
+     [
+      "STm03_06_a",
+      "STm03_07"
+     ],
+     [
+      "STm03_06_b",
+      "STm03_07"
+     ],
+     [
+      "STm03_07",
+      "STm03_08"
+     ],
+     [
+      "STm03_08",
+      "STm03_09"
+     ],
+     [
+      "STm03_09",
+      "BAm03_09"
+     ],
+     [
+      "BAm03_09",
+      "STm03_10"
+     ],
+     [
+      "STm03_10",
+      "STm03_11"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 301,
@@ -909,7 +1265,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm03_04.html"
+     "page": "main/node/BAm03_04.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 302,
@@ -933,7 +1293,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm03_09.html"
+     "page": "main/node/BAm03_09.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 136
     },
     {
      "sid": 304,
@@ -958,7 +1322,11 @@
       "clock": "13:00",
       "date": "雨月 9日"
      },
-     "page": "main/node/STm03_00_a.html"
+     "page": "main/node/STm03_00_a.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 305,
@@ -985,7 +1353,11 @@
       "clock": "13:20",
       "date": "雨月 9日"
      },
-     "page": "main/node/STm03_00_b.html"
+     "page": "main/node/STm03_00_b.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 306,
@@ -1012,7 +1384,11 @@
       "clock": "07:30",
       "date": "雨月 16日"
      },
-     "page": "main/node/STm03_01.html"
+     "page": "main/node/STm03_01.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 307,
@@ -1039,7 +1415,11 @@
       "clock": "09:00",
       "date": "雨月 16日"
      },
-     "page": "main/node/STm03_02.html"
+     "page": "main/node/STm03_02.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 308,
@@ -1066,7 +1446,11 @@
       "clock": "19:00",
       "date": "雨月 16日"
      },
-     "page": "main/node/STm03_03.html"
+     "page": "main/node/STm03_03.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 309,
@@ -1093,7 +1477,11 @@
       "clock": "11:00",
       "date": "清月 06日"
      },
-     "page": "main/node/STm03_04.html"
+     "page": "main/node/STm03_04.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 310,
@@ -1120,7 +1508,11 @@
       "clock": "10:30",
       "date": "雨月 17日"
      },
-     "page": "main/node/STm03_05.html"
+     "page": "main/node/STm03_05.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 311,
@@ -1147,7 +1539,11 @@
       "clock": "20:00",
       "date": "雨月 17日"
      },
-     "page": "main/node/STm03_06_a.html"
+     "page": "main/node/STm03_06_a.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 312,
@@ -1174,7 +1570,11 @@
       "clock": "07:20",
       "date": "雨月 18日"
      },
-     "page": "main/node/STm03_06_b.html"
+     "page": "main/node/STm03_06_b.html",
+     "col": 8,
+     "lane": -1,
+     "x": 2112,
+     "y": 0
     },
     {
      "sid": 313,
@@ -1201,7 +1601,11 @@
       "clock": "08:30",
       "date": "雨月 18日"
      },
-     "page": "main/node/STm03_06_c.html"
+     "page": "main/node/STm03_06_c.html",
+     "col": 8,
+     "lane": 1,
+     "x": 2112,
+     "y": 272
     },
     {
      "sid": 314,
@@ -1229,7 +1633,11 @@
       "clock": "18:00",
       "date": "雨月 24日"
      },
-     "page": "main/node/STm03_07.html"
+     "page": "main/node/STm03_07.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 315,
@@ -1256,7 +1664,11 @@
       "clock": "23:00",
       "date": "雨月 24日"
      },
-     "page": "main/node/STm03_08.html"
+     "page": "main/node/STm03_08.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     },
     {
      "sid": 316,
@@ -1283,7 +1695,11 @@
       "clock": "12:30",
       "date": "雨月 27日"
      },
-     "page": "main/node/STm03_09.html"
+     "page": "main/node/STm03_09.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 136
     },
     {
      "sid": 317,
@@ -1310,7 +1726,11 @@
       "clock": "15:00",
       "date": "雨月 27日"
      },
-     "page": "main/node/STm03_10.html"
+     "page": "main/node/STm03_10.html",
+     "col": 13,
+     "lane": 0,
+     "x": 3432,
+     "y": 136
     },
     {
      "sid": 318,
@@ -1337,7 +1757,11 @@
       "clock": "16:15",
       "date": "雨月 27日"
      },
-     "page": "main/node/STm03_11.html"
+     "page": "main/node/STm03_11.html",
+     "col": 14,
+     "lane": 0,
+     "x": 3696,
+     "y": 136
     }
    ]
   },
@@ -1369,6 +1793,106 @@
     "12": "雷月 浆果椒日 18:00",
     "13": "雷月 蜗牛日 10:00"
    },
+   "geometry": {
+    "columns": 13,
+    "width": 3376,
+    "height": 408,
+    "roots": [
+     "STm04_01"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm04_01",
+      "STm04_02"
+     ],
+     [
+      "STm04_02",
+      "STm04_03_a"
+     ],
+     [
+      "STm04_02",
+      "STm04_03_b"
+     ],
+     [
+      "STm04_02",
+      "STm04_03_c"
+     ],
+     [
+      "STm04_03_b",
+      "STm04_04_a"
+     ],
+     [
+      "STm04_03_c",
+      "STm04_04_a"
+     ],
+     [
+      "STm04_03_b",
+      "STm04_04_b"
+     ],
+     [
+      "STm04_03_c",
+      "STm04_04_b"
+     ],
+     [
+      "STm04_03_b",
+      "STm04_04_c"
+     ],
+     [
+      "STm04_03_c",
+      "STm04_04_c"
+     ],
+     [
+      "STm04_04_a",
+      "BAm04_04"
+     ],
+     [
+      "STm04_04_b",
+      "BAm04_04"
+     ],
+     [
+      "STm04_04_c",
+      "BAm04_04"
+     ],
+     [
+      "BAm04_04",
+      "STm04_05"
+     ],
+     [
+      "STm04_05",
+      "STm04_06"
+     ],
+     [
+      "STm04_06",
+      "STm04_07"
+     ],
+     [
+      "STm04_07",
+      "STm04_08"
+     ],
+     [
+      "STm04_08",
+      "STm04_09"
+     ],
+     [
+      "STm04_09",
+      "BAm04_09"
+     ],
+     [
+      "BAm04_09",
+      "STm04_10"
+     ],
+     [
+      "STm04_10",
+      "STm04_11"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 401,
@@ -1394,7 +1918,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm04_04.html"
+     "page": "main/node/BAm04_04.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 402,
@@ -1418,7 +1946,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm04_09.html"
+     "page": "main/node/BAm04_09.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     },
     {
      "sid": 403,
@@ -1443,7 +1975,11 @@
       "clock": "17:18",
       "date": "雨月 27日"
      },
-     "page": "main/node/STm04_01.html"
+     "page": "main/node/STm04_01.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 404,
@@ -1470,7 +2006,11 @@
       "clock": "11:10",
       "date": "清月 06日"
      },
-     "page": "main/node/STm04_02.html"
+     "page": "main/node/STm04_02.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 405,
@@ -1497,7 +2037,11 @@
       "clock": "09:00",
       "date": "雨月 28日"
      },
-     "page": "main/node/STm04_03_a.html"
+     "page": "main/node/STm04_03_a.html",
+     "col": 2,
+     "lane": 1,
+     "x": 528,
+     "y": 272
     },
     {
      "sid": 406,
@@ -1524,7 +2068,11 @@
       "clock": "19:00",
       "date": "雨月 27日"
      },
-     "page": "main/node/STm04_03_b.html"
+     "page": "main/node/STm04_03_b.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 407,
@@ -1551,7 +2099,11 @@
       "clock": "19:00",
       "date": "雨月 27日"
      },
-     "page": "main/node/STm04_03_c.html"
+     "page": "main/node/STm04_03_c.html",
+     "col": 2,
+     "lane": -1,
+     "x": 528,
+     "y": 0
     },
     {
      "sid": 408,
@@ -1579,7 +2131,11 @@
       "clock": "07:45",
       "date": "雨月 28日"
      },
-     "page": "main/node/STm04_04_a.html"
+     "page": "main/node/STm04_04_a.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 409,
@@ -1607,7 +2163,11 @@
       "clock": "07:45",
       "date": "雨月 28日"
      },
-     "page": "main/node/STm04_04_b.html"
+     "page": "main/node/STm04_04_b.html",
+     "col": 3,
+     "lane": -1,
+     "x": 792,
+     "y": 0
     },
     {
      "sid": 410,
@@ -1635,7 +2195,11 @@
       "clock": "07:45",
       "date": "雨月 28日"
      },
-     "page": "main/node/STm04_04_c.html"
+     "page": "main/node/STm04_04_c.html",
+     "col": 3,
+     "lane": 1,
+     "x": 792,
+     "y": 272
     },
     {
      "sid": 411,
@@ -1662,7 +2226,11 @@
       "clock": "12:00",
       "date": "雨月 28日"
      },
-     "page": "main/node/STm04_05.html"
+     "page": "main/node/STm04_05.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 412,
@@ -1689,7 +2257,11 @@
       "clock": "17:00",
       "date": "雨月 28日"
      },
-     "page": "main/node/STm04_06.html"
+     "page": "main/node/STm04_06.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 413,
@@ -1716,7 +2288,11 @@
       "clock": "10:00",
       "date": "雷月 3日"
      },
-     "page": "main/node/STm04_07.html"
+     "page": "main/node/STm04_07.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 414,
@@ -1743,7 +2319,11 @@
       "clock": "13:00",
       "date": "雷月 3日"
      },
-     "page": "main/node/STm04_08.html"
+     "page": "main/node/STm04_08.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 415,
@@ -1770,7 +2350,11 @@
       "clock": "09:00",
       "date": "?月 ?日"
      },
-     "page": "main/node/STm04_09.html"
+     "page": "main/node/STm04_09.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 416,
@@ -1797,7 +2381,11 @@
       "clock": "18:00",
       "date": "雷月 6日"
      },
-     "page": "main/node/STm04_10.html"
+     "page": "main/node/STm04_10.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 136
     },
     {
      "sid": 417,
@@ -1824,7 +2412,11 @@
       "clock": "10:00",
       "date": "雷月 14日"
      },
-     "page": "main/node/STm04_11.html"
+     "page": "main/node/STm04_11.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 136
     }
    ]
   },
@@ -1858,6 +2450,94 @@
     "14": "谷月 葡萄日 23:10",
     "15": "谷月 葡萄日 23:40"
    },
+   "geometry": {
+    "columns": 15,
+    "width": 3904,
+    "height": 408,
+    "roots": [
+     "STm05_00"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm05_00",
+      "STm05_01"
+     ],
+     [
+      "STm05_01",
+      "STm05_02"
+     ],
+     [
+      "STm05_02",
+      "STm05_03_a"
+     ],
+     [
+      "STm05_02",
+      "STm05_03_b"
+     ],
+     [
+      "STm05_02",
+      "STm05_03_c"
+     ],
+     [
+      "STm05_03_c",
+      "STm05_04"
+     ],
+     [
+      "STm05_04",
+      "STm05_05"
+     ],
+     [
+      "STm05_05",
+      "BAm05_05"
+     ],
+     [
+      "BAm05_05",
+      "STm05_06"
+     ],
+     [
+      "STm05_06",
+      "STm05_07"
+     ],
+     [
+      "STm05_07",
+      "BAm05_08"
+     ],
+     [
+      "BAm05_08",
+      "STm05_08"
+     ],
+     [
+      "STm05_08",
+      "STm05_09_a"
+     ],
+     [
+      "STm05_08",
+      "STm05_09_b"
+     ],
+     [
+      "STm05_09_b",
+      "BAm05_10"
+     ],
+     [
+      "STm05_08",
+      "STm05_09_c"
+     ],
+     [
+      "BAm05_10",
+      "STm05_10"
+     ],
+     [
+      "STm05_10",
+      "STm05_11"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 501,
@@ -1881,7 +2561,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm05_05.html"
+     "page": "main/node/BAm05_05.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 502,
@@ -1905,7 +2589,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm05_08.html"
+     "page": "main/node/BAm05_08.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 503,
@@ -1929,7 +2617,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm05_10.html"
+     "page": "main/node/BAm05_10.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 136
     },
     {
      "sid": 504,
@@ -1954,7 +2646,11 @@
       "clock": "15:00",
       "date": "雷月 21日"
      },
-     "page": "main/node/STm05_00.html"
+     "page": "main/node/STm05_00.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 505,
@@ -1981,7 +2677,11 @@
       "clock": "10:10",
       "date": "雷月 30日"
      },
-     "page": "main/node/STm05_01.html"
+     "page": "main/node/STm05_01.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 506,
@@ -2008,7 +2708,11 @@
       "clock": "8:00",
       "date": "雷月 31日"
      },
-     "page": "main/node/STm05_02.html"
+     "page": "main/node/STm05_02.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 507,
@@ -2032,7 +2736,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm05_03_a.html"
+     "page": "main/node/STm05_03_a.html",
+     "col": 3,
+     "lane": -1,
+     "x": 792,
+     "y": 0
     },
     {
      "sid": 508,
@@ -2056,7 +2764,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm05_03_b.html"
+     "page": "main/node/STm05_03_b.html",
+     "col": 3,
+     "lane": 1,
+     "x": 792,
+     "y": 272
     },
     {
      "sid": 509,
@@ -2080,7 +2792,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm05_03_c.html"
+     "page": "main/node/STm05_03_c.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 510,
@@ -2107,7 +2823,11 @@
       "clock": "22:00",
       "date": "雷月 31日"
      },
-     "page": "main/node/STm05_04.html"
+     "page": "main/node/STm05_04.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 511,
@@ -2134,7 +2854,11 @@
       "clock": "2:00",
       "date": "热月 1日"
      },
-     "page": "main/node/STm05_05.html"
+     "page": "main/node/STm05_05.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 512,
@@ -2161,7 +2885,11 @@
       "clock": "22:00",
       "date": "热月 3日"
      },
-     "page": "main/node/STm05_06.html"
+     "page": "main/node/STm05_06.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 513,
@@ -2188,7 +2916,11 @@
       "clock": "6:30",
       "date": "热月 14日"
      },
-     "page": "main/node/STm05_07.html"
+     "page": "main/node/STm05_07.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 514,
@@ -2215,7 +2947,11 @@
       "clock": "21:30",
       "date": "谷月 4日"
      },
-     "page": "main/node/STm05_08.html"
+     "page": "main/node/STm05_08.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     },
     {
      "sid": 515,
@@ -2242,7 +2978,11 @@
       "clock": "22:15",
       "date": "谷月 4日"
      },
-     "page": "main/node/STm05_09_a.html"
+     "page": "main/node/STm05_09_a.html",
+     "col": 11,
+     "lane": -1,
+     "x": 2904,
+     "y": 0
     },
     {
      "sid": 516,
@@ -2269,7 +3009,11 @@
       "clock": "22:15",
       "date": "谷月 4日"
      },
-     "page": "main/node/STm05_09_b.html"
+     "page": "main/node/STm05_09_b.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 136
     },
     {
      "sid": 517,
@@ -2296,7 +3040,11 @@
       "clock": "22:15",
       "date": "谷月 4日"
      },
-     "page": "main/node/STm05_09_c.html"
+     "page": "main/node/STm05_09_c.html",
+     "col": 11,
+     "lane": 1,
+     "x": 2904,
+     "y": 272
     },
     {
      "sid": 518,
@@ -2323,7 +3071,11 @@
       "clock": "23:10",
       "date": "谷月 4日"
      },
-     "page": "main/node/STm05_10.html"
+     "page": "main/node/STm05_10.html",
+     "col": 13,
+     "lane": 0,
+     "x": 3432,
+     "y": 136
     },
     {
      "sid": 519,
@@ -2350,7 +3102,11 @@
       "clock": "23:40",
       "date": "谷月 4日"
      },
-     "page": "main/node/STm05_11.html"
+     "page": "main/node/STm05_11.html",
+     "col": 14,
+     "lane": 0,
+     "x": 3696,
+     "y": 136
     }
    ]
   },
@@ -2387,6 +3143,110 @@
     "17": "谷月 稻米日 10:00",
     "18": "谷月 篝火日 11:00"
    },
+   "geometry": {
+    "columns": 17,
+    "width": 4432,
+    "height": 408,
+    "roots": [
+     "STm06_00"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm06_00",
+      "STm06_01"
+     ],
+     [
+      "STm06_01",
+      "STm06_02_a"
+     ],
+     [
+      "STm06_01",
+      "STm06_02_b"
+     ],
+     [
+      "STm06_01",
+      "STm06_02_c"
+     ],
+     [
+      "STm06_02_b",
+      "BAm06_01"
+     ],
+     [
+      "STm06_02_c",
+      "BAm06_01"
+     ],
+     [
+      "STm06_02_a",
+      "STm06_03_a"
+     ],
+     [
+      "BAm06_01",
+      "STm06_03_b"
+     ],
+     [
+      "STm06_03_a",
+      "STm06_04_a"
+     ],
+     [
+      "STm06_03_b",
+      "STm06_04_b"
+     ],
+     [
+      "STm06_04_a",
+      "STm06_05_a"
+     ],
+     [
+      "STm06_04_b",
+      "STm06_05_b"
+     ],
+     [
+      "STm06_05_b",
+      "STm06_06"
+     ],
+     [
+      "STm06_06",
+      "STm06_07"
+     ],
+     [
+      "STm06_07",
+      "STm06_08"
+     ],
+     [
+      "STm06_08",
+      "STm06_09"
+     ],
+     [
+      "STm06_09",
+      "BAm06_02"
+     ],
+     [
+      "BAm06_02",
+      "STm06_10"
+     ],
+     [
+      "STm06_10",
+      "STm06_11"
+     ],
+     [
+      "STm06_11",
+      "BAm06_03"
+     ],
+     [
+      "BAm06_03",
+      "STm06_12"
+     ],
+     [
+      "STm06_12",
+      "STm06_13"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 601,
@@ -2411,7 +3271,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm06_01.html"
+     "page": "main/node/BAm06_01.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 602,
@@ -2435,7 +3299,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm06_02.html"
+     "page": "main/node/BAm06_02.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 136
     },
     {
      "sid": 603,
@@ -2459,7 +3327,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm06_03.html"
+     "page": "main/node/BAm06_03.html",
+     "col": 14,
+     "lane": 0,
+     "x": 3696,
+     "y": 136
     },
     {
      "sid": 604,
@@ -2484,7 +3356,11 @@
       "clock": "10:30",
       "date": "雾月 16日"
      },
-     "page": "main/node/STm06_00.html"
+     "page": "main/node/STm06_00.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 605,
@@ -2511,7 +3387,11 @@
       "clock": "00:50",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_01.html"
+     "page": "main/node/STm06_01.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 606,
@@ -2538,7 +3418,11 @@
       "clock": "01:30",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_02_a.html"
+     "page": "main/node/STm06_02_a.html",
+     "col": 2,
+     "lane": 1,
+     "x": 528,
+     "y": 272
     },
     {
      "sid": 607,
@@ -2565,7 +3449,11 @@
       "clock": "01:30",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_02_b.html"
+     "page": "main/node/STm06_02_b.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 608,
@@ -2592,7 +3480,11 @@
       "clock": "01:30",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_02_c.html"
+     "page": "main/node/STm06_02_c.html",
+     "col": 2,
+     "lane": -1,
+     "x": 528,
+     "y": 0
     },
     {
      "sid": 609,
@@ -2619,7 +3511,11 @@
       "clock": "12:40",
       "date": "谷月 8日"
      },
-     "page": "main/node/STm06_03_a.html"
+     "page": "main/node/STm06_03_a.html",
+     "col": 3,
+     "lane": 1,
+     "x": 792,
+     "y": 272
     },
     {
      "sid": 610,
@@ -2646,7 +3542,11 @@
       "clock": "03:00",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_03_b.html"
+     "page": "main/node/STm06_03_b.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 611,
@@ -2673,7 +3573,11 @@
       "clock": "10:00",
       "date": "谷月 15日"
      },
-     "page": "main/node/STm06_04_a.html"
+     "page": "main/node/STm06_04_a.html",
+     "col": 4,
+     "lane": 1,
+     "x": 1056,
+     "y": 272
     },
     {
      "sid": 612,
@@ -2700,7 +3604,11 @@
       "clock": "06:30",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_04_b.html"
+     "page": "main/node/STm06_04_b.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 613,
@@ -2727,7 +3635,11 @@
       "clock": "10:30",
       "date": "猎月 15日"
      },
-     "page": "main/node/STm06_05_a.html"
+     "page": "main/node/STm06_05_a.html",
+     "col": 5,
+     "lane": 1,
+     "x": 1320,
+     "y": 272
     },
     {
      "sid": 614,
@@ -2754,7 +3666,11 @@
       "clock": "07:10",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_05_b.html"
+     "page": "main/node/STm06_05_b.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 615,
@@ -2781,7 +3697,11 @@
       "clock": "11:00",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_06.html"
+     "page": "main/node/STm06_06.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 616,
@@ -2808,7 +3728,11 @@
       "clock": "18:30",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_07.html"
+     "page": "main/node/STm06_07.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 617,
@@ -2835,7 +3759,11 @@
       "clock": "19:00",
       "date": "谷月 5日"
      },
-     "page": "main/node/STm06_08.html"
+     "page": "main/node/STm06_08.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 618,
@@ -2862,7 +3790,11 @@
       "clock": "07:00",
       "date": "谷月 6日"
      },
-     "page": "main/node/STm06_09.html"
+     "page": "main/node/STm06_09.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     },
     {
      "sid": 619,
@@ -2889,7 +3821,11 @@
       "clock": "09:00",
       "date": "谷月 7日"
      },
-     "page": "main/node/STm06_10.html"
+     "page": "main/node/STm06_10.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 136
     },
     {
      "sid": 620,
@@ -2916,7 +3852,11 @@
       "clock": "02:45",
       "date": "谷月 8日"
      },
-     "page": "main/node/STm06_11.html"
+     "page": "main/node/STm06_11.html",
+     "col": 13,
+     "lane": 0,
+     "x": 3432,
+     "y": 136
     },
     {
      "sid": 621,
@@ -2943,7 +3883,11 @@
       "clock": "03:00",
       "date": "谷月 8日"
      },
-     "page": "main/node/STm06_12.html"
+     "page": "main/node/STm06_12.html",
+     "col": 15,
+     "lane": 0,
+     "x": 3960,
+     "y": 136
     },
     {
      "sid": 622,
@@ -2970,7 +3914,11 @@
       "clock": "11:00",
       "date": "谷月 23日"
      },
-     "page": "main/node/STm06_13.html"
+     "page": "main/node/STm06_13.html",
+     "col": 16,
+     "lane": 0,
+     "x": 4224,
+     "y": 136
     }
    ]
   },
@@ -2988,6 +3936,7 @@
    "folder": "main/chapter_07_谜影的序曲",
    "edge_source": "none",
    "time_slots": {},
+   "geometry": null,
    "nodes": [
     {
      "sid": 6501,
@@ -3319,6 +4268,122 @@
     "18": "猎月 刻木鸟日 18:00",
     "19": "猎月 刻木鸟日 18:15"
    },
+   "geometry": {
+    "columns": 17,
+    "width": 4432,
+    "height": 544,
+    "roots": [
+     "STm07_00"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm07_00",
+      "STm07_01"
+     ],
+     [
+      "STm07_01",
+      "BAm07_01"
+     ],
+     [
+      "BAm07_01",
+      "STm07_02"
+     ],
+     [
+      "STm07_02",
+      "STm07_03"
+     ],
+     [
+      "STm07_03",
+      "STm07_04"
+     ],
+     [
+      "STm07_04",
+      "STm07_05_c"
+     ],
+     [
+      "STm07_04",
+      "STm07_05_a"
+     ],
+     [
+      "STm07_04",
+      "STm07_05_b"
+     ],
+     [
+      "STm07_05_b",
+      "STm07_06_ba"
+     ],
+     [
+      "STm07_05_b",
+      "STm07_06_bb"
+     ],
+     [
+      "STm07_05_b",
+      "STm07_06_bc"
+     ],
+     [
+      "STm07_05_a",
+      "STm07_06_a"
+     ],
+     [
+      "STm07_06_a",
+      "STm07_07"
+     ],
+     [
+      "STm07_07",
+      "BAm07_02"
+     ],
+     [
+      "BAm07_02",
+      "STm07_08"
+     ],
+     [
+      "STm07_08",
+      "STm07_09"
+     ],
+     [
+      "STm07_08",
+      "STm07_12"
+     ],
+     [
+      "STm07_09",
+      "STm07_10"
+     ],
+     [
+      "STm07_10",
+      "STm07_11"
+     ],
+     [
+      "STm07_12",
+      "STm07_13"
+     ],
+     [
+      "STm07_13",
+      "STm07_14"
+     ],
+     [
+      "STm07_11",
+      "STm07_15"
+     ],
+     [
+      "STm07_14",
+      "STm07_15"
+     ],
+     [
+      "STm07_15",
+      "BAm07_03"
+     ],
+     [
+      "BAm07_03",
+      "STm07_16"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 801,
@@ -3342,7 +4407,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm07_01.html"
+     "page": "main/node/BAm07_01.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 272
     },
     {
      "sid": 802,
@@ -3366,7 +4435,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm07_02.html"
+     "page": "main/node/BAm07_02.html",
+     "col": 9,
+     "lane": 1,
+     "x": 2376,
+     "y": 408
     },
     {
      "sid": 803,
@@ -3390,7 +4463,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm07_03.html"
+     "page": "main/node/BAm07_03.html",
+     "col": 15,
+     "lane": 0,
+     "x": 3960,
+     "y": 272
     },
     {
      "sid": 804,
@@ -3415,7 +4492,11 @@
       "clock": "09:30",
       "date": "猎月 8日"
      },
-     "page": "main/node/STm07_00.html"
+     "page": "main/node/STm07_00.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 272
     },
     {
      "sid": 805,
@@ -3442,7 +4523,11 @@
       "clock": "11:00",
       "date": "猎月 8日"
      },
-     "page": "main/node/STm07_01.html"
+     "page": "main/node/STm07_01.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 272
     },
     {
      "sid": 806,
@@ -3469,7 +4554,11 @@
       "clock": "13:00",
       "date": "猎月 8日"
      },
-     "page": "main/node/STm07_02.html"
+     "page": "main/node/STm07_02.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 272
     },
     {
      "sid": 807,
@@ -3496,7 +4585,11 @@
       "clock": "11:30",
       "date": "猎月 13日"
      },
-     "page": "main/node/STm07_03.html"
+     "page": "main/node/STm07_03.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 272
     },
     {
      "sid": 808,
@@ -3523,7 +4616,11 @@
       "clock": "13:40",
       "date": "猎月 13日"
      },
-     "page": "main/node/STm07_04.html"
+     "page": "main/node/STm07_04.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 272
     },
     {
      "sid": 809,
@@ -3550,7 +4647,11 @@
       "clock": "18:00",
       "date": "猎月 13日"
      },
-     "page": "main/node/STm07_05_c.html"
+     "page": "main/node/STm07_05_c.html",
+     "col": 6,
+     "lane": 1,
+     "x": 1584,
+     "y": 408
     },
     {
      "sid": 810,
@@ -3577,7 +4678,11 @@
       "clock": "16:15",
       "date": "猎月 13日"
      },
-     "page": "main/node/STm07_05_a.html"
+     "page": "main/node/STm07_05_a.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 272
     },
     {
      "sid": 811,
@@ -3604,7 +4709,11 @@
       "clock": "17:30",
       "date": "猎月 13日"
      },
-     "page": "main/node/STm07_05_b.html"
+     "page": "main/node/STm07_05_b.html",
+     "col": 6,
+     "lane": -1,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 812,
@@ -3631,7 +4740,11 @@
       "clock": "??:??",
       "date": "??月 ??日"
      },
-     "page": "main/node/STm07_06_ba.html"
+     "page": "main/node/STm07_06_ba.html",
+     "col": 7,
+     "lane": -1,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 813,
@@ -3658,7 +4771,11 @@
       "clock": "??:??",
       "date": "??月 ??日"
      },
-     "page": "main/node/STm07_06_bb.html"
+     "page": "main/node/STm07_06_bb.html",
+     "col": 7,
+     "lane": -2,
+     "x": 1848,
+     "y": 0
     },
     {
      "sid": 814,
@@ -3685,7 +4802,11 @@
       "clock": "??:??",
       "date": "??月 ??日"
      },
-     "page": "main/node/STm07_06_bc.html"
+     "page": "main/node/STm07_06_bc.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 272
     },
     {
      "sid": 815,
@@ -3712,7 +4833,11 @@
       "clock": "08:00",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_06_a.html"
+     "page": "main/node/STm07_06_a.html",
+     "col": 7,
+     "lane": 1,
+     "x": 1848,
+     "y": 408
     },
     {
      "sid": 816,
@@ -3739,7 +4864,11 @@
       "clock": "08:35",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_07.html"
+     "page": "main/node/STm07_07.html",
+     "col": 8,
+     "lane": 1,
+     "x": 2112,
+     "y": 408
     },
     {
      "sid": 817,
@@ -3766,7 +4895,11 @@
       "clock": "10:36",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_08.html"
+     "page": "main/node/STm07_08.html",
+     "col": 10,
+     "lane": 1,
+     "x": 2640,
+     "y": 408
     },
     {
      "sid": 818,
@@ -3793,7 +4926,11 @@
       "clock": "11:35",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_09.html"
+     "page": "main/node/STm07_09.html",
+     "col": 11,
+     "lane": 1,
+     "x": 2904,
+     "y": 408
     },
     {
      "sid": 819,
@@ -3820,7 +4957,11 @@
       "clock": "11:35",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_12.html"
+     "page": "main/node/STm07_12.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 272
     },
     {
      "sid": 820,
@@ -3847,7 +4988,11 @@
       "clock": "12:00",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_10.html"
+     "page": "main/node/STm07_10.html",
+     "col": 12,
+     "lane": 1,
+     "x": 3168,
+     "y": 408
     },
     {
      "sid": 821,
@@ -3874,7 +5019,11 @@
       "clock": "20:50",
       "date": "猎月 14日"
      },
-     "page": "main/node/STm07_11.html"
+     "page": "main/node/STm07_11.html",
+     "col": 13,
+     "lane": 1,
+     "x": 3432,
+     "y": 408
     },
     {
      "sid": 822,
@@ -3901,7 +5050,11 @@
       "clock": "07:00",
       "date": "猎月 15日"
      },
-     "page": "main/node/STm07_13.html"
+     "page": "main/node/STm07_13.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 272
     },
     {
      "sid": 823,
@@ -3928,7 +5081,11 @@
       "clock": "16:15",
       "date": "猎月 15日"
      },
-     "page": "main/node/STm07_14.html"
+     "page": "main/node/STm07_14.html",
+     "col": 13,
+     "lane": 0,
+     "x": 3432,
+     "y": 272
     },
     {
      "sid": 824,
@@ -3956,7 +5113,11 @@
       "clock": "17:00",
       "date": "猎月 15日"
      },
-     "page": "main/node/STm07_15.html"
+     "page": "main/node/STm07_15.html",
+     "col": 14,
+     "lane": 0,
+     "x": 3696,
+     "y": 272
     },
     {
      "sid": 825,
@@ -3983,7 +5144,11 @@
       "clock": "18:15",
       "date": "猎月 15日"
      },
-     "page": "main/node/STm07_16.html"
+     "page": "main/node/STm07_16.html",
+     "col": 16,
+     "lane": 0,
+     "x": 4224,
+     "y": 272
     }
    ]
   },
@@ -4023,6 +5188,130 @@
     "20": "雾月 千塔日 12:00",
     "21": "模糊的时刻"
    },
+   "geometry": {
+    "columns": 24,
+    "width": 6280,
+    "height": 272,
+    "roots": [
+     "STm08_01"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm08_01",
+      "BAm08_01"
+     ],
+     [
+      "BAm08_01",
+      "STm08_02"
+     ],
+     [
+      "STm08_02",
+      "STm08_03"
+     ],
+     [
+      "STm08_03",
+      "STm08_04"
+     ],
+     [
+      "STm08_04",
+      "STm08_05"
+     ],
+     [
+      "STm08_05",
+      "STm08_06"
+     ],
+     [
+      "STm08_06",
+      "STm08_07"
+     ],
+     [
+      "STm08_07",
+      "STm08_08"
+     ],
+     [
+      "STm08_08",
+      "STm08_09"
+     ],
+     [
+      "STm08_09",
+      "STm08_10"
+     ],
+     [
+      "STm08_10",
+      "BAm08_02"
+     ],
+     [
+      "BAm08_02",
+      "STm08_11"
+     ],
+     [
+      "STm08_11",
+      "STm08_12"
+     ],
+     [
+      "STm08_12",
+      "STm08_13"
+     ],
+     [
+      "STm08_13",
+      "STm08_14"
+     ],
+     [
+      "STm08_14",
+      "STm08_15"
+     ],
+     [
+      "STm08_15",
+      "STm08_16_a"
+     ],
+     [
+      "STm08_15",
+      "STm08_16_b"
+     ],
+     [
+      "STm08_16_a",
+      "STm08_17_a"
+     ],
+     [
+      "STm08_17_a",
+      "STm08_18_a"
+     ],
+     [
+      "STm08_18_a",
+      "STm08_19_a"
+     ],
+     [
+      "STm08_19_a",
+      "STm08_20"
+     ],
+     [
+      "STm08_16_b",
+      "STm08_17_b"
+     ],
+     [
+      "STm08_20",
+      "BAm08_03"
+     ],
+     [
+      "BAm08_03",
+      "STm08_21"
+     ],
+     [
+      "STm08_17_b",
+      "STm08_18_b"
+     ],
+     [
+      "STm08_18_b",
+      "STm08_19_b"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 901,
@@ -4047,7 +5336,11 @@
       "clock": "10:00",
       "date": "猎月 23日"
      },
-     "page": "main/node/STm08_01.html"
+     "page": "main/node/STm08_01.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 136
     },
     {
      "sid": 902,
@@ -4071,7 +5364,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm08_01.html"
+     "page": "main/node/BAm08_01.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 136
     },
     {
      "sid": 903,
@@ -4098,7 +5395,11 @@
       "clock": "10:45",
       "date": "猎月 23日"
      },
-     "page": "main/node/STm08_02.html"
+     "page": "main/node/STm08_02.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 904,
@@ -4125,7 +5426,11 @@
       "clock": "16:30",
       "date": "猎月 23日"
      },
-     "page": "main/node/STm08_03.html"
+     "page": "main/node/STm08_03.html",
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 905,
@@ -4152,7 +5457,11 @@
       "clock": "14:30",
       "date": "猎月 24日"
      },
-     "page": "main/node/STm08_04.html"
+     "page": "main/node/STm08_04.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 906,
@@ -4179,7 +5488,11 @@
       "clock": "08:00",
       "date": "猎月 27日"
      },
-     "page": "main/node/STm08_05.html"
+     "page": "main/node/STm08_05.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 907,
@@ -4206,7 +5519,11 @@
       "clock": "12:00",
       "date": "雾月 06日"
      },
-     "page": "main/node/STm08_06.html"
+     "page": "main/node/STm08_06.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 908,
@@ -4230,7 +5547,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm08_07.html"
+     "page": "main/node/STm08_07.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 909,
@@ -4257,7 +5578,11 @@
       "clock": "10:00",
       "date": "清月 24日"
      },
-     "page": "main/node/STm08_08.html"
+     "page": "main/node/STm08_08.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 910,
@@ -4284,7 +5609,11 @@
       "clock": "10:00",
       "date": "花月 20日"
      },
-     "page": "main/node/STm08_09.html"
+     "page": "main/node/STm08_09.html",
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 136
     },
     {
      "sid": 911,
@@ -4311,7 +5640,11 @@
       "clock": "08:00",
       "date": "雾月 07日"
      },
-     "page": "main/node/STm08_10.html"
+     "page": "main/node/STm08_10.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 136
     },
     {
      "sid": 912,
@@ -4335,7 +5668,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm08_02.html"
+     "page": "main/node/BAm08_02.html",
+     "col": 11,
+     "lane": 0,
+     "x": 2904,
+     "y": 136
     },
     {
      "sid": 913,
@@ -4362,7 +5699,11 @@
       "clock": "10:30",
       "date": "雾月 07日"
      },
-     "page": "main/node/STm08_11.html"
+     "page": "main/node/STm08_11.html",
+     "col": 12,
+     "lane": 0,
+     "x": 3168,
+     "y": 136
     },
     {
      "sid": 914,
@@ -4389,7 +5730,11 @@
       "clock": "22:10",
       "date": "雾月 07日"
      },
-     "page": "main/node/STm08_12.html"
+     "page": "main/node/STm08_12.html",
+     "col": 13,
+     "lane": 0,
+     "x": 3432,
+     "y": 136
     },
     {
      "sid": 915,
@@ -4416,7 +5761,11 @@
       "clock": "02:00",
       "date": "雾月 08日"
      },
-     "page": "main/node/STm08_13.html"
+     "page": "main/node/STm08_13.html",
+     "col": 14,
+     "lane": 0,
+     "x": 3696,
+     "y": 136
     },
     {
      "sid": 916,
@@ -4443,7 +5792,11 @@
       "clock": "10:30",
       "date": "雾月 11日"
      },
-     "page": "main/node/STm08_14.html"
+     "page": "main/node/STm08_14.html",
+     "col": 15,
+     "lane": 0,
+     "x": 3960,
+     "y": 136
     },
     {
      "sid": 917,
@@ -4470,7 +5823,11 @@
       "clock": "11:15",
       "date": "雾月 17日"
      },
-     "page": "main/node/STm08_15.html"
+     "page": "main/node/STm08_15.html",
+     "col": 16,
+     "lane": 0,
+     "x": 4224,
+     "y": 136
     },
     {
      "sid": 918,
@@ -4497,7 +5854,11 @@
       "clock": "12:30",
       "date": "雾月 17日"
      },
-     "page": "main/node/STm08_16_a.html"
+     "page": "main/node/STm08_16_a.html",
+     "col": 17,
+     "lane": 0,
+     "x": 4488,
+     "y": 136
     },
     {
      "sid": 919,
@@ -4524,7 +5885,11 @@
       "clock": "12:30",
       "date": "雾月 17日"
      },
-     "page": "main/node/STm08_16_b.html"
+     "page": "main/node/STm08_16_b.html",
+     "col": 17,
+     "lane": -1,
+     "x": 4488,
+     "y": 0
     },
     {
      "sid": 920,
@@ -4551,7 +5916,11 @@
       "clock": "09:50",
       "date": "花月 02日"
      },
-     "page": "main/node/STm08_17_a.html"
+     "page": "main/node/STm08_17_a.html",
+     "col": 18,
+     "lane": 0,
+     "x": 4752,
+     "y": 136
     },
     {
      "sid": 921,
@@ -4578,7 +5947,11 @@
       "clock": "11:50",
       "date": "鸣月 17日"
      },
-     "page": "main/node/STm08_18_a.html"
+     "page": "main/node/STm08_18_a.html",
+     "col": 19,
+     "lane": 0,
+     "x": 5016,
+     "y": 136
     },
     {
      "sid": 922,
@@ -4605,7 +5978,11 @@
       "clock": "05:30",
       "date": "鸣月 22日"
      },
-     "page": "main/node/STm08_19_a.html"
+     "page": "main/node/STm08_19_a.html",
+     "col": 20,
+     "lane": 0,
+     "x": 5280,
+     "y": 136
     },
     {
      "sid": 923,
@@ -4632,7 +6009,11 @@
       "clock": "08:00",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm08_20.html"
+     "page": "main/node/STm08_20.html",
+     "col": 21,
+     "lane": 0,
+     "x": 5544,
+     "y": 136
     },
     {
      "sid": 924,
@@ -4656,7 +6037,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm08_17_b.html"
+     "page": "main/node/STm08_17_b.html",
+     "col": 18,
+     "lane": -1,
+     "x": 4752,
+     "y": 0
     },
     {
      "sid": 925,
@@ -4680,7 +6065,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/BAm08_03.html"
+     "page": "main/node/BAm08_03.html",
+     "col": 22,
+     "lane": 0,
+     "x": 5808,
+     "y": 136
     },
     {
      "sid": 926,
@@ -4707,7 +6096,11 @@
       "clock": "12:00",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm08_21.html"
+     "page": "main/node/STm08_21.html",
+     "col": 23,
+     "lane": 0,
+     "x": 6072,
+     "y": 136
     },
     {
      "sid": 927,
@@ -4731,7 +6124,11 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/node/STm08_18_b.html"
+     "page": "main/node/STm08_18_b.html",
+     "col": 19,
+     "lane": -1,
+     "x": 5016,
+     "y": 0
     },
     {
      "sid": 928,
@@ -4758,7 +6155,11 @@
       "clock": "??:??",
       "date": "??月 ??日"
      },
-     "page": "main/node/STm08_19_b.html"
+     "page": "main/node/STm08_19_b.html",
+     "col": 20,
+     "lane": -1,
+     "x": 5280,
+     "y": 0
     }
    ]
   },
@@ -4791,6 +6192,122 @@
     "13": "雾月 千塔日 18:15",
     "14": "雾月 千塔日 18:40"
    },
+   "geometry": {
+    "columns": 11,
+    "width": 2848,
+    "height": 544,
+    "roots": [
+     "STm09_00_a"
+    ],
+    "card": [
+     208,
+     96
+    ],
+    "step_x": 264,
+    "step_y": 136,
+    "edges": [
+     [
+      "STm09_00_a",
+      "STm09_00_b"
+     ],
+     [
+      "STm09_00_b",
+      "STm09_01_a"
+     ],
+     [
+      "STm09_01_a",
+      "BAm09_BT01"
+     ],
+     [
+      "BAm09_BT01",
+      "STm09_02_a"
+     ],
+     [
+      "STm09_02_a",
+      "STm09_03_a"
+     ],
+     [
+      "STm09_03_a",
+      "STm09_04_a"
+     ],
+     [
+      "STm09_04_a",
+      "STm09_05_a"
+     ],
+     [
+      "STm09_05_a",
+      "STm09_06_a"
+     ],
+     [
+      "STm09_06_a",
+      "BAm09_BT03"
+     ],
+     [
+      "BAm09_BT03",
+      "STm09_07_a"
+     ],
+     [
+      "STm09_00_b",
+      "STm09_01_b"
+     ],
+     [
+      "STm09_01_b",
+      "BAm09_BT02"
+     ],
+     [
+      "BAm09_BT02",
+      "STm09_02_b"
+     ],
+     [
+      "STm09_02_b",
+      "STm09_03_b"
+     ],
+     [
+      "STm09_03_b",
+      "STm09_04_b"
+     ],
+     [
+      "STm09_04_b",
+      "STm09_05_b"
+     ],
+     [
+      "STm09_05_b",
+      "STm09_06_b"
+     ],
+     [
+      "STm09_00_b",
+      "STm09_01_c"
+     ],
+     [
+      "STm09_01_c",
+      "BAm09_BT04"
+     ],
+     [
+      "BAm09_BT04",
+      "STm09_02_c"
+     ],
+     [
+      "STm09_02_c",
+      "STm09_03_c"
+     ],
+     [
+      "STm09_03_c",
+      "BAm09_BT05"
+     ],
+     [
+      "BAm09_BT05",
+      "STm09_04_c"
+     ],
+     [
+      "STm09_04_c",
+      "STm09_05_c"
+     ],
+     [
+      "STm09_00_b",
+      "STm09_01_d"
+     ]
+    ]
+   },
    "nodes": [
     {
      "sid": 1001,
@@ -4815,7 +6332,11 @@
       "clock": "13:10",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_00_a.html"
+     "page": "main/node/STm09_00_a.html",
+     "col": 0,
+     "lane": 0,
+     "x": 0,
+     "y": 272
     },
     {
      "sid": 1002,
@@ -4842,7 +6363,11 @@
       "clock": "13:30",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_00_b.html"
+     "page": "main/node/STm09_00_b.html",
+     "col": 1,
+     "lane": 0,
+     "x": 264,
+     "y": 272
     },
     {
      "sid": 1003,
@@ -4869,7 +6394,11 @@
       "clock": "08:20",
       "date": "雾月 08日"
      },
-     "page": "main/node/STm09_01_a.html"
+     "page": "main/node/STm09_01_a.html",
+     "col": 2,
+     "lane": 0,
+     "x": 528,
+     "y": 272
     },
     {
      "sid": 1004,
@@ -4893,7 +6422,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 3,
+     "lane": 0,
+     "x": 792,
+     "y": 272
     },
     {
      "sid": 1005,
@@ -4920,7 +6453,11 @@
       "clock": "14:30",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_02_a.html"
+     "page": "main/node/STm09_02_a.html",
+     "col": 4,
+     "lane": 0,
+     "x": 1056,
+     "y": 272
     },
     {
      "sid": 1006,
@@ -4947,7 +6484,11 @@
       "clock": "15:00",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_03_a.html"
+     "page": "main/node/STm09_03_a.html",
+     "col": 5,
+     "lane": 0,
+     "x": 1320,
+     "y": 272
     },
     {
      "sid": 1007,
@@ -4974,7 +6515,11 @@
       "clock": "14:50",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_04_a.html"
+     "page": "main/node/STm09_04_a.html",
+     "col": 6,
+     "lane": 0,
+     "x": 1584,
+     "y": 272
     },
     {
      "sid": 1008,
@@ -5001,7 +6546,11 @@
       "clock": "15:50",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_05_a.html"
+     "page": "main/node/STm09_05_a.html",
+     "col": 7,
+     "lane": 0,
+     "x": 1848,
+     "y": 272
     },
     {
      "sid": 1009,
@@ -5028,7 +6577,11 @@
       "clock": "16:40",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_06_a.html"
+     "page": "main/node/STm09_06_a.html",
+     "col": 8,
+     "lane": 0,
+     "x": 2112,
+     "y": 272
     },
     {
      "sid": 1010,
@@ -5052,7 +6605,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 9,
+     "lane": 0,
+     "x": 2376,
+     "y": 272
     },
     {
      "sid": 1011,
@@ -5079,7 +6636,11 @@
       "clock": "17:20",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_07_a.html"
+     "page": "main/node/STm09_07_a.html",
+     "col": 10,
+     "lane": 0,
+     "x": 2640,
+     "y": 272
     },
     {
      "sid": 1012,
@@ -5106,7 +6667,11 @@
       "clock": "13:50",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_01_b.html"
+     "page": "main/node/STm09_01_b.html",
+     "col": 2,
+     "lane": -1,
+     "x": 528,
+     "y": 136
     },
     {
      "sid": 1013,
@@ -5130,7 +6695,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 3,
+     "lane": -1,
+     "x": 792,
+     "y": 136
     },
     {
      "sid": 1014,
@@ -5157,7 +6726,11 @@
       "clock": "14:30",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_02_b.html"
+     "page": "main/node/STm09_02_b.html",
+     "col": 4,
+     "lane": -1,
+     "x": 1056,
+     "y": 136
     },
     {
      "sid": 1015,
@@ -5184,7 +6757,11 @@
       "clock": "15:00",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_03_b.html"
+     "page": "main/node/STm09_03_b.html",
+     "col": 5,
+     "lane": -1,
+     "x": 1320,
+     "y": 136
     },
     {
      "sid": 1016,
@@ -5211,7 +6788,11 @@
       "clock": "15:11",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_04_b.html"
+     "page": "main/node/STm09_04_b.html",
+     "col": 6,
+     "lane": -1,
+     "x": 1584,
+     "y": 136
     },
     {
      "sid": 1017,
@@ -5238,7 +6819,11 @@
       "clock": "17:30",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_05_b.html"
+     "page": "main/node/STm09_05_b.html",
+     "col": 7,
+     "lane": -1,
+     "x": 1848,
+     "y": 136
     },
     {
      "sid": 1018,
@@ -5265,7 +6850,11 @@
       "clock": "18:45",
       "date": "雾月 18日"
      },
-     "page": "main/node/STm09_06_b.html"
+     "page": "main/node/STm09_06_b.html",
+     "col": 8,
+     "lane": -1,
+     "x": 2112,
+     "y": 136
     },
     {
      "sid": 1019,
@@ -5289,7 +6878,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 2,
+     "lane": 1,
+     "x": 528,
+     "y": 408
     },
     {
      "sid": 1020,
@@ -5313,7 +6906,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 3,
+     "lane": 1,
+     "x": 792,
+     "y": 408
     },
     {
      "sid": 1021,
@@ -5337,7 +6934,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 4,
+     "lane": 1,
+     "x": 1056,
+     "y": 408
     },
     {
      "sid": 1022,
@@ -5361,7 +6962,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 5,
+     "lane": 1,
+     "x": 1320,
+     "y": 408
     },
     {
      "sid": 1023,
@@ -5385,7 +6990,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 6,
+     "lane": 1,
+     "x": 1584,
+     "y": 408
     },
     {
      "sid": 1024,
@@ -5409,7 +7018,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 7,
+     "lane": 1,
+     "x": 1848,
+     "y": 408
     },
     {
      "sid": 1025,
@@ -5433,7 +7046,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 8,
+     "lane": 1,
+     "x": 2112,
+     "y": 408
     },
     {
      "sid": 1026,
@@ -5457,7 +7074,11 @@
      },
      "state": "unreleased",
      "time": null,
-     "page": null
+     "page": null,
+     "col": 2,
+     "lane": -2,
+     "x": 528,
+     "y": 0
     }
    ]
   }

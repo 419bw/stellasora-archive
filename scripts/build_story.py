@@ -17,6 +17,8 @@ Output: story_docs/
 
 import sys, os, re, json, collections
 
+import graph_layout
+
 sys.stdout.reconfigure(encoding='utf-8')
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -977,6 +979,18 @@ def write_data():
         cdef = BIN_CHAPTER.get(str(ch), {})
         name = lang_of(LANG_STORY_CHAP, cdef.get('Name', ''))
         title = lang_of(LANG_STORY_CHAP, cdef.get('Desc', ''))
+        edges = None
+        if any(n['parents'] for n in nodes):
+            # coordinates ship with the data so the layout is reviewable (and checkable)
+            # before any HTML exists
+            placed = graph_layout.layout([{'sid': n['sid'], 'story_id': n['story_id'],
+                                           'parents': n['parents'], 'code': n['code']}
+                                          for n in nodes])
+            pos = {p['sid']: p for p in placed['nodes']}
+            for n in nodes:
+                n.update(col=pos[n['sid']]['col'], lane=pos[n['sid']]['lane'],
+                         x=pos[n['sid']]['x'], y=pos[n['sid']]['y'])
+            edges = placed['edges']
         chapters.append({
             'id': ch,                                   # table id, NOT the in-game number
             'no': cdef.get('Index'),                    # official chapter code, '' for 特别篇
@@ -988,6 +1002,13 @@ def write_data():
             'folder': 'main/chapter_%02d_%s' % (ch, safe_name(title or name or 'chapter')),
             'edge_source': 'ParentStoryId' if any(n['parents'] for n in nodes) else 'none',
             'time_slots': {str(i): v for i, v in sorted(time_slots(ch).items())},
+            'geometry': None if edges is None else {
+                'columns': placed['columns'], 'width': placed['width'],
+                'height': placed['height'], 'roots': list(placed['roots']),
+                'card': [graph_layout.CARD_W, graph_layout.CARD_H],
+                'step_x': graph_layout.CARD_W + graph_layout.GUT_X,
+                'step_y': graph_layout.CARD_H + graph_layout.ROW_H,
+                'edges': [list(e) for e in edges]},
             'nodes': sorted(nodes, key=lambda n: n['sid']),
         })
     total = {'chapters': len(chapters), 'nodes': sum(len(c['nodes']) for c in chapters),
