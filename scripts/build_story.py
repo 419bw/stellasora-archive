@@ -295,7 +295,7 @@ def extract_script(stem):
     stack = []
     pending_close = []
     last_marker = None
-    meta = {'episode': '', 'title': '', 'recap': ''}
+    meta = {'recap': ''}
 
     def frame_for(group):
         for fr in reversed(stack):
@@ -400,11 +400,11 @@ def extract_script(stem):
                           'place': " ".join(x for x in (clean_text(region), clean_text(place)) if x)})
 
         elif cmd == "SetIntro":
-            s = [clean_dialogue(x) for x in param if isinstance(x, str)]
+            s = [x if isinstance(x, str) else "" for x in param]
             if len(s) >= 4:
-                meta['episode'], meta['title'], meta['recap'] = s[1], s[2], s[3]
-            elif len(s) >= 3:
-                meta['episode'], meta['title'], meta['recap'] = s[0], s[1], s[2]
+                # [0] 代号 [1] 话数 [2] 标题 [3] 跳过概要（==RT== 是引擎的换行标记）
+                parts = [clean_dialogue(p) for p in s[3].split('==RT==')]
+                meta['recap'] = "\n".join(p for p in parts if p)
 
     return {'meta': meta, 'beats': beats}
 
@@ -453,6 +453,21 @@ def render_beats(beats):
 
 
 
+def section_doc(heading, info, recap, body_title, beats):
+    """Shared page skeleton for both main and event sections.
+
+    The skip recap is authored inside the script (SetIntro[3], with ==RT== as the line
+    break); the stage table's Desc is a one-line flavour hint and is not the recap.
+    """
+    lines = [heading, "", "## 1. 关卡信息", *info, ""]
+    if recap:
+        lines += ["## 2. 官方跳过概要", "",
+                  "> " + recap.replace("\n", "\n> "), ""]
+    lines += ["## 3. " + body_title, ""]
+    lines += render_beats(beats)
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def write(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8', newline='\n') as f:
@@ -486,7 +501,7 @@ def build_main():
         for r in sorted(rows.get(ch, []), key=lambda x: x['Id']):
             idx = lang_of(LANG_STORY, r.get('Index', ''))
             title = lang_of(LANG_STORY, r.get('Title', ''))
-            recap = lang_of(LANG_STORY, r.get('Desc', ''))
+            hint = lang_of(LANG_STORY, r.get('Desc', ''))
             aim = lang_of(LANG_STORY, r.get('Aim', ''))
             stem = r.get('StoryId')
             parsed = extract_script(stem) if stem else None
@@ -509,15 +524,15 @@ def build_main():
                 "- **关卡名称**：%s" % title,
                 "- **关卡类型**：%s" % ("战斗关卡" if r.get('IsBattle') else "剧情关卡"),
                 "- **AVG 剧本**：`%s`" % (stem if parsed else (bubble_stem or '无（解包中不存在该剧本）')),
+                "- **关卡描述**：%s" % hint,
                 "- **通关目标**：%s" % (aim or '推进主线剧情'),
             ]
             body_src = bubbles or parsed
-            lines = ["# %s %s" % (idx, title), "", "## 1. 关卡信息", *info, ""]
-            if recap:
-                lines += ["## 2. 官方跳过概要", "", "> " + recap.replace("\n", "\n> "), ""]
-            head = "## 3. 战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "## 3. 逐句台词"
-            lines += [head, ""] + render_beats(body_src['beats'])
-            write(os.path.join(sdir, safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md'), "\n".join(lines))
+            doc = section_doc("# %s %s" % (idx, title), info,
+                              body_src['meta']['recap'] or hint,
+                              "战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "逐句台词",
+                              body_src['beats'])
+            write(os.path.join(sdir, safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md'), doc)
             stats['sections'] += 1
             stats['bubbles'] += 1 if bubbles else 0
             stats['lines'] += sum(1 for b in body_src['beats'] if b['k'] in ('talk', 'bubble'))
@@ -547,16 +562,15 @@ def build_events():
                 continue
             idx = lang_of(LANG_ACT, r.get('Index', ''))
             title = lang_of(LANG_ACT, r.get('Title', ''))
-            recap = lang_of(LANG_ACT, r.get('Desc', ''))
-            lines = ["# %s %s" % (idx, title), "", "## 1. 关卡信息",
-                     "- **所属活动**：%s（活动编号 %s）" % (name, cid),
-                     "- **关卡 ID**：`%s`" % r['Id'],
-                     "- **AVG 剧本**：`%s`" % stem, ""]
-            if recap:
-                lines += ["## 2. 官方跳过概要", "", "> " + recap.replace("\n", "\n> "), ""]
-            lines += ["## 3. 逐句台词", ""] + render_beats(parsed['beats'])
-            write(os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md'),
-                  "\n".join(lines))
+            hint = lang_of(LANG_ACT, r.get('Desc', ''))
+            doc = section_doc("# %s %s" % (idx, title),
+                              ["- **所属活动**：%s（活动编号 %s）" % (name, cid),
+                               "- **关卡 ID**：`%s`" % r['Id'],
+                               "- **AVG 剧本**：`%s`" % stem,
+                               "- **关卡描述**：%s" % hint],
+                              parsed['meta']['recap'] or hint,
+                              "逐句台词", parsed['beats'])
+            write(os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md'), doc)
             stats['sections'] += 1
             stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] == 'talk')
     return stats
