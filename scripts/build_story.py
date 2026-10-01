@@ -171,6 +171,9 @@ def load_speakers():
 SPEAKERS = load_speakers()
 LANG_STORY = load_json(LANG, 'Story.json')
 LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
+LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
+LANG_PERSONALITY = load_json(LANG, 'StoryPersonality.json')
+LANG_ROLE_PERSONALITY = load_json(LANG, 'StoryRolePersonality.json')
 LANG_ACT = load_json(LANG, 'ActivityStory.json')
 LANG_ACT_GROUP = load_json(LANG, 'ActivityGroup.json')
 BIN_STORY = load_json(BIN, 'Story.json')
@@ -185,6 +188,9 @@ BIN_DISC = load_json(BIN, 'DiscIP.json')
 BIN_SST_TAB = load_json(BIN, 'StorySetTab.json')
 BIN_SST_CHAPTER = load_json(BIN, 'StorySetChapter.json')
 BIN_SST_SECTION = load_json(BIN, 'StorySetSection.json')
+BIN_STORY_TS = load_json(BIN, 'StoryChapterTimeStamp.json')
+BIN_PERSONALITY = load_json(BIN, 'StoryPersonality.json')
+BIN_ROLE_PERSONALITY = load_json(BIN, 'StoryRolePersonality.json')
 LANG_CHARACTER = load_json(LANG, 'Character.json')
 LANG_PLOT = load_json(LANG, 'Plot.json')
 LANG_NPC_PLOT = load_json(LANG, 'NPCAffinityPlot.json')
@@ -509,6 +515,93 @@ def safe_name(s):
     return re.sub(r'[\\/:*?"<>|]', '_', s).strip()
 
 
+# ============================================================ structured sidecars
+# The site is built from these records, never from the Markdown, so both artefacts come
+# out of the same parse pass and cannot drift apart.
+_PAGES = []
+_CHAPTER_NODES = collections.OrderedDict()
+_RENDERED = set()
+
+
+def record_page(family, path, parsed, ident, title, code='', group=None,
+                stems=(), page=None, **extra):
+    beats = parsed['beats']
+    speakers = []
+    for b in beats:
+        if b['k'] in ('talk', 'bubble') and b['speaker'] not in speakers:
+            speakers.append(b['speaker'])
+    stems = [s for s in stems if s]
+    rec = {
+        'id': ident, 'family': family, 'code': code, 'title': title,
+        'group': group or {},
+        'page_md': os.path.relpath(path, OUT).replace(os.sep, '/'),
+        'page': page,
+        'stems': stems,
+        'recap': parsed['meta']['recap'],
+        'speakers': speakers,
+        'counts': dict(collections.Counter(b['k'] for b in beats)),
+        'preview': " ".join(b['text'] for b in beats if b['k'] == 'talk')[:180],
+    }
+    rec.update(extra)
+    _PAGES.append(rec)
+    _RENDERED.update(stems)
+    return rec
+
+
+# The official chip is authored per *column* (`StoryChapterTimeStamp.<chapter*100+column>`)
+# and reads 「猎月 六角鲸日 10:36」; the column assignment itself lives in the UI prefab, which
+# this dump does not carry, and a month's day-names cannot be matched to the numbered days
+# the scripts use (「猎月 13日」 is 吠啸枭日, not the 刻木鸟日 that an equal clock would suggest).
+# So a node carries its own script's opening scene time, and the chapter keeps the raw slot
+# list as reference data instead of pretending the two are joined.
+_SLOTS = None
+
+
+def time_slots(chapter):
+    global _SLOTS
+    if _SLOTS is None:
+        _SLOTS = collections.defaultdict(dict)
+        for k in BIN_STORY_TS:
+            txt = lang_of(LANG_STORY_TS, 'StoryChapterTimeStamp.%s.1' % k)
+            if txt:
+                _SLOTS[int(k) // 100][int(k) % 100] = txt
+    return _SLOTS.get(chapter, {})
+
+
+def node_time(beats):
+    head = next((b for b in beats or [] if b['k'] == 'scene'), None)
+    if not head:
+        return None
+    return {'clock': head['time'], 'date': head['date']}
+
+
+def record_node(ch, row, page, bubble_stem, beats=None):
+    """Every Story row is a graph node, even the ones with no script in the pack."""
+    nodes = _CHAPTER_NODES.setdefault(ch, [])
+    parents = [p for p in (row.get('ParentStoryId') or []) if isinstance(p, str)]
+    nodes.append({
+        'sid': row['Id'],
+        'story_id': row.get('StoryId'),
+        'code': lang_of(LANG_STORY, row.get('Index', '')),
+        'title': lang_of(LANG_STORY, row.get('Title', '')),
+        'desc': lang_of(LANG_STORY, row.get('Desc', '')),
+        'aim': lang_of(LANG_STORY, row.get('Aim', '')),
+        'kind': 'battle' if row.get('IsBattle') else 'story',
+        'is_branch': bool(row.get('IsBranch')),
+        'is_last': bool(row.get('IsLast')),
+        'memory': row.get('MemoryType'),
+        'has_evidence': bool(row.get('HasEvidence')),
+        'condition': row.get('ConditionId'),
+        'parents': parents,
+        'stems': {'story': None if row.get('IsBattle') else row.get('StoryId'),
+                  'bubble': bubble_stem},
+        'state': 'released' if page else 'unreleased',
+        'time': node_time(beats),
+        'page': page,
+    })
+    return parents
+
+
 # ==================================================================== generation
 def lang_of(table, key):
     return clean_text(table.get(key, ''))
@@ -547,8 +640,12 @@ def build_main():
                 else:
                     battle_map.append((stem, cand, 'MISSING'))
             if parsed is None and not bubbles:
+                record_node(ch, r, None, None)
                 skipped.append((ch, r['Id'], stem, title, '战斗关卡' if r.get('IsBattle') else '剧情关卡'))
                 continue
+            page = 'main/node/%s.html' % stem
+            body_src = bubbles or parsed
+            record_node(ch, r, page, bubble_stem, body_src['beats'])
             info = [
                 "- **所属篇章**：%s《%s》（%s）" % (clabel or '第 %d 章' % ch, ctitle, cyear),
                 "- **关卡 ID**：`%s`　**编号**：`%s`" % (r['Id'], idx or '-'),
@@ -558,12 +655,19 @@ def build_main():
                 "- **关卡描述**：%s" % hint,
                 "- **通关目标**：%s" % (aim or '推进主线剧情'),
             ]
-            body_src = bubbles or parsed
             doc = section_doc("# %s %s" % (idx, title), info,
                               body_src['meta']['recap'] or hint,
                               "战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "逐句台词",
                               body_src['beats'])
-            write(os.path.join(sdir, safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md'), doc)
+            path = os.path.join(sdir, safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
+            write(path, doc)
+            record_page('main', path, body_src, r['Id'], title, code=idx,
+                        group={'kind': 'chapter', 'id': ch, 'label': clabel,
+                               'title': ctitle, 'year': cyear},
+                        stems=[stem if parsed else None, bubble_stem], page=page,
+                        story_id=stem, kind='battle' if r.get('IsBattle') else 'story',
+                        parents=[p for p in (r.get('ParentStoryId') or []) if isinstance(p, str)],
+                        hint=hint, aim=aim or '推进主线剧情')
             stats['sections'] += 1
             stats['bubbles'] += 1 if bubbles else 0
             stats['lines'] += sum(1 for b in body_src['beats'] if b['k'] in ('talk', 'bubble'))
@@ -601,7 +705,11 @@ def build_events():
                                "- **关卡描述**：%s" % hint],
                               parsed['meta']['recap'] or hint,
                               "逐句台词", parsed['beats'])
-            write(os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md'), doc)
+            path = os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
+            write(path, doc)
+            record_page('events', path, parsed, r['Id'], title, code=idx,
+                        group={'kind': 'activity', 'id': cid, 'label': name},
+                        stems=[stem], page='events/%s/%s.html' % (cid, r['Id']), hint=hint)
             stats['sections'] += 1
             stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] == 'talk')
     return stats
@@ -650,9 +758,13 @@ def build_character_plots():
             info.append("- **复用此剧本的档案**：%s" % "、".join(x for x in twins if x))
         folder = os.path.join(OUT, 'characters',
                               safe_name('%s_%s' % (owner.get('Char'), cname or stem)))
-        write(os.path.join(folder, 'sections', safe_name('%s_%s' % (owner['Id'], title)) + '.md'),
-              section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                          parsed['beats'], info_title="剧情档案信息"))
+        path = os.path.join(folder, 'sections', safe_name('%s_%s' % (owner['Id'], title)) + '.md')
+        write(path, section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                                parsed['beats'], info_title="剧情档案信息"))
+        record_page('characters', path, parsed, owner['Id'], title,
+                    group={'kind': 'character', 'id': owner.get('Char'), 'label': cname},
+                    stems=[stem], page='characters/%s/%s.html' % (owner.get('Char'), owner['Id']),
+                    affinity=owner.get('UnlockAffinityLevel'), twins=twins)
         stats['sections'] += 1
         stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
     return stats
@@ -677,10 +789,16 @@ def build_npc_plots():
         ]
         folder = os.path.join(OUT, 'npc_bonds',
                               safe_name('%s_%s' % (r.get('NPCId'), npc_name or r.get('avgId'))))
-        write(os.path.join(folder, 'sections', safe_name('%s_%s' % (r['Id'], idx or sub)) + '.md'),
-              section_doc("# %s" % " ".join(x for x in (idx, sub) if x), info,
-                          parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                          info_title="剧情档案信息"))
+        path = os.path.join(folder, 'sections', safe_name('%s_%s' % (r['Id'], idx or sub)) + '.md')
+        write(path, section_doc("# %s" % " ".join(x for x in (idx, sub) if x), info,
+                                parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                                info_title="剧情档案信息"))
+        record_page('npc_bonds', path, parsed, r['Id'],
+                    " ".join(x for x in (idx, sub) if x), code=idx,
+                    group={'kind': 'npc', 'id': r.get('NPCId'), 'label': npc_name},
+                    stems=[r.get('avgId')],
+                    page='npc/%s/%s.html' % (r.get('NPCId'), r['Id']),
+                    affinity=r.get('AffinityLevel'), hint=sub)
         stats['sections'] += 1
         stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
     return stats
@@ -700,7 +818,8 @@ def build_discs():
         if not parsed:
             continue
         title = field_lang(LANG_DISC, r, 'StoryName')
-        owners = "、".join(x for x in (character_name(c) for c in (r.get('CharId') or [])) if x)
+        chars = [character_name(c) for c in (r.get('CharId') or [])]
+        owners = "、".join(x for x in chars if x)
         info = [
             "- **唱片 ID**：`%s`" % r['Id'],
             "- **关联角色**：%s" % (owners or '无'),
@@ -713,7 +832,13 @@ def build_discs():
             doc += ("\n\n## 4. 唱片附文（DiscIP 表 StoryDesc 原文）\n\n"
                     "> 与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。\n\n"
                     + "\n".join("> " + ln for ln in prose.split("\n")) + "\n")
-        write(os.path.join(OUT, 'discs', safe_name('%s_%s' % (r['Id'], title or stem)) + '.md'), doc)
+        path = os.path.join(OUT, 'discs', safe_name('%s_%s' % (r['Id'], title or stem)) + '.md')
+        write(path, doc)
+        record_page('discs', path, parsed, r['Id'], title,
+                    group={'kind': 'disc', 'id': r['Id'], 'label': title,
+                           'characters': [c for c in chars if c]},
+                    stems=[stem], page='discs/%s.html' % r['Id'],
+                    prose_lines=len(prose.split("\n")) if prose else 0)
         stats['sections'] += 1
         stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
     return stats
@@ -752,10 +877,15 @@ def build_storysets():
                 "- **小节 ID**：`%s`" % s['Id'],
                 "- **AVG 剧本**：`%s`" % s.get('AVGId'),
             ]
-            write(os.path.join(folder, 'sections',
-                               safe_name('%s_%s' % (s['Id'], idx or desc)) + '.md'),
-                  section_doc("# %s" % (desc or idx), info, parsed['meta']['recap'],
-                              "逐句台词", parsed['beats'], info_title="故事集小节信息"))
+            path = os.path.join(folder, 'sections',
+                                safe_name('%s_%s' % (s['Id'], idx or desc)) + '.md')
+            write(path, section_doc("# %s" % (desc or idx), info, parsed['meta']['recap'],
+                                    "逐句台词", parsed['beats'], info_title="故事集小节信息"))
+            record_page('storysets', path, parsed, s['Id'], desc or idx, code=idx,
+                        group={'kind': 'storyset', 'id': chap['Id'], 'label': cname,
+                               'no': cno, 'tab': tab},
+                        stems=[s.get('AVGId')],
+                        page='storysets/%s/%s.html' % (chap['Id'], s['Id']))
             stats['sections'] += 1
             stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
     return stats
@@ -783,12 +913,16 @@ def build_prologue():
         ]
         if stem.startswith('STm00_01') and battle:
             info.append("- **同场战斗气泡**：%s（见 `battles_unmounted/`）" % "、".join(battle))
-        write(os.path.join(OUT, 'prologue', 'sections',
-                           safe_name('%s_%s' % (stem, parsed['meta']['title'] or stem)) + '.md'),
-              section_doc("# %s %s" % (parsed['meta']['episode'] or '序',
-                                       parsed['meta']['title'] or ''),
-                          info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                          info_title="序章信息"))
+        path = os.path.join(OUT, 'prologue', 'sections',
+                            safe_name('%s_%s' % (stem, parsed['meta']['title'] or stem)) + '.md')
+        write(path, section_doc("# %s %s" % (parsed['meta']['episode'] or '序',
+                                             parsed['meta']['title'] or ''),
+                                info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                                info_title="序章信息"))
+        record_page('prologue', path, parsed, stem, parsed['meta']['title'] or stem,
+                    code=parsed['meta']['episode'] or '序',
+                    group={'kind': 'prologue', 'id': 0, 'label': '序章'},
+                    stems=[stem], page='prologue/%s.html' % stem)
         stats['sections'] += 1
         stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
     return stats
@@ -821,20 +955,68 @@ def build_orphan_battles(used):
                            "- **挂载状态**：%s" % note],
                           "", "战斗气泡对白（SetBubble，随战斗阶段推进）", parsed['beats'],
                           info_title="剧本信息")
-        write(os.path.join(OUT, 'battles_unmounted', safe_name(stem) + '.md'), doc)
+        path = os.path.join(OUT, 'battles_unmounted', safe_name(stem) + '.md')
+        write(path, doc)
+        record_page('battles_unmounted', path, parsed, stem, stem,
+                    group={'kind': 'unmounted', 'id': None, 'label': '无关卡引用的战斗气泡'},
+                    stems=[stem], page='battles/%s.html' % stem, mount_note=note)
         stats['sections'] += 1
         stats['lines'] += n
     return stats, orphans
 
 
+def dump_json(name, obj):
+    write(os.path.join(OUT, '_data', name),
+          json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
+
+
+def write_data():
+    """Site-facing structure: chapter graphs, the page index, search, personality axes."""
+    chapters = []
+    for ch, nodes in _CHAPTER_NODES.items():
+        cdef = BIN_CHAPTER.get(str(ch), {})
+        name = lang_of(LANG_STORY_CHAP, cdef.get('Name', ''))
+        title = lang_of(LANG_STORY_CHAP, cdef.get('Desc', ''))
+        chapters.append({
+            'id': ch,                                   # table id, NOT the in-game number
+            'no': cdef.get('Index'),                    # official chapter code, '' for 特别篇
+            'name': name, 'title': title,
+            'year': lang_of(LANG_STORY_CHAP, cdef.get('ChapterYear', '')),
+            'prev_stories': [p for p in (cdef.get('PrevStories') or []) if isinstance(p, str)],
+            'unlock_show_story_id': cdef.get('UnlockShowStoryId'),
+            'open_time': cdef.get('OpenTime'),
+            'folder': 'main/chapter_%02d_%s' % (ch, safe_name(title or name or 'chapter')),
+            'edge_source': 'ParentStoryId' if any(n['parents'] for n in nodes) else 'none',
+            'time_slots': {str(i): v for i, v in sorted(time_slots(ch).items())},
+            'nodes': sorted(nodes, key=lambda n: n['sid']),
+        })
+    total = {'chapters': len(chapters), 'nodes': sum(len(c['nodes']) for c in chapters),
+             'pages': len(_PAGES)}
+    dump_json('chapters.json', {'meta': dict(total, source='Story.json',
+                                             edge_field='ParentStoryId'),
+                                'chapters': chapters})
+    dump_json('sections.json', {'meta': dict(total, families=sorted({p['family'] for p in _PAGES})),
+                                'pages': _PAGES})
+    dump_json('search.json', {'meta': {'pages': len(_PAGES)},
+                              'entries': [{'id': p['id'], 'family': p['family'],
+                                           'code': p['code'], 'title': p['title'],
+                                           'group': p['group'].get('label', ''),
+                                           'page': p['page'], 'speakers': p['speakers'],
+                                           'hay': " ".join(x for x in
+                                                            (p['title'], p['recap'],
+                                                             p['preview']) if x)}
+                                          for p in _PAGES]})
+    dump_json('personality.json', {
+        'axes': [{'id': r['Id'], 'name': field_lang(LANG_PERSONALITY, r),
+                  'color': r.get('Color'), 'icon': r.get('Icon')}
+                 for r in rows_of(BIN_PERSONALITY)],
+        'note': '表内只有三轴定义；玩家当前倾向值来自存档，解包数据里没有。'})
+    return total
+
+
 def write_coverage():
     """Every script in the pack is either rendered or named here with its mount source."""
-    rendered = set()
-    for dp, _d, fs in os.walk(OUT):
-        for f in fs:
-            if f.endswith('.md'):
-                txt = open(os.path.join(dp, f), encoding='utf-8').read()
-                rendered.update(re.findall(r'AVG 剧本\*\*：`([A-Za-z0-9_]+)`', txt))
+    rendered = set(_RENDERED)
     alls = sorted(f[:-4] for f in os.listdir(CFG) if f.endswith('.lua'))
     mounts = collections.defaultdict(set)
     for tbl, fld in (('Story', 'AvgLuaName'), ('ActivityStory', 'AvgLuaName'),
@@ -897,6 +1079,8 @@ def main():
     used = {b[1] for b in attached}
     ostats, unattached = build_orphan_battles(used)
     print("  无关卡引用的战斗气泡剧本：剧本=%d 气泡=%d" % (ostats['sections'], ostats['lines']))
+    dstats = write_data()
+    print("结构化侧车：章=%d 节点=%d 页=%d" % (dstats['chapters'], dstats['nodes'], dstats['pages']))
     total, done, todo = write_coverage()
     print("剧本覆盖对账：包内 %d 个，已渲染 %d 个，未渲染 %d 个" % (total, done, todo))
 

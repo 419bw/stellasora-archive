@@ -1,0 +1,23 @@
+{
+ "axes": [
+  {
+   "id": 1,
+   "name": "直觉",
+   "color": "#FFB85D",
+   "icon": "Icon/AvgChoice/AvgPersonality_1"
+  },
+  {
+   "id": 2,
+   "name": "分析",
+   "color": "#7CB3FF",
+   "icon": "Icon/AvgChoice/AvgPersonality_2"
+  },
+  {
+   "id": 3,
+   "name": "混沌",
+   "color": "#BA88FF",
+   "icon": "Icon/AvgChoice/AvgPersonality_3"
+  }
+ ],
+ "note": "表内只有三轴定义；玩家当前倾向值来自存档，解包数据里没有。"
+}
