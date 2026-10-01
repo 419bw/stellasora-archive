@@ -1,0 +1,17 @@
+{
+  "name": "stellasora-wiki",
+  "version": "1.0.0",
+  "description": "Stella Sora Story & Script Knowledge Base",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "generate": "python scripts/build_wiki.py",
+    "test": "python scripts/run_benchmark.py"
+  },
+  "devDependencies": {
+    "mermaid": "^10.9.0",
+    "vitepress": "^1.0.1",
+    "vitepress-plugin-mermaid": "^2.0.16"
+  }
+}

@@ -1,0 +1,16 @@
+# 依赖与构建缓存
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 官方解包数据源（634 MB / 9503 文件，不入库）
+# 重新获取方式见 AI_HANDOVER_GUIDE.md 第 1.3 节：
+#   data/StellaSoraData/ <- 社区解包表仓库 StellaSoraData
+#   data/ss_lua/         <- 反编译剧本仓库 ss_lua
+data/
+
+# 本地校验探针与产物基线备份
+.tmp_verify/
