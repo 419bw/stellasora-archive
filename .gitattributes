@@ -1,0 +1,5 @@
+# 生成器写出的 md/py 统一用 LF，避免 Windows 检出时整树换行翻转
+*.md   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.mts  text eol=lf

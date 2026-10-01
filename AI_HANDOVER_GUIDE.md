@@ -21,6 +21,10 @@
 4. [拓扑图构建算法（Mermaid DAG）](#四拓扑图构建算法mermaid-dag)
 5. [完整提取与生成参考脚本（Python 独立实现）](#五完整提取与生成参考脚本python-独立实现)
 6. [常见踩坑记录与 FAQ（交接备忘）](#六常见踩坑记录与-faq交接备忘)
+7. [剧情管道 v2：build_story.py（主线/活动/战斗气泡）](#七-剧情管道-v2scriptsbuild_storypy当前唯一在推进的模块)
+   - [7.2 带文本的指令清单](#72-带文本的指令清单全库-588-个_cnconfig-剧本实测)
+   - [7.4 已确认的遗漏](#74-已确认的遗漏下一步的活别再重新发现一遍)
+8. [修订记录](#八-修订记录2026-10-02)
 
 ---
 
@@ -222,8 +226,11 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
 
 ---
 
-## 六、 常见踩坑记录与 FAQ（交接备忘）
+---
 
+---
+
+## 六、 常见踩坑记录与 FAQ（交接备忘）
 1. **Q：为什么有的关卡只有概要，没有“## 3. 详细剧情与逐句台词”？**  
    **A**：检查该关卡的 `s.get('IsBattle')`。如果是星塔纯战斗关卡（如 `BT01`、`BT02`），官方数据中本就没有配置 `AvgLuaName` 剧本，因此只展示战斗目标与跳过概要，绝不要胡编台词。
 2. **Q：为什么某个小节生成出来的文件名带乱码？**  
@@ -233,3 +240,58 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
    **A**：全库主线共 10 章，总小节数严格等于 **604 个 Markdown 文件**。生成完毕后检查文件数量即可确认是否完整无损。
 4. **Q：前端渲染时 Mermaid 图报错？**  
    **A**：Mermaid 节点标签内如果包含括号、连字符等字符，必须加英文双引号包裹（例如 `Node["01_序幕 (上)"]`），否则解析器会语法报错。
+
+## 七、 剧情管道 v2：`scripts/build_story.py`（当前唯一在推进的模块）
+
+`build_wiki.py` 已经塞进太多非剧情内容（数值、唱片、纹章、索引），剧情相关的后续改动一律走
+`scripts/build_story.py`，它只做**主线章节 + 活动章节 + 战斗气泡**三件事，输出到 `story_docs/`。
+它与 `build_wiki.py` 互不影响，可各自重跑。
+
+### 7.1 换掉正则的原因
+`build_wiki.py` 用 `param\s*=\s*\{([^}]*)\}` 抓参数，遇到**嵌套表**会在第一个 `}` 处截断，
+因此 `SetChoiceBegin`（选项文本在嵌套表里，且 group 是 `"a_1"` 这类字符串）整族读不出来；
+Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。新脚本实现了真正的 Lua 表解析器
+（平衡括号 + 转义还原 + `nil/true/false`），顺带修掉了这两个问题。
+
+### 7.2 带文本的指令清单（全库 588 个 `_cn/Config` 剧本实测）
+| 指令 | 全库条数 | 说明 | 新脚本 |
+|---|---|---|---|
+| `SetTalk` | 48004 | 主线台词，param = `{TalkType, 说话人, 文本, …}` | ✅ |
+| `SetMainRoleTalk` | 19382 | **没有文本**，是主角口型/表情驱动，紧跟下一条 SetTalk | 忽略（正确） |
+| `SetTalkShake` | 1058 | **没有文本**，镜头震动 | 忽略（正确） |
+| `SetPhoneMsg` | 10733 | 手机聊天正文，param 形状与 SetTalk 相同 | ✅ 主线+活动内 400 行已补出 |
+| `SetBubble` | 399 | **战斗关卡内的头顶气泡**，只存在于 29 个 `BBm*.lua`；`SetGroupId` 分波次 | ✅ |
+| `SetSceneHeading` | 472 | 场景卡，固定 5 槽：时刻/月/日/区域/地点（游戏历法：花月…鸣月） | ✅ |
+| `SetChoiceBegin` | 522 | 第三种抉择，group 是字符串；实测 161/165 只有 1 个选项（玩家单句回应） | ✅ 单选项标「玩家回应」 |
+
+### 7.3 战斗气泡的挂接规则
+`BBm{Chapter 补零}_{Index 文案}.lua`。**必须用 `Chapter` 字段**：`Story.json` 的 `StoryId`
+在 7~10 章是错位的（第十章的行仍写作 `BAm09_BT0x`）。27 个主线战斗关卡命中 22 个。
+
+### 7.4 已确认的遗漏（下一步的活，别再重新发现一遍）
+- **整族剧本没渲染**（`build_wiki.py` 只渲染了 268/588 个剧本）：
+  - `CG_*` 152 个 —— 由 `Plot.json`(120，字段 `Char`+`AvgId`，即**角色个人剧情**，旧产物只有标题没有正文)、
+    `NPCAffinityPlot.json`(8，星塔 NPC 好感线)、`MiningStory.json`(8)、`DiscIP.json`(24) 引用；
+  - `PM_*` 63 个 —— `Chat.json`(498 行，字段 `AddressBookId`+`AVGId`) 的**手机聊天全篇**，含 822 条表情发送；
+  - `STsp_*` 56 个 —— `StorySetSection.json` + `StorySetChapter.json`(18 章，官方名如「刀尖之寒，掌心之暖」) 的**支线故事集**；
+  - `DP_*` 17 个 —— `AgentSpecialPerformance.json`(111 行，字段 `CharId`+`Avg`) 的约会/特殊演出；
+  - `BBm00_01..06`、`BBm07_BT03` —— 无关卡引用（教学关或未上线）；`GD_gacha` 1 个。
+- **流程控制指令未处理**：`IfTrue`/`IfUnlock`/`IfUnlockElse`/`IfUnlockEnd`（按解锁状态分支）、
+  `JUMP_AVG_ID`（跳到另一个剧本的指定位置，说明存在跨剧本连续剧情）、
+  `CheckBE`/`CheckBECase`/`CheckBEEnd`/`GetEvidence`（坏结局与"证据"判定，关系多结局 DAG）。
+  相关表：`StoryCondition.json`(200)、`StoryEvidence.json`(40)、`StoryPersonality.json`、`StoryRolePersonality.json`。
+- `NewCharIntro`(40) 角色首次登场卡（名字+头衔）未渲染。
+- `CN/bubble/_cn/BubbleData.json`(4262 条) 是**语音→文案**表（按性别分列），能补战斗语音/角色语音的字幕文本，目前完全没用上。
+- 第十章剧情只开放了部分线路：`STm09_0x_c/_d` 与 `BBm10_BT0x` 在包里本就不存在，不是解包缺陷；
+  对账见 `story_docs/_battle_reconciliation.md`。
+
+### 7.5 校验
+`.tmp_verify/validate_story.py`（独立行扫描实现，不 import 新脚本）四条契约：
+逐句对齐旧产物（268 篇，真实分歧 0）、气泡完整性（330 条 0 分歧）、
+新增行来源计数（场景卡/气泡/短信/通用抉择 与 Lua 指令数逐一对等）、变异测试（改字/错阶段号/删气泡均被抓到）。
+
+---
+
+## 八、 修订记录（2026-10-02）
+- 本文档 604 小节的说法过时：`Story.json` 196 行 + `ActivityStory.json` 124 行 = **320 个剧情小节**，
+  旧产物共 510 个 md。以表为准。
