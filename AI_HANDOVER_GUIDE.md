@@ -21,10 +21,15 @@
 4. [拓扑图构建算法（Mermaid DAG）](#四拓扑图构建算法mermaid-dag)
 5. [完整提取与生成参考脚本（Python 独立实现）](#五完整提取与生成参考脚本python-独立实现)
 6. [常见踩坑记录与 FAQ（交接备忘）](#六常见踩坑记录与-faq交接备忘)
-7. [剧情管道 v2：build_story.py（主线/活动/战斗气泡）](#七-剧情管道-v2scriptsbuild_storypy当前唯一在推进的模块)
+7. [剧情管道 v2：build_story.py（八族剧情 + 结构化侧车）](#七-剧情管道-v2scriptsbuild_storypy当前唯一在推进的模块)
    - [7.2 带文本的指令清单](#72-带文本的指令清单全库-588-个_cnconfig-剧本实测)
-   - [7.4 已确认的遗漏](#74-已确认的遗漏下一步的活别再重新发现一遍)
-8. [修订记录](#八-修订记录2026-10-02)
+   - [7.4 已接入的四个剧本族](#74-已接入的四个剧本族本轮新增)
+   - [7.5 剩余遗漏](#75-剩余遗漏下一步的活别再重新发现一遍)
+   - [7.6 产物目录与覆盖对账](#76-产物目录与覆盖对账)
+8. [站点与数据契约](#八-站点与数据契约build_sitepy--graph_layoutpy--testsstory)
+   - [8.2 主线节点图的地面真相](#82-主线节点图的地面真相实测别再重新发现)
+   - [8.3 校验（契约 A–J）](#83-校验testsstory两份都不-import-生成器)
+9. [修订记录](#九-修订记录2026-10-02)
 
 ---
 
@@ -349,7 +354,51 @@ story_docs/
 
 ---
 
-## 八、 修订记录（2026-10-02）
+## 八、 站点与数据契约（`build_site.py` / `graph_layout.py` / `tests/story/`）
+
+### 8.1 数据流
+`build_story.py` 在写 md 的同一次解析里顺手记录结构化侧车（`record_page` / `record_node`），
+`write_data()` 落到 `story_docs/_data/`：
+| 文件 | 内容 | 谁在用 |
+|---|---|---|
+| `chapters.json` | 10 章 × 196 节点：`code/title/kind/parents/state/time/col/lane/x/y/page` + 章级 `geometry{columns,width,height,step_x,step_y,edges,card}` 与官方 `time_slots` | 主线节点图 |
+| `sections.json` | 507 页：`family/group/code/title/page/page_md/stems/recap/speakers/counts/preview` | 索引页、检索、覆盖统计 |
+| `search.json` → `site/data/search.js` | 507 条 `{id,family,code,title,group,page,speakers,hay}` | 前端检索（内嵌成 js 是为了 `file://` 能跑） |
+| `personality.json` | 三轴定义与颜色 | 术语卡（**不**用于给选项上色，见 9.4） |
+
+坐标进数据不进代码：`graph_layout.layout()` 由 `build_story.py` 调用，所以布局在**建站之前**就能被校验。
+
+### 8.2 主线节点图的地面真相（实测，别再重新发现）
+- 边只有一个来源：`Story.ParentStoryId`（前驱 `StoryId` 字符串数组）。196 行、**零跨章引用、零悬空引用**，
+  除特别篇外每章根唯一。分叉度：1 路 144、2 路 2、3 路 11、4 路 1（`STm09_00_b`）。
+- 卡面编号 = `Story.Index` 的文案（`Story.<id>.4`）：`幕间 / 幕间 上 / 01 / 02A / BT01 / 终局 / 追忆 / 真·终局 / 尾声`。
+- 状态判定：`IsBattle` 战斗、`IsBranch` 终局、`IsLast` 本章终幕、`MemoryType` 1 追忆 / 2 真·终局、
+  `code` 以「幕间/尾声」开头者单独标。**未开放 = 表里有行但 `Config/` 下没有 `.lua`**（恰 11 行，全在表 Id 10）。
+- 表 `StoryChapter.Id` 与游戏内章号差一章（Id 7 = 特别篇、Id 8 = 第七章）。md 目录名仍用表 Id（`chapter_08_星之竞拍`），
+  站点 URL 与页面标题用 `Index/Name`，**不要**为了对齐去改 185 个目录名。
+- 时间条：官方按**列**给一条 `StoryChapterTimeStamp.<章 Id*100+列序>`，列序归属写在 UI 预制体里，解包表没有。
+  所以节点上的时间取该关剧本自己的首个 `SetSceneHeading`（`时刻/月/日`），196 节点里 155 个有。
+  拿"时刻相同"去反查列号**不成立**（实测会把 `猎月 13日 18:00` 误配成别列的 `刻木鸟日 18:00`），
+  且游戏历法的"日名"与剧本里的"编号日"不同源（13 日在猎月是吠啸枭日、在别处是刻木鸟日）。
+- 特别篇 12 行全无 `ParentStoryId`：官方没记录连线，页面按编号顺序列出并注明，不画假线。
+
+### 8.3 校验（`tests/story/`，两份都不 import 生成器）
+- `validate_story.py` A/A2/B/C/D/E/F：md 产物对旧产物、对剧本原文（台词序列、气泡+阶段号、跳过概要、挂载表、变异测试）。
+- `validate_site.py` G/G2/G3/H/H2/I/I2/J/J2：
+  G 逐字段重导 196 节点 + 图不变量；H 几何（列 = 最长路径、同列不撞位、卡片矩形互不相交、边只跨相邻列）；
+  I 逐页 HTML 台词序列 == md 台词序列（md == 剧本由 F 兜底）；J 检索索引路径/说话人/行数对得上。
+  每条都配植入变异，全部 CAUGHT 才算过。
+- 可比对台词行的口径是 `talk + bubble - sticker`（表情发送渲染成 `〔发送表情 …〕`，不是「台词」），
+  当前 48,576 行。
+
+### 8.4 刻意没做的东西
+- 不给抉择选项标"直觉/分析/混沌"轴色：`SetPersonalityChoice` 参数里只有组号、槽位整数和三句文案，
+  轴身份不在数据里，标了就是编造。
+- 不做"只看我选的那条线"折叠：默认全展开 + 互斥标记，静态可读、可打印、不依赖 JS。
+- 不引任何 webfont / 图标 / CDN；不加阴影、渐变、模糊、光效（第一版扁平是硬要求）。
+- 站点 URL 里不放中文（用 `main/node/STm07_08.html`、`characters/144/14401.html`），md 文件名保留中文便于人工核对。
+
+## 九、 修订记录（2026-10-02）
 - 本文档 604 小节的说法过时：`Story.json` 196 行 + `ActivityStory.json` 124 行 = **320 个剧情小节**，
   旧产物共 510 个 md。以表为准。
 - 同日：`build_story.py` 接入 `CG_*`(角色/NPC/唱片) + `STsp_*` + 序章 `STm00_*` + 7 个存目战斗气泡，
@@ -358,3 +407,6 @@ story_docs/
   改判为注册流程序章那一战，证据见 7.3。
 - 同日：修掉两处抽取缺陷 —— 手机回复抉择把 `param[0]`（组号）当选项输出（产物里出现 `> - **1**`），
   以及 `avg1_144_BB_002` 这类带后缀的说话人 id 解析不出姓名（回落基 id → 千都世/冬香）。
+- 同日：新增纯 Python 静态站（`build_site.py` + `graph_layout.py` + `md2html.py`），
+  主线按 `ParentStoryId` 出游戏式节点图；结构化侧车进 `story_docs/_data/`，
+  独立校验器 `tests/story/validate_{story,site}.py`（契约 A–J）入库。

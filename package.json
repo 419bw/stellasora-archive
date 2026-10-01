@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "Stella Sora Story & Script Knowledge Base",
   "scripts": {
+    "build": "python scripts/build_story.py && python scripts/build_site.py",
+    "verify": "python tests/story/validate_story.py && python tests/story/validate_site.py",
+    "serve": "python -m http.server 8000 --directory site",
+    "generate:legacy-wiki": "python scripts/build_wiki.py",
+    "test": "python scripts/run_benchmark.py",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "generate": "python scripts/build_wiki.py",
-    "test": "python scripts/run_benchmark.py"
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "mermaid": "^10.9.0",
     "vitepress": "^1.0.1",
     "vitepress-plugin-mermaid": "^2.0.16"
-  }
+  },
+  "_note": "当前站点由 scripts/build_site.py 用纯 Python 生成到 site/，不需要 npm；上面三个 vitepress 依赖与 docs:* 脚本是备选方案，尚未安装也未被使用。"
 }

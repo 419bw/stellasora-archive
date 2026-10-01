@@ -13,9 +13,9 @@
    - [3.1 主角正名与代号收束（魔王）](#31-主角正名与代号收束魔王)
    - [3.2 灰色对话框与内心独白判定（TalkType）](#32-灰色对话框与内心独白判定talktype)
    - [3.3 三类交互抉择分支清洗机制](#33-三类交互抉择分支清洗机制)
-4. [独立项目工程化方案（VitePress 静态站）](#四独立项目工程化方案vitepress-静态站)
-5. [一键构建与生成指南](#五一键构建与生成指南)
-6. [云端免费部署指南（Cloudflare Pages / Vercel）](#六云端免费部署指南cloudflare-pages--vercel)
+4. [静态站方案：纯 Python 生成 site/](#四静态站方案纯-python-生成-site)
+5. [构建与本地预览](#五构建与本地预览)
+6. [部署](#六部署)
 7. [后续游戏版本更新与日常维护规范](#七后续游戏版本更新与日常维护规范)
 
 ---
@@ -112,110 +112,53 @@ flowchart TD
 
 ---
 
-## 四、 独立项目工程化方案（VitePress 静态站）
+## 四、 静态站方案：纯 Python 生成 `site/`
 
-推荐使用 **VitePress** 搭建静态剧情站（毫秒级启动、原生支持 Markdown 与 Mermaid、内置深色模式与全文搜索，国内 ACG 维基主流框架）。
+站点由三个脚本负责，全部只依赖标准库，不需要 npm：
 
-### 推荐项目目录结构
-```text
-stellasora-wiki/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml          # GitHub Actions 自动化部署脚本
-├── data/                       # 存放官方解包资产（不提交或提交至 LFS）
-│   ├── StellaSoraData/         # JSON 数据源
-│   └── ss_lua/                 # Lua 剧本数据源
-├── scripts/
-│   ├── build_wiki.py           # 核心知识库生成脚本
-│   └── generate_nav.py         # 自动读取 Markdown 生成 VitePress 侧边栏
-├── docs/                       # VitePress 站点根目录（由脚本生成）
-│   ├── .vitepress/
-│   │   └── config.mts          # 站点配置、Mermaid 插件与搜索配置
-│   ├── index.md                # 知识库站点首页
-│   ├── basics/                 # 世界观与基础设定
-│   ├── story/                  # 主线与活动剧情独立小节
-│   ├── characters/             # 40 位角色档案与约会剧情
-│   └── public/                 # 静态资源与封面图
-├── package.json
-└── README.md
-```
+| 脚本 | 输入 | 输出 |
+|---|---|---|
+| `scripts/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/`（Markdown）+ `story_docs/_data/*.json`（结构化侧车，含节点图坐标） |
+| `scripts/graph_layout.py` | 章节点（`sid/story_id/parents/code`） | 列、轨道、像素坐标（纯函数，无 IO） |
+| `scripts/build_site.py` | `story_docs/` + `_data/` | `site/`（HTML + `assets/tokens.css` + `assets/site.js` + `data/search.js`） |
 
----
+内容真源是 `story_docs/` 的 Markdown（它已被逐句校验过），`scripts/md2html.py` 只做本站
+用到的那一小套 Markdown 语法 → HTML，因此不存在"第二套渲染器"与产物漂移的问题。
 
-## 五、 一键构建与生成指南
+**主线节点图**：边取 `Story.ParentStoryId`，卡面编号取 `Story.Index` 的文案，章头取
+`StoryChapter` 的 `Name/Desc/ChapterYear`。列 = 最长路径深度，轨道 = 分叉围绕父节点上下展开、
+汇合取父轨道均值，一遍重心扫描降交叉。坐标写进 `chapters.json`，页面只是把卡片按坐标摆好、
+连线画在一张扁平 SVG 里。
 
-### 1. 安装环境
-- **Python**：3.10 或更高版本
-- **Node.js**：18.0 或更高版本
+**已知边界（不要当成 bug）**：
+- 表 `StoryChapter.Id` 与游戏内章号差一章（Id 7 = 特别篇、Id 8 = 第七章），站内按游戏内章号显示。
+- 官方界面每条时间槽属于哪一列写在 UI 预制体里，解包表内没有，所以节点时间条取该关剧本自己的
+  场景头（`猎月 14日 10:36`），不冒充官方的按列分组文案。
+- 特别篇 12 行全无 `ParentStoryId`，官方就没记录连线，页面按编号顺序列出并注明。
+- 游戏右下角"直觉/分析/混沌"百分比来自玩家存档，表里只有三轴定义，本站不显示数值。
 
-### 2. 初始化前端依赖
+VitePress 作为备选保留在 `package.json` 的 `docs:*` 脚本里，未安装依赖，也不参与当前构建。
+
+## 五、 构建与本地预览
+
 ```bash
-npm init -y
-npm install -D vitepress mermaid vitepress-plugin-mermaid
+python scripts/build_story.py && python scripts/build_site.py   # 或 npm run build
+python tests/story/validate_story.py && python tests/story/validate_site.py   # 契约 A–J
+python -m http.server 8000 --directory site                     # 或 npm run serve
 ```
+直接双击 `site/index.html` 也能完整使用：检索索引以 `site/data/search.js` 形式内嵌，
+绕开了 `file://` 不能 `fetch()` 本地 JSON 的限制。
 
-### 3. 配置 VitePress (`docs/.vitepress/config.mts`)
-```typescript
-import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
+## 六、 部署
 
-export default withMermaid(
-  defineConfig({
-    title: "星塔旅人 编年史与剧情资料馆",
-    description: "全网首个 1:1 官方高保真剧情剧本与设定知识库",
-    themeConfig: {
-      nav: [
-        { text: '首页', link: '/' },
-        { text: '主线章节', link: '/story/main/overview' },
-        { text: '活动剧情', link: '/story/events/overview' },
-        { text: '旅人名册', link: '/characters/overview' },
-        { text: '世界观', link: '/basics/world_view' }
-      ],
-      search: {
-        provider: 'local' // 内置客户端离线全文搜索
-      },
-      socialLinks: [
-        { icon: 'github', link: 'https://github.com/your-username/stellasora-wiki' }
-      ]
-    }
-  })
-)
-```
+站点是纯静态目录，任何静态托管都行，两种常见做法：
 
-### 4. 执行一键生成
-在本地项目根目录下运行 Python 构建脚本：
-```bash
-python scripts/build_wiki.py
-```
-> 输出结果将自动覆盖 `docs/` 目录，生成全部 600+ 篇独立小节文档、Mermaid 拓扑图与索引表。
+1. **CI 里构建**（推荐，仓库不带产物）：构建命令 `python scripts/build_story.py && python scripts/build_site.py`，
+   输出目录 `site`，运行时选 Python 3.10+。Cloudflare Pages 与 Vercel 都支持。
+2. **本地构建后上传**：把 `site/` 整目录拖进 Cloudflare Pages / 对象存储 / 任意静态空间。
 
-### 5. 本地预览静态站
-```bash
-npx vitepress dev docs
-```
-浏览器打开 `http://localhost:5173` 即可浏览具有完整导航栏、流程图与台词的现代化剧情站。
-
----
-
-## 六、 云端免费部署指南（Cloudflare Pages / Vercel）
-
-静态剧情站构建后仅为 HTML/JS/CSS，完全不需要购买服务器，直接使用免备案且全球高速 CDN 托管。
-
-### 方案 A：Cloudflare Pages（推荐，国内访问顺畅且无流量费用）
-1. 将整理好的代码仓库推送到 GitHub。
-2. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/) -> 选择 **Workers & Pages** -> **Create application** -> **Pages**。
-3. 连接 GitHub 仓库并配置构建参数：
-   - **Framework preset**：`VitePress`
-   - **Build command**：`npm run docs:build`
-   - **Build output directory**：`docs/.vitepress/dist`
-4. 点击 **Save and Deploy**，即可获得永久免费且自动支持 HTTPS 的独立二级域名（例如 `stellasora.pages.dev`），支持绑定自定义域名。
-
-### 方案 B：Vercel（一键式极速部署）
-1. 登录 [Vercel](https://vercel.com/)，点击 **Add New Project**。
-2. 导入 GitHub 仓库，Framework Preset 选择 `VitePress`。
-3. 点击 **Deploy**，约 1 分钟内自动部署上线。
-
----
+若改用 VitePress 前端，需要重写第四节并让 `docs/.vitepress/` 消费同一份 `_data/*.json`——
+数据结构与渲染层是解耦的，换栈不必重跑解析。
 
 ## 七、 后续游戏版本更新与日常维护规范
 

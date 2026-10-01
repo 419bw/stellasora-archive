@@ -10,30 +10,28 @@
   - **正名“魔王”**：彻底修复底层开发代号“塞拉”与 `==PLAYER_NAME==`，忠实呈现主角身份。
   - **精准区分思考与发声**：基于官方引擎 `TalkType = 2`（主角想），全库 1,185 处灰色气泡心理活动赋予 `**魔王**（思考）` 标识。
   - **三类分支抉择净化**：重大抉择（带副标题）、性格倾向抉择、终端短信回复全量清洗。
-- 🗺️ **拓扑导图 (Mermaid DAG)**：每章自动生成有向无环流程图，清晰呈现分支与多结局走向。
-- ⚡ **开箱即用的静态站与离线全文检索**：完美适配 VitePress / Cloudflare Pages / Vercel。
+- 🗺️ **主线节点图**：按官方 `Story.ParentStoryId` 复原游戏内「主線劇情」那张图——分叉、汇合、多结局、未开放节点，坐标随数据产出并逐章校验。
+- ⚡ **零依赖静态站**：`python scripts/build_site.py` 直接生成 `site/`，双击 `index.html` 即可离线浏览与检索；VitePress 只作为备选方案保留在文档里。
 
 ---
 
 ## 📁 目录结构
 ```text
 星塔旅人剧情知识库/
-├── data/                       # 官方解密数据源
-│   ├── StellaSoraData/         # 二进制配置表 JSON
-│   └── ss_lua/                 # 官方 AVG 剧本 Lua 脚本
-├── docs/                       # 知识库 Markdown 核心文档 (也是 VitePress 站点根目录)
-│   ├── basics/                 # 世界观设定与组织势力
-│   ├── story/
-│   │   ├── main/               # 主线剧情 (按章节及独立小节划分)
-│   │   └── events/             # 活动剧情 (按活动划分)
-│   ├── characters/             # 40 位旅人突破档案与专属约会剧情
-│   └── search/                 # 倒排索引与别名表
+├── data/                       # 官方解密数据源（634 MB，不入库）
+├── story_docs/                 # 剧情 Markdown 产物 + _data/ 结构化侧车（评审与校验基线）
+├── site/                       # 生成的静态站（构建产物，不入库）
+├── docs/                       # 早期全量 Markdown（build_wiki.py 产物，保留作校验基线）
 ├── scripts/
-│   ├── build_story.py          # 【剧情专用·当前主线】全部剧情族 → story_docs/
-│   ├── build_wiki.py           # 早期全量构建脚本（含数值/纹章/索引，剧情部分已被上面取代）
-│   └── run_benchmark.py        # 离线验证测试套件 (8/8 事实检索基准)
-├── AI_HANDOVER_GUIDE.md        # 面向后续 AI 与开发者的逆向提取交接手册
-├── OPERATION_MANUAL.md         # 部署运维与 VitePress 建站手册
+│   ├── build_story.py          # 【剧情管道】八族剧本 → story_docs/ + _data/*.json
+│   ├── graph_layout.py         # 主线节点图的分层布局纯函数
+│   ├── md2html.py              # 本站 Markdown 子集 → HTML
+│   ├── build_site.py           # 【站点】story_docs + 侧车 → site/
+│   ├── build_wiki.py           # 早期全量脚本（数值/纹章/索引，剧情部分已被上面取代）
+│   └── run_benchmark.py        # 离线事实检索基准
+├── tests/story/                # 独立校验器 A–J（不吃生成器代码，含植入变异测试）
+├── AI_HANDOVER_GUIDE.md        # 逆向提取与数据契约交接手册
+├── OPERATION_MANUAL.md         # 构建与部署手册
 ├── package.json
 └── README.md
 ```
@@ -42,22 +40,28 @@
 
 ## 🚀 快速开始
 
-### 0. 剧情管道 v2（当前在做的）
+### 0. 剧情管道 + 静态站（当前在做的）
 ```bash
-python scripts/build_story.py     # → story_docs/，507 个剧本页 + _coverage.md + _battle_reconciliation.md
+python scripts/build_story.py     # → story_docs/（507 个剧本页 + _data/*.json 结构化侧车）
+python scripts/build_site.py      # → site/（纯 Python 生成，零 npm 依赖）
+python tests/story/validate_story.py && python tests/story/validate_site.py   # 契约 A–J
 ```
 覆盖八族剧情：主线 185、活动 105、角色个人剧情 120、星塔 NPC 好感 8、唱片 24、故事集 56、
-序章 2、无关卡引用的战斗气泡 7；逐句之外还带 472 张场景卡、559 行聊天正文、
-474 个 `SetChoiceBegin` 抉择/回应、399 条战斗气泡，以及抉择分支的互斥归属标记。
+序章 2、无关卡引用的战斗气泡 7；逐句之外还带场景卡、聊天正文、抉择/回应块、战斗气泡，
+以及抉择分支的互斥归属标记。主线按官方 `ParentStoryId` 画成游戏那种节点图。
 包里剩下 81 个剧本未渲染：`PM_*` 63 个是**心链**聊天全文（外部已有收录，决定不做），
 `DP_*` 17 个是委托玩法结算短演出、`GD_gacha` 1 个是抽卡小演出（均待决），
 清单与已知遗漏见 `AI_HANDOVER_GUIDE.md` 第 7.5 节，逐族覆盖数字由 `story_docs/_coverage.md` 自动给出。
 
-### 1. 重新生成全量知识库
+本地直接双击 `site/index.html` 就能看（检索索引以 `data/search.js` 内嵌，不受 file:// 限制）；
+要挂到端口：`python -m http.server 8000 --directory site`。
+
+### 1. 重新生成早期全量知识库（非剧情内容）
 ```bash
 python scripts/build_wiki.py
 ```
-> 输出结果将自动覆盖 `docs/` 目录。
+> 输出结果将自动覆盖 `docs/` 目录。剧情部分已被上面取代，这里只剩数值/纹章/世界观，
+> 保留它是为了校验器 A 契约的"新旧产物逐句对齐"基线。
 
 ### 2. 运行基准自动化测试
 ```bash
@@ -65,12 +69,10 @@ python scripts/run_benchmark.py
 ```
 > 验证 8 组核心事实（包含复杂多分支、约会台词、材料、词条）检索准确率，预期为 **100% 通过**。
 
-### 3. 本地启动静态站预览 (VitePress)
+### 3. 备选：VitePress 前端
 ```bash
-npm install
-npm run docs:dev
+npm install && npm run docs:dev     # 需先安装依赖；当前站点并不依赖它
 ```
-访问 `http://localhost:5173` 即可浏览。
 
 ---
 
