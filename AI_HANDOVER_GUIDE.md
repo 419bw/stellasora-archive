@@ -244,8 +244,9 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
 
 ## 七、 剧情管道 v2：`scripts/build_story.py`（当前唯一在推进的模块）
 
-`build_wiki.py` 已经塞进太多非剧情内容（数值、唱片、纹章、索引），剧情相关的后续改动一律走
-`scripts/build_story.py`，它只做**主线章节 + 活动章节 + 战斗气泡**三件事，输出到 `story_docs/`。
+`build_wiki.py` 已经塞进太多非剧情内容（数值、纹章、索引），剧情相关的后续改动一律走
+`scripts/build_story.py`，它只管**剧情**：主线章节、活动章节、序章、战斗气泡、角色个人剧情、
+星塔 NPC 好感剧情、唱片剧情、故事集支线，输出到 `story_docs/`。
 它与 `build_wiki.py` 互不影响，可各自重跑。
 
 ### 7.1 换掉正则的原因
@@ -270,14 +271,40 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
 `BBm{Chapter 补零}_{Index 文案}.lua`。**必须用 `Chapter` 字段**：`Story.json` 的 `StoryId`
 在 7~10 章是错位的（第十章的行仍写作 `BAm09_BT0x`）。27 个主线战斗关卡命中 22 个。
 
-### 7.4 已确认的遗漏（下一步的活，别再重新发现一遍）
-- **整族剧本没渲染**（`build_wiki.py` 只渲染了 268/588 个剧本）：
-  - `CG_*` 152 个 —— 由 `Plot.json`(120，字段 `Char`+`AvgId`，即**角色个人剧情**，旧产物只有标题没有正文)、
-    `NPCAffinityPlot.json`(8，星塔 NPC 好感线)、`MiningStory.json`(8)、`DiscIP.json`(24) 引用；
-  - `PM_*` 63 个 —— `Chat.json`(498 行，字段 `AddressBookId`+`AVGId`) 的**手机聊天全篇**，含 822 条表情发送；
-  - `STsp_*` 56 个 —— `StorySetSection.json` + `StorySetChapter.json`(18 章，官方名如「刀尖之寒，掌心之暖」) 的**支线故事集**；
-  - `DP_*` 17 个 —— `AgentSpecialPerformance.json`(111 行，字段 `CharId`+`Avg`) 的约会/特殊演出；
-  - `BBm00_01..06`、`BBm07_BT03` —— 无关卡引用（教学关或未上线）；`GD_gacha` 1 个。
+BBm 一律**不写进任何配置表**（对全部 `CN/bin` 的字符串字段做过穷举匹配，`BBm*` 零命中），
+文件名完全由客户端拼。因此剩下 7 个只能按代号存目：
+
+- `BBm00_01..06`（63 条气泡，说话人只有鸢尾/琥珀/尘沙）—— 就是**注册流程打的那一关**。
+  同场序章剧本 `STm00_01`《最初的起点》`SetIntro = {ep_mainline_001, "序", "最初的起点", 三位少女在沙漠星塔找到许愿箱…}`
+  与它内容严格对上（许愿箱、沙漠、同一批人），`Story`/`StoryChapter` 都从第 1 章起列，所以表里查不到；
+  先前推测的"教学关"不成立，`TutorialLevel`/`TutorialLevelFloor` 引的是 `TrainingLevels_01`。
+- `BBm07_BT03`（6 条，千都世）—— 第七章表内只列两场（`BAm06x5_01/02`），这是没有关卡行的追加战。
+
+### 7.4 已接入的四个剧本族（本轮新增）
+| 族 | 文件数 | 挂载源（字段名实测，别再猜） | 产物目录 |
+|---|---|---|---|
+| 角色个人剧情 | 120 篇（129 行） | `Plot.json`：`AvgId`+`Char`+`UnlockAffinityLevel`(1/5/10)+`Name`/`Desc` 文案键 | `story_docs/characters/<角色号>_<姓名>/sections/` |
+| 星塔 NPC 好感 | 8 | `NPCAffinityPlot.json`：`avgId`（小写 a）+`NPCId`，NPC 名在 `StarTowerNPC.json` | `story_docs/npc_bonds/` |
+| 唱片剧情 | 24 | `DiscIP.json`：102 行里只有 24 行带 `AvgId`，标题 `StoryName`、散文 `StoryDesc` | `story_docs/discs/` |
+| 故事集支线 | 56 节 / 18 章 | `StorySetSection.json`：`AVGId`，上级 `StorySetChapter`(1..18)+`StorySetTab`（1 是"全部"过滤器，不是栏目） | `story_docs/storysets/<栏目>/<章号>_<章名>/sections/` |
+| 序章 | 2 | 无表引用，剧本代号 `STm00_*` | `story_docs/prologue/` |
+
+要点：
+- `Plot.json` 有 9 行是"换皮角色"复用同一剧本（薇洛（盛夏）160 与魔侍巨像 997/998/999 指向同一
+  `CG_160_0x`），**按剧本代号去重**、只有带标题文案的那一行出页面，其余记在该页的「复用此剧本的档案」里。
+- 唱片的 `StoryDesc` 是一篇 600–1650 字的**散文**，与 AVG 剧本是两份文本（实测剧本 109 句里没有任何一句
+  出自该散文），所以单独作为第 4 节存目，不能混进逐句台词。
+- 栏目 `StorySetTab` 的"异界秘辛"目前没有任何已上线章节（`IsShow` 为空），产物里不出现该目录是正确的。
+- `MiningStory.json`(8 行) 的 `AvgId` 复用了 103/107/108/110 四个角色个人剧情的前两篇，已随角色族渲染。
+
+### 7.5 剩余遗漏（下一步的活，别再重新发现一遍）
+- `PM_*` 63 个 —— `Chat.json`(498 行) 的**角色通讯录聊天全篇**：10174 条短信（其中 822 条是发送表情）、
+  340 组回复抉择；40 个角色，每文件分 9 段（另 23 个文件只有 6 段），`TriggerType` 1/2、
+  `TriggerCond` 用 `[103]`/`[103,5]` 这类参数（后者是角色+好感等级），属好感内容。**待用户决定做不做**。
+- `DP_*` 17 个 —— `AgentSpecialPerformance.json`(111 行) 按上阵人数(1/2/3 人)与权重(50/150/300)随机选
+  一段**委托玩法结算短演出**，共 321 句台词（平均 19 句/文件），`SetGroupId` 用的就是委托 Plot id（10301…）。
+  委托单本身在 `Agent.json`(36 行，含 `Consignor` 委托人)。**待用户决定做不做**。
+- `GD_gacha` 1 个 —— 抽卡时的 4 句小车演出，无表引用，建议不做。
 - **流程控制指令未处理**：`IfTrue`/`IfUnlock`/`IfUnlockElse`/`IfUnlockEnd`（按解锁状态分支）、
   `JUMP_AVG_ID`（跳到另一个剧本的指定位置，说明存在跨剧本连续剧情）、
   `CheckBE`/`CheckBECase`/`CheckBEEnd`/`GetEvidence`（坏结局与"证据"判定，关系多结局 DAG）。
@@ -287,13 +314,43 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
 - 第十章剧情只开放了部分线路：`STm09_0x_c/_d` 与 `BBm10_BT0x` 在包里本就不存在，不是解包缺陷；
   对账见 `story_docs/_battle_reconciliation.md`。
 
-### 7.5 校验
-`.tmp_verify/validate_story.py`（独立行扫描实现，不 import 新脚本）四条契约：
-逐句对齐旧产物（268 篇，真实分歧 0）、气泡完整性（330 条 0 分歧）、
-新增行来源计数（场景卡/气泡/短信/通用抉择 与 Lua 指令数逐一对等）、变异测试（改字/错阶段号/删气泡均被抓到）。
+### 7.6 产物目录与覆盖对账
+```text
+story_docs/
+├── main/chapter_NN_<章名>/sections/            185 篇主线关卡
+├── events/activity_NN_<活动名>/sections/        105 篇活动关卡
+├── characters/<角色号>_<姓名>/sections/         120 篇角色个人剧情（好感 1/5/10 三篇）
+├── npc_bonds/<NPC号>_<姓名>/sections/            8 篇星塔 NPC 好感
+├── discs/<唱片 ID>_<唱片名>.md                   24 篇唱片剧情（含散文附文）
+├── storysets/<栏目>/<章号>_<章名>/sections/      56 篇故事集
+├── prologue/sections/                            2 篇序章
+├── battles_unmounted/                            7 篇无关卡引用的战斗气泡
+├── _battle_reconciliation.md   战斗气泡挂接对账
+└── _coverage.md                588 个剧本的逐族覆盖表 + 未渲染清单（每次构建自动重算）
+```
+当前 588 个剧本已渲染 **507** 个，未渲染 81 个 = `PM_*`63 + `DP_*`17 + `GD_gacha`1，
+即上表里标"待决"的三族；这个数字由 `write_coverage()` 生成，不用手工维护。
+
+### 7.7 校验
+`.tmp_verify/validate_story.py`（独立行扫描实现，不 import 新脚本）六条契约：
+- `A2` 跳过概要 旧产物 == 新产物 == 剧本 `SetIntro[3]`（290 篇，0 分歧；旧脚本 `"([^"]*)"` 的截断缺陷保留 1 处证据）
+- `A`  逐句台词序列 旧产物 == 新产物（268 篇，0 分歧）
+- `B`  战斗气泡逐阶段完整性（330 条，0 分歧）
+- `C`  新增行来源计数与 Lua 指令数对等（场景卡/气泡/短信/通用抉择）
+- `D`/`E`/`F` 变异测试 + 新四族挂载审计 + **全树逐页**（507 页：台词序列、气泡+阶段号、跳过概要三项各自对齐剧本原文，全部 0 分歧；
+  植入"改一句台词/改阶段号/改概要"均被抓到）
+
+尺子自己的坑（已踩）：`unescape_lua` 用 `s.strip('"')` 会把 `"……\""` 结尾的反斜杠留成野字符，
+必须只剥首尾各一个引号再单遍反转义，否则会假报 CG_126_03 一处分歧。
 
 ---
 
 ## 八、 修订记录（2026-10-02）
 - 本文档 604 小节的说法过时：`Story.json` 196 行 + `ActivityStory.json` 124 行 = **320 个剧情小节**，
   旧产物共 510 个 md。以表为准。
+- 同日：`build_story.py` 接入 `CG_*`(角色/NPC/唱片) + `STsp_*` + 序章 `STm00_*` + 7 个存目战斗气泡，
+  产物 507 个剧本页 + 2 个对账文件；`story_docs/_coverage.md` 改为构建时自动生成。
+- 同日：撤回"BBm00_* 是教学关"的推测（`TutorialLevel*` 引的是 `TrainingLevels_01`，与 BBm 无关），
+  改判为注册流程序章那一战，证据见 7.3。
+- 同日：修掉两处抽取缺陷 —— 手机回复抉择把 `param[0]`（组号）当选项输出（产物里出现 `> - **1**`），
+  以及 `avg1_144_BB_002` 这类带后缀的说话人 id 解析不出姓名（回落基 id → 千都世/冬香）。

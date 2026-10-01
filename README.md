@@ -29,8 +29,8 @@
 │   ├── characters/             # 40 位旅人突破档案与专属约会剧情
 │   └── search/                 # 倒排索引与别名表
 ├── scripts/
-│   ├── build_story.py          # 【剧情专用·当前主线】主线+活动+战斗气泡 → story_docs/
-│   ├── build_wiki.py           # 早期全量构建脚本（含数值/唱片/纹章/索引，剧情部分已被上面取代）
+│   ├── build_story.py          # 【剧情专用·当前主线】全部剧情族 → story_docs/
+│   ├── build_wiki.py           # 早期全量构建脚本（含数值/纹章/索引，剧情部分已被上面取代）
 │   └── run_benchmark.py        # 离线验证测试套件 (8/8 事实检索基准)
 ├── AI_HANDOVER_GUIDE.md        # 面向后续 AI 与开发者的逆向提取交接手册
 ├── OPERATION_MANUAL.md         # 部署运维与 VitePress 建站手册
@@ -44,11 +44,13 @@
 
 ### 0. 剧情管道 v2（当前在做的）
 ```bash
-python scripts/build_story.py     # → story_docs/{main,events}
+python scripts/build_story.py     # → story_docs/，507 个剧本页 + _coverage.md + _battle_reconciliation.md
 ```
-只做主线章节、活动章节与战斗关卡内的气泡对白，逐句对齐旧产物后新增：467 张场景卡、
-400 行手机聊天正文、165 个 `SetChoiceBegin` 抉择/回应、330 条战斗气泡。
-未渲染内容与已知遗漏见 `AI_HANDOVER_GUIDE.md` 第 7.4 节。
+覆盖八族剧情：主线 185、活动 105、角色个人剧情 120、星塔 NPC 好感 8、唱片 24、故事集 56、
+序章 2、无关卡引用的战斗气泡 7；逐句之外还带 472 张场景卡、559 行聊天正文、
+474 个 `SetChoiceBegin` 抉择/回应、399 条战斗气泡，以及抉择分支的互斥归属标记。
+包里剩下 81 个剧本（`PM_*` 手机聊天 63 / `DP_*` 委托演出 17 / `GD_gacha` 1）待决，
+清单与已知遗漏见 `AI_HANDOVER_GUIDE.md` 第 7.5 节，逐族覆盖数字由 `story_docs/_coverage.md` 自动给出。
 
 ### 1. 重新生成全量知识库
 ```bash
