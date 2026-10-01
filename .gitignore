@@ -14,3 +14,6 @@ data/
 
 # 本地校验探针与产物基线备份
 .tmp_verify/
+
+# 站点构建产物（由 scripts/build_site.py 生成）
+site/
