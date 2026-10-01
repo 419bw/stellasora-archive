@@ -235,8 +235,19 @@ def speaker_of(spk_id, talk_type):
         return PROTAG_NAME
     if sid == "0":
         return PROTAG_NAME if str(talk_type) == "2" else "旁白"
-    name, surfix = SPEAKERS.get(sid, ("", ""))
+    name, surfix = SPEAKERS.get(sid) or speaker_prefix_of(sid) or ("", "")
     return clean_text(name or surfix or sid)
+
+
+def speaker_prefix_of(sid):
+    """Variant speaker keys carry a suffix the preset table does not list (avg1_144_BB_002
+    is 千都世), so fall back to the longest dotted prefix that is registered."""
+    parts = sid.split('_')
+    for cut in range(len(parts) - 1, 1, -1):
+        hit = SPEAKERS.get('_'.join(parts[:cut]))
+        if hit:
+            return hit
+    return None
 
 
 # ============================================================ command processing
@@ -267,7 +278,9 @@ def fork_options(kind, param):
         return prompt, opts
 
     if kind == "phone":
-        return "", [(clean_dialogue(s), "") for s in strings if clean_dialogue(s) and s not in ("avg3_100",)]
+        # param[0] is the group id the reply jumps are keyed by; the labels follow it
+        return "", [(clean_dialogue(s), "") for s in list(param)[1:]
+                    if isinstance(s, str) and clean_dialogue(s) and s != "avg3_100"]
 
     if kind == "generic":
         filled = [x for x in nested if any(isinstance(v, str) and v.strip() for v in x)]
