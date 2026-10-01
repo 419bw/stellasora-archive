@@ -64,11 +64,12 @@ def layout(title, body, depth, crumb, note=''):
 %s%s
 </main>
 <footer class="foot">%s %s</footer>
+<script src="%sdata/search.js"></script>
 <script src="%sassets/site.js"></script>
 </body></html>
 """ % (esc(title), root, root, nav,
        '<nav class="crumb">%s</nav>\n' % crumb if crumb else '', body,
-       esc(note), BASELINE, root)
+       esc(note), BASELINE, root, root)
 
 
 def slug_of(family):
@@ -154,9 +155,10 @@ def family_index(family, intro):
     return layout(FAMILY_NAME[family], """
 <h1>%s</h1>
 <p class="lede">%s</p>
-<div class="searchbox"><input type="search" placeholder="在本类中检索…" data-scope="%s"></div>
+<div class="searchbox"><input type="search" placeholder="在本类中检索标题、概要、说话人…"
+     data-scope="%s" data-root="%s"><div class="results" hidden></div></div>
 %s
-""" % (esc(FAMILY_NAME[family]), esc(intro), slug_of(family), ''.join(blocks)),
+""" % (esc(FAMILY_NAME[family]), esc(intro), slug_of(family), '../' * d, ''.join(blocks)),
         d, crumb)
 
 
@@ -195,7 +197,8 @@ def home():
     return layout('首页', """
 <h1>星塔旅人 剧情档案</h1>
 <p class="lede">官方剧本的逐句全文、分支抉择与关卡拓扑。共 %d 篇、%s 句台词与气泡。</p>
-<div class="searchbox"><input type="search" placeholder="检索标题、概要、说话人…" data-scope="_all"></div>
+<div class="searchbox"><input type="search" placeholder="检索标题、概要、说话人…"
+ data-scope="_all" data-root=""><div class="results" hidden></div></div>
 <ul class="tiles">%s</ul>
 <section class="card"><h3>魔王倾向三轴（术语）</h3>
 <p class="aside">表内只有三轴定义；游戏里那个百分比来自玩家存档，解包数据中没有，本站不显示数值。</p>
@@ -329,6 +332,11 @@ def main():
         shutil.rmtree(SITE)
     os.makedirs(SITE)
     shutil.copytree(DATA, os.path.join(SITE, 'data'))
+    # file:// cannot fetch() a JSON sibling, so the index ships as a script assignment
+    index = load('search.json')
+    write(os.path.join(SITE, 'data', 'search.js'),
+          'window.STORY_INDEX = %s;\n' % json.dumps(index, ensure_ascii=False,
+                                                    separators=(',', ':')))
     write(os.path.join(SITE, 'assets', 'tokens.css'), CSS)
     write(os.path.join(SITE, 'assets', 'site.js'), JS)
     write(os.path.join(SITE, 'index.html'), home())
@@ -468,6 +476,14 @@ mark{background:#FFF1C9;color:inherit}
 .linelist .code{display:inline-block;min-width:3.5em;font-family:var(--serif);font-weight:600}
 .linelist .t{margin-right:10px}
 .linelist .s{font-size:12px;color:var(--ink2)}
+.results{margin-top:10px;background:var(--card);border:1px solid var(--rule);border-radius:4px;
+  padding:8px 14px}
+.results[hidden]{display:none}
+.hits{list-style:none;padding:0;margin:0}
+.hits li{padding:4px 0;border-bottom:1px dotted var(--rule)}
+.hits a{border:0;display:block}
+.hits b{font-family:var(--serif);font-weight:600;margin-right:8px}
+.hits span{font-size:12px;color:var(--ink2)}
 @media (max-width:900px){
   .map{overflow:visible;border:0}
   .canvas{width:auto!important;height:auto!important}
@@ -481,16 +497,51 @@ mark{background:#FFF1C9;color:inherit}
 
 JS = """
 (function(){
-  var box=document.querySelector('.searchbox input');
-  if(box){
+  var IDX=(window.STORY_INDEX||{entries:[]}).entries;
+  var FAM={npc:'npc_bonds',battles:'battles_unmounted'};
+  function norm(s){return (s||'').toLowerCase();}
+  function score(e,q){
+    var s=0,t=norm(e.title+' '+e.code+' '+e.group),h=norm(e.hay),sp=norm(e.speakers.join(' '));
+    if(t.indexOf(q)>=0)s+=6;
+    if(sp.indexOf(q)>=0)s+=4;
+    if(h.indexOf(q)>=0)s+=2;
+    // Chinese has no word boundaries: a two-character sliding window catches partial names
+    for(var i=0;i+2<=q.length;i++){var g=q.substr(i,2);
+      if(h.indexOf(g)>=0)s+=1; if(sp.indexOf(g)>=0)s+=1;}
+    return s;
+  }
+  function run(box,pane,scope,root,q){
+    var hits=[];
+    for(var i=0;i<IDX.length;i++){
+      var e=IDX[i];
+      if(scope!=='_all'&&(e.family!==(FAM[scope]||scope)))continue;
+      var s=score(e,q);
+      if(s>0)hits.push([s,e]);
+    }
+    hits.sort(function(a,b){return b[0]-a[0]||String(a[1].title).localeCompare(b[1].title);});
+    pane.hidden=false;
+    if(!hits.length){pane.innerHTML='<p class="aside">没有匹配的剧情页。</p>';return;}
+    var out=['<p class="aside">命中 '+hits.length+' 篇（最多列 40）</p><ul class="hits">'];
+    hits.slice(0,40).forEach(function(h){
+      var e=h[1];
+      out.push('<li><a href="'+root+e.page+'"><b>'+[e.code,e.title].filter(Boolean).join(' ')+'</b>'
+        +'<span>'+e.group+'　'+e.speakers.slice(0,4).join('、')+'</span></a></li>');
+    });
+    pane.innerHTML=out.join('')+'</ul>';
+  }
+  [].slice.call(document.querySelectorAll('.searchbox input')).forEach(function(box){
+    var pane=box.parentNode.querySelector('.results');
+    var scope=box.getAttribute('data-scope'),root=box.getAttribute('data-root')||'';
     var groups=[].slice.call(document.querySelectorAll('.grp, .chaplist li, .tiles li'));
     box.addEventListener('input',function(){
       var q=box.value.trim().toLowerCase();
       groups.forEach(function(g){
         g.style.display=(!q||g.textContent.toLowerCase().indexOf(q)>=0)?'':'none';
       });
+      if(q.length>=1&&IDX.length)run(box,pane,scope,root,q);
+      else pane.hidden=true;
     });
-  }
+  });
   var map=document.querySelector('.map');
   [].slice.call(document.querySelectorAll('[data-scroll-to]')).forEach(function(a){
     a.addEventListener('click',function(e){
@@ -499,10 +550,6 @@ JS = """
       map.scrollTo({left:parseInt(a.getAttribute('data-scroll-to'),10)-40,behavior:'smooth'});
     });
   });
-  if(map){
-    var first=document.querySelector('.node');
-    if(first)map.scrollLeft=0;
-  }
 })();
 """
 

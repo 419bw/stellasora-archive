@@ -533,6 +533,8 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
         if b['k'] in ('talk', 'bubble') and b['speaker'] not in speakers:
             speakers.append(b['speaker'])
     stems = [s for s in stems if s]
+    counts = collections.Counter(b['k'] for b in beats)
+    counts['sticker'] = sum(1 for b in beats if b['k'] == 'talk' and b.get('sticker'))
     rec = {
         'id': ident, 'family': family, 'code': code, 'title': title,
         'group': group or {},
@@ -541,7 +543,7 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
         'stems': stems,
         'recap': parsed['meta']['recap'],
         'speakers': speakers,
-        'counts': dict(collections.Counter(b['k'] for b in beats)),
+        'counts': dict(counts),
         'preview': " ".join(b['text'] for b in beats if b['k'] == 'talk')[:180],
     }
     rec.update(extra)
