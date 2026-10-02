@@ -8,9 +8,20 @@ CSS = """
   
   --bg: #EEF2F6;
   --bg-gradient: 
-    linear-gradient(135deg, #F8FAFC 0%, #EEF2F6 45%, #E2E8F0 85%, #E5EBF2 100%),
-    radial-gradient(ellipse 70% 500px at 10% -40px, rgba(186, 230, 253, 0.40) 0%, transparent 70%),
-    radial-gradient(ellipse 65% 540px at 90% -50px, rgba(233, 213, 255, 0.35) 0%, transparent 70%);
+    linear-gradient(118deg, 
+      transparent 0%, 
+      transparent 35%, 
+      rgba(255, 255, 255, 0.35) 35%, 
+      rgba(255, 255, 255, 0.35) 48%, 
+      transparent 48%, 
+      transparent 70%, 
+      rgba(255, 255, 255, 0.22) 70%, 
+      rgba(255, 255, 255, 0.22) 82%, 
+      transparent 82%
+    ),
+    radial-gradient(ellipse 70% 500px at 10% -40px, rgba(186, 230, 253, 0.35) 0%, transparent 70%),
+    radial-gradient(ellipse 65% 540px at 90% -50px, rgba(233, 213, 255, 0.30) 0%, transparent 70%),
+    linear-gradient(135deg, #F8FAFC 0%, #EEF2F6 45%, #E2E8F0 85%, #E5EBF2 100%);
   --surface: #FFFFFF;
   --text-main: #0F172A;
   --text-muted: #475569;
@@ -42,9 +53,20 @@ CSS = """
 [data-theme="dark"] {
   --bg: #0A0E17;
   --bg-gradient: 
-    linear-gradient(135deg, #0A0E17 0%, #0F1522 50%, #090D15 100%),
+    linear-gradient(118deg, 
+      transparent 0%, 
+      transparent 35%, 
+      rgba(255, 255, 255, 0.02) 35%, 
+      rgba(255, 255, 255, 0.02) 48%, 
+      transparent 48%, 
+      transparent 70%, 
+      rgba(255, 255, 255, 0.015) 70%, 
+      rgba(255, 255, 255, 0.015) 82%, 
+      transparent 82%
+    ),
     radial-gradient(ellipse 70% 500px at 10% -40px, rgba(14, 116, 144, 0.16) 0%, transparent 70%),
-    radial-gradient(ellipse 65% 540px at 90% -50px, rgba(109, 40, 217, 0.14) 0%, transparent 70%);
+    radial-gradient(ellipse 65% 540px at 90% -50px, rgba(109, 40, 217, 0.14) 0%, transparent 70%),
+    linear-gradient(135deg, #0A0E17 0%, #0F1522 50%, #090D15 100%);
   --surface: #121824;
   --text-main: #F1F5F9;
   --text-muted: #94A3B8;
@@ -85,42 +107,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  position: relative;
-}
-/* Diagonal facet color difference (斜向低多边形切面微色差 - 参考官方卡牌与按钮质感) */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background-image:
-    linear-gradient(118deg, 
-      transparent 0%, 
-      transparent 35%, 
-      rgba(255, 255, 255, 0.45) 35%, 
-      rgba(255, 255, 255, 0.45) 48%, 
-      transparent 48%, 
-      transparent 70%, 
-      rgba(255, 255, 255, 0.30) 70%, 
-      rgba(255, 255, 255, 0.30) 82%, 
-      transparent 82%
-    );
-  opacity: 0.7;
-}
-[data-theme="dark"] body::before {
-  background-image:
-    linear-gradient(118deg, 
-      transparent 0%, 
-      transparent 35%, 
-      rgba(255, 255, 255, 0.02) 35%, 
-      rgba(255, 255, 255, 0.02) 48%, 
-      transparent 48%, 
-      transparent 70%, 
-      rgba(255, 255, 255, 0.015) 70%, 
-      rgba(255, 255, 255, 0.015) 82%, 
-      transparent 82%
-    );
 }
 
 /* Header & Navigation */
