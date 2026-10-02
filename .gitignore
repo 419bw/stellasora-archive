@@ -17,3 +17,8 @@ data/
 
 # 站点构建产物（由 scripts/build_site.py 生成）
 site/
+
+# 本地私有笔记与解密工具（严格本地保留，绝不提交至公开仓库）
+local_secrets/
+*.local.*
+*.secret.*

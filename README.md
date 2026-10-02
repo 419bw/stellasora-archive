@@ -114,6 +114,15 @@ python tests/story/validate_site.py
 
 ---
 
+## 数据来源与上游鸣谢 (Upstream Data Sources)
+
+本档案库的高保真内容生成依赖社区开源维护的数据镜像。在此向以下优秀的上游开源项目致以诚挚谢意：
+
+- **[StellaSoraData](https://github.com/AutumnVN/StellaSoraData)**（由 AutumnVN 维护）：提供全量官方结构化数据配置（关卡、章节、好感与活动表）及官方中文文案查找表。
+- **[ss-lua](https://github.com/MakoStar/ss-lua)**（由 MakoStar 维护）：提供全量反编译 AVG 剧情脚本（`Avg/_cn/Config/*.lua`）与角色预设查找表（`AvgCharacter.lua`），使本项目能精准还原逐句对话、内心独白与分支抉择。
+
+---
+
 ## 开发者与维护文档
 
 - [操作与更新手册 (OPERATION_MANUAL.md)](./OPERATION_MANUAL.md)：数据源规范、脚本体系说明与版本维护流程。
