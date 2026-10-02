@@ -7,47 +7,46 @@ import md2html
 
 FAMILIES = [
     ('main', '主线剧情', '官方关卡表全线拓扑、分支抉择与终局推演。'),
-    ('events', '活动剧情', '11 个主题活动的关卡剧情全文与阶段收录。'),
-    ('characters', '角色个人剧情', '40 位旅人专属故事，好感等级 1 / 5 / 10 篇章。'),
-    ('npc_bonds', '星塔 NPC 好感', '波西亚、贝缇丽、珀尔娜、维嘉尔各两话羁绊剧情。'),
-    ('discs', '唱片剧情', '带剧本的 24 张黑胶唱片，附官方原版散文。'),
-    ('storysets', '故事集支线', '4 个栏目 17 个故事集 56 小节日常回忆与侧写。'),
+    ('events', '活动剧情', '各期主题活动的关卡剧情全文与阶段收录。'),
+    ('characters', '角色个人剧情', '旅人专属故事，好感等级逐级解锁。'),
+    ('npc_bonds', '星塔 NPC 好感', '星塔驻留人员与常驻 NPC 羁绊剧情。'),
+    ('discs', '唱片剧情', '收录秘闻与唱片剧情剧本，附官方原版散文。'),
+    ('storysets', '故事集支线', '主题故事集与日常侧写，收录支线剧情与回忆。'),
     ('prologue', '序章', '注册流程播出的《最初的起点》篇章。'),
     ('battles_unmounted', '存目战斗气泡', '关卡表未引用的独立存目战斗气泡与战场台词。'),
 ]
 FAMILY_NAME = {k: n for k, n, _ in FAMILIES}
-BASELINE = '数据基准：官方公测客户端解包（zh_CN）。'
 
 FAMILY_META = {
     'main': {
         'code': '01',
         'span': 'span-2',
-        'desc': '官方关卡表全线拓扑、分支抉择与终局推演，涵盖第一章至第九章及特别篇完整图景。',
+        'desc': '官方关卡表全线拓扑、分支抉择与终局推演，涵盖主线各章节及特别篇完整图景。',
     },
     'characters': {
         'code': '02',
         'span': 'span-2',
-        'desc': '40 位旅人专属故事，好感等级 1 / 5 / 10 逐级解锁，深入角色内心世界与往事。',
+        'desc': '旅人专属故事，好感等级逐级解锁，深入角色内心世界与往事。',
     },
     'events': {
         'code': '03',
         'span': 'span-1',
-        'desc': '11 个主题活动的关卡剧情全文与阶段收录。',
+        'desc': '各期主题活动的关卡剧情全文与阶段收录。',
     },
     'discs': {
         'code': '04',
         'span': 'span-1',
-        'desc': '带剧本的 24 张黑胶唱片，附官方原版散文。',
+        'desc': '收录秘闻与唱片剧情剧本，附官方原版散文。',
     },
     'storysets': {
         'code': '05',
         'span': 'span-1',
-        'desc': '4 个栏目 17 个故事集 56 小节日常回忆与侧写。',
+        'desc': '主题故事集与日常侧写，收录支线剧情与多重视角回忆。',
     },
     'npc_bonds': {
         'code': '06',
         'span': 'span-1',
-        'desc': '波西亚、贝缇丽、珀尔娜、维嘉尔各两话羁绊剧情。',
+        'desc': '星塔驻留人员与常驻 NPC 的日常羁绊交流剧情。',
     },
     'prologue': {
         'code': '07',
@@ -181,10 +180,11 @@ def layout(title, body, depth, crumb, note=''):
 <footer class="foot">
   <div class="foot-inner">
     <div class="foot-brand"><img class="foot-icon" src="%sassets/icon_story.png" alt="" width="16" height="20"> 星塔旅人 剧情知识档案</div>
-    <div class="foot-meta">%s %s</div>
+    <div class="foot-meta">%s</div>
   </div>
   <div class="foot-disclaimer">
-    <p>免责声明：本站为玩家独立制作的非盈利粉丝项目，仅供剧情研读、世界观考据与个人交流使用。游戏中所有剧情文本、美术素材及角色设定等知识产权均归属《星塔旅人》官方团队及原版权方所有。</p>
+    <p>本站为玩家自制的非官方资料整理工具，与游戏官方运营团队无任何关联。YOSTAR GAMES（悠星网络）拥有游戏的原始资产，站内涉及的游戏文案、剧本、立绘、头像、图标等版权均归原发行商及原版权方所有。本站仅供剧情研读、世界观考据与个人交流学习使用，100%% 为非盈利性粉丝项目，不以任何形式盈利，不提供素材下载与游戏客户端修改。如因使用相关内容产生任何争议或损失，本站概不负责。若官方团队或版权所有方认为本站收录内容有所不妥，请联系 1950537289@qq.com，我们会第一时间删除或配合调整。</p>
+    <p class="foot-font">使用字体：MiSans, MiSansLatin</p>
   </div>
 </footer>
 <button class="back-to-top" id="backToTop" type="button" title="回到顶部" aria-label="回到顶部">
@@ -196,7 +196,7 @@ def layout(title, body, depth, crumb, note=''):
 """ % (esc(title), root, root,
        root, root, nav_links,
        ('<nav class="crumb">%s</nav>\n' % crumb) if crumb else '', body,
-       root, esc(note), BASELINE,
+       root, esc(note) if note else '',
        root, root)
 
 
@@ -684,6 +684,15 @@ def home_page(pages, personality_data):
 <div class="hero">
   <h1 class="hero-title">星塔旅人 剧情档案</h1>
   <p class="hero-desc">官方剧本全文、分支抉择与关卡拓扑。收录 %d 篇、%s 句台词与气泡。</p>
+  <div class="hero-badge-wrap">
+    <a class="hero-update-pill" href="#updates">
+      <span class="pill-dot"></span>
+      <span class="pill-date">2026-10-02</span>
+      <span class="pill-sep">·</span>
+      <span class="pill-text">上次更新：拓扑分支修正与标题去重</span>
+      <span class="pill-arrow">↓</span>
+    </a>
+  </div>
   
   <div class="searchbox hero-search">
     <div class="search-input-wrap">
@@ -698,4 +707,27 @@ def home_page(pages, personality_data):
   <div class="bento-indicator" aria-hidden="true"></div>
   %s
 </ul>
+
+<section class="update-section" id="updates">
+  <div class="update-card">
+    <div class="update-header">
+      <div class="update-title">
+        <svg class="update-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <span>最近更新</span>
+      </div>
+      <div class="update-date-badge">
+        <span class="dot"></span>
+        <span>更新时间：2026-10-02</span>
+      </div>
+    </div>
+    <div class="update-summary">剧情拓扑分支修正、NPC 标题智能去重与文案规范优化</div>
+    <ul class="update-list">
+      <li><strong>拓扑分支修复</strong>：修正活动剧情关卡拓扑图（如万送屋）中过程分支被误标记为“终局”的问题，准确呈现“分支”样式与流向。</li>
+      <li><strong>标题去重优化</strong>：修复 NPC 羁绊各话在列表、面包屑、上下节导航及全站搜索结果中“第一话 第一话”重复前缀的问题。</li>
+      <li><strong>卡片文案优化</strong>：全面去除首页各分类卡片描述中的硬编码数量，提升内容自适应度，预备秘闻与新活动扩展。</li>
+      <li><strong>免责声明强化</strong>：更新非官方粉丝项目免责叠甲，明确悠星网络原始资产权属，注明交流学习非盈利性质及联络邮箱。</li>
+      <li><strong>合规化展示</strong>：移除技术说明中关于客户端解包的敏感表述，规范站内数据展示。</li>
+    </ul>
+  </div>
+</section>
 """ % (len(pages), format(lines, ','), ''.join(bento_items)), 0, '')

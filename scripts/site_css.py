@@ -3,7 +3,7 @@
 
 CSS = """
 :root {
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-sans: "MiSans", "MiSansLatin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   
   --bg: #EEF2F6;
@@ -237,6 +237,46 @@ h1 {
   margin: 0 0 24px;
   line-height: 1.6;
 }
+.hero-badge-wrap {
+  margin: -14px 0 22px;
+}
+.hero-update-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 12px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border-subtle);
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+.hero-update-pill:hover {
+  color: var(--text-main);
+  border-color: var(--card-border-hover);
+  background: var(--card-bg-subtle);
+  transform: translateY(-1px);
+}
+.hero-update-pill .pill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--story);
+}
+.hero-update-pill .pill-date {
+  font-weight: 600;
+  color: var(--text-main);
+}
+.hero-update-pill .pill-sep {
+  opacity: 0.4;
+}
+.hero-update-pill .pill-arrow {
+  color: var(--story);
+  font-weight: 700;
+}
 
 /* Bento Grid */
 .bento {
@@ -368,6 +408,93 @@ h1 {
   transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
   z-index: 1;
   opacity: 0;
+}
+
+/* Update Section (最近更新板块) */
+.update-section {
+  max-width: 1100px;
+  margin: 10px auto 36px;
+}
+.update-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 22px 26px;
+  position: relative;
+  box-shadow: var(--card-shadow);
+  transition: border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.update-card:hover {
+  border-color: var(--card-border-hover);
+  box-shadow: var(--card-shadow-hover);
+}
+.update-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--card-border-subtle);
+}
+.update-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.update-icon {
+  color: var(--story);
+}
+.update-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--story);
+  background: rgba(13, 148, 136, 0.08);
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(13, 148, 136, 0.2);
+}
+.update-date-badge .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--story);
+}
+.update-summary {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 12px;
+}
+.update-list {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+.update-list li strong {
+  color: var(--text-main);
+}
+@media (max-width: 640px) {
+  .update-card {
+    padding: 18px 18px;
+  }
+  .update-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 }
 
 /* Search Box */
@@ -1354,6 +1481,11 @@ h1 {
 }
 .foot-disclaimer p {
   margin: 0;
+}
+.foot-disclaimer .foot-font {
+  margin-top: 6px;
+  font-size: 11px;
+  opacity: 0.8;
 }
 
 /* Back to Top */
