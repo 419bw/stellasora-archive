@@ -6,14 +6,14 @@ from html import escape
 import md2html
 
 FAMILIES = [
-    ('main', '主线剧情', '官方关卡表全线拓扑、分支抉择与终局推演。'),
+    ('main', '主线剧情', '全线剧情拓扑、分支抉择与终局推演。'),
     ('events', '活动剧情', '各期主题活动的关卡剧情全文与阶段收录。'),
     ('characters', '角色个人剧情', '旅人专属故事，好感等级逐级解锁。'),
     ('npc_bonds', '星塔 NPC 好感', '星塔驻留人员与常驻 NPC 羁绊剧情。'),
     ('discs', '秘闻', '收录秘闻剧本，附官方原版散文。'),
     ('storysets', '故事集支线', '主题故事集与日常侧写，收录支线剧情与回忆。'),
-    ('prologue', '序章', '注册流程播出的《最初的起点》篇章。'),
-    ('battles_unmounted', '存目战斗气泡', '关卡表未引用的独立存目战斗气泡与战场台词。'),
+    ('prologue', '序章', '旅程开启的序幕篇章《最初的起点》。'),
+    ('battles_unmounted', '存目战斗气泡', '战场独立战斗气泡与实时对白。'),
 ]
 FAMILY_NAME = {k: n for k, n, _ in FAMILIES}
 
@@ -21,7 +21,7 @@ FAMILY_META = {
     'main': {
         'code': '01',
         'span': 'span-2',
-        'desc': '官方关卡表全线拓扑、分支抉择与终局推演，涵盖主线各章节及特别篇完整图景。',
+        'desc': '全线剧情拓扑、分支抉择与终局推演，涵盖主线各章节及特别篇完整图景。',
     },
     'characters': {
         'code': '02',
@@ -51,12 +51,12 @@ FAMILY_META = {
     'prologue': {
         'code': '07',
         'span': 'span-2',
-        'desc': '注册流程播出的《最初的起点》篇章，旅程开启的序幕。',
+        'desc': '旅程开启的序幕篇章《最初的起点》，旅人初次相遇的故事。',
     },
     'battles_unmounted': {
         'code': '08',
         'span': 'span-2',
-        'desc': '没有任何关卡表引用的独立存目战斗气泡与战场台词。',
+        'desc': '战场独立战斗气泡与角色实时对白。',
     },
 }
 
@@ -179,7 +179,7 @@ def layout(title, body, depth, crumb, note=''):
 </main>
 <footer class="foot">
   <div class="foot-inner">
-    <div class="foot-brand"><img class="foot-icon" src="%sassets/icon_story.png" alt="" width="16" height="20"> 星塔旅人 剧情知识档案</div>
+    <div class="foot-brand"><img class="foot-icon" src="%sassets/icon_story.png" alt="" width="16" height="20"> 星塔旅人 剧情档案</div>
     <div class="foot-meta">%s</div>
   </div>
   <div class="foot-disclaimer">
@@ -314,11 +314,11 @@ def chapter_graph_page(c, all_chapters):
             esc(c['year']), len(c['nodes']),
             sum(1 for n in c['nodes'] if n['state'] == 'released'),
             sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
-            '　包内无剧本 %d' % unreleased if unreleased else '')
+            '　未开放 %d' % unreleased if unreleased else '')
         body = ('<h1>%s《%s》</h1>'
                 '<p class="lede">%s</p>'
                 '<nav class="chapsel">%s</nav>'
-                '<p class="aside">官方表未记录此篇的关卡连线，因此按关卡编号顺序列出。</p>'
+                '<p class="aside">特别篇各关卡按剧情推进顺序排列展示。</p>'
                 '<ul class="plain linelist">%s</ul>'
                 % (esc(c['name'] or '特别篇'), esc(c['title']), lede, switch, items_html))
         return layout(c['name'] or '特别篇', body, d, crumb)
@@ -379,12 +379,11 @@ def chapter_graph_page(c, all_chapters):
 %s
 </div>
 </div>
-<p class="aside map-note">连线取自官方 <code>Story.ParentStoryId</code>（前置关卡），列序与轨道由最长路径确定性计算；
-「未开放」指该线路的剧本尚未进包；「无对白剧本」指关卡表列出了战斗、但包里未收录气泡剧本。</p>
+<p class="aside map-note">支持拖拽平移与滚轮缩放，点击节点可查阅剧本全文；「未开放」表示该分支路线暂未开放；「无对白剧本」表示该关卡为纯战斗关卡，无剧情对白。</p>
 """ % (esc(c['name']), esc(c['title']), esc(c['year']), len(c['nodes']),
        sum(1 for n in c['nodes'] if n['state'] == 'released'),
        sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
-       '　包内无剧本 %d' % unreleased if unreleased else '',
+       '　未开放 %d' % unreleased if unreleased else '',
        switch, anchors,
        g['width'] + pad * 2, g['height'] + pad * 2,
        g['width'] + pad * 2, g['height'] + pad * 2,
@@ -413,12 +412,11 @@ def main_index(chapters):
             cno, esc(c['name'] or '特别篇'), esc(c['year']),
             esc(c['title']), len(c['nodes']),
             sum(1 for n in c['nodes'] if n['state'] == 'released'),
-            bt, (' · 缺剧本 %d' % unrel) if unrel else ''
+            bt, (' · 待开放 %d' % unrel) if unrel else ''
         ))
     return layout('主线剧情', """
 <h1>主线剧情</h1>
-<p class="lede">编号与标题取自官方关卡表文案，拓扑连线取自 <code>ParentStoryId</code>。<br>
-表 Id 与游戏内章号相差一章（表 Id 8 为第七章），页面按游戏内章号展示。</p>
+<p class="lede">主线全章节关卡拓扑与剧情档案，支持点击卡片查阅剧情对话与战斗对白。</p>
 <ul class="chaplist">%s</ul>
 """ % ''.join(cards), d, crumb)
 
@@ -446,7 +444,7 @@ def battle_archive_page(stage, nav_info=None):
         lede_text = '主线%s · 独立战斗关卡档案' % esc(c_label)
         section_field = '篇章'
         section_val = '主线%s' % esc(c_label)
-        notice_desc = '本关卡在官方客户端内为纯战斗关卡，不包含 AVG 对话剧本与战场气泡剧本（BBm）。'
+        notice_desc = '本关卡为纯战斗关卡，不包含剧情对话与战场气泡对白。'
     elif gid in ('10106', '20101'):
         crumb = ('<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › '
                  '<a href="index.html">%s 关卡拓扑</a> › %s'
@@ -454,7 +452,7 @@ def battle_archive_page(stage, nav_info=None):
         lede_text = '活动剧情《%s》· 独立战斗关卡档案' % esc(chapter_name)
         section_field = '活动'
         section_val = esc(chapter_name)
-        notice_desc = '本关卡在官方客户端内为活动纯战斗关卡，不包含 AVG 对话剧本。'
+        notice_desc = '本关卡为活动纯战斗关卡，不包含剧情对话。'
     else:
         crumb = ('<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › '
                  '%s › %s'
@@ -462,7 +460,7 @@ def battle_archive_page(stage, nav_info=None):
         lede_text = '活动剧情《%s》· 独立战斗关卡档案' % esc(chapter_name)
         section_field = '活动'
         section_val = esc(chapter_name)
-        notice_desc = '本关卡在官方客户端内为活动纯战斗关卡，不包含 AVG 对话剧本。'
+        notice_desc = '本关卡为活动纯战斗关卡，不包含剧情对话。'
         
     story_nav_html = ''
     if nav_info:
@@ -514,12 +512,12 @@ def battle_archive_page(stage, nav_info=None):
     <p>%s</p>
   </blockquote>
   
-  <h2 data-part="3">剧本存目说明</h2>
+  <h2 data-part="3">关卡说明</h2>
   <div style="margin: 16px 0; padding: 14px 18px; background: var(--card-bg-subtle); border-left: 3px solid var(--battle); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
     <p style="margin: 0 0 6px 0; font-size: 13.5px; font-weight: 700; color: var(--text-main);">✦ 纯战斗关卡档案</p>
     <p style="margin: 0; font-size: 13.5px; line-height: 1.7; color: var(--text-muted);">
       %s
-      特此建立独立档案页，收录关卡官方简介、解锁条件与前后流程导航。
+      此独立档案页收录关卡官方简介、解锁条件与前后流程导航。
     </p>
   </div>
 </div>
@@ -598,8 +596,7 @@ def activity_graph_page(act_info, all_branching_acts):
 %s
 </div>
 </div>
-<p class="aside map-note">连线取自官方 <code>ActivityStoryCondition.json</code> 前置条件映射，列序与轨道由确定性最长路径算法排布；
-支持鼠标横向拖拽平移与列锚点快捷定位。</p>
+<p class="aside map-note">活动关卡拓扑分支图，支持鼠标拖拽平移与列锚点定位；点击卡片可查阅对应活动剧本。</p>
 """ % (esc(act_name), esc(act_title), len(nodes), switch, anchors,
        g['width'] + pad * 2, g['height'] + pad * 2,
        g['width'] + pad * 2, g['height'] + pad * 2,
@@ -729,13 +726,12 @@ def home_page(pages, personality_data):
         <span>更新时间：2026-10-02</span>
       </div>
     </div>
-    <div class="update-summary">剧情拓扑分支修正、NPC 标题智能去重与文案规范优化</div>
+    <div class="update-summary">剧情拓扑分支修正、标题智能去重与文案规范精简</div>
     <ul class="update-list">
-      <li><strong>拓扑分支修复</strong>：修正活动剧情关卡拓扑图（如万送屋）中过程分支被误标记为“终局”的问题，准确呈现“分支”样式与流向。</li>
-      <li><strong>标题去重优化</strong>：修复 NPC 羁绊各话在列表、面包屑、上下节导航及全站搜索结果中“第一话 第一话”重复前缀的问题。</li>
-      <li><strong>卡片与分类文案优化</strong>：将原“唱片剧情”重命名为“秘闻”，全面去除各分类卡片描述中的硬编码数量。</li>
-      <li><strong>免责声明强化</strong>：更新非官方粉丝项目免责叠甲，明确悠星网络原始资产权属，注明交流学习非盈利性质及联络邮箱。</li>
-      <li><strong>合规化展示</strong>：移除技术说明中关于客户端解包的敏感表述，规范站内数据展示。</li>
+      <li><strong>拓扑分支展示</strong>：优化活动剧情关卡拓扑图的分支流向，准确呈现各分支路线与终局结局。</li>
+      <li><strong>标题去重优化</strong>：修复 NPC 羁绊各话在列表、面包屑、上下节导航及全站搜索结果中重复前缀的问题。</li>
+      <li><strong>分类命名整理</strong>：将原“唱片剧情”规范更名为“秘闻”，全面优化篇章分类描述。</li>
+      <li><strong>阅读体验提升</strong>：增加全流程剧透预警与收录边界提示，全面精简去除开发者调试文案。</li>
     </ul>
   </div>
 </section>

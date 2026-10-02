@@ -173,10 +173,10 @@ def update_changelog_in_files(today_str, bullets):
     if os.path.exists(README_MD):
         readme = open(README_MD, encoding='utf-8').read()
         readme_bullets = '\n'.join(f'- {b}' for b in bullets)
-        new_entry = f"### 📅 {today_str}\n{readme_bullets}\n"
+        new_entry = f"### {today_str}\n{readme_bullets}\n"
         
-        # Insert after ## 🔄 最近更新记录
-        marker = '## 🔄 最近更新记录\n\n'
+        # Insert after ## 最近更新记录
+        marker = '## 最近更新记录\n\n'
         if marker in readme:
             parts = readme.split(marker, 1)
             readme = parts[0] + marker + new_entry + '\n' + parts[1]
