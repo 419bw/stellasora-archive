@@ -65,10 +65,10 @@ jobs:
               SYNC_ARGS="$SYNC_ARGS --allow-single-upstream"
             fi
             echo "Running auto_sync.py $SYNC_ARGS..."
-            python scripts/auto_sync.py $SYNC_ARGS
+            python scripts/automation/auto_sync.py $SYNC_ARGS
           else
             echo "Push event detected. Generating static site..."
-            python scripts/build_site.py
+            python scripts/site/build_site.py
             echo "Validating static site..."
             python tests/story/validate_site.py
           fi

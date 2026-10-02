@@ -40,13 +40,13 @@
 
 ### 1.1 开源数据源仓库架构
 本项目的提取管道消费以下两个公开仓库的数据结构：
-1. **结构化数据表库**（如 `StellaSoraData`）：
+1. **结构化数据配置库**（如 `StellaSoraData`）：
    - `CN/bin/Story.json`：关卡列表
    - `CN/bin/StoryChapter.json`：章节列表
    - `CN/bin/ActivityStory.json`：活动剧情关卡
    - `CN/bin/DatingCharacterEvent.json`：旅人约会剧情
    - `CN/language/zh_CN/*.json`：全量官方中文字符串查找表
-2. **反编译 Lua 剧本库**（如 `ss_lua`）：
+2. **文本剧本库**（如 `ss_lua`）：
    - `Lua/Game/UI/Avg/_cn/Config/*.lua`：所有剧本源码（如 `STm01_01.lua`, `STm02_01.lua`）
    - `Lua/Game/UI/Avg/_cn/Preset/AvgCharacter.lua`：说话人 ID 与姓名对应表
    - `Lua/Game/UI/Avg/AvgCmdParamOptionDefine.lua`：AVG 引擎参数枚举定义（包含 `TalkType`）

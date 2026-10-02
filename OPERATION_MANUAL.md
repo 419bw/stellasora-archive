@@ -1,7 +1,7 @@
 # 《星塔旅人》全量剧情与剧本知识库：独立建站与运维操作手册
 
 > **文档版本**：v1.0.0  
-> **数据基准**：官方公测客户端解包资产（包含 10 个主线篇章、11 个限时活动、40 位旅人专属档案与约会剧情）  
+> **数据基准**：官方公测版本资产（涵盖主线各章节、限时活动、旅人专属档案与好感剧情、秘闻与故事集）  
 > **项目定位**：全网首个且唯一的《星塔旅人》1:1 逐句台词、分支抉择与拓扑导图高保真静态剧情数据库。
 
 ---
@@ -116,15 +116,19 @@ flowchart TD
 
 站点由纯 Python 模块化脚本负责，全部只依赖标准库，不需要 npm：
 
-| 脚本 | 输入 | 输出 | 核心职责 |
-|---|---|---|---|
-| `scripts/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/` + `_data/*.json` | 语法树解析、魔王正名、独白识别、图谱生成 |
-| `scripts/build_site.py` | `story_docs/` + `_data/` | `site/` 全量静态页面 | 站点编译主入口，驱动模板引擎生成 549 篇产物 |
-| `scripts/site_templates.py` | 关卡元数据与排版内容 | 结构化 HTML 字符串 | 拓扑图、剧情阅读牌板、战斗档案等页面模板 |
-| `scripts/site_css.py` | 设计规范 Tokens | `site/assets/tokens.css` | 主题变量、深浅色、牌板、SVG 拓扑样式 |
-| `scripts/site_js.py` | 前端交互事件 | `site/assets/site.js` | 离线即时检索、拓扑平移拖拽缩放、回到顶部 |
-| `scripts/md2html.py` | Markdown 正文 | 干净的 HTML 片段 | Markdown 语法与 `<ruby><rt>` 注音原生转换 |
-| `scripts/graph_layout.py` | 节点关系 (`sid/parents`) | 列、轨道、SVG 坐标 | DAG 分层拓扑几何纯函数（无 IO） |
+| 模块分类 | 脚本路径 | 输入 | 输出 | 核心职责 |
+|---|---|---|---|---|
+| **剧情处理** | `scripts/story/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/` + `_data/*.json` | 语法树解析、魔王正名、独白识别、图谱生成 |
+| **剧情处理** | `scripts/story/graph_layout.py` | 节点关系 (`sid/parents`) | 列、轨道、SVG 坐标 | DAG 分层拓扑几何纯函数（无 IO） |
+| **静态站点** | `scripts/site/build_site.py` | `story_docs/` + `_data/` | `site/` 全量静态页面 | 站点编译主入口，驱动模板引擎生成 549 篇产物 |
+| **静态站点** | `scripts/site/site_templates.py` | 关卡元数据与排版内容 | 结构化 HTML 字符串 | 拓扑图、剧情阅读牌板、战斗档案等页面模板 |
+| **静态站点** | `scripts/site/site_css.py` | 设计规范 Tokens | `site/assets/tokens.css` | 主题变量、深浅色、牌板、SVG 拓扑样式 |
+| **静态站点** | `scripts/site/site_js.py` | 前端交互事件 | `site/assets/site.js` | 离线即时检索、拓扑平移拖拽缩放、回到顶部 |
+| **静态站点** | `scripts/site/md2html.py` | Markdown 正文 | 干净的 HTML 片段 | Markdown 语法与 `<ruby><rt>` 注音原生转换 |
+| **自动化CI** | `scripts/automation/auto_sync.py` | GitHub 上游最新提交 | 全量增量更新 & CI 产物 | 自动化监控两上游变更，提取差异并触发自动化发布 |
+| **辅助工具** | `scripts/tools/run_benchmark.py` | 基准测试用例集 | 耗时与性能报告 | 性能压测与解析效率分析 |
+
+> 注：根目录 `scripts/` 下保留了 `build_site.py`、`build_story.py` 与 `auto_sync.py` 的轻量转发器，直接在根目录执行旧命令依然 100% 兼容。
 
 内容真源是 `story_docs/` 的 Markdown（它已被逐句校验过），`scripts/md2html.py` 只做本站
 用到的那一小套 Markdown 语法 → HTML，因此不存在"第二套渲染器"与产物漂移的问题。
