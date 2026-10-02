@@ -682,7 +682,7 @@ def home_page(pages, personality_data):
     return layout('首页', """
 <div class="hero">
   <h1 class="hero-title">星塔旅人 剧情档案</h1>
-  <p class="hero-desc">官方剧本全文、分支抉择与关卡拓扑。收录 %d 篇、%s 句台词与气泡。</p>
+  <p class="hero-desc">官方剧本全文、分支抉择与关卡拓扑。</p>
   <div class="hero-badge-wrap">
     <a class="hero-update-pill" href="#updates">
       <span class="pill-dot"></span>
@@ -691,6 +691,17 @@ def home_page(pages, personality_data):
       <span class="pill-text">上次更新：拓扑分支修正与标题去重</span>
       <span class="pill-arrow">↓</span>
     </a>
+  </div>
+  
+  <div class="hero-notice-banner">
+    <div class="notice-pill notice-spoiler">
+      <span class="notice-tag tag-spoiler">剧透提醒</span>
+      <span class="notice-msg">本站默认完整展开所有主线及活动的分支抉择与结局走向，包含全流程剧透，请谨慎阅读。</span>
+    </div>
+    <div class="notice-pill notice-scope">
+      <span class="notice-tag tag-scope">收录说明</span>
+      <span class="notice-msg">游戏内仅有 CG 动画演示而无文本字幕的片段不会出现在这里，本站仅收录官方剧本中有台词文本的剧情。</span>
+    </div>
   </div>
   
   <div class="searchbox hero-search">
@@ -728,4 +739,4 @@ def home_page(pages, personality_data):
     </ul>
   </div>
 </section>
-""" % (len(pages), format(lines, ','), ''.join(bento_items)), 0, '')
+""" % ''.join(bento_items), 0, '')
