@@ -86,8 +86,9 @@ JS = """(function() {
     var out = ['<div class="results-header"><span>匹配到 ' + hits.length + ' 篇档案（最多显示 40 篇）</span></div><ul class="hits">'];
     hits.slice(0, 40).forEach(function(h) {
       var e = h[1];
+      var displayTitle = (e.code && e.title && e.title.indexOf(e.code) === 0) ? e.title : [e.code, e.title].filter(Boolean).join(' ');
       out.push('<li><a class="hit-link" href="' + root + e.page + '">'
-        + '<div class="hit-top"><b class="hit-title">' + [e.code, e.title].filter(Boolean).join(' ') + '</b>'
+        + '<div class="hit-top"><b class="hit-title">' + displayTitle + '</b>'
         + '<span class="hit-group">' + e.group + '</span></div>'
         + '<div class="hit-speakers">' + (e.speakers.slice(0, 5).join('、') || '旁白') + '</div>'
         + '</a></li>');

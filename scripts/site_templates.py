@@ -83,6 +83,26 @@ def rel(root_depth, target):
     return ('../' * root_depth) + target if target else '#'
 
 
+def full_title(code, title):
+    """Combine code and title without duplicating prefix (e.g. avoid '第一话 第一话 孤独的店员')."""
+    code = (code or '').strip()
+    title = (title or '').strip()
+    if not code:
+        return title
+    if title.startswith(code):
+        return title
+    return '%s %s' % (code, title)
+
+
+def clean_subtitle(code, title):
+    """Strip code from title if already prefixed, so <b>code</b> title doesn't stutter."""
+    code = (code or '').strip()
+    title = (title or '').strip()
+    if code and title.startswith(code):
+        return title[len(code):].strip()
+    return title
+
+
 def node_state_label(n):
     if n.get('kind') == 'battle' and not n.get('stems', {}).get('story') and not n.get('stems', {}).get('bubble') and n.get('state') == 'released':
         return '战斗档案'
@@ -96,8 +116,10 @@ def node_state_label(n):
         return '真·终局'
     if n['is_last']:
         return '本章终幕'
-    if n['is_branch']:
+    if n.get('code') == '终局':
         return '终局'
+    if n.get('is_branch'):
+        return '分支'
     if n['code'].startswith('幕间'):
         return '幕间'
     if n['code'].startswith('尾声'):
@@ -112,11 +134,12 @@ def node_state_class(n):
         return 'battle'
     if n['memory']:
         return 'memory'
-    if n['is_branch'] or n['is_last']:
+    if n.get('code') == '终局' or n['is_last']:
         return 'final'
     if n['code'].startswith(('幕间', '尾声')):
         return 'between'
     return 'story'
+
 
 
 def layout(title, body, depth, crumb, note=''):
@@ -185,18 +208,16 @@ def script_page(rec, md_content, nav_info=None, branch_targets=None):
     d = depth_of(page)
     root = '../' * d
     
+    crumb_title = full_title(rec.get('code'), rec.get('title'))
     if rec['family'] == 'main':
         crumb = '<a href="%sindex.html">首页</a> › <a href="%smain/index.html">主线剧情</a> › <a href="index.html">%s</a> › %s' % (
-            root, root, esc(up or '章节地图'),
-            esc(('%s ' % rec['code']) + rec['title'] if rec['code'] else rec['title']))
+            root, root, esc(up or '章节地图'), esc(crumb_title))
     elif rec['family'] == 'events' and str(g.get('id')) in ('10106', '20101'):
         crumb = '<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › <a href="index.html">%s 关卡拓扑</a> › %s' % (
-            root, root, esc(up or '活动拓扑'),
-            esc(('%s ' % rec['code']) + rec['title'] if rec['code'] else rec['title']))
+            root, root, esc(up or '活动拓扑'), esc(crumb_title))
     else:
         crumb = '<a href="%sindex.html">首页</a> › <a href="%s%s/index.html">%s</a> › %s' % (
-            root, root, slug_of(rec['family']), esc(FAMILY_NAME[rec['family']]),
-            esc(('%s ' % rec['code']) + rec['title'] if rec['code'] else rec['title']))
+            root, root, slug_of(rec['family']), esc(FAMILY_NAME[rec['family']]), esc(crumb_title))
             
     facets = ' '.join('<a class="facet" href="%s%s/index.html?q=%s">%s</a>'
                       % (root, slug_of(rec['family']), esc(s), esc(s))
@@ -223,7 +244,7 @@ def script_page(rec, md_content, nav_info=None, branch_targets=None):
             prev_html = ''
             if prev_items:
                 links = ''.join('<a class="nav-link" href="%s"><b>%s</b> %s</a>'
-                                % (esc(it['url']), esc(it['code']), esc(it['title']))
+                                % (esc(it['url']), esc(it['code']), esc(clean_subtitle(it['code'], it['title'])))
                                 for it in prev_items)
                 prev_html = '<div class="story-nav-prev"><span class="nav-label">← 上一节 / 前置</span>%s</div>' % links
             else:
@@ -234,11 +255,11 @@ def script_page(rec, md_content, nav_info=None, branch_targets=None):
                 it = next_items[0]
                 next_html = ('<div class="story-nav-next"><span class="nav-label">下一节 →</span>'
                              '<a class="nav-link" href="%s"><b>%s</b> %s</a></div>'
-                             % (esc(it['url']), esc(it['code']), esc(it['title'])))
+                             % (esc(it['url']), esc(it['code']), esc(clean_subtitle(it['code'], it['title']))))
             elif len(next_items) > 1:
                 links = ''.join('<a class="nav-link" href="%s"><span class="branch-tag %s">%s</span><b>%s</b> %s</a>'
                                 % (esc(it['url']), esc(it.get('cls', 'story')), esc(it.get('tag', '分支')),
-                                   esc(it['code']), esc(it['title']))
+                                   esc(it['code']), esc(clean_subtitle(it['code'], it['title'])))
                                 for it in next_items)
                 next_html = ('<div class="story-nav-branches"><span class="nav-label">后续分支路线选择 →</span>'
                              '<div class="branch-links">%s</div></div>' % links)
@@ -451,7 +472,7 @@ def battle_archive_page(stage, nav_info=None):
         prev_html = ''
         if prev_items:
             links = ''.join('<a class="nav-link" href="%s"><b>%s</b> %s</a>'
-                            % (esc(it['url']), esc(it['code']), esc(it['title']))
+                            % (esc(it['url']), esc(it['code']), esc(clean_subtitle(it['code'], it['title'])))
                             for it in prev_items)
             prev_html = '<div class="story-nav-prev"><span class="nav-label">← 上一关卡 / 前置</span>%s</div>' % links
         else:
@@ -462,11 +483,11 @@ def battle_archive_page(stage, nav_info=None):
             it = next_items[0]
             next_html = ('<div class="story-nav-next"><span class="nav-label">下一关卡 →</span>'
                          '<a class="nav-link" href="%s"><b>%s</b> %s</a></div>'
-                         % (esc(it['url']), esc(it['code']), esc(it['title'])))
+                         % (esc(it['url']), esc(it['code']), esc(clean_subtitle(it['code'], it['title']))))
         elif len(next_items) > 1:
             links = ''.join('<a class="nav-link" href="%s"><span class="branch-tag %s">%s</span><b>%s</b> %s</a>'
                             % (esc(it['url']), esc(it.get('cls', 'battle')), esc(it.get('tag', '分支')),
-                               esc(it['code']), esc(it['title']))
+                               esc(it['code']), esc(clean_subtitle(it['code'], it['title'])))
                             for it in next_items)
             next_html = ('<div class="story-nav-branches"><span class="nav-label">后续关卡路线 →</span>'
                          '<div class="branch-links">%s</div></div>' % links)
@@ -607,10 +628,10 @@ def family_index(family, intro, pages_in_family):
             sub = ('战斗关卡' if is_battle
                    else ('%d 句' % it['counts'].get('talk', 0)
                          + (' / %d 气泡' % it['counts']['bubble'] if it['counts'].get('bubble') else '')))
-            code_prefix = ('%s ' % it['code']) if it['code'] else ''
+            display_title = full_title(it.get('code'), it.get('title'))
             badge = '<i class="badge battle">战斗</i>' if is_battle else ''
             links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s%s</span><span class="sub">%s</span></a></li>'
-                         % (rel(d, it['page']), badge, esc(code_prefix + it['title']), esc(sub)))
+                         % (rel(d, it['page']), badge, esc(display_title), esc(sub)))
         count_label = '%d 关' if family == 'events' else '%d 篇'
         blocks.append('<section class="grp"><div class="grp-header">'
                       '<div class="grp-head-row"><h3 class="grp-title">%s</h3><span class="grp-count">%s</span></div>%s</div>'
