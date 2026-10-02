@@ -6,53 +6,57 @@ CSS = """
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   
-  --bg: #FAFAF9;
-  --bg-gradient: radial-gradient(circle at 50% 0%, #FFFFFF 0%, #F5F5F4 100%);
+  --bg: #EEF2F6;
+  --bg-gradient: 
+    linear-gradient(135deg, #F8FAFC 0%, #EEF2F6 45%, #E2E8F0 85%, #E5EBF2 100%),
+    radial-gradient(ellipse 70% 500px at 10% -40px, rgba(186, 230, 253, 0.40) 0%, transparent 70%),
+    radial-gradient(ellipse 65% 540px at 90% -50px, rgba(233, 213, 255, 0.35) 0%, transparent 70%);
   --surface: #FFFFFF;
-  --text-main: #1C1917;
-  --text-muted: #57534E;
-  --text-subtle: #858079;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+  --text-subtle: #64748B;
   
   --card-bg: #FFFFFF;
-  --card-bg-subtle: #F5F5F4;
-  --card-border: rgba(0, 0, 0, 0.08);
-  --card-border-subtle: rgba(0, 0, 0, 0.04);
-  --card-border-hover: rgba(0, 0, 0, 0.22);
-  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
-  --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --card-bg-subtle: #F8FAFC;
+  --card-border: rgba(30, 58, 138, 0.09);
+  --card-border-subtle: rgba(30, 58, 138, 0.05);
+  --card-border-hover: rgba(30, 58, 138, 0.22);
+  --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.03);
+  --card-shadow-hover: 0 8px 24px rgba(15, 23, 42, 0.08);
   
-  --line-highlight: rgba(0, 0, 0, 0.025);
+  --line-highlight: rgba(30, 58, 138, 0.03);
   --accent: #2563EB;
   
   --story: #0D9488;
   --battle: #E11D48;
   --final: #7C3AED;
   --between: #D97706;
-  --locked: #A8A29E;
+  --locked: #94A3B8;
   
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 14px;
   --radius-xl: 20px;
-  
-  --bg-dots: rgba(0, 0, 0, 0.04);
 }
 
 [data-theme="dark"] {
-  --bg: #0C0A09;
-  --bg-gradient: radial-gradient(circle at 50% 0%, #1C1917 0%, #0C0A09 100%);
-  --surface: #141211;
-  --text-main: #F5F5F4;
-  --text-muted: #A8A29E;
-  --text-subtle: #78716C;
+  --bg: #0A0E17;
+  --bg-gradient: 
+    linear-gradient(135deg, #0A0E17 0%, #0F1522 50%, #090D15 100%),
+    radial-gradient(ellipse 70% 500px at 10% -40px, rgba(14, 116, 144, 0.16) 0%, transparent 70%),
+    radial-gradient(ellipse 65% 540px at 90% -50px, rgba(109, 40, 217, 0.14) 0%, transparent 70%);
+  --surface: #121824;
+  --text-main: #F1F5F9;
+  --text-muted: #94A3B8;
+  --text-subtle: #64748B;
   
-  --card-bg: #141211;
-  --card-bg-subtle: #1C1917;
-  --card-border: rgba(255, 255, 255, 0.09);
+  --card-bg: #121824;
+  --card-bg-subtle: #172030;
+  --card-border: rgba(255, 255, 255, 0.08);
   --card-border-subtle: rgba(255, 255, 255, 0.04);
-  --card-border-hover: rgba(255, 255, 255, 0.25);
-  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --card-border-hover: rgba(255, 255, 255, 0.22);
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.45);
   
   --line-highlight: rgba(255, 255, 255, 0.04);
   --accent: #60A5FA;
@@ -61,15 +65,13 @@ CSS = """
   --battle: #FB7185;
   --final: #A78BFA;
   --between: #FBBF24;
-  --locked: #78716C;
-  
-  --bg-dots: rgba(255, 255, 255, 0.035);
+  --locked: #64748B;
 }
 
 * { box-sizing: border-box; }
 html {
   font-family: var(--font-sans);
-  background: var(--bg);
+  background-color: var(--bg);
   background-image: var(--bg-gradient);
   background-attachment: fixed;
   color: var(--text-main);
@@ -83,8 +85,42 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: radial-gradient(var(--bg-dots) 1px, transparent 1px);
-  background-size: 20px 20px;
+  position: relative;
+}
+/* Diagonal facet color difference (斜向低多边形切面微色差 - 参考官方卡牌与按钮质感) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    linear-gradient(118deg, 
+      transparent 0%, 
+      transparent 35%, 
+      rgba(255, 255, 255, 0.45) 35%, 
+      rgba(255, 255, 255, 0.45) 48%, 
+      transparent 48%, 
+      transparent 70%, 
+      rgba(255, 255, 255, 0.30) 70%, 
+      rgba(255, 255, 255, 0.30) 82%, 
+      transparent 82%
+    );
+  opacity: 0.7;
+}
+[data-theme="dark"] body::before {
+  background-image:
+    linear-gradient(118deg, 
+      transparent 0%, 
+      transparent 35%, 
+      rgba(255, 255, 255, 0.02) 35%, 
+      rgba(255, 255, 255, 0.02) 48%, 
+      transparent 48%, 
+      transparent 70%, 
+      rgba(255, 255, 255, 0.015) 70%, 
+      rgba(255, 255, 255, 0.015) 82%, 
+      transparent 82%
+    );
 }
 
 /* Header & Navigation */
@@ -92,13 +128,23 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(250, 250, 249, 0.82);
+  background: rgba(255, 255, 255, 0.90);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--card-border-subtle);
 }
+.top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(236, 72, 153, 0.45) 0%, rgba(168, 85, 247, 0.40) 28%, rgba(59, 130, 246, 0.40) 55%, rgba(6, 182, 212, 0.45) 80%, rgba(16, 185, 129, 0.40) 100%);
+  z-index: 51;
+}
 [data-theme="dark"] .top {
-  background: rgba(12, 10, 9, 0.82);
+  background: rgba(18, 24, 36, 0.90);
 }
 .top-inner {
   max-width: 1200px;
@@ -950,7 +996,6 @@ h1 {
 /* Dialogue Lines: Backlog Item Card */
 .page .line {
   position: relative;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding: 12px 18px;
@@ -958,7 +1003,7 @@ h1 {
   background: var(--card-bg);
   border: 1px solid var(--card-border-subtle);
   border-radius: var(--radius-sm);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.02);
   line-height: 1.65;
   transition: all 0.15s ease;
 }
@@ -967,42 +1012,7 @@ h1 {
 }
 .page .line:hover {
   background: var(--card-bg-subtle);
-  border-color: var(--card-border);
-}
-.page .line .who,
-.page .line .say,
-.page .line .tag {
-  position: relative;
-  z-index: 1;
-}
-.page .line::before,
-.player-reply::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 240px;
-  height: 100%;
-  pointer-events: none;
-  background-color: #3b5266;
-  opacity: 0.10;
-  -webkit-mask: url('card_dots.svg') right top / cover no-repeat;
-  mask: url('card_dots.svg') right top / cover no-repeat;
-  transition: opacity 0.2s ease;
-  z-index: 0;
-}
-[data-theme="dark"] .page .line::before,
-[data-theme="dark"] .player-reply::before {
-  background-color: #93c5fd;
-  opacity: 0.09;
-}
-.page .line:hover::before,
-.player-reply:hover::before {
-  opacity: 0.18;
-}
-[data-theme="dark"] .page .line:hover::before,
-[data-theme="dark"] .player-reply:hover::before {
-  opacity: 0.16;
+  border-color: var(--card-border-hover);
 }
 .page .line .who {
   font-size: 13.5px;
@@ -1187,14 +1197,12 @@ h1 {
 
 /* Player Response (玩家回应) matches Image 2 & 3: speaker "魔王 选择了" above text */
 .player-reply {
-  position: relative;
-  overflow: hidden;
   padding: 12px 18px;
   margin: 0 0 8px 0;
   background: var(--card-bg);
   border: 1px solid var(--card-border-subtle);
   border-radius: var(--radius-sm);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.02);
   display: flex;
   flex-direction: column;
   transition: all 0.15s ease;
@@ -1204,12 +1212,7 @@ h1 {
 }
 .player-reply:hover {
   background: var(--card-bg-subtle);
-  border-color: var(--card-border);
-}
-.player-reply .reply-who,
-.player-reply .reply-body {
-  position: relative;
-  z-index: 1;
+  border-color: var(--card-border-hover);
 }
 .player-reply .reply-who {
   font-size: 13.5px;
