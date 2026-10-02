@@ -703,7 +703,6 @@ def home_page(pages, personality_data):
 </div>
 
 <ul class="bento tiles">
-  <div class="bento-indicator" aria-hidden="true"></div>
   %s
 </ul>
 

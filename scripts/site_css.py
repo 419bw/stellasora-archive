@@ -313,12 +313,15 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
   box-shadow: var(--card-shadow);
-  anchor-name: --a;
 }
 .bento-card:hover {
+  transform: translateY(-2px);
   border-color: var(--card-border-hover);
+  box-shadow: var(--card-shadow-hover);
 }
 .bento-card-link {
   position: absolute;
@@ -375,39 +378,6 @@ h1 {
 .bento-card:hover .bento-arrow {
   transform: translateX(4px);
   color: var(--text-main);
-}
-
-/* CSS Anchor Positioning Magnetic Indicator */
-.bento-indicator {
-  display: none;
-}
-@supports (anchor-name: --a) {
-  .bento-indicator {
-    display: block;
-    position: absolute;
-    position-anchor: --a;
-    inset: anchor(inside);
-    pointer-events: none;
-    border-radius: var(--radius-xl);
-    border: 1px solid var(--card-border-hover);
-    box-shadow: var(--card-shadow-hover);
-    opacity: 0;
-    transition: inset 0.28s cubic-bezier(0.16, 1, 0.3, 1),
-                opacity 0.2s ease;
-    z-index: 1;
-  }
-  .bento:hover .bento-indicator { opacity: 1; }
-}
-.bento-indicator.js-fallback {
-  display: block;
-  position: absolute;
-  pointer-events: none;
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--card-border-hover);
-  box-shadow: var(--card-shadow-hover);
-  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
-  z-index: 1;
-  opacity: 0;
 }
 
 /* Update Section (最近更新板块) */

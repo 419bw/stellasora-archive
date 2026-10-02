@@ -27,32 +27,6 @@ JS = """(function() {
     });
   }
 
-  // Magnetic Bento Hover Indicator Fallback
-  var bento = document.querySelector('.bento');
-  if (bento) {
-    var indicator = bento.querySelector('.bento-indicator');
-    var hasAnchor = window.CSS && CSS.supports && (CSS.supports('anchor-name', '--a') || CSS.supports('position-anchor', '--a'));
-    if (!hasAnchor && indicator) {
-      indicator.classList.add('js-fallback');
-      bento.addEventListener('mouseover', function(e) {
-        var item = e.target.closest('.bento-item');
-        if (!item) return;
-        var card = item.querySelector('.bento-card');
-        if (!card) return;
-        var bRect = bento.getBoundingClientRect();
-        var cRect = card.getBoundingClientRect();
-        indicator.style.opacity = '1';
-        indicator.style.top = (cRect.top - bRect.top) + 'px';
-        indicator.style.left = (cRect.left - bRect.left) + 'px';
-        indicator.style.width = cRect.width + 'px';
-        indicator.style.height = cRect.height + 'px';
-      });
-      bento.addEventListener('mouseleave', function() {
-        indicator.style.opacity = '0';
-      });
-    }
-  }
-
   // Search Engine
   var IDX = (window.STORY_INDEX || { entries: [] }).entries;
   var FAM = { npc: 'npc_bonds', battles: 'battles_unmounted' };
