@@ -156,6 +156,9 @@ def layout(title, body, depth, crumb, note=''):
     <div class="foot-brand">✦ 星塔旅人 剧情知识档案</div>
     <div class="foot-meta">%s %s</div>
   </div>
+  <div class="foot-disclaimer">
+    <p>免责声明：本站为玩家独立制作的非盈利粉丝项目，仅供剧情研读、世界观考据与个人交流使用。游戏中所有剧情文本、美术素材及角色设定等知识产权均归属《星塔旅人》官方团队及原版权方所有。</p>
+  </div>
 </footer>
 <button class="back-to-top" id="backToTop" type="button" title="回到顶部" aria-label="回到顶部">
   <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.2" fill="none"><polyline points="18 15 12 9 6 15"></polyline></svg>

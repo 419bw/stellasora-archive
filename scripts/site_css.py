@@ -1285,6 +1285,19 @@ h1 {
   gap: 12px;
 }
 .foot-brand { font-weight: 600; color: var(--text-muted); }
+.foot-disclaimer {
+  max-width: 1100px;
+  margin: 14px auto 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--card-border-subtle);
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--text-subtle);
+  opacity: 0.85;
+}
+.foot-disclaimer p {
+  margin: 0;
+}
 
 /* Back to Top */
 .back-to-top {
