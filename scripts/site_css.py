@@ -34,6 +34,8 @@ CSS = """
   --radius-md: 10px;
   --radius-lg: 14px;
   --radius-xl: 20px;
+  
+  --bg-dots: rgba(0, 0, 0, 0.04);
 }
 
 [data-theme="dark"] {
@@ -60,6 +62,8 @@ CSS = """
   --final: #A78BFA;
   --between: #FBBF24;
   --locked: #78716C;
+  
+  --bg-dots: rgba(255, 255, 255, 0.035);
 }
 
 * { box-sizing: border-box; }
@@ -79,6 +83,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: radial-gradient(var(--bg-dots) 1px, transparent 1px);
+  background-size: 20px 20px;
 }
 
 /* Header & Navigation */
@@ -112,6 +118,17 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.brand-icon {
+  width: 22px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.brand:hover .brand-icon {
+  transform: scale(1.08) rotate(-4deg);
 }
 .nav {
   display: flex;
@@ -933,6 +950,7 @@ h1 {
 /* Dialogue Lines: Backlog Item Card */
 .page .line {
   position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding: 12px 18px;
@@ -950,6 +968,41 @@ h1 {
 .page .line:hover {
   background: var(--card-bg-subtle);
   border-color: var(--card-border);
+}
+.page .line .who,
+.page .line .say,
+.page .line .tag {
+  position: relative;
+  z-index: 1;
+}
+.page .line::before,
+.player-reply::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  pointer-events: none;
+  background-color: #3b5266;
+  opacity: 0.10;
+  -webkit-mask: url('card_dots.svg') right top / cover no-repeat;
+  mask: url('card_dots.svg') right top / cover no-repeat;
+  transition: opacity 0.2s ease;
+  z-index: 0;
+}
+[data-theme="dark"] .page .line::before,
+[data-theme="dark"] .player-reply::before {
+  background-color: #93c5fd;
+  opacity: 0.09;
+}
+.page .line:hover::before,
+.player-reply:hover::before {
+  opacity: 0.18;
+}
+[data-theme="dark"] .page .line:hover::before,
+[data-theme="dark"] .player-reply:hover::before {
+  opacity: 0.16;
 }
 .page .line .who {
   font-size: 13.5px;
@@ -1134,6 +1187,8 @@ h1 {
 
 /* Player Response (玩家回应) matches Image 2 & 3: speaker "魔王 选择了" above text */
 .player-reply {
+  position: relative;
+  overflow: hidden;
   padding: 12px 18px;
   margin: 0 0 8px 0;
   background: var(--card-bg);
@@ -1150,6 +1205,11 @@ h1 {
 .player-reply:hover {
   background: var(--card-bg-subtle);
   border-color: var(--card-border);
+}
+.player-reply .reply-who,
+.player-reply .reply-body {
+  position: relative;
+  z-index: 1;
 }
 .player-reply .reply-who {
   font-size: 13.5px;
@@ -1284,7 +1344,15 @@ h1 {
   flex-wrap: wrap;
   gap: 12px;
 }
-.foot-brand { font-weight: 600; color: var(--text-muted); }
+.foot-brand { font-weight: 600; color: var(--text-muted); display: inline-flex; align-items: center; }
+.foot-icon {
+  width: 16px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: -4px;
+  margin-right: 6px;
+  opacity: 0.9;
+}
 .foot-disclaimer {
   max-width: 1100px;
   margin: 14px auto 0;

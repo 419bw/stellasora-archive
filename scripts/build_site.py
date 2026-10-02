@@ -309,6 +309,12 @@ def main():
                                                     separators=(',', ':')))
     write(os.path.join(SITE, 'assets', 'tokens.css'), CSS)
     write(os.path.join(SITE, 'assets', 'site.js'), JS)
+    src_assets = os.path.join(ROOT, 'assets')
+    if os.path.exists(src_assets):
+        for f in os.listdir(src_assets):
+            sf = os.path.join(src_assets, f)
+            if os.path.isfile(sf):
+                shutil.copyfile(sf, os.path.join(SITE, 'assets', f))
 
     # Core Data
     ch_data = load('chapters.json')

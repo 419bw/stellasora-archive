@@ -128,6 +128,7 @@ def layout(title, body, depth, crumb, note=''):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%s · 星塔旅人 剧情档案</title>
+<link rel="icon" href="%sassets/icon_story.png" type="image/png">
 <link rel="stylesheet" href="%sassets/tokens.css">
 <script>
 (function(){
@@ -138,7 +139,10 @@ def layout(title, body, depth, crumb, note=''):
 </head><body>
 <header class="top">
   <div class="top-inner">
-    <a class="brand" href="%sindex.html">✦ 星塔旅人 剧情档案</a>
+    <a class="brand" href="%sindex.html">
+      <img class="brand-icon" src="%sassets/icon_story.png" alt="" width="22" height="28">
+      <span>星塔旅人 剧情档案</span>
+    </a>
     <nav class="nav">%s</nav>
     <div class="top-actions">
       <button class="theme-toggle" id="themeToggle" type="button" title="切换深色/浅色模式" aria-label="切换主题">
@@ -153,7 +157,7 @@ def layout(title, body, depth, crumb, note=''):
 </main>
 <footer class="foot">
   <div class="foot-inner">
-    <div class="foot-brand">✦ 星塔旅人 剧情知识档案</div>
+    <div class="foot-brand"><img class="foot-icon" src="%sassets/icon_story.png" alt="" width="16" height="20"> 星塔旅人 剧情知识档案</div>
     <div class="foot-meta">%s %s</div>
   </div>
   <div class="foot-disclaimer">
@@ -166,9 +170,11 @@ def layout(title, body, depth, crumb, note=''):
 <script src="%sdata/search.js"></script>
 <script src="%sassets/site.js"></script>
 </body></html>
-""" % (esc(title), root, root, nav_links,
+""" % (esc(title), root, root,
+       root, root, nav_links,
        ('<nav class="crumb">%s</nav>\n' % crumb) if crumb else '', body,
-       esc(note), BASELINE, root, root)
+       root, esc(note), BASELINE,
+       root, root)
 
 
 def script_page(rec, md_content, nav_info=None, branch_targets=None):
