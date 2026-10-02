@@ -1,7 +1,4 @@
-# 《星塔旅人》剧情与剧本档案库 (Stella Sora Chronicle)
-
-> 专为《星塔旅人》玩家打造的沉浸式全量剧情与台词检索站。  
-> 零胡编、100% 官方数据源高保真，纯静态离线可用，支持全库毫秒级即时检索。
+# 《星塔旅人》剧情档案 (Stella Sora Archive)
 
 在线访问：[https://stellasora-archive.pages.dev/](https://stellasora-archive.pages.dev/)  
 开源仓库：[https://github.com/419bw/stellasora-archive](https://github.com/419bw/stellasora-archive)
@@ -26,55 +23,6 @@
 - **星塔 NPC 羁绊**：星塔驻留人员与常驻 NPC 的日常好感羁绊剧情。
 - **秘闻**：收录秘闻剧本与官方原版散文、故事集日常回忆与侧写。
 - **战场气泡与战斗档案**：随战斗阶段推进的角色实时气泡对白，以及零对白战斗关卡的独立档案与流程跳转。
-
----
-
-## 核心特性与阅读体验
-
-1. **游戏同款排版与视觉还原**：
-   - 忠实区分角色发声、场景旁白与内心独白（魔王思考灰色气泡）。
-   - 交互抉择项（重大分支抉择、性格倾向回答、终端通讯短信）整洁清洗呈现。
-   - 原生支持台词注音（Ruby）排版渲染。
-2. **前后章节双向导航与拓扑连线**：
-   - 任意剧本页或战斗档案页底部均配有「上一节 ↔ 下一节」双向跳转导航与分支路线选择。
-   - 章节主页提供 SVG 矢量交互拓扑图，支持拖拽平移、滚轮缩放与列锚点定位。
-3. **全库毫秒级本地检索**：
-   - 支持按**角色名、台词关键字、关卡代号、剧情标题**即时过滤，快速定位名场面与伏笔考据。
-4. **纯静态离线运行与零依赖**：
-   - 采用纯 Python 标准库生成静态站点，无任何前端打包框架依赖与第三方 CDN 依赖。
-   - 纯本地内嵌搜索，离线双击即可完整使用，支持深色/浅色自适应主题。
-
----
-
-## 项目架构与脚本目录
-
-项目采用清晰的职责分层架构：
-
-```
-stellasora-archive/
-├── story_docs/              # Markdown 真源文档库与结构化侧车数据
-│   └── _data/               # chapters.json, sections.json, search.json 等
-├── scripts/                 # 构建与维护脚本工具集
-│   ├── story/               # 剧情抽取与拓扑计算模块
-│   │   ├── build_story.py   # 解析官方数据源 -> 生成 Markdown 与侧车数据
-│   │   └── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
-│   ├── site/                # 静态站点生成引擎
-│   │   ├── build_site.py    # 驱动模板生成 549 篇 HTML 静态页面
-│   │   ├── site_templates.py# 拓扑图、剧情阅读牌板、战斗档案等页面模板
-│   │   ├── site_css.py      # 设计规范 Tokens 与全局样式
-│   │   ├── site_js.py       # 离线检索、拓扑图手势交互等前端脚本
-│   │   └── md2html.py       # Markdown 与 Ruby 注音原生转换器
-│   ├── automation/          # 自动化持续集成模块
-│   │   └── auto_sync.py     # 自动化上游数据对比、增量同步与 CI 发版
-│   └── tools/               # 辅助与基准测试工具
-│       ├── run_benchmark.py # 耗时与解析性能基准压测
-│       └── build_wiki.py    # 早期原型抽取脚本
-├── site/                    # 编译输出目录（供本地查阅或托管平台直接部署）
-├── tests/story/             # 地面真相严格契约与变异测试套件 (A-K 组测试)
-└── .github/workflows/       # GitHub Actions 自动化构建与定时同步流水线
-```
-
-> 提示：在 `scripts/` 根目录下提供了 `build_site.py`、`build_story.py` 与 `auto_sync.py` 的轻量转发器，直接在根目录执行旧命令依然 100% 兼容。
 
 ---
 
@@ -148,3 +96,35 @@ python tests/story/validate_site.py
 - **拓扑分支修复**：修正活动剧情关卡拓扑图中过程分支被误标记为“终局”的问题，准确呈现“分支”样式与流向。
 - **标题去重优化**：修复 NPC 羁绊各话在列表、面包屑、上下节导航及全站搜索结果中“第一话 第一话”重复前缀的问题。
 - **卡片与分类文案优化**：将原“唱片剧情”重命名为“秘闻”，全面去除各分类卡片描述中的硬编码数量。
+
+---
+
+## 项目架构与脚本目录
+
+项目采用清晰的职责分层架构：
+
+```
+stellasora-archive/
+├── story_docs/              # Markdown 真源文档库与结构化侧车数据
+│   └── _data/               # chapters.json, sections.json, search.json 等
+├── scripts/                 # 构建与维护脚本工具集
+│   ├── story/               # 剧情抽取与拓扑计算模块
+│   │   ├── build_story.py   # 解析官方数据源 -> 生成 Markdown 与侧车数据
+│   │   └── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
+│   ├── site/                # 静态站点生成引擎
+│   │   ├── build_site.py    # 驱动模板生成 549 篇 HTML 静态页面
+│   │   ├── site_templates.py# 拓扑图、剧情阅读牌板、战斗档案等页面模板
+│   │   ├── site_css.py      # 设计规范 Tokens 与全局样式
+│   │   ├── site_js.py       # 离线检索、拓扑图手势交互等前端脚本
+│   │   └── md2html.py       # Markdown 与 Ruby 注音原生转换器
+│   ├── automation/          # 自动化持续集成模块
+│   │   └── auto_sync.py     # 自动化上游数据对比、增量同步与 CI 发版
+│   └── tools/               # 辅助与基准测试工具
+│       ├── run_benchmark.py # 耗时与解析性能基准压测
+│       └── build_wiki.py    # 早期原型抽取脚本
+├── site/                    # 编译输出目录（供本地查阅或托管平台直接部署）
+├── tests/story/             # 地面真相严格契约与变异测试套件 (A-K 组测试)
+└── .github/workflows/       # GitHub Actions 自动化构建与定时同步流水线
+```
+
+> 提示：在 `scripts/` 根目录下提供了 `build_site.py`、`build_story.py` 与 `auto_sync.py` 的轻量转发器，直接在根目录执行旧命令依然 100% 兼容。
