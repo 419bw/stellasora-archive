@@ -114,13 +114,17 @@ flowchart TD
 
 ## 四、 静态站方案：纯 Python 生成 `site/`
 
-站点由三个脚本负责，全部只依赖标准库，不需要 npm：
+站点由纯 Python 模块化脚本负责，全部只依赖标准库，不需要 npm：
 
-| 脚本 | 输入 | 输出 |
-|---|---|---|
-| `scripts/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/`（Markdown）+ `story_docs/_data/*.json`（结构化侧车，含节点图坐标） |
-| `scripts/graph_layout.py` | 章节点（`sid/story_id/parents/code`） | 列、轨道、像素坐标（纯函数，无 IO） |
-| `scripts/build_site.py` | `story_docs/` + `_data/` | `site/`（HTML + `assets/tokens.css` + `assets/site.js` + `data/search.js`） |
+| 脚本 | 输入 | 输出 | 核心职责 |
+|---|---|---|---|
+| `scripts/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/` + `_data/*.json` | 语法树解析、魔王正名、独白识别、图谱生成 |
+| `scripts/build_site.py` | `story_docs/` + `_data/` | `site/` 全量静态页面 | 站点编译主入口，驱动模板引擎生成 549 篇产物 |
+| `scripts/site_templates.py` | 关卡元数据与排版内容 | 结构化 HTML 字符串 | 拓扑图、剧情阅读牌板、战斗档案等页面模板 |
+| `scripts/site_css.py` | 设计规范 Tokens | `site/assets/tokens.css` | 主题变量、深浅色、牌板、SVG 拓扑样式 |
+| `scripts/site_js.py` | 前端交互事件 | `site/assets/site.js` | 离线即时检索、拓扑平移拖拽缩放、回到顶部 |
+| `scripts/md2html.py` | Markdown 正文 | 干净的 HTML 片段 | Markdown 语法与 `<ruby><rt>` 注音原生转换 |
+| `scripts/graph_layout.py` | 节点关系 (`sid/parents`) | 列、轨道、SVG 坐标 | DAG 分层拓扑几何纯函数（无 IO） |
 
 内容真源是 `story_docs/` 的 Markdown（它已被逐句校验过），`scripts/md2html.py` 只做本站
 用到的那一小套 Markdown 语法 → HTML，因此不存在"第二套渲染器"与产物漂移的问题。
@@ -162,13 +166,22 @@ python -m http.server 8000 --directory site                     # 或 npm run se
 
 ## 七、 后续游戏版本更新与日常维护规范
 
-当官方推出新主线或新活动时，按以下三步无痛更新：
-1. **替换官方解包资产**：将最新解包出的 `Story.json`、`ActivityStory.json` 与新的 Lua 剧本放入 `data/` 目录。
-2. **运行构建脚本**：再次执行 `python scripts/build_wiki.py`，增量关卡与新角色小节将自动生成，Mermaid 流程图自动重算。
-3. **Git 提交并推送**：
+当官方推出新主线或新活动时，按以下标准流水线更新：
+1. **替换官方解包资产**：将最新解包出的配置表放入 `data/StellaSoraData/CN/bin/` 与文案目录，将新 AVG 剧本放入 `data/ss_lua/.../Config/`。
+2. **运行构建脚本**：
    ```bash
-   git add docs/
-   git commit -m "feat: 更新主线第十章与新活动剧情"
+   python scripts/build_story.py    # 提取官方数据 -> story_docs/ 与 _data/*.json
+   python scripts/build_site.py     # 编译静态站 -> site/
+   ```
+3. **运行契约回归测试**：
+   ```bash
+   python tests/story/validate_story.py
+   python tests/story/validate_site.py
+   ```
+4. **Git 提交并推送**：
+   ```bash
+   git add story_docs/ site/
+   git commit -m "feat: 更新最新游戏版本剧情与剧本档案"
    git push origin main
    ```
-   Cloudflare Pages 或 Vercel 将通过 Webhook 自动触发部署，30 秒内全站自动同步更新。
+   静态托管平台（如 Cloudflare Pages / Vercel / GitHub Pages）将自动同步最新站点。

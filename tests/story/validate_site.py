@@ -141,7 +141,12 @@ SEC = json.load(open(os.path.join(DATA, 'sections.json'), encoding='utf-8'))
 pages = SEC['pages']
 page_links = {p['page'] for p in pages}
 unrel = [n for n in nodes.values() if n['state'] == 'unreleased']
-orphan_page = [n['sid'] for n in nodes.values() if n['page'] and n['page'] not in page_links]
+main_battle_archive_nodes = {
+    n['sid'] for n in nodes.values()
+    if n.get('kind') == 'battle' and n.get('page') and n['page'] not in page_links
+}
+orphan_page = [n['sid'] for n in nodes.values()
+               if n['page'] and n['page'] not in page_links and n['sid'] not in main_battle_archive_nodes]
 
 
 def script_in_pack(n):
@@ -159,7 +164,7 @@ def script_in_pack(n):
 
 no_pack = {str(n['sid']) for n in nodes.values() if not script_in_pack(n)}
 wrong_page = [n['sid'] for n in nodes.values()
-              if bool(n['page']) == (str(n['sid']) in no_pack)]
+              if bool(n['page']) == (str(n['sid']) in no_pack and n['sid'] not in main_battle_archive_nodes)]
 by_chap = collections.Counter(c['id'] for c in CH['chapters']
                               for n in c['nodes'] if n['state'] != 'released')
 print('包内无剧本的节点：%d（按表章 %s）   page 指向不存在的剧本页：%d'
@@ -429,7 +434,9 @@ try:
     open(h3_page, 'w', encoding='utf-8').write(src.replace(' id="col1"', '', 1))
     print('植入[抹掉一个列锚点]: %s'
           % ('CAUGHT' if audit_graph_page(first, SITE) else 'MISSED'))
-    open(h3_page, 'w', encoding='utf-8').write(src.replace('main/node/', 'main/gone/', 1))
+    open(h3_page, 'w', encoding='utf-8').write(
+        src.replace('data-col="0" href="../../main/ch%s/' % (first['no'] or 'sp'),
+                    'data-col="0" href="../../main/gone/', 1))
     print('植入[卡片链接指空]  : %s'
           % ('CAUGHT' if audit_graph_page(first, SITE) else 'MISSED'))
 finally:
@@ -440,7 +447,7 @@ sp_page = os.path.join(SITE, 'main', 'chsp', 'index.html')
 sp_src = open(sp_page, encoding='utf-8').read()
 shutil.copyfile(sp_page, sp_page + '.bak')
 try:
-    open(sp_page, 'w', encoding='utf-8').write(sp_src.replace('<li><span class="code">BT01',
+    open(sp_page, 'w', encoding='utf-8').write(sp_src.replace('<li><a href="../../main/chsp/BAm06x5_01.html"><span class="code">BT01',
                                                               '<li><a href="#"><span class="code">BT01', 1))
     print('植入[无剧本关卡给占位链接]: %s'
           % ('CAUGHT' if audit_graph_page(sp_c, SITE) else 'MISSED'))
@@ -457,6 +464,23 @@ print("=" * 66)
 MD_LINE = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$', re.M)
 HTML_LINE = re.compile(r'<p class="line[^"]*"><b class="who">.*?</b>(?:<i class="tag">.*?</i>)?'
                        r'<span class="say">「(.*?)」</span>')
+MD_RUBY = re.compile(r'<r=([^<>]*)></r>')
+HTML_RUBY = re.compile(r'<ruby>(.)<rt>(.*?)</rt></ruby>')
+
+
+def md_view(text):
+    """(去掉注音的正文, [(紧跟注音前面的字, 注音)]) as md writes it."""
+    marks = []
+    for m in MD_RUBY.finditer(text):
+        base = MD_RUBY.sub('', text[:m.start()])
+        marks.append((base[-1] if base else '', m.group(1)))
+    return MD_RUBY.sub('', text), marks
+
+
+def html_view(text):
+    """The same two projections read back out of the rendered HTML."""
+    marks = [(a, unesc(n)) for a, n in HTML_RUBY.findall(text)]
+    return unesc(HTML_RUBY.sub(lambda m: m.group(1), text)), marks
 
 
 def unesc(s):
@@ -465,47 +489,104 @@ def unesc(s):
 
 
 drift, missing_html = [], []
+ruby_md = ruby_html = 0
 for p in pages:
     hp = os.path.join(SITE, *p['page'].split('/'))
     if not os.path.exists(hp):
         missing_html.append(p['page'])
         continue
     md = open(os.path.join(OUT, *p['page_md'].split('/')), encoding='utf-8').read()
-    want = [m.group(2) for m in MD_LINE.finditer(md)]
-    got = [unesc(m.group(1)) for m in HTML_LINE.finditer(
+    want = [md_view(m.group(2)) for m in MD_LINE.finditer(md)]
+    got = [html_view(m.group(1)) for m in HTML_LINE.finditer(
         open(hp, encoding='utf-8').read())]
+    ruby_md += sum(len(w[1]) for w in want)
+    ruby_html += sum(len(g[1]) for g in got)
     if want != got:
         drift.append((p['page'], len(want), len(got)))
 print('应生成 HTML：%d 篇   缺文件：%d   逐句漂移：%d' % (len(pages), len(missing_html), len(drift)))
+print('注音渲染：md %d 处 == HTML %d 处，一致=%s' % (ruby_md, ruby_html, ruby_md == ruby_html))
 for x in drift[:5]:
     print('   ~', x)
 
+BIN_ACT = json.load(open(os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'ActivityStory.json'), encoding='utf-8'))
+activity_battle_pages = {
+    'events/%s/%s.html' % (s['ChapterId'], s['Id'])
+    for s in BIN_ACT.values() if s.get('AvgLuaName') is None
+}
+
 html_all = {os.path.relpath(os.path.join(dp, f), SITE).replace(os.sep, '/')
             for dp, _d, fs in os.walk(SITE) for f in fs if f.endswith('.html')}
+main_battle_archive_pages = {
+    n['page'] for n in nodes.values() if n['sid'] in main_battle_archive_nodes
+}
 expected = {p['page'] for p in pages} | {'index.html', 'main/index.html'} | \
            {'main/ch%s/index.html' % (c['no'] or 'sp') for c in CH['chapters']} | \
            {'%s/index.html' % s for s in ('events', 'characters', 'npc', 'discs',
-                                          'storysets', 'prologue', 'battles')}
+                                          'storysets', 'prologue', 'battles')} | \
+           main_battle_archive_pages | \
+           {'events/10106/index.html', 'events/20101/index.html'} | \
+           activity_battle_pages
 print('HTML 总数 %d   未登记的页面 %d   该有却没有的页面 %d'
       % (len(html_all), len(html_all - expected), len(expected - html_all)))
 for x in sorted(expected - html_all)[:5]:
     print('   ~ 缺', x)
 
+# Verify battle archives (activity + main story) and activity topology maps
+bt_errs = []
+if len(activity_battle_pages) != 19:
+    bt_errs.append(('活动战斗关卡数不符', len(activity_battle_pages), 19))
+for bp in (activity_battle_pages | main_battle_archive_pages):
+    full_p = os.path.join(SITE, *bp.split('/'))
+    if not os.path.exists(full_p):
+        bt_errs.append(('缺少战斗档案页面', bp))
+        continue
+    h_txt = open(full_p, encoding='utf-8').read()
+    if '战斗关卡' not in h_txt:
+        bt_errs.append(('战斗档案缺少战斗关卡标识', bp))
+    if 'story-nav' not in h_txt:
+        bt_errs.append(('战斗档案缺少故事导航', bp))
+
+for act_id in ('10106', '20101'):
+    act_map_p = os.path.join(SITE, 'events', act_id, 'index.html')
+    if not os.path.exists(act_map_p):
+        bt_errs.append(('缺少活动拓扑图', act_id))
+    else:
+        m_txt = open(act_map_p, encoding='utf-8').read()
+        if 'class="node battle"' not in m_txt:
+            bt_errs.append(('活动拓扑图缺少战斗节点样式', act_id))
+
+print('活动战斗关卡与拓扑图检查违例：%d' % len(bt_errs))
+for x in bt_errs[:5]:
+    print('   ~', x)
+
 print()
 print('I2 变异测试')
-victim = next(p for p in pages if p['family'] == 'main')
+victim = next(p for p in pages if '<r=' in open(
+    os.path.join(OUT, *p['page_md'].split('/')), encoding='utf-8').read())
 vp = os.path.join(SITE, *victim['page'].split('/'))
 orig = open(vp, encoding='utf-8').read()
-tmp = vp + '.mut'
-open(tmp, 'w', encoding='utf-8', newline='\n').write(orig.replace('」', 'X」', 1))
-got = [unesc(m.group(1)) for m in HTML_LINE.finditer(open(tmp, encoding='utf-8').read())]
-want = [m.group(2) for m in MD_LINE.finditer(
+want = [md_view(m.group(2)) for m in MD_LINE.finditer(
     open(os.path.join(OUT, *victim['page_md'].split('/')), encoding='utf-8').read())]
-print('植入[改 HTML 一个字] : %s' % ('CAUGHT' if got != want else 'MISSED'))
-open(tmp, 'w', encoding='utf-8', newline='\n').write(
-    orig.replace('<p class="line', '<p class="x" data-line="', 1))
-got = [unesc(m.group(1)) for m in HTML_LINE.finditer(open(tmp, encoding='utf-8').read())]
-print('植入[弄坏一行结构]   : %s' % ('CAUGHT' if got != want else 'MISSED'))
+tmp = vp + '.mut'
+
+
+def html_lines(path):
+    return [html_view(m.group(1)) for m in HTML_LINE.finditer(
+        open(path, encoding='utf-8').read())]
+
+
+print('正对照（未篡改）    : %s' % ('PASS' if html_lines(vp) == want else 'FAIL'))
+for label, mut in [
+        ('植入[改 HTML 一个字]', orig.replace('」', 'X」', 1)),
+        ('植入[弄坏一行结构]  ', orig.replace('<p class="line', '<p class="x" data-line="', 1)),
+        ('植入[HTML 丢一处注音]', orig.replace('<ruby>魔<rt>mowang</rt></ruby>', '魔', 1)),
+        ('植入[注音挪了位置]  ', orig.replace('<ruby>魔<rt>mowang</rt></ruby>',
+                                             '<ruby>王<rt>mowang</rt></ruby>', 1))]:
+    if mut == orig:
+        print('%s : 样本里没有该形状' % label)
+        continue
+    open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
+    print('%s : %s' % (label, 'CAUGHT' if html_lines(tmp) != want else 'MISSED'))
 os.remove(tmp)
 
 

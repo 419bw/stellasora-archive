@@ -5,33 +5,38 @@
 ---
 
 ## 🌟 核心特性
-- 📖 **100% 官方数据源高保真**：覆盖公测全 10 大主线章节、604 个独立小节、11 个大型活动剧情。
+- 📖 **100% 官方数据源高保真**：覆盖公测全 10 大主线章节、604 个独立小节、11 个大型活动剧情，支持原生 Ruby 注音（`<ruby><rt>`）精准对齐。
 - 🎭 **沉浸式台词与角色还原**：
   - **正名“魔王”**：彻底修复底层开发代号“塞拉”与 `==PLAYER_NAME==`，忠实呈现主角身份。
   - **精准区分思考与发声**：基于官方引擎 `TalkType = 2`（主角想），全库 1,185 处灰色气泡心理活动赋予 `**魔王**（思考）` 标识。
   - **三类分支抉择净化**：重大抉择（带副标题）、性格倾向抉择、终端短信回复全量清洗。
-- 🗺️ **主线节点图**：按官方 `Story.ParentStoryId` 复原游戏内「主線劇情」那张图——分叉、汇合、多结局、未开放节点，坐标随数据产出并逐章校验。
-- ⚡ **零依赖静态站**：`python scripts/build_site.py` 直接生成 `site/`，双击 `index.html` 即可离线浏览与检索；VitePress 只作为备选方案保留在文档里。
+- 🗺️ **官方同款 SVG 拓扑节点图**：按官方 `Story.ParentStoryId` 与活动条件表复原游戏内主线与活动连线图谱——分叉抉择、终局归属、平移缩放、列单调性。
+- ⚔️ **全自动独立战斗关卡档案**：针对主线特别篇及 11 个活动中无 AVG 剧本的纯战斗关卡，自适应生成包含官方关卡代号、解锁条件、简介文案与双向流程导航的独立档案页。
+- ⚡ **零依赖静态站**：`python scripts/build_site.py` 直接生成 549 篇纯静态网页至 `site/`，内嵌即时搜索，双击 `index.html` 或任意静态空间均可直接离线运行。
 
 ---
 
-## 📁 目录结构
+## 📁 目录结构与脚本分类
+
 ```text
 星塔旅人剧情知识库/
-├── data/                       # 官方解密数据源（634 MB，不入库）
+├── data/                       # 官方解密数据源（配置表与 Lua 剧本，不入库）
 ├── story_docs/                 # 剧情 Markdown 产物 + _data/ 结构化侧车（评审与校验基线）
-├── site/                       # 生成的静态站（构建产物，不入库）
-├── docs/                       # 早期全量 Markdown（build_wiki.py 产物，保留作校验基线）
-├── scripts/
-│   ├── build_story.py          # 【剧情管道】八族剧本 → story_docs/ + _data/*.json
-│   ├── graph_layout.py         # 主线节点图的分层布局纯函数
-│   ├── md2html.py              # 本站 Markdown 子集 → HTML
-│   ├── build_site.py           # 【站点】story_docs + 侧车 → site/
-│   ├── build_wiki.py           # 早期全量脚本（数值/纹章/索引，剧情部分已被上面取代）
-│   └── run_benchmark.py        # 离线事实检索基准
-├── tests/story/                # 独立校验器 A–K（不吃生成器代码，含植入变异测试）
+├── site/                       # 生成的静态站产物（549 个 HTML 页面，纯前端离线运行）
+├── docs/                       # 早期全量 Markdown（保留作校验对齐基线）
+├── scripts/                    # 工具与生成脚本库（详见下方分类）
+│   ├── build_story.py          # 【数据管道】八族剧本提取 → story_docs/ + _data/*.json
+│   ├── build_site.py           # 【主构建器】读取 story_docs 与元数据 → 编译生成 site/ 全站
+│   ├── site_templates.py       # 【模板引擎】全站 HTML 模板（拓扑地图、剧本阅读、战斗档案等）
+│   ├── site_css.py             # 【样式模块】设计系统（暗色/浅色、牌板、SVG拓扑、响应式）
+│   ├── site_js.py              # 【前端交互】毫秒级即时检索、拓扑图缩放拖拽、主题切换
+│   ├── md2html.py              # 【解析模块】轻量 Markdown 转 HTML，支持 <r=注音> 渲染
+│   ├── graph_layout.py         # 【算法模块】DAG 章节拓扑分层布局几何纯函数
+│   ├── build_wiki.py           # 早期原型全量脚本（保留作为历史比对基准）
+│   └── run_benchmark.py        # 离线事实检索评估基准
+├── tests/story/                # 自动化测试与质量契约验证器 A–M（含变异注入测试）
 ├── AI_HANDOVER_GUIDE.md        # 逆向提取与数据契约交接手册
-├── OPERATION_MANUAL.md         # 构建与部署手册
+├── OPERATION_MANUAL.md         # 运维、构建与版本迭代操作手册
 ├── package.json
 └── README.md
 ```

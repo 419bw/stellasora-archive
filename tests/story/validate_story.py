@@ -37,10 +37,12 @@ SILENT = re.compile(r'^> \*（其中')
 
 
 def norm(s):
+    s = s.replace('<br>', ' ')            # a line break is a space in text, not nothing
     s = re.sub(r'<[^>]*>', '', s)
     s = s.replace('==PLAYER_NAME==', '魔王')
     s = re.sub(r'==SEX\d*==', '你', s)
-    s = re.sub(r'==[A-Za-z0-9_]+==', ' ', s)
+    s = re.sub(r'==[A-Za-z0-9_.]*==', ' ', s)     # ==A0.5== / ==Off== carry no words either
+    s = s.replace('_NOT_IN_LOG_', '')
     return re.sub(r'\s+', ' ', s).strip()
 
 
@@ -52,7 +54,7 @@ def id_of(path):
     return os.path.basename(path).split('_')[0]
 
 
-def dialogue(path, drop_chat=False):
+def dialogue(path, drop_chat=False, raw=False):
     out = []
     for l in lines_of(path):
         if BUBBLE.match(l) or MARKER.match(l) or SCENE.match(l) or CHOICE.match(l) or BULLET.match(l) or SILENT.match(l):
@@ -62,7 +64,7 @@ def dialogue(path, drop_chat=False):
             continue
         if drop_chat and '（短信）' in l:
             continue
-        out.append(norm(m.group(2)))
+        out.append(m.group(2) if raw else norm(m.group(2)))
     return out
 
 
@@ -383,12 +385,13 @@ def lg(name):
 ASSET = re.compile(r'[a-z][a-z0-9_]*')
 
 
-def lua_dialogue_seq(stem):
-    """Naive line scan of one script: the text of every SetTalk / SetPhoneMsg, in order.
+def lua_speech_rows(stem):
+    """Naive line scan of one script: [(cmd, raw text)] for every SetTalk / SetPhoneMsg that
+    carries words, in the raw official order.
 
-    Only the documented content rules are mirrored here (empty lines and sprite asset
-    keys inside SetTalk carry no words; an asset key inside SetPhoneMsg is a sticker
-    send). Everything else is the raw official order.
+    Only the documented content rules are mirrored here (empty lines and sprite asset keys
+    inside SetTalk carry no words; an asset key inside SetPhoneMsg is a sticker send).
+    The text is unescaped but deliberately NOT cleaned, so inline markup is still in it.
     """
     p = os.path.join(CFG, stem + '.lua')
     if not os.path.exists(p):
@@ -420,12 +423,19 @@ def lua_dialogue_seq(stem):
             vals.append(st)
             j += 1
         if len(vals) >= 3:
-            raw = norm(unescape_lua(vals[2]))
-            if raw and not (m.group(1) == 'SetTalk' and
-                            (raw.startswith(('ep_', 'BG_')) or ASSET.fullmatch(raw))):
+            raw = unescape_lua(vals[2])
+            seen = norm(raw)
+            if seen and not ASSET.fullmatch(seen) and not (
+                    m.group(1) == 'SetTalk'
+                    and (seen.startswith(('ep_', 'BG_')) or ASSET.fullmatch(seen))):
                 out.append((m.group(1), raw))
         i = j
-    return [t for _, t in out if not (ASSET.fullmatch(t))]
+    return out
+
+
+def lua_dialogue_seq(stem):
+    rows = lua_speech_rows(stem)
+    return None if rows is None else [norm(r) for _c, r in rows]
 
 
 LANG_P, LANG_N, LANG_D = lg('Plot'), lg('NPCAffinityPlot'), lg('DiscIP')
@@ -662,3 +672,70 @@ print('植入[把 BBm07_BT01 挂回特别篇]: %s'
       % ('CAUGHT' if audit_mount(fake, 'BBm07_BT01') else 'MISSED'))
 print('植入[把 BBm08_BT01 挂到第七章]: %s'
       % ('CAUGHT' if audit_mount(sp, 'BBm08_BT01') else 'MISSED'))
+
+
+# ============================================================ M  注音保真
+print()
+print("=" * 66)
+print("M  台词里的 <r=注音></r> 逐句对齐剧本：位置（紧跟哪个字）+ 文字")
+print("=" * 66)
+RUBY = re.compile(r'<r=([^<>]*)></r>')
+
+
+def ruby_marks(text):
+    """[(紧跟在注音前面的那个字, 注音)] in reading order. The client's ruby has an empty
+    body, so a note is identified by where it was inserted, not by what it covers."""
+    out = []
+    for m in RUBY.finditer(text):
+        base = norm(text[:m.start()])
+        out.append((base[-1] if base else '', m.group(1)))
+    return out
+
+
+def audit_ruby(path, stem):
+    rows = lua_speech_rows(stem)
+    if rows is None:
+        return ['剧本查无文件']
+    texts = dialogue(path, raw=True)
+    if len(texts) != len(rows):
+        return ['句数不等 md=%d lua=%d' % (len(texts), len(rows))]
+    errs = []
+    for n, (mt, (_cmd, raw)) in enumerate(zip(texts, rows)):
+        a, b = ruby_marks(mt), ruby_marks(raw)
+        if a != b:
+            errs.append('第 %d 句 md=%s 剧本=%s' % (n + 1, a, b))
+    return errs
+
+
+bad_m, marks_m, pages_m = [], 0, 0
+for p, stem in pages:
+    n = sum(len(ruby_marks(t)) for t in dialogue(p, raw=True))
+    marks_m += n
+    pages_m += 1 if n else 0
+    for e in audit_ruby(p, stem):
+        bad_m.append((os.path.relpath(p, NEW), stem, e))
+print('全树注音标记：%d 处   有注音的页：%d   不符：%d' % (marks_m, pages_m, len(bad_m)))
+for x in bad_m[:6]:
+    print('   ~', x)
+
+print()
+print('M2 变异测试')
+rp = next(p for p, s in pages if '<r=mowang></r>' in open(p, encoding='utf-8').read())
+rstem = next(s for p, s in pages if p == rp)
+src = open(rp, encoding='utf-8').read()
+tmp = rp + '.mut.md'
+try:
+    print('正对照（未篡改）: %s' % ('PASS' if not audit_ruby(rp, rstem) else 'FAIL'))
+    for label, mut in [
+            ('植入[删掉一处注音]', src.replace('<r=mowang></r>', '', 1)),
+            ('植入[注音挪到字后]', src.replace('魔<r=mowang></r>王', '魔王<r=mowang></r>', 1)),
+            ('植入[改注音文字]', src.replace('<r=mowang></r>', '<r=BOSS></r>', 1))]:
+        if mut == src:
+            print('%s : 样本里没有该形状，跳过' % label)
+            continue
+        open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
+        print('%s : %s' % (label, 'CAUGHT' if audit_ruby(tmp, rstem) else 'MISSED'))
+finally:
+    if os.path.exists(tmp):
+        os.remove(tmp)
+print('还原后复检: %s' % ('PASS' if not audit_ruby(rp, rstem) else 'FAIL'))

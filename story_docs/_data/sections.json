@@ -28,7 +28,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/100_BT01_重返孤儿院.md",
-   "page": "main/node/BAm01_05.html",
+   "page": "main/ch01/BAm01_05.html",
    "stems": [
     "BBm01_BT01"
    ],
@@ -68,7 +68,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/101_01_梦醒时分.md",
-   "page": "main/node/STm01_01.html",
+   "page": "main/ch01/STm01_01.html",
    "stems": [
     "STm01_01"
    ],
@@ -108,7 +108,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/102_02_过去的痕迹.md",
-   "page": "main/node/STm01_02.html",
+   "page": "main/ch01/STm01_02.html",
    "stems": [
     "STm01_02"
    ],
@@ -150,7 +150,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/103_03_消失的绿洲.md",
-   "page": "main/node/STm01_03.html",
+   "page": "main/ch01/STm01_03.html",
    "stems": [
     "STm01_03"
    ],
@@ -193,7 +193,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/104_04_桥洞下.md",
-   "page": "main/node/STm01_04.html",
+   "page": "main/ch01/STm01_04.html",
    "stems": [
     "STm01_04"
    ],
@@ -236,7 +236,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/105_05_灰城区的风.md",
-   "page": "main/node/STm01_05.html",
+   "page": "main/ch01/STm01_05.html",
    "stems": [
     "STm01_05"
    ],
@@ -286,7 +286,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/106_06_飞翔的选择.md",
-   "page": "main/node/STm01_06.html",
+   "page": "main/ch01/STm01_06.html",
    "stems": [
     "STm01_06"
    ],
@@ -334,7 +334,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/107_07_不同的许愿.md",
-   "page": "main/node/STm01_07.html",
+   "page": "main/ch01/STm01_07.html",
    "stems": [
     "STm01_07"
    ],
@@ -378,7 +378,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/108_08A_调查结果.md",
-   "page": "main/node/STm01_08_a.html",
+   "page": "main/ch01/STm01_08_a.html",
    "stems": [
     "STm01_08_a"
    ],
@@ -416,7 +416,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/109_08B_饭后甜点.md",
-   "page": "main/node/STm01_08_c.html",
+   "page": "main/ch01/STm01_08_c.html",
    "stems": [
     "STm01_08_c"
    ],
@@ -460,7 +460,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/110_终局_没有旅人的未来.md",
-   "page": "main/node/STm01_08_b.html",
+   "page": "main/ch01/STm01_08_b.html",
    "stems": [
     "STm01_08_b"
    ],
@@ -507,7 +507,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/111_09_填补记忆的方式.md",
-   "page": "main/node/STm01_09.html",
+   "page": "main/ch01/STm01_09.html",
    "stems": [
     "STm01_09"
    ],
@@ -559,7 +559,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_01_没有记忆的生物/sections/112_10_最终解释权.md",
-   "page": "main/node/STm01_10.html",
+   "page": "main/ch01/STm01_10.html",
    "stems": [
     "STm01_10"
    ],
@@ -602,7 +602,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/201_BT01_逃出包围.md",
-   "page": "main/node/BAm02_03.html",
+   "page": "main/ch02/BAm02_03.html",
    "stems": [
     "BBm02_BT01"
    ],
@@ -641,7 +641,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/202_BT02_灾变的星骸.md",
-   "page": "main/node/BAm02_09.html",
+   "page": "main/ch02/BAm02_09.html",
    "stems": [
     "BBm02_BT02"
    ],
@@ -678,7 +678,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/203_BT03_宿敌重逢.md",
-   "page": "main/node/BAm02_10.html",
+   "page": "main/ch02/BAm02_10.html",
    "stems": [
     "BBm02_BT03"
    ],
@@ -715,7 +715,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/204_01_公司与绿洲.md",
-   "page": "main/node/STm02_01.html",
+   "page": "main/ch02/STm02_01.html",
    "stems": [
     "STm02_01"
    ],
@@ -756,7 +756,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/205_02A_深夜潜入.md",
-   "page": "main/node/STm02_02_a.html",
+   "page": "main/ch02/STm02_02_a.html",
    "stems": [
     "STm02_02_a"
    ],
@@ -799,7 +799,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/206_02B_变装侦查.md",
-   "page": "main/node/STm02_02_b.html",
+   "page": "main/ch02/STm02_02_b.html",
    "stems": [
     "STm02_02_b"
    ],
@@ -845,7 +845,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/207_终局_永恒.md",
-   "page": "main/node/STm02_02_c.html",
+   "page": "main/ch02/STm02_02_c.html",
    "stems": [
     "STm02_02_c"
    ],
@@ -888,7 +888,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/208_03A_暗夜中的视线.md",
-   "page": "main/node/STm02_03_a.html",
+   "page": "main/ch02/STm02_03_a.html",
    "stems": [
     "STm02_03_a"
    ],
@@ -935,7 +935,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/209_03B_等下班.md",
-   "page": "main/node/STm02_03_b.html",
+   "page": "main/ch02/STm02_03_b.html",
    "stems": [
     "STm02_03_b"
    ],
@@ -978,7 +978,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/210_04_黑色少女.md",
-   "page": "main/node/STm02_04.html",
+   "page": "main/ch02/STm02_04.html",
    "stems": [
     "STm02_04"
    ],
@@ -1032,7 +1032,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/211_05_仁义与刀.md",
-   "page": "main/node/STm02_05.html",
+   "page": "main/ch02/STm02_05.html",
    "stems": [
     "STm02_05"
    ],
@@ -1082,7 +1082,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/212_06_公司的权力.md",
-   "page": "main/node/STm02_06.html",
+   "page": "main/ch02/STm02_06.html",
    "stems": [
     "STm02_06"
    ],
@@ -1131,7 +1131,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/213_07_特许经营.md",
-   "page": "main/node/STm02_07.html",
+   "page": "main/ch02/STm02_07.html",
    "stems": [
     "STm02_07"
    ],
@@ -1180,7 +1180,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/214_08_灵魂交易.md",
-   "page": "main/node/STm02_08.html",
+   "page": "main/ch02/STm02_08.html",
    "stems": [
     "STm02_08"
    ],
@@ -1224,7 +1224,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/215_09_一小时战争.md",
-   "page": "main/node/STm02_09.html",
+   "page": "main/ch02/STm02_09.html",
    "stems": [
     "STm02_09"
    ],
@@ -1290,7 +1290,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/216_10_实现愿望的方法.md",
-   "page": "main/node/STm02_10.html",
+   "page": "main/ch02/STm02_10.html",
    "stems": [
     "STm02_10"
    ],
@@ -1340,7 +1340,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_02_水道桥上的风/sections/217_尾声_新的起点.md",
-   "page": "main/node/STm02_11.html",
+   "page": "main/ch02/STm02_11.html",
    "stems": [
     "STm02_11"
    ],
@@ -1393,7 +1393,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/301_BT01_实力评估.md",
-   "page": "main/node/BAm03_04.html",
+   "page": "main/ch03/BAm03_04.html",
    "stems": [
     "BBm03_BT01"
    ],
@@ -1429,7 +1429,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/302_BT02_猛进之灵.md",
-   "page": "main/node/BAm03_09.html",
+   "page": "main/ch03/BAm03_09.html",
    "stems": [
     "BBm03_BT02"
    ],
@@ -1466,7 +1466,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/304_幕间 上_手机.md",
-   "page": "main/node/STm03_00_a.html",
+   "page": "main/ch03/STm03_00_a.html",
    "stems": [
     "STm03_00_a"
    ],
@@ -1487,7 +1487,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "魔王大人，欢迎回到诸界之井魔王养成系统。 我是您全年无休24小时待命的专属秘书维塔，您的第一个任务是—— 收集十个灵魂。 嗯？是谁在说话？ 声音好像是从....... 魔王你那边传来的，窗外有人说话？ 怎么可能？我们可是在飞驰的小绿上。 声音，来自魔王的口袋。 口袋？我的口袋里只有手机啊...... 呜哇，屏幕上是什么怪东西！ 魔王大人，维塔不是怪东西，我是",
+   "preview": "魔<r=mowang></r>王大人，欢迎回到诸界之井魔<r=mowang></r>王养成系统。 我是您全年无休24小时待命的专属秘书维塔，您的第一个任务是—— 收集十个灵魂。 嗯？是谁在说话？ 声音好像是从....... 魔王你那边传来的，窗外有人说话？ 怎么可能？我们可是在飞驰的小绿上。 声音，来自魔王的口袋。 口袋？我的口袋里只有手机啊...... 呜",
    "story_id": "STm03_00_a",
    "kind": "story",
    "parents": [],
@@ -1507,7 +1507,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/305_幕间 下_维塔.md",
-   "page": "main/node/STm03_00_b.html",
+   "page": "main/ch03/STm03_00_b.html",
    "stems": [
     "STm03_00_b"
    ],
@@ -1531,7 +1531,7 @@
     "merge": 1,
     "sticker": 1
    },
-   "preview": "很久很久以前，魔王的军师为了高效地培养魔王，制作了这台手机“王权”以及诸界之井魔王养成系统。 系统会自动检测魔王的当前状态，发布有助于魔王成长的任务，完成任务可以让系统升级，给予魔王更多权限。 但因为这个系统bug太多根本没法正常使用，所以担任司祭的 ■■就改行当了秘书来辅佐您。 灵魂交易是您这台手机的基础功能。维塔查到，您已经收集到了五个灵魂， 第一个任务",
+   "preview": "很久很久以前，魔<r=mowang></r>王的军师为了高效地培养魔<r=mowang></r>王，制作了这台手机“王权”以及诸界之井魔<r=mowang></r>王养成系统。 系统会自动检测魔<r=mowang></r>王的当前状态，发布有助于魔<r=mowang></r>王成长的任务，完成任务可以让系统升级，给予魔<r=mowang></r>王更多权限。",
    "story_id": "STm03_00_b",
    "kind": "story",
    "parents": [
@@ -1553,7 +1553,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/306_01_三大魔物.md",
-   "page": "main/node/STm03_01.html",
+   "page": "main/ch03/STm03_01.html",
    "stems": [
     "STm03_01"
    ],
@@ -1600,7 +1600,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/307_02_森林深处的“仙人”.md",
-   "page": "main/node/STm03_02.html",
+   "page": "main/ch03/STm03_02.html",
    "stems": [
     "STm03_02"
    ],
@@ -1645,7 +1645,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/308_03_花令旅团.md",
-   "page": "main/node/STm03_03.html",
+   "page": "main/ch03/STm03_03.html",
    "stems": [
     "STm03_03"
    ],
@@ -1691,7 +1691,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/309_04_失败的讨伐.md",
-   "page": "main/node/STm03_04.html",
+   "page": "main/ch03/STm03_04.html",
    "stems": [
     "STm03_04"
    ],
@@ -1741,7 +1741,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/310_05_心理阴影.md",
-   "page": "main/node/STm03_05.html",
+   "page": "main/ch03/STm03_05.html",
    "stems": [
     "STm03_05"
    ],
@@ -1789,7 +1789,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/311_06A_心理疗法.md",
-   "page": "main/node/STm03_06_a.html",
+   "page": "main/ch03/STm03_06_a.html",
    "stems": [
     "STm03_06_a"
    ],
@@ -1830,7 +1830,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/312_06B_特训.md",
-   "page": "main/node/STm03_06_b.html",
+   "page": "main/ch03/STm03_06_b.html",
    "stems": [
     "STm03_06_b"
    ],
@@ -1854,7 +1854,7 @@
     "talk": 84,
     "sticker": 0
    },
-   "preview": "准备好了吗？ 好好好好…… 好了！ 真的没问题吗？冬香看起来超级紧张。 这么多人围在这里会吓到她吧，感觉她会比平时还紧张。 我看魔王胸有成竹，肯定是有自己的打算啦。 我认为对现在的冬香来说，首先要习惯战斗中有别人存在。 直接配合战斗难度太大了，先从适应别人的目光开始。 小冬香，加油！ 大家都在看着我…… 我必须努力…… 吼！ 嘿！ 呜嗷嗷嗷……！ 打…… 打",
+   "preview": "准备好了吗？ 好好好好…… 好了！ 真的没问题吗？冬香看起来超级紧张。 这么多人围在这里会吓到她吧，感觉她会比平时还紧张。 我看魔<r=BOSS></r>王胸有成竹，肯定是有自己的打算啦。 我认为对现在的冬香来说，首先要习惯战斗中有别人存在。 直接配合战斗难度太大了，先从适应别人的目光开始。 小冬香，加油！ 大家都在看着我…… 我必须努力…… 吼！ 嘿！ 呜",
    "story_id": "STm03_06_b",
    "kind": "story",
    "parents": [
@@ -1876,7 +1876,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/313_终局_刺激疗法.md",
-   "page": "main/node/STm03_06_c.html",
+   "page": "main/ch03/STm03_06_c.html",
    "stems": [
     "STm03_06_c"
    ],
@@ -1897,7 +1897,7 @@
     "talk": 82,
     "sticker": 0
    },
-   "preview": "那、那个……您说我什么都不用做，真的可以吗？ 当然，你平时做什么，现在继续做什么就好。 可是…… 抱歉，我并不是在怀疑魔王，但总觉得这样下去什么都解决不了…… 放心，相信我吧。 好，我知道了。我相信魔王…… 想要快速改变一个人的性格，需要足够强烈的外界刺激，如果提前告诉她，就起不到作用了。 准备好了吗？ 准备好了！ 好耶！我最喜欢恶作剧了！ 虽然对象是可爱的",
+   "preview": "那、那个……您说我什么都不用做，真的可以吗？ 当然，你平时做什么，现在继续做什么就好。 可是…… 抱歉，我并不是在怀疑魔<r=BOSS></r>王，但总觉得这样下去什么都解决不了…… 放心，相信我吧。 好，我知道了。我相信魔<r=BOSS></r>王…… 想要快速改变一个人的性格，需要足够强烈的外界刺激，如果提前告诉她，就起不到作用了。 准备好了吗？ 准备好",
    "story_id": "STm03_06_c",
    "kind": "story",
    "parents": [
@@ -1919,7 +1919,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/314_07_不被需要的弱者.md",
-   "page": "main/node/STm03_07.html",
+   "page": "main/ch03/STm03_07.html",
    "stems": [
     "STm03_07"
    ],
@@ -1941,7 +1941,7 @@
     "talk": 114,
     "sticker": 0
    },
-   "preview": "呼，这里的蛋糕真好吃，终于活过来了。 来来，魔王，你也尝尝。 谢谢，我就不用了…… 你不是说要吃“真相”吗？怎么变成吃蛋糕了？怎么想都太可疑了吧。 才不可疑呢。这只是普通的糖分补充时间★ 作为一名魔女，糖分就是我思考的燃料。 唉，赶路时吃了一周“茶色夜莺”，脑子真是转不动一点啊。 不过话说回来，在咖啡馆做采访不是很常见嘛~既然要采访对方，不找个地方好好坐下来",
+   "preview": "呼，这里的蛋糕真好吃，终于活过来了。 来来，魔<r=BOSS></r>王，你也尝尝。 谢谢，我就不用了…… 你不是说要吃“真相”吗？怎么变成吃蛋糕了？怎么想都太可疑了吧。 才不可疑呢。这只是普通的糖分补充时间★ 作为一名魔女，糖分就是我思考的燃料。 唉，赶路时吃了一周“茶色夜莺”，脑子真是转不动一点啊。 不过话说回来，在咖啡馆做采访不是很常见嘛~既然要采访对",
    "story_id": "STm03_07",
    "kind": "story",
    "parents": [
@@ -1964,7 +1964,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/315_08_讨伐队.md",
-   "page": "main/node/STm03_08.html",
+   "page": "main/ch03/STm03_08.html",
    "stems": [
     "STm03_08"
    ],
@@ -2013,7 +2013,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/316_09_相信的心.md",
-   "page": "main/node/STm03_09.html",
+   "page": "main/ch03/STm03_09.html",
    "stems": [
     "STm03_09"
    ],
@@ -2064,7 +2064,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/317_10_胜利与交易.md",
-   "page": "main/node/STm03_10.html",
+   "page": "main/ch03/STm03_10.html",
    "stems": [
     "STm03_10"
    ],
@@ -2086,7 +2086,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "吼—— 别想去魔王那边！ 夹杂着火焰的重拳，砸中猛进之灵的侧腹。 呜，吼—— 冬香，低头。 嘎啊啊啊啊——！！！！ 我也还能…… 继续战斗！ 猛进之灵的獠牙从冬香头顶擦过，木屑纷飞，又一记重拳，结结实实地轰在了猛进之灵的下巴上。 别东张西望。你的对手是我。 小心，它觉得自己打不过我们，在呼唤其他的假面野猪。 与凉风嬉戏的落叶啊，筑起坚固的墙壁吧！ 嘿嘿，这家",
+   "preview": "吼—— 别想去魔<r=BOSS></r>王那边！ 夹杂着火焰的重拳，砸中猛进之灵的侧腹。 呜，吼—— 冬香，低头。 嘎啊啊啊啊——！！！！ 我也还能…… 继续战斗！ 猛进之灵的獠牙从冬香头顶擦过，木屑纷飞，又一记重拳，结结实实地轰在了猛进之灵的下巴上。 别东张西望。你的对手是我。 小心，它觉得自己打不过我们，在呼唤其他的假面野猪。 与凉风嬉戏的落叶啊，筑起坚",
    "story_id": "STm03_10",
    "kind": "story",
    "parents": [
@@ -2108,7 +2108,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_03_我们的旅团/sections/318_11_最后的魔物.md",
-   "page": "main/node/STm03_11.html",
+   "page": "main/ch03/STm03_11.html",
    "stems": [
     "STm03_11"
    ],
@@ -2127,7 +2127,7 @@
     "talk": 89,
     "sticker": 0
    },
-   "preview": "嘿咻！嘿咻！呼…… 陷阱要挖多深才好呢？ 每多挖一铲，陷阱就能扩大一点，这种感觉有点让人上瘾呢…… 呼呼。结果不知不觉就挖得这么深了…… 这样差不多可以了~正好也口渴了，接下来就一边喝着我最爱的星塔饮料，一边想想怎么把魔王吸引过来吧~ 咦，怎么有这么多魔物？魔王那边对猛进之灵的讨伐已经开始了吗？我都没注意到…… 算了。比起这些，还是喝饮料更重要~ 哎？ 等等",
+   "preview": "嘿咻！嘿咻！呼…… 陷阱要挖多深才好呢？ 每多挖一铲，陷阱就能扩大一点，这种感觉有点让人上瘾呢…… 呼呼。结果不知不觉就挖得这么深了…… 这样差不多可以了~正好也口渴了，接下来就一边喝着我最爱的星塔饮料，一边想想怎么把魔<r=BOSS></r>王吸引过来吧~ 咦，怎么有这么多魔物？魔<r=BOSS></r>王那边对猛进之灵的讨伐已经开始了吗？我都没注意到……",
    "story_id": "STm03_11",
    "kind": "story",
    "parents": [
@@ -2149,7 +2149,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/401_BT01_突破重围.md",
-   "page": "main/node/BAm04_04.html",
+   "page": "main/ch04/BAm04_04.html",
    "stems": [
     "BBm04_BT01"
    ],
@@ -2188,7 +2188,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/402_BT02_最后的魔物.md",
-   "page": "main/node/BAm04_09.html",
+   "page": "main/ch04/BAm04_09.html",
    "stems": [
     "BBm04_BT02"
    ],
@@ -2225,7 +2225,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/403_01_旅人往事.md",
-   "page": "main/node/STm04_01.html",
+   "page": "main/ch04/STm04_01.html",
    "stems": [
     "STm04_01"
    ],
@@ -2263,7 +2263,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/404_02_她的选择.md",
-   "page": "main/node/STm04_02.html",
+   "page": "main/ch04/STm04_02.html",
    "stems": [
     "STm04_02"
    ],
@@ -2317,7 +2317,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/405_终局_同归.md",
-   "page": "main/node/STm04_03_a.html",
+   "page": "main/ch04/STm04_03_a.html",
    "stems": [
     "STm04_03_a"
    ],
@@ -2341,7 +2341,7 @@
     "talk": 96,
     "sticker": 0
    },
-   "preview": "魔王，有夏花的消息吗？ 我问了好几个旅人，大家都说都没见到夏花。 营地入口的旅人也没看到她。 我，我去问了新讨伐队，克莱儿从昨天后就没联系上夏花了。 她的帐篷也完全没有睡过的痕迹， 她昨晚......不会没回来吧，到底跑到哪里去了...... 别担心，夏花那么厉害，不会出事的…… 她会去哪里呢？ 大家不要急， 尘沙她们和雾语已经去森林里找了，我想很快就会有消",
+   "preview": "魔<r=BOSS></r>王，有夏花的消息吗？ 我问了好几个旅人，大家都说都没见到夏花。 营地入口的旅人也没看到她。 我，我去问了新讨伐队，克莱儿从昨天后就没联系上夏花了。 她的帐篷也完全没有睡过的痕迹， 她昨晚......不会没回来吧，到底跑到哪里去了...... 别担心，夏花那么厉害，不会出事的…… 她会去哪里呢？ 大家不要急， 尘沙她们和雾语已经去森林",
    "story_id": "STm04_03_a",
    "kind": "story",
    "parents": [
@@ -2363,7 +2363,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/406_03A_夜谈.md",
-   "page": "main/node/STm04_03_b.html",
+   "page": "main/ch04/STm04_03_b.html",
    "stems": [
     "STm04_03_b"
    ],
@@ -2410,7 +2410,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/407_03B_野营.md",
-   "page": "main/node/STm04_03_c.html",
+   "page": "main/ch04/STm04_03_c.html",
    "stems": [
     "STm04_03_c"
    ],
@@ -2435,7 +2435,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "你们总跟着我干什么啊！ 才不是跟着你，我们只是跟着魔王。 魔王说想要散步，只是正好和你的方向一致。 刚好？ 我刚才特地从原路绕回来的时候，你不也跟过来了吗？ 那时候，我也正好想换个方向散步。 魔王，不，魔王，你过来一下。 你怎么说话不算话，我们不是约定好了？ 首先，我其实没有同意那个约定， 其次，我也没违反那个约定啊。 我可没对她们说那些事情。 那你和她们一",
+   "preview": "你们总跟着我干什么啊！ 才不是跟着你，我们只是跟着魔<r=BOSS></r>王。 魔<r=BOSS></r>王说想要散步，只是正好和你的方向一致。 刚好？ 我刚才特地从原路绕回来的时候，你不也跟过来了吗？ 那时候，我也正好想换个方向散步。 魔王，不，魔<r=BOSS></r>王，你过来一下。 你怎么说话不算话，我们不是约定好了？ 首先，我其实没有同意那个约定",
    "story_id": "STm04_03_c",
    "kind": "story",
    "parents": [
@@ -2457,7 +2457,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/408_04A_单兵作战.md",
-   "page": "main/node/STm04_04_a.html",
+   "page": "main/ch04/STm04_04_a.html",
    "stems": [
     "STm04_04_a"
    ],
@@ -2485,7 +2485,7 @@
     "talk": 92,
     "sticker": 0
    },
-   "preview": "魔王，我已抵达小屋， 未发现寄生之庭的踪迹，我会继续搜索， 结束。 明白， 旅人们的远程支援准备就绪，随时可以发动， 结束。 那么大的一棵树，我亲眼看到它移动到小屋里的…… 等等， 寄生之庭实际上不是一棵树，而是把自己拟态成树的样子， 它也可以把自己恢复成藤蔓然后躲在屋子的角落里—— 青绿色的风刃掀开了屋顶，无数藤蔓从墙壁的缝隙中扭动着爬出来，汇聚成一棵巨树",
+   "preview": "魔<r=BOSS></r>王，我已抵达小屋， 未发现寄生之庭的踪迹，我会继续搜索， 结束。 明白， 旅人们的远程支援准备就绪，随时可以发动， 结束。 那么大的一棵树，我亲眼看到它移动到小屋里的…… 等等， 寄生之庭实际上不是一棵树，而是把自己拟态成树的样子， 它也可以把自己恢复成藤蔓然后躲在屋子的角落里—— 青绿色的风刃掀开了屋顶，无数藤蔓从墙壁的缝隙中扭动",
    "story_id": "STm04_04_a",
    "kind": "story",
    "parents": [
@@ -2508,7 +2508,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/409_04B_过去的你.md",
-   "page": "main/node/STm04_04_b.html",
+   "page": "main/ch04/STm04_04_b.html",
    "stems": [
     "STm04_04_b"
    ],
@@ -2561,7 +2561,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/410_04C_完全压制.md",
-   "page": "main/node/STm04_04_c.html",
+   "page": "main/ch04/STm04_04_c.html",
    "stems": [
     "STm04_04_c"
    ],
@@ -2610,7 +2610,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/411_05_想要保护的东西.md",
-   "page": "main/node/STm04_05.html",
+   "page": "main/ch04/STm04_05.html",
    "stems": [
     "STm04_05"
    ],
@@ -2653,7 +2653,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/412_06_外乡人.md",
-   "page": "main/node/STm04_06.html",
+   "page": "main/ch04/STm04_06.html",
    "stems": [
     "STm04_06"
    ],
@@ -2688,7 +2688,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "您好，请问有什么可以帮两位的， 是要购买种子还是买卖粮食呢？ 我是旅人夏花，讨伐三大魔物的讨伐队队长，我想找贵公司确认一下悬赏的情况，还有，请问我怎么才能找到贵公司的灰夫人。 三大魔物...... 灰夫人......请稍等。 魔王，这招真的有用么， 这是联合种业的粮食交易所，不管悬赏的事情吧？ 正是因为不管，我们才要来这里问。 我不明白...... 联合种业",
+   "preview": "您好，请问有什么可以帮两位的， 是要购买种子还是买卖粮食呢？ 我是旅人夏花，讨伐三大魔物的讨伐队队长，我想找贵公司确认一下悬赏的情况，还有，请问我怎么才能找到贵公司的灰夫人。 三大魔物...... 灰夫人......请稍等。 魔<r=BOSS></r>王，这招真的有用么， 这是联合种业的粮食交易所，不管悬赏的事情吧？ 正是因为不管，我们才要来这里问。 我不明",
    "story_id": "STm04_06",
    "kind": "story",
    "parents": [
@@ -2710,7 +2710,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/413_07_一场看气氛的雨.md",
-   "page": "main/node/STm04_07.html",
+   "page": "main/ch04/STm04_07.html",
    "stems": [
     "STm04_07"
    ],
@@ -2737,7 +2737,7 @@
     "choice": 9,
     "sticker": 0
    },
-   "preview": "听，外面没声音了。 那些家伙，总算意识到自己干的什么蠢事了吧？ 大家......真的很生气呢。 我多少能理解他们的心情。毕竟在他们眼里，我们现在可是第一次讨伐队失败的“罪魁祸首”呢。 魔王，包围我们的旅人撤了，都向营地那边跑了。 可恶，欺负完人就想跑， 冬香，枫姐，我们冲出去。 明，明白！ 可恶……快放开我！ 你们这些旅人居然对同行下手……果然是被魔王操控了",
+   "preview": "听，外面没声音了。 那些家伙，总算意识到自己干的什么蠢事了吧？ 大家......真的很生气呢。 我多少能理解他们的心情。毕竟在他们眼里，我们现在可是第一次讨伐队失败的“罪魁祸首”呢。 魔<r=BOSS></r>王，包围我们的旅人撤了，都向营地那边跑了。 可恶，欺负完人就想跑， 冬香，枫姐，我们冲出去。 明，明白！ 可恶……快放开我！ 你们这些旅人居然对同行下",
    "story_id": "STm04_07",
    "kind": "story",
    "parents": [
@@ -2759,7 +2759,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/414_08_必有回响.md",
-   "page": "main/node/STm04_08.html",
+   "page": "main/ch04/STm04_08.html",
    "stems": [
     "STm04_08"
    ],
@@ -2800,7 +2800,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "对不起，都是我的错， 明明是我一意孤行，结果什么都没做到，还害的你们被连累，被造谣。 不用道歉啦，你和魔王说的话我们都听见了。 再说了，虽然我从那时候开始……甚至到现在都还在生气呢！ 但绝不是因为你退出花令旅团！ 平时那么好的一个人，突然说出那种不近人情的话，还要退出旅团，就算是傻瓜，也能猜到事出有因。 小禾......枫姐，你们一开始就知道？ 具体出了什么",
+   "preview": "对不起，都是我的错， 明明是我一意孤行，结果什么都没做到，还害的你们被连累，被造谣。 不用道歉啦，你和魔<r=BOSS></r>王说的话我们都听见了。 再说了，虽然我从那时候开始……甚至到现在都还在生气呢！ 但绝不是因为你退出花令旅团！ 平时那么好的一个人，突然说出那种不近人情的话，还要退出旅团，就算是傻瓜，也能猜到事出有因。 小禾......枫姐，你们一开",
    "story_id": "STm04_08",
    "kind": "story",
    "parents": [
@@ -2822,7 +2822,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/415_09_梦想彼岸.md",
-   "page": "main/node/STm04_09.html",
+   "page": "main/ch04/STm04_09.html",
    "stems": [
     "STm04_09"
    ],
@@ -2878,7 +2878,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/416_10_在星塔下.md",
-   "page": "main/node/STm04_10.html",
+   "page": "main/ch04/STm04_10.html",
    "stems": [
     "STm04_10"
    ],
@@ -2924,7 +2924,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_04_梦的彼岸/sections/417_尾声_尘埃未定.md",
-   "page": "main/node/STm04_11.html",
+   "page": "main/ch04/STm04_11.html",
    "stems": [
     "STm04_11"
    ],
@@ -2976,7 +2976,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/501_BT01_星塔里的调味料.md",
-   "page": "main/node/BAm05_05.html",
+   "page": "main/ch05/BAm05_05.html",
    "stems": [
     "BBm05_BT01"
    ],
@@ -3012,7 +3012,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/502_BT02_熟悉的佣兵.md",
-   "page": "main/node/BAm05_08.html",
+   "page": "main/ch05/BAm05_08.html",
    "stems": [
     "BBm05_BT02"
    ],
@@ -3049,7 +3049,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/503_BT03_翠煌之刃.md",
-   "page": "main/node/BAm05_10.html",
+   "page": "main/ch05/BAm05_10.html",
    "stems": [
     "BBm05_BT03"
    ],
@@ -3084,7 +3084,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/504_幕间_秘密交易.md",
-   "page": "main/node/STm05_00.html",
+   "page": "main/ch05/STm05_00.html",
    "stems": [
     "STm05_00"
    ],
@@ -3135,7 +3135,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/505_01_特殊面试.md",
-   "page": "main/node/STm05_01.html",
+   "page": "main/ch05/STm05_01.html",
    "stems": [
     "STm05_01"
    ],
@@ -3182,7 +3182,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/506_02_茶色夜莺.md",
-   "page": "main/node/STm05_02.html",
+   "page": "main/ch05/STm05_02.html",
    "stems": [
     "STm05_02"
    ],
@@ -3228,7 +3228,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/507_03A_爆炸艺术.md",
-   "page": "main/node/STm05_03_a.html",
+   "page": "main/ch05/STm05_03_a.html",
    "stems": [
     "STm05_03_a"
    ],
@@ -3276,7 +3276,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/508_03B_新老员工.md",
-   "page": "main/node/STm05_03_b.html",
+   "page": "main/ch05/STm05_03_b.html",
    "stems": [
     "STm05_03_b"
    ],
@@ -3323,7 +3323,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/509_03C_神奇的草.md",
-   "page": "main/node/STm05_03_c.html",
+   "page": "main/ch05/STm05_03_c.html",
    "stems": [
     "STm05_03_c"
    ],
@@ -3372,7 +3372,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/510_04_汇集的线索.md",
-   "page": "main/node/STm05_04.html",
+   "page": "main/ch05/STm05_04.html",
    "stems": [
     "STm05_04"
    ],
@@ -3420,7 +3420,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/511_05_线索三明治.md",
-   "page": "main/node/STm05_05.html",
+   "page": "main/ch05/STm05_05.html",
    "stems": [
     "STm05_05"
    ],
@@ -3474,7 +3474,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/512_06_不同的理念.md",
-   "page": "main/node/STm05_06.html",
+   "page": "main/ch05/STm05_06.html",
    "stems": [
     "STm05_06"
    ],
@@ -3519,7 +3519,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/513_07_规则的意义.md",
-   "page": "main/node/STm05_07.html",
+   "page": "main/ch05/STm05_07.html",
    "stems": [
     "STm05_07"
    ],
@@ -3574,7 +3574,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/514_08_温室的秘密.md",
-   "page": "main/node/STm05_08.html",
+   "page": "main/ch05/STm05_08.html",
    "stems": [
     "STm05_08"
    ],
@@ -3601,7 +3601,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "快搬，别让一会的战斗伤到珍贵的翠煌草！ 部长，我们埋伏好了。 哼，这次一定要把那个枪手抓到，这么多人对付一个人，也算是天罗地网了。 报告，对方不是一个人，是七个人。 七个人？？？ 金色夜莺就是你们做出来的吧！ 咳咳， 是尘沙啊，真是的……你们明白自己到底在做什么吗？ 魔王，我们被包围了。 约，约瑟夫部长，你为什么在这？ 当然是为了抓住在我身边飞来飞去的小虫子",
+   "preview": "快搬，别让一会的战斗伤到珍贵的翠煌草！ 部长，我们埋伏好了。 哼，这次一定要把那个枪手抓到，这么多人对付一个人，也算是天罗地网了。 报告，对方不是一个人，是七个人。 七个人？？？ 金色夜莺就是你们做出来的吧！ 咳咳， 是尘沙啊，真是的……你们明白自己到底在做什么吗？ 魔<r=BOSS></r>王，我们被包围了。 约，约瑟夫部长，你为什么在这？ 当然是为了抓住",
    "story_id": "STm05_08",
    "kind": "story",
    "parents": [
@@ -3623,7 +3623,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/515_终局_约瑟夫.md",
-   "page": "main/node/STm05_09_a.html",
+   "page": "main/ch05/STm05_09_a.html",
    "stems": [
     "STm05_09_a"
    ],
@@ -3668,7 +3668,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/516_09_决定的责任.md",
-   "page": "main/node/STm05_09_b.html",
+   "page": "main/ch05/STm05_09_b.html",
    "stems": [
     "STm05_09_b"
    ],
@@ -3715,7 +3715,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/517_终局_智慧植物.md",
-   "page": "main/node/STm05_09_c.html",
+   "page": "main/ch05/STm05_09_c.html",
    "stems": [
     "STm05_09_c"
    ],
@@ -3761,7 +3761,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/518_10_头条时刻.md",
-   "page": "main/node/STm05_10.html",
+   "page": "main/ch05/STm05_10.html",
    "stems": [
     "STm05_10"
    ],
@@ -3808,7 +3808,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_05_落于暗夜的荧光/sections/519_尾声_那位大人.md",
-   "page": "main/node/STm05_11.html",
+   "page": "main/ch05/STm05_11.html",
    "stems": [
     "STm05_11"
    ],
@@ -3836,7 +3836,7 @@
     "talk": 122,
     "sticker": 0
    },
-   "preview": "雾语！ 魔王，不好了！为了保护我和留影器，雾语她主动当了诱饵，把翠煌之刃—— 我马上联络大家，等等......是雾语？！ 嗨嗨嗨，魔王，米娜，你们还好吗？ 你这个人真是……到底在想什么啊？！就算是为了你所谓的真相，要是死了，那一切不就全都没有意义了吗？！ 啊？我才想问你在说什么呢。这种事情不是理所当然的吗？我们生产部的流水线旁边就贴着“安全生产”—— 哎呦。",
+   "preview": "雾语！ 魔王，不好了！为了保护我和留影器，雾语她主动当了诱饵，把翠煌之刃—— 我马上联络大家，等等......是雾语？！ 嗨嗨嗨，魔<r=BOSS></r>王，米娜，你们还好吗？ 你这个人真是……到底在想什么啊？！就算是为了你所谓的真相，要是死了，那一切不就全都没有意义了吗？！ 啊？我才想问你在说什么呢。这种事情不是理所当然的吗？我们生产部的流水线旁边就贴着",
    "story_id": "STm05_11",
    "kind": "story",
    "parents": [
@@ -3858,7 +3858,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/601_BT01_虎口脱险.md",
-   "page": "main/node/BAm06_01.html",
+   "page": "main/ch06/BAm06_01.html",
    "stems": [
     "BBm06_BT01"
    ],
@@ -3895,7 +3895,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/602_BT02_菲莱之战 中.md",
-   "page": "main/node/BAm06_02.html",
+   "page": "main/ch06/BAm06_02.html",
    "stems": [
     "BBm06_BT02"
    ],
@@ -3930,7 +3930,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/603_BT03_流风美人.md",
-   "page": "main/node/BAm06_03.html",
+   "page": "main/ch06/BAm06_03.html",
    "stems": [
     "BBm06_BT03"
    ],
@@ -3966,7 +3966,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/604_幕间_忠诚与背叛.md",
-   "page": "main/node/STm06_00.html",
+   "page": "main/ch06/STm06_00.html",
    "stems": [
     "STm06_00"
    ],
@@ -4011,7 +4011,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/605_01_魔王的传说.md",
-   "page": "main/node/STm06_01.html",
+   "page": "main/ch06/STm06_01.html",
    "stems": [
     "STm06_01"
    ],
@@ -4034,7 +4034,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "==A-1== 　　击败贵族军后，奴隶们称外来者为英雄，外来者谦虚地拒绝了这个称号，消失在荒野中。从此，诺瓦没有了奴隶，带来富足的高塔不再是贵族的私有物。 <align=\"right\">——佚名 《旧诺瓦前史》</b> 请您抛弃那个被人强加的伪名，想起您过去的丰功伟业，指引我们这些可怜之人，使这满目疮痍的世界重获新生。 从身体到灵魂，我的一切，都愿意奉献给您",
+   "preview": "==A-1 RT RT RT==　　击败贵族军后，奴隶们称外来者为英雄，外来者谦虚地拒绝了这个称号，消失在荒野中。从此，诺瓦没有了奴隶，带来富足的高塔不再是贵族的私有物。 ——佚名 《旧诺瓦前史》 请您抛弃那个被人强加的伪名，想起您过去的丰功伟业，指引我们这些可怜之人，使这满目疮痍的世界重获新生。 从身体到灵魂，我的一切，都愿意奉献给您。 伪名......是",
    "story_id": "STm06_01",
    "kind": "story",
    "parents": [
@@ -4056,7 +4056,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/606_02A_与虎谋皮.md",
-   "page": "main/node/STm06_02_a.html",
+   "page": "main/ch06/STm06_02_a.html",
    "stems": [
     "STm06_02_a"
    ],
@@ -4083,7 +4083,7 @@
     "choice": 2,
     "sticker": 3
    },
-   "preview": "向我效忠后，达尔茜娅把我的伙伴们请到办公室，解释了她奉我为魔王的来龙去脉。 达尔茜娅大人，您在说什么？魔，魔王是您的主人？ 不是魔王，不要用那个肤浅的伪名称呼陛下。陛下真正的尊号是魔王大人。 魔王协议的魔王……就是传说中的那位“魔王”？唔，有点搞不懂啦…… 那只是达尔茜娅的一面之词。 魔王，又一个人偷跑 emoji_punch_c 你是怎么让达尔茜娅迷上你的",
+   "preview": "向我效忠后，达尔茜娅把我的伙伴们请到办公室，解释了她奉我为魔<r=mowang></r>王的来龙去脉。 达尔茜娅大人，您在说什么？魔，魔<r=BOSS></r>王是您的主人？ 不是魔<r=BOSS></r>王，不要用那个肤浅的伪名称呼陛下。陛下真正的尊号是魔<r=mowang></r>王大人。 魔王协议的魔<r=BOSS></r>王……就是传说中的那位“魔<",
    "story_id": "STm06_02_a",
    "kind": "story",
    "parents": [
@@ -4105,7 +4105,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/607_02B_否认的代价.md",
-   "page": "main/node/STm06_02_b.html",
+   "page": "main/ch06/STm06_02_b.html",
    "stems": [
     "STm06_02_b"
    ],
@@ -4129,7 +4129,7 @@
     "talk": 106,
     "sticker": 5
    },
-   "preview": "魔王大人，请这边走。 我在翡冷翠和种业士兵的保护下，走出达尔茜娅的办公室。 翡冷翠，你是知道的吧？ 我只是魔王协议的魔王，和传说中的那个魔王不是一个人。 事到如今，您和我说这些也没用，决定权在达尔茜娅大人手上。 在这里，达尔茜娅大人认为是黑色，白色也得变黑。 所以，她既然说您是“传说中的魔王”，那么—— 那么我就是“传说中的魔王”…… 这也太不讲道理了吧？你",
+   "preview": "魔<r=mowang></r>王大人，请这边走。 我在翡冷翠和种业士兵的保<r=挟持></r>护下，走出达尔茜娅的办公室。 翡冷翠，你是知道的吧？ 我只是魔王协议的魔<r=BOSS></r>王，和传说中的那个魔<r=mowang></r>王不是一个人。 事到如今，您和我说这些也没用，决定权在达尔茜娅大人手上。 在这里，达尔茜娅大人认为是黑色，白色也得变黑。 ",
    "story_id": "STm06_02_b",
    "kind": "story",
    "parents": [
@@ -4151,7 +4151,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/608_02C_忠臣的忠臣.md",
-   "page": "main/node/STm06_02_c.html",
+   "page": "main/ch06/STm06_02_c.html",
    "stems": [
     "STm06_02_c"
    ],
@@ -4176,7 +4176,7 @@
     "talk": 88,
     "sticker": 0
    },
-   "preview": "魔王大人，请留步。 办公室外，翡冷翠横起手杖拦在我的面前。 翡冷翠，达尔茜娅让你带我去隔壁房间找我的部下，你拦在这里是什么意思？ 魔王大人，达尔茜娅大人对您的忠诚是无可置疑的，您为什么要拒绝她？ 身为魔王，我自然有我的判断。 轮不到你来问，翡冷翠。 当然要问。她可是菲莱分公司的首席执行官，地位这么高的人向你效忠，为什么要拒绝？ 可笑的问题，这是达尔茜娅让你问",
+   "preview": "魔<r=mowang></r>王大人，请留步。 办公室外，翡冷翠横起手杖拦在我的面前。 翡冷翠，达尔茜娅让你带我去隔壁房间找我的部下，你拦在这里是什么意思？ 魔<r=mowang></r>王大人，达尔茜娅大人对您的忠诚是无可置疑的，您为什么要拒绝她？ 身为魔<r=mowang></r>王，我自然有我的判断。 轮不到你来问，翡冷翠。 当然要问。她可是菲莱分公司",
    "story_id": "STm06_02_c",
    "kind": "story",
    "parents": [
@@ -4198,7 +4198,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/609_03A_忠不可言.md",
-   "page": "main/node/STm06_03_a.html",
+   "page": "main/ch06/STm06_03_a.html",
    "stems": [
     "STm06_03_a"
    ],
@@ -4246,7 +4246,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/610_03B_深夜飙车.md",
-   "page": "main/node/STm06_03_b.html",
+   "page": "main/ch06/STm06_03_b.html",
    "stems": [
     "STm06_03_b"
    ],
@@ -4295,7 +4295,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/611_04A_覆水难收.md",
-   "page": "main/node/STm06_04_a.html",
+   "page": "main/ch06/STm06_04_a.html",
    "stems": [
     "STm06_04_a"
    ],
@@ -4344,7 +4344,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/612_04B_缆车站.md",
-   "page": "main/node/STm06_04_b.html",
+   "page": "main/ch06/STm06_04_b.html",
    "stems": [
     "STm06_04_b"
    ],
@@ -4396,7 +4396,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/613_终局_天下静谧.md",
-   "page": "main/node/STm06_05_a.html",
+   "page": "main/ch06/STm06_05_a.html",
    "stems": [
     "STm06_05_a"
    ],
@@ -4426,7 +4426,7 @@
     "scene": 5,
     "sticker": 0
    },
-   "preview": "四年后 星塔历 1000年 猎月 14日 菲莱 奥尔贝德，我可以代表魔王大人接受恩赐意志的投降。 不过，这么重要的事情，贵方竟然不派出心相四角，只派你来菲莱。 恩赐意志是否过于轻视魔王大人了？这是败者应有的态度吗？ 达尔茜娅...... 大人，魔王的植物军团在埃摩战役中彻底击败了我军，心相四角折断其三，三人战歿。 幸存的一角—— 天空院理事长安琪昨日交出所有",
+   "preview": "四年后 星塔历 1000年 猎月 14日 菲莱 奥尔贝德，我可以代表魔<r=mowang></r>王大人接受恩赐意志的投降。 不过，这么重要的事情，贵方竟然不派出心相四角，只派你来菲莱。 恩赐意志是否过于轻视魔<r=mowang></r>王大人了？这是败者应有的态度吗？ 达尔茜娅...... 大人，魔<r=mowang></r>王的植物军团在埃摩战役中彻底击",
    "story_id": "STm06_05_a",
    "kind": "story",
    "parents": [
@@ -4448,7 +4448,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/614_05_坠落.md",
-   "page": "main/node/STm06_05_b.html",
+   "page": "main/ch06/STm06_05_b.html",
    "stems": [
     "STm06_05_b"
    ],
@@ -4496,7 +4496,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/615_06_第三代智慧植物.md",
-   "page": "main/node/STm06_06.html",
+   "page": "main/ch06/STm06_06.html",
    "stems": [
     "STm06_06"
    ],
@@ -4540,7 +4540,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/616_07_不得已的交易.md",
-   "page": "main/node/STm06_07.html",
+   "page": "main/ch06/STm06_07.html",
    "stems": [
     "STm06_07"
    ],
@@ -4582,7 +4582,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/617_08_翡冷翠.md",
-   "page": "main/node/STm06_08.html",
+   "page": "main/ch06/STm06_08.html",
    "stems": [
     "STm06_08"
    ],
@@ -4604,7 +4604,7 @@
     "choice": 3,
     "sticker": 0
    },
-   "preview": "那么，魔王，从现在开始，我们就是对抗达尔茜娅的盟友了。 算起来还是你更危险，要一个人面对达尔茜娅和护卫她的智慧植物。 的确很棘手。不过，我的目标不是打赢，而是作为“弃子”拖延时间， 只要能拖到你拿到棋子，我们就能把局面翻转过来。 况且，你也别太自信。 精神之水里蕴含的魔力绝非一般魔法里的魔力可比，你的体质未必还能起作用。 ...... 真是的……你倒是轻松，",
+   "preview": "那么，魔<r=BOSS></r>王，从现在开始，我们就是对抗达尔茜娅的盟友了。 算起来还是你更危险，要一个人面对达尔茜娅和护卫她的智慧植物。 的确很棘手。不过，我的目标不是打赢，而是作为“弃子”拖延时间， 只要能拖到你拿到棋子，我们就能把局面翻转过来。 况且，你也别太自信。 精神之水里蕴含的魔力绝非一般魔法里的魔力可比，你的体质未必还能起作用。 ......",
    "story_id": "STm06_08",
    "kind": "story",
    "parents": [
@@ -4626,7 +4626,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/618_09_菲莱之战 上.md",
-   "page": "main/node/STm06_09.html",
+   "page": "main/ch06/STm06_09.html",
    "stems": [
     "STm06_09"
    ],
@@ -4672,7 +4672,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/619_10_菲莱之战 下.md",
-   "page": "main/node/STm06_10.html",
+   "page": "main/ch06/STm06_10.html",
    "stems": [
     "STm06_10"
    ],
@@ -4723,7 +4723,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/620_11_困兽犹斗.md",
-   "page": "main/node/STm06_11.html",
+   "page": "main/ch06/STm06_11.html",
    "stems": [
     "STm06_11"
    ],
@@ -4769,7 +4769,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/621_12_最后的忠诚.md",
-   "page": "main/node/STm06_12.html",
+   "page": "main/ch06/STm06_12.html",
    "stems": [
     "STm06_12"
    ],
@@ -4815,7 +4815,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_06_微火的奇迹/sections/622_13_未知的明天.md",
-   "page": "main/node/STm06_13.html",
+   "page": "main/ch06/STm06_13.html",
    "stems": [
     "STm06_13"
    ],
@@ -4868,7 +4868,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6503_01_午夜来信.md",
-   "page": "main/node/STm06x5_01.html",
+   "page": "main/chsp/STm06x5_01.html",
    "stems": [
     "STm06x5_01"
    ],
@@ -4909,7 +4909,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6504_02_神秘访客.md",
-   "page": "main/node/STm06x5_02.html",
+   "page": "main/chsp/STm06x5_02.html",
    "stems": [
     "STm06x5_02"
    ],
@@ -4953,7 +4953,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6505_03_合作共赢.md",
-   "page": "main/node/STm06x5_03.html",
+   "page": "main/chsp/STm06x5_03.html",
    "stems": [
     "STm06x5_03"
    ],
@@ -4973,7 +4973,7 @@
     "scene": 2,
     "sticker": 0
    },
-   "preview": "这是…… 赤裸裸的威胁……！？ 翡冷翠说的没错，的确有人在用非常规手段，调走她后又想吓走我。 …… 尘沙、琥珀、鸢尾，她们可能也有危险，得赶紧和大家汇合。 五分钟后—— 魔王，都这个点了，是出什么事了吗？ 不好意思，打扰你们休息了。 有人在我门口放了这个。 魔王的照片？还挺好看的嘛。 不对，为什么脸上被画了个红叉？！ 这是，威胁信？ 恐怕是的。照片背面还写了",
+   "preview": "这是…… 赤裸裸的威胁……！？ 翡冷翠说的没错，的确有人在用非常规手段，调走她后又想吓走我。 …… 尘沙、琥珀、鸢尾，她们可能也有危险，得赶紧和大家汇合。 五分钟后—— 魔<r=BOSS></r>王，都这个点了，是出什么事了吗？ 不好意思，打扰你们休息了。 有人在我门口放了这个。 魔王的照片？还挺好看的嘛。 不对，为什么脸上被画了个红叉？！ 这是，威胁信？ ",
    "story_id": "STm06x5_03",
    "kind": "story",
    "parents": [],
@@ -4993,7 +4993,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6506_04_故地重游.md",
-   "page": "main/node/STm06x5_04.html",
+   "page": "main/chsp/STm06x5_04.html",
    "stems": [
     "STm06x5_04"
    ],
@@ -5034,7 +5034,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6507_05_围猎.md",
-   "page": "main/node/STm06x5_05.html",
+   "page": "main/chsp/STm06x5_05.html",
    "stems": [
     "STm06x5_05"
    ],
@@ -5085,7 +5085,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6508_06_此即约定.md",
-   "page": "main/node/STm06x5_06.html",
+   "page": "main/chsp/STm06x5_06.html",
    "stems": [
     "STm06x5_06"
    ],
@@ -5102,7 +5102,7 @@
     "talk": 145,
     "sticker": 0
    },
-   "preview": "咳咳、咳咳咳…… 这是哪里……这个房间布置……我还在酒店里吗？ 可恶，被绑的好紧，完全动不了。 醒过来花了五分二十秒。 不错，符合预期，魔王你的身体很健康呢。 乙叶！你这是做什么？ 说起来，想抓到你还真是困难呢。 我在走廊里放了可以让人放松精神的熏香，又买通服务员偷偷更换了门牌和门前布置。 结果你进屋后竟然目不斜视地跑走了，速度快到差点撞上把门牌换回来的服务",
+   "preview": "咳咳、咳咳咳…… 这是哪里……这个房间布置……我还在酒店里吗？ 可恶，被绑的好紧，完全动不了。 醒过来花了五分二十秒。 不错，符合预期，魔<r=BOSS></r>王你的身体很健康呢。 乙叶！你这是做什么？ 说起来，想抓到你还真是困难呢。 我在走廊里放了可以让人放松精神的熏香，又买通服务员偷偷更换了门牌和门前布置。 结果你进屋后竟然目不斜视地跑走了，速度快到差",
    "story_id": "STm06x5_06",
    "kind": "story",
    "parents": [],
@@ -5122,7 +5122,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6509_07_变数.md",
-   "page": "main/node/STm06x5_07.html",
+   "page": "main/chsp/STm06x5_07.html",
    "stems": [
     "STm06x5_07"
    ],
@@ -5148,7 +5148,7 @@
     "talk": 111,
     "sticker": 0
    },
-   "preview": "呵呵…… 大名鼎鼎的“沙蝎”佣兵团，就只有这点本事吗？ 千里迢迢从沙漠之城赶来，结果却要空手而归，真是难为你们了。 副团长，现在怎么办？ 团长马上就来，我们在这里负责拖住你们！ 团长？ 沙蝎的团长—— 哈萨娜。虽然不及我，但也是个难缠的女人呢。 既然如此…… 晚宴马上就要开始了，我们不能继续在这里浪费时间了。 魔王，我来掩护你，快走！ 嗯？有信息？ 但这个情",
+   "preview": "呵呵…… 大名鼎鼎的“沙蝎”佣兵团，就只有这点本事吗？ 千里迢迢从沙漠之城赶来，结果却要空手而归，真是难为你们了。 副团长，现在怎么办？ 团长马上就来，我们在这里负责拖住你们！ 团长？ 沙蝎的团长—— 哈萨娜。虽然不及我，但也是个难缠的女人呢。 既然如此…… 晚宴马上就要开始了，我们不能继续在这里浪费时间了。 魔<r=BOSS></r>王，我来掩护你，快走！",
    "story_id": "STm06x5_07",
    "kind": "story",
    "parents": [],
@@ -5168,7 +5168,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6510_08_不日之约.md",
-   "page": "main/node/STm06x5_08.html",
+   "page": "main/chsp/STm06x5_08.html",
    "stems": [
     "STm06x5_08"
    ],
@@ -5204,7 +5204,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6511_09_致辞.md",
-   "page": "main/node/STm06x5_09.html",
+   "page": "main/chsp/STm06x5_09.html",
    "stems": [
     "STm06x5_09"
    ],
@@ -5237,7 +5237,7 @@
     "talk": 115,
     "sticker": 0
    },
-   "preview": "距离演讲开始，还有两分钟…… 魔王来消息了！到大厅入口了。 大家各就各位！可以开始准备演讲了！ 灯光暗下来了…… 差不多要开始了吧？ 很好很好—— 这次一定要拍到能用的素材！ 呼，经历了那么刺激的事情，到了这一刻…… 反而没有任何紧张的感觉了。 为了大家，也是为了菲莱的明天…… 各位来宾，不好意思打断各位的谈话。 接下来，有请本次晚宴的重要嘉宾，魔王协议人力",
+   "preview": "距离演讲开始，还有两分钟…… 魔<r=BOSS></r>王来消息了！到大厅入口了。 大家各就各位！可以开始准备演讲了！ 灯光暗下来了…… 差不多要开始了吧？ 很好很好—— 这次一定要拍到能用的素材！ 呼，经历了那么刺激的事情，到了这一刻…… 反而没有任何紧张的感觉了。 为了大家，也是为了菲莱的明天…… 各位来宾，不好意思打断各位的谈话。 接下来，有请本次晚宴",
    "story_id": "STm06x5_09",
    "kind": "story",
    "parents": [],
@@ -5257,7 +5257,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_07_谜影的序曲/sections/6512_10_白昼梦.md",
-   "page": "main/node/STm06x5_10.html",
+   "page": "main/chsp/STm06x5_10.html",
    "stems": [
     "STm06x5_10"
    ],
@@ -5297,7 +5297,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/801_BT01_远方的心.md",
-   "page": "main/node/BAm07_01.html",
+   "page": "main/ch07/BAm07_01.html",
    "stems": [
     "BBm07_BT01"
    ],
@@ -5333,7 +5333,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/802_BT02_酒店乱战.md",
-   "page": "main/node/BAm07_02.html",
+   "page": "main/ch07/BAm07_02.html",
    "stems": [
     "BBm07_BT02"
    ],
@@ -5370,7 +5370,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/803_BT03_恐惧的尽头.md",
-   "page": "main/node/BAm07_03.html",
+   "page": "main/ch07/BAm07_03.html",
    "stems": [
     "BBm07_BT03"
    ],
@@ -5405,7 +5405,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/804_幕间_天穹保险.md",
-   "page": "main/node/STm07_00.html",
+   "page": "main/ch07/STm07_00.html",
    "stems": [
     "STm07_00"
    ],
@@ -5448,7 +5448,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/805_01_联合种业的历史.md",
-   "page": "main/node/STm07_01.html",
+   "page": "main/ch07/STm07_01.html",
    "stems": [
     "STm07_01"
    ],
@@ -5495,7 +5495,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/806_02_一场交易.md",
-   "page": "main/node/STm07_02.html",
+   "page": "main/ch07/STm07_02.html",
    "stems": [
     "STm07_02"
    ],
@@ -5546,7 +5546,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/807_03_投标日.md",
-   "page": "main/node/STm07_03.html",
+   "page": "main/ch07/STm07_03.html",
    "stems": [
     "STm07_03"
    ],
@@ -5565,7 +5565,7 @@
     "scene": 3,
     "sticker": 0
    },
-   "preview": "五天后 魔王，这是联合种业菲莱分公司的股权交易契约书。 从现在开始， 这里的温室，大楼，田地， 都有百分之四十一是魔王协议的财产。 魔王，我是不是该改口叫你老板了？ 随你喜欢， 听起来又没区别。 好吧，既然魔王想保持现状——那“菲莱分公司”这个称呼该怎么处理呢？ 严格来说应该叫“共治公司”才对…… 魔王，新公司的名字你有想法吗？ 新公司的名字啊…… 把分字去",
+   "preview": "五天后 魔<r=BOSS></r>王，这是联合种业菲莱分公司的股权交易契约书。 从现在开始， 这里的温室，大楼，田地， 都有百分之四十一是魔王协议的财产。 魔<r=BOSS></r>王，我是不是该改口叫你老<r=BOSS></r>板了？ 随你喜欢， 听起来又没区别。 好吧，既然魔<r=BOSS></r>王想保持现状——那“菲莱分公司”这个称呼该怎么处理呢？ ",
    "story_id": "STm07_03",
    "kind": "story",
    "parents": [
@@ -5587,7 +5587,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/808_04_出价.md",
-   "page": "main/node/STm07_04.html",
+   "page": "main/ch07/STm07_04.html",
    "stems": [
     "STm07_04"
    ],
@@ -5621,7 +5621,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "跟着贝修莉娜的脚步，我走上楼梯，来到一处冷清的走廊。 贝修莉娜？这里是我可以来的地方吗？我刚刚看到一块牌子上写着：“内部区域，谢绝访客”。 没事没事。魔王是可爱的贝修莉娜的重要客人呢。这么说来，说您是相关人员一点也不为过哦♪ 这也算相关人员？这也太夸张了吧…… 请看。 这条走廊正好位于休息室的斜上方，顺着贝修莉娜所指望去，从墙壁上隐蔽的窗口里，能看到休息室里",
+   "preview": "跟着贝修莉娜的脚步，我走上楼梯，来到一处冷清的走廊。 贝修莉娜？这里是我可以来的地方吗？我刚刚看到一块牌子上写着：“内部区域，谢绝访客”。 没事没事。魔<r=BOSS></r>王是可爱的贝修莉娜的重要客人呢。这么说来，说您是相关人员一点也不为过哦♪ 这也算相关人员？这也太夸张了吧…… 请看。 这条走廊正好位于休息室的斜上方，顺着贝修莉娜所指望去，从墙壁上隐蔽",
    "story_id": "STm07_04",
    "kind": "story",
    "parents": [
@@ -5643,7 +5643,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/809_终局_生死不明.md",
-   "page": "main/node/STm07_05_c.html",
+   "page": "main/ch07/STm07_05_c.html",
    "stems": [
     "STm07_05_c"
    ],
@@ -5696,7 +5696,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/810_05A_念念不忘.md",
-   "page": "main/node/STm07_05_a.html",
+   "page": "main/ch07/STm07_05_a.html",
    "stems": [
     "STm07_05_a"
    ],
@@ -5715,7 +5715,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "生死与共是吗……我没有异议。就算拼上这条命，我也会想办法弄到二百亿朵拉。 别说这么不吉利的话， 我还惦记着作为员工福利的免费茶色夜莺呢。 你不在了， 我们吃什么？ 哎呀？你的意思是说， 我的命还不如免费的茶色夜莺重要？ 啊， 我不是那个意思……！ 不开玩笑了，魔王。知道你想让我放松一下，谢谢。 不过别担心，我还不至于因为这点事就紧张失措。 说真的，两天内凑够",
+   "preview": "生死与共是吗……我没有异议。就算拼上这条命，我也会想办法弄到二百亿朵拉。 别说这么不吉利的话， 我还惦记着作为员工福利的免费茶色夜莺呢。 你不在了， 我们吃什么？ 哎呀？你的意思是说， 我的命还不如免费的茶色夜莺重要？ 啊， 我不是那个意思……！ 不开玩笑了，魔<r=BOSS></r>王。知道你想让我放松一下，谢谢。 不过别担心，我还不至于因为这点事就紧张失",
    "story_id": "STm07_05_a",
    "kind": "story",
    "parents": [
@@ -5737,7 +5737,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/811_05B_亿万.md",
-   "page": "main/node/STm07_05_b.html",
+   "page": "main/ch07/STm07_05_b.html",
    "stems": [
     "STm07_05_b"
    ],
@@ -5786,7 +5786,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/812_终局_自异世界.md",
-   "page": "main/node/STm07_06_ba.html",
+   "page": "main/ch07/STm07_06_ba.html",
    "stems": [
     "STm07_06_ba"
    ],
@@ -5817,7 +5817,7 @@
     "scene": 1,
     "sticker": 0
    },
-   "preview": "星塔历998年9月 菲莱 魔王，感谢您愿意在这种时候伸出援手。 我代表新生的联合种业，向您致以诚挚的谢意。 玛蒂尔达大监察官，您太客气了。两年前，要不是您支援我们股份，菲莱公司就陷入死局了。 现在，也该是我们报恩的时候了。 我和大家已经讨论过了，我们一致决定，把您当年支援的股份归还给您。 菲莱公司愿意站在新联合种业的旗下，和您一起重建诺瓦的粮食秩序。 谢谢各",
+   "preview": "星塔历998年9月 菲莱 魔<r=BOSS></r>王，感谢您愿意在这种时候伸出援手。 我代表新生的联合种业，向您致以诚挚的谢意。 玛蒂尔达大监察官，您太客气了。两年前，要不是您支援我们股份，菲莱公司就陷入死局了。 现在，也该是我们报恩的时候了。 我和大家已经讨论过了，我们一致决定，把您当年支援的股份归还给您。 菲莱公司愿意站在新联合种业的旗下，和您一起重建",
    "story_id": "STm07_06_ba",
    "kind": "story",
    "parents": [
@@ -5839,7 +5839,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/813_终局_未竟之约.md",
-   "page": "main/node/STm07_06_bb.html",
+   "page": "main/ch07/STm07_06_bb.html",
    "stems": [
     "STm07_06_bb"
    ],
@@ -5886,7 +5886,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/814_终局_联合种业的救赎.md",
-   "page": "main/node/STm07_06_bc.html",
+   "page": "main/ch07/STm07_06_bc.html",
    "stems": [
     "STm07_06_bc"
    ],
@@ -5937,7 +5937,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/815_06_落花流水.md",
-   "page": "main/node/STm07_06_a.html",
+   "page": "main/ch07/STm07_06_a.html",
    "stems": [
     "STm07_06_a"
    ],
@@ -5983,7 +5983,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/816_07_故剑重逢.md",
-   "page": "main/node/STm07_07.html",
+   "page": "main/ch07/STm07_07.html",
    "stems": [
     "STm07_07"
    ],
@@ -6033,7 +6033,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/817_08_杂鱼战术.md",
-   "page": "main/node/STm07_08.html",
+   "page": "main/ch07/STm07_08.html",
    "stems": [
     "STm07_08"
    ],
@@ -6062,7 +6062,7 @@
     "scene": 4,
     "sticker": 2
    },
-   "preview": "比琥珀接到魔王信息稍早一点的时候 魔王，我这里有一份对你来说非常重要的情报，呵呵。你要不要买？可以给你优惠价哦♪ 好久不见，瑟拉娜。上次和你聊天，还是在旅人营地吧……我们潜入联合种业之前。 是啊，虽然只有短短三个月，却好像过了很久一样呢。 已经过去三个月了啊。 我的确需要情报，不过，我现在有点忙，能否请你直接说明来意呢？ 明白了。那我就长话短说—— 魔王，天",
+   "preview": "比琥珀接到魔<r=BOSS></r>王信息稍早一点的时候 魔<r=BOSS></r>王，我这里有一份对你来说非常重要的情报，呵呵。你要不要买？可以给你优惠价哦♪ 好久不见，瑟拉娜。上次和你聊天，还是在旅人营地吧……我们潜入联合种业之前。 是啊，虽然只有短短三个月，却好像过了很久一样呢。 已经过去三个月了啊。 我的确需要情报，不过，我现在有点忙，能否请你直接说",
    "story_id": "STm07_08",
    "kind": "story",
    "parents": [
@@ -6084,7 +6084,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/818_09_跨越天空.md",
-   "page": "main/node/STm07_09.html",
+   "page": "main/ch07/STm07_09.html",
    "stems": [
     "STm07_09"
    ],
@@ -6128,7 +6128,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/819_12_先易后难.md",
-   "page": "main/node/STm07_12.html",
+   "page": "main/ch07/STm07_12.html",
    "stems": [
     "STm07_12"
    ],
@@ -6177,7 +6177,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/820_10_登塔许愿.md",
-   "page": "main/node/STm07_10.html",
+   "page": "main/ch07/STm07_10.html",
    "stems": [
     "STm07_10"
    ],
@@ -6223,7 +6223,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/821_11_谎言与希望.md",
-   "page": "main/node/STm07_11.html",
+   "page": "main/ch07/STm07_11.html",
    "stems": [
     "STm07_11"
    ],
@@ -6270,7 +6270,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/822_13_各取所需.md",
-   "page": "main/node/STm07_13.html",
+   "page": "main/ch07/STm07_13.html",
    "stems": [
     "STm07_13"
    ],
@@ -6297,7 +6297,7 @@
     "talk": 120,
     "sticker": 0
    },
-   "preview": "那么，契约就这么定了， 好，好困。 雾语大人，您还好吗？虽然很感谢绯瞳传讯采购我们的粮食…… 但没想到您会在凌晨四点就登门签约啊。 一，一点都不好。 我明明是以真相为食的魔女，却一连错过了好几个大新闻， 呜呜呜，一定是恩赐之神不眷顾我了。 雾语， 我记得你和花令旅团的各位去了新奥勒良…… 唉……说来话长呢…… 我一路追赶米娜她们， 中途还采访了魔王的刀，采到",
+   "preview": "那么，契约就这么定了， 好，好困。 雾语大人，您还好吗？虽然很感谢绯瞳传讯采购我们的粮食…… 但没想到您会在凌晨四点就登门签约啊。 一，一点都不好。 我明明是以真相为食的魔女，却一连错过了好几个大新闻， 呜呜呜，一定是恩赐之神不眷顾我了。 雾语， 我记得你和花令旅团的各位去了新奥勒良…… 唉……说来话长呢…… 我一路追赶米娜她们， 中途还采访了魔<r=BOS",
    "story_id": "STm07_13",
    "kind": "story",
    "parents": [
@@ -6319,7 +6319,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/823_14_技术调整.md",
-   "page": "main/node/STm07_14.html",
+   "page": "main/ch07/STm07_14.html",
    "stems": [
     "STm07_14"
    ],
@@ -6378,7 +6378,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/824_15_五十一层.md",
-   "page": "main/node/STm07_15.html",
+   "page": "main/ch07/STm07_15.html",
    "stems": [
     "STm07_15"
    ],
@@ -6419,7 +6419,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_08_星之竞拍/sections/825_尾声_死之权杖.md",
-   "page": "main/node/STm07_16.html",
+   "page": "main/ch07/STm07_16.html",
    "stems": [
     "STm07_16"
    ],
@@ -6469,7 +6469,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/901_01_无罪杀戮.md",
-   "page": "main/node/STm08_01.html",
+   "page": "main/ch08/STm08_01.html",
    "stems": [
     "STm08_01"
    ],
@@ -6493,7 +6493,7 @@
     "scene": 2,
     "sticker": 1
    },
-   "preview": "那要是我不是传说中的魔王呢……？！ 你不就杀错人了？ 您说得没错。 可是——只要牺牲您一条命，或许就能拯救这个世界。 那么……我愿意赌上这个可能性。 如果我判断是错的，我会想办法向您赎罪的。 那个时候再赎罪还有什么用？！ 这种事，简直太荒唐了…… 您真的是个好人，我对您也没有任何私人恩怨。 所以，虽然很抱歉，但为了这个世界，还请您务必赴死，感激不尽。 请接受",
+   "preview": "那要是我不是传说中的魔<r=mowang></r>王呢……？！ 你不就杀错人了？ 您说得没错。 可是——只要牺牲您一条命，或许就能拯救这个世界。 那么……我愿意赌上这个可能性。 如果我判断是错的，我会想办法向您赎罪的。 那个时候再赎罪还有什么用？！ 这种事，简直太荒唐了…… 您真的是个好人，我对您也没有任何私人恩怨。 所以，虽然很抱歉，但为了这个世界，还请您",
    "story_id": "STm08_01",
    "kind": "story",
    "parents": [],
@@ -6513,7 +6513,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/902_BT01_鸣枪开路.md",
-   "page": "main/node/BAm08_01.html",
+   "page": "main/ch08/BAm08_01.html",
    "stems": [
     "BBm08_BT01"
    ],
@@ -6552,7 +6552,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/903_02_剑拔弩张.md",
-   "page": "main/node/STm08_02.html",
+   "page": "main/ch08/STm08_02.html",
    "stems": [
     "STm08_02"
    ],
@@ -6582,7 +6582,7 @@
     "talk": 119,
     "sticker": 0
    },
-   "preview": "可恶，那个狙击手到底在哪？我们已经受伤好几个人了。 那个人好像一直在移动，故意不让咱们锁定位置。啧，准备得这么齐全，还提前安排了人手…… 魔王协议的首席执行官果然就是传说中的魔王，联合种业的首席执行官出行都不会安排狙击手保护自己！ 不过，再怎么逃也没用的，从刚才开始，那个狙击手就一直在高强度地施法，魔力也该用得差不多了。 我们只要守住这边的街道，魔王就会被困",
+   "preview": "可恶，那个狙击手到底在哪？我们已经受伤好几个人了。 那个人好像一直在移动，故意不让咱们锁定位置。啧，准备得这么齐全，还提前安排了人手…… 魔王协议的首席执行官果然就是传说中的魔<r=mowang></r>王，联合种业的首席执行官出行都不会安排狙击手保护自己！ 不过，再怎么逃也没用的，从刚才开始，那个狙击手就一直在高强度地施法，魔力也该用得差不多了。 我们只要",
    "story_id": "STm08_02",
    "kind": "story",
    "parents": [
@@ -6604,7 +6604,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/904_03_我是谁.md",
-   "page": "main/node/STm08_03.html",
+   "page": "main/ch08/STm08_03.html",
    "stems": [
     "STm08_03"
    ],
@@ -6638,7 +6638,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "那么，魔王， 你认为你是传说中的魔王吗？ 最终，我没能回答出奥尔贝德的问题 因为连我自己都不知道，自己到底是谁…… 直到现在都还没弄明白—— 千都世，口渴吗？ 不介意的话这个给你喝吧。 多谢主公。那就恭敬不如从命了。 咕嘟………… 这是什么饮品？桃子的风味在口中噼里啪啦地跳动…… 真是不可思议。 因为是碳酸饮料嘛。 这个叫能量沛沛，是从星塔里许愿出的饮品。 ",
+   "preview": "那么，魔王， 你认为你是传说中的魔<r=mowang></r>王吗？ 最终，我没能回答出奥尔贝德的问题 因为连我自己都不知道，自己到底是谁…… 直到现在都还没弄明白—— 千都世，口渴吗？ 不介意的话这个给你喝吧。 多谢主公。那就恭敬不如从命了。 咕嘟………… 这是什么饮品？桃子的风味在口中噼里啪啦地跳动…… 真是不可思议。 因为是碳酸饮料嘛。 这个叫能量沛沛",
    "story_id": "STm08_03",
    "kind": "story",
    "parents": [
@@ -6660,7 +6660,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/905_04_自证陷阱.md",
-   "page": "main/node/STm08_04.html",
+   "page": "main/ch08/STm08_04.html",
    "stems": [
     "STm08_04"
    ],
@@ -6715,7 +6715,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/906_05_同伴.md",
-   "page": "main/node/STm08_05.html",
+   "page": "main/ch08/STm08_05.html",
    "stems": [
     "STm08_05"
    ],
@@ -6765,7 +6765,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/907_06_世界尽头.md",
-   "page": "main/node/STm08_06.html",
+   "page": "main/ch08/STm08_06.html",
    "stems": [
     "STm08_06"
    ],
@@ -6805,7 +6805,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/908_追忆_空白的正解 上.md",
-   "page": "main/node/STm08_07.html",
+   "page": "main/ch08/STm08_07.html",
    "stems": [
     "STm08_07"
    ],
@@ -6842,7 +6842,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/909_追忆_空白的正解 中.md",
-   "page": "main/node/STm08_08.html",
+   "page": "main/ch08/STm08_08.html",
    "stems": [
     "STm08_08"
    ],
@@ -6881,7 +6881,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/910_追忆_空白的正解 下.md",
-   "page": "main/node/STm08_09.html",
+   "page": "main/ch08/STm08_09.html",
    "stems": [
     "STm08_09"
    ],
@@ -6926,7 +6926,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/911_07_初见米拉什.md",
-   "page": "main/node/STm08_10.html",
+   "page": "main/ch08/STm08_10.html",
    "stems": [
     "STm08_10"
    ],
@@ -6947,7 +6947,7 @@
     "talk": 122,
     "sticker": 1
    },
-   "preview": "唔……我这是在…… 对了，我们昨晚到了米拉什，然后就睡下了。 早安，魔王大人，您昨晚睡得可好？有没有做梦？ 早安，维塔，我好像做了一个很长，很长的梦。 魔王大人，愿今夜的星光和美妙的梦境能抚平您和同伴所有的疲惫。 等等，昨晚的梦不会是你搞的鬼吧。 魔王大人，维塔没有搞鬼，您和您的同伴试用“星塔旋律”，是经过您的同意的。 我是同意了没错…… 但你说那只是普通的",
+   "preview": "唔……我这是在…… 对了，我们昨晚到了米拉什，然后就睡下了。 早安，魔<r=mowang></r>王大人，您昨晚睡得可好？有没有做梦？ 早安，维塔，我好像做了一个很长，很长的梦。 魔<r=mowang></r>王大人，愿今夜的星光和美妙的梦境能抚平您和同伴所有的疲惫。 等等，昨晚的梦不会是你搞的鬼吧。 魔<r=mowang></r>王大人，维塔没有搞鬼，您和",
    "story_id": "STm08_10",
    "kind": "story",
    "parents": [
@@ -6969,7 +6969,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/912_BT02_好人、坏人与丑角.md",
-   "page": "main/node/BAm08_02.html",
+   "page": "main/ch08/BAm08_02.html",
    "stems": [
     "BBm08_BT02"
    ],
@@ -7008,7 +7008,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/913_08_沙漠的规矩.md",
-   "page": "main/node/STm08_11.html",
+   "page": "main/ch08/STm08_11.html",
    "stems": [
     "STm08_11"
    ],
@@ -7053,7 +7053,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/914_09_小鬼当家.md",
-   "page": "main/node/STm08_12.html",
+   "page": "main/ch08/STm08_12.html",
    "stems": [
     "STm08_12"
    ],
@@ -7099,7 +7099,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/915_10_暂停.md",
-   "page": "main/node/STm08_13.html",
+   "page": "main/ch08/STm08_13.html",
    "stems": [
     "STm08_13"
    ],
@@ -7147,7 +7147,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/916_11_米拉什的日常.md",
-   "page": "main/node/STm08_14.html",
+   "page": "main/ch08/STm08_14.html",
    "stems": [
     "STm08_14"
    ],
@@ -7194,7 +7194,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/917_12_黑暗决斗.md",
-   "page": "main/node/STm08_15.html",
+   "page": "main/ch08/STm08_15.html",
    "stems": [
     "STm08_15"
    ],
@@ -7220,7 +7220,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "哼哼！ 就算骗得过别人， 可骗不过左眼寄宿着漆黑之力的猫眼大人哦！ 因为你—— 就是那个传说中的魔王吧？！ 猫眼是怎么知道那个传闻的？ 我们抵达米拉什后就调查过了， 这里没有报纸，没有显影器，没有绯瞳传讯的灯塔，更没有只有埃摩、菲莱、新奥勒良、双子城这些顶级规模城邦才有的“跨城邦通讯”， 是个消息极其闭塞的地方，甚至没人听说过魔王协议的名字。 沙蝎的团长、副",
+   "preview": "哼哼！ 就算骗得过别人， 可骗不过左眼寄宿着漆黑之力的猫眼大人哦！ 因为你—— 就是那个传说中的魔<r=mowang></r>王吧？！ 猫眼是怎么知道那个传闻的？ 我们抵达米拉什后就调查过了， 这里没有报纸，没有显影器，没有绯瞳传讯的灯塔，更没有只有埃摩、菲莱、新奥勒良、双子城这些顶级规模城邦才有的“跨城邦通讯”， 是个消息极其闭塞的地方，甚至没人听说过魔王",
    "story_id": "STm08_15",
    "kind": "story",
    "parents": [
@@ -7242,7 +7242,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/918_13A_白猫的过去.md",
-   "page": "main/node/STm08_16_a.html",
+   "page": "main/ch08/STm08_16_a.html",
    "stems": [
     "STm08_16_a"
    ],
@@ -7293,7 +7293,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/919_13B_沙蝎的野望.md",
-   "page": "main/node/STm08_16_b.html",
+   "page": "main/ch08/STm08_16_b.html",
    "stems": [
     "STm08_16_b"
    ],
@@ -7340,7 +7340,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/920_追忆_生日快乐 上.md",
-   "page": "main/node/STm08_17_a.html",
+   "page": "main/ch08/STm08_17_a.html",
    "stems": [
     "STm08_17_a"
    ],
@@ -7363,7 +7363,7 @@
     "scene": 2,
     "sticker": 0
    },
-   "preview": "==Off== <margin-left=3em><align=left>塔菲特…… 走近些，再近些 </align></margin> ==Off== <margin-left=3em><align=left> 别让门外的那些眼睛看到，耳朵听到 </align></margin> ==Off== <margin-right=3em><align=right",
+   "preview": "塔菲特…… 走近些，再近些 别让门外的那些眼睛看到，耳朵听到 陛下，请您放心，门外没有其他人 呵呵，你不明白 那些人等这一天已经等了太久 他们会不择手段地阻止我 塔菲特 我需要你帮我做一件事，最后一件事 请尽管吩咐 白猫的枪永远为您效劳 塔菲特 你最后的任务是无法用枪解决的 去这个地址，有人在那里等你 然后，保护...... 不，不是保护 请你忘掉白猫的一切",
    "story_id": "STm08_17_a",
    "kind": "story",
    "parents": [
@@ -7385,7 +7385,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/921_追忆_生日快乐 中.md",
-   "page": "main/node/STm08_18_a.html",
+   "page": "main/ch08/STm08_18_a.html",
    "stems": [
     "STm08_18_a"
    ],
@@ -7440,7 +7440,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/922_追忆_生日快乐 下.md",
-   "page": "main/node/STm08_19_a.html",
+   "page": "main/ch08/STm08_19_a.html",
    "stems": [
     "STm08_19_a"
    ],
@@ -7484,7 +7484,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/923_14A_日出米拉什.md",
-   "page": "main/node/STm08_20.html",
+   "page": "main/ch08/STm08_20.html",
    "stems": [
     "STm08_20"
    ],
@@ -7531,7 +7531,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/924_14B_战争之王.md",
-   "page": "main/node/STm08_17_b.html",
+   "page": "main/ch08/STm08_17_b.html",
    "stems": [
     "STm08_17_b"
    ],
@@ -7563,7 +7563,7 @@
     "talk": 134,
     "sticker": 0
    },
-   "preview": "数月后 我准备好了。您随时可以射击。 好，我瞄准了。 唔—— 格蕾霍恩，你没事吧！ 没，没事，施加过防护魔法的胸甲挡住了子弹，胸甲里垫的棉花和丝绸也很好的起到了防御作用。不过，即使这样……还是感受到一股巨大的力量砸在胸口。 撇开冲击力不谈，既然能防住子弹就算是成功了。这项防护技术有可能在委员会内部普及吗？ 同伴们已经被魔王和沙蝎的游击战弄得身心俱疲了。 这种",
+   "preview": "数月后 我准备好了。您随时可以射击。 好，我瞄准了。 唔—— 格蕾霍恩，你没事吧！ 没，没事，施加过防护魔法的胸甲挡住了子弹，胸甲里垫的棉花和丝绸也很好的起到了防御作用。不过，即使这样……还是感受到一股巨大的力量砸在胸口。 撇开冲击力不谈，既然能防住子弹就算是成功了。这项防护技术有可能在委员会内部普及吗？ 同伴们已经被魔<r=mowang></r>王和沙蝎的",
    "story_id": "STm08_17_b",
    "kind": "story",
    "parents": [
@@ -7585,7 +7585,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/925_BT03_古老的智慧.md",
-   "page": "main/node/BAm08_03.html",
+   "page": "main/ch08/BAm08_03.html",
    "stems": [
     "BBm08_BT03"
    ],
@@ -7623,7 +7623,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/926_15A_我的名字.md",
-   "page": "main/node/STm08_21.html",
+   "page": "main/ch08/STm08_21.html",
    "stems": [
     "STm08_21"
    ],
@@ -7680,7 +7680,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/927_15B_蝴蝶效应.md",
-   "page": "main/node/STm08_18_b.html",
+   "page": "main/ch08/STm08_18_b.html",
    "stems": [
     "STm08_18_b"
    ],
@@ -7713,7 +7713,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "==Off==星塔历 997年 埃摩城外 地理协会 这是九万九千九百九十九朵拉，请拿好。 感谢惠顾，您的使用体验如何？ 简直太棒了！ 昨天我从星塔里出来的时候正好撞见了一伙盗贼…… 换做平时，我肯定是毫无还手之力，只能任由他们宰割…… 但我一拔出死之权杖，下一秒他们就已经逃得没影了！ 非要我挑点毛病的话—— 就是噪音有点大，还必须时刻注意剩余弹药…… 顺便问",
+   "preview": "星塔历 997年 埃摩城外 地理协会 这是九万九千九百九十九朵拉，请拿好。 感谢惠顾，您的使用体验如何？ 简直太棒了！ 昨天我从星塔里出来的时候正好撞见了一伙盗贼…… 换做平时，我肯定是毫无还手之力，只能任由他们宰割…… 但我一拔出死之权杖，下一秒他们就已经逃得没影了！ 非要我挑点毛病的话—— 就是噪音有点大，还必须时刻注意剩余弹药…… 顺便问一下，你们的子",
    "story_id": "STm08_18_b",
    "kind": "story",
    "parents": [
@@ -7735,7 +7735,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_09_往日残影/sections/928_终局_妈妈.md",
-   "page": "main/node/STm08_19_b.html",
+   "page": "main/ch08/STm08_19_b.html",
    "stems": [
     "STm08_19_b"
    ],
@@ -7776,7 +7776,7 @@
     "talk": 314,
     "sticker": 0
    },
-   "preview": "魔王大人欢迎回来。 欢迎回来，这次您真是做成了好大事呢，靠着死之权杖实现了诺瓦的变革。 变......变革么， 我把一切都搞砸了。 明明是想制造混乱后保护身边的人，结果却谁都没有保护住...... 嘻嘻，变革又不是一定向好的方向去变，诺瓦变得更加混沌，也是一种变革。 不擅长魔法的普通人，也能轻易杀死有魔法师护卫的位高权重的人，这种变革方向，我觉得也未必很坏呢",
+   "preview": "魔<r=mowang></r>王大人欢迎回来。 欢迎回来，这次您真是做成了好大事呢，靠着死之权杖实现了诺瓦的变革。 变......变革么， 我把一切都搞砸了。 明明是想制造混乱后保护身边的人，结果却谁都没有保护住...... 嘻嘻，变革又不是一定向好的方向去变，诺瓦变得更加混沌，也是一种变革。 不擅长魔法的普通人，也能轻易杀死有魔法师护卫的位高权重的人，这种",
    "story_id": "STm08_19_b",
    "kind": "story",
    "parents": [
@@ -7798,7 +7798,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1001_幕间 上_引线.md",
-   "page": "main/node/STm09_00_a.html",
+   "page": "main/ch09/STm09_00_a.html",
    "stems": [
     "STm09_00_a"
    ],
@@ -7823,7 +7823,7 @@
     "scene": 3,
     "sticker": 0
    },
-   "preview": "傲慢的魔王不再与睿智的尊者共商治理之策。他独揽权柄，消失在沙漠深处，誓要将巍峨的高塔化为灰烬。 　　　　 　　　　　　　　　　　　 　——维嘉尔 《新诺瓦前史》 然而， 暴君终将受到神明的惩罚。 沙漠之民聚集在高塔下，将潜伏在黑暗中的魔王击败，封印在神赐的石棺中。 报告，委员长，炮击阵地准备完毕…… 哎？我打扰到您读书了？ 没关系，我也只是随便读读历史…… ",
+   "preview": "傲慢的魔王不再与睿智的尊者共商治理之策。他独揽权柄，消失在沙漠深处，誓要将巍峨的高塔化为灰烬。 　　　　 　　　　　　　　　　　　 　——维嘉尔 《新诺瓦前史》 然而， 暴君终将受到神明的惩罚。 沙漠之民聚集在高塔下，将潜伏在黑暗中的魔<r=mowang></r>王击败，封印在神赐的石棺中。 报告，委员长，炮击阵地准备完毕…… 哎？我打扰到您读书了？ 没关系",
    "story_id": "STm09_00_a",
    "kind": "story",
    "parents": [],
@@ -7843,7 +7843,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1002_幕间 下_点燃.md",
-   "page": "main/node/STm09_00_b.html",
+   "page": "main/ch09/STm09_00_b.html",
    "stems": [
     "STm09_00_b"
    ],
@@ -7903,7 +7903,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1003_01A_风过林梢.md",
-   "page": "main/node/STm09_01_a.html",
+   "page": "main/ch09/STm09_01_a.html",
    "stems": [
     "STm09_01_a"
    ],
@@ -7941,7 +7941,7 @@
     "scene": 4,
     "sticker": 0
    },
-   "preview": "十天前 今，今天的联络就到这里了，你多注意安全。 你们也是。 呼，联络完毕。 未来一段时间里，魔王不会主动和我们联络，我们可以讨论“那件事”了。 呀嘞呀嘞， 明明一切都在顺利进行，怎么某人的脸色看着那么忧郁呢？ 说什么呢？我哪有忧郁？虽然没办法像以前那样，每天都听到你温柔的声音，但这都是为了能更长久地和你在一起所做的必要牺牲。 嘻嘻， 我说的“某人”是小千，",
+   "preview": "十天前 今，今天的联络就到这里了，你多注意安全。 你们也是。 呼，联络完毕。 未来一段时间里，魔<r=BOSS></r>王不会主动和我们联络，我们可以讨论“那件事”了。 呀嘞呀嘞， 明明一切都在顺利进行，怎么某人的脸色看着那么忧郁呢？ 说什么呢？我哪有忧郁？虽然没办法像以前那样，每天都听到你温柔的声音，但这都是为了能更长久地和你在一起所做的必要牺牲。 嘻嘻，",
    "story_id": "STm09_01_a",
    "kind": "story",
    "parents": [
@@ -7963,7 +7963,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1004_BT01_十面张网.md",
-   "page": "main/node/BAm09_BT01.html",
+   "page": "main/ch09/BAm09_BT01.html",
    "stems": [
     "BBm09_BT01"
    ],
@@ -8000,7 +8000,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1005_02A_伤痕暂停.md",
-   "page": "main/node/STm09_02_a.html",
+   "page": "main/ch09/STm09_02_a.html",
    "stems": [
     "STm09_02_a"
    ],
@@ -8054,7 +8054,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1006_03A_休战期.md",
-   "page": "main/node/STm09_03_a.html",
+   "page": "main/ch09/STm09_03_a.html",
    "stems": [
     "STm09_03_a"
    ],
@@ -8078,7 +8078,7 @@
     "talk": 112,
     "sticker": 0
    },
-   "preview": "魔王，我们回来了。 主公，妾身无能，竟被结阵的骑士挡住，没能拦下袭击您的审判官，妾身有罪。 不是你们的错。拯救委员会的人数远多于我们，你们做的已经够好了。 哼哼！猫眼大人得胜归来。哎呀，那些拯救委员会的家伙躲来躲去好烦人的， 但遇到猫眼大人澎湃的黑暗之力和近乎完美的音乐节奏， 他们根本冲不过来，一个人都冲不过来。 冷静一下，猫眼，骄兵必败！ 魔王，拯救委员会",
+   "preview": "魔<r=BOSS></r>王，我们回来了。 主公，妾身无能，竟被结阵的骑士挡住，没能拦下袭击您的审判官，妾身有罪。 不是你们的错。拯救委员会的人数远多于我们，你们做的已经够好了。 哼哼！猫眼大人得胜归来。哎呀，那些拯救委员会的家伙躲来躲去好烦人的， 但遇到猫眼大人澎湃的黑暗之力和近乎完美的音乐节奏， 他们根本冲不过来，一个人都冲不过来。 冷静一下，猫眼，骄兵",
    "story_id": "STm09_03_a",
    "kind": "story",
    "parents": [
@@ -8100,7 +8100,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1007_04A_薯条和情报.md",
-   "page": "main/node/STm09_04_a.html",
+   "page": "main/ch09/STm09_04_a.html",
    "stems": [
     "STm09_04_a"
    ],
@@ -8147,7 +8147,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1008_05A_尘沙的直觉.md",
-   "page": "main/node/STm09_05_a.html",
+   "page": "main/ch09/STm09_05_a.html",
    "stems": [
     "STm09_05_a"
    ],
@@ -8193,7 +8193,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1009_06A_落不下的雨.md",
-   "page": "main/node/STm09_06_a.html",
+   "page": "main/ch09/STm09_06_a.html",
    "stems": [
     "STm09_06_a"
    ],
@@ -8217,7 +8217,7 @@
     "talk": 136,
     "sticker": 0
    },
-   "preview": "魔王，空中检查完毕，没有敌人。 主公，地面建筑检查完毕，没有伏兵。 看起来安琪不屑于在这里埋伏，或者她认为就算在这里埋伏也会被我们识破，只是白费力气。 尘沙，你有什么不好的直觉吗？ 唔，没有呢，之前的不安感已经消失了，敌人的魔法我们也都掌握了。 死之权杖的子弹，小千能挡住吧？ 只要不是连射，妾身可以劈开。 160号的时间暂停，只要我们不打伤她，她就没得用了。",
+   "preview": "魔<r=BOSS></r>王，空中检查完毕，没有敌人。 主公，地面建筑检查完毕，没有伏兵。 看起来安琪不屑于在这里埋伏，或者她认为就算在这里埋伏也会被我们识破，只是白费力气。 尘沙，你有什么不好的直觉吗？ 唔，没有呢，之前的不安感已经消失了，敌人的魔法我们也都掌握了。 死之权杖的子弹，小千能挡住吧？ 只要不是连射，妾身可以劈开。 160号的时间暂停，只要我们",
    "story_id": "STm09_06_a",
    "kind": "story",
    "parents": [
@@ -8239,7 +8239,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1010_BT02_一人成军.md",
-   "page": "main/node/BAm09_BT03.html",
+   "page": "main/ch09/BAm09_BT03.html",
    "stems": [
     "BBm09_BT02"
    ],
@@ -8279,7 +8279,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1011_终局_指尖的沙.md",
-   "page": "main/node/STm09_07_a.html",
+   "page": "main/ch09/STm09_07_a.html",
    "stems": [
     "STm09_07_a"
    ],
@@ -8326,7 +8326,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1012_01B_未卜先知.md",
-   "page": "main/node/STm09_01_b.html",
+   "page": "main/ch09/STm09_01_b.html",
    "stems": [
     "STm09_01_b"
    ],
@@ -8375,7 +8375,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1013_BT03_两级反转.md",
-   "page": "main/node/BAm09_BT02.html",
+   "page": "main/ch09/BAm09_BT02.html",
    "stems": [
     "BBm09_BT03"
    ],
@@ -8412,7 +8412,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1014_02B_易地而处.md",
-   "page": "main/node/STm09_02_b.html",
+   "page": "main/ch09/STm09_02_b.html",
    "stems": [
     "STm09_02_b"
    ],
@@ -8434,7 +8434,7 @@
     "talk": 88,
     "sticker": 0
    },
-   "preview": "呼，呼—— （那些旅人是怎么回事？第二百人队一下子就被击溃了，虽然没有损失多少人，但阵列完全被打散了。） （提前安排的狙击和埋伏都失效了， 就连哈萨娜的沙暴也被料到了， 就好像…… 战场对她们单方面透明一样。） （那个魔王…… 到底用了什么作弊手段？） （不过，我还没有输，魔王的大部分部下都在和第二百人队战斗。） （只要我能抢在魔王之前抵达雏菊孤儿院，我就可",
+   "preview": "呼，呼—— （那些旅人是怎么回事？第二百人队一下子就被击溃了，虽然没有损失多少人，但阵列完全被打散了。） （提前安排的狙击和埋伏都失效了， 就连哈萨娜的沙暴也被料到了， 就好像…… 战场对她们单方面透明一样。） （那个魔<r=mowang></r>王…… 到底用了什么作弊手段？） （不过，我还没有输，魔<r=mowang></r>王的大部分部下都在和第二百人",
    "story_id": "STm09_02_b",
    "kind": "story",
    "parents": [
@@ -8456,7 +8456,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1015_03B_沙漠中的雨.md",
-   "page": "main/node/STm09_03_b.html",
+   "page": "main/ch09/STm09_03_b.html",
    "stems": [
     "STm09_03_b"
    ],
@@ -8483,7 +8483,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "魔王，我们又见面了。 你只带了一名护卫，有点出乎我的意料呢。 安琪，你现在已经无人可用了吧。 160号在我们手中，冈希尔德需要看着炮击阵地，你能带来的同伴只有格蕾霍恩。 格蕾霍恩是位重视荣誉的骑士，她不会行偷袭之事， 至于你—— 你的死之权杖突破不了千都世的刀刃。 所以，只让千都世随行就足够了，其他同伴都有她们的事情要忙。 哎呀，我在你的眼里，竟然是只会偷袭",
+   "preview": "魔<r=mowang></r>王，我们又见面了。 你只带了一名护卫，有点出乎我的意料呢。 安琪，你现在已经无人可用了吧。 160号在我们手中，冈希尔德需要看着炮击阵地，你能带来的同伴只有格蕾霍恩。 格蕾霍恩是位重视荣誉的骑士，她不会行偷袭之事， 至于你—— 你的死之权杖突破不了千都世的刀刃。 所以，只让千都世随行就足够了，其他同伴都有她们的事情要忙。 哎呀，",
    "story_id": "STm09_03_b",
    "kind": "story",
    "parents": [
@@ -8505,7 +8505,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1016_04B_胜利之后.md",
-   "page": "main/node/STm09_04_b.html",
+   "page": "main/ch09/STm09_04_b.html",
    "stems": [
     "STm09_04_b"
    ],
@@ -8530,7 +8530,7 @@
     "talk": 117,
     "sticker": 0
    },
-   "preview": "安琪委员长，您有没有受伤。 没有，我还好。 格蕾霍恩，我们这是在哪里？ 刚刚地面突然塌陷，我们掉进了地下的废弃矿道里。 请您站到属下的身后，魔王肯定在这里设下了埋伏。 你，你们好。那，那个，我刚刚那一拳，应该没伤到你们吧，我，我已经尽量控制力道了。 你就是魔王的同伴吗？ 师，师父才不是魔王，请你们不要诬陷好人。 格蕾霍恩，趁着魔王的同伴还没来，你快走，我全权",
+   "preview": "安琪委员长，您有没有受伤。 没有，我还好。 格蕾霍恩，我们这是在哪里？ 刚刚地面突然塌陷，我们掉进了地下的废弃矿道里。 请您站到属下的身后，魔<r=mowang></r>王肯定在这里设下了埋伏。 你，你们好。那，那个，我刚刚那一拳，应该没伤到你们吧，我，我已经尽量控制力道了。 你就是魔<r=mowang></r>王的同伴吗？ 师，师父才不是魔<r=mowan",
    "story_id": "STm09_04_b",
    "kind": "story",
    "parents": [
@@ -8552,7 +8552,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1017_05B_适得其反.md",
-   "page": "main/node/STm09_05_b.html",
+   "page": "main/ch09/STm09_05_b.html",
    "stems": [
     "STm09_05_b"
    ],
@@ -8598,7 +8598,7 @@
     "year": "星塔历 996 年"
    },
    "page_md": "main/chapter_10_遥远的塔/sections/1018_终局_身旁的她.md",
-   "page": "main/node/STm09_06_b.html",
+   "page": "main/ch09/STm09_06_b.html",
    "stems": [
     "STm09_06_b"
    ],
@@ -8638,7 +8638,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "魔王，我这里还有一块没用过的心相石，给你。 谢谢你，蓝锥。 你们要不要留几块？ 你们一路上需要开着幸运绿洲号狂奔，是最需要魔力的，这个时候还客气什么？！ 不是这个问题， 你们手里没有备用心相石，拯救委员会再次攻来，还守得住吗？ 放心吧，艾蕾院长刚刚带着孩子们撤进了白猫密室，那里又坚固又通风，就算是拯救委员会，没有那首歌谣也是打不开门的。 不用担心孩子们，你又",
+   "preview": "魔<r=BOSS></r>王，我这里还有一块没用过的心相石，给你。 谢谢你，蓝锥。 你们要不要留几块？ 你们一路上需要开着幸运绿洲号狂奔，是最需要魔力的，这个时候还客气什么？！ 不是这个问题， 你们手里没有备用心相石，拯救委员会再次攻来，还守得住吗？ 放心吧，艾蕾院长刚刚带着孩子们撤进了白猫密室，那里又坚固又通风，就算是拯救委员会，没有那首歌谣也是打不开门的",
    "story_id": "STm09_06_b",
    "kind": "story",
    "parents": [
@@ -9004,7 +9004,7 @@
     "talk": 107,
     "sticker": 0
    },
-   "preview": "冷……好冷…… 手脚逐渐失去知觉，意识变得暧昧不清。 追兵的脚步声逐渐逼近，身边却没有任何同伴。 看来，终于还是被这些家伙发现了啊…… 我的面前，正竖着一把利剑。内心的声音告诉我，拿起它就不会再感到痛苦。 拿起　它…… 然　后……　　　　　那些胆敢…… 对……　　　　　…… 魔王　　 僭越的家伙！ 这 是 他 们 应 得 的 下 场 力量……我需要力量…… ",
+   "preview": "冷……好冷…… 手脚逐渐失去知觉，意识变得暧昧不清。 追兵的脚步声逐渐逼近，身边却没有任何同伴。 看来，终于还是被这些家伙发现了啊…… 我的面前，正竖着一把利剑。内心的声音告诉我，拿起它就不会再感到痛苦。 拿起　它…… 然　后……　　　　　那些胆敢…… 对……　　　　　…… 魔<r=mowang></r>王　　 僭越的家伙！ 这 是 他 们 应 得 的 下 ",
    "hint": "嘿，你总算醒了？"
   },
   {
@@ -9038,7 +9038,7 @@
     "talk": 99,
     "sticker": 0
    },
-   "preview": "刚才那个，就是最后一只了。 呼……呼……还挺缠人的啊。 辛苦了二位，你们都没有受伤吧？ 谢谢魔王大人关心，我没事。 风影那边，应该也没有问题。 那就好……不过我得说一个坏消息， 马车和车夫都不见了。 也不能怪他……旅人遇到这种情况还好，普通人看到星骸，逃跑才是最正常的反应。 没关系，前面不远就是北境之城了。 我们立刻赶路的话，晚上就能到灰城区。 普通人？既然",
+   "preview": "刚才那个，就是最后一只了。 呼……呼……还挺缠人的啊。 辛苦了二位，你们都没有受伤吧？ 谢谢魔<r=mowang></r>王大人关心，我没事。 风影那边，应该也没有问题。 那就好……不过我得说一个坏消息， 马车和车夫都不见了。 也不能怪他……旅人遇到这种情况还好，普通人看到星骸，逃跑才是最正常的反应。 没关系，前面不远就是北境<r=诺斯海姆></r>之城了。",
    "hint": "离开了光与火，文明将不复存在。"
   },
   {
@@ -9096,7 +9096,7 @@
     "talk": 97,
     "sticker": 0
    },
-   "preview": "恩赐……补充完毕 这样一来，制热魔法又能持续一天了。 谢谢，麻烦你费心了。 不用客气，这是我该做的~ 魔王，该出发了。 万事小心，如果发现了永夜，请第一时间回来。 我们这次前来是探索星塔，不要勉强自己。 我们要负责的是银城区东部的位置，然后再是…… 嗯？你脸色有点差，是昨晚没睡好吗？ ……那是因为…… 虽说沉默也是一种美德，但是…… 任务还要持续好几天，休息",
+   "preview": "恩赐……补充完毕 这样一来，制热魔法又能持续一天了。 谢谢，麻烦你费心了。 不用客气，这是我该做的~ 魔<r=mowang></r>王，该出发了。 万事小心，如果发现了永夜，请第一时间回来。 我们这次前来是探索星塔，不要勉强自己。 我们要负责的是银城区东部的位置，然后再是…… 嗯？你脸色有点差，是昨晚没睡好吗？ ……那是因为…… 虽说沉默也是一种美德，但是…",
    "hint": "有些秘密不该被打扰……"
   },
   {
@@ -9189,7 +9189,7 @@
     "choice": 2,
     "sticker": 0
    },
-   "preview": "风影！？振作一点，喂！ 风影！！！ 没用的哦~那个法阵启动后，她的意识现在已经不在那副躯壳里了。 中计了，埃妲攻击我的那招是个陷阱，是为了让风影保护我，来到我的身边。 可是......法阵为什么会从我的身上启动？ 难道……！？ 好了好了，危险已经解决了…… 来，深呼吸—— 呼……呼……听着魔王大人的心跳，好安心~ 你假装害怕，抱住我的时候，在我的衣服上留下了",
+   "preview": "风影！？振作一点，喂！ 风影！！！ 没用的哦~那个法阵启动后，她的意识现在已经不在那副躯壳里了。 中计了，埃妲攻击我的那招是个陷阱，是为了让风影保护我，来到我的身边。 可是......法阵为什么会从我的身上启动？ 难道……！？ 好了好了，危险已经解决了…… 来，深呼吸—— 呼……呼……听着魔<r=mowang></r>王大人的心跳，好安心~ 你假装害怕，抱住",
    "hint": "疯狂的山脉正在呼啸，古老的存在将要苏醒……"
   },
   {
@@ -9223,7 +9223,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "我不会相信什么尊者，也不会安坐在所谓安全的“看台”上。 我会亲手守护——我的同伴！ 这就是你的回答啊， 那可真是……太遗憾了！ 那么，见证者。只要仪式结束，你也就没有用处了。 魔王，你傻掉了吗？武器是用来保护自己，杀死敌人的，你竟然用身体去保护一把刀？ 呼，埃妲，到现在你还在演啊。 你的真正目标，就是她的武器吧！ 你在胡说什么？！ 我不知道你所谓的那个“战争",
+   "preview": "我不会相信什么尊者，也不会安坐在所谓安全的“看台”上。 我会亲手守护——我的同伴！ 这就是你的回答啊， 那可真是……太遗憾了！ 那么，见证者。只要仪式结束，你也就没有用处了。 魔<r=mowang></r>王，你傻掉了吗？武器是用来保护自己，杀死敌人的，你竟然用身体去保护一把刀？ 呼，埃妲，到现在你还在演啊。 你的真正目标，就是她的武器吧！ 你在胡说什么？！",
    "hint": "勇气上膛，扣下宣告破晓的扳机。"
   },
   {
@@ -9657,7 +9657,7 @@
     "talk": 99,
     "sticker": 0
    },
-   "preview": "我们回来啦～！ “寻找迷途之信的大作战”圆满成功！大家今天真是辛苦了！ 哎？空白旅团的各位……好像状态不太对。 啊……魔王……大家……欢迎回来…… 怎、怎么了！？大家都一副魂不守舍的样子！ 没做完…… 嗯？ 对不起啊啊啊啊！已经接下的工作，还完全没做完啊啊啊！ 我小看了这些工作量了……自信满满地就硬接了下来，真的不好意思——！！！ 信使旅人……真的好厉害。 ",
+   "preview": "我们回来啦～！ “寻找迷途之信的大作战”圆满成功！大家今天真是辛苦了！ 哎？空白旅团的各位……好像状态不太对。 啊……魔<r=BOSS></r>王……大家……欢迎回来…… 怎、怎么了！？大家都一副魂不守舍的样子！ 没做完…… 嗯？ 对不起啊啊啊啊！已经接下的工作，还完全没做完啊啊啊！ 我小看了这些工作量了……自信满满地就硬接了下来，真的不好意思——！！！ 信",
    "hint": "趁现在，把贝林港的景色好好印入脑海……"
   },
   {
@@ -9719,7 +9719,7 @@
     "talk": 103,
     "sticker": 0
    },
-   "preview": "火垂，还记得我吗？ 嗯……？ ……记得。雪愿节的时候，咱们一起玩过。 你好像是叫…… 魔王？ 你能记住我，真是我的荣幸。 接下来这段时间，我会陪你一起玩哦。 请多关照。 ……真的？ 魔王，要一直和火垂在一起？ 你说的一直到底是多久啊…… 不过至少在我送你回家之前，我都会陪着你的。 嗯，知道了。 太好了……看来她并不是讨厌我。 话说回来，火垂的爱好是拍照吗？ ",
+   "preview": "火垂，还记得我吗？ 嗯……？ ……记得。雪愿节的时候，咱们一起玩过。 你好像是叫…… 魔<r=mowang></r>王？ 你能记住我，真是我的荣幸。 接下来这段时间，我会陪你一起玩哦。 请多关照。 ……真的？ 魔<r=mowang></r>王，要一直和火垂在一起？ 你说的一直到底是多久啊…… 不过至少在我送你回家之前，我都会陪着你的。 嗯，知道了。 太好了…",
    "hint": "一场任性的许愿。"
   },
   {
@@ -10242,7 +10242,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "咳咳咳，魔王你还好吗？！ 我没事！鸢尾你们呢？ 我们也没有被波及到。 事情好像闹大了，还是赶紧开溜吧！ 此地不宜久留。加我一个。 魔王，我们也快走吧？ 嗯，撤退前先确认一下大家的情况吧。 没事没事~这种场面我们都有经验，老板你们就先逃吧，我们三个留下来断后。 莱欧，要是让你家的“嘀嗒蹦蹦”殿后，大概能争取到多少时间？ 我刚用散落零件组装出了几枚炸弹……让我们",
+   "preview": "咳咳咳，魔<r=BOSS></r>王你还好吗？！ 我没事！鸢尾你们呢？ 我们也没有被波及到。 事情好像闹大了，还是赶紧开溜吧！ 此地不宜久留。加我一个。 魔<r=BOSS></r>王，我们也快走吧？ 嗯，撤退前先确认一下大家的情况吧。 没事没事~这种场面我们都有经验，老板你们就先逃吧，我们三个留下来断后。 莱欧，要是让你家的“嘀嗒蹦蹦”殿后，大概能争取到多少",
    "hint": "漂亮的爆炸，我打十分！"
   },
   {
@@ -11048,7 +11048,6 @@
     "埃莉诺的父亲",
     "魔王",
     "卡特琳",
-    "旁白",
     "杂货店老板",
     "武器商人",
     "杂货商人",
@@ -11058,7 +11057,7 @@
     "激动的市民"
    ],
    "counts": {
-    "talk": 108,
+    "talk": 107,
     "sticker": 1
    },
    "preview": "呼～今天也是个好天气！ 她们俩最爱的红茶和点心都准备好了，就等茶会开始了…… 埃莉诺！ 嗯？是卡特琳先到了吗？ 卡特琳，你今天倒是来得挺早的，喊这么大声，小心又被薇薇安训哦…… 咦，怎么是薇薇安？ 埃莉诺！卡、卡特琳…… 卡特琳她—— ……！ 薇薇安，你先冷静一下。慢慢说没关系的，卡特琳出什么事了？ 卡特琳她…… 失踪了！从昨天晚上，就没人见过她了……！ 什",
@@ -11333,7 +11332,7 @@
     "talk": 115,
     "sticker": 0
    },
-   "preview": "你、你…… 你不准碰她……！！ 呵呵，小花铃你误会了。 刚才魔王不小心摔了一跤，我想去拉你，没想到自己也倒下了。 啊，对、对……是这样的。 说起来，还是因为小花铃在和鱼较劲，船才会晃得这么厉害。 竟然是我的错吗？ 小花铃不要露出那么可怕的表情嘛。 你钓上了厉害的大鱼，魔王也没受伤，是双赢呢~ 哈哈……双赢…… 虽然勉强露出了笑容，但眼神还是很恐怖啊。 好啦，",
+   "preview": "你、你…… 你不准碰她……！！ 呵呵，小花铃你误会了。 刚才魔<r=BOSS></r>王不小心摔了一跤，我想去拉你，没想到自己也倒下了。 啊，对、对……是这样的。 说起来，还是因为小花铃在和鱼较劲，船才会晃得这么厉害。 竟然是我的错吗？ 小花铃不要露出那么可怕的表情嘛。 你钓上了厉害的大鱼，魔<r=BOSS></r>王也没受伤，是双赢呢~ 哈哈……双赢…… ",
    "hint": "行程过半，你们途经一座小岛，暂时休整。 在岛上，花铃听到了异样的声音—— 一伙图谋不轨的旅人现身了。"
   },
   {
@@ -11393,7 +11392,7 @@
     "talk": 91,
     "sticker": 0
    },
-   "preview": "唉，该怎么向希娅和花铃开口呢？那本日记的内容…… 魔王在发愁什么呢？ 哇啊——希娅…… 你什么时候来的？ 呵呵，你聊了那么久，我在一旁可是站得腿都酸了呢。 啊，那你岂不是……都听见了？ 呵呵，我可不是来偷听的哦~ 只是来给你拿件外套，夜晚风大，以免着凉了。 结果……一不小心看到了魔王那么认真的样子， 我都不好意思打扰你呢。 真是贴心啊……谢谢你。 希娅的情绪",
+   "preview": "唉，该怎么向希娅和花铃开口呢？那本日记的内容…… 魔<r=BOSS></r>王在发愁什么呢？ 哇啊——希娅…… 你什么时候来的？ 呵呵，你聊了那么久，我在一旁可是站得腿都酸了呢。 啊，那你岂不是……都听见了？ 呵呵，我可不是来偷听的哦~ 只是来给你拿件外套，夜晚风大，以免着凉了。 结果……一不小心看到了魔<r=BOSS></r>王那么认真的样子， 我都不好意",
    "hint": "对于奶奶的隐瞒，希娅早已有所察觉。 她决定先走一步，去前方探查情况。 然而，黑暗中有一个身影始终注视着她。"
   },
   {
@@ -11459,7 +11458,7 @@
     "talk": 99,
     "sticker": 0
    },
-   "preview": "不对！奶奶绝不会撒谎！那一定是艘巨大的幽灵船！ 是幽灵船对吧？魔王……你快说呀！ 花铃…… 眼前的画面，和雾语说过的那本日记里的内容如出一辙。 “矗立在岛屿之上，散发着光芒的巨物……”难道光芒的源头，真是星塔吗？ 花铃……我相信奶奶不会故意骗人。哪怕她没有说实话，一定也是善意的谎言。 “善意的……谎言”？什么意思？你这副表情……就好像知道什么内情一样。 告诉",
+   "preview": "不对！奶奶绝不会撒谎！那一定是艘巨大的幽灵船！ 是幽灵船对吧？魔<r=BOSS></r>王……你快说呀！ 花铃…… 眼前的画面，和雾语说过的那本日记里的内容如出一辙。 “矗立在岛屿之上，散发着光芒的巨物……”难道光芒的源头，真是星塔吗？ 花铃……我相信奶奶不会故意骗人。哪怕她没有说实话，一定也是善意的谎言。 “善意的……谎言”？什么意思？你这副表情……就好像",
    "hint": "你们终于来到了光芒的源头。 没有幽灵船，只有一片荒芜的岛屿。 朝着最终的目标，出发！"
   },
   {
@@ -11568,7 +11567,7 @@
     "choice": 5,
     "sticker": 0
    },
-   "preview": "醒醒，琥珀，醒一醒！ 你怎么趴在桌子上睡着了？ 昨晚一直跟魔王发消息，不知不觉就睡过去了…… 一个小时前魔王就说要到了，这都过去好久了。再不回来的话，我真要去找你了！ 鸢尾一直拦着我，说什么“开船和开车不一样”，也没有太大区别吧？ 快、快去海滩……！ 魔王回来了！！ 三天后 可、可恶！不准摸我的耳朵！只有希娅才可以…… 对不起！我替尘沙向你道歉…… 尘沙也真",
+   "preview": "醒醒，琥珀，醒一醒！ 你怎么趴在桌子上睡着了？ 昨晚一直跟魔<r=BOSS></r>王发消息，不知不觉就睡过去了…… 一个小时前魔<r=BOSS></r>王就说要到了，这都过去好久了。再不回来的话，我真要去找你了！ 鸢尾一直拦着我，说什么“开船和开车不一样”，也没有太大区别吧？ 快、快去海滩……！ 魔<r=BOSS></r>王回来了！！ 三天后 可、可恶！不",
    "hint": "事情圆满结束，你终于可以安心享受。 属于你的、你们的、永不结束的夏天。"
   },
   {
@@ -11598,7 +11597,7 @@
     "talk": 105,
     "sticker": 0
    },
-   "preview": "寒冬凛冽，晶莹的雪花缓缓飘落。 白雪覆盖的街道之上，点缀着绚烂的节日装饰。 不愧是雪愿节啊。街上这么热闹，还挺新鲜的。 既然是过节，我也放松一下，随便逛逛好了。 真是的，现在要我去哪里找人帮忙！这种情况不应该提前通知一下吗？！ 嗯？那个人，好像有点眼熟。 今天可是雪愿节，大家都有自己的安排了吧…… 咦？ 这不是菈露嘛，好巧。 魔、魔王？！你怎么会在这里？！ ",
+   "preview": "寒冬凛冽，晶莹的雪花缓缓飘落。 白雪覆盖的街道之上，点缀着绚烂的节日装饰。 不愧是雪愿节啊。街上这么热闹，还挺新鲜的。 既然是过节，我也放松一下，随便逛逛好了。 真是的，现在要我去哪里找人帮忙！这种情况不应该提前通知一下吗？！ 嗯？那个人，好像有点眼熟。 今天可是雪愿节，大家都有自己的安排了吧…… 咦？ 这不是菈露嘛，好巧。 魔、魔<r=mowang></r",
    "hint": "节日来临，热闹非凡的街道上，你看到一个熟悉的身影……"
   },
   {
@@ -11667,7 +11666,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "你认识她吗？ 不认识，我们天天在这里玩，从来没有见过她！ 我好像在哪里见过…… 哎呀，想不起来了。 这样啊…… 魔王，如果她也在名单上，我们就一定要把礼物送给她。 别着急，说不定等下就又遇到了呢？ 说起来，她好像很在意“雪愿树精灵”…… 这个故事很出名吗？ 嗯！我是从书里看到的，那本书是一个穿着恩赐意志衣服的大人物送给我们的。 大人物？ 对呀，她给我们带了好",
+   "preview": "你认识她吗？ 不认识，我们天天在这里玩，从来没有见过她！ 我好像在哪里见过…… 哎呀，想不起来了。 这样啊…… 魔<r=mowang></r>王，如果她也在名单上，我们就一定要把礼物送给她。 别着急，说不定等下就又遇到了呢？ 说起来，她好像很在意“雪愿树精灵”…… 这个故事很出名吗？ 嗯！我是从书里看到的，那本书是一个穿着恩赐意志衣服的大人物送给我们的。 大",
    "hint": "“雪愿树精灵”，总会帮你实现愿望。"
   },
   {
@@ -11760,7 +11759,7 @@
     "talk": 61,
     "sticker": 0
    },
-   "preview": "为了找到雪愿树精灵的照片，我们前往隔壁街寻找孩子们说的信使。 啊，找到了。 的确，背着那么大的邮包，肯定是信使了。 那身衣服…… 也是同事吗…… 不对，这是谁啊？ 完全没印象…… 魔王？ 贵安，您这顶帽子是……？ 还真是苍兰啊！她也在埃摩啊，而且这身打扮…… 我…… 接了帮恩赐意志送雪愿节礼物的委托—— 就戴上了这个帽子。 奇妙的巧合，万送屋也接了恩赐意志的",
+   "preview": "为了找到雪愿树精灵的照片，我们前往隔壁街寻找孩子们说的信使。 啊，找到了。 的确，背着那么大的邮包，肯定是信使了。 那身衣服…… 也是同事吗…… 不对，这是谁啊？ 完全没印象…… 魔<r=BOSS></r>王？ 贵安，您这顶帽子是……？ 还真是苍兰啊！她也在埃摩啊，而且这身打扮…… 我…… 接了帮恩赐意志送雪愿节礼物的委托—— 就戴上了这个帽子。 奇妙的巧合",
    "hint": "你选择追上隔壁街信使的脚步……"
   },
   {
@@ -11822,7 +11821,7 @@
     "talk": 74,
     "sticker": 0
    },
-   "preview": "哎…… 魔王真是坏心眼啊…… 你早就猜到了吧？非要这么戏弄我。 照片上的那个所谓的“雪愿树精灵”…… 就是我啦！ 根本不用猜啊…… 但凡仔细看一眼照片，就会发现那所谓的“精灵”和你，根本就是同一个人嘛…… 不过想想也是，你这么喜欢摸鱼的人，对找照片的事却这么积极…… 而且，还总在刻意避开“精灵”的话题…… 好啦好啦别分析了！我就是照片里的那位精灵！我承认了啦",
+   "preview": "哎…… 魔<r=mowang></r>王真是坏心眼啊…… 你早就猜到了吧？非要这么戏弄我。 照片上的那个所谓的“雪愿树精灵”…… 就是我啦！ 根本不用猜啊…… 但凡仔细看一眼照片，就会发现那所谓的“精灵”和你，根本就是同一个人嘛…… 不过想想也是，你这么喜欢摸鱼的人，对找照片的事却这么积极…… 而且，还总在刻意避开“精灵”的话题…… 好啦好啦别分析了！我就是",
    "hint": "所谓的精灵传说，只是一段有些酸楚的回忆。"
   },
   {
@@ -11851,7 +11850,7 @@
     "talk": 97,
     "sticker": 0
    },
-   "preview": "呼…… 菈露还记得，那天是个大雪纷飞的日子。 _NOT_IN_LOG_<alpha=#EE><voffset=0.05em><rotate=-2 ><mspace=1.01em>菈露还记得，那天是个大雪纷飞的日子。==A0.03== _NOT_IN_LOG_<alpha=#DD><voffset=0.1em ><rotate=-4 ><mspace=1.02",
+   "preview": "呼…… 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得，那天是个大雪纷飞的日子。 菈露还记得",
    "hint": "那天，菈露见识到了她从未见过的“友谊”魔法……"
   },
   {
@@ -11915,7 +11914,7 @@
     "talk": 82,
     "sticker": 0
    },
-   "preview": "谢谢姐姐！ 不客气~也祝你雪愿节快乐哦！ 也祝你节日快乐！拜拜！ 哦……？ 怎么了？ 刚才那个孩子，就是队伍里的最后一个了。 那刚才跑走的那个…… 就不是住在这附近的了吧？ 嗯，我想她应该只是对“雪愿树精灵”很感兴趣，所以才靠近的。 哼哼…… 那这么一想，我们待会要做的事，可真是责任重大了…… 换句话而言，也可以说是“很有挑战性”。 哇，不愧是魔王，总是如此",
+   "preview": "谢谢姐姐！ 不客气~也祝你雪愿节快乐哦！ 也祝你节日快乐！拜拜！ 哦……？ 怎么了？ 刚才那个孩子，就是队伍里的最后一个了。 那刚才跑走的那个…… 就不是住在这附近的了吧？ 嗯，我想她应该只是对“雪愿树精灵”很感兴趣，所以才靠近的。 哼哼…… 那这么一想，我们待会要做的事，可真是责任重大了…… 换句话而言，也可以说是“很有挑战性”。 哇，不愧是魔<r=mow",
    "hint": "节日的氛围来到了最高潮，今天的魔王和菈露真是格外努力！"
   },
   {
@@ -12467,7 +12466,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "魔王抓紧我，马上就到了！ 快！再快一点，骏鹰号！ 提莉娅的骏鹰号载着我，奔驰在埃摩城外。 好快！这就是骏鹰号真正的速度吗？ 缇莉娅，我在城里看到的帝国卫队，他们骑的神器车都是慢吞吞的啊。 骏鹰号是特别的！卫队发下来的神器车…… 都是许愿失败的廉价货——虽然也挺贵了。 所以，我就自己找朋友维修改装了一下，让它恢复了真正的实力。 其实，骏鹰号还可以更快的，只要我",
+   "preview": "魔<r=BOSS></r>王抓紧我，马上就到了！ 快！再快一点，骏鹰号！ 提莉娅的骏鹰号载着我，奔驰在埃摩城外。 好快！这就是骏鹰号真正的速度吗？ 缇莉娅，我在城里看到的帝国卫队，他们骑的神器车都是慢吞吞的啊。 骏鹰号是特别的！卫队发下来的神器车…… 都是许愿失败的廉价货——虽然也挺贵了。 所以，我就自己找朋友维修改装了一下，让它恢复了真正的实力。 其实，骏",
    "affinity": 5,
    "twins": []
   },
@@ -12674,7 +12673,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "呵呵，魔王，你难道， 是打算与我“约会”吗？ 约，约会！？ 才不是！这、这是正经视察！我打算和你一起去看看联合种业的门店现状。 每天坐在办公室里，只能看到数据，一线的实际情况也是很重要的吧？ 反应有点无趣呢。不过你说得对。最近的确有些忙，没机会亲眼去看看现场。 这是您的水果，请拿好。 最近你们的水果比原来新鲜了很多，难道是换产地了？ 没有没有，依旧是联合种业",
+   "preview": "呵呵，魔<r=BOSS></r>王，你难道， 是打算与我“约会”吗？ 约，约会！？ 才不是！这、这是正经视察！我打算和你一起去看看联合种业的门店现状。 每天坐在办公室里，只能看到数据，一线的实际情况也是很重要的吧？ 反应有点无趣呢。不过你说得对。最近的确有些忙，没机会亲眼去看看现场。 这是您的水果，请拿好。 最近你们的水果比原来新鲜了很多，难道是换产地了？ ",
    "affinity": 5,
    "twins": []
   },
@@ -12833,7 +12832,7 @@
     "talk": 59,
     "sticker": 0
    },
-   "preview": "日丽风清。 这样一个没有委托的周末，伴着和煦的阳光，令人昏昏欲睡。 周围很安静， 除了时不时从小绿那儿传来的，叮叮当当的响声。 尘沙， 一大早你就在鼓捣小绿，出了什么问题吗？ 没有没有~ 只是给她换一个避震器。 临时装的那个太旧了，开起来没以前平稳，大家坐着也不舒服。 在有关小绿和驾驶的问题上，尘沙总是很上心。 只是…… 一小时前 魔王，等下我和琥珀要出门，",
+   "preview": "日丽风清。 这样一个没有委托的周末，伴着和煦的阳光，令人昏昏欲睡。 周围很安静， 除了时不时从小绿那儿传来的，叮叮当当的响声。 尘沙， 一大早你就在鼓捣小绿，出了什么问题吗？ 没有没有~ 只是给她换一个避震器。 临时装的那个太旧了，开起来没以前平稳，大家坐着也不舒服。 在有关小绿和驾驶的问题上，尘沙总是很上心。 只是…… 一小时前 魔<r=BOSS></r>",
    "affinity": 1,
    "twins": []
   },
@@ -13065,7 +13064,7 @@
     "talk": 94,
     "sticker": 0
    },
-   "preview": "毕竟不能放人鸽子，所以还是先过来吧…… 看起来好像猫眼已经到了？之前说什么震撼灵魂的委托，到底是打算干什么啊…… 嗯？ 嘿咻…… 嘿咻…… 好像有个人抱着堆积成山的委托书走过来了…… 难道是猫眼？ 这里还是先当做没看见吧…… 啊——！ 魔王大人，你也太慢了吧！ 糟糕！被发现了！ 啊哈哈，早啊…… 猫眼。你手上抱的委托书堆得这么高，居然还能发现我啊？ 哼哼……",
+   "preview": "毕竟不能放人鸽子，所以还是先过来吧…… 看起来好像猫眼已经到了？之前说什么震撼灵魂的委托，到底是打算干什么啊…… 嗯？ 嘿咻…… 嘿咻…… 好像有个人抱着堆积成山的委托书走过来了…… 难道是猫眼？ 这里还是先当做没看见吧…… 啊——！ 魔<r=mowang></r>王大人，你也太慢了吧！ 糟糕！被发现了！ 啊哈哈，早啊…… 猫眼。你手上抱的委托书堆得这么高，",
    "affinity": 5,
    "twins": []
   },
@@ -13096,7 +13095,7 @@
     "choice": 7,
     "sticker": 0
    },
-   "preview": "哈啊…… 哈啊……！ 魔王大人，两点钟方向有敌人！ 唔？！ 糟了，反应慢了—— 魔王！ 呼…… 得救了…… 魔王大人，下一个是五点钟方向！准备迎敌！ 什么准备迎敌啊…… 我都说过好几次了，我负责的是脑力战啦！ 就是因为你总是不锻炼一下，所以才会在战斗中被击败，最后导致力量被封印了对吧。 都说了，我不是那个魔王…… 也许只是你忘记了而已嘛！而且据说休克疗法好像",
+   "preview": "哈啊…… 哈啊……！ 魔<r=mowang></r>王大人，两点钟方向有敌人！ 唔？！ 糟了，反应慢了—— 魔<r= mowang></r>王！ 呼…… 得救了…… 魔<r=mowang></r>王大人，下一个是五点钟方向！准备迎敌！ 什么准备迎敌啊…… 我都说过好几次了，我负责的是脑力战啦！ 就是因为你总是不锻炼一下，所以才会在战斗中被击败，最后导致力量被",
    "affinity": 10,
    "twins": []
   },
@@ -13125,7 +13124,7 @@
     "talk": 91,
     "sticker": 0
    },
-   "preview": "得赶紧跑……！ 三—— 四—— 五—— 六—— 如果不认真点，又会瞬间被……！ 九—— 十。 我，要开始抓人啦—— 唔！？ 抓到了。 呜！这也太快了！ 这局又是我赢了。 魔王，是不是没认真陪我玩呀？ 是火垂太强了吧…… 还有，借着雪崩的速度追……这不算犯规吗？ 听起来好复杂。魔王是在说犯规的事吗？ 刚才我没有用雪崩撞你吧，所以，不算犯规。 ………………算了，",
+   "preview": "得赶紧跑……！ 三—— 四—— 五—— 六—— 如果不认真点，又会瞬间被……！ 九—— 十。 我，要开始抓人啦—— 唔！？ 抓到了。 呜！这也太快了！ 这局又是我赢了。 魔<r=mowang></r>王，是不是没认真陪我玩呀？ 是火垂太强了吧…… 还有，借着雪崩的速度追……这不算犯规吗？ 听起来好复杂。魔<r=mowang></r>王是在说犯规的事吗？ 刚才",
    "affinity": 1,
    "twins": []
   },
@@ -13188,7 +13187,7 @@
     "choice": 9,
     "sticker": 0
    },
-   "preview": "哼哼~ 魔王，你看。 让我看看…… 嗯，拍得很漂亮嘛。 之前米夏的那件事已经过去一个星期了……看来火垂已经恢复如常了。 魔王。 怎么了？ 只有魔王一个人会陪我玩…… ……是吗。 那，你要不要再挑战一次“交新朋友”呢？ …… 可是火垂，很不擅长交朋友。和米夏，也没能成为朋友。 别在意，第一次做，往往会伴随失败…… 而且上次—— 师父……！！ 米夏？ 我在大学里",
+   "preview": "哼哼~ 魔<r=mowang></r>王，你看。 让我看看…… 嗯，拍得很漂亮嘛。 之前米夏的那件事已经过去一个星期了……看来火垂已经恢复如常了。 魔<r=mowang></r>王。 怎么了？ 只有魔<r=mowang></r>王一个人会陪我玩…… ……是吗。 那，你要不要再挑战一次“交新朋友”呢？ …… 可是火垂，很不擅长交朋友。和米夏，也没能成为朋友。 ",
    "affinity": 10,
    "twins": []
   },
@@ -13284,7 +13283,7 @@
     "choice": 3,
     "sticker": 0
    },
-   "preview": "啊，魔王！ 往这边，这边！ 快看，这是我之前种的豌豆喔！ 已经长这么大了！ 我一直在认真观察它们的成长，还研究了环境对收成的影响，多亏有魔王，品种改良进展顺利！ 环顾四周，在岭川的试验田里，分区种了不同的豌豆。 有的还只是刚冒出土的小苗，有的则已长得接近一人高了。 没想到，那个“豌豆实验”的故事竟然能派上这么大用场…… 想不到的还在后头喔！ 最近，我额外用了",
+   "preview": "啊，魔<r=BOSS></r>王！ 往这边，这边！ 快看，这是我之前种的豌豆喔！ 已经长这么大了！ 我一直在认真观察它们的成长，还研究了环境对收成的影响，多亏有魔<r=BOSS></r>王，品种改良进展顺利！ 环顾四周，在岭川的试验田里，分区种了不同的豌豆。 有的还只是刚冒出土的小苗，有的则已长得接近一人高了。 没想到，那个“豌豆实验”的故事竟然能派上这么大",
    "affinity": 10,
    "twins": []
   },
@@ -13389,7 +13388,7 @@
     "choice": 4,
     "sticker": 0
    },
-   "preview": "杠！再来一个杠！ 哈哈哈……！杠上开花！麻雀牌真有意思啊！ 哎、哎哎哎？！这就和了？！难道这牌上有什么记号？ 还是说……魔王有超能力？！ 嗯，在这种牌类游戏上，我的天赋……似乎还不差~ ……开玩笑的啦，只是运气好而已。 真厉害，说不定还能打出十三幺呢~ 十三幺？ 是很厉害，很需要运气的一种牌型哦！每种牌各一，全部摸齐，顺利和牌之后就是十三幺啦！既然今天魔王运",
+   "preview": "杠！再来一个杠！ 哈哈哈……！杠上开花！麻雀牌真有意思啊！ 哎、哎哎哎？！这就和了？！难道这牌上有什么记号？ 还是说……魔<r=BOSS></r>王有超能力？！ 嗯，在这种牌类游戏上，我的天赋……似乎还不差~ ……开玩笑的啦，只是运气好而已。 真厉害，说不定还能打出十三幺呢~ 十三幺？ 是很厉害，很需要运气的一种牌型哦！每种牌各一，全部摸齐，顺利和牌之后就是",
    "affinity": 10,
    "twins": []
   },
@@ -13804,7 +13803,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "来吧，魔王。 这是我们最后的对决了。 嗯，我不会手下留情的。 那就由我来倒数了。 三、 二…… 啊，雨好大，眼睛要睁不开了。 事情怎么会发展成这样…… 今天清晨。 根据委托内容，我一大早就来到了万送屋门口。 早安，魔王。 暌违已久，愿您别来无恙。 太客气了，竟然还对我行了脱帽礼…… 感谢您接受了我的委托。 今日多娜和特丽莎外出，您的到来解决了万送屋的燃眉之急",
+   "preview": "来吧，魔<r=BOSS></r>王。 这是我们最后的对决了。 嗯，我不会手下留情的。 那就由我来倒数了。 三、 二…… 啊，雨好大，眼睛要睁不开了。 事情怎么会发展成这样…… 今天清晨。 根据委托内容，我一大早就来到了万送屋门口。 早安，魔<r=BOSS></r>王。 暌违已久，愿您别来无恙。 太客气了，竟然还对我行了脱帽礼…… 感谢您接受了我的委托。 今日",
    "affinity": 1,
    "twins": []
   },
@@ -13870,7 +13869,7 @@
     "choice": 9,
     "sticker": 0
    },
-   "preview": "下午，我们陆陆续续送完了剩余的信，在路边的长椅上休息。 给您，魔王。 我不知道您喜欢哪种零食，每样都买了一点。 今天发生了好多意料之外的状况，真是不好意思。 没有，苍兰很厉害呢。 你们说要决斗的时候，我真是捏了一把汗。 当时的状况下，决斗反而是最简单高效的办法。 他提出决斗，我就顺势答应了。 说起来，之前小葵和海伦阿姨说的“决斗”， 都是什么事情啊？ 小葵是",
+   "preview": "下午，我们陆陆续续送完了剩余的信，在路边的长椅上休息。 给您，魔<r=BOSS></r>王。 我不知道您喜欢哪种零食，每样都买了一点。 今天发生了好多意料之外的状况，真是不好意思。 没有，苍兰很厉害呢。 你们说要决斗的时候，我真是捏了一把汗。 当时的状况下，决斗反而是最简单高效的办法。 他提出决斗，我就顺势答应了。 说起来，之前小葵和海伦阿姨说的“决斗”， ",
    "affinity": 10,
    "twins": []
   },
@@ -14034,7 +14033,7 @@
     "talk": 80,
     "sticker": 0
    },
-   "preview": "哈啊…… 哈啊…… 呃呜…… 魔，魔王！你的脸色好差，没事吧！ 这条山路几乎没有人走过吧…… 我已经快感知不到双腿的存在了…… 有点不太明白你在说什么…… 不过我们先原地休息一下吧。 呼……差点儿膝盖就要废了…… 我背包里还有水，这就拿给你。 话说回来，这背包也太大了吧，到底是在找东西还是在搬家啊…… 等等，那些东西都是神器吗？ 没错哦，不过大部分都坏了。 ",
+   "preview": "哈啊…… 哈啊…… 呃呜…… 魔，魔<r=BOSS></r>王！你的脸色好差，没事吧！ 这条山路几乎没有人走过吧…… 我已经快感知不到双腿的存在了…… 有点不太明白你在说什么…… 不过我们先原地休息一下吧。 呼……差点儿膝盖就要废了…… 我背包里还有水，这就拿给你。 话说回来，这背包也太大了吧，到底是在找东西还是在搬家啊…… 等等，那些东西都是神器吗？ 没错",
    "affinity": 5,
    "twins": []
   },
@@ -14064,7 +14063,7 @@
     "choice": 6,
     "sticker": 0
    },
-   "preview": "哦哦哦哦哦哦——！！！ 接，接住了？ 特丽莎从悬崖上掉下来的那一刻，我伸出双臂，向着她落下的方向冲去。 然而，双臂却没有受到想象中的冲击。 特丽莎像羽毛一样轻轻跃进我的臂弯。 呃……接得比想象中轻松啊…… 特丽莎，难道你用了什么技巧……？ 嘿嘿，被魔王看出来了。 其实人家平时就经常爬危险的悬崖， 早就习惯摔下来啦喵！ 我至少有三种方法能安全落地。 用悬崖的凸",
+   "preview": "哦哦哦哦哦哦——！！！ 接，接住了？ 特丽莎从悬崖上掉下来的那一刻，我伸出双臂，向着她落下的方向冲去。 然而，双臂却没有受到想象中的冲击。 特丽莎像羽毛一样轻轻跃进我的臂弯。 呃……接得比想象中轻松啊…… 特丽莎，难道你用了什么技巧……？ 嘿嘿，被魔<r=BOSS></r>王看出来了。 其实人家平时就经常爬危险的悬崖， 早就习惯摔下来啦喵！ 我至少有三种方法",
    "affinity": 10,
    "twins": []
   },
@@ -14124,7 +14123,7 @@
     "talk": 85,
     "sticker": 0
    },
-   "preview": "呼……今天也是平静的一天啊。 这种日子最适合散…… 步…… 咦？ 嘿咻，嘿咻…… 那边的是……多娜？ 怎么两手拎满了纸袋？看上去很重的样子…… 嗨，多娜，怎么买了这么多东西？ 呀，是魔王！ 这些嘛……都是一些材料啦， 购物的时候看到不错的就往篮子里拿，不知不觉就买了这么多…… 要不要我帮你拿一点？ 一个人拿这么多很吃力吧。 没事没事！ 搬东西这种事情，我平时",
+   "preview": "呼……今天也是平静的一天啊。 这种日子最适合散…… 步…… 咦？ 嘿咻，嘿咻…… 那边的是……多娜？ 怎么两手拎满了纸袋？看上去很重的样子…… 嗨，多娜，怎么买了这么多东西？ 呀，是魔<r=BOSS></r>王！ 这些嘛……都是一些材料啦， 购物的时候看到不错的就往篮子里拿，不知不觉就买了这么多…… 要不要我帮你拿一点？ 一个人拿这么多很吃力吧。 没事没事！",
    "affinity": 5,
    "twins": []
   },
@@ -14157,7 +14156,7 @@
     "choice": 7,
     "sticker": 0
    },
-   "preview": "已经到约好的时间了，多娜还没到吗…… 欸——找到了，原来在那啊！ 抱歉，刚刚没找到你…… …… 嗯？多娜？ 是因为太嘈杂了没听见吗…… 多娜~！我来啦！ 哇啊！原来是魔王啊。 嘿嘿……抱歉。刚刚在看那边的橱窗，一不小心就看入迷了。 橱窗？是在看里面挂着的衣服么…… 话说，今天不是要一起去逛街吗？ 想买点什么呀？ 嗯！我打算把工作用的装备都换新一下，大概会买不",
+   "preview": "已经到约好的时间了，多娜还没到吗…… 欸——找到了，原来在那啊！ 抱歉，刚刚没找到你…… …… 嗯？多娜？ 是因为太嘈杂了没听见吗…… 多娜~！我来啦！ 哇啊！原来是魔<r=BOSS></r>王啊。 嘿嘿……抱歉。刚刚在看那边的橱窗，一不小心就看入迷了。 橱窗？是在看里面挂着的衣服么…… 话说，今天不是要一起去逛街吗？ 想买点什么呀？ 嗯！我打算把工作用的装",
    "affinity": 10,
    "twins": []
   },
@@ -14188,7 +14187,7 @@
     "choice": 5,
     "sticker": 0
    },
-   "preview": "...... 你就是那个密涅瓦，对吧。 怎么就你一个人，显得我们地蝰帮以多欺少？ 我一个人就够了。 地蝰帮的好汉可是全伙在此。 这么托大，可是要吃苦头的。 组长，不止一个人，后面还有个弱不禁风的跟班。 ...... 放肆，这是魔王，魔王协议的大名你们没听过吗？ 咿—— 鬼叫什么？那什么魔......是个啥？ 组长，你就是那个站在水道桥上随便一指，就干掉了几百",
+   "preview": "...... 你就是那个密涅瓦，对吧。 怎么就你一个人，显得我们地蝰帮以多欺少？ 我一个人就够了。 地蝰帮的好汉可是全伙在此。 这么托大，可是要吃苦头的。 组长，不止一个人，后面还有个弱不禁风的跟班。 ...... 放肆，这是魔<r=BOSS></r>王，魔王协议的大名你们没听过吗？ 咿—— 鬼叫什么？那什么魔......是个啥？ 组长，你就是那个站在水道桥",
    "affinity": 1,
    "twins": []
   },
@@ -14491,7 +14490,7 @@
     "talk": 63,
     "sticker": 0
    },
-   "preview": "平平无奇的一天，熙熙攘攘的街道。 今天的魔王大人，要去完成你光荣的物资采购任务——至少我本来是这样想的。 买完东西之后，就可以趁着天气好，难得晒晒太阳犯个懒…… 不过现在得先解决眼前的…… 不，确切的来说是背后的问题。 大概十五分钟前，我的背后就时不时传来一股恶寒。 是一种，大概可以描述为“垂涎欲滴”的，邪恶而锐利的视线。 雾语，别躲了，出来。 再偷拍的话，",
+   "preview": "平平无奇的一天，熙熙攘攘的街道。 今天的魔<r=mowang></r>王大人，要去完成你光荣的物资采购任务——至少我本来是这样想的。 买完东西之后，就可以趁着天气好，难得晒晒太阳犯个懒…… 不过现在得先解决眼前的…… 不，确切的来说是背后的问题。 大概十五分钟前，我的背后就时不时传来一股恶寒。 是一种，大概可以描述为“垂涎欲滴”的，邪恶而锐利的视线。 雾语，",
    "affinity": 1,
    "twins": []
   },
@@ -14522,7 +14521,7 @@
     "talk": 75,
     "sticker": 0
    },
-   "preview": "这些，还有这些。帮我一起打包。 明天请帮我送到纸上的这个地址就好—— 如果没人在外边，可以敲敲车门。 对了！再帮我多加几个这些…… 没错，谢谢！今天的运费也拜托您减免一下啦。 呜…… 太感动了！这就是勤俭持家的魔王。 明明只是采购一些食品和冒险道具，但数量合理，搭配均匀，还考虑到了满额免运费！ 这就是诺瓦大陆未来最伟大公司的领袖魅力吗…… 客人，您不结账的话",
+   "preview": "这些，还有这些。帮我一起打包。 明天请帮我送到纸上的这个地址就好—— 如果没人在外边，可以敲敲车门。 对了！再帮我多加几个这些…… 没错，谢谢！今天的运费也拜托您减免一下啦。 呜…… 太感动了！这就是勤俭持家的魔<r=mowang></r>王。 明明只是采购一些食品和冒险道具，但数量合理，搭配均匀，还考虑到了满额免运费！ 这就是诺瓦大陆未来最伟大公司的领袖魅",
    "affinity": 5,
    "twins": []
   },
@@ -14552,7 +14551,7 @@
     "choice": 6,
     "sticker": 0
    },
-   "preview": "呼—— 总算甩开了…… 好晕……好想吐。 天呐，原来你能飞这么快…… 这也是魔女工作的必备技能喔！ 尽管对围上来的跟踪者们留下了帅气的发言。 但雾语意外地，非常果断地，选择了逃跑—— 还算有点良心，至少带上了我一起飞走。 扫帚的飞行速度确实很快…… 不过，要是还有下次机会的话。 希望至少是平稳地兜风，而不是这样狼狈逃命。 不过话说回来，没想到魔王你，居然这么",
+   "preview": "呼—— 总算甩开了…… 好晕……好想吐。 天呐，原来你能飞这么快…… 这也是魔女工作的必备技能喔！ 尽管对围上来的跟踪者们留下了帅气的发言。 但雾语意外地，非常果断地，选择了逃跑—— 还算有点良心，至少带上了我一起飞走。 扫帚的飞行速度确实很快…… 不过，要是还有下次机会的话。 希望至少是平稳地兜风，而不是这样狼狈逃命。 不过话说回来，没想到魔<r=mowa",
    "affinity": 10,
    "twins": []
   },
@@ -14684,7 +14683,7 @@
     "talk": 100,
     "sticker": 0
    },
-   "preview": "大家早上好！先去洗漱，然后再来吃早饭哦~ 唔……妈妈，我还是好困。 呵呵，小懒虫，太阳都已经升起来了。 快把睡衣换下来，去洗把脸吧。 妈妈……衣服多出来了一个扣子…… 哦呀？没关系哦，妈妈等下就来帮你系！ 魔王，可以麻烦你帮我去仓库拿一些鸡蛋吗？早餐做松饼吃。 好，包在我身上！ 艾蕾做事干练又麻利…… 真是太厉害了。 不愧是“雏菊孤儿院”的妈妈！ 艾蕾……这",
+   "preview": "大家早上好！先去洗漱，然后再来吃早饭哦~ 唔……妈妈，我还是好困。 呵呵，小懒虫，太阳都已经升起来了。 快把睡衣换下来，去洗把脸吧。 妈妈……衣服多出来了一个扣子…… 哦呀？没关系哦，妈妈等下就来帮你系！ 魔<r=BOSS></r>王，可以麻烦你帮我去仓库拿一些鸡蛋吗？早餐做松饼吃。 好，包在我身上！ 艾蕾做事干练又麻利…… 真是太厉害了。 不愧是“雏菊孤儿",
    "affinity": 1,
    "twins": []
   },
@@ -14723,7 +14722,7 @@
     "talk": 101,
     "sticker": 0
    },
-   "preview": "呵呵，今天能和魔王一起来菲莱玩，还看了一场这么有意思的星塔影戏，真是太开心了！ 一开始的剧情还真是让我捏了把汗，不过最后那对恋人能终成眷属， 连女主角的母亲最后也过上了幸福的生活，真是太好了呢！ 话说回来， 魔王是怎么突然想到要带我来看星塔影戏的？ 我觉得或许能帮到你吧。 帮到我？ 你之前不是说了，自己搞不懂\"真正的母亲\"应该是什么样子吗？ 亲身经历固然重要",
+   "preview": "呵呵，今天能和魔<r=BOSS></r>王一起来菲莱玩，还看了一场这么有意思的星塔影戏，真是太开心了！ 一开始的剧情还真是让我捏了把汗，不过最后那对恋人能终成眷属， 连女主角的母亲最后也过上了幸福的生活，真是太好了呢！ 话说回来， 魔<r=BOSS></r>王是怎么突然想到要带我来看星塔影戏的？ 我觉得或许能帮到你吧。 帮到我？ 你之前不是说了，自己搞不懂\"",
    "affinity": 5,
    "twins": []
   },
@@ -14755,7 +14754,7 @@
     "choice": 11,
     "sticker": 0
    },
-   "preview": "大家早上好！ 先去洗漱，然后再来吃早饭哦~ 唔……妈妈，我还是好困。 呵呵，小懒虫，太阳都已经升起来了。快把睡衣换下来，去洗把脸吧。 妈妈——！厨房里在冒烟！ 糟了！ 魔王，能麻烦你帮孩子们换好衣服吗？ 嗯，交给我吧。 即使不擅长家务，即使没有生过孩子，艾蕾这份对孩子们的爱也绝不会有半分虚假。 你是雏菊孤儿院当之无愧的好妈妈，艾蕾。 好，早饭准备得差不多了。",
+   "preview": "大家早上好！ 先去洗漱，然后再来吃早饭哦~ 唔……妈妈，我还是好困。 呵呵，小懒虫，太阳都已经升起来了。快把睡衣换下来，去洗把脸吧。 妈妈——！厨房里在冒烟！ 糟了！ 魔<r=BOSS></r>王，能麻烦你帮孩子们换好衣服吗？ 嗯，交给我吧。 即使不擅长家务，即使没有生过孩子，艾蕾这份对孩子们的爱也绝不会有半分虚假。 你是雏菊孤儿院当之无愧的好妈妈，艾蕾。 ",
    "affinity": 10,
    "twins": []
   },
@@ -14851,7 +14850,7 @@
     "choice": 8,
     "sticker": 0
    },
-   "preview": "斯帕克拉从剧院一回来，就又把自己关在发明室里了…… 不过，只要她有灵感了就好。 两小时后 斯帕克拉，我把晚饭端来了哦。 等一下，还差一点点…… 啊，算了。还是现在吃吧。 话说魔王，你要不要一起吃？ 可以吗？ 当然可以啦。发明室里又没有规定禁止饮食。 那我把我的那份也端过来。你稍微等一下。 久等了，我进来啦。 话说，这里的东西是不是变多了啊？ 因为自从上次魔王",
+   "preview": "斯帕克拉从剧院一回来，就又把自己关在发明室里了…… 不过，只要她有灵感了就好。 两小时后 斯帕克拉，我把晚饭端来了哦。 等一下，还差一点点…… 啊，算了。还是现在吃吧。 话说魔王，你要不要一起吃？ 可以吗？ 当然可以啦。发明室里又没有规定禁止饮食。 那我把我的那份也端过来。你稍微等一下。 久等了，我进来啦。 话说，这里的东西是不是变多了啊？ 因为自从上次魔<",
    "affinity": 10,
    "twins": []
   },
@@ -14971,7 +14970,7 @@
     "talk": 65,
     "sticker": 0
    },
-   "preview": "今天天气真好啊，阳光正好，微风吹在身上也很舒服。 是个适合散步的日子...... 要是没有那个在身后晃来晃去的影子就好了。 好机会，看招—— 啊！！！ 哇啊啊啊——！！ 什、什么声音！ 疼疼疼…… 可恶……如果不是被绊倒，今天一定能把魔王…… 呃……又是你啊？还在执行你的“清扫”计划吗？ 咳咳……今、今天只是碰巧路过而已，按概率来说，就像大白天看见流星一样，",
+   "preview": "今天天气真好啊，阳光正好，微风吹在身上也很舒服。 是个适合散步的日子...... 要是没有那个在身后晃来晃去的影子就好了。 好机会，看招—— 啊！！！ 哇啊啊啊——！！ 什、什么声音！ 疼疼疼…… 可恶……如果不是被绊倒，今天一定能把魔<r=BOSS></r>王…… 呃……又是你啊？还在执行你的“清扫”计划吗？ 咳咳……今、今天只是碰巧路过而已，按概率来说，",
    "affinity": 1,
    "twins": []
   },
@@ -14999,7 +14998,7 @@
     "talk": 62,
     "sticker": 0
    },
-   "preview": "奇怪…… 不是新口味饮料的促销活动吗？怎么没几个人？ 确实很奇怪，之前这边搞活动，人很多的。 难道说…… 我们来晚了？？活动结束了？？？ 不可能吧…… 嗯？我好像看见活动的海报了，在那边。 我记得没错，会场确实是这里。 魔王，快点，快点。 等一下，珂赛特！我看不到你了。 这个酸奶…… 别说了珂赛特，我明白的…… 失望…… 口感上一点都不像酸奶，说是西瓜味的，",
+   "preview": "奇怪…… 不是新口味饮料的促销活动吗？怎么没几个人？ 确实很奇怪，之前这边搞活动，人很多的。 难道说…… 我们来晚了？？活动结束了？？？ 不可能吧…… 嗯？我好像看见活动的海报了，在那边。 我记得没错，会场确实是这里。 魔<r=BOSS></r>王，快点，快点。 等一下，珂赛特！我看不到你了。 这个酸奶…… 别说了珂赛特，我明白的…… 失望…… 口感上一点都",
    "affinity": 5,
    "twins": []
   },
@@ -15029,7 +15028,7 @@
     "choice": 3,
     "sticker": 0
    },
-   "preview": "自动售货神器里全新的饮料像磁石一样牢牢吸引住了珂赛特的视线。 但珂赛特似乎还没有放下对自动售货神器的戒备，用警惕的眼神上下打量着这台机器。 不用这么小心啦，它不会动的。 真的吗？ 你摸摸看。 摸上去好凉，好硬，闻上去有金属的味道。 唔嗯，虽然看起来的确很像星骸，但应该不是，只是普通的神器。 没骗你吧，你看看，这里面有你没见过的星塔饮料吗？ 那、那我…… 魔王",
+   "preview": "自动售货神器里全新的饮料像磁石一样牢牢吸引住了珂赛特的视线。 但珂赛特似乎还没有放下对自动售货神器的戒备，用警惕的眼神上下打量着这台机器。 不用这么小心啦，它不会动的。 真的吗？ 你摸摸看。 摸上去好凉，好硬，闻上去有金属的味道。 唔嗯，虽然看起来的确很像星骸，但应该不是，只是普通的神器。 没骗你吧，你看看，这里面有你没见过的星塔饮料吗？ 那、那我…… 魔<",
    "affinity": 10,
    "twins": []
   },
@@ -15318,7 +15317,7 @@
     "choice": 9,
     "sticker": 0
    },
-   "preview": "我和乙叶跟随着那位职员，一路来到了天穹保险所在的大楼前。 魔王，刚刚我说的你记住了吗？ 接下来才是真正的伪装，让我见证你的实力吧。 嗯，我会努力的。 下午好，请问有什么可以帮到您？ 有人约了我见面，聊聊大额保险的事情。 明白了，是哪位保险顾问约的您呢？ 我不知道，每天找我的人太多了，根本记不过来。 头衔好像是什么“高级顾问”之类的…… 如果没人的话，我就先走",
+   "preview": "我和乙叶跟随着那位职员，一路来到了天穹保险所在的大楼前。 魔<r=BOSS></r>王，刚刚我说的你记住了吗？ 接下来才是真正的伪装，让我见证你的实力吧。 嗯，我会努力的。 下午好，请问有什么可以帮到您？ 有人约了我见面，聊聊大额保险的事情。 明白了，是哪位保险顾问约的您呢？ 我不知道，每天找我的人太多了，根本记不过来。 头衔好像是什么“高级顾问”之类的……",
    "affinity": 10,
    "twins": []
   },
@@ -15484,7 +15483,7 @@
     "choice": 1,
     "sticker": 0
    },
-   "preview": "您的委托已完成。 魔王，辛苦了…… 就是那个人吗…… 跟黄昏裁判的那位审判官组队的？ 能和那个格芮一起出任务还能全身而退，真是可怕的家伙…… 小声一点，那个人可是拥有公司的“魔王”，我听说，你和那个格芮 还在塔里干过这样那样的事。 总觉得有什么不好的传闻在快速传播啊…… 我倒是无所谓，但格芮毕竟是黄昏裁判的人，这种传闻会对她造成影响吧，还是提醒她一下好了。 ",
+   "preview": "您的委托已完成。 魔<r=BOSS></r>王，辛苦了…… 就是那个人吗…… 跟黄昏裁判的那位审判官组队的？ 能和那个格芮一起出任务还能全身而退，真是可怕的家伙…… 小声一点，那个人可是拥有公司的“魔<r=BOSS></r>王”，我听说，你和那个格芮 还在塔里干过这样那样的事。 总觉得有什么不好的传闻在快速传播啊…… 我倒是无所谓，但格芮毕竟是黄昏裁判的人，",
    "affinity": 5,
    "twins": []
   },
@@ -15514,7 +15513,7 @@
     "choice": 8,
     "sticker": 0
    },
-   "preview": "夜幕降临，恢复清醒的格芮带我走进了一条小巷。 魔王大人，请走这边。 狭窄漆黑的台阶下，是锈蚀的铁门。 这里是？ 黄昏裁判的秘密监狱，已经废弃好久了。 监狱？难，难道...... 我碰了不应该碰的东西，你要把我...... 请安心，魔王大人，被您那样拉扯...... 或者说牵过后，麻木的感觉和多余的魔力，还有身体的不适都消失了。 我应该什么都没做啊…… 只是普",
+   "preview": "夜幕降临，恢复清醒的格芮带我走进了一条小巷。 魔<r=mowang></r>王大人，请走这边。 狭窄漆黑的台阶下，是锈蚀的铁门。 这里是？ 黄昏裁判的秘密监狱，已经废弃好久了。 监狱？难，难道...... 我碰了不应该碰的东西，你要把我...... 请安心，魔<r=mowang></r>王大人，被您那样拉扯...... 或者说牵过后，麻木的感觉和多余的魔力，",
    "affinity": 10,
    "twins": []
   },
@@ -15605,7 +15604,7 @@
     "choice": 5,
     "sticker": 0
    },
-   "preview": "完了完了完了完了。 采购员明明跟我说采购单她拿走了，但单子还在这里…… 采购员怎么会把你摸鱼乱写的东西当成工作文件？ 因为我就是用空白采购单写的...... 这样一来，就算我在摸鱼，别人也看不出来，天衣无缝的伪装。 …… 的确很天衣无缝，连采购员都骗过了。 怎么办怎么办？ 订单都发下去了，算时间现在肯定已经去采购了。 对了，魔王， 你帮我去把那批薯条抢了吧。",
+   "preview": "完了完了完了完了。 采购员明明跟我说采购单她拿走了，但单子还在这里…… 采购员怎么会把你摸鱼乱写的东西当成工作文件？ 因为我就是用空白采购单写的...... 这样一来，就算我在摸鱼，别人也看不出来，天衣无缝的伪装。 …… 的确很天衣无缝，连采购员都骗过了。 怎么办怎么办？ 订单都发下去了，算时间现在肯定已经去采购了。 对了，魔<r=mowang></r>王，",
    "affinity": 10,
    "twins": []
   },
@@ -15645,7 +15644,7 @@
     "merge": 1,
     "sticker": 0
    },
-   "preview": "遵照和希娅的约定，一大早就来到了卡洛镇。 空气中散发着海风的气息。 希娅说，今天要带我体验一日“海滨之旅”…… 好期待啊……会去哪里呢？ 呵呵♪猜猜我是谁？ 哇啊——什、什么情况……？！ 回答错误。我可不叫“什么情况”哦～ 这是什么文字游戏…… 这种柔软又温暖的触感……用手蒙住了我的眼睛吗…… 会玩这种把戏的…… 也只有希娅了吧？ 猜对啦♪早上好，魔王。 早",
+   "preview": "遵照和希娅的约定，一大早就来到了卡洛镇。 空气中散发着海风的气息。 希娅说，今天要带我体验一日“海滨之旅”…… 好期待啊……会去哪里呢？ 呵呵♪猜猜我是谁？ 哇啊——什、什么情况……？！ 回答错误。我可不叫“什么情况”哦～ 这是什么文字游戏…… 这种柔软又温暖的触感……用手蒙住了我的眼睛吗…… 会玩这种把戏的…… 也只有希娅了吧？ 猜对啦♪早上好，魔<r=B",
    "affinity": 1,
    "twins": []
   },
@@ -15706,7 +15705,7 @@
     "choice": 6,
     "sticker": 0
    },
-   "preview": "如希娅所说，这顿海鲜大餐非常丰盛。 好饱，我都要走不动路了…… 魔王喜欢就好，下次再带你去别的店哦♪ 离开餐厅时，天色已完全暗了下来。 今天的“海滨之旅”到此结束了，不知道合不合魔王的心意呢？ 等一下，这就结束了？ 诶？是啊……还没玩够吗？ 嗯，完全没有，我们今天买了泳衣，还没派上用场。 观光之旅就这样结束的话……这会成为我一生的遗憾的！ 哎呀，对，对不起…",
+   "preview": "如希娅所说，这顿海鲜大餐非常丰盛。 好饱，我都要走不动路了…… 魔<r=BOSS></r>王喜欢就好，下次再带你去别的店哦♪ 离开餐厅时，天色已完全暗了下来。 今天的“海滨之旅”到此结束了，不知道合不合魔<r=BOSS></r>王的心意呢？ 等一下，这就结束了？ 诶？是啊……还没玩够吗？ 嗯，完全没有，我们今天买了泳衣，还没派上用场。 观光之旅就这样结束的话",
    "affinity": 10,
    "twins": []
   },
@@ -15737,7 +15736,7 @@
     "talk": 54,
     "sticker": 0
    },
-   "preview": "打扰了。 ...... 没人在...... 是来得太早了吗？时间应该刚刚好才对。 奇怪，昨天联络的时候，小禾说她今天在啊。 不好意思！ 这是昨天说好要送来的东西，我就放在大厅了。 ......没人应啊。 反正东西已经送到了，没有什么理由继续留在这里了。 那就回去吧。 呀——！ 这个声音是！？ 小禾！你没事吧？ 伙伴...... 伙伴？ 小禾的伙伴......",
+   "preview": "打扰了。 ...... 没人在...... 是来得太早了吗？时间应该刚刚好才对。 奇怪，昨天联络的时候，小禾说她今天在啊。 不好意思！ 这是昨天说好要送来的东西，我就放在大厅了。 ......没人应啊。 反正东西已经送到了，没有什么理由继续留在这里了。 那就回去吧。 呀——！ 这个声音是！？ 小禾！你没事吧？ 伙<r=布娃娃></r>伴...... 伙伴？ ",
    "affinity": 1,
    "twins": []
   },
@@ -15832,7 +15831,7 @@
     "talk": 96,
     "sticker": 0
    },
-   "preview": "让我想想，今天是去协会之家挑个委托呢，还是去星塔的入口呢…… 嗯？ 这里好像也没有…… 呜呜……再这样下去就赶不上了—— 花铃，你在干什么呢？ 哇啊啊啊啊啊啊啊啊？！ 哇啊啊啊啊啊啊啊啊？！ 唉……原来是魔王啊…… 别吓我啊…… 被吓到的是我好吗…… 我都走到这个距离了你都没察觉到，这可一点都不像你啊。 我刚才……只是在集中精力找东西而已。 对了，魔王！你有",
+   "preview": "让我想想，今天是去协会之家挑个委托呢，还是去星塔的入口呢…… 嗯？ 这里好像也没有…… 呜呜……再这样下去就赶不上了—— 花铃，你在干什么呢？ 哇啊啊啊啊啊啊啊啊？！ 哇啊啊啊啊啊啊啊啊？！ 唉……原来是魔<r=BOSS></r>王啊…… 别吓我啊…… 被吓到的是我好吗…… 我都走到这个距离了你都没察觉到，这可一点都不像你啊。 我刚才……只是在集中精力找东西",
    "affinity": 1,
    "twins": []
   },
@@ -15927,7 +15926,7 @@
     "talk": 85,
     "sticker": 0
    },
-   "preview": "茶色夜莺、烟熏烤肉，还有…… 对了，还得买幸运绿洲号用的润滑油。 神器商店……拐过前面那个弯就到了。 让开让开！ 嗯？ 好痛…… 不好意思，刚才太急了没刹住…… 魔王？ 什么事这么急？ 有一帮坏人正在追我，快帮帮我吧。 坏人？ 糟了，她们追上来了！ 我先去自动售货神器后面躲一下，你可什么都别和她们说啊。 好……我知道了。 让菈露怕成这样……到底是谁呢？ 好久",
+   "preview": "茶色夜莺、烟熏烤肉，还有…… 对了，还得买幸运绿洲号用的润滑油。 神器商店……拐过前面那个弯就到了。 让开让开！ 嗯？ 好痛…… 不好意思，刚才太急了没刹住…… 魔<r=mowang></r>王？ 什么事这么急？ 有一帮坏人正在追我，快帮帮我吧。 坏人？ 糟了，她们追上来了！ 我先去自动售货神器后面躲一下，你可什么都别和她们说啊。 好……我知道了。 让菈露怕",
    "affinity": 1,
    "twins": []
   },
@@ -15960,7 +15959,7 @@
     "talk": 53,
     "sticker": 0
    },
-   "preview": "直接挂断没问题吗……奥尔贝德是你的上司吧？ 没问题没问题！我刚才是在进行奥尔贝德命令我做的大炮送货试验对吧， 魔王你可以给我作证吧？ 嗯......是这样没错。 所以……如果试验结果不理想，那也是遵循领导命令的结果，出了什么事也是领导负责对吧， 对吧对吧。 完全自暴自弃了啊...... 哪天再次自作自受，可别怪我没提醒你啊。 你也太爱操心啦～ 人嘛，要活得从",
+   "preview": "直接挂断没问题吗……奥尔贝德是你的上司吧？ 没问题没问题！我刚才是在进行奥尔贝德命令我做的大炮送货试验对吧， 魔<r=mowang></r>王你可以给我作证吧？ 嗯......是这样没错。 所以……如果试验结果不理想，那也是遵循领导命令的结果，出了什么事也是领导负责对吧， 对吧对吧。 完全自暴自弃了啊...... 哪天再次自作自受，可别怪我没提醒你啊。 你也",
    "affinity": 5,
    "twins": []
   },
@@ -16128,7 +16127,7 @@
     "talk": 97,
     "sticker": 0
    },
-   "preview": "==Off== <margin-left=6em><align=left>……</align></margin> ==Off== <margin-left=6em><align=left>薇洛，真的要这样吗？</align></margin> <margin-right=6em><align=right>没错，为了这片沙滩的安全，也为了大家， 能请您配合一下",
+   "preview": "…… 薇洛，真的要这样吗？ 没错，为了这片沙滩的安全，也为了大家， 能请您配合一下吗？ 诶……我真的可以吗？ 魔王，只能拜托你了。 看来薇洛是认真的…… 我到底该怎么办啊……！ 时间回到几个小时之前—— 这座度假村总算是恢复了往日的热闹，游客也都回来了呢。 是啊。 虽然之前独占整片沙滩也挺爽的，不过现在这样热热闹闹的感觉也不错。 薇洛，你难得有机会放松一下，",
    "affinity": 1,
    "twins": [
     "魔侍巨像（左手）",
@@ -16338,7 +16337,7 @@
     "talk": 78,
     "sticker": 0
    },
-   "preview": "鸢尾！我们休息一会吧！我感觉我的腿都快不是我的了！ 嗯，连续爬了好几层了。 魔王大人一定也累了吧！ 我还行，不过也确实爬了很多层了， 既然大家都累了的话，那还是休息一下再继续前进吧。 这可是加急委托单，越早完成报酬就越多。 但硬撑也不是办法…… 那就休息十分钟，在继续前进吧！ 好诶！ 嗯？那是谁？好熟悉的身影啊…… 是贝缇丽吗？ 说起来上次给她添了不少麻烦呢",
+   "preview": "鸢尾！我们休息一会吧！我感觉我的腿都快不是我的了！ 嗯，连续爬了好几层了。 魔<r=mowang></r>王大人一定也累了吧！ 我还行，不过也确实爬了很多层了， 既然大家都累了的话，那还是休息一下再继续前进吧。 这可是加急委托单，越早完成报酬就越多。 但硬撑也不是办法…… 那就休息十分钟，在继续前进吧！ 好诶！ 嗯？那是谁？好熟悉的身影啊…… 是贝缇丽吗？ ",
    "affinity": 10,
    "hint": "健康饮食"
   },
@@ -16370,7 +16369,7 @@
     "talk": 65,
     "sticker": 0
    },
-   "preview": "激烈的战斗后，我们终于击败了这层的所有星骸。 呼…… 这次登塔真是费了不少力气啊，星骸好多。 今天的星骸是很凶猛， 魔王， 你先在这里休息一下，我们去前面探探路。 我有感觉，我们就快找到许愿箱了。 有事， 就发信息。 好，今天起太早了…… 好困。 我们很快就回来。 知道了…… 呼…… 唔…… 呼…… 呵呵呵， 魔王大人，睡着了都这么可爱~ 就算是已经清空星骸",
+   "preview": "激烈的战斗后，我们终于击败了这层的所有星骸。 呼…… 这次登塔真是费了不少力气啊，星骸好多。 今天的星骸是很凶猛， 魔<r=BOSS></r>王， 你先在这里休息一下，我们去前面探探路。 我有感觉，我们就快找到许愿箱了。 有事， 就发信息。 好，今天起太早了…… 好困。 我们很快就回来。 知道了…… 呼…… 唔…… 呼…… 呵呵呵， 魔<r=mowang><",
    "affinity": 5,
    "hint": "恶魔的诱惑"
   },
@@ -16435,7 +16434,7 @@
     "talk": 76,
     "sticker": 0
    },
-   "preview": "和空白旅团一起攀爬星塔时，我在地上发现了一面奇怪的镜子。 咦？这里为什么会放着一面镜子？ 这样子看着有点眼熟，好像在哪里见过...... 嗯？人呢？ 尘沙，鸢尾，琥珀，你们在哪？ 四周的陈设完全不一样了，我这是...... 又被传送了吗？ 您好，魔王 维嘉尔！？你怎么在这，难道我已经...... 已经什么……？ 丢了小命。过去每次见你们不都是这样—— 因为某",
+   "preview": "和空白旅团一起攀爬星塔时，我在地上发现了一面奇怪的镜子。 咦？这里为什么会放着一面镜子？ 这样子看着有点眼熟，好像在哪里见过...... 嗯？人呢？ 尘沙，鸢尾，琥珀，你们在哪？ 四周的陈设完全不一样了，我这是...... 又被传送了吗？ 您好，魔<r=mowang></r>王 维嘉尔！？你怎么在这，难道我已经...... 已经什么……？ 丢了小命。过去每次",
    "affinity": 5,
    "hint": "恶魔的挑战"
   },
@@ -16501,7 +16500,7 @@
     "talk": 109,
     "sticker": 0
    },
-   "preview": "不好意思，魔王，突然拜托你过来。 别在意。你在通讯里说，蓝宝石和红宝石她们俩的状态很奇怪…… 具体是什么情况？ 我想，你还是亲眼确认一下吧。她们就在隔壁。 冲呀——！销售额度资料确认完毕！规划书写作完毕！接下来是会议概要的初稿！ 本季度的报告需要整理，翡冷翠大人的日程表需要调整。工作还有很多，但只要牺牲掉午休时间，就一定能来得及…… 好、好可怕…… 她们甚至",
+   "preview": "不好意思，魔<r=BOSS></r>王，突然拜托你过来。 别在意。你在通讯里说，蓝宝石和红宝石她们俩的状态很奇怪…… 具体是什么情况？ 我想，你还是亲眼确认一下吧。她们就在隔壁。 冲呀——！销售额度资料确认完毕！规划书写作完毕！接下来是会议概要的初稿！ 本季度的报告需要整理，翡冷翠大人的日程表需要调整。工作还有很多，但只要牺牲掉午休时间，就一定能来得及…… ",
    "prose_lines": 48
   },
   {
@@ -16611,7 +16610,7 @@
     "talk": 84,
     "sticker": 0
    },
-   "preview": "呼…… 多亏了魔王，才让我们从白垩商会手里解脱出来！ 如果没有魔王的话，也许我们现在还在水深火热里呢~ 诶？半夜把我约出来，就是为了再感谢我一次吗？ 那是当然！魔王可是我们灰风俱乐部的大恩人！感谢你多少次都不为过。 总感觉有些怪怪的，你们是不是有什么事情要拜托我啊？ 呃…… 真是什么事情都瞒不过魔王啊，这都被你看出来了。 有什么事情直接说就好了，我肯定会尽我",
+   "preview": "呼…… 多亏了魔<r=BOSS></r>王，才让我们从白垩商会手里解脱出来！ 如果没有魔<r=BOSS></r>王的话，也许我们现在还在水深火热里呢~ 诶？半夜把我约出来，就是为了再感谢我一次吗？ 那是当然！魔<r=BOSS></r>王可是我们灰风俱乐部的大恩人！感谢你多少次都不为过。 总感觉有些怪怪的，你们是不是有什么事情要拜托我啊？ 呃…… 真是什么事情",
    "prose_lines": 44
   },
   {
@@ -16654,7 +16653,7 @@
     "choice": 2,
     "sticker": 0
    },
-   "preview": "虽然鸢尾说，只要把点心送到万送屋就算完成任务了，可是…… 怎么这么安静，难道今天是休息日？ 请问，有人在吗？ 来了来了！不好意思啊！ 我刚刚在里面忙…… 咦？魔王怎么来了？是有送信委托吗？还是说…… 是特地来见多娜的~ 你这个说法…… 也没错啦。鸢尾拜托我来给你们送点心，说是作为前几天你们接下了紧急配送委托的谢礼。 哎呀，鸢尾也太客气了，这些本来就是我们该做",
+   "preview": "虽然鸢尾说，只要把点心送到万送屋就算完成任务了，可是…… 怎么这么安静，难道今天是休息日？ 请问，有人在吗？ 来了来了！不好意思啊！ 我刚刚在里面忙…… 咦？魔<r=BOSS></r>王怎么来了？是有送信委托吗？还是说…… 是特地来见多娜的~ 你这个说法…… 也没错啦。鸢尾拜托我来给你们送点心，说是作为前几天你们接下了紧急配送委托的谢礼。 哎呀，鸢尾也太客气",
    "prose_lines": 31
   },
   {
@@ -16766,7 +16765,7 @@
     "choice": 7,
     "sticker": 0
    },
-   "preview": "我受到冬香的邀请来到菲莱，此地的人们正准备举行一场盛大的庆典。 哟，这不是魔王嘛。什么风把你吹来了？ 冬香说这里有庆典，邀请我来玩。 这我当然知道。 可庆典是在明天诶？你不会弄错日期了吧。 没弄错，我只是想着能不能提前过来搭把手。 真的？你人好好，大家都忙得不可开交，看到你肯定会很高兴的。 原来如此。 那么，请问小禾大人在做什么呢？ 啊…… 你那个眼神，绝对",
+   "preview": "我受到冬香的邀请来到菲莱，此地的人们正准备举行一场盛大的庆典。 哟，这不是魔<r=BOSS></r>王嘛。什么风把你吹来了？ 冬香说这里有庆典，邀请我来玩。 这我当然知道。 可庆典是在明天诶？你不会弄错日期了吧。 没弄错，我只是想着能不能提前过来搭把手。 真的？你人好好，大家都忙得不可开交，看到你肯定会很高兴的。 原来如此。 那么，请问小禾大人在做什么呢？ ",
    "prose_lines": 37
   },
   {
@@ -16865,7 +16864,7 @@
     "talk": 107,
     "sticker": 0
    },
-   "preview": "呼！我吃饱了！太好吃了！ 不愧是花原选择的蛋糕店！ 看来魔王大人对今天的新品很满意呢！芙瑞丝的新品一直都很美味，之后我们可以经常来。 好啊，不过说起新品，今天吃的向日葵蛋糕…… 是令人意想不到的味道呢。 嗯？确实，我还以为会是葵花籽味的，没想到吃起来真的有一股向日葵的感觉。 这就是芙瑞丝厉害的地方，无法直接食用的向日葵，那种阳光的香气竟然被巧妙地再现了。 不",
+   "preview": "呼！我吃饱了！太好吃了！ 不愧是花原选择的蛋糕店！ 看来魔<r=mowang></r>王大人对今天的新品很满意呢！芙瑞丝的新品一直都很美味，之后我们可以经常来。 好啊，不过说起新品，今天吃的向日葵蛋糕…… 是令人意想不到的味道呢。 嗯？确实，我还以为会是葵花籽味的，没想到吃起来真的有一股向日葵的感觉。 这就是芙瑞丝厉害的地方，无法直接食用的向日葵，那种阳光的",
    "prose_lines": 47
   },
   {
@@ -16898,7 +16897,7 @@
     "choice": 5,
     "sticker": 0
    },
-   "preview": "听好了，你们这些可悲的星骸们啊！我乃猫眼大人！左眼寄宿着黑暗之力，反抗神明的弑神者！ 阻挡猫眼大人去路的杂碎， 就通通化作“魔典断章”的祭品吧！ ==Off==——魔眼，解·禁！！ 一二三四五六七八九十……！二十连杀，天诛地灭！ 哼哼~刚才的发挥怎么样？漂亮吧！如果打分的话，怎么说也有90分了！ 猫眼，注意身后！ 干得漂亮！魔王大人！绝佳助攻！ 哎呀，说实话",
+   "preview": "听好了，你们这些可悲的星骸们啊！我乃猫眼大人！左眼寄宿着黑暗之力，反抗神明的弑神者！ 阻挡猫眼大人去路的杂碎， 就通通化作“魔典断章”的祭品吧！ ——魔眼，解·禁！！ 一二三四五六七八九十……！二十连杀，天诛地灭！ 哼哼~刚才的发挥怎么样？漂亮吧！如果打分的话，怎么说也有90分了！ 猫眼，注意身后！ 干得漂亮！魔<r=mowang></r>王大人！绝佳助攻！",
    "prose_lines": 33
   },
   {
@@ -17065,7 +17064,7 @@
     "talk": 107,
     "sticker": 0
    },
-   "preview": "今晚24时，我将前来取走美丽的纯白之棋。 <margin-right=6em><align=right>无名怪盗</align></margin> 这是…… 犯罪预告吗？ “美丽的纯白之棋”…… 是指恩赐印章吗？ 不过这个怪盗的名字…… 完全没有听过啊，难道是恶作剧？ 但话又说回来，如果不是恶作剧的话…… 怎么办呢…… 空白旅团的大家在处理委托，要后天才回来",
+   "preview": "今晚24时，我将前来取走美丽的纯白之棋。 无名怪盗 这是…… 犯罪预告吗？ “美丽的纯白之棋”…… 是指恩赐印章吗？ 不过这个怪盗的名字…… 完全没有听过啊，难道是恶作剧？ 但话又说回来，如果不是恶作剧的话…… 怎么办呢…… 空白旅团的大家在处理委托，要后天才回来，光靠我一个人的话，怪盗来了瞬间就能把东西抢走吧…… 啊，对了—— 上次那张名片还在，去谷风家政",
    "prose_lines": 20
   },
   {
@@ -17104,7 +17103,7 @@
     "choice": 7,
     "sticker": 0
    },
-   "preview": "魔王，你最喜欢的是炸鸡口味薯条吧？ 不不不，魔王绝对是姜饼口味薯条这边的！ 难道说，魔王真正喜欢的不是这些，而是我？讨厌，不过也不是不行哦…… 菈露口味的薯条我也有哦。 魔王，你到底喜欢哪一个啦~ 呃...... 这...... 这是梦吧，这一定是梦吧！ 几个小时前，雪愿节当晚—— 呼，好累，没想到送礼物这么费力。 哈呼..... 好困。剩下的…… 明天再收",
+   "preview": "魔<r=mowang></r>王，你最喜欢的是炸鸡口味薯条吧？ 不不不，魔<r=mowang></r>王绝对是姜饼口味薯条这边的！ 难道说，魔<r=mowang></r>王真正喜欢的不是这些，而是我？讨厌，不过也不是不行哦…… 菈露口味的薯条我也有哦。 魔<r=mowang></r>王，你到底喜欢哪一个啦~ 呃...... 这...... 这是梦吧，这一定是",
    "prose_lines": 22
   },
   {
@@ -17136,7 +17135,7 @@
     "talk": 89,
     "sticker": 0
    },
-   "preview": "想逃？没用的。 ——！？ 喝啊————！ 咕噜噜噜…… 火垂，趁现在封锁它们的行动！别给反击的机会！ 收到。雪崩、自动锁敌模式，开启—— 咕啊……！！！ 辛苦了，火垂，没受伤吧？ 没。玩得很尽兴，火垂，大满足。 是吗，那就好！ 火垂的战斗力还是一如既往地惊人啊……竟然能完全压制住首领级的星骸。 只要按说的去做，就可以轻松解决掉……“砰砰砰”的就搞定了。魔王的",
+   "preview": "想逃？没用的。 ——！？ 喝啊————！ 咕噜噜噜…… 火垂，趁现在封锁它们的行动！别给反击的机会！ 收到。雪崩、自动锁敌模式，开启—— 咕啊……！！！ 辛苦了，火垂，没受伤吧？ 没。玩得很尽兴，火垂，大满足。 是吗，那就好！ 火垂的战斗力还是一如既往地惊人啊……竟然能完全压制住首领级的星骸。 只要按说的去做，就可以轻松解决掉……“砰砰砰”的就搞定了。魔<r",
    "prose_lines": 30
   },
   {
@@ -17309,7 +17308,7 @@
     "talk": 105,
     "sticker": 0
    },
-   "preview": "艾蕾，厨房打扫完了哦~ 接下来还有哪要帮忙？ 嗯…… 那就拜托你再整理一下书架可以吗？ 呵呵，今天的大扫除多亏了有魔王，真是帮大忙了呢！ 之前一直都是艾蕾在照顾我，所以现在只要是我力所能及的事就请尽管吩咐吧。 那么……开始吧，先把书都拿出来，清理一下灰尘吧。 嗯？ 这本书…… 封皮上怎么没书名？ 而且书里面竟然也都是白纸。 哎呀，这不是“空白绘本”吗？好怀念",
+   "preview": "艾蕾，厨房打扫完了哦~ 接下来还有哪要帮忙？ 嗯…… 那就拜托你再整理一下书架可以吗？ 呵呵，今天的大扫除多亏了有魔<r=BOSS></r>王，真是帮大忙了呢！ 之前一直都是艾蕾在照顾我，所以现在只要是我力所能及的事就请尽管吩咐吧。 那么……开始吧，先把书都拿出来，清理一下灰尘吧。 嗯？ 这本书…… 封皮上怎么没书名？ 而且书里面竟然也都是白纸。 哎呀，这不",
    "prose_lines": 25
   },
   {
@@ -18198,7 +18197,7 @@
     "talk": 87,
     "sticker": 2
    },
-   "preview": "哈呼……这么一大早，是谁啊？ 魔王！ 拜托了！我需要你，我非常需要你！ 这个声音是……雾语？ 你不会刚醒吧！总之快来帮我个忙！现在！立刻！马上！ 详细的情况等你来了再说！事态紧急！地址已经给你发过去了！ 啊，这就挂断了。 难道真的是很要紧的事情？起床去看看吧。 这里是……豪华酒店？ 雾语给我发的地址是这里吧…… 希望没有搞错。 亲爱的~你怎么才来啊！ 快点！"
+   "preview": "哈呼……这么一大早，是谁啊？ 魔<r=mowang></r>王！ 拜托了！我需要你，我非常需要你！ 这个声音是……雾语？ 你不会刚醒吧！总之快来帮我个忙！现在！立刻！马上！ 详细的情况等你来了再说！事态紧急！地址已经给你发过去了！ 啊，这就挂断了。 难道真的是很要紧的事情？起床去看看吧。 这里是……豪华酒店？ 雾语给我发的地址是这里吧…… 希望没有搞错。 亲"
   },
   {
    "id": 100902,
@@ -18562,7 +18561,7 @@
     "talk": 106,
     "sticker": 0
    },
-   "preview": "呼，呼……我们都爬了这么久了，那个旅人到底在哪里啊？ 不知道，但应该没看漏。 一直都没见到的话，大概率是在魔王之间里！ 魔王，你的好伙伴都在着急，你为什么看上去这么冷静呢~？ 我要是回答你的话，分数不会又要涨上去了吧？ 呵呵~不回答也是一种回答~这也很符合传说中魔王的作风呢~ 唉……说回正事吧，我表现得这么冷静，只是觉得事情没那么简单。你应该也察觉到了吧？ "
+   "preview": "呼，呼……我们都爬了这么久了，那个旅人到底在哪里啊？ 不知道，但应该没看漏。 一直都没见到的话，大概率是在魔王之间里！ 魔<r=mowang></r>王，你的好伙伴都在着急，你为什么看上去这么冷静呢~？ 我要是回答你的话，分数不会又要涨上去了吧？ 呵呵~不回答也是一种回答~这也很符合传说中魔<r=mowang></r>王的作风呢~ 唉……说回正事吧，我表现得"
   },
   {
    "id": 101204,
@@ -18602,7 +18601,7 @@
     "choice": 3,
     "sticker": 0
    },
-   "preview": "现在，这座星塔里已经没有别人会来打扰我们了。 来吧，魔王，让我来看清你的全部吧！ 这一路上的种种表现，都说明这家伙绝对不是一般人！快想个办法，不能让她抓住！ 刚才她拉动脖子上的“绞索”时，整个人都停滞了一下。 审判，要从哪里开始呢？ 咕—— 这是—— 格芮，和你说了多少次，不要随便开窗户！ 可是……妈妈，我想看看外面，你已经不让我出去玩了。 格芮，原谅妈妈吧"
+   "preview": "现在，这座星塔里已经没有别人会来打扰我们了。 来吧，魔<r=mowang></r>王，让我来看清你的全部吧！ 这一路上的种种表现，都说明这家伙绝对不是一般人！快想个办法，不能让她抓住！ 刚才她拉动脖子上的“绞索”时，整个人都停滞了一下。 审判，要从哪里开始呢？ 咕—— 这是—— 格芮，和你说了多少次，不要随便开窗户！ 可是……妈妈，我想看看外面，你已经不让我"
   },
   {
    "id": 101301,

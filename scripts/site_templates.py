@@ -1,0 +1,671 @@
+# -*- coding: utf-8 -*-
+"""HTML templates and page generators for StellaSora story knowledge base."""
+import json
+import collections
+from html import escape
+import md2html
+
+FAMILIES = [
+    ('main', '主线剧情', '官方关卡表全线拓扑、分支抉择与终局推演。'),
+    ('events', '活动剧情', '11 个主题活动的关卡剧情全文与阶段收录。'),
+    ('characters', '角色个人剧情', '40 位旅人专属故事，好感等级 1 / 5 / 10 篇章。'),
+    ('npc_bonds', '星塔 NPC 好感', '波西亚、贝缇丽、珀尔娜、维嘉尔各两话羁绊剧情。'),
+    ('discs', '唱片剧情', '带剧本的 24 张黑胶唱片，附官方原版散文。'),
+    ('storysets', '故事集支线', '4 个栏目 17 个故事集 56 小节日常回忆与侧写。'),
+    ('prologue', '序章', '注册流程播出的《最初的起点》篇章。'),
+    ('battles_unmounted', '存目战斗气泡', '关卡表未引用的独立存目战斗气泡与战场台词。'),
+]
+FAMILY_NAME = {k: n for k, n, _ in FAMILIES}
+BASELINE = '数据基准：官方公测客户端解包（zh_CN）。'
+
+FAMILY_META = {
+    'main': {
+        'code': '01',
+        'span': 'span-2',
+        'desc': '官方关卡表全线拓扑、分支抉择与终局推演，涵盖第一章至第九章及特别篇完整图景。',
+    },
+    'characters': {
+        'code': '02',
+        'span': 'span-2',
+        'desc': '40 位旅人专属故事，好感等级 1 / 5 / 10 逐级解锁，深入角色内心世界与往事。',
+    },
+    'events': {
+        'code': '03',
+        'span': 'span-1',
+        'desc': '11 个主题活动的关卡剧情全文与阶段收录。',
+    },
+    'discs': {
+        'code': '04',
+        'span': 'span-1',
+        'desc': '带剧本的 24 张黑胶唱片，附官方原版散文。',
+    },
+    'storysets': {
+        'code': '05',
+        'span': 'span-1',
+        'desc': '4 个栏目 17 个故事集 56 小节日常回忆与侧写。',
+    },
+    'npc_bonds': {
+        'code': '06',
+        'span': 'span-1',
+        'desc': '波西亚、贝缇丽、珀尔娜、维嘉尔各两话羁绊剧情。',
+    },
+    'prologue': {
+        'code': '07',
+        'span': 'span-2',
+        'desc': '注册流程播出的《最初的起点》篇章，旅程开启的序幕。',
+    },
+    'battles_unmounted': {
+        'code': '08',
+        'span': 'span-2',
+        'desc': '没有任何关卡表引用的独立存目战斗气泡与战场台词。',
+    },
+}
+
+STATE_LABEL = {'battle': '战斗', 'story': '剧情'}
+
+
+def slug_of(family):
+    return {'main': 'main', 'events': 'events', 'characters': 'characters',
+            'npc_bonds': 'npc', 'discs': 'discs', 'storysets': 'storysets',
+            'prologue': 'prologue', 'battles_unmounted': 'battles'}[family]
+
+
+def esc(s):
+    return escape(str(s if s is not None else ''))
+
+
+def depth_of(page):
+    return page.count('/')
+
+
+def rel(root_depth, target):
+    """Relative href from a page living at `root_depth` to `target`."""
+    return ('../' * root_depth) + target if target else '#'
+
+
+def node_state_label(n):
+    if n.get('kind') == 'battle' and not n.get('stems', {}).get('story') and not n.get('stems', {}).get('bubble') and n.get('state') == 'released':
+        return '战斗档案'
+    if n['state'] == 'unreleased':
+        return '无对白剧本' if n['kind'] == 'battle' else '未开放'
+    if n['kind'] == 'battle':
+        return '战斗'
+    if n['memory'] == 1:
+        return '追忆'
+    if n['memory'] == 2:
+        return '真·终局'
+    if n['is_last']:
+        return '本章终幕'
+    if n['is_branch']:
+        return '终局'
+    if n['code'].startswith('幕间'):
+        return '幕间'
+    if n['code'].startswith('尾声'):
+        return '尾声'
+    return STATE_LABEL[n['kind']]
+
+
+def node_state_class(n):
+    if n['state'] == 'unreleased':
+        return 'locked'
+    if n['kind'] == 'battle':
+        return 'battle'
+    if n['memory']:
+        return 'memory'
+    if n['is_branch'] or n['is_last']:
+        return 'final'
+    if n['code'].startswith(('幕间', '尾声')):
+        return 'between'
+    return 'story'
+
+
+def layout(title, body, depth, crumb, note=''):
+    root = '../' * depth
+    nav_links = ''.join('<a href="%s%s/index.html">%s</a>' % (root, slug_of(f), n)
+                        for f, n, _ in FAMILIES)
+    return """<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>%s · 星塔旅人 剧情档案</title>
+<link rel="stylesheet" href="%sassets/tokens.css">
+<script>
+(function(){
+  var t=localStorage.getItem('stellasora-theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+  document.documentElement.setAttribute('data-theme',t);
+})();
+</script>
+</head><body>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="%sindex.html">✦ 星塔旅人 剧情档案</a>
+    <nav class="nav">%s</nav>
+    <div class="top-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" title="切换深色/浅色模式" aria-label="切换主题">
+        <svg class="sun-icon" viewBox="0 0 24 24" width="15" height="15" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" width="15" height="15" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+%s%s
+</main>
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-brand">✦ 星塔旅人 剧情知识档案</div>
+    <div class="foot-meta">%s %s</div>
+  </div>
+</footer>
+<button class="back-to-top" id="backToTop" type="button" title="回到顶部" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.2" fill="none"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+<script src="%sdata/search.js"></script>
+<script src="%sassets/site.js"></script>
+</body></html>
+""" % (esc(title), root, root, nav_links,
+       ('<nav class="crumb">%s</nav>\n' % crumb) if crumb else '', body,
+       esc(note), BASELINE, root, root)
+
+
+def script_page(rec, md_content, nav_info=None, branch_targets=None):
+    body, _ = md2html.convert(md_content, branch_targets=branch_targets)
+    g = rec['group']
+    up = g.get('label') or ''
+    page = rec['page']
+    d = depth_of(page)
+    root = '../' * d
+    
+    if rec['family'] == 'main':
+        crumb = '<a href="%sindex.html">首页</a> › <a href="%smain/index.html">主线剧情</a> › <a href="index.html">%s</a> › %s' % (
+            root, root, esc(up or '章节地图'),
+            esc(('%s ' % rec['code']) + rec['title'] if rec['code'] else rec['title']))
+    elif rec['family'] == 'events' and str(g.get('id')) in ('10106', '20101'):
+        crumb = '<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › <a href="index.html">%s 关卡拓扑</a> › %s' % (
+            root, root, esc(up or '活动拓扑'),
+            esc(('%s ' % rec['code']) + rec['title'] if rec['code'] else rec['title']))
+    else:
+        crumb = '<a href="%sindex.html">首页</a> › <a href="%s%s/index.html">%s</a> › %s' % (
+            root, root, slug_of(rec['family']), esc(FAMILY_NAME[rec['family']]),
+            esc(('%s ' % rec['code']) + rec['title'] if rec['code'] else rec['title']))
+            
+    facets = ' '.join('<a class="facet" href="%s%s/index.html?q=%s">%s</a>'
+                      % (root, slug_of(rec['family']), esc(s), esc(s))
+                      for s in rec['speakers'][:14])
+                      
+    extra = []
+    if rec['family'] == 'characters':
+        extra.append('好感等级 %s 解锁' % rec.get('affinity'))
+    if rec.get('twins'):
+        extra.append('同剧本档案：' + '、'.join(t for t in rec['twins'] if t))
+    if rec.get('prose_lines'):
+        extra.append('附官方散文 %d 行' % rec['prose_lines'])
+    if rec.get('mount_note'):
+        extra.append(rec['mount_note'])
+    aside = ('<p class="aside meta-note">%s</p>' % esc('　·　'.join(x for x in extra if x))
+             if extra else '')
+
+    # Story Flow Navigation (Prev / Next / Branches)
+    story_nav_html = ''
+    if nav_info:
+        prev_items = nav_info.get('prev', [])
+        next_items = nav_info.get('next', [])
+        if prev_items or next_items:
+            prev_html = ''
+            if prev_items:
+                links = ''.join('<a class="nav-link" href="%s"><b>%s</b> %s</a>'
+                                % (esc(it['url']), esc(it['code']), esc(it['title']))
+                                for it in prev_items)
+                prev_html = '<div class="story-nav-prev"><span class="nav-label">← 上一节 / 前置</span>%s</div>' % links
+            else:
+                prev_html = '<div class="story-nav-prev"><span class="nav-label">起点</span><span class="nav-link">当前篇章起始节</span></div>'
+
+            next_html = ''
+            if len(next_items) == 1:
+                it = next_items[0]
+                next_html = ('<div class="story-nav-next"><span class="nav-label">下一节 →</span>'
+                             '<a class="nav-link" href="%s"><b>%s</b> %s</a></div>'
+                             % (esc(it['url']), esc(it['code']), esc(it['title'])))
+            elif len(next_items) > 1:
+                links = ''.join('<a class="nav-link" href="%s"><span class="branch-tag %s">%s</span><b>%s</b> %s</a>'
+                                % (esc(it['url']), esc(it.get('cls', 'story')), esc(it.get('tag', '分支')),
+                                   esc(it['code']), esc(it['title']))
+                                for it in next_items)
+                next_html = ('<div class="story-nav-branches"><span class="nav-label">后续分支路线选择 →</span>'
+                             '<div class="branch-links">%s</div></div>' % links)
+            else:
+                next_html = '<div class="story-nav-next"><span class="nav-label">终点</span><span class="nav-link">当前路线终结</span></div>'
+
+            story_nav_html = '<nav class="story-nav" aria-label="剧情前后导航">%s%s</nav>' % (prev_html, next_html)
+
+    return layout(rec['title'] or page, """
+%s
+<div class="page" data-family="%s" data-counts='%s'>
+%s
+</div>
+%s
+<details class="cast"><summary>出场说话人（%d）</summary><div class="facets">%s</div></details>
+""" % (aside, esc(rec['family']),
+       json.dumps(rec['counts'], ensure_ascii=False), body,
+       story_nav_html,
+       len(rec['speakers']), facets), d, crumb)
+
+
+def chapter_graph_page(c, all_chapters):
+    """The in-game style node map: positioned cards over one flat SVG connector layer."""
+    page = 'main/ch%s/index.html' % (c['no'] or 'sp')
+    d = depth_of(page)
+    root = '../' * d
+    g = c['geometry']
+    crumb = '<a href="%sindex.html">首页</a> › <a href="%smain/index.html">主线剧情</a> › %s' % (
+        root, root, esc(c['name'] or '特别篇'))
+    by_sid = {n['story_id']: n for n in c['nodes']}
+    pad = 24
+    
+    switch = ' '.join('<a href="%smain/ch%s/index.html"%s>%s</a>' % (
+        root, x['no'] or 'sp', ' class="on"' if x['id'] == c['id'] else '',
+        esc(x['name'] or '特别篇')) for x in sorted(all_chapters, key=lambda y: y['id']))
+
+    if g is None:                       # 特别篇
+        items = []
+        for n in sorted(c['nodes'], key=lambda x: x['sid']):
+            t = n.get('time')
+            chip = '<span class="chip">%s</span>' % esc('%s %s' % (t['date'], t['clock'])) if t else ''
+            state_lbl = node_state_label(n)
+            state_span = '<span class="s">%s</span>' % esc(state_lbl)
+            if n['page']:
+                items.append('<li><a href="%s"><span class="code">%s</span><span class="t">%s</span>%s%s</a></li>'
+                             % (rel(d, n['page']), esc(n['code']), esc(n['title']), chip, state_span))
+            else:
+                items.append('<li><span class="code">%s</span><span class="t">%s</span>%s%s</li>'
+                             % (esc(n['code']), esc(n['title']), chip, state_span))
+        items_html = ''.join(items)
+        unreleased = sum(1 for n in c['nodes'] if n['state'] == 'unreleased')
+        lede = '%s　节点 %d　已开放 %d　战斗 %d%s' % (
+            esc(c['year']), len(c['nodes']),
+            sum(1 for n in c['nodes'] if n['state'] == 'released'),
+            sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
+            '　包内无剧本 %d' % unreleased if unreleased else '')
+        body = ('<h1>%s《%s》</h1>'
+                '<p class="lede">%s</p>'
+                '<nav class="chapsel">%s</nav>'
+                '<p class="aside">官方表未记录此篇的关卡连线，因此按关卡编号顺序列出。</p>'
+                '<ul class="plain linelist">%s</ul>'
+                % (esc(c['name'] or '特别篇'), esc(c['title']), lede, switch, items_html))
+        return layout(c['name'] or '特别篇', body, d, crumb)
+
+    paths = []
+    for u, v in g['edges']:
+        a, b = by_sid[u], by_sid[v]
+        x1 = a['x'] + pad + g['card'][0]
+        y1 = a['y'] + pad + g['card'][1] / 2.0
+        x2 = b['x'] + pad
+        y2 = b['y'] + pad + g['card'][1] / 2.0
+        mx = x1 + (x2 - x1) / 2.0
+        cls = node_state_class(b)
+        dash = ' dash' if b['state'] == 'unreleased' else ''
+        paths.append('<path class="edge %s%s" d="M%d %d C%d %d,%d %d,%d %d"/>'
+                     % (cls, dash, x1, y1, mx, y1, mx, y2, x2, y2))
+                     
+    cards = []
+    seen_col = set()
+    for n in sorted(c['nodes'], key=lambda x: (x['col'], x['lane'])):
+        style = 'left:%dpx;top:%dpx;width:%dpx;height:%dpx' % (
+            n['x'] + pad, n['y'] + pad, g['card'][0], g['card'][1])
+        t = n['time']
+        chip = '<span class="chip">%s</span>' % esc('%s %s' % (t['date'], t['clock'])) if t else ''
+        inner = ('<span class="code">%s</span><span class="t">%s</span>%s'
+                 % (esc(n['code'] or '·'), esc(n['title']), chip))
+        cid = '' if n['col'] in seen_col else ' id="col%d"' % n['col']
+        seen_col.add(n['col'])
+        if n['page']:
+            cards.append('<a%s class="node %s" style="%s" data-col="%d" href="%s">%s'
+                         '<span class="state">%s ›</span></a>'
+                         % (cid, node_state_class(n), style, n['col'], rel(d, n['page']), inner,
+                            esc(node_state_label(n))))
+        else:
+            cards.append('<div%s class="node %s" style="%s" data-col="%d">%s'
+                         '<span class="state">%s</span></div>'
+                         % (cid, node_state_class(n), style, n['col'], inner,
+                            esc(node_state_label(n))))
+                            
+    anchors = ''.join('<a href="#col%d" data-scroll-to="%d">%s</a>'
+                      % (col, col * g['step_x'] + pad,
+                         esc(min((n['code'] or '·') for n in c['nodes'] if n['col'] == col)))
+                      for col in range(g['columns']))
+                      
+    switch = ' '.join('<a href="%smain/ch%s/index.html"%s>%s</a>' % (
+        root, x['no'] or 'sp', ' class="on"' if x['id'] == c['id'] else '',
+        esc(x['name'] or '特别篇')) for x in sorted(all_chapters, key=lambda y: y['id']))
+        
+    unreleased = sum(1 for n in c['nodes'] if n['state'] == 'unreleased')
+    return layout('%s《%s》' % (c['name'], c['title']), """
+<h1>%s《%s》</h1>
+<p class="lede">%s　节点 %d　已开放 %d　战斗 %d%s</p>
+<nav class="chapsel">%s</nav>
+<div class="anchors-wrap"><nav class="anchors">%s</nav></div>
+<div class="map">
+<div class="canvas" style="width:%dpx;height:%dpx">
+<svg class="wires" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>
+%s
+</div>
+</div>
+<p class="aside map-note">连线取自官方 <code>Story.ParentStoryId</code>（前置关卡），列序与轨道由最长路径确定性计算；
+「未开放」指该线路的剧本尚未进包；「无对白剧本」指关卡表列出了战斗、但包里未收录气泡剧本。</p>
+""" % (esc(c['name']), esc(c['title']), esc(c['year']), len(c['nodes']),
+       sum(1 for n in c['nodes'] if n['state'] == 'released'),
+       sum(1 for n in c['nodes'] if n['kind'] == 'battle'),
+       '　包内无剧本 %d' % unreleased if unreleased else '',
+       switch, anchors,
+       g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2, ''.join(paths), ''.join(cards)),
+        d, crumb)
+
+
+def main_index(chapters):
+    d = depth_of('main/index.html')
+    cards = []
+    crumb = '<a href="../index.html">首页</a> › 主线剧情'
+    for c in sorted(chapters, key=lambda x: x['id']):
+        cno = c['no'] or 'sp'
+        unrel = sum(1 for n in c['nodes'] if n['state'] == 'unreleased')
+        bt = sum(1 for n in c['nodes'] if n['kind'] == 'battle')
+        cards.append("""<li><a class="chapcard" href="../main/ch%s/index.html">
+  <div class="chap-top">
+    <span class="chapno">%s</span>
+    <span class="chapyear">%s</span>
+  </div>
+  <div class="chaptitle">%s</div>
+  <div class="chapinfo">%d 节点 · 已开放 %d · 战斗 %d%s</div>
+  <span class="chapline"></span>
+  <div class="chap-arrow">→</div>
+</a></li>""" % (
+            cno, esc(c['name'] or '特别篇'), esc(c['year']),
+            esc(c['title']), len(c['nodes']),
+            sum(1 for n in c['nodes'] if n['state'] == 'released'),
+            bt, (' · 缺剧本 %d' % unrel) if unrel else ''
+        ))
+    return layout('主线剧情', """
+<h1>主线剧情</h1>
+<p class="lede">编号与标题取自官方关卡表文案，拓扑连线取自 <code>ParentStoryId</code>。<br>
+表 Id 与游戏内章号相差一章（表 Id 8 为第七章），页面按游戏内章号展示。</p>
+<ul class="chaplist">%s</ul>
+""" % ''.join(cards), d, crumb)
+
+
+def battle_archive_page(stage, nav_info=None):
+    """Render an independent archive page for a battle-only stage."""
+    code = stage.get('code') or ''
+    title = stage.get('title') or ''
+    page_title = ('%s %s' % (code, title)).strip() if code else title
+    page = stage['page']
+    d = depth_of(page)
+    root = '../' * d
+    
+    family = stage.get('family', 'main')
+    chapter_name = stage.get('chapter_name') or stage.get('group', {}).get('label') or '活动剧情'
+    gid = str(stage.get('group', {}).get('id', ''))
+    
+    if family == 'main':
+        cname = stage.get('chapter_name') or '特别篇'
+        ctitle = stage.get('chapter_title') or '谜影的序曲'
+        c_label = ('%s《%s》' % (cname, ctitle)) if ctitle else cname
+        crumb = ('<a href="%sindex.html">首页</a> › <a href="%smain/index.html">主线剧情</a> › '
+                 '<a href="index.html">%s</a> › %s'
+                 % (root, root, esc(cname), esc(page_title)))
+        lede_text = '主线%s · 独立战斗关卡档案' % esc(c_label)
+        section_field = '篇章'
+        section_val = '主线%s' % esc(c_label)
+        notice_desc = '本关卡在官方客户端内为纯战斗关卡，不包含 AVG 对话剧本与战场气泡剧本（BBm）。'
+    elif gid in ('10106', '20101'):
+        crumb = ('<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › '
+                 '<a href="index.html">%s 关卡拓扑</a> › %s'
+                 % (root, root, esc(chapter_name), esc(page_title)))
+        lede_text = '活动剧情《%s》· 独立战斗关卡档案' % esc(chapter_name)
+        section_field = '活动'
+        section_val = esc(chapter_name)
+        notice_desc = '本关卡在官方客户端内为活动纯战斗关卡，不包含 AVG 对话剧本。'
+    else:
+        crumb = ('<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › '
+                 '%s › %s'
+                 % (root, root, esc(chapter_name), esc(page_title)))
+        lede_text = '活动剧情《%s》· 独立战斗关卡档案' % esc(chapter_name)
+        section_field = '活动'
+        section_val = esc(chapter_name)
+        notice_desc = '本关卡在官方客户端内为活动纯战斗关卡，不包含 AVG 对话剧本。'
+        
+    story_nav_html = ''
+    if nav_info:
+        prev_items = nav_info.get('prev', [])
+        next_items = nav_info.get('next', [])
+        prev_html = ''
+        if prev_items:
+            links = ''.join('<a class="nav-link" href="%s"><b>%s</b> %s</a>'
+                            % (esc(it['url']), esc(it['code']), esc(it['title']))
+                            for it in prev_items)
+            prev_html = '<div class="story-nav-prev"><span class="nav-label">← 上一关卡 / 前置</span>%s</div>' % links
+        else:
+            prev_html = '<div class="story-nav-prev"><span class="nav-label">起点</span><span class="nav-link">当前篇章起始关卡</span></div>'
+
+        next_html = ''
+        if len(next_items) == 1:
+            it = next_items[0]
+            next_html = ('<div class="story-nav-next"><span class="nav-label">下一关卡 →</span>'
+                         '<a class="nav-link" href="%s"><b>%s</b> %s</a></div>'
+                         % (esc(it['url']), esc(it['code']), esc(it['title'])))
+        elif len(next_items) > 1:
+            links = ''.join('<a class="nav-link" href="%s"><span class="branch-tag %s">%s</span><b>%s</b> %s</a>'
+                            % (esc(it['url']), esc(it.get('cls', 'battle')), esc(it.get('tag', '分支')),
+                               esc(it['code']), esc(it['title']))
+                            for it in next_items)
+            next_html = ('<div class="story-nav-branches"><span class="nav-label">后续关卡路线 →</span>'
+                         '<div class="branch-links">%s</div></div>' % links)
+        else:
+            next_html = '<div class="story-nav-next"><span class="nav-label">终点</span><span class="nav-link">当前路线终结</span></div>'
+
+        story_nav_html = '<nav class="story-nav" aria-label="关卡前后导航">%s%s</nav>' % (prev_html, next_html)
+
+    cond_display = stage.get('condition_text') or stage.get('condition') or '初始开放'
+    body = """
+<div class="page" data-family="%s">
+  <h1>%s</h1>
+  <p class="lede">%s</p>
+  
+  <h2 data-part="1">关卡信息</h2>
+  <p class="meta"><b>%s</b>%s</p>
+  <p class="meta"><b>关卡代号</b><code>%s</code></p>
+  <p class="meta"><b>关卡 ID</b><code>%s</code></p>
+  <p class="meta"><b>关卡类型</b>战斗关卡</p>
+  <p class="meta"><b>解锁条件</b><code>%s</code></p>
+  <p class="meta"><b>关卡状态</b>已收录独立档案</p>
+  
+  <h2 data-part="2">官方简介</h2>
+  <blockquote>
+    <p>%s</p>
+  </blockquote>
+  
+  <h2 data-part="3">剧本存目说明</h2>
+  <div style="margin: 16px 0; padding: 14px 18px; background: var(--card-bg-subtle); border-left: 3px solid var(--battle); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+    <p style="margin: 0 0 6px 0; font-size: 13.5px; font-weight: 700; color: var(--text-main);">✦ 纯战斗关卡档案</p>
+    <p style="margin: 0; font-size: 13.5px; line-height: 1.7; color: var(--text-muted);">
+      %s
+      特此建立独立档案页，收录关卡官方简介、解锁条件与前后流程导航。
+    </p>
+  </div>
+</div>
+%s
+""" % (esc(family), esc(page_title), lede_text, section_field, section_val,
+       esc(code), esc(stage.get('story_id') or stage.get('sid') or ''),
+       esc(cond_display), esc(stage.get('desc') or '暂无简介'),
+       esc(notice_desc), story_nav_html)
+       
+    return layout(page_title, body, d, crumb)
+
+
+def activity_graph_page(act_info, all_branching_acts):
+    """Render in-game style SVG DAG topology map for branching activity stories."""
+    act_id = str(act_info['id'])
+    act_name = act_info['name']
+    act_title = act_info['title']
+    nodes = act_info['nodes']
+    g = act_info['geometry']
+    page = 'events/%s/index.html' % act_id
+    d = depth_of(page)
+    root = '../' * d
+    pad = 24
+    
+    crumb = ('<a href="%sindex.html">首页</a> › <a href="%sevents/index.html">活动剧情</a> › '
+             '%s 拓扑连线图' % (root, root, esc(act_name)))
+             
+    switch = ' '.join(
+        '<a href="%sevents/%s/index.html"%s>%s</a>' % (
+            root, a['id'], ' class="on"' if str(a['id']) == act_id else '',
+            esc(a['name'])
+        ) for a in all_branching_acts
+    )
+    switch = ('<a href="%sevents/index.html">← 全部活动</a> ' % root) + switch
+    
+    by_sid = {n['story_id']: n for n in nodes}
+    paths = []
+    for u, v in g['edges']:
+        a, b = by_sid[u], by_sid[v]
+        x1 = a['x'] + pad + g['card'][0]
+        y1 = a['y'] + pad + g['card'][1] / 2.0
+        x2 = b['x'] + pad
+        y2 = b['y'] + pad + g['card'][1] / 2.0
+        mx = x1 + (x2 - x1) / 2.0
+        cls = node_state_class(b)
+        paths.append('<path class="edge %s" d="M%d %d C%d %d,%d %d,%d %d"/>'
+                     % (cls, x1, y1, mx, y1, mx, y2, x2, y2))
+                     
+    cards = []
+    seen_col = set()
+    for n in sorted(nodes, key=lambda x: (x['col'], x['lane'])):
+        style = 'left:%dpx;top:%dpx;width:%dpx;height:%dpx' % (
+            n['x'] + pad, n['y'] + pad, g['card'][0], g['card'][1])
+        inner = ('<span class="code">%s</span><span class="t">%s</span>'
+                 % (esc(n['code'] or '·'), esc(n['title'])))
+        cid = '' if n['col'] in seen_col else ' id="col%d"' % n['col']
+        seen_col.add(n['col'])
+        cards.append('<a%s class="node %s" style="%s" data-col="%d" href="%s">%s'
+                     '<span class="state">%s ›</span></a>'
+                     % (cid, node_state_class(n), style, n['col'], rel(d, n['page']), inner,
+                        esc(node_state_label(n))))
+
+    anchors = ''.join('<a href="#col%d" data-scroll-to="%d">%s</a>'
+                      % (col, col * g['step_x'] + pad,
+                         esc(min((n['code'] or '·') for n in nodes if n['col'] == col)))
+                      for col in range(g['columns']))
+
+    body = """
+<h1>%s《%s》</h1>
+<p class="lede">活动关卡拓扑连线图　收录 %d 个剧情与战斗节点　含多分支抉择路线</p>
+<nav class="chapsel">%s</nav>
+<div class="anchors-wrap"><nav class="anchors">%s</nav></div>
+<div class="map">
+<div class="canvas" style="width:%dpx;height:%dpx">
+<svg class="wires" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>
+%s
+</div>
+</div>
+<p class="aside map-note">连线取自官方 <code>ActivityStoryCondition.json</code> 前置条件映射，列序与轨道由确定性最长路径算法排布；
+支持鼠标横向拖拽平移与列锚点快捷定位。</p>
+""" % (esc(act_name), esc(act_title), len(nodes), switch, anchors,
+       g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2,
+       g['width'] + pad * 2, g['height'] + pad * 2, ''.join(paths), ''.join(cards))
+
+    return layout('%s 关卡拓扑' % act_name, body, d, crumb)
+
+
+def family_index(family, intro, pages_in_family):
+    recs = sorted(pages_in_family, key=lambda r: (str(r['group'].get('id', '')), r['id']))
+    page = '%s/index.html' % slug_of(family)
+    d = depth_of(page)
+    groups = collections.OrderedDict()
+    for r in recs:
+        key = (r['group'].get('label') or '未分组', r['group'].get('id'))
+        groups.setdefault(key, []).append(r)
+    blocks = []
+    for (label, gid), items in groups.items():
+        topo_badge = ''
+        if family == 'events' and str(gid) in ('10106', '20101'):
+            topo_badge = '<a class="grp-topo-btn" href="%s/index.html">✦ 关卡拓扑图 →</a>' % gid
+        links = []
+        for it in items:
+            is_battle = it.get('kind') == 'battle'
+            sub = ('战斗关卡' if is_battle
+                   else ('%d 句' % it['counts'].get('talk', 0)
+                         + (' / %d 气泡' % it['counts']['bubble'] if it['counts'].get('bubble') else '')))
+            code_prefix = ('%s ' % it['code']) if it['code'] else ''
+            badge = '<i class="badge battle">战斗</i>' if is_battle else ''
+            links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s%s</span><span class="sub">%s</span></a></li>'
+                         % (rel(d, it['page']), badge, esc(code_prefix + it['title']), esc(sub)))
+        count_label = '%d 关' if family == 'events' else '%d 篇'
+        blocks.append('<section class="grp"><div class="grp-header">'
+                      '<div class="grp-head-row"><h3 class="grp-title">%s</h3><span class="grp-count">%s</span></div>%s</div>'
+                      '<ul class="plain">%s</ul></section>'
+                      % (esc(label), count_label % len(items), topo_badge, ''.join(links)))
+    crumb = '<a href="%sindex.html">首页</a> › %s' % ('../' * d, FAMILY_NAME[family])
+    return layout(FAMILY_NAME[family], """
+<h1>%s</h1>
+<p class="lede">%s</p>
+<div class="searchbox"><div class="search-input-wrap">
+  <svg class="search-icon" viewBox="0 0 24 24" width="15" height="15" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+  <input type="search" placeholder="检索标题、概要、说话人…" data-scope="%s" data-root="%s">
+</div><div class="results" hidden></div></div>
+<div class="grp-grid">%s</div>
+""" % (FAMILY_NAME[family], esc(intro), slug_of(family), '../' * d, ''.join(blocks)),
+        d, crumb)
+
+
+def home_page(pages, personality_data):
+    counts = collections.Counter(p['family'] for p in pages)
+    lines = sum(p['counts'].get('talk', 0) + p['counts'].get('bubble', 0) for p in pages)
+    
+    bento_items = []
+    ordered_families = sorted(FAMILIES, key=lambda x: FAMILY_META.get(x[0], {}).get('code', '99'))
+    for f, n, _ in ordered_families:
+        meta = FAMILY_META.get(f, {})
+        cnt = counts.get(f, 0)
+        slug = slug_of(f)
+        bento_items.append("""<li class="bento-item %s">
+<article class="bento-card" data-slug="%s">
+  <a class="bento-card-link" href="%s/index.html" aria-label="%s"></a>
+  <div class="bento-top">
+    <span class="bento-num">%s</span>
+  </div>
+  <div class="bento-body">
+    <h3 class="bento-title">%s</h3>
+    <p class="bento-desc">%s</p>
+  </div>
+  <div class="bento-foot">
+    <span class="bento-count">%d 篇</span>
+    <span class="bento-arrow">→</span>
+  </div>
+</article></li>""" % (
+            meta.get('span', ''), slug, slug, esc(n),
+            meta.get('code', '00'),
+            esc(n), meta.get('desc', ''), cnt
+        ))
+
+    return layout('首页', """
+<div class="hero">
+  <h1 class="hero-title">星塔旅人 剧情档案</h1>
+  <p class="hero-desc">官方剧本全文、分支抉择与关卡拓扑。收录 %d 篇、%s 句台词与气泡。</p>
+  
+  <div class="searchbox hero-search">
+    <div class="search-input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="search" placeholder="检索剧情标题、概要、说话人、关卡代号…" data-scope="_all" data-root="">
+    </div>
+    <div class="results" hidden></div>
+  </div>
+</div>
+
+<ul class="bento tiles">
+  <div class="bento-indicator" aria-hidden="true"></div>
+  %s
+</ul>
+""" % (len(pages), format(lines, ','), ''.join(bento_items)), 0, '')

@@ -237,17 +237,27 @@ def is_resource_name(text):
     return bool(RESOURCE_NAME.fullmatch(text))
 
 
+RUBY = re.compile(r'<r=([^<>]*)></r>')
+# The client's own inline signals, from Avg_4_TalkCtrl.lua:292-296: ==P== paragraph,
+# ==B== break, ==W== wait, ==RT== newline, ==A<delay>== auto-paragraph, ==Off== drop the
+# centred background. None of them carry words, and _NOT_IN_LOG_ only keeps a line out of
+# the in-game log panel.
+TEXT_SIGNAL = re.compile(r'==[A-Za-z0-9_.]*==')
+
+
 def clean_dialogue(s):
     if not s:
         return ""
-    s = re.sub(r'</?size[^>]*>', '', s)
-    s = re.sub(r'</?color[^>]*>', '', s)
-    s = re.sub(r'<r=[^>]*>', '', s)
-    s = re.sub(r'</r>', '', s)
-    s = re.sub(r'<sprite[^>]*>', '', s)
+    # ruby survives: <r=注音></r> is the small reading drawn above a word, i.e. content.
+    # Park it behind a sentinel so the blanket tag strip below cannot eat it.
+    s = RUBY.sub(lambda m: '\x00%s\x00' % m.group(1), s)
+    s = s.replace('<br>', ' ')
+    s = re.sub(r'<[^>]*>', '', s)
     s = s.replace('==PLAYER_NAME==', PROTAG_NAME)
     s = re.sub(r'==SEX\d*==', '你', s)
-    s = re.sub(r'==[A-Z0-9_]+==', ' ', s)
+    s = TEXT_SIGNAL.sub(' ', s)
+    s = s.replace('_NOT_IN_LOG_', '')
+    s = re.sub(r'\x00([^\x00]*)\x00', lambda m: '<r=%s></r>' % m.group(1), s)
     s = re.sub(r'[ \t]+', ' ', s)
     return s.strip()
 
@@ -638,6 +648,17 @@ def build_main():
         cyear = lang_of(LANG_STORY_CHAP, cdef.get('ChapterYear', ''))
         folder = os.path.join(OUT, 'main', 'chapter_%02d_%s' % (ch, safe_name(ctitle or clabel or 'chapter')))
         sdir = os.path.join(folder, 'sections')
+        # Collect released story/bubble stems in this chapter
+        released_stems = set()
+        for r_cand in rows.get(ch, []):
+            st = r_cand.get('StoryId')
+            idx_cand = lang_of(LANG_STORY, r_cand.get('Index', ''))
+            if st and script_commands(st):
+                released_stems.add(st)
+            bcand = bubble_stem_for(st, idx_cand)
+            if bcand and script_commands(bcand):
+                released_stems.add(st)
+
         for r in sorted(rows.get(ch, []), key=lambda x: x['Id']):
             idx = lang_of(LANG_STORY, r.get('Index', ''))
             title = lang_of(LANG_STORY, r.get('Title', ''))
@@ -656,10 +677,22 @@ def build_main():
                 else:
                     battle_map.append((stem, cand, 'MISSING', ch))
             if parsed is None and not bubbles:
+                # Dynamic pure battle stage detection:
+                # A battle stage in an open chapter whose parents are released (or empty at chapter start)
+                # is an official pure battle stage that receives an independent archive page.
+                parents = [p for p in (r.get('ParentStoryId') or []) if isinstance(p, str)]
+                is_valid_battle = (bool(r.get('IsBattle')) and len(released_stems) > 0
+                                   and (not parents or all(p in released_stems for p in parents)))
+                if is_valid_battle:
+                    cno = cdef.get('Index') or 'sp'
+                    page = 'main/ch%s/%s.html' % (cno, stem)
+                    record_node(ch, r, page, None)
+                    continue
                 record_node(ch, r, None, None)
                 skipped.append((ch, r['Id'], stem, title, '战斗关卡' if r.get('IsBattle') else '剧情关卡'))
                 continue
-            page = 'main/node/%s.html' % stem
+            cno = cdef.get('Index') or 'sp'
+            page = 'main/ch%s/%s.html' % (cno, stem)
             body_src = bubbles or parsed
             record_node(ch, r, page, bubble_stem, body_src['beats'])
             info = [
