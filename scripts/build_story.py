@@ -170,18 +170,7 @@ def load_speakers():
     return out
 
 
-def load_talk_channels():
-    """SetTalk's first param is a display channel, not a text property. The names are read
-    out of the editor's own option table (AvgCmdParamOptionDefine.lua) rather than
-    transcribed, and the 0-based indexing is confirmed by Avg_4_TalkCtrl.lua's branch chain
-    (nType 8 -> imgContentBg_Center == 「居中字幕」, 9 -> canvasGroup_CGTalk == 「CG对话」)."""
-    path = os.path.join(os.path.dirname(os.path.dirname(CFG)), 'AvgCmdParamOptionDefine.lua')
-    block = re.search(r'TalkType = \{(.*?)\}', open(path, encoding='utf-8').read(), re.S)
-    return dict(enumerate(re.findall(r'"([^"]+)"', block.group(1))))
-
-
 SPEAKERS = load_speakers()
-TALK_CHANNEL = load_talk_channels()
 LANG_STORY = load_json(LANG, 'Story.json')
 LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
 LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
@@ -423,7 +412,6 @@ def extract_script(stem):
                           # type 2 only means "inner thought" for spoken lines; inside a
                           # phone conversation it is just the message the player sends.
                           'thought': talk_type == "2" and cmd == "SetTalk",
-                          'chan': talk_type if cmd == "SetTalk" else "",
                           'sticker': sticker,
                           'channel': 'msg' if cmd == "SetPhoneMsg" else 'talk'})
 
@@ -461,21 +449,6 @@ def extract_script(stem):
 
 
 # ==================================================================== rendering
-PLAIN_CHANNEL = ('角色说', '主角说')   # the ordinary look; tagging these would be noise
-
-
-def talk_tag(b):
-    """The official display channel, when it carries more than presentation: 「CG对话」 lines
-    are spoken over a cutscene illustration, which is how the game renders recalled scenes."""
-    if b['channel'] == 'msg':
-        return "（短信）"
-    if b.get('thought'):
-        return "（思考）"
-    chan = b.get('chan', '')
-    name = TALK_CHANNEL.get(int(chan)) if chan.isdigit() else None
-    return "" if not name or name in PLAIN_CHANNEL else "（%s）" % name
-
-
 def render_beats(beats):
     """One beat list -> markdown lines. Used by both the main and event writers."""
     lines = []
@@ -485,7 +458,8 @@ def render_beats(beats):
             if b.get('sticker'):
                 lines.append("**%s**：〔发送表情 `%s`〕" % (b['speaker'], b['text']))
             else:
-                lines.append("**%s**%s：「%s」" % (b['speaker'], talk_tag(b), b['text']))
+                tag = "（思考）" if b['thought'] else ("（短信）" if b['channel'] == 'msg' else "")
+                lines.append("**%s**%s：「%s」" % (b['speaker'], tag, b['text']))
         elif k == 'bubble':
             lines.append("**%s**（战斗气泡）：「%s」" % (b['speaker'], b['text']))
         elif k == 'wave':

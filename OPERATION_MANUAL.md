@@ -143,7 +143,7 @@ VitePress 作为备选保留在 `package.json` 的 `docs:*` 脚本里，未安�
 
 ```bash
 python scripts/build_story.py && python scripts/build_site.py   # 或 npm run build
-python tests/story/validate_story.py && python tests/story/validate_site.py   # 契约 A–L
+python tests/story/validate_story.py && python tests/story/validate_site.py   # 契约 A–K
 python -m http.server 8000 --directory site                     # 或 npm run serve
 ```
 直接双击 `site/index.html` 也能完整使用：检索索引以 `site/data/search.js` 形式内嵌，

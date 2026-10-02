@@ -27,7 +27,6 @@ LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
 
 TALK = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$')
 BUBBLE = re.compile(r'^\*\*(.+?)\*\*（战斗气泡）：「(.*)」$')
-TALK_TAGGED = re.compile(r'^\*\*(.+?)\*\*(?:（([^）]*)）)?：「(.*)」$')
 CHAT = re.compile(r'^\*\*(.+?)\*\*(?:（短信）)?：「(.*)」$|^\*\*(.+?)\*\*：〔发送表情')
 SCENE = re.compile(r'^> \*\*【场景 · (.*)】\*\*$')
 WAVE = re.compile(r'^> \*\*\[战斗阶段 (.+)\]\*\*$')
@@ -384,18 +383,17 @@ def lg(name):
 ASSET = re.compile(r'[a-z][a-z0-9_]*')
 
 
-def lua_speech_rows(stem):
-    """Naive line scan of one script: [(cmd, channel token, text)] for every spoken line a
-    page must render, in the raw official order.
+def lua_dialogue_seq(stem):
+    """Naive line scan of one script: the text of every SetTalk / SetPhoneMsg, in order.
 
-    Only the documented content rules are mirrored here (empty lines and sprite asset keys
-    inside SetTalk carry no words; an asset key inside SetPhoneMsg is a sticker send, which
-    is not a 「…」 line either).
+    Only the documented content rules are mirrored here (empty lines and sprite asset
+    keys inside SetTalk carry no words; an asset key inside SetPhoneMsg is a sticker
+    send). Everything else is the raw official order.
     """
-    path = os.path.join(CFG, stem + '.lua')
-    if not os.path.exists(path):
+    p = os.path.join(CFG, stem + '.lua')
+    if not os.path.exists(p):
         return None
-    ls = lines_of(path)
+    ls = lines_of(p)
     out, i = [], 0
     while i < len(ls):
         s = ls[i].strip()
@@ -403,7 +401,8 @@ def lua_speech_rows(stem):
         if not m:
             i += 1
             continue
-        j, vals = i + 1, []
+        j = i + 1
+        vals = []
         while j < len(ls):
             st = ls[j].strip()
             if st.startswith('param'):
@@ -422,69 +421,11 @@ def lua_speech_rows(stem):
             j += 1
         if len(vals) >= 3:
             raw = norm(unescape_lua(vals[2]))
-            if raw and not ASSET.fullmatch(raw) and not (
-                    m.group(1) == 'SetTalk'
-                    and (raw.startswith(('ep_', 'BG_')) or ASSET.fullmatch(raw))):
-                out.append((m.group(1), vals[0].strip(), raw))
+            if raw and not (m.group(1) == 'SetTalk' and
+                            (raw.startswith(('ep_', 'BG_')) or ASSET.fullmatch(raw))):
+                out.append((m.group(1), raw))
         i = j
-    return out
-
-
-def lua_dialogue_seq(stem):
-    rows = lua_speech_rows(stem)
-    return None if rows is None else [r[2] for r in rows]
-
-
-# ---------------------------------------------------------------- L  显示通道标签
-# SetTalk's first param picks the display channel. The names are read out of the editor's
-# own option table, and the 0-based indexing is confirmed by Avg_4_TalkCtrl.lua's branch
-# chain (nType 8 -> imgContentBg_Center, 9 -> canvasGroup_CGTalk).
-def talk_channel_names():
-    path = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg',
-                        'AvgCmdParamOptionDefine.lua')
-    block = re.search(r'TalkType = \{(.*?)\}', open(path, encoding='utf-8').read(), re.S)
-    return dict(enumerate(re.findall(r'"([^"]+)"', block.group(1))))
-
-
-CHANNEL = talk_channel_names()
-PLAIN = ('角色说', '主角说')
-
-
-def md_tag_seq(path):
-    """[(tag or '', text)] for the 「…」 lines of one md page, in order.
-    Battle bubbles share the shape but come from SetBubble, which has no channel param."""
-    out = []
-    for l in lines_of(path):
-        if BUBBLE.match(l):
-            continue
-        m = TALK_TAGGED.match(l)
-        if m:
-            out.append((m.group(2) or '', norm(m.group(3))))
-    return out
-
-
-def audit_channels(path, stem):
-    """Every tag the page shows must be the official name for that line's channel, and a
-    line may only go untagged on the two plain channels (or be a phone message)."""
-    rows = lua_speech_rows(stem)
-    if rows is None:
-        return ['剧本查无文件']
-    tags = md_tag_seq(path)
-    if len(tags) != len(rows):
-        return ['行数不等 md=%d lua=%d' % (len(tags), len(rows))]
-    errs = []
-    for n, ((tag, _txt), (cmd, chan, raw)) in enumerate(zip(tags, rows)):
-        if cmd == 'SetPhoneMsg':
-            if tag and tag != '短信':
-                errs.append('第 %d 句是短信却标了「%s」' % (n + 1, tag))
-            continue
-        name = CHANNEL.get(int(chan)) if chan.isdigit() else None
-        if not tag:
-            if name and name not in PLAIN and name != '主角想':
-                errs.append('第 %d 句通道是「%s」却没标' % (n + 1, name))
-        elif tag != name and not (name == '主角想' and tag == '思考'):
-            errs.append('第 %d 句标「%s」而剧本写的是「%s」(type %s)' % (n + 1, tag, name, chan))
-    return errs
+    return [t for _, t in out if not (ASSET.fullmatch(t))]
 
 
 LANG_P, LANG_N, LANG_D = lg('Plot'), lg('NPCAffinityPlot'), lg('DiscIP')
@@ -721,40 +662,3 @@ print('植入[把 BBm07_BT01 挂回特别篇]: %s'
       % ('CAUGHT' if audit_mount(fake, 'BBm07_BT01') else 'MISSED'))
 print('植入[把 BBm08_BT01 挂到第七章]: %s'
       % ('CAUGHT' if audit_mount(sp, 'BBm08_BT01') else 'MISSED'))
-
-
-# ============================================================ L  显示通道标签
-print()
-print("=" * 66)
-print("L  台词上标的通道名 == 剧本 SetTalk 第一个参数在官方通道表里的名字")
-print("=" * 66)
-print("   通道表读自 AvgCmdParamOptionDefine.lua（不手抄），索引基准由 Avg_4_TalkCtrl.lua 的分支链印证。")
-bad_l, tag_total = [], 0
-for p, stem in pages:
-    errs = audit_channels(p, stem)
-    tag_total += sum(1 for t, _ in md_tag_seq(p) if t)
-    for e in errs:
-        bad_l.append((os.path.relpath(p, NEW), stem, e))
-print('通道表：%s' % ' '.join('%d=%s' % (k, v) for k, v in sorted(CHANNEL.items())))
-print('逐页检查：%d 页   带通道标签的台词：%d   违例：%d' % (len(pages), tag_total, len(bad_l)))
-for x in bad_l[:8]:
-    print('   ~', x)
-
-print()
-print('L2 变异测试')
-tgt = next(((p, s) for p, s in pages
-            if '（CG对话）' in open(p, encoding='utf-8').read()), None)
-if not tgt:
-    print('找不到带 CG对话 标签的页面')
-else:
-    tp, tstem = tgt
-    md = open(tp, encoding='utf-8').read()
-    tmp = tp + '.mut.md'
-    cases = [('植入[标签换成"回忆"]', md.replace('（CG对话）', '（回忆）', 1)),
-             ('植入[抹掉一个通道标签]', md.replace('（CG对话）', '', 1)),
-             ('植入[给普通台词乱标]', md.replace('：「', '（居中字幕）：「', 1))]
-    for label, mut in cases:
-        open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
-        print('%s : %s' % (label, 'CAUGHT' if audit_channels(tmp, tstem) else 'MISSED'))
-    os.remove(tmp)
-    print('正对照（未篡改）: %s' % ('PASS' if not audit_channels(tp, tstem) else 'FAIL'))
