@@ -163,7 +163,7 @@ def layout(title, body, depth, crumb, note=''):
   <div class="top-inner">
     <a class="brand" href="%sindex.html">
       <img class="brand-icon" src="%sassets/icon_story.png" alt="" width="22" height="28">
-      <span>星塔旅人 剧情档案</span>
+      <span class="brand-text"><span class="brand-prefix">星塔旅人 </span><span class="brand-sub">剧情档案</span></span>
     </a>
     <nav class="nav">%s</nav>
     <div class="top-actions">
