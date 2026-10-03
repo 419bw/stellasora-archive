@@ -147,6 +147,12 @@ def _parse_choice_structure(md):
 
 
 def convert(md, branch_targets=None):
+    """Render one script markdown to HTML.
+
+    branch_targets: list (document order) of 重大抉择 groups; each group is a list of
+    {'opt', 'code', 'title', 'url', 'cls', 'tag'} targets keyed by the option text the
+    target belongs to (built by build_site from the option jump EvIds).
+    """
     choices, branches, merges = _parse_choice_structure(md)
     choice_iter = iter(choices)
     branch_iter = iter(branches)
@@ -156,6 +162,9 @@ def convert(md, branch_targets=None):
     stats = {'line': 0, 'marker': 0, 'scene': 0, 'choice': 0, 'meta': 0}
     quote = []
     active_branch = None
+    # branch_targets is a list of per-major-choice target groups (document order);
+    # within a group each target carries the option text it belongs to.
+    major_choice_seq = [0]
 
     def close_active_branch():
         nonlocal active_branch
@@ -230,16 +239,28 @@ def convert(md, branch_targets=None):
                     out.append('<p class="%s"%s>%s</p>' % (cls, cid_attr, escape(tag_content)))
                     stats['marker'] += 1
                     is_major = 'major-choice' in cls
+                    c_targets = None
+                    if is_major:
+                        if branch_targets and major_choice_seq[0] < len(branch_targets):
+                            c_targets = branch_targets[major_choice_seq[0]]
+                        major_choice_seq[0] += 1
                     opts = []
-                    opt_idx = 0
                     c_branches = c_obj['branches'] if c_obj else []
                     c_merge_id = c_obj.get('merge_id') if c_obj else None
 
                     while i + 1 < len(text) and BULLET.match(text[i + 1]):
                         w, d = BULLET.match(text[i + 1]).groups()
+                        # badge follows the option by name: several options may share
+                        # one branch level, so index-based matching cannot be right
+                        tgt = None
+                        if c_targets:
+                            clean_w = _clean_opt(w)
+                            for cand in c_targets:
+                                if clean_w == _clean_opt(cand.get('opt') or ''):
+                                    tgt = cand
+                                    break
                         target_badge = ''
-                        if is_major and branch_targets and opt_idx < len(branch_targets):
-                            tgt = branch_targets[opt_idx]
+                        if tgt and tgt.get('url'):
                             target_badge = ('<a class="opt-target" href="%s" title="前往对应分支关卡">'
                                             '<span>分支走向</span><strong>%s %s →</strong></a>'
                                             % (escape(tgt['url']), escape(tgt['code']), escape(tgt['title'])))
@@ -275,7 +296,6 @@ def convert(md, branch_targets=None):
                         else:
                             opts.append(f'<li>{opt_text_html}{target_badge}</li>')
 
-                        opt_idx += 1
                         i += 1
                     opts_cls = 'options major-options' if is_major else 'options'
                     out.append('<ul class="%s">%s</ul>' % (opts_cls, ''.join(opts)))

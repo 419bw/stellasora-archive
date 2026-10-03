@@ -666,3 +666,205 @@ print('植入[写入假说话人] : %s' % ('CAUGHT' if audit_index(k['entries'])
 k = K()
 k['entries'][3]['page'] = 'nowhere/ghost.html'
 print('植入[页面链接指空] : %s' % ('CAUGHT' if audit_index(k['entries']) else 'MISSED'))
+
+
+# ============================================================ L  「分支走向」角标 == 权威映射
+print()
+print("=" * 66)
+print("L  重大抉择「分支走向」角标 == 权威「选项→跳转 EvId→关卡」映射")
+print("=" * 66)
+STORY_COND = table('StoryCondition')
+ACT_COND = table('ActivityStoryCondition')
+ACT_EVID = table('ActivityStoryEvidence')
+COND_BY_EV = {}
+for _row in STORY_COND.values():
+    for _ev in (_row.get('EvIds_a') or []) + (_row.get('EvIds_b') or []):
+        COND_BY_EV.setdefault(str(_ev), _row)
+STORY_ROW_BY_COND = {}
+for _row in STORY.values():
+    if _row.get('ConditionId'):
+        STORY_ROW_BY_COND.setdefault(_row['ConditionId'], _row)
+node_by_story = {n['story_id']: n for n in nodes.values()}
+main_children = collections.defaultdict(list)
+for _n in nodes.values():
+    for _p in (_n.get('parents') or []):
+        main_children[_p].append(_n)
+events_page_by_id = {str(p['id']): p for p in pages if p['family'] == 'events'}
+act_children = collections.defaultdict(list)
+for _lid, _row in ACT_COND.items():
+    for _par in (_row.get('ActivityStoryId_a') or []) + (_row.get('ActivityStoryId_b') or []):
+        act_children[str(_par)].append(str(_lid))
+
+
+def lua_major_choices(stem):
+    """[[(option title, jump EvId)]] per 重大抉择 in one AVG script (naive scan)."""
+    p = os.path.join(CFG, stem + '.lua')
+    if not os.path.exists(p):
+        return []
+    src = open(p, encoding='utf-8').read()
+    out = []
+    for m in re.finditer(r'cmd\s*=\s*"SetMajorChoice",\s*param\s*=\s*\{', src):
+        seg = src[m.end():]
+        cut = re.search(r'\n\s*\}\s*\},', seg)
+        if cut:
+            seg = seg[:cut.start()]
+        strings = re.findall(r'"((?:[^"\\]|\\.)*)"', seg)
+        prefabs = [i for i, s in enumerate(strings) if s.startswith('AvgChoice_')]
+        opts = []
+        for k, i in enumerate(prefabs):
+            stop = prefabs[k + 1] if k + 1 < len(prefabs) else len(strings)
+            block = strings[i + 1:stop]
+            if not block:
+                continue
+            title = block[0]
+            ev = next((s for s in block[1:] if re.fullmatch(r'E[A-Za-z0-9_]+', s)), '')
+            opts.append((title, ev))
+        if opts:
+            out.append(opts)
+    return out
+
+
+BADGE_LI = re.compile(r'<li[^>]*>(.*?)</li>')
+
+
+def clean_opt(s):
+    s = re.sub(r'<[^>]*>', '', s)
+    return re.sub(r'[.…—\s　]', '', s)
+
+
+def html_choice_blocks(html):
+    """[(option text, badge target text or None)] per .major-options block, in order."""
+    blocks = []
+    for m in re.finditer(r'<ul class="options major-options">(.*?)</ul>', html, re.S):
+        opts = []
+        for li in BADGE_LI.findall(m.group(1)):
+            om = re.search(r'<div class="opt-main"><b>(.*?)</b>', li)
+            bg = re.search(r'<a class="opt-target" href="([^"]*)"[^>]*>'
+                           r'<span>分支走向</span><strong>(.*?) →</strong></a>', li)
+            opts.append((unesc(om.group(1)) if om else '',
+                         (unesc(bg.group(2)), bg.group(1)) if bg else (None, None)))
+        blocks.append(opts)
+    return blocks
+
+
+def resolve_main_badge(stem, ev):
+    """Expected (code title, page) for an option's jump EvId, or None if no page."""
+    cur = node_by_story.get(stem)
+    if not cur:
+        return None
+    row = COND_BY_EV.get(ev)
+    if not row:
+        return None
+    parents = (row.get('StoryId_a') or []) + (row.get('StoryId_b') or [])
+    if stem not in parents:
+        return None
+    child = STORY_ROW_BY_COND.get(row.get('ConditionId'))
+    if not child:
+        return None
+    n = node_by_story.get(child.get('StoryId'))
+    if not n or not n.get('page'):
+        return None
+    return "%s %s" % (n['code'] or '·', n['title'] or ''), n['page']
+
+
+def resolve_act_badge(p, ev):
+    """Events: EvId -> child activity level -> its page (child of this page only)."""
+    cur_id = str(p['id'])
+    want = None
+    for level_id, row in ACT_EVID.items():
+        if row.get('EvId') != ev:
+            continue
+        cond = ACT_COND.get(str(level_id), {})
+        pars = (cond.get('ActivityStoryId_a') or []) + (cond.get('ActivityStoryId_b') or [])
+        if cur_id in [str(x) for x in pars]:
+            want = events_page_by_id.get(str(level_id))
+            break
+    if not want or not want.get('page'):
+        return None
+    return "%s %s" % (want.get('code') or '·', want.get('title') or ''), want['page']
+
+
+def audit_branch_badges():
+    errs = []
+    checked_pages = checked_opts = 0
+    for p in pages:
+        if p['family'] not in ('main', 'events') or not p.get('stems') or not p.get('page'):
+            continue
+        stem = p['stems'][0]
+        truths = []
+        for st in p['stems']:
+            truths += lua_major_choices(st)
+        if not truths:
+            continue
+        # sidecar must equal the Lua re-derivation, or the badge data went stale
+        side = [[(o.get('title'), o.get('ev')) for o in ch]
+                for ch in (p.get('major_choices') or [])]
+        if side != truths:
+            errs.append((p['page'], 'sections.json major_choices 与剧本不符', side, truths))
+            continue
+        hp = os.path.join(SITE, *p['page'].split('/'))
+        if not os.path.exists(hp):
+            errs.append((p['page'], '页面缺失'))
+            continue
+        # badges only appear where the level actually branches (build_site gate)
+        if p['family'] == 'main':
+            multi = len(main_children.get(stem, [])) > 1
+        else:
+            multi = len(act_children.get(str(p['id']), [])) > 1
+        rendered = html_choice_blocks(open(hp, encoding='utf-8').read())
+        if len(rendered) != len(truths):
+            errs.append((p['page'], '重大抉择块数不符', len(rendered), len(truths)))
+            continue
+        checked_pages += 1
+        for k, (truth_ch, render_ch) in enumerate(zip(truths, rendered)):
+            if len(render_ch) != len(truth_ch):
+                errs.append((p['page'], '第%d个抉择选项数不符' % (k + 1), len(render_ch), len(truth_ch)))
+                continue
+            for (title, ev), (opt_text, badge) in zip(truth_ch, render_ch):
+                checked_opts += 1
+                r_text, r_href = badge if badge else (None, None)
+                if not multi:
+                    if r_text is not None:
+                        errs.append((p['page'], '非分支关卡不该有角标', title, r_text))
+                    continue
+                if p['family'] == 'main':
+                    want = resolve_main_badge(stem, ev)
+                else:
+                    want = resolve_act_badge(p, ev)
+                if clean_opt(title) != clean_opt(opt_text):
+                    errs.append((p['page'], '选项文本与剧本不符', title, opt_text))
+                if want is None:
+                    if r_text is not None:
+                        errs.append((p['page'], '不该有角标', title, r_text))
+                    continue
+                want_text, want_page = want
+                if r_text != want_text:
+                    errs.append((p['page'], '角标指向错误', title, r_text, want_text))
+                    continue
+                target = os.path.normpath(os.path.join(os.path.dirname(p['page']), r_href or ''))
+                if target.replace(os.sep, '/') != want_page:
+                    errs.append((p['page'], '角标链接错误', title, r_href, want_page))
+    return errs, checked_pages, checked_opts
+
+
+L_errs, L_pages_n, L_opts_n = audit_branch_badges()
+print('含重大抉择的页面 %d   校验选项 %d 个   违例 %d' % (L_pages_n, L_opts_n, len(L_errs)))
+for x in L_errs[:8]:
+    print('   ~', x)
+
+print()
+print('L2 变异测试')
+victim = os.path.join(SITE, 'main', 'ch08', 'STm08_15.html')
+orig_l = open(victim, encoding='utf-8').read()
+mut_l = orig_l.replace('<strong>13A 白猫的过去 →</strong>', '<strong>13B 沙蝎的野望 →</strong>', 1)
+shutil.copyfile(victim, victim + '.bak')
+try:
+    open(victim, 'w', encoding='utf-8', newline='\n').write(mut_l)
+    mutted = open(victim, encoding='utf-8').read()
+    l_errs, _p, _o = audit_branch_badges()
+    # only the poisoned page may report an error
+    caught = len([e for e in l_errs if e[0] == 'main/ch08/STm08_15.html']) > 0
+    print('植入[把「听听艾蕾的意见」的角标改成 13B] : %s' % ('CAUGHT' if caught else 'MISSED'))
+finally:
+    shutil.move(victim + '.bak', victim)
+print('还原后复检: %s' % ('PASS' if not audit_branch_badges()[0] else 'FAIL'))

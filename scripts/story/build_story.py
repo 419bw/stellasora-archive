@@ -296,25 +296,33 @@ FORK_CLOSE = {"ChoiceJumpTo": "jump", "ChoiceRollover": "roll", "ChoiceEnd": "en
 
 
 def fork_options(kind, param):
-    """Extract (prompt, [option labels]) per fork dialect."""
+    """Extract (prompt, [(option title, option desc, jump EvId)]) per fork dialect."""
     strings = [x for x in param if isinstance(x, str)]
     nested = [x for x in param if isinstance(x, T)]
 
     if kind == "major":
+        # Every option block starts at an AvgChoice_ prefab and runs until the next
+        # prefab: [title, desc(?), route marker(?), ..., jump EvId]. The EvId (E901,
+        # Eev5_01, ...) is the first E-prefixed string after the title; it joins with
+        # StoryCondition/ActivityStoryEvidence to tell which level the option leads to.
+        prefabs = [i for i, s in enumerate(strings) if s.startswith("AvgChoice_")]
         opts = []
-        for i, s in enumerate(strings):
-            if s.startswith("AvgChoice_") and i + 2 < len(strings):
-                title = clean_dialogue(strings[i + 1])
-                desc = clean_dialogue(strings[i + 2]) if not re.match(r'^[EC]\d+$', strings[i + 2]) else ""
-                if title:
-                    opts.append((title, desc))
+        for n, i in enumerate(prefabs):
+            seg = strings[i + 1:prefabs[n + 1] if n + 1 < len(prefabs) else len(strings)]
+            if not seg:
+                continue
+            title = clean_dialogue(seg[0])
+            desc = clean_dialogue(seg[1]) if len(seg) > 1 and not re.match(r'^[EC][A-Za-z0-9_]*$', seg[1]) else ""
+            ev = next((s for s in seg[1:] if re.match(r'^E[A-Za-z0-9_]+$', s)), "")
+            if title:
+                opts.append((title, desc, ev))
         prompt = next((clean_dialogue(s) for s in reversed(strings)
                        if not s.startswith(("AvgChoice_", "avg_emoji")) and re.search(r'[？?]', s)), "")
         return prompt, opts
 
     if kind == "phone":
         # param[0] is the group id the reply jumps are keyed by; the labels follow it
-        return "", [(clean_dialogue(s), "") for s in list(param)[1:]
+        return "", [(clean_dialogue(s), "", "") for s in list(param)[1:]
                     if isinstance(s, str) and clean_dialogue(s) and s != "avg3_100"]
 
     if kind == "generic":
@@ -323,7 +331,7 @@ def fork_options(kind, param):
         prompt = ""
         if len(filled) > 1:
             prompt = next((clean_dialogue(v) for v in filled[-1] if isinstance(v, str) and clean_dialogue(v)), "")
-        return prompt, [(l, "") for l in labels]
+        return prompt, [(l, "", "") for l in labels]
 
     # personality: flat label list, no AvgChoice_ prefabs
     skip = ("c", "l", "r", "e", "b", "a", "g", "none", "close")
@@ -331,7 +339,7 @@ def fork_options(kind, param):
               if clean_dialogue(s) and s not in skip and not re.match(r'^\d{2,3}$', s)
               and not s.startswith(("avg_emoji", "AvgChoice_"))]
     prompt = next((l for l in reversed(labels) if re.search(r'[？?]', l)), "")
-    return prompt, [(l, "") for l in labels if l != prompt]
+    return prompt, [(l, "", "") for l in labels if l != prompt]
 
 
 def extract_script(stem):
@@ -362,12 +370,12 @@ def extract_script(stem):
         kind = FORK_DEFS.get(cmd)
         if kind:
             prompt, opts = fork_options(kind, param)
-            opts = [(t, d) for t, d in opts if t]
+            opts = [(t, d, e) for t, d, e in opts if t]
             if opts:
                 beats.append({'k': 'choice', 'kind': kind, 'prompt': prompt, 'options': opts})
                 last_marker = None
                 if kind != 'phone':
-                    stack.append({'group': head, 'titles': [t for t, _ in opts], 'cur': None, 'opened': set()})
+                    stack.append({'group': head, 'titles': [t for t, _, _ in opts], 'cur': None, 'opened': set()})
             continue
 
         closer = next((v for suffix, v in FORK_CLOSE.items() if cmd.endswith(suffix)), None)
@@ -497,7 +505,7 @@ def render_beats(beats):
                      'phone': '通讯回复抉择'}[b['kind']]
             prompt = "：%s" % b['prompt'] if b['prompt'] else ""
             lines += ["", "> **[%s%s]**" % (label, prompt)]
-            lines += ["> - **%s**%s" % (t, "：%s" % d if d else "") for t, d in b['options']]
+            lines += ["> - **%s**%s" % (t, "：%s" % d if d else "") for t, d, _ev in b['options']]
         lines.append("")
     return lines
 
@@ -557,6 +565,14 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
         'counts': dict(counts),
         'preview': " ".join(b['text'] for b in beats if b['k'] == 'talk')[:180],
     }
+    # Document-ordered 重大抉择 blocks with per-option jump EvId; the site joins
+    # these against StoryCondition/ActivityStoryEvidence to label branch targets.
+    major_choices = [
+        [{'title': t, 'ev': ev} for (t, _d, ev) in b['options']]
+        for b in beats if b['k'] == 'choice' and b['kind'] == 'major' and b['options']
+    ]
+    if major_choices:
+        rec['major_choices'] = major_choices
     rec.update(extra)
     _PAGES.append(rec)
     _RENDERED.update(stems)

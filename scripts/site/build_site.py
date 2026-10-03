@@ -128,6 +128,27 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
             for p in n['parents']:
                 children_map[p].append(n)
 
+    # option jump EvId -> branch level. StoryCondition ties a child level's
+    # ConditionId to the EvId(s) of the choice options that unlock it from a
+    # given parent story, so branch badges can follow the option, not its index.
+    story_cond_file = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'StoryCondition.json')
+    story_cond = json.load(open(story_cond_file, encoding='utf-8')) if os.path.exists(story_cond_file) else {}
+    story_cond_by_cond = {}
+    for row in story_cond.values():
+        cid = row.get('ConditionId')
+        if cid:
+            story_cond_by_cond.setdefault(cid, row)
+    unresolved_branches = []
+
+    def target_info(ch, page_url, cur_d):
+        return {
+            'code': ch.get('code') or '·',
+            'title': ch.get('title') or '',
+            'url': T.rel(cur_d, ch['page']),
+            'cls': T.node_state_class(ch),
+            'tag': '终局' if ch.get('is_branch') or ch.get('is_last') else ('战斗' if ch.get('kind') == 'battle' else '剧情'),
+        }
+
     for p in pages:
         if p['family'] == 'main':
             stem = p.get('story_id')
@@ -135,7 +156,6 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
             cur_d = T.depth_of(p['page'])
             prev_items = []
             next_items = []
-            branches = []
             if n:
                 for parent_sid in n['parents']:
                     par = sid_to_node.get(parent_sid)
@@ -149,27 +169,36 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                 ch_nodes = children_map.get(n['story_id'], [])
                 for ch in ch_nodes:
                     if ch.get('page'):
-                        ch_info = {
-                            'code': ch.get('code') or '·',
-                            'title': ch.get('title') or '',
-                            'url': T.rel(cur_d, ch['page']),
-                            'cls': T.node_state_class(ch),
-                            'tag': '终局' if ch.get('is_branch') or ch.get('is_last') else ('战斗' if ch.get('kind') == 'battle' else '剧情'),
-                        }
-                        next_items.append(ch_info)
+                        next_items.append(target_info(ch, p['page'], cur_d))
                 if len(ch_nodes) > 1:
-                    sorted_chs = sorted(ch_nodes, key=lambda x: (x.get('condition') or '', x['sid']))
-                    for ch in sorted_chs:
-                        if ch.get('page'):
-                            branches.append({
-                                'code': ch.get('code') or '·',
-                                'title': ch.get('title') or '',
-                                'url': T.rel(cur_d, ch['page']),
-                                'cls': T.node_state_class(ch),
-                                'tag': '终局' if ch.get('is_branch') or ch.get('is_last') else ('战斗' if ch.get('kind') == 'battle' else '剧情'),
-                            })
-                    if branches:
-                        branch_index[p['page']] = branches
+                    ev_to_child = {}
+                    for ch in ch_nodes:
+                        if not ch.get('page'):
+                            continue
+                        entry = story_cond_by_cond.get(ch.get('condition'))
+                        if not entry:
+                            continue
+                        parents = (entry.get('StoryId_a') or []) + (entry.get('StoryId_b') or [])
+                        if n['story_id'] not in parents:
+                            continue
+                        evs = (entry.get('EvIds_a') or []) + (entry.get('EvIds_b') or [])
+                        for ev in evs:
+                            ev_to_child.setdefault(ev, ch)
+                    groups = []
+                    for choice in (p.get('major_choices') or []):
+                        targets = []
+                        for opt in choice:
+                            ch = ev_to_child.get(opt.get('ev'))
+                            if ch:
+                                info = target_info(ch, p['page'], cur_d)
+                                info['opt'] = opt.get('title') or ''
+                                targets.append(info)
+                            elif opt.get('ev'):
+                                unresolved_branches.append((p['page'], opt.get('title') or '', opt.get('ev')))
+                        if targets:
+                            groups.append(targets)
+                    if groups:
+                        branch_index[p['page']] = groups
 
             nav_index[p['page']] = {'prev': prev_items, 'next': next_items}
 
@@ -204,6 +233,9 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
     # 2. Activity DAG & linear navigation for all 11 activities via ActivityStoryCondition.json
     cond_file = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'ActivityStoryCondition.json')
     cond_data = json.load(open(cond_file, encoding='utf-8')) if os.path.exists(cond_file) else {}
+    evid_file = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'ActivityStoryEvidence.json')
+    evid_data = json.load(open(evid_file, encoding='utf-8')) if os.path.exists(evid_file) else {}
+    act_evidence = {str(k): (row.get('EvId') or '') for k, row in evid_data.items()}
 
     all_event_pages = [p for p in pages if p['family'] == 'events'] + act_battle_pages
     by_act = collections.defaultdict(list)
@@ -253,21 +285,33 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                     })
             nav_index[p['page']] = {'prev': prev_items, 'next': next_items}
             if len(ch_ids) > 1:
-                branches = []
+                # option jump EvId -> branch activity level (ActivityStoryEvidence)
+                ev_to_act = {}
                 for ch_id in ch_ids:
-                    ch_p = act_page_map.get(ch_id)
-                    if ch_p:
-                        is_b = ch_p.get('kind') == 'battle'
-                        tag = '战斗' if is_b else '分支'
-                        branches.append({
-                            'code': ch_p.get('code') or '·',
-                            'title': ch_p.get('title') or '',
-                            'url': T.rel(cur_d, ch_p['page']),
-                            'cls': 'battle' if is_b else 'story',
-                            'tag': tag,
-                        })
-                if branches:
-                    branch_index[p['page']] = branches
+                    ev = act_evidence.get(str(ch_id))
+                    if ev:
+                        ev_to_act.setdefault(ev, ch_id)
+                groups = []
+                for choice in (p.get('major_choices') or []):
+                    targets = []
+                    for opt in choice:
+                        ch_p = act_page_map.get(ev_to_act.get(opt.get('ev')))
+                        if ch_p:
+                            is_b = ch_p.get('kind') == 'battle'
+                            targets.append({
+                                'opt': opt.get('title') or '',
+                                'code': ch_p.get('code') or '·',
+                                'title': ch_p.get('title') or '',
+                                'url': T.rel(cur_d, ch_p['page']),
+                                'cls': 'battle' if is_b else 'story',
+                                'tag': '战斗' if is_b else '分支',
+                            })
+                        elif opt.get('ev'):
+                            unresolved_branches.append((p['page'], opt.get('title') or '', opt.get('ev')))
+                    if targets:
+                        groups.append(targets)
+                if groups:
+                    branch_index[p['page']] = groups
 
     # 3. Non-main, non-events linear sequence navigation for remaining groups
     by_grp = collections.defaultdict(list)
@@ -297,6 +341,11 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                     'url': T.rel(cur_d, next_p['page']),
                 })
             nav_index[cur_p['page']] = {'prev': prev_items, 'next': next_items}
+
+    if unresolved_branches:
+        print("分支走向角标：%d 个选项未解析到目标关卡（对应上方页面将不显示角标）：" % len(unresolved_branches))
+        for page, opt, ev in unresolved_branches:
+            print("    %s  选项「%s」ev=%s" % (page, opt, ev))
 
     return nav_index, branch_index
 
