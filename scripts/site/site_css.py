@@ -1177,21 +1177,6 @@ h1 {
 [data-theme="dark"] .backlog-body {
   background: #0d131f;
 }
-.backlog-body::after {
-  content: '';
-  position: absolute;
-  top: 14px;
-  bottom: 14px;
-  right: 6px;
-  width: 3px;
-  background: #00b4b6;
-  border-radius: 2px;
-  opacity: 0.7;
-  pointer-events: none;
-}
-[data-theme="dark"] .backlog-body::after {
-  background: #14b8a6;
-}
 
 /* Dialogue Lines: Backlog Item Card */
 .page .line {
@@ -1333,10 +1318,13 @@ h1 {
   gap: 12px;
   flex-wrap: wrap;
   transition: all 0.15s ease;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .options li.has-jump {
   padding: 0;
   cursor: pointer;
+  overflow: hidden;
 }
 .options li:hover {
   border-color: var(--card-border-hover);
@@ -1349,8 +1337,10 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   padding: 8px 14px;
   text-decoration: none;
   color: inherit;
@@ -1372,22 +1362,24 @@ h1 {
   font-weight: 700;
 }
 .opt-main {
-  flex: 1;
-  min-width: 200px;
+  flex: 1 1 0%;
+  min-width: 0;
+  word-break: break-word;
 }
 .opt-jump-badge {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  font-size: 11.5px;
+  gap: 3px;
+  font-size: 11px;
   font-weight: 500;
-  padding: 2px 8px;
+  padding: 2.5px 8px;
   border-radius: 12px;
   background: rgba(13, 148, 136, 0.08);
   color: var(--story);
   border: 1px solid rgba(13, 148, 136, 0.22);
   transition: all 0.15s ease;
   flex-shrink: 0;
+  white-space: nowrap;
 }
 .opt-jump-badge.is-merge {
   background: rgba(100, 116, 139, 0.08);
@@ -1614,6 +1606,31 @@ h1 {
   gap: 16px;
 }
 @media (max-width: 600px) {
+  .wrap {
+    padding: 16px 10px 48px;
+  }
+  .page blockquote {
+    padding: 10px 12px;
+    margin: 12px 0 18px;
+  }
+  .backlog-body {
+    padding: 10px 8px;
+  }
+  .page .line {
+    padding: 10px 12px;
+  }
+  .opt-link {
+    padding: 7px 10px;
+    gap: 8px;
+  }
+  .opt-jump-badge {
+    font-size: 10.5px;
+    padding: 2px 6px;
+  }
+  .branch-nav-btn {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
   .story-nav { grid-template-columns: 1fr; }
 }
 .story-nav-prev, .story-nav-next, .story-nav-branches {
