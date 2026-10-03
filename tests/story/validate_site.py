@@ -8,6 +8,11 @@ file imports neither build_story.py nor graph_layout.py.
 G  图数据  : chapters.json 的每个节点字段 == 独立重导，且图不变量成立
 G2 侧车一致: sections.json 的页面集合 == 磁盘上的 md 集合，stems/计数与剧本原文对得上
 G3 变异测试: 篡改 JSON 后必须被同一套断言抓到
+M  页内锚点: 页内 href="#x" 都必须落在同页的 id="x" 上
+M2 玩家回应: 「玩家回应」标记渲染成聊天气泡，提示词保留为前置句
+M3 单选项抉择: 只提供一个选项的抉择不是分叉，不得渲染 若选 分支框/分支导航
+    （上游 CG_126_03.lua 的 SetChoiceEnd 写错帧，见 AI_HANDOVER_GUIDE.md 3.5；
+     生成器照实吐标记，兜底在渲染层压制，md 不动）
 """
 import sys, os, re, json, shutil, collections, functools
 
@@ -868,3 +873,216 @@ try:
 finally:
     shutil.move(victim + '.bak', victim)
 print('还原后复检: %s' % ('PASS' if not audit_branch_badges()[0] else 'FAIL'))
+
+
+# ============================================================ M  页内锚点完整性 & 玩家回应气泡
+print()
+print("=" * 66)
+print("M  页内锚点完整性 & 「玩家回应」聊天气泡渲染")
+print("=" * 66)
+PR_MARK = re.compile(r'^> \*\*\[玩家回应(：([^\]]+))?\]\*\*$', re.M)
+LEAD_P = re.compile(r'<p class="reply-lead">(.*?)</p>', re.S)
+BUBBLE = re.compile(r'class="player-reply"')
+
+
+def audit_anchors():
+    """Every in-page href="#x" must land on an id="x" of the same file."""
+    errs = []
+    for dp, _d, fs in os.walk(SITE):
+        for f in fs:
+            if not f.endswith('.html'):
+                continue
+            html = open(os.path.join(dp, f), encoding='utf-8').read()
+            ids = set(re.findall(r' id="([^"]+)"', html))
+            for m in re.finditer(r'href="#([^"]+)"', html):
+                if m.group(1) not in ids:
+                    errs.append((os.path.relpath(os.path.join(dp, f), SITE), '#' + m.group(1)))
+    return errs
+
+
+def audit_player_replies():
+    """每处 玩家回应 标记都要渲染成气泡；带提示词的必须保留前置句。"""
+    errs = []
+    checked = bubbles_total = leads_total = 0
+    for p in pages:
+        md_path = os.path.join(OUT, *p['page_md'].split('/'))
+        if not os.path.exists(md_path):
+            continue
+        marks = PR_MARK.findall(open(md_path, encoding='utf-8').read())
+        if not marks:
+            continue
+        checked += 1
+        hp = os.path.join(SITE, *p['page'].split('/'))
+        if not os.path.exists(hp):
+            errs.append((p['page'], '页面缺失'))
+            continue
+        html = open(hp, encoding='utf-8').read()
+        bubbles = len(BUBBLE.findall(html))
+        leads_html = [unesc(re.sub(r'<[^>]+>', '', x)) for x in LEAD_P.findall(html)]
+        leads_md = [m[1] for m in marks if m[1]]
+        bubbles_total += bubbles
+        leads_total += len(leads_html)
+        if bubbles != len(marks):
+            errs.append((p['page'], '气泡数与标记数不符', bubbles, len(marks)))
+        if leads_html != leads_md:
+            errs.append((p['page'], '前置句与标记不符', leads_html[:3], leads_md[:3]))
+    return errs, checked, bubbles_total, leads_total
+
+
+M_errs = audit_anchors()
+M2_errs, M2_pages, M2_bubbles, M2_leads = audit_player_replies()
+print('页内锚点悬空：%d' % len(M_errs))
+for x in M_errs[:5]:
+    print('   ~', x)
+print('含「玩家回应」的页面 %d   气泡 %d   前置句 %d   违例 %d'
+      % (M2_pages, M2_bubbles, M2_leads, len(M2_errs)))
+for x in M2_errs[:5]:
+    print('   ~', x)
+
+print()
+print('M2 变异测试')
+victim = os.path.join(SITE, 'characters', '126', '12603.html')
+orig_m = open(victim, encoding='utf-8').read()
+shutil.copyfile(victim, victim + '.bak')
+try:
+    # locate an in-page anchor some page actually links to, then drop its target.
+    # The victim is picked dynamically: the single-option suppression (M3) removed
+    # every #choice reference from 12603, so a fixed page could stop exercising M.
+    mut_page = mut_ref = None
+    for _p in pages:
+        _hp = os.path.join(SITE, *_p['page'].split('/'))
+        if not os.path.exists(_hp):
+            continue
+        _m = re.search(r'href="#(choice-\d+)"', open(_hp, encoding='utf-8').read())
+        if _m:
+            mut_page, mut_ref = _hp, _m.group(1)
+            break
+    if mut_page is None:
+        print('植入[抹掉被引用的气泡 id]: MISSED（站内已无 #choice 引用，测试失效）')
+    else:
+        mut = open(mut_page, encoding='utf-8').read()
+        shutil.copyfile(mut_page, mut_page + '.bak')
+        try:
+            open(mut_page, 'w', encoding='utf-8', newline='\n').write(
+                mut.replace(' id="%s"' % mut_ref, '', 1))
+            print('植入[抹掉被引用的气泡 id #%s @ %s]: %s'
+                  % (mut_ref, os.path.basename(mut_page),
+                     'CAUGHT' if audit_anchors() else 'MISSED'))
+        finally:
+            shutil.move(mut_page + '.bak', mut_page)
+    open(victim, 'w', encoding='utf-8', newline='\n').write(
+        orig_m.replace('<p class="reply-lead">那就……你真努力呢</p>', '', 1))
+    print('植入[删掉一处 reply-lead]: %s' % ('CAUGHT' if audit_player_replies()[0] else 'MISSED'))
+finally:
+    shutil.move(victim + '.bak', victim)
+print('还原后复检: %s' % ('PASS' if not audit_anchors() and not audit_player_replies()[0] else 'FAIL'))
+
+
+# ============================================ M3  单选项父抉择不得渲染成分支框
+print()
+print("=" * 66)
+print("M3  单选项抉择不渲染分支框（上游 SetChoiceEnd 错帧的展示层妥协）")
+print("=" * 66)
+M3_MARK = re.compile(r'^> \*\*\[(.+?)\]\*\*$', re.M)
+M3_BULLET = re.compile(r'^> - \*\*(.+?)\*\*(?:：(.*))?$')
+M3_OPEN = re.compile(r'<p class="branch-open"[^>]*>(.*?)</p>')
+MARKER = re.compile(r'^> \*\*\[(.+?)\]\*\*$')
+BULLET = re.compile(r'^> - \*\*(.+?)\*\*(?:：(.*))?$')
+
+
+def _m3_is_choice(tag):
+    return (tag.endswith('抉择') or '抉择：' in tag or '抉择:' in tag
+            or tag == '玩家回应' or tag.startswith('玩家回应：')
+            or tag.startswith('通讯回复抉择'))
+
+
+def audit_single_option_choices():
+    """A choice offering exactly one option is a reply, not a fork.
+
+    Upstream CG_126_03.lua closes the a_10 choice group with a_4's SetChoiceEnd,
+    so the frame never pops and build_story.py re-emits the same 若选 line for
+    later beats (AI_HANDOVER_GUIDE.md 3.5). The generator stays faithful to the
+    data; md2html.py suppresses the marker instead. This audit re-derives the
+    single-option choices straight from the md and asserts the HTML kept quiet:
+    no 若选 branch header, and no branch chrome pointing back at that choice.
+    """
+    errs = []
+    checked = singles = ruose = 0
+    for p in pages:
+        md_path = os.path.join(OUT, *p['page_md'].split('/'))
+        if not os.path.exists(md_path):
+            continue
+        lines = open(md_path, encoding='utf-8').read().splitlines()
+        one_opt = {}   # choice tag -> its single option
+        tags = []      # every 若选 tag on the page
+        i = 0
+        while i < len(lines):
+            m = MARKER.match(lines[i].rstrip())
+            if not m:
+                i += 1
+                continue
+            tag = m.group(1)
+            if _m3_is_choice(tag):
+                opts = []
+                j = i + 1
+                while j < len(lines) and (BULLET.match(lines[j].rstrip()) or not lines[j].strip()):
+                    bm = BULLET.match(lines[j].rstrip())
+                    if bm:
+                        opts.append(bm.group(1))
+                    j += 1
+                if len(opts) == 1:
+                    one_opt[tag] = opts[0]
+                i = j
+                continue
+            if tag.startswith('若选'):
+                tags.append(tag)
+            i += 1
+        if not one_opt and not tags:
+            continue
+        checked += 1
+        singles += len(one_opt)
+        ruose += len(tags)
+        hp = os.path.join(SITE, *p['page'].split('/'))
+        if not os.path.exists(hp):
+            errs.append((p['page'], '页面缺失'))
+            continue
+        html = open(hp, encoding='utf-8').read()
+        # rendered choice markers carry their anchor id: <p class="choice" id="choice-N">tag</p>
+        cid = {}
+        for m in re.finditer(r'<p class="choice[^"]*" id="([^"]+)">(.*?)</p>', html):
+            cid[m.group(2)] = m.group(1)
+        for tag, opt in one_opt.items():
+            if re.search(r'<p class="branch-open"[^>]*>若选「%s」' % re.escape(opt), html):
+                errs.append((p['page'], '单选项抉择被渲染成若选分支框', tag))
+            anchor = cid.get(tag)
+            if anchor and re.search(r'href="#%s"' % re.escape(anchor), html):
+                errs.append((p['page'], '分支导航指向单选项抉择', tag, anchor))
+    return errs, checked, singles, ruose
+
+
+M3_errs, M3_pages, M3_single, M3_ruose = audit_single_option_choices()
+print('含单选项抉择或若选的页面 %d   单选项抉择 %d   md 中若选 %d   违例 %d'
+      % (M3_pages, M3_single, M3_ruose, len(M3_errs)))
+for x in M3_errs[:5]:
+    print('   ~', x)
+
+print()
+print('M3 变异测试')
+victim3 = os.path.join(SITE, 'characters', '126', '12603.html')
+orig_3 = open(victim3, encoding='utf-8').read()
+shutil.copyfile(victim3, victim3 + '.bak')
+try:
+    planted = ('<p class="branch-open" id="branch-6-0">'
+               '若选「别拖了，快赶不上演出了」↓</p>\n')
+    # 12603's bubbles all carry an id (#choice-N), so anchor on a structural tag
+    anchor = '<h2 data-part="3">'
+    if anchor not in orig_3:
+        print('植入[把单选项抉择的若选画回分支框]: MISSED（找不到插入点 %s）' % anchor)
+    else:
+        open(victim3, 'w', encoding='utf-8', newline='\n').write(
+            orig_3.replace(anchor, planted + anchor, 1))
+        print('植入[把单选项抉择的若选画回分支框]: %s'
+              % ('CAUGHT' if audit_single_option_choices()[0] else 'MISSED'))
+finally:
+    shutil.move(victim3 + '.bak', victim3)
+print('还原后复检: %s' % ('PASS' if not audit_single_option_choices()[0] else 'FAIL'))

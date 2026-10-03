@@ -33,6 +33,10 @@ def _cls_for_marker(text):
         return 'choice major-choice'
     if text.endswith('抉择') or '抉择：' in text or '抉择:' in text:
         return 'choice'
+    # single-option generic replies render as the chat bubble below; classify so the
+    # structure pass assigns them a choice anchor that branch-nav can jump back to
+    if text == '玩家回应' or text.startswith('玩家回应：'):
+        return 'choice'
     if text.startswith('通讯回复抉择'):
         return 'choice'
     return 'marker'
@@ -108,7 +112,26 @@ def _parse_choice_structure(md):
             elif tag.startswith('若选'):
                 bm = re.match(r'^若选「(.*?)」↓$', tag)
                 opt_name = bm.group(1) if bm else tag[2:-1]
-                parent_c = stack[-1] if stack else None
+                # The generator attributes a branch to the choice its option name
+                # belongs to (the frame its jump entered), which is not always the
+                # most recently opened one — e.g. a 玩家回应 opened inside branch
+                # content carries no jump of its own. Match by option name from the
+                # innermost frame outward, falling back to the previous stack-top rule.
+                parent_c = None
+                for fr in reversed(stack):
+                    if any(_clean_opt(o) == _clean_opt(opt_name) for o in fr['options']):
+                        parent_c = fr
+                        break
+                if parent_c is None and stack:
+                    parent_c = stack[-1]
+                # A choice that offers only one option is not a fork at all: the game
+                # cannot branch there, so its 若选 markers are pure presenter noise.
+                # See AI_HANDOVER_GUIDE.md 3.5 — upstream CG_126_03.lua closes choice
+                # group a_10 with a_4's SetChoiceEnd, leaving the frame live and making
+                # build_story.py re-emit the same 若选 for every later beat. Rendering it
+                # as a branch box would show a "fork" that does not exist, so such a
+                # marker is rendered as plain dialogue instead.
+                single_parent = bool(parent_c) and len(parent_c['options']) <= 1
                 b_idx = len(parent_c['branches']) if parent_c else len(branches)
                 c_id_num = parent_c['cid'] if parent_c else 0
                 b_info = {
@@ -118,6 +141,7 @@ def _parse_choice_structure(md):
                     'parent_cid': c_id_num,
                     'choice_id': parent_c['choice_id'] if parent_c else f'choice-{c_id_num}',
                     'tag': tag,
+                    'single_parent': single_parent,
                     'line_idx': i
                 }
                 branches.append(b_info)
@@ -132,7 +156,11 @@ def _parse_choice_structure(md):
                             sc = stack.pop()
                             sc['merge_id'] = mid
                     else:
-                        sc = stack.pop()
+                        # the merge arrives when the fork structure rejoins, so it
+                        # closes the innermost frame that actually owns branches —
+                        # a forked-over 玩家回应 frame on top must not steal it
+                        sc = next((fr for fr in reversed(stack) if fr['branches']), stack[-1])
+                        stack.remove(sc)
                         mid = f'merge-{sc["cid"]}'
                         sc['merge_id'] = mid
                 merges.append({'tag': tag, 'merge_id': mid, 'line_idx': i})
@@ -190,19 +218,27 @@ def convert(md, branch_targets=None):
             m = MARKER.match(t)
             if m:
                 tag_content = m.group(1)
-                if tag_content == '玩家回应':
+                if tag_content == '玩家回应' or tag_content.startswith('玩家回应：'):
+                    # consume the matching structure entry so later choices keep their ids
+                    c_obj = next(choice_iter, None)
                     if para:
                         out.append('<blockquote>%s</blockquote>'
                                    % ''.join('<p>%s</p>' % _inline(p) for p in para))
                         para = []
+                    # a bare marker has no lead-in; the prompt form carries the fixed
+                    # first half of the player's reply, kept as a muted line in the bubble
+                    lead = tag_content[len('玩家回应'):].lstrip('：').strip()
                     resp_items = []
+                    if lead:
+                        resp_items.append('<p class="reply-lead">%s</p>' % _inline(lead))
                     while i + 1 < len(text) and BULLET.match(text[i + 1]):
                         w, d = BULLET.match(text[i + 1]).groups()
                         line_text = '<b>%s</b>%s' % (escape(w), _inline('：' + d if d else ''))
                         resp_items.append('<p>%s</p>' % line_text)
                         i += 1
-                    out.append('<div class="player-reply"><div class="reply-who">魔王 选择了</div><div class="reply-body">%s</div></div>'
-                               % ''.join(resp_items))
+                    id_attr = ' id="%s"' % c_obj['choice_id'] if c_obj and c_obj.get('choice_id') else ''
+                    out.append('<div class="player-reply"%s><div class="reply-who">魔王 选择了</div><div class="reply-body">%s</div></div>'
+                               % (id_attr, ''.join(resp_items)))
                     stats['choice'] += 1
                     i += 1
                     continue
@@ -213,8 +249,16 @@ def convert(md, branch_targets=None):
                 cls = _cls_for_marker(tag_content)
 
                 if tag_content.startswith('若选'):
-                    close_active_branch()
                     b_obj = next(branch_iter, None)
+                    if b_obj and b_obj.get('single_parent'):
+                        # single-option parent: the 若选 line is not a branch header.
+                        # Drop it (and its 返回抉择/跳到汇合 nav bar) so the dialogue
+                        # simply continues; the iterator is consumed to keep every
+                        # later branch aligned. Compromise for the upstream
+                        # CG_126_03 SetChoiceEnd mix-up, see AI_HANDOVER_GUIDE.md 3.5.
+                        i += 1
+                        continue
+                    close_active_branch()
                     bid_attr = f' id="{b_obj["bid"]}"' if b_obj else ''
                     out.append('<p class="%s"%s>%s</p>' % (cls, bid_attr, escape(tag_content)))
                     stats['marker'] += 1
@@ -245,7 +289,9 @@ def convert(md, branch_targets=None):
                             c_targets = branch_targets[major_choice_seq[0]]
                         major_choice_seq[0] += 1
                     opts = []
-                    c_branches = c_obj['branches'] if c_obj else []
+                    # suppressed branches point at anchors that are never rendered,
+                    # so the option badges must ignore them (single-option parent)
+                    c_branches = [b for b in c_obj['branches'] if not b.get('single_parent')] if c_obj else []
                     c_merge_id = c_obj.get('merge_id') if c_obj else None
 
                     while i + 1 < len(text) and BULLET.match(text[i + 1]):

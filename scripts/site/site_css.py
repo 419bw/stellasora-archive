@@ -1566,6 +1566,13 @@ h1 {
   color: var(--text-main);
   font-weight: 600;
 }
+/* lead-in line of a reply split into a fixed first half + the chosen option */
+.player-reply .reply-lead {
+  margin: 0 0 2px 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
 
 /* Cast Facets Dropdown */
 .cast {
