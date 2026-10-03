@@ -1245,6 +1245,7 @@ h1 {
   color: var(--text-muted);
   border-left: 3px solid var(--card-border-hover);
   padding-left: 10px;
+  scroll-margin-top: 80px;
 }
 .choice.major-choice {
   font-size: 14px;
@@ -1271,10 +1272,33 @@ h1 {
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
-  transition: border-color 0.15s ease;
+  transition: all 0.15s ease;
+}
+.options li.has-jump {
+  padding: 0;
+  cursor: pointer;
 }
 .options li:hover {
   border-color: var(--card-border-hover);
+}
+.options li.has-jump:hover {
+  border-color: rgba(13, 148, 136, 0.45);
+  box-shadow: 0 2px 10px rgba(13, 148, 136, 0.08);
+}
+.opt-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: var(--radius-md);
+  transition: background 0.15s ease;
+}
+.opt-link:hover {
+  background: var(--line-highlight);
 }
 .options b {
   color: var(--text-main);
@@ -1291,6 +1315,36 @@ h1 {
   flex: 1;
   min-width: 200px;
 }
+.opt-jump-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: rgba(13, 148, 136, 0.08);
+  color: var(--story);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+.opt-jump-badge.is-merge {
+  background: rgba(100, 116, 139, 0.08);
+  color: var(--text-subtle);
+  border-color: rgba(100, 116, 139, 0.2);
+}
+.options li.has-jump:hover .opt-jump-badge {
+  background: var(--story);
+  color: #FFFFFF;
+  border-color: var(--story);
+  transform: translateY(1px);
+}
+.options li.has-jump:hover .opt-jump-badge.is-merge {
+  background: var(--text-subtle);
+  color: #FFFFFF;
+  border-color: var(--text-subtle);
+}
 .opt-target {
   display: inline-flex;
   align-items: center;
@@ -1303,6 +1357,7 @@ h1 {
   font-size: 12px;
   color: var(--text-main);
   transition: all 0.15s ease;
+  margin-right: 8px;
 }
 .opt-target:hover {
   border-color: var(--between);
@@ -1324,15 +1379,101 @@ h1 {
   border-left: 3px solid var(--story);
   background: var(--card-bg-subtle);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  scroll-margin-top: 80px;
+  transition: background-color 0.3s ease;
 }
 .merge {
   margin: 14px 0 6px;
-  padding: 5px 10px;
-  font-size: 11.5px;
+  padding: 6px 12px;
+  font-size: 12px;
   color: var(--text-subtle);
   background: var(--card-bg-subtle);
   border-radius: var(--radius-sm);
   text-align: center;
+  scroll-margin-top: 80px;
+  transition: background-color 0.3s ease;
+}
+
+/* Branch End Navigation (Return to Choice / Jump to Merge) */
+.branch-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 16px;
+  padding: 4px 0 6px 4px;
+  flex-wrap: wrap;
+}
+.branch-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 13px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 18px;
+  text-decoration: none;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
+  box-shadow: var(--card-shadow);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.branch-nav-btn svg {
+  flex-shrink: 0;
+  transition: transform 0.18s ease;
+}
+.branch-nav-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+.branch-nav-btn.to-choice:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.branch-nav-btn.to-choice:hover svg {
+  transform: translateY(-2px);
+}
+.branch-nav-btn.to-merge:hover {
+  border-color: var(--story);
+  color: var(--story);
+}
+.branch-nav-btn.to-merge:hover svg {
+  transform: translateY(2px);
+}
+
+/* Target Arrival Highlight Animation */
+:target,
+.target-flash {
+  animation: target-flash 1.6s ease-out;
+}
+@keyframes target-flash {
+  0% {
+    background-color: rgba(37, 99, 235, 0.16);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.20);
+  }
+  100% {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+[data-theme="dark"] .branch-nav-btn {
+  background: var(--card-bg-subtle);
+  border-color: var(--card-border);
+  color: var(--text-muted);
+}
+[data-theme="dark"] .branch-nav-btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+[data-theme="dark"] .opt-jump-badge {
+  background: rgba(20, 184, 166, 0.15);
+  border-color: rgba(20, 184, 166, 0.3);
+  color: var(--story);
+}
+[data-theme="dark"] .opt-jump-badge.is-merge {
+  background: rgba(148, 163, 184, 0.12);
+  border-color: rgba(148, 163, 184, 0.25);
+  color: var(--text-muted);
 }
 
 /* Player Response (玩家回应) matches Image 2 & 3: speaker "魔王 选择了" above text */

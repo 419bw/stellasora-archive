@@ -124,5 +124,25 @@ JS = """(function() {
       map.scrollTo({ left: parseInt(a.getAttribute('data-scroll-to'), 10) - 40, behavior: 'smooth' });
     });
   });
+
+  // Choice & Branch smooth scroll jump with highlight pulse
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('.opt-link, .branch-nav-btn');
+    if (!link) return;
+    var href = link.getAttribute('href');
+    if (!href || href.charAt(0) !== '#') return;
+    var target = document.querySelector(href);
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (history.pushState) {
+      history.pushState(null, '', href);
+    } else {
+      location.hash = href;
+    }
+    target.classList.remove('target-flash');
+    void target.offsetWidth;
+    target.classList.add('target-flash');
+  });
 })();
 """

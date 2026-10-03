@@ -38,12 +38,133 @@ def _cls_for_marker(text):
     return 'marker'
 
 
+def _clean_opt(s):
+    # Strip rubies, html tags, ellipses, and whitespace for robust option-to-branch matching
+    s = re.sub(r'<[^>]*>', '', s)
+    return re.sub(r'[.…—\s　]', '', s)
+
+
+def _branch_nav_html(choice_id, merge_id):
+    merge_btn = ''
+    if merge_id:
+        merge_btn = (
+            f'<a class="branch-nav-btn to-merge" href="#{merge_id}" title="跳过其它互斥分支，前往剧情汇合处">'
+            f'<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2">'
+            f'<path d="M12 5v14M19 12l-7 7-7-7"/>'
+            f'</svg><span>跳到汇合</span></a>'
+        )
+    return (
+        f'<div class="branch-nav">'
+        f'<a class="branch-nav-btn to-choice" href="#{choice_id}" title="回到抉择选项位置">'
+        f'<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2">'
+        f'<path d="M12 19V5M5 12l7-7 7 7"/>'
+        f'</svg><span>返回抉择</span></a>'
+        f'{merge_btn}'
+        f'</div>'
+    )
+
+
+def _parse_choice_structure(md):
+    lines = md.splitlines()
+    choices = []
+    branches = []
+    merges = []
+    stack = []
+    cid = 0
+
+    i = 0
+    while i < len(lines):
+        l = lines[i].rstrip()
+        m = MARKER.match(l)
+        if m:
+            tag = m.group(1)
+            cls = _cls_for_marker(tag)
+            if 'choice' in cls:
+                cid += 1
+                c_info = {
+                    'cid': cid,
+                    'choice_id': f'choice-{cid}',
+                    'tag': tag,
+                    'options': [],
+                    'branches': [],
+                    'merge_id': None,
+                    'line_idx': i
+                }
+                j = i + 1
+                while j < len(lines):
+                    if lines[j].startswith('> - '):
+                        bm = BULLET.match(lines[j])
+                        if bm:
+                            c_info['options'].append(bm.group(1))
+                    elif lines[j].strip() == '':
+                        pass
+                    else:
+                        break
+                    j += 1
+                choices.append(c_info)
+                stack.append(c_info)
+                i = j
+                continue
+            elif tag.startswith('若选'):
+                bm = re.match(r'^若选「(.*?)」↓$', tag)
+                opt_name = bm.group(1) if bm else tag[2:-1]
+                parent_c = stack[-1] if stack else None
+                b_idx = len(parent_c['branches']) if parent_c else len(branches)
+                c_id_num = parent_c['cid'] if parent_c else 0
+                b_info = {
+                    'bid': f'branch-{c_id_num}-{b_idx}',
+                    'b_idx': b_idx,
+                    'opt_name': opt_name,
+                    'parent_cid': c_id_num,
+                    'choice_id': parent_c['choice_id'] if parent_c else f'choice-{c_id_num}',
+                    'tag': tag,
+                    'line_idx': i
+                }
+                branches.append(b_info)
+                if parent_c:
+                    parent_c['branches'].append(b_info)
+            elif tag.startswith('▲'):
+                mid = f'merge-{cid}'
+                if stack:
+                    if '层嵌套抉择' in tag:
+                        mid = f'merge-{stack[0]["cid"]}'
+                        while stack:
+                            sc = stack.pop()
+                            sc['merge_id'] = mid
+                    else:
+                        sc = stack.pop()
+                        mid = f'merge-{sc["cid"]}'
+                        sc['merge_id'] = mid
+                merges.append({'tag': tag, 'merge_id': mid, 'line_idx': i})
+        i += 1
+
+    for b in branches:
+        p_cid = b['parent_cid']
+        c = next((x for x in choices if x['cid'] == p_cid), None)
+        b['merge_id'] = c['merge_id'] if c else None
+
+    return choices, branches, merges
+
+
 def convert(md, branch_targets=None):
+    choices, branches, merges = _parse_choice_structure(md)
+    choice_iter = iter(choices)
+    branch_iter = iter(branches)
+    merge_iter = iter(merges)
+
     out = []
     stats = {'line': 0, 'marker': 0, 'scene': 0, 'choice': 0, 'meta': 0}
     quote = []
+    active_branch = None
+
+    def close_active_branch():
+        nonlocal active_branch
+        if active_branch:
+            out.append(_branch_nav_html(active_branch['choice_id'], active_branch.get('merge_id')))
+            active_branch = None
 
     def flush_quote():
+        nonlocal active_branch
         if not quote:
             return
         text = list(quote)
@@ -81,12 +202,39 @@ def convert(md, branch_targets=None):
                                % ''.join('<p>%s</p>' % _inline(p) for p in para))
                     para = []
                 cls = _cls_for_marker(tag_content)
-                out.append('<p class="%s">%s</p>' % (cls, escape(tag_content)))
-                stats['marker'] += 1
-                if 'choice' in cls:
+
+                if tag_content.startswith('若选'):
+                    close_active_branch()
+                    b_obj = next(branch_iter, None)
+                    bid_attr = f' id="{b_obj["bid"]}"' if b_obj else ''
+                    out.append('<p class="%s"%s>%s</p>' % (cls, bid_attr, escape(tag_content)))
+                    stats['marker'] += 1
+                    if b_obj:
+                        active_branch = {
+                            'choice_id': b_obj['choice_id'],
+                            'merge_id': b_obj.get('merge_id')
+                        }
+                    i += 1
+                    continue
+                elif tag_content.startswith('▲'):
+                    close_active_branch()
+                    m_obj = next(merge_iter, None)
+                    mid_attr = f' id="{m_obj["merge_id"]}"' if m_obj else ''
+                    out.append('<p class="%s"%s>%s</p>' % (cls, mid_attr, escape(tag_content)))
+                    stats['marker'] += 1
+                    i += 1
+                    continue
+                elif 'choice' in cls:
+                    c_obj = next(choice_iter, None)
+                    cid_attr = f' id="{c_obj["choice_id"]}"' if c_obj else ''
+                    out.append('<p class="%s"%s>%s</p>' % (cls, cid_attr, escape(tag_content)))
+                    stats['marker'] += 1
                     is_major = 'major-choice' in cls
                     opts = []
                     opt_idx = 0
+                    c_branches = c_obj['branches'] if c_obj else []
+                    c_merge_id = c_obj.get('merge_id') if c_obj else None
+
                     while i + 1 < len(text) and BULLET.match(text[i + 1]):
                         w, d = BULLET.match(text[i + 1]).groups()
                         target_badge = ''
@@ -95,13 +243,48 @@ def convert(md, branch_targets=None):
                             target_badge = ('<a class="opt-target" href="%s" title="前往对应分支关卡">'
                                             '<span>分支走向</span><strong>%s %s →</strong></a>'
                                             % (escape(tgt['url']), escape(tgt['code']), escape(tgt['title'])))
-                        opts.append('<li><div class="opt-main"><b>%s</b>%s</div>%s</li>'
-                                    % (escape(w), _inline('：' + d if d else ''), target_badge))
+
+                        target_anchor = None
+                        jump_badge = ''
+                        if c_branches:
+                            matched_b = None
+                            clean_w = _clean_opt(w)
+                            for b in c_branches:
+                                clean_b = _clean_opt(b['opt_name'])
+                                if clean_w == clean_b or clean_w.startswith(clean_b) or clean_b.startswith(clean_w):
+                                    matched_b = b
+                                    break
+                            if matched_b:
+                                target_anchor = f"#{matched_b['bid']}"
+                                jump_badge = '<span class="opt-jump-badge">跳转分支 ↓</span>'
+                            elif c_merge_id:
+                                target_anchor = f"#{c_merge_id}"
+                                jump_badge = '<span class="opt-jump-badge is-merge">直接汇合 ↓</span>'
+                        elif c_merge_id:
+                            target_anchor = f"#{c_merge_id}"
+                            jump_badge = '<span class="opt-jump-badge is-merge">直接汇合 ↓</span>'
+
+                        opt_text_html = '<div class="opt-main"><b>%s</b>%s</div>' % (escape(w), _inline('：' + d if d else ''))
+                        if target_anchor:
+                            title_tip = '点击直接跳转至剧情汇合处' if 'is-merge' in jump_badge else '点击跳转至分支台词'
+                            item_inner = (
+                                f'<a class="opt-link" href="{target_anchor}" title="{title_tip}">'
+                                f'{opt_text_html}{jump_badge}</a>{target_badge}'
+                            )
+                            opts.append(f'<li class="has-jump">{item_inner}</li>')
+                        else:
+                            opts.append(f'<li>{opt_text_html}{target_badge}</li>')
+
                         opt_idx += 1
                         i += 1
                     opts_cls = 'options major-options' if is_major else 'options'
                     out.append('<ul class="%s">%s</ul>' % (opts_cls, ''.join(opts)))
                     stats['choice'] += 1
+                    i += 1
+                    continue
+                else:
+                    out.append('<p class="%s">%s</p>' % (cls, escape(tag_content)))
+                    stats['marker'] += 1
             elif NOTE.match(t):
                 out.append('<p class="note">%s</p>' % escape(NOTE.match(t).group(1)))
             elif BULLET.match(t):
@@ -131,6 +314,7 @@ def convert(md, branch_targets=None):
         elif H2.match(l):
             n, t = H2.match(l).groups()
             if in_backlog:
+                close_active_branch()
                 out.append('</div></div>')
                 in_backlog = False
             out.append('<h2 data-part="%s">%s</h2>' % (n, escape(t)))
@@ -145,6 +329,7 @@ def convert(md, branch_targets=None):
                 in_backlog = True
         elif l.startswith('## '):
             if in_backlog:
+                close_active_branch()
                 out.append('</div></div>')
                 in_backlog = False
             out.append('<h2>%s</h2>' % escape(l[3:]))
@@ -173,6 +358,7 @@ def convert(md, branch_targets=None):
         else:
             out.append('<p>%s</p>' % _inline(l))
     flush_quote()
+    close_active_branch()
     if in_backlog:
         out.append('</div></div>')
     return '\n'.join(out), stats
