@@ -53,25 +53,33 @@ jobs:
             git clone --depth 1 https://github.com/MakoStar/ss-lua.git data/ss_lua
           fi
 
-      - name: Process Sync or Local Build
+      - name: Process Sync
         id: sync_step
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             SYNC_ARGS=""
+
             if [ "${{ github.event.inputs.force_sync }}" = "true" ]; then
               SYNC_ARGS="$SYNC_ARGS --force"
             fi
+
             if [ "${{ github.event.inputs.allow_single }}" = "true" ]; then
               SYNC_ARGS="$SYNC_ARGS --allow-single-upstream"
             fi
+
             echo "Running auto_sync.py $SYNC_ARGS..."
             python scripts/automation/auto_sync.py $SYNC_ARGS
           else
-            echo "Push event detected. Generating static site..."
-            python scripts/site/build_site.py
-            echo "Validating static site..."
-            python tests/story/validate_site.py
+            echo "Push event detected."
           fi
+
+      - name: Build static site
+        run: |
+          python scripts/site/build_site.py
+
+      - name: Validate static site
+        run: |
+          python tests/story/validate_site.py
 
       - name: Commit and push changes if upstreams updated
         if: steps.sync_step.outputs.has_updates == 'true'
