@@ -73,7 +73,8 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-04
-- docs: 重构 README 并下沉开发文档
+- style(site): 统一全站手帐档案视觉风格，优化关卡拓扑与流式排版
+- feat(site): 补充维基外链与交流群号，优化关卡列表标签展示
 
 ---
 
