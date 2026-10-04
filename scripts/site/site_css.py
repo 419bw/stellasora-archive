@@ -350,30 +350,32 @@ h1 {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  padding: 8px 14px;
+  padding: 9px 14px;
   font-size: 13px;
   line-height: 1.55;
-  border-radius: var(--radius-md);
+  border-radius: 4px;
   background: var(--card-bg);
-  border: 1px solid var(--card-border-subtle);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  border: 1.5px solid var(--card-border-subtle);
+  box-shadow: 0 2px 0 var(--card-border-subtle);
 }
 .notice-pill.notice-spoiler {
-  background: rgba(245, 158, 11, 0.06);
+  background: rgba(245, 158, 11, 0.05);
   border-color: rgba(245, 158, 11, 0.25);
+  border-left: 4px solid #D97706;
 }
 .notice-pill.notice-scope {
-  background: rgba(20, 184, 166, 0.06);
+  background: rgba(20, 184, 166, 0.05);
   border-color: rgba(20, 184, 166, 0.22);
+  border-left: 4px solid #0D9488;
 }
 .notice-tag {
   display: inline-block;
   flex-shrink: 0;
-  padding: 2px 7px;
+  padding: 2px 8px;
   font-size: 11px;
-  font-weight: 700;
-  border-radius: 4px;
-  letter-spacing: 0.02em;
+  font-weight: 800;
+  border-radius: 3px;
+  letter-spacing: 0.04em;
 }
 .tag-spoiler {
   background: rgba(245, 158, 11, 0.16);
@@ -431,25 +433,121 @@ h1 {
 
 .bento-card {
   position: relative;
+  overflow: hidden;
   height: 100%;
   min-height: 175px;
-  padding: 24px 26px;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius-xl);
+  padding: 22px 24px 18px;
+  background-color: var(--card-bg);
+  /* 手帐方格底纹 (Visible Notebook Graph Grid) */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.045) 1px, transparent 1px);
+  background-size: 14px 14px;
+  border: 1.5px solid var(--card-border);
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
-              border-color 0.2s ease,
-              box-shadow 0.2s ease;
-  box-shadow: var(--card-shadow);
+  box-shadow: 0 2px 0 var(--card-border), 0 4px 12px rgba(15, 23, 42, 0.04);
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.18s ease,
+              box-shadow 0.18s ease;
 }
+[data-theme="dark"] .bento-card {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .bento-card:hover {
-  transform: translateY(-2px);
-  border-color: var(--card-border-hover);
-  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-3px);
+  border-color: var(--card-theme, var(--card-border-hover));
+  box-shadow: 0 4px 0 var(--card-theme, var(--story)), 0 8px 18px rgba(0, 0, 0, 0.08);
 }
+[data-theme="dark"] .bento-card:hover {
+  box-shadow: 0 4px 0 var(--card-theme, var(--story)), 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* 顶部手帐色带 (Top Washi Tape Accent) */
+.bento-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--card-theme, var(--story));
+  z-index: 2;
+}
+
+/* Specific theme colors and stripes per bento card */
+.bento-card[data-slug="main"] {
+  --card-theme: #0284C7;
+  --card-theme-stripe: rgba(2, 132, 199, 0.18);
+}
+.bento-card[data-slug="characters"] {
+  --card-theme: #D85F84;
+  --card-theme-stripe: rgba(216, 95, 132, 0.18);
+}
+.bento-card[data-slug="events"] {
+  --card-theme: #0D9488;
+  --card-theme-stripe: rgba(13, 148, 136, 0.18);
+}
+.bento-card[data-slug="discs"] {
+  --card-theme: #9333EA;
+  --card-theme-stripe: rgba(147, 51, 234, 0.18);
+}
+.bento-card[data-slug="storysets"] {
+  --card-theme: #D97706;
+  --card-theme-stripe: rgba(217, 119, 6, 0.18);
+}
+.bento-card[data-slug="npc"] {
+  --card-theme: #7C3AED;
+  --card-theme-stripe: rgba(124, 58, 237, 0.18);
+}
+.bento-card[data-slug="prologue"] {
+  --card-theme: #2563EB;
+  --card-theme-stripe: rgba(37, 99, 235, 0.18);
+}
+.bento-card[data-slug="battles"] {
+  --card-theme: #DC2626;
+  --card-theme-stripe: rgba(220, 38, 38, 0.18);
+}
+
+[data-theme="dark"] .bento-card[data-slug="main"] {
+  --card-theme: #38BDF8;
+  --card-theme-stripe: rgba(56, 189, 248, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="characters"] {
+  --card-theme: #F494AF;
+  --card-theme-stripe: rgba(244, 148, 175, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="events"] {
+  --card-theme: #2DD4BF;
+  --card-theme-stripe: rgba(45, 212, 191, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="discs"] {
+  --card-theme: #C084FC;
+  --card-theme-stripe: rgba(192, 132, 252, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="storysets"] {
+  --card-theme: #FBBF24;
+  --card-theme-stripe: rgba(251, 191, 36, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="npc"] {
+  --card-theme: #A78BFA;
+  --card-theme-stripe: rgba(167, 139, 250, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="prologue"] {
+  --card-theme: #60A5FA;
+  --card-theme-stripe: rgba(96, 165, 250, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="battles"] {
+  --card-theme: #F87171;
+  --card-theme-stripe: rgba(248, 113, 113, 0.22);
+}
+
 .bento-card-link {
   position: absolute;
   inset: 0;
@@ -461,26 +559,44 @@ h1 {
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
 }
+
+/* 尖角斜切编号印章 (Dossier Stamp Badge) */
 .bento-num {
   font-family: var(--font-mono);
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-subtle);
-  letter-spacing: 0.06em;
-  opacity: 0.65;
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  background: var(--card-theme, var(--story));
+  letter-spacing: 0.1em;
+  padding: 2px 10px 2px 8px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
 }
+[data-theme="dark"] .bento-num {
+  color: #0A0E17;
+  font-weight: 900;
+}
+
 .bento-body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 .bento-title {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 17.5px;
+  font-weight: 800;
   color: var(--text-main);
   margin: 0 0 8px;
-  line-height: 1.3;
+  line-height: 1.35;
+  transition: color 0.15s ease;
+}
+.bento-card:hover .bento-title {
+  color: var(--card-theme, var(--story));
 }
 .bento-desc {
   font-size: 13.5px;
@@ -494,17 +610,23 @@ h1 {
   justify-content: space-between;
   font-size: 12.5px;
   color: var(--text-subtle);
-  padding-top: 12px;
-  border-top: 1px solid var(--card-border-subtle);
+  padding-top: 10px;
+  border-top: 1.5px dashed var(--card-border-subtle);
+  position: relative;
+  z-index: 1;
 }
-.bento-count { font-weight: 500; }
+.bento-count {
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
 .bento-arrow {
   font-size: 15px;
-  transition: transform 0.2s ease;
+  font-weight: 700;
+  transition: transform 0.2s ease, color 0.15s ease;
 }
 .bento-card:hover .bento-arrow {
-  transform: translateX(4px);
-  color: var(--text-main);
+  transform: translateX(5px);
+  color: var(--card-theme, var(--story));
 }
 
 /* Update Section (最近更新板块) */
@@ -661,117 +783,419 @@ h1 {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 14px;
 }
+/* 主线章节手帐卡片 (Sharp-cornered Notebook Chapter Card) */
 .chapcard {
+  --chap-accent: #0284C7;
   display: block;
-  padding: 20px 22px;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  background-color: var(--card-bg);
+  /* 手帐方格纸背景 */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+  background-size: 14px 14px;
+  border: 1.5px solid var(--card-border);
+  border-left: 5px solid var(--chap-accent);
+  border-radius: 4px;
+  box-shadow: 0 2px 0 var(--card-border), 0 3px 8px rgba(15, 23, 42, 0.04);
   text-decoration: none;
   color: var(--text-main);
-  transition: all 0.2s ease;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
   position: relative;
+  overflow: hidden;
+}
+[data-theme="dark"] .chapcard {
+  --chap-accent: #38BDF8;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), 0 3px 8px rgba(0, 0, 0, 0.25);
 }
 .chapcard:hover {
-  border-color: var(--card-border-hover);
+  border-color: var(--chap-accent);
+  box-shadow: 0 3px 0 var(--chap-accent), 0 6px 14px rgba(0, 0, 0, 0.07);
   transform: translateY(-2px);
-  box-shadow: var(--card-shadow-hover);
 }
-.chap-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-.chapno { font-size: 12.5px; font-weight: 600; color: var(--text-subtle); }
-.chapyear { font-size: 12px; color: var(--text-subtle); }
-.chaptitle { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
-.chapinfo { font-size: 12.5px; color: var(--text-muted); }
+[data-theme="dark"] .chapcard:hover {
+  box-shadow: 0 3px 0 var(--chap-accent), 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+.chap-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.chapno {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--chap-accent);
+  background: var(--chap-accent);
+  padding: 1.5px 10px 1.5px 7px;
+  letter-spacing: 0.03em;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  z-index: 1;
+}
+.chapno::before {
+  content: '';
+  position: absolute;
+  inset: 1.2px;
+  background: var(--card-bg);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  z-index: -1;
+}
+[data-theme="dark"] .chapno {
+  color: #38BDF8;
+  background: #38BDF8;
+}
+.chapyear {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--text-subtle);
+}
+.chaptitle {
+  font-size: 16.5px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 8px;
+  line-height: 1.35;
+  transition: color 0.15s ease;
+}
+.chapcard:hover .chaptitle {
+  color: var(--chap-accent);
+}
+.chapinfo {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
 .chap-arrow {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 18px;
+  bottom: 16px;
   font-size: 15px;
   color: var(--text-subtle);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, color 0.15s ease;
 }
 .chapcard:hover .chap-arrow {
   transform: translateX(4px);
-  color: var(--text-main);
+  color: var(--chap-accent);
+}
+
+/* Group Toolbar (Collapse / Expand all) */
+.grp-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -10px 0 16px;
+  padding: 0 2px;
+  font-size: 13px;
+  color: var(--text-subtle);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.grp-toolbar-info {
+  font-weight: 600;
+  font-size: 13px;
+}
+.grp-toolbar-actions {
+  display: inline-flex;
+  gap: 8px;
+}
+.btn-grp-toggle {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--card-bg);
+  border: 1.5px solid var(--card-border);
+  padding: 4px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 var(--card-border);
+  transition: all 0.15s ease;
+}
+.btn-grp-toggle:hover {
+  color: var(--story);
+  border-color: var(--story);
+  box-shadow: 0 2px 0 var(--story);
+  transform: translateY(-1px);
+}
+.btn-grp-toggle:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 var(--story);
 }
 
 .grp-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+  align-items: start;
 }
-.grp {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius-lg);
-  padding: 18px 20px;
-}
-.grp-header {
+.grp-grid.has-masonry {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--card-border-subtle);
-}
-.grp-head-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 8px;
+  grid-template-columns: none;
+  gap: 14px;
+  align-items: flex-start;
   width: 100%;
 }
-.grp-title { margin: 0; font-size: 15px; font-weight: 700; line-height: 1.35; color: var(--text-main); }
-.grp-count { font-size: 12px; color: var(--text-subtle); font-family: var(--font-mono); flex-shrink: 0; }
-.grp-topo-btn {
-  align-self: flex-start;
+.grp-grid.has-masonry.masonry-1col {
+  flex-direction: column;
+}
+.grp-grid.has-masonry:not(.masonry-1col) {
+  flex-direction: row;
+}
+.grp-col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* 尖角手帐卡片 (Sharp-cornered Notebook Entry) */
+.grp {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--card-bg);
+  /* 手帐方格纸背景 */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+  background-size: 14px 14px;
+  border: 1.5px solid var(--card-border);
+  border-left: 5px solid var(--grp-accent, var(--story));
+  border-radius: 4px;
+  box-shadow: 0 2px 0 var(--card-border), 0 3px 8px rgba(15, 23, 42, 0.04);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+[data-theme="dark"] .grp {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+.grp:hover {
+  border-color: var(--grp-accent, var(--card-border-hover));
+  box-shadow: 0 3px 0 var(--grp-accent, var(--story)), 0 6px 14px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+}
+
+/* Category-specific theme accent & stripes */
+.grp-grid[data-family="events"] {
+  --grp-accent: #0D9488;
+  --grp-accent-stripe: rgba(13, 148, 136, 0.18);
+}
+.grp-grid[data-family="characters"] {
+  --grp-accent: #D85F84;
+  --grp-accent-stripe: rgba(216, 95, 132, 0.18);
+}
+.grp-grid[data-family="storysets"] {
+  --grp-accent: #D97706;
+  --grp-accent-stripe: rgba(217, 119, 6, 0.18);
+}
+.grp-grid[data-family="discs"] {
+  --grp-accent: #9333EA;
+  --grp-accent-stripe: rgba(147, 51, 234, 0.18);
+}
+.grp-grid[data-family="npc"] {
+  --grp-accent: #7C3AED;
+  --grp-accent-stripe: rgba(124, 58, 237, 0.18);
+}
+.grp-grid[data-family="prologue"] {
+  --grp-accent: #2563EB;
+  --grp-accent-stripe: rgba(37, 99, 235, 0.18);
+}
+.grp-grid[data-family="battles"] {
+  --grp-accent: #DC2626;
+  --grp-accent-stripe: rgba(220, 38, 38, 0.18);
+}
+
+[data-theme="dark"] .grp-grid[data-family="events"] {
+  --grp-accent: #2DD4BF;
+  --grp-accent-stripe: rgba(45, 212, 191, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="characters"] {
+  --grp-accent: #F494AF;
+  --grp-accent-stripe: rgba(244, 148, 175, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="storysets"] {
+  --grp-accent: #FBBF24;
+  --grp-accent-stripe: rgba(251, 191, 36, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="discs"] {
+  --grp-accent: #C084FC;
+  --grp-accent-stripe: rgba(192, 132, 252, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="npc"] {
+  --grp-accent: #A78BFA;
+  --grp-accent-stripe: rgba(167, 139, 250, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="prologue"] {
+  --grp-accent: #60A5FA;
+  --grp-accent-stripe: rgba(96, 165, 250, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="battles"] {
+  --grp-accent: #F87171;
+  --grp-accent-stripe: rgba(248, 113, 113, 0.22);
+}
+
+/* Summary Header */
+.grp-header {
+  display: block;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  padding: 13px 16px;
+  position: relative;
+  z-index: 2;
+  outline: none;
+  transition: background 0.15s ease;
+}
+.grp-header::-webkit-details-marker {
+  display: none;
+}
+.grp-header:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+[data-theme="dark"] .grp-header:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+.grp-head-row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.grp-title {
+  margin: 0;
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text-main);
+  transition: color 0.15s ease;
+}
+.grp-header:hover .grp-title {
+  color: var(--grp-accent, var(--story));
+}
+.grp-meta-wrap {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* 斜切角手帐分类标签 (全包裹线条边框) */
+.grp-count {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
   font-size: 11px;
-  font-weight: 600;
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
-  background: var(--card-bg-subtle);
-  border: 1px solid var(--card-border);
-  color: var(--story);
+  font-weight: 700;
+  color: var(--grp-accent, var(--story));
+  font-family: var(--font-mono);
+  background: var(--grp-accent, var(--story));
+  padding: 1.5px 10px 1.5px 7px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.04);
+  z-index: 1;
+}
+.grp-count::before {
+  content: '';
+  position: absolute;
+  inset: 1.5px;
+  background: var(--card-bg);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  z-index: -1;
+}
+.grp-arrow {
+  color: var(--text-subtle);
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), color 0.15s ease;
+}
+.grp[open] .grp-arrow {
+  transform: rotate(180deg);
+  color: var(--grp-accent, var(--story));
+}
+.grp[open] .grp-header {
+  border-bottom: 1.5px dashed var(--card-border-subtle);
+}
+.grp-body {
+  padding: 8px 12px 12px;
+  position: relative;
+  z-index: 1;
+}
+/* 展开后的活动拓扑图导航条 */
+.grp-topo-wrap {
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed var(--card-border-subtle);
+}
+.grp-topo-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--grp-accent, var(--story));
+  background-color: var(--card-bg);
+  border: 1.5px solid var(--grp-accent, var(--story));
+  border-radius: 3px;
+  padding: 6.5px 12px;
   text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
   transition: all 0.15s ease;
+  box-sizing: border-box;
 }
 .grp-topo-btn:hover {
-  border-color: var(--story);
-  background: var(--card-bg);
-  transform: translateX(2px);
+  background-color: var(--grp-accent, var(--story));
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(13, 148, 136, 0.25);
 }
-.badge.battle {
-  display: inline-block;
-  font-style: normal;
-  font-size: 10px;
-  font-weight: 700;
-  padding: 1px 5px;
-  border-radius: 3px;
-  background: rgba(225, 29, 72, 0.12);
-  color: var(--battle);
-  vertical-align: 1px;
-  margin-right: 4px;
+[data-theme="dark"] .grp-topo-btn {
+  background-color: rgba(45, 212, 191, 0.06);
 }
+[data-theme="dark"] .grp-topo-btn:hover {
+  color: #0A0E17;
+  box-shadow: 0 3px 8px rgba(45, 212, 191, 0.35);
+}
+
 .plain { list-style: none; padding: 0; margin: 0; }
 .plain-link {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 7px 8px;
-  border-radius: var(--radius-sm);
+  padding: 6px 8px;
+  border-radius: 2px;
+  border-left: 2px solid transparent;
   text-decoration: none;
   color: var(--text-main);
-  font-size: 13.5px;
-  transition: background 0.1s ease;
+  font-size: 13px;
+  border-bottom: 1px dashed var(--card-border-subtle);
+  transition: all 0.12s ease;
+}
+.plain li:last-child .plain-link {
+  border-bottom: none;
 }
 .plain-link:hover {
   background: var(--card-bg-subtle);
+  border-left-color: var(--grp-accent, var(--story));
+  padding-left: 12px;
+  color: var(--grp-accent, var(--story));
 }
 .plain-link .sub {
   font-size: 12px;
@@ -786,27 +1210,48 @@ h1 {
   gap: 6px;
   margin: 14px 0 10px;
 }
+.chapsel[data-family="main"] {
+  --chapsel-accent: #0284C7;
+  --chapsel-accent-dark: #38BDF8;
+}
+.chapsel[data-family="events"] {
+  --chapsel-accent: #0D9488;
+  --chapsel-accent-dark: #2DD4BF;
+}
 .chapsel a {
-  padding: 5px 12px;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--card-border);
+  padding: 4.5px 12px;
+  border-radius: 3px;
+  border: 1.5px solid var(--card-border);
   background: var(--card-bg);
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 12.5px;
+  font-weight: 600;
+  box-shadow: 0 1px 0 var(--card-border);
   transition: all 0.15s ease;
 }
 .chapsel a:hover {
-  border-color: var(--card-border-hover);
-  color: var(--text-main);
+  border-color: var(--chapsel-accent, #0284C7);
+  color: var(--chapsel-accent, #0284C7);
+  transform: translateY(-1px);
 }
 .chapsel a.on {
-  background: var(--text-main);
-  color: var(--bg);
-  border-color: var(--text-main);
+  background: var(--chapsel-accent, #0284C7);
+  color: #ffffff;
+  border-color: var(--chapsel-accent, #0284C7);
   font-weight: 700;
+  box-shadow: 0 2px 0 var(--chapsel-accent, #0284C7);
 }
+[data-theme="dark"] .chapsel a:hover {
+  border-color: var(--chapsel-accent-dark, #38BDF8);
+  color: var(--chapsel-accent-dark, #38BDF8);
+}
+[data-theme="dark"] .chapsel a.on {
+  background: var(--chapsel-accent-dark, #38BDF8);
+  color: #0A0E17;
+  border-color: var(--chapsel-accent-dark, #38BDF8);
+}
+
 .anchors-wrap {
   overflow-x: auto;
   margin-bottom: 14px;
@@ -815,28 +1260,58 @@ h1 {
   display: flex;
   gap: 4px;
 }
+.anchors[data-family="main"] {
+  --anchors-accent: #0284C7;
+  --anchors-accent-dark: #38BDF8;
+}
+.anchors[data-family="events"] {
+  --anchors-accent: #0D9488;
+  --anchors-accent-dark: #2DD4BF;
+}
 .anchors a {
-  padding: 3px 8px;
+  padding: 2.5px 8px;
   font-size: 11px;
   font-family: var(--font-mono);
+  font-weight: 700;
   color: var(--text-subtle);
-  border: 1px solid var(--card-border);
-  border-radius: 4px;
+  border: 1.2px solid var(--card-border);
+  border-radius: 3px;
   background: var(--card-bg);
   text-decoration: none;
+  box-shadow: 0 1px 0 var(--card-border);
+  transition: all 0.12s ease;
 }
 .anchors a:hover {
-  border-color: var(--card-border-hover);
-  color: var(--text-main);
+  border-color: var(--anchors-accent, #0284C7);
+  color: var(--anchors-accent, #0284C7);
+  transform: translateY(-1px);
 }
+[data-theme="dark"] .anchors a:hover {
+  border-color: var(--anchors-accent-dark, #38BDF8);
+  color: var(--anchors-accent-dark, #38BDF8);
+}
+
+/* 拓扑作战推演图纸 (Tactical Notebook Topology Canvas) */
 .map {
   overflow-x: auto;
   overflow-y: hidden;
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius-xl);
-  background: var(--card-bg);
+  border: 1.5px solid var(--card-border);
+  border-radius: 4px;
+  background-color: var(--card-bg);
+  /* 手帐作战地图方格纹理 */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+  background-size: 16px 16px;
+  box-shadow: 0 2px 0 var(--card-border), 0 4px 14px rgba(15, 23, 42, 0.04);
   user-select: none;
   cursor: grab;
+}
+[data-theme="dark"] .map {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.3);
 }
 .map:active {
   cursor: grabbing;
@@ -846,65 +1321,162 @@ h1 {
 .edge {
   fill: none;
   stroke: var(--card-border);
-  stroke-width: 2;
+  stroke-width: 2.2;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.edge.story { stroke: var(--story); }
-.edge.battle { stroke: var(--battle); }
-.edge.final, .edge.memory { stroke: var(--final); }
-.edge.between { stroke: var(--between); }
+
+/* 拓扑连线颜色按板块精准区分 */
+.map[data-family="main"] .edge.story { stroke: #0284C7; }
+[data-theme="dark"] .map[data-family="main"] .edge.story { stroke: #38BDF8; }
+
+.map[data-family="events"] .edge.story { stroke: #0D9488; }
+[data-theme="dark"] .map[data-family="events"] .edge.story { stroke: #2DD4BF; }
+
+.edge.story { stroke: #0284C7; }
+.edge.battle { stroke: #DC2626; }
+[data-theme="dark"] .edge.battle { stroke: #F87171; }
+.edge.final, .edge.memory { stroke: #7C3AED; }
+[data-theme="dark"] .edge.final, [data-theme="dark"] .edge.memory { stroke: #A78BFA; }
+.edge.between { stroke: #D97706; }
+[data-theme="dark"] .edge.between { stroke: #FBBF24; }
 .edge.locked { stroke: var(--locked); }
 .edge.dash { stroke-dasharray: 5 4; }
 
+/* 拓扑关卡小卡片 (Sharp-cornered Stage Node) */
 .node {
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px 12px;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-left-width: 3px;
-  border-radius: var(--radius-md);
-  border-bottom: 0 !important;
+  padding: 9px 12px;
+  background-color: var(--card-bg);
+  /* 节点内部浅方格纹理 */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 10px 10px;
+  border: 1.5px solid var(--card-border);
+  border-left-width: 4px;
+  border-radius: 4px;
+  border-bottom: 1.5px solid var(--card-border) !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
   color: var(--text-main);
   text-decoration: none;
-  transition: border-color 0.15s ease;
+  transition: all 0.15s ease;
   overflow: hidden;
   z-index: 2;
 }
+[data-theme="dark"] .node {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
 .node:hover {
   border-color: var(--card-border-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
   z-index: 5;
 }
-.node.story { border-left-color: var(--story); }
-.node.battle { border-left-color: var(--battle); }
-.node.between { border-left-color: var(--between); }
-.node.final, .node.memory { border-left-color: var(--final); }
-.node.locked { border-left-color: var(--locked); border-style: dashed; color: var(--text-muted); }
+[data-theme="dark"] .node:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* 主线剧情节点 (天蓝色) */
+.map[data-family="main"] .node.story {
+  border-left-color: #0284C7;
+}
+.map[data-family="main"] .node.story .state {
+  color: #0284C7;
+}
+.map[data-family="main"] .node.story:hover {
+  border-color: #0284C7;
+  box-shadow: 0 3px 0 #0284C7, 0 6px 14px rgba(2, 132, 199, 0.15);
+}
+[data-theme="dark"] .map[data-family="main"] .node.story {
+  border-left-color: #38BDF8;
+}
+[data-theme="dark"] .map[data-family="main"] .node.story .state {
+  color: #38BDF8;
+}
+[data-theme="dark"] .map[data-family="main"] .node.story:hover {
+  border-color: #38BDF8;
+  box-shadow: 0 3px 0 #38BDF8, 0 6px 14px rgba(56, 189, 248, 0.25);
+}
+
+/* 活动剧情节点 (翠绿色) */
+.map[data-family="events"] .node.story {
+  border-left-color: #0D9488;
+}
+.map[data-family="events"] .node.story .state {
+  color: #0D9488;
+}
+.map[data-family="events"] .node.story:hover {
+  border-color: #0D9488;
+  box-shadow: 0 3px 0 #0D9488, 0 6px 14px rgba(13, 148, 136, 0.15);
+}
+[data-theme="dark"] .map[data-family="events"] .node.story {
+  border-left-color: #2DD4BF;
+}
+[data-theme="dark"] .map[data-family="events"] .node.story .state {
+  color: #2DD4BF;
+}
+[data-theme="dark"] .map[data-family="events"] .node.story:hover {
+  border-color: #2DD4BF;
+  box-shadow: 0 3px 0 #2DD4BF, 0 6px 14px rgba(45, 212, 191, 0.25);
+}
+
+/* 战斗节点 (鲜红色) */
+.node.battle {
+  border-left-color: #DC2626;
+}
+.node.battle .state {
+  color: #DC2626;
+}
+.node.battle:hover {
+  border-color: #DC2626;
+  box-shadow: 0 3px 0 #DC2626, 0 6px 14px rgba(220, 38, 38, 0.15);
+}
+[data-theme="dark"] .node.battle {
+  border-left-color: #F87171;
+}
+[data-theme="dark"] .node.battle .state {
+  color: #F87171;
+}
+[data-theme="dark"] .node.battle:hover {
+  border-color: #F87171;
+  box-shadow: 0 3px 0 #F87171, 0 6px 14px rgba(248, 113, 113, 0.25);
+}
+
+.node.between { border-left-color: #D97706; }
+.node.final, .node.memory { border-left-color: #7C3AED; }
+.node.locked { border-left-color: var(--locked); border-style: dashed; color: var(--text-muted); opacity: 0.72; }
 
 .node .code {
   font-family: var(--font-mono);
-  font-size: 13.5px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 800;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .node .t {
   font-size: 12.5px;
-  font-weight: 600;
-  line-height: 1.3;
+  font-weight: 700;
+  line-height: 1.35;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 3px 0;
 }
 .node .chip {
+  font-family: var(--font-mono);
   font-size: 10px;
+  font-weight: 600;
   color: var(--text-subtle);
   background: var(--card-bg-subtle);
-  padding: 1px 5px;
-  border-radius: 3px;
+  padding: 1.5px 6px;
+  border-radius: 2px;
   border: 1px solid var(--card-border);
   align-self: flex-start;
 }
@@ -912,15 +1484,22 @@ h1 {
   position: absolute;
   right: 8px;
   bottom: 8px;
-  font-size: 10px;
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
   color: var(--text-subtle);
 }
 .node:hover .state {
   color: var(--text-main);
 }
-.map-note {
-  margin-top: 12px;
+.aside.map-note {
+  font-size: 12.5px;
+  color: var(--text-subtle);
+  margin-top: 14px;
+  padding: 8px 12px;
+  border-left: 3px solid var(--card-border);
+  background: var(--card-bg-subtle);
+  border-radius: 2px;
 }
 
 /* ========================================================= */
@@ -941,12 +1520,22 @@ h1 {
   align-items: center;
   gap: 12px;
   padding: 13px 16px;
-  background: var(--card-bg);
-  border: 1px dashed var(--card-border);
-  border-left: 3px dashed var(--locked);
-  border-radius: var(--radius-md);
+  background-color: var(--card-bg);
+  /* 手帐方格底纹 */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+  background-size: 14px 14px;
+  border: 1.5px dashed var(--card-border);
+  border-left: 4px dashed var(--locked);
+  border-radius: 4px;
   color: var(--text-muted);
   box-sizing: border-box;
+}
+[data-theme="dark"] .linelist li {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
 .linelist li:has(a) {
   padding: 0;
@@ -959,33 +1548,55 @@ h1 {
   gap: 12px;
   width: 100%;
   padding: 13px 16px;
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-left: 3px solid var(--story);
-  border-radius: var(--radius-md);
+  background-color: var(--card-bg);
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+  background-size: 14px 14px;
+  border: 1.5px solid var(--card-border);
+  border-left: 4px solid #0284C7;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 var(--card-border), 0 3px 8px rgba(15, 23, 42, 0.04);
   color: var(--text-main);
   text-decoration: none;
   box-sizing: border-box;
   transition: all 0.15s ease;
 }
+[data-theme="dark"] .linelist li a {
+  border-left-color: #38BDF8;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), 0 3px 8px rgba(0, 0, 0, 0.25);
+}
 .linelist li a:hover {
-  border-color: var(--card-border-hover);
-  background: var(--bg-hover);
-  transform: translateY(-1px);
+  border-color: #0284C7;
+  box-shadow: 0 3px 0 #0284C7, 0 6px 14px rgba(2, 132, 199, 0.15);
+  transform: translateY(-2px);
+}
+[data-theme="dark"] .linelist li a:hover {
+  border-color: #38BDF8;
+  box-shadow: 0 3px 0 #38BDF8, 0 6px 14px rgba(56, 189, 248, 0.25);
 }
 .linelist li:last-child a {
-  border-left-color: var(--final);
+  border-left-color: #7C3AED;
 }
 .linelist .code {
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 11.5px;
   font-weight: 700;
-  color: var(--text-main);
-  background: var(--bg-hover);
-  padding: 3px 8px;
-  border-radius: 4px;
-  letter-spacing: 0.02em;
+  color: #0284C7;
+  background: rgba(2, 132, 199, 0.08);
+  border: 1.2px solid rgba(2, 132, 199, 0.25);
+  padding: 1.5px 7px;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
   flex-shrink: 0;
+}
+[data-theme="dark"] .linelist .code {
+  color: #38BDF8;
+  background: rgba(56, 189, 248, 0.12);
+  border-color: rgba(56, 189, 248, 0.3);
 }
 .linelist li:not(:has(a)) .code {
   color: var(--text-subtle);

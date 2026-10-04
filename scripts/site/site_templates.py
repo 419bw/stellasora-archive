@@ -371,9 +371,9 @@ def chapter_graph_page(c, all_chapters):
     return layout('%s《%s》' % (c['name'], c['title']), """
 <h1>%s《%s》</h1>
 <p class="lede">%s　节点 %d　已开放 %d　战斗 %d%s</p>
-<nav class="chapsel">%s</nav>
-<div class="anchors-wrap"><nav class="anchors">%s</nav></div>
-<div class="map">
+<nav class="chapsel" data-family="main">%s</nav>
+<div class="anchors-wrap"><nav class="anchors" data-family="main">%s</nav></div>
+<div class="map" data-family="main">
 <div class="canvas" style="width:%dpx;height:%dpx">
 <svg class="wires" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>
 %s
@@ -588,9 +588,9 @@ def activity_graph_page(act_info, all_branching_acts):
     body = """
 <h1>%s《%s》</h1>
 <p class="lede">活动关卡拓扑连线图　收录 %d 个剧情与战斗节点　含多分支抉择路线</p>
-<nav class="chapsel">%s</nav>
-<div class="anchors-wrap"><nav class="anchors">%s</nav></div>
-<div class="map">
+<nav class="chapsel" data-family="events">%s</nav>
+<div class="anchors-wrap"><nav class="anchors" data-family="events">%s</nav></div>
+<div class="map" data-family="events">
 <div class="canvas" style="width:%dpx;height:%dpx">
 <svg class="wires" width="%d" height="%d" viewBox="0 0 %d %d">%s</svg>
 %s
@@ -614,10 +614,12 @@ def family_index(family, intro, pages_in_family):
         key = (r['group'].get('label') or '未分组', r['group'].get('id'))
         groups.setdefault(key, []).append(r)
     blocks = []
+    total_stages = 0
     for (label, gid), items in groups.items():
+        total_stages += len(items)
         topo_badge = ''
         if family == 'events' and str(gid) in ('10106', '20101'):
-            topo_badge = '<a class="grp-topo-btn" href="%s/index.html">✦ 关卡拓扑图 →</a>' % gid
+            topo_badge = '<div class="grp-topo-wrap"><a class="grp-topo-btn" href="%s/index.html">✦ 查看本活动关卡拓扑图（含分支路线） →</a></div>' % gid
         links = []
         for it in items:
             is_battle = it.get('kind') == 'battle'
@@ -628,11 +630,31 @@ def family_index(family, intro, pages_in_family):
             links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s</span><span class="sub">%s</span></a></li>'
                          % (rel(d, it['page']), esc(display_title), esc(sub)))
         count_label = '%d 关' if family == 'events' else '%d 篇'
-        blocks.append('<section class="grp"><div class="grp-header">'
-                      '<div class="grp-head-row"><h3 class="grp-title">%s</h3><span class="grp-count">%s</span></div>%s</div>'
-                      '<ul class="plain">%s</ul></section>'
+        blocks.append('<details class="grp">'
+                      '<summary class="grp-header">'
+                      '<div class="grp-head-row">'
+                      '<h3 class="grp-title">%s</h3>'
+                      '<div class="grp-meta-wrap">'
+                      '<span class="grp-count">%s</span>'
+                      '<svg class="grp-arrow" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.5" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg>'
+                      '</div>'
+                      '</div>'
+                      '</summary>'
+                      '<div class="grp-body">%s<ul class="plain">%s</ul></div>'
+                      '</details>'
                       % (esc(label), count_label % len(items), topo_badge, ''.join(links)))
+
     crumb = '<a href="%sindex.html">首页</a> › %s' % ('../' * d, FAMILY_NAME[family])
+    unit_name = '个活动' if family == 'events' else ('位角色' if family == 'characters' else '个分类')
+    stage_unit = '关' if family == 'events' else '篇'
+    toolbar = """<div class="grp-toolbar">
+  <div class="grp-toolbar-info">收录 %d %s · 共 %d %s</div>
+  <div class="grp-toolbar-actions">
+    <button type="button" class="btn-grp-toggle" id="expandAllBtn">全部展开</button>
+    <button type="button" class="btn-grp-toggle" id="collapseAllBtn">全部收起</button>
+  </div>
+</div>""" % (len(groups), unit_name, total_stages, stage_unit)
+
     return layout(FAMILY_NAME[family], """
 <h1>%s</h1>
 <p class="lede">%s</p>
@@ -640,8 +662,9 @@ def family_index(family, intro, pages_in_family):
   <svg class="search-icon" viewBox="0 0 24 24" width="15" height="15" stroke="currentColor" stroke-width="2" fill="none"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
   <input type="search" placeholder="检索标题、概要、说话人…" data-scope="%s" data-root="%s">
 </div><div class="results" hidden></div></div>
-<div class="grp-grid">%s</div>
-""" % (FAMILY_NAME[family], esc(intro), slug_of(family), '../' * d, ''.join(blocks)),
+%s
+<div class="grp-grid" data-family="%s">%s</div>
+""" % (FAMILY_NAME[family], esc(intro), slug_of(family), '../' * d, toolbar, slug_of(family), ''.join(blocks)),
         d, crumb)
 
 
