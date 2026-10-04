@@ -180,10 +180,10 @@ def layout(title, body, depth, crumb, note=''):
 <footer class="foot">
   <div class="foot-inner">
     <div class="foot-brand"><img class="foot-icon" src="%sassets/icon_story.png" alt="" width="16" height="20"> 星塔旅人 剧情档案</div>
-    <div class="foot-meta">%s</div>
+    <div class="foot-meta"><span class="foot-group">交流 QQ 群：1033744346</span>%s</div>
   </div>
   <div class="foot-disclaimer">
-    <p>本站为玩家自制的非官方资料整理工具，与游戏官方运营团队无任何关联。YOSTAR GAMES（悠星网络）拥有游戏的原始资产，站内涉及的游戏文案、剧本、立绘、头像、图标等版权均归原发行商及原版权方所有。本站仅供剧情研读、世界观考据与个人交流学习使用，100%% 为非盈利性粉丝项目，不以任何形式盈利，不提供素材下载与游戏客户端修改。如因使用相关内容产生任何争议或损失，本站概不负责。若官方团队或版权所有方认为本站收录内容有所不妥，请联系 1950537289@qq.com，我们会第一时间删除或配合调整。</p>
+    <p>本站为玩家自制的非官方资料整理工具，与游戏官方运营团队无任何关联。YOSTAR GAMES（悠星网络）拥有游戏的原始资产，站内涉及的游戏文案、剧本、立绘、头像、图标等版权均归原发行商及原版权方所有。本站仅供剧情研读、世界观考据与个人交流学习使用，100%% 为非盈利性粉丝项目，不以任何形式盈利，不提供素材下载与游戏客户端修改。如因使用相关内容产生任何争议或损失，本站概不负责。若官方团队或版权所有方认为本站收录内容有所不妥，请联系 1950537289@qq.com，我们会第一时间删除或配合调整。交流反馈 QQ 群：1033744346。</p>
   </div>
 </footer>
 <button class="back-to-top" id="backToTop" type="button" title="回到顶部" aria-label="回到顶部">
@@ -195,7 +195,7 @@ def layout(title, body, depth, crumb, note=''):
 """ % (esc(title), root, root,
        root, root, nav_links,
        ('<nav class="crumb">%s</nav>\n' % crumb) if crumb else '', body,
-       root, esc(note) if note else '',
+       root, ((' · ' + esc(note)) if note else ''),
        root, root)
 
 
@@ -625,9 +625,8 @@ def family_index(family, intro, pages_in_family):
                    else ('%d 句' % it['counts'].get('talk', 0)
                          + (' / %d 气泡' % it['counts']['bubble'] if it['counts'].get('bubble') else '')))
             display_title = full_title(it.get('code'), it.get('title'))
-            badge = '<i class="badge battle">战斗</i>' if is_battle else ''
-            links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s%s</span><span class="sub">%s</span></a></li>'
-                         % (rel(d, it['page']), badge, esc(display_title), esc(sub)))
+            links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s</span><span class="sub">%s</span></a></li>'
+                         % (rel(d, it['page']), esc(display_title), esc(sub)))
         count_label = '%d 关' if family == 'events' else '%d 篇'
         blocks.append('<section class="grp"><div class="grp-header">'
                       '<div class="grp-head-row"><h3 class="grp-title">%s</h3><span class="grp-count">%s</span></div>%s</div>'
@@ -697,7 +696,7 @@ def home_page(pages, personality_data):
     </div>
     <div class="notice-pill notice-scope">
       <span class="notice-tag tag-scope">收录说明</span>
-      <span class="notice-msg">游戏内仅有 CG 动画演示而无文本字幕的片段不会出现在这里，本站仅收录官方剧本中有台词文本的剧情。</span>
+      <span class="notice-msg">游戏内仅有 CG 动画演示而无文本字幕的片段不会出现在这里，本站仅收录官方剧本中有台词文本的剧情。如需查看详细的剧情插画 CG、角色立绘与音频等资源，可参考英文 Wiki 站：<a href="https://stellasora.miraheze.org/wiki/Stella_Sora_Wiki" target="_blank" rel="noopener noreferrer">Stella Sora Wiki</a>。</span>
     </div>
   </div>
   

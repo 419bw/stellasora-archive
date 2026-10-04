@@ -394,6 +394,16 @@ h1 {
 .notice-msg {
   color: var(--text-muted);
 }
+.notice-msg a {
+  color: var(--story);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: opacity 0.15s ease;
+}
+.notice-msg a:hover {
+  opacity: 0.8;
+}
 
 /* Bento Grid */
 .bento {
