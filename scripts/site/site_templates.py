@@ -727,12 +727,6 @@ def home_page(pages, personality_data):
       </div>
     </div>
     <div class="update-summary">剧情拓扑分支修正、标题智能去重与文案规范精简</div>
-    <ul class="update-list">
-      <li><strong>拓扑分支展示</strong>：优化活动剧情关卡拓扑图的分支流向，准确呈现各分支路线与终局结局。</li>
-      <li><strong>标题去重优化</strong>：修复 NPC 羁绊各话在列表、面包屑、上下节导航及全站搜索结果中重复前缀的问题。</li>
-      <li><strong>分类命名整理</strong>：将原“唱片剧情”规范更名为“秘闻”，全面优化篇章分类描述。</li>
-      <li><strong>阅读体验提升</strong>：增加全流程剧透预警与收录边界提示，全面精简去除开发者调试文案。</li>
-    </ul>
   </div>
 </section>
 """ % ''.join(bento_items), 0, '')

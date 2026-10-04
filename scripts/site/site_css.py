@@ -560,19 +560,6 @@ h1 {
   color: var(--text-main);
   margin-bottom: 12px;
 }
-.update-list {
-  margin: 0;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 13.5px;
-  color: var(--text-muted);
-  line-height: 1.65;
-}
-.update-list li strong {
-  color: var(--text-main);
-}
 @media (max-width: 640px) {
   .update-card {
     padding: 18px 18px;

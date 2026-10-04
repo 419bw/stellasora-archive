@@ -19,6 +19,11 @@ on:
         required: false
         type: boolean
         default: false
+      changelog_note:
+        description: 'Optional manual changelog reason (overrides the auto-derived summary)'
+        required: false
+        type: string
+        default: ''
 
 concurrency:
   group: deploy-cloudflare
@@ -68,10 +73,20 @@ jobs:
             fi
 
             echo "Running auto_sync.py $SYNC_ARGS..."
+            export STELLA_SYNC_NOTE="${{ github.event.inputs.changelog_note }}"
             python scripts/automation/auto_sync.py $SYNC_ARGS
           else
             echo "Push event detected."
           fi
+
+      - name: Changelog From Commits
+        id: changelog_step
+        if: github.event_name == 'push'
+        env:
+          COMMIT_RANGE: ${{ github.event.before }}..${{ github.sha }}
+        run: |
+          echo "Collecting commits in $COMMIT_RANGE"
+          python scripts/automation/changelog_from_commits.py --range "$COMMIT_RANGE"
 
       - name: Build static site
         run: |
@@ -80,6 +95,19 @@ jobs:
       - name: Validate static site
         run: |
           python tests/story/validate_site.py
+
+      - name: Commit generated changelog
+        if: github.event_name == 'push' && steps.changelog_step.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md scripts/
+          if git diff --cached --quiet; then
+            echo "Changelog already current; nothing to commit."
+          else
+            git commit -m "docs: 更新站点更新日志 [skip ci]"
+            git push origin main
+          fi
 
       - name: Commit and push changes if upstreams updated
         if: steps.sync_step.outputs.has_updates == 'true'
@@ -91,7 +119,7 @@ jobs:
           if [ -z "$COMMIT_MSG" ]; then
             COMMIT_MSG="chore: 自动同步上游剧情数据与更新日志"
           fi
-          git commit -m "$COMMIT_MSG"
+          git commit -m "$COMMIT_MSG [skip ci]"
           git push origin main
 
       - name: Deploy to Cloudflare Pages
