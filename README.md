@@ -73,7 +73,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-04
-- feat(automation): 修复自动更新日志未生效，新增 push 触发的提交驱动日志
+- docs: 重构 README 并下沉开发文档
 
 ---
 
