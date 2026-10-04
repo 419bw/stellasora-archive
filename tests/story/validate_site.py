@@ -11,7 +11,7 @@ G3 变异测试: 篡改 JSON 后必须被同一套断言抓到
 M  页内锚点: 页内 href="#x" 都必须落在同页的 id="x" 上
 M2 玩家回应: 「玩家回应」标记渲染成聊天气泡，提示词保留为前置句
 M3 单选项抉择: 只提供一个选项的抉择不是分叉，不得渲染 若选 分支框/分支导航
-    （上游 CG_126_03.lua 的 SetChoiceEnd 写错帧，见 AI_HANDOVER_GUIDE.md 3.5；
+    （上游 CG_126_03.lua 的 SetChoiceEnd 写错帧，见 _dev/AI_HANDOVER_GUIDE.md 3.5；
      生成器照实吐标记，兜底在渲染层压制，md 不动）
 """
 import sys, os, re, json, shutil, collections, functools
@@ -1001,7 +1001,7 @@ def audit_single_option_choices():
 
     Upstream CG_126_03.lua closes the a_10 choice group with a_4's SetChoiceEnd,
     so the frame never pops and build_story.py re-emits the same 若选 line for
-    later beats (AI_HANDOVER_GUIDE.md 3.5). The generator stays faithful to the
+    later beats (_dev/AI_HANDOVER_GUIDE.md 3.5). The generator stays faithful to the
     data; md2html.py suppresses the marker instead. This audit re-derives the
     single-option choices straight from the md and asserts the HTML kept quiet:
     no 若选 branch header, and no branch chrome pointing back at that choice.

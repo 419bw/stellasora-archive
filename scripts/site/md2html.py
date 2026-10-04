@@ -126,7 +126,7 @@ def _parse_choice_structure(md):
                     parent_c = stack[-1]
                 # A choice that offers only one option is not a fork at all: the game
                 # cannot branch there, so its 若选 markers are pure presenter noise.
-                # See AI_HANDOVER_GUIDE.md 3.5 — upstream CG_126_03.lua closes choice
+                # See _dev/AI_HANDOVER_GUIDE.md 3.5 — upstream CG_126_03.lua closes choice
                 # group a_10 with a_4's SetChoiceEnd, leaving the frame live and making
                 # build_story.py re-emit the same 若选 for every later beat. Rendering it
                 # as a branch box would show a "fork" that does not exist, so such a
@@ -255,7 +255,7 @@ def convert(md, branch_targets=None):
                         # Drop it (and its 返回抉择/跳到汇合 nav bar) so the dialogue
                         # simply continues; the iterator is consumed to keep every
                         # later branch aligned. Compromise for the upstream
-                        # CG_126_03 SetChoiceEnd mix-up, see AI_HANDOVER_GUIDE.md 3.5.
+                        # CG_126_03 SetChoiceEnd mix-up, see _dev/AI_HANDOVER_GUIDE.md 3.5.
                         i += 1
                         continue
                     close_active_branch()
