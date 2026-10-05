@@ -30,6 +30,7 @@
 8. [站点与数据契约](#八-站点与数据契约build_sitepy--graph_layoutpy--testsstory)
    - [8.2 主线节点图的地面真相](#82-主线节点图的地面真相实测别再重新发现)
    - [8.3 校验（契约 A–K）](#83-校验testsstory两份都不-import-生成器)
+   - [8.5 未开放内容的门控](#85-未开放内容的门控release_gatepy)
 9. [修订记录](#九-修订记录2026-10-02)
 
 ---
@@ -413,6 +414,10 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 
 坐标进数据不进代码：`graph_layout.layout()` 由 `build_story.py` 调用，所以布局在**建站之前**就能被校验。
 
+建站侧在消费上面任何一份侧车**之前**，先过 `release_gate`（见 8.5）：官方还没到开放时间的组，
+只出「未开放」占位与提示页，`pages` / `chapters` / 活动战斗页、以及 copytree 到 `site/data/` 的
+三份侧车都会剔除对应记录。**不要让任何新消费点绕过这一层。**
+
 ### 8.2 主线节点图的地面真相（实测，别再重新发现）
 - 边只有一个来源：`Story.ParentStoryId`（前驱 `StoryId` 字符串数组）。196 行、**零跨章引用、零悬空引用**，
   除特别篇外每章根唯一。分叉度：1 路 144、2 路 2、3 路 11、4 路 1（`STm09_00_b`）。
@@ -438,6 +443,11 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
   href 指向的文件真实存在）；I 逐页 HTML 台词序列 == md 台词序列（md == 剧本由 F 兜底）；
   J 检索索引路径/说话人/行数对得上。
   每条都配植入变异，全部 CAUGHT 才算过。
+- `validate_site.py` **N/N2**（2026-10-05 新增）：未开放内容只准显示未开放占位。断言被门控组的
+  组名不出现在 `site/` 任何文件、提示页不含台词行也不含话数标题、未开放 URL 不被任何页面引用、
+  该组 URL 目录下只有提示页、族索引的占位数量/遮罩/开放时间齐全。五种植入（把正文页写回锁定 URL、
+  给占位卡写组名、给提示页写话数标题、把锁定 URL 塞回 `search.js`、删掉一个提示页）全部 CAUGHT。
+  判据与门控本身见 8.5。
 - 可比对台词行的口径是 `talk + bubble - sticker`（表情发送渲染成 `〔发送表情 …〕`，不是「台词」），
   当前 48,576 行。
 - `build_story.py` 每次运行**先删后写** `story_docs/`：挂载规则一变就会少写文件，
@@ -449,9 +459,71 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 - 不做"只看我选的那条线"折叠：默认全展开 + 互斥标记，静态可读、可打印、不依赖 JS。
 - 不引任何 webfont / 图标 / CDN；不加阴影、渐变、模糊、光效（第一版扁平是硬要求）。
 - 站点 URL 里不放中文（用 `main/node/STm07_08.html`、`characters/144/14401.html`），md 文件名保留中文便于人工核对。
+- **门控只做页面层**：不删 `story_docs/`、不改 `build_story.py`、不重写 git 历史。存档保持完整，
+  人工核对才有的对；"连仓库历史一起干净"是另一个决定，要做先想清 fork/star/PR 的代价。
+- 门控**不做**倒计时、红点、`IsHighLight` 高亮视觉；也**不读** `LockText`——zh_CN 里 18 个故事集章
+  全都没有对应文本，客户端实际走的是"倒计时"分支（见 8.5）。
+- 门控**不做**章内节点级判定：官方没有这个字段（见 8.5 已知残留）。
+
+### 8.5 未开放内容的门控（`release_gate.py`）
+
+**为什么单独一节**：2026-10-05 之前，只要上游 `StorySetSection` 挂上章节，建站就把台词原文发出去，
+不管官方开没开放。故事集 #18（`眠于秋分之日`，`OpenTime = 2026-10-13T12:00:00+08:00`、
+`IsHighLight`、`StoryPreview.20` = 诺瓦异闻 #18）就是这么连同 286 句台词一起上线的。
+门控就是堵这个口子；同类事故再来一次，读者先于版本看到剧情。
+
+**判据只认官方表里的开放时间字段**（对 `CN/bin/*.json` 全量扫 `OpenTime`/`StartTime`/`ShowTime` 的结论）：
+
+| 族 | 表 | 字段 |
+|---|---|---|
+| 故事集 | `StorySetChapter` | `OpenTime` |
+| 主线 | `StoryChapter` | `OpenTime` |
+| 活动 | `ActivityGroup`（`ActivityStory.ChapterId` 即其 Id） | `StartTime` |
+
+其余带时间的表（`VampireRankSeason` / `Gacha` / `BattlePass` / `TravelerDuelChallengeControl` / `ResidentShop` …）
+都是玩法，不读。`StoryPreview`（`Type` 1=主线 / 2=故事集 + `ShowTime`）**只用来取预告横幅标题**，
+不作判据——预告本身是官方提前公开的信息。
+
+**实现位置与理由**：门控在建站侧，不在 `build_story.py`。`story_docs/` 是给人工核对的存档，
+不动它；要控的只是"发布什么"。所以 `build_site.py` 在任何消费点之前过滤
+`pages` / `chapters` / `act_battle_pages`，并覆写 `shutil.copytree` 出去的三份侧车。
+
+**未开放时页面长什么样**（复刻客户端 `StorySetChapterItemCtrl.RefreshItem` 的行为）：
+- 族索引里一张虚线占位卡：`敬请期待`（= `UIText.StorySet_Chapter_Empty.1`，**别自己编遮罩文案**，
+  单测把它钉在上游那一行上）+ 章号（`StorySetChapter.Title`，如 `#18`）+ 官方预告标题 + 预计开放时间；
+  无链接、无篇数、无话数列表。主线索引用同式样的锁定卡片。
+- 原小节 URL 变成「尚未开放」提示页（`locked_notice_page`），只有状态 / 预计开放时间 / 官方预告，零台词。
+  组级 URL（`main/ch<no>/index.html`、`events/<id>/index.html`）同样走提示页，旧链接不再 404。
+- `release_gate._item()` 的描述对象**刻意不含**章名、话数标题、小节数量——它是未开放时唯一会被渲染的
+  东西，不能自己变成新的泄露点。
+
+**加新族 / 新页面类型的纪律（这条是防再犯的重点）**：
+1. 先查上游表有没有开放时间字段；有，就必须进门控（`load_gate()` 里补一个 `_<族>()` 填充函数）。
+2. 新消费点必须拿**过滤后**的 `pages` / `chapters`，不能自己去读 `sections.json`。
+   `load_activity_battle_pages()` 就是活例子：它直读 `ActivityStory.json` 挑无 `AvgLuaName` 的战斗行，
+   不经过 `pages`，所以那里必须单独再过滤一遍。
+3. 任何会被 copytree 进 `site/data/` 的新侧车 / 新 JSON，都要在 `strip_locked_from_data()` 里加一条——
+   `site/data/*.json` 与 `search.js` 能被人 view-source 直接读，这是最容易漏的旁路。
+4. 新页面形态要补契约 N 的断言（`forbidden_strings()` + `audit_locked()`），否则回归没人管。
+
+**失败开放**：`OpenTime` 缺失 / 空 / 不可解析 → 视为已开放并打一行告警。宁可偶尔多收，
+不可因为一行脏数据把整库内容静默挡掉。
+
+**两个环境变量**：
+- `STELLA_RELEASE_NOW=<ISO-8601>`：换判据时刻，用来证明"到点自动解锁"（CI / 单测用，不影响线上）。
+- `STELLA_RELEASE_GATE=off`：整体旁路，等价于本次改动之前的站点（紧急回滚用）。
+
+**已知残留**：官方没有节点级开放时间字段，章内分批开放挡不住。实例：第九章「后篇」
+`StoryPreview.ShowTime = 2026-10-06`，而章级 `StoryChapter.OpenTime` 是 2026-09-29（早过了）。
+缓释事实：未开放那部分剧本上游还没进包（`STm09_0x_c/_d`、`BBm09_BT04/BT05` 包里没有），没有正文可漏。
+真要治得等上游给节点级字段，别用猜的。
 
 ## 九、 修订记录（2026-10-02）
-- 本文档 604 小节的说法过时：`Story.json` 196 行 + `ActivityStory.json` 124 行 = **320 个剧情小节**，
+
+- 2026-10-05：**补上"官方还没开放的内容不该发布"这道闸**。新增 `scripts/story/release_gate.py`
+  与建站侧门控；故事集 #18《眠于秋分之日》（`OpenTime 2026-10-13 12:00`）此前连同 286 句台词一起上线。
+  判据表、页面形态、加新族的纪律、失败开放语义与已知残留全部写进 8.5；`validate_site.py` 新增契约 N/N2；
+  `tests/story/test_release_gate.py` 入库。站点侧页数 507 → 504、故事集 56 → 53。- 本文档 604 小节的说法过时：`Story.json` 196 行 + `ActivityStory.json` 124 行 = **320 个剧情小节**，
   旧产物共 510 个 md。以表为准。
 - 同日：`build_story.py` 接入 `CG_*`(角色/NPC/唱片) + `STsp_*` + 序章 `STm00_*` + 7 个存目战斗气泡，
   产物 507 个剧本页 + 2 个对账文件；`story_docs/_coverage.md` 改为构建时自动生成。
@@ -473,3 +545,13 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 - 同日：查清 `SetTalk` 第一个参数是**显示通道**（通道名在 `AvgCmdParamOptionDefine.lua`，0 起算，
   分支链印证），一度把 4136 句标上通道标签（`efcd711`），随后**全部还原**：`CG对话` 不等于回忆
   （开场 CG 也走这条通道），且标签太吵。判据与实测留在 7.8，产物维持只有「思考 / 短信 / 战斗气泡」三种标记。
+- 2026-10-05（门控自查修订，四条都是复核时才发现自己写错的）：
+  ① **遮罩文案自编了**——客户端 `RefreshItem` 把未开放章名换成 `StorySet_Chapter_Empty`，
+     zh_CN 实际是「敬请期待」，我写成了「？？？」；已改并用单测把常量钉在上游 `UIText` 那一行上。
+  ② `load_activity_battle_pages()` 那类**不经过 `pages` 的消费点**：锁定活动若落在写死的拓扑活动清单
+     （10106 / 20101）里，会在 `act_all[-1]` 上 IndexError；改为跳过拓扑页，让组级 index 也走提示页。
+  ③ 移除 `_preview(kind, at)` / `locked_block(item, d)` 的死参数（留着会让人以为开放时间是预览的判据）。
+  ④ 占位徽标原先用 `!important` 盖 `.grp-count` 的填充配色，和 `clip-path + ::before` 的实现冲突，
+     改设 `--grp-accent` / `--chap-accent` 吃既有设计令牌。
+- 2026-10-05（CI 自动提交的更新日志会改源文件里的首页"更新时间"串，例如 `fcc9228`：
+  只碰 README 与 `site_templates.py` 的 `home_page` 文案，与功能改动不同行， rebase 不会冲突）。

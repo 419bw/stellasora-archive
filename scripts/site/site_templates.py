@@ -151,12 +151,12 @@ def locked_mask():
     return _gate_mod().MASK
 
 
-def locked_block(item, d):
+def locked_block(item):
     """Locked placeholder for a group whose official open time is still ahead.
 
     Mirrors StorySetChapterItemCtrl: the chapter code / official preview banner
-    stay visible, the name is masked with the game's own placeholder, the open
-    time is shown, and nothing is clickable. Deliberately no group name, no
+    stay visible, the name is replaced by the client's own ``敬请期待`` mask, the
+    open time is shown, and nothing is clickable. Deliberately no group name, no
     section titles and no counts -- the placeholder must not hint at content.
     """
     gate = _gate_mod()
@@ -722,7 +722,7 @@ def family_index(family, intro, pages_in_family, locked_items=()):
                       '</details>'
                       % (esc(label), count_label % len(items), topo_badge, ''.join(links)))
     for item in locked_items:
-        blocks.append(locked_block(item, d))
+        blocks.append(locked_block(item))
 
     crumb = '<a href="%sindex.html">首页</a> › %s' % ('../' * d, FAMILY_NAME[family])
     unit_name = '个活动' if family == 'events' else ('位角色' if family == 'characters' else '个分类')

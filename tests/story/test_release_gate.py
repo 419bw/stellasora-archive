@@ -112,6 +112,12 @@ def test_gate_finds_the_real_storyset_18():
         assert bad not in repr(item)
 
 
+def test_mask_text_matches_the_client():
+    """The placeholder must be the string the game itself shows for a locked name."""
+    uit = json.load(open(os.path.join(rg.LANG, 'UIText.json'), encoding='utf-8'))
+    assert rg.MASK == uit['UIText.StorySet_Chapter_Empty.1']
+
+
 def test_gate_leaves_everything_else_alone():
     gate = rg.load_gate(at=AT)
     assert gate.items('main') == []          # all mainline chapters are open
@@ -193,7 +199,7 @@ def test_main_gate_only_future_chapters(monkeypatch):
     out = {}
     rg._main(out, AT)
     assert list(out) == [11]
-    assert out[11]['pages'] == ['main/ch10/STm10_01.html']
+    assert out[11]['pages'] == ['main/ch10/index.html', 'main/ch10/STm10_01.html']
 
 
 def test_events_gate_only_future_groups(monkeypatch):
@@ -209,7 +215,8 @@ def test_events_gate_only_future_groups(monkeypatch):
     out = {}
     rg._events(out, AT)
     assert list(out) == [10113]
-    assert out[10113]['pages'] == ['events/10113/101130101.html']
+    assert out[10113]['pages'] == ['events/10113/index.html',
+                                   'events/10113/101130101.html']
 
 
 def test_no_pages_means_no_placeholder(monkeypatch):

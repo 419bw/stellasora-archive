@@ -40,7 +40,11 @@ TZ = timezone(timedelta(hours=8))
 ENV_NOW = 'STELLA_RELEASE_NOW'
 ENV_OFF = 'STELLA_RELEASE_GATE'
 
-MASK = '？？？'  # what the client shows for a locked chapter name
+# ``StorySetChapterItemCtrl.RefreshItem`` swaps a locked chapter's name for
+# ``StorySet_Chapter_Empty``; the zh_CN text of that key is 敬请期待, which is
+# what the game itself shows. tests/story/test_release_gate.py pins this
+# constant against the upstream UIText row, so a re-translation cannot drift.
+MASK = '敬请期待'
 
 
 def _warn(msg):
@@ -126,11 +130,12 @@ def fmt_open(open_time):
     return parsed.astimezone(TZ).strftime('%Y-%m-%d %H:%M') if parsed else ''
 
 
-def _preview(kind, at):
+def _preview(kind):
     """``{story_id: banner title}`` from StoryPreview (1 = mainline, 2 = storyset).
 
     A preview banner is what the game shows *before* the chapter opens, so it is
-    the only textual label about a locked group that is safe to display.
+    the only textual label about a locked group that is safe to display. The
+    earliest announcement wins when several exist for one story.
     """
     lang = _read(os.path.join(LANG, 'StoryPreview.json'))
     out = {}
@@ -167,7 +172,7 @@ def _item(family, gid, open_time, no, preview, pages, page_ids, highlight=False)
 def _storysets(out, at):
     chapters = _read(os.path.join(BIN, 'StorySetChapter.json'))
     lang = _read(os.path.join(LANG, 'StorySetChapter.json'))
-    preview = _preview(2, at)
+    preview = _preview(2)
     by_chap = {}
     for row in _rows(_read(os.path.join(BIN, 'StorySetSection.json'))):
         if row.get('Id') is None:
@@ -191,7 +196,7 @@ def _storysets(out, at):
 
 def _main(out, at):
     chapters = _read(os.path.join(BIN, 'StoryChapter.json'))
-    preview = _preview(1, at)
+    preview = _preview(1)
     rows_by_chap = {}
     for row in _rows(_read(os.path.join(BIN, 'Story.json'))):
         if row.get('StoryId'):
@@ -205,10 +210,13 @@ def _main(out, at):
         if not rows:
             continue
         cno = row.get('Index') or 'sp'
+        # the chapter index page is a real URL in the released site, so a locked
+        # chapter gets a notice page there too instead of a 404
         out[cid] = _item('main', cid, open_time,
                          str(row.get('Index') or ''),
                          preview.get(cid, ''),
-                         ['main/ch%s/%s.html' % (cno, r['StoryId']) for r in rows],
+                         ['main/ch%s/index.html' % cno]
+                         + ['main/ch%s/%s.html' % (cno, r['StoryId']) for r in rows],
                          [r['Id'] for r in rows if r.get('Id') is not None])
 
 
@@ -228,7 +236,8 @@ def _events(out, at):
         if not rows:
             continue
         out[gid] = _item('events', gid, open_time, '', '',
-                         ['events/%d/%d.html' % (gid, r['Id']) for r in rows],
+                         ['events/%d/index.html' % gid]
+                         + ['events/%d/%d.html' % (gid, r['Id']) for r in rows],
                          [r['Id'] for r in rows])
 
 

@@ -567,6 +567,8 @@ for bp in (activity_battle_pages | main_battle_archive_pages):
         bt_errs.append(('战斗档案缺少故事导航', bp))
 
 for act_id in ('10106', '20101'):
+    if GATE.is_group('events', act_id):
+        continue  # still locked: the URL holds a notice page, not a topology map
     act_map_p = os.path.join(SITE, 'events', act_id, 'index.html')
     if not os.path.exists(act_map_p):
         bt_errs.append(('缺少活动拓扑图', act_id))
@@ -1153,9 +1155,12 @@ def forbidden_strings(item):
 
 
 def read_site():
+    """Every text file under site/ (assets images are not searched for strings)."""
     out = {}
     for dp, _d, fs in os.walk(SITE):
         for f in fs:
+            if not f.endswith(('.html', '.js', '.json', '.css', '.txt', '.md')):
+                continue
             rel = os.path.relpath(os.path.join(dp, f), SITE).replace(os.sep, '/')
             try:
                 out[rel] = open(os.path.join(dp, f), encoding='utf-8', errors='replace').read()

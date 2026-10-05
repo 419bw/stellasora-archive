@@ -465,6 +465,8 @@ def main():
 
     for b_act in branching_acts:
         act_id = b_act["id"]
+        if gate.is_group('events', act_id):
+            continue  # still locked: its events/<id>/index.html is a notice page
         act_all = [p for p in all_event_pages if p["group"].get("id") == act_id]
         act_all.sort(key=lambda x: x["id"])
 

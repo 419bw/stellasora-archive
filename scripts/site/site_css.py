@@ -2381,6 +2381,7 @@ h1 {
 
 /* 未开放占位（release_gate：官方 OpenTime 未到，只显示未开放，不透露内容） */
 .grp.locked {
+  --grp-accent: var(--locked);
   border-style: dashed;
   background-color: var(--card-bg-subtle);
   opacity: 0.92;
@@ -2411,9 +2412,6 @@ h1 {
   color: var(--text-subtle);
 }
 .locked-tag {
-  color: var(--locked) !important;
-  border-color: var(--locked) !important;
-  background-color: transparent !important;
   white-space: nowrap;
 }
 .locked-note {
@@ -2428,6 +2426,7 @@ h1 {
   color: var(--text-subtle);
 }
 .chapcard.locked {
+  --chap-accent: var(--locked);
   cursor: default;
   border-left-color: var(--locked);
 }
