@@ -43,6 +43,7 @@ CODE_MISMATCHES = []
 # T / LuaError / parse_lua 三个符号与原 LuaReader 实现语义一致
 # （对 git 4496bd1 原实现做过 588 Config + AvgCharacter 预设全量对拍）。
 from pipeline.lua_parser import LuaError, T, parse_lua  # noqa: E402
+from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
 
 
 # ================================================================= data loading
@@ -102,19 +103,15 @@ _TAG_CACHE = {}
 
 
 def script_commands(stem):
-    """Parse one AVG script into an ordered [(cmd, T-param)] list."""
+    """Parse one AVG script into an ordered [Command] list (stable idx identity)."""
     if stem in _TAG_CACHE:
         return _TAG_CACHE[stem]
     path = os.path.join(CFG, stem + '.lua')
     if not os.path.exists(path):
         _TAG_CACHE[stem] = None
         return None
-    recs = parse_lua(open(path, encoding='utf-8').read())
-    cmds = []
-    for r in recs:
-        if isinstance(r, T) and r.get('cmd'):
-            p = r.get('param')
-            cmds.append((r.get('cmd'), p if isinstance(p, T) else T([] if p is None else [p])))
+    recs = parse_lua(open(path, encoding='utf-8').read(), stem)
+    cmds = build_commands(recs)
     _TAG_CACHE[stem] = cmds
     return cmds
 
@@ -199,12 +196,12 @@ def nonlog_repeats(commands):
     the script interleaves Clear / SetBGM / Wait between the fade frames and their
     final logged frame -- segmenting on Clear alone splits one visual in two.
     """
-    rows = []          # [(param, in_log, signature)]
-    for cmd, param in commands:
-        if cmd in ('SetTalk', 'SetPhoneMsg') and len(param) >= 3:
-            raw = param[2]
+    rows = []          # [(idx, in_log, signature)]
+    for c in commands:
+        if c.cmd in ('SetTalk', 'SetPhoneMsg') and len(c.param) >= 3:
+            raw = c.param[2]
             if isinstance(raw, str):
-                rows.append((param, not raw.startswith(NONLOG),
+                rows.append((c.idx, not raw.startswith(NONLOG),
                              _sig(raw.replace(NONLOG, ''))))
 
     n = len(rows)
@@ -233,10 +230,10 @@ def nonlog_repeats(commands):
                 if twin is not None:
                     break
             if twin is not None:                # rule 1: the log already shows it
-                skip.update(id(rows[k][0]) for k in run)
+                skip.update(rows[k][0] for k in run)
             else:                               # rule 2: keep the final state
-                skip.update(id(rows[k][0]) for k in run)
-                skip.discard(id(rows[last][0]))
+                skip.update(rows[k][0] for k in run)
+                skip.discard(rows[last][0])
         i = j
     return skip
 
@@ -345,7 +342,8 @@ def extract_script(stem):
                 return fr, fr['cur']
         return None
 
-    for cmd, param in cmds:
+    for c in cmds:
+        cmd, param = c.cmd, c.param
         head = str(param[0]) if param else ""
         kind = FORK_DEFS.get(cmd)
         if kind:
@@ -388,7 +386,7 @@ def extract_script(stem):
         if cmd in ("SetTalk", "SetPhoneMsg"):
             if len(param) < 3:
                 continue
-            if id(param) in skip:
+            if c.idx in skip:
                 continue
             talk_type, spk, raw = str(param[0]), param[1], param[2]
             text = clean_dialogue(raw if isinstance(raw, str) else "")
