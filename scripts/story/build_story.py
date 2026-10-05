@@ -29,8 +29,7 @@ CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'C
 PRESET = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Preset')
 OUT = os.path.join(ROOT, 'story_docs')
 
-PROTAG_ID = ("avg3_100", "avg3_101", "avg3_1311", "avg3_1312", "1")
-PROTAG_NAME = "魔王"
+# 主角域常量（PROTAG_ID/PROTAG_NAME）已随语义 pass 移入 pipeline/domain.py
 
 # Stages whose own StoryId carries a `BTnn` battle token that disagrees with the display
 # code the localization table publishes for them (upstream official labelling slip).
@@ -44,6 +43,9 @@ CODE_MISMATCHES = []
 # （对 git 4496bd1 原实现做过 588 Config + AvgCharacter 预设全量对拍）。
 from pipeline.lua_parser import LuaError, T, parse_lua  # noqa: E402
 from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
+from pipeline.text_rules import clean_text  # noqa: E402
+from pipeline.speakers import SpeakerResolver  # noqa: E402
+from pipeline.passes import extract_beats  # noqa: E402
 
 
 # ================================================================= data loading
@@ -68,6 +70,7 @@ def load_speakers():
 
 
 SPEAKERS = load_speakers()
+SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS)
 LANG_STORY = load_json(LANG, 'Story.json')
 LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
 LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
@@ -117,204 +120,14 @@ def script_commands(stem):
 
 
 # ==================================================================== text rules
-def clean_text(s):
-    return re.sub(r'\s+', ' ', str(s or '')).strip()
-
-
-RESOURCE_NAME = re.compile(r'[a-z][a-z0-9_]*')
-
-
-def is_resource_name(text):
-    """Sprite/emoji asset keys are authored straight into the text field of some lines.
-    In STm/STev/BBm they carry no words; in PM chat they mean a sticker send."""
-    return bool(RESOURCE_NAME.fullmatch(text))
-
-
-RUBY = re.compile(r'<r=([^<>]*)></r>')
-# The client's own inline signals, from Avg_4_TalkCtrl.lua:292-296: ==P== paragraph,
-# ==B== break, ==W== wait, ==RT== newline, ==A<delay>== auto-paragraph, ==Off== drop the
-# centred background. None of them carry words, and _NOT_IN_LOG_ only keeps a line out of
-# the in-game log panel.
-TEXT_SIGNAL = re.compile(r'==[A-Za-z0-9_.]*==')
-
-
-def clean_dialogue(s):
-    if not s:
-        return ""
-    # ruby survives: <r=注音></r> is the small reading drawn above a word, i.e. content.
-    # Park it behind a sentinel so the blanket tag strip below cannot eat it.
-    s = RUBY.sub(lambda m: '\x00%s\x00' % m.group(1), s)
-    s = s.replace('<br>', ' ')
-    s = re.sub(r'<[^>]*>', '', s)
-    s = s.replace('==PLAYER_NAME==', PROTAG_NAME)
-    s = re.sub(r'==SEX\d*==', '你', s)
-    s = TEXT_SIGNAL.sub(' ', s)
-    s = s.replace('_NOT_IN_LOG_', '')
-    s = re.sub(r'\x00([^\x00]*)\x00', lambda m: '<r=%s></r>' % m.group(1), s)
-    s = re.sub(r'[ \t]+', ' ', s)
-    return s.strip()
-
-
-NONLOG = '_NOT_IN_LOG_'
-
-
-def _sig(text):
-    """Animation frames that differ only by alpha/whitespace are the same line.
-
-    The signature must be taken from the *rendered* text: a fade frame carries
-    <alpha=#22> where the logged frame carries none (or #CC vs #44), so comparing
-    raw markup would call every frame distinct and keep one per fade run.
-    """
-    return re.sub(r'\s+', '', clean_dialogue(text))
-
-
-def _related(a, b):
-    """True when two frames can be sub-states of one animated visual.
-
-    A fade-in emits the sentence with the trailing part progressively revealed, so
-    frames of one visual compare equal or one is contained in the other. Anything
-    else (an unrelated next line) ends the visual.
-    """
-    return a == b or a in b or b in a
-
-
-def nonlog_repeats(commands):
-    """SetTalk/SetPhoneMsg params whose only job was the fade-in animation.
-
-    The client renders one long line by issuing the same SetTalk over and over with
-    a rising <alpha=#22..#FF>, and those frames carry a _NOT_IN_LOG_ prefix because
-    they never enter the in-game backlog. Emitting one archive line per frame makes
-    the same sentence appear 6..57 times, so the frames must be folded back down.
-
-    Rules, per run of consecutive _NOT_IN_LOG_ frames:
-      1) if the animated visual ends on a logged frame carrying the same text, drop
-         the whole run -- that logged frame is what the backlog shows;
-      2) otherwise keep only the run's last non-empty frame (the animation's final
-         state), so standalone visuals never vanish from the archive.
-
-    The logged twin is searched along the animation chain around the run, because
-    the script interleaves Clear / SetBGM / Wait between the fade frames and their
-    final logged frame -- segmenting on Clear alone splits one visual in two.
-    """
-    rows = []          # [(idx, in_log, signature)]
-    for c in commands:
-        if c.cmd in ('SetTalk', 'SetPhoneMsg') and len(c.param) >= 3:
-            raw = c.param[2]
-            if isinstance(raw, str):
-                rows.append((c.idx, not raw.startswith(NONLOG),
-                             _sig(raw.replace(NONLOG, ''))))
-
-    n = len(rows)
-    skip = set()
-    i = 0
-    while i < n:
-        if rows[i][1]:                          # logged frame, always kept
-            i += 1
-            continue
-        j = i
-        while j < n and not rows[j][1]:
-            j += 1
-        run = range(i, j)                       # maximal _NOT_IN_LOG_ run
-        nonempty = [k for k in run if rows[k][2]]
-        if nonempty:
-            last = nonempty[-1]
-            sig = rows[last][2]
-            twin = None
-            for step in (-1, 1):                # walk the animation chain
-                k = last + step
-                while 0 <= k < n and rows[k][2] and _related(rows[k][2], sig):
-                    if rows[k][1] and rows[k][2] == sig:
-                        twin = k
-                        break
-                    k += step
-                if twin is not None:
-                    break
-            if twin is not None:                # rule 1: the log already shows it
-                skip.update(rows[k][0] for k in run)
-            else:                               # rule 2: keep the final state
-                skip.update(rows[k][0] for k in run)
-                skip.discard(rows[last][0])
-        i = j
-    return skip
-
-
-def speaker_of(spk_id, talk_type):
-    """Resolve an AVG speaker id to a display name, honouring the protagonist rules."""
-    sid = str(spk_id)
-    if sid in PROTAG_ID:
-        return PROTAG_NAME
-    if sid == "0":
-        return PROTAG_NAME if str(talk_type) == "2" else "旁白"
-    name, surfix = SPEAKERS.get(sid) or speaker_prefix_of(sid) or ("", "")
-    return clean_text(name or surfix or sid)
-
-
-def speaker_prefix_of(sid):
-    """Variant speaker keys carry a suffix the preset table does not list (avg1_144_BB_002
-    is 千都世), so fall back to the longest dotted prefix that is registered."""
-    parts = sid.split('_')
-    for cut in range(len(parts) - 1, 1, -1):
-        hit = SPEAKERS.get('_'.join(parts[:cut]))
-        if hit:
-            return hit
-    return None
+# 文本清洗/签名规则（clean_text/clean_dialogue/is_resource_name/_sig/_related）已移入
+# pipeline/text_rules.py；动画帧折叠 fold_animations（原 nonlog_repeats）、抉择方言
+# fork_options、beat 提取与分支归属 extract_beats 已移入 pipeline/passes.py；
+# 说话人解析已移入 pipeline/speakers.py（Phase 1c）。行为与原实现逐行等价。
 
 
 # ============================================================ command processing
-FORK_DEFS = {
-    "SetMajorChoice": "major",
-    "SetPersonalityChoice": "personality",
-    "SetChoiceBegin": "generic",
-    "SetPhoneMsgChoiceBegin": "phone",
-}
-FORK_CLOSE = {"ChoiceJumpTo": "jump", "ChoiceRollover": "roll", "ChoiceEnd": "end"}
-
-
-def fork_options(kind, param):
-    """Extract (prompt, [(option title, option desc, jump EvId)]) per fork dialect."""
-    strings = [x for x in param if isinstance(x, str)]
-    nested = [x for x in param if isinstance(x, T)]
-
-    if kind == "major":
-        # Every option block starts at an AvgChoice_ prefab and runs until the next
-        # prefab: [title, desc(?), route marker(?), ..., jump EvId]. The EvId (E901,
-        # Eev5_01, ...) is the first E-prefixed string after the title; it joins with
-        # StoryCondition/ActivityStoryEvidence to tell which level the option leads to.
-        prefabs = [i for i, s in enumerate(strings) if s.startswith("AvgChoice_")]
-        opts = []
-        for n, i in enumerate(prefabs):
-            seg = strings[i + 1:prefabs[n + 1] if n + 1 < len(prefabs) else len(strings)]
-            if not seg:
-                continue
-            title = clean_dialogue(seg[0])
-            desc = clean_dialogue(seg[1]) if len(seg) > 1 and not re.match(r'^[EC][A-Za-z0-9_]*$', seg[1]) else ""
-            ev = next((s for s in seg[1:] if re.match(r'^E[A-Za-z0-9_]+$', s)), "")
-            if title:
-                opts.append((title, desc, ev))
-        prompt = next((clean_dialogue(s) for s in reversed(strings)
-                       if not s.startswith(("AvgChoice_", "avg_emoji")) and re.search(r'[？?]', s)), "")
-        return prompt, opts
-
-    if kind == "phone":
-        # param[0] is the group id the reply jumps are keyed by; the labels follow it
-        return "", [(clean_dialogue(s), "", "") for s in list(param)[1:]
-                    if isinstance(s, str) and clean_dialogue(s) and s != "avg3_100"]
-
-    if kind == "generic":
-        filled = [x for x in nested if any(isinstance(v, str) and v.strip() for v in x)]
-        labels = [clean_dialogue(v) for v in filled[0] if isinstance(v, str) and clean_dialogue(v)] if filled else []
-        prompt = ""
-        if len(filled) > 1:
-            prompt = next((clean_dialogue(v) for v in filled[-1] if isinstance(v, str) and clean_dialogue(v)), "")
-        return prompt, [(l, "", "") for l in labels]
-
-    # personality: flat label list, no AvgChoice_ prefabs
-    skip = ("c", "l", "r", "e", "b", "a", "g", "none", "close")
-    labels = [clean_dialogue(s) for s in strings
-              if clean_dialogue(s) and s not in skip and not re.match(r'^\d{2,3}$', s)
-              and not s.startswith(("avg_emoji", "AvgChoice_"))]
-    prompt = next((l for l in reversed(labels) if re.search(r'[？?]', l)), "")
-    return prompt, [(l, "", "") for l in labels if l != prompt]
+# FORK_DEFS/FORK_CLOSE/fork_options 已移入 pipeline/passes.py（Phase 1c）。
 
 
 def extract_script(stem):
@@ -322,129 +135,7 @@ def extract_script(stem):
     cmds = script_commands(stem)
     if cmds is None:
         return None
-    beats = []
-    stack = []
-    pending_close = []
-    last_marker = None
-    meta = {'recap': '', 'episode': '', 'title': ''}
-    # Fade-in frames of the same line are not separate lines of dialogue.
-    skip = nonlog_repeats(cmds)
-
-    def frame_for(group):
-        for fr in reversed(stack):
-            if fr['group'] == group:
-                return fr
-        return None
-
-    def active():
-        for fr in reversed(stack):
-            if fr['cur'] is not None:
-                return fr, fr['cur']
-        return None
-
-    for c in cmds:
-        cmd, param = c.cmd, c.param
-        head = str(param[0]) if param else ""
-        kind = FORK_DEFS.get(cmd)
-        if kind:
-            prompt, opts = fork_options(kind, param)
-            opts = [(t, d, e) for t, d, e in opts if t]
-            if opts:
-                beats.append({'k': 'choice', 'kind': kind, 'prompt': prompt, 'options': opts})
-                last_marker = None
-                if kind != 'phone':
-                    stack.append({'group': head, 'titles': [t for t, _, _ in opts], 'cur': None, 'opened': set()})
-            continue
-
-        closer = next((v for suffix, v in FORK_CLOSE.items() if cmd.endswith(suffix)), None)
-        if closer:
-            fr = frame_for(head)
-            if fr:
-                if closer == 'jump':
-                    try:
-                        fr['cur'] = int(param[1])
-                    except (ValueError, TypeError, IndexError):
-                        fr['cur'] = None
-                elif closer == 'roll':
-                    fr['cur'] = None
-                else:
-                    stack.remove(fr)
-                    if fr['opened']:
-                        pending_close.append({'titles': fr['titles'], 'opened': fr['opened']})
-                    last_marker = None
-                    if not stack and pending_close:
-                        total = sum(len(p['opened']) for p in pending_close)
-                        silent = []
-                        for p in pending_close:
-                            for i, t in enumerate(p['titles'], 1):
-                                if i not in p['opened'] and t not in silent:
-                                    silent.append(t)
-                        beats.append({'k': 'merge', 'count': total, 'forks': len(pending_close), 'silent': silent})
-                        pending_close = []
-            continue
-
-        if cmd in ("SetTalk", "SetPhoneMsg"):
-            if len(param) < 3:
-                continue
-            if c.idx in skip:
-                continue
-            talk_type, spk, raw = str(param[0]), param[1], param[2]
-            text = clean_dialogue(raw if isinstance(raw, str) else "")
-            if not text:
-                continue
-            # In SetTalk/SetBubble a bare asset key is a sprite placeholder, not a line.
-            # In SetPhoneMsg it means the character sent that sticker -- real content.
-            if cmd == "SetTalk" and (text.startswith(("ep_", "BG_")) or is_resource_name(text)):
-                continue
-            sticker = cmd == "SetPhoneMsg" and is_resource_name(text)
-            fr = active()
-            if fr:
-                f, kk = fr
-                marker = (id(f), kk)
-                if marker != last_marker:
-                    title = f['titles'][kk - 1] if kk - 1 < len(f['titles']) else "分支%d" % kk
-                    beats.append({'k': 'branch_open', 'option': title})
-                    last_marker = marker
-                f['opened'].add(kk)
-            name = speaker_of(spk, talk_type)
-            beats.append({'k': 'talk', 'speaker': name, 'text': text,
-                          # type 2 only means "inner thought" for spoken lines; inside a
-                          # phone conversation it is just the message the player sends.
-                          'thought': talk_type == "2" and cmd == "SetTalk",
-                          'sticker': sticker,
-                          'channel': 'msg' if cmd == "SetPhoneMsg" else 'talk'})
-
-        elif cmd == "SetBubble":
-            if len(param) < 3:
-                continue
-            text = clean_dialogue(param[2] if isinstance(param[2], str) else "")
-            if not text:
-                continue
-            if not text or is_resource_name(text):
-                continue
-            beats.append({'k': 'bubble', 'speaker': speaker_of(param[0], 0), 'text': text})
-
-        elif cmd == "SetGroupId":
-            beats.append({'k': 'wave', 'no': clean_text(param[0]) if param else ""})
-
-        elif cmd == "SetSceneHeading":
-            # Official layout is a fixed 5 slots: 时刻 / 月 / 日 / 区域 / 地点
-            time_, month, day, region, place = (list(param) + ['', '', '', '', ''])[:5]
-            beats.append({'k': 'scene',
-                          'time': clean_text(time_),
-                          'date': " ".join(x for x in (clean_text(month), clean_text(day)) if x),
-                          'place': " ".join(x for x in (clean_text(region), clean_text(place)) if x)})
-
-        elif cmd == "SetIntro":
-            s = [x if isinstance(x, str) else "" for x in param]
-            if len(s) >= 4:
-                # [0] 代号 [1] 话数 [2] 标题 [3] 跳过概要（==RT== 是引擎的换行标记）
-                parts = [clean_dialogue(p) for p in s[3].split('==RT==')]
-                meta['recap'] = "\n".join(p for p in parts if p)
-                meta['episode'] = clean_dialogue(s[1])
-                meta['title'] = clean_dialogue(s[2])
-
-    return {'meta': meta, 'beats': beats}
+    return extract_beats(cmds, SPEAKER_RESOLVER)
 
 
 # ==================================================================== rendering
