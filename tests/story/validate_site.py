@@ -28,6 +28,18 @@ CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'C
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
 import release_gate
 
+# ---- 分级退出码（管线重构 Phase 0 引入）----------------------------------------
+# validate_site 的全部契约（G/G2/G3/H/H2/H3/I/I2/J/J2/L/L2/M/M2/M3/N/N2）都是
+# 绝对真值：侧车 JSON vs 表数据/剧本独立重导、site HTML 结构、门控泄露面。
+# 任一 FAIL / MISSED / 违例非零 → exit 1（CI 红灯）。
+HARD = []
+
+
+def hard(cond, label):
+    if not cond:
+        HARD.append(label)
+
+
 
 def table(name, folder=BIN):
     o = json.load(open(os.path.join(folder, name + '.json'), encoding='utf-8'))
@@ -121,6 +133,8 @@ print('表行数 %d  JSON 节点数 %d  字段不符 %d  JSON 多出的节点 %d
       % (len(STORY), len(nodes), len(bad), len(extra)))
 for x in bad[:8]:
     print('   ~', x)
+hard(not bad, 'G 节点字段不符：%d 处' % len(bad))
+hard(not extra, 'G JSON 多出未声明节点：%d' % len(extra))
 
 print()
 print("-- 图不变量 --")
@@ -144,6 +158,7 @@ for c in CH['chapters']:
 print('不变量违例：%d' % len(inv))
 for x in inv[:8]:
     print('   ~', x)
+hard(not inv, 'G 图不变量违例：%d 处' % len(inv))
 
 SEC = json.load(open(os.path.join(DATA, 'sections.json'), encoding='utf-8'))
 pages = SEC['pages']
@@ -193,6 +208,9 @@ print('page 与「包里是否真有剧本」不符的节点：%d（应 0）' % 
 bad_state = [n['sid'] for n in nodes.values()
              if (n['page'] is not None) != (n['state'] == 'released')]
 print('state 与 page 不自洽的节点：%d' % len(bad_state))
+hard(not orphan_page, 'G page 指向不存在的剧本页：%d' % len(orphan_page))
+hard(not wrong_page, 'G page 与包内剧本存在性不符：%d' % len(wrong_page))
+hard(not bad_state, 'G state 与 page 不自洽：%d' % len(bad_state))
 
 print()
 print("=" * 66)
@@ -210,6 +228,8 @@ for x in sorted(declared - md_on_disk)[:3]:
     print('   ~ 缺文件', x)
 for x in sorted(md_on_disk - declared)[:3]:
     print('   ~ 未登记', x)
+hard(not (declared - md_on_disk), 'G2 声明但缺文件：%d' % len(declared - md_on_disk))
+hard(not (md_on_disk - declared), 'G2 磁盘上没登记：%d' % len(md_on_disk - declared))
 
 dup = [k for k, v in collections.Counter((p['family'], p['id']) for p in pages).items() if v > 1]
 nopagelink = [p for p in pages if not p['page']]
@@ -233,6 +253,9 @@ print('重复 (family,id)：%d   缺 page 链接：%d   计数与剧本指令数
       % (len(dup), len(nopagelink), len(badcount)))
 for x in badcount[:6]:
     print('   ~', x)
+hard(not dup, 'G2 重复 (family,id)：%d' % len(dup))
+hard(not nopagelink, 'G2 缺 page 链接：%d' % len(nopagelink))
+hard(not badcount, 'G2 计数与剧本指令数矛盾：%d' % len(badcount))
 
 print()
 print("=" * 66)
@@ -266,22 +289,31 @@ def audit(chapters):
 
 
 base = audit(CH['chapters'])
+hard(not base, 'G3 正对照 FAIL（%d 条错误）' % len(base))
 print('正对照（未篡改）: %s（%d 条错误）' % ('PASS' if not base else 'FAIL', len(base)))
 clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
 n817 = next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 817)
 n824 = next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 824)
 before = list(n824['parents'])
 n824['parents'] = [n817['parents'][0]]
-print('植入[改汇合父引用]  : %s' % ('CAUGHT' if audit(clone['chapters']) else 'MISSED'))
+_g3a = bool(audit(clone['chapters']))
+hard(_g3a, 'G3 植入[改汇合父引用] MISSED')
+print('植入[改汇合父引用]  : %s' % ('CAUGHT' if _g3a else 'MISSED'))
 n824['parents'] = before
 next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 804)['code'] = '00'
-print('植入[改卡面编号]    : %s' % ('CAUGHT' if audit(clone['chapters']) else 'MISSED'))
+_g3b = bool(audit(clone['chapters']))
+hard(_g3b, 'G3 植入[改卡面编号] MISSED')
+print('植入[改卡面编号]    : %s' % ('CAUGHT' if _g3b else 'MISSED'))
 clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
 next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 817)['time']['clock'] = '09:99'
-print('植入[改节点时刻]    : %s' % ('CAUGHT' if audit(clone['chapters']) else 'MISSED'))
+_g3c = bool(audit(clone['chapters']))
+hard(_g3c, 'G3 植入[改节点时刻] MISSED')
+print('植入[改节点时刻]    : %s' % ('CAUGHT' if _g3c else 'MISSED'))
 clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
 clone['chapters'][0]['nodes'].pop()
-print('植入[删一个节点]    : %s' % ('CAUGHT' if audit(clone['chapters']) else 'MISSED'))
+_g3d = bool(audit(clone['chapters']))
+hard(_g3d, 'G3 植入[删一个节点] MISSED')
+print('植入[删一个节点]    : %s' % ('CAUGHT' if _g3d else 'MISSED'))
 
 
 # ============================================================ H  节点图几何
@@ -351,6 +383,7 @@ h_errs = audit_geometry(CH['chapters'])
 print('几何违例：%d' % len(h_errs))
 for x in h_errs[:8]:
     print('   ~', x)
+hard(not h_errs, 'H 布局几何违例：%d 处' % len(h_errs))
 print('各章：列数 / 宽 / 高 / 边数')
 for c in CH['chapters']:
     g = c['geometry']
@@ -367,16 +400,22 @@ a = next(n for n in ns if n['sid'] == 810)
 b = next(n for n in ns if n['sid'] == 811)
 a['lane'] = b['lane']
 a['y'] = b['y']
-print('植入[两卡挤同一轨道] : %s' % ('CAUGHT' if audit_geometry(k['chapters']) else 'MISSED'))
+_h2a = bool(audit_geometry(k['chapters']))
+hard(_h2a, 'H2 植入[两卡挤同一轨道] MISSED')
+print('植入[两卡挤同一轨道] : %s' % ('CAUGHT' if _h2a else 'MISSED'))
 k = CLONE()
 n824 = next(n for c in k['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 824)
 n824['col'] = 3
 n824['x'] = 3 * 264
-print('植入[汇合点挪到左边] : %s' % ('CAUGHT' if audit_geometry(k['chapters']) else 'MISSED'))
+_h2b = bool(audit_geometry(k['chapters']))
+hard(_h2b, 'H2 植入[汇合点挪到左边] MISSED')
+print('植入[汇合点挪到左边] : %s' % ('CAUGHT' if _h2b else 'MISSED'))
 k = CLONE()
 c8 = next(c for c in k['chapters'] if c['id'] == 8)
 c8['geometry']['edges'] = [e for e in c8['geometry']['edges'] if e[1] != 'STm07_15']
-print('植入[删掉进汇合点的边]: %s' % ('CAUGHT' if audit_geometry(k['chapters']) else 'MISSED'))
+_h2c = bool(audit_geometry(k['chapters']))
+hard(_h2c, 'H2 植入[删掉进汇合点的边] MISSED')
+print('植入[删掉进汇合点的边]: %s' % ('CAUGHT' if _h2c else 'MISSED'))
 
 
 # ---- H3 图页面渲染出来的落点：锚点、卡片可点性、链接是否指向真实文件
@@ -444,6 +483,7 @@ print('H3  图页面落点：卡片可点数 / 锚点 id / 链接可达')
 print('违例：%d' % len(h3_errs))
 for x in h3_errs[:8]:
     print('   ~', x)
+hard(not h3_errs, 'H3 图页面落点违例：%d 处' % len(h3_errs))
 k = CLONE()
 first = next(c for c in k['chapters'] if c['geometry'])
 h3_page = os.path.join(SITE, 'main', 'ch%s' % (first['no'] or 'sp'), 'index.html')
@@ -452,16 +492,20 @@ tmp = h3_page + '.bak'
 shutil.copyfile(h3_page, tmp)
 try:
     open(h3_page, 'w', encoding='utf-8').write(src.replace(' id="col1"', '', 1))
-    print('植入[抹掉一个列锚点]: %s'
-          % ('CAUGHT' if audit_graph_page(first, SITE) else 'MISSED'))
+    _h3a = bool(audit_graph_page(first, SITE))
+    hard(_h3a, 'H3 植入[抹掉一个列锚点] MISSED')
+    print('植入[抹掉一个列锚点]: %s' % ('CAUGHT' if _h3a else 'MISSED'))
     open(h3_page, 'w', encoding='utf-8').write(
         src.replace('data-col="0" href="../../main/ch%s/' % (first['no'] or 'sp'),
                     'data-col="0" href="../../main/gone/', 1))
-    print('植入[卡片链接指空]  : %s'
-          % ('CAUGHT' if audit_graph_page(first, SITE) else 'MISSED'))
+    _h3b = bool(audit_graph_page(first, SITE))
+    hard(_h3b, 'H3 植入[卡片链接指空] MISSED')
+    print('植入[卡片链接指空]  : %s' % ('CAUGHT' if _h3b else 'MISSED'))
 finally:
     shutil.move(tmp, h3_page)
-print('还原后复检: %s' % ('PASS' if not audit_graph_page(first, SITE) else 'FAIL'))
+_h3re = not audit_graph_page(first, SITE)
+hard(_h3re, 'H3 还原后复检 FAIL')
+print('还原后复检: %s' % ('PASS' if _h3re else 'FAIL'))
 sp_c = next(c for c in CH['chapters'] if c['geometry'] is None)
 sp_page = os.path.join(SITE, 'main', 'chsp', 'index.html')
 sp_src = open(sp_page, encoding='utf-8').read()
@@ -469,11 +513,14 @@ shutil.copyfile(sp_page, sp_page + '.bak')
 try:
     open(sp_page, 'w', encoding='utf-8').write(sp_src.replace('<li><a href="../../main/chsp/BAm06x5_01.html"><span class="code">BT01',
                                                               '<li><a href="#"><span class="code">BT01', 1))
-    print('植入[无剧本关卡给占位链接]: %s'
-          % ('CAUGHT' if audit_graph_page(sp_c, SITE) else 'MISSED'))
+    _h3c = bool(audit_graph_page(sp_c, SITE))
+    hard(_h3c, 'H3 植入[无剧本关卡给占位链接] MISSED')
+    print('植入[无剧本关卡给占位链接]: %s' % ('CAUGHT' if _h3c else 'MISSED'))
 finally:
     shutil.move(sp_page + '.bak', sp_page)
-print('还原后复检(特别篇): %s' % ('PASS' if not audit_graph_page(sp_c, SITE) else 'FAIL'))
+_h3re2 = not audit_graph_page(sp_c, SITE)
+hard(_h3re2, 'H3 还原后复检(特别篇) FAIL')
+print('还原后复检(特别篇): %s' % ('PASS' if _h3re2 else 'FAIL'))
 
 
 # ============================================================ I  HTML 与 md 不漂移
@@ -528,6 +575,9 @@ print('应生成 HTML：%d 篇（另有 %d 篇未到开放时间，只显示未�
 print('注音渲染：md %d 处 == HTML %d 处，一致=%s' % (ruby_md, ruby_html, ruby_md == ruby_html))
 for x in drift[:5]:
     print('   ~', x)
+hard(not missing_html, 'I 应生成的 HTML 缺文件：%d' % len(missing_html))
+hard(not drift, 'I HTML/md 逐句漂移：%d 页' % len(drift))
+hard(ruby_md == ruby_html, 'I 注音渲染数不一致: md=%d html=%d' % (ruby_md, ruby_html))
 
 BIN_ACT = json.load(open(os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'ActivityStory.json'), encoding='utf-8'))
 activity_battle_pages = {
@@ -554,6 +604,8 @@ print('HTML 总数 %d   未登记的页面 %d   该有却没有的页面 %d'
       % (len(html_all), len(html_all - expected), len(expected - html_all)))
 for x in sorted(expected - html_all)[:5]:
     print('   ~ 缺', x)
+hard(not (html_all - expected), 'I 未登记的页面：%d' % len(html_all - expected))
+hard(not (expected - html_all), 'I 该有却没有的页面：%d' % len(expected - html_all))
 
 # Verify battle archives (activity + main story) and activity topology maps
 bt_errs = []
@@ -584,6 +636,7 @@ for act_id in ('10106', '20101'):
 print('活动战斗关卡与拓扑图检查违例：%d' % len(bt_errs))
 for x in bt_errs[:5]:
     print('   ~', x)
+hard(not bt_errs, 'I 活动战斗关卡与拓扑图违例：%d 处' % len(bt_errs))
 
 print()
 print('I2 变异测试')
@@ -601,7 +654,9 @@ def html_lines(path):
         open(path, encoding='utf-8').read())]
 
 
-print('正对照（未篡改）    : %s' % ('PASS' if html_lines(vp) == want else 'FAIL'))
+_i2_pos = html_lines(vp) == want
+hard(_i2_pos, 'I2 正对照 FAIL')
+print('正对照（未篡改）    : %s' % ('PASS' if _i2_pos else 'FAIL'))
 for label, mut in [
         ('植入[改 HTML 一个字]', orig.replace('」', 'X」', 1)),
         ('植入[弄坏一行结构]  ', orig.replace('<p class="line', '<p class="x" data-line="', 1)),
@@ -612,7 +667,9 @@ for label, mut in [
         print('%s : 样本里没有该形状' % label)
         continue
     open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
-    print('%s : %s' % (label, 'CAUGHT' if html_lines(tmp) != want else 'MISSED'))
+    _i2_ok = html_lines(tmp) != want
+    hard(_i2_ok, 'I2 %s MISSED' % label.strip())
+    print('%s : %s' % (label, 'CAUGHT' if _i2_ok else 'MISSED'))
 os.remove(tmp)
 
 
@@ -645,6 +702,9 @@ print('条目 %d   重复 (family,id) %d   路径不可解析 %d   说话人不�
       % (len(ent), len(bad_dup), len(bad_path), len(bad_speaker)))
 for x in (bad_path + bad_speaker)[:5]:
     print('   ~', x)
+hard(not bad_dup, 'J 重复 (family,id)：%d' % len(bad_dup))
+hard(not bad_path, 'J 路径不可解析：%d' % len(bad_path))
+hard(not bad_speaker, 'J 说话人不在该页：%d' % len(bad_speaker))
 # a sticker send renders as 〔发送表情〕 rather than 「台词」, so it is not an extractable line
 want = sum(p['counts'].get('talk', 0) + p['counts'].get('bubble', 0)
            - p['counts'].get('sticker', 0) for p in published)
@@ -652,9 +712,11 @@ got = sum(len(HTML_LINE.findall(open(os.path.join(SITE, *p['page'].split('/')),
                                       encoding='utf-8').read())) for p in published)
 print('应可比对台词行（talk+bubble-sticker）%d   HTML 实提取 %d   一致=%s'
       % (want, got, want == got))
+hard(want == got, 'J 台词行对账不符: 应 %d 实 %d' % (want, got))
 js = open(os.path.join(SITE, 'data', 'search.js'), encoding='utf-8').read()
 print('search.js 内嵌条目数 %d（与 json 一致=%s）'
       % (js.count('"family"'), js.count('"family"') == len(ent)))
+hard(js.count('"family"') == len(ent), 'J search.js 条目数与 json 不一致')
 
 print()
 print('J2 变异测试')
@@ -681,17 +743,25 @@ def audit_index(entries):
                 errs.append(('说话人不在该页', e['page'], s))
     return errs
 
-print('正对照（未篡改）: %s（%d 条错误）' % ('PASS' if not audit_index(ent) else 'FAIL',
+_j2_pos = not audit_index(ent)
+hard(_j2_pos, 'J2 正对照 FAIL（%d 条错误）' % len(audit_index(ent)))
+print('正对照（未篡改）: %s（%d 条错误）' % ('PASS' if _j2_pos else 'FAIL',
                                        len(audit_index(ent))))
 k = K()
 k['entries'] = k['entries'][:-1]
-print('植入[从索引删一页] : %s' % ('CAUGHT' if audit_index(k['entries']) else 'MISSED'))
+_j2a = bool(audit_index(k['entries']))
+hard(_j2a, 'J2 植入[从索引删一页] MISSED')
+print('植入[从索引删一页] : %s' % ('CAUGHT' if _j2a else 'MISSED'))
 k = K()
 k['entries'][0]['speakers'] = ['不存在的人']
-print('植入[写入假说话人] : %s' % ('CAUGHT' if audit_index(k['entries']) else 'MISSED'))
+_j2b = bool(audit_index(k['entries']))
+hard(_j2b, 'J2 植入[写入假说话人] MISSED')
+print('植入[写入假说话人] : %s' % ('CAUGHT' if _j2b else 'MISSED'))
 k = K()
 k['entries'][3]['page'] = 'nowhere/ghost.html'
-print('植入[页面链接指空] : %s' % ('CAUGHT' if audit_index(k['entries']) else 'MISSED'))
+_j2c = bool(audit_index(k['entries']))
+hard(_j2c, 'J2 植入[页面链接指空] MISSED')
+print('植入[页面链接指空] : %s' % ('CAUGHT' if _j2c else 'MISSED'))
 
 
 # ============================================================ L  「分支走向」角标 == 权威映射
@@ -877,6 +947,7 @@ L_errs, L_pages_n, L_opts_n = audit_branch_badges()
 print('含重大抉择的页面 %d   校验选项 %d 个   违例 %d' % (L_pages_n, L_opts_n, len(L_errs)))
 for x in L_errs[:8]:
     print('   ~', x)
+hard(not L_errs, 'L 分支走向角标违例：%d 处' % len(L_errs))
 
 print()
 print('L2 变异测试')
@@ -890,10 +961,13 @@ try:
     l_errs, _p, _o = audit_branch_badges()
     # only the poisoned page may report an error
     caught = len([e for e in l_errs if e[0] == 'main/ch08/STm08_15.html']) > 0
+    hard(caught, 'L2 植入[把「听听艾蕾的意见」的角标改成 13B] MISSED')
     print('植入[把「听听艾蕾的意见」的角标改成 13B] : %s' % ('CAUGHT' if caught else 'MISSED'))
 finally:
     shutil.move(victim + '.bak', victim)
-print('还原后复检: %s' % ('PASS' if not audit_branch_badges()[0] else 'FAIL'))
+_l2re = not audit_branch_badges()[0]
+hard(_l2re, 'L2 还原后复检 FAIL')
+print('还原后复检: %s' % ('PASS' if _l2re else 'FAIL'))
 
 
 # ============================================================ M  页内锚点完整性 & 玩家回应气泡
@@ -959,6 +1033,8 @@ print('含「玩家回应」的页面 %d   气泡 %d   前置句 %d   违例 %d'
       % (M2_pages, M2_bubbles, M2_leads, len(M2_errs)))
 for x in M2_errs[:5]:
     print('   ~', x)
+hard(not M_errs, 'M 页内锚点悬空：%d 处' % len(M_errs))
+hard(not M2_errs, 'M2 玩家回应气泡违例：%d 处' % len(M2_errs))
 
 print()
 print('M2 变异测试')
@@ -986,17 +1062,23 @@ try:
         try:
             open(mut_page, 'w', encoding='utf-8', newline='\n').write(
                 mut.replace(' id="%s"' % mut_ref, '', 1))
+            _m2a = bool(audit_anchors())
+            hard(_m2a, 'M2 植入[抹掉被引用的气泡 id] MISSED')
             print('植入[抹掉被引用的气泡 id #%s @ %s]: %s'
                   % (mut_ref, os.path.basename(mut_page),
-                     'CAUGHT' if audit_anchors() else 'MISSED'))
+                     'CAUGHT' if _m2a else 'MISSED'))
         finally:
             shutil.move(mut_page + '.bak', mut_page)
     open(victim, 'w', encoding='utf-8', newline='\n').write(
         orig_m.replace('<p class="reply-lead">那就……你真努力呢</p>', '', 1))
-    print('植入[删掉一处 reply-lead]: %s' % ('CAUGHT' if audit_player_replies()[0] else 'MISSED'))
+    _m2b = bool(audit_player_replies()[0])
+    hard(_m2b, 'M2 植入[删掉一处 reply-lead] MISSED')
+    print('植入[删掉一处 reply-lead]: %s' % ('CAUGHT' if _m2b else 'MISSED'))
 finally:
     shutil.move(victim + '.bak', victim)
-print('还原后复检: %s' % ('PASS' if not audit_anchors() and not audit_player_replies()[0] else 'FAIL'))
+_m2re = not audit_anchors() and not audit_player_replies()[0]
+hard(_m2re, 'M2 还原后复检 FAIL')
+print('还原后复检: %s' % ('PASS' if _m2re else 'FAIL'))
 
 
 # ============================================ M3  单选项父抉择不得渲染成分支框
@@ -1086,6 +1168,7 @@ print('含单选项抉择或若选的页面 %d   单选项抉择 %d   md 中若�
       % (M3_pages, M3_single, M3_ruose, len(M3_errs)))
 for x in M3_errs[:5]:
     print('   ~', x)
+hard(not M3_errs, 'M3 单选项抉择渲染违例：%d 处' % len(M3_errs))
 
 print()
 print('M3 变异测试')
@@ -1098,15 +1181,20 @@ try:
     # 12603's bubbles all carry an id (#choice-N), so anchor on a structural tag
     anchor = '<h2 data-part="3">'
     if anchor not in orig_3:
+        hard(False, 'M3 变异测试失效：找不到插入点 %s' % anchor)
         print('植入[把单选项抉择的若选画回分支框]: MISSED（找不到插入点 %s）' % anchor)
     else:
         open(victim3, 'w', encoding='utf-8', newline='\n').write(
             orig_3.replace(anchor, planted + anchor, 1))
+        _m3a = bool(audit_single_option_choices()[0])
+        hard(_m3a, 'M3 植入[把单选项抉择的若选画回分支框] MISSED')
         print('植入[把单选项抉择的若选画回分支框]: %s'
-              % ('CAUGHT' if audit_single_option_choices()[0] else 'MISSED'))
+              % ('CAUGHT' if _m3a else 'MISSED'))
 finally:
     shutil.move(victim3 + '.bak', victim3)
-print('还原后复检: %s' % ('PASS' if not audit_single_option_choices()[0] else 'FAIL'))
+_m3re = not audit_single_option_choices()[0]
+hard(_m3re, 'M3 还原后复检 FAIL')
+print('还原后复检: %s' % ('PASS' if _m3re else 'FAIL'))
 
 
 # ============================================ N  未开放内容只显示未开放，不透露内容
@@ -1213,6 +1301,7 @@ print('被门控的组 %d   未渲染的页面记录 %d   违例 %d'
       % (locked_n, len(locked_pages), len(n_errs)))
 for x in n_errs[:8]:
     print('   ~', x)
+hard(not n_errs, 'N 门控泄露违例：%d 处' % len(n_errs))
 # 5) the family index shows the placeholder instead of the group
 idx_errs = []
 SLUG = {'storysets': 'storysets', 'events': 'events', 'main': 'main'}
@@ -1238,6 +1327,7 @@ for family, items in GATE.groups.items():
 print('占位渲染违例：%d' % len(idx_errs))
 for x in idx_errs[:5]:
     print('   ~', x)
+hard(not idx_errs, 'N 占位渲染违例：%d 处' % len(idx_errs))
 
 print()
 print('N2 变异测试')
@@ -1257,34 +1347,52 @@ else:
     orig_js = open(js_path, encoding='utf-8').read()
     try:
         open(victim, 'w', encoding='utf-8', newline='\n').write(orig_d)
-        print('植入[把正文页写回锁定 URL] : %s'
-              % ('CAUGHT' if audit_locked() else 'MISSED'))
+        _n2a = bool(audit_locked())
+        hard(_n2a, 'N2 植入[把正文页写回锁定 URL] MISSED')
+        print('植入[把正文页写回锁定 URL] : %s' % ('CAUGHT' if _n2a else 'MISSED'))
         open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
         if f_names:
             open(idx_page, 'w', encoding='utf-8', newline='\n').write(
                 orig_i.replace(release_gate.MASK, f_names[0], 1))
-            print('植入[给占位卡写上组名]     : %s'
-                  % ('CAUGHT' if audit_locked() else 'MISSED'))
+            _n2b = bool(audit_locked())
+            hard(_n2b, 'N2 植入[给占位卡写上组名] MISSED')
+            print('植入[给占位卡写上组名]     : %s' % ('CAUGHT' if _n2b else 'MISSED'))
             open(idx_page, 'w', encoding='utf-8', newline='\n').write(orig_i)
         if f_titles:
             open(victim, 'w', encoding='utf-8', newline='\n').write(
                 orig_v.replace('<h1>尚未开放</h1>',
                                '<h1>尚未开放 %s</h1>' % f_titles[0], 1))
-            print('植入[给提示页写上话数标题] : %s'
-                  % ('CAUGHT' if audit_locked() else 'MISSED'))
+            _n2c = bool(audit_locked())
+            hard(_n2c, 'N2 植入[给提示页写上话数标题] MISSED')
+            print('植入[给提示页写上话数标题] : %s' % ('CAUGHT' if _n2c else 'MISSED'))
             open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
         open(js_path, 'w', encoding='utf-8', newline='\n').write(
             orig_js.rstrip().rstrip(';') + ',{"id":999999999,"family":"%s","page":"%s"};\n'
             % (first['family'], f_url))
-        print('植入[把锁定 URL 塞回检索]  : %s'
-              % ('CAUGHT' if audit_locked() else 'MISSED'))
+        _n2d = bool(audit_locked())
+        hard(_n2d, 'N2 植入[把锁定 URL 塞回检索] MISSED')
+        print('植入[把锁定 URL 塞回检索]  : %s' % ('CAUGHT' if _n2d else 'MISSED'))
         open(js_path, 'w', encoding='utf-8', newline='\n').write(orig_js)
         os.remove(victim)
-        print('植入[删掉一个提示页]       : %s'
-              % ('CAUGHT' if audit_locked() else 'MISSED'))
+        _n2e = bool(audit_locked())
+        hard(_n2e, 'N2 植入[删掉一个提示页] MISSED')
+        print('植入[删掉一个提示页]       : %s' % ('CAUGHT' if _n2e else 'MISSED'))
     finally:
         if not os.path.exists(victim):
             open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
         open(idx_page, 'w', encoding='utf-8', newline='\n').write(orig_i)
         open(donor, 'w', encoding='utf-8', newline='\n').write(orig_d)
-    print('还原后复检: %s' % ('PASS' if not audit_locked() and not idx_errs else 'FAIL'))
+    _n2re = not audit_locked() and not idx_errs
+    hard(_n2re, 'N2 还原后复检 FAIL')
+    print('还原后复检: %s' % ('PASS' if _n2re else 'FAIL'))
+
+# ---- 汇总与退出码 -------------------------------------------------------------
+print()
+print('=' * 66)
+if HARD:
+    print('RESULT: FAIL —— %d 处契约违例：' % len(HARD))
+    for x in HARD:
+        print('   ✗', x)
+    sys.exit(1)
+print('RESULT: PASS —— 全部契约（G/G2/G3/H/H2/H3/I/I2/J/J2/L/L2/M/M2/M3/N/N2）绿')
+sys.exit(0)

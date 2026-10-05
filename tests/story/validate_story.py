@@ -26,6 +26,30 @@ CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'C
 BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
 LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
 
+# ---- 分级退出码（管线重构 Phase 0 引入）----------------------------------------
+# 绝对真值契约（B/C/D/E/F/K/M：产物 vs 剧本原文/表数据、全部变异测试）违例 → exit 1。
+# 历史对照契约（A/A2 的 old-vs-new 比较）走白名单：docs/ 是 legacy 生成器产物，
+# 下列 6 个关卡的 old-vs-new 差异是旧生成器缺陷 + 新生成器 _NOT_IN_LOG_ 帧折叠修复
+# 的既定结果（人工核对过，非回归信号），仅当差异超出白名单才硬失败。
+HARD = []
+
+
+def hard(cond, label):
+    if not cond:
+        HARD.append(label)
+
+
+A_WHITELIST = {
+    # old=docs/ legacy 产物, new=story_docs/ 现产物；len 为可比台词行数 old vs new
+    '1011':        '旧版把渐显帧逐帧计入（len 208 vs 166），新版按 _NOT_IN_LOG_ 折叠',
+    '101110206':   '旧版多计一条渐显帧（len 98 vs 97）',
+    '201010209':   '旧版把渐显帧逐帧计入（len 97 vs 83）',
+    '605':         '旧版把 ==A-1==/==RT== 信号原样写进文本（len 121 vs 121）',
+    '927':         '旧版把渐显帧逐帧计入（len 249 vs 193）',
+    '928':         '旧版多计渐显帧（len 314 vs 307）',
+}
+
+
 TALK = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$')
 BUBBLE = re.compile(r'^\*\*(.+?)\*\*（战斗气泡）：「(.*)」$')
 CHAT = re.compile(r'^\*\*(.+?)\*\*(?:（短信）)?：「(.*)」$|^\*\*(.+?)\*\*：〔发送表情')
@@ -218,6 +242,9 @@ for x in mism_old[:6]:
     print('   !! old vs new', x)
 for x in mism_intro[:6]:
     print('   !! intro vs new', x)
+hard(not mism_intro, 'A2 新产物概要与剧本 SetIntro[3] 不符：%d 处' % len(mism_intro))
+hard(not [x for x in mism_old if x[0] not in A_WHITELIST],
+     'A2 old-vs-new 超白名单：%s' % sorted({x[0] for x in mism_old} - set(A_WHITELIST)))
 
 print()
 print("=" * 66)
@@ -249,6 +276,8 @@ print('   （转义泄漏 = 旧产物把 Lua 的 \\" 直接写进文本，共 %s
 print('新产物补出的短信正文行数：%d（旧产物完全没渲染 SetPhoneMsg）' % chat_added)
 for d in diffs[:12]:
     print('   !!', d)
+hard(all(d[0] in A_WHITELIST for d in diffs),
+     'A 历史对照超白名单：%s' % sorted({d[0] for d in diffs} - set(A_WHITELIST)))
 old_only = set(old_files) - set(new_files)
 
 
@@ -289,6 +318,8 @@ expected = exp_main | exp_act
 print('旧有新无的关卡 Id：%d（预期：%d = 主线无剧本行 %d + 活动战斗行 %d）%s'
       % (len(old_only), len(expected), len(exp_main), len(exp_act),
          'OK' if old_only == expected else '!! 差集: %s' % str(sorted(old_only ^ expected))[:200]))
+hard(old_only == expected,
+     'A 旧有新无差集与表推导不符: %s' % str(sorted(old_only ^ expected))[:120])
 
 print()
 print("=" * 66)
@@ -337,6 +368,8 @@ for b in bad_b[:10]:
 print('StoryId 编号与挂接剧本不同源：%d（应 0；若不为 0，说明又在用显示代号拼脚本名）' % len(bad_stem))
 for b in bad_stem[:10]:
     print('   !!', b)
+hard(not bad_b, 'B 气泡完整性不一致：%d 处' % len(bad_b))
+hard(not bad_stem, 'B StoryId 编号与挂接剧本不同源：%d 处' % len(bad_stem))
 
 print()
 print("=" * 66)
@@ -357,6 +390,11 @@ print('场景卡 md=%d  Lua SetSceneHeading=%d' % (n_scene, truth['scene']))
 print('气泡   md=%d  Lua SetBubble(含未挂接文件)=%d' % (n_bub, truth['bubble']))
 print('短信   md=%d  Lua SetPhoneMsg=%d' % (n_chat, truth['msg']))
 print('通用抉择块 md=%d  Lua SetChoiceBegin=%d' % (n_choice_generic, truth['choice']))
+# 前三项的既有基线是相等，作硬断言；通用抉择块只作信息行——Lua 的 SetChoiceBegin
+# 含重大抉择帧，md 的「抉择/玩家回应」通用块天然不含（基线 474 vs 485），不可断言相等。
+hard(n_scene == truth['scene'], 'C 场景卡计数不符: md=%d Lua=%d' % (n_scene, truth['scene']))
+hard(n_bub == truth['bubble'], 'C 气泡计数不符: md=%d Lua=%d' % (n_bub, truth['bubble']))
+hard(n_chat == truth['msg'], 'C 短信行数不符: md=%d Lua=%d' % (n_chat, truth['msg']))
 
 print()
 print("=" * 66)
@@ -389,15 +427,23 @@ def bubble_seq(text):
 
 
 base = bubble_seq(orig)
-print('正对照（未改动文件）: %s' % ('PASS' if base == truth else 'FAIL'))
+_d_pos = base == truth
+hard(_d_pos, 'D 正对照 FAIL（未改动文件应与 Lua 一致）')
+print('正对照（未改动文件）: %s' % ('PASS' if _d_pos else 'FAIL'))
 v1 = orig.replace(base[1][1], base[1][1] + 'X', 1)
 first_wave_line = next(l for l in orig.splitlines() if WAVE.match(l.strip()))
 v2 = orig.replace(first_wave_line, "> **[战斗阶段 99]**", 1)
 first_bubble_line = next(l for l in orig.splitlines() if BUBBLE.match(l.strip()))
 v3 = orig.replace(first_bubble_line + "\n", "", 1)
-print('植入[改一个字]      : %s' % ('CAUGHT' if bubble_seq(v1) != truth else 'MISSED'))
-print('植入[阶段号写错]    : %s' % ('CAUGHT' if bubble_seq(v2) != truth else 'MISSED'))
-print('植入[删掉一条气泡]  : %s' % ('CAUGHT' if bubble_seq(v3) != truth else 'MISSED'))
+_d1 = bubble_seq(v1) != truth
+_d2 = bubble_seq(v2) != truth
+_d3 = bubble_seq(v3) != truth
+hard(_d1, 'D 植入[改一个字] MISSED')
+hard(_d2, 'D 植入[阶段号写错] MISSED')
+hard(_d3, 'D 植入[删掉一条气泡] MISSED')
+print('植入[改一个字]      : %s' % ('CAUGHT' if _d1 else 'MISSED'))
+print('植入[阶段号写错]    : %s' % ('CAUGHT' if _d2 else 'MISSED'))
+print('植入[删掉一条气泡]  : %s' % ('CAUGHT' if _d3 else 'MISSED'))
 print('样本文件: %s / %s 气泡 %d 条' % (os.path.basename(bt), stem, len(truth)))
 
 
@@ -569,6 +615,10 @@ for x in extra[:5]:
     print('   多:', x)
 for x in bad_title[:5]:
     print('   标题:', x)
+hard(not missing, 'E 表声明的页面缺失：%d' % len(missing))
+hard(not extra, 'E 产物多出未声明页面：%d' % len(extra))
+hard(not bad_stem, 'E 剧本代号不符：%d' % len(bad_stem))
+hard(not bad_title, 'E 标题与官方文案不符：%d' % len(bad_title))
 
 seq_bad, recap_bad, nodir = [], [], []
 for k in sorted(set(expect) & set(actual), key=str):
@@ -593,6 +643,9 @@ for x in seq_bad[:6]:
     print('   ~ %s %s 表内%d句/产物%d句，第%d句起分叉: %r != %r' % x)
 for x in recap_bad[:6]:
     print('   ~ %s %s SetIntro=%r 产物=%r' % x)
+hard(not seq_bad, 'E 逐句序列不一致：%d 页' % len(seq_bad))
+hard(not recap_bad, 'E 跳过概要与 SetIntro[3] 不符：%d 页' % len(recap_bad))
+hard(not nodir, 'E 表声明剧本在包内查无文件：%d' % len(nodir))
 
 # 变异测试：新族页面只要被动过就该被 E 抓到
 probe_key = next(k for k in sorted(set(expect) & set(actual), key=str)
@@ -611,6 +664,8 @@ mut2 = md.replace(recap_line, '> 被改写过的概要', 1) if recap_line else m
 open(tmp, 'w', encoding='utf-8', newline='\n').write(mut2)
 caught_recap = recap_of(tmp) != lua_setintro_recap(pstem)
 os.remove(tmp)
+hard(caught_line, 'E 变异[改一句台词] MISSED')
+hard(caught_recap, 'E 变异[改概要] MISSED')
 print('\n变异测试（%s / %s，%d 句）: 改一句台词->%s   改概要->%s'
       % (probe_key, pstem, len(base_seq),
          'CAUGHT' if caught_line else 'MISSED', 'CAUGHT' if caught_recap else 'MISSED'))
@@ -658,18 +713,24 @@ for x in f_bub[:6]:
     print('   ~ 气泡', x)
 for x in f_recap[:6]:
     print('   ~ 概要', x)
+hard(not f_seq, 'F 台词序列不符：%d 页' % len(f_seq))
+hard(not f_bub, 'F 气泡/阶段不符：%d 页' % len(f_bub))
+hard(not f_recap, 'F 概要不符：%d 页' % len(f_recap))
 
 # 覆盖对账：产物声明已渲染的剧本数要和 _coverage.md 一致
 cov = open(os.path.join(NEW, '_coverage.md'), encoding='utf-8').read()
 decl = re.search(r'已渲染：(\d+)　未渲染：(\d+)', cov)
 uniq = len({s for _p, s in pages})
 print('去重后剧本数 %d，_coverage.md 声明 %s' % (uniq, decl.group(1) if decl else '?'))
+hard(decl is not None and int(decl.group(1)) == uniq,
+     'F 覆盖对账不符: _coverage.md 声明 %s，实际去重 %d' % (decl.group(1) if decl else '?', uniq))
 
 # 变异测试：序章与存目战斗页各改一处
 for label, pick in (('序章台词', lambda q: q[1].startswith('STm00')),
                     ('存目气泡阶段', lambda q: q[1].startswith('BBm00'))):
     tgt = next((q for q in pages if pick(q)), None)
     if not tgt:
+        hard(False, 'F %s：找不到变异样本' % label)
         print('%s：找不到样本' % label)
         continue
     p, stem = tgt
@@ -686,6 +747,7 @@ for label, pick in (('序章台词', lambda q: q[1].startswith('STm00')),
         open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
         ok = md_bubbles(tmp) != (lua_bubbles(stem) or [])
     os.remove(tmp)
+    hard(ok, 'F %s 变异 MISSED' % label)
     print('%s 变异（%s）-> %s' % (label, stem, 'CAUGHT' if ok else 'MISSED'))
 
 
@@ -743,20 +805,27 @@ for x in bad_k[:8]:
     print('   ~', x)
 for x in sorted(set(odd_k))[:5]:
     print('   ?', x)
+hard(not bad_k, 'K 说话人越章违例：%d 处' % len(bad_k))
 
 print()
 print('K2 变异测试')
 sp = next(p for p, s in pages if s == 'BBm07_BT01')
+_k2_pos = not audit_mount(sp, 'BBm07_BT01')
+hard(_k2_pos, 'K2 正对照 FAIL')
 print('正对照（第七章 BT01 挂 BBm07_BT01）: %s'
-      % ('PASS' if not audit_mount(sp, 'BBm07_BT01') else 'FAIL'))
+      % ('PASS' if _k2_pos else 'FAIL'))
 # 特别篇的战斗行现在没有页面，所以直接按关卡 Id 造一个路径来测规则本身
 sp_row = next(str(r['Id']) for r in story.values()
               if r.get('IsBattle') and int(r['Chapter']) == 7)
 fake = os.path.join(NEW, 'main', 'x', 'sections', '%s_BT01_x.md' % sp_row)
+_k2a = bool(audit_mount(fake, 'BBm07_BT01'))
+_k2b = bool(audit_mount(sp, 'BBm08_BT01'))
+hard(_k2a, 'K2 植入[把 BBm07_BT01 挂回特别篇] MISSED')
+hard(_k2b, 'K2 植入[把 BBm08_BT01 挂到第七章] MISSED')
 print('植入[把 BBm07_BT01 挂回特别篇]: %s'
-      % ('CAUGHT' if audit_mount(fake, 'BBm07_BT01') else 'MISSED'))
+      % ('CAUGHT' if _k2a else 'MISSED'))
 print('植入[把 BBm08_BT01 挂到第七章]: %s'
-      % ('CAUGHT' if audit_mount(sp, 'BBm08_BT01') else 'MISSED'))
+      % ('CAUGHT' if _k2b else 'MISSED'))
 
 
 # ============================================================ M  注音保真
@@ -803,6 +872,7 @@ for p, stem in pages:
 print('全树注音标记：%d 处   有注音的页：%d   不符：%d' % (marks_m, pages_m, len(bad_m)))
 for x in bad_m[:6]:
     print('   ~', x)
+hard(not bad_m, 'M 注音保真不符：%d 处' % len(bad_m))
 
 print()
 print('M2 变异测试')
@@ -811,7 +881,9 @@ rstem = next(s for p, s in pages if p == rp)
 src = open(rp, encoding='utf-8').read()
 tmp = rp + '.mut.md'
 try:
-    print('正对照（未篡改）: %s' % ('PASS' if not audit_ruby(rp, rstem) else 'FAIL'))
+    _m_pos = not audit_ruby(rp, rstem)
+    hard(_m_pos, 'M2 正对照 FAIL')
+    print('正对照（未篡改）: %s' % ('PASS' if _m_pos else 'FAIL'))
     for label, mut in [
             ('植入[删掉一处注音]', src.replace('<r=mowang></r>', '', 1)),
             ('植入[注音挪到字后]', src.replace('魔<r=mowang></r>王', '魔王<r=mowang></r>', 1)),
@@ -820,8 +892,25 @@ try:
             print('%s : 样本里没有该形状，跳过' % label)
             continue
         open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
-        print('%s : %s' % (label, 'CAUGHT' if audit_ruby(tmp, rstem) else 'MISSED'))
+        _m_ok = bool(audit_ruby(tmp, rstem))
+        hard(_m_ok, 'M2 %s MISSED' % label)
+        print('%s : %s' % (label, 'CAUGHT' if _m_ok else 'MISSED'))
 finally:
     if os.path.exists(tmp):
         os.remove(tmp)
-print('还原后复检: %s' % ('PASS' if not audit_ruby(rp, rstem) else 'FAIL'))
+_m_re = not audit_ruby(rp, rstem)
+hard(_m_re, 'M2 还原后复检 FAIL')
+print('还原后复检: %s' % ('PASS' if _m_re else 'FAIL'))
+
+# ---- 汇总与退出码 -------------------------------------------------------------
+print()
+print('=' * 66)
+if HARD:
+    print('RESULT: FAIL —— %d 处绝对真值契约违例：' % len(HARD))
+    for x in HARD:
+        print('   ✗', x)
+    sys.exit(1)
+print('RESULT: PASS —— 绝对真值契约（B/C/D/E/F/K/M + 全部变异测试）全绿；')
+print('              历史对照（A/A2）在白名单内（%d 关卡：%s）'
+      % (len(A_WHITELIST), ', '.join(sorted(A_WHITELIST))))
+sys.exit(0)
