@@ -167,14 +167,18 @@ published = [p for p in pages if not GATE.is_page(p['family'], p['id'])]
 
 def script_in_pack(n):
     """Does the pack actually hold the script this node would render? Existence only —
-    whether the *name* is the right one is contract K's job in validate_story.py."""
+    whether the *name* is the right one is contract B/K's job in validate_story.py
+    (StoryId battle token vs display code). Same rule as there: the battle token in the
+    node's own story_id wins, the display code is only a fallback."""
     sid = str(n['story_id'])
     if n['kind'] != 'battle':
         return os.path.isfile(os.path.join(CFG, sid + '.lua'))
-    m = re.match(r'^BA([0-9a-zA-Z]+)_[^_]+$', sid)
+    m = re.match(r'^BA([0-9a-zA-Z]+)_([^_]+)$', sid)
     if not m:
         return False
-    cand = 'BB%s_%s' % (m.group(1), re.sub(r'[^A-Za-z0-9]', '', n['code'] or ''))
+    tail = re.sub(r'[^A-Za-z0-9]', '', m.group(2))
+    battle_no = tail if re.fullmatch(r'BT\d+', tail) else re.sub(r'[^A-Za-z0-9]', '', n['code'] or '')
+    cand = 'BB%s_%s' % (m.group(1), battle_no)
     return os.path.isfile(os.path.join(CFG, cand + '.lua'))
 
 

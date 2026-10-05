@@ -8501,20 +8501,17 @@
    "page_md": "main/chapter_10_遥远的塔/sections/1010_BT02_一人成军.md",
    "page": "main/ch09/BAm09_BT03.html",
    "stems": [
-    "BBm09_BT02"
+    "BBm09_BT03"
    ],
    "recap": "",
    "speakers": [
-    "琥珀",
-    "鸢尾",
-    "尘沙",
-    "千都世",
-    "黎明近卫士兵男",
-    "夏花"
+    "艾蕾",
+    "安琪",
+    "格蕾霍恩"
    ],
    "counts": {
-    "wave": 9,
-    "bubble": 24,
+    "wave": 4,
+    "bubble": 19,
     "sticker": 0
    },
    "preview": "",
@@ -8637,17 +8634,20 @@
    "page_md": "main/chapter_10_遥远的塔/sections/1013_BT03_两级反转.md",
    "page": "main/ch09/BAm09_BT02.html",
    "stems": [
-    "BBm09_BT03"
+    "BBm09_BT02"
    ],
    "recap": "",
    "speakers": [
-    "艾蕾",
-    "安琪",
-    "格蕾霍恩"
+    "琥珀",
+    "鸢尾",
+    "尘沙",
+    "千都世",
+    "黎明近卫士兵男",
+    "夏花"
    ],
    "counts": {
-    "wave": 4,
-    "bubble": 19,
+    "wave": 9,
+    "bubble": 24,
     "sticker": 0
    },
    "preview": "",

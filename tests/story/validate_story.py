@@ -7,7 +7,8 @@ line scanning and never imports build_story.py.
 
 A  逐句对齐   : legacy dialogue == new dialogue, per 关卡 Id, same order.
 B  气泡完整性 : every SetBubble text of the mapped BBm script appears, in order,
-               under the right 战斗阶段 marker.
+               under the right 战斗阶段 marker; and the mapping itself follows the
+               stage's own StoryId battle token, never the display code.
 C  增量归因   : new-only lines are only scene headings / chat lines / battle bubbles /
                generic choices / branch markers, and their totals match Lua counts.
 D  变异测试   : planted errors must be caught.
@@ -252,13 +253,30 @@ old_only = set(old_files) - set(new_files)
 
 
 def bbm_candidate(r):
-    """The client names a bubble script after the chapter token inside the stage's own
-    StoryId (BAm06x5_01 -> 06x5), which is NOT Story.Chapter (the 特别篇 is numbered 7 in
-    the table but filed as 06x5 between ch06 and ch07)."""
-    m = re.match(r'^BA([0-9a-zA-Z]+)_[^_]+$', str(r.get('StoryId') or ''))
+    """The client names a bubble script after the battle token inside the stage's own
+    StoryId (BAm06x5_01 -> 06x5, BAm09_BT03 -> BBm09_BT03), which is NOT Story.Chapter
+    (the 特别篇 is numbered 7 in the table but filed as 06x5 between ch06 and ch07) and
+    is NOT the localization display code either (ch09 rows 1010/1013 publish a display
+    code crossed against their own StoryId/ConditionId/FloorId; the pack's script
+    contents follow the StoryId). Kept as a local copy on purpose -- this validator is
+    independent by construction; see scripts/story/build_story.py::bubble_stem_for for
+    the generating side of the same rule."""
+    m = re.match(r'^BA([0-9a-zA-Z]+)_([^_]+)$', str(r.get('StoryId') or ''))
     if not m:
         return None
+    tail = re.sub(r'[^A-Za-z0-9]', '', m.group(2))
+    if re.fullmatch(r'BT\d+', tail):
+        return 'BB%s_%s' % (m.group(1), tail)
     return 'BB%s_%s' % (m.group(1), re.sub(r'[^A-Za-z0-9]', '', norm(lang.get(r.get('Index', ''), ''))))
+
+
+def bbm_story_token(r):
+    """The `BTnn` token baked into a stage's own StoryId, or None."""
+    m = re.match(r'^BA[0-9a-zA-Z]+_([^_]+)$', str(r.get('StoryId') or ''))
+    if not m:
+        return None
+    tail = re.sub(r'[^A-Za-z0-9]', '', m.group(1))
+    return tail if re.fullmatch(r'BT\d+', tail) else None
 
 
 exp_main = {str(r['Id']) for r in story.values()
@@ -278,6 +296,7 @@ print("B  战斗气泡完整性（naive 行扫描为准，逐阶段对齐）")
 print("=" * 66)
 bad_b = []
 bubbles_checked = 0
+bad_stem = []
 for r in story.values():
     if not r.get('IsBattle'):
         continue
@@ -285,6 +304,13 @@ for r in story.values():
     stem = bbm_candidate(r)
     if not stem:
         continue
+    # Contract: when a stage's own StoryId carries a BTnn token, the mounted script must
+    # be the one that token names. A localisation display code may disagree with it (an
+    # upstream slip); the StoryId side is what the script contents, ConditionId and
+    # FloorId all follow, so trusting the display code silently swaps whole battles.
+    token = bbm_story_token(r)
+    if token and stem != 'BB%s_%s' % (re.match(r'^BA([0-9a-zA-Z]+)_', str(r.get('StoryId'))).group(1), token):
+        bad_stem.append((str(r['Id']), str(r.get('StoryId')), token, idx, stem))
     truth = lua_bubbles(stem)
     if not truth:
         continue
@@ -307,6 +333,9 @@ for r in story.values():
                       next((t for t, g in zip(truth, waves) if t != g), ('', ''))))
 print('挂接剧本的气泡条数（基准）：%d   不一致：%d' % (bubbles_checked, len(bad_b)))
 for b in bad_b[:10]:
+    print('   !!', b)
+print('StoryId 编号与挂接剧本不同源：%d（应 0；若不为 0，说明又在用显示代号拼脚本名）' % len(bad_stem))
+for b in bad_stem[:10]:
     print('   !!', b)
 
 print()

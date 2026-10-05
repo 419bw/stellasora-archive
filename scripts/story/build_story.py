@@ -32,6 +32,11 @@ OUT = os.path.join(ROOT, 'story_docs')
 PROTAG_ID = ("avg3_100", "avg3_101", "avg3_1311", "avg3_1312", "1")
 PROTAG_NAME = "魔王"
 
+# Stages whose own StoryId carries a `BTnn` battle token that disagrees with the display
+# code the localization table publishes for them (upstream official labelling slip).
+# Filled by build_main(), reported in _battle_reconciliation.md.
+CODE_MISMATCHES = []
+
 # ============================================================== Lua table parser
 class T(list):
     """A Lua table: positional items plus any key = value pairs."""
@@ -607,15 +612,38 @@ def node_time(beats):
 
 
 def bubble_stem_for(story_id, code):
-    """The client names a battle's bubble script after the chapter token baked into the
-    stage's own StoryId, not after Story.Chapter: 特别篇 stages are `BAm06x5_*` while the
-    table numbers that chapter 7, and the bubble files follow `BBm07_*` for 第七章 stages
-    (`BAm07_*`). Verified against every stage: a script's speakers always appear in the
-    chapter its StoryId token points to, and never in the one Story.Chapter points to."""
-    m = re.match(r'^BA([0-9a-zA-Z]+)_[^_]+$', story_id or '')
+    """The client names a battle's bubble script after the battle token baked into the
+    stage's own StoryId (BAm09_BT03 -> BBm09_BT03), not after Story.Chapter and not
+    after the stage's display code. Two reasons the StoryId wins:
+      * 特别篇 stages are `BAm06x5_*` while the table numbers that chapter 7 (already
+        handled by taking the chapter token from the StoryId);
+      * ch09 rows 1010/1013 carry a display code that is crossed against their own
+        StoryId / ConditionId / FloorId (1010: StoryId BAm09_BT03, code BT02;
+        1013: StoryId BAm09_BT02, code BT03). The pack proves the StoryId is right:
+        BBm09_BT03 holds the 安琪/塔菲特 lines, BBm09_BT02 the 千都世 counter-ambush
+        lines, matching ConditionId and FloorId, not the display codes.
+    The display code is only a fallback for stages whose StoryId tail is not a battle
+    token (ch01-ch05 sequential names such as BAm01_05, and 特别篇 BAm06x5_01)."""
+    m = re.match(r'^BA([0-9a-zA-Z]+)_([^_]+)$', story_id or '')
     if not m:
         return None
-    return 'BB%s_%s' % (m.group(1), re.sub(r'[^A-Za-z0-9]', '', code or ''))
+    token = m.group(1)
+    tail = re.sub(r'[^A-Za-z0-9]', '', m.group(2))
+    if re.fullmatch(r'BT\d+', tail):
+        return 'BB%s_%s' % (token, tail)
+    return 'BB%s_%s' % (token, re.sub(r'[^A-Za-z0-9]', '', code or ''))
+
+
+def stem_code_mismatch(story_id, code):
+    """True when a stage's own StoryId carries a `BTnn` battle token that disagrees
+    with the display code the tables publish for it. That is an upstream (official)
+    labelling slip, not ours: the script / ConditionId / FloorId all follow the
+    StoryId, so the site must render the StoryId's script and merely print a note."""
+    m = re.match(r'^BA[0-9a-zA-Z]+_([^_]+)$', story_id or '')
+    if not m:
+        return False
+    tail = re.sub(r'[^A-Za-z0-9]', '', m.group(1))
+    return bool(re.fullmatch(r'BT\d+', tail)) and tail != re.sub(r'[^A-Za-z0-9]', '', code or '')
 
 
 def record_node(ch, row, page, bubble_stem, beats=None):
@@ -693,6 +721,13 @@ def build_main():
                     battle_map.append((stem, cand, 'attached', ch))
                 else:
                     battle_map.append((stem, cand, 'MISSING', ch))
+                if stem_code_mismatch(stem, idx):
+                    tail = re.sub(r'[^A-Za-z0-9]', '', re.match(r'^BA[0-9a-zA-Z]+_([^_]+)$', stem).group(1))
+                    print('!! 官方显示代号与 StoryId 编号不一致（气泡脚本按 StoryId 取）: '
+                          'sid=%s story=%s suffix=%s display=%s stem=%s'
+                          % (r['Id'], stem, tail, idx, cand))
+                    CODE_MISMATCHES.append((r['Id'], stem, tail, idx, cand,
+                                            r.get('ConditionId'), ch))
             if parsed is None and not bubbles:
                 # Dynamic pure battle stage detection:
                 # A battle stage in an open chapter whose parents are released (or empty at chapter start)
@@ -1182,19 +1217,30 @@ def main():
              "> 包内暂无剧本的战斗关卡行分布在：%s。"
              "其中最新一章的关卡表先行、后续线路的剧本随版本补进客户端，因此不是解包遗漏。"
              % '、'.join('《%s》' % x if not str(x).startswith('表') else str(x) for x in miss_ch), "",
-             "> BBm 剧本从不出现在任何配置表里，客户端按「关卡代号里的章号 + 关卡编号」拼出文件名："
-             "`BAm07_01` → `BBm07_BT01`，`BAm06x5_01` → `BBm06x5_BT01`。"
-             "注意这里跟的是关卡代号，**不是 `Story.Chapter`**：特别篇的关卡记作 `06x5`，"
-             "而表把它的 `Chapter` 记成 7，用表号拼名会把第七章的气泡挂到特别篇上。"
-             "判据是可核对的：每个 BBm 剧本的说话人集合都出现在其 StoryId 章号所指那一章的正篇演员表里，"
+             "> BBm 剧本从不出现在任何配置表里，客户端按「关卡代号（StoryId）里的章号 + 编号」拼出文件名："
+             "`BAm07_01` → `BBm07_BT01`，`BAm06x5_01` → `BBm06x5_BT01`，`BAm09_BT03` → `BBm09_BT03`。"
+             "两段都跟关卡自己的代号（StoryId），**都不是 `Story.Chapter`，也不是本地化表里的显示代号**："
+             "特别篇的关卡记作 `06x5`，而表把它的 `Chapter` 记成 7，用表号拼名会把第七章的气泡挂到特别篇上；"
+             "第九章 `1010`/`1013` 两行的显示代号与自身 StoryId 编号交叉（见下节），用显示代号拼名会把两场战斗的"
+             "气泡对白整袋取反。判据是可核对的：每个 BBm 剧本的说话人集合都出现在其 StoryId 章号所指那一章的正篇演员表里，"
              "而特别篇正篇没有夏花/小禾/千都世，所以 `BBm07_*` 不属于它；"
-             "特别篇的两场战斗（`BAm06x5_01`/`BAm06x5_02`）在包里确实没有气泡剧本。", "",
+             "特别篇的两场战斗（`BAm06x5_01`/`BAm06x5_02`）在包里确实没有气泡剧本。"
+             "仅当 StoryId 后缀不是战斗编号（第一至第五章的顺序名如 `BAm01_05`）时才回退到显示代号。", "",
              "> `BBm00_01`–`BBm00_06` 的说话人只有鸢尾/琥珀/尘沙，内容与序章剧本 `STm00_01`《最初的起点》"
              "同为一场沙漠星塔许愿箱之战，即注册流程里打的那一关；关卡表里没有对应行。", ""]
     if missing:
         lines += ["## 无气泡剧本的战斗关卡", ""]
         lines += ["- `%s`（%s，按命名规则期望：%s）" % (b[0], chlab.get(b[3], b[3]), b[1])
                   for b in missing] + [""]
+    if CODE_MISMATCHES:
+        lines += ["## 官方显示代号与 StoryId 编号不一致的关卡行（上游数据笔误）", "",
+                  "这些行的本地化显示代号和它自己的 `StoryId` / `ConditionId` / `FloorId` 编号是交叉的。"
+                  "本站按 `StoryId` 一侧取剧本（脚本内容、条件、楼层号三者互相印证），"
+                  "**展示代号仍照抄官方原文**，仅在此登记，不去改动官方文字。", ""]
+        lines += ["- 第 %s 章 `%s`：StoryId `%s`（%s）↔ 显示代号 `%s`；"
+                  "ConditionId `%s`，实际挂接 `%s`"
+                  % (c, sid, story, suffix, disp, cond, stem)
+                  for sid, story, suffix, disp, stem, cond, c in CODE_MISMATCHES] + [""]
     if unattached:
         lines += ["## 未被任何关卡引用的 BBm 剧本", ""]
         lines += ["- [`%s`](battles_unmounted/%s.md)" % (s, safe_name(s)) for s in unattached]
