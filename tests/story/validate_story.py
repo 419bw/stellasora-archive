@@ -464,7 +464,63 @@ def lua_speech_rows(stem):
 
 def lua_dialogue_seq(stem):
     rows = lua_speech_rows(stem)
-    return None if rows is None else [norm(r) for _c, r in rows]
+    return None if rows is None else [norm(r) for _c, r in fold_nonlog(rows)]
+
+
+NONLOG = '_NOT_IN_LOG_'
+
+
+def _vsig(text):
+    """Signature of one frame's rendered text (mirrors build_story.clean_dialogue)."""
+    return re.sub(r'\s+', '', norm(text))
+
+
+def _vrelated(a, b):
+    return a == b or a in b or b in a
+
+
+def fold_nonlog(rows):
+    """[(cmd, raw)] with the client's _NOT_IN_LOG_ fade-in frames folded away.
+
+    The client renders one long line as several SetTalk with a rising
+    <alpha=#22..#FF>; those frames never enter the in-game backlog, so the generator
+    emits one archive line per rendered line, not one per frame. This mirrors
+    scripts/story/build_story.py:nonlog_repeats so the truth sequence compared
+    against the pages has the same shape as what was generated.
+    """
+    tagged = [(cmd, not raw.startswith(NONLOG), _vsig(raw)) for cmd, raw in rows]
+    n = len(tagged)
+    drop = set()
+    i = 0
+    while i < n:
+        if tagged[i][1]:
+            i += 1
+            continue
+        j = i
+        while j < n and not tagged[j][1]:
+            j += 1
+        run = range(i, j)
+        nonempty = [k for k in run if tagged[k][2]]
+        if nonempty:
+            last = nonempty[-1]
+            sig = tagged[last][2]
+            twin = None
+            for step in (-1, 1):
+                k = last + step
+                while 0 <= k < n and tagged[k][2] and _vrelated(tagged[k][2], sig):
+                    if tagged[k][1] and tagged[k][2] == sig:
+                        twin = k
+                        break
+                    k += step
+                if twin is not None:
+                    break
+            if twin is None:                # rule 2: keep the animation's final state
+                drop.update(run)
+                drop.discard(last)
+            else:                           # rule 1: the log already shows it
+                drop.update(run)
+        i = j
+    return [rows[k] for k in range(n) if k not in drop]
 
 
 LANG_P, LANG_N, LANG_D = lg('Plot'), lg('NPCAffinityPlot'), lg('DiscIP')
@@ -725,6 +781,7 @@ def audit_ruby(path, stem):
     rows = lua_speech_rows(stem)
     if rows is None:
         return ['剧本查无文件']
+    rows = fold_nonlog(rows)
     texts = dialogue(path, raw=True)
     if len(texts) != len(rows):
         return ['句数不等 md=%d lua=%d' % (len(texts), len(rows))]

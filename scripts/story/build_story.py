@@ -268,6 +268,89 @@ def clean_dialogue(s):
     return s.strip()
 
 
+NONLOG = '_NOT_IN_LOG_'
+
+
+def _sig(text):
+    """Animation frames that differ only by alpha/whitespace are the same line.
+
+    The signature must be taken from the *rendered* text: a fade frame carries
+    <alpha=#22> where the logged frame carries none (or #CC vs #44), so comparing
+    raw markup would call every frame distinct and keep one per fade run.
+    """
+    return re.sub(r'\s+', '', clean_dialogue(text))
+
+
+def _related(a, b):
+    """True when two frames can be sub-states of one animated visual.
+
+    A fade-in emits the sentence with the trailing part progressively revealed, so
+    frames of one visual compare equal or one is contained in the other. Anything
+    else (an unrelated next line) ends the visual.
+    """
+    return a == b or a in b or b in a
+
+
+def nonlog_repeats(commands):
+    """SetTalk/SetPhoneMsg params whose only job was the fade-in animation.
+
+    The client renders one long line by issuing the same SetTalk over and over with
+    a rising <alpha=#22..#FF>, and those frames carry a _NOT_IN_LOG_ prefix because
+    they never enter the in-game backlog. Emitting one archive line per frame makes
+    the same sentence appear 6..57 times, so the frames must be folded back down.
+
+    Rules, per run of consecutive _NOT_IN_LOG_ frames:
+      1) if the animated visual ends on a logged frame carrying the same text, drop
+         the whole run -- that logged frame is what the backlog shows;
+      2) otherwise keep only the run's last non-empty frame (the animation's final
+         state), so standalone visuals never vanish from the archive.
+
+    The logged twin is searched along the animation chain around the run, because
+    the script interleaves Clear / SetBGM / Wait between the fade frames and their
+    final logged frame -- segmenting on Clear alone splits one visual in two.
+    """
+    rows = []          # [(param, in_log, signature)]
+    for cmd, param in commands:
+        if cmd in ('SetTalk', 'SetPhoneMsg') and len(param) >= 3:
+            raw = param[2]
+            if isinstance(raw, str):
+                rows.append((param, not raw.startswith(NONLOG),
+                             _sig(raw.replace(NONLOG, ''))))
+
+    n = len(rows)
+    skip = set()
+    i = 0
+    while i < n:
+        if rows[i][1]:                          # logged frame, always kept
+            i += 1
+            continue
+        j = i
+        while j < n and not rows[j][1]:
+            j += 1
+        run = range(i, j)                       # maximal _NOT_IN_LOG_ run
+        nonempty = [k for k in run if rows[k][2]]
+        if nonempty:
+            last = nonempty[-1]
+            sig = rows[last][2]
+            twin = None
+            for step in (-1, 1):                # walk the animation chain
+                k = last + step
+                while 0 <= k < n and rows[k][2] and _related(rows[k][2], sig):
+                    if rows[k][1] and rows[k][2] == sig:
+                        twin = k
+                        break
+                    k += step
+                if twin is not None:
+                    break
+            if twin is not None:                # rule 1: the log already shows it
+                skip.update(id(rows[k][0]) for k in run)
+            else:                               # rule 2: keep the final state
+                skip.update(id(rows[k][0]) for k in run)
+                skip.discard(id(rows[last][0]))
+        i = j
+    return skip
+
+
 def speaker_of(spk_id, talk_type):
     """Resolve an AVG speaker id to a display name, honouring the protagonist rules."""
     sid = str(spk_id)
@@ -357,6 +440,8 @@ def extract_script(stem):
     pending_close = []
     last_marker = None
     meta = {'recap': '', 'episode': '', 'title': ''}
+    # Fade-in frames of the same line are not separate lines of dialogue.
+    skip = nonlog_repeats(cmds)
 
     def frame_for(group):
         for fr in reversed(stack):
@@ -412,6 +497,8 @@ def extract_script(stem):
 
         if cmd in ("SetTalk", "SetPhoneMsg"):
             if len(param) < 3:
+                continue
+            if id(param) in skip:
                 continue
             talk_type, spk, raw = str(param[0]), param[1], param[2]
             text = clean_dialogue(raw if isinstance(raw, str) else "")
