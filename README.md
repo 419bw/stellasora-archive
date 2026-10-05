@@ -73,7 +73,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-05
-- fix(site): ch09 战斗气泡按 StoryId 编号取剧本，修 BT02/BT03 对白互换
+- fix(story): 折叠 _NOT_IN_LOG_ 渐显动画帧，修同一句台词重复输出多次
 
 ---
 
