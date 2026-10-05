@@ -1,0 +1,140 @@
+{
+ "note": "上游数据异常与编译器兜底的机器可读登记（build_story 生成）。人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数（正常行为，按字面解析，不逐条列出）；choice_frame_anomalies=抉择关闭指令的 group 无活跃帧（phone 方言不入帧栈，其落空属设计使然，不登记）。",
+ "code_mismatches": [
+  {
+   "sid": 1010,
+   "story_id": "BAm09_BT03",
+   "storyid_suffix": "BT03",
+   "display_code": "BT02",
+   "bubble_stem": "BBm09_BT03",
+   "condition_id": "C09_BT03",
+   "chapter": 10
+  },
+  {
+   "sid": 1013,
+   "story_id": "BAm09_BT02",
+   "storyid_suffix": "BT02",
+   "display_code": "BT03",
+   "bubble_stem": "BBm09_BT02",
+   "condition_id": "C09_BT02",
+   "chapter": 10
+  }
+ ],
+ "battle_bubble_missing": [
+  {
+   "sid": "BAm06x5_01",
+   "expected_stem": "BBm06x5_BT01",
+   "chapter": 7
+  },
+  {
+   "sid": "BAm06x5_02",
+   "expected_stem": "BBm06x5_BT02",
+   "chapter": 7
+  },
+  {
+   "sid": "BAm09_BT04",
+   "expected_stem": "BBm09_BT04",
+   "chapter": 10
+  },
+  {
+   "sid": "BAm09_BT05",
+   "expected_stem": "BBm09_BT05",
+   "chapter": 10
+  }
+ ],
+ "unattached_bbm_scripts": [
+  "BBm00_01",
+  "BBm00_02",
+  "BBm00_03",
+  "BBm00_04",
+  "BBm00_05",
+  "BBm00_06"
+ ],
+ "rows_without_script": [
+  {
+   "chapter": 10,
+   "sid": 1019,
+   "stem": "STm09_01_c",
+   "title": "请君入瓮",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1020,
+   "stem": "BAm09_BT04",
+   "title": "主场作战",
+   "kind": "战斗关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1021,
+   "stem": "STm09_02_c",
+   "title": "魔王之塔",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1022,
+   "stem": "STm09_03_c",
+   "title": "梦开始的地方",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1023,
+   "stem": "BAm09_BT05",
+   "title": "再战星骸",
+   "kind": "战斗关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1024,
+   "stem": "STm09_04_c",
+   "title": "不变之物",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1025,
+   "stem": "STm09_05_c",
+   "title": "遥远的塔",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 10,
+   "sid": 1026,
+   "stem": "STm09_01_d",
+   "title": "窄门",
+   "kind": "剧情关卡"
+  }
+ ],
+ "speaker_prefix_fallbacks": [
+  {
+   "sid": "avg1_134_BB_002",
+   "via": "prefix",
+   "resolved": "冬香"
+  },
+  {
+   "sid": "avg1_144_BB_002",
+   "via": "prefix",
+   "resolved": "千都世"
+  }
+ ],
+ "speaker_inline_names": 1022,
+ "choice_frame_anomalies": [
+  {
+   "stem": "CG_126_03",
+   "idx": 379,
+   "cmd": "SetChoiceEnd",
+   "group": "a_4",
+   "closer": "end"
+  },
+  {
+   "stem": "STm05_07",
+   "idx": 811,
+   "cmd": "SetPersonalityChoiceRollover",
+   "group": "3",
+   "closer": "roll"
+  }
+ ]
+}

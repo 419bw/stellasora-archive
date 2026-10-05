@@ -85,7 +85,8 @@ python tests/story/validate_site.py
 stellasora-archive/
 ├── story_docs/              # Markdown 真源文档库与结构化侧车数据
 │   ├── _data/               # chapters.json, sections.json, search.json 等
-│   └── _beats/              # PageDoc IR 侧车（md/HTML 双后端共同上游）
+│   ├── _beats/              # PageDoc IR 侧车（md/HTML 双后端共同上游）
+│   └── _diagnostics.json    # 上游数据异常与编译器兜底的机器可读登记
 ├── scripts/                 # 构建与维护脚本工具集
 │   ├── story/               # 剧情抽取与拓扑计算模块
 │   │   ├── build_story.py   # 编排器：解析上游数据源 -> 生成 Markdown 与侧车数据

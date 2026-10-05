@@ -10,10 +10,15 @@ from .text_rules import clean_text
 
 
 class SpeakerResolver:
-    """Resolve an AVG speaker id to a display name, honouring the protagonist rules."""
+    """Resolve an AVG speaker id to a display name, honouring the protagonist rules.
 
-    def __init__(self, speakers):
+    diag: 可选列表收集器（Phase 3 诊断侧车）。预置表查不到的 id 走前缀回退
+    或裸 id 兜底时记录一条 {'sid','via','resolved'}；仅记录，不影响解析结果。
+    """
+
+    def __init__(self, speakers, diag=None):
         self.speakers = speakers    # id -> (name, surfix)
+        self.diag = diag
 
     def of(self, spk_id, talk_type):
         sid = str(spk_id)
@@ -21,8 +26,14 @@ class SpeakerResolver:
             return PROTAG_NAME
         if sid == "0":
             return PROTAG_NAME if str(talk_type) == "2" else "旁白"
-        name, surfix = self.speakers.get(sid) or self.prefix_of(sid) or ("", "")
-        return clean_text(name or surfix or sid)
+        hit = self.speakers.get(sid)
+        name, surfix = hit or self.prefix_of(sid) or ("", "")
+        out = clean_text(name or surfix or sid)
+        if hit is None and self.diag is not None:
+            self.diag.append({'sid': sid,
+                              'via': 'prefix' if self.prefix_of(sid) else 'sid',
+                              'resolved': out})
+        return out
 
     def prefix_of(self, sid):
         """Variant speaker keys carry a suffix the preset table does not list (avg1_144_BB_002

@@ -36,6 +36,13 @@ OUT = os.path.join(ROOT, 'story_docs')
 # Filled by build_main(), reported in _battle_reconciliation.md.
 CODE_MISMATCHES = []
 
+# Phase 3 诊断侧车（story_docs/_diagnostics.json）收集点：上游数据异常的机器可读
+# 登记，只记录、不改变任何行为。SPEAKER_FALLBACKS 由 pipeline/speakers.py 填充
+# （预置表查不到、走前缀/裸 id 兜底的说话人），FRAME_ANOMALIES 由
+# pipeline/passes.py 填充（抉择关闭指令的 group 找不到活跃帧，如 CG_126_03）。
+SPEAKER_FALLBACKS = []
+FRAME_ANOMALIES = []      # [(stem, {'idx','cmd','group','closer'})]
+
 # ============================================================== Lua table parser
 # 解析器已拆分为 pipeline/lua_lexer.py（词法，token 流带 SourcePos）与
 # pipeline/lua_parser.py（语法，递归下降 → T(list)）。此处仅保留兼容壳：
@@ -72,7 +79,7 @@ def load_speakers():
 
 
 SPEAKERS = load_speakers()
-SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS)
+SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS, diag=SPEAKER_FALLBACKS)
 LANG_STORY = load_json(LANG, 'Story.json')
 LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
 LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
@@ -137,7 +144,11 @@ def extract_script(stem):
     cmds = script_commands(stem)
     if cmds is None:
         return None
-    return extract_beats(cmds, SPEAKER_RESOLVER)
+    diag = []
+    res = extract_beats(cmds, SPEAKER_RESOLVER, diag=diag)
+    for d in diag:
+        FRAME_ANOMALIES.append((stem, d))
+    return res
 
 
 # ==================================================================== rendering
@@ -812,6 +823,52 @@ def write_coverage():
     return len(alls), len(alls) - len(todo), len(todo)
 
 
+def write_diagnostics(battle_map, skipped, unattached):
+    """story_docs/_diagnostics.json —— 上游数据异常与编译器兜底的机器可读登记。
+
+    与人读的 _battle_reconciliation.md 互补：这里是脚本/测试可直接消费的结构化
+    条目（手册 8.5 认可的根级侧车）。纯增量文件：不在黄金清单覆盖面（其只收
+    *.md、_data/*.json、site/**），也不被任何现有契约消费。列表按构造序或
+    显式排序，同一输入重建字节稳定。
+    """
+    anomalies = {}
+    for stem, d in FRAME_ANOMALIES:
+        anomalies[(stem, d['idx'], d['cmd'], d['group'])] = {
+            'stem': stem, 'idx': d['idx'], 'cmd': d['cmd'],
+            'group': d['group'], 'closer': d['closer']}
+    fallbacks = {}
+    for f in SPEAKER_FALLBACKS:
+        fallbacks.setdefault(f['sid'], f)
+    obj = {
+        'note': '上游数据异常与编译器兜底的机器可读登记（build_story 生成）。'
+                '人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。'
+                'speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；'
+                'speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数'
+                '（正常行为，按字面解析，不逐条列出）；'
+                'choice_frame_anomalies=抉择关闭指令的 group 无活跃帧'
+                '（phone 方言不入帧栈，其落空属设计使然，不登记）。',
+        'code_mismatches': [
+            {'sid': sid, 'story_id': story, 'storyid_suffix': suffix,
+             'display_code': disp, 'bubble_stem': stem, 'condition_id': cond,
+             'chapter': c}
+            for sid, story, suffix, disp, stem, cond, c in CODE_MISMATCHES],
+        'battle_bubble_missing': [
+            {'sid': b[0], 'expected_stem': b[1], 'chapter': b[3]}
+            for b in battle_map if b[2] == 'MISSING'],
+        'unattached_bbm_scripts': sorted(unattached),
+        'rows_without_script': [
+            {'chapter': c, 'sid': sid, 'stem': stem, 'title': t, 'kind': kind}
+            for c, sid, stem, t, kind in skipped],
+        'speaker_prefix_fallbacks': [
+            fallbacks[k] for k in sorted(fallbacks) if fallbacks[k]['via'] == 'prefix'],
+        'speaker_inline_names': sum(1 for k in fallbacks if fallbacks[k]['via'] == 'sid'),
+        'choice_frame_anomalies': [anomalies[k] for k in sorted(anomalies)],
+    }
+    write(os.path.join(OUT, '_diagnostics.json'),
+          json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
+    return obj
+
+
 def main():
     # story_docs/ is fully generated: a mount change removes pages, and leaving the old
     # files behind would let the validators read a tree this script never wrote
@@ -883,6 +940,13 @@ def main():
         lines += ["## 关卡表已列出、包内无剧本的关卡行（未开放线路）", ""]
         lines += ["- 第 %s 章 `%s` %s（%s，剧本代号 `%s`）" % (c, sid, t, kind, stem) for c, sid, stem, t, kind in skipped]
     write(os.path.join(OUT, '_battle_reconciliation.md'), "\n".join(lines))
+    djson = write_diagnostics(battle_map, skipped, unattached)
+    print("诊断侧车 _diagnostics.json：代号错配=%d 气泡缺失=%d 未引用BBm=%d "
+          "无剧本行=%d 前缀兜底=%d 内联名=%d 帧异常=%d"
+          % (len(djson['code_mismatches']), len(djson['battle_bubble_missing']),
+             len(djson['unattached_bbm_scripts']), len(djson['rows_without_script']),
+             len(djson['speaker_prefix_fallbacks']), djson['speaker_inline_names'],
+             len(djson['choice_frame_anomalies'])))
     print("Wrote %s" % OUT)
 
 

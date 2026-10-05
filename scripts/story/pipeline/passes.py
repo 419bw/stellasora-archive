@@ -136,11 +136,15 @@ def fork_options(kind, param):
     return prompt, [(l, "", "") for l in labels if l != prompt]
 
 
-def extract_beats(commands, resolver):
+def extract_beats(commands, resolver, diag=None):
     """Turn one AVG script's command IR into an ordered beat list with branch
     attribution（原 extract_script 核心循环，行为逐行等价）。
 
     resolver: SpeakerResolver 实例（说话人 id → 显示名）。
+    diag: 可选列表收集器（Phase 3 诊断侧车）。ChoiceJumpTo/Rollover/End 的
+    group 在活跃帧栈里找不到归属帧时记录 {'idx','cmd','group','closer'}——
+    上游数据异常的机器可读证据（如 CG_126_03 用 a_4 的 SetChoiceEnd 关 a_10，
+    见 _dev/AI_HANDOVER_GUIDE.md 3.5）；仅记录，状态机行为不变。
     返回 {'meta': {recap/episode/title}, 'beats': [...]}。
     """
     beats = []
@@ -202,6 +206,13 @@ def extract_beats(commands, resolver):
                                     silent.append(t)
                         beats.append({'k': 'merge', 'count': total, 'forks': len(pending_close), 'silent': silent})
                         pending_close = []
+            elif diag is not None and 'PhoneMsg' not in cmd:
+                # 关闭指令的 group 找不到活跃帧：上游 Begin/End 错配（如 CG_126_03
+                # 用 a_4 的 SetChoiceEnd 关 a_10，见 _dev/AI_HANDOVER_GUIDE.md 3.5）
+                # 之类数据异常，指令被静默丢弃（行为与历史一致），此处登记。
+                # phone 方言从不入帧栈（上方 kind != 'phone' 才推帧），其
+                # JumpTo/End 落空是设计使然，不登记。
+                diag.append({'idx': c.idx, 'cmd': cmd, 'group': head, 'closer': closer})
             continue
 
         if cmd in ("SetTalk", "SetPhoneMsg"):
