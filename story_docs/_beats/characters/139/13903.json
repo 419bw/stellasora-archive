@@ -1,0 +1,800 @@
+{
+ "heading": "# 结婚过家家 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：艾蕾（角色编号 `139`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`13903`",
+  "- **AVG 剧本**：`CG_139_03`"
+ ],
+ "recap": "无论疾病还是健康，无论贫穷还是富有，你们都发誓永远爱对方、尊敬对方、保护对方。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "无论疾病还是健康，无论贫穷还是富有，你们都发誓永远爱对方、尊敬对方、保护对方。",
+  "episode": "第三话",
+  "title": "结婚过家家 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "大家早上好！ 先去洗漱，然后再来吃早饭哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "睡眼惺忪的女孩",
+   "text": "唔……妈妈，我还是好困。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，小懒虫，太阳都已经升起来了。快把睡衣换下来，去洗把脸吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精神十足的男孩",
+   "text": "妈妈——！厨房里在冒烟！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "糟了！ 魔<r=BOSS></r>王，能麻烦你帮孩子们换好衣服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "即使不擅长家务，即使没有生过孩子，艾蕾这份对孩子们的爱也绝不会有半分虚假。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是雏菊孤儿院当之无愧的好妈妈，艾蕾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，早饭准备得差不多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾的声音",
+   "text": "呀啊啊啊啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "惨叫是从院子那边传来的？！ 是艾蕾发出的声音，究竟出了什么事……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾，你没事吧…… 呜哇？！ 怎么这么多泡泡啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊…… 魔<r=BOSS></r>王…… 那个…… 我本来在洗床单……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "结果洗着洗着，不小心把肥皂捏碎了，之后就突然冒出来了一大堆泡泡……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来肥皂也扛不住艾蕾的怪力啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之我先打点水来，把泡泡冲掉吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "嗯，麻烦你了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 总算把床单洗好晾上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "有魔<r=BOSS></r>王在真是帮大忙了。 要是只有我一个人，怕是要晕倒在那堆泡泡里了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "明明下定决心要当一个好妈妈，看来我还差得远呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但在把洗好的床单搬过去晒的时候，基本都是艾蕾在出力啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我只是搬过去而已呀。 再说了，力气活是我的强项，这么点东西完全不会累……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样就够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你没必要什么事都一肩挑。 “互相去弥补各自不擅长的地方，共同编织出幸福美满的生活……这才是一家人”—— 这话不是你自己说的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，劝别人的时候能说得头头是道，轮到自己就非要钻牛角尖，真是个坏习惯呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你说的没错， 朱莉亚他们也是我该努力的方向。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那个，魔<r=BOSS></r>王。 你想过结婚，组建自己的家庭吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "结婚吗…… 我还真没仔细想过。 说实话，我光顾着自己那摊子事就已经够头大了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我以前也和魔<r=BOSS></r>王一样。满脑子都是孤儿院的孩子们，根本没想过要结婚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "结果那天孩子们一问，我发现自己根本答不上来。 这种事对我来说简直是另一个世界…… 或者说，就像童话世界一样遥远。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾真的想要结婚吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我可是大家的妈妈呀，我怎么会丢下孩子们，自己去独享幸福呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不过…… 身边有深爱之人相伴，我多少还是会有那么一丝羡慕的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这么多年来都是我一个人在守护着孩子们，正是因为有这样的经历，所以我才会更加憧憬，要是能有一个人和我一起陪伴着孩子们，该多好啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "与心爱之人结为夫妻，一起守护家庭，一起同甘共苦…… 想必一定是一件无比幸福的事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "所以当这些孩子们长大了，到了该结婚的时候， 作为母亲的我一定会全力支持的。 呵呵，光是想想就有点期待了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那你呢，艾蕾？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我？我刚才不是说了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我是说，如果卸下“妈妈”这层身份，你自己又是怎么想的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不是“妈妈”，我自己的想法……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为我觉得，艾蕾你对于结婚，还是有几分向往的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那天看完影戏时，你不也说过类似的话吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "还有最后一幕，女主角脸上的笑容也特别美。 这段身份悬殊的恋爱最终修成正果，最后连我都觉得很幸福呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我……总有一天也要……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那，那只是刚看完影戏出来，还有些意犹未尽罢了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "再说了，事到如今让我去结婚，为孩子们倒也就算了，只为了我自己也太自私了…… 呀啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "艾蕾，你没事吧？",
+   "options": [
+    [
+     "艾蕾，你没事吧？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呀…… 吓我一跳。 刚才的风也太大了， 连刚晾的床单都被吹到这里来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "谢谢你，魔王。 我们赶紧把它挂回去吧…… 啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "现在的艾蕾，感觉就像是新娘一样",
+   "options": [
+    [
+     "现在的艾蕾，感觉就像是新娘一样",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "新娘？ 我吗？ 呵呵， 魔王， 你偶尔也会说些让人害羞的话呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不过， 我可是大家的“艾蕾妈妈”。 事到如今，再说什么成为新娘…… 会不会已经太晚了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "难道成为了“妈妈”，就不能成为新娘了吗？",
+   "options": [
+    [
+     "难道成为了“妈妈”，就不能成为新娘了吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "诶…… 这个嘛…… 倒也不能说不可以。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "既然如此，也就不晚了",
+   "options": [
+    [
+     "既然如此，也就不晚了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我觉得艾蕾可以对结婚有兴趣",
+   "options": [
+    [
+     "只要艾蕾想，就一定可以",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "可是…… 我都已经是孩子们的妈妈了。 真的还可以成为新娘吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "艾蕾在成为“妈妈”之前，首先是艾蕾自己",
+   "options": [
+    [
+     "艾蕾在成为“妈妈”之前，首先是艾蕾自己",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "只要你愿意，当然可以成为新娘",
+   "options": [
+    [
+     "只要你愿意，当然可以成为你想成为的任何样子",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "对我来说， 孩子们的幸福才是最重要的。 只要孩子们能够平安长大、 获得幸福， 我就已经很满足了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我想，孩子们也一定希望妈妈能够获得幸福",
+   "options": [
+    [
+     "我想，孩子们也一定希望妈妈能够获得幸福",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "你的目标，不正是一个能够彼此扶持的“家”吗？",
+   "options": [
+    [
+     "你想要的，不正是一个能够彼此扶持的“家”吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "……你说得对。 既然这样， 我能拜托你一件事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你愿意 陪我玩一次婚礼游戏吗？ 就像 孩子们平时玩的过家家一样。 我们一起念一遍 新郎新娘的结婚誓词……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "当然了，我很乐意",
+   "options": [
+    [
+     "当然了，我很乐意",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "谢谢， 那么…… 我们开始吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "无论顺境还是逆境， 富裕还是贫穷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "无论是富裕还是贫穷",
+   "options": [
+    [
+     "无论是健康还是疾病，我都会陪在你的身边",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我发誓 会永远爱你、 尊重你、 珍惜你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "……呵呵， 对我来说， 这样就已经足够了。 谢谢你，魔王， 为我实现了这个愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "话说回来…… 我有表现得那么明显吗？我很憧憬结婚这件事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯…… 你那天和刚才说的话，其实还挺明显的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "原来这么早就被你看穿了吗？ 呜呜……感觉好丢脸啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这件事一定要对孩子们保密哦！不然就显得我太不成熟了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心吧！ 不过，我倒是觉得，憧憬结婚这种事，和年龄没什么关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "更重要的是，你要珍视自己的想法，不要被身份所束缚住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这句话，我原封不动还给你哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？还给我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你肩上也背负着不少东西吧？“魔<r=BOSS></r>王”这个称呼，其分量肯定也不可能会轻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "所以你也别忘了—— 在身为“魔<r=BOSS></r>王”之前，你首先也是个普普通通的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说得好…… 我会铭记于心的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "如果以后有我能帮上忙的地方，就尽管开口，千万别客气哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你帮助我实现了一个小小的心愿，作为报答，我也想帮你去实现你的愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能得到孩子们的“艾蕾妈妈”的帮助，真让人安心，太感谢了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "对吧？ 好了，让我重新把床单挂上去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "再之后就是孩子们的点心时间啦！ 今天的菜单当然是——松饼！ 这次我一定会做得漂漂亮亮的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈哈，干劲十足是好事，不过你可悠着点发力哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那当然。 为了大家，艾蕾妈妈今天也要加倍努力！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来， 今天还是陪着艾蕾一起做会比较保险啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

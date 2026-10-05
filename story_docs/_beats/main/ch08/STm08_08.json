@@ -1,0 +1,713 @@
+{
+ "heading": "# 追忆 空白的正解 中",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`909`　**编号**：`追忆`",
+  "- **关卡名称**：空白的正解 中",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_08`",
+  "- **关卡描述**：一个梦想，需要多少支撑呢？",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "鸢尾一边学习，一边打工，计划着星辉附属大学的考试。\n琥珀和尘沙也都很支持她的梦想，三人即将踏上不同的道路。\n但考试前，一次看似普通的许愿，让她忘记了重要的东西……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "鸢尾一边学习，一边打工，计划着星辉附属大学的考试。\n琥珀和尘沙也都很支持她的梦想，三人即将踏上不同的道路。\n但考试前，一次看似普通的许愿，让她忘记了重要的东西……",
+  "episode": "追忆",
+  "title": "空白的正解 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星塔历994年",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "清月 24日",
+   "place": "埃摩灰城区 甜品店"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "请用这张优惠券，还有这张代金券以及这张满减券。按照规则，应该是可以叠加的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "甜品店店员",
+   "text": "我，我确认一下...... 唔，这位客人，您说的没错，这些券的确是可以叠加的，您三位的消费一共是......一千朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这么一大桌甜点，只花了一千朵拉？一千朵拉......只够买一点点面包啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这家店的很多券可以叠加使用，在市场上相当抢手。 我有的时候给人打零工拿不到朵拉作为报酬，对方就会给我这家甜品店的券，没想到今天用上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "接下来会发生什么谁也说不准，所以我身上打零工攒下的十万朵拉，能省一点是一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鸢尾，是神。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾，天才！没想到你的靴子里还有朵拉。 老老实实放钱包里不就好了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个......我从书上看的，荒野里很危险，城邦里也不安全，得尽量把现金分散放，这样就算遇到了坏人，也不至于损失全部的朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "原来如此， 但如果坏人也看过那本书，把所有的地方都搜过来要怎么办啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊......这个......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "把坏人都干掉，就不会损失朵拉了，还可以绑着坏人去领悬赏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "要，要是真能做到那样的话……倒也行啦？ 还是不说这个了，说起来，你们未来有什么打算啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我想......去别的城邦看看，诺瓦，有很多我没见过的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我要做旅人，像魔<r=mowang></r>王那样征服所有的星塔，也就是爬到所有星塔的顶端啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不过，在那之前，我想先把这个拼出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是......你问过我的那个神器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，你给我的那本书上说，这个东西叫做“方向盘”，是用来操控一种跑的很快的车子的道具。 诺瓦很大，星塔很多，只靠两条腿不知道要走到什么时候，有一辆车不是更方便嘛？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "方便是方便啦……一辆神器车很珍贵的，真的组装得出来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哼哼哼，请看——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好大，好沉，这是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哼哼，这东西一直放在孤儿院的地下室里，被我找到的时候上面落满了灰尘，我离开孤儿院的时候，就找艾蕾阿姨把这东西要来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "艾蕾阿姨也不知道这是什么，但我猜这是——神器车的心脏！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "心......心脏？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，总之，我的直觉告诉我，把这个铁疙瘩用合适的方法拼起来，最后连上那个“方向盘”，就能飞快地跑起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，我们的打算都说完了，鸢尾你呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我，我啊，离开孤儿院之前，我通过了星辉附属大学的预选考试，下周要进行入学考试， 我想...... 读大学。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "读大学......是为了学厉害的魔法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我可没那么远大的目标。我想进恩赐意志或者联合种业那样的大公司工作，有稳定的工资和假期福利——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这样就能留在埃摩，等工作休息的时候，也能去孤儿院帮帮忙，帮艾蕾阿姨分担一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "只是，这一切都得看下周考试的结果。在那之前，我得快点去找个临时工干干，凑够入学考试的材料费，参加考试那天需要交的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "材料费？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，星辉附属大学的入学考试一共有六科——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "数学、修辞学、魔力原理、魔力运用、恩赐能量学、恩赐咒文。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "每个科目都在不同的地方考试，持续三天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "像是魔力相关的科目，还有星塔相关的科目，都需要用到魔法材料和可破坏的场地……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "一共需要交二十万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鸢尾只有十万，还分给我们。没有另外存着考试费吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "没有。 不过还好啦，下面只要每天打二十个小时的工，应该可以凑够剩下的朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "喂喂喂，那样你不就连学习的时间、睡觉的时间都没有了吗？ 我有个办法，可以挣到朵拉，还能保证睡眠，要不要试试？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:35",
+   "date": "清月 28日",
+   "place": "荒野星塔 二十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜哇哇哇，这，这就是真正的星骸吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对啊，你在书里应该看过吧。这家伙是火元素的，用你擅长的水魔法正好合适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我掩护，鸢尾，放心地上吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "冻冻冻冻冻冻冻冻上吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我， 我做到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我真的做到了！你们两个都看到了吧！？我也能像你们那样，好好战斗了！！没有拖后腿，太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鸢尾，好激动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "为什么会那么想，你一直是我们三个人里最厉害的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "最厉害...... 不不不，尘沙你说什么呢，我不会战斗，胆子又小。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "但是看了很多书，知道很多我们不知道的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别纠结这些小事啦，先去许个愿试试嘛？前面就有个挺大的许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "开始许愿，我听说......用手摸在上面说出愿望就行了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "请给我手机，请给我手机，请给我手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不不不，琥珀，许愿不是那么做的， 许愿者要怀着对恩赐之神的虔诚之心，尽可能详细地描述出想要的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "手机......要怎么描述呢？可以和远处的人说话的机器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还是我来吧，来爬塔前我特意查了相关的资料，知道祷词怎么说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "等一下，等一下，虽然我不擅长读书，但考试什么的我还是知道的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "许愿要付出记忆作为代价，你要是因为许愿忘掉之前学过的内容，考试不就糟糕了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你还是把祷词告诉我，我来许愿吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们花了几天时间才来到这座荒野星塔，回去还要同样的时间，没时间耽误了，必须一次成功。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "并且，能和大家一起爬塔好开心，听说心情好的时候许愿会很灵，我很高兴你这么替我着想， 但这个愿望，就由我来许吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "既然你都这么说了…… 好吧，就交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "交给我吧。那我开始了…… 呼……万能的恩赐之神啊，我虔诚地向您许下愿望。 请赐予我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "回到埃摩的时候，已经是周一的早上，我们急匆匆地把许愿出的手机在心相商店换成了朵拉，约好再见面的时间后，就各奔东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我顺利筹到了材料费——也终于得以参加星辉附属大学的入学考试。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几天后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:00",
+   "date": "花月 05日",
+   "place": "埃摩灰城区 商业街"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾，考试怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "托你们的福，五门考试我都觉得发挥得相当不错。许愿似乎没让我忘掉任何知识，这次真的运气很好呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鸢尾，给。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是......手机？！哪里来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你去考试了后，我和琥珀商量了一下，又回去爬塔了， 我们学着你的祷文许愿，虽然失败了好几次，但也有三次成功的， 这样一来，我，琥珀，你，就都有手机了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可是……我也能收下吗？许愿的是你们两个，这个手机要不要卖掉换成朵拉啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不要，我和尘沙要离开埃摩了，有手机，在一个城邦时就能联系上。以后再见面也方便。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哎，你们要走了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，有个旅团愿意让我实习，今天就要出发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我参加了，寻宝队，明天走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那等你们回到埃摩的时候，我就以星辉附属大学学生的身份来招待你们吧。 到那时候，靠打工应该也攒下不少钱了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊，抱歉，到了打工时间了，我必须得走了。那你们两个也多保重身体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "再见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾你也要保重哦！我们过不了多久就会回来找你的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀，我们也走吧，我一定要把那辆神器车拼出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "刚才...... 鸢尾是不是说了奇怪的话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎？哪里奇怪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "之前，鸢尾说过，入学考试一共，六门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

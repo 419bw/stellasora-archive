@@ -1,0 +1,931 @@
+{
+ "heading": "# 03A 休战期",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1006`　**编号**：`03A`",
+  "- **关卡名称**：休战期",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_03_a`",
+  "- **关卡描述**：不存在好的战争，也不存在坏的和平。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "与安琪的谈判前，你与伙伴们整理战况与现状。\n翡冷翠提出，援军将在三天内抵达，因此只需再坚守两日。\n艾蕾为尘沙疗伤，伙伴们各司其职，在喘息中整装备战。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "与安琪的谈判前，你与伙伴们整理战况与现状。\n翡冷翠提出，援军将在三天内抵达，因此只需再坚守两日。\n艾蕾为尘沙疗伤，伙伴们各司其职，在喘息中整装备战。",
+  "episode": "第三话",
+  "title": "休战期"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:00",
+   "date": "雾月 18日",
+   "place": "米拉什 尤里卡水吧"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，我们回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，妾身无能，竟被结阵的骑士挡住，没能拦下袭击您的审判官，妾身有罪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你们的错。拯救委员会的人数远多于我们，你们做的已经够好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼！猫眼大人得胜归来。哎呀，那些拯救委员会的家伙躲来躲去好烦人的， 但遇到猫眼大人澎湃的黑暗之力和近乎完美的音乐节奏， 他们根本冲不过来，一个人都冲不过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "冷静一下，猫眼，骄兵必败！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王，拯救委员会的防护魔法很强。我们虽然击退了他们，但只打伤几了个人，他们重整队形后，很快又能发起进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我们待在水吧也不安全，得快点转移。猫眼，再去探索一下矿道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "明白，明白，猫眼大人出发！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "卡西米拉，猫眼，不用那么着急。拯救委员会暂时不会进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "十分钟前，我和安琪约定了两小时后谈判，在谈判之前，她愿意和我们休战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "谈判？魔<r=BOSS></r>王你不要去， 拯救委员会和安琪根本不值得信任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身亦有此感，昔日，安琪曾诱主公至其房间，暗设杀局。此番故技重施，主公万万不可相信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "米拉什的周围都是沙漠，还有很多矿道，我们总有办法逃走的，根本不用和她谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，你们说的我都明白，安琪肯邀请我谈判，也是因为你们的奋战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在你们来之前，我联系了密涅瓦，她告诉我她和一叶，还有枫利用变装术偷袭了拯救委员会在沙丘上的炮击阵地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语也借着采访的名义和我透露——拯救委员会这次突袭总共分成了三支队伍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "三支队伍……不好好穿衣服的铁罐头是一支。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "那个，那个让我看到了超级可怕的幻觉的审判官是一支。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "城外沙丘上的炮击阵地是最后一支。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在安琪提出谈判的时候，她的三支队伍不是困在矿井里，就是被你们拦住，又或是被密涅瓦突袭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "明白了，那时她手下也无可用之兵，她急需时间重组部队。提出谈判只是“缓兵之计”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身不明白，既然主公已经识破了她的计谋，为什么还要……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为我们比她更需要时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当时，冬香、小禾和艾蕾刚从160号的魔法中挣脱，去拦拯救委员会的你们情况不明， 雏菊孤儿院就在距离战场不远的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我答应谈判，又何尝不是一种“缓兵之计”呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "可是……这样太冒险了……要不然，我们拖够时间就逃走吧，魔<r=BOSS></r>王，我可以带你低空飞出米拉什！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "两个小时恐怕不够。卡西米拉，白猫从米拉什城内撤退，以及疏散米拉什的市民需要多久？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "人手太少了，五十名白猫组织一千多人撤离还是有些勉强。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "带着这么多人徒步穿越沙漠需要的东西也很多，我估计最快最快也要准备到今晚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾那边的情况也差不多，她和蓝锥已经去孤儿院安抚孩子和准备撤离了，但两个小时最多只能走出米拉什城，无法逃开太远。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，我会想办法利用谈判再争取一些时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠来联络了，想必和黄昏裁判联系的事情已经有眉目了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "下午好，魔<r=BOSS></r>王，因为担心拯救委员会可能截获并监听我们的心链，所以迟迟没有和你直接联系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不过，今天已经是18号了，我想夏花她们已经和你汇合了，你能接起这个联络，就说明你已经获知，并解决这个问题了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "并没有解决哦，只是没必要了。我们和拯救委员会已经在米拉什交锋了，如果对方能监听这次联络，就让她们听吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵，明白了。听你的声音，拯救委员会应该没占到什么便宜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "勉勉强强，对方的人数、装备、魔力储备都在我们之上，形势不乐观。 你那边的情况如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我召集了给米拉什运粮的帝国卫队，还从埃摩临时雇佣了一些，大致有两百人左右， 三天内就能抵达米拉什。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "黄昏裁判临时派出了几位审判官和我同行， 领头的那位审判官看起来很不一般。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "奥尔贝德在调集不认为你会毁灭世界，立场明确的黎明近卫前往沙漠， 速度只比我们慢一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "总之，魔<r=BOSS></r>王，只要你能坚持三天，拯救委员会就再也没办法威胁你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白，那就拜托你了，注意安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你也是，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各位都听到了，只要我们能支撑三天，不，其实是两天——不管拯救委员会能不能监听我和翡冷翠的通话，他们负责侦查的成员都能提前发现翡冷翠的援军。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "除非他们想同时与菲莱公司、帝国卫队、黄昏裁判和黎明近卫一同开战，否则一定会提前撤退。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家都忙起来吧，小禾，冬香，请你们去帮艾蕾转移孤儿院的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "明白喽，冬香，我们走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，一会见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "卡西米拉，寻找可以用于撤离的矿道的工作就拜托你了，还有米拉什市民的疏散工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "对于现在的白猫来说，米拉什就是我们的故乡， 我们会尽心竭力完成任务的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，你是在场的人里唯一能飞的，监视拯救委员会动向的工作就交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "收到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，尤里卡水吧和雏菊孤儿院附近街道的巡逻交给你，以防拯救委员会派人潜入。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身遵命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，千都世，尘沙她们怎么还没回来？你有看到她们吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "阻拦拯救委员会的时候，为了拦住更多的敌人，她们和妾身分开行动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公不必忧心，三位大人实力不俗，不会有事的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，我回来了！ 拯救委员会那帮家伙已经被我们打跑啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "咦？水吧里怎么都没人啊，我们回来的太晚了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙、鸢尾、琥珀，你们怎么回来的这么晚，我好担心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，千都世说的没错，她们果然没事…… 等等， 尘沙身上那是？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，我们冲进敌人的队伍里去了，绕了点远路，先不说这个，我们回来的路上遇到了一个人，得到了超级超级重要的情报哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，先别说情报了， 你怎么流了那么多血！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "15:30",
+   "date": "雾月 18日",
+   "place": "米拉什 雏菊孤儿院"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇—— 妈妈，轻，轻一点，好疼疼疼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "忍一下，这么深的伤口，要仔细清洗和缝合才行， 鸢尾， 给我可吸收缝合线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你的运气很好，魔法弹只是切开了你的皮肤，骨头和内脏没有损伤， 我把伤口里面的肌肉缝合起来了，外面就用那个吧—— 琥珀， 给我皮肤粘合剂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这是什么？看起来像是星塔中许愿的胶水？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "孤儿院地下室里收藏的，根本没办法许愿出来的治疗神器，用这个粘合你外面的皮肤就不会留疤了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "魔<r=BOSS></r>王，搭把手，从两边把伤口合上，我要涂粘合剂了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哈哈，好痒，魔王，你手按的地方好痒…… 嘶—— 笑起来扯到伤口了，好疼，好疼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你还知道疼啊。 真是乱来，三个人冲到那么多人的军阵里，你有没有脑子啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "当，当然有，当时我想的是…… 鸢尾，我想的是什么来着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个，妈妈。我们没有夏花和千都世那么强的力量，可以快速击倒敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "也不像，白猫，可以轻松，拉开距离。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "但是我们的配合很厉害， 根本不用说话，也不用做手势，我们三个人就像一个人一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊，对，就是这个。所以我们冲进去乱打一通，才能拖住更多的敌人嘛，嗯嗯，我就是这个意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "再说，这不就是一点小擦伤吗？ 现在伤口一点都不疼了，我都可以下床活动了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "坐回去，老老实实在床上待半个小时不要动，要不然伤口可能会裂开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎？半小时不能动？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "还有，两天内不要沾水也不要剧烈活动，更不要去撕那个粘合剂，一周内不要做出剧烈拉伸那个地方的姿势。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那岂不是一周都不能战斗了？妈妈，你知道的我身体很棒的，小时候从水道桥上摔下来都没事，这点小伤别人可能要一周，但我明天就能好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那是你正好落到水道桥下面的水塘里！ 鸢尾还用魔法帮你缓冲了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你知道吗？如果那一枪再深一点，你就要内脏大出血了， 米拉什没有医生也没有医院，谁都救不回你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "咿——妈妈不要生气，我老老实实在这里待着就是了， 但，但是，我还有很重要的情报要和大家说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，你就听妈妈的话好好休息吧，菈露送来的情报由我和琥珀传达给大家，其实大部分的情报魔<r=BOSS></r>王都推断出来了，最关键的只剩下那三位队长的战斗情报了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我，记在手机里了，用心链发给大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呼，我去看看孩子们，也不能让夏花她们一直忙。魔<r=BOSS></r>王，尘沙就交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "由魔王来照顾我吗，这个……魔王很忙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，现在我完全不忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "因为，除了我之外，只有魔王能管住你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔，大家都走了啊，说起来，把你拖在这里半小时，是不是很耽误你的事情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也不算啦，大家要做的事情都安排好了，其实我帮不上什么忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们被包围在米拉什，形势的确很严峻，但越是这种时候，越要冷静下来，积极地看问题，这还是尘沙你教给我的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再说，我重要的同伴受伤了，我陪她养伤这件事难道不重要吗？你要是怕耽误战前准备，就把那个“重要情报”给我讲讲吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我来讲么？其实，琥珀发的信息会比我讲得更准确吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是这样，不过你的直觉也很准，我想听听你从直觉角度的理解和判断。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "直觉……那，那好吧。你看这个——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是？装薯条的盒子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，我们其实都打穿那些拯救委员会的军阵了，但是被不知道藏在什么地方的狙击手偷袭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "还好，那个狙击手只开了两枪就没有继续打了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是从米拉什城外几公里远的沙丘上发射的狙击，你们当然看不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只开了两枪，是因为密涅瓦和枫化妆混进敌人的阵地，想要偷袭安琪，虽然没能得手，但是打断了敌人的狙击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇，竟然是从那么远的地方发射的。 哦，那我知道是哪个人了，等我找一下，这个薯条盒里面写着——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冈希尔德，黎明近卫炮手，拥有可以超远距离精确狙击的魔法炮“贯穿”，据说，被“贯穿”击中的人会被“贯穿”记住，下次再遇到，“贯穿”可以自动瞄准并且射击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "同时，“贯穿”还能吞噬其他魔法在短时间内增强自身的攻击力，吞噬的魔法越多，发射出的魔法炮弹威力越大，发射所需的时间越长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "此人尽忠职守，尊敬上级，没有不良爱好，射击水平很高。弱点是——容易被人挑衅，在射击技术上有很强的自尊心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "明白了，只要找个射击厉害的人去招惹她，她应该就没办法好好战斗了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，这薯条盒上的情报可真详细，你们到底是怎么弄到的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "很神奇，神奇到很难让人相信，那是我们为了躲开狙击，冲进米拉什错综复杂的小巷后发生的事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们在那里，遇到了一个薯条怪人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

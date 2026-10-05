@@ -1,0 +1,864 @@
+{
+ "heading": "# 后辈的烦恼日 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：埃莉诺（角色编号 `137`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`13703`",
+  "- **AVG 剧本**：`CG_137_03`"
+ ],
+ "recap": "牵起她的手，来一场华丽的舞蹈吧！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "牵起她的手，来一场华丽的舞蹈吧！",
+  "episode": "第三话",
+  "title": "后辈的烦恼日 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前阵子让前辈费心了…… 真的非常抱歉。不过我现在已经完全没事了，请您放心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要能从中吸取教训，别重蹈覆辙就好。 埃莉诺，今天是你复出后的第一天，第一个委托就接这个吧，你看如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我看看…… 委托内容是帮忙核算账簿？而且…… 委托人还是一个旅团的团长？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天的委托，或许能成为解决埃莉诺烦恼的突破口哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "明白了，我一定会努力做好的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "让您久等了。账簿都整理好了，请过目。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苦恼的旅人",
+   "text": "真是太感谢了！多亏有埃莉诺小姐来帮忙，不然我这辈子怕是都要耗在算账上了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苦恼的旅人",
+   "text": "那个…… 我也想成为像您一样能干的人，如果有什么提升工作效率的秘诀，请务必要教教我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……该怎么说呢，因为这就是我一直以来都在学习的内容，很难说有什么秘诀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苦恼的旅人",
+   "text": "原来如此！果然重点在于日积月累的努力！像您这么优秀的人，肯定是哪个知名旅团的团长吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "你误会啦！虽然我的目标是有朝一日担负起带领团队的重任，但现在的我还差得远呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苦恼的旅人",
+   "text": "哈哈！埃莉诺小姐这么靠谱又能干，没必要太谦虚啦~ 如果将来有一天真的当上了团长，那你的旅团绝对和你一样，会成为业界冉冉升起的新星！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "感谢您的夸奖！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呵呵，委托人对你评价很高呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我很开心，但那种夸奖对我来说，是不是有些过誉了呢……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，委托人的话都是发自真心实意，说明在她眼里，你就是这么值得信赖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好了，那我们去接下一个委托吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "埃莉诺来啦~身体已经不要紧了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "已经好多了。薇洛小姐，前些天给您添了不少麻烦，真是抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这点小事，不用放在心上~今后可不要太勉强自己了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "二位今天过来，是打算接新委托吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错。有没有什么能发挥埃莉诺特长的委托？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我的特长……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "原来如此…… 来自地理协会总部的这个委托如何？以前我们也请埃莉诺接手过几次，完成得都很出色哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦…… 具体是什么样的内容呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "快看，前辈！附近的风景好好哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个方向还能看见星塔，真是个写生的好地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说回来，没想到埃莉诺还接过给《诺瓦地理志》画插图的委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "画画毕竟是我从小到大都在做的事情嘛。一开始只是觉得学习绘画很辛苦，后来不知不觉间，也开始学会用绘画记录自己的心情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "那个时候，我画了不知多少张窗外的风景……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你过去积累下来的那些经验与技艺，当上了旅人也依然有用武之地呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "确实如此。今天上午核算账簿的委托，也是多亏了一直以来的继承人教育…… 啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……这么说，我的贵族生活与旅人生活之间，存在着某种联系……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呵呵，看来你已经发现了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就像现在这样，一边做着旅人的委托，一边慢慢学习家族继承人所需的素养，继续向前吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既能为将来带领旅团积累经验，同时也能在学习中不断成长—— 这两件事，对你而言同样重要，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然，一个人的精力与时间是有限的，那就想办法提升效率，学会真正挑选合适自己的委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈好厉害……！ 原来还有这种视角，我怎么一直都没有想到呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "一直以来，我都下意识地觉得“旅人”与“贵族”是两种截然不同的生活方式…… 那时候的我会离家出走，也是因为我觉得，一个被关在家里的深闺大小姐，永远没办法成为真正的“旅人”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "可我现在知道了，这两个身份其实并不冲突，甚至还能成为彼此成长路上的养分。就算是“大小姐”，总有一天也可以成为“旅人”……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是的，怎么还在“总有一天”啊…… 埃莉诺不是已经踏踏实实地走在实现梦想的路上了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以今后，只要好好利用时间。学会将旅人的事业与贵族的修行融会贯通，齐头并进就好啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嗯……！ 总觉得我一下子就有了信心呢。只是…… 呵呵，既要成为优秀的旅人，又想继续做优雅的大小姐——会不会有点太“贪心”了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贪心一点有什么不好？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "旅人是象征着“自由”的职业，永远不会给自己的可能性设限。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，不要急着否定自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "旅人是比任何人都自由，都要具备可能性的存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "原来如此，前辈其实早就提醒过我…… 呵呵，或许只是我不知不觉又自己飞回了鸟笼里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能让你放下心结真是再好不过了。总之，赶在天黑之前先把委托完成吧。接下来，是对森林内部的探索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "哇…… 前辈，快看！这里，开着非常漂亮可爱的花哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是啊，风景真不错，不如把这里也画下来吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "正有此意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……这朵花，很像我小时候在绘本里见过的那种花，纯净无垢，一尘不染…… 啊，说起来那时的我还经常会憧憬那些戴着花冠的公主呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "呵呵，年幼的我一定想不到，自己的生活会变成如今这副模样吧？我能想象到的，只有待在那栋宅邸里，稀里糊涂地继承父亲大人的事业，如此度过一辈子的人生吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……埃莉诺，你有后悔过成为旅人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "怎么会！虽然也经历过危险和艰辛，但每一次的成长与收获都能让我乐此不疲。正因如此，我才总是忍不住全力以赴，甚至把自己给累倒了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这可不值得提倡，希望你今后多加注意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "知道啦，我已经充分反省过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……如果我没有成为旅人的话，也许永远不会知道世界是这般广阔，也不会知道书里那不知名的花儿，竟然真的会在现实中盛开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "看着自己的世界一点点变得更广阔，这种探索未知的崭新体验，我永远都不会感到厌烦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "所以，就算将来还会遇到各种挑战，我从来都没有后悔过去追求自己的梦想！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "啊，光顾着聊天都忘记下笔了。我要稍微集中一下精神了哦，前辈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好。那我就在附近散散步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "——好，差不多了。前辈~，我画完啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦，我也正好散步回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不好意思，让前辈久等了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不用在意。比起这个…… 埃莉诺，你能闭一下眼睛吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "眼睛？…… 我知道啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……好了，可以睁开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈？你是不是在我头上放了什么…… 这是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "啊…… 这是花冠吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "刚才你画画的时候，我顺手编出来的",
+   "options": [
+    [
+     "刚才你画画的时候，我顺手编出来的",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "哇…… 好漂亮！ 这也太可爱了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不过前辈…… 你为什么要给我花冠呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我想起来，我好像还没送过你礼物",
+   "options": [
+    [
+     "我想起来，我好像还没送过你礼物",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这个，就当是庆祝你正式成为旅人吧",
+   "options": [
+    [
+     "这个，就当是庆祝你正式成为旅人的贺礼吧",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "贺礼……？！ 谢谢您！前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "那个…… 我戴着它， 真的合适吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "当然",
+   "options": [
+    [
+     "当然，很适合你",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "感觉自己好像变成了绘本里的公主了…… 真好啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "呵呵， 旅人真是个了不起的职业， 居然能让我实现这么多梦想和憧憬。 ……如果我一直待在家里， 大概一辈子都不会明白这种感觉吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "今后我们还要去实现更多的梦想",
+   "options": [
+    [
+     "今后我们还要去实现更多的梦想",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "埃莉诺的新的梦想也一定会实现的",
+   "options": [
+    [
+     "埃莉诺的新的梦想也一定会实现的",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "新的梦想…… 我现在的梦想， 是在成为独当一面的“大小姐旅人”后， 创立属于自己的旅团， 和我珍视的朋友们一起去更多的地方冒险……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "很棒的梦想",
+   "options": [
+    [
+     "很棒的梦想",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我会为你加油的",
+   "options": [
+    [
+     "我会为你加油的",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈…… 谢谢您。 能遇见前辈， 我真的觉得很幸福。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "今后， 也请您继续见证我的成长， 可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "好，约好了",
+   "options": [
+    [
+     "好，约好了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嗯…… 约好了哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "对了，前辈！ 为了答谢您， 我也想为您做点什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我记得前辈之前说过， 想让我教您跳舞， 对吧？ 如果您不介意…… 就在这里怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这里？",
+   "options": [
+    [
+     "这里？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嗯， 这里只有我们两个人， 不用在意别人的目光， 可以随心所欲地跳舞…… 前辈不觉得， 这里是个很棒的舞池吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "说得也是，这里的景色的确很美",
+   "options": [
+    [
+     "说得也是，这里的景色的确很美",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "来， 前辈， 请牵住我的手。 和我一起跳支舞吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我轻轻地握住了她的手。阳光透过树叶的缝隙洒下来，少女的脸上已经不再有烦恼的阴霾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "只有二人的“舞池”中，她的舞步轻盈而灵动，像是林中自由的精灵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,732 @@
+{
+ "heading": "# 蒙面骑士缇莉娅 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：缇莉娅（角色编号 `107`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`10701`",
+  "- **AVG 剧本**：`CG_107_01`"
+ ],
+ "recap": "危机将至！暴风雨从未停歇。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "危机将至！暴风雨从未停歇。",
+  "episode": "第一话",
+  "title": "蒙面骑士缇莉娅 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "清晨，我独自一人走在埃摩灰城区，寻找着传说中的影戏租赁店。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听说那家店有很多稀有的星塔影戏，也有弗拉维奥的古董影戏，看个什么题材的好呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？ 这里怎么围着这么多人？路都堵上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔物车的车夫",
+   "text": "喂！ 我赶时间送货啊，前面出什么事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "神器车的司机",
+   "text": "谁知道， 这条路平时车就很多，谁也不让谁，说不定撞上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "车祸么?",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "宛若长蛇的车辆尽头，一辆蓝色的踏板车挡在了道路中央，踏板车的两侧还拉起了布幔做的“警戒线”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那辆踏板车看着有点眼熟啊，难道是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "不好意思，给各位司机添麻烦了！ 再稍等一下！需要过马路的大家，请快一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "放松的路人",
+   "text": "这条路早晨的车太多了，很难过马路呢。多亏了你，我今天终于不会迟到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开朗的路人",
+   "text": "确实，我以为帝国卫队都是些没用的家伙，没想到还是有努力工作的骑士嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "恼火的司机",
+   "text": "切……那个骑士什么情况，帝国卫队之前可从来不干这种事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的司机",
+   "text": "浪费我们宝贵的时间，真是没事找事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……原来不是交通事故，是帝国卫队在维持秩序啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "感谢各位的配合，现在车辆可以通过了！ 对不起，麻烦各位了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "骑士诚恳道歉，推开了她的踏板车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "瞬间，无数车轮轰然碾过，石板路被各色车辆占据满满，再无行人通过的空隙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嘿！这不是魔<r=BOSS></r>王嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "早上好…… 呜哇！ ？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没，没事吧！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "痛痛痛……居然被石头绊倒了……戴头盔时的视野实在太窄了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "先不管了， 早上好啊！你在这边散步吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，我在这边找一家店。缇莉娅在工作吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "类似……工作吧。 如你所见，这边早晨的车流量很大，过马路的行人都很着急。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，辛苦你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴阳怪气的路人",
+   "text": "你听说了吗？刚刚有个帝国骑士把这里堵上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "爱八卦的路人",
+   "text": "嗯？可我听到的是多亏了骑士，那些人才过了马路啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴阳怪气的路人",
+   "text": "怎么可能？帝国卫队的骑士怎么可能为了我们主动干活啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴阳怪气的路人",
+   "text": "说不定行人里有个元老院元老呢， 这帮骑士只认朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那些人是瞎说的，不要当真。 过了马路的行人中，不少人都在感谢你呢 。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，对了，提莉娅，我们边走边说吧，前阵子的骑士资格测试怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "考试啊……落选了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完了，我真是哪壶不开提哪壶。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不过，我大概能猜得到原因。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "肯定是我做的不够好，没能理解骑士精神，我必须要更努力的精进正义之路！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得你已经很努力了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不是这样的，我...... 我总是把事情搞砸，惹得大家不快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "就像刚才，很多司机都觉得我耽误了时间……如果能做得更好一些就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来她很在意刚刚的那件事啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅，你为什么要加入帝国卫队，维护正义？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "因为…… 因为《蒙面骑士》就是那么做的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不管是哪位蒙面骑士，都会在有人需要帮助的时候出现，说着帅气的台词，击败邪恶，解救他人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "特别是必杀技的台词，真是太帅了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "帅气的台词啊，比如——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "胜利的法则已经决定了。",
+     "",
+     ""
+    ],
+    [
+     "来，细数你的罪恶吧。",
+     "",
+     ""
+    ],
+    [
+     "今晚去吃烤肉吧。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "胜利的法则已经决定了。"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "咦？魔<r=BOSS></r>王也看《蒙面骑士》吗？ 不过这些帅气的台词我好像没听过呢，是哪位骑士说的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊哈哈，我也只是在星塔里看到的，顺口就说出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "来，细数你的罪恶吧。"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "咦？魔<r=BOSS></r>王也看《蒙面骑士》吗？ 不过这些帅气的台词我好像没听过呢，是哪位骑士说的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊哈哈，我也只是在星塔里看到的，顺口就说出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "今晚去吃烤肉吧。"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嗯？烤肉，我想去， 但这和《蒙面骑士》有什么关系？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊啊，没什么关系，我只是突然想吃了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来缇莉娅没看过有这句话的星塔影戏呢。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我最喜欢的台词是小时候看的一部《蒙面骑士》里的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "骑士尤斯图斯不会厉害的魔法，武器也普普通通，但他从不放弃，每当敌人嘲笑他的时候，他就会说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "“没错，我想成为的就是正义的伙伴。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我觉得这句话说的特别好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "抱，抱歉……我太专注了，好尴尬啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "总之，无论遇到什么挫折，我永远都是正义的伙伴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "所以，就算考试落选了我也不会失落的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅重新打起精神了，这我就放心了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那，我也该走了，我还得继续去找店呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王，你要找什么店？这边我很熟，我来帮你吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，这样太麻烦你了，你还在执勤吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不不不，完全不麻烦，我今天休息……是自愿出来巡逻的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "自愿？那有点努力过头了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我……我总听说人笨鸟要先飞， 我没什么长处，想要成为正义的伙伴，通过骑士资格测试就要比别人付出更多汗水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "做更多的事，更多正义的、能帮到别人的事情，用数量取胜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她的思考，真是既一根筋又积极啊。积极得都有点让人无法直视了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "记得有位蒙面骑士说过：莫以善小而不为。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王，请让我帮你找那家店吧，帮助有困难的人就是正义的事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这真的是蒙面骑士说的吗？我怎么记得是某位用双剑的英雄说的， 不过……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看她这个积极的样子，还是答应她吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，好，那就多谢你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想找的店，是一家有很多……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "骑，骑士大人……您是骑士大人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我……我还不是正式骑士，我只是个侍从。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气喘吁吁的少女",
+   "text": "那个，我不懂这么多，但请救救我们吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "出什么事了？慢慢说？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气喘吁吁的少女",
+   "text": "农场，我们的农场被巨人袭击了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "巨，巨人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

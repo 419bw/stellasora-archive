@@ -1,0 +1,1163 @@
+{
+ "heading": "# 06 第三代智慧植物",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`615`　**编号**：`06`",
+  "- **关卡名称**：第三代智慧植物",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_06`",
+  "- **关卡描述**：在漫长的沉默中，心跳的频率完成了供述。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "为了争取时间，你命令达尔茜娅继续改进智慧植物。\n翡冷翠制造了与你独处的机会，挥剑威胁：\n她命令你用灵魂交易的方式，迫使达尔茜娅向总公司投降……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了争取时间，你命令达尔茜娅继续改进智慧植物。\n翡冷翠制造了与你独处的机会，挥剑威胁：\n她命令你用灵魂交易的方式，迫使达尔茜娅向总公司投降……",
+  "episode": "第六话",
+  "title": "第三代智慧植物"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "呵呵呵……翡冷翠，看到了吗？审判你父亲的那家伙，最后就是这个下场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "好好记着，这才叫复仇的味道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人，恕我直言，您这么做根本无法让我感受到复仇的快感。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "四年前的法庭上——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "从今天起，你就跟在我的身边吧，我会赐予你击败星雁的力量。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您说您会赐予我击败星雁的力量。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "现在我拥有这种力量，您却独自出手击败了她，让她成为智慧植物升级的关键。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您这么做，岂不是让我永远无法完成最后的复仇？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "你这么一说……也是呢。 抱歉，我没考虑到这一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "不过......你放心吧，成为“养料”的人并不会死。“精神之水”和陛下的棋子短期内只会提取她自由逸散出来的记忆碎屑，是那些本就会被遗忘的记忆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "我会在她的记忆受损之前，用更合适的“养料”把她替换出来，留给你复仇的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "这样你能接受么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "谢大人关心。 到时候，我会用最酷烈的手段完成我的复仇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠的态度……有些奇怪",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "我很期待那一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下，您有什么疑惑吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些所谓的“智慧植物”，实际上还是在借用人类的“记忆”，而不是自己思考？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "正是如此，我用您的“主教”把“养料”们的记忆碎屑提取传递给流风草母体，在母体内构筑一个大型记忆模型，智慧植物的反应比起“思考”，更近似这个模型产生的本能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，“第二代”和“第三代”之间的区别是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "与其让我在这里做冗长的说明，还是让您亲眼目睹更直观。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "翡冷翠，和第三代智慧植物战斗吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一高一矮，两株外形和曼德拉辉草没什么区别的植物挪进了房间……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "翡冷翠从拐杖中抽出细剑，摆好了战斗架势。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代近战智慧植物",
+   "text": "呜咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "好快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "低矮植物瞬间爆发出曼德拉辉草不可能拥有的速度，数根藤蔓分别从不同的刁钻角度攻向翡冷翠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "黑色的细剑划破空气……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "穿过低矮植物的眼睛，把植物钉在了墙上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然而，另一株略高的植物已经绕到翡冷翠身后的死角，荚中青绿色的种子闪着幽幽的金属光芒，瞄准了翡冷翠的后脑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代投射智慧植物",
+   "text": "咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "叹为观止……是我输了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "第三代智慧植物可是有星雁，或者说资深旅人的战斗水平。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "你以一敌二，还能快速解决掉其中之一，已经做得很不错了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "承蒙您的夸奖。 那株会发射种子的智慧植物，用的的确是星雁的战术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下，您对第三代智慧植物可还满意？您对我献上的忠诚可还满意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅展示智慧植物的力量......说到底还是为了让我接受她的效忠。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管出于什么理由，接受她的效忠都没有好结果。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她的忠诚更像是一种证明自己，获得认可的执念，最终会害了所有人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种把人当做“养料”，肆意榨取他人记忆的做法，我怎么可能认可！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，我要怎么回答？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "要怎么回答呢？",
+   "options": [
+    [
+     "不堪一用",
+     "",
+     ""
+    ],
+    [
+     "平平无奇",
+     "",
+     ""
+    ],
+    [
+     "我很满意",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "不堪一用"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的植物看上去很厉害，实际上不堪一用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "不，不堪一用......陛下，此言何解......是我哪里做错了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "单株植物的确有近似翡冷翠的战斗能力。 然而，刚才的战斗中，这两株植物之间完全没有配合的意图。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那株近战植物和翡冷翠作战时，发射种子的植物如果及时支援，应该能在不损失植物的前提下战胜翡冷翠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但你所谓的“智慧”植物却完全不顾同伴的安危，选择借机占据更有利的位置。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "牺牲也是一种有效的战术，陛下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "或许牺牲是必要的，但这根本称不上是战术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一株第三代智慧植物或许能击败一名技艺普通的旅人，但一百株第三代植物别说战斗了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "植物和植物之间说不定就会因为配合问题互相纠缠起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你真的认为这种残次品，能让我满意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "这......陛下高瞻远瞩，我不能及，我这就着手改进工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再精选一下你的“养料”吧，心急吃不到热豆腐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有，不要滥用我的“主教”，明白了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "遵，遵命......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，这样一来，就能拖延一点时间了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "平平无奇"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "承认智慧植物的实力，会让达尔茜娅顺势要求效忠于我。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不承认智慧植物的实力，又会让达尔茜娅填补新的“养料”，害更多的人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里的回答绝对不能失误……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在我看来，这些智慧植物平平无奇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅，你见过寄生之庭吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "抱歉......陛下，旅人们讨伐寄生之庭的时候，我去了总公司，无缘得见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "寄生之庭是一棵巨大的魔物树木，能放出让人混淆敌我的魔法雾气，还能用这种雾气驱使森林中的其他魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在想来，寄生之庭大概是受到了我的“主教”棋子的影响才拥有了这些能力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "同是在“主教”棋子的影响下诞生的魔物，这些智慧植物应当也有类似的能力， 可是呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "二打一赢了翡冷翠而已，你这就满足了？我对你很失望，再下去好好研究一下“主教”棋子的权能吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下……是我狂妄了，我会立刻开始研究，争取早日拿出让您满意的成果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼……这样一来，她应该能消停一阵子吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "我很满意"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "的确是优秀的植物，达尔茜娅， 我很满意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下满意就是我最大的荣幸。 陛下，您能否接受我的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "接受你的效忠？可以。 但在那之前……把你实验室里所有空着的培养罐都填上“养料”，立刻着手培育下一代吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "的确，的确是这样...... 我明白了，陛下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "如果您愿意因此接受我的效忠……我在所不辞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要用劣质的“养料”填充， 我希望每个罐子里的“养料”，都有星雁的质量。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "遵命，陛下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "旅人营地的旅人都跑光了，有星雁水平的人可不好找， 这样应该能拖延足够长的时间了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人，魔<r=mowang></r>王大人从昨天晚上就没有好好休息。既然第三代智慧植物已经展示完毕......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "啊，陛下，我作为您的仆人，竟然完全忽略了这一点，实在罪该万死。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "翡冷翠，带上两株第三代智慧植物，去照顾陛下的休息和起居。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代近战智慧植物",
+   "text": "咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代投射智慧植物",
+   "text": "呀——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果要我跟这种诡异的植物待在一起的话，还不如别休息了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 贵宾招待室"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，请您安心休息，我就在隔壁，有需要请呼唤我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你能不能让这两株植物也去隔壁，被这种东西盯着谁能安心休息啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "抱歉，这些植物似乎只听达尔茜娅大人的命令。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧......说是第三代智慧植物，你们能为我做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代近战智慧植物",
+   "text": "咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代投射智慧植物",
+   "text": "呀——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎？睡衣和眼罩......还挺周到的， 好吧，我换上就是了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "突然......变得好累， 也是，我已经三十个小时没合眼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有这两株植物在身边，我也没办法用手机联络尘沙或者夏花。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了，还有维塔。维塔，你在吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔随时为您服务，魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在听到这个词......都有点不习惯了， 达尔茜娅看起来很想让我成为她的魔<r=mowang></r>王大人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "达尔茜娅所期望的魔<r=mowang></r>王大人并不是真的魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？维塔你知道真的魔<r=mowang></r>王大人是什么样的？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔作为您过去的司祭，现在的秘书，当然知道真正的您的样子。但是，权限不足，维塔无法告诉您维塔知道的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "另外，魔<r=mowang></r>王大人这个称呼，明明是维塔先用来称呼您的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好啦，好啦，知道是你先来的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔建议您尽快收集到一个灵魂，只要完成任务，您的权限就能提升，获得新的权能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "为了打破僵局，还请您再考虑一下维塔的建议。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我完成任务究竟能获得什么权能？啊，算了，肯定又是权限不足对吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "正如您所言，但维塔可以保证，不论解锁的是何种权能，对您重新成为真正 的魔<r=mowang></r>王都很有帮助，这也是诸界之井魔王养成系统的意义。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一个两个的，都想让我成为魔<r=mowang></r>王啊，魔<r=mowang></r>王就那么好吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不说这个了，现在我的处境虽然不太妙，但也不是没有反击的可能。维塔，翡冷翠其实并不忠于达尔茜娅吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔和您有相同的判断，看到被达尔茜娅抓住的星雁小姐时，翡冷翠的心跳加快、呼吸急促，是紧张的表现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "在达尔茜娅表明星雁小姐短期内是安全的，翡冷翠的情绪反而稳定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她说自己想向星雁复仇，但表现出来的情绪反而是担心星雁的安全。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，达尔茜娅对总公司军团抵达的事只字未提。她是想刻意隐瞒，还是根本没把这件事放在眼里？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，你刚才看什么呢？看得那么出神…… 这可不像平时的你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "天空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我顺着翡冷翠的视线向东方看去，目力所及之处，初升的朝阳散发着略微刺眼的光芒，并无特异之处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，为什么那个时候，翡冷翠就已经在看东方的天空了，就好像她早就知道会有这支军队来一样。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "与其您和我在这里思考，为什么不亲自问一问她呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "拿不出证据，问了也是白问。以翡冷翠的性格，她不会这么轻易告诉我的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我必须睡一会了，帮我盯住翡冷翠可以吗？如果她有什么异常行动，就立刻叫醒我。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "遵命，您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:00",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 贵宾招待室"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，魔<r=mowang></r>王大人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，现在几点了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代近战智慧植物",
+   "text": "咿咿咿咿咿咿~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下午六点， 是这个意思吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "第三代投射智慧植物",
+   "text": "呀——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，翡冷翠刚刚出门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，我这就起床。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "接过智慧植物准备好的衣服，我急匆匆地打开门，寻找翡冷翠的身影。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不远的楼梯上，翡冷翠缓步向温室的方向走去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "故意等我追上去么..... 那就去会会她好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我缀在翡冷翠的身后，两株智慧植物缀在我的身后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们走进温室，走下楼梯， 穿过地下实验室深处的甬道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么又回到这里了， 她想带我来的......是实验室最深处的那个房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？人怎么不见了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一点寒芒如鬼魅般定在我的咽喉前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，您果然跟来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那我就开门见山好了—— 请您接受达尔茜娅大人的效忠，然后用“灵魂交易”控制她的灵魂，命令她向总公司投降。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "先说清楚，免得你误会……听好了，这不是请求，是命令。我的刺剑，可没有太多的耐心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

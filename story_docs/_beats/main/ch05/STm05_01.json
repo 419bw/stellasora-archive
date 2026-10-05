@@ -1,0 +1,975 @@
+{
+ "heading": "# 01 特殊面试",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`505`　**编号**：`01`",
+  "- **关卡名称**：特殊面试",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_01`",
+  "- **关卡描述**：成大事者不拘小节。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "众人的入职面试表现各异甚至错漏百出，\n达尔茜娅却决定让全员一齐入职……\n唯独筛掉了有童工嫌疑的珂赛特。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "众人的入职面试表现各异甚至错漏百出，\n达尔茜娅却决定让全员一齐入职……\n唯独筛掉了有童工嫌疑的珂赛特。",
+  "episode": "第一话",
+  "title": "特殊面试"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "第一场面试",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:10",
+   "date": "雷月 30日",
+   "place": "菲莱温室区 联合种业面试间"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "“拥有十五年以上旅人经验”…… 十五年经验啊，确实是资深旅人的简历。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "可是，简历上年龄这一栏，你填着十七岁？你大概是从多大开始当旅人的呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊、哦……我只告诉你哦。 其实在我身上，隐藏着巨大的秘密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "说出来你可能不信——我有前世的记忆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "从上一世起，我就是一名旅人了。 而今重生一世，我选择继续做旅人，满打满算也将近十七年……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "第二场面试",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:30",
+   "date": "雷月 30日",
+   "place": "菲莱温室区 联合种业面试间"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "简历上提到，你已经获得通用诺瓦语高等资格证书、高级人力资源管理师证、神器一般运维资格证……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是的！还有诺瓦古代符文初级证书、婚礼礼仪师证、助产士证、大型畜力车驾驶证等另外三十多项资格证书。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "了解。这些内容，你在简历的后五页都罗列得很清楚。 你为什么要考这么多证书呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们的旅团是个小旅团，抗风险能力很低，现在旅人之间的竞争又很激烈。说不定哪天就接不到委托了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "所以我想着还是多考一些证书，自己打打零工，多少能改善一下旅团的经济条件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "呵呵，很有想法嘛。那么下一个问题——你认为相较于其他面试人，自身有什么优势呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我有着很强的计划性，做事严谨，认真努力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "比起习惯依赖直觉或者经验的人来说，我在长线项目和复杂任务中会表现得更加稳定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "同时，我作为旅人，非常了解茶色夜莺这款产品的优缺点，相信能在贵公司战略部的品牌管理岗上做出贡献。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "这样啊。感谢你的回答。我没有问题了，请你在休息室等待一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "明白，非常感谢您今天抽出宝贵时间来面试我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "呵呵，为了旅团居然能做到这种程度……很有集体精神！的确是个适合联合种业的人才啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "第三场面试",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:45",
+   "date": "雷月 30日",
+   "place": "菲莱温室区 联合种业面试间"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "好的，那么——如果遇上“客户签订契约前突然反悔，想要重新确认契约中的具体条款，并重新商定收益”的情况，要怎么做？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "用枪、要求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "来人，把她手里的枪收走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "第四场面试",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "雷月 30日",
+   "place": "菲莱温室区 联合种业面试间"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "面试人，你脸色看起来不太好啊，有哪里不舒服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "你你你……你好…… 没，没事的！我很好！ 初，初次见面……！ 我是花、花令旅团的冬冬冬香……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我、我那个……我…… 只是有点紧张而已……！请您别在意……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "好，那请介绍一下你第一次攀爬星塔的过程，对于旅人来说，这是很难忘的事情吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好，好的。第一次，攀爬星塔——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "你这水平还是找个别的工作，别干旅人这行了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "医生，医生，有人晕倒了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "第五场面试",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:20",
+   "date": "雷月 30日",
+   "place": "菲莱温室区 联合种业面试间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "戴着鸟嘴面具的面试官......我记得她是......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "关于旅人营地发生的骚乱事件。我们对此深感责任重大，决定发布如下声明——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在谣言中帮了我们的翡冷翠，在公司地位不低，她就是那个推荐我们的“大人物”吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "面试人，有什么问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有没有，第一次参加这种面试，有点紧张，啊哈哈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "是吗？你前面回答的很不错，无需紧张，按照自己的真实想法回答就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要进入联合种业，就可以抓到灰夫人的线索了，现在还是把注意力集中在面试上吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "最后一个问题，按照真实想法聊聊就可以了，你是否接受常态化加班？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "比如在一段时间里......每天工作十二小时，一周到岗七天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是在考验我吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "说什么好呢？",
+   "options": [
+    [
+     "给钱或者给休假的话可以",
+     "",
+     ""
+    ],
+    [
+     "为了通过面试，说违心话比较好",
+     "",
+     ""
+    ],
+    [
+     "绝对不行！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "给钱或者给休假的话可以"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "加班工资双倍的话…… 可以考虑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "这个嘛，我们是灵活的浮动工资制，工资的多少要看联合种业菲莱分公司的效益。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，没有加班工资。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那加班时长能折算成假期的话…… 也可以考虑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "这个嘛，你也知道粮食是大事，我们经常有紧急的情况需要处理，需要随叫随到，当然，这些加班原则上是有调休的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，也没有休假。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "罢了。现实就是，这个世上不可能有钱多、事少的工作……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放弃不切实际的幻想吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，我理解公司的难处，我愿意常态化加班。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:00",
+   "date": "雷月 30日",
+   "place": "菲莱金城区 执行官办公室"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅执行官，五位面试人的面试反馈在这里，请看一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "谢谢。书面的报告我一会再看，我想听听你对这几个人的主观看法，毕竟，你才是在现场的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "鸢尾很适合战略部的职位，是个很好用的执行者。她考取的那些证书虽然没什么用，但至少证明了她的积极性，以及对团队的忠诚度，可以给其他员工树立好榜样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔王是个厉害的领导人才，能让这几位性格各异的旅人团结在的身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不过，你并不赞同我们的加班制度。当然，正常人都不会赞同，不算缺点。你最后还是给出了违心的赞同回答，是个能屈能伸的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "为了通过面试，说违心话比较好"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "站在联合种业的立场上看，当然是希望员工卖力工作，少要工资。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然和我说了“按照真实想法聊聊”，但谁会信这种鬼话啊！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那必须的！为公司奉献是员工的福报嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "工作才能体现我的价值！岂是加班费和休假这些身外之物能衡量的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对我来说， 公司就是我的家！同事就是我的家人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "呵呵，感谢你的回答。面试到此结束。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:00",
+   "date": "雷月 30日",
+   "place": "菲莱金城区 执行官办公室"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅执行官，五位面试人的面试反馈在这里，请看一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "谢谢。书面的报告我一会再看，我想听听你对这几个人的主观看法，毕竟，你才是在现场的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "鸢尾很适合战略部的职位，是个很好用的执行者。她考取的那些证书虽然没什么用，但至少证明了她的积极性，以及对团队的忠诚度，可以给其他员工树立好榜样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔王比鸢尾还要强一些，不仅有领导能力，并且一瞬间就理解了问题的深层意图并给出精准回答，这点值得肯定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "但是，你明知道我们的加班制度有多么的严酷，却仍说什么“公司就是我的家”，一定所图甚大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "绝对不行！"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下班后，我也有自己的事情要做啊，即使再多钱再多假也不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "这样啊。那很遗憾，今天的面试就到这里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "按真实想法聊的话......结果肯定是这样吧，委托就没办法做下去了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是，这又有什么关系呢？！人活着，就是要说真心话啊！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面试官",
+   "text": "面试人，你的回答是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "回答？这还用问吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "死也不会同意的！ 诺瓦怎么会有这么可怕的公司，常态化加班每天十二小时每周七天，这是公司吗？这是地狱吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:00",
+   "date": "雷月 30日",
+   "place": "菲莱金城区 执行官办公室"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅执行官，五位面试人的面试反馈在这里，请看一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "谢谢。书面的报告我一会再看，我想听听你对这几个人的主观看法，毕竟，你才是在现场的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "鸢尾很适合战略部的职位，是个很好用的执行者。她考取的那些证书虽然没什么用，但至少证明了她的积极性，以及对团队的忠诚度，可以给其他员工树立好榜样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔王怒斥了我们的加班制度，还指责我们强制加班的行为简直丧尽天良。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "恕我直言，最近这段时间分公司的加班是有点过多了，人毕竟不是神器，况且神器使用多了也会出问题，还请您多多考虑一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "至于其他三人...... 完全不符合岗位标准。联合种业不需要这些充满自由气息的旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "嗯，我明白了，这五个人都录用吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "为？为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "这些“自由”的新鲜血液加入联合种业后，能给公司带来何种新的变化…… 难道不是一件值得期待的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人，这五个人有个很大的问题——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "你们都是魔王协议人力派遣公司的人，其中还有执行官“魔<r=BOSS></r>王”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "原来您知道这件事......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "嗯，当然。如今魔王协议在菲莱可算是家喻户晓了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您不担心我司的机密会被这些人看到吗？毕竟，对方也拥有一家公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "我听说，魔王协议的特许经营方向是“灵魂”。联合种业是做粮食和食品生意的，我们没有竞争关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "而且……魔王协议解冻的消息传来时，你不也派人去核实过情况吗？ 现在可以近距离地观察一下对方，不是正合你意吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这一点……我不否认。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "呵呵，对吧？毕竟你们的接触也不止这一次吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "是的。不过准确来说，是对方主动找上门来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "无论如何，可以确定的是你是个比普通人更精通公司运作模式，并且擅长借力打力的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "没错。真是让人充满期待呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "所以......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "录用她们还有更深层的原因。你想想看——如果我们拒绝了对方的简历，这件事传出去，会有损联合种业的形象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "明白了，那这几个人的职位，您有什么指示？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "先全部分配去战略部的茶色夜莺项目吧，就算搞砸了，那个团队也经得起折腾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那后面的事情我会和米娜经理一起跟进，您看可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "对了，我看这一批次的简历里还有一个旅人，但是没参加今天的面试，她也是魔王协议的人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不，是一位名为“珂赛特”的自由旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "她谎称自己二十岁，实际年龄远远要小于这个数目，低于诺瓦的招工年龄。所以在面试之前就被刷掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "嗯，那今天就到这里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "好的。在下告退。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "呵呵……呵呵呵呵……来吧，就让我亲眼见识一下你的实力吧—— 你究竟是真正的“魔<r=mowang></r>王”，还是徒有其表的冒牌货呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

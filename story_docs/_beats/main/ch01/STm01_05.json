@@ -1,0 +1,699 @@
+{
+ "heading": "# 05 灰城区的风",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第一章《没有记忆的生物》（星塔历 996 年）",
+  "- **关卡 ID**：`105`　**编号**：`05`",
+  "- **关卡名称**：灰城区的风",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm01_05`",
+  "- **关卡描述**：物是人非，旧日的街道上已经没有了熟悉的风景。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你们来到空白旅团小时候的孤儿院，\n孤儿院早已消失，“灰风俱乐部”取而代之，\n听闻你们是孤儿院的孩子，对方拿出了武器。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们来到空白旅团小时候的孤儿院，\n孤儿院早已消失，“灰风俱乐部”取而代之，\n听闻你们是孤儿院的孩子，对方拿出了武器。",
+  "episode": "第五话",
+  "title": "灰城区的风"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:00",
+   "date": "花月 26日",
+   "place": "埃摩灰城区 水道桥走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们就这么沿着水道桥走吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "埃摩的水道桥连接城里的七座星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "走在上面，就不用走下面七拐八拐的小路啦，是前往孤儿院的最快路线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这么方便的路，怎么看不到其他人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "水道桥又高，又危险，万一掉下去可不是闹着玩的。 能面不改色走这条路的，也就只有我们旅人了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "喂喂，这边这边！我记得那边有条近路！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "15:45",
+   "date": "花月 26日",
+   "place": "埃摩灰城区 水道桥走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "前面桥断了……尘沙，别抄近道了，回去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾，抓住我的手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不用那么担心啦，我还不至于掉下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不是怕你掉下去啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这是近路，是怕你不敢跳下去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊？救……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "救命啊——————！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，抱紧我，我带你下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们也要跳？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "尘沙选的路，不会错的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "结果证明，并不是直接从桥上跳向地面。坍塌的桥梁残骸形成了阶梯，我们只是顺着台阶走下去而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，呼，呼，吓死我了。 尘沙，这种事下次早点说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我还以为你知道呢，这个近路是我们小时候发现的嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "只有你会把这里当成“近路”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嘘，前面有人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的帮派成员",
+   "text": "别挡路，我们不欺负小孩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶狠的帮派成员",
+   "text": "把密涅瓦叫出来，我要和她比划比划，谁赢了这条街就归谁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红发少女",
+   "text": "老大的名字也是你们能叫的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红发少女",
+   "text": "就你们几个慢吞吞的乌龟，本大爷一只手就可以打倒你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶狠的帮派成员",
+   "text": "口气不小嘛，那就先把你抓了，再逼密涅瓦出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一群凶神恶煞的女人扑向红发少女，但少女轻盈旋身，游刃有余地避开了她们的攻击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "密涅瓦......这个名字好像在哪里听过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你们觉得谁会赢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "红头发的，她更快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶狠的帮派成员",
+   "text": "呼，呼，完全抓不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的帮派成员",
+   "text": "你那是什么滑板？有本事下来打。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红发少女",
+   "text": "你们慢得像乌龟一样，还怪我了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的帮派成员",
+   "text": "你这家伙，你敢再说一遍……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶狠的帮派成员",
+   "text": "哎，我们脚下是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫发少女",
+   "text": "送你们的礼物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的帮派成员",
+   "text": "啊？礼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的帮派成员",
+   "text": "嘎啊啊啊啊啊～～～！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的帮派成员",
+   "text": "咳咳咳，喘不上气了。 竟然用这种手段，好卑鄙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红发少女",
+   "text": "卑鄙？打架还讲什么卑鄙不卑鄙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫发少女",
+   "text": "这种特制辣椒烟雾，不快点用水清洗的话，眼睛和喉咙会疼好几天哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶狠的帮派成员",
+   "text": "算你们狠，撤。下次绝对饶不了你们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红发少女",
+   "text": "哼！来几次打趴你们几次！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫发少女",
+   "text": "烟雾也散了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红发少女",
+   "text": "大家出来吧，可以重新开门做生意了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那两个帮派成员离开后，人们开始三三两两地聚拢过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蔬菜店老板",
+   "text": "太好了，再不开门，我的菜都要烂掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "肉店店员",
+   "text": "那几个人一大早就蹲在这里，吓的顾客都不敢来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "面包店老板娘",
+   "text": "刚出炉的面包，你们拿回去吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那些孩子还挺受欢迎的，看上去不像是坏人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们还是快点回孤儿院看看吧，先找到那笔奇怪的借款的线索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的少女",
+   "text": "喂，你们四个哪里来的？贼眉鼠眼地干什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哎哎哎哎——被发现了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的少女",
+   "text": "是生面孔，该不会是刚才那帮人的同伙吧？快报给满月姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不不不！我们只是普通的旅人！ 绝对不是什么可疑人物……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "吵死了。鬼叫什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的少女",
+   "text": "满月姐，这有几个人鬼鬼祟祟的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "怎么怕什么来什么啊！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "各位好！我们叫空白旅团，是旅人。话说你刚才打架超帅的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "哼，哪里的话。不过有人夸还是挺爽的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙还真是厉害啊，这都能聊起来。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "话说你们旅人来这种地方干嘛？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "确实……这条路按说只有本地人才会走。 啊。我是新月，这位是我姐姐——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "我是满月。你们好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我是尘沙。 这是鸢尾， 这是琥珀。 然后这位……该怎么介绍好呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "魔王，大概是个失忆的旅人......本来是想这么说的，但和这样的帮派成员交谈，更加夸张的名字会有更好的效果吧，所以——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "叫我魔<r=BOSS></r>王就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "魔......魔<r=BOSS></r>王，童话里那个想要毁灭世界的大反派？？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "哼哼，你的这个称呼还真有气势。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王啊——不错嘛！超帅气的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "反抗世界的感觉，我喜欢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜......感觉变成了反派角色了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "所以？你们来这儿干嘛？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊对！其实我们是来找“灰城孤儿院”的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "灰城孤儿院？早就关门了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "有什么事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶？怎么觉得气氛变了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "被包围了，准备战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "等，等一下！我们小时候是那家孤儿院的孩子，今天是想回去看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "那孤儿院确实是两年前倒闭的。但是你们要怎么证明自己的身份呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "自称是孤儿院孩子的......这周已经来了四伙人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哎？那么多？可，可我们真的是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "哼，管他那么多…… 可疑的家伙就请回吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

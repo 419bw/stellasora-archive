@@ -1,0 +1,733 @@
+{
+ "heading": "# 终局 没有旅人的未来",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第一章《没有记忆的生物》（星塔历 996 年）",
+  "- **关卡 ID**：`110`　**编号**：`终局`",
+  "- **关卡名称**：没有旅人的未来",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm01_08_b`",
+  "- **关卡描述**：不要向星星许愿。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "一筹莫展的你们决定靠时间解决问题，\n然而时间并不站在你们这边，\n多年后，你在沮丧中被人推进河里溺亡。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "一筹莫展的你们决定靠时间解决问题，\n然而时间并不站在你们这边，\n多年后，你在沮丧中被人推进河里溺亡。",
+  "episode": "终局",
+  "title": "没有旅人的未来"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "21:00",
+   "date": "花月 27日",
+   "place": "埃摩灰城区 灰风俱乐部"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "密涅瓦姐姐，我们去睡觉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "晚安，做个好梦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "晚安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "老大，我们也去睡了，脑子里还是好累。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "呼......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "满月，摘掉墨镜再睡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "新月也累了吧？要我帮忙搬东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "老样子了，没问题的～老大你不睡吗?",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我还要和空白旅团的朋友们聊点事情。不过聊完就睡，不用管我这边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "嗯，老大你今天也爬了塔，别熬太晚哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "噗噢噢噢……呜呼噜噜噜……唔唔唔唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "新月夹着已经打起呼噜的满月走出了房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好怀念，我们小时候也是这样吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "两年，就这么怀念了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾还会带队检查被子盖没盖好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙你还说呢， 就你踹被子次数最多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还有琥珀，有床不睡，每天不是躲在衣柜里，就是躲到房梁上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "窄和高的地方......睡着放心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们感情真好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "谢谢你们今天帮灰风爬塔，帮大忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不用那么客气，我们本来就是旅人，爬塔什么的每天都会做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "第一次爬城里的塔，很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "该说谢谢的是我们才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然灰城孤儿院消失了，我很受打击，但是这里还是和孤儿院的感觉一样，真的让我松了口气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "所以，真的谢谢你，保护了我们重要的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这种小事就别在意了，我也只是为了自己安心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "话说回来，你们刚才想说什么来着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯。其实刚才我们商量了一下…… 从明天开始，由我们来代替小雨她们爬塔吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哎，慢着慢着……！你们今天已经帮了很大的忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "没必要做到这种地步吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "当然有必要。我们也是孤儿院的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "过去我们被艾蕾阿姨帮了，现在是我们帮别人的时候了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我会努力许愿的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我们留了下来。虽然每次给白垩商会爬塔，身心都会无比疲惫……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但我们依然毫不气馁地继续收集着神器，我虽然用不出魔法，但在许愿和文书工作上也能帮上不少忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们并没有放弃找寻借款的真相，但在我们找到菲金的破绽之前，白垩商会就在某个早晨，连带着我们的车子一起消失了，只剩下空荡荡的大宅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "没有债务，也没了车子的我们，不得不改行做别的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在那之后，我们度过了一段跌宕起伏的人生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙找到了一份薪水还不错的工作——给熔炉送风，第一个离开了埃摩。 　　她做了半年，即将结算工资的时候，被工头以“进门先踏左脚，违反规定”的理 由开除了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "鸢尾埋头复习了半年，还是没能通过恩赐意志的面试，只好去一家以绿色鸟嘴 为标志的冷库打工。 　　她很快就交上了好运，在短短几个月内，就被提拔到了很高的职位。 　　然而，庆祝她升职的转天，冷库的同事就连同冷库里的货物一起不见了，冷库 未缴的租金和货主们的愤怒都落在了她头上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "琥珀去了一家猫咪咖啡店当服务员，她最终还是没改过来不喜欢和人面对面说 话的习惯，倒是很受动物们的欢迎。 　　只是，某一天，那家猫咪咖啡店发生了大爆炸。虽然无人受伤，却再也开不下 去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "灰风俱乐部在孩子们长大后无疾而终，密涅瓦成了埃摩黑道敬仰的前辈，但 听说她再也没有笑过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "至于我，我最终在一个遥远的城邦里加入了一支旅团，谋得了一个“许愿旅 人”的职位。 　　工作了很多年后，那支旅团的客户越来越少。我因为年龄的原因被优化掉 了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "走在流水潺潺的街道上，周围的热闹都与我无关，手里捏着的，早已残破的手 机里，还存着她们的联系方式。 　　可是，我的手指，却停在她们的名字上按不下去，不是不能联系，而是我不知 道接通后，我还能说些什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉……我到底在干什么啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "所以，魔<r=mowang></r>王大人，请不要再次成为星星。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "已经存在的路，再怎么走，也不可能抵达新的世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来，梦里的告诫是这个意思啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "单纯替别人承担痛苦和责任，是没办法获得幸福的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "花费了这么多时间才悟到这点，真是愚钝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然而，还没等我转身，我就被拥挤的人群撞下了桥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "欢迎光临。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "欢迎光临。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "这是......医院？我溺水了？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "您的确溺水了，但很遗憾，这里不是医院。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是医院？什么意思......我不明白？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "您应该加强锻炼了，失足坠河后，您都没坚持到热心群众的救援，就沉入河底了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "沉，沉下去了……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我......明白了。 这里是天堂还是地狱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管是哪个，这里也算是终点了， 向好处想，我终于可以休息了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "您在说什么啊，想偷懒可不行，我们可是在这里苦等了您好多好多年。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "怎么能让您这么轻易就休息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "您的旅途，还未结束。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们还能让我复活不成？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "不，您无需复活，因为您从未死亡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "您只是暂离了“那边”，来到了“这边”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那边？这边？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "您只要离开这里，就会重新回到“那边”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "这里是您的房间，我们是您忠实的仆人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "在这里，您对我们提任何要求，我们都会照做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "但也只是在这里， 因为现在的世界，已经不是您的世界了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们在说什么，我不太明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "嗯，只要您持有那台神器，你迟早会明白的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "神器......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这台手机？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我下意识地看向手机，不知何时，它恢复了崭新的模样，与此同时，纯白房间的大门，缓缓开启。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "这就是，您身为这间房间主人的证明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "也是您身为魔<r=mowang></r>王大人的证明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:45",
+   "date": "花月 27日",
+   "place": "埃摩灰城区 灰风俱乐部"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里是......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "灰风俱乐部？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不管有什么烦恼，只要盯着手机，不开心就消失了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "要是我也能许愿出魔王那种屏幕超大的手机就好了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我......我回到了过去？还是做了个梦？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不。就算刚才都是梦，也决不能走向那种结局。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

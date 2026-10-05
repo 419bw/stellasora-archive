@@ -1,0 +1,797 @@
+{
+ "heading": "# 07 不得已的交易",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`616`　**编号**：`07`",
+  "- **关卡名称**：不得已的交易",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_07`",
+  "- **关卡描述**：所有的试探和退路，都封在了此刻的真诚中。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你与翡冷翠终于构建起信任，并交换了彼此的情报。\n她指出，实验罐中的主教棋子是击垮达尔茜娅的关键。\n你决定要利用自己的魔力绝缘体质，跳入罐中夺走棋子。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你与翡冷翠终于构建起信任，并交换了彼此的情报。\n她指出，实验罐中的主教棋子是击垮达尔茜娅的关键。\n你决定要利用自己的魔力绝缘体质，跳入罐中夺走棋子。",
+  "episode": "第七话",
+  "title": "不得已的交易"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "18:30",
+   "date": "谷月 5日",
+   "place": "菲莱温室区 实验室核心区"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那我就开门见山好了—— 请您接受达尔茜娅大人的效忠，然后用“灵魂交易”控制她的灵魂，命令她向总公司投降。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "先说清楚，免得你误会…… 听好了，这不是请求，是命令。我的刺剑，可没有太多的耐心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "能进入这里的，只有达尔茜娅和达尔茜娅允许的人，外面的智慧植物不会来救你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠果然另有目的，但她为了让我配合，竟然不惜做到这一步…… 她到底在着急什么？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（向前一步）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "颈部传来轻微的痛感，抵在喉咙上的剑尖颤抖了一下，飞快地退了回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王，你真是个疯子，你不怕死吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我当然怕死，但我们没时间互相试探了吧，况且——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你并不是站在达尔茜娅那边的，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你大费周章地逼我到这个境地的理由，我大概也能全部猜到了…… 但我需要你亲口告诉我，翡冷翠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你说得没错，我确实和她不是一伙的。不过...... 你是什么时候发现的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你留下的破绽太多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "也就是说， 这个“匿名用户”在今天我不知情的情况下， 用手机贴上了我的手机，发出了申请， 在提供给我们信息后，又立刻删除了我的好友。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "身为魔女，虽然遇到过不少暗中提供情报的情况， 但做得这么干脆，让我完全察觉和追踪不到的，这还是第一次， 对方是个厉害的家伙啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "首先，我们去生产部实习，只有“偶然”出现在生产部的人， 并且擅长战斗的人才有机会在雾语没察觉的前提下，把手机和雾语贴在一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "红蓝宝石要是有那么高的战斗水平，就不会被曼德拉辉草弄得灰头土脸了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "对哦，如果有人在生产部的调整后，再度潜入调整。 然后在生产部下次调整前再调回来…… 就能秘密地在温室里做点什么了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "然后，约瑟夫、灰夫人、星雁在温室里做了那么大事，生产部却毫无反应，你这个直接管理生产部的运营总监逃不开嫌疑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "在场的人全部带去灰城区，去审讯室里解释吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那一刻我甚至怀疑过，你会不会才是那个真正的幕后黑手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "直到...... 我看到了贵宾室的地图。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "哦，你发现了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "地图上的标注是你的笔迹吧。 你在城区西部偏南的地方标出了审讯室的位置。那里距离城外很近，翻过墙就是麦田和森林。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你其实是想制造机会，放我们走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不错，和聪明人说话就是省力。 我本打算在审讯室门前制造一起意外，没想到达尔茜娅来得更快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我也有个问题，被放进培养罐里的星雁……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星雁？原来如此…… 星雁果然也是你的同伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是想让我帮忙救人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "别误会，为了这个计划，我们早就已经做好了牺牲自己的准备。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "只有计划成功，我们才有希望。但决定胜负的关键，还需要总公司的配合…… 但如今他们拖延太久，导致整个计划已经开始失控了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道说...... 你们和城外军团约定的进攻时间是今天凌晨，也就是你眺望天空的那段时间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算晚一天，那些军团也就在附近…… 还不至于发展成无法挽回的局面，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不好说…… 既然他们在这附近，应该也能察觉到城内的动乱吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "但他们却在旅人营地按兵不动，要不然是指挥官软弱无能，要不然就是士兵的素质根本不支持在强行军后立刻发动进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不管是哪个，他们都绝对打不赢达尔茜娅。 所以，魔<r=BOSS></r>王，我愿意把灵魂交易给你，只要你能——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "不，我不能",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的“灵魂交易”根本不能控制别人的灵魂，更别说让她投降这种事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来，她的确忠心于我，但你也知道她的忠心是有她的一套扭曲的判断标准，而非我说什么她听什么的。 还有，你是从哪知道“灵魂交易”的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "有个情报商告诉我的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个情报商是不是穿个斗篷？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "对，就是在旅人营地活动的那个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然是瑟拉娜么。那我就不多解释了，我能做的只有用灵魂作代价，替对方实现愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "换句话说，我收下你的灵魂，然后由我来实现你的愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "实现我的愿望……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，但即使进行了交易，我也无法操纵达尔茜娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅软禁我，我可以不放在心上。 但她派人伤害我的同伴，花令旅团被赶出营地和雾语受伤也是因她而起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "作为还击，我本就会破坏她的疯狂计划，我们的目的是一致的。 所以，你无需和我进行交易，我会帮你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你是认真的吗…… 不要报酬，就愿意帮我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错。 说实话，我也很抵触“灵魂交易”，所以我不要求你付出任何报酬或代价。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这样么，那我们的谈判就到此为止，协助合作一事，就当我没提过吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎？啊？！等一下，现在不是开玩笑的时候！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我看起来像是在开玩笑吗？ 再说了，我从来都不喜欢欠别人人情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "听好了，不谈报酬，就谈不了责任。 所以“代价”是让合作关系更可靠的保证。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "可你却说自己不要回报，这不就等于在说—— 你不想承担这份责任么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是我太天真了…… 翡冷翠之所以强大，或许正是因为无论什么情况，她都能稳住情绪，毫不动摇自己的信念吧。以及......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "所以，魔<r=mowang></r>王陛下，请不要再次成为星星。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "已经存在的路，再怎么走，也不可能抵达新的世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是被她将了一军呢。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冷静，翡冷翠。 达尔茜娅是位劲敌。 现在最要紧的是利用上每一份可以利用的战力，你应该先考虑和我合作……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我可以理解为…… 你在请求我出手帮忙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？ 我们的立场是不是反了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "唉…… 要冷静的是你吧？我只是希望你能展示相对应的觉悟而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "是我说的不够准确？那就换个更正式的称呼好了…… “同盟”怎么样？这件事，我们已经赌上了性命。 所以，我得确认你到底有没有做好准备。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你想要将“灵魂交易”当成我们合作的条件？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "嗯，但你也别误会了，这并不代表我完全信任你。 对了，之前有传闻说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "只要和你完成“灵魂交易”，就等于正式成为魔王协议的员工。 而魔王协议会保护员工们的灵魂…… 可以免疫有害的精神魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啧…… 这些也是瑟拉娜告诉你的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不…… 那是原本要举行授勋仪式的日子，达尔茜娅向冬香问起这件事，她自己兴冲冲地全部解释了一遍呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "自掘坟墓了啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵，你未免太粗心了。不过也正好，这下就能证明，那听着像白日做梦的事不是瞎编的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你想保护住自己的灵魂？ 但为什么？ 这里并没有寄生之庭那样的魔物，难道达尔茜娅擅长用精神魔法？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你也看到了吧，第三代智慧植物的能力绝非摆设。刚才的战斗，我为了评估它的战斗力，几乎是全力出手。 可即便如此，我还是被击败了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "但它们也不是完美无缺的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道，你已经发现它们的弱点了吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你还记得达尔茜娅说过的话么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您大概已经察觉到了，它的能力是—— 传递人类的精神和记忆。 简单来说，把它放进装着“精神之水”的罐子里，就能把对应的精神和记忆连接在一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你看—— 那只巨型培养罐的底部，沉着那枚“主教”棋子。 只要把那枚棋子从里面拿出来，智慧植物便不再是威胁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从那么深的罐子里拿到棋子可不容易。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "的确，主要的困难有两点。 首先是罐盖的钥匙，这把钥匙由达尔茜娅保管，并且一直随身携带着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "其次，罐子里的“精神之水”是个更棘手的麻烦…… 哪怕只是站在旁边，都有可能吸入它的魔力，被它影响心神。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，你是想利用魔王协议对员工的保护来免疫精神之水的影响，跳进去拿回棋子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "是的。所以我再重复一次。 魔<r=BOSS></r>王…… 请和我进行“灵魂交易”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "击溃达尔茜娅的方法近在眼前。她这么选择我也能理解，可是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我警告你，只要是阻碍计划的人，那就是敌人。 趁我还有耐心，说一个让我接受的理由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为我太弱了。 要是你下到罐子里那段时间，智慧植物跑来捣乱怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我可没有办法为你争取时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你想说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各取所长嘛。同盟照结，但我不和你做灵魂交易。 原因很简单——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为潜入罐子里的人， 是我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你既然愿意为击败达尔茜娅拼上性命，那我愿意也押上自己的生命。 我的体质是—— “魔力绝缘”，这些充满魔力的液体对我未必起作用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔力绝缘…… 你竟然是那种稀有的体质？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈，看起来你也不是什么都调查到了啊。 总之，棋子交给我，但同样的，潜进去的这段时间里，保护我的任务就交给你了。 你失败了，我也无法逃生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵…… 哈哈哈哈，可以啊，既然这是你的选择。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那么，魔<r=BOSS></r>王，从现在开始，我们就是对抗达尔茜娅的盟友了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

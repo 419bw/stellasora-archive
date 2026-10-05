@@ -1,0 +1,861 @@
+{
+ "heading": "# 09 一小时战争",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`215`　**编号**：`09`",
+  "- **关卡名称**：一小时战争",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_09`",
+  "- **关卡描述**：战争在开始的那一刻就结束了。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你是魔王协议人力派遣公司的首席执行官。\n公司解冻的那一刻，全世界都收到了消息，\n你对白垩商会发动了公司间的“公司战争”。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你是魔王协议人力派遣公司的首席执行官。\n公司解冻的那一刻，全世界都收到了消息，\n你对白垩商会发动了公司间的“公司战争”。",
+  "episode": "第九话",
+  "title": "小时战争"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "13:00",
+   "date": "雨月 2日",
+   "place": "弗拉维奥 绯瞳大街"
+  },
+  {
+   "k": "talk",
+   "speaker": "金发的贝斯手",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "急匆匆的魔女",
+   "text": "抱歉抱歉，没伤到你吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "急匆匆的魔女",
+   "text": "虽然我是想好好道歉的，但现在不是时候， 埃摩出了个大新闻，我必须马上飞过去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "急匆匆的魔女",
+   "text": "所以这次就原谅我吧★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "急匆匆的魔女",
+   "text": "作为赔罪，下次我肯定来看你的演出。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "干练的协会旅人",
+   "text": "快看，公司的大新闻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "飒爽的协会船长",
+   "text": "大新闻？还是干活吧，薇洛。现在的公司已经不是过去的公司了，再大的新闻，也不会有公司来赞助我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慵懒的玄师",
+   "text": "什么风把你吹来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的秘书",
+   "text": "这话该我说才对。这里是我的办公室，可不是你睡觉的地方哦！ 不过正好。这是八百里加急公司情报，给你师父的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慵懒的玄师",
+   "text": "哎，难得睡个舒服的午觉，罢了罢了，我这就去送。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的员工",
+   "text": "前辈，有家古老的公司解冻了呢，名字好奇怪……魔王协议人力派遣公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "诡计多端的经理",
+   "text": "嘻嘻，这不是挺好的嘛，看来又要多一只可爱的“存钱罐”了呢，呵呵呵呵……♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "诡计多端的经理",
+   "text": "收集这家公司的资料，新解冻的公司肯定需要我们的资金支援。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的员工",
+   "text": "是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的女仆",
+   "text": "谷风守大人，我明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的女仆",
+   "text": "我们已经做好了向新解冻的公司提供女仆的准备。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的执行官",
+   "text": "一个刚刚解冻的公司向白垩商会宣战么...... 有趣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的助手",
+   "text": "一百年来的首场公司战争，我们要派出观察团吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的执行官",
+   "text": "来不及，而且哪有闲工夫分心？我们的研究也正到关键阶段呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的执行官",
+   "text": "只要能完成那个计划，联合种业就能立于不败之地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "西侧的黑影",
+   "text": "啊哈哈哈，真是痛快！解冻后就立刻发起战争，该说不愧是传说中的公司么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "北侧的声音",
+   "text": "恩赐之神保佑，请不要让世界陷入混沌。愿人们的安宁不受威胁……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "东侧的利剑",
+   "text": "祈祷有什么用，动动脑子行不行。我们心相四角，不就是为了应对这种情况建立的么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "东侧的利剑",
+   "text": "南边那位也该提点建议……呿，又缺席了，真是不负责任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "非常抱歉。但安琪大人有紧急工作要处理，已经提前告知各位了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "东侧的利剑",
+   "text": "我知道，她肯定有急事。不说这个，奥尔贝德，听说解冻手续还是你新招的实习生办的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "东侧的利剑",
+   "text": "你该不会……又在打什么主意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "这都是恩赐之神的意志，我能说的仅此而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "各位请放心，“魔王协议”的问题，我会处理好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "什么？你说白垩商会追捕的人解冻了一家公司？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的侍从",
+   "text": "是，那家公司还向白垩商会发起了“公司战争”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "还等什么！快把人撤回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "帝国卫队绝不参与公司战争。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "13:00",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "野人们，你们已经被包围了。乖乖认命吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "为了抓你们，我可是把商会大楼和恩赐印章都抵押出去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你们每个人都要给我免费打五十年的工还债！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎呀......这下真的不妙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "屋顶上都是敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "也不知道魔王那边搞定了没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "就算你们的魔王搞不定，我们的老大也会搞定的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "现在怎么办？拖延的时间也够长了，先投降？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不。 妾身身为主公的刀，在没有接到主公的命令前，只有折断才会停止战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "全体前进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的侍从",
+   "text": "请，请等一下！其实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的侍从",
+   "text": "咕哝咕哝咕哝……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "嗯......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "向后转，撤退。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "哎，你们怎么撤了，我们的契约是抓到那些人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你们这是违约，严重违约！我要起诉你们！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "抱歉，菲金首席，有公司对贵司发动了战争。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "帝国卫队从一百年前开始，就立誓不参与任何公司战争。因此，恳请见谅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "这次违约非常抱歉，相关的违约金帝国卫队安保公司会支付给您的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "可，可恶，是哪家公司在这个时候捣乱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "正是在下，魔王协议人力派遣公司",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "哈……？开玩笑也该有个限度吧？你们这些城外的野人，怎么可能有恩赐之神的印章......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疑惑的帮派成员",
+   "text": "嗯？公司战争是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的帮派成员",
+   "text": "不知道，可是帝国卫队都撤了，我们是不是也撤？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贪便宜的佣兵",
+   "text": "不不，那些旅人已经没力气了，骑士们撤了，赏金不是合该我们分？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "知识渊博的佣兵",
+   "text": "别傻了，公司战争是两家公司之间不死不休的战斗，直到一方投降并满足另一方的所有条件为止。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "知识渊博的佣兵",
+   "text": "所有参与公司战争的人，不会受到任何法律保护。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贪便宜的佣兵",
+   "text": "你的意思是…...真的会死？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "知识渊博的佣兵",
+   "text": "就是这么回事。顺便一提，这场战斗中就算取了对方性命，也不会有人受到惩罚。用多卑鄙的手段都行哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贪便宜的佣兵",
+   "text": "噫——！那还等什么，快跑啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你们不要走，我给你们三倍，不，五倍的佣金。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的帮派成员",
+   "text": "有命赚没命花啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "人都走光了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我本以为，白垩商会至少会有三五个忠诚的员工，没想到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "唉……谁叫她所有的员工都是临时雇佣的。这下好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "我虽为“刀”，但斩杀毫无抵抗之人有违武道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "可，可恶，你们竟敢在这儿大放厥词......！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "投降吧菲金，解散作恶多端的白垩商会，解释清楚孤儿院的事情，还有向你骗过的人道歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是我们的条件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "不可能道歉，谁会答应这种条件啊！ 解散商会和解释孤儿院的事情暂且不论，但绝对不可能道歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "这种事……对！ 是上当的人自己活该！ 我被骗的时候，那些家伙也是这么笑着说的。从来没人向我道歉过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "虽然不知道你经历过什么，但这不能成为伤害他人的理由吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "那你要我怎么办？！我不服气，为什么只有我倒霉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也有人选择，因为被欺负过，所以去保护更多的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你只是在为自己的作恶找一个让自己心安的理由罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "又是这个魔法，大家小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "哎呀呀。没想到，我们再见的速度这么快，新上任的执行官大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "还是说，我现在应该称呼你为魔<r=BOSS></r>王呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然不知道你为什么来帮她， 但直到现在，还要助纣为虐么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "没办法，谁让我受人恩惠了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "我们去星塔，菲金首席。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "我会让你看到，你在我身上投资的价值。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:00",
+   "date": "雨月 2日",
+   "place": "埃摩七号星塔 八十八层"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "大师，这......这就是你说的新技术？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "是的，请看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "把一百个许愿箱用特殊魔法连接起来，不管是多大的神器，也能许愿出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "也就是说，即便是超出一个许愿箱大小的部分，也会分解成100个部件，拿出再拼起来就完美了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "真是令人惊叹的技术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "因为这是必须实现的约定。况且初来埃摩，只有您相信我的魔法，并且愿意投资我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "我对自己看人的眼光还是有信心的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "大师，帮我许愿出一个足够厉害的神器吧，让我打赢这场战争。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "从今天开始，您就是白垩商会的副执行官，不，应该是共治执行官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "这件事……我恐怕做不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "因为这个特殊魔法也改变了许愿的规则。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "说白了，这个祈愿箱索求的并非是人类的\"记忆\"——而是用……沸腾翻滚的仇恨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "只要有足够的仇恨，就能许愿出足够大的神器，但我并没有值得憎恨的对象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "嘿嘿…… 啊哈哈哈！仇恨，正合我意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "我对那些人的仇恨，还有对埃摩的仇恨，简直都快溢出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "恩赐之神，请倾听我的仇恨吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "请赐予我， 能战胜那些野人的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

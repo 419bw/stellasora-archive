@@ -1,0 +1,955 @@
+{
+ "heading": "# 10 暂停",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`915`　**编号**：`10`",
+  "- **关卡名称**：暂停",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_13`",
+  "- **关卡描述**：终于有机会，好好喘一口气。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "贝修丽娜和菈露已被奥尔贝德派去了解安琪的动向。\n另一方面，你与空白旅团也在雏菊孤儿院终于暂且安顿下来，\n你给菲莱的伙伴们报了平安，也终于有机会与艾蕾聊上几句……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "贝修丽娜和菈露已被奥尔贝德派去了解安琪的动向。\n另一方面，你与空白旅团也在雏菊孤儿院终于暂且安顿下来，\n你给菲莱的伙伴们报了平安，也终于有机会与艾蕾聊上几句……",
+  "episode": "第十话",
+  "title": "暂停"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "02:00",
+   "date": "雾月 08日",
+   "place": "埃摩金城区 秘密监狱"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊呜—— 好困， 贝修莉娜，要来点薯条吗？我特意选的咖啡味道的。说不定能稍微清醒点哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "好，我也有点困了，姆咕姆咕…… 薯条都绵掉了啊， 这可不像菈露前辈的风格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没办法，这破地牢里实在太潮了，我从薯条店端到这里就这样了， 啊，连脆脆的薯条都吃不了，好烦—— 我们还要在这里待多久啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "请冷静一点，菈露前辈。别忘了奥尔贝德大人给我们的任务，耐心点吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "贝修莉娜，菈露，安琪的行动要失败了，你们跟着安琪的人撤走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "抱歉，即便是奥尔贝德大人的命令，如果内容是暗杀魔<r=BOSS></r>王的话，恕我无法接受。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我也不接受啊。 啊，不过事先声明一下， 我可不是因为想偷懒才这样说的哦？本来我也不相信《恩赐预言书》和世界毁灭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "别急着下定论，先听听我的安排再说吧。 让你们前去是为了探查安琪阵营的内部情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "现在安琪急于杀死魔<r=BOSS></r>王，为了哪怕能提高一点点成功率，肯定需要了解魔<r=BOSS></r>王的人，你们正好合适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "只要表现出“我也想拯救世界，也想杀魔<r=mowang></r>王”的态度，被选中的可能性非常高。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "原来是让我们去当内鬼，嗯……好吧。 但这算出外勤加班， 要给我加班补贴哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "如果， 你们回来时我还是你们的上司的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "这说法有点意味深长啊…… 您有什么顾虑吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "天空院的理事长谋杀未遂， 我作为天空院职位仅次于安琪的人，必须给个交代。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "所以这一次，为了履行对这件事的解释责任，我必须试着阻拦安琪，并且亲自前往魔王协议才行…… 但对方想必对我恨之入骨吧。 到时候会怎么对待我呢，唉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "放心吧奥尔贝德~ 到时候你的骨头我会负责捡回来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "菈露！ 你怎么一副开心的样子啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "到目前为止的一~ 切都是按照奥尔贝德的预想发展的对吧。 说起来，我们这个委员会现在是不是成了异端组织了啊。 心情还真是有点复杂呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "对，虽然黄昏裁判还没正式追捕我们，但在恩赐意志的口径中，我们已经是应该上火刑架的人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "火刑啊…… 我身体百分之九十都是由薯条构成的，要被烤成“人条”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "菈露前辈肯定会看起来很酥脆，散发出一种马铃薯被油炸过后，特有的甘甜又绵密的香气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那味道应该还不错…… 不对！ 我也没法吃自己啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "还是说正事吧，我调查到了有用的情报哦。 安琪把采购日常用品和零食的工作交给了我，通过采购的数量，大概能推算出安琪现在召集了多少人了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "三十人左右的黎明近卫和帝国卫队，十五人左右的黄昏裁判， 还有几十名旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "好准确， 这也能推算出来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯，黎明近卫和帝国卫队保养武器盔甲有专门牌子的油，黄昏裁判需要一种特殊的蜡烛供她们祈祷， 其他人就是每日消耗的物资确定的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "前辈好厉害，我这边也有收获呢。 安琪不是让我盯着“那个人”每天通过绯瞳传讯发的影像， 看看有没有什么线索么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊， 你说魔<r=BOSS></r>王啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "菈露前辈又说漏嘴了， 我们要说魔<r=mowang></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "抱歉，抱歉，是魔<r=mowang></r>王， 幸好没被别人听到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "我的收获就是，前辈你看这一段——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "雾月7日的这场雨预计会持续到明、后两天，气温会持续下降， 有出行计划的观众请带好雨具和做好保暖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这怎么了？不就是每天拿着报纸去做天气预报么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "但是魔<r=mowang></r>王可未必是那个魔<r=mowang></r>王哦， 你看你的眼神总是不经意地瞟向桌子上的夏洛克玩偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "我知道的你可没有这样的习惯，说不定，屏幕上的那位已经不是真正的你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎？？？换人了？是逃走了么？还是隐藏在某个地方准备反击？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "我想是去找自己不是魔<r=mowang></r>王的证据了， 奥尔贝德已经公布了，会在这个月底的诺瓦工商业联合大会上让大家来判断魔王到底是不是魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "如果能平安撑到那个时候，在大会上确认魔王不是魔<r=mowang></r>王， 拯救委员会就算能量再大，绝大多数诺瓦人也不会相信他们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "关键在于，影像里这点纰漏会不会被安琪发现呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "还好，安琪肯定没时间细细地看这些影像，我当然也不会把这个线索告诉她， 在剩下的这半个月里，就让她盲目地去对付菲莱的假魔<r=mowang></r>王吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "奥尔贝德大人在那里坐镇，委员会只靠现在聚集的这点人可攻不进去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嘘， 有人来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的委员会成员",
+   "text": "贝修莉娜，安琪大人有新的命令……哦，菈露你也在啊，那就一起听吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的委员会成员",
+   "text": "现令所有委员会成员立即销毁现存无法随身携带之文件资料与物资。 限本日十二时整前撤离埃摩，自行依图向目标城邦转移。 此项转移须于一周内完成。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "收到，明白。我们的目标城邦是…… 竟然是这里吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "（魔王，可爱的我如今只能这样祈祷了…… 你现在还好吗？ 千万要安安全全地，找到证明自己不是魔<r=mowang></r>王的证据啊。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:15",
+   "date": "雾月 08日",
+   "place": "米拉什 主街"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我现在还好，不用担心我，夏花。我们已经到了米拉什，尘沙她们还意外遇到了找了很久的艾蕾阿姨和孤儿院的孩子们，一切都很顺利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "哎，那么巧吗？ 太好了。 我们这边也一切顺利，小禾的扮演很完美呢，到现在似乎也没有引起怀疑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "倒不如说， 明明伪装得这么完美，夏花和千都世却还能看出不同，她们才更奇怪呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，奥尔贝德派来一些信得过的护卫，由妾身临时指挥她们， 小禾大人的安全请主公放心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就好，请大家再等一等， 我一定会找到自己真正的身份，解决一切麻烦，堂堂正正地和你们重聚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们会等你回来的，不过…… 魔<r=BOSS></r>王， 最近一段时间请不要主动联系我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你现在成了诺瓦的大名人， 一大堆绯瞳传讯的魔女跟着我们，每天拍个不停。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "只拍照片或许还能应付， 但万一你突然和我们联络，有可能被录音， 这个计划不就全盘皆输了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "那该怪谁…… 还不是有人前一阵子早中晚都要抱着手机和魔<r=BOSS></r>王聊个不停。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "什……？！ 那个，小禾你在乱说什么，我才没有——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "哎呀~？ 夏花，你这样生气可以吗？ 声音会被魔<r=BOSS></r>王听到哦~？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "今， 今天的联络就到这里了， 你多注意安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们也是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，小禾她们还是老样子…… 或者说，看到她们什么都没变，我也就安心了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "米拉什早上的阳光真舒服啊，今天似乎又是美好的一天……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙她们昨天到底聊到多晚，平时这个时间，鸢尾早就起床了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "昨晚，艾蕾和空白旅团仿佛有聊不完的话。 艾蕾和孤儿院那边的情况，和翡冷翠所说的互相映照，拼出了孤儿院消失的真相—— 联合种业的确去调查了孤儿院，艾蕾也的确察觉到有人盯着自己。 只是……还有一个翡冷翠也不知道的事实： 据说当时还不止联合种业一伙人，而是至少有三四方势力。 那些人想要的，大概是灰城孤儿院地下室里的“宝物”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不过虽说是“宝物”，地下室存放的东西其实五花八门，比如…… 幸运绿洲号上两个关键的神器——方向盘和动力机是从地下室里找到的。 琥珀那身酷似白猫制服的衣服和稀有的魔法手枪是从地下室找到的。 翡冷翠去晚了，还从地下室里找到了一枚神奇的指南针和茶色夜莺的菜谱。 不过，艾蕾对这些别的公司觊觎的“宝物”并无兴趣，也不知道这些“宝物”从何而来， 她觉得只要孩子们安全，这些杂物怎么样都无所谓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，在那个夜里，艾蕾带着孩子们毫无留恋地离开了埃摩。 ……当我说明小雨的情况时，艾蕾露出了安心的表情。 艾蕾当时并没有明确的目的地，只是在一张地图上看到“世界尽头”这几个字， 觉得这种地方应该足够遥远，于是在一段漫长的旅途之后，他们来到了米拉什。 因为这间房子的周围长满了好看的沙漠雏菊， 孤儿院的名字也从“灰城孤儿院”变成了“雏菊孤儿院”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们一路上辛苦奔波了这么久…… 更重要的是，难得有这种“只属于她们”的时光。就让她们多睡会吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "魔王，早上好，你起的真早啊。 啊…… 该不会是没睡好吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有，床铺很软，被褥有雏菊的香味，睡得好极了，感谢招待，艾蕾 … …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，等一下， 这里需要谨慎使用称呼……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "我应该怎么叫她最好？",
+   "options": [
+    [
+     "就叫本名，不加多余的修饰。",
+     "",
+     ""
+    ],
+    [
+     "我是空白旅团的成员，自然要用一样的称呼。",
+     "",
+     ""
+    ],
+    [
+     "妈妈！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "就叫本名，不加多余的修饰。"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我不是孤儿院的孩子，还是正常称呼就好了， 这样应该最坦率。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……感谢招待，艾蕾。 也让我帮孤儿院做点事吧， 总不能在这里晒太阳当闲人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "艾蕾… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……呃？ 考虑到分寸，试着直接叫名字了…… 不合适吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "没什么，挺合适的， 我喜欢这样坦率地称呼， 请叫我艾蕾就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "我是空白旅团的成员，自然要用一样的称呼。"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管怎么说， 和尘沙鸢尾琥珀叫一样的称呼是最稳妥的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……感谢招待， 艾蕾阿姨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "哎呀，懂得好好道谢真是乖孩子呢。呵呵，乖~乖~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇？！ 突，突然干什么……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊，真是的，瞧我这习惯…… 呵呵。对不起哦， 一不小心就用了平时的动作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不过，你不用特意改口， 直接称呼我的名字就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "妈妈！"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "妈妈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你，你刚才说什么…… ?",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……感谢招待，艾蕾妈妈！ 从今天开始，我也是雏菊孤儿院的孩子了， 你就是我的妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "哎呀，你这孩子可真会说话， 真是个好孩子。 我那三个孩子要是都有你这样的情商就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔…… 这是多么惊人的臂力……？！ 要喘不过气来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊，抱歉，抱歉， 没事吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那群孩子现在害羞起来了，都不肯叫我“妈妈”了。 能被和她们年纪差不多的你叫“妈妈”，一时激动就抱得太紧了。呵呵……~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，吓了一跳…… 因为经历了各种事情，我失忆了， 我记不得自己的父母是谁，也不知道自己的家在哪里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是从刚才的拥抱中，我算是感受到了一种…… 母爱的味道吧。 一点儿也不觉得讨厌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "是吗，记忆…… 这样的话，以后在外人面前叫我名字就好，两个人独处的时候，就别客气，叫我“妈妈”吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙她们知道了，肯定会大吃一惊吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，那重新问候一下—— 艾蕾，早安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了，你不困吗？你昨天睡得应该比我晚得多吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "稍微有那么一点点呢，但只有一点点，其实我六点就起来了呢。 早餐已经准备好了，魔王要不要尝尝我的厨艺呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那，那么早？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "作为孤儿院的妈妈，我已经习惯了这个时间起床了。接下来的日子里，你们就安心在这里住一段时间，好好休息一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感谢你的好意，但我们还要去找沙漠星塔， 这关系着我的真实身份，很重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "嗯，这次旅行的目的，我昨天听说了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "但在我看来，你和她们都太拼命了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你有淡淡的黑眼圈， 尘沙昨晚睡觉都没滚来滚去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "说好要帮忙准备早餐的鸢尾也没起来， 琥珀竟然没爬房梁， 就蜷缩在地上睡着了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "而且，你是那三个孩子的朋友， 对我来说也就和我的孩子一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "所以，沙漠中消失的星塔，我会帮你找到线索的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？可是我们在沙漠里找了几天都没找到…….沙蝎还说米拉什有什么星塔消失的传说……你打算怎么调查？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "落日沙漠很大，你们盲目乱找只会累垮自己。首先，尽量多召集一些人帮忙吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里本来居民就很少，应该没那么容易召集到人手吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "别看我只是孤儿院的妈妈，其实，我在米拉什还是有一点人脉的，调查这方面就看我的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你们就好好休息，恢复身体，要不然，就算发现了星塔，你们也没有爬塔的力气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，在这令人安心又充满力量的母爱包围下—— 我、尘沙、鸢尾、琥珀，自我醒来之后，第一次获得了完整的休息时间。 就好像，我们忙碌的生活被突然按下了暂停键。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

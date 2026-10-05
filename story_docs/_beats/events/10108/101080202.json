@@ -1,0 +1,1084 @@
+{
+ "heading": "# 02 天才工匠的下落",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：心跳！柔光狂想曲（活动编号 10108）",
+  "- **关卡 ID**：`101080202`",
+  "- **AVG 剧本**：`STev_08_02`",
+  "- **关卡描述**：你们根据线索来到菲莱，得知斯帕克拉竟然在一个意料之外的地方。"
+ ],
+ "recap": "根据薇洛的建议，你们来到了菲莱的地下市场，那里正准备开展一场技术大会。从汇集于此的旅人口中得知，斯帕克拉现在人在监狱。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "根据薇洛的建议，你们来到了菲莱的地下市场，那里正准备开展一场技术大会。从汇集于此的旅人口中得知，斯帕克拉现在人在监狱。",
+  "episode": "第二话",
+  "title": "天才工匠的下落"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "地下市场？柔光会社？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "市面上流通的这些柔光溶液和柔光设备，全都是我们柔光会社的人在制造、销售的哟～ 拿斯帕克拉和我来说，就是她负责做，我负责卖♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "因为柔光相关的生意没法在明面上做，所以就在地下市场里跟旅人偷偷摸摸地交易啦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们不担心被帝国卫队依法取缔吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哦呵呵，我们又不是什么恶贯满盈的反派组织， 大家只是搞搞发明，做点小生意而已。 就算撞见帝国卫队，只要逃掉就没问题啦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这意思不还是会被帝国卫队盯上吗？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎呀，没事啦， 现在的帝国卫队只会照章办事，用柔光的人那么多，一个个去抓，哪儿抓的过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "只要别在他们眼皮子底下明目张胆地用，就没有任何问题！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "不过，薇洛老板提到的另一点倒是让我有些在意……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你是指那群柔光会社的工匠？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "对对。 据我所知，这些人要不是遇到什么天大的事，是绝对不会主动抛头露面的～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "如果传言是真的，大概也只能是为了“那件事”吧， 但我这边并没有收到消息啊～ 总之只能去菲莱探探情况了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那我们就在菲莱会合吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "旅人和柔光工匠齐聚一堂…… 遍地商机的味道~看来朵拉正在向我招手呢， 呼呼呼~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……你没忘记我们的目的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "啊，对对！ 找斯帕克拉！！ 放心，我没有忘啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两天后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还没进城，这一路上遇到的旅人就已经比营地里的还多了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且还有一些——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "背着一大箱工具和奇怪设备的家伙……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "布洛可，那群人难道就是你说的柔光工匠？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……布洛可？ 布洛可？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "欢迎光临～慢慢看哦～总有一款适合您~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "当然，实在拿不准的话布洛可也可以为您推荐，哦呵呵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "啊，啊啊……老、老板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "我、我真的也有在收集情报的啦！摆摊说到底也是为了调研！ 况且你看这送上门的朵拉…… 不要白不要嘛啊哈哈哈~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "总、总之！我已经打听到有用的情报了！ 跟我来，老板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "下注的旅人",
+   "text": "我押莱欧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的旅人",
+   "text": "她就是这次技术大会的大热门？那我也押她！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "其他参赛者怎么样？感觉赔率都很高啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好热闹……这是在干什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "这正是让那些柔光工匠们齐聚一堂的原因—— “技术大会”！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "通常情况下，柔光会社的人分散在诺瓦各个地方。尤其是那群工匠，巴不得天天待在自己工坊里搞发明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "但如果有人开发出了新技术，或者做出了极其厉害的发明， 这种时候大家就会聚在一起交流情报，切磋技艺。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "——这就是所谓的“技术大会”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这大会是柔光会社内部的活动吧，怎么还有那么多旅人跑来下注？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎呀～平时都只是工匠们之间的小聚会，应该不会搞得这么张扬还带竞猜的~至于变成这样的原因嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这件事啊，在魔<r=BOSS></r>王你们到达之前，我都已经调查清楚了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "薇洛老板，您也到啦？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "甚至已经调查到了新的情报…… 不愧是埃摩协会之家的一把手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "哎呀，哪里哪里~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……咳咳。 据我调查，这次的技术大会与以往不同， 似乎有位大投资人准备了高额的奖金，将工匠们召集了起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这位投资人的目的，据说是想开发一款能够适应荒野生存的机关人，所以邀请了许多这一领域的杰出工匠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "此外，大会还设立了竞猜环节，所以即使是对柔光会社产品不感兴趣的旅人，也都开始关注了起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "魔<r=BOSS></r>王应该猜到了吧？ 那个竞猜名单上就有斯帕克拉小姐的名字，可以确定她也是受邀人士。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那等到大会开始，就能见到斯帕克拉了吧？ 既然如此，委托也算是顺利解决了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "好像是这样呢～如果见到了斯帕克拉，我会把老板介绍给她的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎呀～既然委托已经告一段落了！接下来就该去大赚一笔…… 不对，还得去支持一下我的好朋友斯帕克拉才行～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板、薇洛老板，回头见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那边的小哥！我也要下注！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "要押的当然是技术最好的工匠！全梭哈给斯帕克拉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "这满满一袋子的朵拉，还有…… 五枚柔光币！统统押上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "负责人",
+   "text": "这位小姐，你确定吗？ 买定离手，一旦下注可就不能反悔了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那还用说！她可是斯帕克拉哦？ 赢面几乎是板上钉钉的，我连赔率都不用看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的旅人",
+   "text": "哇，真有魄力，居然有人敢押赔率最高的那位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哼哼哼~…… 欸？你刚刚说什么？最高？ 这、这怎么可能嘛～？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的旅人",
+   "text": "什么？你没听说吗？ 刚刚得到的消息——斯帕克拉那家伙，被帝国卫队抓了，参加不了大会啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那家伙、 在搞什么鬼啊啊啊啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾、琥珀，魔<r=BOSS></r>王好像已经打听到斯帕克拉的消息了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "太好了，我们赶紧去汇合吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "咦？ 这座石像……感觉有些眼熟…… 欸，布洛可？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "完了……全完了啊…… 老板，救救我！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "欸欸欸？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "斯帕克拉小姐，被帝国卫队关进监狱了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你之前不是说帝国卫队懒得管这事儿吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎呀……我也是第一次遇到这种事嘛…… 刚才，我可是把所有身家都押在斯帕克拉身上了……全部身家啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "要是斯帕克拉两天后没办法参加大会，那我辛辛苦苦攒的朵拉，就全、 部、 打水漂啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板，行行好…… 帮帮我吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个嘛，愿赌服输，下注这事应该算是布洛可你的个人责任吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "我可以追加委托费！ 只要斯帕克拉能出场，大会的第一名就非她莫属。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那这样吧…… 赢下的钱我们可以对半分！！ 就算是一半，那也绝对是一笔巨款哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我确认过了，奖金确实很丰厚。说实话，连我都有些动心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……明白了，那我们就尽力试试吧。 事不宜迟，避免动静过大， 就由尘沙、 布洛可和我，三人潜入。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其他人留在灰城区待命，等我的联络吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "了解！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王、布洛可，碍事的家伙都已经解决了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "朵拉的力量真伟大。尘沙的动作，比平时生猛多了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "脑子一热还真的潜入进来了…… 但仔细想想，我们好像有点太胡来了，应该没问题……吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "这间没有…… 这间也没有…… 斯帕克拉，你究竟在哪儿啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘘！安静点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "什么东西？！要干掉吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "等等！你是……兔子派对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兔子派",
+   "text": "：] 正确，布洛可，你好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呼……还好尘沙小姐多问了一句。 要是兔子派受伤了，可就麻烦大了～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "斯帕克拉可宝贝它了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇， 做工好精致，摸起来软乎乎的！ 这只兔子真可爱~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "给老板们正式介绍一下—— 这是斯帕克拉特制的可爱机关管家，兔子派哟～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "兔子派在这里的话，证明斯帕克拉肯定就在附近～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "而且兔子派还能回答一些简单的问题，比如，我来示范一下—— 兔子派，告诉我们你的主人在哪里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兔子派",
+   "text": "：] 好。请跟我来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哦哦～，好乖的小兔兔♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "想不到连这样的机关兔都能造出来，也难怪布洛可会说她稳拿第一了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "怎么了，兔子派？有客人来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兔子派",
+   "text": "：p 正确，已识别为布洛可，以及，两名不明人士。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兔子派",
+   "text": "准备，泡茶。 预计耗时，三分钟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "兔子派真是个乖孩子～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "布洛可，喝茶前要不要吃个苹果？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "嗯，吃吃吃～♪ 嚼嚼…… 哇，这苹果超级甜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "等等等下！斯帕克拉，现在是悠闲吃苹果的时候吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "那你要看这个制作到一半的小狗吗？监狱里材料有限，目前只做了这个身体——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "不对啦！小狗什么时候都能看啦！ 现在要去参加技术大会！ 走啦，我们一起去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "你知不知道，我把自己的全部身家，还有足足五枚柔光币，都押在你身上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "哇，原来你对我这么有信心啊。谢谢啦～♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "不用谢，知道了就快点走吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "但是我不会去哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "欸欸欸？！为什么？！不去可不行啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "自从收到那个大会的邀请函，每天都有工匠寄挑战书过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "人太多了，我挨个拉黑都来不及。 他们还会趁着移动工坊停下维护的时候，直接找上门来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "我实在是烦透了，所以就跑到心相商店，当着店员的面露出了手机上的柔光管。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "果然，她们立刻通知了帝国卫队，把我带到这个酒<r=牢房></r>店里来了。 这里多僻静啊，简直棒极了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那你是……铁了心……要拒绝我吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "嗯，是啊。 我就是为了清静才进来的，怎么可能自己主动跑出去嘛？ 而且布洛可，你还在我的黑名单里呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兔子派",
+   "text": "：] 茶，备好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "谢谢你，兔子派~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯~~好香。兔子派泡茶的手艺很不错嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "布洛可这次带来的客人还挺有眼光，那我就让兔子派再——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "等一下！？！ 你、你怎么会…… 怎么会有这么可爱的长相啊～～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "呵呵～♪ 啊，终于……终于让我遇到了！ 能唤醒我灵感的…… 心目中的理想脸庞！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "欸？那个……理想的脸庞？是在说我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "当然了！ 啊，真的好可爱…… 兴奋得都要流鼻血了……♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "……布洛可，你说你在我身上押了五枚柔光币？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "对！五枚！足足押了五枚啊～！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "看在你给我带来新灵感的份上，我就同意跟你做交易吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "我可以把你拉出黑名单，然后去参加那个什么大会。 等你赢回奖金后，那五枚柔光币要全给我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "可以可以，当然没问题！ 别说五枚了，十枚我也愿意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "呵呵，那些柔光币…… 要全部用在这位可爱的你为我带来的新灵感上~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "兔子派，收拾一下，准备好了我们马上就走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兔子派",
+   "text": "：] 收到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "她怎么突然改主意了？ 可爱脸庞？新的灵感？完全搞不懂…… 老板您到底做了什么呀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我？我什么也没做啊？！ 难道这也是所谓的“天才总归会有的怪癖”吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "总之肯定是好事一桩啦！ 监狱的卫兵们在来的路上都解决了，但接下来可能会有追兵，大家要跟紧我哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

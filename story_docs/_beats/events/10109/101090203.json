@@ -1,0 +1,772 @@
+{
+ "heading": "# 03 千塔演出……黑暗之力的显现",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：枪林弹雨覆黄沙（活动编号 10109）",
+  "- **关卡 ID**：`101090203`",
+  "- **AVG 剧本**：`STev_09_03`",
+  "- **关卡描述**：猫眼继续说起了在千塔的经历……"
+ ],
+ "recap": "在千塔时，卡西米拉曾将一件任务完完整整的交给了猫眼，但这个任务并不是猫眼理想中的版本。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在千塔时，卡西米拉曾将一件任务完完整整的交给了猫眼，但这个任务并不是猫眼理想中的版本。",
+  "episode": "第三话",
+  "title": "千塔演出……黑暗之力的显现"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "吾！ 在此以上古喵喵之神的名义降下制裁！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "红月临空， 血之门扉开启， 与喵神为敌之人将堕入诅咒的深渊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "魔神之眼—— 解·禁！ 烧毁一切吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "配合演出的队员",
+   "text": "呜啊— —！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "吵闹的孩子",
+   "text": "加油啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "激动的孩子",
+   "text": "打倒他——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "配合演出的队员",
+   "text": "可恶！ 吃我这招！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就凭这样的攻击，也想命中我猫眼大人？ 简直是痴心妄想！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就用这一招送你上路吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "让你见识一下真正的黑暗之力吧！ 呀啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "配合演出的队员",
+   "text": "哇啊啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼~这下知道我猫眼大人的厉害了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "吵闹的孩子",
+   "text": "好诶——！猫眼大人，好厉害——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不久之前——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "真是的，卡西米拉那家伙……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "灾变过后的星塔，肯定蕴含着大量黑暗之力！我必须要亲临现场才行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "结果尽把调查灰城区这种没意思的任务交给我！分明就是看不起我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "我觉得队长应该不是那个意思啦，毕竟这次情况特殊嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "薇洛姐做简报的时候，你不也在吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "情况大概就是这样，我们需要诸位帮忙检查各地是否还有溢出的星骸残余。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "尤其是灰城区，帝国卫队经常无暇顾及，请大家去的时候多加小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "另外，我们还需要另一队人马去调查灾变的星塔内部。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "只是，目前我们对里面的情况一无所知，所以这项委托极其危险。在投入的人员安排上，请务必慎重考虑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "所以说啊！正因为如此！才必须要！让我去！才对嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "星塔灾变可是百年难得一遇的事！鬼知道下次什么时候才会发生啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "调查灰城区这种事，什么时候都能做嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "再说了，我们这都转了不知道多少圈了，哪有什么星骸啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "可是，薇洛姐说了，这个委托非常危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "队长不让你去，肯定也有她的道理吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "况且，调查灰城区也是同样重要的工作，万一那里还有残留的星骸可就危险了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "但如果有猫眼大人在，一定能迅速的解决它们，给灰城区一个安宁吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼，那是当然！有猫眼大人在，就没什么好怕的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "就是就是~那我们就快点前进吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的孩子",
+   "text": "喂，你们几个！在这里干什么呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "是生面孔！快报告给满月姐！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "小孩子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "我们不是什么可疑的人，是白猫剧团，受委托来巡查是否有星骸遗留的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "剧团？那是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的孩子",
+   "text": "好像听密涅瓦姐姐提起过……就是演戏的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "那你们会演戏吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "你们手里拿着的枪，是演戏用的道具吗？ 好厉害……做得跟真的一模一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这把枪可是黑暗之力的象征！才不是什么道具呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "黑暗之力……？虽然不太懂是什么意思，但是听起来有点帅啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼，那是当然！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "能再多说几句吗？会不会还有咒语什么的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "既然你这么想听，那猫眼大人就勉为其难地给你们说几句吧……咳咳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "听好了，可悲的星骸们！吾名为猫眼大人！左眼寄宿着黑暗之力的弑神之人！魔眼，解禁——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "咳咳，猫眼， 我们还有任务在身……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "诶？！可是我还没有看够呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的孩子",
+   "text": "喂，密涅瓦姐姐说过，不能给其他人添麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "这几个孩子，明明年纪这么小，倒是挺懂事的…… 那个密涅瓦姐姐，是个什么样的人啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的孩子",
+   "text": "密涅瓦姐姐是当年保护了灰城区孤儿院的英雄！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "孤儿院……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼……原来如此，看来哪怕是在大都市中被命运抛弃的角落，也不乏会有英雄的出现……那我猫眼大人岂能就此缺席？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "……好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "既然汝等如此渴望猫眼大人的演出——那就让你们见识一下真正的黑暗剧场吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "诶？什、什么？我们还在执行任务……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "废话少说！直接开始吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "啊……啊？好吧……好吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "真是一次愉快的组队呢，很难想象您才开始做旅人不到一年。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "灰城区有你这样的旅人，以后应该不需要我们太过担心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哈哈哈，过奖了，我还差得远呢，还得多向你们这些老资历的旅人多学习学习。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "激动的孩子",
+   "text": "打倒他——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "配合演出的队员",
+   "text": "可恶！吃我这招！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就凭这样的攻击，也想命中我猫眼大人？简直是痴心妄想！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这个声音是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就用这一招送你上路吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "让你见识一下真正的黑暗之力吧！ 呀啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "配合演出的队员",
+   "text": "哇啊啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼~这下知道我猫眼大人的厉害了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "吵闹的孩子",
+   "text": "太棒了——！猫眼大人，好厉害——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的孩子",
+   "text": "哇——！原来戏剧这么有意思呀！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的孩子",
+   "text": "太帅了！好厉害的表演！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼，那是当然的啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，确实是一场非常精彩的表演。 不仅完成了委托，连特别公演也饱受好评呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "卡西米拉？!",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这是你的同伴吗？表演的相当不错呢，连我都在不知不觉间看进去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "激动的孩子",
+   "text": "密涅瓦姐姐！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "你是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我是密涅瓦。灰风俱乐部的负责人，现在嘛…… 也在兼职做旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "密涅瓦碰巧也接了星塔探索的委托，所以我们就认识了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼——…… 不对！！先不说这个！卡西米拉！把这么无聊的任务推给我，究竟是什么意思？什么溢出的星骸我是一个都没看见啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哦哦，这个啊。这附近的星骸，早就被我和魔<r=BOSS></r>王你们清理干净了。 你们这个委托，应该是地理协会为了以防万一再扫个尾而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "诶？原来是这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不过确实要感谢你给灰城区的这些孩子们表演了这么一出好戏，我们平时可见不到这么稀罕的事物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哦——不，不用谢……只要他们看得开心，也算是不虚此行了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "差不多该跟大家会合了。我们走吧，猫眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这就要走了吗？下次再过来的话请务必让我好好答谢你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的孩子",
+   "text": "下次还要来哦，猫眼姐姐！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的孩子",
+   "text": "最后再给我们展示一下那个帅气的招式吧！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼~当然没问题！ 等到诸位同胞们心中盈满黑暗之力之时…… 吾等便会再度现身！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "有缘再会了，同胞们啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

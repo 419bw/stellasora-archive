@@ -1,0 +1,596 @@
+{
+ "heading": "# 卫队之魂，骑士之心 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#06《卫队之魂，骑士之心》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`100602`",
+  "- **AVG 剧本**：`STsp_06_02`"
+ ],
+ "recap": "邪恶之徒的出现，打破了现场的平静。面对邪恶，正义该何去何从？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "邪恶之徒的出现，打破了现场的平静。面对邪恶，正义该何去何从？",
+  "episode": "第二话",
+  "title": "卫队之魂，骑士之心 其二"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "所有人都就位了吗？ 下一幕，三、二、一，开拍！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "帝国卫队的誓言，不是一句口号，而是我心中的光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们是卫队骑士，是帝国的守护者，亦是正义的践行者！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "无论前方是什么，我都不会退缩——因为我是帝国卫队的一员！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "停！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "好好好，非常好！表情生动自然，台词情感丰富！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "就是你说的这台词怎么和剧本上写的不太一样呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "啊哈哈……我觉得这样更能体现出我们卫队的精神，所以加了一点自己的理解……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "也行，反正都差不多，这条直接过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "好了，先休息个十分钟，待会儿继续！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "状态不错啊，刚刚几条都过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "多亏了魔<r=BOSS></r>王的建议~我心里想着蒙面骑士，台词就自然而然地冒出来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你本身就有很强的信念，我只是帮你把想法更清晰地表达出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不过…… 虽然能说好台词了，我还是觉得缺了点什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "是吗？我倒觉得刚刚那几段已经挺好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不，不是说台词有什么问题，就是觉得怪怪的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也有这种感觉。虽然台词表现力好了很多，但只是让缇莉娅一个人站在那念台词的话，还是显得有些尴尬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要是能有个角色和缇莉娅演对手戏就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "对哦！《蒙面骑士》里，蒙面骑士也总是在和坏人战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我这就去问问，能不能加一点这样的剧情~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "不行，剧本上根本没写这种剧情，而且我上哪去给你找个人来演坏人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "别琢磨这些有的没的，休息好了我们赶紧继续拍，今天一定要全部拍完。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "是，我知道了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "休息时间结束后，拍摄继续进行。 这时，不远处突然传出一阵喧闹声。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的路人",
+   "text": "手机！我的手机被抢了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊慌的路人",
+   "text": "有、有人抢劫！朝那边去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "不想被撞死就快滚，别挡老子的路！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "循声看去，一个人高马大的男人，正骑着重型两轮神器车气势汹汹地冲了过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "飞车劫匪？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "咦？那个劫匪，应该不是事先安排好的吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "哇！导演好厉害，这么快就拉来演员了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "啊？我、我没安排这事啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "导演，他演得好好啊，一看就凶神恶煞的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "这里怎么还有台专业留影机？ 嘿嘿，这玩意可值不少朵拉，老子要发了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对，这是真的劫匪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "闪开闪开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王，小心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "啧，坏老子的好事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "失手的劫匪骂骂咧咧，迅速离去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "没事吧？！有没有摔着！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没事，还好有缇莉娅——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "这留影机可是我们花大价钱租来的，要是磕了碰了，我这个月奖金都会泡汤的！快让我看看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来是在担心留影机啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "围观的路人",
+   "text": "这是这个月第几次了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不满的路人",
+   "text": "谁知道呢，那个飞车劫匪专门盯着路人手里的神器抢，还弄出了好几起事故，根本没人管！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "围观的路人",
+   "text": "帝国卫队不就在那吗，他们会处理的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不满的路人",
+   "text": "得了吧！我敢打赌，帝国卫队才懒得管这事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "队长！我们应该追上去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "这个嘛…… 还是算了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "队长？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "多一事不如少一事。反正被抢的人也没来委托我们追回手机，你掺和进去干嘛？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "那个劫匪现在都跑得没影了，哪里追得上。别耽误时间了，现在最要紧的是拍完片子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不耐烦的骑士",
+   "text": "是啊，快点弄好快点交差。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "懒散的骑士",
+   "text": "我也不想费力不讨好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "但是…… 我是帝国卫队的一员，面对邪恶，我不能袖手旁观！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "如果连我们都不在乎骑士的荣誉，那谁来守护正义？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "这……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "就算没人委托…… 我也要去抓住那个劫匪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "队长，我要借用一下这辆神器车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "不行！绝对不行！这车是公司为了拍摄特地提供的道具，弄坏了我们可赔不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "缇莉娅，这边！我把骏鹰号推过来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "谢谢你，凯多克！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "缇莉娅！影响了拍摄的话，你要负全责！记过！写检讨！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "导演，您消消气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这可是个绝佳的好机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "你说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚刚那个劫匪想从我手上抢走留影机，虽然万幸留影机没事，但也无疑是对卫队财产的侵害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要是我们现在不管那个劫匪，到时候传出去，大家都说帝国卫队被人抢了东西，还不敢还手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别说改善民众印象了，简直是在败坏卫队的名声。到时候，恐怕就不只是写检讨这么简单的问题了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "你说得有道理……可拍摄的事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这件事就交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,714 @@
+{
+ "heading": "# 05 相似的闪光",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：闪耀的使者与圣夜的精灵（活动编号 20101）",
+  "- **关卡 ID**：`201010207`",
+  "- **AVG 剧本**：`STev_02_05`",
+  "- **关卡描述**：你们终于跟上了“精灵”传闻的脚步。"
+ ],
+ "recap": "在东一街的木匠家，你和菈露终于看到了照片——那是一个会微微发光的小女孩的身影。\n你意识到，她和眼前人似乎非常相像……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在东一街的木匠家，你和菈露终于看到了照片——那是一个会微微发光的小女孩的身影。\n你意识到，她和眼前人似乎非常相像……",
+  "episode": "第五话",
+  "title": "相似的闪光"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "她是…… 刚刚逃走的那个女孩吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "应该没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "喂——！小朋友——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎……怎么又跑掉了—— 还想问下她有没有收到礼物呢，是因为害羞么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "要是知道住址的话，至少还能送到她家里…… 不过灰城区的那群小朋友看上去也不像认识她的样子……算了不管啦先。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "倒也不用急，只要她在配送的名单上，就总能找到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯…… 我更想亲自交到她手上嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就，下次再遇到的话，我们稍微靠近点…… 至少先确保别吓到她？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "有道理，那现在就…… 我们赶紧把手头的任务完成吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "之后，我和菈露按照名单，继续配送着雪愿节的礼物……总算是找到了拿着“那本书”的木匠家的女孩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "雪愿节快乐——！ 我们是来送礼物的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "哇！谢谢你们！不好意思，我其实应该自己去拿的…… 都怪我身体有点弱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不用在意不用在意！ 您的笑容就是我们工作的最大动力！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嗯，谢谢姐姐！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇，你这，有好多书啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "因为身体的关系，我挺少出门的…… 所以这些书，都是朋友们借给我的！多亏了他们，我在家待着也一点也不无聊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哇，有这样的朋友真好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "对呀！刚才他们还拜托了一位信使给我送来了新的书—— “雪愿树精灵”的故事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哦哦，那本书现在还在你这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嗯，我刚开始看，但照片上的“雪愿树精灵”真的很可爱！闪闪发光的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这、这样啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "你们看——！就是这张照片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，她就是…… “雪愿树精灵”啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "你也相信一定有雪愿树精灵，对吧！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "我相信精灵确实存在。",
+     "",
+     ""
+    ],
+    [
+     "大概……不存在什么精灵吧？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "我相信精灵确实存在。"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "对吧对吧！我也觉得！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，而且，真正的“精灵”，一定比照片上的更可爱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊……！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嘿嘿，我也觉得！唉……好想和“精灵”做朋友，和她一起玩啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "到时候务必带上我一起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "大概……不存在什么精灵吧？"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "哎？肯定有的啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如此完美的“精灵”…… 怎么可能存在嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "完美！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "可是，明明有照片啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是因为这照片上的精灵……看着太完美了。所以才觉得现实里见到的话，反而会大失所望……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "梦之所以美，是因为梦中的景色总是难以触及……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嗯？你不想见到“精灵”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "差不多吧， 大人的想法，可是很复杂的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 2,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "总、总之，终于找到照片了呢！哎呀…… 真是太好了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "接下来……赶紧去送下一个礼物——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "等等！我还有事想问你们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "女孩叫住了我们，从书中抽出了一摞纸——上面涂满了稚嫩的笔迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "上面写的是......雪愿树精灵的各种线索？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嗯，大家都很想找到雪愿树精灵，所以把收集到的消息和思考时的疑惑都写在上面了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "比如说，她是个好精灵呢，还是坏精灵呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "她是不是会用魔法？……是哪种魔法呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "她住在雪愿树上吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "你们觉得呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呃……这个嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "我觉得她是个坏精灵！",
+     "",
+     ""
+    ],
+    [
+     "我觉得她是个好精灵！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "我觉得她是个坏精灵！"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她应该是个邪恶的精灵吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "为什么会这样猜呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然会实现人们的愿望，但是几乎从没有人见过…… 这说明，她很喜欢偷懒。与其说是“不会用魔法”，其实，是“不想用魔法”吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一个“喜欢偷懒”的精灵，是不是很邪恶呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "我觉得她是个好精灵！"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也觉得她是个善良的精灵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嗯……和我想的一样，你为什么会这样猜呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "照片里的她，灵动又可爱……散发着温柔的气质。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她微微发光的样子…… 是在为大家许愿吧，所以是个善良的精灵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 2,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "原来如此，我这就写下来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "咦？咦咦咦咦——！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "姐姐……你和那位“雪愿树精灵”…… 看起来有点像呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎！？有、有吗？也没有很像吧……可是那位“精灵”，不是小孩子吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "说的也有道理！精灵才不会变老呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "也不算多老吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "嗯嗯，这个我也要记下来……！ 见到了一个和精灵长得很像的姐姐……但精灵不会变老，所以她不是…… 写好啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这张照片能先借给我们吗？我们也想帮着找雪愿树精灵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "好啊！一定要找到啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢！那我们先走了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "木匠家的女孩",
+   "text": "拜拜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，照片到手了。菈露，我现在就把这张照片拍下来发给朋友们吧，应该马上就能找到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "别别别，千万别。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎…… 魔<r=mowang></r>王真是坏心眼啊…… 你早就猜到了吧？非要这么戏弄我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "照片上的那个所谓的“雪愿树精灵”...... 就是我啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

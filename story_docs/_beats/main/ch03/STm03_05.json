@@ -1,0 +1,951 @@
+{
+ "heading": "# 05 心理阴影",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第三章《我们的旅团》（星塔历 996 年）",
+  "- **关卡 ID**：`310`　**编号**：`05`",
+  "- **关卡名称**：心理阴影",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm03_05`",
+  "- **关卡描述**：恐惧来源于过去。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "冬香实力强劲，却无法与人配合。\n原来是过去的遭遇让她留下了心理阴影。\n冬香打算将灵魂先给你，而你则另有打算。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "冬香实力强劲，却无法与人配合。\n原来是过去的遭遇让她留下了心理阴影。\n冬香打算将灵魂先给你，而你则另有打算。",
+  "episode": "第五话",
+  "title": "心理阴影"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "10:30",
+   "date": "雨月 17日",
+   "place": "菲莱城外 森林深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呼…… 呼…… 结束了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这样就…… 全部搞定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哦！一个人就干掉了那么多魔物，真厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "辛苦了，冬香。请喝点茶，稍微休息一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "很麻利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嘿……嘿嘿…… 谢谢夸奖。我，我和前辈们还差得远。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冬香特训第一天，我们来到了比协会之家更深的森林深处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们一边讨伐小型魔物，一边确认她现在的实力……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "面对魔物，冬香并不怯场。她纤细的手臂中蕴含着和外形完全不符的力量，转眼间就将周围的魔物一扫而空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "冬香，你不能再这样下去了，这样下去只会拖前辈们的后腿，真的会变成没人要的孩子的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "奇怪，她有这样的实力，为什么那么不自信......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哦，前面来了个厉害的家伙，我来帮你，冬香。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好......我....... 我会加油的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我吸引住它了，冬香，看你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嘿，嘿……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，咦？！对不起，对不起！这么好的机会却打空了，实在对不起～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没关系没关系！打偏了也没事，冷静下来，下一次打中就好啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？出拳的动作变慢了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疯狂的魔物",
+   "text": "咕噜噜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "魔物歪了歪头，似乎认定冬香是更容易对付的敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "冬香，魔物向你过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好......呀啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冬香挥出一拳，但力度明显弱了不少，反而结结实实吃下了对方的冲撞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呀……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我来牵制它！琥珀，给它最后一击！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疯狂的魔物",
+   "text": "嗷——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "配合得漂亮！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "冬香，你没事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我.......我还好，对，对不起，我拖了大家的后腿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "没事的，偶尔发挥不好很正常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "不，不是偶尔，是经常，我一和人配合，就会变成这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实，刚才尘沙吸引魔物的时候，冬香的动作就有些迟钝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔......我吸引魔物的时候，你挥拳慢了是因为怕拳风波及到我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嗯，这个拳套砸到目标的时候会爆炸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔物向你冲来时，你挥拳的力气变小了，也是因为这个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嗯......过去，我犯过这样的错误。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "三个月前，某座星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "嘶——疼死我了。她这一拳下去，星骸是倒了，我们也倒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "现在是慢慢悠悠说这种话的时候吗？！你伤得好重，还站得起来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "我......我不行了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "那边那个白头发的新人！看看你干的好事！哪有把星骸向伙伴的方向打的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我不是故意的…… 我打的时候星骸后面没人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "还狡辩！都伤到人了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "对不对！对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "鞠躬道歉有什么用？拿来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "什.......什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "你被开除了，走之前把医药费、误工费、精神损失费、装备维修费全都留下，一共五百万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "开，开除......？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "五......五百万，我没有那么多钱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "可，可是让大家受伤确实是我的责任…… 虽然现在拿不出来，我会慢慢做委托来还，一定会还清的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "这还差不多，给你个忠告吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的旅人",
+   "text": "你这水平还是找个别的工作，别干旅人这行了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "雨月 17日",
+   "place": "菲莱城外 森林深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "事情就，就是这样...... 从那之后，我就只敢一个人做委托，身边有其他旅人就没办法好好挥拳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "行李什么的都拿去还债了，幸好小禾和枫前辈收留了我，让我不至于露宿街头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那支队伍...... 有问题吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "攀爬星塔时，要分出主攻手和支援人员的，主攻手不下命令，支援人员不能参与进攻，更不可能跑到主攻手的攻击范围里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "既然冬香你在攻击星骸，那就说明你当时是主攻手，那犯错的是乱跑的支援人员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不是，你的错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "当然不是冬香的错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "小禾前辈！你，你怎么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "你好歹也是花令旅团的旅人，我得过来看看，别让这个魔<r=BOSS></r>王把你的灵魂偷走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘿，你这个前辈不是挺可靠的吗？既然你知道那件事的内情，那就说说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "之前也和冬香解释过…… 她遇到的是一伙专门骗新人的坏旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "他们刻意引诱新人犯错，甚至没错也要弄出错来，然后就让新人赔钱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "还有这么坏的同行！那几个人现在哪？我去揭发他们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我也想知道他们在哪儿…… 最初组建讨伐队时，那帮家伙也想参加。但因为风评太差我们没要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不过，后来听说他们其实偷偷跟了上来，结果谁都没回来…… 就这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "一个月后，还想拿着钱还给他们的冬香找不到人，找到了旧协会之家，我们就这么认识了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这就是所谓的“恶有恶报”呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "所以，小冬香，你不用在乎那次“事故”的，那本来就是坏人为了骗你钱做的局，正常发挥你的实力就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我知道那都是骗我的，但是…… 我总是会想起那个人倒在地上的样子，我怕下一次出事就是真的了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "三个月前出事，一个月前遇到小禾和枫。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算下来，冬香带着伤人的愧疚和压力生活了两个月，现在，这件事已经成了她的心理阴影了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来不是简单聊一聊就能解决的事情，得好好想想应该怎么办。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "13:00",
+   "date": "雨月 17日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "请，请您认真告诉我，今天的那位魔<r=BOSS></r>王真的能解决我的心理问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "让大家特意陪着我这种人训练实在过意不去......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "放心吧，小冬香。那个人可是魔<r=BOSS></r>王，或者，我应该称呼你为魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "你的这点小问题，对你来说只是举手之劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "可，可是......你今天上午看完我的战斗后，表情很严肃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是不是我太差了，已经无药可救了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "如果你担心这个，那我教给你一个保底的办法吧，只要用这个办法，你就不用担心战斗中会伤到同伴了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "真，真的有这种方法吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "把灵魂交给魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "只要把身体的控制权交给别人，自己当个傀儡。这样的话…… 就算伤害到谁，也不是自己的责任了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "成为...... 魔<r=BOSS></r>王的傀儡，让魔<r=BOSS></r>王控制我的身体，这样我就不会，也不可能伤到大家了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我明白了，瑟拉娜小姐，谢谢您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "话虽这么说，但我得提醒你：当傀儡可不是什么好事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我明白，但只要能改掉这个缺点，就能和大家一起战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我想当旅人，我想和大家一起战斗，我不想继续一个人孤独地爬塔了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "这……抱歉，是我太自说自话了，我小看了小冬香的决心呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "既然你这么决定了，那就去做吧，我觉得...... 按照自己的想法行动就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "祝你成功，我会给你加油的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "19:30",
+   "date": "雨月 17日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "晚餐后，我本打算去找冬香，却感到一道不安的视线从沙发背后射来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香，是你吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是，是我，那那那那个……其实是想和魔<r=BOSS></r>王，稍微谈一谈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "正好，我也在找你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是，是吗？那请您先说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想到能解决你烦恼的方法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜，魔<r=BOSS></r>王，是要拿走我的灵魂了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "灵魂，你在说什么？那不在我的考虑范围内啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我给你想出的方案是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "要选哪个方案呢？",
+   "options": [
+    [
+     "心理按摩",
+     "既然是心病，还得从心中解。",
+     "E301"
+    ],
+    [
+     "适应力特训",
+     "正所谓“习惯成自然”，现在的你欠缺的正是合作的经验。",
+     "E302"
+    ],
+    [
+     "刺激疗法",
+     "“顽疾需用猛药”。关于你的情况，我得准备一些“特别”的手段。",
+     "E303"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "心理按摩"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在星塔里看到过一些舒缓心情的方法，让冬香试试吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要冬香放松下来，不再想着“伤到同伴”，她的问题就能解决了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "适应力特训"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "与其回避困难，不如面对困难。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "通过大量的训练让冬香适应和伙伴一起战斗就好。嗯......为了安全，我需要限制一下她的力量。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "刺激疗法"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没时间慢慢来了，对付一个心理阴影的办法就是塑造一个更大的心理阴影盖过去。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘿嘿，我想到了一个好办法！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  }
+ ]
+}

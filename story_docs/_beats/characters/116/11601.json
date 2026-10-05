@@ -1,0 +1,516 @@
+{
+ "heading": "# 非典型温室 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：岭川（角色编号 `116`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`11601`",
+  "- **AVG 剧本**：`CG_116_01`"
+ ],
+ "recap": "受邀前往岭川的温室，等一下……这真的可以被称为温室吗？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "受邀前往岭川的温室，等一下……这真的可以被称为温室吗？",
+  "episode": "第一话",
+  "title": "非典型温室 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "岭川？我到了，你在哪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她现在应该就在这间温室里。总之先进去看看吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这地方…… 怎么像迷宫一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且这里种的植物，看起来也和其他温室里的不太一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "倒是没看到什么奇怪的植物…… 都是一些普通的蔬菜啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "与其说是联合种业的温室，这其实就是个大菜园子吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "啊啊啊啊啊啊啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "抓住你了！今天一定要把你脱粒！ 做好觉悟吧，偷菜贼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等！是我啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "咦！魔<r=BOSS></r>王，对，对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈哈哈…… 没关系，谁都会有看走眼的时候。 总之你先把铲子收起来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "噢…… 好~真的对不起啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我刚刚在给苹果树疏枝，完全没注意已经到这个时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "魔<r=BOSS></r>王，你先在这里等我一会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "久等了！给你这份特制混合沙拉，算是赔礼道歉，补偿刚才误会你以及忘记时间的事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "是用我种的菜和水果做出来的，很新鲜很好吃的！快尝尝看吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦，哦……！ 那我就不客气了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "自从跟岭川熟悉了之后，每次见到她都会被塞一大堆东西……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "盛情难却。我在她热切的目光下，努力吃完了她分享的食物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不愧是魔<r=BOSS></r>王，吃得真香啊～ 喜欢吗？会不会不够？我再去给你拿一些吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "非常美味，我很喜欢。但不用再拿了，我已经很饱了……我们还是先聊聊委托的事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对了…… 委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那你跟我过来，要注意脚下哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个，岭川…… 这个温室…… 是不是有点不对劲啊……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "有吗？我觉得完全正常啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "啊！魔<r=BOSS></r>王，不要往那边去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？哇啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "差、差点就掉进去了， 这种地方居然有陷阱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "联合种业的温室里为什么会有这么多陷阱？是有人让你们设置的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "这些不是种业装的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "因为总有小偷来偷我的储备粮，甚至还破坏我的试验田。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "所以我在重要的区域做了一些防盗设施。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "然后…… 一不小心就装多了点~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也太多了吧！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "先不说这个了…… 到了，这边就是我的试验田。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我的委托，是关于我在这里种植的玉米的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "虽然播种的都是经审定的高产品种，但在田间产量表现上总会存在显著差异。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "魔<r=BOSS></r>王，可以帮我想想办法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔…… 虽然很想帮忙…… 可我不懂农活啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "可是在我心里，魔<r=BOSS></r>王是无所不能的！一定能帮我解决这个问题吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "被她用这种期待的眼神盯着，拒绝的话根本说不出口啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，那我们来梳理一下现状。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是说，明明选的都是高产种子，但是种出来的玉米产量总是有差异？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嗯，没错！不愧是魔<r=BOSS></r>王，理解得真快！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "提高产量的方法啊…… 仔细想想，之前在星塔里好像还真看过这方面的书，内容是什么来着……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像是“豌豆实验”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我根据模糊的印象，为岭川简要介绍了“豌豆试验”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嗯嗯，我懂了！ 也就是说，把高产品种进行杂交改良就行了对吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "顺便重新评估各品种在不同环境下的表现，确认肥料适配性…… 让效果最大化的话，一定能……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "魔<r=BOSS></r>王，你好厉害！这些建议简直像经验丰富的专家说出来的！对我帮助很大！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有、有这么夸张吗？ 不过能帮上忙就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我马上就按照你说的方法，种一批豌豆试试~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "豌豆？你不种玉米了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嗯。突然用玉米可能不太保险。 既然叫“豌豆实验”，就先用豌豆试试看吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "等到我掌握了这种育种方式，就推广到其他作物上面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "哎呀～这么快就要完成委托了啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "——那就这样！ 这些全—— 部都送给你吃！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦、哦……还是这么多啊…… 总之谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "满满一车的瓜果蔬菜啊…… 有这么多的话，短期内应该不用为食物发愁了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不够吃的话随时找我说，千万别客气喔~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈哈哈…… 再拿的话就带不回去了， 心意我领了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

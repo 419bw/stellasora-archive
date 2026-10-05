@@ -1,0 +1,1419 @@
+{
+ "heading": "# 09 相信的心",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第三章《我们的旅团》（星塔历 996 年）",
+  "- **关卡 ID**：`316`　**编号**：`09`",
+  "- **关卡名称**：相信的心",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm03_09`",
+  "- **关卡描述**：每个人的心中都藏着了不起的“魔法”。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "为了让冬香安心，你假装与她签订契约。\n魔物们来势汹汹，夏花在紧急关头出手相助。\n最后，是冬香挥出了通往胜利的一拳。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了让冬香安心，你假装与她签订契约。\n魔物们来势汹汹，夏花在紧急关头出手相助。\n最后，是冬香挥出了通往胜利的一拳。",
+  "episode": "第九话",
+  "title": "相信的心"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "12:30",
+   "date": "雨月 27日",
+   "place": "菲莱城外 森林深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "夏花站在高高的树冠上，眺望着东方的森林。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "有情况吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那边的森林太安静了， 有点不放心， 我去侦查一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "这种事交给侦查组就好了，我们讨伐组现在的任务是养精蓄锐。 为了随时应对突发情况，得保存体力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "等等…… 你能听到那么远的声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "风告诉我的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "哼～ 风啊？ 又能飞上天，又能听见远处的声音，还真是方便呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "既然队长要去我也不拦着， 不过别走太远哦，说不定什么时候就找到猛进之灵了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "嗯，我知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "你这个人…… 还是放不下啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "13:00",
+   "date": "雨月 27日",
+   "place": "菲莱城外 有脚印的空地"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我清点了附近的所有脚印",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_sneaky_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "特别大的脚印十六处",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "疑似猛进之灵",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "另外还有大量小一些的脚印",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "推测有三十……不，至少五十只假面野猪",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_awkward_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "小禾的资料上写，猛进之灵是一只特别巨大的假面野猪，可能是某个庞大野猪群的首领",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "脚印都很新鲜，说明它们这几天就在附近活动",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜，这个数量，我们真的处理得了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "emoji_awkward_d",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "一般来说是处理不了的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "所以讨伐队才需要那么多人",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "emoji_great_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不过嘛，只要善用魔物的习性就能以少胜多",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "假面野猪是一种喜欢单打独斗的魔物，会选择敌人中最厉害的攻击",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我们分散站位，被盯上的人拖住猛进之灵，其他人趁机解决其余的假面野猪",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "最后再合力攻击猛进之灵",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "emoji_pride_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家保持静默，雾语发现猛进之灵后，会把猛进之灵引到这里，由我来联络和指挥",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好嘞",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "明白",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "收到",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "111",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "了解",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "好——",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "嘿嘿，我们这样一动不动等着被当成目标，就像娃娃机里等待被选中的娃娃呢",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "emoji_sneaky_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "emoji_surprise_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "小禾，你说这种话，说不定被盯上的就是你哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "一语成谶",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_awkward_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "只是打个比方而已！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埋伏组已准备就绪。接下来就祈祷雾语能顺利完成任务吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "收起手机，我站在一处低矮的山崖上，和冬香一起俯瞰着预定的战场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "魔……魔<r=BOSS></r>王…… 这种时候—— 不， 就因为是这种时候…… 请请请拿走我的灵魂吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "突然间说什么呢？ 我虽然是魔<r=BOSS></r>王，但这只是魔王协议首席执行官的特殊称呼，不是传说里那个啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我听说， 只要进行“灵魂交易”，就能成为魔王契约的员工， 把灵魂交给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实。 但你是想加入魔王协议吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，不是…… 不是这个意思…… 如果签订契约就必须加入公司， 我我我也可以的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "但我不是想加入公司，我是想…… 把灵魂交给你保管，这样你就可以控制我的行动…… 我在保护你的时候，就不用担心出意外伤到你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她似乎有什么误解。 就算拿到了别人的灵魂，我也没办法控制对方的行动， 不，其实是什么都没办法做。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "控制你的行动？这事是谁告诉你的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "对，对不起， 我不能随便说出对方的名字， 但是…… 在这场战斗里我作为您的护卫，真的很害怕， 我不知道自己是不是一定能控制住自己的拳头……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我不觉得鸢尾她们会提起“灵魂交易”的事…… 能给冬香出这种主意的人肯定是瑟拉娜！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "战斗随时可能开始，要怎么安抚冬香呢？",
+   "options": [
+    [
+     "用气势说服对方",
+     "",
+     ""
+    ],
+    [
+     "用逻辑说服对方",
+     "",
+     ""
+    ],
+    [
+     "用魔王身份说服对方",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "用气势说服对方"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香，我相信你。 经过这么长时间的特训，你肯定没问题的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "真， 真的吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那你相信我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "相信！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好， 因为我相信你，你相信我， 所以你只要相信我对你的相信就可以了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "相信你…… 相信我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哼哼，这份气势肯定能把冬香说服吧！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，呃，那个…… 我…… 我，我，相信自己……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我我我我我，我不知道了， 魔<r=BOSS></r>王，你还是把我的灵魂拿走吧， 这样我就可以全心全意地相信灵魂在你的手里的自己了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这…… 想不明白所以完全放弃思考了么。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "用逻辑说服对方"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "先不说灵魂的事…… 冬香，和猛进之灵作战时需要特别注意什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "尽量不要从正面进攻这种魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "猛进之灵是和植物共生的魔物，遮脸的藤蔓能弹开大部分攻击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "还有……猛进之灵不似表面上那样莽撞，可能是三大魔物里最聪明的，侦察的讨伐队员好几个都遭到过偷袭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听起来毫无破绽……难道没有弱点吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "有哦。 面部的植物面罩虽然有很强的保护作用，但也限制了视野，从侧面和后面进攻效果更好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "而且猛进之灵在发动冲锋后会停下来重新观察敌人的方位。 那个毫无防备的瞬间是攻击的好时机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不是记得很清楚吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这…… 这都是小禾前辈写的，我只是记下来而已……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不止如此。冬香，你做了很多特训吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "但是，但是…… 我那都是一个人练习的，所以，还是不行…… 只有让你拿走灵魂这一个办法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "太强调逻辑，反而意识到自己没有和人合练过么……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "用魔王身份说服对方"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哼哼，身为魔<r=BOSS></r>王，我也不是什么灵魂都要的， 如果想让我拿走你的灵魂，就证明你灵魂的价值吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "要怎么证明？ 我我我我去把那边的大石头打碎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，那只是你身体的价值，灵魂的价值是看你的心是否坚定的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "心…… 坚定……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯， 相信自己选择的路，并且坚持走下去，这才是我想要的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "自己选择…… 明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了就好，我们还是把注意力放在猛进之灵上？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎哎哎，你为什么突然跪下了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我选择的路就是让魔<r=BOSS></r>王拿走我的灵魂！我很坚定的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "适得其反了么……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来， 只有和冬香交易个什么东西，立下协议才能打消她对自己的疑虑， 只是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "请魔<r=mowang></r>王大人多多收集灵魂，收集得越多，维塔就能为您做越多的事情哦。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "手机里的那个东西的话…… 不是很想听啊，这不是在利用冬香吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，冬香，我和你交易，稍等一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我拿出笔和纸，用记忆中的某种星塔文字刷刷刷写下了一份“契约”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "签了这个就行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冬香看都不看就在契约上写下了自己的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂喂，也太草率了吧，以后会被骗的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这样…… 我的灵魂就归你了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯嗯，对，你的力量就交给我来控制吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我…… 好像没什么感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就对了，灵魂交易本来就没什么感觉， 只有我开始操控 你的灵魂的时候，你才会感受到一些东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "原， 原来如此……！ 魔<r=BOSS></r>王，我会保护好你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "随便应和了一下， 这也是在星塔读过的书上写的有效的治疗方法——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安慰剂效应！！！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是雾语。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嗨嗨嗨，魔<r=BOSS></r>王， 做好准备，那个大家伙和一大堆假面野猪可是被我引过来啦！ 离预定地点还差一点点哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了。谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家做好准备！猛进之灵要来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "嘎噜啊啊啊——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哈啊……哈啊…… 我们击倒几只了？ 有人数着吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "五十，不， 至少六十只了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "啊～真是的～～！！ 我，我是来采访的，为什么还要和你们一起讨伐魔物啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "话说发现的足迹比假面野猪的数量少太多了吧？ 全森林的假面野猪都被猛进之灵叫来了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "喂，魔王快想想办法，我们快拦不住这些野猪了， 要是让这些假面野猪和猛进之灵汇合，我们就没办法打了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多亏了小禾的资料，猛进之灵那边的状况在计划内， 但假面野猪数量比预计的多很多。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要不要赌一下刚才交易的安慰剂效果，把冬香派上去？ 不过这样一来，猛进之灵就 … …",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可恶，快点给我倒啊！ ——啊糟了，手滑了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "小禾， 后面！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狂暴的假面野猪",
+   "text": "嘎啊啊啊——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不行……！ 我的魔法来不及了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我用什么才能留住你？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "绿色的旋风掀起尘土，迷住了冲锋中的假面野猪的眼，让小禾得以闪躲。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狂暴的假面野猪",
+   "text": "嘎啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我给你新摘的树叶、停滞的弩箭、凌厉的碎石。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "嘎…… 嘎啊啊啊啊……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我给你狂暴的翠绿精灵所赐的安眠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这风魔法……夏花！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾，你的计划 还是这么不谨慎。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哼…… 讨伐队的队长大人，是特意来说风凉话的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我可没闲到那种程度。 只是侦查时听到这边有魔物的声音，就顺路过来看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "夏花，你可真是一点都不 可爱 … …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这句话， 原封不动还给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "小禾抬起手弩，夏花凝聚风刃，两人对峙着停下了动作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "小禾，夏花……？ 你们先冷静一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "弩箭和魔法擦肩而过，分别击中了夏花和小禾身后，准备偷袭两人的假面野猪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "紧接着两人同时冲了出去，争先恐后地斩杀着魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不要在这里添乱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "添乱的是你们。刚才你明明都快哭出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "啊……？！ 才，才才才没有快哭出来呢……！ 别胡说八道……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "爱哭鬼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "你这家伙～～！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这个时间再加新人，没时间进行配合训练了—— 这可是你说的！ 新人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你们简陋的战术无需训练。而且就连这个战术你们好像也没配合好啊。 你说对吧，魔王， 或者应该叫你—— 魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "等，你别乱叫……！ 魔<r=BOSS></r>王可是我们这边的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么把我也带进去了 ……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说这两人明明配合得天衣无缝…… 真的闹翻过吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "被巨大的风浪冲散，假面野猪四散奔逃，",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "再度睁开眼睛时，只剩下猛进之灵怒气冲冲地盯着我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哼，战斗还没结束呢，这种微风可吹不动接下来的大家伙！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我的风吹不动，你的弩箭也射不穿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猛进之灵",
+   "text": "吼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……咦？ 等等！为什么盯着我看？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，小心！它盯上你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "假面野猪的习性不是专门攻击最强者吗……？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "意识到只要击溃魔王这个指挥核心，阵型就会瓦解了么， 狂暴的翠绿精灵——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "它要攻击 了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "猛进之灵猛地把头插进了地面，再高高扬起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一块巨石被它的怪力掀了起来，如出膛的炮弹般， 撞破了夏花未吟唱完毕的风墙，无视了尘沙和琥珀的攻击，直直地向我冲来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我来保护……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "冬香，好厉害……！ 那么大的石头，一拳就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王毫发无伤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "连石头崩裂的碎片都避开了魔王所站的位置……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我做到了。 这一定也是因为灵魂交易……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "吼 ——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "摆出可怕的表情也没用！ 你这家伙，竟敢攻击魔<r=BOSS></r>王， 不可饶恕！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,963 @@
+{
+ "heading": "# 03 合作共赢",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《谜影的序曲》（星塔历 996 年）",
+  "- **关卡 ID**：`6505`　**编号**：`03`",
+  "- **关卡名称**：合作共赢",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06x5_03`",
+  "- **关卡描述**：意料之外的重逢。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "为了确保晚宴能够顺利进行，你决定前往谷风家政雇一位保镖。可前来接待你的，竟是昨天在房间里见到的那个女人——乙叶。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了确保晚宴能够顺利进行，你决定前往谷风家政雇一位保镖。可前来接待你的，竟是昨天在房间里见到的那个女人——乙叶。",
+  "episode": "第三话",
+  "title": "合作共赢"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是…… 赤裸裸的威胁……！？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠说的没错，的确有人在用非常规手段，调走她后又想吓走我。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 尘沙、琥珀、鸢尾，她们可能也有危险，得赶紧和大家汇合。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "五分钟后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，都这个点了，是出什么事了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好意思，打扰你们休息了。 有人在我门口放了这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王的照片？还挺好看的嘛。 不对，为什么脸上被画了个红叉？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这是，威胁信？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恐怕是的。照片背面还写了字——“猎月五日”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "猎月五日？！后天？不就是晚宴的日子吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这，这该不会是什么…… “作案预告”吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "很有可能。如果我退出了晚宴，或者没有退出却在晚宴上受到了攻击，引发了骚动， 那就做实了翡冷翠没有能力管理菲莱分公司的事实。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但为什么要特地发出预告……我也想不通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "有看到犯人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有，唯一的痕迹就是这封威胁信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这件事我已经告知安保人员了，他们会加强巡逻，但我觉得……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "既然对方能神不知鬼不觉地塞进这张照片，普通的安保人员也没办法吧，他们之前还只是食品工厂的工人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是这样，并且对方也可能是在声东击西，我们调动安保人员，让对方看出虚实，进而袭击到访宾客，那就更糟了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔，有道理呢， 干脆我们来保护魔<r=BOSS></r>王好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "话是这么说没错，但是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "有，问题？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们缺乏经验啊，对手是星骸和魔物还好说……但是这种情况，还是拜托专业人士比较好吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不过……我们也不知道谁可靠，翡冷翠和花令旅团又都不在，万一雇佣到本来就想混进来搞破坏的人就糟了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "专业人士……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "魔<r=BOSS></r>王，这是我的名片，请您收下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "您要是有任何需要，可以随时联系我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，我想起来了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "前段时间，我认识了一位谷风家政的女仆，她给了我一张名片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "女仆？可我们缺的是专业保镖诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……可能听起来有点奇怪。 她确实是个女仆，但是……她应该也很擅长保镖的工作！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "并且，最重要的一点是——我们完全出于偶然相识，不可能涉入这种阴谋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果大家觉得没问题的话，天亮后我去拜访一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "既然魔<r=BOSS></r>王都这么说了……那应该是可靠的人，我同意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，就这样定了，时候不早了，大家快回房休息吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不回房了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，你不是说这几天睡不着嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "就像，在绿洲号一样，大家一起睡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这都是为了魔王的安全！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢你们的好意…… 咳咳，那为了安全，大家一起睡吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有她们陪着，的确会安心许多啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "第二天，顺着花原名片上的地址，我们来到了谷风家政的办事处",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙和鸢尾本想一起过来，但我拜托她们留在酒店那边，帮忙检查安保漏洞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "猎月 4日",
+   "place": "菲莱银城区 谷风家政外"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谷风家政这地方也太难找了…… 不过，好漂亮的房子啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀？怎么这么严肃…… 出什么事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "有人，跟踪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "气息消失了……是察觉到了吗？ 好像……是很强的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，我们先进屋吧。里面更安全一些？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "正当我准备敲门时，门却自己打开了",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哦？我还以为是谁呢…… 原来是您啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么是你？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯？我们不就是来找她的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，虽然……不是这位……但……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "有劳您亲自来一趟，快请进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "初次见面，请多关照，我是乙叶，谷风家政菲莱分部的总管。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "好巧啊，昨天才见过您，没想到今天又见面了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "昨天？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我一时疏忽，看错门牌误入了她的房间…… 实在抱歉，见笑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，请别放在心上。虽说确有些惊诧，不过也算是个愉快的邂逅。 那您今日莅临，又所为何事呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贵公司的成员花原，之前给了我一张名片。我想找她聊聊女仆服务的事情，不知道是否方便？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "花原啊…… 她最近在外执行任务，恐怕无暇抽身。若有要事，您可直接与我详谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们需要保镖。最厉害的保镖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "了解了。 非常荣幸您选择了谷风家政，我们一定不会辜负您的期待。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "为了感谢二位的信任，我特地准备了一份薄礼，还请笑纳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "百闻不如一见，请跟我来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "乙叶带我们来到了庭院，两个佣兵模样的人被绑在一起，看起来已经昏过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "这两位不明人士似乎一路在跟踪您，我替您解决了她们。 就当是送给二位的“见面礼”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "难道，刚才气息突然消失，是因为……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，举手之劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "乙叶，很强",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "在那么短的时间里，悄无声息就解决了两个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "还能若无其事地带走昏迷的她们，在门口迎接我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实很强。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "强得……有些恐怖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "回到正题吧，请问客人，是何事需要有保镖呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实是这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我向乙叶解释了昨晚收到威胁信的事",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "原来如此…… 总之，您需要一位可靠的保镖，在暗中保护您的安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是的，今天多亏了您出手，解决了跟踪我们的人，非常感谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵…… 您不会觉得，这件事就到此为止了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "这两个人……我稍微审了她们一下，但她们始终没有招供。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "若是普通的帮派成员，至少也会吐露一些信息……她们的雇主一定十分严格，不会轻易善罢甘休的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "您的人身安危依然存在着威胁…… 此时掉以轻心，可是大忌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "依你所见，我还是得找个保镖？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "正是如此。不光是做保镖，还要将幕后黑手一并挖出才行……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是……花原在外执行任务，还有其他推荐的女仆吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "您看吾辈如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "帮我们解决了跟踪的人，已经很麻烦你了。再说了，你一个谷风家政的总管，来给我做私人保镖，这也太……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，我说过了，那只是个“见面礼”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我听说，您在一次任务中帮助花原脱险，还替她掩盖了身份。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算是吧……但依照花原的实力，解决那些混混也不是问题，我只是做了份内之事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "谷风家政对主顾们一向是关怀备至，服务周到的……反过来，若客人对吾辈有恩，吾辈也应倾其所有报答客人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "其实……我作为菲莱分部的总管，本就打算登门拜访您。 今日在这里等到您，真是缘分呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，昨天你住在我的隔壁，难道是为了找我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "正是如此，可惜昨天与您相见太过突然，我又临时有事，只能先离开了酒店。 没能正式结识您，实属遗憾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "这个“保镖”的委托，就当作是我的谢礼吧。 我不会收取任何费用，相对的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "除了您和“空白旅团”之外……您不可以向任何人透露，我给您免费当保镖这件事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "如果让其他人知道，谷风家政的总管居然愿意免费出勤……那我们以后的生意可不好做了—— 也就是说，您这回，只能当作“特例”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我明白了，我会保密的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，能与大名鼎鼎的“魔王协议”首席执行官共事，是我莫大的荣幸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "毕竟……您的事迹，我也有所耳闻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管你听过什么传闻…… 总之，你愿意接下这个委托就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "委托内容很简单——直到晚宴结束，保证我平安无事…… 我的安全，拜托你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "承蒙您的信任……这次的委托，一定是一次互利互惠的合作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "送走了新客人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "也该去探望一下“故人”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "13:30",
+   "date": "猎月 4日",
+   "place": "菲莱银城区 谷风家政地下监牢"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "把我眼上的布解开，立刻放我出去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "别急啊，朔小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "好戏才刚刚开始。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

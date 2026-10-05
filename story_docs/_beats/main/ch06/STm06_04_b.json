@@ -1,0 +1,927 @@
+{
+ "heading": "# 04B 缆车站",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`612`　**编号**：`04B`",
+  "- **关卡名称**：缆车站",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_04_b`",
+  "- **关卡描述**：猎物点燃了火把，烧断了猎人布下的罗网。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "借着缆车路线，尘沙一行人脱离了城内的险境。\n与此同时，城外的旅人营地被联合种业总公司的佣兵占据。\n留守的众人得知，达尔茜娅涉嫌叛乱，而菲莱会成为战场……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "借着缆车路线，尘沙一行人脱离了城内的险境。\n与此同时，城外的旅人营地被联合种业总公司的佣兵占据。\n留守的众人得知，达尔茜娅涉嫌叛乱，而菲莱会成为战场……",
+  "episode": "第四话",
+  "title": "缆车站"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "06:30",
+   "date": "谷月 5日",
+   "place": "菲莱城外 缆车站"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "安全抵达！那些植物想要追上我和小绿还差一百年呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "好晕…… 大家快下车找地方掩护，智慧植物和佣兵很快就会爬上来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这……这是？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好长的绳索，没有轮子的，车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "不是车啦，这是缆车的车厢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "湖心岛没有封锁的时候，大家就在这里乘坐缆车上岛登塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "湖心岛为什么会封锁呢？那座星塔应该是恩赐意志授权给联合种业管理的星塔吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我听说是“违规操作”， 具体情况是公司的最高机密，我也不知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "幸好菲莱城外有旅人营地，联合种业菲莱分公司即使不靠这座授权星塔的产出，也能从城外的荒野星塔中获得足够多的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这么大的缆车这么久没用，不会坏掉吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "平时有人检修的，我们只要去绞盘那里输入魔力，就能乘着缆车去湖心岛了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可是，幸运绿洲号装不进车厢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "丢弃在这里的话， 会被智慧植物占据吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不行，我才不要小绿变成那些植物的花盆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "缆车……小绿，对了！我有办法了，冬香，我们去换衣服！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "哎？换衣服？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我换好了。尘沙前辈是想用绿洲号代替原来的缆车车厢吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没错！不过，我一个人肯定搬不动啦，冬香能来搭把手吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "要是我们一起都抬不动，我再想想别的办法！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "唔……应该也不是很重。 交给我吧前辈，我一个人就行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "星雁前辈，我已经把缆车站门前的山道都铺上了薄冰，不管是植物还是士兵，应该都很难爬上来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "星雁前辈？你在看什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "啊，抱歉，我有点走神。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "那个…… 我留在这里启动缆车，供给魔力，你们先去岛上吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诶？不能在车上供给魔力吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "在缆车站才能给缆车供给魔力， 你们上岛后，在小岛那边的缆车站注入魔力，我再坐缆车过去就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好， 我们到那边就立刻注入魔力，星雁前辈也注意安全！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "琥珀，接着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这是……. 前辈的枕头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "帮我带着吧，遇到难以决断的关键时刻，就拆开它吧—— 枕头里有答案。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "答案…… 我明白了。前辈，多加小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星雁按住缆车站的绞盘，缓缓注入魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "刺耳的吱呀声响起，钢缆上挂着的幸运绿洲号，缓缓向湖中驶去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "城市东方的天空中并没有飘起星雁想象中的硝烟，她有些疑惑地皱起眉头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "那些人…… 应该动手了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "06:40",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 贵宾招待室"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，尘沙还真是异想天开，竟然把幸运绿洲号挂到了缆车上，不过总算是成功逃走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠，上岛除了缆车之外还有其他的方法吗？能用船吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "啊，对不起，魔<r=mowang></r>王大人， 我在看窗外，没听到您的声音，您找我有什么事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想问问上湖心岛除了缆车之外还有其他的方法吗？比如用船？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不行的，湖心岛的四周都是峭壁，没有港口可以停泊，除了缆车之外只能用飞行魔法飞上去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我就放心了，就算智慧植物占领了缆车站，以缆车的速度也没办法投送太多的植物上岛，尘沙她们安全了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "明明自己都身陷囹圄了，竟然还有心思担心同伴…… 你这个人，还真是奇怪呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那不重要，只要我的同伴不在你们手里，无论是你还是达尔茜娅，都没办法逼我就范。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，你刚才看什么呢？看得那么出神…… 这可不像平时的你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "天空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我顺着翡冷翠的视线向东方看去，目力所及之处，初升的朝阳散发着略微刺眼的光芒，并无特异之处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "啧，有人失约了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "失约… …",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵，我的确喜欢看您苦恼的表情， 但我并没有那么坏心眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人说要向您证明她的实力，如果最终是靠着智慧植物的数量耗赢的，可有点胜之不武。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "总之情况就是这样，您可以随性一点。只要不离开这个房间，我不会限制您的自由……要是觉得无聊，您不如看看地图，加深一下对菲莱的了解如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以……这次骚动是翡冷翠在背后动了什么手脚吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还故意撕下地图给我看，让我的注意力集中到西侧…… 倒不如说，她在把所有人的目光往西方引导。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么她真正的目标是菲莱城的东方…… 是旅人营地， 夏花！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "06:50",
+   "date": "谷月 5日",
+   "place": "菲莱城外 远方的森林"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我能接一下手机吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "不行， 在走出菲莱星塔范围之前，你们谁都不许联络。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "喂，你们也太不讲道理了吧。半夜冲进我们的营地把我们都赶走，现在连接个手机都不行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "联合种业就是这么做事的吗？达尔茜娅和翡冷翠又在搞什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的旅人",
+   "text": "对，我们的行李都没收拾完，让我们回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "我们要回去， 今天我还有委托要做，你们帮我们付违约金吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "安静，都安静。 我是联合种业的监察官松鸦，是这次特别行动的队长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "各位的诉求我们完全理解， 我谨代表联合种业总公司向各位致以诚挚的歉意，各位的损失总公司会统计并承担。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "联合种业总公司…… 这么说，这些士兵不是菲莱分公司的人，不是达尔茜娅和翡冷翠的部下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的旅人",
+   "text": "漂亮话谁都会说，谁知道你们会不会赖账。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "就是啊，我们还得靠这个过日子呢！补偿什么的现在掏出来啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "我们来的匆忙，并没有带那么多的朵拉。 如果各位不信我，也可以现在就回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "但我要提前告诉你们，联合种业菲莱分公司执行官达尔茜娅反叛总公司，旅人营地乃至菲莱即将化为战场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "如果各位觉得营地里的财物比性命还重要， 我也不会拦着各位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "旅人营地和菲莱… … 战场？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王还在菲莱城里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "喂， 说了不许接手机，你耳朵聋吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "让开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我不管什么反叛， 什么战场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾，枫，我们现在就去找魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "07:00",
+   "date": "谷月 5日",
+   "place": "菲莱城外 缆车站"
+  },
+  {
+   "k": "talk",
+   "speaker": "射种子的智慧植物",
+   "text": "呜呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "没完没了，我心相石里的恩赐也不多了， 幸好把这张床带来了，能作为掩体坚持一会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "射种子的智慧植物",
+   "text": "呜呀！ 呜呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "没用的， 我的折叠床可是经过魔法强化的，你们的子弹根本射不穿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "呼，幸运绿洲号应该到湖心岛了，我也该上缆车了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我们闹腾了一晚上，吸引了不少植物和士兵到城西， 总公司在城东的突破应该很顺利吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "嗯？有消息了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "失败了，我们的计划失败了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "总公司的军队根本没有按照预订时间发起进攻",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "为什么？他们在路上耽搁了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "不是，他们强制征用旅人营地，结果和旅人们起冲突了，还在被拖在旅人营地",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "达尔茜娅的植物和士兵已经重新在城东的桥梁上设置了阵地，突袭已经是不可能的事情了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "为……为什么会这样！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "事已至此，我会启用备用计划，你多加小心",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "可恶，总公司那些人到底在做什么啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "达尔茜娅大人，为了抓我一个小小的监察官，您竟然亲自出手，真是意外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "总公司作为你的救命稻草，实力也不过如此…… 呵呵，不知你现在心情如何呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "你辛辛苦苦收集材料，召唤总公司的军队想剿灭我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "结果，他们还没进城就自乱阵脚，真是辜负了你们昨晚的奋战啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "达尔茜娅大人，您是不是忘了，我也是总公司的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "不管军队那边情况如何， 只要我在这里抓住你，一切就都解决了， 也不用什么备用计划！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "唔呃！你……你竟然对毫无还手之力的人开枪，简直是疯了！？ 呜呜……好痛，不要……我不想死在这种地方，救救我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "别假惺惺的了，堂堂菲莱分公司执行官，自称要征服世界的人，怎么可能只有这点水平？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "达尔茜娅，束手就擒吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "哎呀，我还以为自己演得天衣无缝呢…… 不过，我是不会向你投降的。毕竟，我还有任务在身呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "倒在星雁面前的达尔茜娅以非人的姿态扭曲着身体，胸前燃起了一捧火苗， 很快，火苗越烧越大，达尔茜娅就在这熊熊大火中化为了一捧灰烬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "自杀？不对……. 这胜利也太容易了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "咕， 是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "倒在地上的星雁用尽最后的力气想要举起枪，然而，她的右手已经被人牢牢地踩在脚底。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "紧接着，一只冰冷的手，扼住了星雁的喉咙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "模糊的视线里，一个熟悉的身影出现在星雁面前，那是——刚刚在火中化为灰烬的达尔茜娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "总公司的人还真是自不量力…… 真以为这点水平就能抓到我么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

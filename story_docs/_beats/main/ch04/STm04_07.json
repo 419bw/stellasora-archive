@@ -1,0 +1,1185 @@
+{
+ "heading": "# 07 一场看气氛的雨",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第四章《梦的彼岸》（星塔历 996 年）",
+  "- **关卡 ID**：`413`　**编号**：`07`",
+  "- **关卡名称**：一场看气氛的雨",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm04_07`",
+  "- **关卡描述**：无法让雨停下来的时候，撑起伞就好了。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "意识到自己连累了你的夏花走进雨中。\n你不能让雨停下，却可以为夏花撑起伞。\n有些话，什么时候说都不晚。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "意识到自己连累了你的夏花走进雨中。\n你不能让雨停下，却可以为夏花撑起伞。\n有些话，什么时候说都不晚。",
+  "episode": "第七话",
+  "title": "一场看气氛的雨"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "雷月 3日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "听，外面没声音了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "那些家伙，总算意识到自己干的什么蠢事了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "大家......真的很生气呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我多少能理解他们的心情。毕竟在他们眼里，我们现在可是第一次讨伐队失败的“罪魁祸首”呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，包围我们的旅人撤了，都向营地那边跑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可恶，欺负完人就想跑， 冬香，枫姐，我们冲出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "明，明白！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:20",
+   "date": "雷月 3日",
+   "place": "菲莱城外 森林边缘"
+  },
+  {
+   "k": "talk",
+   "speaker": "想要逃走的旅人",
+   "text": "可恶……快放开我！ 你们这些旅人居然对同行下手……果然是被魔<r=BOSS></r>王操控了吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哈啊～？怎么可能嘛。 再说了你又不了解魔<r=BOSS></r>王，别在这胡说八道行不行？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "想要逃走的旅人",
+   "text": "又不是我一个人说的，再说....... 谁让你们害了第一次讨伐队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "简直对牛弹琴……都说了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "那都是谣言。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "想要逃走的旅人",
+   "text": "谣言？夏花都亲口承认了啊，讨伐队全军覆没都是她害的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "等，等一下……！ 你把话说清楚了，夏花承认了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "想要逃走的旅人",
+   "text": "不是刚说过吗？承，承认她是第一次讨伐队失败的罪魁祸首啊，就，就是刚刚在营地中间的广场上承认的！搞得现在整个营地都乱套了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:30",
+   "date": "雷月 3日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们赶到营地的时候，只看到一地狼藉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "石头、鸡蛋、折断的旗子，这里发生了什么......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "夏花......没事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你好，请问这里发生了什么事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "怎么？你们没听说谋杀犯的事？ 哼，算我们瞎了眼，竟然把那个大恶人当做英雄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "大恶人......英雄...... 夏花？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "别提她的名字，提了我就觉得恶心，她所谓英雄的称号，都是挥霍着大家的血汗，踩着大家的肩膀得来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "想独吞赏金就对同伴见死不救……这种事怎么可能被原谅啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "呵……想到新组建的讨伐队到头来也只是被那人渣利用的工具……认真努力的自己简直像个天大的笑话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "说得对，你可真是个彻头彻尾的白痴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "你说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "啊，抱歉抱歉~毕竟你太蠢了听不懂人话呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我说你是个白痴，白长了一个脑袋却不知道用！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "既然你是新讨伐队的人，那就好好想想，哪次讨伐不是夏花冲在最前面？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "这...... 她是为了赏，赏金。她的实力最强，就是为了骗我们，才装得那么拼命啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "所以你们这帮人，就只敢躲在安全的地方看着夏花拼命？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "不是……她那分明是想把我们当诱饵，等关键时刻推出去送死啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哦？那你们真遇到过这种事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "可恶……根本说不通啊！ 那她为什么要说那种话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "喂，快告诉我，夏花在这儿到底说了什么，刚才又发生什么事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "就是......夏花承认第一次讨伐队失败是她的责任，然后，然后台下的大家就按捺不住情绪，有人扔石头砸她，有人还拔刀了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "拔刀？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "那，那个，我们只动嘴没动手，动手也打不过...... 打不过她。最后根本没人敢真上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气愤的旅人",
+   "text": "反正，夏花就在我们的骂声中，消失在营地深处了。她说，她说她会承担起责任的，会从大家面前消失的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "夏花前辈......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "唉！都闹到这份上了，你们为什么不拦住她！ 算了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "魔<r=BOSS></r>王，还有大家，我们快去找夏花！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "雷月 3日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下雨了，营地里都找遍了也没看到夏花。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她到底去哪了？难道是森林？这些天她都没好好休息过吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再遇到寄生之庭就危险了......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哪里都找不到，夏花这家伙到底跑到什么地方去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "可她为什么要说讨伐队全灭是自己的责任呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "蠢死了，就会给人添麻烦",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我知道自己没资格插嘴前辈们的谈话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "但夏花前辈会不会是不想连累我们，才说都是她的错？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "如果她不这么说，那营地里的旅人一定会认为是我们和魔王的错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "就是这点才蠢啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "上次也是这样，这次也是这样，总是不和人商量就自顾自地做了决定！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "她以为她是谁，传说中在大雨里拯救菲莱的英雄吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不是魔物，是雕像，菲莱美术馆里的石雕“断臂英雄像”见过吗？和那个差不多，雕像的脸还是你的脸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不过，我喜欢的是“断臂英雄”那种牺牲的勇气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我好像知道夏花会去哪了，你们对菲莱城熟悉吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "平时是不会进城啦，但我们都是本地人，基本的路还是知道的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "我经常去城里打工，还是蛮熟的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想去一个地方，拜托了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也有猜错的可能，尘沙、鸢尾、琥珀，能不能麻烦你们去森林里找一找？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "明白",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "交给我们吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "出发了，我们开着小绿去找",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "scene",
+   "time": "12:10",
+   "date": "雷月 3日",
+   "place": "菲莱城内 银城区某处"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我这是...... 走到哪里了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健谈的路人",
+   "text": "喂喂，你听说了吗？那个“断臂英雄像”被撤掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的路人",
+   "text": "为什么？那个雕像很受欢迎吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健谈的路人",
+   "text": "是赝品啦，根据星辉之眼的最新研究，不管是断臂英雄的传说还是那个雕像，都是后人搞出来的假货啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的路人",
+   "text": "原来如此，我们之前相信的英雄故事，原来都是“假货”啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "虚假的英雄...... 我的确是个假货呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "自以为献祭掉珍贵的东西就可以解决一切，保护一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "如果你真的那么厉害，就把我们头顶的雨云吹走，让这场雨停下啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我只是个...... 自说自话，蠢到伤害了朋友的傻瓜，是个连风的方向都看不清的人.......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我....... 到底在做什么啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "街边的角落里，夏花抱住膝盖，闭上双眼，任由嘈杂的雨声占满整个世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这样，就不用去思考那个无解的问题了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "雨...... 停了?",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "找到你了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王......你怎么在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "你明明向我推荐过“断臂英雄像”",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "我会在这里，也没什么好奇怪的吧？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "啊……说起来确实是呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "抱歉，让你白跑一趟。雕像已经被撤下去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "嗯，我也听到了传闻",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "那样的传说和雕像被大家忘了也好",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "连你也这么觉得么......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，一个真正的英雄，怎么会为了那种虚无缥缈的希望和许诺，就献祭了自己的手臂？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果真有那种需要献祭才会停下暴雨和洪水的恶神，英雄应该会亲手去打倒对方吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就像，你面对三大魔物时所做的那样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "三大......魔物， 魔<r=BOSS></r>王，小禾说得对，我从一开始，一开始讨伐三大魔物的时候就走错了，如果不是我那时的选择......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你那时的选择？那么，如果你能回到过去，重新选一遍，你会怎么做？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你会在那个时候放弃断后吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不，不会……无论重来多少次，我都会争取时间让大家撤离。因为那时只有我和克莱儿还能掩护大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你会在朋友的安全被联合种业的人威胁时退缩，一个人逃出菲莱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不会...... 不可能会的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，你会让朋友去触碰那些危险的情报，被联合种业盯上，深陷危险之中吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "绝对不会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": ".......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呵，我明白了你想说什么了，魔<r=BOSS></r>王。就算再回去一次，我还是会做出同样的选择。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你是想告诉我，我的命运是注定的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这么看来，我还真是无可救药。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一根筋的程度的确无可救药呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没办法把雨云吹走的时候，撑起伞不就好了？没带伞的话，找有伞的人帮忙不就行了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，独自思考固然没错，但也不要忘了，你还可以和朋友一起思考。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "可是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道要放下并不容易。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你明明已经足够强大，也拥有保护花令旅团的温柔。这样的你，却拒绝了同伴们的援手，天真地以为自己能解决一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在我看来，这和传说中主动自断手臂的英雄没什么两样，甚至，你们都把希望放在“恶神”的身上，希望对方能“开恩”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的做法或许能暂时渡过难关，但之后等着你的……只会是更艰难的日子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我、我……呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我会组建一支新的讨伐队。 新讨伐队里不需要弱者。再见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你说的这些……我都明白！ 但是我也没办法！我只能这么做！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾和枫姐都太温柔了。 如果不这样说，她们肯定会跟来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "可是那样的话……她们就会遇到危险。 甚至发生无法挽回的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "虽然大家都说我很“强大”，但其实并不是那样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "如果所谓的“强大”是指看到重要的人受伤还能无动于衷。 那我做不到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "明明我早就下定决心了…… 可是……为什么现在却……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我真的好想回到过去……重新开始…… 向大家好好道歉……然后回到她们身边……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我不想和重要的人分开……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "这就是你真正的想法吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "嗯。但是时光不会倒流。这是我自己的选择，事到如今也只能接受这种结果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "的确，时间不会倒流",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "既然没办法回到过去，不如往前看看？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "哎？往前看……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "有些话，什么时候说都不算晚",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "那，那个……前辈？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "哎？ 冬，冬香？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "夏花.......一起回去吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "枫姐，你怎么也在。 那——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "夏花，你个笨蛋！ 这种话……要说就早点说啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾……啊，那个…… 刚才那些话，其实是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不用再说啦。不用特意解释，我早就明白夏花的心意了。 所以呢——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "欢迎回来，夏花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "嗯…… 我回来了，大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "请让我重新说一次，今后请大家多多关照。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这场雨，终于停了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

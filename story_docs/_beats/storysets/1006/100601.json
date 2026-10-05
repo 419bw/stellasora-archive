@@ -1,0 +1,628 @@
+{
+ "heading": "# 卫队之魂，骑士之心 其一",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#06《卫队之魂，骑士之心》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`100601`",
+  "- **AVG 剧本**：`STsp_06_01`"
+ ],
+ "recap": "挨训的女主角！半路抓来的摄影师！人心不齐的草台班子！帝国卫队的宣传片，正式开拍！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "挨训的女主角！半路抓来的摄影师！人心不齐的草台班子！帝国卫队的宣传片，正式开拍！",
+  "episode": "第一话",
+  "title": "卫队之魂，骑士之心 其一"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在这片土地上，有、有一种力量……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "它不靠神明，不靠魔法，而是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "靠我们的勇气！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "帝国卫队！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不只是一个名字，更是一种……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一种精神！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "停！停！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "怎么搞的，念个台词都磕磕巴巴！你到底能不能演好？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "非常对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "喂，摄影师！刚刚拍的那些有能用的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "目前还没有……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我、我再来一遍，这次一定能……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "算了算了，这都中午了，我要吃个饭歇会儿，下午再继续吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "受不了，今天到底还能不能拍完啊。我可不想再搭一天休息日来拍这个……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "不行啊，缇莉娅太紧张了……根本没办法好好念台词。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在场的骑士们抱怨着离开了，只留下缇莉娅朝着他们不住道歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "至于我为什么会在帝国卫队的驻地当摄像师，这事还要从今早说起……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "到了，就是这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "我再确认一遍，你真的会用专业留影机，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "不是卡片留影机，也不是傻瓜式留影机，是那种很大的专业留影机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算是知道使用方法，但肯定比不上专业人士。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "那就行，本来也没指望你拍得有多好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "喂，凯多克，找着会用留影机的人了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "知道了知道了，我忙着调试设备走不开，你叫人直接过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "你过去找那个红头发的人，有不懂的就问她吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "你就是他们找到的临时摄影师…… 咦？这不是魔<r=BOSS></r>王嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是……缇莉娅的那位铁匠朋友？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "没想到你还记得我啊，叫我凯多克就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "呵呵，该说真巧吗…… 缇莉娅！有人来探你班了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "来啦来啦，谁找我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "咦？咦？！！！ 魔<r=BOSS></r>王，你怎么会在这里？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "和缇莉娅解释了我出现在这里的原因。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "原来魔<r=BOSS></r>王是来帮忙的啊，太好了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我们原本的摄影师今天出门的时候突然被车撞到，虽然人没大碍，但是手腕受伤了，没法过来拍摄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难怪会有卫队骑士急急忙忙来协会之家发紧急委托。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了，你们这是要拍什么？带我来的骑士只说有拍摄任务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "连委托的内容都不说清楚就把人带来了？真有那帮骑士的作风。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "上头的人要我们拍个帝国卫队的宣传片，要求都有些什么来着…… 呃，展现公司风貌、宣扬公司精神、提升公司形象、吸纳优秀人才……之类之类的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "至于宣传片的主角，那当然是——我们的缇莉娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难怪换了身衣服啊，很适合你，缇莉娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "也、也还好啦…… 很适合我什么的，嘿嘿……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“导演”骑士",
+   "text": "都准备好了吗？再过十分钟我们就开拍了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "啊，这么快就要开始了？那我现在去把台词再背一遍……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "那我带魔<r=BOSS></r>王去调试一下留影机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就拜托你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嘿嘿……有魔王和凯多克在，感觉安心了不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "加油！我们支持你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "好~等会就一鼓作气，把宣传片拍出来吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "虽然开拍之前信心满满，然而……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "唉……怎么会这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "辛苦了，喝口水吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "对不起，我耽误大家时间了……难得前辈们特意为我争取了这个机会，我却没能表现好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "不是你的问题。他们都不提前给你适应镜头的时间，连出演宣传片的事都是昨天晚上才临时通知的，怎么可能演得好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "昨天晚上才通知到？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "是啊，上头一拍脑袋想要拍个宣传片出来，但卫队的骑士们谁都不想揽这活。尤其是主演，迟迟定不下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "帝国卫队在外的名声，你也知道的……大家都不想在宣传片里露脸，免得被骂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "推来推去，最后这主演就落到缇莉娅头上了，她连台词都是昨晚通宵背下来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "依我看，这里的骑士谁都没指望把片子拍好，都想着随便弄弄给上头交差。也就只有缇莉娅在认真对待这件事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "小凯，你说的这些我也明白。现在的帝国卫队在民众眼里的形象确实不太好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "但如果有个帅气的宣传片，说不定就能让一部分人对卫队有新的认知。 所以…… 我想趁这个机会，好好展现理想中的，帝国骑士的风貌！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "唉，就知道你会这么说。看到你这么努力的样子，我哪忍心放你孤军奋战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "那现在怎么办？如果一直表现得这么僵硬的话，是没办法展现帝国骑士的风貌的哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呜…… 可不知道为什么，一到留影机面前，就紧张得说不出话，背过的台词也都想不起来了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要不要换个思路？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王，你有什么好办法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听弗拉维奥的朋友说过，人在镜头前紧张，是因为还在想着“怎么表演”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但越是刻意去“表演”，越容易显得不自然。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个时候，就应该放下“表演”的念头，把自己想象成为角色本身。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "想象成角色本身？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅，在你心里，最帅气最有魅力的骑士是谁呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那当然是蒙面骑士了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就试着想象自己就是“蒙面骑士”吧。作为“蒙面骑士”的你，想要对其他人说些什么，向众人传递什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我是蒙面骑士……唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "如果我是蒙面骑士的话……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

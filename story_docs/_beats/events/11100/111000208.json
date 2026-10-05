@@ -1,0 +1,812 @@
+{
+ "heading": "# 第八话 回响之地",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：惊奇冒险！渊海幽灵船传说！（活动编号 11100）",
+  "- **关卡 ID**：`111000208`",
+  "- **AVG 剧本**：`STev_01_08`",
+  "- **关卡描述**：你们终于来到了光芒的源头。 没有幽灵船，只有一片荒芜的岛屿。 朝着最终的目标，出发！"
+ ],
+ "recap": "你们终于来到了光芒的源头。\n没有幽灵船，只有一片荒芜的岛屿。\n朝着最终的目标，出发！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们终于来到了光芒的源头。\n没有幽灵船，只有一片荒芜的岛屿。\n朝着最终的目标，出发！",
+  "episode": "第八话",
+  "title": "回响之地"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不对！奶奶绝不会撒谎！那一定是艘巨大的幽灵船！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是幽灵船对吧？魔<r=BOSS></r>王……你快说呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "眼前的画面，和雾语说过的那本日记里的内容如出一辙。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“矗立在岛屿之上，散发着光芒的巨物……”难道光芒的源头，真是星塔吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃……我相信奶奶不会故意骗人。哪怕她没有说实话，一定也是善意的谎言。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "“善意的……谎言”？什么意思？你这副表情……就好像知道什么内情一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "告诉我吧，我没有你想象得那么脆弱。不管发生什么，奶奶在我心里永远都是我最崇拜的航海旅人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "再说了，我也有自己的判断，可不是你说什么我就会信的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我将日记的内容悉数告诉了花铃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哈？！竟然真的有本日记啊？我还以为是那帮家伙胡编乱造的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "如果那座岛上真的有星塔，奶奶一定会带领大家一起爬塔，她一直希望卡洛镇能变得更加繁荣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "奶奶不想让其他旅人上岛，说明岛上一定有很可怕的东西。奶奶是为了保护大家的安全，才吓唬大家有幽灵船。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有一种可能：幽灵船真的存在…… 其实，整座岛屿就是一艘巨大的幽灵船，上面飘满了幽灵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "啊啊啊啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是开个玩笑而已，花铃的反应未免也太大了。 不对……这个声音不是花铃……！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是六角鲸？！它出现了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "右舷方向——没错，就是小岛的方向！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果我的判断没错，希娅应该也在那里。她和六角鲸很可能被涡流带到了同一个地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那我们就去那儿找她！魔<r=BOSS></r>王你掌舵，我来导航。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "对了……我再发几枚信号弹。万一希娅真的在那里，她会看到的。这样她就知道我们在赶过去，不用再一个人跑来跑去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我去船舱拿给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "希娅…… 坚持住啊，我们来了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "我……还活着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "嘶……身上好痛……不过，身上好像没有明显的伤口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "嗯？这个声音……是在船上听到的，六角鲸的叫声？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "我记得，当时船被困在一个巨大的漩涡中，为了保命，我只能弃船跳海。那只六角鲸不知从哪里冲了出来，我还以为要被它吃掉了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "原来是你救了我啊，谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "我是玛琳，我应该怎么称呼你？“小鲸鱼”……可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "看来是接受了呢。 嗯？你要去哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "这是…… 六角鲸的骸骨？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "这座岛，是六角鲸族群的坟墓吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "小鲸鱼，你在守护你的家人啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "这份心情，我完全明白……我也有想要保护的家人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "别担心，我会帮你守住这个秘密，不会让任何人来打扰它们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "好的，那就一言为定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛琳",
+   "text": "但是，我也要拜托你一件事。 如果哪天，你遇到了我的家人…… 还请你在危难关头帮帮她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "啊，还是没能逃过去……被大海教训了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "也不知道小花铃和魔<r=BOSS></r>王怎么样了……那条绳索应该能让你们留在船上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "奇怪……我现在在哪里？为什么会闻到，这么令人怀念的气味……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "就好像……奶奶的气味……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "这是哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她环顾四周，那片绿光在夜色中若隐若现，像是一种熟悉的召唤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "看来，魔<r=BOSS></r>王说得没错……光芒的源头，就在这座岛上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "不过，我为什么会在这里？我记得我被漩涡卷走了……之后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "六角鲸？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "我掉进海里时，好像被什么托起来了一样……是六角鲸吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "它看起来很平静，我去跟它打个招呼试试。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你好呀，六角鲸。刚刚是你救了我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你的气味没有敌意……真的是你帮了我啊，谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "小花铃和魔<r=BOSS></r>王一定很着急，得想个办法给你们报个平安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "啊，我知道了！六角鲸，我想拜托你一件事，你可以大——叫一声吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "小花铃和魔<r=BOSS></r>王听到后，就会往这边赶了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "六角鲸似乎领悟了希娅的意思，庞大的身躯微微颤动，张开了嘴巴——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "嗷——呜——！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "诶~~真厉害呢！ 谢谢你，这么大的动静，小花铃和魔王一定能听见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "偷偷告诉你一个秘密，我掉进海里的时候，做了一个好梦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "在梦里，我闻到了奶奶的气味。就好像，是她把我从海水里拉上了岸……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "难道……奶奶也来过这里吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "奶奶……你不会生气吧？我没有听你的话，跑到了这么远的地方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "我只是想，沿着你走过的路，再见你一面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "哪怕只是你留下的一点痕迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "远处的天空上炸开了熟悉的信号弹烟花，希娅站起身，她十分清楚，距离真相只剩一步之遥了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "走吧，我们去接小花铃和魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "希娅——！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "小花铃，魔<r=BOSS></r>王……你们都平安无事真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们猜你和六角鲸会在同一个地方，听到它的叫声就赶过来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哇啊——是六角鲸！！ 大家小心！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "别怕，小花铃。多亏了它救了我呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是六角鲸救了你？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "希娅向我们讲述了来龙去脉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "怎么会……原来六角鲸不是坏人， 啊不对，坏鱼啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那它为什么要撞我们的船呢？还害得希娅也掉进漩涡里了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，仔细想想，它那一撞反而帮了我们。 如果当时我们按照光芒的方向直行，就会陷进毫无征兆的大漩涡里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "而且，当时我正处于漩涡中心，如果不是六角鲸冲出来救我，我恐怕要遭殃了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是我错怪你了，六角鲸！ 仔细一看，你还是长得很可爱的嘛~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "六角鲸",
+   "text": "呜~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，感谢的话，留到之后再慢慢说吧，接下来有更重要的事情等着我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "如你们所见，光芒的源头，就藏在这座岛屿的深处。这里环境不明，我们还是要小心为上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "没问题，装备物资我们都带齐了。我还特意带了这盏提灯呢，你看——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "诶？它怎么……又亮了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不知道，本来它都掉进海里了，又是魔<r=BOSS></r>王发现了它。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，我看到的时候，它就浮在水面上发着光……我还以为自己眼花了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不得不说，我和这盏灯真是缘分不浅……很让人在意啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "总之，我觉得这是个好兆头！而且是奶奶用过的提灯，带着它就像有了护身符一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "好，那我们出发吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哇啊，终于要迎来大结局了吗~好激动啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "“大结局”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "真正的结局，恐怕与诸位所料，大相径庭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "哇哈哈哈哈哈哈哈——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "长眠于此地，与这六角鲸陪葬，便是尔等之结局！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,867 @@
+{
+ "heading": "# 花火",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214017`",
+  "- **关联角色**：冬香",
+  "- **AVG 剧本**：`CG_disc4017`"
+ ],
+ "recap": "不知不觉间，她走上了更大的舞台，她的光芒被更多人看见，唯有对你的信赖从未改变。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "不知不觉间，她走上了更大的舞台，她的光芒被更多人看见，唯有对你的信赖从未改变。",
+  "episode": "记忆回想",
+  "title": "花火"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "“哇，好漂亮，这个是……烟花吗？”\n“嗯，你看，像这样握在手里，就能看到它拼命燃烧的样子。”\n少女小心翼翼、充满好奇地点燃了这份礼物。\n\n点火的瞬间，燃烧的尖端，生长出了拼命挣扎的火光。\n新生的力量，就像绽放前的花蕾。\n\n“噼里啪啦”的声音响起，火花变得更加耀眼。\n迸发的火光，就像春天的银莲，就像不畏恐惧勇往直前，朝着梦想一步步迈进的新人；\n\n火光开始飞射、溅落，从明晃的黄，到橙色、绯色……\n溅落的火光，就像每个旅人都会经历的成熟期，就像收获美好的松叶；\n\n火花渐渐黯淡下来，消失在黑暗之中；原本明亮的光芒再没有了向上的劲头，一束一束散乱凋零，在这最后时刻，丝丝火光夹杂在白烟中，无影无踪。\n少女觉得自己看到了秋日的菊。\n最美丽的颜色过去，即是凋零。而凋零后的花瓣落入泥土中，又滋养了下一次的新生。\n\n点燃、着火，盛开，黯淡，直至熄灭，消散殆尽，烟花在短暂如呼吸的时间内，不断反复经历着以上的激烈变化。\n正因生命短暂，才更要拼命留下些什么。\n旅人的一生，也是这样一场伟大的冒险。\n\n少女的秀发随风飘扬，宛如流丝，辉映着花海。而每簇烟花在她的指尖绽放时，都像点燃了整片夜色。\n远处伫立的星塔，和烟花一起映照着二人的世界。\n一根接着一根……\n她面露微笑，时不时小声地欢呼，然后安静地看着花火一次次点燃、熄灭。\n\n随着最后一点烟花烧尽，少女恋恋不舍地站起。\n“满足了吗？”\n“嗯，谢谢你，师父……”\n她的脸上露出羞怯的笑容。\n“不客气。”\n\n“之后如果有机会，大家一起来放烟花吧。”\n“真、真的吗……？”\n少女握紧拳头，双眼闪闪发亮，充满希冀。\n“当然，我们还可以买那种更大、更持久的烟花来放，还会在夜空中绽放出不同的形状。不过眼下，还是把注意力集中在眼前的冒险上吧。”\n“是！师父大人！”"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我受到冬香的邀请来到菲莱，此地的人们正准备举行一场盛大的庆典。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哟，这不是魔<r=BOSS></r>王嘛。什么风把你吹来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香说这里有庆典，邀请我来玩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这我当然知道。 可庆典是在明天诶？你不会弄错日期了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没弄错，我只是想着能不能提前过来搭把手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "真的？你人好好，大家都忙得不可开交，看到你肯定会很高兴的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。 那么，请问小禾大人在做什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "啊…… 你那个眼神，绝对是以为我在偷懒吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这次的丰收祭，小冬香要代表菲莱上台演讲，所以我正在准备演讲用的特制服装啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你来做服装……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "菲莱本身就是农业繁荣的地方，丰收祭是本地各类庆典中最重要的一项，堪称“节日之王”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这回冬香的身份也不一样，她以前当过“旅人代表”，这次是“城邦代表”，分量很重。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "重要的伙伴要出席重要的节日…… 我一定要准备最完美的服装，好好支持她。别担心，枫姐也会帮忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香竟然要作为城邦代表出席…… 真了不起。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她人在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "估计正在帮忙设置烟花吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我去看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "打、打扰了…… 这个烟花筒要放哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烟花匠人",
+   "text": "放这里就行！哎呀，不愧是冬香大人，四米长的烟花筒说搬就搬，完全没难度啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "哪里的话。我能做的本来就只有帮忙搬些重物了…… 呜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烟花匠人",
+   "text": "冬香大人！您没事吧！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我没事， 稍微被绊了一下而已……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烟花匠人",
+   "text": "您看上去脸色不太好，请千万别勉强自己。刚刚是最后一个烟花筒了，剩下的工作就交给我们吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "不好意思，让您费心了。那…… 那我去下个地方帮忙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烟花匠人",
+   "text": "冬香大人，请等一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "还，还有什么事吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烟花匠人",
+   "text": "这是回礼。虽然比较简陋，但请您收下这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "哇…… 是烟花，谢谢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香在和别人正常交流……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来她怕生的问题已经缓解很多了，太好了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "辛苦了，冬香。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "您也辛苦了…… 师父？！您、您怎么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你邀请我来的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是、是这样没错…… 但丰收祭是在明天哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道，所以才要提前一天来帮忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "唔…… 可我只是想让师父好好…… 享受庆典……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜…… 师父……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬，冬香？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "情况就是这样…… 我果然还是有点担心……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "提前一天来果然是正确的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "之前在营地演讲虽然很成功…… 但这回台下的人可是要比那时多一百倍…… 不对，多一千倍哦，万一出错的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你早就不是过去的你了，一定没问题的。包括在我来之前，你在别人面前不是一直表现得很好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是啊。可是，可是一看到师父，我忍不住就想撒娇了…… 嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "庆典的工作人员",
+   "text": "冬香大人~有空吗？我们想彩排一下开幕仪式！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好，好的，这就来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心，我会陪你一起的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "太好了！有师父在…… 感觉一下子安心下来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "咳咳，嗯哼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冬香带着格外庄重的表情，站上讲台。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "周围的人们一边忙碌，一边期待地望向讲台。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "加油啊，冬香！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "庆典的工作人员",
+   "text": "那么我们开始彩排！三， 二， 一…… 请！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "庆典的工作人员",
+   "text": "咦？冬香大人，已经开始了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "没等到我反应过来，冬香就仿佛断线的人偶一般，直挺挺地倒了下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜…… 呜呃…… 我怎么在协会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在彩排的时候晕倒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "彩排…… 啊！对，我在彩排演讲来着！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "得赶快过去…… 不然大家要着急了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别急，你先休息一会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "但、但是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听说你这几天都在帮忙准备庆典。工作人员担心是不是大家太依赖你，才导致你累过头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "怎么会…… 我是真心想要帮忙的，不怪大家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白。所以为了明天演讲能顺利进行，你现在的任务应该是把身体养好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你压力太大啦。嗯…… 这样吧，我们不如放个烟花，放松一下心情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "放烟花？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "店老板之前不是塞给你一些？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，是说之前的回礼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就这么定了，我们两个来提前庆祝一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "火花噼啪作响，闪烁着光芒，冬香不知不觉便看出了神。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "随着烟花的燃烧，她心中的紧张和不安似乎正在逐渐消散……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "你觉得怎么样？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "很，很漂亮。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "我相信对于菲莱的人们来说，你就是这支烟花",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父的意思是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "对于他们而言，你就是最耀眼的希望之光",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "像烟花一样照亮夜晚的黑暗",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我哪有这么伟大……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "或许，只是“现在”还没那么伟大",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜呜…… 师父您夸过头啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好，好害羞……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "菲莱人民眼中最耀眼的烟花",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "不会只能照亮一个人的眼睛",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "原来师父是这个意思……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你始终在为了这座城市的人们而努力。 大家肯定想看见被冬香照耀的未来，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，不用想得太复杂，做你认为正确的事；然后，别太强迫自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "万一遇到迷茫，或者力有未逮的时候，就来找我帮忙吧，我永远支持你，毕竟…… 我是你的师父嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "突然，夜空中划过几道流星。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊—— 快看，是流星！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "对、对了，得赶紧许愿才行。 流星啊流星，希望你能实现我的愿望……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "许了什么愿望？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嗯…… 我希望…… 算，算了，这是秘密！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不打算告诉我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "愿望说出口就不灵光了，就算是师父…… 也得保密！嘿嘿~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这么说我更好奇了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "流星或许真的实现了她的心愿。休憩一晚后，第二天冬香主持的开幕致辞圆满顺利，菲莱丰收祭在人们的笑声与掌声中完美谢幕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

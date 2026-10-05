@@ -1,0 +1,39 @@
+{
+ "heading": "# 战斗气泡 `BBm00_02`",
+ "info_title": "剧本信息",
+ "info": [
+  "- **AVG 剧本**：`BBm00_02`",
+  "- **气泡条数**：3",
+  "- **出场说话人**：琥珀",
+  "- **挂载状态**：属序章《最初的起点》沙漠星塔一战，Story 表不列序章所以无行引用"
+ ],
+ "recap": "",
+ "body_title": "战斗气泡对白（SetBubble，随战斗阶段推进）",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "wave",
+   "no": "1"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "照片……发送。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "这样她们就不会迷路了。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "嗯，确认下周围的情况吧。"
+  }
+ ]
+}

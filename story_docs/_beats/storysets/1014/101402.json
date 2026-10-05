@@ -1,0 +1,804 @@
+{
+ "heading": "# 跨越星声的对话 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#14《跨越星声的对话》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`101402`",
+  "- **AVG 剧本**：`STsp_14_02`"
+ ],
+ "recap": "在幻境中，焦糖似乎看见了某个人过去的记忆，但当焦糖即将触及星塔之音的真相时……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在幻境中，焦糖似乎看见了某个人过去的记忆，但当焦糖即将触及星塔之音的真相时……",
+  "episode": "第二话",
+  "title": "跨越星声的对话"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "焦糖老师，今天的表演也非常棒哦， 调查问卷结果已经出来了，观众们都赞不绝口呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "虽然中间的即兴表演让我捏了把汗， 但真不愧是焦糖老师！您是在有意控制观众的情绪流对吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "那不是即兴，那是......我......！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "又是这样……一想说出真相， 就会突然语塞……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "啊哈哈，明白明白。 老师想要给演出加点整蛊反应的小巧思嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "不过，整蛊做得太过火的话，还是会有观众脱粉的， 要注意点啊。大家花钱买票来可不是为了看“这些”的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "“这些”......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "可是，那才是我真正的声音！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "今后也要继续创作大家想听又爱听的音乐哦。您可是被弗拉维奥寄予厚望的，重量级新人吉他手啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "吉他手？ 不对，米达丝是.......！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "是贝斯啊！ 为什么……我也发不出声音？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "嗯？老师还给吉他起了名字吗？可爱呢，以后的宣传说不定也能用上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "如果无法传达话语的话，就用音乐试试……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "哦？又开始展示你的小巧思了？ 不过，大家想要的…… 是这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "？！这声音，是吉他？米达丝明明是贝斯，为什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "现在弗拉维奥的流行趋势是吉他。 所以，“焦糖”也必须去演奏吉他。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "大家喜欢的音乐都是激烈的节奏加上明亮的音色。 所以，“焦糖”的音乐也必须跟上流行趋势。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "这是，至高无上的大魔女罗维娜大人亲自定下的规则，决不允许打破哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "制作人",
+   "text": "明白了吗？焦糖老师？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "明白了吗？焦糖？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "明白了吗？旅人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "啊啊啊————不要夺走我的声音！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "焦糖小姐，你还好吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "哈啊……哈啊……！ 这、这里是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "这里是我的诊所， 慢慢平复呼吸。喝点水压压惊吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "啊，谢谢…… 我刚才在做梦……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你还记得自己回忆在星塔里爬塔的时候，突然开始演奏吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你像被什么附身了一样，忘我地弹完一首曲子后，就直接晕过去了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "原来是这样…… 呼……还好是梦。现在想说什么都能随意说出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "嗯……米达丝的声音也没变。 没错。贝斯怎么会变成吉他的声音……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "医生……我都想起来了。 塔里究竟发生了什么，我全想起来了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我说不定已经有点精神失常了…… 医生，能听我说说吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "也就是说，你在星塔里弹吉他， 然后看到了幻觉……是这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "嗯，对！不对…… 米达丝不是吉他，米达丝是贝斯啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "抱歉。我对音乐领域比较生疏……咳咳。 言归正传，继续描述你的所见所感吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "在幻觉中，你正在演奏那把乐器。但是中途手指擅自开始动起来，乐器的音色也变了，最后连自己的声音也发不出来了……是这样吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "对……太可怕了。 简直就像是变成了一具提线木偶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我想要说的话……却怎么也说不出口，只能任由观众和制作人摆布……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "医生，我该不会得了失语症什么的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "放心吧，根据检查结果来看，你的声带很正常，精神也没问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "太好了…… 会是许愿时的副作用吗？说不定许了什么大愿望，只是我不记得了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "这个还真不好说。虽然有很多关于记忆缺失的报告，但在塔的探索过程中看到幻觉，我还是第一次听说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "目前星塔还有许多未解之谜，也许是塔内发生了什么异常状况，间接对精神造成了一些不良影响吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "异常状况……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你有什么头绪吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "不知道算不算异常状况，但我那个时候觉得四周异常安静。 平时一直回荡在耳边的星塔之声也完全听不到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "不过，当我弹奏米达丝的时候，就听到了某个声音好像是在回应我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我很开心，就继续演奏下去了。那是我至今为止体验过最棒的一次合奏……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "可是，却看到了可怕的幻觉…… 难道是因为我的回应没有让那个声音满意，所以星塔生气了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "……也许有这个可能性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "在幻觉中，焦糖小姐被强迫演奏了不属于自己的音乐，对吧？如果操纵你的“那个声音”就是星塔的话，那在逻辑上算是说得通了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "说起来……在幻觉里，有人好几次对我说，焦糖必须用吉他演奏明快的曲子。 说那是“罗维娜”定下的规则。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "“罗维娜”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "是的。难道说，塔也有名字吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "……这可难说。刚才我也说过了，星塔还有很多未解之谜。或者说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "那可能是会给旅人，带来伤害的“某种东西”的名字吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "慎重起见，最好还是向地理协会报告一下。我会把汇总好的病历准备齐全的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "另外除了伤药，我还可以开一些镇定精神的药。 还有什么问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "那个……在您看来，或许会觉得，我疤没好就忘了疼…… 但我还是想问——我能继续在星塔里演奏吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "医生可没有剥夺音乐家玩音乐的权利哦。 不过，你不害怕幻觉症状吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "说实话，害怕肯定是害怕的…… 但心里更多的是不甘心，我的回应没能让塔的声音满意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "而且，我也想知道。为什么塔的声音会去追求那样的音乐…… 作为一名演奏者，我想好好面对这件事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "这样啊……志向远大呢。 既然如此，那就更不能阻止你演奏了。我会支持你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "伊格娜医生……谢谢您！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "为了将来有一天能让塔和幻觉都认可我的音乐，我今后也会继续努力的。谢谢您的治疗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "要是再遇到什么困难，随时来找我。保重。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "“罗维娜”的规则吗...……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "没想到，竟会在这里抓住你的狐狸尾巴。我可不会放过这个机会—— “魅影”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "你好！请问协会之家的负责人在吗？我在星塔里遇到了很危险的情况需要报告。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "是探索的报告吧。请稍等。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "薇洛，有人来报告了哦——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "让你久等了。我是埃摩分部的负责人薇洛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "今天是来做星塔的探索报告的对吧。 抱歉需要照常走个流程，请阅读一下确认事项。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "特别是这一项……关于高危险度的内容，在地理中心协商后，有可能会公告给其他旅人。请问您同意吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "同意同意都同意。 我觉得所有人都有必要了解……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我接下来要说的事情，你可能会有些难以置信， 但真的全是我亲身体验过的事。先从这里讲起吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "半个小时后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "在星塔里产生幻觉……行为控制……这确实是第一次听说的事件。焦糖小姐平安无事真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "嘿嘿，我也觉得自己还活着真是太好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "感谢您提供宝贵的情报。焦糖小姐，请问您接下来有时间吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "嗯？时间倒是有的，有什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你遇到的情况下比较危险，我需要和协会上层以及恩赐意志的同僚们讨论一下，能麻烦你在这里稍等一会吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "需、需要和那么多的大人物讨论吗！？我明白了。 那就拜托了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "等待时您可以享用这里的饮料和零食。有什么需要请叫我哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "那、那个！我可以在角落里保养一下米达丝吗？不会妨碍到大家的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "没事的，您自便就行，优美的背景音乐我们还是欢迎的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "♪——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "事态比我想象中还要严重。原来是那么危险的状况啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "不过……我果然还是没法放弃演奏。我想弄清楚，自己为什么会看到那个幻觉",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "真是一首充满魅力的曲子。贝斯，弹得很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "啊，谢谢！请问你是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "哇哦，这个人也是旅人吗？她竟然认出了米达丝是贝斯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我是黎明近卫的风影。刚才听到了很有趣的话题，就对你产生了兴趣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "有趣的话题？难道是指在星塔里看到幻觉的事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯。情况虽然有些不同，其实我也有过类似的经历。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你所说的那场幻觉……那恐怕，是“尊者”搞的鬼吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "尊者？那是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "可悲之人的灵魂，被星塔吞噬后的末路—— 也算是一种星骸吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

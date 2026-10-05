@@ -1,0 +1,980 @@
+{
+ "heading": "# 01 能源危机",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：心跳！柔光狂想曲（活动编号 10108）",
+  "- **关卡 ID**：`101080201`",
+  "- **AVG 剧本**：`STev_08_01`",
+  "- **关卡描述**：绿洲号遭遇荒野大危机，你联系上了那位神秘的商人……"
+ ],
+ "recap": "绿洲号的能源危机在布洛可的帮助下暂时解除。而你们也接下来了来自她的委托——为她寻找失踪工匠，斯帕克拉的下落。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "绿洲号的能源危机在布洛可的帮助下暂时解除。而你们也接下来了来自她的委托——为她寻找失踪工匠，斯帕克拉的下落。",
+  "episode": "第一话",
+  "title": "能源危机"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "欢迎光临，这里是布洛可的移动小摊哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "魔王协议的首席执行官，我在这里恭候多时了～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "我第一次来采购商店，你是谁？",
+   "options": [
+    [
+     "你就是管理采购商店的布洛可吧？",
+     "",
+     ""
+    ],
+    [
+     "光顾着领每日奖励了，没想到商店里居然有人。",
+     "",
+     ""
+    ],
+    [
+     "我该怎么回答她呢",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "你就是管理采购商店的布洛可吧？"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呜呜呜~竟然记得我，在老板您这儿刷了225天的脸，终于成功了！ 还好我长了一张可爱又好记的脸，以后还请多多光顾哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "光顾着领每日奖励了，没想到商店里居然有人。"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "怎会如此！！老板啊老板，那您可亏大了！布洛可这里每天都有小赠品在等您领取。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "您已经错过了……我算算…… 足足225件赠品！真是太可惜了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "不过，这样一来您就记住我布洛可了吧。今后还请多多惠顾哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "我该怎么回答她呢"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "什、什么？！我那225天风雨无阻的可爱微笑就这么被错付了吗？！不对，我明明和老板您对上过眼神的啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "开个玩笑啦，我认识你~你叫布洛可。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "我该怎么回答她呢"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呵呵呵，老板您真是的~就算我长得可爱，也别开这种玩笑啦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "为了祝愿老板今后的旅途平安无事，我特意前来打个招呼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "如果今后在荒野遇到了什么紧急情况，随时联系我。 旅行商人布洛可保证随叫随到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "绝对不会让老板失望。不论您需要什么物资，都能从我万能的小车车里找到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "祝老板身体健康，冒险顺利，好运旺旺旺~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "emoji_rose",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我的手机里添加了“布洛可”的联系方式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "虽然她人还挺热情的，不过短时间内应该不会去找她吧——我本是这么想的…… 直到那一刻突然降临。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，真的…… 一点都不剩了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "是的，大家心相石里的恩赐都空空如也。所以…… 小绿发动不了了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "得去补充恩赐……我们到最近的城镇大概还要多久？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "至少两天的车程。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "三人",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "三人",
+   "text": "诶诶诶诶诶诶！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别着急，也许有人能帮我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "布洛可，现在方便吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "emoji_rose",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎呀，老板好！您真是挑了个好时间~本店新到了一批好货，发给您瞅瞅？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有新商品啊，没事的话我还挺想看看的，但我现在需要你的帮助。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实……绿洲号的能源在荒野里耗空了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你那里有能补充恩赐的东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呵呵，当然有啦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "我想想啊，给我10分钟。我马上给您捎过去哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "emoji_rose",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "一个名叫布洛可的旅行商人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这荒郊野外的，她真的能随叫随到？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "布洛可……布洛可…… 好像在哪里听过这个名字……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在也没有别的办法了，总之先等吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "十分钟后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "有人，来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哼哼哼，优秀的商人可是很守时的。毕竟时间就是金钱嘛～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板，我们又见面了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这么短的时间内竟然真的出现了？！她是怎么办到的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哼哼。这是商业机密哦，可爱的小姐♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……啊！我想起来了！薇洛说过，她买义肢时的那个商人也叫布洛可！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "就是你吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "啊，我记得那位地理协会的老板，她的义肢可是费了我不少劲儿才搞到手的高级货啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "对了对了，老板，您要的东西我带来了哦！锵锵♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "完美平替恩赐，可提供动能一箱更比六箱强，布洛可强力推荐：柔光溶液！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个…… 不行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "诶？！为什么不行啊老板？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们需要的是恩赐，不是柔光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "况且，柔光溶液是一种被禁止使用的魔力液体吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是啊，我们之前在菲莱见过，确实是很危险的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "而且我听说柔光溶液很容易让神器报废，还会引发爆炸不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那是因为用了劣质产品啦～我只经手高品质的柔光溶液，您就放心吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "大家应该知道很多旅人在偷偷使用柔光产品吧？但你们也没听到过什么重大事故的传闻，对吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这倒是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "恩赐只有在城镇里专门的商店才能补充，这里前不着村后不着店，老板也是走投无路才来拜托我的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "放心啦，我可是使用柔光制品的老手，有我在一旁协助就不会出问题的啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，你来决定吧！只要能动起来，不管发生什么，我一定会让小绿安全到达目的地的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，那就试试看吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "好嘞~只要画个法阵，让车子接受这些柔光溶液的供能，就能跑起来啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，能开动吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯！小绿的轰鸣声和往常一样！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "我早就说过了吧？布洛可只卖物美价廉的高品质商品哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "顺便一提，我这里还有其他很适合老板们的商品哦。比如…… 锵锵！用柔光技术制作的冷却风扇！现在只要区区五万朵拉就能买到哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "五、五万？！我记得店里卖的那些基本五十万起步……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "还有还有，这个柔光环绕式音响也很推荐哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "这辆车装饰得非常温馨呢，老板们对它一定很有感情吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "想象一下，在某个宁静的午后，坐在爱车里，用最棒的音质听着喜欢的音乐，靠在软绵绵的靠垫上喝着能量沛沛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙、琥珀",
+   "text": "哇哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "打住打住，这次只是迫不得已才用的！我们对柔光安全性的怀疑可还没消除呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "这点就放心好了！各位老板都是我的优质客户，我可不会随便忽悠你们的～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "如果还是不放心的话…… 不如这样？今后从我这儿购买的柔光产品，给你们打九折！而且我保证所有售出商品的售后服务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "悄悄告诉各位，其实我和一名优秀的柔光工匠关系非常好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "刚才那位开车的老板提到的义肢，老板您有见过吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "薇洛的义肢吗？做工确实非常出色。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "对吧对吧？那可是一个叫“斯帕克拉”的工匠的得意之作哦。有她做售后，您就放一百个心吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的提议确实很诱人…… 不过我得先去问问薇洛的实际体验怎么样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "当然没问题啦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多谢理解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "薇洛，现在方便聊几句吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "是魔<r=BOSS></r>王啊，有什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "布洛可向我介绍了设计你义肢的斯帕克拉，关于她的手艺，能告诉我你的真实感受吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "她的手艺非常高超。我现在用的义肢，无论是灵活度还是力度控制，都完美满足了我的需求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "事到如今，我已经不想用其他人做的义肢了。下次我还打算拜托布洛可帮我联系斯帕克拉，下份新订单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然薇洛的评价这么高…… 那我们也买下布洛可的商品试试吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好耶！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哦呵呵，老板大气！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "打扰了，我是布洛可。薇洛老板，您刚才说还想联系斯帕克拉下份新订单？需求您只管提，我一定会说服她做出让您满意的产品！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "真的吗？那就拜托你了。我想再联络她的时候，发现已经被她拉进黑名单了， 所以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "黑名单？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "啊哈哈哈，天才嘛，总归有些怪癖的啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "别说是薇洛老板，就连我也经常被她拉黑呢~其实现在我就联系不上她……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这…… 也能称得上是关系好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那可糟糕了。这份订单还挺急的，如果连布洛可都被拉黑的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎、哎呀呀，问题不大，放心交给我吧~我会尽快和她取得联系，绝对不会影响您这边的进度！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不愧是布洛可。真是商人的楷模啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哪里哪里，能不能找到斯帕克拉，还得靠您啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有我的事儿？直接上门去见她不就行了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "没那么简单啦……斯帕克拉常年窝在她的移动工坊里，如果她不告诉我坐标，就没有人知道她目前的位置。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "所以这不巧了嘛！！我早就听说空白旅团找猫找人都是一绝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "所以，务必想委托你们……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是想让我们查出斯帕克拉的下落？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "对对对！事成之后，除了委托费，将来我也会提供更大力度的消费优惠！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "更大力度的消费优惠？确实不错…… 明白了，我们就接下这个委托吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "真的吗？帮大忙了～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "能让我也加入你们吗？我收到这只义肢之后还没向她当面道谢呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哦！连薇洛老板也愿意帮忙啊，那可真是如虎添翼呢～♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "另外，有个线索不知道能不能帮上忙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "最近好些旅人都不约而同地前往菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "听他们说，菲莱灰城区的地下市场聚集了不少柔光会社的工匠，大家估计都想趁机淘点好货呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "说不定那里会有斯帕克拉的线索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

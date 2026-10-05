@@ -1,0 +1,1101 @@
+{
+ "heading": "# 终局 联合种业的救赎",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第七章《星之竞拍》（星塔历 996 年）",
+  "- **关卡 ID**：`814`　**编号**：`终局`",
+  "- **关卡名称**：联合种业的救赎",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm07_06_bc`",
+  "- **关卡描述**：懦怯确实囚禁了灵魂，但希望没能还你自由。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你再次贷款续命，并凭这笔资金收拢了联合种业的各方势力。\n但唯一有着广泛威信的玛蒂尔达却意外牺牲，公司陷入了混乱。\n之后你因员工过失身陷囹吾，尝试越狱的你不幸被暴雨淹没……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你再次贷款续命，并凭这笔资金收拢了联合种业的各方势力。\n但唯一有着广泛威信的玛蒂尔达却意外牺牲，公司陷入了混乱。\n之后你因员工过失身陷囹吾，尝试越狱的你不幸被暴雨淹没……",
+  "episode": "终局",
+  "title": "联合种业的救赎"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "不可能。 就算你们拿的出抵押，渊海星融也不会再借给你们一个朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "据我所知，菲莱公司现在的利润率很糟糕， 你们的销售额不低，却几乎赚不到什么朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "这个月的还款日马上就要到了，你们需要担心的是能不能按时还款，而不是琢磨怎么再贷一笔朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠， 请把大门关上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "没问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花， 去看看这里的后门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "你，你们要干什么？ 我，我告诉你们，抢银行可是重罪， 我只要按下这个按钮，帝国卫队就会赶过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别误会，只是我们接下来聊的事情，不适合被外人听去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千语经理……如果我没记错的话，贷款给菲莱公司四百亿，应该是两年前你最重要的业绩吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "是，是又怎么样？我现在的绩效指标是对你们的贷后管理……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么……如果我们这个月还不上款，你是不是就要被上司狠狠责罚了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "那，那也不能继续借给你们朵拉啊， 再借下去你们不还是还不上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不不，千语经理， 你的视角太狭隘了，要思路打开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在市场上的粮食那么紧俏，菲莱公司的利润率却很糟糕， 可是利润并不会凭空消失，只会从一个地方转移到另一个地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么， 菲莱公司的利润转移到了哪里呢？ 当然是按照协议价收购我们粮食， 再高价卖出去的渊海星融对不对？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "是……是这样没错，但那部分业务也不归我管，业绩也不归我，从你们身上拿的利润和我没关系啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别急，我不是来兴师问罪的，我只是想维护公道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你看，明明是你辛苦谈下来的好生意，结果却给别的部门做了嫁衣，这种事情你也觉得很不公平吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "……这是公司的安排，没，没什么不公平的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千语经理，你的表情暴露了你的想法哦。那我就说说我的计划——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你借给我们八百亿朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "八， 八百亿？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "千语经理， 经理！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "请接着说， 我还撑得住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其中的四百多亿，我们用来还掉上一笔贷款和利息， 剩下的三百多亿，我们会用这些朵拉，去收拢旧联合种业分崩离析的那些分公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "以贷养贷，这是渊海星融严格禁止的， 魔<r=BOSS></r>王，就算我想帮你，公司也绝对批不下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你说得对，所以这笔贷款不会以菲莱公司的名义贷，而是以魔王协议的名义贷款。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抵押物，就用我们仓库里的神器，还有我的这枚\"恩赐印章”吧， “灵魂”的特许经营专利，这种稀有的经营领域，绝对值得这个朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "可，可是魔王协议还是菲莱公司的共治公司，你们贷款……需要审查菲莱公司的连带情况……依旧无法通过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经不是了，那些股份，魔王协议已经归还给了玛蒂尔达大监察官组建的新联合种业。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "此时此刻，魔王协议和菲莱公司已经没有关系了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "这么说……倒是符合公司规定了。不过，我，我不知道能不能争取来八百亿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千语经理，这笔贷款对你，或者说对贵部门的好处多多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "魔王协议已经和新联合种业签订了魔法契约，会包销新联合种业百分之五十的粮食产出。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "魔王协议也可以和渊海星融就这笔贷款签订新的附加条件——魔王协议的粮食全部以之前的协议价销售给渊海星融。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但这次，请不要把业绩再被别的部门抢走了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "新联合种业要收拢旧联合种业分崩离析的分公司…… 那粮食的总产量会翻上几倍，魔王协议就算包销其中的百分之五十，收益也会比现在更多， 用这点的确可以说服公司元老院的那些人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "重要的是， 这份业绩可以算在千语经理的名下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "干吧，经理！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "魔<r=BOSS></r>王，八百亿朵拉， 魔王协议真的还得上吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心吧， 一切都在我的掌握之中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "饥饿的种业员工",
+   "text": "只要您肯给我们发工资， 我们金翎港分公司立刻重归新联合种业的旗下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烦恼的种业员工",
+   "text": "哎，玛蒂尔达大监察官北上去和新奥勒良派决战了，这边的森林开垦工作都没人管了， 如果不现在开垦出来，明年的春耕计划就会受影响。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烦恼的种业员工",
+   "text": "如果您肯支援我们开垦的物资，我们愿意听您的指挥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的种业员工",
+   "text": "没想到，新联合种业还能关注到我们这个默默无闻的办事处， 麦子堆在仓库都快烂掉了，请快点运走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两个月后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，抓稳了， 我们要落地了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，终于回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "短短两个月里，我在夏花的帮助下，靠着她的魔法飞遍了新奥勒良之外的联合种业分公司和办事处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从渊海星融贷来的三百多亿朵拉，为这些分公司和办事处解了他们现实中的燃眉之急。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们许诺的未来和玛蒂尔达大监察官的良好名声，让它们有了精神上的依靠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，新联合种业如同一个被吹起的气球，飞快地恢复了新奥勒良之外的旧版图。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "各位，魔<r=BOSS></r>王这次出差的效果很不错，各地分公司和办事处都愿意集合在玛蒂尔达大监察官的旗帜下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "现在，我们已经掌握了诺瓦五成的粮食产出，只要有序耕种，就可以避免粮食危机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王，夏花，辛苦你们了。你们真是重建联合种业的大功臣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠，有你在菲莱，保证公司的正常运营，我们才能放心去和那些人谈判。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不过……这样一来，新联合种业的员工就增加了十万人，我们真能管理得过来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "菲莱公司的员工我们都很熟悉，但其他分公司的人……的确交往不多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "玛蒂尔达大监察官应该熟知各个分公司的内情，只是，她现在不在菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听说她带兵北上去对抗新奥勒良派的残党了，战况如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "通讯完全断了，没有消息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不管怎么说，用两千人去对抗两万人还是太勉强了，我和星雁劝过大监察官不要急于北上。但她说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "新奥勒良派不会坐视我们统合那些分公司，就算是为了拖住敌人，我也必须出发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她的判断是对的……没有她在前线坚持，我们统合这些分公司的行动不会那么顺利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "魔<r=BOSS></r>王，大家，我……我回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "星雁？！你什么时候到的，你不是和大监察官一起出征了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我们……我们胜利了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "各地的分公司不断加入我们，让新奥勒良的两个军团军心动摇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "大监察官的带头冲锋，我们以少胜多，生擒了联合种业元老院的大部分元老。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "星雁，你为什么这个表情……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我们胜利了，但是大监察官在战斗中被魔法击中， 牺牲了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "玛蒂尔达大监察官的牺牲， 带来了比我们想象中更严重的后果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们缺乏人力和经验控制新联合种业庞大繁多的分公司和办事处， 很快尝到了过度扩张的苦果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "报告，雨林那边送来的麦子不合格，有很多发霉的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "检验环节是怎么做的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "检验员说——他们检验时是没问题的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那就是仓储环节的问题，这批麦子的仓储负责人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "那个，负责人在金翎港卸货的时候出了事故，捆绑货物的绳子松了，他被砸在下面受了重伤，还在昏迷中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这……工作失误的事情回头再说，先送去抚恤金吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "新奥勒良分公司发来跨城联络，说他们的仓库被烧了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "盘点资产仓库就失火，星雁，只能麻烦你亲自去一趟了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "没问题，但是我手下还积攒了三四起贪污案，这个……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这几个案子我来处理吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，你好几天没好好睡觉了，要不然还是交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系的，这种时候大家都很辛苦，我们再加把劲。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然而，有些错误， 不是靠努力就能弥补的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们缺乏对各个分公司的员工筛选的能力， 只能先全盘留用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这样一来， 贪婪、怠惰、盲目，各种旧种业的“毒素”， 不可避免的顺着公司的组织架构， 渗透到了菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们在做什么？为什么要抓我？ 千语， 我们可是一条船上的人，你把我送进监狱对你有什么好处？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "我把你送进监狱？ 笑话！我也要陪着你一起进监狱了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "渊海星融的审计发现，魔王协议用来做抵押的神器，很多都是只有外壳的假神器。 我和你都涉嫌骗贷，你真是害惨了我啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "假神器……这怎么可能？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几天后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王， 有人探监。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，是你……骗贷那件事情查清楚了吗？我是清白的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，事情已经查清楚了。一些员工见钱眼开，盗窃公司资产，导致抵押物出了问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "但是，这些员工已经把所得赃款挥霍一空，骗贷带来的负面舆情让新联合种业的生意受了很大影响，并且最麻烦的是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "按照法律，渊海星融要求魔王协议归还八百亿的贷款后，才能放你出去。你作为首席执行官，必须承担这个责任……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "八百亿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那个，按照翡冷翠和我的计算，我们大概能在十五年……最晚二十年内还清这笔贷款。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，我会等你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可恶，怎么能让夏花等我那么长时间，我必须想个办法…… 对了， 之前在星塔影戏里看到过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看守，看守，我要求读书， 还有给我最新的魔法少女海报！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一段时间后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我被关进来…… 已经快两年了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我把从餐厅偷到的勺子，夹在一本书里藏着。 每天趁着放风的时候，把挖的土扔到外面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今晚，雷雨交加， 正是越狱的好机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，等着我， 我这就去找你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘿咻，只要钻进这个洞， 在挖穿通向下水道的最后一点泥土， 就可以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？ 这是什么声音？ 为什么会有这么多的水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咕噜噜…… 星塔影戏里不是这么演的啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈，哈—— 为什么， 为什么我被淹死了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "这场雨是菲莱百年难遇的特大暴雨， 原本可以作为逃脱路线的下水道，在这个晚上变成了危险的暗河呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "我记得，魔<r=mowang></r>王大人应该不擅游泳吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……不该相信影戏里的剧情的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "还是看看您的小屋，怀念一下监狱的里的生活吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "其实，根据我们的观察， 您在这里有良好的作息，适量的运动，以及营养均衡的饭菜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "您的身体其实比之前还要健康了不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "况且， 还有一个非常非常非常关心您的美少女每周都来探监， 我要是有这样的坐牢体验，肯定不想出去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谁等得了二十年啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维塔， 打开大门，我要回去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "再会，魔<r=mowang></r>王大人， 没有合适的团队，管理太多的人也是一种负担呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "公司，比星塔还要危险复杂呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我会回去的...... 这一次，我必须回到更久远的过去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "并不想独占星塔……那个梅尔库莉娅到底在打什么主意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王，我也想听听你的意见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "或许，找渊海星融贷款，就是走进透明盒子的第一步。我应该另想办法才对。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，如果什么改变都不做，我们恐怕也会被这个混乱的市场影响，进入慢性死亡。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "无论如何， 负担都不会减轻呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "玛蒂尔达大监察官很重要，失去她，我们根本没办法管理庞大的联合种业。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这一次，绝对不能让她牺牲。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

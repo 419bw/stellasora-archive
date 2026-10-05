@@ -1,0 +1,868 @@
+{
+ "heading": "# 抹茶梦语 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#04《抹茶梦语》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`100403`",
+  "- **AVG 剧本**：`STsp_04_03`"
+ ],
+ "recap": "师徒三人齐力化解了危机，回到家后，唯咲和秋葵却背着花原进入了厨房……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "师徒三人齐力化解了危机，回到家后，唯咲和秋葵却背着花原进入了厨房……",
+  "episode": "第三话",
+  "title": "抹茶梦语 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "我有一个双赢的办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我可不上你的当。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "这就是你的回答吗？真是不乖的女仆呢。你们几个，砍掉那两个小女仆的小指给她开开眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "你说......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "要砍掉谁的小指？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "嗯？你们怎么...... 你们不是应该被抓住了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "你是说那些守在宴会现场的佣兵？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "他们早就被我放倒啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "饥饿的佣兵",
+   "text": "队长，这抹茶蛋糕的口感怎么这么奇怪，这真的是抹茶蛋糕吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的佣兵",
+   "text": "原来宴会上那些贵人们就吃这玩意啊，我突然完全不羡慕他们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "饥饿的佣兵",
+   "text": "我肚子有点痛，先走一步……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的队长",
+   "text": "等等。我的头好晕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的队长",
+   "text": "不，不对，蛋糕里有毒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "太失礼了，我绝对没下毒，这可是我认认真真做出来的抹茶蛋糕。 只不过稍微加了一点点调料而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "你根本就没有一点调味的天赋啊。 比昨天的抹布水还难喝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "还好给客人吃的都是我帮你改良过的，否则就要爆发群体性食品安全事件了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "咦？难道我是做暗杀食物的天才？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "你到底有多乐观啊！！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "先不说这个了。 喂，你们的雇主在哪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的佣兵",
+   "text": "绝、绝对不会告诉你们，我们也是有骨气的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "唯咲，喂这位佣兵吃蛋糕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "好嘞，来~张嘴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的佣兵",
+   "text": "别，别，我这就告诉你们，我会亲自带你们去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "这些佣兵太让我失望了...... 竟然被一块蛋糕干掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "投降吧，你已经被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "对对对——！投降吧，把偷村子的米还来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "米早就卖掉了，为什么要还？我也不觉得有什么罪要赎。我是凭实力骗到的米。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "你们有本事就攻过来啊，魔法防御卷轴管够。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲，你做的蛋糕还有剩吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "给，师父。您随便用，管够！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "你、你要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "确实，魔法防御卷轴很厉害。 但只能挡住来自体外的威胁……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "至于从体内产生的疾病或不适，是没用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "你、你刚刚向我嘴里扔了什么？咕——好奇怪的味道。怎么又甜又辣的，完全混在一起了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "金城区的客人",
+   "text": "我...... 我好像看到了松川城外的大海——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "任务完成啦！ 虽然有点手忙脚乱的，但能平安回来真是太好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "真是的，刚才手忙脚乱的，九成都是因为你吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "不过话说回来，要是把那家伙身上的魔法卷轴全卖掉的话，村子也能安稳一阵子了。结果来说，算是大获成功吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "还远远不够拯救村子呢，不过没想到实际做起来还挺顺利的，我加入谷风家政前，完全不觉得还有希望追回来呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "这下，回家的时候能吃上美味的大米饭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "吃归吃…… 你可千万别负责煮饭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "煮饭还是没问题的！我不会在米饭里随便添加其他佐料的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "只是...... 什么时候才能回家呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "不知道，我们成了忍者，以及女仆之后，就没有回家的日子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "不过，谷风家政就是我们新的家嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "两位，洗澡水烧好了，你们快去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "不不，今天师父累坏了吧，还是请师父先去。您可要好好休息一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "谢谢了，那我就不客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "您慢慢来哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "着急的把前辈支走，你是想偷偷做抹茶蛋糕给前辈吃，对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "哎，你怎么知道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "我们都是多久的朋友了，今天前辈说期待你的抹茶蛋糕的时候，你都激动地快要跳起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "还是一起做吧，没有我，你肯定又要乱加料了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "嘿嘿嘿…… 那就拜托啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "呼…… 一不小心泡太久了。 得赶紧去叫她们俩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "咦？下雪了？已经完全是冬天了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "时间过得真快，马上又是新的一年了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "呜呜，抹茶蛋糕真难做啊。 要是把宴会上做的留着给前辈就好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "那可不行。偷客人的食物还怎么配当女仆呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲和秋葵……？ 她们在干什么呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "可是现在再怎么弄，都只能像长了青苔的石头一样难看了吧？ 感觉师父的牙都要被硌掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "别着急，前辈洗澡的平均时间是三十分钟，我们还有时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "呜……好吧…… 再努力一下试试看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "原来是……要给我做抹茶蛋糕么...... 就像，过去我给师父做的那样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "那就，先装作没洗完，在院子里坐一会吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "上一次给您做抹茶蛋糕…… 已经是很久很久以前的事情了呢，师父。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "那时，您也会坐在门外，等我做好了再进去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "曾经的我，和唯咲一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "喜欢在甜点里加许多抹茶粉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "那个时候，总觉得重要的食材要多放才能凸显其贵重。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "您挖的那一勺里明明都是抹茶粉，却还强装镇定和我说好吃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "雪又密了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "雪花明明就在那里，可当伸手握住的一瞬间，它们立刻便融化不见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "师父，您为何会在春天来临前突然离开呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "过去那些纷纷扬扬的美好日子，转瞬间便消失的了无踪迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "时间差不多了，我也该进去了，就像您当年一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "快快快！前辈一定已经等了很久了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "呜哇！师父！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "怎么了？一惊一乍的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "那…… 那个！我想让您尝尝这个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "这是我给师父您做的抹茶蛋糕！我好不容易才做出来的…… 请……师......师父品尝……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲，作为女仆在献上食物时，应该怎么做来着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "要始终保持冷静和优雅。对吧？加油！唯咲！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "哦，对……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "咳咳…… 这是我和秋葵一起做的抹茶蛋糕，请师父品尝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "啊，塌了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "用刮刀的时候要轻一点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "没关系的，我觉得这个蛋糕挺有你们的特色，非常好看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我尝一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "味道怎么样！师父！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "抹茶粉还是放多了吧，前辈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "很好吃哦！唯咲！我喜欢苦味多一点的抹茶蛋糕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "哎！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "啊！太好了！耶！虽然很辛苦，但总算没白努力！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "我会做抹茶蛋糕啦！我会做抹茶蛋糕啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "别高兴得太早！要把这道甜品做精细做完美，还有很长的路要走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "正是如此。要真正掌握，路还很长呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不过现在，你们的当务之急是洗澡，水马上要凉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "啊…… 光想着抹茶蛋糕的事了，差点就忘了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "啊！我可不要洗凉水澡！秋葵，快走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "呼…… 抹茶蛋糕还是配茶比较好吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "师父，您曾经说过——抹茶蛋糕的味道是先苦后甜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不管经历了多大的痛苦，之后一定会迎来喜悦。 那，属于我的甜，何时会来呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我好像明白了，您那时的心情呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "花原挖起满满一勺满溢着抹茶粉的蛋糕，放进口中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,828 @@
+{
+ "heading": "# 丰收日 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#10《丰收日》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`101003`",
+  "- **AVG 剧本**：`STsp_10_03`"
+ ],
+ "recap": "岭川的“野心”远不止一个温室，为了实现内心深处的远大梦想，她下决心要得到城外旅人的帮助。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "岭川的“野心”远不止一个温室，为了实现内心深处的远大梦想，她下决心要得到城外旅人的帮助。",
+  "episode": "第三话",
+  "title": "丰收日 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "小小的身影提着铲子，正在森林的深处溜达。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嘿咻~嘿咻~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "难得有机会到野外出勤，必须多带点样本回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "说不定能找到适合种植和杂交的类型。那样的话，品种改良的进度就能加快不少呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "是谁？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "难道又是来偷吃我的食物的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不行，不能那么快下结论，我老是误会别人。 这次一定要冷静点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "等等， 这、这个声音…… 是不是越来越近了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜……虽然有点害怕……但为了守护食物，我是不会退缩的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呼……呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "感觉力气又变大了一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "但是……嗯，没关系，现在的我能控制得住…… 大概？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不许动！偷菜贼！ 乖乖束手就擒吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是…… 是是是是谁？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是来故意找麻烦的吗？呜呜，她拿着大铲子，好可怕……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "咦？ 我，我好像又认错了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "话说回来……她的武器那么大，难道是很厉害的旅人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "咿呀呀呀呀————？！ 怎怎怎怎，怎么办！ 我绝对要被揍成小饼干了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我， 我是不是应该先发制人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "那， 那个……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对不起！ 请你放过我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这、这到底是什么情况……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对不起啦， 我还以为又是来偷我食物的树树鼠呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "哪里哪里， 是我吓到你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那个…… 刚才说了失礼的话，请让我表示歉意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "诶？真、真的没关系啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不不不！不这样我心里实在过意不去！拜托了，请一定要收下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好、好吧。 这是……蔬菜三明治？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嗅嗅……水灵灵的，闻起来很香。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我能尝一口吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "当然。 顺便一提，这些蔬菜都是我亲手种的哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "您居然能种出品质这么好的蔬菜？好厉害…… 那我就不客气啦——啊呜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "唔……！ 明明看起来和平常吃的差不多，但入口格外爽脆，新鲜程度完全不同。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对吧对吧！ 其实种菜啊，就像交朋友，只要肯花心思，它们一定会回应你的期待。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "听上去好有趣……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，难道说，您来森林里也是为了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嗯，我在找找看有没有什么能带来灵感的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "最好是能用来改善环境，或是适合培养新作物的种子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "那个， 如果您知道样子的话。 我……说不定可以帮到您，我对这片森林的了解，可能比一般人要多些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "真、真的？你可真是个大好人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "哇~太好了，一下子都集齐了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "经验丰富的旅人就是不一样，幸好遇见了冬香你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "哪里哪里，我的经验也不算特别丰富，和前辈们比起来还差得远呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，不过，如果是像今天这样的事情，我或许还能帮上忙…… 以后您要是再来森林办事，请随时联系花令旅团，不用客气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "能主动向人推销，我…… 我也长进了一些吧， 嘿嘿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "谢谢你，冬香。 下次来之前，我会先联系你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对了，你待会儿有没有空？我想带你去个“好地方”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这里是……麦田？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "没错！景色很棒吧～？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "可惜因为缺乏专人管理，有的地方已经长满了杂草。 所以，我打算将那些地方重新开垦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "通过温室培育，我已经掌握了一些种植技巧，接下来就是挑战野外环境。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这两者……很不一样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "温室种植可以通过人为控制温度、湿度、光照和通风， 为作物提供稳定的生长环境。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "而野外种植则受天气变化、病虫害和气候条件的制约， 所以更具挑战性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好、好专业…… 完全听不明白……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "唉，可惜第一步就很不太顺利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "虽然买了耕地用的犁，却拉不动， 必须得用神器或者魔物拖拽才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "但我手头没有那样的神器，驯化魔物又得花不少时间……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "等等等等一下——？！ 冬，冬香！你在做什么啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "欸？！ 我，我是不是做了什么不该做的事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "啊不是不是！我只是想问这犁，你一个人就能拉动吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "对不起！我不知道这是不能乱动的东西，我这就把它放回原处！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不用放回去啦，我只是有点被吓到而已！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "……那个，冬香大人，能不请您顺着这条沟，再拉两个来回？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "沿着沟……呃……这样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "没错，就像这样！我会支付报酬的。拜托啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "哇，开垦出来了…… 居然真的做到了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那个， 我要怎么感谢你才好？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "没关系啦，只是一点体力活……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "才不是呢，你可是帮了我大忙…… 对了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "如果可以的话，我能不能和你的旅团——花令旅团签个长期合约？ 这样不管是森林里的事还是开垦，都方便找你帮忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "真……真的吗？我感觉自己没出什么力……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对你来说是举手之劳，但对我来说却意义重大。 花令旅团的驻地在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，离这里稍微有点远呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "不过，菲莱城的周围有很多水道，我们可以坐船去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呼……迎面吹来的风可真舒服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "你看见了吗， 冬香？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "什么？ 我什么都没看见……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "没错， 现在还什么都没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "但总有一天，哼哼，我会将整片山头，从这里到那里——全部承包下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "在上面种满蔬菜，种满水果，还要种树，种花……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "种出数不完的好吃的，这样就没有人会饿肚子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "哇……听上去好厉害的梦想！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嘿嘿，这件事别说出去哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "有些人……总觉得我是在异想天开，会笑话我的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嗯，我会保密的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "真希望有一天，能和岭川一起亲眼看到这样的风景呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "好，合同签好了， 请保管好文件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哇哦，团长很有本事嘛，出去转了一圈，居然就带了个大客户回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "真是的，和某个整天沉迷抓娃娃机的前团长简直一个天一个地呢。 冬香团长，我们未来可都指望你了，要继续保持这个干劲喔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "你——讨厌！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "原来你就是团长啊，之前还说得那么谦虚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那，花令旅团的各位，今后就请多多关照啦！ 我下次会带自己种的好吃的蔬菜过来，好好期待吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "那个，谢谢您……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "好吃的蔬菜……听起来真棒。 我有没有份？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "当然！ 在我这里，只有吃得管够。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "毕竟， 我的梦想是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "岭川没有将话说出口，与冬香相视一笑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“我的梦想，就是让所有人都填饱肚子！”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

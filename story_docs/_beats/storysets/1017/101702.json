@@ -1,0 +1,804 @@
+{
+ "heading": "# 最珍贵的宝物 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#17《最珍贵的宝物》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`101702`",
+  "- **AVG 剧本**：`STsp_17_02`"
+ ],
+ "recap": "夺宝奇兵特丽莎与寻宝团达成合作？追逐特丽莎而来的众人。树林间的记号究竟引向何方？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "夺宝奇兵特丽莎与寻宝团达成合作？追逐特丽莎而来的众人。树林间的记号究竟引向何方？",
+  "episode": "第二话",
+  "title": "最珍贵的宝物 其二"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我已经知道这张地图隐藏的秘密啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自傲的寻宝旅人",
+   "text": "不、不会吧？！这么快！我们研究了十几天都没看明白啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "了不起！我果然没看错人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的寻宝旅人",
+   "text": "快告诉我们！到底是什么秘密？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "麻烦拿杯水来，直接演示给你们看比较快——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "水？你要拿来干嘛啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "就是这样喵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的寻宝旅人",
+   "text": "喂！你这家伙干什么！这可是我们花了大价钱搞来的藏宝图！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "放心吧！接下来，只要用火加热一下就搞定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "特丽莎将淋湿的地图放在火上烤热。藏宝图的空白部分浮现出了新的图案。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "这，这是什么情况？！原来还藏着这样的信息！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我老爹说过，以前的人们在做隐藏记号的时候就会用这种方式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "怪不得一直没人找到宝藏，原来还藏着这样的玄机！ 真有你的啊！送信的小鬼~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "不要叫送信的小鬼喵！我的名字叫特丽莎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "特丽莎…… 真是个好名字呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "我决定了！特丽莎，来协助我们这次的寻宝行动吧！事成之后当然也少不了你的那一份！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "唉……？真的可以吗，这明明是你们的藏宝图啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "我们这行还是很讲义气的！你解开了地图的秘密，已经是大功一件了！当然有参加的资格啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "好耶，谢谢！我最近正愁缺朵拉呢，真是帮大忙了喵～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "太好了喵！一百二十万朵拉的目标就快实现了喵！等我回去哦，多娜！苍兰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "啊啾！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "多娜，把我的外套披上吧，别冷着了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "没事啦！只是打个喷嚏而已。说不定是特丽莎在背后念叨我呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "……不过，多半是在生我的气吧。啊哈哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "难道说……你们两个还是头一回吵架？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "嗯。因为特丽莎平时很少发脾气的……直接离家出走更是第一次。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "别太钻牛角尖了多娜。毕竟从那之后，你们还连面都没有见过。只要好好谈一谈，一定能互相理解的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我也是这么想的，朋友之间偶尔拌个嘴吵个架很正常。你们一定能和好的啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "赞同~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "认识以来竟然一次架都没吵过。你们两个感情真是好呢♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶嘿嘿~不像我，经常惹鸢尾生气， 幸好鸢尾很大度，每次都能原谅我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "就算你夸我也不会有任何好处哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不过也确实……雨过天晴，有时候吵过架的才能体谅到彼此的心意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "“雨过天晴”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "……嗯，说得也是，谢谢大家啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "好！绝对要找到特丽莎！先向她道歉，然后把我的心里话全都跟她说清楚！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哈哈~就是这个势头！再加把劲继续找吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "啊。这是什么。……记号？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "这个形状……！很有可能是特丽莎留下的记号！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "！！大家，小心头顶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的寻宝旅人",
+   "text": "呜哇——！这么大的藤蔓！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "快趴下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自傲的寻宝旅人",
+   "text": "噫！灌木丛里还有暗箭……！这地方怎么全都是陷阱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "这条路线也很危险，得留个记号……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "哼哼哼！这就累了吗？前面交给我，你们就在后面慢慢——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "？！危险！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "呜呀——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "好疼……呜哇，好大一块石头！差点就被它压到了…… 多亏有特丽莎在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "不、不客气……这附近肯定还有其他陷阱，大家都要小心点哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "我知道了…… 特丽莎的危机感知能力，真是让我佩服得五体投地呢。难不成你能预知未来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我送信抄近路经常会经过危险的地方，所以凭感觉大概就能察觉出来啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "而且，危险的地方附近肯定藏了点什么——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "锵——！果然找到一个宝物喵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "这算什么宝物啊，这就是个坏掉的破烂，拿去卖都没人要吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "这样啊～。那我就收下啦！说不定修一修还能派上用场呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "等等！你的膝盖擦伤了！不要紧吧？不觉得疼吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "啊，真的耶！我刚才完全没有注意到喵～！谢谢你提醒我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "那个，创可贴、创可贴…… 放到哪里去了呢～？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "真是的，该说这家伙是寻宝天才，还是单纯的冒失鬼呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "又有记号，树干上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鱼骨头的记号，看起来还蛮符合特丽莎的风格嘛，具体是什么意思呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我有点印象，好像是…… “前路危险”或者“无法返回”之类的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "听起来挺危险的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "各位，我在记号附近发现了篝火的痕迹，似乎才刚熄灭没多久。看来这里除了我们之外还有其他人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "也就是说，特丽莎可能和这个生火的人接触过了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "对方应该不止一个人，我已经确认到有好几对不同的脚印了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "代表危险的记号，加上附近有好几双脚印…… 莫非有什么关联吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "特丽莎很可能卷入麻烦了。所以给我们留下了求救信号。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "虽然我不想往坏处想……但这个猜想确实很合理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "……特丽莎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "按照记号的含义，鱼头所指的方向应该有危险物或陷阱。特丽莎是为了给之后来到这里的人提醒，才特意留下的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "她肯定就在前面不远处！大家加快脚步！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的寻宝旅人",
+   "text": "好厉害……！这种地方，我至今为止还一次都没来过呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "宝物已经近在眼前了！你们几个，快去确认一下这附近的入口。这里路况不好，一定要小心点脚下哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "嘿……咻。这样就行啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "哟，特丽莎。又在画记号吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "以防万一嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "你刚才好像也画了好几个记号对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "不一样喵！刚才那个是提醒前方有陷阱！这个是注意高低落差的记号喵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "嘿~真是专业啊，看来带你一起上路果然是正确的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "诶嘿嘿，怪不好意思的喵～♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "特丽莎。今后你有没有打算继续和我们一起去寻宝？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "如果是在贝林港附近的话，我倒是可以给你们帮帮忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "真是的！我不是那个意思！我是在正式邀请你加入我们的团队！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "正式加入……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "有了你的经验，加上我们获取情报的能力，我们绝对能成为诺瓦大陆第一的寻宝团队！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "等，等一下啊，不要擅自做决定呀，我出来寻宝是为了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "为了朵拉对吧~我记得很清楚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "呜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "我们这行还是很讲义气的！你解开了地图的秘密，已经是大功一件了！当然有参加的资格啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "好耶，谢谢！我最近正愁缺朵拉呢，真是帮大忙了喵～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "不对……不是那样的……！ 我是为了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "我知道突然提出这个事会让你为难。但是只要加入我们，我可以保证你能分到不少朵拉。而且绝对比你送信赚得多得多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自傲的寻宝旅人",
+   "text": "老大，我们找到地下洞穴的入口了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "喔！干得漂亮，我们马上就来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "特丽莎，没必要急着给我答复。等我们拿到宝物之后再说吧♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "多娜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

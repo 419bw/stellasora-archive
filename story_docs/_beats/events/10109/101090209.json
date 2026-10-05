@@ -1,0 +1,908 @@
+{
+ "heading": "# 07 冲出重围……黑暗之力的重生",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：枪林弹雨覆黄沙（活动编号 10109）",
+  "- **关卡 ID**：`101090209`",
+  "- **AVG 剧本**：`STev_09_07`",
+  "- **关卡描述**：成功似乎近在眼前，但事情显然没有结束……"
+ ],
+ "recap": "正如卡西米拉所料，这果然是沙蝎的陷阱。为了保护猫眼，卡西米拉下意识地挡在了她的身前……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "正如卡西米拉所料，这果然是沙蝎的陷阱。为了保护猫眼，卡西米拉下意识地挡在了她的身前……",
+  "episode": "第七话",
+  "title": "冲出重围……黑暗之力的重生"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "呼…… 呼…… 区区这种程度的魔物，怎么会是我猫眼大人的对手~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人",
+   "text": "队长！你没事吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人领队",
+   "text": "嗯，我没事……你也还好吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人",
+   "text": "我也没事。 话说回来，各位到底是何方神圣……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼！ 我们…… 是—— “白猫剧团”！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人",
+   "text": "白猫……剧团？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "诶？难道你没听说过？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人",
+   "text": "啊哈哈哈……那个，恕我孤陋寡闻，不好意思……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人",
+   "text": "但，但是！这份救命之恩将来必定报答！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "其他被困的旅人",
+   "text": "我们也是！ 多谢各位搭救！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼！不用谢不用谢！ 身为黑暗之力的使者，猫眼大人不过是做了理所应当之事罢了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "人都到齐了吧？有人受伤吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "同行的白猫队员",
+   "text": "报告队长，人到齐了。除了被困的旅人里有几个受了轻伤，我们的人都毫发无损。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "怎么样卡西米拉！ 只要有本猫眼大人在，命运永远都会降临在我们这边！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯， 看来确实是这样呢…… 呃？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼！ 危险！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“逃出的矿工”",
+   "text": "哈哈哈！副团长说的果然没错！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“逃出的矿工”",
+   "text": "比起直接对着卡西米拉开枪，瞄准她的队友，命中卡西米拉的概率会更高！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "卡西米拉！卡西米拉！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "同行的白猫队员",
+   "text": "可恶！原来你从一开始就是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“逃出的矿工”",
+   "text": "真没想到，这个伪装神器居然能派上这么大用场！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "早在你们第一次溜进矿洞的时候，副团长就发现你们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "所以才替我安排了矿工的假身份，为的就是把你们引到这儿来！好借你们的手把那只棘手的魔物给收拾掉啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "同行的白猫队员",
+   "text": "真是卑鄙……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "小的们！卡西米拉已经倒下了！ 白猫剧团已经彻底玩完了！趁现在一鼓作气把她们收拾掉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎佣兵",
+   "text": "哦哦——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "可恶！你们竟敢对卡西米拉下手……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "大家不要怕！他们刚刚和魔物交战过！已经没有力气跟我们抗衡了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被困的旅人领队",
+   "text": "喂！你的一点钟方向！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "收到！多谢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎佣兵",
+   "text": "呃啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "糟了，再这样下去防线就要被他们击破了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "队长伤势如何？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "不要紧，不是致命伤，只是暂时昏过去而已！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "可恶！卡西米拉！你醒醒啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "猫眼！ 先别急着操心队长，不把眼前的敌人解决掉，我们就要先交代在这里了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嘁——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "我倒是有个提议……你们最好还是别管那些旅人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "或许你们抛弃他们，直接突围的成功概率还会大一些！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "猫眼，你有什么对策吗？！ 再耗下去咱们就只能等死了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "呃，那个…… 对策……对策是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嗯——……嗯——……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嗯————！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "不行！脑子里一片空白！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这种情况下，到底该怎么办啊……万一又因为我搞砸了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "冷静点，猫眼！你一定可以的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "否则队长也不会把那枚挂坠放心托付给你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "挂坠？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "蓝锥！那我出门啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "等一下！猫眼！ 把这个带上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "卡西米拉让我交给你的挂坠，说是能带来好运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "她本来是想要亲自给你的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "那枚挂坠，是每个白猫成员要去完成重大任务时，队长才会赠送的护身符。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "可能队长有些不好意思直接给你，但既然她最终做出了这个决定，就说明——她认为你已经准备好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "准备好了……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "是啊，虽然队长一直都说，这只是护身符而已……但大家心里其实都明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这条挂坠…… 和“黑暗之力”的颜色一模一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "那是队长早就为你准备好的，独属于你的护身符。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "独属于我的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "卡西米拉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "可恶！你既然早就认可了我的黑暗之力，为什么不早点告诉我嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这么重要的东西……亲手来交给我啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎佣兵",
+   "text": "老大！白猫那帮家伙，好久没开枪还击了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎佣兵",
+   "text": "该不会是弹药打光了吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "哼，八成是了！刚和那么大的魔物死磕完，还能剩下多少呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "那帮家伙没子弹了！弟兄们，把他们一网打尽！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "猫眼！ 他们要冲过来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我不像卡西米拉那个家伙一样，能在瞬息万变的战场上指挥全局。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我现在唯一能做的就只有——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "——为你们所有人打开一条通路！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "卡西米拉和那些旅人就拜托大家了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "等等，猫眼！你要去干什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "居然敢伤害我最重要的人，这笔账，我一定要你们好好偿还！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "哟？区区一个狙击手单枪匹马冲过来能顶什么用！ 怎么～？是打算和我们鱼死网破吗～？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "喂！还在等什么，赶快给我把她打成马蜂窝！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的沙蝎佣兵",
+   "text": "不，不行啊！她跑得太快了，根本瞄不准目标！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "啧，一群没用的废物！让开！让我来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "如果你刚刚也能像卡西米拉一样当个体恤同伴的队长，说不定我还真抢不出来这点准备的时间呢——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "哈？你这家伙在胡言乱语些什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "可惜，时机已然成熟——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "罪无可赦的欺诈之徒啊，就此被深渊般黑暗的愤怒彻底吞噬吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "黑暗之力———— 贯穿吧！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎领队",
+   "text": "呃啊——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的沙蝎佣兵",
+   "text": "老大！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼，你以为擒贼先擒王这种战术，只有你们会用吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯……呃……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "队长，你醒了！还能走得动吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，勉勉强强吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "猫眼已经成功帮我们打开了一个缺口，趁这个机会赶快撤退吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "先不用管我！卡西米拉，带着大家先走！等我把这群烦人的苍蝇通通收拾干净了就去追你们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "只要有黑暗之力的加护庇佑，猫眼大人就是天下无敌的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "可是…… 不，你的判断很准确。 猫眼，这里就交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "放一百个心交给我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "来吧，沙蝎的杂碎们！尝尝猫眼大人百分百纯度的黑暗之力吧！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的沙蝎佣兵",
+   "text": "别，别过来！ 快来个人挡住她啊！ 呃啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔物的叫声",
+   "text": "嗷啊啊——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紧张的沙蝎佣兵",
+   "text": "等等……刚才的叫声好像是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔物",
+   "text": "咕噜噜噜噜——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紧张的沙蝎佣兵",
+   "text": "不好！是捕草蝎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紧张的沙蝎佣兵",
+   "text": "可恶！这玩意是从哪儿冒出来的？！ ……啊啊啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "还有闲心东张西望？猫眼大人在这里呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "担忧的白猫队员",
+   "text": "到底是什么情况……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那只巨大的魔物一直占据矿洞的中央区域，原本栖息在这里的小型魔物，恐怕都被它赶走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "现在它一倒下，这些魔物自然就开始浩浩荡荡的返回巢穴了……这座矿洞不宜久留，我们快走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "猫眼！我们马上要撤出去了！你也赶紧撤退吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "知道了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "吓破胆的沙蝎佣兵",
+   "text": "噫！求，求求你们，行行好放我一马吧！我家里还有老婆孩子等着我养活呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "吓破胆的沙蝎佣兵",
+   "text": "明天一早我就离开沙蝎！我保证！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "快滚吧，不要让我再看到你了。 为了你的家人，你最好洗心革面，永远别再回来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

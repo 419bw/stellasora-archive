@@ -1,0 +1,828 @@
+{
+ "heading": "# 结婚过家家 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：艾蕾（角色编号 `139`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`13902`",
+  "- **AVG 剧本**：`CG_139_02`"
+ ],
+ "recap": "即使不擅长家务，即使没有生过孩子，艾蕾也会是一位\"真正的母亲\"。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "即使不擅长家务，即使没有生过孩子，艾蕾也会是一位\"真正的母亲\"。",
+  "episode": "第二话",
+  "title": "结婚过家家 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，今天能和魔<r=BOSS></r>王一起来菲莱玩，还看了一场这么有意思的星塔影戏，真是太开心了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "一开始的剧情还真是让我捏了把汗，不过最后那对恋人能终成眷属， 连女主角的母亲最后也过上了幸福的生活，真是太好了呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "话说回来， 魔<r=BOSS></r>王是怎么突然想到要带我来看星塔影戏的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得或许能帮到你吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "帮到我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你之前不是说了，自己搞不懂\"真正的母亲\"应该是什么样子吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "亲身经历固然重要，不过多接触一些虚构故事也不是坏事， 结合他人的经验说不定也可以弥补自己缺少的东西！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和影戏里的角色产生共鸣，也能让你更加了解“真正的母亲”，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "说得也是，这部影戏里确实有不少让我感同身受的情节，台词写得也很棒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "具体是哪段戏？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "母亲给女主角穿上婚纱那一幕吧，看着孩子收获幸福才是为人父母最大的欣慰啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "还有最后一幕，女主角脸上的笑容也特别美。 这段身份悬殊的恋爱最终修成正果，最后连我都觉得很幸福呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我……总有一天也要……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "没什么。 对了，难得来一次菲莱，回去之前我还想给孩子们买点礼物——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呀啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "哎呀，真不好意思。您没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被追赶的女性",
+   "text": "救，救命啊！有人……一直在追我……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "追兵",
+   "text": "她在那儿！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "魔<r=BOSS></r>王，带她到安全的地方躲起来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这么多人欺负一个女孩子， 必须给你们点教训才行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "喝啊！——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "追兵们",
+   "text": "哇啊啊啊啊！——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被追赶的女性",
+   "text": "感谢二位出手相救。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "出什么事了？怎么那么多人追着你跑……嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这袋子里装的，难道是婚纱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新娘",
+   "text": "是的……我今天，本来是要去婚礼的。 眼看什么都准备妥当了，母亲却突然反对我的这门婚事，把我关在了家里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新娘",
+   "text": "我乔装打扮好不容易逃了出来，可好像还是被发现了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "所以才会被佣兵追捕吗？婚礼当天居然想把亲生女儿关起来，好过分的妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新娘",
+   "text": "所以，我想拜托你们！ 能不能护送我去婚礼会场？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "当然可以啦！魔<r=BOSS></r>王也没意见吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯！那事不宜迟，我们赶紧动身吧！况且，说不定还有其他的追兵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新郎",
+   "text": "朱莉亚！出什么事了，你怎么这么晚才到。我担心的不得了啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "罗宾，对不起。我这就去换衣服梳妆…… 啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "怎么办，婚纱破了个口子。 偏偏我，完全做不来针线活……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "别担心，我来帮你补就好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "新郎，婚礼开始前麻烦你拖延一下时间，我这边会尽快的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "罗宾",
+   "text": "好的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "新娘就先跟我去休息室吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾，真的没问题吗？那个……你……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你是担心我不擅长做针线活吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不过……我其实还挺在行的，放心交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "真是不好意思……你们明明已经护送我平安抵达会场了。 没想到连修补婚纱也要麻烦你……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "没关系， 婚礼这种事一辈子可能也就经历一次，谁不想穿的漂亮一点呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "真是太感谢了！ 唉……大概率是在逃跑的时候，不小心摔倒弄破的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "新郎难道不知道，你母亲反对你们的婚事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "如果说了的话，婚礼恐怕就要被取消了吧。 我不想再让他为我担心了，所以就没有告诉他。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "而且，不讲理的分明是我的母亲。 之前谈恋爱的时候，她没有半点意见，可一听要结婚就强烈反对……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真奇怪……交往可以，但一要结婚就不行了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不管出于什么理由，父母都不该拦着孩子去追寻自己的幸福。 好啦！补好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "哇啊……真是太感谢了！这样一来，我就能顺利完婚——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "罗宾的声音",
+   "text": "请等一下，岳母大人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "朱莉亚，立刻取消这场婚礼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "母亲大人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "我都是为了你好。 走，跟我回家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "请留步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "你又是哪位？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我是朱莉亚小姐雇佣的护卫，刚才您的那番话未免也太虚伪了，我实在是无法认同！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "虽然嘴上说着“我都是为你好”，但实际上，您不就是想让茱莉亚小姐服从你的支配吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "我，我才不是这么想的……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果真是为她好，你们母女二人就该坐下来好好商量一番。 强行把人关起来，这不是“支配”又是什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "这……你说得对，把她关起来确实是我做过头了。 可你要明白，我只是不想看着朱莉亚往后过上苦日子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听说她们开始交往的时候您并没反对，为什么一准备结婚就翻脸不认人啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "我不想自己的宝贝女儿哪天被人始乱终弃。只要不结婚，就不会有被抛弃的那一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "恕我直言，婚都还没结就担心离婚，是不是有点杞人忧天了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "我怎么能不担心！因为我这笨女儿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "做起家务来简直是无可救药啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "一同",
+   "text": "………… 诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "烧饭烧糊是家常便饭，糖和盐也分不清，让她补衣服反倒把洞越戳越大…… 这样一个什么家务都做不好，迷迷糊糊的新娘，谁知道哪天就被人家给嫌弃了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦，她刚才好像确实说过“做不来针线活”来着……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "我当年被丈夫抛弃，一个人含辛茹苦，把朱莉亚拉扯大。哪个当妈的愿意看女儿再走一遍自己的老路？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "母亲的想法也不是不能理解。可是，要因此取消婚礼，实在是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "罗宾",
+   "text": "岳母大人请您大可放心，家务活我很在行。 我们两个人一定会互相帮助，过上幸福的生活！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "这可说不准。谈恋爱和在一个屋檐下过日子，完全是两码事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "……为什么不去试着相信他们一回呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "相信……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不瞒您说，其实我的家务能力也是一塌糊涂。 就在前几天，我还把松饼甩到了天花板上，还打碎了一堆盘子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "作为一个孤儿院的院长竟然会犯这种低级错误……说来都好笑。 可即便如此，孩子们还是会喊我\"妈妈\"，还会帮我分担不擅长的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "互相去弥补各自不擅长的地方，共同编织出幸福美满的生活…… 所谓的\"成为一家人\"，不正是这么一回事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "这……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我虽然没有亲生骨肉，却也能理解您不想让爱女受一点伤害的心情。 为了护住孤儿院的孩子，我同样愿意赴汤蹈火。可是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "孩子终有一天要展翅高飞。 到了那一天，选择相信他们，送他们奔向自己向往的未来， 我想这也是为人父母对她们的爱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "朱莉亚小姐的人生才刚刚开始， 说不定有朝一日她也能克服那些短板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "妈妈，我会更努力的！因为我喜欢罗宾，再不擅长的家务我也愿意去做！求求您了，同意我们的婚事吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "罗宾",
+   "text": "我也恳请您。我真心爱着朱莉亚，我在此发誓绝不会抛弃她。 请您一定要相信我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "看来……我的保护欲确实有些过头了呢。 好吧！我同意你们俩的婚事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚",
+   "text": "母亲大人……！ 谢谢您！我们一定会幸福的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是场精彩的婚礼，能顺利举办真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "嗯，是啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾？你在想什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "刚要走的时候，朱莉亚的母亲把我叫住了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朱莉亚的母亲",
+   "text": "今天真是让你给我上了一课。你说自己没有亲生孩子，可在我看来，你早就是位了不起的母亲了。 有你这样的妈妈，孤儿院的孩子们一定会很幸福吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "被她夸是一位\"了不起的母亲\"，还真让我吃惊。明明……我并不是她那样\"真正的母亲\"……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在你的那些话里，都是满满的母亲对于孩子的爱。所以朱莉亚的母亲才会被你打动，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾，这跟有没有亲身经历没关系。在我看来，你早就是位出色又了不起的母亲了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "魔<r=BOSS></r>王……说得也是，或许我真的是在纠结一些没有意义的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我不会在迷茫了。我一定会挺起胸膛，做好那些孩子们的“妈妈”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯嗯！这就对了！对于孤儿院的孩子们来说，\"真正的母亲\"就只有你艾蕾一个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

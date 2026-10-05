@@ -1,0 +1,677 @@
+{
+ "heading": "# 04 黑色少女",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`210`　**编号**：`04`",
+  "- **关卡名称**：黑色少女",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_04`",
+  "- **关卡描述**：提升敌人的成本也是一种武器。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你们击败了帮派和佣兵，却无法对抗骑士。\n逃亡中，白发魔法师射出了魔法，\n为了保护密涅瓦，你挡住了她的后背。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们击败了帮派和佣兵，却无法对抗骑士。\n逃亡中，白发魔法师射出了魔法，\n为了保护密涅瓦，你挡住了她的后背。",
+  "episode": "第四话",
+  "title": "黑色少女"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "07:15",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这边走，这扇大门挡不了太长时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "菲金请了多少人啊，水道桥下都是抓我们的佣兵和帮派分子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "用手机问了，高额悬赏，一人一百万。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好多， 她早拿出这些朵拉来给我们发工资不就好了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "给我们多发工资，她觉得是向我们低头，她亏了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雇人来抓我们，她觉得是维护她的面子，是必须做的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "真别扭啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我们不能直接跑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "敌人太多了，我们一味逃跑，为了悬赏聚集过来的人只会更多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "他们并不是白垩商会的士兵，只是为悬赏，如果要抓的目标很难对付，就没那么积极了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你想用灰风对付帮派的办法？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你挺懂行的嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我们既不逃也不躲……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "就在这儿堂堂正正等着他们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "07:18",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 商业街"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的佣兵",
+   "text": "门怎么还没打开？一会那几个旅人跑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缺钱的帮派成员",
+   "text": "我先来的，一会你们别和我抢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的佣兵",
+   "text": "哈？谁管你这个啊。这种事本来就是先到先得，动作慢的就在那儿看着吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的帮派成员",
+   "text": "撞开了，撞开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的佣兵",
+   "text": "让我先！我先来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缺钱的帮派成员",
+   "text": "喂，你们别挤，地上都是冰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缺钱的帮派成员",
+   "text": "都说了别挤啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的帮派成员",
+   "text": "这种小把戏也想骗到我？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的佣兵",
+   "text": "疼疼疼，我的武器呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "走吧♪琥珀，一起上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "琥珀手臂上的黑色绑带灵活地扎入人群，把佣兵们掉在地上的武器甩向天空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙在风的帮助下，轻松地接住了高高飞起的武器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我收下啦——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缺钱的帮派成员",
+   "text": "不用怕，我们人多，就算没武器也能抓住她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缺钱的帮派成员",
+   "text": "大家一起上，赏金平分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "呵，你们这帮杂鱼也敢在这叫嚣？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "先问我手里的球棒同意不同意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不再焦急的佣兵",
+   "text": "投......投降。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍不起来的帮派成员",
+   "text": "我们错了，您们大人有大量，放过我们一次吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "怎么？你们也想和我的球棒交流一下？没骨气的家伙们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "观望的佣兵",
+   "text": "不不，我们只是......只是刚好在遛狗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "观望的佣兵",
+   "text": "你们说对吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "装成狗的佣兵",
+   "text": "呜汪！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "喂你根本不是狗吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "老大，我和新月来帮你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "哎，怎么人都没了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多亏了密涅瓦的计策， 打疼他们还真有用，那些家伙已经夹着尾巴逃走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我，我也没有干什么……毕竟，灰风就是这么生存下来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是什么声音，地震了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "是帝国骑士。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "怎么说？再打疼他们？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不，看他们整齐的队形，菲金应该花了一笔巨款来雇佣他们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "面对拿够了薪水的帝国卫队，我们能做的事情只有一件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "上滑板！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "灰城区的大街上，密涅瓦带着你，满月带着尘沙，新月带着鸢尾，在狭窄的小巷里疾速奔驰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "穿着沉重的铠甲的帝国卫队不紧不慢地跟在后面，琥珀在屋顶上射出的魔弹，被银色的甲面吸收殆尽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "你从哪找来的这些铁乌龟？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "硬是够硬，但也追不上啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "没办法啊，毕竟帝国骑士从来都是以防御为优先的。我也是看中了这点才在他们身上花钱的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "大师，能不能再出手一次，你刚刚那下太帅了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "啪的一下，她们的魔法就不能用了，她们吃惊的表情真是让人满足。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "我拒绝，参与这种拙劣的“杀戮”有损我的荣誉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "不不，您不用做到那个地步，就像刚才那样让她们没办法使用魔法就行。这样帝国卫队就能追上抓住她们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "您再不出手，帝国卫队的雇佣费就要耗光我的存款了，我可就没办法准备您做研究需要的东西了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "好吧，这是最后一次了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "先说好，我只帮你抓人，别再给我添麻烦了啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "少女肩头的乌鸦如离弦的箭，射向滑板上的密涅瓦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "07:26",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 商业街"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "石板路上，密涅瓦的滑板划出了一道完美的弧线，躲过骑士戳来的长枪，拐进一条偏僻的小巷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "魔王，抓紧，要急转了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明明是滑板，为什么这么快？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感觉......和幸运绿洲号的速度一样了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这是魔法推动的滑板，有兴趣的话改天教你玩，到时候在水道桥上比一场吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "水道桥啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我抬头看向架在城邦之上的水道桥，似曾相识的乌鸦，直指密涅瓦的后心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（保护她）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "小心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我的身体下意识地动了起来，挡在了密涅瓦的身后，黑色的乌鸦，无声地冲入了我的身体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "好机会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "把枪给我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一阵劲风袭来，在接受命运坦然赴死的瞬息间，仿若有花瓣拂过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "电光石火般的交锋后，面前只剩数只闪着寒光的枪头……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "让您久等了，主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

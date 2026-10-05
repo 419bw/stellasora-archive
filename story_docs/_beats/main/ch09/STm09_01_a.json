@@ -1,0 +1,1407 @@
+{
+ "heading": "# 01A 风过林梢",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1003`　**编号**：`01A`",
+  "- **关卡名称**：风过林梢",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_01_a`",
+  "- **关卡描述**：不必多言，行动就是答案。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "时间回到十天前，菲莱的伪装虽貌似顺利，\n但以防不测，夏花和翡冷翠还是秘密召集了伙伴们，\n一番运作下，花令旅团得以顺利与你合流。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "时间回到十天前，菲莱的伪装虽貌似顺利，\n但以防不测，夏花和翡冷翠还是秘密召集了伙伴们，\n一番运作下，花令旅团得以顺利与你合流。",
+  "episode": "第一话",
+  "title": "风过林梢"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "十天前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:20",
+   "date": "雾月 08日",
+   "place": "菲莱温室区 实验室核心区"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "今，今天的联络就到这里了，你多注意安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们也是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呼，联络完毕。 未来一段时间里，魔<r=BOSS></r>王不会主动和我们联络，我们可以讨论“那件事”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "呀嘞呀嘞， 明明一切都在顺利进行，怎么某人的脸色看着那么忧郁呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "说什么呢？我哪有忧郁？虽然没办法像以前那样，每天都听到你温柔的声音，但这都是为了能更长久地和你在一起所做的必要牺牲。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "嘻嘻， 我说的“某人”是小千，又不是说你， 你着急什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，街边的紫藤花还在盛开，一如妾身和您重逢的那天，但菲莱的细雨中，已经感受不到您残留的气息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "在接下来的日子里，妾身会回忆着您的点点滴滴，以此慰藉相思，静候下一个重逢之日。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "夏花啊，你应该学学人家的坦诚， 再这么口是心非下去，说不定有些话就要被别人抢先说了，到时候你只能说：",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "为什么会变成这样呢？ 明明是我先在星塔下和魔<r=BOSS></r>王立下约定的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾！别以为扮成魔<r=BOSS></r>王的样子就可以为所欲为！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "呜哇， 夏花生气了，人家怕怕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "小千小千，快来护卫主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "夏花大人请息怒，妾身认为，您不用太在意小禾的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "您并不是一个口是心非的人。妾身觉得，主公只要见到您，就能完全理解您的心情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "对，对嘛，魔<r=BOSS></r>王肯定能察觉到我的心意的，根本不用那么直白地说出来！小禾，你看看人家小千多了解我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那个，夏花大人，请用凉毛巾降温，您的脸红得像锻炉里的刀，这样可能会对皮肤不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "咦？咦咦咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "是啊，每个人看到这张脸都能理解你的心情呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "咳咳咳，静一下。虽然我能理解你们对魔<r=BOSS></r>王的思念，但时间不等人，我们还是回归正题吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "星雁，反窃听法阵布置的如何了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "放心吧，一只蚊子都飞不进来，今天我们在这里说的一切都不可能传出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "好。向各位宣布一个遗憾的消息：我们假扮魔<r=BOSS></r>王吸引拯救委员会注意力的计划，并没有起到预想的效果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "今天凌晨，奥尔贝德找到我和夏花——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "翡冷翠，夏花，晚上好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "向两位通报一个好消息：黄昏裁判宣布拯救委员会为异端后，不断有委员会成员前往黄昏裁判，忏悔自己的过错，由此，我们掌握了拯救委员会的大量情报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "就在刚刚，诺瓦各地的拯救委员会成员接到命令，要求他们前往帝国西部某地集结。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "西？菲莱在帝国南部，他们就算集结，也应该向南才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "我们还没查到更具体的命令内容，但根据他们集结的方向推断，他们再次袭击菲莱的可能性极低，现在从菲莱前往埃摩，被拯救委员会袭击的可能性很小。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "我建议两位趁着这个机会保护魔<r=BOSS></r>王前往埃摩。只要能在月底的大会上辨明身份，魔<r=BOSS></r>王就能洗清嫌疑，各位也可以回到平静的生活中了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "感谢你的建议，魔<r=BOSS></r>王何时，用何种方式前往埃摩不是我一个人能决定的，天亮后，我会和同伴讨论一下的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "咦？拯救委员会不来菲莱袭击我吗？为什么会这样？刚刚夏花还说我扮得很完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这不是你的错，小禾。我认为拯救委员会没有被我们吸引到菲莱，并不是你的扮演出了什么问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "毕竟——就算他们判断出台前的魔<r=BOSS></r>王是假的，又怎么知道真的魔<r=BOSS></r>王不在菲莱呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "他们有明确的集结方向，说明他们已经通过别的情报确认了魔<r=BOSS></r>王的大致位置。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父去的落日沙漠就在帝国西部。呜——那师父岂不是很危险，你们四个人要面对那么多敌人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这就是我们今天要讨论的事情——我想借着“保护魔<r=BOSS></r>王去埃摩”的理由，暗中去沙漠帮魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "既然拯救委员会已经不会来菲莱，我们的确应该去，哪怕帮你分担一些压力也是好的。可是……这件事有必要瞒着你吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "有必要，枫姐，你知道魔<r=BOSS></r>王的性格，如果我们直接和你说：“安琪不会袭击菲莱，我们要去沙漠帮你。”你会怎么回答？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "肯定会拒绝，我们决定假扮魔<r=BOSS></r>王给你打掩护时，你虽然没说什么，但那个神情，明显是觉得“自己连累了我们”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你要是知道拯救委员会不袭击菲莱，肯定不让我们支援，对你来说，我们的安全比你自己的安全还重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父……想保护我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公总是过度珍惜妾身，但妾身不喜欢这样。妾身身为主公的刀，存在的意义本就是为主公而战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "与其说是保护和珍惜，不如说……你的确是个身先士卒的“王者”呢，不管遇到什么事情，都恨不得自己冲在第一线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "正是因为魔<r=BOSS></r>王是这样的人，我们才成为互相托付彼此的同伴不是么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你不想让我们冒险是你的想法，我要去帮你是我的决定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我是能决定自己走哪条路的旅人，不是温室里只能痴痴地等待着别人看顾自己的花朵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "拯救委员会的实力很强，此次行动会很危险。所以，我和夏花把大家召集到这里，是想问问大家的意见，确定行动的人选。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王（小禾版）",
+   "text": "特意把大家喊到这里，就是为了这点事啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "这里根本不会有人拒绝吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身心悬已久，只想即刻启程。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我……我虽然还不够成熟，但不管怎么样，我都要去帮师父的忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "后勤工作就交给我吧，今天就要出发么？要准备的东西可不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "一叶",
+   "text": "唔，想要让小禾维持住魔<r=BOSS></r>王的形象，一路上都需要补妆，那我也跟你们走一趟吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那就这么决定了，我们今天和押送粮食去米拉什的帝国卫队一起出发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呼呼呼，真是刺激的大行动啊，又有好多照片要拍了。但别怪我泼冷水哦，你们是不是忘了一件事——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "按照你们和奥尔贝德的约定，哪怕在前往埃摩的路上，魔<r=BOSS></r>王也要每天给绯瞳传讯一段影像，向全诺瓦人证明你不会去毁灭世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "在这种限制下，你们根本没办法脱离既定的路程前往沙漠吧，如果只是一部分人去——突然少了几个人也会被有心之人发现的，现在可是有很多人关注着你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这件事还需要你的帮助，雾语。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "帮助？我是很想帮你们啦，但我除了是魔<r=BOSS></r>王的朋友，还是个魔女。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "如果我公开帮助你们被别人看到，大家就会怀疑魔王协议和绯瞳传讯是不是有什么私下交易，你们每天播放的影像就没意义了，大家只会觉得我们联手造假。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不是你想的那样，我是想让你帮我送一封信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我是魔女，又不是信使…… 嘛，这种时候也没必要分的那么清了，信送到哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "埃摩灰城区，水道桥下的灰风俱乐部。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "雾月 12日",
+   "place": "荒野 无名森林"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "翡冷翠大人，从此地向北再走两天就能看到埃摩的星塔了，我们会在此地向西而行，押送粮食去米拉什。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "辛苦了，能和你们同行太好了，这一路上的魔物都被你们清理掉了，让我们省了很多力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "您太客气了，您可是我们的雇主，护送的又是魔王协议的魔<r=BOSS></r>王，我们帮忙清理一些魔物也是应该的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那位特别努力的小骑士…… 是叫缇莉娅吧？ 昨天被青枭袭击时，她的表现令人印象深刻呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "啊哈哈，其实她还是个侍从啦，不过我觉得以她的表现很快就能升为正式骑士。 缇莉娅，快过来谢谢翡冷翠大人的夸奖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "翡冷翠大人，感谢您的夸奖， 这都是我应该做的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我会向帝国卫队写一封感谢信，对你晋升正式骑士应该有帮助。如果你有什么别的需要的话，也请告诉我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那个，我的确有事情想要请教翡冷翠大人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我听说埃摩马上要举行判断魔<r=BOSS></r>王身份的大会， 魔<r=BOSS></r>王不会有事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "放心吧，我认识魔<r=BOSS></r>王有段时间了， 你从未有过任何“毁灭世界”的意图。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我想，恩赐意志和与会的各家公司代表不会偏听偏信拯救委员会的胡言，会还魔<r=BOSS></r>王一个清白的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那，那就好，如果有需要，我愿意为魔<r=BOSS></r>王作证，证明你是一个好人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "作证……你和魔<r=BOSS></r>王认识？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "唔，有，有过几面之缘，虽然没有太深的接触， 但你绝对和我一样，是一位正义的伙伴，我愿意赌上我骑士侍从的名声发誓……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "用骑士侍从的名声发誓？还要作证？ 这不会牵连帝国卫队吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "缇莉娅，别打扰翡冷翠大人了！ 啊哈哈，翡冷翠大人，很抱歉， 这孩子就是这样，一提到正义什么的就说个不停。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵，没关系的，缇莉娅，我会把这份支持转达给魔<r=BOSS></r>王的，如果需要你作证，到时候就麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "那么，翡冷翠大人，我们就此别过，祝你们一路顺风。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我听说拯救委员会集结的方向和你们押送粮食的方向差不多，你们也多加小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "感谢您的关心，但我想拯救委员会应该不会找我们的麻烦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "什，什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不，不好了， 是拯救委员会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拯救委员会成员",
+   "text": "包围他们， 杀掉魔<r=mowang></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身会保护主公的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "咕， 这些人好强。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，快跟我走， 我保护你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，等等妾身——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "队长，联系黄昏裁判！向她们报告我们被拯救委员会袭击了！我去追魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "啊，是，是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我们要不要也去帮忙，拯救委员会那边来了好多人，现在都冲进森林去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "帮什么忙！我们的任务是押送这些粮食到米拉什，不是保护魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "可是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "没什么可是的，执行翡冷翠大人的命令！缇莉娅，你立刻去埃摩向黄昏裁判和菲莱公司报告这里发生的事情！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "（刚刚那些人……真的是拯救委员会的人吗？ 别人我不知道……那位用刀的旅人，可不会被那几下软弱的攻击就击退，我感觉怎么像是计划好的……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "（不对不对，不要想那么多，这种大人物的神仙打架我们这种小人物还是不要参与了，什么都不知道才是最好的！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:00",
+   "date": "雾月 18日",
+   "place": "米拉什 矿道深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们让灰风俱乐部假扮成拯救委员会的成员，让押送粮食的帝国卫队做目击者，在荒野里上演了一场“拯救委员会劫持我”的戏，趁机来到米拉什。 情况就是这样吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "是的。 翡冷翠大人拜托妾身传话给主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "她说如果主公和拯救委员会在米拉什附近战斗，战斗情况一定会被传出去，必须有一个合理的理由，让原本在菲莱的主公自然地出现在米拉什。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "否则，大家就会发现之前看到的“人在菲莱的魔<r=BOSS></r>王”是假的，对主公的信任度大大下降。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，的确如此，我之前没想到会被安琪堵在米拉什，翡冷翠考虑的很周全。进入沙漠之后的事呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "进入沙漠后，我本打算用心链联系你， 但雾语发现拯救委员会的队伍就在我们附近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "有传言说，黄昏裁判中的某些人可以窃听一定范围内的心链。我们怕暴露踪迹，就远远地缀在他们后面，没有和你联系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "后来，拯救委员会在米拉什城外的沙丘上布阵，派人进入了矿井。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们跟进了矿井，正好遇到拯救委员会释放侦查魔法。我就一边用自己的魔法阻拦他们的侦查，一边用风找你，还好快了一步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来那阵绿色的雾气是你的魔法，其他人在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们发现拯救委员会的队伍后，翡冷翠和星雁改道离开沙漠， 她们去埃摩雇佣帝国卫队，同时联络黄昏裁判，做我们的后援。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "枫姐、一叶、密涅瓦和雾语留在城外的沙漠里， 找机会接应我们， 这就是全部的安排了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "非常妥善的布置，只是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "只是——我们来这里太危险了 是吧？我就猜到你会这么说！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么样，被我问住了吧！ 我们当然知道危险，但我们就是…… 就是要来，大家都是这么觉得的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……其实……我没打算说这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "嗯？！那你刚才为什么沉默？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为你的表现有点可爱，很少能见到这样气鼓鼓的夏花呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "可……可爱……你真的觉得刚刚的我可爱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，真的。并且夏花你说的也不算错，几周前，我的确会觉得你们这么做太危险，但是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我真傻，只考虑了自己珍惜你们的心情，却忘了你们也会同样珍惜我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "打起精神来，别小看我们，还有菲莱的伙伴们啊，每一个人都是和你出生入死过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和尘沙聊过后，我才发现，我的这种想法……实在是有些轻视为我着想的你们，对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，你们能来我很高兴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花、千都世、小禾，还有冬香，请把你们的力量借给我，我们一起从这里逃出去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "嗯……嗯——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身自当竭尽全力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我会按照师父的指示行动的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我也没问题啦。不过，魔<r=BOSS></r>王，你刚刚想说的“只是”后面到底是什么啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实也没什么，我只是想说——你们演的那场戏恐怕瞒不住聪明人， 毕竟，你们的实力也不是秘密，怎么可能那么轻易就败退。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哈哈，那还不是因为夏花演得太僵硬了…… 不，不好了， 是拯救委员会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "谁会相信能独自战胜翠煌之刃的强悍旅人，看到几个敌人出现就发出这样娇弱的声音啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "又不能真打， 我已经尽力在演了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "抱歉，主公，妾身演得也很僵硬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系啦，其实也不用那么担心，越是聪明人，越不会在这个时候介入我们和拯救委员会的争斗，观望才是最符合利益的做法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王，前面就是出口了，你来看一下，街上都是拯救委员会的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白衣审判官",
+   "text": "我们的目标是雏菊孤儿院，不要管别的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白衣审判官",
+   "text": "只要能赶在魔<r=BOSS></r>王之前抵达那里，你就不得不和我们正面交战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "糟了，他们向着孤儿院去了！魔<r=BOSS></r>王，孩子们就拜托你了，我去拦住拯救委员会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "哎？孩子们，你们为什么要拉住我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "妈妈，这是小绿的钥匙， 你开小绿带孤儿院的孩子们走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "追兵，我们，来挡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不行，孩子们，我不能让你们冒这个险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "妈妈，这个时候不要争了，孩子们最熟悉的人就是你，只有你回去，他们撤离的效率才是最高的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "蓝锥，你回去组织剩下的白猫保护孩子，我和猫眼留下，只靠你们三个挡不住这么多人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥&猫眼",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾，冬香，你们护着魔<r=BOSS></r>王一起走，我也留下来，我的风墙能够阻挡他们。魔<r=BOSS></r>王这样的安排可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们掌握的情况太少了，这次真是让安琪打了个措手不及，但是——现在不是犹豫的时候。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "孤儿院那边有我们几个人就够了，千都世，你也留下，是你出鞘的时候了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "如您所愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "拖延他们二十分钟就可以撤退，我们在尤里卡水吧汇合！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:10",
+   "date": "雾月 18日",
+   "place": "米拉什 主街"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "加快脚步，这条街的尽头就是雏菊孤儿院。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "止步，前方的路，你们一步也休想踏过去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "哼，是魔<r=mowang></r>王的部下么。安琪大人说只诛首恶，但你故意跳出来送死，那可由不得我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "给你狂暴的翠绿精灵所赐的安眠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "唔，好大的风，快用反制魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不会让你有机会吟唱的。斩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会魔法师",
+   "text": "咕——魔法，破除吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "啧，即使被砍倒，还是拼命吟唱出来了么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小心，千都世，这些人的战斗水平和战斗意志不是一般旅人可比的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白衣审判官",
+   "text": "别和她们纠缠，目标是雏菊孤儿院！ 留几个人拖住她们，剩下的人分头行动！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "拯救委员会的人分开行动了，猫眼，我们去拦截！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "呜嘿嘿嘿，尝尝猫眼大人的黑暗之力吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这么多人……我们真拦得住吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾、琥珀，最好的防御就是进攻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们冲进他们的队伍里，这样一来，他们就不得不对付我们，没工夫去找妈妈和魔王的麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "棘手的敌人，我来解决。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,735 @@
+{
+ "heading": "# 星之所向",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214051`",
+  "- **关联角色**：火垂",
+  "- **AVG 剧本**：`CG_disc4051`"
+ ],
+ "recap": "星星闪烁的地方，是孩子们的愿望归处。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "星星闪烁的地方，是孩子们的愿望归处。",
+  "episode": "记忆回想",
+  "title": "星之所向"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "“老师~老师~看星星~”\n卡娜丝的衣角被拉住，她转身低下头看，一根长长的呆毛在肆意摆动，诉说着悠闲的心情。\n“火垂真厉害，平时我都不会注意头顶的那些景色呢。”\n少女坐了下来，她遥望着天花板上的星空，不再言语，就连“雪崩”也随着她的心境一同沉默，不再发出任何声响。\n“你有哪里不舒服吗？”\n少女摇了摇头，她不解地向身边的老师发问。\n\n“为什么，天上的星星这么漂亮，人们还要在星塔下互相伤害呢？”\n卡娜丝愣住了，孩子眼中的世界往往是最简单纯粹且真实的。而这个问题，可能就连她也无法解答。\n“我想，人们知道自己的来路，却不知道自己将要去往的未来，因对这种不确定性而感到恐惧，所以彼此才会有纷争吧。”\n火垂的呆毛弯曲着变成了可爱的问号，她歪着头看向老师。\n“抱歉……这些话对你来说可能有些复杂了吧。”\n“懂一点……但，来路，是什么？”\n\n卡娜丝欲言又止，她转而用手温柔地轻抚火垂的小脑袋。\n“来路就是一个人来到这个世界的起点。”\n“火垂是自星辰而来的孩子，那片广袤无垠的星河就是你的来路。”\n顺着老师手指向的远方，更多的星座争先亮起，万千璀璨的星光落在少女眼中，她用力捕捉每一道光的来处，踮起脚尖，仿佛下一刻就要触及那遥远的彼方。\n但火垂迟疑了，她的手和呆毛一起耷拉下来。卡娜丝蹲下了身子，想询问她为何沮丧。\n“我的未来，是要到那里去吗？”\n火垂拉住了老师的手，卡娜丝读懂了她的意思。\n“火垂越来越聪明了，问的问题老师也不知道该怎么回答了。”\n“但是老师答应你，火垂的未来，老师会帮你找到的。”\n火垂看向卡娜丝，她将稚嫩的小手放在了老师的手背上。\n“我陪老师一起。”\n“我相信老师，老师也，相信我。”\n\n卡娜丝也回握了那双稚嫩的小手。\n此刻，再多的言语早已失去意义。\n群星之间，二人互为唯一，彼此深信，永不分离。"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "想逃？没用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星骸",
+   "text": "——！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "喝啊————！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星骸",
+   "text": "咕噜噜噜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂，趁现在封锁它们的行动！别给反击的机会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "收到。雪崩、自动锁敌模式，开启——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星骸",
+   "text": "咕啊……！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "辛苦了，火垂，没受伤吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "没。玩得很尽兴，火垂，大满足。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是吗，那就好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂的战斗力还是一如既往地惊人啊……竟然能完全压制住首领级的星骸。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "只要按说的去做，就可以轻松解决掉……“砰砰砰”的就搞定了。魔<r=mowang></r>王的话语，就像魔法一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "和魔<r=mowang></r>王在一起的话，火垂就是无敌的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你能这样说我就放心了…… 毕竟我没法和大家一样，直接顶上前去战斗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "今天，得到卡娜丝的获准后，我与火垂一起来到了星塔。我们的目标是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，出现了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "“留影器的胶卷”……今天能许愿出来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就得看许愿时的想象了——想象得越完整、准确，成功的可能性就会越高……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "该怎么做？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……这得看经验了。多试几次，大概就能掌握窍门了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，空白旅团的大家有时候会一起触摸许愿箱…… 不过只有确保想的是同一样东西，而且知识、经验能互补的时候……不然成功率反而会更低……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "这是琥珀姐姐的方法吗？每次都能成功？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯………………………… 成功率的话，大概10次里能成功3次吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "诶~才这样吗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "还有别的方法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "提升成功率的方法倒是很多。比如“把愿望大声说出来”之类的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有“在午夜零点整许愿”之类的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还听说过“围着许愿箱顺时针绕2圈。接着逆时针绕17圈。有节奏地敲击盖子7次，然后立刻使出一脚横踢——然后许愿箱的精灵就会出现”这种传说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "方法好多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "那魔<r=mowang></r>王平时是怎么许愿的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我……不，这次既然，实物已在手边了。就这么办吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂有带上留影器的胶卷吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "带了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，那和我一起盯着胶卷看……接下来把手放在箱子上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "放上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就这样安静地闭上眼睛……一边想象着胶卷，一边这么说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "万能的恩赐之神啊，我虔诚地向您许下愿望——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "万能的恩赐之神啊，我虔诚地向您许下愿望——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "请赐予我们——让这台留影器可以继续使用的神器！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "请赐予我们——让这台留影器可以继续使用的神器！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "啊，出现了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是胶卷！太好了火垂，成功啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "胶卷……！火垂好开心！魔<r=mowang></r>王，好厉害！谢谢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呵呵，不用谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下次你也可以试试看用这个方法—— 不过就算学会了许愿，也不准一个人去爬塔哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真棒！那么……东西既然已经到手了，我们也差不多该回去了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "——等，火垂？ 怎么了，突然抓住我的手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "这边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂，火垂……！？ 你要去哪儿！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂？虽然星骸差不多都清理干净了…… 但是还是要小心一些，别乱走呀~~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "没问题。火垂，没事的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从刚才起你就一直这么说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过这里的景色，好像在哪里见过……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想起来了！这个地方是……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那里正是，之前火垂与星骸们激战，并拍下“胜利纪念照”的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "这里，是第一次请魔<r=mowang></r>王帮我拍照的地方……所以，火垂喜欢这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星骸",
+   "text": "咕噜噜？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星骸……！？原来还没清理干净吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "没关系。这里的玩具很乖的。握手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星骸",
+   "text": "汪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她居然已经驯服了这里的星骸吗……！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "魔<r=mowang></r>王，这边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "——你看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦……好厉害！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "法阵的光反射在星星的装饰上…… 看起来就像是，星辰在塔中闪烁一样。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "魔<r=mowang></r>王，开心吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "太美了。这幅光景…… 无论看多久都不会厌倦呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "这里，是火垂的秘密基地喔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "对老师也要保密哦——除了火垂之外，谁都不知道的……特别的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "但是魔<r=mowang></r>王是火垂最好的朋友，今天也教了火垂许愿的方法。所以，作为报答，只告诉魔<r=mowang></r>王你一个人，特别的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢。来自火垂的回礼，我确实收下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "不准告诉别人。绝对不准。也不准告诉老师。要是说漏嘴，就绝交。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我可不想和火垂绝交……知道了，我答应你，不会告诉任何人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "还有，不准自己一个人过来……要是瞒着火垂，自己过来玩，也绝交。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果不是和火垂在一起的话，根本就没法找到这里吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "知道了。全部答应你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "嗯。真棒！所以——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "小小的手，轻轻地覆在了我的指尖上。火垂抬头仰望着星星，嘴角微微上扬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "要再和魔<r=mowang></r>王一起爬星塔。然后，玩够了之后，就在这里好好休息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "从今天起，这里就是火垂和魔<r=mowang></r>王的秘密基地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呵呵。真是无比荣幸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢你，火垂。那么下次，再带我来这里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "嗯。约定好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在这本该没有星辰升起的塔中，无数星光翩翩落下——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那些静默无言的星辰，仿佛在轻推着摇篮一般…… 静静地，守护着星辰下的我们",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

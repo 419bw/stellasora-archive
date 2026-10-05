@@ -1,0 +1,700 @@
+{
+ "heading": "# 丰收日 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#10《丰收日》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`101002`",
+  "- **AVG 剧本**：`STsp_10_02`"
+ ],
+ "recap": "岭川将最新鲜的蔬果送到了怀璟食府，和小店长展开了一番别开生面的交流。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "岭川将最新鲜的蔬果送到了怀璟食府，和小店长展开了一番别开生面的交流。",
+  "episode": "第二话",
+  "title": "丰收日 其二"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这天，岭川正拖着手推车漫步在街上，车里堆满了新鲜的瓜果蔬菜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呼……呼……好重…… 不小心装太多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "每次都想着要挑选出最好的……可我根本挑不出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "没办法，毕竟是我亲手栽培出来的菜果，都长得很好呢~嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哦终于来了，大家，快来集合！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "欸？！你们是谁？ 难道是来抢菜的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "亲切的龙裔员工",
+   "text": "您误会啦，我们是怀璟食府的员工，之前见过面的，你还记得吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "啊……是的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的龙裔员工",
+   "text": "那就好。一路过来辛苦了，我们来帮你卸货。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "好、好的，谢谢大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "亲切的龙裔员工",
+   "text": "看起来都很新鲜，不愧是你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "亲切的龙裔员工",
+   "text": "哇，只是想象一下把它们烹饪好再端上餐桌的情景，我都要流口水啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那个，因为这次是大丰收，所以送来的稍微有点多……你们后厨用得完吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "亲切的龙裔员工",
+   "text": "没关系没关系，我们巴不得多来点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的龙裔员工",
+   "text": "我们先把菜送到秦叔那儿，具体事务请你与我们的店长商谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的客人",
+   "text": "现在多少号了？我们前面还有几桌啊，好急。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "常来的熟客",
+   "text": "喝杯茶坐一坐吧，美食需要耐心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "哇，好热闹……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "怀璟食府……不愧是菲莱最受欢迎的餐厅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "太热闹了，如果不是工作，我一个人根本不敢来这种地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "让诸位久等啦——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "大家排队辛苦，请先喝杯茶歇歇脚！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "懂美食的客人",
+   "text": "清凉滋润的茶水，配上酥脆的饼干……不愧是怀璟食府，连免费的点心都那么用心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "谢谢客官夸奖！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "因为最近天气有点热，所以特地泡了新茶，有清凉开胃之效。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "各位客官，吃好喝好！ 满意的话，记得打个好评哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那就是璟麟店长……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "虽然年纪看上去比我还小，却那么可靠……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "啊，这不是岭川嘛！ 今天又来送菜，太感谢啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "我刚才已经在后厨看到了，品质还是一如既往没得挑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "最近一段时间新鲜蔬菜不好买， 从其它城市运货成本又太高。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "幸好还有岭川你， 我们可是盼星星盼月亮，才把你盼来呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "是这样吗？那看来种植面积还可以再扩张一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "完全可以， 我们这消化不完的话， 还可以给你帮忙介绍别的餐厅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "——啊，不好意思，一时高兴话题扯远了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "报酬我早就准备好了，跟我来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那，那个，今天工作完成了，那我就……先走了……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "难得有机会，不如留下来吃顿饭吧！我请客！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "吃饭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "这两天都在忙着采摘蔬果，今天连早饭都没顾上吃，确实…… 有点饿了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那，那就麻烦您了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "当然，我不能白吃，会付钱的…… 咦，店长？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "就用你送来的原材料做道特色菜吧！ 马上就好，稍等片刻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "动、动作好快…… 一眨眼就进厨房了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "铛铛！ 一份炒三丝， 一份糯米糖藕。 来，看看符不符合你的口味。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "炒……“三丝”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "没错，原料有土豆丝、胡萝卜丝、青椒丝，这是素的； 还有加入了肉丝和火腿丝的版本。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "为了突出食材原本的新鲜口味，我想这道菜最合适； 秦叔还特地在调味上做了适合菲莱本地人的调整。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "来来来，快尝尝看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我，我开动啦…… 哇……！好好吃！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "嘿嘿，这就对了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "既然食材是岭川你送来的，那就不可能难吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜呜，好感动， 这对我来说真是最高级别的赞赏……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "品尝到这样的手艺后，突然有了“一直以来的努力没白费”的实感……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "哈哈，你的反应好夸张呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "一点都不夸张！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我平常都只在公司的食堂吃饭，只能吃到用神器翻热的加工食物…… 虽然方便，但味道差太远了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "要是怀璟食府能和联合种业合作……说不定能创造出更多美味呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "唔……这有点不太可能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "欸？这么肯定？为、为什么呀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "这个嘛……其实之前也不是没谈过合作。 但我们的菜是热腾腾的现炒，联合种业那边只想借我们的牌子卖预制速食。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "大概就是所谓的“理念不合”吧？总之从这件事以后，就再没提过合作的事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "原来是这样啊…… 虽然我的愿望是让大家都能吃饱就够了，不过要是食材能更新鲜的话，大家确实也会更幸福吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "哈哈，果然我们很合得来呢！吃好喝好，才是福气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "没错没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "我们龙裔有句古话，叫作“民以食为天”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "对人们来说，吃饭是和天一样重要的事，所以守护这份幸福就是厨师的使命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "守护食物，守护大家的幸福…… 龙裔真是温柔的民族呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "这么一想，过去联合种业的经营理念……和怀璟食府好像的确不太合得来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "明明我跟岭川肯定能合作得很默契的，真可惜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "……嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "怎、怎么了？我说错什么了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不是啦…… 偷偷告诉小店长一个秘密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "其实我种植的那些蔬菜水果，以前也是违反联合种业规定的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "哎？！ 这要是被公司发现，你岂不是要挨处分……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "没事没事，你看，我刚才说的是“以前”哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "现在的联合种业，其实已经慢慢变得不一样了， 开始尊重我的工作、也开始尊重公司之外的人们的事业。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "前两天还有人特地夸我种的菜特别好吃呢！ 可把我高兴坏了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "真的吗？ 假如联合种业能改变想法，说不定真的有一天，我们能光明正大地合作……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嗯！无论是谁，无论是富有还是贫穷…… 只要吃到美味就会开心，饿了肚子就会难过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "这么简单的道理，大家一定都能想明白的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "就像现在——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜~ 这种品尝到美味的幸福感，是世上任何事都无法替代的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "看你吃得那么香，我也有点嘴馋了，来尝一块。 啊呜…… 秦叔的手艺果然最棒了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "虽然不知道怀璟食府和联合种业将来有没有机会联手…… 但为了菲莱人们餐桌上的幸福，让我们…… 干杯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

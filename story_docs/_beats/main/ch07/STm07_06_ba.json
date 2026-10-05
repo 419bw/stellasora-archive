@@ -1,0 +1,993 @@
+{
+ "heading": "# 终局 自异世界",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第七章《星之竞拍》（星塔历 996 年）",
+  "- **关卡 ID**：`812`　**编号**：`终局`",
+  "- **关卡名称**：自异世界",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm07_06_ba`",
+  "- **关卡描述**：这注定是无法平账的死局。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你选择和玛蒂尔达合作，直击垮新奥勒良的元老势力。\n得益于你的力量和辅佐，玛蒂尔达大获全胜。\n但心怀怨恨的残党们却利用“超大神器车”暗算了你……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你选择和玛蒂尔达合作，直击垮新奥勒良的元老势力。\n得益于你的力量和辅佐，玛蒂尔达大获全胜。\n但心怀怨恨的残党们却利用“超大神器车”暗算了你……",
+  "episode": "终局",
+  "title": "自异世界"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星塔历998年9月 菲莱",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "魔<r=BOSS></r>王，感谢您愿意在这种时候伸出援手。 我代表新生的联合种业，向您致以诚挚的谢意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "玛蒂尔达大监察官，您太客气了。两年前，要不是您支援我们股份，菲莱公司就陷入死局了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在，也该是我们报恩的时候了。 我和大家已经讨论过了，我们一致决定，把您当年支援的股份归还给您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "菲莱公司愿意站在新联合种业的旗下，和您一起重建诺瓦的粮食秩序。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "谢谢各位，但请容我拒绝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎？为什么，您不想与我们合作吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "当然不是，您和翡冷翠的努力，以及菲莱公司做出的成绩，我发自内心地佩服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "比起我，两位才是真正继承了塞缪尔的理想的人。 所以，我不希望两位，还有菲莱公司在这个内战还未结束的时候加入。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "你们应该是未来的新联合种业的舵手，不要虚耗在现在这种不体面的互相杀戮中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不体面的互相杀戮...... 您这是在说什么？您不是已经拿到了象征着联合种业最高权力的恩赐印章了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "我的确拿到了，也组建了新的联合种业，但这个过程中，有太多的同伴牺牲了，我此时的实力不足以压服各个分公司和新奥勒良派。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "现在，过去的分公司们各自为政。 新奥勒良派的残党带着两个军团据守在新奥勒良，随时可能南下进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "再这么拖延下去，明年的春耕就会受到影响，诺瓦一定会出现粮食危机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "我作为塞缪尔的孙女，不能看着爷爷一手建立的公司，最终变成让大家挨饿的罪魁祸首。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "所以，我会带着新联合种业剩下的士兵立刻北上，在冬天结束之前，用一场决战击败新奥勒良派的残党。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "弄脏手的事情由我去做就是了，不管我是胜是负。 明年春天，请你们和菲莱公司继续塞缪尔未竟的愿望吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "玛蒂尔达大监察官......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "您的想法我明白了， 但冒昧地问一下，您北上的军力是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "两千人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "大监察官，您没有胜算的。 联合种业的满编军团在一万一千人左右，您这是用十分之一的兵力以卵击石。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "我军的士气远高于新奥勒良派的两个军团，就算最终无法战胜对方，也一定能让对方元气大伤，为你们争取到足够的发展时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "况且，现在也没有别的办法了。 就算我不北上，新奥勒良派的残党也一定会在明年年初南下。 据我所知，菲莱公司是没有常备军团的对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "的确如此...... 我们的确没办法在正面战场上帮上什么忙，非常惭愧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，两千人击败两万人...... 并非不可能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要...... 他们每个人都和我签订“灵魂契约”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一个月后，新奥勒良附近",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "魔<r=BOSS></r>王~ 新联合种业的士兵正在有序进入附近城邦的星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "真不知道您是怎么说服我们的理事长大人的，让士兵去星塔里批量接受星塔祝福这种事竟然能被批准？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可能...... 你们的理事长大人是个好人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我都没见过恩赐意志天空院的理事长，怎么可能“说服”对方。 大概，对方也很关心诺瓦明年的粮食问题吧，所以才会在这个时候出手相助。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "召集旅人，协助剩下的士兵去附近的荒野星塔接受祝福的事情也安排好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "大家会在明天早晨六点之前归队，然后向新奥勒良发动进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，辛苦你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两年多前，在我完成维塔发给我的“收集十个灵魂”的任务后，我获得了一项新的权能—— 让和我签订灵魂契约的旅人，在离开星塔后，还能保存一天星塔恩赐的力量——星塔祝福。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这种祝福是爬塔时星塔赐予爬塔者的特殊力量，通常能让爬塔者的战斗力提升数倍甚至数十倍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "只能保存一天的限制，让这个权能在平时难以方便地使用。但在关键时刻，这个权能的确能起到逆转局势的作用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "士兵们，跟我上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊慌的新奥勒良派残党",
+   "text": "咕—— 这是什么怪力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的新奥勒良派残党",
+   "text": "中枪了也没事？ 不，是魔法子弹根本没击穿对方的防护！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊慌的新奥勒良派残党",
+   "text": "新联合种业的士兵都是怪物吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的新奥勒良派残党",
+   "text": "我军败了，我军败了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高昂的新联合种业士兵",
+   "text": "昨天在星塔里拿到的祝福太厉害了，我感觉...... 我现在能一个打十个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的新联合种业士兵",
+   "text": "别冲得那么猛，你的离开星塔的时间马上就到二十四小时了，去后面修整，下面换我上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高昂的新联合种业士兵",
+   "text": "还有三十分钟呢，足够打到元老院门前，把我们的旗帜插到屋顶上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊慌的元老",
+   "text": "爆炸声...... 好像越来越近了，那个玛蒂尔达要回到新奥勒良了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议长",
+   "text": "不要惊慌，我们的军队是对方的十倍，这一定是前线指挥官的计谋，把敌人放进来围住再打，以免玛蒂尔达逃走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "想要逃走的人恐怕不是我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然是第一次来这里，但这个感觉怎么这么熟悉...... 两年前，夏花和冬香是不是也这么轰开门过？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议长",
+   "text": "玛蒂尔达，我以元老院的名义，剥夺你在联合种业的所有职务，并且判处你九十九年监禁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "哦？ 失去了恩赐印章的元老院真的有这个权力吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议长",
+   "text": "哼，你肯定会随身带着那枚印章吧。 卫兵，抓住她和她的同伴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议长",
+   "text": "你偷窃恩赐印章，背叛公司，损害元老院的利益...... 你的罪行真是罄竹难书！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "如果背叛公司是我的罪过，那在座的各位为了所谓的公司利益，打算人为制造粮食短缺，囤积居奇又该当何罪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议长",
+   "text": "放肆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "放肆的是你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "偌大的元老院，为什么一片死寂？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "右边鸦雀无声， 左边也鸦雀无声。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "这样也好，竖起你们的耳朵，听听外面的怒吼吧，问各位罪的人不是我， 而是那些因为你们即将挨饿的人们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，玛蒂尔达大人，一百五十三名元老已经全部收押，城内的战斗也全部结束。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我军以微小的代价击溃了防御的两个军团，具体的伤亡正在统计之中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "我…… 我们胜利了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "玛蒂尔达，你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "我还好，就是有点太累了，一放松就撑不住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "说起来，魔<r=BOSS></r>王，你终于不对我用敬语了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你不也是？ 大家都一起战斗那么长时间了，还要这种繁文缛节干什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "呵呵，这是不是说明...... 我已经是你的同伴了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "啊，我都和你签下灵魂契约了，还纠结这些事情做什么...... 抱歉，魔<r=BOSS></r>王，我拖累了你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这是什么话？难道你想说—— 你本不想让我们的手上沾上联合种业内战的鲜血的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "果然还是瞒不住你，带领新联合种业前进的人不能背负着这种仇恨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "在我的计划里：不论输赢，都会放弃所有的职位，把新联合种业交到你们手上，让仇恨终结在我这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "新联合种业的首席执行官什么的，让翡冷翠去做就好了。 接下来，我还要兑现对某人的承诺，和她一起去爬塔呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "啊...... 那个，爬塔什么的，等你有空了再去也行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "况且，我可是魔<r=BOSS></r>王，虽然现在没人提了，但两年前可是有不少人认为我就是传说中的那位魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "身为魔<r=mowang></r>王，怎么会因为害怕手上沾血，就不做自己想做的事情呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "魔<r=BOSS></r>王，你还真是会安慰人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "你帮我，影响的不只是名声...... 这场仗我们虽然打赢了，但是我们也彻底掀翻了新奥勒良权贵们的桌子。 今后，会有无数明枪暗箭指向我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就让他们来吧，我不信他们能比三大魔物和巨大星骸还可怕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，医生说玛蒂尔达大监察官没事，只是过度疲劳加贫血，多休息就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，总算...... 一切都结束了。接下来，我们就能迎来和平的生活了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "走吧，夏花，如果你不累的话，我们就去探索一下新奥勒良的星塔吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "当然不累， 但是得等我换一身衣服，这身职业装的鞋跟太细了，很容易就会卡住， 啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不小心踩到石板路的缝隙里了吗？ 稍等一下，我来帮你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疯狂的新奥勒良派残党",
+   "text": "玛蒂尔达，还有那个魔<r=BOSS></r>王...... 害的我们家破人亡，我要让你们付出代价，尝尝我这辆特大神器车的威力吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "嚣张的新奥勒良派残党",
+   "text": "快看，你们出来了，那个你的就是魔<r=BOSS></r>王，我记得很清楚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疯狂的新奥勒良派残党",
+   "text": "那旁边的那位女性肯定就是玛蒂尔达了，我们上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，这是什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "余光里，一辆拉满货物的巨大神器车，正向我和夏花全速撞来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（推开夏花）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "下一刻，我高高地飞上了天空",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我这是...... 被车撞到了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "嗯嗯，是超大的神器车呢，我们为您保留下了撞击前一刻的景象。请看——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "啊呀，这看起来比猛进之灵厉害多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "也比水道桥上的巨大星骸厉害吧，毕竟那个星骸被幸运绿洲号撞了一下就碎掉了，这辆神器车可要大得多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "魔<r=mowang></r>王大人，这次您可真的是遇到了一个前所未有的敌人呢~ 输掉了也很正常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "说起来，我在书上看到过：被这种神器车撞击，似乎是一种前往异世界的仪式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "有很多人，就是通过这样的方式前往其他世界，最终成为了那个世界的英雄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "咦？那为什么魔<r=mowang></r>王大人却来了我们这里，难道...... 这个房间就相当于异世界了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "又或者是，魔<r=mowang></r>王大人在这边的世界还有很深的留恋，所以才没有办法响应异世界的召唤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们两个别拿我寻开心了，夏花怎么样？ 有伤到吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "因为您及时推开了她，所以完全没有伤到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "她抱着您的身体哭了好久了，其实说起来...... 如果您没有推开她，说不定她能用魔法把那辆神器车直接轰飞呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像是有这种可能...... 我似乎做了多余的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是在那种情况下，正常人的第一反应就是保护自己的同伴吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "哦，那也不一定吧，如果我遇到这种情况。我会第一时间把维嘉尔护至身前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "那我就死死抱住你，让你也逃不掉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "新奥勒良城还真是危机四伏啊...... 就像玛蒂尔达说的那样，就算我们打赢了，恐怕也躲不过那些权贵的明枪暗箭。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "回去之后，得换个思路来解决新奥勒良的问题了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维塔，请开门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "魔<r=mowang></r>王大人，下次过马路的时候一定要先看左右两边哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "或者，请把肉体修炼得比神器车还坚硬吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我会回去的...... 这一次，我必须回到更久远的过去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "并不想独占星塔……那个梅尔库莉娅到底在打什么主意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王，我也想听听你的意见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "或许，找渊海星融贷款，就是走进透明盒子的第一步。我应该另想办法才对。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，如果什么改变都不做，我们恐怕也会被这个混乱的市场影响，进入慢性死亡。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "无论如何， 负担都不会减轻呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这一次，不能直接进攻新奥勒良了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

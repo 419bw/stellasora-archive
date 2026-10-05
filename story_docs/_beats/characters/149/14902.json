@@ -1,0 +1,776 @@
+{
+ "heading": "# 项圈与绳索 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：格芮（角色编号 `149`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`14902`",
+  "- **AVG 剧本**：`CG_149_02`"
+ ],
+ "recap": "在那狂乱无序，玩世不恭的眼神背后，有着怎样不可告人的秘密？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在那狂乱无序，玩世不恭的眼神背后，有着怎样不可告人的秘密？",
+  "episode": "第二话",
+  "title": "项圈与绳索 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "您的委托已完成。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "魔<r=BOSS></r>王，辛苦了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆小的旅人",
+   "text": "就是那个人吗…… 跟黄昏裁判的那位审判官组队的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的旅人",
+   "text": "能和那个格芮一起出任务还能全身而退，真是可怕的家伙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "消息灵通的旅人",
+   "text": "小声一点，那个人可是拥有公司的“魔<r=BOSS></r>王”，我听说，你和那个格芮 还在塔里干过这样那样的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总觉得有什么不好的传闻在快速传播啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我倒是无所谓，但格芮毕竟是黄昏裁判的人，这种传闻会对她造成影响吧，还是提醒她一下好了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格芮—— 咦，人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "哈……哈…… 呃呜…… 好热……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂，格芮，你怎么一声不吭就走了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呜…… 哎呀，还有什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你身上好烫！！！这体温...... 你生病了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不管病得多重，都不该热到这种程度……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呵呵……难道说，你是在担心我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然会担心啊，你都病得这么严重了怎么可能不担心，我带你去找医生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "没必要…… 这个……是治不好的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "腰…… 包里……抑制剂……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抑制剂？啊，是这个吗？你现在烫得像岩浆一样…… 可别乱动啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "服下抑制剂后，格芮的体温降了下来，紧皱的眉头也舒展开来。 然而，她并没有打算安静休息，而是提起武器，向刚刚的星塔走去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂，别乱动，你要去哪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "必须得赶去星塔…… 这种魔力抑制剂撑不了多久……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "都这个样子了，还要去星塔吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "没什么好大惊小怪的，只是去尽情释放魔力而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就你现在这样？不怕直接倒下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呵呵……恰恰相反哦，和你类似，我也有和魔法有关的特殊体质哦。 其实，我身体产生魔力的速度要比一般人高几百......不，或许是上千倍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "上千倍？那岂不是不需要心相石里的魔力了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "听起来很方便吧，只不过我的情况是，魔力如果不使用，就会不断累积在体内……让我的身体不断出现异常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "像刚刚那样发热？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "那只是症状之一，我的感觉在魔力的充盈下早已麻木，放着不管的话，魔力会堵塞我的感官，我会看不到也听不到...... 陷入疯狂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "如果还不能尽快释放魔力，最后就会—— 砰得一下被魔力撑爆了，连同周围的一切炸个干净。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "所以把积攒过多的魔力彻底释放出来，就是最好的解药。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，所以才要去星塔…… 但真的没办法根治吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "某种意义上，它并不是疾病，而是我的天赋，所以也不存在根治的可能，我能做的只有定期释放魔力，以及用魔力抑制剂缓解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "情况我了解了，但即便如此…… 以你现在的状态，太容易遇到危险了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "嘻嘻，被你关心了，有点开心呢…… 不过对我来说，遇到危险是件好事，如果能受伤就更好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "受伤有什么好的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "对我来说，在受伤时战斗会让我消耗更多的魔力。 流血和淤青只会让我的五感更清晰，让我更有活着的感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "这么一想，连疼痛都变得可爱起来…… 渐渐就会有种甜蜜的感觉，而最后迎来的，是极致的欢愉 ！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "越是伤痕累累痛楚加剧，这份快感就越是强烈，所以我渴望受伤；因为这就是我存在的意义，所以我渴望疼痛，疼痛是甜蜜的疼痛是幸福的疼痛是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃...... 这就兴奋起来了啊，我不应该提这个话题的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "哈啊……哈啊……呜……身体又热起来了……好烫啊……但是， 被灼热折磨的痛苦，也一样甜美……♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呵呵，呵呵呵呵呵……♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从这里到星塔还要不少时间，格芮应该挺不到吧......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "哈哈……明明刚才尽情大闹了一番……看来还是没有消耗多少魔力啊…… 那个魔法......应该多用几次的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "之前的战斗...... 是因为考虑我的存在所以没有全力发泄吗？这样的话，我倒是有点过意不去了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格芮，还能再坚持一下吗？等到了星塔，到时候想怎么战斗都随你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呵呵，这提议倒是很诱人…… 可惜，我快到极限了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "我必须 ——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "格芮颤抖着摸向项圈上的绳索，打算释放那个一瞬间就清理掉所有星骸的魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂，不能在街上用！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，太好了……！赶上了……！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "千钧一发之际，我比格芮更快地拽住了她脖子上的绳索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "啊~讨厌，这是……什么感觉♪ 魔，魔<r=mowang></r>王大人……您对……我……做了什么……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "我刚刚听到有人惨叫，有人受伤了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好心的旅人",
+   "text": "需要帮助吗，我马上联系救援—— 咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "啊……太厉害了，魔<r=mowang></r>王大人…… 我明明是侍奉恩赐之神的身份……现在却满脑子只有您的样子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "身体变得好轻，这是什么，我从来没有过这样的感觉~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格——芮——！！停一下，停一下，你难道不觉得奇怪吗？！虽然你一直都很奇怪，但现在可是另一种意义上的奇怪啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说这状况，是不是相当不妙啊……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "这，这是在干什么！还以为需要帮忙……！ 竟然在做这种事，不知廉耻！这里可是大街上啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好心的旅人",
+   "text": "呜哇……好刺激的玩法。 那个，虽然我觉得这种事是个人的自由，但可以的话请去人少的地方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你们想的那样，这是个误会，格芮你也说点什么啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "虽然不太明白……唔呼呼……不过被魔<r=mowang></r>王大人这样抓着…… 好开心，魔<r=mowang></r>王大人这样下去我会上瘾的♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行！根本没用！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全进入到未知的状态了，这也是魔力过量引起的症状吗？ 不对，和刚才说的好像又不太一样……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下！各位，虽然看上去我们的行为的确有点怪，但这只是在练习演技，我们是从弗拉维奥来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "啊，对对对，我信了…… 你们适可而止啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好心的旅人",
+   "text": "该死，这对不知廉耻的笨蛋情侣……！白担心了……！ 你们应该原地爆炸或者一起去监狱里快活！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几分钟后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呼，呼......过量的魔力......消失了。 呃？我这是怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "你这家伙，对我做了什么！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你终于清醒了，可喜可贺，但为时已晚了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "我是问…… 你对我—— 做 了 什 么 ！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "做了什么…… 我只是在你要释放那个我不知道名字的魔法前，拽住了你脖子上的绳子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "就这样……？真的……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "之前接委托的时候就说了—— 如果你的战斗方式超出了我认可的程度，我会阻止你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽说委托已经结束了，但我也不能看着你在大街上大开杀戒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "看起来不像是在说谎......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "魔<r=mowang></r>王，现在立刻再拽我一次。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为，为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "我脖子上的项圈和绳索，是储存着传奇法术——“灵魂审判”的圣物——是绝对禁止除我之外的任何人触碰的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "但是，刚才那种感觉...... 我需要确定，这是不是一个巧合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个魔法原来是什么“传奇法术”么......如果能让格芮冷静下来，那就试试吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（握住格芮项圈上的绳索）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "啊~~~魔<r=mowang></r>王大人……就是这种感觉~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "舒服地要升天了~~~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "又，又来了！与其说是绳子，不如说是开关，这副样子要是又被谁看到了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "闻讯而来的旅人",
+   "text": "天，天哪…… 这就是刚刚大家在聊的那两个人么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经被看到了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的旅人",
+   "text": "那个人是“魔王协议”的魔<r=BOSS></r>王吧，连黄昏裁判的审判官都能驯服，好厉害，好羡慕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "啊~魔<r=mowang></r>王大人…… 我现在是如此的满足，莫非您真是恩赐之神派来救赎我的使者吗~~~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐之神派魔<r=mowang></r>王做使者......这像话吗？ 要是真有恩赐之神，这一定是神明给我的惩罚吧！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格芮，快醒过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

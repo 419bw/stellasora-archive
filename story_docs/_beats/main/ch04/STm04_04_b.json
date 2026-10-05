@@ -1,0 +1,869 @@
+{
+ "heading": "# 04B 过去的你",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第四章《梦的彼岸》（星塔历 996 年）",
+  "- **关卡 ID**：`409`　**编号**：`04B`",
+  "- **关卡名称**：过去的你",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm04_04_b`",
+  "- **关卡描述**：肌肉记忆不是想忘记就能忘记的。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你相信夏花和花令旅团的羁绊，让她们一起讨伐。\n夏花和伙伴们的配合依旧娴熟，节节胜利。\n然而，克莱儿为了公司的任务，拦住了大家。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你相信夏花和花令旅团的羁绊，让她们一起讨伐。\n夏花和伙伴们的配合依旧娴熟，节节胜利。\n然而，克莱儿为了公司的任务，拦住了大家。",
+  "episode": "第四话",
+  "title": "过去的你"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "07:45",
+   "date": "雨月 28日",
+   "place": "菲莱城外 森林小屋"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嘿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冬香一拳击碎小屋的房门，小禾和枫鱼贯进入，娴熟地警戒不同的方向。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "右侧房间安全。 你那边呢，小禾？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "左边也安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么会......我们明明看到寄生之庭钻进这个小屋里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "寄生之庭不管长多大，本质依旧是一株比较大的拟态藤，既然是藤，就能改变自己的形态。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "你们看这边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "墙壁上有很多缝隙，这在破旧的小屋里很正常吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "的确很正常，但这里很多的缝隙都是新的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "如果寄生之庭解除拟态，恢复藤蔓形态的话，穿过这种程度的缝隙根本不在话下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "逃，逃跑了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不对，寄生之庭如果是来找猎物的，没找到离开就是了，为什么要用这么麻烦的方式离开， 除非是要——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "在后面！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "竟然学会绕后偷袭了，你这个魔物比我想象的要聪明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小心，魔法雾气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "嘿嘿，来来回回就这一招，同样的招数对我可不管用！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "07:45",
+   "date": "雨月 28日",
+   "place": "菲莱城外 森林深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎，我看小屋那边已经打起来了。魔王，我们就这么看着么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "相信她们吧，夏花和花令旅团比我们更熟悉这些魔物的习性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然，我们也不是没事干。这种级别的战斗肯定会引来魔物，我们得为她们掠好阵，以免魔物闯进去扰乱她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "明白，我和尘沙这就—— 咦？琥珀你怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔物，已经来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "这些魔物都是从哪里涌出来的？ 喂，可恶，别咬我，我不是食物——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这些魔物的状态有点怪啊，平时它们看到这么多旅人早就逃之夭夭了，现在居然主动攻击……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还有假面野猪，这种生物性格很温顺的啊，现在像是......疯了一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些魔物中了寄生之庭的魔法雾气吧......在它们的眼里，我们可能是食物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "原来如此，所以才会咬克莱儿—— 哎，不要咬我的帽子！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们得把这些魔物赶出去，至少不能让它们打扰夏花她们的战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "讨伐队员",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "这么下去......拿不到“那个东西”就糟了， 我得想个办法，不能像这样在这里和假面野猪缠斗了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:15",
+   "date": "雨月 28日",
+   "place": "菲莱城外 小屋附近"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "看招！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "小禾前辈，小心，寄生之庭向你那边过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "很矮的树树鼠",
+   "text": "吱~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜哇，哪里来的树树鼠？还在向寄生之庭丢果子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "咦，怎么了？枫前辈——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "咿咿咿呀呀呀呀～～～～～？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的树树鼠",
+   "text": "吱，吱吱吱~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "你让我不要着急，这都是幻觉， 啊，我明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "谢，谢谢你。那个……枫姐？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的树树鼠",
+   "text": "吱~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "嗯……扔树果的是小禾前辈，而那只看起来很凶的假面野猪是夏花前辈？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那边的树树鼠们在叽叽喳喳地说什么啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄生之庭",
+   "text": "嘎吱嘎吱——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "又要放魔法雾气了么，真是麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "很矮的树树鼠",
+   "text": "吱吱~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "哎，果子扔的好准，正好堵住了寄生之庭的花苞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "真遗憾啊，寄生之庭。这下你最得意的魔法雾气也没用了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我射——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哎，我的弩箭穿过寄生之庭的身体了？为什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可恶啊，寄生之庭把自己也变成幻觉的一部分了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "唔……被它这么一搞，确实有点棘手了啊……这家伙过去有这么狡猾吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "嗯？怎么回事，就那只假面野猪特别生龙活虎…… 等等，难道说那是……夏花？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "你这不是和过去一样么，总是冲在最前面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "啊哈哈……靠大家的习惯和动作，就能认出队友呢～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "既然这样…… 我可不能输给夏花呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:25",
+   "date": "雨月 28日",
+   "place": "菲莱城外 森林深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我，我们这边的魔物都打倒了。尘沙，你那边如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "中了魔法雾气的魔物已经都被清理了，夏花和花令旅团那边也差不多了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，我们有人受伤吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "没有，但是，讨伐队副队长不见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "克莱儿？战斗中明明还在的……她去哪了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:30",
+   "date": "雨月 28日",
+   "place": "菲莱城外 小屋附近"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄生之庭",
+   "text": "咔嚓、咔嚓——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "寄生之庭自己折断了枝条，这种自残行为到底有什么意义……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "难道说……它是要通过削减枝条，把魔力集中到某个部位？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "新的花苞突然绽放，大量的魔法雾气涌出，转眼间就笼罩了夏花和花令旅团。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "又是这招，没用的， 我能分辨出谁是我的伙伴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "好痛苦……好可怕……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我不想死……救救我……救救我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我想回到同伴身边……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "寄生之庭…… 在说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不，不对，这肯定是幻觉……它在垂死挣扎。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "如果这是被它夺走性命之人最后的声音……故意让人听到这些，品味也实在太恶劣了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "死去的佣兵",
+   "text": "为什么…… 只有你活了下来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "绝望的佣兵",
+   "text": "那时候…… 为什么不救我们？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受了致命伤的佣兵",
+   "text": "你连我们都保护不了…… 怎么可能保护得了现在的同伴……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呃……这些声音怎么回事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "很矮的树树鼠",
+   "text": "吱吱，吱吱吱——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "树树鼠拍了拍自己，做了个双手抱住自己的动作，又指了指其他的树树鼠，最后，它捂住了自己的耳朵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你在说……有我们在身边，不要听那些幻觉瞎说？是这个意思吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "很矮的树树鼠",
+   "text": "吱吱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呵呵。真是的……虽然不知道你是谁，也听不太懂你在说什么——但是，谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呼……我想保护大家，所以， 已经进化到可以模拟人类说话，甚至可以针对我说出这些话、企图将人引向毁灭的寄生之庭，必须要消灭掉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们把它赶入那个小屋，然后烧掉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄生之庭",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "就是现在！点火！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "很有力量的树树鼠",
+   "text": "吱，吱吱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在寄生之庭被逼退到小屋中后，树树鼠的两拳中迸发出火花，点燃了屋顶上的稻草。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么会……！这是怎么回事？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "很有力量的树树鼠",
+   "text": "吱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "屋子里......有两个寄生之庭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的树树鼠",
+   "text": "吱？吱吱吱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我明白，肯定是有旅人跑进来了， 不行，现在不是犹豫的时候。房子不能烧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "崩裂树木，震响群山——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "绿色的狂风吹灭了刚刚燃起的火焰，也吹散了雾气，让众人得到了一丝清明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "咳咳， 你没事吧， 为什么要冲进来——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么是你， 克莱儿！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "夏花， 你疯了吗！ 如果用火焰魔法把寄生之庭烧个干净， 我们就完蛋了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄生之庭",
+   "text": "嘎吱—— 嘎吱——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呜……这声音……？！快退开！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你们，都要，死——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "哈？等，什么情况？ 寄生之庭在…… 在说话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一瞬间，魔法雾气再度从寄生之庭的花苞中溢出，以极快的速度笼罩了小屋，笼罩了讨伐队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，雾气太浓了，我们必须撤退。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "明白，我和花令旅团来断后， 魔<r=BOSS></r>王你们先走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

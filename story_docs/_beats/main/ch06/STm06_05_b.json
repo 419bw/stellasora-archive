@@ -1,0 +1,863 @@
+{
+ "heading": "# 05 坠落",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`614`　**编号**：`05`",
+  "- **关卡名称**：坠落",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_05_b`",
+  "- **关卡描述**：危机的藤蔓，已开始汲取可怖的养分。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "雾语在营地上空被军团击坠，夏花通过交涉得以救治雾语。\n另一边，达尔茜娅向你汇报“第三代智慧植物”的研发进展——\n星雁被达尔茜娅囚禁，用于强化智慧植物的战斗力……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "雾语在营地上空被军团击坠，夏花通过交涉得以救治雾语。\n另一边，达尔茜娅向你汇报“第三代智慧植物”的研发进展——\n星雁被达尔茜娅囚禁，用于强化智慧植物的战斗力……",
+  "episode": "第五话",
+  "title": "坠落"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "07:10",
+   "date": "谷月 5日",
+   "place": "菲莱银城区 米娜的家"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "尼娅、艾拉，你们好好看家，我去公司了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尼娅",
+   "text": "哎？为什么？姐姐今天不是休息吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "嗯...... 就是因为突然的全体放假，我有些放心不下，才要去公司的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "前几天来家里的那些人，其实也才刚进公司。姐姐是前辈，得好好做个榜样不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾拉",
+   "text": "嘿咻，给。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这是...... 三明治？艾拉做的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾拉",
+   "text": "我和尼娅趁着姐姐早晨打盹的时候做的，一定要好好吃饭哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "好，我走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "雾语……自从和魔王联络过之后，就再没有消息了， 要不要问问魔王雾语有没有再打来呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "不过魔王应该也很忙吧…… 要是一直联系你，说不定会给人家添麻烦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "哎？是雾语！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "喂喂，雾语，你在哪？你还好吗？为什么不接手机？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎哎哎，别那么大声。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我和那只怪鸟可是竞速了一夜，早就飞出菲莱星塔覆盖的范围了，你的联络我也收不到啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嘿嘿，你那么着急干什么？ 米娜该不会是在偷偷担心我吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "那还用说吗！我不是已经讲过了吗？就算你的真实身份是魔女，你现在也还是我们公司的员工，是我的后辈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "好啦，好啦，我已经飞到旅人营地上空了， 马上就回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "怎么样，我走后城里又出了什么大新闻？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "魔王被达尔茜娅大人请过去，昨晚一直在开会，好像在讨论很重要的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嗯嗯，菲莱分公司的执行官和魔<r=BOSS></r>王之间的对谈啊，的确是个新闻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "还有，今天早晨我接到通知，公司全体放假，是带薪假。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "带，带薪假？联合种业竟然会放带薪假？ 这可是超级大新闻，菲莱真是我的福地啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎，等等，旅人营地里出什么事了？这些人的穿着不像旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "喂喂喂，为什么要攻击我，我只是魔女，魔女！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呜——被击中了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "怎么了？雾语，回答我，雾语！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "07:15",
+   "date": "谷月 5日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "联合种业总公司的军队在旅人营地？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是的，他们是来对付达尔茜娅的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "二十分钟前，我接通了夏花的手机",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "昨天夜里，联合种业总公司的数个军团开进到菲莱城附近，征用了旅人营地，还把营地里的所有旅人全部赶去别的城邦，禁止通讯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "被押送的路上，她听到手机铃声， 发现是我的联络，立刻和小禾、枫甩开了押送的军队，回到旅人营地附近，准备进城救我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，菲莱城马上就要变成战场了，你被关在哪里？我飞过去带你出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要过来，城里有很多智慧植物和士兵，你们进城有危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "还记得星塔下我向你许下的愿望吗？ 我希望从此以后，你能一直，一直在我身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "所以，不要用危险说服我，我根本不在乎。我只想现在就见到你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "夏花，天上，快看天上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "没想到扫把居然被打断了…… 可我好歹也是个魔女，可不能就此认输……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "是帮过我们的魔女小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，我先去救人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "雾语，你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "是夏花啊...... 嘿嘿，果然菲莱是我的福地啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "她昏过去了，伤得有点严重啊， 要是不赶紧治疗的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "旅人营地里倒是有伤药...... 但那里已经被士兵占领了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "敌人在这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "放下武器，你们这些达尔茜娅的间谍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "说什么呢？我们才不是达尔茜娅的人，我们是菲莱的旅人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "菲莱的旅人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "柯松大人，那个魔女刚才在营地上空飞来飞去，肯定是在侦查。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "我们把她打下来后，就看到这几个旅人救走了魔女，她们肯定是一伙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "柯松大人...... 也就是说，你是这支军队的指挥官吧？我要代表公司和你谈谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，真不敢相信，你一拿出那个印章，对方的态度立刻变了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是恩赐印章—— 或者说公司的真实地位啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那个时候......魔<r=BOSS></r>王拿出公司印章，得到了联合种业的认真接待。现在这种情况，只能用那个身份了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "我是联合种业元老院的元老柯松，联合种业第三军团的指挥官，请问你代表的是哪家公司呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔王协议，我们都是魔王协议的员工，这位魔女采访过魔王协议的首席执行官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "魔王协议......几个月前在埃摩解冻的那家公司么， 我也略有耳闻，你们为什么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们的首席执行官困在菲莱城里了，我们计划救你出来。 这位魔女正在帮我们侦查城内情况，没想到被你们攻击了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "嗯，虽然没办法确认真假…… 但仅凭猜测就去侵犯他人的权利，也谈不上优雅。好吧，选择相信你们，在此为方才的失礼向你们道歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "但是， 菲莱城外已经成为联合种业的战场，为了确保各位的安全，各位会在我们的保护下休息，直到战争结束，还请各位理解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "你们，带我们的贵客去那边的旧地理协会，请军医过去给魔女治疗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:00",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 贵宾招待室"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "对不起，魔<r=BOSS></r>王，明明都用了魔王协议的名号，结果还是被困在这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别在意了，夏花当时的判断没错。再说现在看来，对方好像也不是什么坏人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语的情况怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "医生为她治疗过了，说她没有生命危险，但......她还昏迷着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这段时间里，就拜托你们照看雾语了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "魔<r=BOSS></r>王，这到底是怎么回事啊，战争什么的...... 完全搞不懂啊，联合种业的总公司和分公司之间为什么会开战，又为什么会波及到旅人营地和雾语......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "某种意义上，这都是因为我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉......我这边有点情况，我们回头再联络。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业传令兵",
+   "text": "魔<r=mowang></r>王大人，翡冷翠大人。智慧植物的升级工作要开始了。达尔茜娅大人想请您们亲眼见证。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "智慧植物的升级工作？我们现在使用的已经是第二代智慧植物了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业传令兵",
+   "text": "具体情况我也不清楚，两位大人请跟我来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:20",
+   "date": "谷月 5日",
+   "place": "菲莱温室区 地下实验室"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "魔<r=mowang></r>王大人，欢迎来到我的实验室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠怎么了？看完天空后，她就一副心事重重的样子。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "托陛下的福，第三代智慧植物研发得很顺利， 升级后的智慧植物会拥有更强的战斗能力，单株植物的战斗力会与资深旅人的战斗力相近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "批量生产拥有资深旅人战斗力的士兵……真的有可能吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她究竟要怎么做？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "魔<r=mowang></r>王大人，请跟我来，智慧植物的核心就在前方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "穿过长长的走廊，我们来到了地下实验室最深处的房间，几十个空荡荡的培养罐伫立在金属地板上，散发了诡异的冰冷气息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅，这些罐子是做什么用的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "回禀陛下，这些罐子里装满了我用柔光溶液调制而成的“精神之水”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "浸泡在其中的生物，能通过“精神之水”中的魔力，实现精神上的部分链接。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "精神上的部分链接......这和智慧植物有什么关系？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下，您看到实验室里那株巨大的流风草了吗？那只魔物是联合种业在南方的雨林中找到的，所有智慧植物的母体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "我用杂交技术筛选流风草的后代，繁衍出曼德拉辉草，一种可以听懂简单命令的魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "但魔物就是魔物，曼德拉辉草根本不可能学会使用复杂的工具，更别提人类的语言。甚至有时候连行动都不受我们控制。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "这种低劣的魔物，根本没办法承担魔<r=mowang></r>王军士兵的重任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "话虽如此，我也不想半途而废，试验了很多方法，可是都失败了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "就在我一筹莫展的时候，我从寄生之庭里拿到了您的“主教”棋子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此……这就是克莱儿口中的“那个东西”，不过...... 这枚棋子不算我的东西吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "这枚棋子当然是您的所有物。我只是借来一用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您大概已经察觉到了，它的能力是—— 传递人类的精神和记忆。简单来说，把它放进装着“精神之水”的罐子里，就能把对应的精神和记忆连接在一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "再将这些共享给流风草的母体，由母体传递给菲莱的所有第二代智慧植物，达成实质的升级。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人，您的意思是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "只要在这些培养罐中放入人类作为养料，就可以让智慧植物学会那个人的技能和经验，达成升级的效果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "魔<r=mowang></r>王大人请看，这次升级的关键养料在这里——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "达尔茜娅身后的幕布缓缓拉开，熟悉的面庞浸润在橙色的“精神之水”中，安详地睡着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "星雁！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "呵呵呵……翡冷翠，看到了吗？审判你父亲的那家伙，最后就是这个下场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "好好记着，这才叫复仇的味道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,860 @@
+{
+ "heading": "# 01 海风吹来的委托",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：欢歌劲浪 · 闪耀假日惊涛探险！（活动编号 10110）",
+  "- **关卡 ID**：`101100201`",
+  "- **AVG 剧本**：`STev_11_01`",
+  "- **关卡描述**：夏天的工作才刚开始！"
+ ],
+ "recap": "海中星塔的传言引发了优叶的浓厚兴趣，她想出海调查，彼岸给她推荐了两位经验丰富的航海旅人——希娅和花铃。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "海中星塔的传言引发了优叶的浓厚兴趣，她想出海调查，彼岸给她推荐了两位经验丰富的航海旅人——希娅和花铃。",
+  "episode": "第一话",
+  "title": "海风吹来的委托"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "你想去调查“海中的星塔”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "没错。 我听说了，就在几天前，远海发生了一起渔夫落难的事件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "据说他在平安获救之后，就一直像说梦话一样，反反复复念着同一句话：“海里……有……星塔……”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "原来是这件事啊…… 不过我听说，那个人被救起来后，状态一直很差，说话颠三倒四。所以，我们判断没有必要为了一句不确信的话去专门组织调查。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "可万一……他真的看见了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "如果远海真的有一座从未被记录过的星塔，那就必须去填补地图上的空白。无论这个情报是真是假，我都想去亲眼确认一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "唉～我就知道你会这么说。虽然我站在协会的立场上，没办法为你调配人力和资源，但如果你想以个人名义去调查，我当然也不会拦着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "只是，优叶…… 我多问一句，你有远海航行的经验吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "所以，你帮我想想办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "你求人总是求得这么理直气壮啊…… 算了，我也没资格说你。好在我已经预料到这种情况了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "我给你介绍两位“专家”。如果你要出海航行，找她们准没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "对了，等你见到她们时，顺便再帮我问问—— 她们什么时候愿意来我这赏个脸？我这边“特聘专家”的位置还在一直落灰呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "汇合地点应该就是这里了。 听说对方是穿着泳装的绒绒族……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "啊，找到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "请问，你们就是…… 哇啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "嗯嗯……有一股淡淡的纸张和墨水香气，还混杂着阳光和大地的气息……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "你、你在做什么……？哪有一见面就闻上来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "希娅！你怎么又对初次见面的人做这种事情，我都说了会吓到别人的啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "可是不确认一下气味的话，怎么知道她就是彼岸介绍来的人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "正常情况下应该先问名字才对！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我也觉得先问名字会更稳妥一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，吓到你了真是不好意思。不过，我已经确认完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "初次见面，我是希娅，这位是花铃。我们是“航海旅人”，专门承接各种与航海有关的委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你就是优叶，对吗？那个背着一大包测绘工具，为了还不知道存不存在的海中星塔，特地从塞尔斯泰一路跑过来的测绘员小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "看来彼岸已经和你们说了不少我的情况了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不过出于礼貌，我还是自我介绍一下吧。我是优叶，来自地理协会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这次是想请两位帮忙，一起出海调查海中星塔的传闻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "胆子倒是不小。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "普通人听到那种传闻，要么觉得是假的，要么就知难而退了。你倒好，直接背着这么大一包东西就跑过来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不过我可先丑话说在前头，航海调查可没那么轻松噢。小看大海的话，绝对会吃大苦头的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我没有小瞧大海，所以才来找你们帮忙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我听彼岸说，你们都是优秀的航海旅人，专家中的专家。只要跟着二位行动，就什么都不用担心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "专家？ 嗯……嗯嗯……优秀……专家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "请问……她这是怎么啦？我是不是说了什么不合适的话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，小花铃的尾巴要翘上天了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "希娅！我哪有！ 咳咳……总之，我相信你是真的想出海调查了，而且你也不像那种偷偷把船开走卖了就跑路的骗子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这未免也太缺德了……我为什么会做那种事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，小花铃的警惕心很强的。不过放心吧，她既然说了相信你，就一定会把你照顾好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "希娅！不用跟这家伙说这么多啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "反、反正……我们也对海中星塔的消息有些在意……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "你们也觉得“海中星塔”是存在的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "嗯， 几个月前海上就浮现过神秘的光芒，当时就有传闻说，那是“海上的星塔发出的光”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "虽然最后弄清楚了，发光的其实是鲸鱼的骨架。但在那之后，我们又查了一些旧资料，发现关于海上星塔的传闻其实还不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "只要是大海的事就谁也说不清……这类传闻不会毫无根据就出现的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "身为航海旅人，我们当然也想更了解大海，揭开海中更多秘密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "那太好了，我们什么时候出海？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这个嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "哦，理解理解，正式出海前肯定还有很多准备工作要做吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "比如检查船体，确认船帆的状态，补充淡水和食物，还要根据近期的海流和风向来规划航线……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你说的这些确实要做，不过，还有一件更重要的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "更重要的事？难道是…… 我听说根据民俗，渔民出海前要祭拜大海……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我们可没有这个习惯。 现在最要紧的，是去给你买泳装！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "啊？是我熬夜太多，听力变差了吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你没听错哦~抓紧时间，和我们一起去买泳装吧～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "可、可是，我们不是要去调查海中星塔吗？这和泳装又有什么关系？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "关系大着呢！难道你打算就穿成这样出海吗？要是衣服被打湿了，不仅不舒服，还会影响正常活动！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "泳装可是很重要的装备哦~穿起来既轻便又透气，活动时也不会碍事。 最重要的是，只要穿上合适的泳装，整个人就会想要去拥抱大海呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "好啦，不要摆出一副难以接受的表情嘛~既然你特意来找我们帮忙，我们当然要尽职尽责，帮你做好出海的准备啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "没想到竟然要穿泳装……完全静不下心来……好别扭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "咦，蹲在海边的那个人…… 好像是花铃？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是你啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "唔……虽然看着还挺像模像样的，不过怎么感觉你浑身不自在？怎么，泳装不合身吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不，二位帮我挑的泳装很好，只是我还不太习惯穿着它到处跑……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不过为了任务，我一定能克服的……就算穿着它当街跳舞也在所不辞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "倒也不用做到那种地步啦！你这人真是容易认真过头呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "出门在外，难免遭遇各种突发状况。要是不能迅速适应，工作就没法进行下去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这样啊……不过，你今天放轻松就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我知道你恨不得立刻飞到海上，但出发的日子其实是定在明天早上，今天还是先养精蓄锐吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "你…… 你难道会读心术吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我怎么可能有那种特异功能…… 是彼岸在信里叮嘱过我们，说你急得恨不得直接跳进海里游过去，还拜托我们千万要拦住你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "好吧。 既然今天不出海，那你一直蹲在这里干什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呃……我在找蛏子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "蛏子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是、是啊！今天我们不是第一次见面嘛，所以我就想来海边挖点蛏子，晚上让希娅做点好吃的，欢迎你的加入…… 不、不行吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "当然可以……只是，我没想到你还会专门为了我做这种事，有点惊讶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "什么叫“这种事”啊。你、你可是彼岸介绍来的客人，又是要一起出海的同伴，照顾一下也不奇怪吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "只可惜，今天的海滩出奇冷清。我在这蹲着找了半天，也没挖到几个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "坏了……这种时候应该怎么回话呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "蜜柑她教给我的“夸夸”策略太复杂了，现在脑子一片空白，一句都想不起来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "要不，还是继续聊蛏子吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "请问……蛏子很难找吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "也不算特别难，只要能集中注意力，随时留意沙子里传出的动静就好。 诶……这里好像有东西……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "是蛏子吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不，听这声音，像是螃蟹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "花铃把手边的沙子拂开浅浅一层，底下露出一只袖珍的螃蟹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "看起来是退潮的时候被困在沙滩上，被太阳晒蔫了。小家伙没力气爬回海里，所以才钻进沙子里藏起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "花铃弯下腰，小心翼翼地捏起那只蔫巴巴的小螃蟹，随后走到海浪拍打的岸边，轻轻将它送回了海中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "好了，回家去吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "好神奇，怎么听出来是螃蟹的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼哼~这就叫经验~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我和希娅好歹也在海边生活了这么久。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "退潮时哪里会有贝壳、哪块礁石下面容易藏螃蟹、哪些小鱼喜欢沿着浅滩游过来之类的……这些小事我闭着眼睛都知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "闭着眼睛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你不会想要我闭着眼再给你演示一遍吧？ 没问题！我接受这个挑战！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不，我只是想表达一下佩服。花铃你比我想象中的还要更了解这片大海。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那当然了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嗯，我明白为什么彼岸会让我找你们了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不仅仅因为你们是航海高手，更因为你们是一直都在亲身感受和理解大海的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "如果海中真的有一座星塔，我相信只要跟着你们就一定能找到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼，算你有点眼光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "既然你都夸到这份上了，那我也只能露一手让你开开眼界啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "保证让你见识，什么叫做真正靠谱的航海旅人——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

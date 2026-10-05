@@ -1,0 +1,668 @@
+{
+ "heading": "# 雪愿的回响 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#07《雪愿的回响》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`100702`",
+  "- **AVG 剧本**：`STsp_07_02`"
+ ],
+ "recap": "雪愿节当天，万送屋来到埃摩派送礼物。然而，多娜和特丽莎因大雪被困，无法赶回来。苍兰又要一个人过节了。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "雪愿节当天，万送屋来到埃摩派送礼物。然而，多娜和特丽莎因大雪被困，无法赶回来。苍兰又要一个人过节了。",
+  "episode": "第二话",
+  "title": "雪愿的回响 其二"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "千塔之城的城区好大啊，道路也比贝林港要复杂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "每家每户都挂着雪愿节的装饰，商店门前也大排长龙，节日氛围很浓郁呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "好，争取在太阳落山前把礼物全送出去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "打扰了，我是万送屋的苍兰，这里有您的雪愿节礼物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的女士",
+   "text": "太好了！这几天一直下雪，我还以为要耽搁了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "一共是三份，请您检查一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的女士",
+   "text": "让我看看……姐姐寄来的、妈妈寄来的，还有我最好的朋友寄来的， 没错了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "好的，那就不打扰您了。祝您节日快乐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的女士",
+   "text": "等等！这个送给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "这是……巧克力？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的女士",
+   "text": "对，这是冬季新品哦，吃了后身体就能迅速暖和起来。天气这么冷，你拿着路上吃吧，这是雪愿节的礼物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "谢谢您，我会好好品尝的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "收件人地址…… 是这里没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "前面还有不少客户，等他们都走了我再送过去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "您好，请问需要办理什么业务？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我是来送雪愿节礼物的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "不好意思，本行暂时没有开通这项业务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "推荐您看下我们最新的理财产品，操作简单，收益稳健……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "您误会了…… 这是寄给您的礼物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "咦——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "礼、礼物？！怎么会有人送我礼物…… 啊，是奶奶寄来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "寄件的地址离千塔之城很远，她一定是早就给你寄出礼物了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "天哪，今天是雪愿节，我差点都忘记了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "我工作太忙，很久没联系过家里人，奶奶竟然还挂念着我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "说不定她也在等我的礼物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "需要的话，可以给我一份地址，我帮你买礼物寄出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "虽然赶不上雪愿节了，但奶奶收到后一定很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的柜员",
+   "text": "好！太感谢你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "只剩下最后三份礼物了， 和大家说一声吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯？未读消息？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "苍兰，紧急情况——",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "恩赐意志临时派我和特丽莎去千塔的郊区送礼物",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "这边雪下得好大，都快看不清路了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "走、走不动了……还有好多礼物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "真的很抱歉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我们今晚可能赶不回去了，拜托苍兰去餐厅取消一下预约吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "美味的食物就这样飞走了……好不甘心啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "没关系，我们下次再去吃，总是有机会的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "送完礼物后我就去餐厅取消预约",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "你们路上小心，注意安全",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "需要帮忙的话随时联系我",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "好~保持联络！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "下次一定——",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "今年的雪愿节，又要和往常一样了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不行，我得打起精神来，不然等下会影响到收件人的心情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "剩下的礼物不多了，抓紧时间送完吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "收件人",
+   "text": "谢谢你啊，小姑娘。祝你节日快乐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不客气，也祝您雪愿节快乐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "礼物都送完了，现在去餐厅吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "“橡木之庭”…… 应该就是这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "门口聚集了好多人……他们在干什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贪婪的商人",
+   "text": "五万朵拉，不能再低了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的顾客",
+   "text": "五万？！你怎么不去抢啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贪婪的商人",
+   "text": "你也不看看今天是什么日子，雪愿节啊！你不买有的是人买，等会儿别后悔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "忙碌的店员",
+   "text": "实在抱歉，今晚的预约全满，请大家改天再来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愤怒的顾客",
+   "text": "你们的预约券都被票贩子垄断了，这门口全是倒卖的，能管管吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "忙碌的店员",
+   "text": "您放心，我们正在核实，有了结果会第一时间告知，还请您耐心等待！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "竟然还有人做这种不法生意……太可恶了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "打扰了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "看她这副打扮，还有那支扫把…… 应该是魔女吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "那个……如果您有今晚的预约券的话，可以卖给我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "我非常非常需要它！求求您了——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "怎么……我不会被当作票贩子了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我的确有今晚的预约券，但……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "您随便开价，只要我买得起，我会立刻付款！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "抱歉，我不能卖给您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "首先，我并不是票贩子。我的确有预约券，但是我用不上了，准备去找店员取消。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "取消？！ 您真的不考虑卖给我吗？我保证不会再转手的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不管您是出于哪种目的，私下买卖预约券本身就是违规行为。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "您可以先去店里登记信息，说不定过一会儿，您就能拿到我取消的预约名额了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "好吧，我知道了……不好意思，耽误您的时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小女孩",
+   "text": "魔女姐姐——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "安妮？！你怎么提前来了？我们不是约好了晚上七点见嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安妮",
+   "text": "我等不及了，就想先来看看。姐姐不是也提前来了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "陌生的魔女",
+   "text": "我、我只是来看看菜单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安妮",
+   "text": "哇，这个姐姐穿着雪愿装！你也是雪愿节使者吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "“也是”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "难道说这位魔女……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

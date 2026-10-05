@@ -1,0 +1,893 @@
+{
+ "heading": "# 03B 深夜飙车",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`610`　**编号**：`03B`",
+  "- **关卡名称**：深夜飙车",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_03_b`",
+  "- **关卡描述**：厚壁在前，要想起来还有这招撑杆跳！",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "借助绿洲号的一行人虽逃离了公司，却被堵在了菲莱城区。\n星雁坦言，达尔茜娅的独断行为才是总部真正的调查目标。\n为了帮助伙伴们逃离，你想到了利用城郊的“缆车站”……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "借助绿洲号的一行人虽逃离了公司，却被堵在了菲莱城区。\n星雁坦言，达尔茜娅的独断行为才是总部真正的调查目标。\n为了帮助伙伴们逃离，你想到了利用城郊的“缆车站”……",
+  "episode": "第三话",
+  "title": "深夜飙车"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "今晚好热闹啊，你那边还撑得住吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "勉强可以，再坚持三个小时就胜利了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "需要我帮一把吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "骰子已经掷下，我们没别的路可走了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "今天太阳升起的时候，一切就都结束了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "希望......如此",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "scene",
+   "time": "03:00",
+   "date": "谷月 5日",
+   "place": "菲莱温室区 丰饶广场"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "幸运绿洲号！我们快上车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "快点，我们没时间了，烦人的植物要把路封死了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "等一下，星雁前辈还没——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "温室，温室爆炸了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "爆炸的火光照亮了整个广场，一个熟悉的身影冲出硝烟，跳上车子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "呼……勉强赶上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "人齐了吧？好嘞！小绿，我们冲！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "尘沙，向城外开！出了城它们应该就不会追上来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "星雁前辈，到底，发生了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "为什么达尔茜娅要对我们下手？魔<r=BOSS></r>王…… 希望不会出事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父和达尔茜娅执行官到底聊了什么呢…… 果，果然是因为我们把公司搅得一塌糊涂，所以才……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "不是你们的错。是因为达尔茜娅向“传说中的魔<r=mowang></r>王”献上了忠诚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "简单来说就是……她想为魔<r=mowang></r>王征服整个诺瓦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "征，征服整个诺瓦？呃…… 我不太明白，这是什么比喻手法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "不是什么比喻。她研究智慧植物，就是为了给魔<r=mowang></r>王组建一支强大的军队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "监察部早就盯上她了，但联合种业元老院里有不少被达尔茜娅贿赂，帮她说话的元老。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "之前我没办法进入第一百号温室，更别提地下实验室了，拿不到证据，就没办法对达尔茜娅动作，多亏了你们调查金色夜莺给我扯开了一点活动的空间 。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "调查金色夜莺扯开空间...... 可是，我不明白，金色夜莺的委托是达尔茜娅命令米娜去做的吧，她为什么要自己暴露自己的问题？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我想……达尔茜娅的目标从最开始就是魔<r=mowang></r>王吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "按照这样推断……她根本不在乎金色夜莺的事情，只要能把你们吸引进来就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "况且，现在温室里已经培育好了数万株第二代植物，就算魔力催熟的事情暴露，也已经无济于事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "大家抓紧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "唔啊啊！怎，怎么回事啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "出城的路被堵住了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的种业军官",
+   "text": "达尔茜娅大人有令，空白旅团、花令旅人、星雁窃取公司机密，立刻逮捕，倘敢逞凶拒捕，格杀勿论。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "尘沙，向右转，我还知道一条出城的小路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "03:30",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 贵宾招待室"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，您听，城里很热闹呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "从刚才起，发生爆炸的城区有温室区，银城区，灰城区，然后又回到温室区， 看起来她们想要出城，但是又被堵回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，您真的不担心吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "区区智慧植物，挡不住她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您对她们的实力很有信心呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "水道桥上的巨型星骸、菲莱森林里的三大魔物都是她们的手下败将。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "智慧植物或许可以靠量取胜， 但我不觉得那些植物和达尔茜娅的士兵能抓住飞驰的幸运绿洲号。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您的神器车的确速度很快，不过，经过了温室的激烈战斗， 她们心相石中的恩赐还够用吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "坏了，我因为“魔力绝缘”根本没用过心相石，忽略了魔力问题......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "按照我的计算，昨晚的战斗后，她们心相石里的恩赐想必已经用了大半……再撑三小时已经算好的了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "所以…… 她们被抓也只是时间问题罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠， 你留在这里就是为了嘲笑我的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵，我的确喜欢看您苦恼的表情， 但我并没有那么坏心眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人说要向您证明她的实力，如果最终是靠着智慧植物的数量耗赢的，可有点胜之不武。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "总之情况就是这样，您可以随性一点。只要不离开这个房间，我不会限制您的自由……要是觉得无聊，您不如看看地图，加深一下对菲莱的了解如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "翡冷翠带着似笑非笑的表情，将墙壁上的菲莱地图撕下，铺在了办公桌上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们既然无法出城……我看地图又有什么用。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对……说不定我可以用地图帮助她们离开？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠，我们在地图的哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "中心的那栋大楼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "幸运绿洲号从温室出发， 想要出城的话肯定是向东，但是东边有数条河流，达尔茜娅想要卡住桥梁易如反掌。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠，城西的地形如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "城市的西南方是麦田，前几天刚下过雨。 西北方是陡峭的小山，只有一条死路通向缆车站。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可恶，这不是无路可走吗？等等—— 北方湖中的是......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲莱城的星塔是在湖中的小岛上吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "是啊，湖心岛曾经可是著名的摄影圣地呢。可惜几年前由于恩赐意志的要求，已经禁止上岛了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星塔！这就是最合适的逃跑路线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这座星塔要怎么上去？坐船吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不，是用西北方小山上的缆车站。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "03:40",
+   "date": "谷月 5日",
+   "place": "菲莱银城区 广场西街"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "大家抓紧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊啊啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "抱歉，小绿刚刚压到了智慧植物，打滑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我们还好，琥珀还在车顶上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我没事...... 用弹力挂带缠住，天窗把手了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "心相石里的恩赐不多了，这么消耗下去...... 我们的魔力会耗尽的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，你还好吗？我们很担心你，你现在在哪里？有没有受伤？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，我还好，现在不是说我的事情的时候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们现在在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "银城区广场西街，这里是......是米娜家附近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我估计东边的路都被智慧植物和士兵拦住了，你们向西北方向开，星雁，你知道缆车站怎么走吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "缆车站？你是想......去湖心岛上的星塔？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "星塔...... 对哦，星塔里的房间是混乱的，只要我们钻进星塔，智慧植物就别想轻易找到我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王你真是个天才。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，狠狠射掉前面拦路的智慧植物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香，如果有那种大号植物或者路障， 就拜托你的拳头了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是，师父。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，冻住车后的路面，迟滞追兵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "开始计算施法公式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星雁，菲莱城的街道你比我们熟悉，请在副驾驶上为尘沙导航。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "真是干脆的指挥，而且，无可挑剔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙， 拿出你最快的速度。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，既然魔王都这么说了，我哪能不答应呢！马力全开，我来甩开它们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "03:50",
+   "date": "谷月 5日",
+   "place": "菲莱银城区 米娜的家"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "刚刚那是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尼娅",
+   "text": "唔，姐姐......那是什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "没事的，快回床上睡吧，只是打雷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尼娅",
+   "text": "姐姐你还不睡吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "嗯...... 姐姐还有点工作需要忙，忙完就睡了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尼娅",
+   "text": "嗯，姐姐也不要熬太晚哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "晚安哦。 刚才的爆炸……魔王......到底出什么事了，雾语的手机也打不通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "总有种不祥的预感……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "04:00",
+   "date": "谷月 5日",
+   "place": "菲莱银城区 广场西街"
+  },
+  {
+   "k": "talk",
+   "speaker": "落单的智慧植物",
+   "text": "呜？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "落单的智慧植物",
+   "text": "呜———",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "绿色的汁液，呃...... 好恶心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我说，这么走真的能找到魔<r=BOSS></r>王吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "放心吧，我可是无所不知的情报商——瑟拉娜。你之前不就靠我的情报买到了新口味的饮料？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "唔……好吧，我相信你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "所以，找起来也更花时间。只要你做好我的护卫，我就一定能带你找到魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "好吧，你要是赖账， 我的爪子可不是吃素的。 我去清理前面的植物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "呵呵，魔<r=BOSS></r>王。 事情变得有趣起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "我很好奇，天亮的时候，面对那个更大的麻烦。你要如何抉择呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

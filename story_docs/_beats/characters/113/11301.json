@@ -1,0 +1,596 @@
+{
+ "heading": "# 锅中见真情 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：师渺（角色编号 `113`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`11301`",
+  "- **AVG 剧本**：`CG_113_01`"
+ ],
+ "recap": "来自师渺的委托：案件调查。\n……等等，为什么听上去很危险？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "来自师渺的委托：案件调查。\n……等等，为什么听上去很危险？",
+  "episode": "第一话",
+  "title": "锅中见真情 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好热闹的地方啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "苍梧城，以美食而闻名诺瓦的龙裔城邦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我站在熙熙攘攘的街道上，看着两旁鳞次栉比的招牌，感受着闲适的烟火气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "身边充满活力的景象与食物的香气，让心情不由自主地雀跃起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天的委托，或许会很顺利吧~",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的居民",
+   "text": "抓小偷啊——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气急败坏的小偷",
+   "text": "让开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气急败坏的小偷",
+   "text": "啊啊啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "瞬间，四周蓦然泛起一股令人不适的潮湿感，水汽漫上周身，突兀地汇聚成一道水流，将我们两人卷入其中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "抢劫是严重的犯罪行为，抓到你了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "诶……魔<r=BOSS></r>王？！对不起，把你也牵连进来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "水流退去，眼前天旋地转的世界逐渐恢复了原本的模样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "耳边响起如雷般的掌声，将我的意识拉回了现实。转头望去，小偷已被囚禁在如水牢般的球体中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的路人",
+   "text": "好！这手水系道法好俊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的路人",
+   "text": "哦哦哦！是师渺妙妙水！不愧是白泽公署的师渺玄师！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "不不，我不是玄师啦，我只是白泽公署的工作人员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "将抓住的小偷交给迟来的烛龙戎卫后，面对周围起哄的看客，师渺红着脸开始解释。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "只有精通术法，擅长驱除邪祟，并且通过玄师资格考试，才能被称为玄师。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "我在修炼上还差得远呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的路人",
+   "text": "太谦虚了！以你的实力考个资格证肯定不在话下啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的路人",
+   "text": "喂喂，别瞎说，万一师渺真的去山上当玄师了，我们街上就没这么认真负责的人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的路人",
+   "text": "也是啊，上次她还给这条街所有的店铺检查消防。 师渺，多亏有你，大伙儿才不用整天担心火灾啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "谢谢大家的认可。不过，今天我是为其他调查而来——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "昨天发生了一起案件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "玄师技能大赛期间，赤霞玄师的云笈文化小队有多名队员出现了身体不适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "症状主要表现为上吐下泻……公署怀疑，可能是食品卫生的问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "而且考虑到比赛…… 也不能排除是有人针对云笈文化故意下药。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以希望我协助调查……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "是的，我想借用你的智慧，希望魔<r=BOSS></r>王做我的搭档——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "找出让玄师们受苦的罪魁祸首。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽说是调查，但似乎只需要试一遍她们昨天吃过的东西，确认是否有问题就好，本质上就是苍梧城美食探店之旅，应该还挺轻松吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "师渺找我做搭档只是为了增加测试样本量，毕竟每个人的体质不同，还挺严谨的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算真有黑心店铺……只要在吃之前识破就行，应该没问题！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "请问大家，昨天有没有见到云笈文化的玄师，领头的是一个红头发的女孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的路人",
+   "text": "玄师......红色头发的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的路人",
+   "text": "啊，老周，就是那群在你的糖画摊前面吵吵嚷嚷的孩子们吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "对对对，你这么一说我想起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "里面有个红头发的小姑娘一定要自己画。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "说给大家见识见识什么叫飞龙在天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "最后她画完，拿着一个怎么看怎么像泥鳅的糖画走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "嗯，就是她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "那时候，她们状态怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "没什么特别的，哦，对了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "那个红头发的小姑娘硬要大家承认她画的是条龙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "糖画摊摊主",
+   "text": "后面我记得……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好甜，这个糖画还挺好吃的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "嗯，你吃的是昨天剩下的糖画，这家店没问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "摊主说，当时队里有个小玄师吵着要买夜宵的食材。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们去市场那儿问问情况吧…… 不过范围太大，恐怕有点麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "等、等一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "这个……请用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "那个……抓小偷的时候，我的术法不小心误伤到了魔<r=BOSS></r>王，",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "其实我一直很过意不去……真的很抱歉。 这个算是赔礼……请你收下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我从师渺手中接过她递来的珍珠奶茶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "这是苍梧城现在最流行的饮料，魔<r=BOSS></r>王试试？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦，那我就不客气了。 咕嘟……咕嘟……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好喝！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "师渺不来一杯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "我就不用了，工作期间吃东西被大家看到了影响不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听她的同事说，就算是休息的时候，师渺也会一直保持在工作状态。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是公署里最尽职尽责的人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个，不好意思，我问一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "师渺为什么要约我做搭档？按理说......这应该是公署内部......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不好意思的同事",
+   "text": "嘿嘿，那个……虽然我们都很想做师渺的搭档，只不过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惭愧的同事",
+   "text": "我们总在拖她的后腿。有些时候，还害得她需要分心照顾我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不好意思的同事",
+   "text": "那可是时刻都在“完美”状态下的师渺啊！我、我们不想成为她的累赘……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惭愧的同事",
+   "text": "是的。毕竟她可是——“白泽公署模范员工”啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不好意思的同事",
+   "text": "有时候我们也在想……这对她而言，是不是也变成了负担。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惭愧的同事",
+   "text": "可她并不会告诉我们吧？哎……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，师渺把自己绷得也太紧了吧。希望她能稍微放松些……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

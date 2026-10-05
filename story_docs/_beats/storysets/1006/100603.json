@@ -1,0 +1,660 @@
+{
+ "heading": "# 卫队之魂，骑士之心 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#06《卫队之魂，骑士之心》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`100603`",
+  "- **AVG 剧本**：`STsp_06_03`"
+ ],
+ "recap": "正义的伙伴绝不会姑息这片土地上的任何罪恶！宣传片大获成功，骑士缇莉娅的故事，还将继续谱写下去。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "正义的伙伴绝不会姑息这片土地上的任何罪恶！宣传片大获成功，骑士缇莉娅的故事，还将继续谱写下去。",
+  "episode": "第三话",
+  "title": "卫队之魂，骑士之心 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "前面那辆车，停下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "啧，怎么还真有不长眼睛的追了上来…… 看来不是兜风的时候了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的路人",
+   "text": "呜哇！搞什么，骑车不看路的啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "快停下！千塔之城禁止这样危险驾驶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "笑话，我都当坏人了，还会在意交通规则吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "街上人太多，用那种速度横冲直撞，很容易伤到行人…… 我要想个办法！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "哈哈哈！就凭这种速度，想追上我还早一万年！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "别得意得太早！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "**的，难缠！不过，我可不止这种程度！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "睁大眼睛看清楚，谁才是真正的街头之王！拜拜啦！帝国卫队的破烂骑士！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "好，他往偏僻的地方去了，这样就不用担心撞到路人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "哼哼，这里的小路就和迷宫一样复杂，区区饭桶骑士，现在早就找不着东南西北了吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "最后警告一次——停车！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "什、什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "放弃挣扎吧，你跑不掉的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "别装模作样了！帝国卫队就是一帮废物，没有人能比我更快！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "很好，成功逼他右转了！再往前就是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "呼……呼……总算甩掉了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "哈哈哈哈，我就说！我才是街头之王——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "我*！什么声音？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "话音未落，随着引擎的轰鸣声，缇莉娅如同猎鹰般从天而降，阻断了劫匪的前路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "帝国卫队骑士——缇莉娅！ 在此宣判！罪恶的疾驰到此为止！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "怎么可能……像你这种卫队骑士，怎么可能有这么快的速度？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "你的速度只会带来灾祸，而我的速度是为了守护而生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "从一开始，你就不可能赢过我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "邪恶终将被制裁！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "骑士缇莉娅——变身！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "等等……！你从哪里掏出的长枪和盾牌？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "为了自由和荣耀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "别、别过来！我反对暴力…… 救命！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "正义执行——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "我投降……我投降……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "但我想不通……你到底是怎么追上我的？就凭你们帝国卫队那种破烂神器车，不可能有我快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "单靠车的速度，我确实很难追上你，所以我只能不断压缩你的进行路线，把你逼到我想要的方向上去。只要提前知道你会走哪条路，我和骏鹰号就一定比你快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "我每一次转向都是最完美的选择，是最优路线！你却说这是你计划好的？！我明明对这片街区的地形烂熟于心，竟然没发现这点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那只能说明，你驶过的每一条街道，我都比你更熟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "劫匪",
+   "text": "什么？！ 是我……输了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "以骑士的荣耀起誓，帝国卫队，绝不会姑息这片土地上的任何罪恶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "这位犯人，你被捕了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "看这情况，也用不着我们出手了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "小凯，魔<r=BOSS></r>王，你们也跟过来了啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不愧是缇莉娅，干得漂亮。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "这是我应该做的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "可惜在制服劫匪的过程中，不小心把衣服弄破了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "抱歉，魔<r=BOSS></r>王，难得你来帮忙，但恐怕今天没法继续拍了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系，你的选择是正确的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "是啊……你说得对。如果是蒙面骑士的话，他一定也会这么做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我履行了骑士的职责，我不后悔！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "啊……话是这么说，我现在还只是一个骑士侍从来着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "之前拍摄的时候一直扮演“帝国卫队骑士”，搞得刚刚也下意识自称骑士了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "这不挺好的嘛，骑士大人~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "你就别笑话我啦，小凯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "这可不是玩笑。我一直觉得你比帝国卫队里的任何一个骑士，都更像一名“骑士”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，在我们的心里，你早就是“骑士缇莉娅”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嘿嘿……谢谢你们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "接下来，只要把劫匪带回卫队就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呜……虽然刚刚说了不后悔，可是一想到回去后还要写检讨书，就觉得有些头疼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "怎么样，有能用的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能用，都能用。特别是最后这里，你看这个镜头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "帅啊！这个好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "你们在做什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳……缇莉娅，你不用担心拍摄的事，也不用写检讨书。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚刚你追劫匪的时候，我让凯多克骑车带着我，把你抓劫匪的过程完完整整地拍了下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "拍、拍了下来？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些素材拿回去剪辑处理一下，绝对能做出很棒的宣传片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凯多克",
+   "text": "话说回来，你的车技是不是又进步了？我使出浑身解数才没跟丢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "是吗……我当时只想着要抓到劫匪，压根没注意到其他事……嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "谢谢你们，魔<r=BOSS></r>王，小凯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一周后，一部半纪录片的形式的帝国卫队宣传片被制作了出来， 播出后大受观众好评。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "其中主角骑士追捕犯人的英姿为全篇最大的亮点， 她那打动人心的台词也被广泛传播。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "甚至不少《蒙面骑士》的粉丝对此赞不绝口， 称赞这部纪录片简直就是《蒙面骑士》的精神续作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "你好，您就是魔王吧？请跟我走一趟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……这位骑士大人，我没犯事啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "不不，您误会了，我们是请您去拍摄的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "上次您拍摄的《骑士之心》广受好评，卫队的大人物们也对此赞不绝口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "因此特别邀请您再去为我们拍一部续作，请您务必赏光！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "看来，我和缇莉娅之后又要忙起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,628 @@
+{
+ "heading": "# 06 矿洞突袭……黑暗巢穴的陷阱",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：枪林弹雨覆黄沙（活动编号 10109）",
+  "- **关卡 ID**：`101090207`",
+  "- **AVG 剧本**：`STev_09_06`",
+  "- **关卡描述**：根据逃出矿工的情报，卡西米拉决定突袭矿场"
+ ],
+ "recap": "虽然卡西米拉隐约察觉到有些不对劲，但人命关天，白猫剧团决定就算是陷阱，也要奋力一搏！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "虽然卡西米拉隐约察觉到有些不对劲，但人命关天，白猫剧团决定就算是陷阱，也要奋力一搏！",
+  "episode": "第六话",
+  "title": "矿洞突袭……黑暗巢穴的陷阱"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "怎么样？我的判断没有错吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "我们多多少少应该给她几次尝试的机会，毕竟猫眼也不是每次都会闯祸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，确实，猫眼这些年也成长了不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我也知道我有些保护过度了， 可有的时候也确实是很难放手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "还有，那枚挂坠应该由你亲自交给她，而不是拜托我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "那时候你叫住猫眼，其实就是想把挂坠亲手交给她吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，可是，按猫眼那性子肯定不会收下的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "“你不试试，怎么知道呢？”，猫眼不是常这么说吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "所以啊，你们两个其实挺像的，一个不愿意说，一个不愿意听。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "与其一直这样僵着，不如找个机会，好好和她谈一谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "等这次任务结束吧，我会试试的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "嗯，那就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "喵哈哈哈哈！猫眼大人凯旋归来啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "这么快？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼，还得是身负黑暗之力的猫眼大人。随便在街上溜达一圈就是大丰收哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "大家都过来一下！来听听这个人怎么说！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "白猫剧团的各位，拜托你们了，一定要救救我们啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "这位是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我刚刚从一群沙蝎杂兵手底下救出来的，说是是那个矿场逃出来的矿工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "等，等一下。逃出来的矿工？你一个人救下来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "是啊！区区沙蝎也想阻拦我猫眼大人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "干得好，猫眼。不过，我倒是很好奇，这位矿工是怎么从沙蝎的眼皮底下逃脱的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "是，是这样的……其实最近坑道里有一只异常强大的魔物出没，导致开采进度一直停滞不前……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "但沙蝎的那帮人完全无视魔物的威胁，强行逼迫我们继续开采，后来那只魔物便发狂暴走了…… 我就是趁着混乱逃出来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "对！它的体型和力量都非常吓人，并且还似乎把坑道的中央区域当成了巢穴……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊！之前好像偷听到沙蝎的副团长提起过魔物这回事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "对了…… 而且那个副团长已经带着一批人马出发去菲莱了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "现在矿洞里的守卫比平时少得多！有我带路的话——你们一定能救出我的同伴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "去了菲莱……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "嗯，这个我们当时也听到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "敌人守卫空虚确实是个好机会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "是啊，我还有好多同伴都被沙蝎囚禁起来了，求求各位帮帮我们吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "而且他们今天就要被沙蝎带去那附近采矿了！随时都可能有生命危险啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "在那里做苦力的都是旅人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "既有被坑蒙拐骗来的旅人，也有一部分是被沙蝎强行掳走的米拉什当地居民……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "了解了……这样的话，如果我们能将受害者救出，再把新矿脉的事情公之于众，就有办法团结镇上的人们一起反对沙蝎了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "就是说啊！人命关天，我们别犹豫了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不过……你说矿洞里出现了一只魔物，而副团长又恰好在这时候带走了大半人马……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这未免也太过凑巧了，我感觉很可能是沙蝎特意设下的圈套。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就算是陷阱又怎样，我们总不能见死不救吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "是啊，沙蝎根本就没把我们的命当回事，在他们眼里我们只是消耗品！不能见死不救啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "激动的白猫队员",
+   "text": "是啊！队长，沙蝎这群家伙太不干人事了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "激动的白猫队员",
+   "text": "我们早受够沙蝎的气了！给他们点颜色瞧瞧吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "同情的白猫队员",
+   "text": "况且…… 想要说服镇上的人通力合作来反抗沙蝎，就必须先打一场漂亮仗证明我们才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "是啊是啊！只要各位肯出手相救，不仅是镇上的人们，就连旅人也一定会和你们共同对抗沙蝎的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "放心吧，有我猫眼大人在，区区沙蝎的陷阱又能把我们怎么样呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "好吧…… 按照第三小队队规第一条，当面临重大决议事项时，全体队员均持有一票表决权……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "所有人，整装待发——奇袭矿场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白猫队员们",
+   "text": "哦哦哦——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌乱的沙蝎佣兵",
+   "text": "可恶！快去通知其他人，白猫剧团攻进来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌乱的沙蝎佣兵",
+   "text": "哇啊啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "不出所料，矿洞里果然没什么守卫！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哈哈！被囚禁在这黑暗巢穴的同胞们哟！猫眼大人这就来解救你们啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "虽说副团长不在，但守备松懈成这样也太反常了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，推进的速度还是慢一点，再深处是什么情况我们还不知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "知道啦知道啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紧张的沙蝎佣兵",
+   "text": "快！他们在这里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紧张的沙蝎佣兵",
+   "text": "呃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "来一个打一个！都不是我的对手！喵——哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "快到了！就在前面！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "穿过前面的洞口，就是他们关押旅人的地方了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哈哈哈！我来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哇！什么动静？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "同行的白猫队员",
+   "text": "这矿洞该不会是要塌了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "巨大的声响",
+   "text": "嗷——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "噫——是那只魔物！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "快！快跑啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "等等！别乱跑，快回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的矿工",
+   "text": "这里就交给各位了，我就先失陪了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌乱的声音",
+   "text": "救命啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊恐的声音",
+   "text": "不，不要过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "同行的白猫队员",
+   "text": "队长！等待救援的旅人和镇民就在眼前了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼，看来终于迎来真正的试炼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这只魔物就包在我猫眼大人身上吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

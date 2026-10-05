@@ -1,0 +1,1087 @@
+{
+ "heading": "# 03C 神奇的草",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`509`　**编号**：`03C`",
+  "- **关卡名称**：神奇的草",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_03_c`",
+  "- **关卡描述**：不知疲倦的伟力，亦是一种傲慢。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你与雾语在生产部见识了神奇的魔法植物。\n此处的管理者是翡冷翠的下属，红宝石与蓝宝石，\n而她们都对面包的配方并不知情。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你与雾语在生产部见识了神奇的魔法植物。\n此处的管理者是翡冷翠的下属，红宝石与蓝宝石，\n而她们都对面包的配方并不知情。",
+  "episode": "第三话",
+  "title": "神奇的草"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "联合种业 生产部",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "大家注意！“红宝石独创伸展体操”要开始了！今天也要元气满满地工作哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "像猫咪一样， 咕噜咕噜滚呀滚~♪ 挺直腰板，身高往上飙呀飙~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "曼德拉辉草群",
+   "text": "咿——呀——♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "胸怀大志气昂昂~♪猫儿变不成老虎~♪但小树总有一天能长成参天大树~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "合唱",
+   "text": "咿——呀！！！♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "停停停！红宝石！别带着辉草们唱歌了！一小时前，我们刚收到隔壁部门的投诉。他们说要是再吵，就把辉草们全部烧掉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嘶……真是说来就来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "蓝宝石，你说——什么——我这儿声音有点大听不清——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "我 是 说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "别再唱啦！过来过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "生产部三天收到十份投诉，全都是关于辉草流水线的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "抱歉抱歉，但我也是为了部门着想嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "规定就是规定！一份投诉扣三天工资，接下来我是不是能看见你倒贴钱上班了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "呃……我要直接去找翡冷翠大人反馈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "而且，《音乐与植物活力的关系》上面说，给植物听音乐能促进它们更好工作。辉草也是植物，应该也有用呀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "站住，红宝石！别因为这种小事就打扰翡冷翠大人，她很忙的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "为了我们生产部的业绩，拼了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哪份资料上这么说的啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "《致富经——种植曼德拉辉草需要注意的......》唔……名字太长我没记住，上次清理过期文件时翻到的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "哎？！你们是谁啊？看上去不是生产部的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嘻嘻，我是战略部的雾语，这位是魔王，从今天开始，我们在生产部实习~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还请两位多多指点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "哦哦！是新人啊！我是红宝石，你们的前辈，哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "那边苦着脸的是蓝宝石~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "苦着脸……还不是在愁你的申诉报告该怎么写！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "咳咳，你们好，我是蓝宝石。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "你们瞧，别被蓝宝石那副样子吓到，她很热心的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "蓝宝石......之前和夏花去粮食交易所时......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦虑的种业员工",
+   "text": "实在不好意思，让两位久等了！我是蓝宝石，是这里的负责人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "突然造访，打扰了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "您客气了，讨伐魔物的事情我也有所耳闻，但这件事的确不是本交易所负责的，是市场部负责的，询问悬赏方面的事情，我可以帮你们联系她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "至于灰夫人这个名字，我没听说过，她至少不是我们生产部的人，要不然，两位再去别的地方问问？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "粮食交易所原来是归生产部管的，听起来她是翡冷翠的下属。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，她好像没认出我。这样也好，毕竟我们是在潜入调查，就不过去打招呼了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "看到那九十九座温室了吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "它们可是我们生产部努力的结晶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "哎……又开始了……胃好疼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哇，这是什么魔物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "它们在......操作神器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "哼哼，被吓一跳吧。这不是魔物，这是我们联合种业的最新发明——曼德拉辉草。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "曼德拉辉草？没听说过的名字……这是什么稀有的魔物吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "看起来虽然有点可怕，实际上很可爱的，你看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "转圈~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "躺下~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "握手~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哦哦哦，好乖好乖，还有点可爱， 不过比起本魔女还是差远了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么在和魔物比啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "这边是我们的面包生产线，曼德拉辉草可以听得懂简单的指令，生产线上一些机械性的工作可以交给它们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "然后，请两位这边走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好漂亮的麦田。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "哼哼，菲莱城外的田地都是联合种业在种。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "曼德拉辉草在收麦子？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "是的，只要耐心教导，辉草就会根据拟定的动作以及设定好的行距进行播种，浇水，收割。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样的话......岂不是不需要人类干活了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "现在还做不到啦，这些草的工作效率很低的，它们只能处理最简单的任务，远远比不上人类。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "但是，曼德拉辉草只需要营养液和阳光就能活。换个角度看……成本其实比人类要低。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "这，这倒是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "这就是曼德拉辉草的现状，可以帮大家做一些工作，但不多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "如果公司能继续研究的话，说不定会有改善。 不过......公司现在好像并没有这样的计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "是呢，听说两年前是有计划的，结果不知道为什么叫停了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "明明都已经开始研究了，却突然喊停……总感觉有点浪费。如果继续研究下去，就能让辉草帮我们干所有的事情，我们只要休息就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "红宝石，不要乱说话。这些都是领导们的决定，我们照做就行，别给翡冷翠大人添麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "所以我们才更要把辉草的能力发挥出来啊，这对于公司的发展也更有利不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "说不定，以后用于研究辉草的温室……会扩建到第一百座！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "反正结局肯定是被别的部门投诉……然后惨遭拆除。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "不好意思，那个，生产部的人并非都像她这样不靠谱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "红宝石前辈的提案好有趣！我加入！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "哦哈哈哈哈！新人！我就知道你很上道！不如直接从战略部转到生产部吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "真是的，又在空口凭说……啊啊……胃更痛了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个，你还好吧。我扶你去休息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "呃……那个， 谢、谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "（唔，魔<r=BOSS></r>王带蓝宝石去休息了，倒是个观察曼德拉辉草的好机会。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "（联合种业里竟然藏着这种奇怪的植物，这也是个大新闻啊！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "（能再打听到一些情报就更好了……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "红宝石前辈，我们现在应该怎么做？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "雾语，会唱歌吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "当然，摇滚流行抒情，我都很拿手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "嗯嗯，非常好！那我们一起唱歌给辉草们听吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "这两天我试验了一下，音乐能激发辉草们的行动力。就像这样——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "像猫咪一样，咕噜咕噜滚呀滚~♪ 挺直腰板， 身高往上飙呀飙~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "胸怀大志气昂昂~♪猫儿变不成老虎~♪但小树总有一天能长成参天大树~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "曼德拉辉草群",
+   "text": "咿——呀——♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "好厉害啊，竟然能听得懂音乐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "它们还有喜欢的曲子呢，如果我唱的是它们不喜欢的曲子，工作就会变慢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "听起来，辉草比起植物，更像是小猫小狗一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "嗯......这么说的话，有些时候，这些辉草的确会盯着我看，就好像要听我唱歌一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "比如现在？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "喂喂，别乱看啦，生产线要停了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "雾语来，我们快一起唱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "两人",
+   "text": "像猫咪一样，咕噜咕噜滚呀滚~♪挺直腰板，身高往上飙呀飙~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "两人",
+   "text": "胸怀大志气昂昂~♪猫儿变不成老虎~♪ 但小树总有一天能长成参天大树~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "曼德拉辉草群",
+   "text": "啊——啊！！！♪♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "前辈，这应该不是辉草的正常工作状态吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "确实不是，但问题不大。 我们可以试试舒缓点的音乐让它们冷静下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "一，二，三~一，二，三~ 猫揉面团，面团软软~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "有猫毛也毛问题~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "曼德拉辉草群",
+   "text": "啊——啊！！！♪♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "没用啊！ 唔呃……什么东西飞过来了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "呜哇，是包装盒！辉草开始不受控地乱扔东西了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "再这样下去，这批次的面包都要报废啦！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "发生了什么？？生产线搞得一团糟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "一两句解释不清！快点来帮忙啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暴走的曼德拉辉草",
+   "text": "咕噜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟了，躲不开了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "为什么会变成这样啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "别傻站在那。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "翡……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "翡冷翠大人！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "蓝宝石、红宝石，我就是这么让你们管理生产部的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石&蓝宝石",
+   "text": "对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你们两个新人……就当长个教训吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "曼德拉辉草虽然能帮助我们做很多工作，但工作状态并不稳定，我们也没办法和这种辉草建立真正有效的沟通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "所以，只要稍不注意……就会变成现在这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明、明白。我们会小心的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "快点收拾好现场，不要影响今天的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石&蓝宝石",
+   "text": "是、是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我们也来帮忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好强的威压感，和上次见面的感觉完全不同。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是......大公司的职场精英对外和对内的两副面孔么......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "魔<r=Boss></r>王，联合种业里果然有大新闻呢，这个辉草就值得一写了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我们下面怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "",
+   "options": [
+    [
+     "担心尘沙和冬香",
+     "研发是个细致的工作",
+     "E501"
+    ],
+    [
+     "在意鸢尾和琥珀",
+     "市场宣传听着就好难",
+     "E502"
+    ],
+    [
+     "结束一天的工作",
+     "回去总结线索",
+     "E504"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "担心尘沙和冬香"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "去研发部吧， 尘沙的异想天开加上冬香的力量，总觉得放心不下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "明白，顺便说一句， 研发部那边大家都穿着白大褂呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "在意鸢尾和琥珀"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "去看看市场部的情况吧， 鸢尾很擅长文书工作，宣传工作似乎也没问题， 倒是琥珀......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "别那么担心，总能应付过去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "结束一天的工作"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们回去吧，和大家一起总结一下线索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呜呼呼，好期待大家在一天的工作中都发现了什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  }
+ ]
+}

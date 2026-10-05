@@ -1,0 +1,748 @@
+{
+ "heading": "# 03 精灵的踪迹",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：闪耀的使者与圣夜的精灵（活动编号 20101）",
+  "- **关卡 ID**：`201010203`",
+  "- **AVG 剧本**：`STev_02_03`",
+  "- **关卡描述**：“雪愿树精灵”，总会帮你实现愿望。"
+ ],
+ "recap": "在孩童之间流传着“相片上拍到了一位会发光的精灵”的故事。一向摸鱼的菈露在今天格外积极的接下了“找到精灵照片”的使命。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在孩童之间流传着“相片上拍到了一位会发光的精灵”的故事。一向摸鱼的菈露在今天格外积极的接下了“找到精灵照片”的使命。",
+  "episode": "第三话",
+  "title": "精灵的踪迹"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你认识她吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "不认识，我们天天在这里玩，从来没有见过她！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "我好像在哪里见过…… 哎呀，想不起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这样啊…… 魔<r=mowang></r>王，如果她也在名单上，我们就一定要把礼物送给她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别着急，说不定等下就又遇到了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，她好像很在意“雪愿树精灵”…… 这个故事很出名吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "嗯！我是从书里看到的，那本书是一个穿着恩赐意志衣服的大人物送给我们的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大人物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "对呀，她给我们带了好多书！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "应该是慈善活动吧，恩赐意志的确会定期做这种事呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "书上说，只要向雪愿树许愿，精灵小姐就会实现我们的愿望！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊，我小时候听过这个故事呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不过，那说到底也就只是个故事罢了。“精灵”什么的就…… 哈哈，太幼稚啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "谁说的！那本书里还夹着一张精灵的照片—— 在公园的雪愿树下，闪闪发光的家伙！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "送给我们书的那个人说，那张照片是她以前拍的，应该就是雪愿树精灵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "今年我们收到了这么多礼物，一定是雪愿树精灵帮大家实现了愿望！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呃…… 闪闪发光的家伙啊。等等…… 难不成……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没、没什么…… 我也想见到能够实现愿望的精灵啊。这样一来，送礼物就轻松多了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "是吧！大炮“砰”地一下，礼物就送完了！一定很好玩！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "不行，我不要大炮，我要姐姐送给我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哈哈…… 谢谢你。虽然我也想轻松点，但是看不到大家满足的表情，我也会寂寞的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "那就面对面用大炮发射吧！我能接住的！这样不就一举两得了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哈哈哈哈！你这家伙果然傻乎乎的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嘶…… 如果控制好大炮威力的话，也不是不行？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "行的行的，雪愿树精灵会帮我们的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "唔…… 我还是想要可爱一点的送礼方法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雪愿树精灵真的什么愿望都能实现啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "当然了！她可是会发光诶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "闪闪发光！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是因为发光就相信了吗？果然是小孩子的想法啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不仅有发光的鱼和精灵，街道上也是灯火通明…… 雪愿节是和“光”有关的节日吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呃，倒也不是啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "呜…… 好想见到雪愿树精灵啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有人亲眼见过她吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小男孩",
+   "text": "大家一直在找她，可是怎么都找不到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "我们看到照片的时候，还问了一下那个“大人物”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "那个人说…… 她只在拍照片的时候见过一次，之后就再也没遇到过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "啊…… 我想起来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "刚刚逃走的小女孩，在我们和送书的“大人物”讨论雪愿树精灵的时候，也像刚才那样一直偷看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "说不定她知道雪愿树精灵的事情呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "不对，不对，我觉得她肯定是雪愿树精灵派出来的探子，听了我们的愿望后再告诉精灵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来，大家对这个精灵都很有兴趣呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "有兴趣也没有用…… 根本见不到精灵小姐的影子啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让我想想…… 你们不是有精灵的照片吗？能给我看看吗？我用手机拍下来发给朋友，找的人多了说不定就能找到呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "用手机拍下来发给朋友？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "好主意！喂—— 你们知道照片现在在谁手上吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "不知道。那张照片夹在书里，大家都争着抢着看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "唉…… 这就很难找到了啊，毕竟是送来的书，孩子们会借来借去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那也总有一个在看的孩子吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这，这可不好说，毕竟是小孩子，看完书就丢在一旁，然后忘了这件事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "借来借去的书就这么丢了也是常事，我们还是别找啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可惜，我还想见一见传说中的雪愿树精灵呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "照片上精灵小姐的样子很可爱哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "真的？那、那我也想见见她呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "但感觉精灵小姐有点孤单，所以我们才想找到她，这样就能和她做朋友了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊，这个嘛，既然照片找不到，我们也没办法…… 嗯，没办法了呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "有办法的！今天是雪愿节，大家都会来领礼物，一个个问过去总会知道的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "没错！我们分头行动，很快就能找到的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "等、等下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你们只需要开开心心过节，找精灵这种事就交给我们吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "钓鱼大王，你可以的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "当然了！我们只要在送礼物的时候顺便调查一下，轻轻松松就能问出来啦…… 对吧魔<r=mowang></r>王？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "倒是也可以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎呀，我们可是雪愿节使者，帮孩子们实现愿望是理所应当的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总觉得菈露有点怪怪的…… 怎么突然变得这么积极？明明找照片算是额外的工作了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我们只要找到任意一个拿过书的人，然后顺着一个个找过去，这样肯定能找到“最后一棒”吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们几个都看过这本书，还记得最后把书给谁了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "我是最早看完的，之后就给灰风俱乐部的朋友了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活泼的小男孩",
+   "text": "灰风的满月大姐头给我的…… 我读完后就给她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "我，我想想，我最后是给了一个白头发的孩子，看着不像埃摩人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个白头发的孩子刚才来领礼物了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害羞的小女孩",
+   "text": "没看到呢，但她只要还在埃摩，肯定会来领的吧，谁能拒绝雪愿节的礼物呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "开心的小女孩",
+   "text": "对了，今天我过来领礼物的时候，隔壁那条街上有个穿着和姐姐你一样衣服的信使在给人送书，既然都是送书，她可能也会知道吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "线索还挺多的嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我们一边送礼物，一边顺路问问刚刚提到的那几个人…… 要是遇得到的话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我们先向哪个方向走呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "先去哪里呢？",
+   "options": [
+    [
+     "灰风俱乐部",
+     "先去找熟人问问",
+     "Eev2_01"
+    ],
+    [
+     "继续在附近发礼物",
+     "也许能遇到白发女孩",
+     "Eev2_02"
+    ],
+    [
+     "去隔壁街找信使",
+     "找专业的人问问",
+     "Eev2_03"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "灰风俱乐部"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "先去灰风俱乐部吧，那边的孩子那么多，说不定能有新的线索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那些孩子用滑板送礼物应该挺快吧，要不要拜托她们来帮忙呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "继续在附近发礼物"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "自己的事情自己做啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们还是先在这边发礼物吧，说不定就能遇到那个白发的孩子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也可以和来领礼物的小朋友继续打听，只要那孩子没出城，一定会有人知道的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "去隔壁街找信使"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们先去隔壁街找信使吧，说不定对方知道的更多一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "穿着和我一样衣服的信使...... 好奇怪，诺瓦现在还有信使吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  }
+ ]
+}

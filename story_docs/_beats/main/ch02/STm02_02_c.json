@@ -1,0 +1,599 @@
+{
+ "heading": "# 终局 永恒",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`207`　**编号**：`终局`",
+  "- **关卡名称**：永恒",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_02_c`",
+  "- **关卡描述**：复杂的计划总会出意外。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你们想要巧妙地潜入，钻进装神器的箱子里。\n可是，星塔却突然出现问题，你们被困住了，\n吃下星塔里的食物的你们，再也走不出星塔。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们想要巧妙地潜入，钻进装神器的箱子里。\n可是，星塔却突然出现问题，你们被困住了，\n吃下星塔里的食物的你们，再也走不出星塔。",
+  "episode": "终局",
+  "title": "永恒"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "16:30",
+   "date": "雨月 2日",
+   "place": "埃摩七号星塔 四十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "今天许愿出的神器......五，十，十五件， 都在这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "运输会走水道桥的水路……箱子扔下去的时候，估计会晃得挺厉害，可别叫出来让人看破了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "那好，开始装货吧，昨天已经给装神器的木箱都做了夹层了，先把神器放夹层上，我们躲到夹层下面去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "等不动了就能出去了吧？菲金肯定会把这些箱子和之前的神器放在一起，我们就能找到小绿了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这计划确实不错…… 但我们钻进箱子，重量肯定有变化，不会被发现吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别担心，我会告诉佣兵，今天许愿出了很多很重的神器，他们不会在意的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "计划，很完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那大伙儿开始行动吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天和我们一起上塔的，还有一位穿着黑衣的旅人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔，爬了一会就看不到她了，我想她早就出塔了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "魔王，你担心的话，我们改天再潜入？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呜哇，突然间好晃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "地震？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不会的，星塔内外是隔绝的，就算外面真的地震了，我们也感受不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "突然变黑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "奇怪......星塔里的灯从来没灭过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "虽然我很想说“怎么可能”……但这次连我也有不好的预感……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，我们快点出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "升降机停了......这是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "快，我们走楼梯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "19:50",
+   "date": "雨月 2日",
+   "place": "埃摩七号星塔 ？？？层"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，呼，我们下了多少层了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "一百层...... 不，应该有两百层了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "可恶，星塔有这么高吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊哈，啊哈哈哈……不行了……走楼梯是没办法离开星塔的，我们根本没爬过那么多层，我们这辈子都要在星塔里永远徘徊下去了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别说这么吓人的话啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "星塔肯定是......肯定是坏掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "每次进星塔都是从升降机房间进来，就算我们能走到星塔最底层又如何？打不开升降机，我们还是会被困在这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "就算把墙砸破，我们也要出去，孩子们还在等着我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "大家，这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这是......弹孔？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "一个小时前，我做的记号。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们走回来了？不不，这不可能吧，我们一直在下楼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "完全搞不懂啊……这是什么魔法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星塔到底是什么结构啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "从来没人弄清过星塔的结构。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大家只知道从升降梯进，从升降梯出，许愿之外的东西，都带不出星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别想那么多了，先用星塔里的食物填饱肚子吧，饿着肯定想不出办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，星塔里的食物不管吃多少，在离开星塔的时候都会被星塔拿回去， 并且，一直吃的话，我们就会忘了自己是谁，最后......消失在星塔里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我知道，不过假装吃饱了也能打起精神，精神好了说不定就能想到好办法…… 对吧？只吃一点的话——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "?月 ??日",
+   "place": "埃摩七号星塔 ???层"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我、尘沙、琥珀、鸢尾还有密涅瓦在星塔里滞留了下来，我们花费了很多时间探索，最终在没有向上的楼梯的一层里，在墙壁上发现了一个巨大的破洞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但是，洞外是无尽的白云，塔壁光滑无比，攀爬这种墙壁和自杀并无区别。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "升降机依然纹丝不动，我们真的被永远困在了星塔里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后——过去了数不清的漫长时光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "当我意识到这点的时候，我们已经忘记了彼此的面容。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "您好，一共是三百星塔币，请收好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "本店概不赊账，给您添麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下一个房间的敌人很强，您不看看这边的商品吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "魔王，帮我去送一下货。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我出发了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "偶尔，便利店也有送货的工作，印着各种图案的大门是给旅人走的，店员的路总是藏在意想不到的地方，比如掀开不断闪光的地板，或是钻进洗衣神器的洗衣桶，把物品送到不同星骸的手中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是您要的东西，请拿好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "呵呵呵呵，真像传闻中那样在干有趣的事呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个，这位客人，您能不能先签收一下？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "魔王，您不认识我们了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她们有些眼熟，似乎是曾经引导我的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她们的面容姣好而陌生，不是我认识的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "……虽然很悲伤，但也无可奈何，在星塔里待得时间长了，是会变成这样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "我们在星塔里待得时间更长吧，可没变成这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "你看我，今天皮肤状态也超棒呢♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "表面上看是这样，不过...... 你我的内在到底变成了什么样，谁又说得准呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "话说回来，魔<r=mowang></r>王大人，您不必再担心了。今天就用我们的力量，给您一个重获一切的机会吧♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "也就是说接下来，就要看你的努力了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着镜子的少女",
+   "text": "那么……愿您这次能踏上幸福的旅程。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿着提灯的少女",
+   "text": "呵呵呵呵，下次见面会是什么时候呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？口袋里好像有什么东西在震动……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果，如果我能回到那个时候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我绝对……会相信伙伴的建议。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

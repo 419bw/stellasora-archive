@@ -1,0 +1,644 @@
+{
+ "heading": "# 人刀合一的修行 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：千都世（角色编号 `144`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`14403`",
+  "- **AVG 剧本**：`CG_144_03`"
+ ],
+ "recap": "大雨倾盆，她略显失落。此刻，你意识到了作为“持刀人”的应尽之责……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "大雨倾盆，她略显失落。此刻，你意识到了作为“持刀人”的应尽之责……",
+  "episode": "第三话",
+  "title": "人刀合一的修行 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一阵潮湿的风，吹过被雨水敲打的驿站。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "千都世的长发随风飘动，她目光恍惚，在我身旁正襟危坐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还好，总算是找到了避雨的地方……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世……是不是有些沮丧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公， 万分抱歉…… 妾身非但未能领悟“人刀合一”之道， 至今也未曾为主公做出任何值得称道之事， 实在羞愧难当。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "既如此…… 妾身只能“断刀”谢罪了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "就算是这样千都世也一直很努力啊？",
+   "options": [
+    [
+     "别这么说！千都世一直都很努力啊？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "努力…… 妾身的努力并未带来任何成果。 这样的“努力”，真的能称之为努力吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "当然可以，努力的心意没有贵贱之分。",
+   "options": [
+    [
+     "当然能，努力的人都值得被尊重。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身既无法掌控自身的魔力， 也无法体察主公的心意， 还因一时逞强，让主公因妾身的失误弄得浑身湿透……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "果然， “人刀合一” 对现在的妾身而言，只是痴心妄想……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "领悟“人刀合一”并不是一切啊",
+   "options": [
+    [
+     "其实也不是非要掌握“人刀合一”不可啊",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "可是…… 妾身希望能够成为与主公心意相通的刀， 想全心全意为主公效劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "可能“人刀合一”确实是理想的关系",
+   "options": [
+    [
+     "心意相通或许确实是理想的关系",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "但只要你真心为我着想",
+   "options": [
+    [
+     "但你有这么一颗为我着想的心",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我就很开心了，谢谢你",
+   "options": [
+    [
+     "我就已经很开心了，谢谢你",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "诚惶诚恐， 这声“谢谢” 妾身实在受之有愧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公…… 像妾身这般不成熟的刀…… 您也愿意留在身边吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "反而是我更想拜托你留在我身边",
+   "options": [
+    [
+     "当然愿意。不如说，请你务必一直陪在我身边。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "啊！ 妾身受宠若惊……！ 没想到主公竟然如此器重妾身……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "从今往后， 妾身必将加倍努力，早日与主公心意相通， 成为一把真正配得上主公的名刀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我也要努力成为配得上你的厉害的持刀人",
+   "options": [
+    [
+     "那我也要努力，成为配得上你的持刀人。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "只要主公还需要妾身…… 不， 哪怕有一天主公不再需要妾身……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身也会作为主公的刀， 直至最后一刻，永远守护主公。 妾身在此立誓！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "既已重新立下誓言…… 主公，那里危险，还请您先不要移动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "危险……？等下，你要做什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "就用妾身的力量，把这些水滴—— 嗐——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "心无杂念的千都世，以迅雷不及掩耳之势挥刀—— 空中划出优美的闪光弧线，待我反应过来时，利刃早已收鞘。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么魔法……！刚才身上还湿透的，现在居然全干了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能一刀劈开岩石，又能用剑风拭去水汽…… 千都世的刀法，实在是太奇妙了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，这样是不是好受些？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢你。真是帮了大忙。嗯……我虽然没有你那样厉害的本领，但我至少能帮你擦擦头发！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不，怎能因妾身之事，劳烦主公亲自动手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不必推辞。为刀做保养，本就是“持刀人”应尽之责——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "——这不是之前你自己也说过的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "……不愧是主公的智略，妾身可真是被将了一军呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，要擦干她这么长的头发，确实得想点办法…… 姑且找找身上带着什么吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……嗯。能用得上的，大概只有“这个”了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那是……妾身的“下绪”！您，一直随身带着吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然。这可是你给我的重要信物啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎呀，这可是重要的东西，拿来擦头发，总觉得好像不太合适……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不，不如说，此刻用它正是最合适的时机，主公不必顾虑，尽管使用就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "正合适？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "是的。毕竟这块“下绪”，之前一直都裹在妾身的身上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "裹在身上……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下——！你之前一直都贴身裹着它吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "是的。所以请您不必顾虑尽管使用……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "反而更不敢用了啊……！这么重要的东西居然在我这里保管着，实在不知如何是好……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧！总之这份礼物，之后我也一定会谨慎、郑重地保管的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "好的，愿妾身与它都能永远陪伴主公左右。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说回来……千都世，你这样真的没关系吗？就算是“刀”，也是不能锻炼过度的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不必时时刻刻都陪在我身边，做自己想做的事，去自己想去的地方，也都没关系的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身，没有在勉强自己……“刀”正是因为留在持刀人的身边，才有了存在的意义。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "“刀”有着守护持刀人的天职，所以即便是睡觉时，也必须放在触手可及之处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大概能明白你意思……虽然……我可能需要再消化下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "比如这三把刀—— 分别是妾身的“父母”和“师父”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身从未与他们分离，妾身与他们一路风餐露宿，翻山越野。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "因此……作为妾身的“持刀人”，希望主公，也能时刻让妾身侍奉在侧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "……咦？主公您看……好像，雨已经停了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦，真的停了……！总算不觉得冷了……感觉这种凉爽适中的天气，很适合睡一觉休息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那么……要在此处先歇息一下再回城吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "今日奔波劳顿，想必主公也累了，被褥已按惯例备好在此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不错的提议， 确实可以考虑小睡一会儿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是，你拍被窝干什么？不会是要和我一起睡吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "正是。方才说过，刀应时刻伴随“持刀人”左右，无论醒时还是梦中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "所以主公，请不必客气。来，进被窝里来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……啊……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不了吧。再怎么说，这也太——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "为何要拒绝？难道是妾身，终究不配做您的“刀”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "果然，只能“断刀”谢罪了吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "住手啊——！ 别这么极端啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "最终，拗不过千都世的坚持，小憩片刻后，我们又神清气爽地踏上了归途。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "自称“刀”的少女与她的“持刀人”见习生，通往“人刀合一”之境界的修行之路，才刚刚开始。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

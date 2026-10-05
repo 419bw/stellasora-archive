@@ -1,0 +1,971 @@
+{
+ "heading": "# 04B 胜利之后",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1016`　**编号**：`04B`",
+  "- **关卡名称**：胜利之后",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_04_b`",
+  "- **关卡描述**：想赢的人，脸上是不会有笑容的。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "众人奋战之下，安琪终于被捕，格蕾霍恩则伺机撤退。\n你与同伴们在水吧齐聚，驳斥安琪的谬论。\n但还没等庆祝，负伤的贝修莉娜却带来了战况扩大的噩耗……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "众人奋战之下，安琪终于被捕，格蕾霍恩则伺机撤退。\n你与同伴们在水吧齐聚，驳斥安琪的谬论。\n但还没等庆祝，负伤的贝修莉娜却带来了战况扩大的噩耗……",
+  "episode": "第四话",
+  "title": "胜利之后"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:11",
+   "date": "雾月 18日",
+   "place": "米拉什 废弃矿道"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "安琪委员长，您有没有受伤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "没有，我还好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "格蕾霍恩，我们这是在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "刚刚地面突然塌陷，我们掉进了地下的废弃矿道里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "请您站到属下的身后，魔<r=mowang></r>王肯定在这里设下了埋伏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "你，你们好。那，那个，我刚刚那一拳，应该没伤到你们吧，我，我已经尽量控制力道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "你就是魔<r=mowang></r>王的同伴吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师，师父才不是魔<r=mowang></r>王，请你们不要诬陷好人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "格蕾霍恩，趁着魔<r=mowang></r>王的同伴还没来，你快走，我全权授予你拯救委员会的最高指挥权。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "委员长，你在说什么？属下根本没有加入拯救委员会，怎么可能接管指挥权？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你的大团长给你的命令是——遵从我的命令吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那么，这就是我的命令，现在只有你才能带着拯救委员会完成杀死魔王的目标。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身不会放你们离开的，为了主公的安全，此地，即是两位的折戟之处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，小心点，那位骑士的剑技很高明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "好凶的拔刀术，之前听部下说魔<r=mowang></r>王的身边有位用刀厉害的黑衣旅人，应该就是眼前的这位少女吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身的刀刃在她的盔甲上滑开了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那身铠甲的弧度，是专门为了卸掉斩击的力道而设计的么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那么，只能瞄准她未着甲的身体部位了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "糟了，用迅捷剑的我竟然跟不上她的速度，这样下去……只能用那招了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "斩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主动迎上我的刀刃，用胸甲硬抗下我这一刀，同时出剑反击？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "这世上，竟然有这样的剑术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "虽然靠着铠甲格下了这一斩，但我也伤不到她。接下来只能比拼体力了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，小心安琪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "区区死之权杖的子弹，只要能看到，妾身就能砍断。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，你的武器不适合和格蕾霍恩作战，撤下来去抓安琪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格蕾霍恩那边就拜托你了，冬香！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "该死，魔<r=mowang></r>王意识到我的防御优势了，冬香……是刚才那位畏畏缩缩的旅人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "让开，我不想伤到你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冬香，出拳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "对，对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "咳——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "肋骨，好像断掉了。帝国卫队的铠甲根本防不住钝器的重击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "格蕾霍恩，你快走！记住我的命令。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "抱歉，安琪委员长，我会回来救你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，安琪的手筋已断，她无法使用死之权杖了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵，魔<r=mowang></r>王，是我输了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我一直没有听到炮声，沙丘上的拯救委员会是不是也被你的同伴袭击了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我让沙丘上下了一场“雨”，你的第三百人队现在应该在沙子里挣扎吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，给她止血，我们和大家汇合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "米拉什的战斗，结束了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:00",
+   "date": "雾月 18日",
+   "place": "米拉什 尤里卡水吧"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "进去，别耍花招。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，你真的把安琪抓回来了，好厉害！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这都是千都世和冬香的功劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哼哼哼，冬香，你做的好啊，不愧是我们花令旅团的团长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "小禾前辈，夏花前辈，你们也辛苦了，我听师父说，你们用沙子把敌人的炮击阵地埋起来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哎，说到这个——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "魔<r=BOSS></r>王，我的确是会一点大地魔法，可你也不能把我当成哈萨娜用啊，我不擅长玩沙子的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你做的不是很好吗？你的魔法把附近的沙子又快又多地聚拢到我的旋风里，让成吨重的沙子在敌人的阵地上下起了“暴雨”，把他们都埋起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "那是我强撑着做的，这么重要的任务，我怎么能拖后腿！聚拢完那些沙子，我的大脑都被抽空了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "三天，不，一周内，我一个魔法也用不出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我要玩偶，我要抱抱软乎乎香喷喷的玩偶才能好起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "辛苦了，小禾，我们这些人里，只有你擅长大地魔法，那个任务只能交给你。从米拉什回去后，给你买个等身大的玩偶吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "一言为定？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一言为定！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哇，谢谢魔<r=BOSS></r>王~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "呦，魔<r=BOSS></r>王，好久不见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好久不见，密涅瓦，灰风的孩子们还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "托你的福，大家都在健康成长呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "魔王协议的名声越来越大，我挂着魔王协议员工的身份，那些帮派根本不敢来找麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "明年，好几个孩子都要去参加白金公学的入学考试呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾听到这个消息也会开心吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你指挥得真的漂亮，我们开始突袭的时候，拯救委员会正打算开炮，完全来不及调转炮口对付我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "可惜，那个叫冈希尔德的队长太顽强了，都被我打得举不起武器了，还在拼命还击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "最后，我只能把球棒插进她的炮口里折断，给她武器堵死了，这样她至少得清理大半天吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "折断了？那你拿着的是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哈哈，魔<r=BOSS></r>王，哪有人出来打架只带一根球棒啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "说起来，这个双手受伤的女人就是安琪吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "灰风俱乐部的密涅瓦……呵，魔<r=mowang></r>王，连这些在灰城区抱团取暖的孩子，都不远千里跑过来帮你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你到底魅惑了多少人，又控制了多少人的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哈？控制灵魂？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我原以为，像你这样的大人物，就算被我们抓住也必有高论。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "没想到，你这家伙实际上什么都不懂啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我们赶来为魔<r=BOSS></r>王帮忙，不是因为什么灵魂， 而是因为我们实实在在地接受过魔<r=BOSS></r>王的恩惠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那只是……你不得不做的事情，你必须收买人心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你那个组织叫什么名字？拯救委员会对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "名字挺好听的，但我问你， 当菲金在灰城区肆意欺负孩子们，压榨童工的时候，你们在做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "当星塔里的巨大星骸跑出来，水道桥上的石头砸坏无数房屋的时候，你们又在做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "既然你说魔<r=BOSS></r>王是收买人心，那你们为什么不提前“收买”一下我们呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "拯救委员会的人力有限，我们只能选择先做那些，对拯救世界来说最重要的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哼，连近在眼前的罪恶都看不到，连动动手指就能解决的事情都不肯动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "现在你说你们的组织要做的是大事，是事关整个世界的事？傻瓜才会信！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你们……什么都不懂！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "谁想懂你的歪理啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你说杀死魔<r=BOSS></r>王就能拯救世界？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我看用这把死之权杖打穿你的脑袋，才是真的拯救世界！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那就开枪试试啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "密涅瓦，不要冲动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们不是为了杀戮而来的，战斗已经结束了，我们只需等到翡冷翠和黄昏裁判抵达，把拯救委员会交给他们接受审判就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，哈哈哈，魔<r=mowang></r>王你还真是天真。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你真的以为，抓到我就能结束战斗了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你能在那个废弃的矿道里埋伏我，我很意外，但我也很欣喜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你猜到我别的布置不奇怪，但你连这个我只在脑子里想过的，利用矿道抓住你的作战计划也知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那一刻，我全都明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你想说什么？安琪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，你能看到未来吗？还是说…… 你本就是从未来回来的人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "看你这个表情，在你见过的那个未来里，是我赢了呢，你根本没办法对付我最后的底牌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我，一定能杀死你，拯救这个世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，她……她在说什么？是不是疯了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "因为没打赢我们，所以在无能狂怒吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "她已急哭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪到底在说什么？我能看到未来？我是从未来回来的人？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道，她知道白色房间的事情？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不，她不可能知道，她只是因为我预料到了太多的事情，而产生了怀疑，开始胡言乱语了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，仔细想想，这次是我发起的谈判，她没有时间做准备，也就是说——她谈判的目的和上次不一样，不是为了把我诱入陷阱然后抓住我。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她前来谈判并且安排了炮击，这是要…… 和我同归于尽？还是说，她真有还没掏出来的底牌？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "呼——呼—— 可找到你们了，魔<r=BOSS></r>王，你们怎么还没走？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝修莉娜，你怎么来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "战斗已经结束了，我们为什么要走？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "战斗根本没有结束，没有安琪大人维持纪律，拯救委员会剩下的人已经放弃了“只诛首恶”的命令。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "下面要来的，不再是“杀死魔<r=mowang></r>王”的战斗，而是战争！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "快，快逃！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝修莉娜，你怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "血，她受伤了，背上流了好多的血。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

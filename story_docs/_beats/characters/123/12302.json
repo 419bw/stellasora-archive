@@ -1,0 +1,748 @@
+{
+ "heading": "# 睡不着的小守护者 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：杏子（角色编号 `123`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`12302`",
+  "- **AVG 剧本**：`CG_123_02`"
+ ],
+ "recap": "处理陷阱、捣药治伤、动物沟通。别惊讶，都是必修课。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "处理陷阱、捣药治伤、动物沟通。别惊讶，都是必修课。",
+  "episode": "第二话",
+  "title": "睡不着的小守护者 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个是……假面野猪。 而且从体型和伤痕判断，应该是领主级魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "领主级……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是统帅这一带地区的极其强大的魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "唔……听不懂…… 就是“大王”的意思对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "杏子很聪明，可以这么理解。 总之是个很危险的家伙，最好赶紧逃走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在还是先小心得撤回村子，告诉大家做好准备，再通知协会的人来帮忙吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "没关系的魔魔王，不用麻烦大家，杏子和可可就能对付它！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "而且，杏子的职责就是保护森林和大家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但对方可是数个精英旅人都摆平不了的魔物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们已经记下了它出现的位置了，正确的做法是小心地撤离， 然后再组织讨伐队伍……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为确保不会有人误入，还需要在森林周围竖警戒牌…… 话说你有在听吗，杏子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "杏，杏子……！？都说了不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "请问……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰唔！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可可",
+   "text": "嗷呜呜呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "可可没事的，让杏子来跟它说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "那个，野猪大王……？ 杏子不是坏人，杏子是这片森林的侦查小队的队长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "“队长是好吃的吗？” 才不是吃的！队长就是和你一样，是所有人的老大！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子觉得你可能需要帮助，可以让杏子再走近点吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰嗯……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "别担心，杏子不是坏人。 让杏子看看你哪里不舒服好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰唔……轰唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嗯，嗯……就是这样……等一下哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "啊……果然是杏子想的那样。谢谢你，杏子明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "杏子，你没事吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "别害怕，魔魔王是杏子的好伙伴，不会伤害你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰……轰……呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "没关系，没关系。 杏子都知道啦，已经没事了，杏子会帮助你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "之前听说绒绒族能和魔物交流…… 我还是第一次见到，原来是真的啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没事就好。杏子，能告诉我它说了什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "唔……它说了很多，魔魔王怎么突然问这个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没什么，只是担心它是不是说了什么难听的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "“你这长了腿的土豆！老子要把你锄进土里！”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇，骂得有够狠。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，它刚才还那么暴躁，现在怎么安静下来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "因为听了杏子的话，它明白杏子和魔魔王都不是坏人了呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子告诉它，我们没有恶意。 而且野猪大王来森林里也不是为了搞破坏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此…… 那它为什么好端端要来这片森林呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "那是因为……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰呜呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "还在疼吗……对不起，杏子马上带去你治疗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔魔王，我们还是先去杏子的秘密基地吧，野猪大王它受伤了，杏子需要一些工具。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我跟着杏子的指引，才在来时的路上找到了一处已经无人居住的破旧小屋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来这里就是你的秘密基地，我还以为是已经不住人的老房子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "这里以前是麦克叔叔住的房子哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "他让给大家之后，我们一起找工具搭了秘密基地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此……是杏子充满回忆的地方啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实能看到不少手工制作的痕迹呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下……这个是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这对于小孩子来说是不是有点太硬核了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔魔王，来帮忙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "帮帮—— 杏子—— 呜！够不着！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别动别动，是这个玻璃瓶对吧，我来拿。 这很危险的哦，不要一个人勉强。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子一个人也没问题的，只是今天找不到梯子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "唔……杏子想要快点长大！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 等你真的长大就不会这么想啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以说，这瓶子里装的是什么，药草吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "对！杏子每周都会上山采一些储存起来，为的就是对付这种情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "杏子说完便找来了杵臼和板凳，踩着它开始捣药，动作娴熟到让人不禁去猜她经历过多少次这样的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "小药罐咕噜转，左三圈右三圈~ 金盏草蹦蹦跳，白芷粉咯咯笑~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "小石臼叮当响，春捣云秋捣霜~ 薄荷叶吐清香，金银花送清凉~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嘿咻…… 这样就好啦！把这些涂在伤口上会好的很快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔魔王，我们快把药送过去吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "久等啦野猪大王！可能会有点麻，不要乱动哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰呜！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "都说不要乱动了啦！药只剩这么多啦，没涂完的话可是会一直痛痛的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰……轰呜呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "这样才乖嘛，忍住哦，很快就会好起来的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "该怎么说呢，这幅景象……精英旅人都难以招架的大型魔物，居然被一个小女孩治得服服帖帖。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "好啦！可以站起来走走，不过不要勉强哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰哼！轰哼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "不用客气，这些都是杏子应该做的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嗯！伤口也处理好了，差不多要说再见了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "既然是朋友了，以后没事要常来哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "啊……不过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么突然躲到我背后了？说再见的时候要好好道别哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "没，没什么！魔魔王不许看！ 还有……野猪大王也是……要照顾好自己哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "假面野猪",
+   "text": "轰……轰嗯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，它是不是走反了，那个方向是森林的更深处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嗯，没关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子呢……要告别的时候，感觉到它想说什么了。 野猪大王它，一定是觉得时间快到了，所以才想着要来这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "以前森林里也有一些小动物，它们明明以前还和杏子一起玩，但是有一些还是会突然一声招呼都不打，就再也没有理杏子了……但杏子当时不明白是为什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "后来伊西村的大家告诉杏子：“它们是‘永远得离开’了哦。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“永远地离开”吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子……以前听村里的大人们这么说过，但是一直不懂这是什么意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子想了很久，都没搞懂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔魔王，可以告诉杏子吗......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“永远地离开”到底是什么意思啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

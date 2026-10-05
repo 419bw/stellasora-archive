@@ -1,0 +1,1539 @@
+{
+ "heading": "# 08 必有回响",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第四章《梦的彼岸》（星塔历 996 年）",
+  "- **关卡 ID**：`414`　**编号**：`08`",
+  "- **关卡名称**：必有回响",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm04_08`",
+  "- **关卡描述**：支援来自令人意外的势力，敌人并非铁板一块。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "伙伴们重新集合在一起，联合种业也决定支援你。\n灰夫人决定用旅人消耗寄生之庭。\n夏花救出了营地的大家，自己却中了魔法雾气。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "伙伴们重新集合在一起，联合种业也决定支援你。\n灰夫人决定用旅人消耗寄生之庭。\n夏花救出了营地的大家，自己却中了魔法雾气。",
+  "episode": "第八话",
+  "title": "必有回响"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "13:00",
+   "date": "雷月 3日",
+   "place": "菲莱城内 银城区某处"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "对不起，都是我的错， 明明是我一意孤行，结果什么都没做到，还害的你们被连累，被造谣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不用道歉啦，你和魔<r=BOSS></r>王说的话我们都听见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "再说了，虽然我从那时候开始……甚至到现在都还在生气呢！ 但绝不是因为你退出花令旅团！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "平时那么好的一个人，突然说出那种不近人情的话，还要退出旅团，就算是傻瓜，也能猜到事出有因。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小禾......枫姐，你们一开始就知道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "具体出了什么事我们不知道， 但你有事故意瞒着我们......还是看的出来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可夏花你呢，什么事情都想一个人解决，什么事情都瞒着别人。 这样就算是我这么好脾气的人，当然也会生气啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "你是不是觉得我们靠不住啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么可能！我绝对没这么想！ 只是……当时选择退出花令旅团，是怕大家遇到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "遇到危险是吧？！你也太小看我们了吧，我们作为一个旅团，本来不就是一起面对危险，一起解决麻烦的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是我......太自以为是了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "真是的～这不是很明白嘛！ 所以，请重新说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "说......说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "“我……好想回到那个时候，重新再来一次……”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "咳咳，刚才雨声太大了，这句话后面的那部分没听清。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "现在大家正好都在，也可以当做是“回到那个时候”嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "现，现在？就在这里……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "抱歉啦夏花，小禾又说了任性的话。她在这种地方总是特别坚持呢。呵呵，这种固执的点还真是可爱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "那个，那个我是后来加入的，我......我还是别打扰你们，前辈们，我去散步了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "不要走，冬香，你也是花令旅团的成员， 还是团长呢，你不在怎么行~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那，那么……那个…… 咳咳......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我真的好想回到过去……重新开始…… 向大家好好道歉…… 然后回到她们身边……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我不想和重要的人分开…… 真的不想……再分开了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "夏花......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "夏花前辈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "嗯。我好好听到了，一字不落。 而且“再也不想分开”这份心情，我们也是一样的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "好啦，那就这么说定了——接下来，你必须把发生过的所有事情，全·部·都告诉我们哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "情况是这样的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "二十分钟后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "夏花，难为你了，你竟然独自扛下了这么多事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "不仅要对付魔物，主持讨伐队，还要面对联合种业这种巨型公司的压力......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "抱歉，我刚才有点说大话了，就算夏花你那时告诉我，我能想到的办法也只有——大家一起逃出菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，你肯定有办法的对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚刚还没有，但现在有了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，还记得前几天那个叫蓝宝石的联合种业员工吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她刚才联系我，问今晚能不能见面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "22:00",
+   "date": "雷月 3日",
+   "place": "菲莱温室区 联合种业温室"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "请您在这里稍作休息，负责处理这件事的人很快就来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就麻烦你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是联合种业的温室内部啊， 都是些没见过的植物。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冰冷的女声",
+   "text": "您好。我可以称呼您为魔<r=BOSS></r>王吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？ 啊，叫我魔<r=BOSS></r>王、魔<r=mowang></r>王或者首席执行官都可以， 您是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冰冷的女声",
+   "text": "很荣幸见到您，魔<r=BOSS></r>王，我是联合种业菲莱分公司的运营总监翡冷翠，请多指教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能让联合种业菲莱分公司的二把手亲自接待，我有点受宠若惊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您客气了，您身为魔王协议的首席执行官，理应由菲莱分公司的执行官达尔茜娅接待，才算是对等的会面。不巧的是，她现在不在菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "寒暄就省掉吧，在这里会面， 贵公司是想让我参观一下温室吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "如果您有这个雅兴，我愿意为您讲解，不过，还是请让我先为您解释一下三大魔物的悬赏和灰夫人的事情吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "首先，联合种业没有垄断菲莱旅人行业的行为，未来也绝不打算这样做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "所以，您告知的“利用我们的名号欺骗旅人”的消息，对我们非常重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的意思是...... 那不是你们的员工？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可我听说对方穿着种业制服，送来的物资上也都有种业标签……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "甚至就是从联合种业里送出去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "准确来说——她是联合种业的临时工。而且只在数年前被联合种业临时雇佣过一次。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "虽然这么说听起来很荒谬，但这的确是是事实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "物资也是从联合种业里送出去的，这是我们的失职，公司里肯定有人在和她做违规交易，我们已经在清查了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "关于旅人营地发生的骚乱事件。我们对此深感责任重大，决定发布如下声明——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "第一：告知并解释“悬赏金尚未支付”的情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "第二：公开“联合种业与灰夫人的关系”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "第三：澄清“旅人夏花、魔王协议及花令旅团的清白”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我们还会在营地派驻专职负责人，全力协助平息当前的混乱局面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，你们的诚意我收到了， 既然如此，我也没什么其他的要求了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "用临时工摆脱公司的责任？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来不像......明天公告一发，灰夫人和克莱儿那边一定会阵脚大乱。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道，联合种业真的是无辜的？也是受害者？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不能这么轻易地相信翡冷翠。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "看来您接受了这个方案，如果没有其他问题的话，今天就这样……您意下如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好的。 今天非常感谢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我就先告辞了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "22:30",
+   "date": "雷月 3日",
+   "place": "菲莱温室区 联合种业温室"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，你回来啦！ 联合种业的人没把你怎么样吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有，对方甚至有点友善过头了，主动说会帮我们解决谣言的问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大公司就是有格局啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "别掉以轻心，公司哪有好心的，他们只看朵拉。 啊，魔<r=BOSS></r>王，我不是说你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道的，我确实见识过那样的公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们下面怎么办，你有想法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然，那个叫翡冷翠的运营总监帮了我们大忙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管她有什么目的，我们争取到了反击的时间，得好好利用起来才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从明天开始，我们全体进入森林寻找寄生之庭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要能抢在克莱儿的前面讨伐魔物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再加上联合种业的辟谣，那些谣言就会不攻自破！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "15:00",
+   "date": "雷月 6日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿钱办事的旅人",
+   "text": "你听我说，从埃摩来的魔<r=BOSS></r>王是个超可怕的家伙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿钱办事的旅人",
+   "text": "你用邪恶的魔法控制了空白旅团和花令旅团的旅人，打算独吞赏金。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "赏金的事联合种业已经发声明了，声明里说联合种业因为工作流程问题，还没发赏金呢？没发出来的赏金怎么独吞？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿钱办事的旅人",
+   "text": "这......这，这个声明一定也是魔<r=BOSS></r>王编出来的，你用邪恶的魔法控制联合种业的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "如果魔<r=BOSS></r>王真的像你说的这么厉害，为什么不把你也控制呢？这样就没人反对你了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿钱办事的旅人",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "唉，骗人都骗到人家小姑娘头上去了，脸都不要了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿钱办事的旅人",
+   "text": "我怎么是在骗人呢，前几天你们不也跟着一起声讨来着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "那是被你们起哄的，联合种业已经发了公告，前几天说的那些话都不能信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "第一次讨伐队的事......我觉得也难说，当时夏花队长真的是拼死断后的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "拿钱办事的旅人",
+   "text": "那你觉得魔<r=BOSS></r>王是好人喽？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "我建议大家再等等看，真相早晚会浮出水面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:00",
+   "date": "雷月 6日",
+   "place": "菲莱城外 森林边缘"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "灰夫人，你真的是联合种业的人吗？为什么联合种业发公告说你只是临时工？还是几年前的临时工？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "这下可好，讨伐队我都指挥不动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "别担心，我当然是联合种业的人，只是这里面有很复杂的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "不告诉我吗？我们现在可是一条船上的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "闭嘴！那是不该你知道的事情，还有……请别搞错了，你和我从来就不是对等的关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "话说回来……我让你去干掉魔<r=BOSS></r>王和空白旅团，那件事办得怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "我去干掉魔<r=BOSS></r>王和空白旅团？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "你说得倒轻巧！我要是能干掉你们，我还当个被你呼来喝去的旅人干什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "就知道你这种人靠不住，真是可悲。夏花，魔<r=BOSS></r>王，还有那两个旅团的人这几天消失不见，一定是去找寄生之庭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "呵呵……不过我们早有准备。我的人已经在森林里洒满了寄生之庭喜欢的诱饵……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "我刚刚接到汇报，寄生之庭已经跟随诱饵，向着旅人营地去了。顺利的话，应该能在那里和你碰个正着呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "旅人营地？你想做什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "用旅人消耗魔法雾气啊，这不是你提的点子么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "我那是有组织的消耗，你让那东西冲进旅人营地里会毁了整个营地的，不知道要死多少人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "哎呀？居然担心起别人来了？你要保护的，不是只有你自己吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "克莱儿",
+   "text": "可，可恶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:20",
+   "date": "雷月 6日",
+   "place": "菲莱城外 森林边缘"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这些人......好麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "麻木的佣兵",
+   "text": "抱歉，此路不通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "你们真的清楚自己在做什么吗？前面可是旅人营地啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "麻木的佣兵",
+   "text": "这是命令。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好不容易找到了寄生之庭，结果被这些佣兵用奇怪的药水勾走了， 这肯定是灰夫人的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，这里能交给你吗？我得去营地通知大家避难。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "灰夫人和克莱儿肯定在那边，你一个人去太危险了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "就这么一个人冲过去的确很危险， 但后面不是还有你和大家吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我相信，你一定会尽快追上来，不让我独自面对寄生之庭的，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:30",
+   "date": "雷月 6日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "这是哪里？为什么有这么多的怪物，救命，别碰我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "混乱的旅人",
+   "text": "妈妈，你在哪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疯狂的旅人",
+   "text": "杀，把你们都杀掉...... 我就安全了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我用什么才能留住你——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "绿色的狂风席卷营地，吹散了紫色的雾气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "清醒的人带着中魔法雾气的人离开，下一波雾气要来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "清醒的讨伐队员",
+   "text": "是队长，夏花队长来救我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的讨伐队员",
+   "text": "我就说夏花队长不是那种人， 我们快带人撤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "又见面了，寄生之庭。你是不是又变强了？不过无所谓。我一定会把你和“那个东西”一起消灭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄生之庭",
+   "text": "呼呼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你的树干上有一个洞......那是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "崩溃的克莱儿",
+   "text": "夏花......我做到了，哈哈，我拿到了“那个东西”......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "崩溃的克莱儿",
+   "text": "啊哈哈哈，成功了……！ 是我，是我打败了寄生之庭……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:45",
+   "date": "雷月 6日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "整个营地都是魔法雾气，怎么会这样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逃出的讨伐队员",
+   "text": "夏花队长还在里面，她把克莱儿副队长扔出来后，为了掩护我们一直在和寄生之庭作战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我去救她！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "别进去，里面雾气太浓了，产生的幻觉也会比过去厉害很多，我们贸然进去反而会拖累夏花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我应该没问题！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "之前遇到寄生之庭的时候，就是魔王和夏花掉到地洞里那次，我也碰到了雾气，但我没产生幻觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "虽然不清楚为什么我没受影响……可能是我体质比较好吧， 鸢尾和琥珀你们当时怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我没出现幻觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我也没。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……难道只有空白旅团不受幻觉影响？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，请原谅维塔的突然插话，空白旅团的三人能免受魔法雾气的侵蚀，并非是因为体质好，而是因为她们的灵魂是您的所有物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "野生魔物放出的区区魔法雾气，是无法影响魔<r=mowang></r>王拥有的、甚至是即将拥有的灵魂的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，你的手机说话了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "先不管那些，这个所谓的灵魂是你的所有物是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和我进行灵魂交易，许下愿望，就能成为魔王协议的员工，灵魂暂时交由我来保管，在我完成对方的愿望后，灵魂归我所有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，目前我也只知道这些，迄今为止，灵魂交易对签约人毫无影响……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但我总觉得这个“交易”并不像看起来那么安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "可是师父，您也和我进行了“灵魂交易”对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，那只是假装进行了交易，实际上契约书都被填上了“师徒关系”嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然我们不会受到魔法雾气的影响，那这里交给你们了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "支援夏花的事情交给我和空白旅团吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我—— 才—— 不—— 要——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我也要去！！那个笨蛋，之前才说过有事不要自己扛。结果又一个人冲进去了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "营地很大，多一个人就多一分力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父！我们四个才是花令旅团啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "所以……我向你许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "请你救出夏花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "请让我们助你一臂之力，保护大家的安全！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "请让营地恢复过去的和平吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "我接受你们的愿望。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，你在哪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "和冬香三人做完灵魂交易后，我们分头行动，深入到弥漫着雾气的营地中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这边被破坏的好严重，这种痕迹......是夏花的风魔法造成的吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她就在这附近！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你真的是“以真相为食”的魔女雾语吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语......她不在这里啊。 夏花出现幻觉了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不，我宁可选择痛苦，也不会沉溺在虚假的美好里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然是中了雾气，产生幻觉了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "况且，我相信那个人会来找我的，无论我在哪里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你总是能找到我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，即便陷入这般绝境，还在相信着我吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是你吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "夏花的视线越过我的肩膀，看向我身后的虚空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "魔法雾气改变了她的认知......我们根本没办法正常的对话，但是也没有其他的办法了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，能听见我的声音吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "对不起，我听不懂你在说什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只能试一试了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听好了，夏花，我会用灵魂交易保护住你的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，向我许愿！用你的全部意志……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "向我许愿吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,879 @@
+{
+ "heading": "# 白日花园",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214028`",
+  "- **关联角色**：花原",
+  "- **AVG 剧本**：`CG_disc4028`"
+ ],
+ "recap": "如果所有人都忘记了一件事，那这件事真的发生过吗？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "如果所有人都忘记了一件事，那这件事真的发生过吗？",
+  "episode": "记忆回想",
+  "title": "白日花园"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "“闭上眼睛。”\n“放缓呼吸。”\n“试着想象，你站在一个房间里。这里温暖、安静，永远不用担心有人会打扰你。”\n“现在……你看到了什么？”\n年幼的女孩努力遵循着师父的引导，然而她的脑海中一片空白。\n她不能如实相告，这是修行不足的表现，师父一定会责罚她。\n长久的沉默令人不安，她必须要开口了。\n“我看到……许多花，我站在花园里。”\n“花园？里面都种了什么花？是盛开着还是枯萎了？”\n“嗯……”\n小小的谎言经不住缜密的拷问，花原败下阵来，她紧闭着眼睛，等待师父的批评。\n“修炼心性，最重要的是真实面对自己的内心，自欺欺人毫无用处。”\n“身为谷风的一员，我们必须面对一些难以接受的事情。如果你想象不出一个能够逃离现实的空间，以后的日子会很难过。”\n“这和平时的训练不一样，没必要急于求成。”\n花原尚且无法理解这番话的含义，但她敏锐地察觉到师父的态度——师父竟然没有任何责备的意思。\n“不过，你说的‘花园’，就像庭院里那片吗？”\n“是。”\n情急之下，她的第一反应便是那片小小的、毫无生机的花圃。那里曾经生长着向日葵，如今只剩下低垂的茎秆和一碰就碎的枯叶。\n她常常盯着花盘里风干的葵籽出神。她幻想过向日葵开花的样子，一定很漂亮。\n\n翌日的傍晚，花原外出归来后，却发现花圃里的土被翻起；残破的向日葵也不见了踪影。\n她心头一震，背后传来师父幽幽的声音：\n“以后浇水护苗，种种杂事便是你来负责了。”\n那一年的夏天，她终于看到了灿烂盛开的花海。\n曾经的空白染上了初生的金黄，她终于搭建起了与世隔绝的小天地，如泥土一般柔软而坚实。\n\n后来，花原离开了那座庭院，过往被她一丝不苟地打包封存。\n\n直到组织安排她前去安置一位受伤的前辈时，她才又重新回到了这阔别已久的记忆之庭。\n前辈曾与她的师父有过片面之交，如今不免发出感慨：\n“这个院子，当真是不错。从前我也来拜访过几次……那时候，你还是小孩子呢。”\n“当时我还和你师父说，这片地不种点花花草草的可惜了。结果，到现在还是这样。”\n她怔了一下：“我们，以前种过向日葵。”\n“怎么会呢？她告诉我，组织上不允许私自改动院子，要伪装成无人居住的样子。我几乎每年都会来一趟，从来没见过向日葵啊。”\n\n金黄的房间里，花原一遍又一遍推演着可能性。\n攀塔会让人忘事。\n关于向日葵的记忆，又是什么时候进入她的脑海中的？\n它是假的吗？是捏造的吗？\n会是自己创造的，虚幻的梦吗？\n她希望自己相信，前辈才是记忆缺失的那个人，这一切都是真实发生过的。\n但正如多年前她被教导的那样，她无法欺骗自己。唯一可以证明真伪的那个人，教她翻土、教她种下、教她沾水的人，已经消失了——\n只有找到她，她才能解开一切的秘密。\n一定要找到她。\n\n她起身走向阳光。\n下一段旅途也可能没有尽头。"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼！我吃饱了！太好吃了！ 不愧是花原选择的蛋糕店！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "看来魔<r=mowang></r>王大人对今天的新品很满意呢！芙瑞丝的新品一直都很美味，之后我们可以经常来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好啊，不过说起新品，今天吃的向日葵蛋糕……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "是令人意想不到的味道呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？确实，我还以为会是葵花籽味的，没想到吃起来真的有一股向日葵的感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "这就是芙瑞丝厉害的地方，无法直接食用的向日葵，那种阳光的香气竟然被巧妙地再现了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不过，在甜品制作中，利用其他可食用花卉的香气来模仿不可食用花卉的风味，也是一种常见且巧妙的手法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原懂的好多啊…… 你真的很喜欢甜品呢。说起向日葵……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "店员",
+   "text": "打扰一下！这是续杯的红茶，请问二位客人还需要加单吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不用了，不用了…… 真的很好吃，我已经吃了很多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "店员",
+   "text": "二位慢走~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "真的不用加单了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是客气…… 我已经完全吃饱了……还有点撑……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "那我们就借着回去的路，散散步，消消食吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了，花原介意绕个路吗？我有个地方想带你去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "当然可以了，花原是您的女仆，您想去哪我都会相伴左右。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就在前面，吃完蛋糕后，我就想起了这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "一望无际的麦田…… 风吹麦子的声音，还有青草的芬芳。真是美丽的景色，没想到这附近居然有这么美的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "最重要的是这里！你看那座山丘对面！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "那是…… 金色的向日葵田？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "漂亮吧？和我们刚刚吃的向日葵蛋糕很配吧，都有着相似的阳光的香味。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "嗯，真的很漂亮，漂亮得让人想融化在里面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "说起来，魔<r=mowang></r>王大人喜欢向日葵吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么说呢，我没有记忆所以也不太清楚过去的自己是不是喜欢…… 但现在的我的确是喜欢的，怎么突然问这个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我只是想到一些以前的事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "在我还小的时候，我和谷风家政的一位前辈，曾经一起种过一片向日葵田。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原小时候种下的向日葵田啊，有点想看看，它还在吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "已经没有了…… 或者说，变成从未有过的地方了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从未有过的地方…… 是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "因为一次任务，我和那位前辈分开了，也离开了向日葵田。当我再次回到那里，问起别人向日葵田时，他们居然很肯定地说，从来没有什么向日葵田……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我明明这么清晰地记得…… 难道是我记错了吗……但是，向日葵田和那位前辈似乎都从这个世界上消失了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来发生过这样的事…… 是不是你问的那些人......他们去星塔许愿的时候，把关于向日葵田和前辈的记忆献祭给星塔了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "可能是吧，魔<r=mowang></r>王大人，你说......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "如果一片向日葵田在现实里不见了，见过的人也都忘记了，最后有一天，世界上最后一个记得那片田地的我也忘记了。那么，那片田地真的存在过吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "或许，世界上有很多这样的“向日葵田”吧，被忘记、被忽略，最后，连存在的痕迹都被抹去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……这也是无可奈何的事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "啊！师父！好巧啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哇！魔<r=mowang></r>王大人也在呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔...... 你知道魔<r=mowang></r>王大人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "当然知道了！师父经常和我们提起魔<r=mowang></r>王大人！我们早就想见见您了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "咳咳，唯咲，既然见到了魔<r=mowang></r>王大人，记得要有礼貌哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "诶嘿嘿，不好意思…… 我叫唯咲！是谷风家政的见习忍者！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "哦！不对！在外面要说自己是见习女仆来着……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原的后辈啊，你好。话说…… 你手上拿的是留影神器吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "哼哼，不愧是魔<r=mowang></r>王大人！连这个都认识！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "留影神器...... 那种可以将景色印在特殊的纸上的神器啊，你怎么会拿着这个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "我刚刚去了集市，用攒了很久的零花钱淘到的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "找到你了！真是的，居然跑到这种地方来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "秋葵追上来了！师父，魔<r=mowang></r>王大人，我先走一步了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "抓到你了！不会再让你跑了哦，唯咲！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "秋葵，先冷静一下。我们身为女仆，要随时保持镇定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "好的！嗯……？ 花原前辈！？您怎么会在这儿，您身边是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "不好意思，让您见笑了…… 初次见面，魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "我的名字叫秋葵，是隶属于花原前辈的见习女仆，您的事迹远近闻名，我早已多次听闻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你好，你好， 我有那么出名吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "那是因为，花原前辈一直说起您的事迹……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "咳咳…… 秋葵，比起这些——你为什么要追着唯咲跑呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "因为…… 好不容易拿到的零花钱，全被唯咲用来买这个没用的神器了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "才不是没用的神器呢！留影神器可厉害了！肯定在任务中也…… 嗯…总之可以在任务中派上用处的！大概！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "大概…… 又是这样。肯定是因为看起来很厉害才买的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "唔！当然，当然不是！你看，它能记录我们打败的敌人，还有好多不知道的功能呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲，可以先让我看看留影神器吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "嗯…… 我们除了暗杀任务以外还会有一些侦查任务，这个留影神器或许能派上用场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种留影神器好像叫拍立得，不过…… 相纸呢？这种留影神器如果没有相纸的话，应该是拍不了的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "相纸？那是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是和这个神器侧面的卡槽差不多大的一种硬纸……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种留影神器可以把保存的风景立刻印在相纸上的，你们买留影神器的时候没拿到吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "啊，拿到了几张！是这个吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对对对！就是这个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能用是能用…… 但这怎么都成这样了啊，不是缺了角就是已经发黄了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "估计是这个东西一直没人要，在仓库里放了太久了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了，先用这个凑合吧。不过用完了应该得去星塔许愿一沓回来才行……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "那有了这个相片，留影神器就能在任务中派上用场了吧！果然买这个是正确的选择！虽然有点贵，不过确实有用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "我也没说买这个是错的…… 就是心疼我们的零花钱，好不容易才攒起来的，还是要小心花才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲秋葵和魔<r=mowang></r>王大人相处的很愉快呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "这种感觉...... 真怀念啊，过去和师父一起照顾向日葵田的日子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "魔<r=mowang></r>王大人！快看！这里有一张完好的相纸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦哦，这个不错嘛，保存状态相当完好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "那正好，照一张试试……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "好！来试试能不能正常使用！如果坏了就修理或退货才行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "咦？秋葵怎么突然有兴趣了？你刚才不还在心疼零花钱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "才没有...... 我只是担心用不到任务上，这不是想检查一下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "总之！魔<r=mowang></r>王大人，您一定是我们之中最熟悉操作的人， 麻烦您了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没问题，不过…… 照什么好呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "那片向日葵花田的记忆，不知不觉间也变得模糊了…… 或许有一天，某次攀登星塔的时候，我也会彻底把它忘记吧，包括眼前这片宁静也……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘘！花原在发呆，我们就拍她好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "难道....... 魔<r=mowang></r>王大人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "是要拍师父吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不行，我竟然表现出如此不安，作为女仆简直是失职。师父教过我…… 要时常保持冷静，保持微笑，毫不费力地完成任务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我会把那些温暖、柔和的日子珍藏在心里，哪怕它们逐渐模糊，那份感觉，那份香气，我绝对不会忘记…… 这样就够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "太好了！就是这个表情！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈哈哈，难得见你分心，这么完美的表情，我就收下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "快让我看看！快让我看看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "出来了…… 这，这是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "呜哇！师父太美了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "太美了…… 好像美术馆里的名画一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "确实拍得很好…… 但是你们这样夸也太……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "前辈您太谦虚了！这简直就是作为女仆最理想的姿态和表情！ 魔<r=mowang></r>王大人！请务必把这张照片卖给我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "喂！你刚刚还在说我乱用零花钱呢！这明明是师父的照片，肯定是要给师父的，怎么可能卖给你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你刚刚的表情完美到让我情不自禁地按下快门，自信点，花原。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "魔<r=mowang></r>王大人，您这样说的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这张照片就送给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我可以收下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，当然。只要这张照片还在，花原就不会忘记这片向日葵田吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "谢谢您，魔<r=mowang></r>王大人，我一定会保存好这张照片，永远不会忘记今天的这一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "这片向日葵的气息，阳光的味道，还有和魔<r=mowang></r>王大人一起度过的时光，我会一直…… 一直记得的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,1027 @@
+{
+ "heading": "# 01 无罪杀戮",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`901`　**编号**：`01`",
+  "- **关卡名称**：无罪杀戮",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_01`",
+  "- **关卡描述**：让你消失……难道还需要理由？",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "在乙叶和千都世的帮助下，你从瑟拉娜的枪下死里逃生。\n奇怪的是，恩赐意志其余人的行动并不和瑟拉娜一致。\n为摆脱追击，你与千都世奔向酒店外唯一的生路……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在乙叶和千都世的帮助下，你从瑟拉娜的枪下死里逃生。\n奇怪的是，恩赐意志其余人的行动并不和瑟拉娜一致。\n为摆脱追击，你与千都世奔向酒店外唯一的生路……",
+  "episode": "第一话",
+  "title": "无罪杀戮"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那要是我不是传说中的魔<r=mowang></r>王呢……？！ 你不就杀错人了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "您说得没错。 可是——只要牺牲您一条命，或许就能拯救这个世界。 那么……我愿意赌上这个可能性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "如果我判断是错的，我会想办法向您赎罪的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个时候再赎罪还有什么用？！ 这种事，简直太荒唐了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "您真的是个好人，我对您也没有任何私人恩怨。 所以，虽然很抱歉，但为了这个世界，还请您务必赴死，感激不尽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "请接受这颗，让所有人都获得平等死亡的弹丸吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "希望这一次，能让您获得永恒的安眠。 永别了……魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "瑟拉娜扣下扳机的瞬间——深紫色的闪电击碎玻璃，击飞了她手中的死之权杖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "这种魔力反应……没想到您还在对面的屋顶上埋伏了狙击手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（不，我哪有那种安排……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（深紫色的魔法子弹......我好像在哪见过。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "呵呵，魔<r=mowang></r>王，是我失策了，没想到您会安排这样的后手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "不过，这样一来，我就能百分之百确认您就是传说中的魔<r=mowang></r>王了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "正常的公司执行官，可不会在和人会面的时候还带着狙击手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "魔<r=mowang></r>王，您也在时刻担心自己被预言中的“勇者”杀掉吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么话题越扯越远了……？！ 魔<r=mowang></r>王勇者这都是什么乱七八糟的！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "魔王，你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "emoji_surprise_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "乙叶，真的是你。你怎么会在——",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "没时间解释了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我这边的射界很窄，只能勉强压制住那个疯女人",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我掩护你，快走，外面有人接应。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……接应？好，我相信你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话虽如此——掉落的死之权杖离瑟拉娜只有五米。就算我现在立刻冲去房门，能不能全身而退还是个未知数……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "真是精准无比的射击……魔<r=mowang></r>王，看来您的狙击手很想救您呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听我说，瑟拉娜，我真的不是魔<r=mowang></r>王，我也不知道你说的什么世界毁灭，这之间肯定有什么误会，你不要动，冷静下来我们慢慢谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "瑟拉娜，这个名字......呵呵，不妨告诉您吧，那是我已经舍弃的，还身为人时候的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "用这个名字和您相识的这段时光，我很珍惜。但是，现在请叫我“安琪”吧，那才是现在的，发誓拯救世界的我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我感觉到了，您的同伴们确实很想让您活下去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "但是，我想杀您的心情可比她要迫切得多！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "简直不可理喻……！她拼着自己中枪也要杀我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "斩——！！ 主公，您没受伤吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，此等身上缠绕着污秽浊气的妖人，竟敢对您心生邪念……果然，当初就该在那地方直接把她斩了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "既然她现在把武器对准了主公，妾身绝不会再有丝毫心慈手软。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，别和她硬拼， 我们走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "咳咳……竟然还是让他们逃了。靠着刀刃就挡下死之权杖的子弹，魔<r=mowang></r>王，你收集的这些人才......果然没一个好对付的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "污秽浊气...... 呵呵，我的确是个无可救药的女人，但只要能保护诺瓦......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，你和你那些生活在“温室”里的同伴根本不知道，名为诺瓦的“温室”之外，到底是什么样的残酷景象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "猎月 23日",
+   "place": "菲莱银城区 酒店走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，请退到妾身的攻击范围之外。妾身会为您打开道路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "刀锋所至，万物皆寂。斩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "啧——好强的力道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "和情报里说的一样啊。魔<r=mowang></r>王身边的武者果然不是等闲之辈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "竟然挡住了妾身的无刀之法。来者何人，为何要袭击妾身的主公？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "想要我们通名？呵呵……跟你解释也是白费口舌！反正你们今天都要死在这里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "毁灭世界的魔<r=mowang></r>王人人得以诛之。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "没打算放下武器吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这话该我问你才对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你的实力确实不错。不如现在就放下武器，弃暗投明，我们会在委员长面前为你说情，让你加入拯救委员会的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "没那个必要。妾身这条命，只属于主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，别和他们纠缠，来我身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "是，主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "别想走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "咕——中计了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "可恶，窗外有狙击手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "从妾身身上移开视线，就是你战败的原因。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "乙叶，谢了，支援很及时！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呼呼，那都是因为小千吸引了她们的注意力，让对方完美地暴露出毫无防备的后背。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "感谢您出手相助，您谬赞了，妾身只是听从了主公的命令而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "请问，您就是在旅馆门前，用花瓣提醒妾身的那位大人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "（主公已经进去了一段时间了，那位情报商......真的可信吗？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "（风卷起了花瓣......神明大人又在指引妾身了吗？等等......这个不自然的飘动方向——）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "（花瓣毫无理由地飞向酒店房间的窗户，窗户里的人好像就是那位情报商......)",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "（她手里拿着的，闪出金属色泽的武器是......）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不好，主公有危险！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "是的，不过你不用感谢我，你的主公还欠我一个小小的愿望。 如果你遇到什么不好的事情，我的愿望可就无处兑现了，我只是为了自己才救人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "……好啦，魔<r=BOSS></r>王，请前往更高的楼层。我已经为您安排好了逃走的路线——呵呵，您应该已经心领神会了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:20",
+   "date": "猎月 23日",
+   "place": "菲莱银城区 酒店走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "叮叮咣咣的什么声音，有房间在装修吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "别分心，菈露，我们必须尽快找到理事长大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没用吧。那位神出鬼没的大人如果不想让我们找到她，我们一辈子也找不到的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊，对了！不如我们搞点薯条，我知道理事长最喜欢的口味，她闻到薯条的香味会出来的。怎么样？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "…… 你就不能正经点找吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我很正经啊？！这可是我绞尽脑汁才想出的作战计划耶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "不好了，奥尔贝德大人，旅馆里来了很多黎明近卫还有帝国卫队，窗外还有黄昏裁判的审判官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "咦？这三伙人也能凑在一起？还真是少见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "不，这绝非黎明近卫、帝国卫队还有黄昏裁判的意愿，这是拯救委员会的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "拯救......委员会？听起来像是公益组织。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "那是隐藏在恩赐意志内部的秘密组织，全名是“拯救诺瓦，应对魔王威胁特别对策委员会”，目的是杀死传说中的魔<r=mowang></r>王，避免预言中的世界毁灭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "原来是杀死传说中的魔<r=mowang></r>王啊，我还以为是杀死魔王协议的魔<r=BOSS></r>王呢，那种传说中的人物要怎么杀啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "诶？奥尔贝德大人，您为什么沉默了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "理事长大人也兼任拯救委员会的委员长，既然拯救委员会已经出动，那说明理事长大人已经认定......魔王就是传说中的魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "为什么理事长会认为魔王就是“传说中的魔王”呢？那个老好人魔<r=BOSS></r>王是传说中毁灭世界的魔<r=mowang></r>王？怎么想都不可能啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "我不知道理事长大人是怎么认定的，但她已经在暗中调动黎明卫队、帝国卫队和黄昏裁判了，这需要通过“心相四角”的决议。可这次，我压根没接到任何关于召集心相四角的通知。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "也就是说，在没通过心相四角决议的情况下闹出这么大的动静，很有可能是——理事长大人个人的独走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "唉……真是的，这到底在搞什么啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "理事长的……独走？也就是说，其实并不是魔<r=BOSS></r>王有什么问题，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "既然这样，我们何不将计就计，抢在理事长前面保护魔<r=BOSS></r>王，从而阻止事态进一步失控呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "的确，比起找理事长，可能找魔<r=BOSS></r>王还更简单一些，这点事就交给我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊啊啊啊～～！！魔<r=BOSS></r>王找到了！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "——嗯？那是天空院的人吗？哈哈哈！真是瓮中捉鳖啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，我们被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "糟了......为什么会有恩赐意志的人堵在前面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是......贝修莉娜，菈露和奥尔贝德，追杀我和千都世的那些人穿的也是恩赐意志一系的衣服，她们到底是敌是友？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "乙叶，还有别的路吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "逃亡的路就在她们身后，没办法了魔王，想办法把她们引到窗口，我来解决她们",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "魔<r=BOSS></r>王，请快到我们这群可爱的女士身边来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "奥尔贝德大人，请您协助我们抓住魔<r=mowang></r>王，这是委员长大人的命令。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "不好意思，奥尔贝德大人又不是拯救委员会的成员，没有义务听从指挥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "反倒是你们，身为黎明近卫，没有心相四角授权怎么敢袭击魔王协议的首席执行官？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的黎明近卫",
+   "text": "这根本不是问题。什么事都等心相四角来授权，诺瓦早就毁灭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的黎明近卫",
+   "text": "我们是为了诺瓦的续存，为了拯救这个世界。希望天空院的人能抛开私情，配合我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "恕难从命。不管你们有什么正义的理由，也不能违背恩赐意志的授权流程。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的黎明近卫",
+   "text": "哈……真够啰嗦的，好话歹话都听不进去是吧。刀剑无眼，得罪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎，等一下，等一下，合作就行了吧！？那我加入你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "菈露前辈！为什么……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呃，因为委员长大人就是理事长大人，那她也是我们的上司啊……服从上司的指示可是公司的忠犬该做的事啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "另外——世界毁灭不毁灭我不关心，但世界毁灭了我可就没薯条吃了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "所以，魔<r=BOSS></r>王，我可是动真格了，放马过来吧。看招！那边的黎明近卫，我们一起上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的黎明近卫",
+   "text": "哼，算你识相。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，我们向菈露的方向冲，但不要用刀刃，用刀背。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "明白，主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哼哼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "接好菈露大人的认真一击吧！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的黎明近卫",
+   "text": "喂，你干什么呢？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎呀～抱歉抱歉。别那么大火气嘛。我好久没耍枪了，有点生疏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的黎明近卫",
+   "text": "嘁……你给我认真点好不好？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷酷的黎明近卫",
+   "text": "疼疼疼疼，你这家伙到底是哪边的？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那个，抱歉，咦？好奇怪啊？我的枪好像有点漏魔力了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "魔王，就是现在，从那边的窗口跳出去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，我们跳！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "遵命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我和千都世在贝修莉娜和奥尔贝德的目送下，跳出了酒店的窗口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

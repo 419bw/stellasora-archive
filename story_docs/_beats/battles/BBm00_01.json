@@ -1,0 +1,230 @@
+{
+ "heading": "# 战斗气泡 `BBm00_01`",
+ "info_title": "剧本信息",
+ "info": [
+  "- **AVG 剧本**：`BBm00_01`",
+  "- **气泡条数**：34",
+  "- **出场说话人**：鸢尾、琥珀、尘沙",
+  "- **挂载状态**：属序章《最初的起点》沙漠星塔一战，Story 表不列序章所以无行引用"
+ ],
+ "recap": "",
+ "body_title": "战斗气泡对白（SetBubble，随战斗阶段推进）",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "wave",
+   "no": "1"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "喂喂？琥珀，能听到吗?"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "嗯，能听到。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "你现在在哪儿？没出什么事吧？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "鸢尾你担心过头啦！琥珀很厉害的！"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "我知道，但是——"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "唔——呸呸……沙子好多啊。"
+  },
+  {
+   "k": "wave",
+   "no": "2"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "这么大的沙暴，我们会不会迷路啊。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "没事的没事的！ 只要心中想着同伴，无论多远都能相遇~"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "嗯，收到，现在开始想了。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "琥珀，不要尘沙说什么就信什么。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "伟大的恩赐之神，愿您的慈悲护佑迷途的旅人，请保佑我们……"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "一定能找到星塔，安全回去……"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "然后成为知名旅团，存下一大笔钱，实现大家的梦想。之后——"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "那么多愿望啊，太贪心啦。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "贪心有什么不好！"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "万一我们许愿出了超级值钱的神器呢？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "被沙子埋起来前，至少让我做个梦吧。"
+  },
+  {
+   "k": "wave",
+   "no": "3"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "我找到了。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "星塔？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "蝴蝶。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "蝴、蝴蝶？喂喂......琥珀"
+  },
+  {
+   "k": "wave",
+   "no": "4"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "我有个发现。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "是星塔吗？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "是蝴蝶。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "蝴蝶？沙漠里怎么会有蝴蝶？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "它似乎想带我去什么地方。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "喂喂......琥珀，等——"
+  },
+  {
+   "k": "wave",
+   "no": "5"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "魔物？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "这里怎么会有这么多魔物？"
+  },
+  {
+   "k": "wave",
+   "no": "6"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "……一个路标？"
+  },
+  {
+   "k": "wave",
+   "no": "7"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "还要继续往前吗？"
+  },
+  {
+   "k": "wave",
+   "no": "8"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "嗯......刚才拍照时，这个方向有闪光。"
+  },
+  {
+   "k": "wave",
+   "no": "9"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "好高，喜欢。沙子软软的，踩上去很舒服。"
+  },
+  {
+   "k": "wave",
+   "no": "10"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "想爬上去看看……"
+  }
+ ]
+}

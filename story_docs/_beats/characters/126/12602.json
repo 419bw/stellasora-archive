@@ -1,0 +1,756 @@
+{
+ "heading": "# 蝶说 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：紫槿（角色编号 `126`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`12602`",
+  "- **AVG 剧本**：`CG_126_02`"
+ ],
+ "recap": "给大明星当贴身助理的机会，可要好好把握。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "给大明星当贴身助理的机会，可要好好把握。",
+  "episode": "第二话",
+  "title": "蝶说 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "1603室…… 1603室，找到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "穿过富丽堂皇的大堂，我循着凡妮给我的指示，来到了房门前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "会是个怎样艰巨的委托呢……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "其实是这样的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "这几天…… 紫槿就托付给您了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "托付？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "字面意思，就是希望您能看顾紫槿。因为这几天，我有要事要离开一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "从结论上，需要劳烦您，来担任紫槿的魔术师助手了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "魔术师助手啊，我明白了，但魔术师助手需要“看顾”魔术师吗？魔术师也不会把自己“托付”给助手吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "通常是不需要做到这种程度的，但紫槿的情况有些特殊...... 平时我都是和她住在一起的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚才你也提到过，你们原来是姐妹啊。 等等，住在一起？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "是的，这工作除了我之外没人可以胜任，但是紫槿说“魔<r=BOSS></r>王应该可以”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，等一下！我不懂怎么变魔术啊，只是上台合作过，这真的能当助手吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "没问题的，只能是您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听不懂......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "紫槿那些独创性想法的根源，可以说正是她“超出常理的性格”…… 想要引发她的灵感，助手必须是她绝对信得过的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "超出常理的性格，虽然在表演和灵感上是加分项，但在日常生活中就未必了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "会怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "总之，要是让粉丝看到她那副样子……他们的幻想会瞬间破灭的！！ 所以，您明白为什么是“绝对信得过的人”吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，听你这么说，我反而有点好奇了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凡妮",
+   "text": "报酬我会给足的，姐姐的一切，就拜托您了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然都答应了，就怎么也不能临阵打退堂鼓。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来凡妮给过我一张便条，上面写着…… “请帮忙救火”？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟是玩火的魔术师，提醒要小心火灾倒也正常……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我试着敲了敲门，但似乎并无回应。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "都已经日上竿头了，再怎么睡懒觉，这个点也应该……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "救命！凡妮！凡——妮！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像是紫槿的声音？！发生什么事了！？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且还有股焦糊味，可别是出什么麻烦事了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我掏出凡妮给我的备用钥匙，虽然擅自闯入有些抱歉，但为了救人，我立刻打开了门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "紫槿！你没事吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沮丧的女生",
+   "text": "救命啊啊啊啊啊啊——！ 火停不下来！求求你，快告诉我怎么灭火……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，交给我吧！ …… 呃，不就是转一下开关的事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沮丧的女生",
+   "text": "好，好厉害，真的灭了！谢谢你，真是帮大忙了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沮丧的女生",
+   "text": "可是，我的早饭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "熄灭的炉灶上放着一口装着漆黑焦炭的平底锅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沮丧的女生",
+   "text": "不要不要不要啊——！我的煎蛋——！这是家里最后一盒蛋了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是遗憾啊， 请问紫槿在吗？你也是来帮忙的助手？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "凡妮应该不会再请一个助手吧，这人到底是谁？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "你在说什么啊！我，我就是紫槿啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等，等等！这么说眼前这个一边煎蛋一边大呼小叫的就是……紫槿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "讨厌啦，你真会开玩笑！只是换一件比较放松的衣服，你就认不出我了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "紫槿——你在吗？看上去像是你妹妹的人说想要吃煎蛋喔！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "才不是！我就是紫槿啦！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好意思……不过仔细看看，的确和真的紫槿长得一样......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这谁能认出来啊！！那个英姿飒爽的顶级魔术师跑哪去了？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以你刚刚在做些什么，有受伤吗？我现在已经是魔术师助手，现在需要帮你做点什么的话，尽管吩咐就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "我只是想做个早饭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，是在研究早饭魔术吧，要我做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "喂～～～～！！不是魔术，是真的早饭！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实......这样的紫槿好像也挺可爱的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "平时只要我一起床，凡妮就会把煎饼和炒蛋端到我面前……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以你是想自己动手做啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "凡妮便条上写的“请帮忙救火”原来是这个意思……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "所以刚刚，你看，机会难得，虽然已经请你来帮忙了，但我也要试试看亲自下厨嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "本来觉得用火是我的强项，区区炉灶应该不在话下的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有这份心意就够了，话说回来，魔术师要是把手弄伤了可不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "这个嘛……你说得对，是我考虑不周了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "这样的话…… 要不先去采购？食材也用光了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不必了，我已经买好了直接就能吃的点心，还有热一下就能吃的食材。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "不愧是凡妮和你！ 等等......怎么感觉我都被你们看透了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "啊，对了！你也来一起吃吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢，不过我来之前已经吃过早餐了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "真遗憾呢，还想和你共进早餐来着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "趁这个时候，我先收拾房间吧，这么乱糟糟的，也没法好好吃饭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且……把酒店房间弄得这么乱，换房的时候会很麻烦吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "那倒没关系，这是我个人长租的房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "你看，我因为工作要到处跑对吧？相比到处买房，这样不是很节俭吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "节俭吗......仔细算算好像也是。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "不过，要是继续这么乱糟糟的，又要挨凡妮骂了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "所以呢……你可得救救我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那张便条上写的“请帮忙救火”，原来也不只是字面意思啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "打扫就交给我吧，我还挺擅长这个的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "真可靠！ 不过，那个……其实不止这里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "紫槿苦笑着，像个服务生一样一边做出欢迎的姿势，一边打开了通向里间的房门——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "意外的是，并没有想象中十分脏乱的画面——虽然确实堆放了不少东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一眼看上去，都是些奇奇怪怪的玩意啊……也太多了吧？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我能冒昧问一下吗？这都是些啥？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "嘿嘿……如你所见……其实我也记不清了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不动手事情也不会自己做完……还是赶紧搞定吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……过期的饼干吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "因为包装看起来很好吃就批发了一堆…… 结果一尝，却完全没有味道……发现是宠物饼干。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么同样花色的靠枕买五个？床上的不够用吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "啊！这个是因为，我听说这是全新技术制造的，哪怕是半空中的蛋，掉到上面也不会碎，非常软非常舒适的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那你用过吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "嗯！我试过扔鸡蛋，确实没碎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "靠枕是用来玩这个的吗？！而且要是只用来干这种事买一个就够了啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "每次经过摊边都会忍不住想买，却忘记自己已经买过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多余的东西我都帮你收起来吧？你觉得用不上的东西，我去给邻居、灰城区的孩子们分一分？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "没问题！如果有人能好好利用它们，这些闲置的东西也会开心吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，我和用点心填饱肚子的紫槿一起，开始了“断舍离”的分类工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,1109 @@
+{
+ "heading": "# 08 温室的秘密",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`514`　**编号**：`08`",
+  "- **关卡名称**：温室的秘密",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_08`",
+  "- **关卡描述**：比起正午的审判，罪恶更畏惧同类的獠牙。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "攻入温室的众人，发现了大量的催熟植物，\n这一切的始作俑者正是研发负责人约瑟夫。\n逃窜间，他带你们来到了培育植物兵器的实验室……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "攻入温室的众人，发现了大量的催熟植物，\n这一切的始作俑者正是研发负责人约瑟夫。\n逃窜间，他带你们来到了培育植物兵器的实验室……",
+  "episode": "第八话",
+  "title": "温室的秘密"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "21:30",
+   "date": "谷月 4日",
+   "place": "菲莱温室区 九十九号温室"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "快搬，别让一会的战斗伤到珍贵的翠煌草！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "干练的佣兵",
+   "text": "部长，我们埋伏好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哼，这次一定要把那个枪手抓到，这么多人对付一个人，也算是天罗地网了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "干练的佣兵",
+   "text": "报告，对方不是一个人，是七个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "七个人？？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "金色夜莺就是你们做出来的吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "咳咳， 是尘沙啊，真是的……你们明白自己到底在做什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，我们被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "约，约瑟夫部长，你为什么在这？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "当然是为了抓住在我身边飞来飞去的小虫子了。不过……你们上钩，倒算是意外之喜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "约瑟夫部长，你为什么要做金色夜莺？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "金色夜莺，嗯......你们是这么称呼那种面包来着，其实我并没有专门做金色夜莺的意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "那只不过是些副产物罢了。 各位请看，这是我发明的最新的魔力催熟技术——翠煌草。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翠煌草......这个名字听着好耳熟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "野生的这种草白天储存阳光，晚上释放出来，就和真的阳光一样。 为了完美复刻这种效果，我可是每天都住在翠煌之刃的笼子里啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "几个月前，城外的旅人抓到了翠煌之刃，翠煌之刃的羽毛是用魔力凝结而成，本身也能刮起充满魔力的风。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "我们给翠煌之刃喂食含有高浓度魔力食物和水，取用翠煌之刃的羽毛和翠煌之刃刮起的风来滋养翠煌草，这样培育出来的翠煌草就能释放出带魔力的“阳光”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "呵呵……哈哈哈！苍天不负有心人！我们培育的翠煌草非常出色，完全超越了野生的品种，可以直接用“魔力阳光”对植物进行魔力催熟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "我们在九个温室里实验了两个月，就实现了这九个温室全年的产量。外面的麦田里，我们也做了不少实验，效果也很不错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你们催熟这么多麦子，究竟为了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "目的？没什么目的，公司给我的任务是想办法提升产量，降低成本，我的确做到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "难道说联合种业的其他产品里也混杂着魔力催熟的麦子磨的面粉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "呵呵呵，米娜，你很敏锐嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "无论是茶色夜莺还是什么金色夜莺……那点钱，根本比不上其他人气商品带来的利润。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "不过，小钱也是钱，哪怕只有一朵拉，我也要装进自己的口袋里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "只是没料到，竟然真的会有人为了茶色夜莺而向上面申请，做调查……明明是一个早就被公司抛弃的产品罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "公司才没有抛弃茶色夜莺！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "和达尔茜娅大人申请成立调查组的时候，她说过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "“茶色夜莺是我们菲莱分部的骄傲，它让联合种业成功在旅人和灰城区里打出了口碑。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "“好好调查，相信你不会让我失望的，米娜。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？米娜背后的大人物竟然是达尔茜娅......翡冷翠也帮我们澄清过谣言。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "联合种业的执行官和二把手都没问题，那灰夫人又是怎么回事？灰夫人的靠山到底是谁？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我不允许有人毁掉公司的声誉，践踏大家辛辛苦苦做出来的食物！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "约瑟夫部长，你的行为已经严重违反了公司的规则，和我一起去达尔茜娅大人面前，把一切都说清楚吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "呵呵呵，哈哈哈哈……看来你对公司的了解还很片面啊，米娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "甚至，连别人的真实意图都看不清。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "你看看你雇的这些人，明明只是拿朵拉办事的旅人，却还要多管这些没好处的闲事。米娜，你不觉得奇怪吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "奇怪？你在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "哈哈哈，在场所有人里，最违规的人是你啊，米娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "站在你身边的那位，自称是从别的分公司调来加入你的部门的员工，其实并不是真的联合种业员工，而是一位魔女。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "魔女？？？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "呵呵，她想方设法混进公司，为的就是寻找联合种业的黑料，就像四年前研发部的事情一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "雾语她……不会的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "那你猜猜，接下来，她会放过“魔力催熟”这条足以摧毁联合种业菲莱分公司的新闻吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "这人一老啊，话就多， 闲话也说够了，解决掉你们吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，怎么办？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可恶啊，被堵在这里，就算我们能冲出去大家也会受伤。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "还有别的虫子？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "干练的佣兵",
+   "text": "部长小心，敌人在高处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "干练的佣兵",
+   "text": "呃——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好机会，大家一起上，解决这些佣兵！抓住约瑟夫！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "等一下！魔<r=BOSS></r>王，他说的另一只虫子……也不一定是我们这边的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，但现在不是考虑这件事的时候，抓住约瑟夫才是最重要的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "明白，交给我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "用扫把马上就能追上了， 魔<r=BOSS></r>王，愣着干什么，快上来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "旅人，还有枪手， 我明白了，我都明白了，原来是这样，那位大人从一开始就只是想利用我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "哈哈，哈哈哈，我们都是被蒙在鼓里的可怜虫，这家公司的疯子……可不止我一个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "别说着听不懂的话了，束手就擒吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "嘿嘿，你们真是追到了一个好地方了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟了，他把大门关上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父被关在里面了，怎么办？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么地方？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "目之所及的空间里，仅有的微弱荧光来自几台硕大的培育缸，一株株巨大又诡异的植物被浸泡其中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "你们不是想调查金色夜莺的事情么，这个地下实验室就是一切的源头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有什么东西……在看着我？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜呃……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "这是什么？好大的曼德拉辉草。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "呵呵，这可不是曼德拉辉草那种落后的植物，我管它们叫做——第二代智慧植物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "刚才那家伙盯了你们吧，那是在观察学习你们哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "智慧植物……观察学习？你的意思是......它们有自我认知？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "当然，在我的实验里，这些智慧植物已经能做复杂工作了，还能像人类一样思考，判断。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "这可是个大新闻，我要把这里的东西都拍下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "不可以！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "米娜，你怎么也在？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我，我在关门的前一刻冲进来的，我不能放任公司的机密被泄露。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "雾语，约瑟夫部长说的……都是真的？你为什么要骗我？就是为了新闻吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "啊啊，是真的，我是魔女。联合种业的秘密……对所有魔女而言，都有着极佳的吸引力。所以，我来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不过，我确实没想到还有翠煌草和智慧植物这种猛料在这里藏着呢。嘻嘻，真是幸运的一天~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "你是在我之后，第一个愿意加入茶色夜莺项目的人，我还以为......你是真心喜欢茶色夜莺。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "或许吧，飞行的时候我也常吃茶色夜莺，但是，我们魔女，只要有真相就够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "嘿嘿，说的不错，只要有真相就够了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "别想逃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呃......这是什么？怎么这么多曼德拉辉草，这都是从哪冒出来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "哼哼，再说一次，这是第二代智慧植物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "再见了，各位，变成花泥吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "约瑟夫放出来上百只智慧植物，只靠雾语一个人无论如何也对付不了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "智慧植物",
+   "text": "呜呜，咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦，智慧植物没有攻击我，为什么？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也没有攻击米娜，所有的攻击都向着雾语去了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "智慧植物",
+   "text": "呜——咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了，约瑟夫怎么能这么确定，他放出如此多的智慧植物，不会让自己陷进去。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我，米娜，约瑟夫的共同点是...... 我明白了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语，抓住我的手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎，哎哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "智慧植物",
+   "text": "咿？咿？呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "智慧植物放弃了我拉住雾语手的一侧，摇晃着叶片和枝条围向了雾语的另一侧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "它们不会攻击穿着联合种业制服的人，这是它们辨别敌我的方式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "只是这样？ 那我只要换回原来的衣服， 哎，完全腾不出手啊，你们这些可恶的植物，给我走开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "智慧植物越来越多，尘沙她们也被拦在了外面......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "雾语， 我帮你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "米娜拉住了雾语了另一只手，在我们一左一右的“人墙”下，智慧植物不解地晃动着叶片，退了下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "米娜...... 谢谢， 你为什么要帮我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我不是在帮你，不管你骗没骗我，你想不想把这里的照片散布出去，你现在都还没有离职，都还是战略部茶色夜莺项目的成员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我，我不可能放弃我的同事，这也是联合种业的公司规则。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我也成了......被公司规则保护的人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我们向前，先走出这个实验室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "昏暗的走廊尽头，是一座我们未曾见过的温室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "第一百号温室，我们公司有这座温室吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "应该是为了研究秘密修建的温室吧，魔<r=BOSS></r>王，下面怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们必须抓住约瑟夫......可是，这座温室这么大。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "要怎么行动呢？",
+   "options": [
+    [
+     "分头去抓约瑟夫",
+     "抓到犯人是最重要的",
+     "E505"
+    ],
+    [
+     "不要冒险",
+     "安全是第一位的",
+     "E506"
+    ],
+    [
+     "调查实验室",
+     "千载难逢的机会",
+     "E507"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "分头去抓约瑟夫"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "温室太大了，我们分头行动吧，手机联系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "......好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "明白了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语和米娜之间还有芥蒂啊。这种事没那么快解决的，这么想来我们分开行动也好。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "默默点头示意后，我们选了不同的方向，追捕约瑟夫。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "不要冒险"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里是敌人的地盘，说不定有陷阱，我们还是一起行动吧，不要分开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "这样约瑟夫会跑掉......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "你是想拍更多的照片吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "聚在一起雾语和米娜之间肯定会吵架， 不过也没办法了， 那些佣兵......真的是约瑟夫的手下吗，我总觉得这件事没那么简单。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别吵了，安全第一，现在我们三个人里只有雾语你能战斗，分开的话再遇到佣兵就不妙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "先确保安全，我现在就联系尘沙她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "调查实验室"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "约瑟夫就交给雾语了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我，我一个人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我们三个人里只有雾语你有战斗力，我和米娜去了也是添乱吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "米娜，你联系尘沙和公司吧，这么大的事情，联合种业是遮掩不住的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "明，明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我就趁这个机会，回到实验室里调查一下吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "灰夫人逃进联合种业，孤儿院的事也和联合种业有剪不断的关系，这个隐秘的实验室里有线索的可能性很大。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  }
+ ]
+}

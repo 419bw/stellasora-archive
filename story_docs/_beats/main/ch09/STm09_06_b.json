@@ -1,0 +1,1822 @@
+{
+ "heading": "# 终局 身旁的她",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1018`　**编号**：`终局`",
+  "- **关卡名称**：身旁的她",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_06_b`",
+  "- **关卡描述**：只要……能到达那个地方……",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你决定带上安琪，亲自成为诱饵，开着绿洲号冲出包围圈。\n在沙蝎的掩护下，你们似乎终于甩开了身后的追兵。\n但眼前这片莫名的“海”，将你的生路彻底隔开……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你决定带上安琪，亲自成为诱饵，开着绿洲号冲出包围圈。\n在沙蝎的掩护下，你们似乎终于甩开了身后的追兵。\n但眼前这片莫名的“海”，将你的生路彻底隔开……",
+  "episode": "终局",
+  "title": "身旁的她"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "18:45",
+   "date": "雾月 18日",
+   "place": "米拉什 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "魔<r=BOSS></r>王，我这里还有一块没用过的心相石，给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢你，蓝锥。 你们要不要留几块？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们一路上需要开着幸运绿洲号狂奔，是最需要魔力的，这个时候还客气什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是这个问题， 你们手里没有备用心相石，拯救委员会再次攻来，还守得住吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "放心吧，艾蕾院长刚刚带着孩子们撤进了白猫密室，那里又坚固又通风，就算是拯救委员会，没有那首歌谣也是打不开门的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不用担心孩子们，你又突围出去了，我们的行动就自由多了， 可以在米拉什的地上和矿道里和拯救委员会捉迷藏了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼哼，说到捉迷藏，猫眼大人可没输给过谁， 看我用黑暗之力把他们耍得团团转吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，都到了这个时候了，你还在关心我们吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你的计划里，压力最大的就是你和空白旅团吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "真是的，每次都想出这种超级危险，超级不在乎自己的计划， 真不知道你这个人是怎么想的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为，这是最有可能救下我们所有人的计划嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们继续在米拉什消耗下去，等不到明天早上就会被拯救委员会耗死。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝修莉娜建议我逃走，我当然不会这么干，但她的建议的确启发了我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们的优势不只有我和卡西米拉分析的那些，还有一个之前一直被我们忽略的—— 幸运绿洲号的机动性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "拯救委员会里有不少能用魔法飞翔，或者用魔法疾驰的人，但这次进入沙漠，我们一辆神器车也没带。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "拯救委员会想要的无非是我的命，以及抢回安琪，那么，只要我和安琪在一辆车上，他们就只能被我们牵着鼻子走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在沙漠中打运动战，才是我们和白猫擅长的事情嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "可是，一想到你要被那么多人追…… 还不如让我跟着去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，妾身也愿随行护卫， 若不能陪在您身边守护，妾身这颗心…… 根本平静不下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道你们的担心。 但是，夏花，大家还要在米拉什和拯救委员会周旋下去，她们需要你的空中侦查。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，你是同伴中少有的，不用魔力也能继续战斗的人，大家也需要你的刀刃，请帮我保护大家的安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你这个人啊…… 总能想出一大堆道理来说服我们。 千都世，我们不和你讲，反正也讲不过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "等你冲出包围，米拉什也安全了，我就带你飞着去找你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "夏花大人，您说得对。妾身会以最快速度斩断米拉什残留之敌，然后和您一起去寻找主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们两个人的关系什么时候变得那么好了…… 嘛，这也算是好事吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，各位不要勉强自己，你们每个人对我都很重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "知道啦，真撑不住的时候，我们会想办法向那个不好好穿衣服的铁罐头投降的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "格蕾霍恩队长是位恪守荣誉的骑士，她不会为难各位的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我们出发了。 鸢尾，带安琪上车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "鸢尾押着双手被捆住的安琪走上幸运绿洲号， 我迎着即将落下的夕阳，将加速踏板一踩到底。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:50",
+   "date": "雾月 18日",
+   "place": "米拉什 城外沙漠"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐的委员会成员",
+   "text": "队长，我们在矿道里抓到了一个可疑的家伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "小孩子？她是魔<r=mowang></r>王的同伴？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐的委员会成员",
+   "text": "应该…… 不是， 委员长给我们的名单上没有她，但她的魔法和永夜很像， 我们实在无法判断，只能把她带回来交给您判断。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "唔，这个身高怎么看都是个小孩子啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "小妹妹，你叫什么名字？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "害怕得说不出话了么。 那…… 不好意思，请让我摸一下你的头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "没有角， 魔力用的是心相石里的恩赐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "嘛，看看这个清澈的眼神，这孩子不是什么永夜啦，只是个被你们吓到的旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "你们几个，好好和她赔礼道歉，把她送到安全的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐的委员会成员",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "冈希尔德，来这边一下，有重要情况， 咳咳——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "格蕾霍恩，你还是休息一下，现在还有什么情况比你的身体更重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "安琪委员长和我们联络了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "19:00",
+   "date": "雾月 18日",
+   "place": "米拉什 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "格蕾霍恩，冈希尔德，你们听好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王正开着一辆绿色的旅行车，向米拉什北方逃走，马上就会开出城区，经过我们的炮击阵地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我只被允许和你们说三句话，请一定要阻止魔<r=mowang></r>王，拯救世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呼，这样就可以了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可以了，没想到你会这么配合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，再提个建议。我最好坐在靠窗的地方，这样冈希尔德才能一下子就在瞄准镜里看到我，拯救委员会才能全部出动来追你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可以是可以，但你可不要想着逃跑， 死之权杖就顶在你的后心上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你们做的事情正是我想做的事情，我为什么要逃跑呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "自始至终，我想杀的只有魔<r=mowang></r>王一人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "所以，我才想在菲莱偷袭魔<r=mowang></r>王。 这样，损失的只是你和我—— 两条命而已， 你看，是不是比战火蔓延到米拉什要好得多？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是什么歪理！ 如果不是你非要相信那个什么《恩赐预言书》，根本不会发生这些事， 这些天我查过了，那本书连作者都不知道，根本无法确保真实性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我判断魔王是魔<r=mowang></r>王，可不只是靠《恩赐预言书》。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "在这些日子里，我已经把所有能找到的，有关魔<r=mowang></r>王传说的书都看了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你还有什么理由就一起说出来吧，我会一条条地驳斥你的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "好努力呢，如果有时间的话，我们还真可以讨论一下， 不过…… 还是先看看窗外吧，我的同伴已经追上来了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐的委员会成员",
+   "text": "全体注意！那辆绿色的旅行车就是魔<r=mowang></r>王的车，打爆它的车轮！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "施法的委员会成员",
+   "text": "火焰， 聚集吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "极地涡旋！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "施法的委员会成员",
+   "text": "法，法杖被冻住了？！ 怎么会有这么大范围的冰冻魔法？那车里到底坐着什么人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼——这个魔法学会后我还一次都没放过呢，没想到效果这么好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "等等，我手里的心相石怎么空了？ 刚才那个魔法一下子就用光了一枚心相石里的恩赐？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这，这也太浪费了，我……我从没吟唱过这么富裕的魔法啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "直接开车冲过来放大型范围魔法，这也太不把拯救委员会放在眼里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "包围他们，救出委员长！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐的委员会成员",
+   "text": "用魔法升起沙墙，拦住车子！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿，别挡小绿的路！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐的委员会成员",
+   "text": "可恶，这两个旅人是从哪里冒出来的？ 挡住她的射击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "小绿，快走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冲，冲过去了，幸好有尘沙和琥珀帮我开路，要不然车子就撞在沙墙上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "咳咳， 魔<r=mowang></r>王这一手还真是厉害，这么快就抓到了战术的唯一漏洞——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "只要车子够快再加上同伴拉扯，我们这种依赖互相支援的阵型，就会变成筛子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "各战斗小组注意，按我的指示在四周竖起沙墙，别急于进攻，先把它围住！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "冈希尔德，那两个旅人交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "跟我上，抓住她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀，就是现在，用你的绑带。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "沙丘上，琥珀带着尘沙高高跃起，",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她手腕上的黑色绑带穿过幸运绿洲号敞开的天窗，缠在座椅的把手上，牵扯着两人精准落进在沙丘底部疾驰的小绿里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "完美，落地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，我们回来了，按照你的安排，我们已经和沙蝎谈妥了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "小绿也把拯救委员会都吸引过来了，只要再冲破那些沙墙，我们就赢啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别说得那么轻松，那些战斗小组似乎想把沙墙连在一起，修成一个大圆圈把我们关在里面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我应该向哪个方向开啊，尘沙？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "交给自己的心，选择你最想去的方向就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在说什么啊，尘沙，我又不是你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙的温热的掌心覆在了我的手背上，帮我牢牢地把住方向盘。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我啊，从白猫密室出来后就发现了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你今天好像……格外在乎我们。 不，自私一点地说，你今天好像特别在乎我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "虽然不知道你是怎么了，但我能感受到你内心的焦虑，战斗的时候，也总是把我们放在最安全的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "还好，最后的“逃走大作战”，你还是选了我们， 你没有忘记…… 我们抵达米拉什的那天晚上，我们四个人之间的约定呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是因为……因为……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这到底要怎么说出口啊，我到底应该怎么在不提及白色房间的前提下，去解释上一次的命运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，魔王，不用着急告诉我答案，我可以等的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你还记得，我们在水道桥上遇到的那只超大的星骸吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然记得，那是我们第一次一起战斗，真正的战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "第一次并肩作战，就要面对那样恐怖的怪物，还真是乱来啊。 那种压倒性的差距，任谁看了都会觉得我们毫无胜算—— 无论如何也跨越不过去的绝望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "但是，你的智慧，鸢尾的谨慎，琥珀的敏捷，再加上我的直觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "管它什么绝望，我们照样把不可能变成可能！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "今天，也不例外！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "弥尔沙",
+   "text": "老大，我们这样子真的可以帮到魔<r=BOSS></r>王吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈哈，我也不知道，但那个叫尘沙的旅人跑来和我们说的话没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "沙蝎希望尽快结束这场战斗， 就算不能结束，也请他们去别的地方打啊，再这么折腾下去，我们的晶钻矿都要塌了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "弥尔沙",
+   "text": "可是，你之前还去帮拯救委员会放沙暴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "此一时彼一时， 那时候我觉得拯救委员会能速胜的，就小小帮了一手，没想到那些人的布置完全被魔<r=BOSS></r>王看破了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "幸好魔<r=BOSS></r>王那边无人受伤，不至于结仇。 现在，我们该反过来帮魔<r=BOSS></r>王了， 当然，也不能让拯救委员会看出来找我们的麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "弥尔沙",
+   "text": "来了，旅行车来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "落日下的黄沙，请回应我的祈祷。聚沙成丘——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "黄沙凝聚成的巨人在拯救委员会竖起的沙墙前站起， 而后像是魔力失控般崩塌了下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，这是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我明白了，拯救委员会的魔力充沛，那些沙墙想要破坏很难，但用更多的沙子堆一个沙丘……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们就可以飞过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "就像，水道桥上一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "沙丘顶端，幸运绿洲号在空中划出一道完美的弧线， 越过格蕾霍恩和冈希尔德的头顶，落在无垠的沙漠中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "十天后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "雾月 28日",
+   "place": "落日沙漠 沙漠深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王，我和黄昏裁判已经抓到了绝大部分拯救委员会的成员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "多亏了你们一直开着车在沙漠里消耗他们，我们没什么损伤，大家也都很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就好， 我们的恩赐有点不够了，能不能派人来接应我们一下？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "雾语、夏花还有千都世几天前就出发去找你了，她们带着足够多的心相石， 说起来，你们跑得真远啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没办法啦，本来我们是想逃出米拉什后，就向东开和你们汇合的， 结果格蕾霍恩的指挥还挺厉害的，我们完全绕不到东边，只能一路向着西北狂奔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算算距离，差点就开到诺瓦大陆的边缘了，我估计我们再开上一两天，就能看到大海了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在我们已经向回返了，应该很快就能遇到雾语她们，我先联系一下。 再见，翡冷翠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "等你回来，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，一切都结束了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然中间遇到了种种波折，还意外地帮拯救委员会“增强”了一次战斗力， 但现在都结束了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要把安琪送到黄昏裁判，我们就能回到日常的生活中去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王， 一切真的结束了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "此时此刻，我依旧没有放弃杀掉你哦，魔<r=mowang></r>王， 并且，我依旧有十足的把握可以杀掉你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "你都输了，别嘴硬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "真的输了吗？马上你们就会知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙？出什么事了？刹得这么急。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你，你们快来看…… 沙，沙漠消失了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:15",
+   "date": "雾月 28日",
+   "place": "落日沙漠 沙漠深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里是…… 大海？！沙漠里怎么会有大海？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是沙漠尽头的大海？那应该在西边啊，尘沙，我们没开错方向吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我怎么会犯这种低级错误，你看太阳的位置，我们就是一直在向东开，原路返回啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是夏花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂，夏花，你们现在在哪？ 我们这边遇到了点麻烦，得花点时间才能和你们汇合了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，你们到底跑到哪里去了？我们都到海边了，还是没能找到你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "海……海边？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "想要看到真正的世界尽头，你们还需要向西行驶上数天， 越过流沙和山脉，一直行驶到沙漠和大海交接的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "在那里，大地不断塌陷，坠入漆黑的深渊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "上一次，安琪在谈判时的确这么说过。 难道，眼前的海是…… 不会吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，对着天空开一枪，最大火力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，我在地平线上看到了……射击的红光，那是你们吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公…… 在海的另一边？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哈哈， 哈哈哈哈——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，你的确战胜了拯救委员会，但没想到啊，你却要被“世界毁灭”困死在这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "只用看的就知道，这边的海峡，是你们深入沙漠西部后，大地崩落，海水涌入造成的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "诺瓦大陆的西北角因为没有星塔，本就是毁灭最严重的地方， 你们只顾着把拯救委员会引入死地，却没意识到你们这么做也让自己踏入了死地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你在胡说什么，这么窄的海峡一下子就飞过去了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "对， 雾语， 我们去接魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不，不行—— 在海面上根本飞不起来，这里的空气中怎么有这么多魔力，根本操纵不了扫把。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么会—— 呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "小心，别用蛮力，你的魔法会被这些魔力扭曲的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "别白费力气了，大地崩落的同时会带来巨大的魔力乱流，一般能持续一到三年，在这种乱流里，使用魔法和自杀也没什么区别。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你们想来救魔<r=mowang></r>王，就开一艘不用魔法也能航行的船来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "只是，诺瓦的西北方一个港口也没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不行，我要再试一次！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身可以游过去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "快，快上车——这边的地面也要崩塌了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，再见了， 魔<r=mowang></r>王， 这样的结局——我很满足。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "安琪露出了释然的表情，她对着大海，扔出了一个小小的影子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "下一刻，她的身影连同脚下的沙滩一起被狂暴的海浪吞噬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "幸运绿洲号疯狂地倒车，当不知道转了多久的车轮再次停下时，即使夏花和雾语飞上高空，也看不到琥珀再次发射的魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "日升日落，数天之后，仅存的魔力终于耗尽。我们只能依靠双腿，绝望地躲避着不断崩坏的大地和步步紧逼的海水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "奥尔贝德请求黎明近卫和黄昏裁判出动救援；",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "地理协会召集了能找到的所有航海旅人；",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "翡冷翠和玛蒂尔达甚至找到了联合种业总公司，试图从诺瓦南部调动船只。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然而，挣扎毫无意义。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "大地崩裂引发的魔力乱流，化作一道狂暴的屏障 隔开了我们所在的沙漠“碎片”和诺瓦",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "诺瓦的河运固然发达，但海运却早已荒废 距离我们最近的船只全速赶来也要一个月的时间",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "而我们手头的补给，根本撑不到那一天",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，你还醒着吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，你还醒着吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我蠕动着嘴唇，什么都没说出来。干渴的喉咙早就失去了知觉，声带的每一次微小的震动只能换来刀割般的剧痛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我只好用尽力气，抓住鸢尾的手，以此证明自己还活着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙和琥珀，好像已经变冷了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，我应该也撑不了多久了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个，刚刚你昏过去了，没有听到尘沙和琥珀最后的话语， 我，我帮她们再说一次，咳咳咳——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们一定会得救的，到那时，再一起重新组装小绿，重新出发吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是尘沙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "和魔<r=BOSS></r>王一起聊天，很开心，可是，我们已经很久没有好好聊过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是琥珀的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还有……我的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "能在星塔里找到你实在太好了，就算……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "和你一起坐在这里，化作指引旅人的路标也不错呢，魔<r=BOSS></r>王……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "鸢尾的手指失去力气，渐渐松开，而我，甚至……连悲伤的眼泪都流不出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "欢迎回来，魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "魔<r=mowang></r>王大人，我给您准备了水，您要不要润润嗓子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳—— 呃—— 嗓子不疼了，我，我现在可以说话了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "白色房间容纳的是您的灵魂，而非您的身体，您身体上的损伤，并不会在这里体现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "这一次，您真的受苦了呢， 在那种烈日的炙烤下，身体里的水分一点点流失的感觉我很明白呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "不过，能和最重要的同伴，以及一直以来的“家”埋葬在同一片沙漠里，或许还挺幸福的， 有很多人，连这点都求不得呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我…… 我又失败了， 还连累了更多的同伴陪我一起经受折磨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有，世界毁灭…… 竟然是真的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "珀尔娜，维嘉尔，你们知道“世界毁灭”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "抱歉，我们是星塔员工，外面的消息全靠跟爬塔的旅人闲聊打听，他们并没有提过“世界毁灭”这种事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "就算知道，也会因为“保密协议”根本说不出啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白了。 维塔，你呢？你知不知道？ 不对，你就算知道，也会说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，维塔的权限不足，无法告知您相关信息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "都会抢答了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "开门吧，有了这次的经验，我已经知道要怎么打赢这一仗了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我一定会救下大家，不让任何一个人受伤！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "连灰风都来了……我们要在这里和拯救委员会决战吗？呜——不管怎么想都打不过吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，接下来，怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "逃跑没有用，斩首行动也没有用。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "想要保护住大家，我一定要把前两次的全部情报都利用上。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我要让安琪留在拯救委员会，选择一个不影响孤儿院的孩子和米拉什市民的战场，和拯救委员会打一次决战。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不和对方消耗，一次性全部消灭他们！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "",
+   "options": [
+    [
+     "走为上计",
+     "逃跑可耻但有用",
+     "E1001"
+    ],
+    [
+     "斩首行动",
+     "进攻是最好的防御",
+     "E1002"
+    ],
+    [
+     "星塔决战",
+     "回到一切开始的地方",
+     "E1003"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "星塔决战"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "接下来，我们要彻底击败拯救委员会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哎？魔<r=BOSS></r>王，你在说什么啊， 我们只有这么几个人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "足够了， 只要能进入那座星塔，我们就能以弱胜强，逆转战局。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 1,
+   "forks": 1,
+   "silent": [
+    "走为上计",
+    "斩首行动"
+   ]
+  }
+ ]
+}

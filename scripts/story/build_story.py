@@ -46,6 +46,8 @@ from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
 from pipeline.text_rules import clean_text  # noqa: E402
 from pipeline.speakers import SpeakerResolver  # noqa: E402
 from pipeline.passes import extract_beats  # noqa: E402
+from pipeline.pagedoc import PageDoc  # noqa: E402
+from pipeline.render_md import page_markdown  # noqa: E402
 
 
 # ================================================================= data loading
@@ -139,62 +141,10 @@ def extract_script(stem):
 
 
 # ==================================================================== rendering
-def render_beats(beats):
-    """One beat list -> markdown lines. Used by both the main and event writers."""
-    lines = []
-    for b in beats:
-        k = b['k']
-        if k == 'talk':
-            if b.get('sticker'):
-                lines.append("**%s**：〔发送表情 `%s`〕" % (b['speaker'], b['text']))
-            else:
-                tag = "（思考）" if b['thought'] else ("（短信）" if b['channel'] == 'msg' else "")
-                lines.append("**%s**%s：「%s」" % (b['speaker'], tag, b['text']))
-        elif k == 'bubble':
-            lines.append("**%s**（战斗气泡）：「%s」" % (b['speaker'], b['text']))
-        elif k == 'wave':
-            lines += ["", "> **[战斗阶段 %s]**" % b['no']]
-        elif k == 'scene':
-            bits = [x for x in (b['place'], b['date'], b['time']) if x]
-            lines += ["", "> **【场景 · %s】**" % " · ".join(bits)]
-        elif k == 'branch_open':
-            lines += ["", "> **[若选「%s」↓]**" % b['option']]
-        elif k == 'merge':
-            if b['forks'] > 1:
-                mk = "> **[▲ 以上 %d 层嵌套抉择的 %d 条分支台词，到此统一汇合]**" % (b['forks'], b['count'])
-            elif b['count'] == 1:
-                mk = "> **[▲ 以上台词只出现在所选分支，其余选项直接进入下一段]**"
-            else:
-                mk = "> **[▲ 以上 %d 条分支互斥，自此汇合]**" % b['count']
-            lines += ["", mk]
-            if b['silent']:
-                lines.append("> *（其中%s没有专属台词，选中即跳到汇合点）*" %
-                             "、".join("「%s」" % s for s in b['silent']))
-        elif k == 'choice':
-            label = {'major': '重大抉择', 'personality': '玩家抉择',
-                     'generic': '玩家回应' if len(b['options']) == 1 else '抉择',
-                     'phone': '通讯回复抉择'}[b['kind']]
-            prompt = "：%s" % b['prompt'] if b['prompt'] else ""
-            lines += ["", "> **[%s%s]**" % (label, prompt)]
-            lines += ["> - **%s**%s" % (t, "：%s" % d if d else "") for t, d, _ev in b['options']]
-        lines.append("")
-    return lines
-
-
-
-def section_doc(heading, info, recap, body_title, beats, info_title="关卡信息"):
-    """Shared page skeleton for every story family.
-
-    The skip recap is authored inside the script (SetIntro[3], with ==RT== as the line
-    break); the stage table's Desc is a one-line flavour hint and is not the recap.
-    """
-    lines = [heading, "", "## 1. %s" % info_title, *info, ""]
-    if recap:
-        lines += ["## 2. 官方跳过概要", "",
-                  "> " + recap.replace("\n", "\n> "), ""]
-    lines += ["## 3. " + body_title, ""]
-    lines += render_beats(beats)
-    return "\n".join(lines).rstrip() + "\n"
+# beat 渲染（render_beats→beat_lines）与页面骨架（section_doc→page_markdown）
+# 已移入 pipeline/render_md.py（Markdown 后端，Phase 1d）；页面文档结构统一为
+# pipeline/pagedoc.py 的 PageDoc IR，同时落盘 story_docs/_beats/ 侧车供
+# Phase 2 的 HTML 后端直渲。
 
 
 def write(path, text):
@@ -215,9 +165,22 @@ _CHAPTER_NODES = collections.OrderedDict()
 _RENDERED = set()
 
 
-def record_page(family, path, parsed, ident, title, code='', group=None,
+def write_beats(page, doc):
+    """PageDoc 侧车落盘：story_docs/_beats/<page 的 .html 换 .json>。
+
+    Phase 2 起 HTML 后端（scripts/site/render_html.py）直接消费这些侧车，
+    不再从 Markdown 反编译。侧车随 git 提交（门控手册 8.5 认可的位置）。
+    """
+    if not page:
+        return
+    rel = page[:-len('.html')] + '.json' if page.endswith('.html') else page + '.json'
+    write(os.path.join(OUT, '_beats', rel),
+          json.dumps(doc.to_dict(), ensure_ascii=False, indent=1) + "\n")
+
+
+def record_page(family, path, doc, ident, title, code='', group=None,
                 stems=(), page=None, **extra):
-    beats = parsed['beats']
+    beats = doc.beats
     speakers = []
     for b in beats:
         if b['k'] in ('talk', 'bubble') and b['speaker'] not in speakers:
@@ -231,7 +194,7 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
         'page_md': os.path.relpath(path, OUT).replace(os.sep, '/'),
         'page': page,
         'stems': stems,
-        'recap': parsed['meta']['recap'],
+        'recap': doc.meta['recap'],
         'speakers': speakers,
         'counts': dict(counts),
         'preview': " ".join(b['text'] for b in beats if b['k'] == 'talk')[:180],
@@ -247,6 +210,7 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
     rec.update(extra)
     _PAGES.append(rec)
     _RENDERED.update(stems)
+    write_beats(page, doc)
     return rec
 
 
@@ -422,13 +386,13 @@ def build_main():
                 "- **关卡描述**：%s" % hint,
                 "- **通关目标**：%s" % (aim or '推进主线剧情'),
             ]
-            doc = section_doc("# %s %s" % (idx, title), info,
-                              body_src['meta']['recap'] or hint,
-                              "战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "逐句台词",
-                              body_src['beats'])
+            doc = PageDoc("# %s %s" % (idx, title), info,
+                          body_src['meta']['recap'] or hint,
+                          "战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "逐句台词",
+                          body_src['beats'], meta=body_src['meta'])
             path = os.path.join(sdir, safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
-            write(path, doc)
-            record_page('main', path, body_src, r['Id'], title, code=idx,
+            write(path, page_markdown(doc))
+            record_page('main', path, doc, r['Id'], title, code=idx,
                         group={'kind': 'chapter', 'id': ch, 'label': clabel,
                                'title': ctitle, 'year': cyear},
                         stems=[stem if parsed else None, bubble_stem], page=page,
@@ -465,16 +429,16 @@ def build_events():
             idx = lang_of(LANG_ACT, r.get('Index', ''))
             title = lang_of(LANG_ACT, r.get('Title', ''))
             hint = lang_of(LANG_ACT, r.get('Desc', ''))
-            doc = section_doc("# %s %s" % (idx, title),
-                              ["- **所属活动**：%s（活动编号 %s）" % (name, cid),
-                               "- **关卡 ID**：`%s`" % r['Id'],
-                               "- **AVG 剧本**：`%s`" % stem,
-                               "- **关卡描述**：%s" % hint],
-                              parsed['meta']['recap'] or hint,
-                              "逐句台词", parsed['beats'])
+            doc = PageDoc("# %s %s" % (idx, title),
+                          ["- **所属活动**：%s（活动编号 %s）" % (name, cid),
+                           "- **关卡 ID**：`%s`" % r['Id'],
+                           "- **AVG 剧本**：`%s`" % stem,
+                           "- **关卡描述**：%s" % hint],
+                          parsed['meta']['recap'] or hint,
+                          "逐句台词", parsed['beats'], meta=parsed['meta'])
             path = os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
-            write(path, doc)
-            record_page('events', path, parsed, r['Id'], title, code=idx,
+            write(path, page_markdown(doc))
+            record_page('events', path, doc, r['Id'], title, code=idx,
                         group={'kind': 'activity', 'id': cid, 'label': name},
                         stems=[stem], page='events/%s/%s.html' % (cid, r['Id']), hint=hint)
             stats['sections'] += 1
@@ -526,9 +490,10 @@ def build_character_plots():
         folder = os.path.join(OUT, 'characters',
                               safe_name('%s_%s' % (owner.get('Char'), cname or stem)))
         path = os.path.join(folder, 'sections', safe_name('%s_%s' % (owner['Id'], title)) + '.md')
-        write(path, section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                                parsed['beats'], info_title="剧情档案信息"))
-        record_page('characters', path, parsed, owner['Id'], title,
+        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                      parsed['beats'], info_title="剧情档案信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('characters', path, doc, owner['Id'], title,
                     group={'kind': 'character', 'id': owner.get('Char'), 'label': cname},
                     stems=[stem], page='characters/%s/%s.html' % (owner.get('Char'), owner['Id']),
                     affinity=owner.get('UnlockAffinityLevel'), twins=twins)
@@ -557,10 +522,11 @@ def build_npc_plots():
         folder = os.path.join(OUT, 'npc_bonds',
                               safe_name('%s_%s' % (r.get('NPCId'), npc_name or r.get('avgId'))))
         path = os.path.join(folder, 'sections', safe_name('%s_%s' % (r['Id'], idx or sub)) + '.md')
-        write(path, section_doc("# %s" % " ".join(x for x in (idx, sub) if x), info,
-                                parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                                info_title="剧情档案信息"))
-        record_page('npc_bonds', path, parsed, r['Id'],
+        doc = PageDoc("# %s" % " ".join(x for x in (idx, sub) if x), info,
+                      parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                      info_title="剧情档案信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('npc_bonds', path, doc, r['Id'],
                     " ".join(x for x in (idx, sub) if x), code=idx,
                     group={'kind': 'npc', 'id': r.get('NPCId'), 'label': npc_name},
                     stems=[r.get('avgId')],
@@ -592,16 +558,15 @@ def build_discs():
             "- **关联角色**：%s" % (owners or '无'),
             "- **AVG 剧本**：`%s`" % stem,
         ]
-        doc = section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                          parsed['beats'], info_title="唱片信息")
         prose = LANG_DISC.get(r.get('StoryDesc', ''), '').strip()
-        if prose:
-            doc += ("\n\n## 4. 唱片附文（DiscIP 表 StoryDesc 原文）\n\n"
-                    "> 与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。\n\n"
-                    + "\n".join("> " + ln for ln in prose.split("\n")) + "\n")
+        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                      parsed['beats'], info_title="唱片信息", meta=parsed['meta'],
+                      appendix={'title': '唱片附文（DiscIP 表 StoryDesc 原文）',
+                                'note': '与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。',
+                                'prose': prose} if prose else None)
         path = os.path.join(OUT, 'discs', safe_name('%s_%s' % (r['Id'], title or stem)) + '.md')
-        write(path, doc)
-        record_page('discs', path, parsed, r['Id'], title,
+        write(path, page_markdown(doc))
+        record_page('discs', path, doc, r['Id'], title,
                     group={'kind': 'disc', 'id': r['Id'], 'label': title,
                            'characters': [c for c in chars if c]},
                     stems=[stem], page='discs/%s.html' % r['Id'],
@@ -646,9 +611,11 @@ def build_storysets():
             ]
             path = os.path.join(folder, 'sections',
                                 safe_name('%s_%s' % (s['Id'], idx or desc)) + '.md')
-            write(path, section_doc("# %s" % (desc or idx), info, parsed['meta']['recap'],
-                                    "逐句台词", parsed['beats'], info_title="故事集小节信息"))
-            record_page('storysets', path, parsed, s['Id'], desc or idx, code=idx,
+            doc = PageDoc("# %s" % (desc or idx), info, parsed['meta']['recap'],
+                          "逐句台词", parsed['beats'], info_title="故事集小节信息",
+                          meta=parsed['meta'])
+            write(path, page_markdown(doc))
+            record_page('storysets', path, doc, s['Id'], desc or idx, code=idx,
                         group={'kind': 'storyset', 'id': chap['Id'], 'label': cname,
                                'no': cno, 'tab': tab},
                         stems=[s.get('AVGId')],
@@ -682,11 +649,12 @@ def build_prologue():
             info.append("- **同场战斗气泡**：%s（见 `battles_unmounted/`）" % "、".join(battle))
         path = os.path.join(OUT, 'prologue', 'sections',
                             safe_name('%s_%s' % (stem, parsed['meta']['title'] or stem)) + '.md')
-        write(path, section_doc("# %s %s" % (parsed['meta']['episode'] or '序',
-                                             parsed['meta']['title'] or ''),
-                                info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                                info_title="序章信息"))
-        record_page('prologue', path, parsed, stem, parsed['meta']['title'] or stem,
+        doc = PageDoc("# %s %s" % (parsed['meta']['episode'] or '序',
+                                   parsed['meta']['title'] or ''),
+                      info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                      info_title="序章信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('prologue', path, doc, stem, parsed['meta']['title'] or stem,
                     code=parsed['meta']['episode'] or '序',
                     group={'kind': 'prologue', 'id': 0, 'label': '序章'},
                     stems=[stem], page='prologue/%s.html' % stem)
@@ -715,16 +683,16 @@ def build_orphan_battles(used):
         note = ("属序章《最初的起点》沙漠星塔一战，Story 表不列序章所以无行引用"
                 if stem.startswith('BBm00_') else
                 "包内没有任何关卡表引用此剧本，只按剧本代号存目")
-        doc = section_doc("# 战斗气泡 `%s`" % stem,
-                          ["- **AVG 剧本**：`%s`" % stem,
-                           "- **气泡条数**：%d" % n,
-                           "- **出场说话人**：%s" % who,
-                           "- **挂载状态**：%s" % note],
-                          "", "战斗气泡对白（SetBubble，随战斗阶段推进）", parsed['beats'],
-                          info_title="剧本信息")
+        doc = PageDoc("# 战斗气泡 `%s`" % stem,
+                      ["- **AVG 剧本**：`%s`" % stem,
+                       "- **气泡条数**：%d" % n,
+                       "- **出场说话人**：%s" % who,
+                       "- **挂载状态**：%s" % note],
+                      "", "战斗气泡对白（SetBubble，随战斗阶段推进）", parsed['beats'],
+                      info_title="剧本信息", meta=parsed['meta'])
         path = os.path.join(OUT, 'battles_unmounted', safe_name(stem) + '.md')
-        write(path, doc)
-        record_page('battles_unmounted', path, parsed, stem, stem,
+        write(path, page_markdown(doc))
+        record_page('battles_unmounted', path, doc, stem, stem,
                     group={'kind': 'unmounted', 'id': None, 'label': '无关卡引用的战斗气泡'},
                     stems=[stem], page='battles/%s.html' % stem, mount_note=note)
         stats['sections'] += 1

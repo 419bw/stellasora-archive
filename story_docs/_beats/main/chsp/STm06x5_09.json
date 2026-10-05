@@ -1,0 +1,961 @@
+{
+ "heading": "# 09 致辞",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《谜影的序曲》（星塔历 996 年）",
+  "- **关卡 ID**：`6511`　**编号**：`09`",
+  "- **关卡名称**：致辞",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06x5_09`",
+  "- **关卡描述**：无论你身在何方，都祝你度过一个愉快的夜晚。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你发表了一场完美的致辞，让在场的各方代表相信，菲莱将在翡冷翠的带领下重现往日的繁荣。翡冷翠与星雁也查明了幕后黑手的真实身份。晚宴终于平安结束了，乙叶却倒下了……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你发表了一场完美的致辞，让在场的各方代表相信，菲莱将在翡冷翠的带领下重现往日的繁荣。翡冷翠与星雁也查明了幕后黑手的真实身份。晚宴终于平安结束了，乙叶却倒下了……",
+  "episode": "第九话",
+  "title": "致辞"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "20:28",
+   "date": "猎月 5日",
+   "place": "菲莱银城区 酒店大堂"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "距离演讲开始，还有两分钟……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王来消息了！到大厅入口了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "大家各就各位！可以开始准备演讲了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥菲尔",
+   "text": "灯光暗下来了…… 差不多要开始了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥菲尔",
+   "text": "很好很好—— 这次一定要拍到能用的素材！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，经历了那么刺激的事情，到了这一刻…… 反而没有任何紧张的感觉了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了大家，也是为了菲莱的明天……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "主持人",
+   "text": "各位来宾，不好意思打断各位的谈话。 接下来，有请本次晚宴的重要嘉宾，魔王协议人力派遣公司的首席执行官——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "主持人",
+   "text": "魔王你为我们致辞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家晚上好。我是魔王。请多关照。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道大家在想什么，在经历了那样恐怖的、毁灭性的智慧植物的危机后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们还能坐在这里，吃着今年新麦烤出来的面包，这本身就是个奇迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "举止从容，落落大方…… 真不愧是魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "气场，完全不同了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "“魔王协议”？这个公司很出名吗？ 我以前怎么没有听说过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "菈露前辈，拜托你平时多看点新闻吧。 前段时间菲莱出了那么大的乱子，就是这位首席执行官和翡冷翠一起摆平的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "除此之外，魔<r=BOSS></r>王还和花令旅团一起捕捉了三大魔物，在埃摩的水道桥上击败了巨大的星骸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎？ 这经历听起来像是那种—— 为了证明自己，不断完成伟大试炼的古代英雄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "说到底，您明白奥尔贝德大人为什么要派我们来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "当然是因为现在的魔<r=BOSS></r>王，是各家公司都在暗中关注的大明星呀♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "有点意思…… 唔嗯，不过我更喜欢宴会上的薯条，炸得真是绝妙啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "菈露前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲莱分公司撰写的达尔茜娅事件的详细报告，相信各位已经看到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这份报告，是在我司的首席财务官监督下完成的。 魔王协议作为达尔茜娅事件的亲历者，愿意担保这份报告的真实性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "报告是真的的话...... 那就是翡冷翠和魔<r=BOSS></r>王一起拯救了菲莱。 最终击败达尔茜娅的，是翡冷翠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "按照凤凰炒蛋那位小店长提供的信息，这份报告的真实度的确很高。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "不过，菲莱分公司的报告里故意没提达尔茜娅是怎么控制智慧植物的，只是写“通过一种不可思议的魔法”控制。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "我隐隐觉得，这件事中，那个看起来柔弱的魔<r=BOSS></r>王，恐怕也发挥了不亚于翡冷翠的作用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在，菲莱恢复了平静。但我们不应该遗忘，当整艘船都在摇晃，所有人都在寻找救生艇的时候——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是谁没有跑向甲板，而是选择冲向底仓，把船底的漏洞堵住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "又是谁，从数年前开始就发现了这一隐患，和她的伙伴一起潜伏在达尔茜娅的麾下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "确实让人无法反驳…… 翡冷翠和魔王的行动，毫无疑问是非常优雅的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在座的各位，作为代表各行各业、各大公司的重要人物，想必一直都在密切关注着菲莱的状况吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然如此，大家应该已经知道了。菲莱的粮食，依然顺畅地运往各位的家乡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "嗯，这里的面包的确是新麦做的。 经历了那么多的事情，菲莱分公司的生产还在正常运转......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "明镜，市场上的情况怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "报告，今天我去调查了，菲莱城里的面包店用的都是新麦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "也就是说…… 能在这么短的时间内让一切重回正轨，翡冷翠的手腕是货真价实的。 真有趣~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲莱，不是谁独有的，是属于全体菲莱人的，我们将一同在菲莱写下新的故事——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "关于美食而不是饥饿，关于希望而不是恐惧，关于光明而不是黑暗的故事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "最后，我认为：最好的投资，永远是投个能在逆境中保持理智和冷静的疯子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "衷心感谢各位的倾听与支持，谢谢大家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现场…… 一瞬间安静下来了。我的话...... 有好好地传达到大家心里吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，翡冷翠，我尽力了。 乙叶，希望我没有浪费你的努力。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，你的演讲简直完美哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "元老院那帮家伙的算盘怕是要落空了。 在座的所有公司代表，应该都会认为翡冷翠才是最适合担任菲莱分部代表的人选吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "可是，任命分公司执行官这件事难道不是我们联合种业自己的事情吗？ 别的公司......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "总公司里又不是没有支持翡冷翠的人，比如玛蒂尔达大监察官。 另外，菲莱这种重镇，执行官是否被其他公司认可，也是很重要的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "实际上，元老院那帮人为了把翡冷翠从菲莱调走，甚至借用了恩赐印章的力量， 诉诸了难以称之为“优雅”的手段。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "尽管如此，他们也没能妨碍这场晚宴…… 真是的，实在令人叹息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "柯松大人，如果我没记错，您也是新奥勒良人吧，天然就是元老院那一派的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "柯松",
+   "text": "不。我始终尊敬并支持优雅的人。 况且某人，不是比我更早地向魔王协议提供了建议吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千语",
+   "text": "明镜，向公司报告吧。告诉他们翡冷翠是个值得支援的人物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "……哎？ 这什么走向？ 话说如果大家都支持翡冷翠的话，我要是不支持，气氛绝对会很尴尬的吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "您在说什么呢！ 菈露前辈，您可是代表着恩赐意志的立场哦！？ 必须认真考虑过再——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我当然认真考虑了啊。这场晚宴的炸薯条很好吃。 作为理由，已经足够充分了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥菲尔",
+   "text": "真是精彩的演说！ 看起来菲莱的事情已经不需要大家担心，盘子里的面包并不会变少，更不会变得难吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥菲尔",
+   "text": "本期节目就到这里，再见。无论你身在何方，都祝你度过一个愉快的夜晚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "21:00",
+   "date": "猎月 5日",
+   "place": "谷风家政 地下监牢"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呼……呼…… 可恶…… 和哈萨娜战斗的时候，被她的毒针扎中了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "幸好，似乎成功瞒过了魔<r=BOSS></r>王的眼睛…… 可是，血完全止不住……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "虽说如此，为了不把事情闹大，得把她放了才行呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朔",
+   "text": "什么人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朔",
+   "text": "粗重紊乱的呼吸，还有血的味道…… 你受伤了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "别废话，准备睡吧。等你醒来的时候，你的世界应该就恢复原状了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "朔",
+   "text": "你又要用麻醉魔法吗…… 等等！你把我绑起来，又把我放回去，是在羞辱我吗？！ 你到底想干什么！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，别着急，你很快就会知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "22:30",
+   "date": "猎月 5日",
+   "place": "菲莱银城区 酒店房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "宴会有惊无险地圆满结束了，乙叶和沙蝎的战斗似乎没有惊动任何人，或者说——即使有发现这一点的公司代表，也选择了无视。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "终于结束了…… 今天发生了好多事啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠那边怎么样了？希望她也平安无事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "哎呀，魔<r=BOSS></r>王。呵呵呵。 真是不可思议的巧合，我正好打算联系你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "情况怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "全都解决啦。他们派来的刺客，全都被我和星雁带到玛蒂尔达大监察官那里去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两小时前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "翡冷翠，星雁，你们怎么会来金翎港？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "今天，你们应该在菲莱要召开很重要的晚宴，让各公司对联合种业菲莱分公司重建信心吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "而且，你们是从哪里得知我在金翎港视察的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "大监察官，是您叫我们来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "请看这封信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "这的确是我的笔迹，落款上盖着的也是我的私章，可是…… 我不记得写过这封信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "果然如此吗…… 我就觉得偏偏在这时候，大监察官把我们叫来很奇怪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "恐怕这封信，是根据我的字迹和印章伪造出来的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "可是，既然你们来到了金翎港，那晚宴怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "已经交给魔王协议的首席执行官了。 似乎也有势力想趁此机会图谋暗杀，但所幸没有出现伤亡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "虽说是为了得到分公司执行官的位置，但竟然伪造书信，甚至企图暗杀…… 联合种业，堕落到这种地步了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "总之，我对主谋有些头绪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "吉贝尔·科雷吉欧…… 科雷吉欧家族的新星。元老院为了将他推上菲莱分公司执行官的宝座，捧出来的候选人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "他的家族不仅在联合种业内拥有巨大的派系，分家还成立了另一家公司。 那家公司拥有的恩赐印章是“士兵”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "这封信恐怕就是使用了“士兵”的复制能力伪造的吧。这下他的罪状又多了一条—— 与其它公司勾结。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "走吧，翡冷翠，星雁，我们前往菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "菲莱？那您在金翎港的工作怎么办？ 能告诉我们关于吉贝尔的事，对我们来说就已经足够了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "正因如此，我才必须出面。 吉贝尔·科雷吉欧这个男人，必定会亲自指挥暗杀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "玛蒂尔达",
+   "text": "而且，对于和你们一起拯救了联合种业的魔<r=BOSS></r>王，我也必须去道一声谢才行呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我明白了。那么事不宜迟，今晚就返回菲莱吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "成功得到了大监察官的信任和支持，不错嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "哼哼，魔<r=BOSS></r>王你不知道吧，在敲开大监察官的房门之前，翡冷翠的脸色可是非常难看，比智慧植物还绿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "在见到大监察官之前，没有确凿的证据证明是敌是友—— 仅仅是这样而已哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "如果这一切真的是大监察官在幕后谋划，那时候就只有我的剑和星雁的枪来制裁她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "哎？我可没那个打算啊…… 这可是严重的下克上哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "哎呀，是吗？ 即便如此，如果要逼我在魔<r=BOSS></r>王或者玛蒂尔达大监察官之间选一个的话，我会毫不犹豫地，选择结成了同盟的魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠和星雁回来的路上还要两三天。雇佣了乙叶和沙蝎的，似乎就是那个叫吉贝尔的男人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了公司内部的斗争竟然到了谋划暗杀的地步，到底在想些什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不知道乙叶现在怎么样了，希望一切顺利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？有消息？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "今晚，和你一起过的很愉快。那么，我们有缘再见吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这、这个语气…… 是乙叶？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她什么时候贴上我的手机的？我怎么没注意？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "啊，对了。睡觉的时候，可要注意别踢被子哦",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "就此别过~",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等？她又是怎么知道我睡觉时的样子的……？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了…… 既然她发来了消息，应该是已经安全了吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "好了，确认酒店周围没有可疑人士了，沙蝎的残兵也都赶走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "哎呀哎呀…… 本来是来狩猎的，没想到我反倒成了猎物呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呼…… 我也差不多该……休息了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

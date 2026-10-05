@@ -1,0 +1,764 @@
+{
+ "heading": "# 蒙面骑士缇莉娅 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：缇莉娅（角色编号 `107`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`10703`",
+  "- **AVG 剧本**：`CG_107_03`"
+ ],
+ "recap": "友谊与羁绊！英雄驾着骏鹰归来。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "友谊与羁绊！英雄驾着骏鹰归来。",
+  "episode": "第三话",
+  "title": "蒙面骑士缇莉娅 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "正义执行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "哈啊啊啊啊啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌乱的村民",
+   "text": "扇叶……没有掉下来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的村民",
+   "text": "快看！骑士扔过来的枪刺中了叶片的正中心！我们得救了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "成、成功了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好样的，缇莉娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我……我尽量保证了扇叶的完整， 就算联合种业找来，应该也不用赔多少朵拉，我的存款应该还够……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "会算赔偿费的“正义的伙伴”你是第一个吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅你看，大家都等着你呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "从埃摩归来的少女",
+   "text": "骑士大人！谢谢你从巨人手里保护了我们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静下来的村民",
+   "text": "差一点就被扇叶拍扁了，多亏了这位帝国骑士仗义出手，实在是太厉害了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不再焦急的村民",
+   "text": "这样就能顺利收割麦子了，等到新麦卖掉，我们会带着新鲜的面包和谢礼上门拜谢骑士大人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "我说你们，人家不是糟糕的帝国骑士，别乱喊。 忘了吗？今天的骑士大人是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "蒙面骑士缇莉娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不再焦急的村民",
+   "text": "不好意思，差点忘记了，帮大忙了！蒙面骑士缇莉娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "从埃摩归来的少女",
+   "text": "谢谢你，蒙面骑士缇莉娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "……哇哇！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我我我——我听到了远方传来的呼唤！今天先告辞了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "来吧魔<r=BOSS></r>王，我们去骏鹰号那边！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇！？突然这么急干嘛！？ 不要太用力拉啊，太危险了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呼…… 我， 我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "戴着头盔都能感觉她脸颊通红……是太热了还是害羞呢~",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我成功了！我守护了正义！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且还被叫了“骑士大人”…… 嘿嘿，嘿嘿嘿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚刚的缇莉娅，无疑问是真正的“正义的伙伴”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "真的吗？被你这样夸，总感觉信心满满了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "在这危机时刻， 正义的骑士为了无辜的人们挺身而出。 毫不犹豫地迎战那庞然巨物， 经过一番恶战，骑士终于凭借无畏的勇气赢得了胜利！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这是？",
+   "options": [
+    [
+     "精彩！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "刚刚那幕， 简直跟我在《蒙面骑士》里看到的一模一样！ 我这是在做梦吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "缇莉娅是真的拯救了大家哦。",
+   "options": [
+    [
+     "不是梦，是你拯救了大家",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嘿嘿， 被你这么一说我都有些不好意思了…… 不过，说到底还是多亏了你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "如果当时……没有你在背后推我一把， 我可能根本不会有直面那家伙的勇气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我什么都没做啊",
+   "options": [
+    [
+     "我什么都没做哦",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嗯。 说实话……我当时真的很害怕， 要是又弄巧成拙，反而给大家带来麻烦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "唉， 真没出息， 明明一直说要坚持自己的正义…… 结果还是被别人的看法影响， 这么轻易就动摇了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "谁都会有这种时候",
+   "options": [
+    [
+     "谁都会有这样的时候",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "可我居然连自己的信念都开始怀疑了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "是不是就是因为这样， 我才一直没办法成为真正的骑士……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "别这么说，至今为止你也做到了不少事吧",
+   "options": [
+    [
+     "别太着急，想想你之前做过的事",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "之前的事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "保护大家的，正是缇莉娅的力量啊",
+   "options": [
+    [
+     "守护大家的，其实一直都是你自己的力量啊",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我自己的力量……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "…… 被你这么一说， 我感觉好受多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "可别忘了，缇莉娅你不是一个人",
+   "options": [
+    [
+     "以后要是再觉得迷茫，就叫我一声",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "一定有人默默在为你加油助威",
+   "options": [
+    [
+     "作为你的正义伙伴，我随时都在你身后支持你",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "……谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "也是啊，你都这么相信我了， 我自己要是还这么不争气，那可不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "咳咳！ 那么，从现在开始， 骑士侍从缇莉娅也要全力以赴， 朝着成为正义骑士的目标努力前进！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好了，蒙面骑士的正义维护完毕，轮到我这个魔<r=BOSS></r>王表演了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "表演……难道说！你已经想好怎么对付联合种业了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，这种事越早越好，不能把村里的人牵连进来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，见习蒙面骑士缇莉娅，去把击败巨人的战利品拿回来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "战，战利品？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是那个超大的，四只连在一起的“巨人手臂”啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "好了，按照你的要求，给路上搭了座桥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好快，我还以为得花上几天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "哼哼，别小看我的锻造法术啊， 平时帝国卫队的铠甲和神器车坏了都是我修。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "你们提供的材料也不错，尺寸很合适，省了我很多事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那个啊……那个是我战胜巨人获得的手臂，好心的村民帮我们拖回来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "好的好的，的确是巨人的手臂呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "哎——缇莉娅又把《蒙面骑士》的情节当真了，总有一天会给我拿来“巨龙的心脏”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "总之你们的委托完成啦，之后你们懂的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "当然！给，这是委托费。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "技术精湛的铁匠",
+   "text": "感谢惠顾，以后也请多来照顾生意啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王，你，你真的是个天才。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "用掉下来的风车扇叶做材料，在这里修一座桥， 横穿道路的人走桥上，车子走桥下，这样就没有冲突了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "物尽其用嘛，如果联合种业问起来，我们就说是废物再利用，至少这样他们不会找村民麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要是还不依不饶，我就找绯瞳的魔女报道“——年久失修的联合种业的风车，差点造成人员伤亡！”， 想想还挺有趣的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "好，好狡猾……不，我的意思是，好机智。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哼哼，想要战胜邪恶，就要比邪恶更狡猾，现在，我也是“正义的伙伴”的伙伴了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "当然！你修了这座桥，是我扶老奶奶过多少次马路都比不上的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我也不能落后，魔<r=BOSS></r>王，我记得你说要找家店的，这个忙我还没帮呢，请让我帮助你吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "帮大忙了，我要找的是一家传说中的，有很多稀有的上古影戏的影戏租赁店。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "啊，真不巧……魔<r=BOSS></r>王，那家店不知道什么时候倒闭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的假的！？ 我还有想要看的影戏啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "上古影戏的话，我倒是有个办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蒙面骑士",
+   "text": "“没错，我想成为的就是正义的伙伴。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽说是替代方案，但没想到是去缇莉娅家……以及——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她收藏的影戏怎么只有《蒙面骑士》啊！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "并且向我极力推荐这些影戏的本人已经开始呼呼大睡了，还枕在我的腿上……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嗯…… 魔<r=BOSS></r>王……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王摆的胜利姿势也太土了吧…… 呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "到底梦到什么了啊！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "请紧紧抓住我哦♪……我们是正义的伙伴，无论到哪里…… 都要一起…… 维护正义……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她今天也的确维护了不少正义，我就把腿借给她，让她好好地休息一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "后来，为了不打扰缇莉娅的睡眠，我挺着被压到麻木的双腿，看了一夜的《蒙面骑士》。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

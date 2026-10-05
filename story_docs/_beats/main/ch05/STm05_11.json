@@ -1,0 +1,1023 @@
+{
+ "heading": "# 尾声 那位大人",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`519`　**编号**：`尾声`",
+  "- **关卡名称**：那位大人",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_11`",
+  "- **关卡描述**：尘埃落定，月光下的废墟却是诡异的安详。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "调查终于告一段落，灰夫人却在坦白前就毒发倒下。\n想对此刻混乱问罪的翡冷翠，却被达尔茜娅阻止。\n达尔茜娅在最后，出人意料地表示她会为魔王效忠。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "调查终于告一段落，灰夫人却在坦白前就毒发倒下。\n想对此刻混乱问罪的翡冷翠，却被达尔茜娅阻止。\n达尔茜娅在最后，出人意料地表示她会为魔王效忠。",
+  "episode": "尾声",
+  "title": "那位大人"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "23:40",
+   "date": "谷月 4日",
+   "place": "菲莱温室区 一百号温室"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "雾语！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "魔王，不好了！为了保护我和留影器，雾语她主动当了诱饵，把翠煌之刃——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我马上联络大家，等等......是雾语？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嗨嗨嗨，魔<r=BOSS></r>王，米娜，你们还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "你这个人真是……到底在想什么啊？！就算是为了你所谓的真相，要是死了，那一切不就全都没有意义了吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "啊？我才想问你在说什么呢。这种事情不是理所当然的吗？我们生产部的流水线旁边就贴着“安全生产”——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎呦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语，你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "没事没事，翠煌之刃好像很生气，拼命地向我射魔法呢，嘿嘿，它拿出真本事也追不上我，肯定气得要命~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "米娜，你拍下我冲出温室的英姿了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "放心，都拍下来了。以防万一，我还特地多拍了几张。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "干得漂亮！麻烦你在下次碰头前把留影器保管好哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "骑扫把注意安全，别打手机了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "扫把已经让小南瓜和小提灯操纵啦，放心吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "啊啊，还有啊，刚刚我说的那什么“不把真相完全揭露出来，我可不会善罢甘休哦”，你们还是忘了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "身为魔女，不应该只说些漂亮话， 而是要用行动给出答案！不是吗~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉，还是一如既往地我行我素……不过没出什么事就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "是呢……留影器我会妥善保管的，等雾语回来就还给她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，刚才你还在纠结要不要发布这些照片……但看样子，你已经想通了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "嗯，我决定相信她了，相信那个一直遵从自己内心、毫不动摇的雾语。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这是关系到联合种业未来的重要抉择，我认为，每一位员工都应该直面这个问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "但是，我也好，总公司也罢，我们在规则内是做不到这一点的。呵呵……这次我们要反过来借魔女的力量了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过作为代价，联合种业的声誉恐怕就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "会很糟吧，如果我是客人，我绝对不想买这家公司的食物了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "但是，如果选择掩盖事实，那就等于辜负了信任联合种业的消费者，我觉得这是更糟的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "哪怕会面对最糟糕的结果……我身为联合种业的员工，也一定会把茶色夜莺项目重新拉回正轨！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "因为，守护茶色夜莺，让每个人都不用担心吃不饱……就是我所坚持的正义！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，如果联合种业菲莱分公司真遇到了危机，我也会来帮忙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "谢谢你，魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，我们这边也该准备善后了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "23:50",
+   "date": "谷月 4日",
+   "place": "菲莱温室区 丰饶广场"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "呼，呼，总算逃出来了。喂，打起精神来，我们去“那位大人”的办公室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "你到底是什么来头，抱着那么大的枕头在温室里还那么灵活，简直和鬼一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "售卖不合格产品、挪用公司资金、违规动用公司的武装力量、涉嫌谋杀，灰夫人，这里的每一条罪名都能让你在监狱里住上一辈子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "愣着干什么，给我上！拿了钱就好好干活！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "身为佣兵队长，只会说“给我上”可是严重失职。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "啧……真是嚣张！行啊，既然都到这一步了，那就由我亲自收拾你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "哦？你想怎么收拾我呢？施法的动作生疏的厉害啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "你的时间，都用来帮“那位大人”做见不得光的工作和向“那位大人”表现自己的忠诚上了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "我，我投降。我愿意向监察部交代我这些年做的事情，我都会交代的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "只要你坦白，我帮你向公司求减刑的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "不过，在那之前，埃摩的灰城区孤儿院你知道吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "知道是知道......你问这个做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "这样啊……果然是你做的。说吧，你对孤儿院做了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "你在说什么？掺和孤儿院事件的是翡冷翠啊。那个家伙……仗着被”那位大人“赏识，摆出一副了不起的架子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "翡冷翠？等等……你什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "对，就是翡冷—— 呃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "别装模作样，好好说话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "我......我喘不上 ......上......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "喂，你振作一点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "这是......毒， 救，救我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "你中的是什么毒？再坚持一下！ 喂！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "出什么事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "达尔茜娅大人！她、她说着说着就突然倒下了，好像是中了某种烈性的毒，可到底是不是…… 我也不敢确定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "突然倒下的么……快点去医务室！还有，星雁……你为什么这么晚了还在外面？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "大人，她是监察部的重点观察对象。我发现她近日来的行为反常，所以今天一整天都在对她进行跟踪观察。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "监察部的重点观察对象么……那她中毒，也有可能是为了摆脱指控而选择自断后路。不管怎样，先立刻展开抢救吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "干练的秘书",
+   "text": "是， 达尔茜娅大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "感谢您的帮助。不过，那位是我们监察部的嫌犯，请让我一起参与治疗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "在四年前的案件中，为公司做出了巨大贡献的就是你吧？监察部的星雁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "是的，达尔茜娅大人。这次我也会为了公司抓捕违规的员工……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "这个人叫灰夫人吧，听翡冷翠说她一直在打着我们公司的旗号招摇撞骗，行吧，接下来她就随你们监察部处置了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "感谢您的信任！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "不过在这之前……我有点担心翡冷翠，她做事太冲动了。 这样吧，你先跟我来一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "23:55",
+   "date": "谷月 4日",
+   "place": "菲莱温室区 温室外围"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家都还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "大家没受伤。魔<r=BOSS></r>王，从温室顶棚飞出去的是什么？翠煌之刃吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，还有雾语。她为了掩护我们撤离，主动当了诱饵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在她应该愉快地带着翠煌之刃在天上兜圈子呢，不用担心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇哦，用扫把和翠煌之刃在夜空中竞速吗？我也想试试，下次叫雾语带我飞一次。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不要突然露出这么遗憾的表情啦！不过……真没想到，金色夜莺事件的犯人是约瑟夫部长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "约瑟夫",
+   "text": "... ...",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我们把他交给翡冷翠和达尔茜娅大人吧，他的级别不是我们能处置的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "大家小心，有很多人，拿着武器，向着我们来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业士兵",
+   "text": "放下武器，手抱头蹲在地上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你们干什么？我们没做坏事啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "翡冷翠大人，这是怎么回事？我们在调查金色夜莺事件，已经抓到了犯人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那又如何？你们真正的目的我可不好说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我只看到了公司的温室被破坏，研发部的部长受伤并且被你们限制了行动，还有员工说听到了枪声和看到了魔法的光芒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个，请让我们解释一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "在场的人全部带去灰城区，去审讯室里解释吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "喂喂喂，你不会就是约瑟夫还有那个什么灰夫人口中的“那位大人”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "审讯室，不可能去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "翡冷翠大人，如果你认为我们的行为有任何不妥，我们可以去达尔茜娅大人面前分说明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "你们没有讨价还价的资格。跟我上，把你拿下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "都停手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人，您怎么来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "“身为领导者，一定要掌握一线情况”。 这可是你教给我的，翡冷翠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "另外，需要澄清一点——她们的一切行动，都是在我的指示之下进行的。 因此，若是出现任何问题，责任都由我来承担。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请恕下属愚钝，无论这些人怎么辩解，被破坏的温室和受伤的研发部部长都和你们脱不开干系，把你们带回去调查符合公司的规则。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "既然她们听命于我，那么这些损失的责任就由我来承担吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅对我们很友善......翡冷翠帮我解决过灰夫人的谣言，金色夜莺事件背后的人究竟是谁？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "呵呵……好久不见，冬香。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "达、达尔茜娅大人您好！好久不见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "星雁，你也在关注金色夜莺的事情吧，米娜和这些旅人做的怎么样，你也说说看法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "是的，金色夜莺的调查过程中并无损害公司利益的地方，反而帮联合种业避免了很多潜在损失。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "星雁？你怎么也在？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "啊，运营总监这是在……命令我回答这个问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "星雁，翡冷翠，别吵架。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "抱歉，是我失态了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "魔<r=BOSS></r>王，可以这么称呼您吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "您好，我是魔王协议的魔<r=BOSS></r>王，金色夜莺的委托已经完成了，在这个过程中破坏了温室实在不好意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "那都是必要的损失，虽然夜已经深了，但我对温室里发生的事情很在意，能冒昧请您去我的办公室一叙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "00:45",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 执行官办公室"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一路上，达尔茜娅和我聊了很多联合种业和茶色夜莺的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "抵达办公室的时候，我只剩下一个问题还没有问出口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "请坐，要喝茶吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢，那我就不客气了。话说，我的伙伴们......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "请放心，星雁在隔壁招待她们呢。刚才我们说到哪里了？哦，对，温室里的第二代智慧植物。您想问我这个吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "意外的坦率呢，刚才路上也说了很多，还答应肯定会整顿菲莱分公司，说不定是个容易交流的好人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，联合种业研究那些植物有什么用意吗？用来做一些繁重、危险的工作？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "呵呵，您这么说也对呢，这些植物的确要承担繁重、危险的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "智慧植物，是我为陛下准备的军队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来是军队啊... ... 嗯？ 你说什么？军？军队？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "是的，陛下，我的植物大军会为您扫清一切障碍，征服所有的城邦，统治世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在说什么？我怎么听不懂......我不是什么陛下，也不想统治世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "达尔茜娅恭敬地在我面前缓缓跪下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您当然是陛下，唯有您，才是真正的魔<r=mowang></r>王。我达尔茜娅在此起誓，将向您献上永恒的忠诚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "联合种业菲莱分公司，是我为您准备的军营。菲莱，是您临时的王城。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "请您抛弃那个被人强加的伪名，想起您过去的丰功伟业，指引我们这些可怜之人，使这满目疮痍的世界重获新生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "从身体到灵魂，我的一切，都愿意奉献给您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "未完待续",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

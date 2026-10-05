@@ -1,0 +1,868 @@
+{
+ "heading": "# 眼眸中的彼此 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#12《眼眸中的彼此》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`101203`",
+  "- **AVG 剧本**：`STsp_12_03`"
+ ],
+ "recap": "你们成功制服了碰瓷的旅人团体，但星塔里也发生了危险的异动，格芮将空白旅团的众人都强制转移，却留下了你。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们成功制服了碰瓷的旅人团体，但星塔里也发生了危险的异动，格芮将空白旅团的众人都强制转移，却留下了你。",
+  "episode": "第三话",
+  "title": "眼眸中的彼此 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，呼……我们都爬了这么久了，那个旅人到底在哪里啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不知道，但应该没看漏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "一直都没见到的话，大概率是在魔王之间里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "魔<r=mowang></r>王，你的好伙伴都在着急，你为什么看上去这么冷静呢~？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我要是回答你的话，分数不会又要涨上去了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呵呵~不回答也是一种回答~这也很符合传说中魔<r=mowang></r>王的作风呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉……说回正事吧，我表现得这么冷静，只是觉得事情没那么简单。你应该也察觉到了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "不愧是魔<r=mowang></r>王呢。这件事确实有不少疑点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "其一：那台手机上面的血迹干了很久了，放在那里一直没动静，我们找到后却恰好响了，真是单纯的巧合吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "其二：如果那台手机是旅人被袭击时落下的，周围却没有其他的血迹和遗落的物品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "其三：那些旅人在较低的楼层都被星骸偷袭了，却能一路跑到最高的魔<r=BOSS></r>王房间，怎么想都不对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "既然你我想法一致，不如先喊停她们？既然这件事是陷阱的可能性更大，我们没必要一头闯进去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不了，继续前进吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你喊住也没用的，你说的这些事情尘沙她们当然也能想到，但万一真的有人遇险了呢？就算只有百分之一的几率，她们也会去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "哦？明知可能是陷阱还要去……那只能说是鲁莽了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不是鲁莽，是旅人之间的关照。毕竟谁也不知道自己什么时候会落到同样的地步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我曾经也是被她们帮助过。不然…… 就没机会和你这样聊天了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "有趣，看来我得更新一下你的异端积分了，七十分~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下！我不过是识破了对方的布局而已，怎么还加分了？！还有，能好好解释一下加分原则吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "能轻松看破事物的本质，传说中的魔<r=mowang></r>王就有这般明锐的洞察力，加十分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "只有比坏人更狡猾，才能看透坏人的想法。也就是说你比他们更“邪恶”，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧……你这么说也对，另外二十分呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "明明害怕继续涨分，却还为同伴澄清，嗯，传说中的魔<r=mowang></r>王也是个仗义直言、迎难而上的人呢。加十分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是随心所欲……那最后十分呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "明知可能是陷阱，还表情平静地前进，说明你觉得—— 不管接下来发生什么事，你和同伴都能解决，传说中的魔<r=mowang></r>王也有这种绝对的自信，十分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不到五分钟就清理掉一整层星骸的人跟在我们身后，就算遇到陷阱也能轻易应对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "有趣，算盘都打到我身上了么…… 真不错~你这种想法也非常符合传说中的魔<r=mowang></r>王呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "那么—— 请自由地命令我吧，你的指挥才能也是我观察的重点呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我就不客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格芮，你和我们分开行动，先隐藏自己的身形，等到我们把敌人诱引出来后，再从后面包抄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "好~ 好~嘻嘻，事情变得有趣起来了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，我们到了，求救者说她就躲在附近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我去高处侦察。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "喂，有人吗？有人的话吭个声——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "尘沙！小心背后！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "星骸，难道求救的旅人已经……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大家小心。靠在一起不要分散，把魔王护在中间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "心相石，没恩赐了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "再坚持一下，已经是最后一只星骸了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "结、结束了……我已经完全挥不动剑了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "不错不错~比我们想象得还要厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "要是正面对上，我们说不定会吃苦头吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你们……求救的那些旅人吗？有没有受伤？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "哈哈哈哈，你们听听，这小姑娘说什么呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡黠的抢劫犯",
+   "text": "她还以为我们是遇险的旅人，还想帮我们呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "我们可没在等救援，是专门把你们引上钩的，听明白了吗？明白了就把朵拉和装备留下。老老实实听话，我还能饶你们一命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "最近的旅人失踪事件是你们干的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的抢劫犯",
+   "text": "哼哼哼，才反应过来吗？之前的旅人倒是挺乖的，所以我们只是扒掉他们的装备，把他们扔到别的城邦去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "传闻里说黄昏裁判在抓异端…… 也是你们传播的谣言么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡黠的抢劫犯",
+   "text": "那又如何~那帮人本来就神神秘秘。我随便造个谣，结果大家还真就都信了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉……无药可救。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的抢劫犯",
+   "text": "哼，无药可救的不是你们这帮天真的家伙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "竟然利用别人的善心抢劫，你们还是不是人啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "这样成本最低哦，你们的恩赐都被我们引来的星骸耗干了吧。 咦？你们在看什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "事情就是这样……格芮，你都听到了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "格芮……听着有点熟悉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "诬陷黄昏裁判，损毁恩赐之神的伟名，异端",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "利用星骸，利用恩赐之神的造物，异端",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的抢劫犯",
+   "text": "什，什么时候出现的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡黠的抢劫犯",
+   "text": "她不会是那个正牌的格芮吧！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "快，快跑！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "自大的抢劫犯",
+   "text": "呜，脚被冻住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡黠的抢劫犯",
+   "text": "你，你们怎么能用魔法？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "没恩赐，假装的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "正所谓，聪明反被聪明误~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你们没有退路了！等着蹲大牢吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "可恶……竟敢反过来算计我！今天，今天谁都别想活着走出这个星塔，快启动全部的魔法阵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没有……攻击？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "哈哈哈，这不是攻击你们的魔法阵，这些魔法阵会把附近几层的星骸都吸引过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "抢劫犯头目",
+   "text": "你们这些旅人，还有黄昏裁判的审判官，都给我陪葬吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，上百只星骸正在向我们移动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这个数量有点难搞啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "呵呵~小旅人们，后面的事情就交给审判官吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "好可怕……这是什么东西，棺材吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "这是我可爱的玩具，请进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "活着进到棺材里面也太不吉利了！我才不要！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，救我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "等一下！？魔<r=BOSS></r>王怎么不见了？！难道说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "你们话太多了，你们的魔<r=BOSS></r>王已经先躺进去了哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "不用害怕，小旅人们，我只想把你们安全地送进升降机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "接下来的内容……可能会有一点小刺激哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "处刑，开始！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "格芮的手指勾上“绞索”狠狠拉下，一瞬间，整个星塔都陷入了停滞——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一阵刺耳的杂音， 混杂人类与星骸们的惨叫，像是恐怖主题的影戏会出现的情节。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但更恐怖的是，我正打算偷听外面的情况。囚禁我的奇怪雕像，却自己打开了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……什么情况……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "哦呀~原本打算把碍事的家伙都送出去，看来还有一位客人不肯走呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "没想到，我召唤出来的刑具竟然无法容纳你。魔<r=BOSS></r>王，你果然是真的魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我是特殊的“魔力绝缘”体质……召唤出来的魔法刑具对我不起作用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "说得好。那我就告诉你吧——黄昏裁判之所以重新活跃起来的理由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "有一家心相商店上报，发现了稀有的“魔力绝缘”体质。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是因为我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "有“魔力绝缘”的人出现，传说中的末日正在逼近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "所以，我们这些携带圣器的审判官才能解开束缚，行走在尘世之中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "再告诉你一件好事吧，我脖子上的这个东西，可不是什么“绞索”哦，而是圣器“灵魂之绳”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "扯动它的时候，我就会消耗巨量的魔力，然后触碰到周围人的灵魂哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "然后只要轻动手指，就能扼住那些柔软的灵魂了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "可是，可是呢——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "我看不清你的灵魂啊，嘻嘻嘻嘻嘻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "连至高无上的圣器都无法影响的人，只可能是异端…… 超级强大的异端。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这肯定是个误会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "是不是误会，让我亲自审判一下就知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "现在，这座星塔里已经没有别人会来打扰我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格芮",
+   "text": "来吧，魔<r=mowang></r>王，让我来看清你的全部吧——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}
