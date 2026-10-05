@@ -50,7 +50,7 @@ FRAME_ANOMALIES = []      # [(stem, {'idx','cmd','group','closer'})]
 # （对 git 4496bd1 原实现做过 588 Config + AvgCharacter 预设全量对拍）。
 from pipeline.lua_parser import LuaError, T, parse_lua  # noqa: E402
 from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
-from pipeline.text_rules import clean_text  # noqa: E402
+from pipeline.text_rules import clean_text, EMPH_STATS  # noqa: E402
 from pipeline.speakers import SpeakerResolver  # noqa: E402
 from pipeline.passes import extract_beats  # noqa: E402
 from pipeline.pagedoc import PageDoc  # noqa: E402
@@ -846,7 +846,13 @@ def write_diagnostics(battle_map, skipped, unattached):
                 'speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数'
                 '（正常行为，按字面解析，不逐条列出）；'
                 'choice_frame_anomalies=抉择关闭指令的 group 无活跃帧'
-                '（phone 方言不入帧栈，其落空属设计使然，不登记）。',
+                '（phone 方言不入帧栈，其落空属设计使然，不登记）；'
+                'emph_tags_preserved/orphan_emph_tags_stripped=成对保留与'
+                '孤儿剥离的 <b>/<i> 强调标记计数（Phase 4b，clean_dialogue '
+                '栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。'
+                '口径为清洗调用累计（渐显帧签名与文本生成各清洗一次，'
+                '被折叠帧也计入），不是产物内标记数——产物内成对强调仅 '
+                'CG_147_02 一行，其余全在折叠帧里。',
         'code_mismatches': [
             {'sid': sid, 'story_id': story, 'storyid_suffix': suffix,
              'display_code': disp, 'bubble_stem': stem, 'condition_id': cond,
@@ -863,6 +869,8 @@ def write_diagnostics(battle_map, skipped, unattached):
             fallbacks[k] for k in sorted(fallbacks) if fallbacks[k]['via'] == 'prefix'],
         'speaker_inline_names': sum(1 for k in fallbacks if fallbacks[k]['via'] == 'sid'),
         'choice_frame_anomalies': [anomalies[k] for k in sorted(anomalies)],
+        'emph_tags_preserved': EMPH_STATS['paired'],
+        'orphan_emph_tags_stripped': EMPH_STATS['orphan'],
     }
     write(os.path.join(OUT, '_diagnostics.json'),
           json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
@@ -942,11 +950,12 @@ def main():
     write(os.path.join(OUT, '_battle_reconciliation.md'), "\n".join(lines))
     djson = write_diagnostics(battle_map, skipped, unattached)
     print("诊断侧车 _diagnostics.json：代号错配=%d 气泡缺失=%d 未引用BBm=%d "
-          "无剧本行=%d 前缀兜底=%d 内联名=%d 帧异常=%d"
+          "无剧本行=%d 前缀兜底=%d 内联名=%d 帧异常=%d 强调保留=%d 强调孤儿=%d"
           % (len(djson['code_mismatches']), len(djson['battle_bubble_missing']),
              len(djson['unattached_bbm_scripts']), len(djson['rows_without_script']),
              len(djson['speaker_prefix_fallbacks']), djson['speaker_inline_names'],
-             len(djson['choice_frame_anomalies'])))
+             len(djson['choice_frame_anomalies']),
+             djson['emph_tags_preserved'], djson['orphan_emph_tags_stripped']))
     print("Wrote %s" % OUT)
 
 

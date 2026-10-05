@@ -1,5 +1,5 @@
 {
- "note": "上游数据异常与编译器兜底的机器可读登记（build_story 生成）。人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数（正常行为，按字面解析，不逐条列出）；choice_frame_anomalies=抉择关闭指令的 group 无活跃帧（phone 方言不入帧栈，其落空属设计使然，不登记）。",
+ "note": "上游数据异常与编译器兜底的机器可读登记（build_story 生成）。人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数（正常行为，按字面解析，不逐条列出）；choice_frame_anomalies=抉择关闭指令的 group 无活跃帧（phone 方言不入帧栈，其落空属设计使然，不登记）；emph_tags_preserved/orphan_emph_tags_stripped=成对保留与孤儿剥离的 <b>/<i> 强调标记计数（Phase 4b，clean_dialogue 栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。口径为清洗调用累计（渐显帧签名与文本生成各清洗一次，被折叠帧也计入），不是产物内标记数——产物内成对强调仅 CG_147_02 一行，其余全在折叠帧里。",
  "code_mismatches": [
   {
    "sid": 1010,
@@ -136,5 +136,7 @@
    "group": "3",
    "closer": "roll"
   }
- ]
+ ],
+ "emph_tags_preserved": 132,
+ "orphan_emph_tags_stripped": 12
 }

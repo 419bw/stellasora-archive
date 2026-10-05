@@ -533,10 +533,15 @@ HTML_LINE = re.compile(r'<p class="line[^"]*"><b class="who">.*?</b>(?:<i class=
                        r'<span class="say">「(.*?)」</span>')
 MD_RUBY = re.compile(r'<r=([^<>]*)>([^<>]+)</r>|<r=([^<>]*)></r>')
 HTML_RUBY = re.compile(r'<ruby>(.*?)<rt>(.*?)</rt></ruby>')
+# Phase 4b：<b>/<i> 强调标记。md 侧原样字面，HTML 侧映射 <b class="emph">；
+# 文字投影两边都剥掉（对照的是字，不是表现），计数另做对账。
+MD_EMPH = re.compile(r'</?[bi]>')
+MD_EMPH_OPEN = re.compile(r'<[bi]>')
+HTML_EMPH_OPEN = re.compile(r'<[bi] class="emph">')
 
 
 def md_view(text):
-    """(去掉注音的正文, [(注音落点字, 注音)]) as md writes it.
+    """(去掉注音与强调标记的正文, [(注音落点字, 注音)]) as md writes it.
 
     带体 ruby <r=note>base</r> 的 base 是正文字符，投影时保留；空体 ruby
     <r=note></r> 整体删除（base 字在标签外）。HTML 侧 <ruby>base<rt> 同构。
@@ -546,15 +551,21 @@ def md_view(text):
         if m.group(2) is not None:
             marks.append((m.group(2)[-1], m.group(1)))
         else:
-            base = MD_RUBY.sub(lambda x: x.group(2) or '', text[:m.start()])
+            base = MD_RUBY.sub(lambda x: x.group(2) or '',
+                               MD_EMPH.sub('', text[:m.start()]))
             marks.append((base[-1] if base else '', m.group(3)))
-    return MD_RUBY.sub(lambda m: m.group(2) or '', text), marks
+    return MD_RUBY.sub(lambda m: m.group(2) or '', MD_EMPH.sub('', text)), marks
 
 
 def html_view(text):
-    """The same two projections read back out of the rendered HTML."""
+    """The same two projections read back out of the rendered HTML.
+
+    强调标记在 unesc 之前剥（只命中真实标签；正文里字面的 &lt;b&gt; 不受影响）。
+    """
     marks = [(a[-1] if a else '', unesc(n)) for a, n in HTML_RUBY.findall(text)]
-    return unesc(HTML_RUBY.sub(lambda m: m.group(1), text)), marks
+    t = HTML_RUBY.sub(lambda m: m.group(1), text)
+    t = re.sub(r'</?[bi](?: class="emph")?>', '', t)
+    return unesc(t), marks
 
 
 def unesc(s):
@@ -563,28 +574,33 @@ def unesc(s):
 
 
 drift, missing_html = [], []
-ruby_md = ruby_html = 0
+ruby_md = ruby_html = emph_md = emph_html = 0
 for p in published:
     hp = os.path.join(SITE, *p['page'].split('/'))
     if not os.path.exists(hp):
         missing_html.append(p['page'])
         continue
     md = open(os.path.join(OUT, *p['page_md'].split('/')), encoding='utf-8').read()
+    html = open(hp, encoding='utf-8').read()
     want = [md_view(m.group(2)) for m in MD_LINE.finditer(md)]
-    got = [html_view(m.group(1)) for m in HTML_LINE.finditer(
-        open(hp, encoding='utf-8').read())]
+    got = [html_view(m.group(1)) for m in HTML_LINE.finditer(html)]
     ruby_md += sum(len(w[1]) for w in want)
     ruby_html += sum(len(g[1]) for g in got)
+    emph_md += sum(len(MD_EMPH_OPEN.findall(m.group(2))) for m in MD_LINE.finditer(md))
+    emph_html += sum(len(HTML_EMPH_OPEN.findall(m.group(1))) for m in HTML_LINE.finditer(html))
     if want != got:
         drift.append((p['page'], len(want), len(got)))
 print('应生成 HTML：%d 篇（另有 %d 篇未到开放时间，只显示未开放占位）   缺文件：%d   逐句漂移：%d'
       % (len(published), len(locked_pages), len(missing_html), len(drift)))
 print('注音渲染：md %d 处 == HTML %d 处，一致=%s' % (ruby_md, ruby_html, ruby_md == ruby_html))
+print('强调渲染：md <b>/<i> %d 处 == HTML emph %d 处，一致=%s'
+      % (emph_md, emph_html, emph_md == emph_html))
 for x in drift[:5]:
     print('   ~', x)
 hard(not missing_html, 'I 应生成的 HTML 缺文件：%d' % len(missing_html))
 hard(not drift, 'I HTML/md 逐句漂移：%d 页' % len(drift))
 hard(ruby_md == ruby_html, 'I 注音渲染数不一致: md=%d html=%d' % (ruby_md, ruby_html))
+hard(emph_md == emph_html, 'I 强调标记渲染数不一致: md=%d html=%d' % (emph_md, emph_html))
 
 BIN_ACT = json.load(open(os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'ActivityStory.json'), encoding='utf-8'))
 activity_battle_pages = {

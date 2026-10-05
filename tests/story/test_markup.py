@@ -73,8 +73,19 @@ BODY_CASES = [
     'note 含尖括号不成立<r=<&>x</r>按纯文本往返',
 ]
 
+# 强调标记（Phase 4b）：md 原样保留，HTML 映射 <b class="emph">/<i class="emph">。
+# 生产路径上进到 parse_inline 的文本已被 clean_dialogue 栈配对过滤（无孤儿），
+# 孤儿用例钉的是 parse 层的往返恒等（照单全收、原样还原）。
+EMPH_CASES = [
+    '既然<b>我们目标一致</b>，就好好准备吧。',
+    '<i><b>Y</b></i> 嵌套排版帧',
+    '字<b>粗<i>粗斜</i>仍粗</b>尾',
+    '孤儿</b>与<b>未闭合也照原样往返',
+    '强调内 ruby：字<b>粗<r=x></r>仍粗</b>',
+]
 
-@pytest.mark.parametrize('text', CASES + BODY_CASES)
+
+@pytest.mark.parametrize('text', CASES + BODY_CASES + EMPH_CASES)
 def test_md_roundtrip_is_identity(text):
     assert markup.serialize_md(markup.parse_inline(text)) == text
 
@@ -130,6 +141,25 @@ def test_leading_ruby_violates_contract_m():
     assert markup.parse_inline('<r=a>字</r>合法') == [('ruby_body', '字', 'a'), ('text', '合法')]
     with pytest.raises(markup.MarkupError):
         markup.parse_inline('<r=a>字</r><r=b></r>空体没有前置字符')
+    # 强调标签不是字符，不能充当空体 ruby 的锚点（语料 0 处，防御性契约）
+    with pytest.raises(markup.MarkupError):
+        markup.parse_inline('<b><r=x></r>字')
+
+
+def test_emph_html_mapping():
+    """Phase 4b：<b>/<i> md 原样、HTML 映射 emph class；ruby 嵌套照常。"""
+    nodes = markup.parse_inline('既然<b>我们目标一致</b>，走吧')
+    assert nodes == [('text', '既然'), ('tag', '<b>'), ('text', '我们目标一致'),
+                     ('tag', '</b>'), ('text', '，走吧')]
+    assert markup.serialize_md(nodes) == '既然<b>我们目标一致</b>，走吧'
+    assert markup.serialize_html(nodes) == (
+        '既然<b class="emph">我们目标一致</b>，走吧')
+    assert markup.serialize_html(markup.parse_inline('<i><b>Y</b></i>')) == (
+        '<i class="emph"><b class="emph">Y</b></i>')
+    assert markup.serialize_html(markup.parse_inline('字<b>粗<r=x></r>仍粗</b>')) == (
+        '字<b class="emph"><ruby>粗<rt>x</rt></ruby>仍粗</b>')
+    assert render_html.ruby_html('既然<b>目标</b>一致') == (
+        '既然<b class="emph">目标</b>一致')
 
 
 def _corpus_strings():
@@ -159,22 +189,28 @@ def _corpus_strings():
 
 
 def test_full_corpus_roundtrip_and_html_oracle():
-    """全语料钉死：507 个侧车里每个字符串 md 往返恒等；不含带体 ruby 的
-    字符串 HTML 与 oracle 一致（Phase 3 行为永久回归门），含带体 ruby 的
-    字符串按 Phase 4a 新行为渲染（往返恒等 + 带体标记数与 <ruby> 数对账）。
+    """全语料钉死：507 个侧车里每个字符串 md 往返恒等；不含带体 ruby 与
+    强调标记的字符串 HTML 与 oracle 一致（Phase 3 行为永久回归门），含
+    Phase 4 标记的字符串按新行为渲染（往返恒等 + 标记数与渲染标签对账）。
 
     站点能建成本身就证明语料无契约 M 违例，parse_inline 在此不会抛。
     """
-    n = n_body = 0
+    emph = re.compile(r'</?[bi]>')
+    n = n_body = n_emph = 0
     for path, s in _corpus_strings():
         n += 1
         nodes = markup.parse_inline(s)
         assert markup.serialize_md(nodes) == s, path
-        if BODY_RUBY.search(s):
-            n_body += 1
+        has_body = bool(BODY_RUBY.search(s))
+        has_emph = bool(emph.search(s))
+        if has_body or has_emph:
+            n_body += has_body
+            n_emph += has_emph
             html = markup.serialize_html(nodes)
             assert html.count('<ruby>') == sum(
                 1 for x in nodes if x[0] in ('ruby', 'ruby_body')), path
+            assert html.count(' class="emph">') == sum(
+                1 for x in nodes if x[0] == 'tag' and x[1] in ('<b>', '<i>')), path
             assert '<r=' not in html and '</r>' not in html, path
         else:
             assert markup.serialize_html(nodes) == oracle_ruby_html(s), path
@@ -182,3 +218,6 @@ def test_full_corpus_roundtrip_and_html_oracle():
     # 带体 ruby：Lua 源 149 处，折叠/去挂载后语料里 59 个字符串、144 次出现
     # （与 validate_story M 契约的全树注音增量 2838-2694=144 精确对账）。
     assert n_body >= 50
+    # 强调标记：语料里成对 b/i 大多位于被折叠的渐显帧（sig 计算路径），
+    # 进产物的台词只有 CG_147_02 一行（characters/147/14702，挂载双份）
+    assert n_emph >= 1

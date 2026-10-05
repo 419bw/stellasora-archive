@@ -64,10 +64,12 @@ def _inline(s):
 def ruby_html(text):
     """Escape a run of story text, turning <r=注音></r> into native <ruby>.
 
-    实现委托给管线 markup 编译器（Phase 3）：parse_inline 把注音锚定到标签前
-    一个字符（魔<r=mowang></r>王），serialize_html 输出原生 <ruby><rt>，无需
-    任何 CSS。前导 ruby（无 base 字符）抛 markup.MarkupError —— 契约 M 会先
-    拦住这种数据。"""
+    实现委托给管线 markup 编译器（Phase 3）：parse_inline 把空体注音锚定到
+    标签前一个字符（魔<r=mowang></r>王）、带体注音（<r=亲亲>接吻</r>，
+    Phase 4a）取标签体为 base，serialize_html 输出原生 <ruby><rt>；<b>/<i>
+    强调标记（Phase 4b，clean_dialogue 已做配对过滤）映射 <b class="emph">/
+    <i class="emph">。前导空体 ruby（无 base 字符）抛 markup.MarkupError
+    —— 契约 M 会先拦住这种数据。"""
     return markup.serialize_html(markup.parse_inline(text))
 
 
