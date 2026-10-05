@@ -2378,4 +2378,87 @@ h1 {
   color: var(--text-main);
   transform: translateY(-2px);
 }
+
+/* 未开放占位（release_gate：官方 OpenTime 未到，只显示未开放，不透露内容） */
+.grp.locked {
+  border-style: dashed;
+  background-color: var(--card-bg-subtle);
+  opacity: 0.92;
+}
+.grp.locked .grp-header {
+  cursor: default;
+}
+.grp.locked .grp-title {
+  color: var(--text-muted);
+}
+.grp.locked .grp-arrow {
+  display: none;
+}
+.grp.locked .grp-body {
+  border-top: 1px dashed var(--card-border-subtle);
+  margin-top: 2px;
+}
+.locked-mask {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--locked);
+}
+.locked-no {
+  margin-left: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-subtle);
+}
+.locked-tag {
+  color: var(--locked) !important;
+  border-color: var(--locked) !important;
+  background-color: transparent !important;
+  white-space: nowrap;
+}
+.locked-note {
+  margin: 6px 2px 2px;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+.locked-preview {
+  margin: 2px 2px 4px;
+  font-size: 12px;
+  color: var(--text-subtle);
+}
+.chapcard.locked {
+  cursor: default;
+  border-left-color: var(--locked);
+}
+.chapcard.locked .chaptitle {
+  color: var(--locked);
+  letter-spacing: 0.1em;
+}
+.chapcard.locked .chapline {
+  display: none;
+}
+.locked-notice {
+  margin: 18px 0 8px;
+  border: 1.5px dashed var(--card-border);
+  border-radius: 4px;
+  background-color: var(--card-bg-subtle);
+  padding: 4px 16px;
+}
+.locked-notice-row {
+  display: flex;
+  gap: 14px;
+  padding: 10px 0;
+  font-size: 13px;
+  color: var(--text-muted);
+  border-bottom: 1px dashed var(--card-border-subtle);
+}
+.locked-notice-row:last-child {
+  border-bottom: none;
+}
+.locked-key {
+  flex: 0 0 72px;
+  font-weight: 700;
+  color: var(--text-subtle);
+}
 """

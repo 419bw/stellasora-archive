@@ -141,6 +141,69 @@ def node_state_class(n):
 
 
 
+def _gate_mod():
+    """release_gate lives in scripts/story; build_site puts it on sys.path."""
+    import release_gate
+    return release_gate
+
+
+def locked_mask():
+    return _gate_mod().MASK
+
+
+def locked_block(item, d):
+    """Locked placeholder for a group whose official open time is still ahead.
+
+    Mirrors StorySetChapterItemCtrl: the chapter code / official preview banner
+    stay visible, the name is masked with the game's own placeholder, the open
+    time is shown, and nothing is clickable. Deliberately no group name, no
+    section titles and no counts -- the placeholder must not hint at content.
+    """
+    gate = _gate_mod()
+    open_text = item.get('open_text') or gate.fmt_open(item.get('open_time'))
+    no = item.get('no') or ''
+    preview = item.get('preview') or ''
+    note = ('该篇章尚未在游戏内开放，预计 %s 开放' % esc(open_text)) if open_text \
+        else '该篇章尚未在游戏内开放，开放时间待官方公布'
+    body = ['<p class="locked-note">%s。暂不收录剧情内容，开放后自动补入。</p>' % note]
+    if preview:
+        body.append('<p class="locked-preview">官方预告：%s</p>' % esc(preview))
+    return ('<details class="grp locked">'
+            '<summary class="grp-header"><div class="grp-head-row">'
+            '<h3 class="grp-title"><span class="locked-mask">%s</span>%s</h3>'
+            '<div class="grp-meta-wrap"><span class="grp-count locked-tag">未开放</span>'
+            '<svg class="grp-arrow" viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.5" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg>'
+            '</div></div></summary>'
+            '<div class="grp-body">%s</div>'
+            '</details>'
+            % (esc(locked_mask()),
+               ('<span class="locked-no">%s</span>' % esc(no)) if no else '',
+               ''.join(body)))
+
+
+def locked_notice_page(item, page):
+    """Standalone "not open yet" page for a URL a locked group would occupy."""
+    family = item.get('family', 'main')
+    d = depth_of(page)
+    root = '../' * d
+    open_text = item.get('open_text') or _gate_mod().fmt_open(item.get('open_time'))
+    rows = ['<div class="locked-notice-row"><span class="locked-key">状态</span>'
+            '<span>未开放</span></div>',
+            '<div class="locked-notice-row"><span class="locked-key">预计开放</span>'
+            '<span>%s</span></div>' % (esc(open_text) if open_text else '待官方公布')]
+    if item.get('preview'):
+        rows.append('<div class="locked-notice-row"><span class="locked-key">官方预告</span>'
+                    '<span>%s</span></div>' % esc(item['preview']))
+    crumb = ('<a href="%sindex.html">首页</a> › <a href="%s%s/index.html">%s</a> › 未开放'
+             % (root, root, slug_of(family), esc(FAMILY_NAME.get(family, '剧情档案'))))
+    return layout('尚未开放', """
+<h1>尚未开放</h1>
+<p class="lede">该篇章尚未在游戏内开放，本站暂不收录其剧情内容。</p>
+<div class="locked-notice">%s</div>
+<p class="aside">官方开放后，本页会自动更新为完整剧情档案。</p>
+""" % ''.join(rows), d, crumb)
+
+
 def layout(title, body, depth, crumb, note=''):
     root = '../' * depth
     nav_links = ''.join('<a href="%s%s/index.html">%s</a>' % (root, slug_of(f), n)
@@ -391,7 +454,7 @@ def chapter_graph_page(c, all_chapters):
         d, crumb)
 
 
-def main_index(chapters):
+def main_index(chapters, locked_items=()):
     d = depth_of('main/index.html')
     cards = []
     crumb = '<a href="../index.html">首页</a> › 主线剧情'
@@ -414,6 +477,21 @@ def main_index(chapters):
             sum(1 for n in c['nodes'] if n['state'] == 'released'),
             bt, (' · 待开放 %d' % unrel) if unrel else ''
         ))
+    for item in locked_items:
+        open_text = item.get('open_text') or _gate_mod().fmt_open(item.get('open_time'))
+        preview = item.get('preview') or ''
+        info = ('预计 %s 开放' % esc(open_text)) if open_text else '开放时间待官方公布'
+        if preview:
+            info += '<br>官方预告：%s' % esc(preview)
+        cards.append("""<li><div class="chapcard locked">
+  <div class="chap-top">
+    <span class="chapno">%s</span>
+    <span class="chapyear locked-tag">未开放</span>
+  </div>
+  <div class="chaptitle">%s</div>
+  <div class="chapinfo">%s</div>
+  <span class="chapline"></span>
+</div></li>""" % (esc(item.get('no') or ''), esc(locked_mask()), info))
     return layout('主线剧情', """
 <h1>主线剧情</h1>
 <p class="lede">主线全章节关卡拓扑与剧情档案，支持点击卡片查阅剧情对话与战斗对白。</p>
@@ -605,7 +683,7 @@ def activity_graph_page(act_info, all_branching_acts):
     return layout('%s 关卡拓扑' % act_name, body, d, crumb)
 
 
-def family_index(family, intro, pages_in_family):
+def family_index(family, intro, pages_in_family, locked_items=()):
     recs = sorted(pages_in_family, key=lambda r: (str(r['group'].get('id', '')), r['id']))
     page = '%s/index.html' % slug_of(family)
     d = depth_of(page)
@@ -643,17 +721,20 @@ def family_index(family, intro, pages_in_family):
                       '<div class="grp-body">%s<ul class="plain">%s</ul></div>'
                       '</details>'
                       % (esc(label), count_label % len(items), topo_badge, ''.join(links)))
+    for item in locked_items:
+        blocks.append(locked_block(item, d))
 
     crumb = '<a href="%sindex.html">首页</a> › %s' % ('../' * d, FAMILY_NAME[family])
     unit_name = '个活动' if family == 'events' else ('位角色' if family == 'characters' else '个分类')
     stage_unit = '关' if family == 'events' else '篇'
     toolbar = """<div class="grp-toolbar">
-  <div class="grp-toolbar-info">收录 %d %s · 共 %d %s</div>
+  <div class="grp-toolbar-info">收录 %d %s · 共 %d %s%s</div>
   <div class="grp-toolbar-actions">
     <button type="button" class="btn-grp-toggle" id="expandAllBtn">全部展开</button>
     <button type="button" class="btn-grp-toggle" id="collapseAllBtn">全部收起</button>
   </div>
-</div>""" % (len(groups), unit_name, total_stages, stage_unit)
+</div>""" % (len(groups), unit_name, total_stages, stage_unit,
+               (' · 待开放 %d 个' % len(locked_items)) if locked_items else '')
 
     return layout(FAMILY_NAME[family], """
 <h1>%s</h1>

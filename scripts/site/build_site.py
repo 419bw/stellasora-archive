@@ -25,6 +25,7 @@ from site_css import CSS
 from site_js import JS
 import site_templates as T
 import graph_layout
+import release_gate
 
 SRC = os.path.join(ROOT, 'story_docs')
 DATA = os.path.join(SRC, '_data')
@@ -39,6 +40,36 @@ def write(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(text if text.endswith('\n') else text + '\n')
+
+
+def strip_locked_from_data(gate):
+    """Drop locked groups from the sidecars copied into site/data/.
+
+    ``shutil.copytree`` copies story_docs/_data verbatim, so a locked group's
+    records (recap / preview / speakers / search text) would otherwise stay
+    readable under site/data/*.json and in search.js. Only ids and open times
+    survive -- the gate descriptor carries nothing that could spoil content.
+    """
+    for name, key in (('sections.json', 'pages'), ('search.json', 'entries')):
+        path = os.path.join(SITE, 'data', name)
+        if not os.path.exists(path):
+            continue
+        obj = json.load(open(path, encoding='utf-8'))
+        kept = [r for r in (obj.get(key) or [])
+                if not gate.is_page(r.get('family'), r.get('id'))]
+        obj[key] = kept
+        if isinstance(obj.get('meta'), dict) and 'pages' in obj['meta']:
+            obj['meta']['pages'] = len(kept)
+        write(path, json.dumps(obj, ensure_ascii=False, indent=1) + '\n')
+    path = os.path.join(SITE, 'data', 'chapters.json')
+    if os.path.exists(path):
+        obj = json.load(open(path, encoding='utf-8'))
+        obj['chapters'] = [c for c in (obj.get('chapters') or [])
+                           if not gate.is_group('main', c.get('id'))]
+        meta = obj.setdefault('meta', {})
+        meta['chapters'] = len(obj['chapters'])
+        meta['nodes'] = sum(len(c.get('nodes') or []) for c in obj['chapters'])
+        write(path, json.dumps(obj, ensure_ascii=False, indent=1) + '\n')
 
 
 def load_activity_battle_pages(sec_pages):
@@ -356,8 +387,19 @@ def main():
     os.makedirs(SITE)
 
     # Assets & Search Data
+    # The release gate has to run before anything consumes the sidecars: a group
+    # whose official open time is still in the future is published as a locked
+    # placeholder, never as a transcript.
+    gate = release_gate.load_gate()
+    if gate:
+        print('开放时间门控：%d 个组尚未开放，只显示未开放占位：%s'
+              % (sum(len(v) for v in gate.groups.values()),
+                 '，'.join('%s#%s（%s）' % (f, i, it['open_text'] or '时间待定')
+                           for f, items in gate.groups.items() for i, it in items.items())))
     shutil.copytree(DATA, os.path.join(SITE, 'data'))
-    index = load('search.json')
+    if gate:
+        strip_locked_from_data(gate)
+    index = json.load(open(os.path.join(SITE, 'data', 'search.json'), encoding='utf-8'))
     write(os.path.join(SITE, 'data', 'search.js'),
           'window.STORY_INDEX = %s;\n' % json.dumps(index, ensure_ascii=False,
                                                     separators=(',', ':')))
@@ -372,11 +414,12 @@ def main():
 
     # Core Data
     ch_data = load('chapters.json')
-    chapters = ch_data['chapters']
+    chapters = [c for c in ch_data['chapters'] if not gate.is_group('main', c['id'])]
     sec_data = load('sections.json')
-    pages = sec_data['pages']
+    pages = [p for p in sec_data['pages'] if not gate.is_page(p['family'], p['id'])]
     pers_data = load('personality.json')
-    act_battle_pages = load_activity_battle_pages(pages)
+    act_battle_pages = [p for p in load_activity_battle_pages(pages)
+                        if not gate.is_page('events', p['id'])]
 
     by_family = collections.defaultdict(list)
     for p in pages:
@@ -391,7 +434,8 @@ def main():
     write(os.path.join(SITE, 'index.html'), T.home_page(pages, pers_data))
 
     # 2. Main story index & chapter graph pages
-    write(os.path.join(SITE, 'main', 'index.html'), T.main_index(chapters))
+    write(os.path.join(SITE, 'main', 'index.html'),
+          T.main_index(chapters, gate.items('main')))
     for c in chapters:
         cno = c['no'] or 'sp'
         write(os.path.join(SITE, 'main', 'ch%s' % cno, 'index.html'),
@@ -467,7 +511,13 @@ def main():
     for family, _, intro in T.FAMILIES:
         if family != 'main':
             write(os.path.join(SITE, T.slug_of(family), 'index.html'),
-                  T.family_index(family, intro, by_family[family]))
+                  T.family_index(family, intro, by_family[family], gate.items(family)))
+
+    # 3b. Locked-notice pages for every URL a still-locked group would occupy,
+    #     so old links read "not open yet" instead of 404 or a transcript.
+    for item in [it for items in gate.groups.values() for it in items.values()]:
+        for url in item['pages']:
+            write(os.path.join(SITE, *url.split('/')), T.locked_notice_page(item, url))
 
     # 4. Detailed script pages (507 pages)
     for rec in pages:

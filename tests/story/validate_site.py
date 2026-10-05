@@ -25,6 +25,9 @@ BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
 LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
 CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Config')
 
+sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
+import release_gate
+
 
 def table(name, folder=BIN):
     o = json.load(open(os.path.join(folder, name + '.json'), encoding='utf-8'))
@@ -152,6 +155,14 @@ main_battle_archive_nodes = {
 }
 orphan_page = [n['sid'] for n in nodes.values()
                if n['page'] and n['page'] not in page_links and n['sid'] not in main_battle_archive_nodes]
+
+# Release gate: a group whose official open time is still in the future is published
+# as a locked placeholder only (scripts/site/release_gate.py, consumed by build_site).
+# story_docs/ is NOT touched by the gate, so the sidecar audits below run on the full
+# sidecars while every site-facing audit runs on the published subset.
+GATE = release_gate.load_gate()
+locked_pages = [p for p in pages if GATE.is_page(p['family'], p['id'])]
+published = [p for p in pages if not GATE.is_page(p['family'], p['id'])]
 
 
 def script_in_pack(n):
@@ -495,7 +506,7 @@ def unesc(s):
 
 drift, missing_html = [], []
 ruby_md = ruby_html = 0
-for p in pages:
+for p in published:
     hp = os.path.join(SITE, *p['page'].split('/'))
     if not os.path.exists(hp):
         missing_html.append(p['page'])
@@ -508,7 +519,8 @@ for p in pages:
     ruby_html += sum(len(g[1]) for g in got)
     if want != got:
         drift.append((p['page'], len(want), len(got)))
-print('应生成 HTML：%d 篇   缺文件：%d   逐句漂移：%d' % (len(pages), len(missing_html), len(drift)))
+print('应生成 HTML：%d 篇（另有 %d 篇未到开放时间，只显示未开放占位）   缺文件：%d   逐句漂移：%d'
+      % (len(published), len(locked_pages), len(missing_html), len(drift)))
 print('注音渲染：md %d 处 == HTML %d 处，一致=%s' % (ruby_md, ruby_html, ruby_md == ruby_html))
 for x in drift[:5]:
     print('   ~', x)
@@ -518,19 +530,22 @@ activity_battle_pages = {
     'events/%s/%s.html' % (s['ChapterId'], s['Id'])
     for s in BIN_ACT.values() if s.get('AvgLuaName') is None
 }
+activity_locked_battles = {u for u in activity_battle_pages
+                           if u in set(GATE.page_urls())}
+activity_battle_pages -= activity_locked_battles
 
 html_all = {os.path.relpath(os.path.join(dp, f), SITE).replace(os.sep, '/')
             for dp, _d, fs in os.walk(SITE) for f in fs if f.endswith('.html')}
 main_battle_archive_pages = {
     n['page'] for n in nodes.values() if n['sid'] in main_battle_archive_nodes
 }
-expected = {p['page'] for p in pages} | {'index.html', 'main/index.html'} | \
+expected = {p['page'] for p in published} | {'index.html', 'main/index.html'} | \
            {'main/ch%s/index.html' % (c['no'] or 'sp') for c in CH['chapters']} | \
            {'%s/index.html' % s for s in ('events', 'characters', 'npc', 'discs',
                                           'storysets', 'prologue', 'battles')} | \
            main_battle_archive_pages | \
            {'events/10106/index.html', 'events/20101/index.html'} | \
-           activity_battle_pages
+           activity_battle_pages | set(GATE.page_urls())
 print('HTML 总数 %d   未登记的页面 %d   该有却没有的页面 %d'
       % (len(html_all), len(html_all - expected), len(expected - html_all)))
 for x in sorted(expected - html_all)[:5]:
@@ -538,8 +553,8 @@ for x in sorted(expected - html_all)[:5]:
 
 # Verify battle archives (activity + main story) and activity topology maps
 bt_errs = []
-if len(activity_battle_pages) != 19:
-    bt_errs.append(('活动战斗关卡数不符', len(activity_battle_pages), 19))
+if len(activity_battle_pages) != 19 - len(activity_locked_battles):
+    bt_errs.append(('活动战斗关卡数不符', len(activity_battle_pages), 19 - len(activity_locked_battles)))
 for bp in (activity_battle_pages | main_battle_archive_pages):
     full_p = os.path.join(SITE, *bp.split('/'))
     if not os.path.exists(full_p):
@@ -601,7 +616,7 @@ print("=" * 66)
 print("J  search.json 条目可解析、说话人出自该页、计数与 HTML 对得上")
 print("=" * 66)
 SR = json.load(open(os.path.join(DATA, 'search.json'), encoding='utf-8'))
-ent = SR['entries']
+ent = [e for e in SR['entries'] if not GATE.is_page(e['family'], e['id'])]
 by_key = {}
 bad_path, bad_speaker, bad_dup = [], [], []
 for e in ent:
@@ -626,9 +641,9 @@ for x in (bad_path + bad_speaker)[:5]:
     print('   ~', x)
 # a sticker send renders as 〔发送表情〕 rather than 「台词」, so it is not an extractable line
 want = sum(p['counts'].get('talk', 0) + p['counts'].get('bubble', 0)
-           - p['counts'].get('sticker', 0) for p in pages)
+           - p['counts'].get('sticker', 0) for p in published)
 got = sum(len(HTML_LINE.findall(open(os.path.join(SITE, *p['page'].split('/')),
-                                      encoding='utf-8').read())) for p in pages)
+                                      encoding='utf-8').read())) for p in published)
 print('应可比对台词行（talk+bubble-sticker）%d   HTML 实提取 %d   一致=%s'
       % (want, got, want == got))
 js = open(os.path.join(SITE, 'data', 'search.js'), encoding='utf-8').read()
@@ -640,8 +655,8 @@ print('J2 变异测试')
 K = lambda: json.loads(open(os.path.join(DATA, 'search.json'), encoding='utf-8').read())
 def audit_index(entries):
     errs = []
-    if len(entries) != len(pages):
-        errs.append(('条目数与页数不符', len(entries), len(pages)))
+    if len(entries) != len(published):
+        errs.append(('条目数与页数不符', len(entries), len(published)))
     seen = set()
     for e in entries:
         key = (e['family'], e['id'])
@@ -650,7 +665,7 @@ def audit_index(entries):
         seen.add(key)
         if not os.path.exists(os.path.join(SITE, *e['page'].split('/'))):
             errs.append(('路径不可解析', e['page']))
-        rec = next((p for p in pages if (p['family'], p['id']) == key), None)
+        rec = next((p for p in published if (p['family'], p['id']) == key), None)
         if rec is None:
             errs.append(('索引里有未登记的页', key))
             continue
@@ -792,7 +807,7 @@ def resolve_act_badge(p, ev):
 def audit_branch_badges():
     errs = []
     checked_pages = checked_opts = 0
-    for p in pages:
+    for p in published:
         if p['family'] not in ('main', 'events') or not p.get('stems') or not p.get('page'):
             continue
         stem = p['stems'][0]
@@ -904,7 +919,7 @@ def audit_player_replies():
     """每处 玩家回应 标记都要渲染成气泡；带提示词的必须保留前置句。"""
     errs = []
     checked = bubbles_total = leads_total = 0
-    for p in pages:
+    for p in published:
         md_path = os.path.join(OUT, *p['page_md'].split('/'))
         if not os.path.exists(md_path):
             continue
@@ -1008,7 +1023,7 @@ def audit_single_option_choices():
     """
     errs = []
     checked = singles = ruose = 0
-    for p in pages:
+    for p in published:
         md_path = os.path.join(OUT, *p['page_md'].split('/'))
         if not os.path.exists(md_path):
             continue
@@ -1086,3 +1101,181 @@ try:
 finally:
     shutil.move(victim3 + '.bak', victim3)
 print('还原后复检: %s' % ('PASS' if not audit_single_option_choices()[0] else 'FAIL'))
+
+
+# ============================================ N  未开放内容只显示未开放，不透露内容
+print()
+print("=" * 66)
+print("N  官方未开放的组：只显示未开放占位，不得出现任何内容（release_gate 门控）")
+print("=" * 66)
+L_SST = lang('StorySetChapter')
+L_STORY = lang('Story')
+L_ACT_STORY = lang('ActivityStory')
+SST_SEC = table('StorySetSection')
+SST_SEC_L = lang('StorySetSection')
+SST_CHAP = table('StorySetChapter')
+CHAP_L = lang('StoryChapter')
+CHAP_T = table('StoryChapter')
+STORY_T = table('Story')
+ACT_STORY_T = table('ActivityStory')
+ACT_STORY_L = lang('ActivityStory')
+
+
+def forbidden_strings(item):
+    """Official strings that must NOT show up for a locked group.
+
+    Read live from the language tables so the audit follows the data (and so no
+    spoiler string is hard-coded inside the test itself).  Returns
+    ``(names, titles)``: ``names`` are group-level labels (unique, safe to look
+    for anywhere on the site), ``titles`` are generic section titles such as
+    「第一话」 that other released chapters share, so they are only searched
+    inside the locked group's own directory.
+    """
+    names, titles = [], []
+    if item['family'] == 'storysets':
+        row = SST_CHAP.get(str(item['id'])) or {}
+        names += [txt(L_SST, row.get('Name', '')), txt(L_SST, row.get('Desc', ''))]
+        for s in SST_SEC.values():
+            if s.get('ChapterId') == item['id']:
+                titles += [txt(SST_SEC_L, s.get('Title', '')), txt(SST_SEC_L, s.get('Desc', ''))]
+    elif item['family'] == 'main':
+        row = CHAP_T.get(str(item['id'])) or {}
+        names += [txt(CHAP_L, row.get('Name', '')), txt(CHAP_L, row.get('Desc', ''))]
+        for s in STORY_T.values():
+            if s.get('Chapter') == item['id']:
+                titles += [txt(L_STORY, s.get('Title', ''))]
+    else:
+        for s in ACT_STORY_T.values():
+            if s.get('ChapterId') == item['id']:
+                titles += [txt(ACT_STORY_L, s.get('Title', '')),
+                           txt(ACT_STORY_L, s.get('Desc', ''))]
+    return [s for s in names if s], [s for s in titles if s]
+
+
+def read_site():
+    out = {}
+    for dp, _d, fs in os.walk(SITE):
+        for f in fs:
+            rel = os.path.relpath(os.path.join(dp, f), SITE).replace(os.sep, '/')
+            try:
+                out[rel] = open(os.path.join(dp, f), encoding='utf-8', errors='replace').read()
+            except OSError:
+                out[rel] = ''
+    return out
+
+
+def audit_locked(site_text=None):
+    site_text = read_site() if site_text is None else site_text
+    errs = []
+    for family, items in GATE.groups.items():
+        for gid, item in items.items():
+            names, titles = forbidden_strings(item)
+            urls = set(item['pages'])
+            folder = (item['pages'][0].rsplit('/', 1)[0] + '/') if item['pages'] else ''
+            # 1) the group's own name/desc must not appear anywhere on the site
+            for s in names:
+                hits = [p for p, t in site_text.items() if s in t]
+                if hits:
+                    errs.append(('组名泄露', family, gid, s, hits[:2]))
+            # 2) its URL space holds nothing but the locked-notice pages
+            got = {p for p in site_text if p.startswith(folder)}
+            if got != urls:
+                errs.append(('未开放目录文件不符', family, gid,
+                             sorted(got - urls)[:3], sorted(urls - got)[:3]))
+            # 3) no other page may link into a locked group
+            for u in urls:
+                hits = [p for p, t in site_text.items() if u in t and p != u]
+                if hits:
+                    errs.append(('未开放 URL 被引用', u, hits[:2]))
+            # 4) notice pages carry no transcript and none of the group's titles
+            for u in sorted(urls):
+                t = site_text.get(u, '')
+                if '<p class="line' in t or 'class="say"' in t:
+                    errs.append(('提示页夹带台词', u))
+                for s in names + titles:
+                    if s in t:
+                        errs.append(('提示页夹带组名/标题', u, s))
+    return errs
+
+
+n_errs = audit_locked()
+locked_n = sum(len(v) for v in GATE.groups.values())
+print('被门控的组 %d   未渲染的页面记录 %d   违例 %d'
+      % (locked_n, len(locked_pages), len(n_errs)))
+for x in n_errs[:8]:
+    print('   ~', x)
+# 5) the family index shows the placeholder instead of the group
+idx_errs = []
+SLUG = {'storysets': 'storysets', 'events': 'events', 'main': 'main'}
+for family, items in GATE.groups.items():
+    if not items:
+        continue
+    idx = os.path.join(SITE, SLUG[family], 'index.html')
+    if not os.path.exists(idx):
+        idx_errs.append(('族索引缺失', family))
+        continue
+    t = open(idx, encoding='utf-8').read()
+    marks = t.count('class="grp locked"') + t.count('class="chapcard locked"')
+    if marks < len(items):
+        idx_errs.append(('未开放占位数量不足', family, len(items), marks))
+    if release_gate.MASK not in t:
+        idx_errs.append(('占位缺少？？？遮罩', family))
+    for gid, item in items.items():
+        if item.get('open_text') and item['open_text'] not in t:
+            idx_errs.append(('占位缺少开放时间', family, gid))
+        # the placeholder must not link anywhere inside the locked group
+        if '/%s/%d/' % (SLUG[family], gid) in t or '/%d/' % gid in t:
+            idx_errs.append(('索引里仍有未开放组的链接', family, gid))
+print('占位渲染违例：%d' % len(idx_errs))
+for x in idx_errs[:5]:
+    print('   ~', x)
+
+print()
+print('N2 变异测试')
+if not GATE.groups:
+    print('（当前没有被门控的组，N2 无样本可跑）')
+else:
+    first = next(it for items in GATE.groups.values() for it in items.values())
+    f_names, f_titles = forbidden_strings(first)
+    f_url = first['pages'][0]
+    victim = os.path.join(SITE, *f_url.split('/'))
+    donor = os.path.join(SITE, *published[0]['page'].split('/'))
+    orig_v = open(victim, encoding='utf-8').read()
+    orig_d = open(donor, encoding='utf-8').read()
+    idx_page = os.path.join(SITE, SLUG[first['family']], 'index.html')
+    orig_i = open(idx_page, encoding='utf-8').read()
+    js_path = os.path.join(SITE, 'data', 'search.js')
+    orig_js = open(js_path, encoding='utf-8').read()
+    try:
+        open(victim, 'w', encoding='utf-8', newline='\n').write(orig_d)
+        print('植入[把正文页写回锁定 URL] : %s'
+              % ('CAUGHT' if audit_locked() else 'MISSED'))
+        open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
+        if f_names:
+            open(idx_page, 'w', encoding='utf-8', newline='\n').write(
+                orig_i.replace(release_gate.MASK, f_names[0], 1))
+            print('植入[给占位卡写上组名]     : %s'
+                  % ('CAUGHT' if audit_locked() else 'MISSED'))
+            open(idx_page, 'w', encoding='utf-8', newline='\n').write(orig_i)
+        if f_titles:
+            open(victim, 'w', encoding='utf-8', newline='\n').write(
+                orig_v.replace('<h1>尚未开放</h1>',
+                               '<h1>尚未开放 %s</h1>' % f_titles[0], 1))
+            print('植入[给提示页写上话数标题] : %s'
+                  % ('CAUGHT' if audit_locked() else 'MISSED'))
+            open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
+        open(js_path, 'w', encoding='utf-8', newline='\n').write(
+            orig_js.rstrip().rstrip(';') + ',{"id":999999999,"family":"%s","page":"%s"};\n'
+            % (first['family'], f_url))
+        print('植入[把锁定 URL 塞回检索]  : %s'
+              % ('CAUGHT' if audit_locked() else 'MISSED'))
+        open(js_path, 'w', encoding='utf-8', newline='\n').write(orig_js)
+        os.remove(victim)
+        print('植入[删掉一个提示页]       : %s'
+              % ('CAUGHT' if audit_locked() else 'MISSED'))
+    finally:
+        if not os.path.exists(victim):
+            open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
+        open(idx_page, 'w', encoding='utf-8', newline='\n').write(orig_i)
+        open(donor, 'w', encoding='utf-8', newline='\n').write(orig_d)
+    print('还原后复检: %s' % ('PASS' if not audit_locked() and not idx_errs else 'FAIL'))
