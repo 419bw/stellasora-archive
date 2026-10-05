@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "魔，魔魔王！？",
+   "text": "魔，魔<r=momowang>魔</r>王！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "不是做梦，是真的呀？ 哇咿！魔魔王魔魔王魔魔王魔魔王魔魔王～！",
+   "text": "不是做梦，是真的呀？ 哇咿！魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王～！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "嘿嘿，但是魔魔王每次都能稳稳接住呀！",
+   "text": "嘿嘿，但是魔<r=momowang>魔</r>王每次都能稳稳接住呀！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "所以忍不住就想扑进魔魔王怀里蹭蹭呀！",
+   "text": "所以忍不住就想扑进魔<r=momowang>魔</r>王怀里蹭蹭呀！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "哇咿！是魔魔王！魔魔王来找杏子玩了！",
+   "text": "哇咿！是魔<r=momowang>魔</r>王！魔<r=momowang>魔</r>王来找杏子玩了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "难道说……魔魔王在生气……？",
+   "text": "难道说……魔<r=momowang>魔</r>王在生气……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "啊…… 嗯！杏子会喊得很大声，让魔魔王很——远——就能听见的！",
+   "text": "啊…… 嗯！杏子会喊得很大声，让魔<r=momowang>魔</r>王很——远——就能听见的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -343,7 +343,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "魔魔王也要来？ 好耶——！出发！",
+   "text": "魔<r=momowang>魔</r>王也要来？ 好耶——！出发！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "魔魔王要小心！这边有好多坏家伙的！",
+   "text": "魔<r=momowang>魔</r>王要小心！这边有好多坏家伙的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "怎么了魔魔王？ 难道说……魔魔王也注意到“那个”了？",
+   "text": "怎么了魔<r=momowang>魔</r>王？ 难道说……魔<r=momowang>魔</r>王也注意到“那个”了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "每天巡逻就是为了确认有没有坏蛋。不过还有一些以前做的陷阱坏掉了，杏子巡逻的时候也要把它们找出来修一修。 魔魔王明白了吗？",
+   "text": "每天巡逻就是为了确认有没有坏蛋。不过还有一些以前做的陷阱坏掉了，杏子巡逻的时候也要把它们找出来修一修。 魔<r=momowang>魔</r>王明白了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

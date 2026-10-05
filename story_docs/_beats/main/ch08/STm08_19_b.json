@@ -1740,7 +1740,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "咳……咳咳………… 啊………… 呃……",
+   "text": "<r=舌头……我的舌头>咳……咳咳</r>………… <r=怎、怎么会>啊</r>………… <r=她一句都不信>呃</r>……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1764,7 +1764,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "呃！呃！呃……啊……啊……",
+   "text": "<r=胳膊……>呃！</r><r=我的胳膊……>呃！</r>呃……<r=好疼……>啊</r>……<r=好疼啊……>啊</r>……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1780,7 +1780,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "呜<r=腿……></r>……呜<r=我的腿没了……></r>啊…… 咳…… 呃……",
+   "text": "呜<r=腿……></r>……呜<r=我的腿没了……></r>啊…… <r=有人吗>咳</r>…… <r=救命……>呃</r>……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

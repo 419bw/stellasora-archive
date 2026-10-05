@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "这 是 他 们 应 得 的 下 场",
+   "text": "<r=•>这</r> <r=•>是</r> <r=•>他</r> <r=•>们</r> <r=•>应</r> <r=•>得</r> <r=•>的</r> <r=•>下</r> <r=•>场</r>",
    "thought": false,
    "sticker": false,
    "channel": "talk"

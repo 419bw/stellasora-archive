@@ -831,18 +831,23 @@ print('植入[把 BBm08_BT01 挂到第七章]: %s'
 # ============================================================ M  注音保真
 print()
 print("=" * 66)
-print("M  台词里的 <r=注音></r> 逐句对齐剧本：位置（紧跟哪个字）+ 文字")
+print("M  台词里的 <r=注音></r> / <r=注音>正文</r> 逐句对齐剧本：位置（紧跟哪个字）+ 文字")
 print("=" * 66)
-RUBY = re.compile(r'<r=([^<>]*)></r>')
+# 空体 ruby 锚定标签前一个字符；带体 ruby 的 base 在标签体内（可多字，取末字）。
+RUBY = re.compile(r'<r=([^<>]*)>([^<>]+)</r>|<r=([^<>]*)></r>')
 
 
 def ruby_marks(text):
-    """[(紧跟在注音前面的那个字, 注音)] in reading order. The client's ruby has an empty
-    body, so a note is identified by where it was inserted, not by what it covers."""
+    """[(注音落点字, 注音)] in reading order. The client's empty-body ruby is
+    identified by where it was inserted; the bodied form carries its own base."""
     out = []
     for m in RUBY.finditer(text):
-        base = norm(text[:m.start()])
-        out.append((base[-1] if base else '', m.group(1)))
+        if m.group(2) is not None:                       # 带体 <r=note>base</r>
+            base = norm(m.group(2))
+            out.append((base[-1] if base else '', m.group(1)))
+        else:                                            # 空体 <r=note></r>
+            base = norm(text[:m.start()])
+            out.append((base[-1] if base else '', m.group(3)))
     return out
 
 

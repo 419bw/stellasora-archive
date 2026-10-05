@@ -531,22 +531,29 @@ print("=" * 66)
 MD_LINE = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$', re.M)
 HTML_LINE = re.compile(r'<p class="line[^"]*"><b class="who">.*?</b>(?:<i class="tag">.*?</i>)?'
                        r'<span class="say">「(.*?)」</span>')
-MD_RUBY = re.compile(r'<r=([^<>]*)></r>')
-HTML_RUBY = re.compile(r'<ruby>(.)<rt>(.*?)</rt></ruby>')
+MD_RUBY = re.compile(r'<r=([^<>]*)>([^<>]+)</r>|<r=([^<>]*)></r>')
+HTML_RUBY = re.compile(r'<ruby>(.*?)<rt>(.*?)</rt></ruby>')
 
 
 def md_view(text):
-    """(去掉注音的正文, [(紧跟注音前面的字, 注音)]) as md writes it."""
+    """(去掉注音的正文, [(注音落点字, 注音)]) as md writes it.
+
+    带体 ruby <r=note>base</r> 的 base 是正文字符，投影时保留；空体 ruby
+    <r=note></r> 整体删除（base 字在标签外）。HTML 侧 <ruby>base<rt> 同构。
+    """
     marks = []
     for m in MD_RUBY.finditer(text):
-        base = MD_RUBY.sub('', text[:m.start()])
-        marks.append((base[-1] if base else '', m.group(1)))
-    return MD_RUBY.sub('', text), marks
+        if m.group(2) is not None:
+            marks.append((m.group(2)[-1], m.group(1)))
+        else:
+            base = MD_RUBY.sub(lambda x: x.group(2) or '', text[:m.start()])
+            marks.append((base[-1] if base else '', m.group(3)))
+    return MD_RUBY.sub(lambda m: m.group(2) or '', text), marks
 
 
 def html_view(text):
     """The same two projections read back out of the rendered HTML."""
-    marks = [(a, unesc(n)) for a, n in HTML_RUBY.findall(text)]
+    marks = [(a[-1] if a else '', unesc(n)) for a, n in HTML_RUBY.findall(text)]
     return unesc(HTML_RUBY.sub(lambda m: m.group(1), text)), marks
 
 
