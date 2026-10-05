@@ -84,17 +84,19 @@ python tests/story/validate_site.py
 ```
 stellasora-archive/
 ├── story_docs/              # Markdown 真源文档库与结构化侧车数据
-│   └── _data/               # chapters.json, sections.json, search.json 等
+│   ├── _data/               # chapters.json, sections.json, search.json 等
+│   └── _beats/              # PageDoc IR 侧车（md/HTML 双后端共同上游）
 ├── scripts/                 # 构建与维护脚本工具集
 │   ├── story/               # 剧情抽取与拓扑计算模块
-│   │   ├── build_story.py   # 解析上游数据源 -> 生成 Markdown 与侧车数据
+│   │   ├── build_story.py   # 编排器：解析上游数据源 -> 生成 Markdown 与侧车数据
+│   │   ├── pipeline/        # 编译管线：lua 词法/语法 -> 命令 IR -> 语义 passes -> PageDoc -> render_md
 │   │   └── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
 │   ├── site/                # 静态站点生成引擎
 │   │   ├── build_site.py    # 驱动模板生成全部 HTML 静态页面
 │   │   ├── site_templates.py# 拓扑图、剧情阅读牌板、战斗档案等页面模板
 │   │   ├── site_css.py      # 设计规范 Tokens 与全局样式
 │   │   ├── site_js.py       # 离线检索、拓扑图手势交互等前端脚本
-│   │   └── md2html.py       # Markdown 与 Ruby 注音原生转换器
+│   │   └── render_html.py   # PageDoc 侧车（_beats/*.json）-> HTML 正文与 Ruby 注音
 │   ├── automation/          # 自动化持续集成模块
 │   │   ├── auto_sync.py     # 自动化上游数据对比、增量同步与 CI 发版
 │   │   └── changelog_from_commits.py  # push 事件驱动的提交变更日志

@@ -1105,7 +1105,7 @@ def audit_single_option_choices():
     Upstream CG_126_03.lua closes the a_10 choice group with a_4's SetChoiceEnd,
     so the frame never pops and build_story.py re-emits the same 若选 line for
     later beats (_dev/AI_HANDOVER_GUIDE.md 3.5). The generator stays faithful to the
-    data; md2html.py suppresses the marker instead. This audit re-derives the
+    data; render_html.py suppresses the marker instead. This audit re-derives the
     single-option choices straight from the md and asserts the HTML kept quiet:
     no 若选 branch header, and no branch chrome pointing back at that choice.
     """

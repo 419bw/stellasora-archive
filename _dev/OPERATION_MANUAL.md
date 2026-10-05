@@ -118,20 +118,23 @@ flowchart TD
 
 | 模块分类 | 脚本路径 | 输入 | 输出 | 核心职责 |
 |---|---|---|---|---|
-| **剧情处理** | `scripts/story/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/` + `_data/*.json` | 语法树解析、魔王正名、独白识别、图谱生成 |
+| **剧情处理** | `scripts/story/build_story.py` | `data/` 解包表 + AVG 剧本 | `story_docs/`（md + `_data/*.json` + `_beats/*.json`） | 编译管线编排、魔王正名、独白识别、图谱生成 |
 | **剧情处理** | `scripts/story/graph_layout.py` | 节点关系 (`sid/parents`) | 列、轨道、SVG 坐标 | DAG 分层拓扑几何纯函数（无 IO） |
 | **静态站点** | `scripts/site/build_site.py` | `story_docs/` + `_data/` | `site/` 全量静态页面 | 站点编译主入口，驱动模板引擎生成 549 篇产物 |
 | **静态站点** | `scripts/site/site_templates.py` | 关卡元数据与排版内容 | 结构化 HTML 字符串 | 拓扑图、剧情阅读牌板、战斗档案等页面模板 |
 | **静态站点** | `scripts/site/site_css.py` | 设计规范 Tokens | `site/assets/tokens.css` | 主题变量、深浅色、牌板、SVG 拓扑样式 |
 | **静态站点** | `scripts/site/site_js.py` | 前端交互事件 | `site/assets/site.js` | 离线即时检索、拓扑平移拖拽缩放、回到顶部 |
-| **静态站点** | `scripts/site/md2html.py` | Markdown 正文 | 干净的 HTML 片段 | Markdown 语法与 `<ruby><rt>` 注音原生转换 |
+| **静态站点** | `scripts/site/render_html.py` | `story_docs/_beats/*.json`（PageDoc 侧车） | 干净的 HTML 片段 | beat IR → 正文 HTML、抉择/分支锚点与 `<ruby><rt>` 注音转换 |
 | **自动化CI** | `scripts/automation/auto_sync.py` | GitHub 上游最新提交 | 全量增量更新 & CI 产物 | 自动化监控两上游变更，提取差异并触发自动化发布 |
 | **辅助工具** | `scripts/tools/run_benchmark.py` | 基准测试用例集 | 耗时与性能报告 | 性能压测与解析效率分析 |
 
 > 注：根目录 `scripts/` 下保留了 `build_site.py`、`build_story.py` 与 `auto_sync.py` 的轻量转发器，直接在根目录执行旧命令依然 100% 兼容。
 
-内容真源是 `story_docs/` 的 Markdown（它已被逐句校验过），`scripts/md2html.py` 只做本站
-用到的那一小套 Markdown 语法 → HTML，因此不存在"第二套渲染器"与产物漂移的问题。
+内容真源是 `story_docs/` 的 Markdown（它已被逐句校验过，是契约 A–F/I/M3 的对照真源）；
+站点正文则由 `story_docs/_beats/*.json`（PageDoc IR 侧车，`build_story` 的 `record_page`
+落盘）渲染：`scripts/story/pipeline/render_md.py` 与 `scripts/site/render_html.py` 是共同
+消费同一份 beat IR 的两个平行后端，站点不再从 md 文本反解结构（旧的 `md2html.py`
+反编译层已删除），因此不存在"第二套渲染器"与产物漂移的问题。
 
 **主线节点图**：边取 `Story.ParentStoryId`，卡面编号取 `Story.Index` 的文案，章头取
 `StoryChapter` 的 `Name/Desc/ChapterYear`。列 = 最长路径深度，轨道 = 分叉围绕父节点上下展开、
