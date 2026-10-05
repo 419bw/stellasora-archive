@@ -297,8 +297,10 @@ def render_body(doc, branch_targets=None):
                 continue
             close_active_branch()
             bid_attr = f' id="{b_obj["bid"]}"' if b_obj else ''
+            # Phase 4c：选项文本走 markup 编译器（ruby→<ruby>），不再 escape
+            # 字面显示 <r=注音>；「若选」「↓」为程序文本，无需转义。
             out.append('<p class="branch-open"%s>%s</p>'
-                       % (bid_attr, escape('若选「%s」↓' % b['option'])))
+                       % (bid_attr, '若选「%s」↓' % ruby_html(b['option'])))
             stats['marker'] += 1
             if b_obj:
                 active_branch = {
@@ -312,9 +314,10 @@ def render_body(doc, branch_targets=None):
             out.append('<p class="merge"%s>%s</p>' % (mid_attr, escape(merge_tag(b))))
             stats['marker'] += 1
             if b['silent']:
+                # Phase 4c：静默选项名同走 markup 编译器（现库无 ruby，防御性统一）
                 out.append('<p class="note">%s</p>'
-                           % escape('（其中%s没有专属台词，选中即跳到汇合点）'
-                                    % '、'.join('「%s」' % s for s in b['silent'])))
+                           % '（其中%s没有专属台词，选中即跳到汇合点）'
+                             % '、'.join('「%s」' % ruby_html(s) for s in b['silent']))
         elif k == 'choice':
             tag_content = choice_tag(b)
             is_major = b['kind'] == 'major'
@@ -328,7 +331,10 @@ def render_body(doc, branch_targets=None):
                 if lead:
                     resp_items.append('<p class="reply-lead">%s</p>' % _inline(lead))
                 for t, d, ev in b['options']:
-                    line_text = '<b>%s</b>%s' % (escape(t), _inline('：' + d if d else ''))
+                    # Phase 4c：选项标题走 markup 编译器（存量 bug 修复：
+                    # 13201/STm03_08 的玩家回应标题含 <r=BOSS></r>，此前被
+                    # escape 成字面文本显示）
+                    line_text = '<b>%s</b>%s' % (ruby_html(t), _inline('：' + d if d else ''))
                     resp_items.append('<p>%s</p>' % line_text)
                 id_attr = ' id="%s"' % c_obj['choice_id'] if c_obj and c_obj.get('choice_id') else ''
                 out.append('<div class="player-reply"%s><div class="reply-who">魔王 选择了</div>'
@@ -338,7 +344,9 @@ def render_body(doc, branch_targets=None):
                 continue
             cls = 'choice major-choice' if is_major else 'choice'
             cid_attr = f' id="{c_obj["choice_id"]}"' if c_obj else ''
-            out.append('<p class="%s"%s>%s</p>' % (cls, cid_attr, escape(tag_content)))
+            # Phase 4c：标记文本（label+prompt）同走 markup 编译器（现库
+            # prompt 无 ruby，防御性统一口径）
+            out.append('<p class="%s"%s>%s</p>' % (cls, cid_attr, ruby_html(tag_content)))
             stats['marker'] += 1
             c_targets = None
             if is_major:
@@ -387,7 +395,9 @@ def render_body(doc, branch_targets=None):
                     target_anchor = f"#{c_merge_id}"
                     jump_badge = '<span class="opt-jump-badge is-merge">直接汇合 ↓</span>'
 
-                opt_text_html = '<div class="opt-main"><b>%s</b>%s</div>' % (escape(t), _inline('：' + d if d else ''))
+                # Phase 4c：选项标题走 markup 编译器（存量 bug 修复：
+                # STm08_03 的选项含 <r=mowang></r>，此前被 escape 成字面文本）
+                opt_text_html = '<div class="opt-main"><b>%s</b>%s</div>' % (ruby_html(t), _inline('：' + d if d else ''))
                 if target_anchor:
                     title_tip = '点击直接跳转至剧情汇合处' if 'is-merge' in jump_badge else '点击跳转至分支台词'
                     item_inner = (

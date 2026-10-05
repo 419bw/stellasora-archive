@@ -847,6 +847,11 @@ BADGE_LI = re.compile(r'<li[^>]*>(.*?)</li>')
 
 
 def clean_opt(s):
+    # Phase 4c：选项文本两侧投影到纯文字再比——HTML 侧 <ruby>base<rt>note</rt>
+    # 折叠为 base（rt 是注音不是正文，剥标签会残留），md 侧带体 <r=note>base</r>
+    # 折叠为 base、空体 <r=note></r> 随其余标签剥除（base 字本就在标签外）。
+    s = re.sub(r'<ruby>(.*?)<rt>.*?</rt></ruby>', r'\1', s)
+    s = re.sub(r'<r=[^>]*>([^<>]*)</r>', r'\1', s)
     s = re.sub(r'<[^>]*>', '', s)
     return re.sub(r'[.…—\s　]', '', s)
 
@@ -1019,7 +1024,17 @@ def audit_anchors():
 
 
 def audit_player_replies():
-    """每处 玩家回应 标记都要渲染成气泡；带提示词的必须保留前置句。"""
+    """每处 玩家回应 标记都要渲染成气泡；带提示词的必须保留前置句。
+
+    Phase 4c：前置句两侧都投影到纯文字再比——HTML 侧经 _inline/ruby_html
+    渲染（<ruby>base<rt>note</rt></ruby>），md 侧是字面 <r=note></r>；
+    直接剥标签会让 rt 注音文本残留进正文（现库 prompt 无 ruby，防御性统一）。
+    """
+    def _lead_html(x):
+        t = HTML_RUBY.sub(lambda m: m.group(1), x)
+        t = re.sub(r'</?[bi](?: class="emph")?>', '', t)
+        return unesc(re.sub(r'<[^>]+>', '', t))
+
     errs = []
     checked = bubbles_total = leads_total = 0
     for p in published:
@@ -1036,8 +1051,8 @@ def audit_player_replies():
             continue
         html = open(hp, encoding='utf-8').read()
         bubbles = len(BUBBLE.findall(html))
-        leads_html = [unesc(re.sub(r'<[^>]+>', '', x)) for x in LEAD_P.findall(html)]
-        leads_md = [m[1] for m in marks if m[1]]
+        leads_html = [_lead_html(x) for x in LEAD_P.findall(html)]
+        leads_md = [md_view(m[1])[0] for m in marks if m[1]]
         bubbles_total += bubbles
         leads_total += len(leads_html)
         if bubbles != len(marks):
@@ -1174,13 +1189,17 @@ def audit_single_option_choices():
             continue
         html = open(hp, encoding='utf-8').read()
         # rendered choice markers carry their anchor id: <p class="choice" id="choice-N">tag</p>
+        # Phase 4c：标记文本与若选选项文本都经 markup 编译器渲染（ruby→<ruby>），
+        # 与 md 字面 <r=…> 不同形——两侧统一 clean_opt 投影后再匹配。
         cid = {}
         for m in re.finditer(r'<p class="choice[^"]*" id="([^"]+)">(.*?)</p>', html):
-            cid[m.group(2)] = m.group(1)
+            cid[clean_opt(m.group(2))] = m.group(1)
+        html_ruose = {clean_opt(m.group(1))
+                      for m in re.finditer(r'<p class="branch-open"[^>]*>若选「(.*?)」', html)}
         for tag, opt in one_opt.items():
-            if re.search(r'<p class="branch-open"[^>]*>若选「%s」' % re.escape(opt), html):
+            if clean_opt(opt) in html_ruose:
                 errs.append((p['page'], '单选项抉择被渲染成若选分支框', tag))
-            anchor = cid.get(tag)
+            anchor = cid.get(clean_opt(tag))
             if anchor and re.search(r'href="#%s"' % re.escape(anchor), html):
                 errs.append((p['page'], '分支导航指向单选项抉择', tag, anchor))
     return errs, checked, singles, ruose
