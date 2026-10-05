@@ -73,7 +73,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-05
-- fix(site): 门控自查修订——遮罩文案对齐客户端、去掉死参数、补锁定活动的兜底
+- fix(site): ch09 战斗气泡按 StoryId 编号取剧本，修 BT02/BT03 对白互换
 
 ---
 
