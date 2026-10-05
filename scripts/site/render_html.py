@@ -27,10 +27,19 @@ md 时代按引文组（quote group）聚合的逻辑在此天然简化：render
 
 Usage: body, stats = render_body(doc, branch_targets=None)
 """
+import os
 import re
+import sys
 from html import escape
 
-RUBY = re.compile(r'<r=([^<>]*)></r>')
+# markup 编译器住在剧情管线包里（scripts/story/pipeline/markup.py）；build_site
+# 已把 scripts/story 注入 sys.path（graph_layout/release_gate 同此先例），这里
+# 兜底保证本模块可独立导入（对拍脚本、pytest）。
+_STORY_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'story')
+if _STORY_DIR not in sys.path:
+    sys.path.insert(0, _STORY_DIR)
+from pipeline import markup  # noqa: E402
+
 META = re.compile(r'^- \*\*(.+?)\*\*：(.*)$')
 
 BACKLOG_OPEN = ('<div class="backlog-board"><div class="backlog-header">'
@@ -55,19 +64,11 @@ def _inline(s):
 def ruby_html(text):
     """Escape a run of story text, turning <r=注音></r> into native <ruby>.
 
-    The client's ruby tag has an empty body: the note is drawn at the insertion point, and
-    in all 2694 occurrences that point sits between the first and second character of the
-    word being read (魔<r=mowang></r>王). Anchoring on the character before the tag
-    reproduces it with no CSS at all."""
-    parts = RUBY.split(text)
-    out = []
-    for i in range(0, len(parts), 2):
-        if i + 1 >= len(parts):
-            out.append(escape(parts[i]))
-            continue
-        out.append(escape(parts[i][:-1]))
-        out.append('<ruby>%s<rt>%s</rt></ruby>' % (escape(parts[i][-1]), escape(parts[i + 1])))
-    return ''.join(out)
+    实现委托给管线 markup 编译器（Phase 3）：parse_inline 把注音锚定到标签前
+    一个字符（魔<r=mowang></r>王），serialize_html 输出原生 <ruby><rt>，无需
+    任何 CSS。前导 ruby（无 base 字符）抛 markup.MarkupError —— 契约 M 会先
+    拦住这种数据。"""
+    return markup.serialize_html(markup.parse_inline(text))
 
 
 def _clean_opt(s):
