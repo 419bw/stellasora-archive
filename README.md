@@ -73,7 +73,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-06
-- 更新主线剧情，新增 8 篇内容
+- feat(site): 首页新增「相关站点」pill、页脚加相关站点外链，收录说明改为纯描述
 
 ---
 
