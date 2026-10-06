@@ -1,0 +1,951 @@
+{
+ "heading": "# 02C 魔王之塔",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1021`　**编号**：`02C`",
+  "- **关卡名称**：魔王之塔",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_02_c`",
+  "- **关卡描述**：勇者的攀登之路也不过如此了——",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你在塔内各处布置做好了周全的守备，战况逐渐激烈。\n拯救委员会即使武力强大，在如此阵势下，登塔举步维艰，\n独守四十五层的千都世，顶着剧毒，阻挡住了160号的逼近。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你在塔内各处布置做好了周全的守备，战况逐渐激烈。\n拯救委员会即使武力强大，在如此阵势下，登塔举步维艰，\n独守四十五层的千都世，顶着剧毒，阻挡住了160号的逼近。",
+  "episode": "第二话",
+  "title": "魔王之塔"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:40",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会骑士",
+   "text": "奇怪，这里不是荒废的星塔吗？怎么景色看起来和城邦里的星塔没什么区别？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "星塔里的景色会被星塔周围的人影响。周围完全没人住，也没人来攀爬的星塔会逐渐“荒废”，像我们刚刚看的那样露出岩石构造的底色。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "但只要有人重新进入，星塔就会慢慢“复苏”，变成我们熟悉的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会骑士",
+   "text": "星塔竟然还有这种变化，长见识了，黎明近卫真是知识渊博啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "呵呵，这没什么。我们天天在远离城邦，没几个旅人去的星塔里和永夜战斗，见得多了也就懂了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "真要论对星塔的了解，还是旅人更厉害。这次我们在星塔里作战，魔<r=mowang></r>王的部下几乎都是旅人，大家必须打起十二分的精神才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会法师",
+   "text": "明白，我已经给大家加上了最高强度的防御魔法，不管被什么武器击中，都能撑住四五次攻击，魔<r=mowang></r>王的部下再强，也没办法偷袭我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会骑士",
+   "text": "警戒，有情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会法师",
+   "text": "这是……雾？星塔里也会起雾吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "呜~我好恨啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会法师",
+   "text": "那，那是什么怪物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "真讽刺啊，神器没找到，我就这样倒在星塔里，无人知晓~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会骑士",
+   "text": "周围……突然刮起了冷风，难道那家伙是…… 之前死在星塔里的旅人的幽灵？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "拼尽全力想守护的人，心里却早已换了主角~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "算了，算了，不见天日的这里，正好适合做我的坟墓 反正，反正这个世界也没有人在乎我~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "开什么玩笑，世界上根本就没有幽灵！ 一定是魔<r=mowang></r>王的部下在装神弄鬼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "可，可是，你们看， 那幽灵后面还有很多奇形怪状的影子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "一二三四…… 二十几个影子么，哼哼哼，我知道了，这显然是幻术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "魔<r=mowang></r>王的同伴根本没有那么多，那个装幽灵的家伙只是想用这种方式拖慢我们的脚步，把雾气吹开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会法师",
+   "text": "狂风，听从我的召唤！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嘻嘻，这可是你们主动用魔法攻击的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会法师",
+   "text": "咦，那“幽灵”怎么不见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会骑士",
+   "text": "快，快看，那些影子是……星骸！它们冲过来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "列阵，挡住它们！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "枫姐，辛苦啦，引了那么多星骸过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "这是我们花令旅团擅长的战术嘛，把星骸拉到一起，再让夏花干掉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "今天要被干掉的不是星骸，而是那些自以为是的拯救委员会啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "真是的，这帮蠢家伙，难道不知道星骸会优先攻击对它们使用攻击性魔法的人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会精锐",
+   "text": "挡，挡住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "但是，你们的防御魔法也都用完了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你们这些家伙，竟敢伤害我最重要的人， 凌厉的寒风啊，把他们留在这座星塔里吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "16:00",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 二十一层"
+  },
+  {
+   "k": "talk",
+   "speaker": "招揽生意的人偶",
+   "text": "咕咕嘎嘎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的委员会成员",
+   "text": "企鹅？这是新品种的星骸吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "不，这家伙好像是星塔便利店的吉祥物，正在招揽顾客呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疑惑的委员会成员",
+   "text": "这种满是星骸的地方还有便利店？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "嗯，算是个安全的休息场所吧，爬塔时可以在里面买一些增强魔法的饮料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "我们去看看吧，魔<r=mowang></r>王和你的部下比我们更早进塔，在获得力量上已经领先不少了，我们得用便利店把落后的力量给追回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "欢迎光临，请问几位想要点什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "大家把捡到的星塔币凑一下，应该够每人买一杯那种提升力量的饮料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "感谢惠顾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "没想到购物还蛮顺利的嘛，大家快点喝吧，提升了力量继续向上爬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "我们三百人进入这座星塔，只要有一队能追上魔王，我们就赢定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的委员会成员",
+   "text": "咕咚——咕咚——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "唔，味道有点怪啊，之前喝的这种饮料是这种口感吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疑惑的委员会成员",
+   "text": "好，好困。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的委员会成员",
+   "text": "撑不住了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "喂，你们振作一下，不行，我的眼睛也要睁不开了，那个饮料有问题……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "委员会掌旗官",
+   "text": "我得快点告诉大家，对了，从升降机撤走——去底层。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "招揽生意的人偶",
+   "text": "咕咕嘎嘎嘎嘎嘎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "干掉了，这是中计的第三个小队了，乙叶你的办法真是好用，这些家伙以为你是星塔店员，根本不做防备的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "那也是因为你扮演夏洛克扮演得好，这个可可爱爱的企鹅，一下子就会让人放松下来，不枉我从菲莱把它带来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "另外，那些对安眠药水抗性强的家伙，还得靠你的球棒呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "咱的球棒绝对好用，保证一棒砸晕，可不能让这些家伙追上魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "啊，又有人来了，我们继续演~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "好嘞~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "招揽生意的人偶",
+   "text": "咕咕，嘎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:00",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 三十七层"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，掩护射击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "降临吧， 灭世之光， 让猫眼大人把他们压制在升降机里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "老老实实地被黑暗之力洗礼吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尽力防御的委员会成员",
+   "text": "可恶，对方的火力太强了，我们连门都出不去，这就是被星塔恩赐力量加持后的魔法子弹么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苦苦坚持的委员会成员",
+   "text": "坚持住，她的魔力是有限的，等到她更换柔光罐时我们就冲出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "就是现在，冬香！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这一拳，是为师父打的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "呜哇，这么大的拳套像火箭一样飞出去了，好帅！看起来柔柔弱弱的，没想到也拥有如此充沛的黑暗之力啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "不，不是黑暗之力，是按照鸢尾前辈的指示选择的星塔恩赐力量，改变了搭配后……竟然这么厉害！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "就这样坚守下去，我们只要占据有利地形，就能形成交叉火力堵住升降机的出口。不管来多少拯救委员会的人，也只是来给我们当靶子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "别太得意了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "哦，还有漏网之鱼，刚才被同伴保护住了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苦苦坚持的委员会成员",
+   "text": "冈希尔德队长，这是……这是我最后的魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "“贯穿”第二形态，炮击发射！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，冬香，快躲开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "咳咳咳，好厉害的近距离炮击，你们怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我，我没事，只有一点擦伤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "猫眼大人只有头发烧焦了一缕，其他的全都完美躲开了，可惜可惜，差一点就“全连”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "哼，还挺敏捷嘛，不过我已经赢了。只要是被“贯穿”击中过的人，就别想躲过我的锁定！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "让我看看， 拿霰弹枪的白猫队长在柜子后面， 用狙击枪的家伙躲在绿植后面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "“贯穿”第一形态，发射！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "喂喂喂，这家伙作弊，怎么还带透视的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "什么作弊，你们这帮没见识的白猫，这可是安琪委员长赐予我的“圣器”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "全知全能的恩赐之神祝福着我，找到你们躲藏的地方还不是轻而易举？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "你们堵了我的部下那么久，现在换我堵你们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，魔<r=BOSS></r>王说的没错，冈希尔德的那把魔法炮的确有这种匪夷所思的能力， 一开始我还不信，现在不得不承认，你真的能预知未来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "那我们就用魔<r=BOSS></r>王教给我们的方法，来对付这个作弊的家伙吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "跑吧，跑吧，哪怕你们跑到了别的楼层，我的“贯穿”依旧能透过地板锁定你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "咦？视野里怎么只有那两只白猫，那个白头发的旅人跑到哪里去了？我的“贯穿”不应该锁定不到她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "如果四周都没有的话，那唯一的可能性就是—— 天花板！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "咿！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "投降吧，旅人和白猫，你们已经无计可施了，魔<r=mowang></r>王根本不值得你们追随！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "无计可施的是你才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "冬香，用你师父教给你的那个阵型。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "想和我近战吗？我的“贯穿”可是很重的，并且就算在这种距离，我也依旧可以锁定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "但你的枪口，没办法同时防御前后左右的全部方位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "卑劣，竟然从三个完全不同的方向发动进攻",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "安琪委员长，冈希尔德…… 只能努力到这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:30",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 四十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "（这座星塔到底是怎么回事啊，走上几层就会遇到魔<r=mowang></r>王的部下，这不就像，就像……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "（传说中勇者挑战魔<r=mowang></r>王时，攀爬的那座魔<r=mowang></r>王之塔一样吗？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "（我一路靠着“时间停止”走到这里，还有五层就追上魔<r=mowang></r>王了。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "（至少，要为安琪大人开辟出前进的道路。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "你是那位，一边伤害自己，一边停止时间的审判官吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身名为千都世，有妾身在此，汝等污秽的视线绝无可能越过妾身的刀锋，触及到主公的衣角。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "（又来了么…… 是那位用刀的旅人，她好像已经知道了我的特殊魔法， 呵呵，拯救委员会里有内鬼啊。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "（不过，这一路上，我早就靠着划伤自己，积攒了足够多的恐惧了。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "恩赐之神啊，如果您真的存在……求您把时间停在这一刻吧，救救我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "那么，优雅的旅人，你中了我的“伤痕”之毒，还能坚持多久呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "我匕首上的植物毒药可是会让人陷入到最深最深的恐惧中， 无法自拔，最终自己把自己溺死在里面的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "那么，魔法解除~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "咕——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "啊哈哈……起效了！ 快让我看看，你那张精致漂亮的脸蛋，在恐惧中彻底扭曲、崩溃的美妙样子吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "聒噪，妾身不想听到如此污浊的杂音。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "怎，怎么可能，你明明中了我的毒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身身为主公之刀，只要主公常驻于心，妾身便无所畏惧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "区区凡俗毒药也想侵蚀妾身？简直愚蠢至极。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "主公……… 　　此刻的您，应该已经到达那个房间了吧。这样的话，妾身便能安心了。 　　在此，请容妾身为您的前路， 　　送上最后的祈祷……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

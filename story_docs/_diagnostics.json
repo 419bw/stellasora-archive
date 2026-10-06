@@ -30,16 +30,6 @@
    "sid": "BAm06x5_02",
    "expected_stem": "BBm06x5_BT02",
    "chapter": 7
-  },
-  {
-   "sid": "BAm09_BT04",
-   "expected_stem": "BBm09_BT04",
-   "chapter": 10
-  },
-  {
-   "sid": "BAm09_BT05",
-   "expected_stem": "BBm09_BT05",
-   "chapter": 10
   }
  ],
  "unattached_bbm_scripts": [
@@ -50,64 +40,7 @@
   "BBm00_05",
   "BBm00_06"
  ],
- "rows_without_script": [
-  {
-   "chapter": 10,
-   "sid": 1019,
-   "stem": "STm09_01_c",
-   "title": "请君入瓮",
-   "kind": "剧情关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1020,
-   "stem": "BAm09_BT04",
-   "title": "主场作战",
-   "kind": "战斗关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1021,
-   "stem": "STm09_02_c",
-   "title": "魔王之塔",
-   "kind": "剧情关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1022,
-   "stem": "STm09_03_c",
-   "title": "梦开始的地方",
-   "kind": "剧情关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1023,
-   "stem": "BAm09_BT05",
-   "title": "再战星骸",
-   "kind": "战斗关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1024,
-   "stem": "STm09_04_c",
-   "title": "不变之物",
-   "kind": "剧情关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1025,
-   "stem": "STm09_05_c",
-   "title": "遥远的塔",
-   "kind": "剧情关卡"
-  },
-  {
-   "chapter": 10,
-   "sid": 1026,
-   "stem": "STm09_01_d",
-   "title": "窄门",
-   "kind": "剧情关卡"
-  }
- ],
+ "rows_without_script": [],
  "speaker_prefix_fallbacks": [
   {
    "sid": "avg1_134_BB_002",
@@ -120,7 +53,7 @@
    "resolved": "千都世"
   }
  ],
- "speaker_inline_names": 1022,
+ "speaker_inline_names": 1033,
  "choice_frame_anomalies": [
   {
    "stem": "CG_126_03",

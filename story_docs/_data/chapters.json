@@ -2,7 +2,7 @@
  "meta": {
   "chapters": 10,
   "nodes": 196,
-  "pages": 507,
+  "pages": 515,
   "source": "Story.json",
   "edge_field": "ParentStoryId"
  },
@@ -6876,9 +6876,12 @@
       "story": "STm09_01_c",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null,
+     "state": "released",
+     "time": {
+      "clock": "13:50",
+      "date": "雾月 18日"
+     },
+     "page": "main/ch09/STm09_01_c.html",
      "col": 2,
      "lane": 1,
      "x": 528,
@@ -6902,11 +6905,11 @@
      ],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm09_BT04"
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null,
+     "page": "main/ch09/BAm09_BT04.html",
      "col": 3,
      "lane": 1,
      "x": 792,
@@ -6932,9 +6935,12 @@
       "story": "STm09_02_c",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null,
+     "state": "released",
+     "time": {
+      "clock": "15:40",
+      "date": "雾月 18日"
+     },
+     "page": "main/ch09/STm09_02_c.html",
      "col": 4,
      "lane": 1,
      "x": 1056,
@@ -6960,9 +6966,12 @@
       "story": "STm09_03_c",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null,
+     "state": "released",
+     "time": {
+      "clock": "17:30",
+      "date": "雾月 18日"
+     },
+     "page": "main/ch09/STm09_03_c.html",
      "col": 5,
      "lane": 1,
      "x": 1320,
@@ -6986,11 +6995,11 @@
      ],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm09_BT05"
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null,
+     "page": "main/ch09/BAm09_BT05.html",
      "col": 6,
      "lane": 1,
      "x": 1584,
@@ -7016,9 +7025,9 @@
       "story": "STm09_04_c",
       "bubble": null
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null,
+     "page": "main/ch09/STm09_04_c.html",
      "col": 7,
      "lane": 1,
      "x": 1848,
@@ -7044,9 +7053,12 @@
       "story": "STm09_05_c",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null,
+     "state": "released",
+     "time": {
+      "clock": "??:??",
+      "date": "??月 ??日"
+     },
+     "page": "main/ch09/STm09_05_c.html",
      "col": 8,
      "lane": 1,
      "x": 2112,
@@ -7072,9 +7084,12 @@
       "story": "STm09_01_d",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null,
+     "state": "released",
+     "time": {
+      "clock": "17:00",
+      "date": "雾月 18日"
+     },
+     "page": "main/ch09/STm09_01_d.html",
      "col": 2,
      "lane": -2,
      "x": 528,
