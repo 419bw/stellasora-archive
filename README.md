@@ -61,6 +61,24 @@ python tests/story/validate_site.py
 
 ---
 
+## 授权说明 (License)
+
+本仓库按组成部分采用分包授权：
+
+| 范围 | 协议 |
+|---|---|
+| 仓库默认，含 `story_docs/` 等由上游数据生成的再分发产物 | [GNU General Public License v3.0](LICENSE) |
+| `scripts/`、`tests/`、CI 配置等原创构建代码 | GPL-3.0，同时可由版权人另行按 MIT 条款单独授权使用 |
+| 游戏内文本、立绘、头像等素材 | 版权归 YOSTAR GAMES（悠星网络）所有，本仓库不授予任何权利 |
+
+**关于 GPL-3.0 覆盖的数据产物**：
+
+- `story_docs/` 与 `story_docs/_beats/` 的内容由上游 GPL-3.0 数据仓库经本仓库 `scripts/story` 管线清洗、折叠、结构化后生成，属于 GPL-3.0 许可的修改版再分发，完整许可证见根目录 [LICENSE](LICENSE)，修改类型清单与知识产权声明见根目录 [NOTICE](NOTICE)。
+- 再分发本仓库内容时，须保留相同协议并注明来源；对产物的修改处需作显著标注。
+- 上游 [StellaSoraData](https://github.com/AutumnVN/StellaSoraData) 与 [ss-lua](https://github.com/MakoStar/ss-lua) 同样为 GPL-3.0，版权归各自维护者所有。
+
+---
+
 ## 数据来源与上游鸣谢 (Upstream Data Sources)
 
 本档案库的高保真内容生成依赖社区开源维护的数据镜像。在此向以下优秀的上游开源项目致以诚挚谢意：

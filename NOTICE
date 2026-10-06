@@ -1,0 +1,35 @@
+《星塔旅人》剧情档案（Stella Sora Archive）—— 重要声明（NOTICE）
+
+一、授权
+
+本仓库整体按 GNU General Public License v3.0 授权，完整许可证见根目录 LICENSE。
+其中 scripts/、tests/ 及 CI 配置等原创构建代码，同时可由版权人另行按 MIT 条款
+单独授权使用。具体范围划分见 README 的「授权说明 (License)」章节。
+
+二、内容来源与修改声明（GPL-3.0 显著声明）
+
+story_docs/ 目录下的全部内容（Markdown 与 _beats/ PageDoc 侧车）由以下两个上游
+GPL-3.0 数据仓库解析生成：
+
+  - ss-lua（AVG 剧情脚本，https://github.com/MakoStar/ss-lua）
+  - StellaSoraData（结构化配置与中文文案表，https://github.com/AutumnVN/StellaSoraData）
+
+本仓库内容属于上述 GPL-3.0 数据的修改版再分发。所做的修改包括但不限于：
+
+  - 引擎标记清洗（剥离/还原 <r=...> 注音、<color>/<size> 等标签，保留强调标记配对信息）
+  - 动画帧折叠（渐显帧签名去重，仅保留终帧文本）
+  - 抉择（分支）结构归一化与归属计算
+  - beat IR 提取（PageDoc）与说话人解析
+  - Markdown / HTML 双后端渲染与离线检索索引构建
+
+注意：story_docs/ 由 scripts/story/build_story.py 全量生成，每次构建前会整体
+重建，请勿在其中放置任何手工文件。本 NOTICE 文件与管理员维护的说明请置于仓库
+根目录或其他非生成目录。
+
+三、知识产权
+
+游戏《星塔旅人》（Stella Sora）由 YOSTAR GAMES（悠星网络）发行。游戏内文本、
+剧本、立绘、头像、图标等素材的版权归原发行商及原版权方所有，本仓库不授予任何
+相关权利。上游数据仓库的版权归各自维护者所有。
+
+本项目为非盈利的玩家自制资料整理与剧情研读工具，与游戏官方运营团队无任何关联。
