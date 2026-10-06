@@ -72,8 +72,8 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-10-05
-- fix(story): 折叠 _NOT_IN_LOG_ 渐显动画帧，修同一句台词重复输出多次
+### 2026-10-06
+- 更新主线剧情，新增 8 篇内容
 
 ---
 
