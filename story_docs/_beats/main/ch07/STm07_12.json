@@ -1,0 +1,927 @@
+{
+ "heading": "# 12 先易后难",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第七章《星之竞拍》（星塔历 996 年）",
+  "- **关卡 ID**：`819`　**编号**：`12`",
+  "- **关卡名称**：先易后难",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm07_12`",
+  "- **关卡描述**：饭要一口一口吃。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "在你与千都世行动的同时，翡冷翠和星雁那边也在设法筹款，\n最终与凤凰炒蛋签下了价值八十亿朵拉的巨大订单。\n而此时，梅尔库莉娅却拜访渊海星融提出贷款……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在你与千都世行动的同时，翡冷翠和星雁那边也在设法筹款，\n最终与凤凰炒蛋签下了价值八十亿朵拉的巨大订单。\n而此时，梅尔库莉娅却拜访渊海星融提出贷款……",
+  "episode": "第十二话",
+  "title": "先易后难"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两天前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:35",
+   "date": "猎月 14日",
+   "place": "菲莱银城区 酒店正门"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "扔掉武器，双手放在头顶，趴在地上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "是—— 求求你，别开枪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "你们这些家伙完全不反抗的吗？ 你们不是接了暗杀的委托才来的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的旅人",
+   "text": "暗杀？你在说什么？ 不不不，我们才不做那种可怕的事呢，大人您要明察啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "冤枉啊，我们只是普通旅人，怎么会做那种违法的事情！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "一大群人拿着武器围在酒店附近转悠，目露凶光，普通旅人会做这种事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的旅人",
+   "text": "就是因为有委托才这样的！雇，雇佣我们的人说…… 住在这里的大人物喜欢武德充沛的热闹场景……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的旅人",
+   "text": "让我们拿着武器过来，到时间就一起举起武器欢呼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "是的。就是这么说的。还说...... 表现得最凶悍的人有额外奖金，我们自然要演得厉害点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "这委托可真奇怪…… 雇佣你们的人叫什么名字？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "不，不知道，但我们认识她们，她们原来是菲莱本地的大姐头，后来好像进了什么大公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "那报酬呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的旅人",
+   "text": "报酬是一人一天两万朵拉，勉强够一星期的饭钱，大人，哪里会有人因为这点朵拉去搞什么暗杀啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "对对对，再说了，您审问我们不如审问那些冲进旅馆的人，那些人听说报酬更高，一个人有十万朵拉呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "二十分钟后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "久等了，翡冷翠。 我审问清楚了，我们抓到的人里，绝大部分根本不知道魔<r=BOSS></r>王住在这家酒店，是被用别的工作骗过来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "冲进酒店那些人拿的朵拉略多一些。不过，他们接到的任务只是—— 破坏楼梯和大门，不让客人出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "天穹保险的这一手还真是别出心裁，差点被这帮杂鱼坏了大事。还好，刚刚尘沙发来消息，魔<r=BOSS></r>王已经成功上岛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "接下来的两天里，菲莱城就是我们的战场了...... 补上两百亿朵拉的资金缺口可不是件容易的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "红宝石，蓝宝石，你们那边怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "放心吧，按照翡冷翠大人的计划，我们已经调集了山一样高的“茶色夜莺”，足够分发给那些听了假消息来领面包的市民。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "根据您的命令，我们在赠送茶色夜莺的同时，还搭配了新鲜的水果蔬菜和菲莱公司的其他口感更好的产品，大家都心满意足地离开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "你把敌人的诡计变成我们的宣传了啊，这主意真像翡冷翠的风格，滴水不漏呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵呵呵。只知道当乖孩子的话，是保护不了重要之物的哦。 星雁，这边的现场就交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "嗯，这种混乱的场景对市场部来说是家常便饭，这种现场工作我倒是已经习惯了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "红宝石和蓝宝石， 请你们帮我去温室里找一位员工，然后在一个小时内，把她带到阿斯旺街的那家凤凰炒蛋和我汇合，这是那个人的资料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石&蓝宝石",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:45",
+   "date": "猎月 14日",
+   "place": "菲莱温室区 凤凰炒蛋会客室"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "翡冷翠大人，请用茶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "谢谢…… 哎呀？这茶口味好玄妙，我在菲莱从来没有喝过这样的茶。是苍梧城的茶叶吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "哦！您真是识货，出产这种茶叶的茶树生长在苍梧城附近的一处峭壁上，非常稀有，全苍梧也只有一棵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "竟然是这样吗？那这茶水岂不是很珍贵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "哪里哪里，品种虽然不同，但这样的好茶在我们苍梧可是俯仰皆是呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "霁月，不要把你小时候随便撒种子长出来的茶树当成稀有品种招待贵客。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "嘿嘿，我这不是想说些苍梧逸闻给翡冷翠大人解闷嘛，再说，这个品种全苍梧也的确只有一棵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "抱歉，翡冷翠大人，现在是午餐时间，店里比较忙，让您久等了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "无妨，本来就是我贸然拜访，给各位添麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不过，两位作为凤凰炒蛋的代表，似乎出席了前几天的晚宴。生意的决定权，应该也在你们手中吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "这就要看决定权的适用范围了。 比如像这次的商业谈判，就比较重视现场人员的判断。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "贵司依靠现场人员的判断的处理方法我很认同，只有倾听顾客的声音，才能真正理解顾客的需求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "哦，我们的小店长来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "云舒姐，霁月姐，抱歉，我来晚了。那么，今天是有什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "我来介绍一下，璟麟，这位是菲莱公司的执行官翡冷翠大人，她想谈谈和凤凰炒蛋业务合作的事宜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "翡冷翠大人，这位是凤凰炒蛋旗下怀璟食府的店长，璟麟，现场判断由她做出。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我是翡冷翠。 璟麟店长，你好，很抱歉在这个时间来访，打扰了贵店的午饭时间，我就长话短说了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "凤凰炒蛋在菲莱有五家连锁店，不知道贵司现在是怎么采购食材的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "如果有可能，我们菲莱公司想承担贵司的食材供应。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "食材采购啊...... 凤凰炒蛋的食材，都是店员一大早去附近的市场上精挑细选的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "所以根据采购情况，有的时候还会影响菜单…… 这样的确很麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "从这个角度来看，有稳定的供应商对我们来说也是件安心的事......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "但是，我们无法与菲莱公司建立业务合作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "虽然您是贵客，但恕我直言—— 联合种业的食材质量，完全不行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "数年前，我们刚到菲莱开店的时候，妈妈采购过联合种业的食材，同一批的番茄成熟程度都不一样，蔬菜和肉类的味道也很寡淡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "去年，联合种业也找到过我们谈合作，那位业务员一个劲地推销他们的预制菜，还说以后可以让智慧植物来帮忙炒菜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "当然，贵司有自己的经营理念，这一点我无意否定…… 但我们的经营理念，无法认同这一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "正是这份坚持，才成就了怀璟食府稳定的口味与价格。 多年以来能获得顾客们的支持，也就不足为奇了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "怀璟食府我也经常来吃，如果失去了本味，那可是菲莱的损失。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "这，这个…… 谢谢夸奖？ 另外为了避免误会，我想澄清一下，我知道现在的菲莱公司不是原来的联合种业了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "现在你们面包店里烤出来的面包也很香，从顾客们的谈论中就能明显感觉到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "如果后面贵司的产品质量回升，我还是愿意采购的，但现在还是请容我拒绝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "之前的事情，让我无法立刻相信菲莱公司，所以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "师姐，璟麟是不是有些太凶了，之前的晚宴上，我们已经确定魔<r=BOSS></r>王和翡冷翠是想要好好经营公司的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "而且和菲莱公司友好合作可以稳定诺瓦粮食交易，符合苍梧城的利益，要是菲莱公司失败了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "稍安勿躁，我们只是假借凤凰炒蛋的名头前来观察局势，况且，应当由最了解实际情况的人来判断。这不是我们应该插手的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "况且，如果翡冷翠真的打算重建菲莱公司的话，应该不会这么轻易放弃的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "璟麟店长，你说得对，在没有任何实际成果的情况下，仅仅口头要求对方信任，未免太想当然了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "话虽如此…… 你们或许难以信任菲莱公司，但若是她呢？ 我想将今后菲莱公司今后的产品检验，托付给这位女孩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "这位女孩？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜哇，对，对对对不起，我的确把私自种的蔬菜拉到怀璟食府来卖过...... 但是，但是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "不要开除我啊，我今天还没给豌豆浇水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "哎？岭川？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "嗯？ 啊，璟麟？你好呀~！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "以后，菲莱公司的农产品检验，我们会让这位资深温室园丁—— 岭川来负责。我们和凤凰炒蛋合作的生意就是她负责的第一桩业务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "诶？诶？ 检验...... 负责？ 我，我只会种地啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "具体工作会由红宝石和蓝宝石协助，不用担心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "如果是岭川全权负责的话...... 嗯……我确实说过会积极考虑业务合作，那个约定不能违背……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "璟麟，这孩子有那么厉害吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "嗯！霁月姐，岭川是个把蔬菜、果实、总之就是一切地里能种出来的东西看的比自己还重的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "她之前来送过的蔬菜是我买过最好的蔬菜，如果是她负责检验，加上现在菲莱公司的改变，我觉得...... 应该可以信任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "能得到如此积极的答复，我很高兴。 那我们立刻来拟定合作细则吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟",
+   "text": "啊，要不干脆边吃边聊怎么样？我这就去快速准备点什么！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "14:50",
+   "date": "猎月 14日",
+   "place": "菲莱温室区 凤凰炒蛋大堂"
+  },
+  {
+   "k": "talk",
+   "speaker": "璟麟&霁月",
+   "text": "感谢惠顾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我们这边才要感谢您。 度过了非常有意义的时光。明天，我们就会开始供第一批货。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我，我会努力，争取帮上忙……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "翡，翡冷翠大人，品质管理这么重要的工作，真的能交给我来做吗？ 检验全部的蔬菜水果和肉类什么的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "没问题的，正是因为相信你能胜任，才拜托你的。 而且刚才也说了，程序上的工作红宝石和蓝宝石会帮你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "在工作上嘛，拿出那时抓“小偷”的气势就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "那...... 那时......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "温室里种着的这些是…… 番茄？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "光泽和饱满度都很好。 没想到在这个温室里，会有意外收获。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "本以为会是伪装成番茄的怪物之类的呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "终于抓住你啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "做好觉悟吧，犯人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对，对不起～～～～！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜，那时是我认错了人，不过这么说...... 翡冷翠大人，您是不是不在意我偷偷种菜然后拉出去卖的事情了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵。从一开始就没在意过，不如说，我应该感谢你才对。 正是因为你，菲莱公司才和凤凰炒蛋建立了联系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "那个小店长，看着人小，但是杀价真的狠啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "通过这次的合同，凤凰炒蛋的菲莱分店以及金翎港分店，向我方共计采购价值八十亿朵拉的粮食，预付四十亿朵拉，明天到账。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "龙裔可真能吃啊，虽说这两个城邦一共有十个分店，但一年能吃掉这么多吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "当然不是只供给凤凰炒蛋，其中的一大部分是从金翎港走近海水路和河道运去苍梧城的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "龙裔对粮食的储量总是很关心。实际上那可能才是真正的目的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "不过，翡冷翠大人，明天就是缴纳保证金的日子了，我们还有一百四十亿的缺额。 要是打算去其他公司也推销一下的话，我这就去准备……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "放心吧，我们和凤凰炒蛋签下契约的事情，各大公司肯定都在关注，自然会主动来洽谈的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我们只要能说服向来稳健的龙裔，其他公司也会认为我们是值得支持的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "只是…… 还需要一点催化剂。 红宝石，想办法把八十亿这个数额传出去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "明白，我这就去找几个魔女提供一下“大新闻”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "22:50",
+   "date": "猎月 14日",
+   "place": "菲莱金城区 渊海星融菲莱分行"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "非常抱歉，本行已经关门了，请明天再......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "哎呀，真的好吗？ 就这样把我赶走的话，可就接不到下面的大生意了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "明镜",
+   "text": "大生意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "嗯，是的。告诉你们经理，天穹保险要贷款，贷 四 ·百 ·亿 朵拉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

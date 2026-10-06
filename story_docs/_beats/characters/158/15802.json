@@ -1,0 +1,444 @@
+{
+ "heading": "# 派送的礼物 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：菈露（圣夜）（角色编号 `158`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`15802`",
+  "- **AVG 剧本**：`CG_158_02`"
+ ],
+ "recap": "大炮配送系统首次测试，发射出去的胶囊……为什么飞回来了？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "大炮配送系统首次测试，发射出去的胶囊……为什么飞回来了？",
+  "episode": "第二话",
+  "title": "派送的礼物 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "直接挂断没问题吗……奥尔贝德是你的上司吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没问题没问题！我刚才是在进行奥尔贝德命令我做的大炮送货试验对吧， 魔<r=mowang></r>王你可以给我作证吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯......是这样没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "所以……如果试验结果不理想，那也是遵循领导命令的结果，出了什么事也是领导负责对吧， 对吧对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全自暴自弃了啊......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪天再次自作自受，可别怪我没提醒你啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你也太爱操心啦～ 人嘛，要活得从容一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是你太过于从容了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "生命是有限的，及时行乐及时行乐…… 嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那边有个人坐在树下…… 走，去看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你好，需要帮忙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "不好意思，让你们担心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "身体不舒服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "嗯……刚才不小心扭到脚了，休息一下就没事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "可再拖下去，委托的时效就赶不上了， 唉......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "时效还有多长时间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "我接的是加急的神器委托，只...... 只有不到五分钟了，全完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那不如这样吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你不会打算……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没错，此刻正是这门大炮出场的时候，看我的大炮配送系统吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "大炮配送系统？那是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "即使突然受伤也不用担心，任何突发情况都能轻松应对。这是未来的送货之王，靠双腿送货的时代已经过去了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "听上去很厉害，不会很贵吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "新品免费试用~ 仅此一次！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "免费！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我们能相遇都是恩赐之神的指引……哼哼，就让你见识一下吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等！ 刚才那发不是失败了吗！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没问题，没问题。俗话说，失败乃成功之母，通过刚才的试射，我已经完全掌握了距离和注入魔力之间的关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "等着瞧吧！ 这些就是加急的神器吗？要送到哪呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的旅人",
+   "text": "送到灰风俱乐部…… 真的没问题吗？货物不会损坏吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "放一百个心吧，我会把货物放进缓冲胶囊里的。 我看看……灰风俱乐部是这个方向……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "两点方向、 距离两千五百、 角度四十五…… 风向良好！ 胶囊填装完毕、 魔力充能完毕！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好强的气势……！说不定真的能成！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "大炮配送系统…… 发射！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "此时此刻，灰风俱乐部——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "老大，听说了吗？心相商店遭到神秘炮击了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "听说了。也不知道对方的目的是打击恩赐意志，还是单纯的无差别袭击…… 总之，我们都把眼睛擦亮点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "老大！有炮弹朝我们飞来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "啧……说什么来什么。 只要有我在，休想伤灰风俱乐部分毫！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哈啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "不愧是老大，干得漂亮！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，灰风俱乐部又迎来了和平的一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "是时候检查一下配送情况了。我的计算完美无缺，应该没问题吧…… 哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "有东西朝我们飞过来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "是……是胶囊！？ 魔<r=mowang></r>王，快趴下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "怎么回事啊！胶囊怎么飞回来了？ 呜呜……我的大炮……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全被炸烂了......对方的反击好犀利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不幸中的万幸，缓冲胶囊毫发无伤！ 但是大炮坏了，也没办法继续配送了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "测试就先暂停吧。既然答应了人家了，我们就得把货送到，现在只能用腿去送了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "怎么会这样！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

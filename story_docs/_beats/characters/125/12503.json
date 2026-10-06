@@ -1,0 +1,752 @@
+{
+ "heading": "# 胜利者法则 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：苍兰（角色编号 `125`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`12503`",
+  "- **AVG 剧本**：`CG_125_03`"
+ ],
+ "recap": "这一次，站在擂台对面的，是你。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "这一次，站在擂台对面的，是你。",
+  "episode": "第三话",
+  "title": "胜利者法则 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "下午，我们陆陆续续送完了剩余的信，在路边的长椅上休息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "给您，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我不知道您喜欢哪种零食，每样都买了一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "今天发生了好多意料之外的状况，真是不好意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有，苍兰很厉害呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们说要决斗的时候，我真是捏了一把汗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "当时的状况下，决斗反而是最简单高效的办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "他提出决斗，我就顺势答应了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，之前小葵和海伦阿姨说的“决斗”， 都是什么事情啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "小葵是因为她和姐姐逃课出去玩，被我抓住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "她们不肯回去上学，我就向她们发起了“弹珠霸主争夺战”的决斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "“弹珠霸主争夺战？！”",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯，她们输得心服口服，向我保证再也不逃课了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我也答应她们，只要她们乖乖的，可以经常一起玩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难怪小葵那么急着和你约下次决斗…… 那海伦阿姨说的又是什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "是一只巨大的野猪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "“野猪？！”",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "它应该是从附近的森林里跑出来的，闯进了海伦阿姨家的院子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我本来想和它好好商量，但它拒绝听从我的引导。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我就向它发起了决斗，它输了，被我拖回了森林里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然连野猪都能轻松拿下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难怪大家都很感谢你，确实帮了大忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "之前小葵提到决斗的时候，苍兰好像很紧张，我还以为是什么危险的事情呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "抱歉，我不是故意瞒着您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我担心您听到决斗后，会对我…… 对万送屋，留下不好的印象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "毕竟决斗文化已经过时了。 大部分人在第一次听说时，都觉得这是一种野蛮的行为。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“决斗裁判”这个古老的传统，我也有所了解。 像之前那样，用决斗解决问题，其实挺有效的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "更何况，苍兰并不是出于私心才发起决斗， 而是为了帮助大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "谢谢您的理解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "但是，在您面前和人决斗，还是太失礼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "决斗时的我，会变得很可怕…… 以前也有人这样说过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算我说不会，苍兰也一定认为我只是在安慰她吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要怎么开解她呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 啊，只剩最后一块零食了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个，就留给苍兰吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不，还请魔<r=BOSS></r>王享用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "意见不统一啊……得想个办法。 啊，我知道了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "苍兰，我们来决斗吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，谁赢下这场决斗，就拥有最后一块零食的支配权。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "决斗以弹珠游戏的方式进行，双方均无异议。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让我来看看苍兰的水平吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "好的，魔<r=BOSS></r>王。我会全力以赴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "下雨了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "小雨而已，应该很快就停了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "苍兰要回去避雨吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不。 雨中的决斗，更令人兴奋呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 还剩最后一颗弹珠……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "来吧，魔<r=BOSS></r>王。 这是我们最后的对决了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我不会手下留情的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "那就由我来倒数了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "三、 二、 一。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的回合，来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "弹珠高速贴地滚过，画出一道完美的轨迹，直奔目标。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "中了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "恭喜您，魔<r=BOSS></r>王。 这场决斗，您胜利了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "承让，承让。 决斗时的苍兰，和平时也没有什么太大区别嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是，会更认真一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "其实，您并不需要这样做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "这场决斗，从一开始就不是为了输赢吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "被看穿了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是，我绝对没有轻视苍兰的意思，我可是拼尽全力了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯，我也是。 很荣幸能与您决斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然我拿到了支配权，那么这块零食归你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯，遵照约定，我会吃掉最后这块零食。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "还有您的心意，我也一并收下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "苍兰上楼换衣服了，我一个人坐在客厅沙发上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘶，有点冷……刚才在外面都淋透了。 没办法，只能等着衣服晾干了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "跑了整整一天，有点困了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "魔<r=BOSS></r>王？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "魔<r=BOSS></r>王， 您醒了？ 我拿来了干净的衣服， 请您换上吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "天气有些凉， 淋湿了不马上处理， 很容易感冒的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "不好意思，给你添麻烦了",
+   "options": [
+    [
+     "没关系，不用这么麻烦",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "您今天 帮了我很多。 如果让您生病， 就太过意不去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我也没做什么了不得的事情……",
+   "options": [
+    [
+     "好像......我也没帮到什么",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "无论是送信、决斗， 还是玩弹珠游戏， 您一直都陪在我身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我没想到， 您竟然愿意 玩那种 “小孩子的游戏”。 而且还这么擅长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "纯粹是因为玩得很开心",
+   "options": [
+    [
+     "过奖、过奖了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "应该是我感谢你才对",
+   "options": [
+    [
+     "能在雨中坚持那么久，苍兰也很厉害",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "…… 雨越下越大了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我以前， 不太喜欢下雨天， 会让我想起一些无法改变的、 不愉快的过去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这么说……",
+   "options": [
+    [
+     "那现在呢？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "现在也是吗？",
+   "options": [
+    [
+     "还会因为下雨天而不开心吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不会了。 因为， 新的回忆已经诞生了。 从明天开始， 当雨再下起来的时候。 我回忆起的…… 就是和您 一起度过的这个夜晚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "对您来说， 它或许没有什么特别之处。 但于我而言， 意义非凡。 谢谢您，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "啊，这没什么大不了的——阿嚏！！",
+   "options": [
+    [
+     "阿、阿嚏——",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "啊， 您的发梢还在滴水。 作为回报， 请让我帮您擦干吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "之后，雨始终没有停。 我和苍兰在万送屋度过了一个温暖的夜晚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -29,130 +29,32 @@ CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'C
 PRESET = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Preset')
 OUT = os.path.join(ROOT, 'story_docs')
 
-PROTAG_ID = ("avg3_100", "avg3_101", "avg3_1311", "avg3_1312", "1")
-PROTAG_NAME = "魔王"
+# 主角域常量（PROTAG_ID/PROTAG_NAME）已随语义 pass 移入 pipeline/domain.py
 
 # Stages whose own StoryId carries a `BTnn` battle token that disagrees with the display
 # code the localization table publishes for them (upstream official labelling slip).
 # Filled by build_main(), reported in _battle_reconciliation.md.
 CODE_MISMATCHES = []
 
+# Phase 3 诊断侧车（story_docs/_diagnostics.json）收集点：上游数据异常的机器可读
+# 登记，只记录、不改变任何行为。SPEAKER_FALLBACKS 由 pipeline/speakers.py 填充
+# （预置表查不到、走前缀/裸 id 兜底的说话人），FRAME_ANOMALIES 由
+# pipeline/passes.py 填充（抉择关闭指令的 group 找不到活跃帧，如 CG_126_03）。
+SPEAKER_FALLBACKS = []
+FRAME_ANOMALIES = []      # [(stem, {'idx','cmd','group','closer'})]
+
 # ============================================================== Lua table parser
-class T(list):
-    """A Lua table: positional items plus any key = value pairs."""
-    def __init__(self, items=(), pairs=None):
-        super().__init__(items)
-        self.pairs = pairs or {}
-
-    def get(self, key, default=None):
-        return self.pairs.get(key, default)
-
-    def text(self, i=0):
-        return self[i] if i < len(self) and isinstance(self[i], str) else ""
-
-
-class LuaError(Exception):
-    pass
-
-
-class LuaReader:
-    IDENT = re.compile(r'[A-Za-z_][A-Za-z0-9_]*')
-    NUM = re.compile(r'-?\d+(?:\.\d+)?')
-
-    def __init__(self, text):
-        self.s = text
-        self.i = 0
-
-    def ws(self):
-        while self.i < len(self.s):
-            c = self.s[self.i]
-            if c in ' \t\r\n':
-                self.i += 1
-            elif c == '-' and self.s.startswith('--', self.i):
-                nl = self.s.find('\n', self.i)
-                self.i = len(self.s) if nl < 0 else nl + 1
-            else:
-                return
-
-    def parse(self):
-        self.ws()
-        if self.i >= len(self.s):
-            raise LuaError('unexpected end')
-        if self.s[self.i] == '{':
-            return self.table()
-        m = self.IDENT.match(self.s, self.i)
-        if m and m.group(0) == 'return':
-            self.i = m.end()
-            return self.parse()
-        return self.value()
-
-    def value(self):
-        self.ws()
-        c = self.s[self.i]
-        if c == '{':
-            return self.table()
-        if c == '"':
-            return self.string()
-        m = self.NUM.match(self.s, self.i)
-        if m:
-            self.i = m.end()
-            txt = m.group(0)
-            return float(txt) if '.' in txt else int(txt)
-        m = self.IDENT.match(self.s, self.i)
-        if m:
-            self.i = m.end()
-            return {'true': True, 'false': False, 'nil': None}.get(m.group(0), m.group(0))
-        raise LuaError('bad value at %d: %r' % (self.i, self.s[self.i:i + 20]))
-
-    def string(self):
-        self.i += 1
-        out, esc = [], False
-        while self.i < len(self.s):
-            c = self.s[self.i]
-            self.i += 1
-            if esc:
-                out.append({'n': '\n', 't': '\t', '"': '"', '\\': '\\', "'": "'"}.get(c, c))
-                esc = False
-            elif c == '\\':
-                esc = True
-            elif c == '"':
-                return ''.join(out)
-            else:
-                out.append(c)
-        raise LuaError('unterminated string')
-
-    def table(self):
-        self.i += 1  # consume {
-        items, pairs = [], {}
-        while True:
-            self.ws()
-            if self.i >= len(self.s):
-                raise LuaError('unterminated table')
-            if self.s[self.i] == '}':
-                self.i += 1
-                break
-            key = None
-            m = self.IDENT.match(self.s, self.i)
-            if m:
-                after = m.end()
-                while after < len(self.s) and self.s[after] in ' \t':
-                    after += 1
-                if after < len(self.s) and self.s[after] == '=' and self.s[after + 1:after + 2] != '=':
-                    key = m.group(0)
-                    self.i = after + 1
-            v = self.parse()
-            if key is not None:
-                pairs[key] = v
-            else:
-                items.append(v)
-            self.ws()
-            if self.i < len(self.s) and self.s[self.i] in ',;':
-                self.i += 1
-        return T(items, pairs)
-
-
-def parse_lua(text):
-    return LuaReader(text).parse()
+# 解析器已拆分为 pipeline/lua_lexer.py（词法，token 流带 SourcePos）与
+# pipeline/lua_parser.py（语法，递归下降 → T(list)）。此处仅保留兼容壳：
+# T / LuaError / parse_lua 三个符号与原 LuaReader 实现语义一致
+# （对 git 4496bd1 原实现做过 588 Config + AvgCharacter 预设全量对拍）。
+from pipeline.lua_parser import LuaError, T, parse_lua  # noqa: E402
+from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
+from pipeline.text_rules import clean_text, EMPH_STATS  # noqa: E402
+from pipeline.speakers import SpeakerResolver  # noqa: E402
+from pipeline.passes import extract_beats  # noqa: E402
+from pipeline.pagedoc import PageDoc  # noqa: E402
+from pipeline.render_md import page_markdown  # noqa: E402
 
 
 # ================================================================= data loading
@@ -177,6 +79,7 @@ def load_speakers():
 
 
 SPEAKERS = load_speakers()
+SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS, diag=SPEAKER_FALLBACKS)
 LANG_STORY = load_json(LANG, 'Story.json')
 LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
 LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
@@ -212,222 +115,28 @@ _TAG_CACHE = {}
 
 
 def script_commands(stem):
-    """Parse one AVG script into an ordered [(cmd, T-param)] list."""
+    """Parse one AVG script into an ordered [Command] list (stable idx identity)."""
     if stem in _TAG_CACHE:
         return _TAG_CACHE[stem]
     path = os.path.join(CFG, stem + '.lua')
     if not os.path.exists(path):
         _TAG_CACHE[stem] = None
         return None
-    recs = parse_lua(open(path, encoding='utf-8').read())
-    cmds = []
-    for r in recs:
-        if isinstance(r, T) and r.get('cmd'):
-            p = r.get('param')
-            cmds.append((r.get('cmd'), p if isinstance(p, T) else T([] if p is None else [p])))
+    recs = parse_lua(open(path, encoding='utf-8').read(), stem)
+    cmds = build_commands(recs)
     _TAG_CACHE[stem] = cmds
     return cmds
 
 
 # ==================================================================== text rules
-def clean_text(s):
-    return re.sub(r'\s+', ' ', str(s or '')).strip()
-
-
-RESOURCE_NAME = re.compile(r'[a-z][a-z0-9_]*')
-
-
-def is_resource_name(text):
-    """Sprite/emoji asset keys are authored straight into the text field of some lines.
-    In STm/STev/BBm they carry no words; in PM chat they mean a sticker send."""
-    return bool(RESOURCE_NAME.fullmatch(text))
-
-
-RUBY = re.compile(r'<r=([^<>]*)></r>')
-# The client's own inline signals, from Avg_4_TalkCtrl.lua:292-296: ==P== paragraph,
-# ==B== break, ==W== wait, ==RT== newline, ==A<delay>== auto-paragraph, ==Off== drop the
-# centred background. None of them carry words, and _NOT_IN_LOG_ only keeps a line out of
-# the in-game log panel.
-TEXT_SIGNAL = re.compile(r'==[A-Za-z0-9_.]*==')
-
-
-def clean_dialogue(s):
-    if not s:
-        return ""
-    # ruby survives: <r=注音></r> is the small reading drawn above a word, i.e. content.
-    # Park it behind a sentinel so the blanket tag strip below cannot eat it.
-    s = RUBY.sub(lambda m: '\x00%s\x00' % m.group(1), s)
-    s = s.replace('<br>', ' ')
-    s = re.sub(r'<[^>]*>', '', s)
-    s = s.replace('==PLAYER_NAME==', PROTAG_NAME)
-    s = re.sub(r'==SEX\d*==', '你', s)
-    s = TEXT_SIGNAL.sub(' ', s)
-    s = s.replace('_NOT_IN_LOG_', '')
-    s = re.sub(r'\x00([^\x00]*)\x00', lambda m: '<r=%s></r>' % m.group(1), s)
-    s = re.sub(r'[ \t]+', ' ', s)
-    return s.strip()
-
-
-NONLOG = '_NOT_IN_LOG_'
-
-
-def _sig(text):
-    """Animation frames that differ only by alpha/whitespace are the same line.
-
-    The signature must be taken from the *rendered* text: a fade frame carries
-    <alpha=#22> where the logged frame carries none (or #CC vs #44), so comparing
-    raw markup would call every frame distinct and keep one per fade run.
-    """
-    return re.sub(r'\s+', '', clean_dialogue(text))
-
-
-def _related(a, b):
-    """True when two frames can be sub-states of one animated visual.
-
-    A fade-in emits the sentence with the trailing part progressively revealed, so
-    frames of one visual compare equal or one is contained in the other. Anything
-    else (an unrelated next line) ends the visual.
-    """
-    return a == b or a in b or b in a
-
-
-def nonlog_repeats(commands):
-    """SetTalk/SetPhoneMsg params whose only job was the fade-in animation.
-
-    The client renders one long line by issuing the same SetTalk over and over with
-    a rising <alpha=#22..#FF>, and those frames carry a _NOT_IN_LOG_ prefix because
-    they never enter the in-game backlog. Emitting one archive line per frame makes
-    the same sentence appear 6..57 times, so the frames must be folded back down.
-
-    Rules, per run of consecutive _NOT_IN_LOG_ frames:
-      1) if the animated visual ends on a logged frame carrying the same text, drop
-         the whole run -- that logged frame is what the backlog shows;
-      2) otherwise keep only the run's last non-empty frame (the animation's final
-         state), so standalone visuals never vanish from the archive.
-
-    The logged twin is searched along the animation chain around the run, because
-    the script interleaves Clear / SetBGM / Wait between the fade frames and their
-    final logged frame -- segmenting on Clear alone splits one visual in two.
-    """
-    rows = []          # [(param, in_log, signature)]
-    for cmd, param in commands:
-        if cmd in ('SetTalk', 'SetPhoneMsg') and len(param) >= 3:
-            raw = param[2]
-            if isinstance(raw, str):
-                rows.append((param, not raw.startswith(NONLOG),
-                             _sig(raw.replace(NONLOG, ''))))
-
-    n = len(rows)
-    skip = set()
-    i = 0
-    while i < n:
-        if rows[i][1]:                          # logged frame, always kept
-            i += 1
-            continue
-        j = i
-        while j < n and not rows[j][1]:
-            j += 1
-        run = range(i, j)                       # maximal _NOT_IN_LOG_ run
-        nonempty = [k for k in run if rows[k][2]]
-        if nonempty:
-            last = nonempty[-1]
-            sig = rows[last][2]
-            twin = None
-            for step in (-1, 1):                # walk the animation chain
-                k = last + step
-                while 0 <= k < n and rows[k][2] and _related(rows[k][2], sig):
-                    if rows[k][1] and rows[k][2] == sig:
-                        twin = k
-                        break
-                    k += step
-                if twin is not None:
-                    break
-            if twin is not None:                # rule 1: the log already shows it
-                skip.update(id(rows[k][0]) for k in run)
-            else:                               # rule 2: keep the final state
-                skip.update(id(rows[k][0]) for k in run)
-                skip.discard(id(rows[last][0]))
-        i = j
-    return skip
-
-
-def speaker_of(spk_id, talk_type):
-    """Resolve an AVG speaker id to a display name, honouring the protagonist rules."""
-    sid = str(spk_id)
-    if sid in PROTAG_ID:
-        return PROTAG_NAME
-    if sid == "0":
-        return PROTAG_NAME if str(talk_type) == "2" else "旁白"
-    name, surfix = SPEAKERS.get(sid) or speaker_prefix_of(sid) or ("", "")
-    return clean_text(name or surfix or sid)
-
-
-def speaker_prefix_of(sid):
-    """Variant speaker keys carry a suffix the preset table does not list (avg1_144_BB_002
-    is 千都世), so fall back to the longest dotted prefix that is registered."""
-    parts = sid.split('_')
-    for cut in range(len(parts) - 1, 1, -1):
-        hit = SPEAKERS.get('_'.join(parts[:cut]))
-        if hit:
-            return hit
-    return None
+# 文本清洗/签名规则（clean_text/clean_dialogue/is_resource_name/_sig/_related）已移入
+# pipeline/text_rules.py；动画帧折叠 fold_animations（原 nonlog_repeats）、抉择方言
+# fork_options、beat 提取与分支归属 extract_beats 已移入 pipeline/passes.py；
+# 说话人解析已移入 pipeline/speakers.py（Phase 1c）。行为与原实现逐行等价。
 
 
 # ============================================================ command processing
-FORK_DEFS = {
-    "SetMajorChoice": "major",
-    "SetPersonalityChoice": "personality",
-    "SetChoiceBegin": "generic",
-    "SetPhoneMsgChoiceBegin": "phone",
-}
-FORK_CLOSE = {"ChoiceJumpTo": "jump", "ChoiceRollover": "roll", "ChoiceEnd": "end"}
-
-
-def fork_options(kind, param):
-    """Extract (prompt, [(option title, option desc, jump EvId)]) per fork dialect."""
-    strings = [x for x in param if isinstance(x, str)]
-    nested = [x for x in param if isinstance(x, T)]
-
-    if kind == "major":
-        # Every option block starts at an AvgChoice_ prefab and runs until the next
-        # prefab: [title, desc(?), route marker(?), ..., jump EvId]. The EvId (E901,
-        # Eev5_01, ...) is the first E-prefixed string after the title; it joins with
-        # StoryCondition/ActivityStoryEvidence to tell which level the option leads to.
-        prefabs = [i for i, s in enumerate(strings) if s.startswith("AvgChoice_")]
-        opts = []
-        for n, i in enumerate(prefabs):
-            seg = strings[i + 1:prefabs[n + 1] if n + 1 < len(prefabs) else len(strings)]
-            if not seg:
-                continue
-            title = clean_dialogue(seg[0])
-            desc = clean_dialogue(seg[1]) if len(seg) > 1 and not re.match(r'^[EC][A-Za-z0-9_]*$', seg[1]) else ""
-            ev = next((s for s in seg[1:] if re.match(r'^E[A-Za-z0-9_]+$', s)), "")
-            if title:
-                opts.append((title, desc, ev))
-        prompt = next((clean_dialogue(s) for s in reversed(strings)
-                       if not s.startswith(("AvgChoice_", "avg_emoji")) and re.search(r'[？?]', s)), "")
-        return prompt, opts
-
-    if kind == "phone":
-        # param[0] is the group id the reply jumps are keyed by; the labels follow it
-        return "", [(clean_dialogue(s), "", "") for s in list(param)[1:]
-                    if isinstance(s, str) and clean_dialogue(s) and s != "avg3_100"]
-
-    if kind == "generic":
-        filled = [x for x in nested if any(isinstance(v, str) and v.strip() for v in x)]
-        labels = [clean_dialogue(v) for v in filled[0] if isinstance(v, str) and clean_dialogue(v)] if filled else []
-        prompt = ""
-        if len(filled) > 1:
-            prompt = next((clean_dialogue(v) for v in filled[-1] if isinstance(v, str) and clean_dialogue(v)), "")
-        return prompt, [(l, "", "") for l in labels]
-
-    # personality: flat label list, no AvgChoice_ prefabs
-    skip = ("c", "l", "r", "e", "b", "a", "g", "none", "close")
-    labels = [clean_dialogue(s) for s in strings
-              if clean_dialogue(s) and s not in skip and not re.match(r'^\d{2,3}$', s)
-              and not s.startswith(("avg_emoji", "AvgChoice_"))]
-    prompt = next((l for l in reversed(labels) if re.search(r'[？?]', l)), "")
-    return prompt, [(l, "", "") for l in labels if l != prompt]
+# FORK_DEFS/FORK_CLOSE/fork_options 已移入 pipeline/passes.py（Phase 1c）。
 
 
 def extract_script(stem):
@@ -435,187 +144,18 @@ def extract_script(stem):
     cmds = script_commands(stem)
     if cmds is None:
         return None
-    beats = []
-    stack = []
-    pending_close = []
-    last_marker = None
-    meta = {'recap': '', 'episode': '', 'title': ''}
-    # Fade-in frames of the same line are not separate lines of dialogue.
-    skip = nonlog_repeats(cmds)
-
-    def frame_for(group):
-        for fr in reversed(stack):
-            if fr['group'] == group:
-                return fr
-        return None
-
-    def active():
-        for fr in reversed(stack):
-            if fr['cur'] is not None:
-                return fr, fr['cur']
-        return None
-
-    for cmd, param in cmds:
-        head = str(param[0]) if param else ""
-        kind = FORK_DEFS.get(cmd)
-        if kind:
-            prompt, opts = fork_options(kind, param)
-            opts = [(t, d, e) for t, d, e in opts if t]
-            if opts:
-                beats.append({'k': 'choice', 'kind': kind, 'prompt': prompt, 'options': opts})
-                last_marker = None
-                if kind != 'phone':
-                    stack.append({'group': head, 'titles': [t for t, _, _ in opts], 'cur': None, 'opened': set()})
-            continue
-
-        closer = next((v for suffix, v in FORK_CLOSE.items() if cmd.endswith(suffix)), None)
-        if closer:
-            fr = frame_for(head)
-            if fr:
-                if closer == 'jump':
-                    try:
-                        fr['cur'] = int(param[1])
-                    except (ValueError, TypeError, IndexError):
-                        fr['cur'] = None
-                elif closer == 'roll':
-                    fr['cur'] = None
-                else:
-                    stack.remove(fr)
-                    if fr['opened']:
-                        pending_close.append({'titles': fr['titles'], 'opened': fr['opened']})
-                    last_marker = None
-                    if not stack and pending_close:
-                        total = sum(len(p['opened']) for p in pending_close)
-                        silent = []
-                        for p in pending_close:
-                            for i, t in enumerate(p['titles'], 1):
-                                if i not in p['opened'] and t not in silent:
-                                    silent.append(t)
-                        beats.append({'k': 'merge', 'count': total, 'forks': len(pending_close), 'silent': silent})
-                        pending_close = []
-            continue
-
-        if cmd in ("SetTalk", "SetPhoneMsg"):
-            if len(param) < 3:
-                continue
-            if id(param) in skip:
-                continue
-            talk_type, spk, raw = str(param[0]), param[1], param[2]
-            text = clean_dialogue(raw if isinstance(raw, str) else "")
-            if not text:
-                continue
-            # In SetTalk/SetBubble a bare asset key is a sprite placeholder, not a line.
-            # In SetPhoneMsg it means the character sent that sticker -- real content.
-            if cmd == "SetTalk" and (text.startswith(("ep_", "BG_")) or is_resource_name(text)):
-                continue
-            sticker = cmd == "SetPhoneMsg" and is_resource_name(text)
-            fr = active()
-            if fr:
-                f, kk = fr
-                marker = (id(f), kk)
-                if marker != last_marker:
-                    title = f['titles'][kk - 1] if kk - 1 < len(f['titles']) else "分支%d" % kk
-                    beats.append({'k': 'branch_open', 'option': title})
-                    last_marker = marker
-                f['opened'].add(kk)
-            name = speaker_of(spk, talk_type)
-            beats.append({'k': 'talk', 'speaker': name, 'text': text,
-                          # type 2 only means "inner thought" for spoken lines; inside a
-                          # phone conversation it is just the message the player sends.
-                          'thought': talk_type == "2" and cmd == "SetTalk",
-                          'sticker': sticker,
-                          'channel': 'msg' if cmd == "SetPhoneMsg" else 'talk'})
-
-        elif cmd == "SetBubble":
-            if len(param) < 3:
-                continue
-            text = clean_dialogue(param[2] if isinstance(param[2], str) else "")
-            if not text:
-                continue
-            if not text or is_resource_name(text):
-                continue
-            beats.append({'k': 'bubble', 'speaker': speaker_of(param[0], 0), 'text': text})
-
-        elif cmd == "SetGroupId":
-            beats.append({'k': 'wave', 'no': clean_text(param[0]) if param else ""})
-
-        elif cmd == "SetSceneHeading":
-            # Official layout is a fixed 5 slots: 时刻 / 月 / 日 / 区域 / 地点
-            time_, month, day, region, place = (list(param) + ['', '', '', '', ''])[:5]
-            beats.append({'k': 'scene',
-                          'time': clean_text(time_),
-                          'date': " ".join(x for x in (clean_text(month), clean_text(day)) if x),
-                          'place': " ".join(x for x in (clean_text(region), clean_text(place)) if x)})
-
-        elif cmd == "SetIntro":
-            s = [x if isinstance(x, str) else "" for x in param]
-            if len(s) >= 4:
-                # [0] 代号 [1] 话数 [2] 标题 [3] 跳过概要（==RT== 是引擎的换行标记）
-                parts = [clean_dialogue(p) for p in s[3].split('==RT==')]
-                meta['recap'] = "\n".join(p for p in parts if p)
-                meta['episode'] = clean_dialogue(s[1])
-                meta['title'] = clean_dialogue(s[2])
-
-    return {'meta': meta, 'beats': beats}
+    diag = []
+    res = extract_beats(cmds, SPEAKER_RESOLVER, diag=diag)
+    for d in diag:
+        FRAME_ANOMALIES.append((stem, d))
+    return res
 
 
 # ==================================================================== rendering
-def render_beats(beats):
-    """One beat list -> markdown lines. Used by both the main and event writers."""
-    lines = []
-    for b in beats:
-        k = b['k']
-        if k == 'talk':
-            if b.get('sticker'):
-                lines.append("**%s**：〔发送表情 `%s`〕" % (b['speaker'], b['text']))
-            else:
-                tag = "（思考）" if b['thought'] else ("（短信）" if b['channel'] == 'msg' else "")
-                lines.append("**%s**%s：「%s」" % (b['speaker'], tag, b['text']))
-        elif k == 'bubble':
-            lines.append("**%s**（战斗气泡）：「%s」" % (b['speaker'], b['text']))
-        elif k == 'wave':
-            lines += ["", "> **[战斗阶段 %s]**" % b['no']]
-        elif k == 'scene':
-            bits = [x for x in (b['place'], b['date'], b['time']) if x]
-            lines += ["", "> **【场景 · %s】**" % " · ".join(bits)]
-        elif k == 'branch_open':
-            lines += ["", "> **[若选「%s」↓]**" % b['option']]
-        elif k == 'merge':
-            if b['forks'] > 1:
-                mk = "> **[▲ 以上 %d 层嵌套抉择的 %d 条分支台词，到此统一汇合]**" % (b['forks'], b['count'])
-            elif b['count'] == 1:
-                mk = "> **[▲ 以上台词只出现在所选分支，其余选项直接进入下一段]**"
-            else:
-                mk = "> **[▲ 以上 %d 条分支互斥，自此汇合]**" % b['count']
-            lines += ["", mk]
-            if b['silent']:
-                lines.append("> *（其中%s没有专属台词，选中即跳到汇合点）*" %
-                             "、".join("「%s」" % s for s in b['silent']))
-        elif k == 'choice':
-            label = {'major': '重大抉择', 'personality': '玩家抉择',
-                     'generic': '玩家回应' if len(b['options']) == 1 else '抉择',
-                     'phone': '通讯回复抉择'}[b['kind']]
-            prompt = "：%s" % b['prompt'] if b['prompt'] else ""
-            lines += ["", "> **[%s%s]**" % (label, prompt)]
-            lines += ["> - **%s**%s" % (t, "：%s" % d if d else "") for t, d, _ev in b['options']]
-        lines.append("")
-    return lines
-
-
-
-def section_doc(heading, info, recap, body_title, beats, info_title="关卡信息"):
-    """Shared page skeleton for every story family.
-
-    The skip recap is authored inside the script (SetIntro[3], with ==RT== as the line
-    break); the stage table's Desc is a one-line flavour hint and is not the recap.
-    """
-    lines = [heading, "", "## 1. %s" % info_title, *info, ""]
-    if recap:
-        lines += ["## 2. 官方跳过概要", "",
-                  "> " + recap.replace("\n", "\n> "), ""]
-    lines += ["## 3. " + body_title, ""]
-    lines += render_beats(beats)
-    return "\n".join(lines).rstrip() + "\n"
+# beat 渲染（render_beats→beat_lines）与页面骨架（section_doc→page_markdown）
+# 已移入 pipeline/render_md.py（Markdown 后端，Phase 1d）；页面文档结构统一为
+# pipeline/pagedoc.py 的 PageDoc IR，同时落盘 story_docs/_beats/ 侧车供
+# Phase 2 的 HTML 后端直渲。
 
 
 def write(path, text):
@@ -636,9 +176,22 @@ _CHAPTER_NODES = collections.OrderedDict()
 _RENDERED = set()
 
 
-def record_page(family, path, parsed, ident, title, code='', group=None,
+def write_beats(page, doc):
+    """PageDoc 侧车落盘：story_docs/_beats/<page 的 .html 换 .json>。
+
+    Phase 2 起 HTML 后端（scripts/site/render_html.py）直接消费这些侧车，
+    不再从 Markdown 反编译。侧车随 git 提交（门控手册 8.5 认可的位置）。
+    """
+    if not page:
+        return
+    rel = page[:-len('.html')] + '.json' if page.endswith('.html') else page + '.json'
+    write(os.path.join(OUT, '_beats', rel),
+          json.dumps(doc.to_dict(), ensure_ascii=False, indent=1) + "\n")
+
+
+def record_page(family, path, doc, ident, title, code='', group=None,
                 stems=(), page=None, **extra):
-    beats = parsed['beats']
+    beats = doc.beats
     speakers = []
     for b in beats:
         if b['k'] in ('talk', 'bubble') and b['speaker'] not in speakers:
@@ -652,7 +205,7 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
         'page_md': os.path.relpath(path, OUT).replace(os.sep, '/'),
         'page': page,
         'stems': stems,
-        'recap': parsed['meta']['recap'],
+        'recap': doc.meta['recap'],
         'speakers': speakers,
         'counts': dict(counts),
         'preview': " ".join(b['text'] for b in beats if b['k'] == 'talk')[:180],
@@ -668,6 +221,7 @@ def record_page(family, path, parsed, ident, title, code='', group=None,
     rec.update(extra)
     _PAGES.append(rec)
     _RENDERED.update(stems)
+    write_beats(page, doc)
     return rec
 
 
@@ -843,13 +397,13 @@ def build_main():
                 "- **关卡描述**：%s" % hint,
                 "- **通关目标**：%s" % (aim or '推进主线剧情'),
             ]
-            doc = section_doc("# %s %s" % (idx, title), info,
-                              body_src['meta']['recap'] or hint,
-                              "战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "逐句台词",
-                              body_src['beats'])
+            doc = PageDoc("# %s %s" % (idx, title), info,
+                          body_src['meta']['recap'] or hint,
+                          "战斗内气泡对白（SetBubble，随战斗阶段推进）" if bubbles else "逐句台词",
+                          body_src['beats'], meta=body_src['meta'])
             path = os.path.join(sdir, safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
-            write(path, doc)
-            record_page('main', path, body_src, r['Id'], title, code=idx,
+            write(path, page_markdown(doc))
+            record_page('main', path, doc, r['Id'], title, code=idx,
                         group={'kind': 'chapter', 'id': ch, 'label': clabel,
                                'title': ctitle, 'year': cyear},
                         stems=[stem if parsed else None, bubble_stem], page=page,
@@ -886,16 +440,16 @@ def build_events():
             idx = lang_of(LANG_ACT, r.get('Index', ''))
             title = lang_of(LANG_ACT, r.get('Title', ''))
             hint = lang_of(LANG_ACT, r.get('Desc', ''))
-            doc = section_doc("# %s %s" % (idx, title),
-                              ["- **所属活动**：%s（活动编号 %s）" % (name, cid),
-                               "- **关卡 ID**：`%s`" % r['Id'],
-                               "- **AVG 剧本**：`%s`" % stem,
-                               "- **关卡描述**：%s" % hint],
-                              parsed['meta']['recap'] or hint,
-                              "逐句台词", parsed['beats'])
+            doc = PageDoc("# %s %s" % (idx, title),
+                          ["- **所属活动**：%s（活动编号 %s）" % (name, cid),
+                           "- **关卡 ID**：`%s`" % r['Id'],
+                           "- **AVG 剧本**：`%s`" % stem,
+                           "- **关卡描述**：%s" % hint],
+                          parsed['meta']['recap'] or hint,
+                          "逐句台词", parsed['beats'], meta=parsed['meta'])
             path = os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
-            write(path, doc)
-            record_page('events', path, parsed, r['Id'], title, code=idx,
+            write(path, page_markdown(doc))
+            record_page('events', path, doc, r['Id'], title, code=idx,
                         group={'kind': 'activity', 'id': cid, 'label': name},
                         stems=[stem], page='events/%s/%s.html' % (cid, r['Id']), hint=hint)
             stats['sections'] += 1
@@ -947,9 +501,10 @@ def build_character_plots():
         folder = os.path.join(OUT, 'characters',
                               safe_name('%s_%s' % (owner.get('Char'), cname or stem)))
         path = os.path.join(folder, 'sections', safe_name('%s_%s' % (owner['Id'], title)) + '.md')
-        write(path, section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                                parsed['beats'], info_title="剧情档案信息"))
-        record_page('characters', path, parsed, owner['Id'], title,
+        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                      parsed['beats'], info_title="剧情档案信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('characters', path, doc, owner['Id'], title,
                     group={'kind': 'character', 'id': owner.get('Char'), 'label': cname},
                     stems=[stem], page='characters/%s/%s.html' % (owner.get('Char'), owner['Id']),
                     affinity=owner.get('UnlockAffinityLevel'), twins=twins)
@@ -978,10 +533,11 @@ def build_npc_plots():
         folder = os.path.join(OUT, 'npc_bonds',
                               safe_name('%s_%s' % (r.get('NPCId'), npc_name or r.get('avgId'))))
         path = os.path.join(folder, 'sections', safe_name('%s_%s' % (r['Id'], idx or sub)) + '.md')
-        write(path, section_doc("# %s" % " ".join(x for x in (idx, sub) if x), info,
-                                parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                                info_title="剧情档案信息"))
-        record_page('npc_bonds', path, parsed, r['Id'],
+        doc = PageDoc("# %s" % " ".join(x for x in (idx, sub) if x), info,
+                      parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                      info_title="剧情档案信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('npc_bonds', path, doc, r['Id'],
                     " ".join(x for x in (idx, sub) if x), code=idx,
                     group={'kind': 'npc', 'id': r.get('NPCId'), 'label': npc_name},
                     stems=[r.get('avgId')],
@@ -1013,16 +569,15 @@ def build_discs():
             "- **关联角色**：%s" % (owners or '无'),
             "- **AVG 剧本**：`%s`" % stem,
         ]
-        doc = section_doc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                          parsed['beats'], info_title="唱片信息")
         prose = LANG_DISC.get(r.get('StoryDesc', ''), '').strip()
-        if prose:
-            doc += ("\n\n## 4. 唱片附文（DiscIP 表 StoryDesc 原文）\n\n"
-                    "> 与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。\n\n"
-                    + "\n".join("> " + ln for ln in prose.split("\n")) + "\n")
+        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                      parsed['beats'], info_title="唱片信息", meta=parsed['meta'],
+                      appendix={'title': '唱片附文（DiscIP 表 StoryDesc 原文）',
+                                'note': '与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。',
+                                'prose': prose} if prose else None)
         path = os.path.join(OUT, 'discs', safe_name('%s_%s' % (r['Id'], title or stem)) + '.md')
-        write(path, doc)
-        record_page('discs', path, parsed, r['Id'], title,
+        write(path, page_markdown(doc))
+        record_page('discs', path, doc, r['Id'], title,
                     group={'kind': 'disc', 'id': r['Id'], 'label': title,
                            'characters': [c for c in chars if c]},
                     stems=[stem], page='discs/%s.html' % r['Id'],
@@ -1067,9 +622,11 @@ def build_storysets():
             ]
             path = os.path.join(folder, 'sections',
                                 safe_name('%s_%s' % (s['Id'], idx or desc)) + '.md')
-            write(path, section_doc("# %s" % (desc or idx), info, parsed['meta']['recap'],
-                                    "逐句台词", parsed['beats'], info_title="故事集小节信息"))
-            record_page('storysets', path, parsed, s['Id'], desc or idx, code=idx,
+            doc = PageDoc("# %s" % (desc or idx), info, parsed['meta']['recap'],
+                          "逐句台词", parsed['beats'], info_title="故事集小节信息",
+                          meta=parsed['meta'])
+            write(path, page_markdown(doc))
+            record_page('storysets', path, doc, s['Id'], desc or idx, code=idx,
                         group={'kind': 'storyset', 'id': chap['Id'], 'label': cname,
                                'no': cno, 'tab': tab},
                         stems=[s.get('AVGId')],
@@ -1103,11 +660,12 @@ def build_prologue():
             info.append("- **同场战斗气泡**：%s（见 `battles_unmounted/`）" % "、".join(battle))
         path = os.path.join(OUT, 'prologue', 'sections',
                             safe_name('%s_%s' % (stem, parsed['meta']['title'] or stem)) + '.md')
-        write(path, section_doc("# %s %s" % (parsed['meta']['episode'] or '序',
-                                             parsed['meta']['title'] or ''),
-                                info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                                info_title="序章信息"))
-        record_page('prologue', path, parsed, stem, parsed['meta']['title'] or stem,
+        doc = PageDoc("# %s %s" % (parsed['meta']['episode'] or '序',
+                                   parsed['meta']['title'] or ''),
+                      info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
+                      info_title="序章信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('prologue', path, doc, stem, parsed['meta']['title'] or stem,
                     code=parsed['meta']['episode'] or '序',
                     group={'kind': 'prologue', 'id': 0, 'label': '序章'},
                     stems=[stem], page='prologue/%s.html' % stem)
@@ -1136,16 +694,16 @@ def build_orphan_battles(used):
         note = ("属序章《最初的起点》沙漠星塔一战，Story 表不列序章所以无行引用"
                 if stem.startswith('BBm00_') else
                 "包内没有任何关卡表引用此剧本，只按剧本代号存目")
-        doc = section_doc("# 战斗气泡 `%s`" % stem,
-                          ["- **AVG 剧本**：`%s`" % stem,
-                           "- **气泡条数**：%d" % n,
-                           "- **出场说话人**：%s" % who,
-                           "- **挂载状态**：%s" % note],
-                          "", "战斗气泡对白（SetBubble，随战斗阶段推进）", parsed['beats'],
-                          info_title="剧本信息")
+        doc = PageDoc("# 战斗气泡 `%s`" % stem,
+                      ["- **AVG 剧本**：`%s`" % stem,
+                       "- **气泡条数**：%d" % n,
+                       "- **出场说话人**：%s" % who,
+                       "- **挂载状态**：%s" % note],
+                      "", "战斗气泡对白（SetBubble，随战斗阶段推进）", parsed['beats'],
+                      info_title="剧本信息", meta=parsed['meta'])
         path = os.path.join(OUT, 'battles_unmounted', safe_name(stem) + '.md')
-        write(path, doc)
-        record_page('battles_unmounted', path, parsed, stem, stem,
+        write(path, page_markdown(doc))
+        record_page('battles_unmounted', path, doc, stem, stem,
                     group={'kind': 'unmounted', 'id': None, 'label': '无关卡引用的战斗气泡'},
                     stems=[stem], page='battles/%s.html' % stem, mount_note=note)
         stats['sections'] += 1
@@ -1265,6 +823,60 @@ def write_coverage():
     return len(alls), len(alls) - len(todo), len(todo)
 
 
+def write_diagnostics(battle_map, skipped, unattached):
+    """story_docs/_diagnostics.json —— 上游数据异常与编译器兜底的机器可读登记。
+
+    与人读的 _battle_reconciliation.md 互补：这里是脚本/测试可直接消费的结构化
+    条目（手册 8.5 认可的根级侧车）。纯增量文件：不在黄金清单覆盖面（其只收
+    *.md、_data/*.json、site/**），也不被任何现有契约消费。列表按构造序或
+    显式排序，同一输入重建字节稳定。
+    """
+    anomalies = {}
+    for stem, d in FRAME_ANOMALIES:
+        anomalies[(stem, d['idx'], d['cmd'], d['group'])] = {
+            'stem': stem, 'idx': d['idx'], 'cmd': d['cmd'],
+            'group': d['group'], 'closer': d['closer']}
+    fallbacks = {}
+    for f in SPEAKER_FALLBACKS:
+        fallbacks.setdefault(f['sid'], f)
+    obj = {
+        'note': '上游数据异常与编译器兜底的机器可读登记（build_story 生成）。'
+                '人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。'
+                'speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；'
+                'speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数'
+                '（正常行为，按字面解析，不逐条列出）；'
+                'choice_frame_anomalies=抉择关闭指令的 group 无活跃帧'
+                '（phone 方言不入帧栈，其落空属设计使然，不登记）；'
+                'emph_tags_preserved/orphan_emph_tags_stripped=成对保留与'
+                '孤儿剥离的 <b>/<i> 强调标记计数（Phase 4b，clean_dialogue '
+                '栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。'
+                '口径为清洗调用累计（渐显帧签名与文本生成各清洗一次，'
+                '被折叠帧也计入），不是产物内标记数——产物内成对强调仅 '
+                'CG_147_02 一行，其余全在折叠帧里。',
+        'code_mismatches': [
+            {'sid': sid, 'story_id': story, 'storyid_suffix': suffix,
+             'display_code': disp, 'bubble_stem': stem, 'condition_id': cond,
+             'chapter': c}
+            for sid, story, suffix, disp, stem, cond, c in CODE_MISMATCHES],
+        'battle_bubble_missing': [
+            {'sid': b[0], 'expected_stem': b[1], 'chapter': b[3]}
+            for b in battle_map if b[2] == 'MISSING'],
+        'unattached_bbm_scripts': sorted(unattached),
+        'rows_without_script': [
+            {'chapter': c, 'sid': sid, 'stem': stem, 'title': t, 'kind': kind}
+            for c, sid, stem, t, kind in skipped],
+        'speaker_prefix_fallbacks': [
+            fallbacks[k] for k in sorted(fallbacks) if fallbacks[k]['via'] == 'prefix'],
+        'speaker_inline_names': sum(1 for k in fallbacks if fallbacks[k]['via'] == 'sid'),
+        'choice_frame_anomalies': [anomalies[k] for k in sorted(anomalies)],
+        'emph_tags_preserved': EMPH_STATS['paired'],
+        'orphan_emph_tags_stripped': EMPH_STATS['orphan'],
+    }
+    write(os.path.join(OUT, '_diagnostics.json'),
+          json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
+    return obj
+
+
 def main():
     # story_docs/ is fully generated: a mount change removes pages, and leaving the old
     # files behind would let the validators read a tree this script never wrote
@@ -1336,6 +948,14 @@ def main():
         lines += ["## 关卡表已列出、包内无剧本的关卡行（未开放线路）", ""]
         lines += ["- 第 %s 章 `%s` %s（%s，剧本代号 `%s`）" % (c, sid, t, kind, stem) for c, sid, stem, t, kind in skipped]
     write(os.path.join(OUT, '_battle_reconciliation.md'), "\n".join(lines))
+    djson = write_diagnostics(battle_map, skipped, unattached)
+    print("诊断侧车 _diagnostics.json：代号错配=%d 气泡缺失=%d 未引用BBm=%d "
+          "无剧本行=%d 前缀兜底=%d 内联名=%d 帧异常=%d 强调保留=%d 强调孤儿=%d"
+          % (len(djson['code_mismatches']), len(djson['battle_bubble_missing']),
+             len(djson['unattached_bbm_scripts']), len(djson['rows_without_script']),
+             len(djson['speaker_prefix_fallbacks']), djson['speaker_inline_names'],
+             len(djson['choice_frame_anomalies']),
+             djson['emph_tags_preserved'], djson['orphan_emph_tags_stripped']))
     print("Wrote %s" % OUT)
 
 

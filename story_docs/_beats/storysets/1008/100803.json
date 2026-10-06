@@ -1,0 +1,696 @@
+{
+ "heading": "# 真理的囚徒 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#08《真理的囚徒》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`100803`",
+  "- **AVG 剧本**：`STsp_08_03`"
+ ],
+ "recap": "为了能在最后也为科研做出一份贡献，科洛妮丝喝下了那瓶\"毒药\"。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了能在最后也为科研做出一份贡献，科洛妮丝喝下了那瓶\"毒药\"。",
+  "episode": "第三话",
+  "title": "真理的囚徒 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "?月 ?日",
+   "place": "恩赐意志 黄昏裁判第七监狱"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "原来如此，怪不得你当时又是失踪，又是给自己改造眼睛……原来背后还有这一出。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "这么说来，黄昏裁判挖走你的义眼也很合理，毕竟那是“永夜”的造物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "那帮无能的审判官，只会在这种小事上斤斤计较。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "拿了义眼之后，我就和那位永夜分开了，之后发生的事情你也都知道的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "虽然她没有亲口说出她用的是什么魔力，但通过感知她施法时的魔力流动，我可以确认，她用的是储存在她身体里的魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你的发现很有价值，但为什么你不找我说这件事， 而是要写成质疑恩赐体系的论文，堂而皇之地交上去呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这都怪你啊，伊格娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你在我心里是个如此纯粹的“学者”，以至于让我错误地认为，星辉之眼里都是你这样的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "同样的话还给你，科洛妮丝，你太像个“学生”了，而学生总是太天真，太幼稚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "这枚义眼我帮你要回来了，也还给你吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "谢了，眼眶里没有它都有些不习惯了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "再怎么样，这也是你身体的一部分，既然要死，还是体面一点的好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你和永夜的这段接触，说明黄昏裁判的判决毫无问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "最后，你还有什么请求吗？我会尽量帮你实现的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，让我想想，我最好能死的有点价值，比如作实验素材什么的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "要不然你拿我试验治疗魔法吧。怎么样？反正我也是个死刑犯了，可以奉陪到底。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我正好也体验过永夜的治疗魔法，这样被治疗的时候我就能告诉你，两种魔法在体感上的区别了，说不定对你们开发治疗魔法有帮助。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你不是说想死得有点价值吗？这种成功率极低的实验，做了也只会白白浪费你的命罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "可是，万一我没死呢？那你不就成了第一个掌握治疗魔法的千古名医了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你稍微有点死刑犯的自觉好吗。你如果没被魔法杀死，难道我还得再费劲给你喂一口毒补上吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "好吧好吧……真麻烦，那干脆用我来试药吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "别以为我不知道，星辉之眼一直在研究毒药。没有比我更合适的试验品了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你知道的还真不少嘛， 给——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "喔~你真还随身带着啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "我知道，比起绞刑，你八成会更喜欢这种的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "有这么一位懂我的学姐真好—— 但我要是就这么在狱中死掉了，你恐怕得担责吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "所谓的“公开处刑”，只不过是黄昏裁判拿来和星辉之眼谈条件的筹码。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "黄昏裁判的真正目的是永远封住你的嘴。至于手段……对他们来说并不重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "不管怎么说，你也是星辉之眼的人，事情闹到“公开处刑”未免也太难看了。于是，星辉之眼选择许诺给黄昏裁判一些好处……这就是为何，我来到此地的原因，科洛妮丝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你还挺擅长这种“秘密”交易啊，那我就不客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "请把我锁上吧，然后准备好纸笔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "很多烈性毒药服下后，中毒的人都会死的很狰狞吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我可不想我在痛苦中袭击你，至于咽下去的感受，我会口述的，得请你做一下记录了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "如你所愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "液体的口感微甜，好入口。 但还是会被味觉敏锐的人发现，建议改成无色无味的。 服用二十秒后，有眩晕感。 五十秒后，四肢用不上力，视线开始模糊…… 药效作用很快，无呕血……不会留下证据，很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "伊格娜，你这毒药还挺不错，死之前毫无痛苦，谢谢你最后的温柔——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（啊……我已经死了吗？等等，这是......车轮的声音……)",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这位小姐，该醒了，您准备就这样一路睡到目的地吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "(我们要去哪里啊……天堂吗？天堂原来也是乘魔物车去的吗……不对，天堂这种东西不可能存在。而且，这阳光……)",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "难道……天堂真的存在？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赶路的车夫",
+   "text": "哈哈哈，您睡迷糊了吧？ 不好意思啊，小姐，咱这不是去天堂的车哦，快看，前面就是菲莱城了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "菲莱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赶路的车夫",
+   "text": "啊，对啊？您不是要去菲莱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我不记得……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（我不是……应该已经死了吗？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赶路的车夫",
+   "text": "嗨呀，刚睡醒嘛，一时半会反应不过很正常！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赶路的车夫",
+   "text": "昨天下午，您和您恩赐意志的朋友上了马车，您的朋友说你们去菲莱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赶路的车夫",
+   "text": "您上了车倒头就睡，您的朋友坐到半路又说想起来有急事得回去一趟，就留下车费下车了，还说你熬了好几夜，让我不要打扰您睡觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（伊格娜......你让我喝下去的不是毒药，而是“伪装死亡”的药吗？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "啊，啊，的确是这样，我想起来了，抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赶路的车夫",
+   "text": "您的钱包、行李都在箱边放着，别忘了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "哦哦，好，谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（菲莱城.....已经离黄昏裁判的第七监狱很远了……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（钱包里有个地址？这字迹……是伊格娜写的，总之先去这里看看吧。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（没错了，地址上写的就是这里， 好偏僻啊。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（病床，医疗器械……这里看起来像是一间诊所？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这不是我的人体骨架模型吗？怎么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（我的标本也在这里……连之前被没收的器材和资料都在。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "（桌上有一封信和一枚徽章。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "科洛妮丝，祝贺你。 从今天起，你就是“生命奥秘研究学会”的一员了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这是一个由星辉之眼内部精英组建的秘密研究组织， 主要研究一些不太受恩赐意志待见的东西——比如说心相石与魔法。 希望之后你在菲莱，能将这份对真理的追求发扬光大， 将那些你探索到的有趣发现，我们也期待着能与你一同分享。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你的所有物品，我已经安排人妥善送到了诊所。 当然，对外的说法是“全部烧毁了”。 若有其他任何所需，记得用一个新名字给我回信。 毕竟，在星辉之眼，已经没有科洛妮丝这个人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "好了，菲莱的生活成本可不低，你得赶紧把诊所收拾好，然后开始营业。 你走了之后我也在琢磨，要不要也辞掉工作，出去开一家小诊所， 毕竟没有你在，星辉之眼的工作简直是无聊透顶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那么，祝你在菲莱一切安好。 伊格娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "居然还有不为人知的另一面……能让罪人从黄昏裁判手中脱身，还取回了被没收的义眼…… 真厉害啊，伊格娜学姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "如此照顾我。该不会从大学那会，就想要将我的头脑纳为己用了吧…… 按这封信的说法……看来我已经别无选择了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "也行，只要能让我继续做研究，干什么都行。 诊所？治病应该能勉强混个温饱吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "收拾一下就准备开业吧，菲莱的生活成本确实不低。我要是饿死了你会负责的吧，学姐？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "至此，旧日的科洛妮丝已然死去，而一个全新的“白衣死神”，在菲莱灰城区的阴影中，走上了只属于她的，探索生命奥秘的道路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不久以后，伊格娜也在千塔之城开了间同样的小诊所——尽管她并没有辞去星辉之眼的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:28",
+   "date": "雨月 兜帽日",
+   "place": "埃摩灰城区 地下诊所"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "事情就是这样，我这个研讨会还要再开两天，你就再帮我看一天诊所吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "喂，我已经在千塔蹲了一周了，菲莱的病人还等着我呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "开完会请你吃饭！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "真是自说自话啊，学姐。 那我到时候可就不客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "谢了！那么就这样，拜拜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "真是的……我看上去有这么闲吗……手头的研究还……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "来了！来了！大清早，是谁啊？诊所还没开门呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "医生，请你救救魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "密涅瓦，我感觉还行， 你不用那么紧张。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "高耸的白塔下，地下诊所迎来了一位特殊的“病人”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "命运的齿轮缓慢——却无可逆转地开始转动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "追寻真相的旅途，早已无人能够阻止。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

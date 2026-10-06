@@ -1,0 +1,1241 @@
+{
+ "heading": "# 03C 梦开始的地方",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1022`　**编号**：`03C`",
+  "- **关卡名称**：梦开始的地方",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_03_c`",
+  "- **关卡描述**：回到最初的地方，它依然认得你。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你与空白旅团回到了第五十层——故事开始的地方。\n重现曾经的祈祷，那个曾经为敌的巨大星骸再度现身。\n这次，它似乎认出了你……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你与空白旅团回到了第五十层——故事开始的地方。\n重现曾经的祈祷，那个曾经为敌的巨大星骸再度现身。\n这次，它似乎认出了你……",
+  "episode": "第三话",
+  "title": "梦开始的地方"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "17:30",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 五十层"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呼，好怀念啊，我们又回到这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "现在想想，我们三个人到底是怎么把那么大一个许愿箱搬下五十层的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "靠着，鸢尾对神器的，疯狂欲望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哈哈，我记得打开许愿箱看到魔王后，鸢尾还一度以为魔王是个人形神器，在魔王身上摸来摸去找开关呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "别，别说啦，那也是因为我们当时没朵拉吃饭了嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不过，许愿箱里是魔王可比是神器好多了，当时要是没遇到魔王，我们回到埃摩后，就会被菲金坑死了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是呢，真像一场梦啊，我们经历了那么多的冒险，现在竟然又回到了这个地方，一切开始的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "并且也是一样的大危机！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不过，我觉得既然我们能回到这里，说明危机肯定能被解决，这次再出发，我们只会走得更远。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在同伴们的掩护下，我和空白旅团只用了两个多小时，就爬到了沙漠星塔的顶层。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "每座星塔里，除了顶层是独一无二的楼层，其余各层都由大量外观类似的“平行楼层”交织而成。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在星塔里，所谓的“第三十层”并非是一个固定的楼层，而是指代攀登者抵达的是 “第三十个楼层的考验”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "升降机开门的时候，没人能知道这次的“第三十层”是不是上次来过的“第三十层”，两支一前一后进入星塔的旅团，很可能在抵达顶层前一次都碰不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "借由星塔的这个原理，我和同伴们制定了对抗拯救委员会的战术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星塔的升降机一次只能乘坐十个人，天然地把敌人分成一个个无法互相支援的小队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "抢先进入星塔，拿到合适的恩赐力量的我们，便利用力量上的差距和地利，迎击这些小队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，各层的阻击工作进行得很顺利，鸢尾给出的“星塔恩赐力量组合说明”非常好用，按照上面的思路组合后，我们的魔法和力量都提升了不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们一共遭遇了两百多名拯救委员会成员，彻底击败了一百五十多名，还有五六十人败退出塔，只有冬香、猫眼和千都世受了一点不碍事的小伤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "辛苦了，这么说，还在星塔里的敌人已经不足一百个了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是，但也是最精锐的一百个，迄今为止，我们还没发现安琪和格蕾霍恩的踪迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "现在，备用的心相石已经用完，大家身上的心相石也马上要见底了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能不能抢敌人的心相石用？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不行，敌人携带的心相石全都加上了防盗的魔法封印，破解起来太费时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，大家已经做得很好了，现在我们执行第二阶段的战术，你们离开星塔补充心相石，吸引拯救委员会的任务交给我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是，魔<r=BOSS></r>王，注意安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你也是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，剩下的敌人，怎么办？要主动进攻吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "现在我挥出一剑，能同时向八个方向放出风刃。我们三个人打十个敌人绰绰有余的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恐怕没那么容易，没出现的人是安琪和格蕾霍恩，那位骑士长在指挥上还是很强的，她们能避开夏花她们或许不是运气好，而是用了什么特殊的攀登技巧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们还是小心为上，按照原计划，利用星塔带给我们的“地利”和她们周旋——登上五十一层：魔王房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜……我们真的要去那一层吗？！ 万一，万一那个可怕的星骸还在……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还在也没有关系，按照你们的描述，那个房间里只有一台升降机，在你们走出升降机前，巨大星骸并没有发动进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，巨大星骸是在我们想要打开许愿箱的时候出现的，或许，那家伙只是在守着许愿箱而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就足够了，我们可以不碰许愿箱，这样一来，魔王房间就变成了一个只有我们才能进入的“安全屋”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们，随时出来打安琪，安琪打不到我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是琥珀说的这个意思，就算安琪知道怎么重演历史也没关系。我们可以在魔王房间里和她战斗，那里只有一个升降机，更容易堵住她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花她们走出星塔也能保持恩赐力量，我们只要能略微支撑一会，等到她们补充心相石归来，拯救委员会就无计可施了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在，我们先上去看看，确认那只巨大星骸是否还在，再制定进一步的详细计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "好，那我们开始“重演历史”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到 一个超级大的许愿箱吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "快看，升降机的灯光变了，我们成功了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:45",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 升降机内"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，我们到了，大家先不要出去，让我在门口看一眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "怎么了？尘沙？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我记得……我们拿走许愿箱的时候，那个巨大星骸很生气，把地面都砸烂了对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "然后，许愿箱是被我们丢在沙漠里了对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "没错啊，幸运绿洲号根本拉不动那个箱子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那为什么……那个许愿箱又出现在魔王房间里了？！ 房间的地面也都恢复原状了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:50",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 魔王房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙她们……就是在这里找到我的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "漆黑的许愿箱摆在魔王房间的地板上，我的腰上缠着琥珀的黑色绑带，和尘沙一起大着胆子走进房间，一步步接近许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，小心啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "有情况，我就把魔<r=BOSS></r>王拉回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这个许愿箱……难道是那个巨大的星骸飞出星塔搬回来的？房间不会也是那家伙自己修好的吧，这么一想……难道那个星骸很在意这个房间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "按你这个思路想下去，那对于星骸来说，在许愿箱中躺着的我是什么呢？一个它珍藏的宝物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没准人家自认为是你的贴身女仆呢，一直在兢兢业业地守护着你的睡眠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那也太夸张了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "怎么样？来到这里后有想起什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全没有，完全是第一次来的感觉，这个许愿箱的触感也……完全没印象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜哇，这个震动——是那个！巨大星骸要来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，魔<r=BOSS></r>王快回来，琥珀，快拉魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "等一下，这次好像不太一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "巨大的星骸悬停在房间上空，它没有发动攻击，只是静静地待在那里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那家伙……在看？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们都不清楚那家伙的脸在哪里……总之，你做好准备，随时把魔<r=BOSS></r>王拉回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "巨大星骸",
+   "text": "嗡——嗡——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，星骸转向你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这家伙……不会还记得我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "巨大星骸",
+   "text": "嗡——— ———",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不好，那家伙，在蓄力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（抓住尘沙的手）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，快拉我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "再等一等！星骸，星骸把胸前的魔法炮收回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真，真的……这是为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好像是因为，你抓住了我的手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "飞，飞下去了……它就这么走掉了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，尘沙，你们没事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没，没事……那个星骸好像对我们没敌意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "应该是，对魔<r=BOSS></r>王没敌意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那个星骸刚刚瞄准我了，说明它的确记得我们拿走了许愿箱，但魔王一抓到我的手，那个星骸就停手了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "说明……它守护的其实是……魔王？魔王拉住我的手证明我是朋友，于是那家伙就回去了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星骸会有这种智慧吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不，不知道……但这是个好事不是吗？至少……我们的确可以把这里当成安全屋了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，如果是这样的话……我有一个更大胆的想法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:00",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 五十层"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，你来得好慢啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，你的同伴的确不错，消灭了我三分之二的部下，但也就到此为止了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "她们的心相石耗尽，已经逃走了，第五十层的所有升降机已经被我方控制。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "就算你们用星塔恩赐的力量提升了几倍，乃至十倍的力量，我们也不是完全没有提升。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你要用三人来对抗我们一百人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "首先，我想纠正你话里的错误，我的同伴不是逃走了，她们的心相石马上就会得到补充。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "笑话，拯救委员会所有的心相石都有魔法封印，你们根本用不了，难道……你们想等白猫支援？那些家伙凑在一起也凑不出几块给你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "米拉什里可不是只有我们和拯救委员会，安琪，太轻视一些看起来不重要的势力，是会吃大亏的哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "沙……沙蝎？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "呦，是瑟拉娜啊……不对，现在应该称你为安琪委员长了，你不是在星塔里吗？怎么能用手机联络我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哦，对了，那座星塔破了个洞，可能是这个原因吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哈萨娜，别和我东拉西扯，你干了什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "没干什么啊，这边的沙漠上有好多箱子，我寻思这也没人要啊，就带沙蝎出来捡一捡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "安琪大人，我们，我们挡不住，好多沙蝎冲进来，太可怕了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你袭击了拯救委员会的后勤队？你怎么敢？！我不是承诺你了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "抱歉啊，安琪，我们沙蝎也是要吃饭的，当然谁开的价高我们跟谁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "魔<r=BOSS></r>王给我们的条件，你给不起，哪怕你没有变成异端，还执掌着天空院，你也给不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "那，祝你好运了，再见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "呼，那个女人肯定很气吧，估计都要气炸了，被她一直看不起的蝎子蛰了手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "蝎子们，继续搬，这里的东西都是我们的，从今天开始，我们也是公司人啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的沙蝎们",
+   "text": "噢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "喂喂，小妹妹，魔<r=BOSS></r>王是怎么知道我们在这，还知道我们是假意投靠拯救委员会的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "唔……其实我也不知道为什么魔<r=BOSS></r>王知道你们在这里，你好像什么都知道，连拯救委员会那些队长的特殊魔法都知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎，这样吗？那看来我背着冰淇淋和薯条没找到魔<r=BOSS></r>王，也没耽误什么事嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "举手，可爱的贝修莉娜也想问问题~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "魔<r=BOSS></r>王到底给了沙蝎什么好处？那个叫哈萨娜的首领，之前非常不愿意参与进这场战斗里，安琪大人拉拢了半天都没结果呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "一枚恩赐印章。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "啊？恩赐印章！难怪……那也太稀有了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "不，起到决定性作用的其实不是这枚印章，而是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一个小时前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "恩赐印章？这出价的确够慷慨，但我不会因为你们的出价高，就拿部下的命当筹码，去和拯救委员会拼命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "魔<r=BOSS></r>王说，这枚恩赐印章并不是你们出动的条件，而是随着真正的条件附赠给你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "你给你们开出的真正条件是：是继续当被风吹动的沙子，还是拿着这枚棋子，带着过去被压迫的米拉什矿工，走出属于自己的，不被别人榨取的未来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "你给你们开出的真正条件是：是继续当被风吹动的沙子，还是拿着这枚棋子，成为自己命运的真正主宰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈哈哈，虽然我不知道魔<r=BOSS></r>王是怎么知道的，但你还真把我当成了……一个平等的合作对象啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "有了恩赐印章，再击败异端，我们就真的在诺瓦登堂入室了，我们不是为谁而战，我们是为自己而战！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "弥尔沙，把这些心相石送到星塔入口，让魔<r=BOSS></r>王放开了用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "弥尔沙",
+   "text": "是~我这就去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "走，蝎子们，让那个自大的女人见识一下我们的厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的同伴已经从沙蝎手里拿到了足够多的心相石，正在向五十层赶来，用不了多久就会回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你竟然能算到这场战斗的每一步……甚至包括沙蝎的人心？你究竟是怎么做到的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "直觉~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我真得现在就杀了你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "附着在衣服上的全身防御魔法吗？有趣，鸢尾，你竟然也会这么浪费地释放魔法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这种魔法一次就要用完一枚心相石的恩赐哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "反正我们只需要坚持一小会，恩赐根本用不完，你抓不到我们的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到一个超级大的许愿箱吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你又用完了两枚心相石哦，你还有多少备用的呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，我们走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "逃吧，你们逃到哪里都是没用的，我一定会追上你们，杀掉魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:15",
+   "date": "雾月 18日",
+   "place": "沙漠星塔 魔王房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我带着鸢尾，藏到地面下的悬崖上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，去打开许愿箱，看安琪那个冷静的样子，她很可能知道怎么“重演历史”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，魔<r=mowang></r>王，不是可能，而是一定知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我调查过关于你的那么多事，怎么可能忽略了一切开始的地方呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "沙漠星塔的魔王房间，只需一位淡金色头发的剑士和一位紫色头发的高贵之人就能开启。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这里空空荡荡，完全是一条死路，这就是，你给自己选的墓地吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来，情报商的情报也有不对的地方啊，这里可不是空空荡荡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这，这是什么声音，在先帝的记载里——这座塔里不可能有尊者！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，进许愿箱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "别想跑！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "安琪的子弹击碎了鸢尾施加在我衣服上和尘沙身上的最后一层防御魔法，耗尽了我们所有的心相石。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我和尘沙跳进了许愿箱，厚重的盖子在我们面前缓缓关闭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "最后看到的景象，是巨大的星骸缓缓升起，阴影覆满了整个房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

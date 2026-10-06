@@ -7,7 +7,7 @@ Refactored modular structure:
   - scripts/site_css.py: Design tokens and full layout CSS.
   - scripts/site_js.py: Client-side search, theme toggle, and map interactions.
   - scripts/site_templates.py: HTML layout, bento cards, chapter graphs, and reading views.
-  - scripts/md2html.py: Markdown parser with major choices & player replies.
+  - scripts/render_html.py: PageDoc sidecar (story_docs/_beats) -> story body HTML.
 """
 import sys
 import os
@@ -521,14 +521,16 @@ def main():
         for url in item['pages']:
             write(os.path.join(SITE, *url.split('/')), T.locked_notice_page(item, url))
 
-    # 4. Detailed script pages (507 pages)
+    # 4. Detailed script pages (507 pages) — rendered from the PageDoc sidecars
+    #    (story_docs/_beats/*.json, written by build_story's record_page); the
+    #    story_docs md files remain the human-review source but are not read here.
     for rec in pages:
-        md_path = os.path.join(SRC, rec['page_md'])
-        md_content = open(md_path, encoding='utf-8').read()
+        beats_path = os.path.join(SRC, '_beats', rec['page'][:-5] + '.json')
+        doc = json.load(open(beats_path, encoding='utf-8'))
         page_rel = rec['page']
         cur_nav = nav_index.get(page_rel)
         cur_branches = branch_index.get(page_rel)
-        html = T.script_page(rec, md_content, nav_info=cur_nav, branch_targets=cur_branches)
+        html = T.script_page(rec, doc, nav_info=cur_nav, branch_targets=cur_branches)
         write(os.path.join(SITE, page_rel.replace('/', os.sep)), html)
 
     graphs = len(chapters) + len(branching_acts)

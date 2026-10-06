@@ -1,0 +1,836 @@
+{
+ "heading": "# 02 问津市井",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：烟火绚丽寻春意（活动编号 10104）",
+  "- **关卡 ID**：`101040202`",
+  "- **AVG 剧本**：`STev_03_02`",
+  "- **关卡描述**：你们在苍梧城内四处打听消息，顺便体验了风土人情。"
+ ],
+ "recap": "赤霞听闻了失踪事件，主动带领你和科洛妮丝在市井街头打听消息。从其他人的口中，你们获得了不少有用的信息。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "赤霞听闻了失踪事件，主动带领你和科洛妮丝在市井街头打听消息。从其他人的口中，你们获得了不少有用的信息。",
+  "episode": "第二话",
+  "title": "问津市井"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "完成了！哼哼~怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "春联摊摊主",
+   "text": "这一手字，真是翩若惊鸿，婉若…… 呃……婉若……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "春联摊摊主",
+   "text": "咳咳咳，总之，这位玄师真是风姿绰约，气度不凡，字如其人，字如其人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "老板，作为感谢，这几幅字就送你了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "春联摊摊主",
+   "text": "别客气别客气，找我打听几个人而已，又不是什么大事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "春联摊摊主",
+   "text": "就是这墨宝……要不你还是带走吧？一定有人比我更需要它！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "是吗？你还怪客气的。好吧，总之谢谢你啊，走了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "赤霞从人群中挤出来，拿着几幅字回到我们身前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你说我手里这个？ 这叫做“春联”。每逢春节，家家户户都要在门口贴上新的春联。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这上面写的是龙裔的文字吧，是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "都是些吉祥话，寓意辟邪祈福。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "辟邪祈福？难怪这字符看起来如此神秘复杂，感觉很适合贴在我的诊所门口……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你想要？那这对春联就送你了！要是喜欢的话，我再给你多写点~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，希望能多给我招点疑难杂症过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳……我觉得正常的春联应该不是这种用法……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，没什么……总之，终于打听到有用的信息了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "嗯，昨天尘沙她们在这里看过摊主写春联。摊主对鸢尾印象深刻，因为很少有诺瓦人认识龙裔的文字，他不会记错的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "她们当时讨论要不要买副春联，后来因为还要先去和委托人汇合，就先走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说，她们确实没去协会之家，而是直接在城里找人接到了委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "目前还推测不出什么……再多去问问人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "抱歉啊，你这张照片里的三个人我没印象。 但这个小个子的女孩昨天确实来我这买过早餐，我们还聊了一会买菜的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "买菜？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "是啊，快过年了，大家都想多办点年货。所以这段时间，平时随处可见的菜也不一定买的着了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "那个女孩好像是想准备年夜饭来着，但有几样食材还没买到，就说打算再去找找。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这样啊…… 谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "没事没事。 对了，几位吃过了吗？要不要尝尝我这里的特色灌汤包？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "我家可是几十年的老手艺，保证吃了还想吃！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好啊，请给我来一个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "拿着！小心烫——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘶—— 烫烫烫！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你怎么咬这么大一口？小心一点，吃灌汤包可是有技巧的，要先把皮撕开一个小口，然后慢慢喝汤……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……你早点说嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小吃店老板",
+   "text": "哎呀，我刚想提醒你，你就一口咬下去了！不过你这吃相倒是豪爽啊，看着我都饿了，哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯……皮虽然薄却韧劲十足，汤汁鲜美醇厚，内馅也紧实多汁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "龙裔的美食，真是带给人无限的灵感。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来你很喜欢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "是啊，用来给病人塞药一定很方便呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……啥？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "走吧。品尝过了美食，该继续寻找线索了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊讶的女孩",
+   "text": "什么？找不到璟麟了？！我前两天还找她问过寒假作业，怎么就......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，我们正在寻找线索，你知道些什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊讶的女孩",
+   "text": "难不成…… 是被诱拐犯给骗走了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么会觉得是诱拐犯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊讶的女孩",
+   "text": "因，因为…… 以前也发生过那种事啊！之前城里就一下子冒出来好多诱拐犯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "很多……诱拐犯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "惊讶的女孩",
+   "text": "城里出现了穿着黑衣服，戴着鸟嘴面具的邪恶诱拐犯，好多人跟着他们走了后，就再也没能回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "黑衣服，戴着鸟嘴……该不会是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "噢！我听师渺说过这事！好像是有家叫“联合种业”的公司，满大街拉人去菲莱打工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那些人走后，天天忙着上班，根本没空回家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "难得寄封信过来，也是写一些让人看不懂的话，大家都吓得发抖，怀疑他们是不是已经精神崩溃了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……据我所知，菲莱的联合种业已经不会再这样子了，真的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "赤霞带着我和科洛妮丝，沿街打听了一遍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "前面有家糖炒栗子可好吃了！糖葫芦也是一绝！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "老板还会画糖画，捏面人…… 上次还给我画了只大老虎~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "咳咳！当、当然不只是因为这个哦？我们还是得仔细观，寻找线索……啊！说着说着人就围上来了！要是卖完了，今天就吃不到了…… 咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "云、云舒师姐？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "啊，赤霞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "哎呀，这不是我们的小赤霞嘛~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "霁月师姐也来了啊，你们在这做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "我们来买糖炒栗子和糖葫芦呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你们…… 借口让我去给师渺送东西，自己在这里偷偷买糖炒栗子和糖葫芦不带我？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "没有没有，这是师父她老人家要吃的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "师父要吃的？真、真的吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "千真万确！师父她突然馋甜食馋得在屋里团团转，但又不想被人发现她戒糖失败，于是派我们来隐秘行动……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "来来，这根糖葫芦给你，你可千万别走漏风声啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "好吧，谢谢师姐~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哄得这么轻车熟路，这种事一定没少干吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "对了，师姐，能不能帮我个忙？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "赤霞边吃着糖葫芦，边告诉了师姐们自己正在帮忙找人的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "师姐，能不能帮我算算璟麟还有尘沙她们的下落？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "算是能算，不过…… 我只能算到一个和她们有关的模糊方位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我听说玄师的占卜术很厉害，也没办法算出更具体的位置吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "唔哈哈！要是玄术真的能做到那种事，世道早就大乱啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "人在世上走动，心念一动，气机就会跟着变。这种活蹦乱跳的目标，想要算到具体位置，现在的机缘、气运都还不够深厚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "原来如此，是我想当然了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "没关系。所以…… 你们要算一卦吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "当然要算！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "算出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "因缘纠缠……你们要找的那几位，此时此刻皆聚在一处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们在一起？到底怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "更具体的我也算不出了。你们去东边找找墙壁上，或许会有什么发现？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "墙、墙上？什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "过去了，你们自会明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "璟麟和其他人都没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "放心吧，她们目前暂且无碍，只是被绊住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道了…… 谢谢二位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "多谢师姐，那我们先走啦！走，我们去东边看看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "晚饭记得回来吃哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "师姐啊，你刚刚是不是还算到了什么，是不是和我们之前调查的那玩意有关？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "怎么不告诉你们呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "那异象并非怪力乱神，既然不是祸端，那便是它自己的造化。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "告知与不告知，都改变不了定数。我们无须插手，任它和有缘人去相遇吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "好吧好吧，人都走远了，你也不用再这么神神叨叨的了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "我知道的，卦术不是你的长处，所以怕说多错多嘛~很正常很正常~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "云舒",
+   "text": "糖炒栗子好吃，我再多买一包给你吧，这件事不能告诉赤霞哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霁月",
+   "text": "好耶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,748 @@
+{
+ "heading": "# 第六话 相似之人",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：惊奇冒险！渊海幽灵船传说！（活动编号 11100）",
+  "- **关卡 ID**：`111000206`",
+  "- **AVG 剧本**：`STev_01_06`",
+  "- **关卡描述**：对于奶奶的隐瞒，希娅早已有所察觉。 她决定先走一步，去前方探查情况。 然而，黑暗中有一个身影始终注视着她。"
+ ],
+ "recap": "对于奶奶的隐瞒，希娅早已有所察觉。\n她决定先走一步，去前方探查情况。\n然而，黑暗中有一个身影始终注视着她。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "对于奶奶的隐瞒，希娅早已有所察觉。\n她决定先走一步，去前方探查情况。\n然而，黑暗中有一个身影始终注视着她。",
+  "episode": "第六话",
+  "title": "相似之人"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉，该怎么向希娅和花铃开口呢？那本日记的内容……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "魔<r=BOSS></r>王在发愁什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇啊——希娅…… 你什么时候来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，你聊了那么久，我在一旁可是站得腿都酸了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，那你岂不是……都听见了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，我可不是来偷听的哦~ 只是来给你拿件外套，夜晚风大，以免着凉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "结果……一不小心看到了魔<r=BOSS></r>王那么认真的样子， 我都不好意思打扰你呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是贴心啊……谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "希娅的情绪还挺平静的，和我预想的不太一样。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "其实，跟踪奶奶的那个寻宝旅人，我有一点印象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "他的船是在奶奶回来几周后才被人发现的。奶奶去他家慰问，却被他的家人赶了出来——大概是迁怒于她吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "从那以后，我们两家再没来往。我也是今天才知道，他当初还留下了一本日记。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是，他已经去世了，也没办法知道日记到底是真的还是假的了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "日记中关于光芒来源的描述，很可能是他的妄想。毕竟寻找“深海宝藏”早已成为他的执念了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "“执念”…… 呵呵，魔<r=BOSS></r>王有什么执念吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "老实说……我一时半会儿还真想不到。 希娅呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "诶？这盏灯怎么不亮了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是我在海上捡到的那盏……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "昨天它还是亮的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你在海里捡到它的那天，灯光亮得刺眼，之后就慢慢变暗了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是不是哪里坏了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "这盏灯是奶奶以前航海用的，放在船上很多年了。好几次我都以为它彻底坏了，奶奶却不让我扔掉，只说“过几天就好了”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "直到现在，它还是时亮时灭，奶奶也从没告诉过我原因。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "她对我总是保留很多事情，甚至连这种小事都不愿意说。那次出海的经历也一样，很多细节直到后来我才从别人嘴里得知。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然我也只是猜测……她会不会是想让你远离这一切，不再像她一样冒着风险去远海航行呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "魔<r=BOSS></r>王说得没错，她的性格的确如此，总是想包揽一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "不过，我可是她的孙女，才不会轻易放弃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "事到如今，查明“幽灵船”的真相，搞清楚奶奶当年到底经历了什么，也变成了我的“执念”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然是家人……连性格都很相似啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "为了达成执念，我做好了付出一切的准备。不管真相如何，我都有勇气面对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "只有一件事……我一直放心不下。 魔<r=BOSS></r>王，你可以答应我一个请求吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "花铃那孩子……非常崇拜奶奶。当初她因为仰慕奶奶的名声，特意来投奔我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "可惜她来的时候，奶奶已经过世了。她最大的遗憾就是没能见奶奶一面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然是这样……我还以为你们原本就是一家人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "这几年我们相依为命，早已像一家人了……花铃陪伴我度过了奶奶离世后最艰难的那段时期。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "她一直以奶奶为榜样，希望成为像她一样厉害的航海旅人。 我担心，万一真相并非奶奶说的那样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她可能会接受不了，甚至大受打击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "所以我想先去前面探探路，至少能提前想好对策。 魔<r=BOSS></r>王可以帮我暂时瞒着花铃吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？希娅你一个人先走吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "嗯，我计算过了，按照冲浪板的最快速度，两小时内就能到达光源的位置。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "一旦发现幽灵船，我会立刻通知你们。如果不是幽灵船的话……我们再做打算，至少不要让花铃的幻想破灭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "无论如何，我会在天亮之前回来。要是花铃在我回来前醒了，就告诉她我在附近巡逻，好让她放心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个计划虽然有些冒险，但确实能最快摸清状况，方便我们制定下一步行动。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我同意希娅先去探路。但是，我不赞同你瞒着花铃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果你长时间不回来，普通的借口根本骗不过她。她肯定会发现异常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且，万一你遇到危险，我需要和花铃一起商量对策，她比我更加了解海上作战。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "嗯…… 确实是这个道理……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白你不想让花铃担心。但是，就像你不希望奶奶瞒着你一样，她也不想被你蒙在鼓里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵……魔<r=BOSS></r>王说服我了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "那就麻烦你向小花铃解释了，希望她不要生我的气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，你注意安全，有情况的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么又闻我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "魔<r=BOSS></r>王的气味，让人安心呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "就当是给我的好运礼物吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "希娅话音刚落，一个翻身跃下船舷。 她的冲浪板在海面上划出一道银线，转瞬便融入夜色之中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 天亮前要回来啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "啊啊啊啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个声音……是花铃？！ 我得赶紧去看看她。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呜……希娅什么时候走的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "刚才我睡到一半翻了个身，手竟然扑空了……害得我以为梦里可怕的事情成真了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来是做噩梦了啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别担心，梦和现实都是相反的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，你就睡在希娅旁边，怎么没发现她起来了？ 你听力不是蛮好的嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "别看我平时听力很好，睡着的时候可是连打雷都听不见呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么值得骄傲的事吗……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我简单向花铃解释了一下希娅独自离开的原因。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，希娅先去前面探路了，我们得做好后援计划，随时等待她的指示。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "放心好了，我的作战经验虽然不如希娅丰富，但也算是老手了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "别说是那些坏人了，哪怕是大海怪，都只能当我的手下败将！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来是希娅多虑了，她还担心你会生气呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼，她总是把我当小孩子看，觉得自己应该冲在前面保护我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟希娅一直把你当作妹妹嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实，她和我讲了你刚来时的那些事情。 她说，现在你们已经是真正的家人了，她当然想照顾好你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "咦？她连这个都告诉你了啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "好吧，这次我就不计较了！我知道她是为了我好，我们可是一家人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "以前大家都觉得我是个懦弱的胆小鬼，也不肯带我一起玩……希娅是第一个完全相信我的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "多亏了她一直鼓励我，我才能重新振作起来。从那时候起，希娅就是我最亲近的家人了……永远都是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，等到以后有机会，给我讲讲你们之间的故事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "听故事要收费的！一句话一个小鱼干！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么喜欢鱼……你是猫吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呃啊——什么情况？！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个晃动……是海底传来的吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "魔<r=BOSS></r>王，你先别动。我去甲板上看看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？手机响了——是希娅？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "太好了！接通了！ 魔<r=BOSS></r>王，你们快走，有 ……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂，希娅——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行，我得赶紧去告诉花铃……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "魔、魔<r=BOSS></r>王，你快出来看啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这、这是什么啊——？！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

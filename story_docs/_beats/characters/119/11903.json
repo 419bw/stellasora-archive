@@ -1,0 +1,592 @@
+{
+ "heading": "# 女仆的秘密任务 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：花原（角色编号 `119`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`11903`",
+  "- **AVG 剧本**：`CG_119_03`"
+ ],
+ "recap": "女仆的任务三：……骗你的，哪有什么任务！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "女仆的任务三：……骗你的，哪有什么任务！",
+  "episode": "第三话",
+  "title": "女仆的秘密任务 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "跟随花原的指引，我们前往芙瑞丝蛋糕店。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总觉得哪里怪怪的……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原让我假扮她的主人， 按理说是为了在展会上让我当掩护。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是，如果她有任务在身，为什么能直接离开展会，和我一起来蛋糕店呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "主人，我们到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，进去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "主人，这是店里的菜单，请您过目。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "种类好多，都要挑花眼了。 这样吧，花原选几款你最推荐的就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "明白了，请您稍等。我这就去柜台点单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 排队的人越来越多了，生意真好啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "抱歉，让您久等了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "今天的客人比平日多了不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天是休息日嘛，大家都出来玩了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "倒是花原，休息日还要“工作”，真是不容易。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "工作……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原的委托，是为了谷风家政的任务吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实我有点担心，会不会打乱了你原本的计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟是我突然说要来蛋糕店。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不是这样的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "对不起，我骗了您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "这次的委托，只是出于我的私心，并没有什么任务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "今天…… 是我的生日。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "生日？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟了，我完全不知道这件事。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉抱歉，我没来得及准备礼物，回去一定给你补上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不用麻烦的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "能和您一起度过这一天，我就很开心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "前些天看日历时，发现今天正好是甜品展…… 就借着委托的名义邀请您了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么不直接告诉我生日的事情呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算没有委托，我也可以陪你来啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我不想给您造成压力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我也犹豫了很久要不要邀请您一起参加甜品展会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我担心自己会在您面前失态。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "因为，我真的很喜欢…… 甜品……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样啊，难怪花原对各类甜品都了如指掌呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，那你刚才岂不是忍得很辛苦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "逛了那么多摊位都没尝一口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "克己奉主，是女仆的基本准则。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在说开了，花原就不用再当女仆了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天剩余的时间，就好好享受一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们来庆祝生日吧！ 你坐在这里等我一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我去柜台给花原挑选了一款生日蛋糕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "蛋糕有了，蜡烛有了，我还找老板借来了打火机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这下齐全了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "这些…… 都是过生日用的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？花原以前没有庆祝过生日吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "没有，这还是第一次。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "谷风忍者没有过生日的习惯，我也是最近才知道自己的生日日期。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系，我来教你，这种事情很好学的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "首先，过生日当然要吃生日蛋糕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有了蛋糕之后，接下来就要点蜡烛了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "天还是亮的，为什么要点蜡烛呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是诺瓦人的生日习俗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "将点燃的蜡烛插在蛋糕上，闭上眼睛双手合十，许愿。 之后再吹灭蜡烛，寓意着愿望会实现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原想象一下，这个画面，是不是很像对着星塔许愿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "长长的蜡烛，就像延伸至天空尽头的星塔…… 原来如此，真是有趣的习俗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "虽然我吃过很多蛋糕，可“生日蛋糕”还是第一回呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "多谢魔<r=mowang></r>王大人，现在我学会如何过生日了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那，我们快开始吧。 花原可以想一想等下要许的愿望了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "呼—— 是， 是这样 没错吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "第一次吹生日蛋糕上的蜡烛…… 原来， 是这种感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "别忘了许愿啊",
+   "options": [
+    [
+     "你好像......忘了许愿",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "诶…… 刚才太紧张了， 现在补上 还来得及吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我的生日愿望是…… 以后， 每一年的生日， 都可以像今天这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "“像今天这样”是指……？",
+   "options": [
+    [
+     "“像今天这样”是……？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "秘密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "说不定我能帮你实现哦……",
+   "options": [
+    [
+     "告诉我的话，说不定可以帮你实现哦",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "谢谢您， 今天已经非常幸福了。 所以， 不能再麻烦您了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "请魔<r=mowang></r>王大人放心…… 我会努力， 把愿望 变成现实的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "之后，和花原一起享用了美味的生日蛋糕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

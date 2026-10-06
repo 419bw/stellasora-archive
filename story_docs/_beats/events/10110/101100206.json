@@ -1,0 +1,780 @@
+{
+ "heading": "# 05 漩涡深处的收藏家",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：欢歌劲浪 · 闪耀假日惊涛探险！（活动编号 10110）",
+  "- **关卡 ID**：`101100206`",
+  "- **AVG 剧本**：`STev_11_05`",
+  "- **关卡描述**：它只是想找回自己的家。"
+ ],
+ "recap": "寄居蟹暴躁的真相揭晓，原来是此处的冻冻公爵抢了它原本当家的大海螺壳。花铃决定出手帮它夺回海螺壳，而冻冻公爵提出的条件是……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "寄居蟹暴躁的真相揭晓，原来是此处的冻冻公爵抢了它原本当家的大海螺壳。花铃决定出手帮它夺回海螺壳，而冻冻公爵提出的条件是……",
+  "episode": "第五话",
+  "title": "漩涡深处的收藏家"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "小心！有只星骸藏在角落里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嗯？！……你是说这只木桶吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "说、说不定是伪装成木桶的星骸！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "放轻松，小花铃~这里已经没有敌人的味道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这样啊……那好吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "真没想到，海里面竟然真会有一座星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "竟然通过漩涡进到塔里来了，感觉好诡异…… 这里应该不会冒出什么莫名其妙的东西吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喀喀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哇啊啊啊啊！ 真真真的出现了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "是那只寄居蟹！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "难道它还打算复仇吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "等等…… 它好像不是来打架的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "花铃，你能看出来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是啊，它这副样子，怎么看都是在…… 呃，让我再离近点仔细瞧瞧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你跟着我们的船，还让我们偏离航向，就是为了把我们带到这里来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "它好像真的想带我们去什么地方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，那就去看看吧。它都一步三回头了，好像很担心我们有没有好好跟上呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 这一路可真是不容易。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "是啊，没想到这座星塔里的星骸会这么难缠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "花铃，你有什么心事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "诶？为、为什么这么问？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "自从进塔之后，你就一直眉头紧皱，看起来很严肃的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "才没有，只是…… 咳咳，没、没什么，你不用在意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "门开了，我们快走吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "咦？各位，你们看那边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好大的海螺壳！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀喀——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呼姆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆呼姆！呼姆呼姆呼姆呼姆！呼姆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哇……看它的表情，委屈得都快哭出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我想问很久了，你到底是怎么看出它的表情的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "就、就是能看出来啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "话说回来，那个海螺， 该不会就是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "是它以前的家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你怎么这么肯定？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "噫——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "花铃，你眼神太凶，把人家吓到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我哪有？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "因、因为…… 我之前见过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "这只寄居蟹…… 在抢走我的自动售货神器之前，就背着这个海螺壳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下等一下，信息量有点大…… 它之前背着的是……珂赛特的自动售货神器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那不是度假村里的自动售货神器吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "不是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我、我一直都很想要一台属于自己的自动售货神器……后来有一次，我不小心掉进了大漩涡，发现了这座塔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "然后你就在这里许愿出了一台自动售货神器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "好厉害……那可是能卖出高价的自动售货神器啊！只要许愿出一台，半年…… 不，一年都不愁吃喝了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "珂赛特大人，请您教教我，到底要说什么祷词才能许愿出自动售货神器呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我记得我当时说的是…… “给我很多很多，永远喝不完的饮料”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这、这也行吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几个月前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我想要喝饮料喝到爽，请给我很多很多，永远喝不完的饮料！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "哇！真的出来了！太好了~这下我终于可以无限畅饮了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喀喀喀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "哇啊啊啊！什么东西？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我、我的自动售货神器！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "还给我！快还给我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀喀？！喀？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "这只寄居蟹抢走了我的自动售货神器，把它身上破破烂烂的海螺壳留了下来。然后我就立刻追着它离开了这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "可我一出来就把它给跟丢了…… 我真的伤心了好久好久……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "没想到这次在度假村又碰到了它！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难怪你一看到这只寄居蟹就那么激动…… 你做陷阱也是为了抓住它吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "……嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "可如果那台自动售货神器是珂赛特的，那度假村的那台又去哪了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "这、这个嘛……我担心这只寄居蟹会把度假村的自动售货神器也抢走，所以挖了个大坑，把自动售货神器保护了起来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "原来是这么一回事啊。看来那群寻宝旅人是误把寄居蟹身上的自动售货神器当做是度假村里的那台了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "可是我觉得…… 寄居蟹并不是要“抢走”自动售货神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "之前在荒岛上，大家把自动售货神器从它身上打落后，它明明看起来很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "刚刚它看到海螺壳的时候，也是一副迫不及待地想要把自己的壳拿回来的模样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我倒是有个想法……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这只寄居蟹因为身上的壳太值钱， 被人到处追捕，连自己引以为傲的壳也被他们打碎了一块。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "它在逃命过程中，慌不择路地逃进星塔， 又被塔里的星骸吓得到处乱窜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "啊……我们一直以为它是攻击性太强才横冲直撞，其实只是被吓得乱跑吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是啊，就像珂赛特那样，一见人就喜欢逃跑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "唔……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在塔里到处逃窜的寄居蟹，就这么正好撞进了珂赛特许愿出来的自动售货神器里，于是…… 它就被卡住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呜哇……这也太倒霉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "自那之后，寄居蟹就背上了一个它根本不想要的“新家”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "它虽然想拿回自己的壳，但正如我们所见，它的壳已经被那只巨大的冻冻给霸占了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "对于这只寄居蟹来说，它小小的脑子根本理解不了到底发生了什么吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "只知道在星塔里见过一个人类，然后一道光芒闪过，自己的海螺壳就变成了一个四四方方的铁疙瘩。估计它对此也是一头雾水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "所以，它大概觉得只要再把人类带回到这座塔里，就能帮它把海螺壳换回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "难怪它会出现在人来人往的度假村…… 可惜在不明真相的人眼里，它只是个性情凶暴的魔物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你、你别哭啊！现在大家已经都搞清楚来龙去脉了。没人会怪你的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寄居蟹",
+   "text": "喀喀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "小花铃，你是想要帮忙把它的家夺回来，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "咦？我有表现得那么明显吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "呵呵，这种事连闻都不需要。小花铃的想法全都写在脸上了呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那我们接下来的目标就很明确了—— 让我们帮助寄居蟹夺回它的家吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

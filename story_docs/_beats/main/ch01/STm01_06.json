@@ -1,0 +1,1593 @@
+{
+ "heading": "# 06 飞翔的选择",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第一章《没有记忆的生物》（星塔历 996 年）",
+  "- **关卡 ID**：`106`　**编号**：`06`",
+  "- **关卡名称**：飞翔的选择",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm01_06`",
+  "- **关卡描述**：这是她的故事，也是灰城区的故事。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "不打不相识，灰风的头领密涅瓦向你们道歉，\n她们也是被白垩商会欺负的人，\n只是为了保护自己，才装成帮派的样子。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "不打不相识，灰风的头领密涅瓦向你们道歉，\n她们也是被白垩商会欺负的人，\n只是为了保护自己，才装成帮派的样子。",
+  "episode": "第六话",
+  "title": "飞翔的选择"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "剑术不错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "彼此彼此。没想到三对一都赢不了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你倒是明白嘛，不过我也挺尽兴的，在揍趴你之前，再听你说一句吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "说吧，是哪家派你们来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "地蝰帮？伊塔会？还是王冠联盟？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "空白旅团。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "没听过，新帮派吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不，不是，空白旅团是我们旅团的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "老大，小心点。上次来孤儿院认亲的人里，还有自称恩赐意志元老院元老的呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "这么说来，你们到底是不是旅人，也很可疑呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们过去真的是孤儿院的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "喂，满月，新月。你们有谁认识这些家伙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "孤儿院的名册上，就没有符合你们年龄的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "老大，下令吧，我把咱们的人都叫回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚才的决斗，难道只是为了拖时间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "抢地盘当然各凭本事，谁和你讲道义？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "进城后遇到的尽是些急性子的家伙啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的不能坐下来聊聊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "跟不可信的家伙有什么好聊的？少废话了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的孩子",
+   "text": "等一下，密涅瓦姐姐，那个，我认识她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你是......小雨？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊，真的！仔细一看这不是小雨嘛！好久不见，你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "长高了，有好好吃饭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的孩子",
+   "text": "真的是你们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们怎么知道她的名字？你们真的是......?",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "我真的认识她们。她们出发去旅行之前还带着我们爬水道桥呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你看，我们说的是真的吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "竟然是真的......我还以为......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这......我们会好好道歉的，在那之前，请容我重新介绍自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我是“灰风俱乐部”的负责人——密涅瓦，请多指教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:20",
+   "date": "花月 26日",
+   "place": "埃摩灰城区 灰风俱乐部"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "非常抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "对不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "对不起，我们不是故意的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "态度一百八十度转弯的密涅瓦和灰风成员，正夸张地跪在我们面前，行着五体投地的叩头大礼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不，不用那么客气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这可不行！我们必须要做个了断！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇哦……琥珀快看。大家都在向鸢尾低头呢……是不是要叫她鸢尾大人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鸢尾大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "喂！不要这么叫啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "讲规矩的话，我们接受道歉就可以了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那就请魔王做代表吧。 我有点应付不来这种场面……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，要我来吗？这......不过也不能这么僵持下去了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了。那就由我作为代表，接受各位的道歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "刚才先动手是我们不好，所以......各位在埃摩期间的安全，会由我来保护，以作为我们赔罪的诚意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "孤儿院变成了帮派聚集地......这件事的确也需要密涅瓦提供信息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙她们的意见是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她们向我点了点头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我答应你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "呼， 感谢您的宽宏大量。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，这误会是怎么产生的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "“公司元老院的元老”、“从这里走出去的孩子”，最近有很多人顶着各种各样的头衔来我们这边问东问西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不清楚他们的目的是什么，但为了保护灰风的孩子们......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哦，满月新月把我们当成这种人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "小雨，孤儿院还剩下多少孩子？你知道艾蕾阿姨去哪了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "啊……那个，艾蕾阿姨……失踪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还记得艾蕾阿姨失踪时发生了什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "不知道，那天晚上......我偷偷溜出去抓萤火虫......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "我怕被艾蕾阿姨说，就睡在了姐姐们带我去过的桥洞里，等第二天早晨我回去时，孤儿院就一个人都没有了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "一夜之间消失......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "后来，很多坏人跑到这条街上，占了孤儿院的房子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "是还穿着校服的密涅瓦姐姐把他们都打跑了，建立了灰风俱乐部保护我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "现在我也是灰风俱乐部的成员了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好骄傲的样子……灰风俱乐部——看来密涅瓦确实不是坏人啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说，这里的孩子们都……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "没错。就是你想的那样。都是些因为各种原因没地方可去的家伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么密涅瓦要为素不相识的人做到这种地步——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "或许是为了......侠义？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个，我问一下，密涅瓦，你不会就是我们小时候那个“别人家的孩子”吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "别人家的孩子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "飞出灰城区的天才，十年来第一个拿到白金公学奖学金的灰城区孩子。经常被拿来做榜样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你知道的事情很多啊......对，我就是那个密涅瓦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你现在......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你想问——我为什么没留在金城区和银城区，又回到灰城区，还组建了帮派？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "明明可以进大公司的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "很可疑对吧，也是，在你们看来，我的确是霸占了你们重要地方的人， 被怀疑也是应该的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "没......我不是那个意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小雨",
+   "text": "尘沙姐姐、鸢尾姐姐、琥珀姐姐，你们和密涅瓦姐姐的误会解开就好，我先去睡一会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这个时间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "困倦的孩子",
+   "text": "好困......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的孩子",
+   "text": "好累，什么都不想做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "俱乐部的里的孩子们看上去非常疲惫，就像昨晚没睡好一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "哈呼，老大，我和新月也去休息一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "老大你也注意身体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "嗯，你们先去睡吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "密涅瓦？这到底是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们跟我来，我们换个地方说话，我会把知道的事情都告诉你们的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:50",
+   "date": "花月 26日",
+   "place": "埃摩灰城区 水道桥走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "风景不错吧？我很喜欢这个时间来这儿吹风。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我懂我懂，小时候我们也经常来这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "琥珀蜷缩在角落里打盹，我靠在柱子旁看书……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙坐在那边的扶手上看星塔，每天都不厌其烦地望着星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "当然不会烦啦。星塔对我来说很特别嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们感情真好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "当然。所以我们仨总是一起笑、一起哭、一起吵架……又一起旅行了两年。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "两年啊……那时候，我还只是白金公学的学生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "就像鸢尾说的，我是个幸运的灰城区孩子，因为学习还不错，被白金公学看中，拿到了奖学金。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "那是一所位于金城区的学校， 学校里到处都是可以自由使用的神器， 不像灰城区，一家只有一两个神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我每天拼命地学习，成了白金公学有史以来第一个灰城区出身的学生会长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我以为，这样就可以飞上天空，飞出灰城区，摆脱过去的生活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "直到......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "怎么这么少？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰城区的孤儿",
+   "text": "对，对不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰城区的孤儿",
+   "text": "白天一直在下雨，没人来擦鞋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "下不下雨关我们什么事？没人擦鞋，你们不会去偷，去抢吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰城区的孤儿",
+   "text": "艾蕾阿姨说，不能做坏事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰城区的孤儿",
+   "text": "一旦做了坏事，以后遇到问题就只会用做坏事的方式思考了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "嘿，你这小东西还拐弯抹角嘲讽本大爷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "再说了，艾蕾的话顶个屁用？她自己不还是不管这个破孤儿院连夜跑路了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "这里现在是我们的地盘，就按照我的规矩来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰城区的孤儿",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "哭个屁！烦死了！不挨顿揍就不长记性是吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "住，住手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "比起大脑，我的身体先动了起来，冲上去和那两个混蛋打了一架。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇，那两个家伙要倒霉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不，倒霉的是我，我被打得很惨，唯一欣慰的是那两个孩子抓住机会跑掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "回家后，我在镜子里看到了遍体鳞伤的，还是孩子时的自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我也是个孤儿，我和那两个被欺负的孩子没什么区别，一样在街上流浪，一样过着吃了上顿没下顿的日子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "就算偶尔赚到一点钱，也很快就会被街上的混混抢走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "哦，这不是我们灰城区飞出去的金丝雀么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶恶的帮派成员",
+   "text": "怎么，白金的鸟笼待久了，忘了自己是谁了？你舍得弄脏你这身衣服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "那人说的没错，我的确忘了自己是谁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "也太过在意自己身上的那件衣服了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我读的第一本书，是艾蕾阿姨给我的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "孤儿院能照顾的孩子有限，但孤儿院的那条街是灰城区最安全的街，就算是睡在桥洞里，也不用担心东西被偷走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "艾蕾阿姨会把孤儿院里的书借给我看，我能拿到奖学金，不是因为我聪明，而是因为有人帮我遮风挡雨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊，那时候书架上的书经常消失又出现，原来是借给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "其实我也算半个孤儿院孩子，可惜那时候没能遇到你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "现在，也不晚，贴一下手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我自以为靠着自己的努力飞出了灰城区，其实，我只是忽略了背后帮我打伞的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "一个人飞出去是逃走，只有大家一起飞出去，才是真正的飞翔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "艾蕾阿姨和孤儿院不见了，那我就为灰城区孤儿们打伞吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我不会打架，但是白金公学的图书馆里有很多教格斗技巧的书籍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我不懂帮派，但是白金公学的图书馆里有很多星塔里的帮派影戏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我扛着球棒，穿上自己做的衣服，装出凶暴的样子，一拳砸开了被帮派占据的孤儿院的大门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "再后来，灰城区就多了一个灰风俱乐部，我的身边也多了几个……和过去的我一样的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这就是我的故事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "谢谢你，替我们守住了这个重要的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不用这么客气。我只是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我只是做了自己想做的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "没人能挡得住——灰城<r=灰风俱乐部>区</r>的风。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "听着挺狂的是吧，其实只是一群孩子相互取暖的地方罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "只靠我一个人，还有满月，新月这样的大孩子，是没办法正常地守住这条街的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我们只有把自己打扮得足够暴力，做出各种夸张的事情，才能勉强吓住其他的帮派成员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "其实，大家都是温柔的好孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:45",
+   "date": "花月 26日",
+   "place": "埃摩灰城区 水道桥走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "既然这样……我们已经是朋友了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哈？怎么突然说这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "很简单啊！你想保护灰城区的孤儿们，我也想！那我们不就有着相同的目的，我们又一起战斗过，四舍五入就是过命的交情了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哈哈！直接从朋友变成“并肩战斗的伙伴”了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "听着不赖，那我们重新认识下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，其实...... 她还挺好说话的嘛。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我的故事讲完了，该说孩子们的事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们旅人，要怎么缓解攀爬星塔带来的副作用？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "副作用......你是说“失去记忆”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "嗯，俱乐部里的大家很疲惫，是因为她们被逼着爬了星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不对，准确地说，是被定期逼着去取神器……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……难道小雨也？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不止她一个，灰城区流浪在街上的孩子在加入灰风之前，十有八九都有这样的经历。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "后面即使不爬塔了，也会精神萎靡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "让那么小的孩子去爬星塔？！是谁这么坏？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "是一家公司，名叫“白垩商会”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呃……白垩商会……现在有点……不太想听到这个名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "嗯？你们也知道白垩商会？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯。就在中午的时候……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "鸢尾讲出了白垩商会以孤儿院的借款为理由， 抢走了幸运绿洲号的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这家公司经常这么干吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "孤儿院消失后，菲金就四处搜罗孤儿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "说些“父债子还天经地义”之类的鬼话。你知道当时他们出示的所谓债务凭证是什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "就一张连谁在什么时候签的都不知道的破合同。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一张破纸……能有什么效力？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王，白垩商会是公司，普通人没资格质疑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这就是公司特权，毕竟，公司拥有恩赐之神的赐福。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和我们的情况一样。也不知道该说他们贪得无厌还是狡猾奸诈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让不配得到力量的人掌权，当然不会有好结果了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "幸好你们来了，才让这件事不只是坏事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "现在我明白了。 孤儿院的债务问题，以及灰风俱乐部、空白旅团面临的困境都是一样的。也就是说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "的确，既然问题是一样的，那就可以合作来解决了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "白垩商会，共同的敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "现在我们已经超越了并肩战斗的伙伴的范畴，成为“命运共同体”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "命运共同体么......能和熟悉这一带的灰风俱乐部合作，是件好事。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "也就是说，白垩商会要求你们用爬塔许愿的工作来偿还债务对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "灰风俱乐部的孩子们……疲惫的程度也太不正常了。到底被压榨得多狠啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "难道……他们今天也被逼着去许愿了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不用担心。这几个月去塔里取神器的，只有我、满月和新月三个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "其他人连靠近都没靠近过，进了灰风就不会让他们再被欺负。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "既然如此，为什么小雨他们现在还是那种状态？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我也不清楚……可能是许愿的方式有问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "虽然按照菲金说的方法许了愿，但这种做法到底是对是错——我们不是旅人，根本搞不明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "怎么会这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们在这里想也想不出，不如——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们明天和密涅瓦一起去爬塔吧，看看菲金那家伙搞的什么鬼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

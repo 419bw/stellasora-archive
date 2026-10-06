@@ -1,0 +1,1123 @@
+{
+ "heading": "# 幕间 秘密交易",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`504`　**编号**：`幕间`",
+  "- **关卡名称**：秘密交易",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_00`",
+  "- **关卡描述**：不入虎穴，焉得虎子。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "来自联合种业的米娜来到了废弃协会之家，\n邀请你出力调查“茶色夜莺”谜案，\n她给出的潜伏方案是：面试入职。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "来自联合种业的米娜来到了废弃协会之家，\n邀请你出力调查“茶色夜莺”谜案，\n她给出的潜伏方案是：面试入职。",
+  "episode": "幕间",
+  "title": "秘密交易"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "深夜，数个鬼鬼祟祟的黑影钻进一条偏僻的小巷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "货拿来了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "形迹可疑的人",
+   "text": "当然。尝尝对不对板？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "嚼嚼嚼…… 没错， 就是这个味儿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "形迹可疑的人",
+   "text": "我要的东西呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "当然不会少你， 数数。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "形迹可疑的人",
+   "text": "一、 二、 三、 四、 五， 没问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "形迹可疑的人",
+   "text": "不过到底是不是真的…… 得等我们看完再说。 小的们，围住她！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "形迹可疑的人",
+   "text": "阿沙，亮灯！ 鸢姐，发现问题就大胆地说， 别怕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“阿沙”",
+   "text": "亮灯，亮灯…… 好嘞。 准备就绪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“鸢姐”",
+   "text": "鉴定真伪就包在我身上吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "形迹可疑的人",
+   "text": "要是她敢糊弄咱们， 老琥的枪和冬仔的拳头可不是吃素的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“老琥”",
+   "text": "嗯，我瞄准了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“冬仔”",
+   "text": "那， 那个……！ 话说我到底为什么会被带到这种地方来啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“鸢姐”",
+   "text": "魔<r=BOSS></r>王，我们演得好像不太行啊， 是不是满足不了委托人的要求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "嘻嘻，鸢姐不用担心， 人生如戏，戏如人生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "各位的接头风格非常有我们弗拉维奥群众演员的气质， 让我好像回到了家一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "况且，这本就是我提出的有点为难各位的要求啦， 一方面是为了回忆一下家乡的氛围。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的人",
+   "text": "另一方面， 也是我更希望能见到魔<r=BOSS></r>王平日里和你们相处时打打闹闹样子， 就像现在这样~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我们魔女， 可是以真相为食哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和雾语合作…… 总觉得很危险啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要是让她知道了维塔和白色房间的事…… 会抓着我吃干抹净吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，谢谢你为我们搞来这些面试经验。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "彼此彼此~我也拿到了自己想要的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎呀，偷懒被抓到了…… 本来还想和大家多聊一会儿呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "啊对啦， 那些资料比较复杂，有不懂的地方可以联系我哦， 包售后~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，雾语给的经验够用吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯。 这份资料绝对是真货…… 详实又全面，我们竟然用茶色夜莺换到了这么好的面试经验……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "下次能不能请她给我准备一份恩赐意志的啊… … 开玩笑的啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也不只是茶色夜莺，还有我们跑腿的辛苦呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了满足她的奇怪要求—— 在全菲莱各家店铺里收集茶色夜莺面包， 我们可是跑遍了整个菲莱城。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那也值， 有了这些面试经验，大家一定能顺利入职联合种业！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "光是省下伙食费就够让人开心了，更别说还能吃到平时贵得不敢碰的“星塔严选”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "简直像做梦 一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "免费， 好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯， 只要成功入职，我们至少能省下伙食费， 在城里吃饭真是太贵了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不不不，不对！ 重点不是这个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们是为了完成米娜小姐的委托！ 不是为了去吃免费午餐的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这件事，还要从几个小时前说起——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "15:00",
+   "date": "雷月 21日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你们好，请问…… 这里是地理协会的协会之家吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "是的，请问有什么需要帮忙的吗？ ……原本是想这样说的，但实在是抱歉 。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "协会之家早在几个月前就搬出菲莱，这栋楼现在已经是旧址了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "这位女士，如果有什么委托需要帮忙的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可以交给我们—— 击败了三大魔物的花令旅团来负责~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "花令旅团？ 不好意思，我对旅团的情况不太了解… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我是来找魔王协议人力派遣公司的， 请问魔<r=BOSS></r>王在吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可恶，明明我们为三大委托拼了命， 名气怎么还是 不够大啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "这也是没办法的事嘛。 信誉这种东西，本来就是需要慢慢积累的呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这个道理我当然懂啦…… 算了。 那就拜托你啦，魔<r=BOSS></r>王~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "初次见面。 我就是魔王 协议的首席执行官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "您好，我是联合种业的米娜， 这是我的名片，请多指教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "联合种业战略部项目经理……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我负责茶色夜莺项目， 不知道各位有没有听说过我司的这款面包？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "有的有的， 前几天才刚和它 打过交道呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "呵呵，能帮上客人的忙真是太好了， 方便的话，能和我聊聊当时的具体情况吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "当时我们就在不远处的森林里打魔物来着… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "那天我的弩箭用光了， 可还剩一只魔物没解决。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我只能扔出手边的茶色夜莺—— 你猜怎么着？ 正好砸中那家伙脑门， 一下子就把魔物砸晕了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这跟我想象的完全不一样啊……！ ！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "茶色夜莺的面包片的确很硬， 小禾这个用法， 某种意义上也算<r=·>非</r><r=·>常</r><r=·>规</r>食品了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "<r=·>非</r><r=·>常</r>时期的武器<r=·>规</r>格食品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "喂！尘沙、琥珀，不要乱说， 茶色夜莺是食物！可不是什么武器！ 咱们平时 可没少受它照顾呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然又干，又硬， 吃起来像是木屑还缺乏营养… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "但是很容易保存，任何城邦都能买到， 还有最重要的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然不好消化， 可正因如此比其他面包更扛饿！ 这不就是优点嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾真的是在说优点吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这位旅人， 您真是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我…… 我哪里说错了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "不不， 您真是茶色夜莺的知己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我们公司开发这款面包的初衷正如您所说—— 随时随地，用最少的朵拉填满肚子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "又干，又硬， 吃起来像是木屑和营养价值这些问题…… 嗯， 我们正在努力优化。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "哎呀， 聊着聊着就跑题了， 我们言归正传吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这次冒昧来访， 是有一件委托想要拜托魔王协议的各位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "委托的内容是—— 调查菲莱城里出现的 “好吃的茶色夜莺”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "好吃的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "茶色夜莺？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "茶色夜莺面包……居然会好吃？ 能详细说说吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "啊，抱歉。 虽然是我提出的委托，但涉及联合种业的机密， 目前不便透露更多细节。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "连具体内容都不透露， 这让我们怎么展开调查？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "其实很简单。 只要您入职联合种业，商业机密限制自然就解除了呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "成为联合种业的员工就能解决问题…… 虽然是个直球方案，但确实在理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "当然也有可能面试不通过…… 但只要成功入职，当天就能立刻展开调查。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这流程居然还有可能被刷？！ 我还以为多少会给我们开个后门呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "通常来说的确是这样， 我也很想直接为大家安排岗位……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "但是， 这次的调查非常机密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "如果由我来提供员工身份很容易打草惊蛇， 所以还是想请各位走正式面试流程入职。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "打草惊蛇， 也就是说她们认为公司里有内鬼喽？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "当然， 我们也知道这样的要求实在是有些过分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "所以， 只要能够成功入职，我保证会提供全方位的支持。 请各位看一下这份资料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呃…… 入职期间的工资和福利待遇等同正式员工， 不计入委托费。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "入职期间每人每天有一万朵拉的额外补助。 至于这次委托的最终报酬——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "委托费五千万朵拉…… 五千万！ 五千万朵拉？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾，振作一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "怎么突然就晕倒了？！ 你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "没关系，她是幸福地晕过去了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_awkward_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，请务必拿下这个委托",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "毕竟三大委托的报酬全都捐给营地重建了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们最近也没接委托，旅团的存款已经快要清零了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "昨晚，我听见鸢尾翻账本的时候直叹气呢",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_sigh_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心吧，我会拿下这个委托的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算不考虑存款的问题……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "那笔假借款的所有文件和手续， 是一个叫做灰夫人的前联合种业员工伪造的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "顺便再送你一条消息—— 虽然联合种业发布了对灰夫人的通缉令，但现在灰夫人就躲在联合种业哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了借此接近孤儿院欠款和克莱儿事件的幕后黑手灰夫人， 这委托对我们而言…… 反倒是求之不得的契机！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "米娜小姐， 我们决定接下这份委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "真的吗！ 太感谢了， 正如那位大人所说，来找您商量真是对了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那位大人是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "啊， 是我不小心说漏嘴了， 总之是一位和您们接触过的大人。 很抱歉我不能说出她的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这里是五百万朵拉的预付款， 请用于各项准备工作吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "各位的面试时间是雷月的30日， 届时还请多多关照。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下周见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "地位在她之上， 又和我们有过交集的人… …",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不过要接下这个委托，首先得通过面试。当晚，我们就和雾语做了一笔交易——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "用从她指定的面包店买来的茶色夜莺，换到了联合种业的面试经验。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后，我们一起苦学了一周后，终于到了面试的那天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "9:15",
+   "date": "雷月 30日",
+   "place": "菲莱温室区 丰饶广场"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哼， 魔<r=BOSS></r>王真偏心， 去联合种业上班这种事多有趣，为什么不选我啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "小禾不是还有营地的事要忙吗？并且……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "呵呵， 如果你去上班，就得天天六点起床哦， 因为联合种业是七点半开始上班。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "哎，每天都要六点起？ 我才不要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "那大家工作也别太拼， 注意身体呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这次的核心任务可是“潜入调查”，哪会沉迷工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "假设， 面试官问我相比其他人有是什么优势应该如何作答呢？ 我的回答是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃…… 我的话好像说早了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "营地这边就交给我们， 如果有需要帮忙的尽管开口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我们出发了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "大家， 加油。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "冬香， 你作为花令旅团的团长和代表， 也要加油 哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "深呼吸…… 深呼吸……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "冬香你可以的 你可以的 你可以的 你可以的 你可以的 你可以的 你可以的 你可以的 你可以的 你可以的 ……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然雾语给的面试经验是很详细啦， 不过真到了面试关头， 大家的心态还真是各不相同啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿， 面试成功的庆功宴要吃点什么呢？ 好久没吃烤肉了，不如我亲自下厨……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "面试， 要放松， 看看猫的照片吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这次的面试， 真的能顺利吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

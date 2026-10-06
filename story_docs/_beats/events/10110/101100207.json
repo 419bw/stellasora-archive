@@ -1,0 +1,604 @@
+{
+ "heading": "# 06 海螺壳争夺战",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：欢歌劲浪 · 闪耀假日惊涛探险！（活动编号 10110）",
+  "- **关卡 ID**：`101100207`",
+  "- **AVG 剧本**：`STev_11_06`",
+  "- **关卡描述**：要跟这家伙讲规则？！"
+ ],
+ "recap": "冻冻公爵提出以比赛定胜负；希娅轻取第一局，第二局却遭对方无耻偷袭打落入海，幸亏有花铃及时救回……花铃将亲手完成最后的对决。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "冻冻公爵提出以比赛定胜负；希娅轻取第一局，第二局却遭对方无耻偷袭打落入海，幸亏有花铃及时救回……花铃将亲手完成最后的对决。",
+  "episode": "第六话",
+  "title": "海螺壳争夺战"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尊、尊敬的冻冻公爵，求求您把海螺壳物归原主吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好啦好啦，别那么小气嘛。这个壳对寄居蟹来说很重要，你就还给它呗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "没有壳，寄居蟹会难过的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆！呼姆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "行不通啊，这家伙完全听不进去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "它一直抱着海螺壳不撒手。现在甚至还把壳举了起来，对着我们炫耀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这家伙，分明就是在挑衅吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冷静，冷静啊花铃！地板都快被你跺烂了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "等一下。那只冻冻好像在向我们比划什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冻冻公爵指着海螺，摆了摆它的“手”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "紧接着，冻冻公爵乘着自己的船，绕着房间划了半圈，把气喘吁吁的小冻冻远远甩在身后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "最后它自豪地挺起“胸膛”，将海螺壳高高举过头顶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "啊……难道说，它想跟我们……比赛？ 谁赢了谁就能拿走海螺壳……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "喏姆~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呶呶呶呶呶姆——姆姆姆—— 喏姆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "周围突然变成了大海？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼，想在海里跟我比？ 正好，就让你好好领教一下什么是航海旅人的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "…… 啊，糟了。我现在……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "花铃，这里就交给我吧。海上竞速的话，我有信心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那、那就拜托你了，希娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各就各位…… 三、二、一！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "好快的速度，好厉害！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那当然了，希娅她就是这么厉害！只要在海里，谁都追不上她~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "胜利者——希娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "好耶——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "喂，冻冻公爵，是我们赢了。赶快把海螺壳交出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆呼姆！呼姆呼姆呼姆呼姆呼姆！呼姆——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冻冻公爵伸出“手”，比划出一个“三”，又比划出一个“二”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "三局两胜？ 这家伙，怎么还输不起……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "行吧，不服气就继续！ 反正你不可能赢得了希娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "第二局——开始！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这次也是希娅遥遥领先呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那当然！不管来几次，它都不可能赢得了希娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆！呼姆呼姆——呶呶呶姆！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么突然这么大的浪！是冻冻公爵做了什么吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼，眼看赢不了就打算耍手段吗，真幼稚！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不过，希娅才不会被这点浪拦住！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "正如花铃所说的那样，希娅踩着冲浪板轻快地越过一个又一个浪头，将优势一点点扩大，眼看就要稳稳冲过终点——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆姆姆姆——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "希娅！小心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冻冻公爵的攻击精准地命中了希娅。失去平衡的希娅被狠狠抛出冲浪板，随后瞬间被巨浪吞没。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这不是作弊吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "犯规！犯规啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "希娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "薇洛下意识往海中冲了几步，却被一道巨浪逼退。 然而另一道身影比她更快，毫不犹豫地跳进了不安分的海潮中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "我这是怎么了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "啊……想起来了。我被打中，掉进海里了…… 得赶紧浮上去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "咦？身体怎么这么重……使不上……力气…… 这次……好像真是有点糟糕呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "小花铃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "希娅——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "（这个声音是……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "（啊……果然……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "（你每次都能找到我啊，小花铃……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "（快一点……再快一点！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "海水灌进鼻腔和耳朵，胸口也因为憋气太久而发疼。花铃拼命潜入深水，脑子里翻来覆去只有一个念头——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "希娅……就在这！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "抓——住——我——！希——娅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "（小花铃现在的表情，好吓人啊……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "（但这样的她，看起来也很可爱……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呼……呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "希娅，你没事吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "还好，没什么大碍。只是身体感觉还有些麻痹，可能要过一段时间才能恢复了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "喏姆~喏姆喏姆~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "开什么玩笑……你这家伙，竟然敢让希娅受伤！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "给我等着！我现在就过去打爆你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冻冻公爵Ⅲ世",
+   "text": "呼姆？呼姆姆姆姆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冻冻公爵拍打着自己的小船，再次高高举起了手中的“人质”——海螺壳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这是在威胁我们吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃…… 第二局，冻冻公爵…… 获胜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "可恶！ 这家伙也太令人火大了吧！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

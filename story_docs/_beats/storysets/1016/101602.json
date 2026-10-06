@@ -1,0 +1,764 @@
+{
+ "heading": "# 此间日常 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#16《此间日常》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`101602`",
+  "- **AVG 剧本**：`STsp_16_02`"
+ ],
+ "recap": "一波刚平一波又起，挤满前台的货物，乱成一团的协会之家，啊？你说外面有人打起来了？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "一波刚平一波又起，挤满前台的货物，乱成一团的协会之家，啊？你说外面有人打起来了？",
+  "episode": "第二话",
+  "title": "此间日常 其二"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你是…… 布洛可，你怎么在这里？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "惊喜就是要突然出现嘛，嘿嘿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你管这个…… 叫惊喜？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "只见大大小小各种货物堆叠成一座小山，把地理协会的接待柜台和入口堵得水泄不通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呃、现在这个情况是有原因的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "我、我会好好解释的啦！总之，能先把我救出来吗？我真的快被压扁啦~！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呼—— 得救了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那么，到底发生了什么事情？我需要一个合理的解释。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "别急嘛，你听我说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的旅人",
+   "text": "嗯？这里好热闹啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "走过路过不要错过—— 您现在看到的，是最先进的打包技术！不管再大再重的货物，都能在一眨眼间压缩成小小一个包裹哦！有没有人想来试试看呀~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的旅人",
+   "text": "真有这么厉害？我不信，你用我的背包试试看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "好嘞！您的行李就交给我来打包吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "看好啦—— 只要把货物放进这个神奇的装置里，再按照步骤操作……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "操作简单，流程轻松，接下来只需等待几秒钟~ 好啦，马上就要打包完成了！大家跟我一起倒数， 三、 二、 一……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "嗯？背包的带子怎么还有一截卡在外面…… 坏、坏了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的旅人",
+   "text": "你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "快跑！ 大家快跑啊~！要爆炸啦——！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "……事情差不多就是这样啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "等等…… 先不提你惹出这么大的麻烦。我可不记得有条例允许你在地理协会里搞推销带货！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哎呀人家等你等得太无聊了嘛~ 俗话说，时间就是朵拉，我总不能傻站着白白浪费时间吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "然后，你贯彻自己经营理念的结果，就是搞出来了这么个烂摊子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "嘿嘿，我也没料到一点小小的失误竟然会这么严重嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的旅人",
+   "text": "那个，我的背包还有救吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的旅人",
+   "text": "这可是我刚买的新包，不会被炸坏了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "您放心，理论上是没事的，只是现在被压在了这些货下面了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "大家先稍等一下，不要拥挤，也别互相推搡，万一引发踩踏就麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "好奇的旅人",
+   "text": "明白了！大伙儿都乖乖站在原地排好队！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "真是的…… 事已至此，先把这些货物分类整理好，还给外面那些旅人们吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "布洛可，这麻烦是你搞出来的，你该不会打算让我替你善后吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "怎么会呢？ 可这么多我一个人得收拾到什么时候？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "已经多到连地板都被彻底覆盖，光靠我一个人根本干不完的啦！你好歹找几个人手过来支援嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "可你的货把门都堵死了，就算我想叫人帮忙，他们也进不来啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "嗯？什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "哦，原来是只猫啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……怎么可能嘛，你以为这样就能把我糊弄过去吗？菈露！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "喵喵喵？！为什么会暴露喵？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哦——来得可真是时候！ 赶早不如赶巧，快来帮帮我吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "说什么呢，我只是路过的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我看起来很闲吗，一会儿还有正经事要办，忙得很呢。拜拜~！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "别着急走啊，你看这一地狼藉，正需要像您这样的精英人士鼎力相助啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你认真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "真要按规矩来的话，我们恩赐意志碰到你这种搞非法交易的商人，可是要喊帝国卫队来抓人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "您说的也太夸张了，哪有什么非法交易，我只是个遵纪守法、诚信经营的小摊贩而已……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "咦？这么说，你认识我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我都说了我是恩赐意志的人了。怎么可能连这点基本情报都不清楚？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "呜哇，好吓人的发言。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "但你要抓我的话，从我这儿下单的客户们岂不是也要被追究责任？ 你说对吧，薇洛？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "请不要拿顾客当交易筹码。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "就是就是！一码归一码，这是两件事根本不能混为一谈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你也少说点吧，反正你也是跑我这摸鱼来的，就顺便帮忙把这些货物收拾了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你也知道我是来摸鱼的，帮忙不就相当于义务劳动了吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那这样好了，我们来做笔交易吧！如果你肯帮我的话，下次来买东西的时候保证算你全场折扣价，怎么样，够意思吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我 ·都 ·说 ·了！ 我可是恩赐意志的人！怎么可能跟你这种非法分子做灰色交易，你是想砸了我的铁饭碗吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "好了好了，就当是我拜托你了，帮个忙吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "免费劳动是万恶之源~不行就是不行，求我也没用……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我还没说完呢，报酬是—— 高级餐厅出品的炸薯条五份，还有你最近日思夜想的最新款钓竿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "成交！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哇，翻脸的速度简直叹为观止。真不愧是薇洛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你也别笑得太开心，这是你造成的局面，这个开支由你负责。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "诶诶诶诶？！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "就这么愉快地决定了，快点动手开始干活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "终于收拾完了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "本来以为只要归类整理好物归原主就行了，没想到确认物主花了这么多时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我明明是从办公室里溜出来摸鱼的，为啥要换个地方干更多的活啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你平时摸鱼的时间已经够多了，偶尔劳动一下有助于锻炼身体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我只是秉持“干多少活，就该摸多少鱼”的原则而已。充分休息也是为了更好地工作！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "唉，不是我说你啊。薇洛，你真的该给自己放个假了；这么拼命工作下去，身体迟早要吃不消的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我不是也经常陪你去甩杆钓鱼吗？对我来说，那已经算休息了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这也能算放假？完全不够吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你这股工作起来没日没夜的劲头太夸张啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "还好吧，我也只是在做分内的工作而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "但不管怎么说，今天还是多谢了。我还有工作要忙，之后布洛可会把说好的钓竿送去的。对吧布洛可？ 嗯？人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "她们吵起来了，正好趁机开溜…… 啊，糟了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那个奸商——！ 竟然直接脚底抹油开溜了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "堂堂恩赐意志的精英，还是别跟我这种人扯上关系比较好吧？为了您的形象，也为了我的生意，今后互不打扰才是双赢呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那就这样，我先不打扰二位啦！拜拜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "喂，你给我站住——！…… 真是的，跑得也太快了。下次要是再让我碰见，我绝对第一时间上报，把她抓起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "放心，就算她跑到天涯海角，我也会把她欠的东西给追回来的。今天就别跟这家伙一般见识了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "薇洛…… 你笑起来真的好可怕诶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "没想到一眨眼已经到傍晚了。那些文件还一份都没动呢…… 唉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "没关系，好在接下来已经没有别的安排了，只是一些文书工作而已，今天之内就能处理完。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "集中精神，开始干活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……莫名有种不祥的预感……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "薇洛！外面好像有人找你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……这次又是什么事情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "地理协会职员",
+   "text": "薇洛不好了！街上有两帮人吵起来了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……我就知道！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "呜呜，今天的工作安排明明都已经排好了啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "别哭别哭~ 我刚才去买了一包刚出锅的大薯条，特地给你挑了一根最大、炸得最漂亮的，拿去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "呜多谢…… 啊，好好吃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

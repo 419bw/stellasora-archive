@@ -1,0 +1,1072 @@
+{
+ "heading": "# 09 何为强大",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：冬夜镇魂曲与破晓扳机（活动编号 10105）",
+  "- **关卡 ID**：`101050211`",
+  "- **AVG 剧本**：`STev_04_09`",
+  "- **关卡描述**：举起武器，意味承担更大的责任。"
+ ],
+ "recap": "在一番奋战后，埃妲意识到难以战胜风影。她最终打算让风影对自己下手来完成仪式，但风影没有接受她的挑衅。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在一番奋战后，埃妲意识到难以战胜风影。她最终打算让风影对自己下手来完成仪式，但风影没有接受她的挑衅。",
+  "episode": "第九话",
+  "title": "何为强大"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "闹剧结束了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "呜！你这家伙…… 简直是个体力无限的怪物！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃妲，你已经无计可施了，现在回头还来得及。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "回头……？ 呵呵呵呵……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "我早就没有回头路了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么会——！这明明是星塔内部，怎么变成了……北境的样子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "魔王，退后！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你的恩赐已经快耗尽了吧？别浪费时间了，有什么杀手锏都使出来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不管多少次，我都会击败你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "哼。别说大话了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你想说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "想赶紧结束的话，你大可以直接扣下扳机。 但……看着你眼前的这幅景象——想起来了吗？星塔熄灭的那天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你为什么会知道那天的事？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "我当然知道。早就跟你说过了，出发前我收集了不少情报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "不只是星塔……和诺斯海姆相关的一切，我几乎都调查过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "毕竟那天……我没能和最重要的人一起站在这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "就算我对这里没什么特别的牵挂…… 但自己的故乡到底发生了什么，谁会不想弄清楚呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "故乡？那么你也是……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "没错，我也是北境出身。不过，大多数人都认为我是“北境的耻辱”罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "呵呵，明明对这里毫无感情，却总会在心底的某个角落惦记这片土地…… 简直就像一种诅咒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "而你是战士长家族出身。无论在那天之前、还是之后，都能安安稳稳地过日子……所以我的感受，你大概永远也不会懂吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "说得没错……能干出这种事，我的确无法理解你的感受。但我从未忘记家族的荣耀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "家族的荣耀？ 呵呵……哈哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "咳……不好意思。真没想到，你嘴里还能说出这么冠冕堂皇的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯？我没说什么很奇怪的话吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "你以为我不知道？风影，至今为止你一个永夜都没杀过吧？ 那些毁灭你故乡的仇人……你一个都没动过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "还满嘴什么“从未忘记”……可别逗我笑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "风影！不要中了她的挑衅！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "多谢提醒，不过放心。不管她怎么说，我从来没忘记过那份荣耀。 不对……是你，让它重新找回了光芒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我……我吗……？什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "字面意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……原来你是在说这个。确实有这么一回事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "又开始了……我最讨厌你们这种地方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "理所当然地拥有那些，炫耀那些……我永远无法得到的东西……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "凭什么只有你有？难道是因为我没有战斗的天赋？还是因为我把没有天赋当做借口，选择了逃避？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "算了……这些都无所谓了。你只要扣下扳机，让这一切结束就好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "呜——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "埃妲，别勉强了，很危险的！快把剑放下吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "对不起……我只是，想再试试……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "你的身子太弱了，治疗了这么多年，能站起来已经是奇迹了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "为什么别人都可以，我却不行呢……？ 昨天也……都说我是捡来的，说我不是个合格的北境子民……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "这话是听谁说的！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "街上的人都这么说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "听好了，埃妲，不要管别人说什么。这里就是你的家，北境的大门永远都会为你敞开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "不用在意自己的出身，更不用担心被人看不起……就算不能挥舞兵器，你总会找到自己擅长的东西的。并不是每个人都得用武艺为这座城效力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "自己擅长的东西……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "那个，师父……其实昨晚我偷偷跑去猎场，结果看见有个女孩子在被魔物袭击。然后我就——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议会成员",
+   "text": "只用一击就把那么巨大的假面野猪打倒的魔法？！这是何等的才能……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议会成员",
+   "text": "这孩子……要不送她去星辉大学进修吧？不……直接让星辉之眼的研究员们看看她的天分？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "埃妲，我想听听你的决定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "我……想去。 但是千塔之城不是很远吗……我也没有钱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "议会成员",
+   "text": "经费不用操心，你的才学非常难得……我们会全力出资的，推荐信也会准备好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "哎呀，这还没去上学怎么就哭了呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "因为……因为……！要和师父分开了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "哈哈哈！又不是再也见不到了，放假的时候常回来看看呗——这里就是你永远的家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几个月后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "==A-1==致师父 最近还好吗？离开北境，一眨眼就过去了好久。 ==A-1==嗯……虽然我好像成天都泡在图书馆和研究室里…… 学校里的大家都很有个性，我在这儿过得很好，也和大家相处得很愉快。 ==A-1==不过我还是很想家啊，假期快到了，该回来一趟了。 ==A-1==就写到这里吧，剩下的话我想见面再说。 ——埃妲",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "接下来，找一位信使寄出就行了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "啊呀？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "啊！抱歉！你没受伤吧！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "疼疼…… 诶！？你是……卡娜丝学姐？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "咦？我记得你是精英班的，埃妲同学……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "是，是的！我是埃妲！没想到居然能遇到已经毕业了的学姐……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "这个嘛……总之因为一些原因，我现在被迫留校观察了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "嗯？这个是你掉的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "啊，对，是我写的信！快放假了，我想着回家乡之前先寄封信回去打个招呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我记得你是……北境之城出身来着？ 这样的话就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "诶……？难道……北境发生什么事了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "啊……嗯，虽然我只是听说。北境的星塔似乎发生了非常严重的灾情…… 据说是，熄灭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "学者",
+   "text": "你好，您是这次分配过来的研究员吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "是的，我被分配到古代科了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "学者",
+   "text": "好的，我这就为您登记…… 您的出身地是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "出身地……可以填“无”吗？ 我的故乡，已经——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从地图上消失了",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "师父曾和我约定，只要我回去，就有接纳我的地方，但现在家乡的星塔已经熄灭，我无处可去了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "在那之后我将自己埋在没日没夜的研究中，直到我得知：是永夜破坏了星塔，破坏了我的故乡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "以勇武善战为傲的北境之民，为什么没能阻止“永夜”的入侵呢……我对此觉得难以理解……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "不过现在…… 我想我已经明白了。没那么复杂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "北境的子民，就是单纯地，因为比永夜弱小才被毁灭了家园，仅此而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "既然如此……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "只要强大到任何人都无法忽视，强大到能震慑所有的敌人……就能守护一切了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "在那之后，凭借星辉之眼这个身份，使我接触了不少“禁忌”的知识。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "串联起一切，我终于在古代的遗迹里了解到“祂”的存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "“有了这份力量，就不会再发生同样的悲剧了。”——这么想着的我，开始准备今天的计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "计划的最后一步……哪怕先前所有的仪式都失败了，只要最后，风影能杀掉我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "毕竟，我的武器就是身上刻印的魔法阵，这样也算“打落了武器”……仪式就仍然可以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我的愿望，本该实现……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "到此为止了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "为什么…… 为什么不对我扣下扳机！为什么！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "胜负已决，没必要再继续了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "开什么玩笑！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "我明白了……其他的武者也和你一样优柔寡断吧，面对永夜的威胁，犹豫不决。最终才……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你错了。看来你好像误会了什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "北境的人们，不是因为武器的力量而强大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "在艰苦的环境里互相帮助，同心协力地生存下去——正是这种团结，才造就了他们的强大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "那种东西……根本拯救不了北境！不是吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我理解你在想什么。但我已经说过了，北境子民的强大，正是因为他们团结。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "所以？那又如何？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "北境的子民们但凡一息尚存，北境之城就仍会再次复兴……哪怕换个地方，哪怕从一砖一瓦、从头再来…… 这份不向任何人屈服的坚韧，才是北境之魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师父",
+   "text": "哈哈哈！又不是再也见不到了，放假的时候常回来看看呗——这里就是你永远的家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "那我，到底是为了什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃妲，别钻牛角尖了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "魔<r=mowang></r>王大人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你……是不是一直感到自责？觉得在灾难发生的时候，自己却远在他方无能为力？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以你才会把自己逼到绝境，想要缓解那份痛苦——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是在你的故乡，有很多关心你的人。如果他们发现，你因为故乡的灾难而把自己逼到绝境、乃至伤害自己，又会怎么想？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "你想用这些煽情的话劝我停手吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "天真。如果你不在此地了结我，万一我哪天再尝试重启仪式……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "随你便。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我说过了——不管你耍什么花招，下次再有什么新把戏，我都会再次击败你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎，怎么回事！？地震吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "这家伙的恩赐快见底了，已经维持不住这个空间了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃妲！那里很危险，快过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不行，你也会被卷进去的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇！？疼……到底发生了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我们被传送到升降梯里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "传送魔法？是埃妲干的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（向埃妲伸出手）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "愣着干什么！埃妲，你也一起来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "您真是……天真得无可救药。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "呵呵……我可是想用你们献祭的狂信徒…… 你们放过我，早晚会后悔的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你这拙劣的演技……到底谁才更天真？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "非常抱歉，我还不能就这么被抓住。后会有期……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "对了……差点忘了件重要的事，答应魔<r=mowang></r>王大人的报酬，还有一半没给呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "不过现在的我，没法准备那些朵拉了，就先用这条忠告代替我的报酬吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "请您珍惜自己，想要占有您的人可是很多的，不管是您的身体，还是您的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "碎石砸下，平台崩落",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她的身影连同那句暧昧的话消失在了黑暗中",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

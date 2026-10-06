@@ -1,0 +1,1068 @@
+{
+ "heading": "# 02B 识字知书",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：敬启，致珍重的你（活动编号 10106）",
+  "- **关卡 ID**：`101060203`",
+  "- **AVG 剧本**：`STev_05_02_b`",
+  "- **关卡描述**：您说，这片大地会有尽头吗？"
+ ],
+ "recap": "你与苍兰一起分拣堆积的信件，听闻了苍兰与多娜相遇的故事。苍兰回忆起法律知识，查阅公开档案查阅出了收件人的信息。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你与苍兰一起分拣堆积的信件，听闻了苍兰与多娜相遇的故事。苍兰回忆起法律知识，查阅公开档案查阅出了收件人的信息。",
+  "episode": "第二话",
+  "title": "识字知书"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "您好，我们是万送屋，来取件的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待员",
+   "text": "真是多亏你们帮忙了！给，这些是今天要寄出的信件和包裹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇啊！柜台都要被淹没了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待员",
+   "text": "这些信件的收件地址都太远了，送过去要花好几天时间，报酬也不高……自然也就没什么人专程接这种委托了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待员",
+   "text": "不过现在有万送屋愿意接这些委托，真是帮大忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果每天都有这么多…… 万送屋也不容易啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待员",
+   "text": "那就拜托你们了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "只要把这些搬到外面就行了吧。嘿——咻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我拿这个大的箱子…… 好重？！糟了——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "没事吧，魔<r=BOSS></r>王？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好意思，苍兰。没想到比想象中还重，差点摔了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "那些我来搬就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然单手就轻松抬起来了！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "这些包裹就交给我吧，麻烦您去处理剩下那些信件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚才还有这么多的信件和包裹，现在已经搬得差不多了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "每天这样高强度工作就能变成那样吗？不，这个工作量太夸张了……苍兰，值得敬佩。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "接下来需要分拣。确认收件人地址后按照地区分类，最后再把彼此相近的地址归到一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇，要分得这么细啊。之后还要挨家挨户送过去，太厉害了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "万送屋本就是承接送信委托的，我们的原则是“无论如何都要把收到的信件送到收件人手中”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听上去容易，可仔细想想，那得花费多少精力啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是多娜主张的原则吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "是的。听说从她刚开始当信使旅人就一直是这样。多娜最在乎的，就是收件人与寄件人的心意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我能和多娜相遇，某种意义上也要归功于这份信念。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶？原来苍兰之前不是万送屋的成员吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯，我原本是一名辩护师。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "辩护师！？好厉害，好帅啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "并不是你想的那样……我只是个徒有其名的半吊子罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "家族关系、对辩护师这份工作的质疑，还有我犯下的过失…… 当时各种烦恼全都压在一起，每天都像走在瓢泼大雨里一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "最后，我再也无法忍受，于是选择了离家出走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没想到苍兰还有一段这样的过去……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "当我正漫无目的地徘徊时……我遇见了多娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "唔哇——这么一来，这封信也算是平安送到收信人的手中了！委托顺利完成！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "不过话又说回来，你好厉害啊苍兰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "刚刚要不是有你帮忙，我可能要被那只野猪拱到山脚下了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "帮忙也是理所应当的，毕竟你都委托我给你当护卫了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "但信已经送完了，理论上你的委托也完成了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我还没把你送回贝林港， 所以委托不算结束。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "你也太客气啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "那等把我送回贝林港，你接下来有什么打算吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "唔…… 我也不知道，可能到处走走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "……现在的我，大概也并不清楚自己应该要去做些什么吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "既然这样的话…… 要不要，和我一起当信使？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "其实经历了这次委托，我就更确信了……有一个可靠的同伴，真的太棒了！怎么样？和我一起送信吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "……其实从一开始我就想问了，为什么你要专门去送信？这次送的信甚至是一封十几年的老旧信件，你甚至拿不到酬劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "这种事情不是酬劳多少的问题啦……有些事，总得有人去做啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "人们选择写信，一定是有什么无法亲口说出，却依然想要传达的心意……如果信件不能送到收信人手中，那这份心意岂不是也永远无法传达了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "正因为如此，所以我才成为了信使。一想到我多努力一些，或许就会多一个人，被一封及时送到的信所拯救……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "拯救他人……真是一份重要的工作呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "对吧对吧！那苍兰，我们从今天开始就是伙伴了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "虽然……报酬确实不算多啦……不过，要是你暂时不想回去……可以和我一起住喔！我还会做饭喔！怎么样怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "但是…… 我或许没有成为信使的资格呢。 毕竟我自己正在无视着……试图传达给我的心意……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "诶？你是说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "离家出走的时候，母亲在我的包里悄悄放了一封信。直到现在，我都没能拆开它…… 连家人的信都无法面对的我，怎么能当信使呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "原来如此…… 不过我觉得，那你就更该试试了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "为什么……我明明做不到像多娜一样，如此真挚地对待信件中的心意……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "其实，我刚开始也和你差不多迷茫哦……甚至我也一样犹豫过，要不要拆开那封寄给我的信呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "但我还是成为了如今的，作为信使的我——说不定，你也会因为某些契机，而改变心意喔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "就当是试着做一小段时间好了……信使总会去往很多地方，遇到很多人事物……说不定，苍兰在旅途中就会找到自己的答案喔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我的……答案……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这场邂逅就像一阵风…… 名为“多娜”的风，吹散了我心里盘踞许久的乌云",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "就这样，我开始跟着多娜到处送信，再后来，我认识了替多娜规划路线的特丽莎，也慢慢理解了多娜的信念。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "真好啊！一次偶然的相遇，成为了改变人生轨迹的契机，感觉好浪漫哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那……你母亲给你的那封信，上面到底写了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "那封信……其实，我到现在都还没拆开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不过我相信，只要我继续在这里工作，终有一天我能找到属于自己的答案。不是别人说的、不受环境影响的，仅由我自己的心意决定的，只属于我的答案……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "所以…… 在找到答案之前，我不会拆开那封信的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这就是人生的有趣之处啊！就算当下觉得“这下彻底完蛋了”，有时候也会从某个地方再延伸出新的可能性！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "确实，也正是因为经历了那段苦恼的日子，我才会有机会遇到多娜和特丽莎。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "在那之前，我以为自己只有当辩护师这一条路了……所以还是很感谢多娜，让我看到了别的可能性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下……辩护师？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "苍兰如果有辩护师执照的话……在档案馆是不是就可以查阅到有关“霍华德”的信息呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哦！那岂不是查一下就能全部知道了？！只要让苍兰去就可以办到吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "可是……我的辩护师资格证已经…… 而且，没有合理理由，直接调取个人信息是禁止的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不过……让我想一下，档案馆……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "两位，信件的分拣工作应该告一段落了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，嗯…… 勉强算是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "即使没有辩护师资质了，但说不定也有其他的手段。 两位，请帮我一起搭把手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇！苍兰，这些厚厚的书，是什么……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "根据诺瓦大陆有关城邦历史信息公开的法案，我从档案馆借来了保存的登记信息汇总——这些确实是任何人都可以查阅的资料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "有关街区的过去历史变迁和所有人的变更信息……如果霍华德家确实曾经在贝林港生活过，或许能找到些什么痕迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。不过，这可真是好惊人的量……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "那封信已经相当破旧了…… 所以我借来了近二十年的资料汇总。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "二十年？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这信息量……多得让人眼花啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "和分拣信件其实是一回事，只关注必要的信息，然后顺着一页页翻阅就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我们现在要关注的，只有“霍华德”这几个字。比分拣这么多信件要简单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "一起分工协作吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我、我会努力的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "霍华德……霍华德……啊！ 找到了！虽然找到了……但是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙？怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这个装备店的店主……好像确实叫“霍华德”，可它已经关门了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "……同一个地址，在几年后以“贾斯汀”的名字开了一家新的装备店呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "霍华德先生，是搬家了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不清楚，但我觉得有必要去实地探访一下……是同行的话，后来开业的装备店，可能会知道些什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "魔<r=boss></r>王说得没错。等多娜她们回来，就一起商量一下吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从大家找到的信息来看，霍华德的家应该就是这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "多亏了大家，我才能确信“霍华德”和“贾斯汀”之间有关联。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "霍华德家是装备工匠辈出的名门——这一点也和苍兰调查到的结果一致。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯……销声匿迹的理由，也对上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "地址也和我画的地图上一样！这里肯定是霍华德家啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "干得漂亮，特丽莎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "大家都辛苦了！不过今天时间已经很晚了，我们明天再送吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "大家都这么努力，今晚要好好犒劳一下！我做了一桌好吃的，大家敞开了吃哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "呼……呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔……已经吃不下了……呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家都吃饱喝足了……明天也得努力加油！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜？这么晚了，她要去哪……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "啊，魔<r=BOSS></r>王，我吵醒你了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我本来就还没睡。不知道怎么回事，一点睡意都没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "嘿嘿，和多娜一样呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "今天晚上好开心啊！可能是太兴奋了，完全睡不着呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你做的菜都很好吃。 一口气做那么多，一定很辛苦吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "一点也不～感觉大家就像突然多了好多家人一样，我反而很开心！ 我很喜欢这种大家热热闹闹在一起的感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "毕竟刚开始送信的时候，就只有我一个人嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "一个人的话，根本没办法一次性跑完所有送信委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "所以我只好按日期规划路线，每天送一部分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "现在回想起来，我当时到底是怎么撑下来的啊～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "想想就头疼啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "不过之后有了苍兰和特丽莎，万送屋也成立了，我们能做到的事情也变得越来越多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "遇到困难就一起烦恼，碰上开心的事情就一起笑……这样的日子幸福得我都有点害怕了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "已经…… 不想再变成一个人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "啊！我好像说得有点奇怪。 那个，其实也没有别的意思，就是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "你看嘛，现在工作量也越来越多，一个人当然是送不完的对吧？ 所以我的意思是——再一个人单干就不行啦！ 嗯，绝对不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "好啦好啦，明天还要早起，我先睡啦！ 晚安，魔<r=BOSS></r>王~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，晚安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种奇怪的感觉……怎么回事？刚刚有一瞬间，多娜看上去简直像个快要哭出来的孩子……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "已经…… 再也不想变成一个人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“不想再变成一个人”吗……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

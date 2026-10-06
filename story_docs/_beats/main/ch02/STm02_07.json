@@ -1,0 +1,879 @@
+{
+ "heading": "# 07 特许经营",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`213`　**编号**：`07`",
+  "- **关卡名称**：特许经营",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_07`",
+  "- **关卡描述**：想要对抗公司，只有先成为公司。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "在鸢尾的讲解下，大家明白了公司的权力。\n主角决定使用恩赐印章，建立公司对抗公司。\n靠着校服，密涅瓦把鸢尾和你送进恩赐意志。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在鸢尾的讲解下，大家明白了公司的权力。\n主角决定使用恩赐印章，建立公司对抗公司。\n靠着校服，密涅瓦把鸢尾和你送进恩赐意志。",
+  "episode": "第七话",
+  "title": "特许经营"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "11:05",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 水道桥"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在，我们知道这件事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "菲金为了保住公司，就算我们逃走了，也不会放过我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不过，真是奇怪啊。魔王，你刚刚不是说白垩商会的经营状况不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "菲金是怎么雇来那么多帮手的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没有记忆，不知道说得对不对。 他们是不是从别处借了朵拉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然他们对我们来说是讨债的一方，但在别处反过来也完全有可能吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是的，只要有合适的抵押品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然如此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "越稀有的东西就越有价值，菲金只要用她持有的恩赐印章做抵押，多少朵拉都能借得到吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "可恶，用孤儿院的东西给自己借钱，还要从孩子们身上榨取还款的资金……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "公司都是这么横行霸道吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "密涅瓦大人，这话不能一概而论。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "在妾身遥远的故乡，公司还是很和善的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "龙裔的武者也说过，她们的公司是大家的依靠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "公司只是一个组织，好或者坏，还是要看组织里的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "在调查魔王交代的事情时，也听到过这种说法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊对了，拜托你的事我完全给忘了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多谢提醒，帮大忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不不，没关系的。毕竟这么短时间内发生了好多事嘛，正好趁现在说一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "“与世界为敌的公司”我没查到，但是公司有什么权利我都查到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好厚！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "公司就是这样，毕竟是恩赐之神赐福的存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "公司不论大小，所拥有的权利都是相同的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "最重要的几条我画出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "拥有特许经营的权利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "拥有保护自身的权利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "拥有维护秩序的权利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "拥有发动战争的权利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这哪里是公司，简直是王国，都能发动战争了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，发动战争……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "战争，是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呃……我记得就是很多很多的人，有一个城邦那么多的人和人数差不多的其他人殊死搏斗……对吧，鸢尾？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然你解释得有点模糊，但基本就是这个意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "战争这一条下面的细则是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，竟然还有这样的权利， 这下有趣了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各位，我知道怎么击败白垩商会了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "跑不动的铁乌龟，快来追我啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "这颗炸弹送给你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "别慌张，占据附近的路口，包围她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐骑士",
+   "text": "是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "姐姐，我们被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "别慌！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "这种时候才更要相信老大的安排啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "举枪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐骑士",
+   "text": "冲锋！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "赶上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "哦哦，来得正是时候！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "琥珀胳膊上的绑带快速收缩，把满月和新月拉到屋顶上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "想不到吧，屋顶也可以滑滑板的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "花粉，吹过去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "阿嚏！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐骑士",
+   "text": "好痒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "撤，告诉哨所，让他们派会风或者水魔法的骑士来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐骑士",
+   "text": "队长，撤退路线上有敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "斩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好快的刀，我可不能输给你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "花粉包不多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "放心吧，魔王一定可以搞定的，我们只要继续钓住骑士就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:55",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 灰城区街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "你好，我们需要检查一下你的包。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的学生",
+   "text": "嗯？出什么事了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "白垩商会在灰城区丢了东西，正在封区搜索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的学生",
+   "text": "一家公司丢了东西，为什么就要封掉一个区的街道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的学生",
+   "text": "我拉着的两个箱子里都是学习资料，和白垩商会没关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "可是……规定就是规定……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "喂，磨蹭什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "队长，她拒绝检查……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "学生？哈……你的眼睛是装饰吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "没看到人家穿着白金公学的校服吗？ 白金公学的大小姐会和白垩那破公司有关系？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "非常抱歉给您添麻烦了。不用检查了，请通行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的学生",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "队长，万一……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "万一什么万一？白金公学的学生都是各家公司元老的孩子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "就算她真的有什么问题，你查出来了也是神仙打架，我们遭殃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的队长",
+   "text": "再说，这次出勤你能拿几个朵拉啊，玩什么命啊，继续站岗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "密涅瓦的这身校服还真有用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "白金公学……究竟是什么样的贵族学校。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:05",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 心相商店"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "欢迎光临，就由我这个可爱的实习生为您服务吧♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我要办理解冻业务，箱子里是资料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "解冻业务么......啊，我明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "请这边走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:10",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 恩赐保管库"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "出来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，呼，总算出来了……被帝国卫队拦下的时候，还以为完蛋了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我和鸢尾两个人从藏身的行李箱里爬了出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "总算是有惊无险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "两位客人，这样的见面还真是稀奇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "白垩商会那边的事情，我也风闻了一点，你们辛苦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "时间紧急，就不和你客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我是来解冻这枚印章所代表的公司的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "呵呵…… 看来您下定决心了，我立刻为客人准备相关手续。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在那之前，还有一个问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们完全查不到这家公司的信息，你给我的资料上也没有，这枚印章代表的公司真的存在吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "这也是没办法的事。毕竟存入您持有的手机和印章的保险柜上次开启的时间，可能比十个我的年龄加在一起都要久远。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "那么古老的事情，除非去恩赐意志的大图书馆，否则很难查到的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "不过请放心。只要您解冻，您自然会知道公司的情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此， 好，我要怎么解冻？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "每家公司，或者说每枚恩赐印章都包含一个特许经营专利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "您需要以公司首席执行官的身份，做一笔特许经营范围内的业务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "有了生意，公司自然就解冻了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……我明白了， 这枚印章特许经营的范围是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "这就交给可爱的我吧♪请您把印章放在那边的石板上好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "按照指示放置印章后，印章缓缓浮起，散发着柔和的光芒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一行古朴的文字浮现在石板上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "让您久等了，您公司的特许经营专利是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "灵魂交易。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

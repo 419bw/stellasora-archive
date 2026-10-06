@@ -1,0 +1,812 @@
+{
+ "heading": "# 08 敬启，致珍重的你",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：敬启，致珍重的你（活动编号 10106）",
+  "- **关卡 ID**：`101060212`",
+  "- **AVG 剧本**：`STev_05_08`",
+  "- **关卡描述**：趁现在，把贝林港的景色好好印入脑海……"
+ ],
+ "recap": "回到万送屋，还得处理堆积如山的信件……一番努力下，迷路的信件终于都悉数物归原主。\n与魔王分别后的多娜，也久违地提笔写信……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "回到万送屋，还得处理堆积如山的信件……一番努力下，迷路的信件终于都悉数物归原主。\n与魔王分别后的多娜，也久违地提笔写信……",
+  "episode": "第八话",
+  "title": "敬启，致珍重的你"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我们回来啦～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "“寻找迷途之信的大作战”圆满成功！大家今天真是辛苦了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "哎？空白旅团的各位……好像状态不太对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊……魔<r=BOSS></r>王……大家……欢迎回来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么了！？大家都一副魂不守舍的样子！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "没做完……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对不起啊啊啊啊！已经接下的工作，还完全没做完啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我小看了这些工作量了……自信满满地就硬接了下来，真的不好意思——！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "信使旅人……真的好厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "哈哈哈，原来是这么回事啊。不必介意",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "和我们出发前相比，进度推进不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "嗯！明明是刚上手，这已经很厉害了哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大家……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "哈哈哈，其实要处理的信还增加了！这些——也拜托各位啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "怎、怎么还会增加啊啊啊！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……总之……发生了很多事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "加班……确定……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "追加的部分，报酬不会少的——那么！各位，开始分工吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在？！你们奔波了一整天刚回来……先稍微休息一下吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "不不不，趁热打铁嘛——早一天也好，我想把这些因为魔物而迷路的信件，都尽快送达！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "确认……收件人！这里！——确认……收件人！那边——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "特丽莎！这个区域的投递就交给你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "好——的！我去了喵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "琥珀，苍兰！这边也分类完了，拜托去投递吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "了解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯，我出发了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "信件的分拣，这样就全部完工了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "谢谢魔<r=BOSS></r>王！接下来按区域汇总整理好……明天就能全都投递出去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "如小山一般堆积、杂乱的信件，在众人的努力下，逐渐变得整洁有序。胜利的曙光就在眼前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "呼……呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "喵呜……呼噜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……万送屋的大家，都睡着了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这也情有可原啦……她们追了一路，又和魔物战斗，回来之后又一起分拣和送信……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "她们，好努力……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们一定很喜欢这份工作吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这几天真是亲身感受到了这份热情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……信使的热情，好厉害——！不知为什么，感觉也好帅气！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "真辛苦……但这是，很重要的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "姆喵……我们……是万送屋……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "做梦都在送信呀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的辛苦了，各位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天就要离开贝林港了吧……虽然忙忙碌碌，但确实很开心呢",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "早——安，魔<r=BOSS></r>王！在做什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "早安，多娜。我想趁现在，把贝林港的景色好好印在脑海里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "很美对吧？我也很喜欢从这里欣赏早晨的风景喔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实很美。这份凉爽……对刚睡醒的头脑来说，恰到好处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "昨晚睡得好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "工作也告一段落了，美美睡了一觉！现在的多娜，可是神清气爽，状态正满喔！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "不过，工作告一段落，也就意味着空白旅团的委托也结束了。今天就要出发了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯。听鸢尾说确实今天就得出发了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "唉——真遗憾！大家明明如此有信使的天赋，短短几天就有模有样了……要是一起来帮忙的话，那真是会安心不少了呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈哈，和万送屋相比，我们还差得远呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "哈哈哈，只是说说而已——话说回来，虽然只有短短几天，但能和大家一起工作，真的很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也…… 很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "……嗯，而且和魔<r=BOSS></r>王在一起的时候，我意识到，要成为一个可靠的领袖……我还有很长的路要走呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我还得努力学习各种知识……努力变得像魔<r=BOSS></r>王那样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜，其实不用非得和我一样喔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜，有属于多娜独有的优点。现在的你，就已经是个非常出色的领导者了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "真的、是这样吗？诶……我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我上次说过吧？“没有信念的领袖，是不会有人追随的”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "正是因为多娜的信念坚定，大家追随着多娜的脚步，才能度过这次的难关。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "魔<r=BOSS></r>王可真是太会夸人啦！你再说下去，人家会害羞的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "……像这样和魔<r=BOSS></r>王聊天，也是最后一次了吧……有些寂寞呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我是一个不擅长道别的人。我有提过吧，以前的我风雨飘摇，无处是家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "好不容易建立起的友情、信赖……关系……总像是会随时消失一样……我总是忍不住会这么想…… 一这么想，就会觉得好寂寞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "所以，万送屋也…… 我好害怕也会变成那样。为了不让大家散伙，我真的，拼了命在努力呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "——哈！抱、抱歉！怎么突然多愁善感起来了……和魔<r=BOSS></r>王聊天，总是一不小心就说出真心话了呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别离是无法避免的——虽然这听起来有点悲伤，但确实这世上没有什么“永恒”的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "……是、呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但我们可以写信——即使相隔万里，只要寄信就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“即使不能直接见面，只要写信，就能和心中重要的人联系在一起”…… 没错吧，多娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要书信的力量还在，你就不会孤身一人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "身为信使，却被你用“信”的话题说动了……真是败给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "没错，信件是连接人与人的桥梁呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "随时写信给我吧，我一定会按时回信的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "嗯！约好了哦，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "好狡猾！我也要和魔<r=BOSS></r>王通信——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "和魔<r=BOSS></r>王通信……真好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "哇，特丽莎！？苍兰！？你们是从哪句开始听的？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "什么时候？我想想……大概是从魔<r=BOSS></r>王说“随时写信给我”那个时候起？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "呼……还好没有听到太多呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "什么～？你这么一说，我倒好奇你们之前说了什么喵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "啊！差不多该准备早饭了！魔<r=BOSS></r>王，刚才的话，请好好保密哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "多娜——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "万送屋的大家，真的关系很好呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "空白旅团的各位，再次感谢你们！多亏了大家，这次才能平安度过危机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "彼此彼此，我们也学到了很多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "当信使，很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "如果还有困难，请随时联系我！我会开着小绿立刻来帮忙的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "特丽莎、苍兰、多娜！祝你们的信使事业一帆风顺！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "谢谢！大家如果有什么想要寄的东西，也请给万送屋发委托哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "相知、相识，然后道别……那一刻总会到来。 但少女的话语中不再有悲伤……她的面容，如晴空一般温暖舒展。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她知道，只要提笔、书写、寄出信件， 即使相隔两地，心意也会传达——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "（说起来，我也已经好久没有提笔写信了…… 开头，就这样写吧！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“敬启，致珍重的魔<r=BOSS></r>王大人”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,1111 @@
+{
+ "heading": "# 追忆 空白的正解 下",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`910`　**编号**：`追忆`",
+  "- **关卡名称**：空白的正解 下",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_09`",
+  "- **关卡描述**：最好的选择，未必是最正确的答案。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "考学失败后，鸢尾到处打工，但没有学历的她难以得到重用。\n终于与尘沙琥珀重逢时，鸢尾得知自己被特邀加入研究机构。\n但鸢尾在思考后，最终选择毅然与伙伴们同行，成为旅人……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "考学失败后，鸢尾到处打工，但没有学历的她难以得到重用。\n终于与尘沙琥珀重逢时，鸢尾得知自己被特邀加入研究机构。\n但鸢尾在思考后，最终选择毅然与伙伴们同行，成为旅人……",
+  "episode": "追忆",
+  "title": "空白的正解 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "花月 20日",
+   "place": "埃摩金城区 星辉附属大学"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "和分数线差了一分...... 落，落榜，怎么可能？！ 老师，我要查分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "可以啊。 不过，只靠五科的成绩就几乎达到了分数线，实在有点可惜呢。 要是把剩下那科也好好考完，说不定就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "咦？ 剩…… 剩下那科？ 什么意思啊？ 我五科都参加了啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你记错了吧， 星辉附属大学的入学考试有六科， 这在大学历史上，可从来没有变过呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你没有参加的是最后一门恩赐咒文的考试， 真可惜， 恩赐咒文考的都是简单的背诵， 看你前面的成绩，这一门应该也能拿个高分的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（怎么可能......我怎么可能记错考试科目， 对了，那个时候......）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们花了几天时间才来到这座荒野星塔，回去还要同样的时间，没时间耽误了，必须一次成功。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "并且，能和大家一起爬塔好开心，听说心情好的时候许愿会很灵，我很高兴你这么替我着想， 但这个愿望，就由我来许吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "托你们的福，五门考试我都觉得发挥得相当不错。许愿似乎没让我忘掉任何知识，这次真的运气很好呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（啊……啊啊……我真傻，真的。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（蠢得无可救药……我失去的记忆根本不是考试内容，而是“入学考试的科目”啊......）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我忘了自己是怎么离开的星辉附属大学 又是怎么接下了打工地点的出差任务",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在我回过神的时候，我已经在贝林港开始了新的工作",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（那时，如果我没有许愿就好了。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "偶尔，我会这么想，但我知道，事到如今再想这些，已经什么都改变不了了",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（那个时候的我，太开心了，太自以为是了，误以为自己也有擅长的东西……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（这大概是命运......恩赐之神给我的惩罚。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（……不对。说到底，尘沙和琥珀也是为了帮我才一起去爬塔的，没道理让她们失去记忆。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（所以这根本……是的，这连惩罚都算不上。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "打工的工作很快结束了，我在附近的城邦开始找新的工作，没有回到埃摩",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我这么丢人，实在没脸去见孤儿院的大家，也拿不出钱来补贴家用。可是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的面试官",
+   "text": "看你的简历......你没上过正式的学啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "高傲的面试官",
+   "text": "出身灰城区，抱歉，我们公司恐怕不太......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "为难的面试官",
+   "text": "没有推荐信啊，那今天的面试就到这里，如果入选，我们会拜托旅人给您的地址送去通知书的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "绝大多数的求职，我的简历还没抵达面试官的手里就被刷掉了 少部分进入面试的，对方也基本没把我当回事",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我花费朵拉考的那些证书，在无数深夜里学习的那些知识，都成了无用功",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "最后，还是恩赐意志接纳了我",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "埃摩城的一家心相商店需要在临近的城邦设立一个给心相石补充恩赐的流动站点",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我就这样成为一名光荣的心相商店的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "外包员工",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "21:00",
+   "date": "霜月 24日",
+   "place": "卡诺莎银城区 商业街"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，好冷，雪好大啊，今天是雪愿节前夜吧...... 尘沙和琥珀还好吧。 这种日子不好好做保暖的话......说不定会感冒……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "今天也没什么业务呢， 感觉大家越来越不喜欢用恩赐，都去用柔光了，心相商店的工作也不好做呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（说起来，虽然我是埃摩三百零五号心相商店的售货员，但我一次商店都没去过，甚至一次埃摩城都没回过。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（也没拿到恩赐意志的制服，只是在周围的城邦里支着小桌办业务，每天就这么过着。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（不过，我已经拿到了三次月优秀员工， 只要再拿一次，就能获得转正的机会吧。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊，您好，请问是要补充恩赐吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "人事专员",
+   "text": "辛苦了。你是鸢尾吧...... 我是恩赐意志人事部的人事专员。 今天有重要的事情要和你说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "（人，人事专员， 不会是要给我提前转正吧。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊，我是埃摩三百零五号心相商店的售货员鸢尾，请问您有什么事情呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "人事专员",
+   "text": "我就直说了。 为了应对外部的挑战和保持公司的核心竞争力，恩赐意志天空院决定启动“聚焦核心、降本增效”的战略升级，进行大规模裁员和业务缩减。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "人事专员",
+   "text": "因此，你所属的埃摩三百零五号心相商店被整体裁撤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "您，您说什么？ 整体裁撤？ 那我应该去哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "人事专员",
+   "text": "你对团队的付出和工作成果，大家都是有目共睹的，非常感谢你的辛勤工作。 但非常遗憾，您并非是天空院的正式员工，因此无法安排转岗计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "人事专员",
+   "text": "公司会按照恩赐意志的制度，给予你等同正式员工的补偿。 希望能获得你的理解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "但、但是……！ ......好，我知道了。谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "每当我心烦意乱的时候，我就会找一套星辉附属大学入学考试的真题来做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "题目总有正确答案，只要努力学习，掌握思路，再难的题也有做对的那一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可是，我的人生好像没有正确答案。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "应聘，失败，应聘，失败，应聘，失败，应聘，成功，外包员工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不同颜色的工牌像是一张隐身卡，茶水间里的零食和茶水并不是给隐身人用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不过，我还是喜欢加入那些名字里带有埃摩的公司或者...... 没有恩赐印章的，酷似正式公司的“事务所”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那两个字，让我觉得我还有回去那里的机会",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星塔历995年",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:30",
+   "date": "鸣月 25日",
+   "place": "贝林港 职业介绍所"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "要不要考虑一下这份菲莱的工作呢？是大公司联合种业哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个，这种听起来很诱人的工作，真的轮得到我吗？ 我听说...... 我听说好多这样的工作最后都不是去菲莱，是以去菲莱的名义去南方雨林了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "哎？小姑娘知道的还挺多啊， 去南方雨林也不错啊，包吃包住包旅费，工作很轻松，不看学历，会用手机就行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "当然，到了之后也有专业培训，快速上手赚朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这，这样么...... 那我还是不去了，有别的工作吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "哼，你还挑挑拣拣上了， 看你的样子，被开除后，好久没找到工作了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不，不是被开除，是事务所倒闭了， 而且我也不是挑挑拣拣，只是想……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "生意好的店铺，事务所那么多，怎么不倒闭别人就倒闭你工作的地方， 难道你是个扫把星？ 去哪里哪里就倒闭？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "工作哪里不好找了？ 有时候多找找自己的原因， 这么多年能力涨没涨，有没有认真工作？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜—— 是，是我不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "嗯，知道你没人要就行， 那你看要不要去这个菲莱的工作呢？在这里签字就可以了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我...... 我......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "鸢尾，不要签。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "熟悉的触感，按住了我拿笔的右手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哎？ 尘，尘沙？ 还有琥珀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好久不见，鸢尾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "真是的，我们找你找了两个月了，没想到你竟然在被这种家伙骗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "你们说什么呢！外地来的旅人也太没礼貌了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "我是在帮这个不努力的孩子找一份适合她的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不—— 努—— 力——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别说得好像你很了解她一样好吗？鸢尾是我见过的最努力的人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "在孤儿院的时候，她每天都是学到深夜，睡得最晚，起的最早的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "她学了很多我们旅人都不熟悉的冷门旅行知识，我说想当旅人的时候，她都仔细地教给我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你这种在这里骗人去危险的地方打工的家伙， 有什么资格说鸢尾不努力——！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "吵死了……找不到工作不就是最好的证明吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "这是什么...... 咦咦咦？面试邀请函，上面还盖着星辉之眼的印章。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾才不是没人要，她可抢手了。 哼~！你再乱说小心我咬你！ 鸢尾，别理这种骗子了，我们走......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯？嗯嗯......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "职业介绍员",
+   "text": "喂喂喂，能拿到星辉之眼的邀请函为什么要来我这里找工作啊。 不对！ 要是让星辉之眼那帮疯狂的教授知道.....我打算把她们看中的人拐到雨林去....... 我还是快点卷铺盖跑路吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:00",
+   "date": "鸣月 25日",
+   "place": "贝林港 夕阳街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，琥珀，你们怎么在这里？ 找我两个月是怎么回事？ 还有那个邀请函？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎，问题太多了，我会一个个回答的， 但是在那之前， 请看——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这，这是——神器车？！ 尘沙，你真的拼出来了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "完全没有，只有外壳，里面是空的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎，琥珀，别说出来嘛，先让鸢尾惊讶一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好啦好啦好啦。 总之，在这几个月里，我去星塔里许愿了一些能拼起来的神器，琥珀也帮忙找到了一些古代宝藏，我们就勉强拼出了一个样子。 现在，只要再把里面填满，就大功告成了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "顺便一提，拼车子的时候，我们遇到了，星辉之眼的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，然后我们说了我们是鸢尾的朋友， 那个女人就给了我们这个邀请函。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "上面写的有效期让我有点在意……这封信里面写的是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "突然来信，想必让你受惊了，非常抱歉。你在星辉附属大学入学考试中的答卷，给我们留下了深刻的印象。得知你没有被星辉附属大学录取，我们感到十分惋惜。故此提笔致信。 如果你正在寻找工作机会，我们或可提供一个合适的岗位，热切期盼你来参加面试，我们一起聊聊未来的可能性。 ——生命奥秘研究学会",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这个学会好像是星辉之眼旗下的机构，我们只是简单聊了几句， 具体我也不懂，但对方非常有礼貌，我觉得可以信任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "复习资料，还在吗？那人说，面试时想讨论一下入学考试的题目。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还在，还在， 我都随身带着的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那，你要去面试吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一直以来的梦想，近在眼前 拿着这份邀请信，对方一定不会再在意我的学历和出身问题",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星辉附属大学的历年真题，我反复练习到能背下来的程度 只要对方出题，我就一定能答对",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "可是，现在的我，为什么这么犹豫呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我到底是为什么？要去不断地做题的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "如果，这一切只是为了回答对一道——被别人预设好的人生题 这样的我，真的是我想成为的我吗",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "……不知道，要怎么做才能得到我所寻求的“鸢尾的人生的答案”呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对了，鸢尾。 我先说清楚，免得你误会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们找你找了两个月，可不是为了送推荐信哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诶，是吗？ 那……是为了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "为什么？你是认真的吗？ 在骗子那儿我不是说了吗？ “鸢尾才不是没人要，她可抢手了。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "………………………… 啊，诶？ 难道你真的没明白？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，嗯嗯，对不起。我不是很明白……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不不不不！ 这不就在眼前吗！这里！ 需要鸢尾的人！ 两个！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊！！原来是这样吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你反应也太慢了吧……能明白就好啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们一点点拼起神器车的外壳的时候，尘沙就想到了你， 尘沙为了邀请你加入旅团，一直在找你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "邀请我加入旅团？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "毕竟，如果你那天没有告诉我那个东西叫做“方向盘”，也不会有后来的故事。 如果只靠我自己的话，我可能一辈子也不会发现地下室里那本画着神器车图样的书吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "所以如果我要自己组建旅团的话…… 那时候就决定了，一定要邀请鸢尾你加入！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不过话说回来，就像我有梦想一样，如果鸢尾你也有梦想的话，我不会强求啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "总之就是这么回事啦，你要去面试我不会拦着的。 啊，不过你要是在那个什么学会干的不开心的话，能把我这儿当个备选的跳槽去处， 我会很开心哦♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "如果那里你做的不开心，我们会，把你抢走哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "噢！这个好诶~！ 帅呆了！就这么定了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙、琥珀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "谢谢你们！ ......我...... 我决定了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "呃……？呃……？ 复习资料，扔掉了？ 鸢尾，不做题了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我喜欢做题，我最喜欢做题了，我喜欢做题给我带来的安全感。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我想进大公司，我超级想留在埃摩，我想要每天都能看到孤儿院。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "但实际上，我想要的...... 只是...... 能和我最最喜欢的尘沙和琥珀，一直一直在一起啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可能一天都说不了一句话，但我知道，你们就在身边不远的地方的那种感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，琥珀，我决定了，我想当旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我不想再做那些，有标准答案的题目了。 我人生的答案，应该由我自己来寻找。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不对，是我们人生的答案。 你来做旅人的话，下面的人生，可就是我们三个人的考试喽——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "只写， 我们想写的内容。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯！ 那么，尘沙，琥珀…… 从今以后，请多多关照！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

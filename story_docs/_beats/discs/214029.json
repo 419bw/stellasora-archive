@@ -1,0 +1,875 @@
+{
+ "heading": "# 猫之珍藏",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214029`",
+  "- **关联角色**：猫眼",
+  "- **AVG 剧本**：`CG_disc4029`"
+ ],
+ "recap": "被猫眼大人的魔眼所魅惑的幸运之物啊，臣服于自黑暗之中显现的吾之力量吧！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "被猫眼大人的魔眼所魅惑的幸运之物啊，臣服于自黑暗之中显现的吾之力量吧！",
+  "episode": "记忆回想",
+  "title": "猫之珍藏"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "传说中有一只喵喵神，\n祂的左眼是月亮的象征，可以散发光辉，治愈一切创伤与疾病。\n祂的右眼是太阳的象征，可以射出火焰，清除一切罪恶与邪灵。\n入我喵喵门，在喵喵神的猫眼之下，祂的信徒便会得到庇佑。\n啊，当然，入门也是要收费的。1000朵拉就可以……呃呜——\n \n正对着孩子们侃侃而谈的男人被一枚颜料弹击中，子弹爆裂，溅出的液体在他脸上引起了灼热的痛感。\n“哇啊啊啊啊啊……好辣、好辣！！”\n被痛楚刺激到的他胡乱地抹着脸，反倒让那些辣椒水侵入了更脆弱的地方，\n“啊啊啊啊啊啊，我的眼睛！！”\n男人狼狈翻滚的样子逗乐了远处的射手。\n“哈哈哈哈，活该！以后不准胡乱骗小孩儿钱。”\n射手又发出一枚颜料弹，打在了男人脚边，暗含警告。“不然，我猫眼大人不会饶了你！”\n——逆光的身姿在灰城区杂乱的泥土路上投下一道扭曲而又巨大的阴影。\n此刻，又是一道应景的风，吹起射手散乱的头发，也吹走了那股谎言的味道。\n\n“猫眼大人？哇……你难道就是喵喵神？！”孩子们围拢在阴影之下。\n“不对不对，猫眼大人是猫眼大人，喵喵神是喵喵神……唔，当然，猫眼大人也可以是喵喵神，哈哈哈哈！”\n射手放肆狂笑的姿态让孩子们小心翼翼地退开半步。\n“走走走，还、还是别和她搭话了吧？”\n胆小的孩子先撒开腿，胆大的孩子还伸手戳了戳枪管。\n“哇，我摸到了喵喵神的枪！”\n“它叫‘逗猫棒-魔典断章-改’！记住咯，哈哈哈哈哈！”\n“好……好长，记不住，不过喵喵神，再见！”他们笑闹着与射手告别，这个小小的角落也终于重归宁静。\n\n“喵……”角落里散乱着的纸箱堆突然抖了一下，紧接着传出一声细微的猫叫。\n被刚才那场闹剧吓得钻入夹缝的小脑袋刚警惕地探出，\n然后就立刻和面前蓝色的、属于体型远大于它的这个生物的——这双美丽大眼睛打了个照面。\n“呜噫——喵——！”凄厉的叫声和逃窜的动静后，这个角落就只剩下了少女自己了。\n\n“哼，胆小如鼠的猫！”射手气鼓鼓地背起了自己的‘逗猫棒’，\n“刚才听到的喵喵神确实有点意思……卡西米拉又一直躲着我，不如先去找找祂玩玩，嘻嘻。\n看看是祂右眼的火焰厉害，还是我猫眼大人的枪更厉害~”"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "听好了，你们这些可悲的星骸们啊！我乃猫眼大人！左眼寄宿着黑暗之力，反抗神明的弑神者！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "阻挡猫眼大人去路的杂碎， 就通通化作“魔典断章”的祭品吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "——魔眼，解·禁！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "一二三四五六七八九十……！二十连杀，天诛地灭！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼~刚才的发挥怎么样？漂亮吧！如果打分的话，怎么说也有90分了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "猫眼，注意身后！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "干得漂亮！魔<r=mowang></r>王大人！绝佳助攻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哎呀，说实话，在这你我天衣无缝的合作中，我还是蛮想和你也切磋一下呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈哈……你还是饶了我吧。 况且我觉得你玩游戏应该不喜欢用新手模式才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "那是当然，但如果魔<r=mowang></r>王大人在切磋的时候突然觉醒！那搞不好就会变成地狱模式咯~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这我可不敢保证， 说到底，你所谓的那个“觉醒时刻”，真的会降临吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼！会来的！肯定会来的！绝对会来的！ 就算不来，我猫眼大人也会强行把它逼出来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇，好强的气势啊……你对这件事的执念还是一如既往啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "那是当然，因为要是魔<r=mowang></r>王大人的真正实力一直不觉醒的话——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我就没办法击败全盛时期的魔<r=mowang></r>王大人，从而使我体内的黑暗之力变得更加强大！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我倒觉得，如果猫眼的力量真的很强大的话，也用不着来击败我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "谁说的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "魔王既然有着魔<r=mowang></r>王这样的称号，那就一定是万物之间黑暗力量的主人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "如果我能击败魔<r=mowang></r>王大人的话……我就可以成为新的魔<r=mowang></r>王了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "喵哈哈哈哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来， 在猫眼的设定里好像是这么回事来着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她那套奇奇怪怪的说法， 我还是很难习惯啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "此处便是吾等的约定之地！魔<r=mowang></r>王大人，到目前为止，猫眼大人的战果如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一共是七十八杀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嗯……看来距离最高分还是差了这么一点啊，主要也是敌人太少了，这也是没办法的事情，真可惜~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "不过嘛，就算是这样也有七成是命中要害的一击必杀！这样一来，距离觉醒的时刻应该也就又进了一步！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "觉醒的事情还是先放一放，既然这里就是你所说的“约定之地”，也就是说我们已经到达了今天的目的地了对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼~正是！此地乃是斗争之圣地，是曾经由无数勇士鲜血所染就的竞技场！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "让我们再次一决高下，使彼此之灵魂共鸣，如此魔<r=mowang></r>王大人就可以与猫眼大人一同达到更高的境界！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉， 什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "既然讨伐星骸没办法和魔<r=mowang></r>王大人一决高下， 但如果是打游戏的话，你应该没有问题吧~借此便可以增强你我的黑暗之力，并培养出更加强大的魔<r=mowang></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "负责培养我的有维塔一个就已经足够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您叫我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，我没叫你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "快来吧，魔<r=mowang></r>王大人！我们就先从那个游戏机开始玩吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是节奏游戏吗？看起来要去踩地上的箭头……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "对对， 很简单吧？看我的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "来自天上的音乐啊！ 此刻， 响彻于现世吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "喵哈哈哈！是猫眼大人的压倒性胜利——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈啊…… 哈啊……！这游戏比我想象中硬核多了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "明明都累成这样了，分数却还是很不错的嘛~ 不如趁着感觉还在，我们去玩下一个项目吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？！等一下猫眼， 让我休息一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "唔唔…… 右边， 还是左边……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……看招！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊啊！又失误了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "魔<r=mowang></r>王大人，你的星塔气垫球实力也太强了吧——！ 再来一局！ 我一定要一雪前耻——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你都连输九局了哦？ 差不多也该放弃了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "刚，刚才只是还在酝酿黑暗之力而已！这次我一定会赢的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "接下来 玩哪个 好呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了， 猫眼？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这， 这股自深渊释放而出的黑暗气息是……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "猫眼？你要去哪儿？ 猫眼！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总算追上你了……猫眼， 你突然跑这么快…… 咦——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是…… 抓娃娃机？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "魔<r=mowang></r>王大人， 快看快看！这个玩偶， 是不是很像你？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……有那么像吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "绝对很像啦！ 哼哼~这正是由你我之羁绊引导而来的邂逅！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "被猫眼大人的魔眼所魅惑的幸运之物啊，臣服于自黑暗之中显现的吾之力量吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "失误了吗？它连动都没动啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "……哼。第一次嘛。 就当是测试了。下次一定……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "根本抓不到啊！这抓钩到底怎么回事啊！！ 参数调的也太黑了吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的只是抓钩的问题吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊！ 啊啊~~！你刚才绝对是在质疑我的技术对吧？！既然你都这么说了， 那魔<r=mowang></r>王大人也来试试看啊！ 我来负责指挥！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "再往右一点……对对对，停！然后把抓钩再往里伸一点…… 就是现在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……啊啊啊， 怎么了掉下去了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我还以为这次已经成了啊啊啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比我想象中还难抓……猫眼你可是狙击手啊，还是你来操作吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "那就再次交换选手！这次换魔<r=mowang></r>王来当观察手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，往左一点…… 停。要瞄准玩偶的侧腹， 还得再往里一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是这个位置！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "射击！ 去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊啊！ 这次明明很顺利啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉…… 这都第几次了？ 看来只能放弃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "——啊！ 等等，还没完！还有没用过的战术！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？！猫眼， 你这是要做什么——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这里的话，不就能更准确地观察了吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "钻进机器里面不算犯规吗？！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "当然不算？这可是堂堂正正的战略！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "狙击最重要的就是观测位置啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "那你直接拿出来不是更快吗……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "那可不行！身为魔<r=mowang></r>王、身为黑暗之力的持有者，形象是很重要的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "你都已经钻进去了，这有什么区别……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "区别就在于成就感啊，魔<r=mowang></r>王大人你很快就会明白了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "好的，现在准备听我的指挥！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "向右二十！ 不对， 过头了。 往左回五。然后把抓钩朝我这边挪过来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "停！这里就是最佳位置了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "抓钩下降！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "胆敢反抗黑暗之力的人啊， 乖乖认命吧！此刻正是归于虚无之时！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "猫眼大人在此向汝下令。将身躯托付于银之双翼，回应那位统御永夜的魔<r=mowang></r>王大人呼唤！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "来吧！！！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "太好啦啊啊啊啊啊！抓到了啊啊啊啊啊啊啊！笑到最后的果然还是猫眼大人我呀——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "干得漂亮， 魔<r=mowang></r>王大人这下不就离觉醒又近了一步吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "距离觉醒有没有更近我不知道， 不过确实体会到了很强的成就感呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过没办法把玩偶带出星塔还是太可惜了，明明都这么努力了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就是就是，居然只有从祈愿箱里开出来的东西才能带走，恩赐之神真是小气——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "不过嘛， 我们得到的也不只有玩偶就是了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不只有玩偶……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼，那自然是你我一同携手合作，把想要的东西拿到手的这份回忆！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "为了成为真正的魔<r=mowang></r>王从而进行的试炼所拿到的经验值，已经成功铭刻在了你我的灵魂之中了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "光是这样，也算是不虚此行了对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯…… 说得也是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "即便只是终将化为泡影的幻梦，她也无法按捺住伸手触碰的冲动。或许这正是被黑暗之力所迷惑的少女所背负的因果，是她注定的宿命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，直到踏出星塔为止，少女都带着自豪的表情，将自己与魔<r=mowang></r>王一同赢来的战利品紧紧抱在怀中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

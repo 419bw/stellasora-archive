@@ -1,0 +1,720 @@
+{
+ "heading": "# 08 破晓扳机",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：冬夜镇魂曲与破晓扳机（活动编号 10105）",
+  "- **关卡 ID**：`101050209`",
+  "- **AVG 剧本**：`STev_04_08`",
+  "- **关卡描述**：勇气上膛，扣下宣告破晓的扳机。"
+ ],
+ "recap": "在幻境中的风影与古代的灵魂们发生了战斗，她成功脱险并回到了现实，与你一同面对彻底癫狂的埃妲。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在幻境中的风影与古代的灵魂们发生了战斗，她成功脱险并回到了现实，与你一同面对彻底癫狂的埃妲。",
+  "episode": "第八话",
+  "title": "破晓扳机"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我不会相信什么尊者，也不会安坐在所谓安全的“看台”上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我会亲手守护——我的同伴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "这就是你的回答啊， 那可真是……太遗憾了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "那么，见证者。只要仪式结束，你也就没有用处了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（用身体挡住武器）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "魔<r=mowang></r>王，你傻掉了吗？武器是用来保护自己，杀死敌人的，你竟然用身体去保护一把刀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，埃妲，到现在你还在演啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的真正目标，就是她的武器吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "你在胡说什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我不知道你所谓的那个“战争之神”或者“战争尊者”的仪式具体是什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但仔细想来，没有哪个指挥官会在战斗前让自己的勇士互相杀死对方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再加上，我和风影遇到的所有被控制的人，都是打掉武器后就晕倒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这个仪式的真正规则，就是——击落对方的武器吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影直到倒地前，还牢牢地抓着她的刀， 她可没有放弃战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "哼，魔<r=mowang></r>王，既然你作为“见证者”想要下场，那可就失去了安全保障了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "你觉得，你真的能打赢我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "换了别人我不敢说，但如果是只会用魔法的你——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "作为恩赐意志的人，你应该知道我的“特殊体质”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "我也不是没学过剑术！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "埃妲抽出随身的短刀，缓缓向我走来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影，快点醒过来，我知道你一定还在某处战斗着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "魔王还在等着我，你们这帮鬼魂，快让开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "侍从",
+   "text": "包围她！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "只剩这几个人了吗， 一起上吧，我赶时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "侍从",
+   "text": "赤手空拳就打赢了我们这么多人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "侍从",
+   "text": "这格斗术……你是从哪里学来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "哪里？北境的孩童，从小就会训练这套格斗术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "身为战士，太过依赖自己的武器，可是会吃亏的——这也是训练时要牢记的部分！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "侍从",
+   "text": "可恶！竟敢贬损我们引以为傲的传统！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "到此为止！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "侍从",
+   "text": "副团长！为什么要喊停？！我们还能战斗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "胜负已分了，这场战斗本就不怎么公正，再打下去，就连最后的脸面都要丢完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "但宣布结果前，年轻的灵魂啊，吾还有一问要向你请教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "你的这身本领，在你们的世界，当真是人人都会的普通技艺吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我听说。这套武学最早是只在贵族间秘传的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "但是，身处极寒之地，如果无法战斗，没有力量的话……生存就会成为问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "最终，它变成了无论男女老少都能学习的技巧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你对这个答案满意吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "是吗……外面的世界已经过去了这么久了吗……所以，这个厅堂的样子才变来变去啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "虽然还能看得出是用来吃饭的地方，但和我们记忆中的餐桌已经完全不同了，这是……你所在的时代的建筑风格吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯，你也太多愁善感了，餐桌就是餐桌，只要能用来吃饭，又有什么问题？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "哈哈，你这个年轻人，倒是很对我的胃口，让我想起了还活着时候的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "吾等经历了太多杀伐，眼见战争一次又一次地摧毁一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "但……千疮百孔的土地上，总又会诞生新的生命和秩序。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "神明把你带到我们面前，大概是想请你来传达点什么话语吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我从刚才就在想……你们，就是壁画上记载的，跟随“战争之神”征战的兵团吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "我们确实随同那位大人一起征战过……最后和那位大人一起，在星塔中迷失了自我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "她本是名震四方的英杰，却不知从何时起变得孤僻偏执，我们也曾试图纠正，但最后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "失败了，就连灵魂也被一齐捕获了，对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "年轻的灵魂，你与吾等不同，你的命数不会在这里终结。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "将吾等束缚于此的术式，因为你同伴的体质，效果削弱了不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "只需吾等……做些手段，将你送出这片领域，应该可行吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "……难不成……你想——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "不必露出这副表情，吾等只不过是记忆的残渣。能为生者做些什么，对吾等才是解脱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "亡灵们",
+   "text": "多谢啦小姑娘，好久没打这么爽了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "亡灵们",
+   "text": "记得多和活人们讲讲我们的事哦！哈哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "侍从",
+   "text": "哼……既然回去了，就要好好完成你该做的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奇怪的老人",
+   "text": "出发吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "吾等生前未能做到的事，就交给你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯，你们的这份意志与精神， 我收下了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "你的体质还真是麻烦啊，差不多该放弃了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "呼……呼……说真的，我不想把事做太绝， 你只要放下武器，我就好好把你送回去，我的确预约了明天的马车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈……哈……该停手的是你！你那疯狂的执念最后只会害了大家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可恶……快要跑不动了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "哼哼哼，虽然我也跑不动了，但看起来获胜的还是我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "眨眼的瞬间，巨大的冲击将我整个人震飞了出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好……风影的武器……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "都到这种时候了，还牢牢抓着那把刀吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "就算你对魔力绝缘，但你不会对刀刃也绝缘吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "再不松手，我就要把你的手指一根根地割断，让你不得不丢下她的武器喽？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃妲，你不择手段获得力量的样子真难看啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "住口！我已经说过了！我是为了能让诺瓦不再受永夜的威胁……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "但凡有人敢妨碍我——不管是谁，我都会不择手段把他清除。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "这就是被尊者选中的……我的使命！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你错了，埃妲。凭借力量压迫对方，换来的不可能是真正的和平。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "怎么会……不可能，你怎么能醒过来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "抱歉魔王，让你久等了，我回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "尊者的领域……应该没有人逃的出来！你到底用了什么办法？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "或许吧，但我做到了，站在你面前了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "看样子，你所坚信和依赖的尊者之力，也不过如此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "哈哈 哈哈哈哈哈哈……！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "也罢——！不过是凑巧让你逃出来了而已，事到如今……已经无法回头了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "今天——谁也别想从这里活着离开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我们会活着回去的。 魔王，要上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，风影，我们一定会平安回去的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

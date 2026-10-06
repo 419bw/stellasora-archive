@@ -1,0 +1,743 @@
+{
+ "heading": "# 春日纪事",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214016`",
+  "- **关联角色**：风影",
+  "- **AVG 剧本**：`CG_disc4016`"
+ ],
+ "recap": "当习惯了春日的景色，就会想邂逅一位走近她春天的人。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "当习惯了春日的景色，就会想邂逅一位走近她春天的人。",
+  "episode": "记忆回想",
+  "title": "春日纪事"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "好亮。\n这是风影醒来后，脑海里产生的第一个念头。\n过于强烈的光线令她无处遁形，她不得不闭上眼睛，手脚并用摸索着地板，爬到房间阴暗的角落，这才长舒了一口气。\n风影不确定自己昏迷了多久，好在失去意识之前，她强撑着回到了这栋小木屋——她在森林深处的安心据点。\n她早已习惯了长时间的追踪与埋伏，「永夜」向来无比谨慎。作为猎人，她需要比猎物更有耐心。\n她见过旅人们在湖边钓鱼，有的人太浮躁，几竿下去没有结果便骂骂咧咧地走了。某次她闲来无事，守着一支无人看管的鱼竿坐了一夜，清晨离开时被前来早钓的旅人们团团围住，希望她能传授独家秘籍。\n\n然而这次风影失算了，森林里虎视眈眈的猎人不止有她——无意间闯入带着毒刺的捕草蝎的地盘，风影难得地体验了一下被当做猎物的感觉，并付出了些许代价。\n专心将腿上的伤口处理好后，她才发现地板上流淌的紫黑血迹。尽管她明白，这种程度的毒对她而言只是小菜一碟，但扑面而来的眩晕感还是提醒她，该为身体补充点能量了。\n桌脚旁打翻的水罐早已干涸，她记得柜子里还有几包压缩饼干。打开柜门后，却发现据点原来也被狩猎了一次——只剩下破损的包装和零散的饼干碎屑。\n布满灰尘的窗台上，鲜明的爪印静静诉说着小偷的踪迹。\n食物，不能全都放在同一个地方。\n风影的心中默默记下了新的教训，她索性让柜门敞开，方便之后再有小动物溜进来打扫战场。\n\n踏出木屋的那一刻，风影忽然明白了为什么外面那么亮。\n她的脚下不再是坚硬的冰碴，湿润的草坪散发着泥土的气息。阳光之下，她的脸微微发烫。\n她一步步穿过树林，欢畅的鸟鸣渐次在耳边响起，一片花瓣随风飘落。\n\n这是风影来到这里度过的第一个春天，也是她见过的第一个，真正意义上的春天。"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "一点钟方向，剑士一名。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "用剑的佣兵",
+   "text": "呃啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "十点钟方向，两个法师。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "施法的佣兵",
+   "text": "她怎么发现的？！我们明明藏得天衣无缝啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "六点钟方向，一个斧子手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "扛斧子的佣兵",
+   "text": "怎么可能……仅凭一人就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "剩下的， 一起上吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "看样子他们只是在星塔附近作恶， 应该和永夜没什么关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "剩下的就交给帝国卫队处理吧， 我得回城补充些物资。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅人",
+   "text": "然后……那位黎明近卫的“白银之风”，又单枪匹马地把那些坏蛋全给打败了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "“白银之风”啊，有关她的传闻确实听过不少，本人倒是没见过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你好，我想买一些子弹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "子弹？有的有的…… 咦？瞧你这身打扮，还有这银白色的长发……你该不会就是那位“白银之风”吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "哦，好像是有人这么叫我。 请问，子弹在哪边？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "居、居然真是本尊哇！？ 子弹都在那边的柜台上，请您随意挑选！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅人",
+   "text": "没想到真的遇到了…… 你快看她的武器，和我这把破剑完全不是一个档次。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "那位著名的“白银之风”大人居然来我这儿买东西了，真是蓬荜生辉啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不好意思，拿剑的那位，能过来一下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅人&老板",
+   "text": "来了！ 啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅人",
+   "text": "我们俩都拿着剑呢，您叫的是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "那就…… 右边的这位吧。 请问老板去哪了？就是刚才和我说话的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "嗯？我就是老板诶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "是么？但我记得老板没带武器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "刚才我是没拿剑，可我人一直在这儿呢。您是不是累糊涂了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不必担心，只是普通的工作强度罢了。 麻烦给我两盒这种子弹吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "东西您拿好，欢迎下次再来啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我会的。 谢谢你， 剑士老板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅人",
+   "text": "等等，我不是老板啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "武器店老板",
+   "text": "原来传言里说，“白银之风”只认武器不认人……是这么回事啊！ 今天算是见识到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "风影前辈，您回来啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你……应该是“书本小姐”吧。 来得正好， 这是本次行动的报告，给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "收到~我会转交给相关部门的，前辈辛苦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "不过……风影前辈， 有个非常严重的地方您弄错了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "我不是“书本小姐”， 而是可爱又迷人的“贝修莉娜”！ 哼哼， 前辈今天一定要记住我的名字才能走哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "来吧，跟我一起念—— “贝· 修· 莉· 娜”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "贝修…… 莉娜， 这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "没错！ 那我们来练习一下吧，请前辈先闭上眼睛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "好~可以睁开了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "前辈， 这位是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "唔，钢笔小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "这位呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "杯子小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "嘿嘿， 那我是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你是…… 书本小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "……是“贝修莉娜”啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "唉……前辈还是老毛病呢，只记得住人们手里拿的东西，却记不住脸的样貌……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "啊， 二位可以回去工作了哦， 感谢配合~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "忙碌的恩赐意志员工",
+   "text": "所以这到底是演哪出啊……？我可正忙着呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "专注的恩赐意志员工",
+   "text": "看在“白银之风”大人的份上，算啦算啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "话说…… 前辈总记不住别人的脸，平时不会很麻烦吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不会。战场上只要能分清敌我就足够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "也是呢…… 对了， 风影前辈最近一直忙着出任务，应该挺累的吧？ 我知道个好地方，前辈要不要去那散散心？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "好意我心领了。 但永夜尚未全数落网，我还远不能休息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "诶？那…… 我听说那里也有永夜在活动的传闻呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯？说来听听。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "嘻嘻，这招果然好用。 一提到永夜，她的表情都不一样了呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "给，前往的路线都写在这本手册上了。 还是有些距离的，前辈一路上要注意安全哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "多谢了，书本小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "都说是“贝修莉娜”啦！ 唉，算了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "希望有朝一日……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "好宁静祥和的小镇…… 不过反过来想，永夜也更容易藏身吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "先四处打听打听吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的男性",
+   "text": "什么永夜？没听过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的女性",
+   "text": "他们也太闲了吧，偏偏挑这种穷乡僻壤来折腾？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老爷爷",
+   "text": "破坏星塔的人？我看还是啃坏庄稼的虫子更可怕哎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小男孩",
+   "text": "永夜是坏人吗？ 那我来打败他们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "完全没有线索啊。 可书本小姐给我的册子上，说的就是这里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小女孩",
+   "text": "姐姐， 你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "啊， 我没事。 你听说过“永夜”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小女孩",
+   "text": "永夜？ 我、我不知道……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小女孩",
+   "text": "不过我知道一个好地方！ 难过的时候就去那里转转，伤心事就会被风吹走。 姐姐要不要也去试试？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "可我是带着任务……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "……好吧，我知道了。 我会去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "她刚才说的地方，应该就在这附近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "呼—— 走了这么久， 感觉有点热了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "有风…… 前面是一片空地吗？ 正好，就在那里歇脚吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "好凉快，真舒服…… 她说得没错，这里的确是个好地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "和只有风雪漫天的北境完全不同……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "蓝天、绿树、还有飞舞的花瓣…… 每一处都好美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "能见到这么美的景色，多亏了那个女孩和书本小姐呢，回头得好好感谢她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "下次我一定要叫出书本小姐的名字，否则她又要生气了。 唔……她的名字，叫什么来着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "奇怪，明明聊了这么久，我怎么完全想不起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "那个女孩的长相……也记不清了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "胸口好闷……这种感觉……是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "离开故乡之后，我是不是，也变了很多呢……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "希望有朝一日， 前辈能遇到那位——将你眼中世界改写的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯，她好像是这么说的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "只能靠武器来辨认他人的我，也可以记住那个人的声音和长相，甚至是名字吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "如果那个人真的出现了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "会是什么样的人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

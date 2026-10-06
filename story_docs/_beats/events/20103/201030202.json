@@ -1,0 +1,1164 @@
+{
+ "heading": "# 02 穿上泳装，拿起扫帚",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：晴风碧海 · 悠哉盛夏依然打卡~（活动编号 20103）",
+  "- **关卡 ID**：`201030202`",
+  "- **AVG 剧本**：`STev_10_02`",
+  "- **关卡描述**：这度假村怎么如此冷清……？"
+ ],
+ "recap": "一行人来到了度假村，但这儿比传闻中显得冷清不少。稍作清扫，换上泳装后，你们开始惬意享受海水、沙滩与阳光。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "一行人来到了度假村，但这儿比传闻中显得冷清不少。稍作清扫，换上泳装后，你们开始惬意享受海水、沙滩与阳光。",
+  "episode": "第二话",
+  "title": "穿上泳装，拿起扫帚"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "终——于到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好蓝的海！好蓝的天！ 好清凉的海风！好漂亮的房子！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "宣传册上说，这个度假村主打的就是优美的小镇风光，清澈透亮的海景，还有贴心周到的服务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "一边听着海浪声一边在街上散步…… 要享受宁静时光，这里真是再合适不过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实挺安静的。明明是个度假胜地，却一点都不觉得吵闹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "人很少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "太安静了吧？连沙滩上也只有零零散散几个人影，和宣传册上热闹的样子完全不一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好不容易来度个假，就别在意这些细节啦。还是先去看看我们的房间吧。 亲爱的海景房！我们来喽！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "噢噢，这就是我们要住的地方吗？感觉很不错啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "从露台上还能看到海！太美了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "目测距离海岸线约三十米。万一发生紧急状况，撤退路线也没问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "床看起来也很高级，绝对很舒服！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "尘沙，如果你是想往床上扑的话，先等一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "咦，怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "各位，请看地板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "地板？地板上到底有什么…… 啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "地板上一开始就积了一层灰尘，上面还留着我们刚才走过的脚印。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这边的桌面上也有，看这积灰的程度，不是一天两天的量了。至少这几天都应该没人打扫过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶？度假村不是每天都会打扫吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "按理说应该是的吧…… 要不我们去拜托前台换个房间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没必要这么大费周章啦。我们打扫一下就能住了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好啦好啦，快点开始打扫吧！时间就是朵拉~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "好吧好吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几分钟后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "尘沙，我接了两桶水过来哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我找到了一些干净的抹布。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不错不错！我也准备好啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "锵锵——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "怎么现在就换上泳装了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我也换好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "等一下，为什么连琥珀也……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "都已经来到海边了，当然要穿泳装啦！大家也快点换上嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "穿泳装跟打扫卫生根本没关系吧……等去海边玩的时候再换也不迟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "换好泳装才有动力干活呀~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "干劲提升。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "唉，真拿你们没办法…… 魔王，你也说说她们吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "怎么办呢？",
+   "options": [
+    [
+     "阳光！沙滩！海岸！泳装！",
+     "",
+     ""
+    ],
+    [
+     "还是等打扫完再换衣服吧",
+     "",
+     ""
+    ],
+    [
+     "要不……折中一下？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "阳光！沙滩！海岸！泳装！"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王？怎么连你也？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个嘛……度假的气氛都到了，不知不觉就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "算啦，鸢尾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "看到大家这副兴高采烈的样子，连我也开始想快点去海边了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这倒……确实是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那么，为了保证彻底、高效、迅速地完成大扫除，我们这次任务分工如下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "琥珀擦桌椅， 尘沙扫地， 鸢尾整理床铺。 至于魔王，就麻烦你和我一起整理行李和杂物吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙&鸢尾&琥珀",
+   "text": "好的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "简直就像是在分配委托一样，不愧是协会之家的专业人士……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "还是等打扫完再换衣服吧"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙、琥珀。我很理解你们迫不及待的心情，但是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉。这次我站在鸢尾和薇洛这边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "怎么这样——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "被魔<r=BOSS></r>王……背叛了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "穿着泳衣打扫房间还是太奇怪了，我说服不了自己……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "快点打扫完，就能快点去海边玩，到时候再换泳装吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "咳咳。看来大家都没意见了，那我们就开始打扫吧。我们这次任务分工如下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "琥珀擦桌椅， 尘沙扫地， 鸢尾整理床铺。 至于魔王，就麻烦你和我一起整理行李和杂物吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙&鸢尾&琥珀",
+   "text": "好的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "简直就像是在分配委托一样，不愧是协会之家的专业人士……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "要不……折中一下？"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要想出一个能两全其美的方案就行了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在一方想让大家马上换上泳衣，另一方想等打扫完再换。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然如此，不如一边打扫一边换泳装吧，怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王，你要不要听听自己到底在说什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是，别误会啊！我的意思是，引入奖励机制的话，也能让大家更有动力……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比如……打扫到一定程度就换一件，达成下一个完成度就再多换一件……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚才的话就当我没说。我们还是快点打扫完，快点去海边玩吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "咳咳。看来大家都没意见了，那我们就开始打扫吧。我们这次任务分工如下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "琥珀擦桌椅， 尘沙扫地， 鸢尾整理床铺。 至于魔王，就麻烦你和我一起整理行李和杂物吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙&鸢尾&琥珀",
+   "text": "好的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "简直就像是在分配委托一样，不愧是协会之家的专业人士……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在薇洛的指挥下，房间眨眼间便变得一尘不染。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，干净多了。那接下来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "大海！我来啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "哼哼~♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哎，你们等等——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "真是没办法，我们也快点换好衣服过去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "鸢尾……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这个……真的没问题吗？是不是有点……太轻便了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "泳装就是这样的啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我平时几乎没穿过这种衣服，感觉……不太习惯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "没问题的！很好看呀！我们当时买泳装的时候，就觉得这一身一定很适合你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "是吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯！而且这身泳装还是魔王挑的，相信你的眼光吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "走吧，大家都在等着我们呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊，终于来了～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "让大家久等了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你们怎么突然这么安静，我都有些不自在了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "因为太好看了嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "非常美丽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是啊，看得人都入迷了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "谢谢大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "刚才听鸢尾说，这身泳装是魔王你挑的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，在店里看到的时候就觉得很适合你，看来果然没错啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "谢谢你特地帮我挑选，你的眼光确实很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "而且…… 这支新义肢，也承了你的情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我听布洛可说，多亏了你的劝说，才让斯帕克拉打消了追加大量额外功能的想法……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不用这么客气，我只是稍微提了一点意见而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "既然大家都换好泳装了，那就赶快开始大玩特玩吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "尘沙，等等。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶？怎么又要等——？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "下水之前，必须要做好准备运动。最起码也要用三分钟把身体彻底活动开才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不然的话，游到一半腿抽筋，最后只能被我们给拖回沙滩了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "海水冰凉凉的，沙子也很细软，好舒服……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "鸢尾，不能再往前面去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那个区域有离岸流，你再往前走的话，很容易被海浪直接卷走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "离、离岸流？我完全没注意到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "海边看似平静，但海流的情况可能会很复杂。最好不要一个人走得太远。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，我会注意的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "很好，大家热完身后，在安全的区域玩吧，绝对不能离开我的视线范围哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "知道啦知道啦～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "魔王，你不去玩吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想先在沙滩上晒会儿太阳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那先把防晒霜给涂了吧。虽然现在的阳光看着没那么强，但还是很容易晒伤的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你居然连这个都带了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "来海边当然要带了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不愧是薇洛，真可靠……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是啊……有薇洛在，就什么都不用操心了，只需要乖乖被安排就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这种轻松的感觉……好幸福……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "薇洛，薇洛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "怎么啦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我也想下水玩，但是不太会游泳。 可以教我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "好啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀，我也来教你~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不要。尘沙上次教我游泳的时候，把我往水里一丢，说这样自然而然就能会了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶——可我就是这么学会游泳的呀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "放心吧，琥珀。这次我们用正规的方法来学游泳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王，我记得你好像也不会游泳吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，虽然现在没有遇水即溶了……但还是没办法游起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不如趁这个机会学会游泳怎么样？难得来海边度假，一直不下水的话多可惜啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说的也是……我会考虑的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不远处，海浪声混合着大家的嬉闹声，隐隐约约地飘进耳朵里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "薇洛简直就像是我们的领队一样。尘沙和琥珀已经轮不到我们来操心了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是啊，有她在，真的很安心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "海风好舒服啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "要是之后的每一天，都能这么惬意就好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

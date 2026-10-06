@@ -1,0 +1,732 @@
+{
+ "heading": "# 08 更宽广的世界",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：闪耀的使者与圣夜的精灵（活动编号 20101）",
+  "- **关卡 ID**：`201010210`",
+  "- **AVG 剧本**：`STev_02_08`",
+  "- **关卡描述**：看向水底的鱼，她第一次直面心中的深海。"
+ ],
+ "recap": "魔女载着菈露飞行，在广阔的湖面上，菈露第一次见识到了发光的鱼群，并与自己的特别之处和解。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "魔女载着菈露飞行，在广阔的湖面上，菈露第一次见识到了发光的鱼群，并与自己的特别之处和解。",
+  "episode": "第八话",
+  "title": "更宽广的世界"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "载着两人的魔法扫帚，来到了夜色笼罩的港口边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哇…… 这是…… 大海！这是我第一次看到大海——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "哈哈，看来你也很兴奋哦。其实这里还没到大海，只是很大的湖而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "湖？嗯…… 总之也和海差不多吗？我们要在这里做什么呀?",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "这个嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "难、难道你要……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "哎呀，你猜到了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "果然是这样吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "小菈露很聪明呢…… 本想着再多藏一会的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呜哇！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "诶？！小菈露！？你怎么了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "等等！别乱走！一个人很危险的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呜呜…… 你带我来这么偏僻的地方，肯定是想拐走我！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "回来！我不会那么做的啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "骗人！我在影戏里就看到过这样的情节！呜呜，我就知道…… 我这种人，根本就不可能交到朋友！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你肯定是要骗我，把我拐走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "小菈露，你误会了！我是真心想要和小菈露成为朋友的！所以，别再说什么“我这种人”这样的话了，好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我、我根本没有什么值得大家喜欢的地方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "小菈露明明很可爱啊，姐姐最喜欢像你这样的小朋友了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "咿……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "不是…… 不是你想的那个意思！是因为你看上去很单纯可爱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "因为我很单纯所以就想拐骗我吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "洗不清啦！算了，既然菈露你还不相信我，我就只好掏出这个——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "这可是—— 雪愿树精灵的任命证书哦！你看，我都亮出证据了，这下你总得相信我了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "证书…… 精灵也会有那种东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "哎，真的啦真的啦！总之你相信我，我才没有要拐骗你呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "真的？你保证？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "我保证。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那，你到底要带我去哪…… 还没到目的地吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "是个很神秘的地方！所以，再保密一会儿好嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "嘿嘿，小菈露，你紧皱的眉头总算松开咯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "欸？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "朋友之间就不用拘谨啦！你现在的表情就很好噢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这、这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "没错，就保持这样！这样的小菈露才是最可爱的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "啊——不不不，我可没奇怪的意思哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "姐姐…… 好不正经……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "那…… 那还不是因为，怕小菈露误会了嘛~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "好吧，我相信你…… 那就出发吧，去你说的那个…… 秘密地点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "小菈露——♥！那就—— 快坐上来吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她终于又露出了微笑。与这位“姐姐”的隔阂，也渐渐消散了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "扫帚再次腾空而起，掠过水面向远方进发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哇！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "漆黑的海面上，她小小的身体格外显眼——一闪，一闪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "小菈露觉得飞在天上害怕吗？嘿嘿，不用担心哦，姐姐会把小菈露安全地送到目的地的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯……那个…… 我不是在怕这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我…… 是害怕鱼，看到我在发光，又会逃走……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "那些鱼，是因为生活在小溪里才会怕…… 但这里可不一样哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "快看，就在下面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "下面？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哇啊！！！水面…… 水面在发光？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "是会发光的鱼哦，你瞧…… 它们在跟着我们……不…… 是在跟着你哦，小菈露！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没有逃走…… 为什么？平时…… 鱼儿一看到我发出的光，就全都跑走了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "有些鱼确实会逃离光，也有些鱼，会向着光追去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "小菈露之前所见的风景，不过只是一条小溪…… 但哪怕只是到了湖中，你也见识到了不一样的鱼儿…… 何况，在更远的地方，还有大海的存在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "现在的菈露还小，所以眼中的世界也小…… 等你慢慢长大，你眼中的世界，就会越来越宽广！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "等菈露见识到了更大的世界后…… 菈露就会发现，原来，这个世界还有那么多，那么多不同的人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不同的人…… 他们会和我做朋友吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“雪愿树精灵”",
+   "text": "当然！菈露以后，会有很多，很多很多的朋友噢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "当然，姐姐已经是你的朋友啦——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯…… 总之就是这样啦。真正的“雪愿树精灵”，和儿时的我相遇的故事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "停—— 我知道你要说什么！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "反正她一定是什么恩赐意志的员工，或者路过的魔女…… 之类的…… 甚至兼职？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不管你觉得哄小孩也好，幼稚也好啦！总之—— 正因为发生过这种事，我才能从阴影里走出来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "那个……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "欸？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我的身边不知何时，冒出了一个小小的身影。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不是今天偶遇了好几次的那个女孩吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "姐姐……认识…… 雪愿树精灵？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊…… 嗯？姑且…… 算是认识？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "怎样…… 才能见到她？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这个嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不如这样，你今晚，随我们一起来雪愿树下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "来了，就能见到精灵？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯，一定能见到的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "谢谢姐姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "女孩露出满足的笑容，一蹦一跳地离开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊！忘记问她有没有拿到礼物了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我也忘了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过没差，等到晚上再问也可以—— 是吧，“雪愿树精灵”大人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嘿嘿，想一块去了！那么…… 魔<r=mowang></r>王大人，你也会来一起帮忙的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是当然，我今天，可是“雪愿节的限时款魔王”哟！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

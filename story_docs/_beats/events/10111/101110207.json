@@ -1,0 +1,716 @@
+{
+ "heading": "# 06 伪装",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：奋斗吧！大小姐的旅人修炼手册！（活动编号 10111）",
+  "- **关卡 ID**：`101110207`",
+  "- **AVG 剧本**：`STev_12_06`",
+  "- **关卡描述**：潜入老巢，装傻不易。"
+ ],
+ "recap": "在你的指引下，埃莉诺以“大小姐”的身份成功潜入，最终找到了卡特琳的线索……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在你的指引下，埃莉诺以“大小姐”的身份成功潜入，最终找到了卡特琳的线索……",
+  "episode": "第六话",
+  "title": "伪装"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "接下来该怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "直接放倒门口的守卫，硬闯进去？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "先不说能不能做到，要是手里没有证据就私闯民宅，怎么看都是我更像坏人吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "偷偷潜入？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "根据目前观测到的守卫人数，房子外围称得上戒备森严…… 不行，可行性太低。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "可是，眼下唯一可能找到卡特琳的线索，就只剩这里了，我不能放弃任何机会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "埃莉诺，那个骗子应该就在里面，你想到什么好办法了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "唔……暂时还想不到，不过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这是……前辈打来的……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇，吓我一跳……出什么事了，你怎么这么激动？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "其、其实，我这边遇上了点麻烦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "卡特琳多半就是被那个骗子拐走的！明明就在眼前了，可我就是没办法接近他……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要打破现在这个僵局，其实有一个办法；而且，这办法只有你能用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "只有我……？什么办法？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你现阶段手上的筹码，应该不只有身为旅人的本事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再好好想想，你还能利用什么身份、以什么方式去接近对方。旅人理应是比任何人都要具备自由与可能性的群体，记住，不要被外在事物束缚住思考。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "甚至…… 有时连“旅人”这个身份本身，也不必太执着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈这话是什么意思………… 啊！我好像明白了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来你已经想到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是的！谢谢前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "啊，对了，差点忘记问，前辈特地打过来，是找我有什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也不是什么大事。之前你不是来找我商量训练计划嘛，我正好有了几个新想法…… 不过，就等之后再说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在救你的朋友要紧。放心，我相信你一定没问题的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是！我会努力的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "薇薇安，我想到办法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "真的？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "你还记得以前那个不谙世事的我吧？当初我可没少被骗。买了一大堆破铜烂铁，甚至还差点被坏人绑架……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "……？ 我当然记得……可这和现在有什么关系吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "当然有，那些没出息的经历，眼下说不定还真能派上用场…… 身为“旅人”的埃莉诺做不到的事，就让身为“大小姐”的埃莉诺来试试吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我把礼服取来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "埃莉诺，我也——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不行，薇薇安，你先回去。这里就交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "呜……我真的不能陪你一起去吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "那样太危险了。 ……薇薇安，谢谢你一直陪我走到这里，我不能再让你继续冒险了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "我明白啦……那至少，让我亲手帮你打扮一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "这样就行了，完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇薇安",
+   "text": "…… 埃莉诺，请你一定要多加小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我会的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "振作一点，埃莉诺。从现在开始，才是真正的考验。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气势汹汹的帮派分子",
+   "text": "什么人？有事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我听闻此处有一位经营稀有神器生意的大商人，不知今日是否在府上？ 如果方便的话，我想当面拜会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气势汹汹的帮派分子",
+   "text": "这女的看着倒像是有钱人……我们怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶神恶煞的帮派分子",
+   "text": "要真的是大主顾，我们没理由阻拦…… 老板应该很乐意结交这种贵客吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气势汹汹的帮派分子",
+   "text": "行，跟我进来。 不过话说在前头，别东张西望，也别乱碰东西。听明白了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "放心，我自然知道规矩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "贵宅的装潢布置还真是朴素…… 您这里，真的有值得一看的神器吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "哈哈，好东西哪能随便摆在外头呢。您稍等，我这就去给您取来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这人不是之前在集市上遇到的那个骗子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "让您久等了，请看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "嘿嘿，您听了可别吓到，这件多功能神器可以用来取暖，拿来煮饭也不成问题； 真到紧要关头，还能防身护体，可谓是难得一见的稀世珍宝！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "听上去很厉害。请问要多少朵拉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "五百……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "五百万？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "……对、对，没错，就是这个价！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "物以类聚……看来这个人也是骗子没跑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不过，“以前的我”在骗子眼里就是这种冤大头吧？得让她再放松一点警惕，才能把那个骗子的情报套出来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "怎、怎么样？您是觉得太贵……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "怎么会呢，我没想到竟然这么划算。完全没有问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我买了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "哎呀，这位客人出手真是阔绰！咱们这儿还有不少神器呢，您要是感兴趣，也可以一并看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "好啊。我就在这等着，把你的宝贝全都拿出来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "接待的商人",
+   "text": "这就给您去取，请您稍等！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "根据门外那些人的反应看，那个骗子应该就藏在这里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "可除了刚才那个商人，我感觉不到还有别人在屋里。而且，这里明明不算大，外面为何要派那么多守卫严加看管……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "趁她回来之前，稍微调查一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "——咦？那是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "为什么卡特琳的扇子会在这里？！这下面……难道是暗道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "没想到地底下还有这么大的空间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……！谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这个声音……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "卡特琳？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡特琳",
+   "text": "埃莉诺！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡特琳",
+   "text": "你怎么会在这里？难道你也被抓了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "到底发生什么事了？你有没有受伤？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡特琳",
+   "text": "我没事…… 不过，你是怎么找到这里来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我和薇薇安一路追着见过你的人，最后查到了这栋房子；然后我又在屋子角落看到了你的扇子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡特琳",
+   "text": "啊！因为我总是随身携带一把备用的，所以那把扇子是我故意留下来的……真不愧是埃莉诺，果然注意到了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "有人来了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "谁啊？是帝国卫队的人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡特琳",
+   "text": "对了，被关在这里的不止我一个人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "你们是……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被囚禁的旅人",
+   "text": "哦，这不是那天的小姑娘嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被囚禁的市民",
+   "text": "你、你是来救我们的吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

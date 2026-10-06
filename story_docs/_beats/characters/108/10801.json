@@ -1,0 +1,612 @@
+{
+ "heading": "# 幸运的一天 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：卡西米拉（角色编号 `108`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`10801`",
+  "- **AVG 剧本**：`CG_108_01`"
+ ],
+ "recap": "幸运符丢了？那不是头等大事吗！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "幸运符丢了？那不是头等大事吗！",
+  "episode": "第一话",
+  "title": "幸运的一天 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "很好，放置在A区的假人骗到了敌人开火。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "敌人本就不多的魔法子弹已经消耗殆尽，A区肯定能守住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热血的蓝方佣兵",
+   "text": "第二小队刚刚发来联络，成功引诱星骸后，已经按计划撤退到汇合地点，正在补给。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哼哼，对方完全中计了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在我的拖延战术下，红方的弹药应该很快就会耗尽，接下来半个小时，我们只要用火力优势守住就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热血的蓝方佣兵",
+   "text": "哇啊啊啊啊！终于可以赢队长...... “不败的卡西米拉”一次了吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "确实，这么守下去我们赢定了...... 但是，你们不觉得有点太过顺利了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "战术上再怎么勇猛，也没办法掩盖战略上的缺陷。就算是卡西米拉，没有子弹的她也只是被拔掉爪子和牙的野兽罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "今天，我受卡西米拉邀请，担任白猫剧团战斗演习的蓝方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "考虑到卡西米拉的战斗风格，我为她量身定做了这个“弹药陷阱”——用各种障碍和假目标消耗她们的弹药，最后用火力上的压倒性优势守住防线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "按照演习规则，红方的进攻时间只剩下三十分钟了，只要撑过这段时间——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "魔<r=BOSS></r>王，有人从升降机里出来了，是卡西米拉队长和红方的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王，别躲了，我们就在这里决战吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "才不会和你打呢，按照计划撤向最终防线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝方佣兵",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "卡西米拉队长，蓝方一直在逃啊，我们追上去击溃他们吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "别轻敌，你看前面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "好多星骸...... 为什么都堵在我们前进的路线上？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王是故意把我们引到这里的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "这有什么用，我们突破过去！这点星骸几枪就干掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "你还有多少魔法子弹？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "十，十发…… 啊，我明白了，魔<r=BOSS></r>王是想用这些星骸消耗我们的弹药，喂，卡西米拉队长，这不犯规吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "胜利就是战争的唯一规则，真正的敌人可不会等你准备好再公平对决。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "哼哼，有意思。听我命令，不用考虑弹药消耗，全力消灭这些星骸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "哎？那我们不就掉进魔<r=BOSS></r>王设下的陷阱里了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "哼，那也得看你的陷阱能不能装得进我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我相信幸运是站在我这边的，开火！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听枪声…… 她们应该没弹药了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各位，快进入预定阵地，胜利就在眼前了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "你说得对，胜利的确近在眼前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "卡西米拉，认输吧！我承认你们的突破速度很快。但是，你还有多少子弹？五发？三发？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "好运眷顾，还剩一发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "但你们的身上应该有很多吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那样就足够了，扣动扳机之后，马上就会增加到几十发呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好，她要把我们拖入近身战。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "战场上，捡敌人的武器来用可是天经地义的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可恶，一开始就打算从我们这里取得弹药么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不，是看到那些星骸才这么打算的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "你的确是个难缠的对手，如果我不尽力猛攻，就缺乏敬意了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "队长，抱歉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "太好了，十步之外还是枪快。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "呜，是哑弹！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么偏偏在这种时候——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我...... 我出局了，不甘心啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "怎么样，各位，学到了不少东西吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我这次请魔王过来是为了让你们看到，战斗不是只有勇气和蛮干，计谋也是很重要的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "嗯，虽然输了，但能和卡西米拉队长战斗到这种程度还是第一次。 魔<r=BOSS></r>王用的战术和思考的方式都很有效。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热血的蓝方佣兵",
+   "text": "嗯嗯，战斗不只是猪突猛进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "咳咳，战斗时的勇气和突进时机的判断也是同样重要的。 但其实我更想说的是—— 大家平时一定要努力积累运气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "运气？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "呜，是哑弹！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "的确，卡西米拉最后向我冲来的时候，如果不是哑弹了，输掉的就是红方了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们为什么不说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "卡，卡西米拉队长又要开始那个了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热血的蓝方佣兵",
+   "text": "“运气的重要性”的演说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "没有一个小时结束不了的那种。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "比如今天，瞄准我的人没有开出关键的一枪，就是因为我带了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "咦？去哪了？奇怪…… 口袋里没有，披风上…… 也没有…… 糟了，糟了糟了糟了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "出什么事了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "你们..... 各自带了多少枚硬币在身上？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的蓝方佣兵",
+   "text": "四枚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热血的蓝方佣兵",
+   "text": "十三枚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的红方佣兵",
+   "text": "没带。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "唔，这些数字都不行啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我数数...... 二、四、六...... 八，八枚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "就是你了，魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "对，我需要拥有幸运数字的你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂！等等！这是要去哪儿啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "好了，这附近应该可以了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不就是片普通的草地？我们来这里做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这是一项…… 只有你能完成的委托，我会付演习委托三倍，不，考虑到难度，应该付你十倍的委托费。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎...... 你是要让我指挥十支小队？还是干脆要派给我一支军队？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我想请你帮我找...... 有四片叶子的三叶草。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，有四片叶子的三叶草，立刻就找...... 哎？你付我十倍委托费，就是为了让我帮你找四叶草？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

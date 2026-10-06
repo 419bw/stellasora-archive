@@ -1,0 +1,580 @@
+{
+ "heading": "# 寻猫记 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：琥珀（角色编号 `103`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`10301`",
+  "- **AVG 剧本**：`CG_103_01`"
+ ],
+ "recap": "一场“狩猎”，一个失误，一双无辜的眼睛。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "一场“狩猎”，一个失误，一双无辜的眼睛。",
+  "episode": "第一话",
+  "title": "寻猫记 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "慢一点，轻一点…… 很好，目标没有发现我们。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，你那边情况怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "已锁定目标",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "随时可以展开行动",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_pride_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我这边也就位了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "委托书上说，目标身手灵活，十分狡猾",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一定要注意安全",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "了解",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "为了赚到买布丁的朵拉",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我会不择手段、拼尽全力",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_cranky_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们花了这么多时间，追踪、引诱、埋伏…… 终于到了这一步。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "接下来只要趁对方不注意，发动突袭……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不远处，我们的目标拨弄着屋檐上的瓦片，伸了一个长长的懒腰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好……根据之前观察的行动模式，她接下来又要转移了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，动手——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喵嗷——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "烟雾……？！ 什么都看不见了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好痛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谁踩了我的头？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "啊……跑掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "烟雾这么浓，贸然行动也不安全。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等烟散吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "十分钟后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "刚刚看到这里这么大一团烟雾，吓我一跳，还以为又发生案件了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊哈哈，只是神器老化导致了一些小小的意外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国卫队骑士",
+   "text": "没事就好，最近这边发生了好几起盗窃案，你们也小心点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳……总算掩饰过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，刚才到底什么情况？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "烟雾弹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀你扔的吗？为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_sad_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我本想着，用烟雾遮蔽猎物的视线",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "让它不知道该往哪里逃",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这样就能提高抓猫的成功率，快点完成委托",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "但是搞砸了……对不起……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "但是我有在好好反省了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "刚刚那种情况，烟雾弹不是最好的选择",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "在广阔的环境使用， 烟雾也会同时遮蔽我们的视线",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "反而让我们受影响",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来是在反省这个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "催泪弹、闪光弹、麻醉弹、 鸢尾特制冻结弹……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我应该在这些弹药里选出最适合的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "下次，我不会再失手了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_cranky_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“不择手段、拼尽全力”，原来是这个意思……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有、有干劲是好事，但之后还是不要用这么夸张的方式了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要怎么给琥珀解释，我们只是在抓猫，不太需要这么多危险的装备呢……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，被她用这么无辜的眼神看着，感觉什么都说不出口了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么了，突然凑这么近？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "你的额头……红红的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚刚混乱中，那只猫飞到了我脸上，踩着我的头逃走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "应该是那个时候撞到的吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "疼吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没、没事，没受伤，也不怎么疼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比起这个，目标既然跑掉了，那我们就重新找一次吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "目标很警惕，有一定的反侦察能力",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "刚刚遭受了袭击，它不会再靠近这片区域了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "应该会换个更隐蔽的地方潜伏",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来我们要扩大搜索范围",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "分头行动吧，这样更有效率",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "早点完成委托，然后和大家一起吃布丁",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_heart_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  }
+ ]
+}

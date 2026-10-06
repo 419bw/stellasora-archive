@@ -1,0 +1,637 @@
+{
+ "heading": "# 幕间 上 手机",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第三章《我们的旅团》（星塔历 996 年）",
+  "- **关卡 ID**：`304`　**编号**：`幕间 上`",
+  "- **关卡名称**：手机",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm03_00_a`",
+  "- **关卡描述**：我的手机里住着一位奇怪的“秘书”。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "手机里出现自称魔王专属秘书的维塔。\n她向你介绍了“诸界之井系统”，\n希望你能通过灵魂交易完成任务与升级权限。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "手机里出现自称魔王专属秘书的维塔。\n她向你介绍了“诸界之井系统”，\n希望你能通过灵魂交易完成任务与升级权限。",
+  "episode": "幕间 上",
+  "title": "手机"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "13:00",
+   "date": "雨月 9日",
+   "place": "埃摩城外 幸运绿洲号"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "魔<r=mowang></r>王大人，欢迎回到诸界之井魔<r=mowang></r>王养成系统。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我是您全年无休24小时待命的专属秘书维塔，您的第一个任务是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "收集十个灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？是谁在说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "声音好像是从....... 魔王你那边传来的，窗外有人说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "怎么可能？我们可是在飞驰的小绿上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "声音，来自魔王的口袋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "口袋？我的口袋里只有手机啊......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇，屏幕上是什么怪东西！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，维塔不是怪东西，我是维塔，是您的专属秘书。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "手，手机说话了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "请允许维塔纠正您言辞中的一个小错误。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "这台手机是魔<r=mowang></r>王大人您的专属手机，名叫王权，手机本身不会说话，在说话的是维塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，抱歉。叫你维塔…… 可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人可以用您喜欢的方法叫我，维塔都可以的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾、琥珀，你们的手机里，也有维塔这样的东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "从来没有，它好神奇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王，你手机上那种——键盘藏在屏幕里的设计我们都没见过......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "更别提里面有个秘书在说话了...... 这到底是怎么回事啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这话该我问才对吧…… 嗯？尘沙，怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "会说话的手机，这么有趣的事情我也要看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，这些都是您的部下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "部下？确实我们是加入了魔<r=mowang></r>王大人的公司…… 这么说倒也没错呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "从签订契约的角度来说，的确是这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀也算是魔<r=mowang></r>王大人的部下，这么说没问题吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我喜欢和魔王聊天，用手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "能一直聊下去的话，可以是魔<r=mowang></r>王大人的部下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂喂，不要被维塔说的话牵着走啊，我的手机里突然出现了一个秘书，你们就不奇怪吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "为什么要奇怪？魔王你现在可是公司的首席执行官了。某种意义上本来就和普通人不一样啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "听说各大公司的首席执行官，都拥有奇怪的力量。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "有人说，那些力量都是从恩赐印章里获得的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "就像菲金那样，还有帝国卫队的首席执行官...... 哦，正式的称呼好像叫“大团长”，只要架起盾牌，连魔法带物理攻击全都能直接弹飞呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，这么夸张吗？相比之下....... 手机说话这种事倒的确没什么好惊讶的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，请不要小看维塔，维塔作为您的秘书也很强大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "强大的秘书啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "要选哪个呢？",
+   "options": [
+    [
+     "抱歉，我养不起秘书",
+     "",
+     ""
+    ],
+    [
+     "我真是你说的那个魔王吗？",
+     "",
+     ""
+    ],
+    [
+     "强大？那你能不能变成美少女？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "抱歉，我养不起秘书"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然菲金强加给我们的债务消失了，但旅团也好，公司也罢，还是很穷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "灰风俱乐部和灰城区的大家给我们凑了钱修车，不过也没结余多少，现在我们的储备资金是...... 一万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "好在荒野里能自给食物，不用为吃饭花钱，到菲莱的魔力，贝修莉娜也给我们免费充能好了，暂时还算过得去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如你所见，我养不起一个秘书。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "不用担心，魔<r=mowang></r>王大人，维塔很好养活的，维塔只要晒到了足够的阳光，就能持续活动。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "如您所见，这台手机自重新启动以来，并没有使用您的魔力。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "手机还要使用魔力？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽说是这样说，不过我们的手机都是使用心相石里面的魔力，平时也不会太在意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你没有心相石，但是拿到手机的时候手机也亮了。我们还以为这台手机里面存着魔力呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，那...... 最麻烦的问题解决了，我们来聊聊别的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "我真是你说的那个魔王吗？"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "很遗憾，我现在虽然是魔王协议的首席执行官魔<r=BOSS></r>王，但这个魔<r=BOSS></r>王只是公司的称呼，和你说的那个魔<r=mowang></r>王读音不同，含义也不同。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "不，维塔认为“魔王”的定义是统一的。不是魔<r=mowang></r>王大人的话，是无法打开“王权”的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "并且，您的样子和维塔资料库里的样子匹配度高达99.9%。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔...... 但是我失忆了，根本记不起来过去是否见过你....... 或者拿过这台手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果我是你说的那个魔<r=mowang></r>王大人，那我就是童话里的那个魔<r=mowang></r>王大人了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "正是如此，您和部下们一起，做了很多伟大的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我岂不是上千岁了？我这外表也不像吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "年龄是时间在普通人身上的刻印，对您并不适用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来这个手机固执地认为我是魔<r=mowang></r>王啊，这么纠缠下去就没完没了了，还是和她聊聊别的吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "强大？那你能不能变成美少女？"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "切换美少女形象…… 非常抱歉，未能找到相关搜索结果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那好像也不怎么强大嘛，我只有一个小小的请求——让你变成美少女，结果你连这个小小的请求都做不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔可以做到很多其他的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是，我只需要你变成美少女。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔...... 作为秘书...... 很强大......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人...... 只需要美少女......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔无法变成……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "满足不了需求...... 维塔不强大，失去了秘书的意义......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔必须提供……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "陷入死循环了吗？看来没嘴上说的那么优秀嘛……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算放着不管应该也没什么威胁。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好了，停下吧，我不要求你变成美少女了，我只是想测试一下你的“强大”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "维塔明白，魔<r=mowang></r>王大人是想教会维塔“谦虚”，即将更新数据库。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我现在最在意的是——参与灵魂交易会不会对人体造成影响。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维塔，既然你自称是我的秘书，那就给我们系统地讲解一下这台手机，你所谓的魔<r=mowang></r>王养成系统，以及灵魂交易吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "明白，您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

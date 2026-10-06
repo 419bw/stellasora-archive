@@ -1,0 +1,943 @@
+{
+ "heading": "# 10 实现愿望的方法",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`216`　**编号**：`10`",
+  "- **关卡名称**：实现愿望的方法",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_10`",
+  "- **关卡描述**：胜负仅在一瞬间。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "不甘心失败的菲金召唤出巨大星骸，\n然而，这一切都是白发魔法师的阴谋，\n为了阻止星骸，千都世拦住了白发魔法师。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "不甘心失败的菲金召唤出巨大星骸，\n然而，这一切都是白发魔法师的阴谋，\n为了阻止星骸，千都世拦住了白发魔法师。",
+  "episode": "第十话",
+  "title": "实现愿望的方法"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:20",
+   "date": "雨月 2日",
+   "place": "七号星塔附近 水道桥走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "斩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "真该死，没完没了，星塔里的星骸还能跑出来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我听有经验的旅人说过，这叫灾变。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "当星塔里的星骸太多的时候，就会突破升降机跑到外面来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那是荒野里没人爬的星塔吧，没人清理星骸，自然会这样，这里可是城邦里啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "星骸，要跑到街上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "下面就是灰城区，绝对不能让星骸跑出去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个白头发的魔法师把菲金救走时，说要去星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些星骸......不会是她们搞出来的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "猜的不错，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "这些星骸，是菲金的仇恨—— 不，只是仇恨还不够，是比那更深层次的、更加黑暗的情感所孕育出来的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "她不论如何，都想向你们，向大家复仇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "错的明明是她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "灰城区的人又没得罪她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "天真，你们都说这是“战争”了，竟然还想着大家规规矩矩按照规则打吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "你们说的的确有道理， 但是——战争可是世界上最不讲道理的事情了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们会彻底击败菲金，尽快结束这场公司战争的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们只想找菲金算账，你没必要替菲金说话，更没必要追随她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "追随？ 可笑——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "极光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "伟大的窃光人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "背负着崇高使命的我，怎么可能加入白垩商会那种低劣的组织。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "我和菲金只是各取所需，互相利用罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "窃光人......你是永夜的人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "没想到你还蛮渊博的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "对，我和我的组织，目标就是摧毁星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "说起来……我们在这里这么悠闲地聊天，没问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "星骸在天上，很大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯？那家伙……不会是我们在沙漠里没打过的超大星骸吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "哈哈哈，原来如此，你们认识这家伙啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "那你们就该感谢菲金。这是她送给你们的礼物哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "等等，那个大块头—— 居然冲着灰城区去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "喂，你是什么意思！你的目标明明是我们吧！快让它回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "哼，这个请求我可接受不了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "接着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "白垩商会的恩赐印章？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "拿到这个印章就算胜利吧，属于你们的战争，已经结束了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "至于这些星骸，我就用我喜欢的方式来使用了。只是，菲金用仇恨许愿出它们，不让它们发泄一下，我也没办法控制啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的市民",
+   "text": "怪物来了，大家快跑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆小的市民",
+   "text": "救命啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌乱的孩子",
+   "text": "呜——啊！！ 妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士侍从",
+   "text": "小朋友，快去安全的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士侍从",
+   "text": "不用害怕……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士侍从",
+   "text": "帝国卫队会保护你们的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "密涅瓦，走，我们去拦住那个星骸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这还用你说！我以灰风俱乐部的名义发誓，绝不会让它在灰城区为所欲为！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "你们是傻子吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "已经拿到印章了，这场战争就已经是你们的胜利了。为什么还要继续战斗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "就算你们放着不管，恩赐意志，帝国卫队，那么多公司都会出手的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "你们只要像你们在星塔里做的一样，许愿它会被打倒就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这种许愿，与其说是“为了实现愿望”，不如说是 “为了推卸责任”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这样，在失败的时候，人们就可以说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "“我努力过了，都怪星星没有实现我的愿望。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "单纯的许愿，是没办法实现愿望的",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "旅人走过危险的荒野，战胜凶猛的魔物和星骸，才能找到许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这明明是，通过自己的选择和努力实现的愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "说大话，你们根本没有击败那种星骸的办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "有的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我已经发现了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "星骸头上的法阵承载着特殊的大地魔法，只要破坏的那个法阵，星骸就没办法用周围的材料修补自己，甚至会被自身的重量压垮。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哼哼，从沙漠星塔出来后，鸢尾就一直在熬夜翻书找相关的记载，昨天晚上终于找到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "你们……你们的脑子正常吗？竟然会去研究那种一辈子就遇到一次的星骸……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别小看旅人啊，谁知道在爬塔中会遇到什么事情，当然每个遇到的星骸都要研究。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对了，密涅瓦，我突然想到一个超棒的主意！怎么打败那个大家伙的主意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "别自说自话了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "那可是我的重要道具，不能被你们破坏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "啧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "为什么不防御？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "只要不给你留下放出魔法的空隙，妾身就无需防御。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，就交给妾身吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身定会阻敌于前——助您一臂之力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白， 这里就拜托你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "可恶……竟敢破坏我的完美计划！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "但是，你的刀不可能永远那么快……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "没了魔法的加持，你也只是一个普通人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "只有一个人，在不能使用魔法的前提下对付我和这些星骸，旅人的脑子真是有毛病。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那并非妾身所须顾虑之事。作为主公的刀，只需将妨碍主公的一切——斩杀殆尽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "真是无谓的坚持……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "哈。既然你这么想打，我就成全你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "让你彻底认清——自己有多么无能！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "看来……她极有可能在准备释放魔法。是右手？不对，是左手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "她操控的是影子，既如此……瞄准她的本体便可——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "诺瓦的刀客，这是最后的警告。再不退下，下一击就直接穿透你的脑袋！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那么这一击，就作为你妄图夺去妾身性命的谢礼……做好觉悟吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "没有魔法加持……怎么会有这么快的速度！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "哈哈哈……真令人惊讶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "没想到在诺瓦，竟然还存在这样令人敬佩的武者。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身并非武者，只是一柄主公的刀罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "极光",
+   "text": "不过下次，可别以为还能赢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不论再来几次，妾身一定奉陪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "呼……妾身自小修炼的便是无需魔法加持的拔刀术。此番战斗，妾身尚显锋芒不足，看来还需精进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "……嗯？只剩这些星骸吗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "可惜，妾身绝不会让你们通过此地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "就让你们没有痛苦地……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "消散吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "充能完毕，发射。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "击中它头上的魔法阵了！它注意到你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "干得好，琥珀！那我就按照计划去水道桥啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "下面就交给我吧，我来大闹一场！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，指挥就全权交给你了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "交给我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "15:55",
+   "date": "雨月 2日",
+   "place": "七号星塔附近 水道桥最高点"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，前面的路口向右转。千都世会为你们引开挡路的星骸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，你把小绿再向后退一百米，助跑的距离不够。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，诱导顺利，再过一会儿，超巨型星骸就要到达水道桥了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "魔<r=BOSS></r>王，真是完美的指挥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "作为协助这个精彩计划的一员，我的功绩可以写到实习报告里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她是一点也不觉得危险啊，在这种时候还跑到这种地方找我们。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，她带来的望远神器真的帮了不少忙。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "透过望远神器望去，可以看到不远处，密涅瓦，鸢尾，琥珀已经把巨大的星骸引到了一处人迹罕至的断桥旁，桥成了绝佳的跳板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那就是今天的最终舞台。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们那个乱来的计划，千万要成功啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

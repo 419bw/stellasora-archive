@@ -1,0 +1,508 @@
+{
+ "heading": "# 闯祸的薯条 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：菈露（角色编号 `150`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`15002`",
+  "- **AVG 剧本**：`CG_150_02`"
+ ],
+ "recap": "就算只有一根水草也不算空军，但你说薯条订购，什么薯条？！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "就算只有一根水草也不算空军，但你说薯条订购，什么薯条？！",
+  "episode": "第二话",
+  "title": "闯祸的薯条 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "三、 二、 一…… 起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "快点，抄网跟上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "又爆桶啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哈啊——好久没钓得这么爽了，这就是所谓的时来运转啊！ 今天果然没有白来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这也太多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "等一下，你的鱼呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不是，你的鱼怎么是植物啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你半天就钓上来这根水草吗哈哈哈…… 太好笑了我不行了哈哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "水草又不是不能吃，最近我想吃素。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "噗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没错没错，钓鱼人就得有这种心态，起码还有一根水草，不算空军了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "噗、对不起让我再笑会，哈哈哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的运气都被你吸走啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "好了，不逗你了，你刚刚说什么事情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "只要是跟职场有关，没有什么麻烦是我解决不了的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要怎么说呢，毕竟也不确定闯祸的人就是菈露……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是这样，我有个朋友……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那个朋友就是你对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你到底还让不让我说？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "说说说说说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我一定做个好听众。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我有个朋友，接到了一个“下午茶采购”的任务，她就按照自己的喜好订了一些零食。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "后面才发现是给老板订的，她的口味和老板的不能说毫无关系，只能说毫不相干。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哇……听上去是个大麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "被人发现了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "工作的事情，只要没被发现，就不算犯错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经被发现了，同事们都开始讨论了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那就难办了，要不雇一队旅人把订购的下午茶劫走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "这样就有理由重新订货了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抢劫罪更重吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "也是…… 那就只能用那个了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "流传在恩赐意志职场上的“一定成功道歉法”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "“只要诚心诚意地说出全部事情，就一定会被原谅，就算是严重到炸掉恩赐意志总部的大事，也不会被追究，更不会被开除。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "喔哦！又一条上钩！先不说了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "好重！是个大家伙！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "啊啊啊，魔<r=mowang></r>王快帮我拉一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃呃，怎么会这么重……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎哟！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "…… 可恶，鱼线竟然断了，这可不是什么好兆头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "接着说吧，你朋友定了什么零食？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像是把一个月的下午茶都订成薯条了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "品味不错嘛。薯条简直是人间最美好的食物，每天吃都吃不腻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "说起来，我上周闲的没事的时候还做了为期一个月的“不同口味薯条品尝 计划”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "可惜的是，那个单子不知道去哪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不对，等一下，等一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "魔<r=mowang></r>王，你的这个朋友在哪上班？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可能是恩赐意志吧，这个消息是我路过心相商店时听来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "心...... 心...... 心相商店。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "据说安琪还在大发雷霆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我本以为和你有关，但看你这么自信， 应该是别的可怜人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不知道她有没有听过你说的那条“一定成功道歉法”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎哎，你怎么晕了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "魔.....魔<r=mowang></r>王啊，你知道吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "知道什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你的这个朋友， 就是我......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

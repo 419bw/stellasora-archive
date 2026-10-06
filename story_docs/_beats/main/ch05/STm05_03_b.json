@@ -1,0 +1,973 @@
+{
+ "heading": "# 03B 新老员工",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`508`　**编号**：`03B`",
+  "- **关卡名称**：新老员工",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_03_b`",
+  "- **关卡描述**：温吞的水，既不沸腾引人注目，也不冰冷招人嫌弃。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "琥珀被市场部动员大会的热情震慑了，\n前辈星雁对她伸出了援手；\n而另一边，鸢尾则完美融入了工作的忙碌节奏……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "琥珀被市场部动员大会的热情震慑了，\n前辈星雁对她伸出了援手；\n而另一边，鸢尾则完美融入了工作的忙碌节奏……",
+  "episode": "第三话",
+  "title": "新老员工"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "联合种业 市场部",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "团结一心——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "喊口号的员工",
+   "text": "再创佳绩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "提升业绩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "喊口号的员工",
+   "text": "钱途光明——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "钱途光明——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "那边的实习生怎么不出声？ 这可是重要的动员会。别害羞，跟着大家一起喊！释放自己！喊出音量！来，预备——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "提升——业绩——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "不行不行——重来！听我口令，三、二、一，喊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那，那个......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "唔.......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "你，你怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我的胸口不太舒服，能不能扶我去一下医务室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "又是你啊，快去快去，分给你的工作不能耽误啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "那边刚才没出声的实习生帮她一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "对，就是你。送完人赶紧回来啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "明，明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "前面向右转。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "可，可是，医务室在左边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "咦？你一个新人竟然知道医务室在哪？真厉害～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯......我侦查过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "侦查，莫非你也在找补觉的地点？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "补，补觉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我的“医务室”到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "温室里，有床？ 你的身体，还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呼，到这里就好了，谢谢你。 啊对了！作为把你拐过来的谢礼——实习生，你要不要也来躺一下？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不，不用，我得回去，工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "别那么着急啦，每次动员会没有一两个小时结束不了的。在这儿睡两小时，还是回去被洗脑两小时……你选哪个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "对了，还没自我介绍，我叫星雁，在联合种业工作四年了，现在是市场部的普通员工，也算是你的前辈。你是米娜手下的新人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯，我，我叫琥珀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "琥珀呀～请多指教。话说回来，你该不会是……不太擅长跟人打交道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "刚才看你特别为难的样子，就拉着你出来了。没给你添麻烦吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "谢谢，前辈关照， 我，不太会应付，这种场面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "那就好。其实我算是米娜的前辈，曾经在同一部门工作，帮衬一下她部门的新人，只是举手之劳啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "这间温室啊，只要你打声招呼，随时都能来哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那个，可不可以......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "要加心链吗？明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "非常感谢非常感谢，星雁......前辈？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "不用勉强叫前辈啦，直接叫我星雁就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我其实不太擅长和人面对面说话，总是拿捏不好相处的分寸",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "刚才动员会的时候，我真的要吓死了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "幸好你把我拉出来了，我感觉又活过来了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "帮上忙了就好，你打字速度好快",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "啊，那个，我习惯用手机聊天了，毕竟不用面对面",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "反而更容易说真心话，打字速度不知不觉就快了起来",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "还有，我们不回去上班真的没问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "没关系啦～反正市场部里最麻烦的工作最后都会被扔给你们这种新人和我这种人",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "等到那时候再开工也不迟嘛",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我听说，从明天开始我们就要去店头搞现场促销了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "高喊广告语的那种，还是抓紧时间休息吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "从明天开始",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "去店头",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "高喊广告语",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "完了……要怎么办？？？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "前面就是市场部了，不知道鸢尾和琥珀还适应吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嘘，你听，市场部的员工们在聊天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "资深老员工",
+   "text": "呼，动员会喊得我嗓子都哑了，这种时候来罐星塔饮料最爽了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻新员工",
+   "text": "前辈，我们公司的自动售货神器里没有正版的星塔饮料吧......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "资深老员工",
+   "text": "那当然，正版的我也买不起啊，当这些盗版的是正版就好了，怎么样，你一下子轻松了好多吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻新员工",
+   "text": "嗯，前辈说得对，有新人来了后就没那么忙啦， 但我们这么公然偷懒是不是不太好？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "资深老员工",
+   "text": "看我的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她熟练地从口袋里掏出一枚外形与硬币相差甚远的圆形金属，投入自动售货神器的投币口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "资深老员工",
+   "text": "好了，神器卡住了，万一被抓到，我们就说这台机器出了故障，等好久都吐不出我们买的饮料，正准备找维修部报修。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻新员工",
+   "text": "前辈好厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "资深老员工",
+   "text": "只是简单的公司生存技巧而已，说起来，那个战略部的实习生好厉害啊，简直是工作狂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻新员工",
+   "text": "嘘，前辈，她过来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "打扰一下，前辈，这是下季度的宣传预算表，有什么需要修改的地方吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "辛苦你了。 不过正好——有项非你不可的工作想拜托你……你愿意接下来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "非我不可的工作……？！ 请务必交给我来做！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾好积极啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "你觉得这是所谓的能力越大，责任就越大呢，还是单纯地完全没感知到自己在被大家塞工作呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，在忙啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊，是魔......魔王和雾语，你们怎么有空过来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有点不放心，所以过来看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "原来如此—— 啊！雾语，小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呜哇～～～～？！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "差点被倒下的文件埋起来……鸢尾，分配给你的工作量真的正常吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还好吧，我作为新人，多学多干是应该的。 我倒希望能接触更多工作，这样才能快速成长呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾这家伙，该不会完全忘了自己是来卧底的吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "并且，看的资料越多，就越有可能找到我们要的线索，魔王，你看这份文件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是......茶色夜莺的销售情况。 销售额从两个月前开始增长，同比增长了百分之三十。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "茶色夜莺只有旅人和灰城区的贫民会买。这30%的异常增长，恐怕与事件脱不了干系……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我查了人口流动记录，这两个月菲莱的旅人和灰城区的贫民数量并没有增加。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "也就是说——在<r=·>消</r><r=·>费</r><r=·>者</r><r=·>数</r><r=·>量</r><r=·>稳</r><r=·>定</r>的前提下， 只有面包<r=·>消</r><r=·>费</r><r=·>量</r><r=·>持</r><r=·>续</r><r=·>攀</r><r=·>升</r>……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说……顾客买到了填不饱肚子的“金色夜莺”，结果又多花钱买了更多的茶色夜莺？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "两个月前，这不是夏花讨伐翠煌之刃的时候么......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "目前只能推测到这个层面，我会继续深入调查的，顺便查查佣兵们在联合种业的商店里的购物情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "辛苦你了。 对了，怎么没看到琥珀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "琥珀也很厉害，她已经和一位名叫星雁的前辈混熟了，现在两个人一起去城区送货了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀去送货？ 希望她别太勉强自己……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，工作顺利吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_great_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "很顺利，我遇到的星雁前辈是个好人，工作也挺有意思的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "今天已经送完四个店的货啦",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "市场部的人手也不足，送货多有延迟",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "但星雁都好好地说服抱怨的店长了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样的工作节奏还适应吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_pride_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我正在跟星雁学谈判技巧",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "她进店和店长聊的时候，我就在店外练习射击",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "一点都不浪费时间",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "练习射击？？？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "啊，先不聊了，该去下一家店了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "怎么样怎么样？琥珀那边顺利吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然有些细节让人摸不着头脑……不过整体看来还挺顺利的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "那就没问题啦，接下来我们怎么安排？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "唔......还要去什么地方呢？",
+   "options": [
+    [
+     "担心尘沙和冬香",
+     "研发是个细致的工作",
+     "E501"
+    ],
+    [
+     "在意鸢尾和琥珀",
+     "市场宣传听着就好难",
+     "E502"
+    ],
+    [
+     "优先自己的工作",
+     "先去看看面包的生产",
+     "E503"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "担心尘沙和冬香"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "去研发部吧， 尘沙的异想天开加上冬香的力量，总觉得放心不下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "明白，顺便说一句， 研发部那边大家都穿着白大褂呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "优先自己的工作"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比起去别的部门，我们还是先调查我们负责的生产部吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哦，魔<r=BOSS></r>王很有条理呢，那我们就向着温室出发吧~★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 2,
+   "forks": 1,
+   "silent": [
+    "在意鸢尾和琥珀"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "heading": "# 睡不着的小守护者 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：杏子（角色编号 `123`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`12301`",
+  "- **AVG 剧本**：`CG_123_01`"
+ ],
+ "recap": "森林守护者这个职业是没有年龄限制的。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "森林守护者这个职业是没有年龄限制的。",
+  "episode": "第一话",
+  "title": "睡不着的小守护者 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "此处是远离城市和荒野，一处名为伊西村的小村落。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "对于想要休憩放松，但却不愿意一头扎进城邦的旅人来说， 这里是绝佳的度假胜地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "清凉的微风，柔和的阳光…… 空气中飘荡着麦子的味道，还有泥土的芬芳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好舒服…… 要是能就这样躺在软绵绵的云朵上睡着该多好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "话音未落，指尖就触到了某种软绵绵的东西。 说是云朵却又觉得太温暖——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嗷呜~！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来是你啊，小可可。 你没待在杏子身边吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可可",
+   "text": "嗷呼！嗷呼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过怎么了，你要去哪？ 看样子你是想带我去见她？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "知道啦知道啦。 我跟你去就是，别这么拽我嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈……哈…… 杏子真的会在这种森林深处吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可可",
+   "text": "嗷呼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我跟着可可拨开灌木丛的层层枝条，眼前豁然出现一小片平坦的草坪。 以及……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "呼……呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "居然真的睡在这里啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "杏子同一群小动物一起睡在草坪上，这样的画面不禁让人联想起一些童话绘本上的画面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是就这么睡在这里，会容易感冒的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂~小杏子，该起床啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "呜…… 泡泡，睡觉的时候要乖乖……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "唔诶？么么王……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "醒了吗，早上好啊小杏子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔，魔<r=momowang>魔</r>王！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "不是做梦，是真的呀？ 哇咿！魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喔哦…… 不要一下就扑过来啊，差点就没接住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嘿嘿，但是魔<r=momowang>魔</r>王每次都能稳稳接住呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "所以忍不住就想扑进魔<r=momowang>魔</r>王怀里蹭蹭呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "哇咿！是魔<r=momowang>魔</r>王！魔<r=momowang>魔</r>王来找杏子玩了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "小杏子，这几天有乖乖…… 呜哇！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以都说那样很危险的啦，我不能保证每次都能抱住你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "难道说……魔<r=momowang>魔</r>王在生气……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有生气，我可不想让杏子受伤啊。 所以，之后记得每次扑过来前要提醒我一下哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "啊…… 嗯！杏子会喊得很大声，让魔<r=momowang>魔</r>王很——远——就能听见的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（轻抚杏子的小脑袋）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嘿嘿~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可可",
+   "text": "嗷呼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子没有忘记的，可可不要催啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "它在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "它说快到森林巡逻的时间啦。 放心，我记得很清楚呢。可可就是太爱操心啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是指你每天都在做的事情吗，那样的话也算上我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔<r=momowang>魔</r>王也要来？ 好耶——！出发！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "请抓住杏子的手，森林很大，小心不要走丢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（牵住杏子的手）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "魔<r=momowang>魔</r>王要小心！这边有好多坏家伙的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 确实，还是小心为妙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我小心地跟在杏子身后。 越往森林的深处走，风景越加秀丽，但我却无心欣赏那些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "因为我察觉到了，树木间弥漫着某种危险的气息，让人不寒而栗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "怎么了魔<r=momowang>魔</r>王？ 难道说……魔<r=momowang>魔</r>王也注意到“那个”了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没，没有啊？你在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "不用糊弄杏子啦。 不用担心，这片森林里，杏子可是设了好多陷阱呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "杏子捡起脚边的石头往前方的空地上扔，一张大网瞬间就从草皮里冒出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好厉害……我都没看出来那里还藏着个捕网…… 要是冒然走过去就要中招了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "这可是杏子自己做的陷阱，抓到过不少坏家伙，最后都被杏子和可可一起赶出森林了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "每天巡逻就是为了确认有没有坏蛋。不过还有一些以前做的陷阱坏掉了，杏子巡逻的时候也要把它们找出来修一修。 魔<r=momowang>魔</r>王明白了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "以前…… 等会，整个森林的陷阱都是杏子你做的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子是很厉害，但也没有那么厉害！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "森林的陷阱是“伊西村探险队”的大家一起布置的。 以前的侦查小队，除了杏子以外可是有很~多~人的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "教大家用树枝树叶隐藏陷阱的是恩雅婆婆，跑得快、跳得高的纳兰哥哥负责布置好会动的机关。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "擅长画画的小豆子，能把逼真的图画当作陷阱。 还有什么都能修好的麦克叔叔，每次机关出问题，他都能搞定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "我们会一起做陷阱，防止有危险的魔物，还有那些戴面具的坏家伙闯进森林。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "不过后来…… 小队的成员越来越少，有些人说了明天见之后就再也没回来了。 不知不觉间，就只剩杏子一个人了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "杏子听说，他们是去城市里生活。但是，杏子不明白，大家为什么总是要离开自己的家呢？他们是不是都不会再回来了……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一时语塞的我，蹲下身来扶住了杏子快要掉下来的小草帽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个问题，只有等杏子长大之后才能靠自己寻找到答案。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以不用着急，你一定会等到的，而且即使身边没有伙伴，杏子这么厉害，一定能坚持的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "嗯！杏子会坚持的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我再次摸了摸杏子的头，虽然她假装成熟稳重，但所有的内心活动都展现在尾巴上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可可",
+   "text": "嗷！嗷啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "是可可！它好像发现什么了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可可",
+   "text": "呃呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杏子",
+   "text": "可可，你怎么了……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "杏子，待在这里别动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "顺着可可紧盯的方向看去，那是一片沾染红色液体的叶子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是…… 血？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来可可在警惕的是这片灌木丛背后的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我挡在杏子身前，小心地拨开树枝。 那里藏着的是一只难以想象的庞然大物——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

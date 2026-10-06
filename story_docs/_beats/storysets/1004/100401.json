@@ -1,0 +1,772 @@
+{
+ "heading": "# 抹茶梦语 其一",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#04《抹茶梦语》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`100401`",
+  "- **AVG 剧本**：`STsp_04_01`"
+ ],
+ "recap": "正在享用下午茶的菲莱谷风家政分部突然接到了来自总部的任务，为了取得任务所需要的装备，众人前往了星塔。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "正在享用下午茶的菲莱谷风家政分部突然接到了来自总部的任务，为了取得任务所需要的装备，众人前往了星塔。",
+  "episode": "第一话",
+  "title": "抹茶梦语 其一"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "下午茶准备好了，昨天新学会的抹茶蛋糕，样子看起来真不错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "一会师父回来的时候，一定能给她一个惊喜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "花原，我回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "师父~我这就开门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "师父，你在哪？为什么我看不到你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "师父！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "刚刚那是…… 梦？居然坐着就睡着了，我还是太不成熟了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "师父……您到底去哪了啊......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "唔——快把这桶抹布水倒掉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "哈？！这哪里是抹布水啊！ 怎么看都是香喷喷的汤好吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "秋葵和唯咲...... 她们做了下午茶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "别、别端出来啊，怎么能让前辈吃这种东西！你不会已经叛变了，想要谋害前辈吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "我怎么会背叛师父！这可是我炖了五个小时的成果，绝对好喝！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "这么好的东西，你还是自己先尝一口吧！来~张嘴~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "哦，你们做了什么好吃的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "啊！师父！你醒了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲，我只是你们的前辈，并不是师父。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "前辈是教导我们的人，师父也是教导我们的人。 那前辈就是师父，所以花原前辈就是师父！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "两者之间还是有很大的区别的，况且师父这个词的重量，我还无法……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "算了，你用喜欢的方式叫就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "谢谢师父！对了师父您看——这是我特意做的解乏养神汤！最近师父太忙了，可以喝下这个补一补。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "里面放了橘皮、醒神草、炽焰果、龙爪花、金藤花……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "什么乱七八糟的！简直是黑暗料理……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "我都是照着书挑的食材，肯定没问题！ 来嘛师父！您就尝尝吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "花原前辈您千万别喝！ 回头我会替您好好教训唯咲的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "谢谢你的心意，我尝尝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "前、前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "你看，师父都那么美美地喝下去了，我的汤肯定超棒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "难得做了这么多，唯咲你也尝尝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "好，我喝了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "我，我好像看到了我过世的太奶奶，在河对岸向我招手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "唯咲，唯咲，你还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "呼，呼，呼，活过来了，我做的食物真是太可怕了，像毒药一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "其实也还好，就是用料杂了一些，料理并不是食材放的越多就越好哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "明、明白了。果然师父就是师父！又学到东西了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "前辈，你感觉还好吗？你也喝了那个汤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "嗯，我没问题的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我的师父曾经说过—— 身为忍者，要能吃下一切可以吃的东西，身为女仆，要始终保持冷静和优雅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我们谷风家政既是忍者也是女仆，所以，我要求自己必须优雅地吃下一切能吃的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "况且，唯咲的汤也没那么糟糕，她蕴含在汤里的心意还是蛮可口的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "师...... 师父，还是你懂我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "明白了，从明天开始，我就用这个汤给自己做特训，直到变得和师父一样，能面不改色地喝下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "不要浪费粮食啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "好了好了，马上就到下午茶的时间了，今天的茶点还是我来做吧，抹茶蛋糕怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "虽然我不太喜欢吃苦的东西，但抹茶蛋糕是例外，抹茶粉的微苦，反而把蛋糕衬托得更甜了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "我知道我知道，这就是先苦后甜的道理吧…… 诶，我是不是说了句挺有道理的话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "要是没补最后那句就更好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "唯咲想学做饭的话，就从抹茶蛋糕开始吧，这个挺适合新手的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "好耶！是师父的料理课！我这就去准备材料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "这是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "前辈，出什么问题了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "抹茶蛋糕只能下次再吃了，我们有任务了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "前辈，我们的任务是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "明天，金城区的一位富商要举行一场宴会，据线报，谷风家政一直在追查的一位谷风贵族可能会出席。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "一直追查的贵族...... 不会是害了我们村子的那个吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "是的，但对方数年来杳无踪迹，这次也不一定能抓到，我们还是做好自己的工作，再慢慢寻找目标。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "明白，保持一颗平常心，所以我们当天具体的工作是什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我们将会作为厨师和女仆进入会场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "明白了，前辈，我们来星塔是要获取明天宴会用的食材吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "并不是，食材富商会准备，但对方要求在宴会厅里服务的女仆，必须身着菲莱风格的女仆装。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "菲莱风格的女仆装？那是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "就是街边咖啡店里穿的那种吧，和我们现在穿着的女仆装差异挺大的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我们菲莱分部刚刚建立，菲莱风格的女仆装还没来得及准备，只能来星塔许愿了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "放心吧，师父，看我的吧，我最会许愿了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红色星骸",
+   "text": "吼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "看招！樱花斩！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "你还真是喜欢给招式起一些奇怪的名字呢，所以，樱花在哪呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "锵锵！樱花！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "这哪里是樱花，明明是醒神草花瓣……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "你们两个，先别玩了，我发现许愿箱了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "万能的恩赐之神啊，我等以虔诚之心向您许下愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "请赐予我等——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "菲莱女仆所穿之服饰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "箱子打开了！大家快看，我许愿的女仆装怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "这是泳装吧......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "怎么会，你看这布料，就是女仆装啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "这个世界上怎么会有分体式的女仆装！你要穿着这个站在宴会厅里吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "这......这倒是...... 不过，你许愿出来的那个也很奇怪啊，为什么女仆装还有耳朵？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "嗯....... 啊，这个是可爱的动物装饰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "穿着这个站在宴会厅里也很怪吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "为了任务，我、我可以的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "你们就去做厨师吧，我的这身女仆装应该还行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "不愧是花原前辈，许愿出来的女仆装好标准。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "师父快试试看嘛！那边有个更衣室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "你们觉得...... 怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "为什么不说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "好，好棒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "完美的女仆，这就是完美的女仆啊，前辈，请、请让我拍下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "秋葵",
+   "text": "呜，忍不住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "好了，好了，别夸我了。 还有秋葵，别光顾着一直拍照啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "时间已经不早了，我们先回去吧，还得确认一下明天的行动细节。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "好的。不过师父，另外两件衣服怎么办呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不能浪费，先带走吧，或许以后的任务里就用到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "唯咲",
+   "text": "虽然是我自己许愿来的…… 但，但到底是什么样的任务才能用得上这样的女仆装啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

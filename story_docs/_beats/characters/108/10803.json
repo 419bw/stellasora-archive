@@ -1,0 +1,768 @@
+{
+ "heading": "# 幸运的一天 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：卡西米拉（角色编号 `108`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`10803`",
+  "- **AVG 剧本**：`CG_108_03`"
+ ],
+ "recap": "为了不丢失自己的鞋子！奔跑吧！魔王！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了不丢失自己的鞋子！奔跑吧！魔王！",
+  "episode": "第三话",
+  "title": "幸运的一天 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "过弯，全力加速！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这就是最后的冲刺了，道具全开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冲线了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我被卡西米拉重新带进星塔，来到了一处被白猫剧团用作训练场的游戏厅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "唉——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么叹气？你开得很完美啊，每个过弯都很漂亮。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "谢谢夸奖，但这远远不够啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "卡西米拉的分数显示在屏幕上，是排在第二名的高分，但距离她想超越的第一名依旧有不小的距离。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你今天要做的重要的事，就是挑战这个分数啊，那的确需要一些运气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，这座训练场里的所有训练设备我都拿到了最高分，这是唯一一台我没有登上巅峰的机器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "第一名那个空白名字不知道是哪位白猫前辈，我觉得只有突破了这个...... 我才有复兴白猫剧团的一点点可能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不过，你说的也没错，这个驾驶训练的确需要一些运气，有些地方的分数我总是拿不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "奇怪，我明明已经把幸运符带来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "幸运符？在哪里啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "难道是没佩在身上的缘故？之前的幸运符都是贴身带着的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，你看我做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王，来一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？哎哎哎，你要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "卡西米拉把我拉进她的怀里，让我坐在了她的前面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不好意思，把你的幸运分给我点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "背后传来了温暖的触感，还没来得及反对，就被卡西米拉紧紧地抱住——就这样一起开始了下一场游戏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说是要我分给她运气，可是这种东西要怎么分啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "抓稳了，我们要出发了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这也太刺激了，坐在驾驶位上的感觉完全不同啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "特别是在转弯时，身体会被甩向外侧……！ 意识…… 快要飞出去了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "抓好，魔<r=BOSS></r>王，这里我们要飞起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行了！放我下去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "终，终于停下来了...... 这么疯狂的加速，肯定能拿到第一名——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "很可惜，还差了不少呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "奇怪...... 分数还是上不去，难道是幸运符的使用方式不对？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想，可能是道具使用的时机不对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "道具，你是说方向盘旁边的那十几个按钮？我都是一口气按下去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "赛道本身就很复杂，你一口气按下去专心驾驶倒是合理的战术，不过...... 现在不是有我了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几分钟后，再一次坐进卡西米拉怀里的我，把手放在繁杂的道具按键上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那就交给你了，魔<r=BOSS></r>王，我相信你的战术眼光，准备好了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "准备好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "出发！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "坐在卡西米拉臂弯中的我，逐渐习惯了山路的颠簸，精准地释放着阻止其他赛车的道具，每成功一次都有分数进账。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "香蕉皮、章鱼、龟壳，分批次干扰其他的赛车！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王，很厉害嘛，你真的是第一次玩这个游戏吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔...... 谁知道呢，毕竟我失忆了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，这些道具只要能静下心来考虑，还是不难找到释放时机的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这么颠簸你还能静下心啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道你不会让我甩出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "哼，看人挺准嘛，但只是这样可赢不下第一名，你看我们的分数。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经快跑到终点了，竟然还差十万分...... 第一名是怎么做到的啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "别想那么多，专注在比赛上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "为了让赛车的速度更快一些，我扔出了最宝贵的道具—— 无敌十字星。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "魔<r=BOSS></r>王，速度太快了，我控制不住方向了，这样下去会飞出赛道的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里有个减速道具，呜——太晃了，我按不到......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟了，我不小心踩到的是—— 刹车？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "速度不够了，前面的断桥我们飞不过去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "等等，还没完！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "桥下，桥下竟然是隐藏的近路！我们冲线了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我们赢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "竟然，竟然掉进近路了。",
+   "options": [
+    [
+     "竟然，竟然掉进近路了。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "呵呵， 连我自己都有些难以置信。 你真不愧是我最灵验的幸运符。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "幸运护符？我吗？",
+   "options": [
+    [
+     "幸运符？我吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯， 还记得那块幸运饼干吗？ 里面的纸条提醒了我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我记得上面写着“一期一会”……",
+   "options": [
+    [
+     "一期一会？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "“我与你今天的相会， 或许是此生中仅有的一次。” 这便是它的含义。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "突然觉得责任重大啊……",
+   "options": [
+    [
+     "突然觉得责任重大啊……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "对吧？ 正因为如此， 才更要珍惜眼前的人， 不能轻易让自己的幸运从身边溜走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "回想起来， 今天从一开始就充满了“幸运”。 不论是找到的四叶草， 还是好吃的幸运饼干。 还有演习时我们小队收到的弹药补给。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这、这就不用说了吧……",
+   "options": [
+    [
+     "这、这点就不用说了吧！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "呵呵， 抱歉。 不过多亏如此我才发现， 我所追求的好运…… 从一开始， 就和你一起来到我身边了。 所以， 我才有了挑战纪录的信心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "谢谢你， 你是我无可替代的伙伴。 下次， 我们再一起共登巅峰吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "说起来，你是怎么发现那里是近路的，我开了那么多次都没发现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实不是发现，而是...... 我不小心踩到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，果然如此！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂，你盯着我的鞋子双眼发亮做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那个传说啊，“幸运马蹄铁”的传说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那个传说里的魔鬼，是想要鞋子，然后得到了马蹄铁对吧，也就是说，马蹄铁就是魔鬼的鞋子，魔鬼的鞋子就是幸运物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的思维有点太跳跃了，不过也算自圆其说，那又怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "你是魔<r=BOSS></r>王，那么你的鞋子应该比魔鬼的鞋子更幸运吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是...... 我这个魔<r=BOSS></r>王和那种魔鬼没啥关系啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "但今天的确是和你的“一期一会”，给我带来了最棒的幸运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我想，那个饼干，不，那家店肯定都是恩赐之神安排的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "所以，你是魔<r=BOSS></r>王，请把你的鞋子卖给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我出十倍，不，一百倍的价格！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多少朵拉也不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我会好好珍惜的，每天都随身带着，在做重要的事情前拿出来蹭一蹭，睡觉的时候也会好好地挂在床头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜，更不行了，那个...... 你也拿到了第一名，委托应该结束了吧，我先走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不要走，你是魔<r=BOSS></r>王，请给我你的鞋子！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我和卡西米拉在星塔里追逐了好久。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "最终，我答应卡西米拉每次重大任务前，我都会到场把幸运分给她。总算勉强保住了我的鞋子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

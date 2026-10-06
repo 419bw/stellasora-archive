@@ -1,0 +1,1209 @@
+{
+ "heading": "# 02 茶色夜莺",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第五章《落于暗夜的荧光》（星塔历 996 年）",
+  "- **关卡 ID**：`506`　**编号**：`02`",
+  "- **关卡名称**：茶色夜莺",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm05_02`",
+  "- **关卡描述**：浮于水上的真相，总只有冰山一角。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "成功入职后，米娜为众人介绍起谜案的细节，\n研发部、市场部、生产部三处都可能有线索。\n于是众人分组行动，开始了各自的调查。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "成功入职后，米娜为众人介绍起谜案的细节，\n研发部、市场部、生产部三处都可能有线索。\n于是众人分组行动，开始了各自的调查。",
+  "episode": "第二话",
+  "title": "茶色夜莺"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "8:00",
+   "date": "雷月 31日",
+   "place": "菲莱温室区 联合种业仓库"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "早安，大家都顺利入职了呢，真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "顺利啊…… 那真的能说是顺利吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有人胡乱填写工作经验。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "真是吓死我了！我还以为造假的事肯定穿帮了呢。 不过嘛……这说明我演得够逼真——对吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有人在面试的时候掏枪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "没有手机的时候，不擅长说话，用枪说服，比较快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有人……因为想到了难过的事情晕倒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "对不起，师父！关键时候我这个没用的家伙又掉链子，实在对不起……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "老实说，面试之后，我还以为只有鸢尾能通过面试。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "被录用的时候，我甚至以为在做梦。 真没想到我居然能被联合种业录用……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不不不，鸢尾，这么点小事就得意忘形可不行啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "放心吧，魔<r=BOSS></r>王，我知道自己只是来做委托的，再说了，我可是魔王协议的员工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有干劲是好事，但也别给自己太大压力啦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其他几位也不用再纠结面试的事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然最后大家都聚在这里了，就先庆祝我们成功通过第一关吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "米娜，感谢你暗中帮我们打点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我？我没做什么啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我们这个委托是秘密的，所以我没办法在面试上行方便...... 再说，我这个级别也没办法行方便。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是米娜？这么说来…… 幕后推手果然是帮过我们的翡冷翠？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "但是米娜前辈是“经理”吧，经理这种职位……不是应该很厉害的吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "哈哈……我的确是茶色夜莺项目的经理，但经理和经理也是不一样的，何况茶色夜莺项目组本来就只有两个人呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "两个人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "嗯......在你们在之前只有两个人， 现在有七个人了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "办公室那边没位置了，所以，只好临时请各位先在这个仓库将就一下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "茶色夜莺在旅人圈子里可是旅行必备品，销量应该不小吧，难道之前这个项目就靠两个人撑着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "茶色夜莺价格低廉，虽然销量不少，但收入在公司里排不上号，每份茶色夜莺的利润也很低，基本没有多余的朵拉做宣传和改进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "其实，两个人都是多说了，一个月前这个项目还只有一个人，我就是我自己的“经理”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "另一名员工也是新人？我怎么有种不好的预感......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "大家好~你们就是米娜说过今天要入职的新员工吧？ 初次见面初次见面，多多关照哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔？！雾——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "大家都叫什么名字啊， 我先来，我叫雾语，是上周从弗拉维奥分公司调过来的，擅长文书工作和搬运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是要装成没见过的样子么，好吧，不知道她又在打什么鬼主意。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你好，我是旅人魔王，家乡...... 家乡是沙漠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我叫尘沙......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就这样，我们在略带尴尬的气氛中进行了一场“熟人”之间的自我介绍，不知内情的米娜还在努力帮我们和雾语拉近关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "8:30",
+   "date": "雷月 31日",
+   "place": "菲莱温室区 联合种业仓库"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "大家都认识了，接下来我们就聊聊“好吃的茶色夜莺”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个……米娜，雾语还在这，她听到没事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "没事的，雾语就是被调过来支援我们的，这些面包就是她帮忙从全城搜罗来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，这些装面包的纸袋怎么有些眼熟？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯。 这份资料绝对是真货…… 详实又全面，我们竟然用茶色夜莺换到了这么好的面试经验……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "下次能不能请她给我准备一份恩赐意志的啊… … 开玩笑的啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也不只是茶色夜莺，还有我们跑腿的辛苦呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了满足她的奇怪要求—— 在全菲莱各家店铺里收集茶色夜莺面包，我们可是跑遍了整个菲莱城。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "最近，菲莱市场上出现了一种与众不同的茶色夜莺——“好吃的茶色夜莺”，我们暂且称之为“金色夜莺”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不过这个金色夜莺嘛……好像是混在普通茶色夜莺里偷偷卖的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我从菲莱各处的联合种业商店里搜罗了这么多面包，也没有发现什么规律。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等……费劲辛苦跑遍全城的应该是我们才对吧！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "从外形和包装上来看，它和茶色夜莺一模一样。口感甚至更加松软，连味道…… 不得不承认，比茶色夜莺好上太多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这次委托，就是想请各位查清楚金色夜莺到底是从公司的哪个部门流出去的，这种假冒伪劣产品必须得到遏制。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯嗯……等等，我有些听不明白，你说这个金色夜莺的口感比茶色夜莺更好吧， 那就算它是仿冒品，也算不上劣质吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这点光靠说明很难解释。请用，这是金色夜莺的样品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个味道...... 闻着就比茶色夜莺好吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我尝尝，嗯...... 天哪！这个口感！也太美妙了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "真的呢，松松软软，还有麦子的香味。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，你也尝尝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，谢谢冬香。 唔…… 这，这是……何等的美味？！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "十分钟后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔……嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了尘沙？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好奇怪啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎呀，看来尘沙察觉到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "确实很好吃，但是……以前只要吃上几口茶色夜莺，肚子就一点也塞不下其他东西啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "吃这个面包的时候，我却没有这种感觉。嗯……该怎么说呢，就好像，吃了一口空气或者棉花糖？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "已经，饿了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "我、我也有同样的感觉！好没有实感……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这么说来确实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "等，等等～～～？！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鸢尾，没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "一、二、三…… 我、我竟然一口气吃了五块？！以前吃一块就能饱了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在明白为什么叫它假冒伪劣产品了。虽然味道很好，但吃下去不饱的话......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这就是问题所在，正如鸢尾那时说的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然又干，又硬， 吃起来像是木屑还缺乏营养… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "但是很容易保存，任何城邦都能买到， 还有最重要的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然不好消化， 可正因如此比其他面包更扛饿！ 这不就是优点嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "茶色夜莺针对的客户是长年在荒野旅行，没有稳定食物供应的旅人、还有城里经济拮据的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "这款面包的理念就是让大家随时随地，用最少的朵拉填满肚子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "的确，有次我们快一个月没接到委托，饿得肚子空空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "差点，煮鞋子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "还好鸢尾从小绿的角落里翻出半袋子三个月前买的茶色夜莺。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "多亏它们，我们才能撑到下一笔委托费到账。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "直到现在，我还记得找到茶色夜莺时，那种被救赎的感觉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我会永远感谢联合种业发明的这个面包！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "没错，这才是茶色夜莺原本的目的。 并且，这种金色夜莺也没办法长期保存，几天内就会变质——虽然这只是正常的面包水平。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可对原本的目标客户来说，最大的优点没了，这简直是致命的缺陷啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "说得是啊……万一人们在购置旅行物资的时候，不慎买到了分不出来的金色夜莺……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "在空荡荡的荒野上饿着肚子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "鞋子也煮完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "过不了多久，前来救援的人就会在那儿发现几具因饥饿而死亡的尸体。 他们的怨念在空中盘旋，从此永远纠缠着后来踏上这片土地的旅人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜哇啊啊啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "绝不可以让这样的事情发生！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个问题的确很严重，但为什么能确定是公司内部的问题，竞争对手搞事也有可能吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "正如我前面所说，这些金色夜莺的包装外观和茶色夜莺毫无区别，也都是通过正常供应流程进入到联合种业的商店里的。其他公司根本没有插手的机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "再说了，如果竞争对手有这样的手段，那么为什么不做一些威胁更大的事情呢？真正会受影响的，也就是那些跑荒野的旅人和城里的穷人不是么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "的确......在诺瓦各个城邦，旅人和穷人的事情从来不算新闻。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，这么看来把视线放在公司内部是合理的判断，我们从哪里开始查呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "茶色夜莺从生产到销售，有三个关键部门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "研发部，负责配方研发改良和日常管理。茶色夜莺的原始配方就在研发部。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "生产部，管理温室和食品生产线，还有粮食交易。茶色夜莺的面包就是生产部做的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "市场部，管理种业商店，负责产品的宣传和销售，当然也包括茶色夜莺。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "想必各位已经猜到了——我会让大家以战略部实习生的身份潜入这三个部门进行调查。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "不过毕竟我们也不清楚哪条线索能指向真相，所以希望大家尽可能多地收集各方面的情报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，下面就是分配每个人去哪里了吧.......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我我我！米娜～ 研发部…… 是不是能免费吃到各种口味的新产品？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "虽然性质不太一样…… 但为了让研制出的食物达到量产的标准，通过反复试吃来优化它们的味道和口感，确实也是研发部同事们的日常工作之一。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我要去那里，嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "冬香，一起来吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "啊，好，好。我哪里都可以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那我和琥珀去市场部。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "按米娜小姐的说法，那儿肯定有很多数据记录。琥珀打字速度快，我又很擅长背东西，即使有不能外借的资料，我俩也能合力复制出一份。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "拍照不是更快？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我和雾语去生产部吧，我对种地还有点兴趣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我没问题哦～魔王，合作愉快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "米娜",
+   "text": "我留在仓库里做好大家的后勤工作， 对了，这是各个部门的工作服。 那么……祝各位顺利。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "9:30",
+   "date": "雷月 31日",
+   "place": "菲莱温室区 联合种业仓库"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，换好了， 你觉得怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不错嘛，像个职场精英了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "话说回来，你不想问问我，为什么要假装不认识？为什么会成为“从弗拉维奥分公司调过来的联合种业员工”吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不想，因为你肯定会忍不住说出来的，比如现在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呜呃……真是被你看穿了呢，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "本魔女是来暗访的，联合种业这家公司，以育种和生物研究闻名……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "在恩赐印章授予的特许经营下，垄断了诺瓦的粮食。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "多年前，这家公司的创始人塞缪尔的目标是——给人们提供“更便宜和美味的食物”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "但现在嘛，比起经营理念，大家都只顾着搞那些勾心斗角的派系斗争。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不过话说回来，联合种业再怎么说也承担着诺瓦大陆七成的粮食产量啊？要是这样的企业因为内斗垮了……你觉得老百姓的日子还怎么过？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "到时候肯定会有人连饭都吃不上，整个社会都要乱套了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "没错！所以我来到这里，就是为了挖个联合种业的大新闻，不仅有爆点，还能让大家注意到粮食垄断在联合种业手里的潜在危机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，你就想办法搞了个假身份，混到了正好需要人的米娜手下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "然后再借着内部调查的名义，收集更多的新闻素材。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哼哼哼，不愧是魔<r=BOSS></r>王，智者所见略同嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不过，可别误会呀？米娜想调查的事情我也会好好干的，这是顺手收集一下别的信息而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "不过米娜能以这么低廉的薪水请到我这个弗拉维奥王牌魔女，这波可是双赢呢★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不论是找到灰夫人还是完成米娜的委托，雾语的能力都派得上用场，我们合作的确是最优选择。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，既然我们的目的一致，或者说至少目前一致，那不如合作调查？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "完全同意，顺便说句，比你们先来的一周里，我也没有闲着，已经做了些前期调查，各个部门我都摸透了★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "你想去哪里，我来带路~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "major",
+   "prompt": "唔......先去什么地方呢？",
+   "options": [
+    [
+     "担心尘沙和冬香",
+     "研发是个细致的工作",
+     "E501"
+    ],
+    [
+     "在意鸢尾和琥珀",
+     "市场宣传听着就好难",
+     "E502"
+    ],
+    [
+     "优先自己的工作",
+     "先去看看面包的生产",
+     "E503"
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "担心尘沙和冬香"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "先去研发部吧，尘沙的异想天开加上冬香的力量，总觉得放心不下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "明白，顺便说一句，研发部那边大家都穿着白大褂呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "在意鸢尾和琥珀"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "去看看市场部的情况吧，鸢尾很擅长文书工作，宣传工作似乎也没问题，倒是琥珀......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "别那么担心，总能应付过去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "优先自己的工作"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比起去别的部门，我们还是先调查我们负责的生产部吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哦，魔<r=BOSS></r>王很有条理呢，那我们就向着温室出发吧~★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  }
+ ]
+}

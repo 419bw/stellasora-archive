@@ -1,0 +1,812 @@
+{
+ "heading": "# 星与心的回响 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：焦糖（角色编号 `147`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`14702`",
+  "- **AVG 剧本**：`CG_147_02`"
+ ],
+ "recap": "焦糖拜托你成为她的制作人，而你给出的寻觅灵感的答案是……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "焦糖拜托你成为她的制作人，而你给出的寻觅灵感的答案是……",
+  "episode": "第二话",
+  "title": "星与心的回响 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "即使是在甜点屋里，也弥漫着比别的城邦更浓郁的甜美气味，或许这就是弗拉维奥吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……啊，真好吃！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看上去饿坏了啊…… 焦糖的食量还挺大的嘛！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "稍微心疼钱包一秒。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚刚演出的时候，有这么多粉丝围着你，照道理你的演出费应该不低啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么还会吃不起饭呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……只是，有时候忘了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "噢……原来是太沉迷于演奏，忘记吃饭了啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "是忘了放收钱的罐子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是所谓的天才吗……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "啊！也不是经常啦，我还是有收到演出费的！ 音乐空间的老板经常会提醒我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "世上还是好人多……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "但是维护贝斯，还有买乐谱，买演出的门票……都是很费钱的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "还有旅行的费用……探索星塔的物资……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "不够吃饭，也很正常嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不正常啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "音乐再怎么能填饱你的精神，也填不饱你的肚子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "城里也就算了， 要是在荒野或者星塔里饿倒了，可没人能救你噢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "诶嘿嘿……所以说，制作人很重要嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "看着她安心吃可丽饼的样子， 我稍微放下心来一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "解决了填饱肚子的问题，我和焦糖漫步在街上—— 是时候负起制作人的责任了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "啊……真好吃。好久没吃过这么多好吃的东西了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还是得注意健康啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说回正事吧， 在之前，你的创作灵感都是怎么来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我想想…… 比如说，看“演出”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“演出”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "不，不是……对不起，是我表达的不清楚， 我是说，看大自然的“演出”！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "噢……所谓的，“倾听山的声音，海的声音，星塔的声音，天空的声音”？是这样吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "习惯了之后就会意识到，焦糖的世界观里，对很多事情的理解是不太一样的——作为制作人可得好好注意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "嗯，这都是自然母亲的演出……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "只是听着这些悠远的声响， 就会忍不住落泪。 然后灵感就自然而然的迸发出来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对诺瓦人来说，这种艺术形式还是过于超前了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……你不是在笑话我吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟在大自然面前，我这个魔<r=mowang></r>王其实也显得很渺小，很力不从心……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从敬畏的角度而言，我和你的结论其实也没啥差别，只是我选择抗争，你选择拥抱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "哇！刚刚这段……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我好喜欢！好有节奏感！我可以写成歌词吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个待会再说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "其实，弗拉维奥的演出，我也一直有在看的…… 虽然门票钱也是一笔不小的开支呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在没法从中获得灵感了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "怎么说呢…… 以前其实有很多不错的演出，总能让我能看到许多风景……映照出乐手内心的画面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "但最近，这样的画面越来越少了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "越来越少？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "…… ……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……唉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "良久的沉默后，她长舒了一口气，随后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我嘴笨，可是有些曲子，虽然总是围满听众，但我……确实无法认同。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "有时候，我也在想是不是我和大家的口味脱离太久了…… 但我确实做不到只为了引人注目去演奏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "音乐应该是为了传递……而生的东西吧？ 要是只想凭着音量招徕客人，却没有描绘任何内心的风景的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "那种音乐，确实也很好。 但和他们一同演出的话，我似乎就什么都传达不到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "或许是我能力不足吧…… 总之，我觉得那样的音乐……我倾听不了，理解不了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然语气温柔，但听起来似乎非常尖锐啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "诶，诶？！我……我不是那个意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我觉得弗拉维奥的大家，都很努力在追求艺术的高度……只是方向不同。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "传递……内心的风景。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，对焦糖来说，这是个盲区啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我无视了她客套的找补，试图引导起她的思绪——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "——你也说了，音乐是为了传递而生的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "演奏给大海听、给星空听，确实很棒，很有焦糖的感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但其实认真倾听你表达的“听众”除了这些，还有很多—— 我是说，城里的人们。那些簇拥在你舞台前的，你的粉丝们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "听众…… 粉丝……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我知道，但是每次，有那么多人，我就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她嘟起嘴，轻轻锤了我几拳—— 哇，不愧是演奏家的手，强而有力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我习惯不了……我感觉自己好没用……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "觉得太紧张了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "也……也不是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "觉得看不清他们的心？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……或许，确实是这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我不知道怎么用音乐以外的方式沟通……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "他们，和大海和高山不同…… 他们会喝彩，会向我欢呼致意，但我却……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我该说些什么……来回应他们呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "今天的演奏，要是万一不合大家口味的话……需不需要解释些什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我不知道……这其实很难的……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我只明白音乐……音乐之外的东西，我觉得好复杂！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "像制作人这样，能够理解贝斯，理解我的音乐，我的想法的人…… 其实很少很少！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "说出口了…… 呼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "以前的我，确实很慌乱……很迷茫，但是有制作人在的话…… 我觉得，好像有勇气可以面对这些了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "嗯！不如说，制作人，你说的确实很有道理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她攥紧了拳头，像是下了某种决心一样。长长的耳朵也竖了起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我……我可以试试。我该怎么做呢？马上办一场演出吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要下了决心，就很快思考起来了。不愧是焦糖。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "制作人是要帮助乐手点拨灵感的，是这样吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那……这次我的课题，就是“治愈心伤”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……治愈心伤？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，其实我最近在弗拉维奥停留，就是为了解决一个很重要的委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有一批旅人，在之前经历了星塔探索的事故…… 从结果来说，有许多人的心都濒临崩坏了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "他们需要你的帮助。而你也可以借此好好地观察他们的愿望，倾听他们的回应…… 我不敢保证，但或许，对你来说是全新的灵感。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "即使我是魔王，也确实没法体察如此多人的内心…… 但是焦糖，你不一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我……我只是一个弹贝斯的乐手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的音乐连高山、大海、星塔都能跨越—— 那我想，那些伤痛的内心也一定能听到你的呼唤的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "用音乐……治愈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "我明白了……我想想。我……我好好想想……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然<b>我们目标一致</b>，就好好准备吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "剩下的杂事，拜托我这个制作人来担心就好了——焦糖，你只需要关心音乐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "……感谢制作人的点拨。没想到，这场灵感之旅可以这么顺利启程。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦糖",
+   "text": "原来……为他人去谱写曲子，是这样的感觉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

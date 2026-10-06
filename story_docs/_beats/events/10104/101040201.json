@@ -1,0 +1,798 @@
+{
+ "heading": "# 01 苍茫人海逢故人",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：烟火绚丽寻春意（活动编号 10104）",
+  "- **关卡 ID**：`101040201`",
+  "- **AVG 剧本**：`STev_03_01`",
+  "- **关卡描述**：新春佳节之际，你在苍梧街头看到了一个熟悉的身影……"
+ ],
+ "recap": "空白旅团在苍梧意外失踪了！你上街寻人，却意外遇到了正在寻找璟麟的科洛妮丝。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "空白旅团在苍梧意外失踪了！你上街寻人，却意外遇到了正在寻找璟麟的科洛妮丝。",
+  "episode": "第一话",
+  "title": "苍茫人海逢故人"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇~这就是苍梧城，好大啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好多人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这段时间正好是龙裔的节日，所以会比平时要更热闹一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "最近的节日，那不就是情人节吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我都不知道，龙裔们会这么盛大地庆祝情人节，他们一定很擅长恋爱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不是啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯？龙裔是不擅长恋爱吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我不是在否定那个啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那是，什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是情人节啦。 是“春节”，龙裔最重要的节日。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听说，在这个节日里，不管距离多远，有条件的龙裔们都会回到苍梧，和家人朋友们一起庆祝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，我就是这个意思！ 魔王怎么这么清楚？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这本小册子上写着呢，里面还有苍梧的美食资讯和纪念品介绍呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "太好了！我早就想尝尝正宗的龙裔火锅了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那边还有纪念品摊位…… 想去看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "火锅会有的，纪念品也会有的。 而且我还预约到了客栈的特价房，难得来一趟苍梧，我们玩个尽兴吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙&琥珀",
+   "text": "鸢尾，伟大！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "至于现在，我们应该去做最重要的事——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "去吃火锅？",
+     "",
+     ""
+    ],
+    [
+     "去买纪念品？",
+     "",
+     ""
+    ],
+    [
+     "去客栈休息？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "都不是，此时此刻最重要的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是去接委托赚朵拉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "接委托？现在？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "当然了！ 节假日期间的委托费高得离谱，机不可失失不再来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "趁现在赶紧接点委托多赚点朵拉，这样逛街的时候花起来才更有底气！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "赞成！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "同意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说得也有道理，那我们一起去协会之家看看？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "委托我们三个人去就好了。魔<r=BOSS></r>王，你还是先去客栈登记吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "错过了到店时间，特价房就会被取消掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，那我们晚点见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，晚上见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "晚上一起吃大餐咯~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "会尽快回来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然而，空白旅团的三位少女，就这样消失在苍梧城的街道中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一晚上过去，她们还是没回来。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们已经接到委托了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "去帮人送货",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "看我们咻咻地搞定！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们结束了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经很晚了，今晚还能回来吗",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "发生什么事了？你们手机都打不通",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "choice",
+   "kind": "phone",
+   "prompt": "",
+   "options": [
+    [
+     "看到消息的话就回一下吧",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看到消息的话就回一下吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我很担心你们",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "用手机联系不上，发的消息也都没回应。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "协会之家那边的工作人员也说没有见过她们。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们不是在协会之家接的委托吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要不去报案吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "去白泽公署的话，接下来应该往这边走…… 还是那边来着？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哎呀，这不是可爱的小助理吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我循声望去。苍梧的街头一如既往地热闹。 令人耳目一新的街景中，熟悉却又特别的身影映入眼帘。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "科洛妮丝？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "没想到竟然会在这里遇到你，假期的惊喜出现了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "你怎么会在这里？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "还有你这身衣服……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我收到了别人邀请，所以来苍梧度假了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "原来如此……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "怎么，你很在意我这身打扮吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "没，没有……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "眼睛不知道看哪里好了！！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这身衣服是我订做的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "既然来到了苍梧，体验一下龙裔特色的服装，也很有趣不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这样也能更好地融入环境之中，不会过于引人注目。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不不，明显更引人注目了吧， 周围的人都在看着你呢……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "看你很有兴趣的样子，要不要我带你去裁缝店，也给你做一身？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "好意我心领了……但是不必了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "是吗，真可惜。我还挺想看你穿龙裔服饰的样子呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "既然在这里相遇，不如我们结伴而行，由你来带我领略苍梧的美景……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "虽然很想这么说……但我现在还有更重要的事需要处理。 魔王，你知道去白泽公署应该往哪边走吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你也要去白泽公署？那正好，我也在去那里的路上呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "“也”？发生了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我的朋友——空白旅团的成员失踪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "那还真是巧了， 我也联系不上璟麟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "原来如此……情况我已经大致了解了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "魔王与尘沙、琥珀和鸢尾因为委托，来到了苍梧附近，于是顺路进城进行休整和补给。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "在昨天进城后，她们三人决定去临时接个委托，于是你们分开行动。在这之后，魔王便与三人失去了联系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "而这位科洛妮丝小姐与璟麟在菲莱就已经相识，一直在为璟麟的母亲看病。这次是受到璟麟的邀请，来苍梧度假。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "昨天前往璟麟家时，得知了璟麟外出后一直未归的消息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我一直联系不上她们几个。虽然想在城里找线索，但我和科洛妮丝都刚来苍梧没多久，人生地不熟……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "我明白。其实我本该陪你们一起去找人，但我现在手头有重要工作需要处理，实在走不开……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "但我也会把此事告知我的同僚们，让他们也多留意一下，如果有任何线索，我会第一时间告知你们的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这样的话，就交给我吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "赤霞？你怎么来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "还不是被打发过来跑腿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "喏，保养得焕然一新的师渺妙妙剑！师姐们还给它加装了不少新功能，保证让你惊喜连连！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "新功能……谢谢，也替我向你师姐她们说声谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "小事一桩小事一桩~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "话又说回来，你们刚刚聊的事我已经听到啦。 朋友失踪，这可是大事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "既然师渺现在走不开，那就由我玄师赤霞来陪你们找人吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

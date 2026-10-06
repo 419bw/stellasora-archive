@@ -1,0 +1,796 @@
+{
+ "heading": "# 04 古老秘密",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：冬夜镇魂曲与破晓扳机（活动编号 10105）",
+  "- **关卡 ID**：`101050205`",
+  "- **AVG 剧本**：`STev_04_04`",
+  "- **关卡描述**：有些秘密不该被打扰……"
+ ],
+ "recap": "你与风影一起在地下洞窟中发现了记载着传说和仪式的古代壁画。又突然遭遇了失控同伴的袭击，你们决定立刻返回整理线索。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你与风影一起在地下洞窟中发现了记载着传说和仪式的古代壁画。又突然遭遇了失控同伴的袭击，你们决定立刻返回整理线索。",
+  "episode": "第四话",
+  "title": "古老秘密"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "恩赐……补充完毕 这样一来，制热魔法又能持续一天了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢，麻烦你费心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "不用客气，这是我该做的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "魔<r=mowang></r>王，该出发了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "万事小心，如果发现了永夜，请第一时间回来。 我们这次前来是探索星塔，不要勉强自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我们要负责的是银城区东部的位置，然后再是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯？你脸色有点差，是昨晚没睡好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……那是因为……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽说沉默也是一种美德，但是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "任务还要持续好几天，休息是很重要的，果然还是告诉她比较好……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实昨天晚上……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，大概就是这么个事了，所以我才没睡好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "原来如此……抱歉，让你操心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之你没着凉就好，不过……你真的不冷吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我的体质比较特殊……常说北境人耐寒，但我比一般人要更能忍受寒冷……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "但是相对的，我也更怕热……就是在车里坐得太热了，战斗时才会脱掉大衣，昨晚可能也是同样的情况......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "没想到会因此打扰你休息，实在对不住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别放在心上，有你在身边我安心不少。 至少不用对永夜的袭击提心吊胆，今晚肯定能睡个好觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这边侦查得也差不多了，我们去别处看…… 嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你有没有听见……奇怪的风声？不是那种风雪的风声，更像是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "循着声响，我们深入城市地下",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "没想到地下还有这么大的空间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在这里住了很长时间吧，没听说过吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "没有，我知道近郊有不少矿洞，但这里不像是矿洞，更像是天然形成的洞窟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "那个“风声”，似乎就在前面不远处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，风声是从这个狭缝里吹出来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "这个通道太窄了……看不清里面的情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……我，我觉得可以先钻过去先探探路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "千万小心，有什么情况立刻喊我。我马上跟过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，很可靠嘛，不过……她那个样子真的能挤进来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "钻过石缝，我看到了更为巨大的地下空间",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这边的洞窟...... 有很多人工的痕迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？那边的墙上好像画着什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "有永夜偷袭吗！？ 撑住！我这就来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "疼疼疼…… 我没事，只是摔了一跤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么，剑？ 锈迹斑斑的， 看起来是很古老的剑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不要紧吧！刚才怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没事，刚才是踩到了一把剑，滑倒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "没事就好，稍等一下，我这就来看看—— 呃……嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影？你还好吗，出什么事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "没，没事…… 我马上就来……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "别担心，区区一条缝隙，我马上就挤过去……呃！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不好意思魔王，麻烦搭把手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧。 我数三二一， 咱们一起用力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "三~ 二~ 一！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "呼，十分感谢，差点以为要以那种丢人的姿势，在这里卡一辈子呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "对了，你有什么发现吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我在这边发现了一些壁画。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "上面写的是古代文字……我想，这里应该是北境先民们留下的遗迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "北境的古代文字......你会解读吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "勉强能理解，但我们的传统是用口述和行动来传承历史， 所以，我也不能保证解读出的内容的准确性——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“在遥远的过去，战火一路烧至北境的冰原……”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“人们的祈愿唤来了战争之神，祂的矛所指之处必会迎来胜利。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“战争过去，祂将和平交予人手中，回到了星塔中，人们必须学会，依靠自己的双手守护和平……”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个“战争之神”，是“恩赐之神”的另一个名字？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "并不是，从来没听说过“恩赐之神”有别的名字。 我想，这只是北境的独特信仰。这里的人们会敬畏更加原始的，自然的存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "例如，船员们会把海浪纹在自己身上，他们认为这样就能获得大海的力量，出海平安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，这里是北境先民原始崇拜的……祭祀场？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我想是的，不过..... 这幅壁画的内容很诡异啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来像是在举行某种……仪式？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "“神自星塔降临…… 参与者…… 决斗…… 回应……”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不行，这些刻痕风化得太严重了，更具体的内容辨别不出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "这里似乎记载了某种召唤神的仪式，启动这个仪式必须让参与者用武器决斗， 这些古代武器大概就是古老的仪式留下的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "等等，不太对啊。仔细看看，这些武器上都沾了血，几天，或者几周前留下的血……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说，这不是古老的仪式留下的武器，而是近期有人拿着这些古代武器，在这里举行了某种仪式，而且……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "仪式看起来成功了，或者至少成功了一部分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "永夜在这里举行了邪恶的仪式吗？得快点通知大家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎？ 长剑小姐，你怎么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "哈……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "躲开！魔王！ 她有点不对劲！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "啊啊——异乡人………… 觉悟吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "招式和动作如此怪异， 不像是正常人类，更像是被人操控了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "施法者藏在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影，小心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "唯有——征服——！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "太慢了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她怎么样了！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "别担心，只是暂时昏过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "奇怪，她拿着的不是自己的剑，是古代武器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我打掉她的剑后，那种笼罩在她身上的操控感就消失了。 那把武器很可疑，先不要碰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "总之先带她回去吧，这里很不安全。 我去确认一下出去的路，你在这里守好她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，你多加小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她的剑被打掉后，她就晕倒了， 这其中有什么联系吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "身上没有受伤，和她搭档的法师也不在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道，她们被永夜袭击了......她中了永夜的魔法才变成这样的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "壁画，仪式、武器，还有永夜…… 总感觉。这些事情之间有什么联系……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "魔王！不好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影，怎么了？发现永夜了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "呃呜……不是…… 我又卡在那个缝隙中了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "帮个忙好吗？有点，呃呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……… ………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "喂，不要不说话啊，魔王？魔王你听得到吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

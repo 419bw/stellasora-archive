@@ -1,0 +1,929 @@
+{
+ "heading": "# 07 变数",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《谜影的序曲》（星塔历 996 年）",
+  "- **关卡 ID**：`6509`　**编号**：`07`",
+  "- **关卡名称**：变数",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06x5_07`",
+  "- **关卡描述**：改变的不只是身份。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "沙蝎团长哈萨娜现身，揭露了乙叶的过去——她是谷风家政的叛徒，很可能再次背叛你。在酒店楼顶的天台上，乙叶与哈萨娜展开了决战。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "沙蝎团长哈萨娜现身，揭露了乙叶的过去——她是谷风家政的叛徒，很可能再次背叛你。在酒店楼顶的天台上，乙叶与哈萨娜展开了决战。",
+  "episode": "第七话",
+  "title": "变数"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "18:50",
+   "date": "猎月 5日",
+   "place": "菲莱银城区 酒店走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵…… 大名鼎鼎的“沙蝎”佣兵团，就只有这点本事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "千里迢迢从沙漠之城赶来，结果却要空手而归，真是难为你们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎女佣兵",
+   "text": "副团长，现在怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "弥尔沙",
+   "text": "团长马上就来，我们在这里负责拖住你们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "团长？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "沙蝎的团长—— 哈萨娜。虽然不及我，但也是个难缠的女人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "既然如此…… 晚宴马上就要开始了，我们不能继续在这里浪费时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "魔<r=BOSS></r>王，我来掩护你，快走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？有信息？ 但这个情况，根本来不及看啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "还想跑？做梦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "魔<r=BOSS></r>王，小心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:50",
+   "date": "猎月 5日",
+   "place": "菲莱银城区 酒店大堂"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "怎么办……怎么办…… 晚宴马上就要开始了，我还是联系不上魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "而且连魔<r=BOSS></r>王身边的乙叶小姐也联系不上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不太对劲。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯？什么不对劲了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王可能真的出事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那我们得赶紧去找才行——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喂，你们几个。应该是魔王协议的人…… 没错吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "咿、咿呀！ 我们确实是魔王协议的员工，你是哪位！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "联合种业监察官，松鸦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "看你们从刚才起状态就不太对，出什么事了吗？难道说…… 魔王协议的首席执行官失踪了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "可疑，你是犯人……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "别激动啊，跟我可没关系。我只是根据现状合理推测罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "翡冷翠不在，能主持晚宴的就只有魔<r=BOSS></r>王了。都到这个点了，你还迟迟不肯露面，自然会让人觉得是出什么事了嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "所以…… 你到底想说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "别这么凶嘛。我可不是你们的敌人。 毕竟这场晚宴，是打着我们联合种业的名号举办的。 要是搞砸了，也会影响到总部的颜面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "所以，我才来给你们一个忠告。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "无论发生什么，都请确保晚宴按计划举行。 否则，迄今为止的所有努力都将化为泡影。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "绝对不能让来宾们察觉到任何异样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "比如你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "你刚刚直接质问我是不是犯人，这么单纯是不行的哦。 毕竟，像我这样拐弯抹角打探情报的人，可不全是好人哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "还有你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我、我吗！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "慌张成那个样子，明眼人都看得出来出事了。 在这种场合，脸皮越厚越好。哪怕装，也要装出冷静、从容。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "受、受教了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "总之，只要把魔<r=BOSS></r>王不在的事情隐瞒到底就行了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "没错，不要让别人察觉到异常，用什么手段都无所谓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我明白了，谢谢你，松鸦监察官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "我这边也会尽力提供掩护的，我很期待你们的表现哦。 那么，拜拜啦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "琥珀，尘沙，晚宴开始后，就由我们来接待来宾吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可以给他们营造一种错觉—— 要让魔<r=BOSS></r>王亲自出马，你们这些小虾米还不够格，魔王协议的首席执行官可是更有分量的大人物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不过，我们也需要听起来像模像样的头衔呢…… 要不然会被轻视的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "琥珀，你来当魔王协议的首席运营官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，你是魔王协议的首席技术官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "收到！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那我就是…… 首席财务官。就这么定了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王的致辞时间是晚上八点半。在此之前，我们绝不能让客人们起疑。 无论如何，绝对要做到！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "广播声",
+   "text": "尊敬的各位来宾，晚宴即将开始，请各位按照姓名牌有序落座……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥菲尔",
+   "text": "终于要开始了。保险起见，最后再检查一遍留影器的状态吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥菲尔",
+   "text": "咦？刚才，好像稍微晃动了一下…… 是我眼花了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呼…… 总算是赶上了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "得、得救了…… 谢谢你，乙叶。我就知道你是个出色的保镖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "过奖了，这点小场面算不了什么。将您平安送达晚宴会场，我才算是完成了委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "喂，乙叶。你这是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "正如您所见。还是说，您的脑子理解不了眼前的状况呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈，你真是一点没变，还是只处处招人烦的狐狸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我就当你是在夸我了，谢谢啦…… 你应该已经向雇主报告过了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "知道你背叛我们之后，那个公子哥气得都要发疯了，简直笑死人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "所以呢，我的委托内容也更新了。新的委托是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "把你们全部除掉！一个不留！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "原来如此。呵呵，我倒是无所谓。 既然你觉得能办到，那就请试试看吧♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈！那我就不客气了。 给我上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "沙蝎佣兵",
+   "text": "遵命！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "唉…… 真是被看扁了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "哈萨娜，你不出手的话，这些杂鱼根本不配做我的对手——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么回事？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "弥尔沙",
+   "text": "嘿嘿，团长早就料到你会走这条路！可不能让你跑到下面去呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "楼梯被堵死了吗…… 这下可有点麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈，这样一来就不会有人来打扰了。来吧，让我们好好享受这场死斗吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "魔<r=BOSS></r>王，接下来可能会有些乱来，请相信我，跟在我的身后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "乱来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "既然下面走不通，那就往上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "乙叶拉起我的手，用尽全力奔跑起来。明明身处险境，乙叶的嘴角却浮现出了一抹微笑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "19:00",
+   "date": "猎月 5日",
+   "place": "菲莱银城区 酒店天台"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼啊……呼啊…… 已经……跑、不动了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "到了这里应该就安全了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是吗？沙蝎她们不会追上来了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？好像真的没有追上来？这是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "哎呀，我也不好说呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么情况？！难道是哈萨娜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，看来她们踩到“那个”了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "在执行任务时做好万全的准备，可是最基本的常识哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刚才那声爆炸，是你设下的陷阱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "您猜得很对。 我可是专业人士，早就布好局了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来你刚才笑眯眯的…… 是因为这个啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "笑眯眯的…… 哎呀，竟然喜形于色了，看来我还是不够沉得住气呢。真是失礼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "不过，她们那么轻易就中了我的陷阱，害我忍不住笑出来也不能全怪我呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈！有趣，真有趣。 魔<r=BOSS></r>王，你这个派对搞得很热闹嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈萨娜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "果然没那么容易解决掉吗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "喂，魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？干什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "那家伙可是背叛了生她养她的组织，倒戈向曾经的宿敌。 现在又再次重演背叛的戏码，站在了你的身边。 你懂我的意思吧？总有一天，你也肯定会遭到背叛的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "而且，这个叛徒屡次倒戈，树敌众多。把这种女人留在身边，可不会有什么好下场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "只要你把她交出来，我们可以放你一马。意下如何啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯。感谢你的提议，不过…… 我决定相信乙叶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "……………………………… 哈？相信？你、你…… 脑子没毛病吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，头脑简单的蝎子没办法理解吧…… 魔<r=BOSS></r>王就是这样的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "正因如此，我如今才会对这位大人深深着迷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "如果听明白了，就请速速退场吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "哈哈。少说梦话了…… 要是让你这只狐狸溜了，我们就有大麻烦了，还是请你乖乖死在这里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵…… 这句话，我原封不动地还给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "要毁掉这么漂亮的场地，固然有些于心不忍，但要对付沙蝎的哈萨娜，可容不得分心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我就拿出真本事，陪您玩玩吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

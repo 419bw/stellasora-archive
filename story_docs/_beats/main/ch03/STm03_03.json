@@ -1,0 +1,839 @@
+{
+ "heading": "# 03 花令旅团",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第三章《我们的旅团》（星塔历 996 年）",
+  "- **关卡 ID**：`308`　**编号**：`03`",
+  "- **关卡名称**：花令旅团",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm03_03`",
+  "- **关卡描述**：动起脑筋，玩场游戏。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "夜晚，花令旅团成员齐聚。\n瑟拉娜与你玩了个游戏，让你找到真正的她。\n你识破了她的把戏，谈起了情报交易。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "夜晚，花令旅团成员齐聚。\n瑟拉娜与你玩了个游戏，让你找到真正的她。\n你识破了她的把戏，谈起了情报交易。",
+  "episode": "第三话",
+  "title": "花令旅团"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "19:00",
+   "date": "雨月 16日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的少女",
+   "text": "不，不是我，别，别看我了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的少女",
+   "text": "嘻嘻，没准是我呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "唉，瑟拉娜就喜欢玩这种“游戏”…… 嘿嘿，不过我也半斤八两啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "瑟拉娜就在这些人当中…… 那个绿头发女孩虽然自称“小禾”，但也有可能在说谎……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔......面前的这三个人，到底谁是瑟拉娜呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "事情，还要从五分钟前说起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:55",
+   "date": "雨月 16日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的少女",
+   "text": "我，我回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的少女",
+   "text": "小禾，我从星塔里许愿出了新娃娃...... 咦，我们有客人吗？真稀奇啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "两位好，我们是空白旅团的旅人......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆怯的少女",
+   "text": "噫——陌、陌陌、陌生人……？！ 对不起我走错门啦～～～！！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "别紧张，这里是我们的协会之家啦…… 简单来说，她们是来找瑟拉娜的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "我给你们介绍一下...... 个子高的这位是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的少女",
+   "text": "等等，小禾，先不要介绍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "怎么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的少女",
+   "text": "如果我没猜错的话，您是魔<r=BOSS></r>王协议人力派遣公司的魔<r=BOSS></r>王吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是，我建立公司的事情已经传到菲莱了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的少女",
+   "text": "有没有传到菲莱我不知道……我只是受人之托，这有一封给您的信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "信？也就是说寄信人是知道我会来这里的人……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "魔王，您好。 我就在您的眼前，您有一次机会把我找出来。 猜对了，您就可以随便向我提问了。 ——瑟拉娜 雨月10日。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "六天前的信……有意思。 虽然疑点很多，但只要找出瑟拉娜就行了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "19:02",
+   "date": "雨月 16日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "魔王，给个答案吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "啊。我话先说在前面，她其实不在乎输赢，就算你们输了，她也会出来的。 所以放轻松回答就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我倒也不觉得也毫无意义…… 多半是在考察我的能力吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，过来一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我觉得那个粉色头发的大姐姐很可疑，她看似是给瑟拉娜送信，没准那封信就是她自己写的，用这种方式消除嫌疑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "瑟拉娜这个名字只是个代号吧，那么就算是和琥珀玩娃娃机的小禾都有嫌疑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这确实不能否认……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "所以，我猜是那个畏畏缩缩的白头发女孩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "为什么？那样性格的人没办法当情报商人吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不不不，说不定这只是她平时隐藏实力的方法呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我不知道她为什么要隐瞒实力，但是可能性不是零吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀你觉得呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，我觉得是小禾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "瑟拉娜喜欢游戏，小禾也喜欢游戏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们说的都有道理，但我觉得她们三个都不是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "为什么？那封信里写着——“我就在您的眼前”吧。 屋子里除了我们就只有她们三个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊，我知道了，魔王你想说我们之中有人被瑟拉娜偷偷换掉了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她应该没有混进来，按她这种玩“游戏”的性子，我觉得她不会耍这种小聪明，靠作弊取胜也没意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以我的推理是——还记得贝修莉娜说的话么......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "瑟拉娜不会作弊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "我只能提示这么多啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果相信那句话——瑟拉娜肯定就在这个房间的某个地方，而且绝对不会作弊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然不会作弊，那她肯定给出了某种“提示”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "信中写得是“我就在您的眼前”…… 就是“并未限定在这三人之中”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么我的答案就是——“瑟拉娜不在眼前三人之列，而是藏在了这间屋子，并且就是我读信时的视野范围，那么，可疑的地方是——”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "话音刚落，墙上挂着的一件旧斗篷突然充盈了起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "揉眼再看，一位少女静静地站在墙边，就好像她从一开始就在那里一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "穿着斗篷的少女",
+   "text": "不愧是魔<r=BOSS></r>王，这么快就看破了我的游戏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "初次见面，在下瑟拉娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "世上的所有问题，在我这里都有答案。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "20:00",
+   "date": "雨月 16日",
+   "place": "菲莱城外 旧协会之家"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "瑟拉娜现身后，清冷的旧协会之家迎来了一场简朴美味的晚宴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "好啦，大家都聚齐了，我来重新介绍一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这位总是戴着兜帽，不肯让人看见她脸的怪女人，就是你们想见的瑟拉娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "虽然看着有点可疑，不过反正她一直都是这样，别太在意啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "保护自身安全是理所当然的呀，毕竟干情报商人这一行很容易招人记恨呢♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "那个……我说得难道还不够婉转吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "所以我本来想轻轻带过的嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "至于我所属的花令旅团——这位个子高的是枫姐。 无论是处理委托还是后勤支援，她都特别擅长。花令旅团全靠她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "你们好，我是枫。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "啊，感觉很亲切……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "刚才的那封信，是上周瑟拉娜拜托我的，说协会之家来了新人就是魔<r=BOSS></r>王，就把信给对方，不是有心要戏弄各位的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "瑟拉娜.......提前六天就知道我们要来这里么？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是，我们开车过来应该已经是最快的旅行方式了吧，她到底是通过什么渠道知道的......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "这位白头发的是冬香，是上个月加入我们的新人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "冬香？冬香你去哪儿了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "沙发后面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "小冬香不是不讲礼貌的孩子，只是不太擅长和人交谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "简单说冬香极度怕生，估计是一下子看到太多陌生人了，精神能量消耗太大了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "需要躲在角落里抖一会，补充好后就会出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "轮到我们了，我们是空白旅团，也是魔王协议人力派遣公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "击溃了白垩商会、制止了星塔灾变、消灭了巨大星骸、保护了水道桥和城市的安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "击溃了白垩商会......击溃了一家公司吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "都是魔王的功劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对对！魔<r=BOSS></r>王超厉害的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "但是瑟拉娜啊，这个消息你是从哪听来的？要是绯瞳传讯的魔女把我们写进报道了，小禾她们应该也知道才对啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "不不，她们的跨城报道还得再等一周，我作为情报商人，自然要跑得比魔女快才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，不愧是情报商。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就马上履行约定吧，孤儿院的下落.......你知道吧，要怎么样才能告诉我们？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎，魔王，她不是说只要能找到她，就可以随便提问吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，可是那封信里也没写——都会回答。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说“游戏”还没结束——对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "哎呀呀，不愧是魔<r=BOSS></r>王……我有点喜欢上你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "其实，我本来可以不见你们的。所以，随便问我问题已经是一个很大的优惠了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说白了就是等价交换，只要支付你想要的代价就行了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "和聪明人交流就是省力，那我就直说了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "关于您的提问，以及背后的隐情，我确实全都掌握，即便是目前还没获取的情报，调查起来也不难。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "条件是，你们要帮我做一件事——击败三大委托剩下来的两个中的一个，重振花令旅团的荣光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "枫",
+   "text": "咦？瑟拉娜？这是什么意思——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "喂，瑟拉娜，别多管闲事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "各位可能不知道……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "其实花令旅团过去也是很厉害的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "叫你别说了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "你们在营地里遇到的，带队击败翠煌之刃的英雄旅人——夏花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "原来就是这个旅团的成员哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小禾",
+   "text": "可恶！不要提那个叛徒！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

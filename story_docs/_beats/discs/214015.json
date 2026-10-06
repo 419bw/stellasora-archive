@@ -1,0 +1,895 @@
+{
+ "heading": "# 鹿鸣",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214015`",
+  "- **关联角色**：夏花",
+  "- **AVG 剧本**：`CG_disc4015`"
+ ],
+ "recap": "一次偶遇、 一次惊喜；\n这栋属于你们俩的林中小屋，\n被呦呦鹿鸣环绕。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "一次偶遇、 一次惊喜；\n这栋属于你们俩的林中小屋，\n被呦呦鹿鸣环绕。",
+  "episode": "记忆回想",
+  "title": "鹿鸣"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "那是很久以前的事情了——\n身为旅人的夏花，在某个静谧午后的奇妙邂逅。\n\n为了探查附近魔物行踪的情报，独自一人在森林中跋涉的她，选择了一块平坦开阔的地面扎营，休憩，生火，做饭，吃好后又搬出一张椅子，拿出笔记本，记录附近环境的情报，与一天下来的行程与生活。\n\n灿烂阳光透过茂盛的枝叶，片片碎金洒落在河边的草甸上，草长莺飞，粉蝶舞绕，美得像是童话中的梦境。\n夏花双手抱着膝盖，坐在椅子上，看着手中的笔记本，渐渐的，倦意翻涌上来。\n就在这时，她听见了呦呦鹿鸣。\n她看到那温顺的动物一只只靠拢过来，蹭了蹭她的手臂。\n\n“你累了吧？”\n“……嗯，有一点点。”\n“一个人跋涉至此，辛苦你了。”\n“还好。”\n“这种生活要持续到什么时候呢？这不是你的责任，不是吗？”\n“……”\n“没有人知道你的付出，就算你将这些辛苦得来的信息总结成书，送给其他旅人，也不会有人记得你的好。你不觉得——”\n“停下吧，我只想休息一下。”\n\n“听说过那个故事吗？”\n“有一天，一个小女孩坐在湖畔，看到一只古怪的白兔走过──它穿戴打扮，手持怀表，自言自语，行色匆匆。好奇的小女孩跟着它跑，跳进兔子洞里去，结果来到了一个神奇的异世界……”\n“啊，我听说过。我还知道续集呢，小女孩从异世界出来后，某一天在房间里休息，穿过镜子，来到了一个与现实世界完全相反的镜中世界。”\n“不过，现在为什么突然说起这个？”\n“因为……我在怀疑，自己是不是也像那个小女孩一样，正在做梦。”\n\n夏花看着对面的鹿先生与鹿小姐，正在与自己对话。\n要是这是星塔中，可能还好理解。但她这会儿正在野外调查，为什么……\n\n“啪。”\n伴随着书本从手中滑落的声音，她睁开眼睛。\n果然是梦。\n“做了一个自怨自艾、有点丢人的梦啊。”\n不知何时起，少女被林中的鹿包围了。\n它们不会说话，只是安静而好奇地看着她，\n那圆溜溜、湿漉漉的漆黑眼睛，正映照出她的脸。\n夏花笑了起来，伸手摸了摸它们的鼻子。\n风吹起了头发、吹散心中沉郁，夹在艰苦的探索旅途之中，一场难得的小憩。\n\n“我要开始工作了。”她捡起笔记本，收起椅子和帐篷。“谢谢你们。”\n走过潺潺溪流时，她用冷水泼了面。\n孤身一人，清醒着，再度踏上旅行。"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在菲莱接取了药草采集的委托之后，我独自一人来到森林。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有点不对劲。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里过于安静了，而且树上的这些痕迹……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不会是魔物留下的吧？我听说这里很安全才一个人来的。真要是遇到，只能逃了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过委托里没提到注意事项……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，说不定树皮是自然脱落的，不要自己吓自己了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之速战速决，快点回去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "喂！那边的人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对方的声音好像很激动。我好像没做什么会挨骂的事情吧…… 难道来错地方了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "你是旅人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，我受地理协会的委托来这里的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "原来是这样！你来得正好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "他好像没生气。但我只是来采药的，他的反应是不是有点夸张？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "请问，您有事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "哎呀，总算能放心了。这座山一直都很安宁， 可最近不知道从哪儿冒出了凶残的魔物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃…… 魔物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "我一个人拿它没办法，所以昨天找地理协会发布了讨伐委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "没想到今天就派人过来了，真是帮大忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原、原来如此……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "似乎是误会。但是看他这么高兴，我也不好意思说破。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果尘沙、鸢尾、琥珀她们在就好了，我一个人真没辙……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "总之，一切交给你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就走了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没办法，也不好放着不管。先去现场勘探情况，之后就借助大家的力量吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是从那边的小屋传来的…… 难道是魔物？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我放轻脚步，朝小屋中窥去——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花？你怎么在这？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你才是，怎么会到这里来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就是这么回事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我明白了，所以你才会被当成讨伐魔物的旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "正好，我在巡逻时感受到森林里的异变，到这里调查后，发现附近有不像是普通野兽的足迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "假设导致异变的原因就是那只魔物，我们可以合作。如何？ 你一个人也没法对付吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "求之不得。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呵呵，就这么定了，我们走……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔物",
+   "text": "咕嗷嗷嗷！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "突然出现？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这家伙…… 一定是嗅到附近有陌生人的气味了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是不巧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "待在我身后，交给我来处理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我用什么才能留住你？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "新摘的树叶、停滞的弩箭、凌厉的碎石……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我给你狂暴的翠绿精灵所赐的安眠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔物",
+   "text": "咕啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "仅凭一击就打倒了……夏花她果然很强。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "结束了。从踪迹来看应该就这一只，这下森林的异变也能平息了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "干得漂亮。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "小事一桩。 好了，我们去和老爷爷汇报一下，让他安心吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "什么！？你们已经解决那只魔物了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是的。它的气息已经从这座山上消失，您可以放心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "没想到你们效率这么高…… 这我可得好好答谢你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不必了，您不是已经准备了报酬了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "那些可不够。 对了，山上的那间小屋你们拿去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "虽然很久没人住过，但是打扫干净后还是可以用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "您的好意我们心领了，可我们只是做了旅人该做的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "哎，别客气。考虑到之后可能还会有魔物出现，我之后也不会用那间小屋，浪费了多可惜，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "守林人",
+   "text": "你们的话，就算遇到魔物也不怕，所以尽管拿去用！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "都说到这份上了…… 好吧，谢谢您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "承蒙您的好意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "仔细一看，屋子上全是破损啊。你那边有什么能用的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "嗯…… 我觉得稍微收拾一下，应该能作为巡逻的据点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "作为讨伐魔物的回礼，就由我来负责房屋的清洁工作吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你也要回礼？ 呵呵，看来这份委托的报酬真的很丰厚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "稍等，我去附近那边打点水来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "好，那我先从家具开始整理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "哈…… 搬完家具有些困呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？这是…… 睡着了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，没想到河还挺远的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "正当我犹豫的时候，林中轻风吹来，女孩睁开了眼睛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "唔……魔<r=BOSS></r>王？你回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "抱歉，晒家具的时候睡着了，阳光和微风太舒服，不小心就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "这地方的确很适合小憩片刻",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "不过，什么时候围上来这么多鹿？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不清楚，我才注意到呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "也许是因为森林恢复平静了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "它们在道谢呢",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呵呵，可能吧。话说回来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "嗯？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你刚才…… 是不是看了我很久？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "呃，你不是睡着了吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "风会帮我倾听周围的声音。明明直接叫醒我就行……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "我只是觉得你和魔物战斗肯定累了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "想让你多休息一会儿",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "没事，刚才那种程度的战斗不算什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "既然你打水回来了，我们继续收拾吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你要哪个房间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你不需要吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你来决定就好，毕竟你才是打败魔物的那个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "老爷爷把这间小屋给了我们两个人，一起用是理所当然的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也没帮上什么忙。 而且，也不知道下次再来这片森林是什么时候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "其实很快就可以。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我的意思是，你有来这里的理由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道是说再次接到采药委托？但也不一定会来这里吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就是接到讨伐魔物委托的时候？但有夏花在附近巡逻，应该不会有这种委托了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，我不明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "很简单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我想见你，你想见我…… 作为理由，这便足矣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "的确。 那么，干脆现在就来约定下一次见面的时间吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "夏花的嘴角微微上扬，轻轻点头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

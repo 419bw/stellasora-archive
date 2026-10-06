@@ -1,0 +1,756 @@
+{
+ "heading": "# 04 路遇偷信大盗",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：敬启，致珍重的你（活动编号 10106）",
+  "- **关卡 ID**：`101060206`",
+  "- **AVG 剧本**：`STev_05_04`",
+  "- **关卡描述**：“寻宝业界，可是讲究一个先到先得的哦！”"
+ ],
+ "recap": "循着特丽莎的情报你们追查起信件的去向，却在街上偶遇打过照面的寻宝团一行正在收集破旧信件，苍兰见状，不由分说就亮出了武器……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "循着特丽莎的情报你们追查起信件的去向，却在街上偶遇打过照面的寻宝团一行正在收集破旧信件，苍兰见状，不由分说就亮出了武器……",
+  "episode": "第四话",
+  "title": "路遇偷信大盗"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "霍华德",
+   "text": "事到如今，这信不读也罢吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "他一边盯着手中的信，一边思索着。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那些旅人少女们递来手中的，是一封跨越数十年时光的破旧信件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这一定是那个我想抛诸脑后的人寄来的吧……这种事想想就能猜到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "要是读了，大概心里又会纠结万分——想丢掉又不舍得丢，真是麻烦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霍华德",
+   "text": "干脆来给谁把它拿走吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就好像，这愿望被听见了一样——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "信，不见了……?！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "特丽莎，再详细说说情况？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "嗯.……我照着你说的，站在外面，偷偷观察了一会儿霍华德先生那的情况……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "霍华德先生进屋了…… 拿着信就说明，多娜已经顺利把信送到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "可是，还没有读，就这样搁在窗边了……希望别把它丢掉啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "唔啊~ 不行不行。工作还没结束呢，打瞌睡可不行……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "唔……可是最近委托太多，总是忙到好晚才睡…… 不行……不能睡觉……不行……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "咻——咻——————",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "哈——!怎么？！发生什么了？！刚才那声音是什么——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我该不会是睡着了吧！？ 对，对……信……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "诶诶————？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "紧闭的窗户上留下了一个大洞，原本搁在窗边的信就这样不见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "到底发生什么事了！？霍华德先生没事吧…… 嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人",
+   "text": "等等——老大！你跑太快了——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "别拖拖拉拉的了！在信被抢走之前，得赶紧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "信……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我就这样看着那群人朝着港口跑了，总觉得很可疑……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "但是因为又有些担心霍华德先生……所以回头又确认了下情况，就跟丢了…… 不过，还好他那边看上去没受伤的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "这样啊……没事就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "特丽莎……那伙人里，你有看到一个带着头巾背了个大行囊的女孩吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "有！确实有！ 她背着一个和自己身体差不多大的行囊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "果然……！ 她们大概就是那天……同样在寻找“那封信”的团伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喂，那边那个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "诶，叫我吗？有什么事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你有没有在这附近看到一封很旧的信？里面装着个硬邦邦的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "那时候她们可是说自己也是义务送信的旅人呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "结果实际上……却是抢夺信件的坏人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "对不起！要是我好好盯着的话，就不会发生这种事了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "没关系~冷静冷静，这种时候先想想接下来要做什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "首先得查明这些“信件小偷”们在哪儿躲着！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诶？难道你打算从那些人手里夺回信件吗！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听上去，对方似乎可是用了破窗而入的强硬手段喔……直接强取，会不会太危险了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "万送屋的使命就是要把每封信，都好好地送递到收信人手中！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "就算没法见面，但只要还能写信，就能与重要的人保持联系……所有选择寄信的人，都是怀抱着这份思念才写下了这封信的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "以信使之名起誓，决不允许让如此重要的信件被夺走。我一定会再一次将它送达的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "而且！要是“信件在贝林港被偷了！”这种事传出去了，对万送屋的商誉可是大有影响……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "特别是最近的配送委托……几乎都是我们在承接。要是被无端怀疑了业务水平可就困扰了！ 作为万送屋的代表，我必须得解决这件事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "我没意见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我也是。 偷别人的信件这种行为，不可饶恕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "话虽如此，这毕竟是额外的工作量呢…… 这样吧，“信件小偷”就由万送屋负责寻找—— 空白旅团的各位……在此期间，就请你们多帮忙分拣一下积压的信件吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你也太见外了，如果是找人的话，人手还是多一点比较好吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这次的委托是“协助万送屋的业务”嘛。既然各位都觉得，帮收件人找回遗失的信也是职责，那么我们理应也出一份力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "不过，说不定会变得很麻烦喔……总觉得不能把空白旅团的大家牵扯进来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "琥珀，更擅长教训坏人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然大家都没意见，就一起来帮忙吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "大家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "既然都说到这份上了那我就恭敬不如从命啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好，决定啦，一起出发去“抓小偷”咯——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从多娜和特丽莎那里听到的犯人的特征是“背着和自己身体一样大行囊的女孩”吗?",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？以前总觉得好像也见过这样的女孩子……是在哪里来着？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对、对不起！没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "喂，你是没看路吗？！我的行李差点都被你撞掉了——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "呵呵，多谢诸位开路。吾等不请自来，还望各位见谅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "多、多嘴！ 诸位听我说，我手里还有一张古老的藏宝图，我们这就出发吧！这次一定能满载而归！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是——！在上次的六角鲸的岛上见过的……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "啊啊啊啊啊啊！这张脸！！烧成灰我都不会忘记的——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "魔<r=BOSS></r>王，您怎么了…… 啊，就是她——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "犯人果然是你们吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "犯人到底是什么意思啊！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "咦？魔<r=BOSS></r>王大人，您认识这个人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，之前发生过一些事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们为什么要偷信？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "嗯，嗯，信？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "那边的那位，我们不是见过嘛！我们是在…… 义务送信！对，义务帮忙送信！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "况且我可是很有追求的！我是为了寻觅宝藏而环游大陆的旅人！ 和那些小贼可不一样哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人",
+   "text": "哇——！！！老大好帅——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "你的行囊都快装满了——既然接下了那么多委托，作为同行的我们，却从来没听说过你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的寻宝旅人",
+   "text": "老大！这封是我刚捡到的……！你的包还塞得下吗——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "你蠢呀！那样的话……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "“捡”到的信……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "也就是说，行囊里的东西不是委托你们送的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "哼，既然被发现……这下没办法了呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "是的，没错！我包里的信，是我们寻找宝藏的线索！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "传说中的藏宝图，据说是藏在一个陈旧信封里的！这可是我们四处搜寻、找红了眼的努力结晶啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "说我们偷了信？哼，别胡扯了。在我们寻宝业界，可是讲究一个先到先得的哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "我们捡到的信件就是属于我们的！我谁都不会给的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不，信始终应该归收件人所有。无论出于何种理由，都不允许旁人夺走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "你们偷走的，并非仅仅是一张纸片。而是寄件人的心意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "寄件人的心意？这一看就陈旧的封皮——不就是已经没人在意才会被随处乱丢？——既然没人看，谁想捡都没问题吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "寻宝旅人头目",
+   "text": "话说回来，你怎么还学我说话的腔调！我还想说你偷走了我的品牌形象呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "无需多言。剩下的道理……就用我的这把“理性”来沟通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "就用这场“决斗”——将彼此身上的罪孽，就地做个了断吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

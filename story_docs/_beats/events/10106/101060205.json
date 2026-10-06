@@ -1,0 +1,700 @@
+{
+ "heading": "# 03 未敞开的心扉",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：敬启，致珍重的你（活动编号 10106）",
+  "- **关卡 ID**：`101060205`",
+  "- **AVG 剧本**：`STev_05_03`",
+  "- **关卡描述**：事到如今，终于送来了……吗？"
+ ],
+ "recap": "你们来到了收件人霍华德的家宅，他虽收下了信却欲言又止。事件看似告一段落，但暗中观察的特丽莎却汇报说，霍华德的信丢失了……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们来到了收件人霍华德的家宅，他虽收下了信却欲言又止。事件看似告一段落，但暗中观察的特丽莎却汇报说，霍华德的信丢失了……",
+  "episode": "第三话",
+  "title": "未敞开的心扉"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这里就是霍华德先生的家？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好大的房子啊！一看就很有“对了”的感觉呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这栋屋子看上去很久以前就建在这里了…… 是么，苍兰？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "是的。住址好像一直都没变化。听多娜说，这里住着的是代代相传的工匠世家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我查到的地址，和特丽莎画在地图上的地点能对上，应该就是这里没错了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜……有什么心事吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "对了，特丽莎。之前说的那件事就拜托你咯？虽然这只是我的直觉，不过以防万一嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "明白喵！这种时候，多娜的直觉一般都很准呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "那我走啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？你拜托特丽莎去做什么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "嘿嘿~这可是商业秘密哦☆ 准备好进入营业模式， 呼……深呼吸——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "是谁啊？家门口这么闹腾的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "诶，什么情况……聚过来这么多人？ 我不是艺人哦，找错地方了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "冒昧拜访，真是不好意思！我们是“万送屋”！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "今天我是来递送信件的…… 请问，霍华德先生在家吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这里没有住着什么霍华德。 地址可能搞错了？请回吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "虽然您这样说……但地址应该没错的。 这里确实是霍华德先生的住所，我已经特意去档案馆里确认过此事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "总之，你们肯定是哪里搞错了！请回吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……？怎么关不上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "请稍等一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "用脚挡住了门吗……感觉气氛有些紧张啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "虽然这封信的详情我并不了解…… 但我确定，它是经过了漫长的岁月、跨越了那么长的距离，才终于送达这里的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "这一路上可能有许多意外……被盗、丢失、乃至放弃委托导致最后“无法送达”的情况时有发生，但是，还好有四处游历的旅人们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "尽管在荒野游历本就要冒生命危险，但许多信件也正是靠那些旅人们的热心才得以送达的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我们万送屋，也同样怀着这份信念与自豪，在努力地完成“信使旅人”的职责—— 这封信也同样如此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "它饱含着寄件人的心意，是非常重要的东西。如果霍华德先生不在，我们就明天再来拜访吧—— 多有叨扰，感谢您理解！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "啊……知道了。知道啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霍华德",
+   "text": "抱歉。我确实就是这儿的主人，贾斯汀·霍华德。也就我住这儿了，没其他房客。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "那，霍华德先生，这是给您的信，请您现在签收吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霍华德",
+   "text": "……欸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霍华德",
+   "text": "事到如今，终于送来了吗。 唉。罢了罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "递送完成了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可是总觉得，和想象中好像不太一样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶？鸢尾原来觉得应该是怎样……的剧情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这封信如此破旧，想必是度过了很长时间吧？要是我等待了那么就终于收到了期待的信…… 大概会很开心才对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那个人，好像不太高兴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "因人而异啦，每个收件人可能都有不同的心情。 工作结束了，我们一起回万送屋吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "特丽莎呢？她好像还没回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "特丽莎的工作还没做完——所以我们先回去准备午餐吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "欸？所以委托这就算解决了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯……信也确实送达了…… 从这个意义来说，我想，应该确实算完成委托了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "完成了……可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感觉大家心里都有些疑问呢。不过，那位霍华德先生的态度确实有些奇怪。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "霍华德",
+   "text": "事到如今，终于送来了吗。 唉。罢了罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这封信连寄出人都模糊不清，但霍华德没有惊讶也没有困惑，他大概一看就知道这是谁写的了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "收到了意料之中的信，却露出了为难的神色……究竟是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，多娜到底拜托特丽莎去做什么了呢， 现在还没回来。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "喂~魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇！？哇，吓了一跳……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "魔<r=BOSS></r>王怎么在发呆呀~你没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "刚在问你午餐想吃什么呢，结果完全没理我~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对、对不起……稍微在想一些事情，没注意到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "还在在意那封信的事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "没关系的。特丽莎在看着呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "特丽莎她……难道说那时多娜拜托的是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "没错~我已经安排她远远地盯着霍华德先生的家了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶~为什么要做到这个地步？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "万送屋的使命是将信件准确无误地送递…… 这同时也意味着，要负责任地传达寄件人的心意和想法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "那户人家，以前应该发生过什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "装备店的老板",
+   "text": "霍华德家可是出了名的装备匠人世家。我们店也长期从他们那儿拿货。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "请问您知道他现在在哪吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "装备店的老板",
+   "text": "现在就完全没再听说过了。传闻说他们家的继承人为了去当旅人，离家出走了，后来好像就由他的儿子继承了家业？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "既然“霍华德”以匠人家族闻名……那这栋房子的地址就不该是什么秘密吧？只是送封信而已，就不应该这么困难。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "可是偏偏，那封信就是这样硬是在外飘落了这么久时间…… 我想，事情一定比我想的要更复杂一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "为了避免最坏情况发生，于是我就拜托特丽莎暗暗观察了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "最坏的情况……是指什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "那封信……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我担心，那封信会不会被霍华德先生扔掉。 苍兰也记得以前发生过这种事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "为什么要做到那种程度……“信使的责任”不是到递送完成……就该结束了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "正如鸢尾所说。只要收件了，哪怕再丢弃……万送屋也无需再承担责任了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "哎———没错。确实是这样……呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "但是……如果那是“已故至亲的来信”之类的呢？ 如果就这样丢掉了……结果之后又追悔莫及的话……岂不是太悲伤了吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多娜……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "我只是打个比方而已！所以说，我才特意拜托了特丽莎当密探呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "不好————————————————啦！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多娜",
+   "text": "发生什么了？别着急，慢慢说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "信……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "信……？怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "信不见啦！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "你说什么！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

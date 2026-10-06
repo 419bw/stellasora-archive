@@ -1,0 +1,716 @@
+{
+ "heading": "# 消食秘方 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：科洛妮丝（新春）（角色编号 `159`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`15903`",
+  "- **AVG 剧本**：`CG_159_03`"
+ ],
+ "recap": "说起龙裔最著名的养生技巧——那自然是按摩。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "说起龙裔最著名的养生技巧——那自然是按摩。",
+  "episode": "第三话",
+  "title": "消食秘方 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "愧疚的病人",
+   "text": "对不起，医生……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "怎么能不好好遵守医嘱呢？真是个坏孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我把科洛妮丝的推论向戎卫说明后，他们最终同意放人——但前提是需要全程接受监视。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "当我们回诊那名病人时，才发现他竟然把整整一个月的药膳茶，一次喝了个精光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愧疚的病人",
+   "text": "医生配的茶味道太好了，我就没忍住…… 我就想着多多益善嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愧疚的病人",
+   "text": "可是喝完了我就睡不着觉了，好不容易睡着了，就一闭眼睡到现在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "真是的…… 居然把事闹这么大…… 还请您下次好好注意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愧疚的病人",
+   "text": "好、好的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来除了他，其他病人都有老老实实地按处方来用药。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "幸好科洛妮丝及时采取了措施，他才能顺利苏醒。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "哪怕是对身体有益的东西，服用过量也会有副作用的。以后一定要严格按照处方上的医嘱来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这次还算运气好，下次还这样的话…… 可能真的要一睡不醒了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "愧疚的病人",
+   "text": "不要啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "师渺",
+   "text": "非常抱歉，真是给你们添麻烦了。 作为赔礼，戎卫部的同事特意交代我要请两位吃一顿火锅，快尝尝吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵…… 那我就不客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "小助手也多吃点，这次你可是立了大功。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你也辛苦了，虽然事发突然…… 好在最后都顺利解决了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "之前总有病人嫌弃药太苦，难以下咽，本以为调整一下适口性就会好些，没想到弄巧成拙了…… 呵呵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "俗话说良药苦口，或许…… 下次还是把味道做的再苦一点更好吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但如果太苦，大家又不敢喝了…… 这之间的平衡很难把控啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "没办法，毕竟每个病人的要求都不一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？可你看上去挺乐在其中的嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "那是当然~ 要不是这次意外，我还没法收集到这么多新奇病症的资料呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉…… 虽然科洛妮丝总是说什么治病只是为了学习和研究……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实，肯定不仅仅是如此吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？为什么盯着我看……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "汤汁，又沾到嘴角了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "又…… 又被她碰嘴唇了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呼…… 终于回来了。本以为会是个轻松又和平的假期呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那明天，我们一定要一起去那个疗养院！毕竟本来做的计划都泡汤了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我理解为—— 你想让我好好地放松一天，是这样吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？呃…… 是…… 没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你也说过…… 想让我好好休息，对吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实说过…… 怎、怎么了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "比起明天，我更想现在就放松一下呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的意思是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "可以帮我按摩一下吗，小助手？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我？来按摩？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "对啊，刚刚问话的时候，其实我还挺紧张的，身体一直僵在那…… 现在酸痛得很，急需有人帮我按摩一下呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "科洛妮丝…… 也会紧张吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "苍梧城肯定有很多擅长按摩的医师，他们比我专业多了，不如……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "不用这么麻烦，由你来就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是…… 万一我不知轻重…… 或者不小心……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你可是我指定的得力助手…… 我相信你可以的。还是说…… 之前那些贴心话，只是纸上谈兵么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "才、才不是！好吧…… 按得不好，可不许怪我啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯…… 啊…… 对， 就是那里…… 呵呵， 你的手法可真娴熟…… 啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "抱、抱歉！弄痛你了？",
+   "options": [
+    [
+     "对不起对不起！弄疼你了？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "没有， 不必道歉…… 不如说， 你能再用力一点吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "像这样刺激穴位， 全身的血液就会加速流动， 很快 身体就会热起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯啊…… 啊， 对， 好舒服……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "别发出奇怪的声音啊！",
+   "options": [
+    [
+     "别发出奇怪的声音啊！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯…… 就是那儿…… 再重一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "别光按脚底， 小腿的穴位， 还有大腿的…… 也别漏掉哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这不合适吧……",
+   "options": [
+    [
+     "这、这不合适吧！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这可是我的请求， 你不需要有任何顾虑…… 怎么？ 手停下来了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "啊~ 难道…… 你在碰我的脚时， 脑子里在想什么奇怪的事情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "别的想象！？",
+   "options": [
+    [
+     "奇怪的事情？！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我也有过这种体验， 所以不用觉得害羞哦。 从生理学的角度来说， 触碰他人身体时产生兴奋感， 是很自然的反应。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "有时， 我也会产生一种错觉…… 仿佛对方身体的每一寸， 全都在我的掌控之中……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "只要我愿意， 便能支配那具身体……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这和我想象的内容不一样吧！？",
+   "options": [
+    [
+     "你说的“奇怪”就是指这个啊？！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "不然呢？ 嗯～ 那你刚才…… 到底想了些什么？ 呵呵， 不用害羞， 乖乖告诉我吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "你别开玩笑了",
+   "options": [
+    [
+     "饶了我吧……别再开玩笑了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵， 被发现了吗？ 没办法， 谁让你每次的反应都…… 这么有趣呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "你果然是在开玩笑",
+   "options": [
+    [
+     "你果然是在开玩笑",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "不过说真的， 治疗这件事， 最离不开的就是信任。 毕竟， 你要将你的一切甚至是生命都交给对方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这样你就明白吧， 为什么我会指名要你来。 如果是你， 就算让我把一切都交给你…… 我也愿意哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "似懂非懂的……",
+   "options": [
+    [
+     "似懂非懂的……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "既然这样， 那我们继续吧—— 可别忘了， 你可是说过会好好“治愈”我的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我可是很期待…… 你能让我身体的每一处都舒服到颤栗呢～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呀…… 太舒服了！没想到你还挺有按摩天赋的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 你喜欢就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "按摩，原来这么消耗体力啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "如何？ 随心所欲，掌控我身体的感觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别再用这种说法啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得…… 挺好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我、我的意思是，这让我得以更深入地了解你，也能更具象化地体会到你平日里积累的疲惫，比如……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪块肌肉更紧绷之类的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且，我真的希望你能好好放松一下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵，说的不错嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "如果有下次，我还会选你的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "毕竟能把我的身体摸个遍这种事…… 可是优秀助手才有的特权哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

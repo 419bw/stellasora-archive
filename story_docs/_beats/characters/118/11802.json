@@ -1,0 +1,612 @@
+{
+ "heading": "# 黑色的骨头 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：科洛妮丝（角色编号 `118`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`11802`",
+  "- **AVG 剧本**：`CG_118_02`"
+ ],
+ "recap": "被留下养病的你，见识到了科洛妮丝精湛的医术。拥有如此能力的医生，究竟是否能起死回生……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "被留下养病的你，见识到了科洛妮丝精湛的医术。拥有如此能力的医生，究竟是否能起死回生……",
+  "episode": "第二话",
+  "title": "黑色的骨头 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "医生、医生，我这一定是很严重的病，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，精神不振、食欲不振。光凭这些你是怎么判断出自己脑部有病变？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "就前几天，我头疼了一整天，还有低烧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "不仅如此，那几天里我还失眠、精力涣散……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "医生，别糊弄我了快告诉我实情……！ 我是不是得了脑部疾病？我都找人问过了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "哼…… 看来你是找了位“了不起的名医”看过了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "除了脑部病变，我觉得还有可能是精神失调症。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "那个……医生…… 我……还能治好吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，我这里正好有特效药，你稍等。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的病人",
+   "text": "啊，啊！我有救了、我有救了！谢谢医生！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "助理，把我药箱里那几支红色盖子的药剂拿出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，好的。不过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样就能直接下诊断开药了吗？未免也太简单了吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "正犹豫时，科洛妮丝用眼神示意“没问题把药给他吧”。虽然有很多疑问，我还是依言拿出了药箱里那几支药剂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "早晚各服用一支，连续一周。服药期间保持饮食清淡，不可以吃肉食。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "一周后我会让我的助理来找你复诊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "好了，该去下一个地方了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让、让我去给他复诊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我半点医学知识都不懂，怎么可能啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "没关系的，不懂也没事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "一名没有得病的病人，适合让一位根本不会治病的助理看病。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有…… 得病？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "只是普通的心理焦虑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我给他的药剂不过是加了点苦味素的白水。缓解他的焦虑感后自然会痊愈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "刚才不过是一场名为看病的过家家罢了。居然用真医生来玩过家家，真是奢侈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "不过今天的重头戏…… 可是接下来的这位68号病人，呵呵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "重头戏……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "他可是一位难得一见的颤抖症患者。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵……原本以为他的症状只是戒酒期间的暂时性戒断反应。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "但在上次出诊时发现，他有亲属也得过类似的病。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "所以我判断，他可能患有遗传性颤抖症。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "如果真是这样…… 那他作为病理标本就具有很高的研究价值了呢……呵呵。啊，我都开始兴奋了。现在就想立刻解剖青蛙呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "病理…… 标本……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且还说些什么解剖之类危险的话…… 该不会……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满身酒气的病人",
+   "text": "我说了，最近好多了！根本没必要去你那里看病！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "又重新开始喝酒了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满身酒气的病人",
+   "text": "哼，喝不喝是我的自由吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "恐怕比以前喝得更多了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "让我想想……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "可能是某一天症状发作的时候，你发现喝酒能有效压制身体的颤抖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "于是你便又开始沉溺在酒精中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "只是随着时间的推移，你发现需要依靠越来越多的酒精才能缓解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "其实只是喝醉后产生了不抖的错觉而已…… 你可真是个让人头疼的病人啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满身酒气的病人",
+   "text": "反、反正我是不会去你那间诊所的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "当然，我不会强迫病人进行治疗。不如说，我更期待看到你放弃呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "若是病例生前拒绝治疗，我就更有机会在之后对遗体进行病理解剖、做成标本继续后续的研究，呵呵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满身酒气的病人",
+   "text": "解、解剖？还要做成标本……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "如果你想知道…… 我是如何解剖并制作那些标本的话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满身酒气的病人",
+   "text": "等、等等。我、我要求治病！我一点都不想知道这里面的过程！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "哎呀，这可太遗憾了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "不过……如果不想被解剖或做成标本的话…… 就给我老老实实接受治疗吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "深 夜",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵呵…… 终于等到这一刻了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "能对你进行解剖、为所欲为的幸福时光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要、要解剖我？！这这这、这是什么情况……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "瞧，这是我新买的骨剪，通俗来说就是剪开骨头的剪刀，可以在分离肌肉后剪开肋骨，拿出心脏，肺等器官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵……光是想象咔嚓、咔嚓切断你骨头的手感……就忍不住兴奋起来了呢……呵呵呵呵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这把解剖用的锯子也是新买的。怎么样，上面密密麻麻布满肉眼几乎看不见的细齿吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "放心，我会很仔细，在绝对不伤及内里的情况下，取出你完整的大脑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "只要把取出来的大脑和器官泡进固定液，定期更换的话……直到我死去那天，你都能永远陪着我了。呵呵……呵呵呵呵。不觉得这很浪漫吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "啊，当然你的骨头也会经过妥善处理，做成骨骼标本好好装饰。我想想……就和我最中意的藏品们一起，放在我的床边吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这样一来…… 你我就都不会寂寞了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵呵…… 光是想象，身体就兴奋得发热了。你也是吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪里是发热，冷汗直冒还差不多！快住手，科洛妮丝！快清醒过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我一直都很清醒哦，呵呵，呵呵呵~~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不、不要啊啊啊啊啊—— 哈……哈……还好只是梦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这梦也太真实太可怕了…… 难道是白天出诊时听了什么危险话题的缘故吗……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在还是深夜啊。嗯……？ 科洛妮丝的房间还亮着灯……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从房间里透出的微光，温柔又暖和。也许正是这份光，让刚才那个噩梦的阴影消失不见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "悄悄往房间里窥视，梦里出现的人正坐在那儿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她脸上带着温柔的神情，翻阅着桌子上那一摞厚厚的文献。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "科洛……妮丝？还没睡吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

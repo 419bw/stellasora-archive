@@ -1,0 +1,732 @@
+{
+ "heading": "# 风中密语 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：夏花（角色编号 `133`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`13301`",
+  "- **AVG 剧本**：`CG_133_01`"
+ ],
+ "recap": "风车的象征是秘密，绝不告诉你。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "风车的象征是秘密，绝不告诉你。",
+  "episode": "第一话",
+  "title": "风中密语 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我和夏花约好一起在旅人营地附近的集市巡逻。但等到了约定的时间，夏花却还没来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "时间和地点应该没错吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花居然会迟到，总感觉不像她的作风…… 啊，她来了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "抱歉，我来晚了。 工作太忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没事，我也没等多久。你先喘口气吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "好的……呼…… 总觉得有些过意不去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别太在意，你有这份心意就足够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "话是这么说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那让我补偿你一下吧？比如…… 你有什么想要的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "想要的？这个嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得正好肚子饿了，不如一起吃个饭？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "补、补偿就等会再说，我们先去巡逻吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "今天的巡逻内容就是排查这附近有没有可疑的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活跃的旅人",
+   "text": "夏花大人！巡逻辛苦了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你也辛苦。 营地的状况如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "活跃的旅人",
+   "text": "目前一切正常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那就好，如果有问题随时通知。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖烤串的商贩",
+   "text": "这不是夏花嘛，快来尝尝这个！ 这是对你平日里照顾营地的谢礼，旁边那位也一起吃吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "谢谢，您的心意我领了。我们正在巡逻，可以一会儿再来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖烤串的商贩",
+   "text": "明白了。只是，你们回来的时候不一定有剩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难得一片心意，我就先来尝尝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你啊，现在可是任务中，边吃边逛是不是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "俗话说，人是铁饭是钢嘛。要是旁边一直有人肚子咕咕叫，肯定没法专心工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "况且这个正好作为补偿，多亏夏花你，我才能免费吃到这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不好意思，店长，我还能再要一串吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖烤串的商贩",
+   "text": "没问题，多吃点，我来请客。今天进的肉啊，品质特别好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "那么，恭敬不如从命……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这…… 太好吃了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖烤串的商贩",
+   "text": "哈哈哈！是吧？你们好好品尝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "其实……我确实有点饿了。 填饱肚子才能集中注意力。谢谢你的体谅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，毕竟要是遇到紧急状况，还是得靠夏花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "夏花大人，您好！ 您身边那位难道……难道是您的恋人？ 哇，二位今天是来约会的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "欸？不……不是的…… 你只是来协助我巡逻的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "哈哈，您就别藏着掖着了。 对了，看看这个怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是…… 风车？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "没错，菲莱城的标志性纪念品——风车！ 这是最近情侣间非常流行的纪念礼物，据说有着美好的象征意义……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们不是你想的那种关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "可我看你们俩很般配啊…… 那就作为让彼此间感情加深的礼物，怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我真的要生气了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "哈哈，抱歉抱歉。 我还想着夏花大人带着我家的纪念品打打广告呢，可惜了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我猜也是。 魔王，我们走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是我多想了吗？夏花好像在特意打断店员的话？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "时间回到几分钟前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "对于夏花而言，今天是个让人冷静不下来的日子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "迟到已经够糟糕了，偏偏这种时候肚子还叫了起来…… 太粗心大意了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "夏花大人，您好！ 您身边那位难道……难道是您的恋人？ 哇，二位今天是来约会的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "欸？不……不是的…… 你只是来协助我巡逻的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "约会！？确，确实……我和你约在这里见面，还一起吃了烤串…… 原来周围人看我们像是情侣吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "哈哈，您就别藏着掖着了。 对了，看看这个怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是…… 风车？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "没错，菲莱城的标志性纪念品——风车！ 这是最近情侣间非常流行的纪念礼物，据说有着美好的象征意义……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是一直以来在本地流传的说法吧？ 风车与风同行，互赠这个就象征着双方互相陪伴……那个，也就是说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "一生一世……都……要在一起……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不……绝对不能让你知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我们不是你想的那种关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "可我看你们俩很般配啊…… 那就作为让彼此间感情加深的礼物，怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "般配？我和你真的很般配吗…… 不行……清醒一点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我真的要生气了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卖纪念品的商贩",
+   "text": "哈哈，抱歉抱歉。 我还想着夏花大人带着我家的纪念品打打广告呢，可惜了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我猜也是。 魔王，我们走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "所以，刚才的话到底是真是假……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花怎么突然不说话了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然……她很在意那个风车。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，我有点好奇……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你刚才是不是刻意打断了那位店员说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是那个风车有什么含义吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这……这个……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的旅人",
+   "text": "刚才的声音是什么？哪里发生爆炸了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "不安的旅人",
+   "text": "爆炸！？那，那我们是不是该逃了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的旅人",
+   "text": "快看，营地入口冒烟了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "发生什么事了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我过去看看，魔王在这里等我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下！我也去！ 啊，已经走掉了。能用魔法就是好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了，我走过去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你还是跟过来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我答应今天要和你一起巡逻的，怎么能全部交给你一个人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "也是，你从来不是袖手旁观的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "找到爆炸的原因了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "是有人试图袭击集市，打算从那个方向突破……好在没有人员伤亡。 但等我到达现场的时候，犯人已经逃走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来，这场袭击早有预谋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这群扰乱营地平静的家伙……绝对不能放过他们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "夏花眺望远处，她眼中的斗志正在燃烧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,943 @@
+{
+ "heading": "# 06 公司的权力",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`212`　**编号**：`06`",
+  "- **关卡名称**：公司的权力",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_06`",
+  "- **关卡描述**：规则、金钱和武力，菲金不知道怎么输。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "白发魔法师带着骑士追到了诊所，\n虽然在伙伴的活跃下，你们逃脱了，\n但拥有各种优势的白垩商会，似乎无法战胜。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "白发魔法师带着骑士追到了诊所，\n虽然在伙伴的活跃下，你们逃脱了，\n但拥有各种优势的白垩商会，似乎无法战胜。",
+  "episode": "第六话",
+  "title": "公司的权力"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "10:10",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 地下诊所"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "别那么凶嘛，我对你们没有恶意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "门都被你砸烂了，还没有恶意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "抱歉，我好奇嘛，就激动了一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "中了我的魔法还能站得住的人，并不多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "可惜，没机会和你认识了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "大师，还是你厉害，一下子就抓到这些野人了，花大价钱雇你真是值了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "好了，事情办完了， 说好的那些东西，还有去星塔的证明呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "真是的，这么急性子…… 在这里，七号星塔的通行证。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白发少女",
+   "text": "东西我收到了。再见了，雏鸟般的旅人们，如果我们还能再见的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，对方人太多了，妾身挥刀的方向，还请主公指示。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们完全被包围了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "逃走......或者靠千都世抓住菲金，感觉都做不到。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不知道密涅瓦她们怎么样了......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你们跑的可真快，还挺有两下子，这点值得表扬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "要不是知道你们不会放弃灰风俱乐部里的孩子，还真就被你们逃掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你把孩子们怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "让你身边的那位......护卫？放下武器，你们一起加入白垩商会，我就告诉你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还在画饼？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "这点你只能选择相信我，之前我给你们开的工资的确有点少，这是我的疏忽，开价时有点随便。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "要找借口的话，也可以说是我没能理解你们的真正价值，你们想想看，如果你们的工资是现在的两倍，就算扣除罚款也不会有问题吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "反正到那时候，你肯定会提高罚款金额。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "现在，我们依旧可以合作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "只要你能说服那些小孩把车子变成公司财产，我也可以给你在元老院留个位子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "连雇佣条件都可以重新谈，给你和刚才那位大师同等的待遇也行哦，如何？这可是我能给出的最优厚的条件了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "你以为我会信吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "反正只要对你不利了，肯定又会像以前一样现编规定吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在开出的条件，恐怕也是为了骗我们交出车子吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是琥珀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你说什么呢？白垩商会的技术你也看到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "有没有你们的车都无所谓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "我可是好心在帮你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_cranky_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "坚持一下，救兵马上就到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "最好能激怒对方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "激怒对方么， 有办法了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果我没猜错的话，白垩商会的经营情况应该很糟吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "胡说八道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "经营情况好的话，我去白垩商会总部的时候，怎么没看到正式员工啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些天我们见到的人，不是临时工就是雇来的打手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "这，这是优化工作效率，你懂什么！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "优化效率的话，为什么每次只让我们几个人进星塔许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多雇几个旅人，许愿出更多神器，更有效率吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "哼……外行人少插嘴，我有我的经营思路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想，答案是你每天能带进星塔的人有限吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "或者，你每天能做的许愿卡数量有限。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也可能两者兼有，所以，想要赚钱的话，只有复制幸运绿洲号这种稀有的神器才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，您的推论非常严密，我认为这就是真相。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你，你们......你们从哪儿打听到白垩商会的商业机密的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "本来只是想随便激她一下，结果不打自招啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "我可不客气了……！把，把人带上来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "给你五秒时间，再不交代车子的位置，你就再也见不到你的同伴了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "五。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王，菲金是骗你的，她们根本没抓到孩子们，只抓到了我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "闭嘴，四。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜，别管我，幸运绿洲号比我贵，呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "三。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "远处那是......金属球棒的反光？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "二。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，请站到妾身的身后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "一。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "面粉袋掉下来了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳，不，这里面是花粉。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "强壮的骑士",
+   "text": "啊， 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "带队的骑士",
+   "text": "鼻子好痒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警戒的骑士",
+   "text": "戴着头盔揉不到啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "让开让开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "密涅瓦，你来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "嘿！我怎么可能丢下救命恩人不管！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "鸢尾，快，跟我走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "魔王，你——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这边有条密道。戴上这个防毒面具。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "雨月 2日",
+   "place": "埃摩灰城区 水道桥"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们去灰风俱乐部接孩子们， 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "赶到的时候，俱乐部已经被拆掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "幸好孩子们没事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "我们想找找废墟中有什么能用的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "就被帝国卫队，帮派成员还有佣兵们包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "密涅瓦把水道桥上的水引到地上，鸢尾冻了一大片冰，才让我们有机会带着孩子逃出来， 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "然后，我就被抓住了， 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个白发少女从我身上搜到了地图，找到了诊所， 对，对不起。 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不用道歉鸢尾，你做得很棒了， 为了掩护同伴自己留下，就像个真正的心怀仁义之心的英雄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "诊所被毁都是灰风连累的，医生，我会想办法补偿的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "没关系，我朋友的诊所本来就三个月换一次地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "那个暗道就是方便逃跑的，这次算是帮她提前迁址了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "谢了医生，但...... 这的确是因为我们，我们会重新盖一间诊所还给你的朋友。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊，啊嚏，密涅瓦，你怎么没事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我，我冲进去的时候闭气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你救我的时候明明说话了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "其......其实...... 啊嚏， 啊嚏， 啊嚏， 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你还真能忍啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "灰，灰风的气势不能丢， 啊嚏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔王，下面怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "孩子们临时转移到水道桥上，但这也不是长久之计。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "桥下情况如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "老样子，帮派成员，骑士，佣兵，人很多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "虽然我这个外人插嘴不太合适，但我劝你们还是带着孩子们逃走吧，逃去别的城邦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "确实是个好主意…… 不过，为什么要逃？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "白垩商会我也略有耳闻，是家很糟糕的公司，这些年生意越做越小，只在埃摩还有影响力了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "逃到别的城邦，白垩商会就管不到我们了......你是这个意思么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "对，你们都是旅人，做到这件事不难吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "在埃摩，就算白垩商会再烂也是个持有恩赐印章的公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "是公司，就能源源不断地借到朵拉，招揽各种人，雇佣帝国卫队来找你们麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "我的朋友就是因为这个，才那么频繁地换诊所。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这是一个流浪医生给你们的忠告哦，你们最好尽快做决定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不，我觉得逃到城邦外面也没用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大家看一下这个，这是琥珀拍下的白垩商会的文件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "《清除灰城孤儿院计划书》",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "根据这份文件，菲金手里那枚棋子样式的印章，是很久以前灰城孤儿院的院长寄存在白垩商会的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "按照当时的契约，我们身为灰城孤儿院的孩子，有权利要回那枚印章，而且这份契约似乎不能被其他规则覆盖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "菲金为了保住那枚棋子，必须要把我们灭口，就算我们逃走了...... 也不会放过我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,812 @@
+{
+ "heading": "# 08 拨云见日",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：晴风碧海 · 悠哉盛夏依然打卡~（活动编号 20103）",
+  "- **关卡 ID**：`201030209`",
+  "- **AVG 剧本**：`STev_10_08`",
+  "- **关卡描述**：天气总算好起来了……心情也是。"
+ ],
+ "recap": "你与薇洛脱离险境，也终于等到了乘船前来营救的伙伴们。正想离开时，却恰好撞见了把这座岛当巢的寄居蟹……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你与薇洛脱离险境，也终于等到了乘船前来营救的伙伴们。正想离开时，却恰好撞见了把这座岛当巢的寄居蟹……",
+  "episode": "第八话",
+  "title": "拨云见日"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我来断后，薇洛你先走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不行！团长拜托过我，要照顾好你——我不能让你陷入危险！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "没事，我很厉害的！你先到安全的地方等我，我马上就追上去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不要…… 别去——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅团负责人",
+   "text": "抱歉，薇洛…… 医生们虽然尽了全力，但还是没法保住你的左臂，所以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这样啊…… 怪不得觉得身体“轻盈”了不少。她呢？她的情况怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅团负责人",
+   "text": "目前还在抢救中，但医生还说…… 也有可能再也醒不过来了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……她是为了救我，才……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旅团负责人",
+   "text": "薇洛？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……洛…… 薇洛…… 薇洛？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "魔王……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是不是做噩梦了？看你刚才的表情，好像很痛苦的样子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……不，我没事。我睡了多久？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天已经亮了。我刚刚去山洞外面看了看，雨已经停了，但……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我一直隐约听到某种奇怪的声音，但我听的不是很清楚……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "奇怪的声音，难道是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "薇洛用耳贴向地面，凝神听了一会儿，又去洞口附近观察了一圈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……得赶紧离开。这里很可能会再来一次山体滑坡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "山体滑坡？！再来一次？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这次的规模甚至会更大。这座岛的土壤本就松软，吸满了雨水之后…… 很可能再次崩塌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "安全起见，我们先回到沙滩上吧。要是继续待在这里，等我们被塌下来的土石埋住，尘沙她们就算挖个十天半月都没法把我们挖出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……真那样的话也太糟糕了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就在这时，岛屿的深处传来一阵轰鸣声。洞口边原本还算结实的一块地面忽然陷下去，湿润的泥土簌簌滑落。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经开始了？！快撤吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "好……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 呼…… 到这里，应该安全了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不能掉以轻心，滑坡的规模比我预想中还大…… 必须离山体再远一些才……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是，这里已经到海边了，还有哪里可以去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "顺着薇洛手指的方向看去，不远处的海面，有一座还算平整的岛礁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "只要能游到那上面，就不用担心会被滑坡波及到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "中间隔着大海，只能游过去了吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "害怕吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不。既然是薇洛你提出去那里避难， 也就说明你确实相信我能办到吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "嗯，没错，我相信你一定能办到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，那我们走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "哎？为、为什么您要牵着我的手？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？不是由我带着你游过去吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我、我倒没有打算拜托你啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是，你的机械手现在动不了，游起来会很吃力吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "没事的。一只手划水虽然会多消耗些体力，不过问题不大……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在的我，就是你的左手。交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再说了，我的游泳教练可是个高手——不相信我可以，总不能怀疑她的实力吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "…… 嗯。那就拜托你了，我的左手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放轻松…… 想象自己不是在挑战海水，而是在拥抱海水。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我一边让薇洛搭住我的肩头，一边奋力地划着水。虽然刚才夸下海口，但确实还得靠她一起发力，才能勉强前进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "别着急，这里正好顺着流向。只要能抵达前面那块礁石，就能稍微休息一下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "清晨的海水很冷，呼啸的海风也没有止歇",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但此刻与薇洛并肩前行的感觉，却是那么的安心…… 真是不可思议",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "现在我算是明白，尘沙她们为什么会这么信任你了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "所以，我或许也能……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？刚刚有在和我说话吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不，没什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 哈……总算是…… 到了……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "双脚重新踩稳地面时，我累得不顾形象瘫倒在沙滩上。薇洛则坐在我身旁，抱着双腿微笑着看向我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不愧是…… 薇洛…… 我都累成这样了…… 你还真是游刃有余啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这都多亏了你的努力哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "现在想想，和你一起被困在这里，好像也不是什么太糟糕的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "又是海难，又是流落荒岛，还碰上两次山体滑坡…… 简直糟糕透顶了啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，既然你这么说，那我的努力也算是有价值吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "其实，我有段往事…… 想说给你听。你愿意听我说说吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然可以。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我曾经…… 遭遇过一起事故，就是那起事故让我失去了左臂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这种事，明明一辈子都不该忘记，可我偏偏却忘掉了。那一天到底发生了什么呢…… 我现在根本回忆不起来，拼尽全力也只能想起一点模糊的轮廓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "那时的我，本应该保护旅团的后辈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "可偏偏，我要保护的那个人却为了救我，受了致命伤……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "自那天起，我就不断地告诫自己，绝对不能再重蹈覆辙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "绝对不能成为累赘，不能连累同伴。我有责任照顾他人，我不能允许自己成为绊脚石。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "薇洛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "可是，如你所见…… 还是让你看到了我这副不中用的样子呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "在树林里的时候，有一瞬间感觉自己又回到了从前…… 又变成了拖油瓶，又成了被保护的那一方……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "但是…… 当你突然说要成为我的“左手”时，我才意识到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "就像我一直想成为你的助力一样，你也只是想助我“一臂之力”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "在你的心中，你不是我的负担，我也不是你的负担。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我们只是恰好在此刻，成了依靠彼此，扶持彼此，帮助彼此的人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "还好…… 这种时候，是你在我的身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，其实我…… 也是一样的心情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "咦…… 魔王，快看那边！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有船开过来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "看来，我们的荒岛冒险总算要画上句号了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，终于要告一段落了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王！薇洛！太好了，总算找到你们啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你们没事吧？有没有哪里受伤？有没有不舒服？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们都没事啦，薇洛把我照顾得很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "薇洛，给，柔光溶液。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "谢谢你，琥珀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "薇洛，这下子你的手能恢复了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "是啊，魔<r=BOSS></r>王总算可以卸下“左手”的重任了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎呀，这下又失业了，真不知道该高兴还是难过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "失业……？什么意思？ 唔，不管了~其他的事等回去了再慢慢说~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "对了，魔王。来接我们的船上，还有你的老熟人呢——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诶？什、什么东西？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呜…… 还给我…… 把…… 把我的饮料还给我啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇！太好了！原来你也平安无事啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "好、好强的执念……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "各位，我们还是先让这只寄居蟹冷静一下吧……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

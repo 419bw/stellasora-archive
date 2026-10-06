@@ -1,0 +1,955 @@
+{
+ "heading": "# 07 虎口脱险",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：心跳！柔光狂想曲（活动编号 10108）",
+  "- **关卡 ID**：`101080209`",
+  "- **AVG 剧本**：`STev_08_07`",
+  "- **关卡描述**：漂亮的爆炸，我打十分！"
+ ],
+ "recap": "斯帕克拉改装的兔子派和超级行动派凶猛的火力撕开了卫队的防线。趁乱逃跑的大家顺利在绿洲号汇合，斯帕克拉也向你许下了新的承诺。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "斯帕克拉改装的兔子派和超级行动派凶猛的火力撕开了卫队的防线。趁乱逃跑的大家顺利在绿洲号汇合，斯帕克拉也向你许下了新的承诺。",
+  "episode": "第七话",
+  "title": "虎口脱险"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "咳咳咳，魔<r=BOSS></r>王你还好吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没事！鸢尾你们呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们也没有被波及到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "看热闹的旅人",
+   "text": "事情好像闹大了，还是赶紧开溜吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紧张的旅人",
+   "text": "此地不宜久留。加我一个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，我们也快走吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，撤退前先确认一下大家的情况吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "没事没事~这种场面我们都有经验，老板你们就先逃吧，我们三个留下来断后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "莱欧，要是让你家的“嘀嗒蹦蹦”殿后，大概能争取到多少时间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "我刚用散落零件组装出了几枚炸弹……让我们安全逃走还是绰绰有余的♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "可别玩脱了最后拿自爆收场哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "才不会啦！！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "好了好了，两位。现在就先暂时停战吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板，这里就交给我们吧，稍后在绿洲号停泊的位置汇合！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "了解。你们千万多加小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "话说完了吧？ 我要开炸啦，“嘀嗒蹦蹦”给我开火！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "爽啊~好久没有和帝国卫队玩过这么惊天动地的追逐战了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "斯帕克拉，“超级行动派”的弹药库存还充足吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "那是当然。你也一起来欣赏欣赏兔兔追踪弹的可爱吧♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哇哦！完美的爆炸！我给一百分满分！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "……兔兔散射弹、兔兔追踪弹、兔兔全域火力压制形态，经此一役，相当于做了免费推广啊～回去之后肯定会接到大量订单，干脆大胆些，涨价个两成怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "价格布洛可你随便定就是了，不过接下来这三个月我要集中精力搞新发明，可别把新订单推给我哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "敢打扰我的话，一律拉黑处理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "好说好说，这批新弹药还剩挺多的，暂时不会去打扰你。我回头让莱欧多构思点新商品，应该够卖上一段时间了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "也就是说，只要做出比斯帕克拉的兔兔炸弹们威力更大、更畅销的玩意就行了吧？小菜一碟啦♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "不愧是莱欧，我很期待哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "可要好好做哦……要是你搞砸了，布洛可跑来找我哭诉的话，我可不想帮你收拾烂摊子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "搞砸？你以为我是谁…… 喂！！别把我丢下啊！？等等我！让我也上车啦～～～～！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "都跑到这里了还能看到那么显眼的爆炸火光啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们几个，真的能顺利逃脱吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "要是等十分钟还没来，我就和琥珀一起回去看看情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "大家久等啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "稍微费了点功夫，不过总算是甩掉追兵了～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，大家平安无事就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "各位老板们也没有受伤吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没事。多亏你们吸引了帝国卫队的注意力，才没有人追捕我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的是太感谢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "该说谢谢的其实是我哦。要不是为了测试“魔王派”的性能，我也不会想到去改造“超级行动派”嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "魔王派？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "呵呵，因为是从魔王身上获得的灵感，所以名字直接致敬了魔<r=mowang></r>王。 怎么样，很合适吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "对了，功能这块就跟刚才在发明室说的一样。会参考魔<r=BOSS></r>王的行为模式，重点强化在星塔内的支援能力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "话虽如此，以现在的技术，顶多也就能在索敌和探测派上用场，想要重现“那个点子”，看来还得花上不少时间呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要花时间就可以重现吗？要是真的，斯帕克拉的才能还真是可怕啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "所以说魔王，今后我们要一起多多爬塔哦。我会好好搜集数据，仔细记录下来的，呵呵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "啊～难怪除了兔子派，你也给超级行动派装上了火力系统。 难道你还打算兼职做旅人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "怎么可能啦。 我只是想把魔王给我的灵感，做到最可爱、最极致而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 话说回来，为什么帝国卫队的人会潜伏在比赛会场啊？这究竟是怎么一回事儿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "其实整个技术大会，都是帝国卫队的骑士格蕾霍恩布下的陷阱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "真是的，太卑鄙了～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那个柔光猎犬销声匿迹有段时间了，我还以为她被调去别的地方，正松了口气呢，原来是在暗地里憋一个大的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "可恶的家伙！害得我到头来还是没能和斯帕克拉分出胜负！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "技术大赛就这么泡汤了真是可惜。本来还想见识一下大家的发明呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "既然你这么想看发明，那就来我的工坊吧！有很多还没公开过的新装备哦！或者叫上别的工匠办个交流会也可以！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们这段时间还是尽量低调点吧，要是再被格蕾霍恩盯上就麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哦呵呵，老板有所不知了，一边躲避追捕一边搞发明做买卖，才是我们柔光会社的常态，这种都算是小场面啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "而且换个角度想，被追捕的时候，反倒可以拿帝国卫队的人当测试新炸弹的活靶子嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那个，布洛可，还有件事，之前说好要给我们的追加委托费……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "哦、哦哦……！ 追、追加委托费对吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "",
+   "options": [
+    [
+     "这笔追加委托费就此作罢吧",
+     "",
+     ""
+    ],
+    [
+     "回顾一下这次委托中出的问题吧！",
+     "",
+     ""
+    ],
+    [
+     "看你的表情，似乎在想什么赖账的鬼点子哦~",
+     "",
+     ""
+    ],
+    [
+     "和布洛可讨论一下这个追加委托吧！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "这笔追加委托费就此作罢吧"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "帝国卫队突然插手，害得你现在资金很紧张了吧？这笔追加委托费就此作罢吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板……！！！！啊啊，您身上的光芒太耀眼了……！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "以后就算我的商品不得不涨价，我也只按原价买给老板！！无论发生什么，我绝对说到做到！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那、那还真是多谢了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过呢，我只有一个小小的要求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板您尽管开口！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "回顾一下这次委托中出的问题吧！"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们从狱里救出斯帕克拉，算起来已经完成了你的追加委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "的、的确如此……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过呢，我没能及时和鸢尾联络，这才不知道大会流程已变，导致斯帕克拉最终没能参加最后的比试。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是我的失误。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老、老板……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，这笔追加委托费就此作罢吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板！！！！啊啊，您身上的光芒太耀眼了！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过呢，我只有一个小小的要求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板您尽管开口！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "看你的表情，似乎在想什么赖账的鬼点子哦~"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你之前保证过斯帕克拉绝对能拿第一。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们兑现了把斯帕克拉救出来的承诺。但遗憾的是，你没有履行你的承诺。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话虽如此，报酬说好了就得出，这就是契约精神对吧。作为一个优秀的商人，你应该清楚自己该怎么做吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "道理我都明白…… 老板，要不我还是先跟您打个欠条吧！毕竟我现在已经身无分文了……呜呜呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "欠条就免了吧。不过呢，我只有一个小小的要求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "老板您尽管开口！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": [
+    "和布洛可讨论一下这个追加委托吧！"
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "给薇洛的新义肢，做得漂亮一点~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "诶？魔<r=BOSS></r>王？您这是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不光是因为这件事，一直以来我都受了你不少照顾呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我一直想找机会感谢你…… 可是左思右想，也只能想到拜托布洛可对你的订单更用点心啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "当然没问题啦！我会让斯帕克拉制作出最棒的义手，保证让薇洛老板绝对满意！ 对吧，斯帕克拉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "斯帕克拉？咦，跑哪儿去了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "小绿排气系统的改造，总感觉还差了点意思。要不干脆全部换掉试试？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "我这里有一台柔光制调速器，能确保在低速时还能维持回压，这可是好东西哦～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇，好心动！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "如果以后被追击，只要来个急加速，就能一下子甩开追兵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "比现在小绿的最高速还快？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "很刺激的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾鸢尾，真的不试试吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那你得向我保证，不到万不得已的时候，绝对不许把小绿开得像飞起来一样！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯！我保证！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那个，斯帕克拉…… 我能一起改装小绿吗？我可以在旁边给你打下手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "呵呵，当然可以啦。毕竟是你一直用心看着长大的孩子嘛~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "我也来露一手吧！而且三个人一起干，点子也会更多嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "诶？什么时候莱欧也默认要一起参与了？ 事先声明，小绿可不需要什么自爆功能哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "诶，好吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "不需要爆炸就算了，那个先放一边。 尘沙！要不要加入我们柔光会社的技术交流群？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我、我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "既然你能一个人组装好这辆绿洲号，说明你对神器已经有自己的初步理解了。 不过要想加群，还得先通过试炼才行……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "进群竟然还需要试炼吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "是啊。不过突然和你说这些肯定一头雾水吧，要是你以后感兴趣的话随时告诉我哦，我会帮你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱欧",
+   "text": "喂，斯帕克拉，你可别来跟我抢尘沙啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "呵呵，放心啦。虽然尘沙和小绿都很可爱，但我现在还有一个优先度更高的目标——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "斯帕克拉",
+   "text": "毕竟，那可是这个世界上独一无二，在我眼里最无敌可爱的存在了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "阿、阿嚏！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "布洛可",
+   "text": "那边还真是热闹啊～到底在干嘛呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谁知道呢？不过肯定是在做什么有趣的事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

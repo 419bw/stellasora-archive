@@ -1,0 +1,636 @@
+{
+ "heading": "# 08 干杯……敬最强大的猫眼大人",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：枪林弹雨覆黄沙（活动编号 10109）",
+  "- **关卡 ID**：`101090210`",
+  "- **AVG 剧本**：`STev_09_08`",
+  "- **关卡描述**：逃出生天不久之后，众人在水吧欢庆……"
+ ],
+ "recap": "虽然救出了被困的旅人，但猫眼依然有些闷闷不乐，这次事件的结果似乎和猫眼设想中的，相差甚远。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "虽然救出了被困的旅人，但猫眼依然有些闷闷不乐，这次事件的结果似乎和猫眼设想中的，相差甚远。",
+  "episode": "第八话",
+  "title": "干杯……敬最强大的猫眼大人"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "矿洞之战的一段时间后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "蓝锥，这袋面粉我放这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "哦！多谢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "等等！你现在还不可以干活！快回去休息！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我没事的，今天连绷带都拆了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "医生不是交代过嘛，就算伤好了也得再静养一个月！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我自己的身体状况我最清楚，不用担心。 而且这种程度的小伤，身体也早就习惯了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "好吧，反正我也说不过你…… 可千万别勉强自己啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯，话说……猫眼今天去哪了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "哦，猫眼好像说要回废弃矿场查看一下情况，应该会在晚饭前赶回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊~果然不行啊…… 塌方之后路彻底堵死了，根本进不去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "猫眼，怎么这么快就回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "唉～别提了…… 嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "等等！这个香味——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哇！是玉米片和汽泡水！ 今天是什么特殊的日子吗！做这么多好吃的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼！你回来啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "卡西米拉！你的伤已经好了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "虽然还没有痊愈，但好歹是能把绷带拆下来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "我本来还想让卡西米拉再多休息几天，但她本人非说没事，所以我就准备搞个康复庆祝会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊，怪不得！ 哇哦！这个超级可爱的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这么可爱我都不忍心吃了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，这段时间你好像一直往废矿坑跑，到底在忙些什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "还能忙什么，去看看还有没有进得去的通道呗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "难得发现了新的矿脉，要是能继续开采的话，镇上的大家就都能过上好日子了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "所以，结果是什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嗯……我也问过镇子里经验丰富的老矿工了，他们都说那地方已经废了没法搞了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就算想要开辟新的矿道，开采的成本也会远远大于收益……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "就算如此，我还是想着去那里再看看，有没有还能进去的地方，不过看样子是真的没戏了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊啊——！好不甘心啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这到头来不是白忙活了吗？ 我们原本可是打算救出被骗的旅人之后，再联合镇上的大家一起把矿场夺回来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "现在被沙蝎耍了一顿不说，新发现的矿脉还没了，还怎么号召大家啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "但要是当时对他们见死不救的话，那些人恐怕就没法活着出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "甚至会发生更严重的坍塌事故，导致更加惨烈的后果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "别再可是了，猫眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "你知道吗？今天大家喝的这些饮料，还有这些美味的佳肴，全都是你们救出来的那些人特意送过来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "对他们而言， 猫眼做过的事绝不是徒劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "确实如此，那时候要不是你杀出了一条生路，我们自己能不能全身而退，都还说不定呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "这还是我们第一次见到如此强大的猫眼呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热心的白猫队员",
+   "text": "单枪匹马地杀进最前线，硬生生把沙蝎的防线给撕开了个大口子！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆小的白猫队员",
+   "text": "队长倒下的时候，我真的以为我们这次全完了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆小的白猫队员",
+   "text": "但……是猫眼给了我继续作战的信心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "因为被骗的旅人挺身而出的时候，还有带领着大家突破重围的时候——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "应该都不是为了证明自己有多厉害吧，你只是想要向那些受苦受难的人伸出援手罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "只要能有这份心意就足够了，猫眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "你已经向我们所有人，证明了你自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "卡西米拉， 蓝锥， 大家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "虽然这话说得稍微有些迟了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那枚挂坠，你可以一定要收好了，它可是能给你带来幸运的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "嗯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆小的白猫队员",
+   "text": "敬最强的猫眼大人——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "最强的……猫眼大人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯！敬最强的猫眼大人——！ 干杯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼哼……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "哇啊！——猫眼你要干什么，快下来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我乃白猫剧团唯一的黑暗之力继承者——卓越冲锋狙的驾驭者！上古喵神的神圣使者！黑暗之力的代行者！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "同时！也是这个世界上最强大的猫眼大人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我在此郑重宣告！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "命运早已将黑暗之力托付于我！猫眼大人定将引领白猫剧团走向伟大的霸业！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "别管什么沙蝎还是什么乌合之众！敢来阻挡吾之霸道者——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "统统将在猫眼大人的枪口之下灰飞烟灭！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "终有一天！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "我一定会超越卡西米拉！本大人要成为白猫剧团真正的最强存在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "诶？超越我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "哈哈，目标远大些不也挺好吗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "我觉得猫眼是有那个实力的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "待到那时——你们所有人都要记住今天这一刻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "要问为何，因为这一刻正是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "世界上最强大的猫眼大人伟大传奇的开始！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白猫队员",
+   "text": "好！敬最强的猫眼大人！——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白猫队员",
+   "text": "敬猫眼大人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "敬最强的黑暗之力！——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "白猫队员",
+   "text": "干杯——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "唉……说来说去到头来猫眼还是那个老样子啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝锥",
+   "text": "哈哈，只要她开心就好啦，无论是哪一面不都是我们最喜欢的猫眼吗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "呵呵，确实如此。此刻，就尽情称赞黑暗之力的主人猫眼大人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "干杯，敬猫眼大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

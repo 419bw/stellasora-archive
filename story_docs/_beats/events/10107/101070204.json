@@ -1,0 +1,1040 @@
+{
+ "heading": "# 04 实验体",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：穿透心壁的取景框（活动编号 10107）",
+  "- **关卡 ID**：`101070204`",
+  "- **AVG 剧本**：`STev_07_04`",
+  "- **关卡描述**：沉重的枷锁，受缚的飞鸟。"
+ ],
+ "recap": "火垂原来是星辉之眼为开发秘密武器而找来的实验体。卡娜丝与伊格娜合作，将她从实验室中带走，却难以改变她冰封的心……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "火垂原来是星辉之眼为开发秘密武器而找来的实验体。卡娜丝与伊格娜合作，将她从实验室中带走，却难以改变她冰封的心……",
+  "episode": "第四话",
+  "title": "实验体"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂是…… 星辉之眼的“实验兵器”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "——那大约是一年前的事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "当时我正独自调查星塔，偶然遇到了火垂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "一开始我以为她是个误入塔里的孩子，准备带她出去…… 但紧接着，我便察觉到不对劲的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "火垂竟然像是在玩耍一样，追着星骸到处跑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "开心，好玩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星骸群",
+   "text": "嗷呜——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "在这边哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "你、你到底是什么人……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "喂，为什么会有外人在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "估计是来爬塔的旅人吧？塔内空间偶尔会出现不规则变化，就算封锁了入口，也难免会有“老鼠”溜进来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "喂，这里是恩赐意志的实验场所，闲杂人等立刻离开，听见了没有！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……实验？在星塔里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那个小女孩是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那件事，强烈地刺激着我作为学者的好奇心……我开始关注起那位少女。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "所以，我决定暗中调查这件事。我动用了学生时代的人脉，查遍了与星辉之眼有关的情报……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "最后查到的——就是“火垂计划”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“火垂”……计划？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那是存在于星辉之眼内部的一个实验项目——一件“超级兵器”。但其威力过于巨大，极难控制。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "为了驾驭那件兵器，他们需要一个心灵纯粹、且精神力极其强韧的孩子来充当实验体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "为了寻找这个适合的实验体，他们投入了天文数字的资源与人力，找遍了整个诺瓦大陆，最终寻找到的就是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "算了，今天的数据收集就到此为止吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "……数值波动太大。先回去做个分析吧，但估计不会有什么好结果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "火垂，你的身体状况有什么变化吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "行了行了，要是问实验体就能得到答案，那还要我们这些专家来干嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "但是这样下去，我们离被炒的日子也不远了。上次的数值提升，是什么时候的事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "好像是实验体对我们的观测装置表现出兴趣的那天吧？那时我们还送了台留影机给她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "但那种好状态仅仅持续了几天，很快又跌回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "之后，我们也尝试过送她别的玩具……唉，结果大家也都看到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "真是头疼，这样下去要怎么向上头汇报？要是项目成果继续拖延，我们迟早会被——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "等等，有人来了。那是……伊格娜主任？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "调查科的人……她为什么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "我偶然听说，各位正在不计成本地推进一个……“非常有趣”的计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "要是真能开发出“超级兵器”，你们在星辉之眼的地位可就稳如泰山了。 只不过，就我这段时间观察到的结果，诸位的状况似乎不太乐观。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "如果各位不介意的话，要不要我帮忙向上头“美言几句”呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然还有这种实验……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "据我所知，虽然实验对人的肉体没有损害，但会造成极大的精神压力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "虽说火垂确实是所谓的“最适合的实验体”， 但她无论如何，毕竟还只是个孩子——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "在还没接受过健全的教育、自我意识尚未成型前，她就终日生活在实验室里…… 这无疑会伤害到她的精神和人格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那时候的火垂，比起人类，更像是一台机器。…… 或者说，她是为了保护自己，所以才拼命想要变成一台没有感情的机器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "孩子是通过身边的大人来认识这个世界的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "如果不这样催眠自己，她的精神可能早就崩溃了吧？为什么只有自己被带到这种地方，每天都要忍受痛苦与孤独…… 一个孩子怎能理解这种事呢？没有人会回应她的疑问。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "这太过分了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "是的，这是一场不人道的实验……我认为，这是对学者和知识的亵渎，我不能坐视不管。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "所以，我在调查清楚后，就立刻前往火垂所在的那个实验室，打算阻止他们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "现在回想起来，那时的我简直鲁莽至极…… 但还好没惹出太大的乱子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为伊格娜介入了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "不错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "立刻把那个孩子放了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "什么人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "研究重地，无关人士禁止入内！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "看门的在干什么？！把入侵者赶出去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "住手。这位小姐是我邀请来的客人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "伊格娜主任，这是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "既然从今天起，火垂计划就要全权交由我来负责了…… 那，如何安排实验体，也是我的自由吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "哈？！你在说什么胡话……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "我已经把计划的现状，向“更上一级”的大人物汇报过了。高层对这个项目很重视，于是派我来替你们善后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "这是文件，已经盖过章了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "这不可能，给我看看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "是、是真的……怎么会有这种事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼研究员",
+   "text": "可、可这明明是我们的研究，是我们的实验成果！你怎可以就这样明抢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "请随意抱怨吧——结果并不因你们的态度而会有任何改变，只是“规则”罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "本该创造“价值”的人却无法产出“价值”，和不下蛋的鸡又有什么区别？ 喔，别担心，你们至少算是生了个蛋——我会负责到底，把它“孵”出来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星辉之眼学者",
+   "text": "你这学术强盗的行径……身为学者，你不觉得羞耻吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "卡娜丝教授，不必理会他们的无能狂怒——按你的想法去做吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "呃……那…… 好的。遵命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "呵呵，不客气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "我只是在你身上看到了某种可能性而已。希望这能让陷入停滞的项目继续前进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "伊格娜",
+   "text": "你和这群顽固分子不同。身为“研究者”，必须得有接纳新事物的勇气，不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "抱歉啊，把你吵醒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我是卡娜丝，是星辉附属大学的教授。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "觉……兽？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "简单来说，就是“老师”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "“老师”……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我是来带你从这里出去的。你愿意跟我一起走吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "火垂不懂……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "这是……新的命令吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "这就是我和火垂的初次相遇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我和伊格娜把火垂从实验室里带了出来，试图让她过上普通的生活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我负责提供生活环境与教育，伊格娜则作为我们的支援者，负责盯着星辉之眼那边的动静。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "虽说火垂还是得定期去接受“测试”，但比起以前，她现在的生活环境已经正常许多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "火垂的数值也开始稳步提升，但是…… 仅仅持续了一段时间就又陷入了停滞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "后来发生什么事了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "不，什么都没发生…… 但这恰恰是问题所在，光靠外界环境的稳定，还不足以解决全部问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "伊格娜的观点是，火垂正在下意识地限制自己的力量。数值无法提升，是因为她过去的心理障碍；火垂的“情感缺失”，已经成了这场实验的最大瓶颈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听说，“魔力”会受使用者情绪的影响……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "是的，我认为伊格娜的猜想就是来源于此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "暂且不论她的猜想是对是错，如果这种停滞不前的状态持续下去……迟早有一天——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂有可能会被抓回去？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "没错。正因为有“推进研究”这个借口，我们才得以保护火垂以现在的方式生活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我希望火垂至少能像个普通孩子一样健康成长。所以我也在烦恼如何才能让火垂的情绪好转起来，然后……我意识到——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "火垂唯一能感受到“快乐”的地方，是危机四伏的星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "在以前，只有前往星塔获取实战数据的日子里，她才会被带出研究室，也就不会有实验的痛苦——对火垂来说，与星骸战斗，是她仅有的“自由时间”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……居然是……这么令人难过的原因？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雪愿节的时候，火垂之所以会拉着我和菈露去爬塔，也是因为她只知道这种“放松”方式……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……等一下，火垂不是很喜欢拍照吗？这能改善她的情绪吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要能让火垂不再压抑自己的感情，她的数值也就有可能提升了，对吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "说来惭愧，身为她的监护人，我也是最近才知道的。我知道她曾经在实验室里对“留影机”表示过兴趣，但我一直以为那只是一次实验中的偶然，或者只是因为孩童对什么新鲜东西都感兴趣而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "直到前段时间，我注意到了她举起留影机，拍下身边景物的样子——她好像真的挺高兴的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我认为……或者说，我愿意相信这确实是个好转的预兆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "唉，如果我能早点注意到就好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没事，现在也还来得及。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……是啊，毕竟现在有了你这个优秀的助手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我其实隐约察觉到了，只靠我一个人的陪伴，不足以让火垂更进一步地成长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我或许现在算是成为了火垂的“老师”，却还没能成为她的“朋友”。而且，因为我工作在身，能陪在她身边的时间很有限。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "正因如此，我想拜托你，魔王。你愿意——成为火垂的朋友吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "除我之外，你是第一个让火垂亲近的大人。火垂她，信任着你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "原来如此…… 所以小火垂的愿望不是礼物，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "不是礼物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那……小火垂的愿望是什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "我想要…… 能一起玩的朋友。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当时的我肯定想象不到……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“想要朋友”这样一个看似微小的愿望，对火垂来说竟有着如此重大的意义……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "目前的状况并不乐观。正因如此，我才想借助你的力量。这一切，都是为了帮助火垂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话都说到这份上了，我当然没有拒绝的理由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我很乐意成为小火垂的朋友。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "谢谢你，魔王……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "太好了。看来今晚，我总算能睡个安心觉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

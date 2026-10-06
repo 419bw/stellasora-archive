@@ -1,0 +1,528 @@
+{
+ "heading": "# “约会”风波 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：珂赛特（角色编号 `142`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`14203`",
+  "- **AVG 剧本**：`CG_142_03`"
+ ],
+ "recap": "“约会”好像还挺开心的……糟了！把任务忘记了！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "“约会”好像还挺开心的……糟了！把任务忘记了！",
+  "episode": "第三话",
+  "title": "“约会”风波 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "自动售货神器里全新的饮料像磁石一样牢牢吸引住了珂赛特的视线。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但珂赛特似乎还没有放下对自动售货神器的戒备，用警惕的眼神上下打量着这台机器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不用这么小心啦，它不会动的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你摸摸看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "摸上去好凉，好硬，闻上去有金属的味道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "唔嗯，虽然看起来的确很像星骸，但应该不是，只是普通的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没骗你吧，你看看，这里面有你没见过的星塔饮料吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "那、那我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "魔<r=BOSS></r>王！ 快看， 这个…… 这个酸奶味的汽水， 真的超级无敌好喝……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "口感没有普通酸奶那么厚重， 冰镇后酸酸凉凉的。 特别适合天气热的时候来一瓶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "这样啊，那下次我也试试吧",
+   "options": [
+    [
+     "……没见过这个包装的饮料呢",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "还有这个包装的蜂蜜饮料， 是地区限定口味， 别的地方根本买不到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "甜得恰到好处， 不会黏在喉咙里， 让人不舒服。 一口喝下去， 就感觉所有烦恼 都被糖分覆盖了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "脑袋清醒啊……当工作中的饮料应该不错",
+   "options": [
+    [
+     "这个听上去不错！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "啊啊竟然还有百香特饮！！ 这个！ 超—— 级无敌酸……！ 第一次喝的时候， 因为不知道它的味道， 直接猛灌了一大口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "结果…… 呜！ 哪怕到了现在， 我都还记得…… 那股酸味从舌头一直蔓延到了胃里， 酸得我整个人都缩成了一团……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "珂赛特真的很喜欢饮料呢",
+   "options": [
+    [
+     "呃……听着有点吓人了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "啊！ 抱、抱歉！ 我一看到饮料 就忍不住说一大堆……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "虽然这些味道都挺奇怪的， 可是每一种 都特别特别好喝∼",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "咦？ 最上面那个包装…… 我还没见过！ 是新口味！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "唔…… 要不然， 干脆全都买下来吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不，喝不了这么多的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我试试看那个酸奶就好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "饮料都在大箱子里，要怎么拿出来呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从这个地方投硬币进去，然后选择你喜欢的，按下按钮，饮料就会自己掉出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "真的吗？那、我来试试看……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "嗯……？怎么没有反应？ 难道说是……坏了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不会吧？明明投了钱，应该能正常买的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "嘿， 嘿。 不行，还是不出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "怎么会这样…… 还以为可以跟魔王一起分享……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不会真坏了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "坏了…… 咳咳，魔<r=BOSS></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么突然这么正式？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "请闭上眼睛，我要做一些...... 不太合适的事情了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，你要做什么？该不会想对我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "不是啦。我的目标不是魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她不会要破坏神器吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，这是公司的财产——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呀啊啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "珂赛特竖起手刀，以四十五度角的姿势，用力砸在自动售货神器上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "修好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呼……书上说的是真的……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "居然还有这种操作……这次又是什么书？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我上次捡到一本《城邦生活小技巧》。书里说，坏掉的神器，只要从四十五度角的位置狠狠给它一击，就会立刻修好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，这样啊。虽然这办法有点奇怪……不过还挺实用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "那个，我觉得砸东西还是不太好的，所以才想让魔王把眼睛闭上的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你都说出来了，我不就知道了…… 嘛，这份耿直也是珂赛特的可爱之处嘛。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "给，魔王，这瓶酸奶我请。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "就当是，你教我使用自动售货神器的谢礼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，为了我们今天愉快的约会，干杯~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "嗯嗯，干杯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“清扫”记录，第一百天。 今天，我和魔<r=BOSS></r>王一起找到了神奇的“自动售货神器”， 里面有好多从没见过的星塔饮料。 约会这件事，还真是和书上写得不太一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "等等，约会...... 我本来是要做什么来着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "糟了，糟了，今天我的目的是查明魔<r=BOSS></r>王的特殊能力的......这不是完全没做吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "不过，仔细想想，虽然我没查到魔<r=BOSS></r>王的底细，魔<r=BOSS></r>王应该也没意识到我的目的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "从结果上说，我成功拖着魔<r=BOSS></r>王，浪费了你一天的生命，拖慢了你毁灭世界的计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "如果坚持这么干下去，早晚有一天，我会用这种方法，把你的生命都消耗完。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "很好，给极光大人的报告就这么写吧，她应该会满意的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "简短地写完报告后，珂赛特拿出今天和魔<r=BOSS></r>王告别时买的最后一瓶饮料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "下次什么时候约魔<r=BOSS></r>王出来呢？ 要不然……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就明天？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

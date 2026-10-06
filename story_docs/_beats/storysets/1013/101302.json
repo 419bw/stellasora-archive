@@ -1,0 +1,904 @@
+{
+ "heading": "# 大小姐与俏女仆 其二",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#13《大小姐与俏女仆》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`101302`",
+  "- **AVG 剧本**：`STsp_13_02`"
+ ],
+ "recap": "不小心和后辈一起被卷入了绑架事件？！别放弃，你们当然能逃出生天。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "不小心和后辈一起被卷入了绑架事件？！别放弃，你们当然能逃出生天。",
+  "episode": "第二话",
+  "title": "大小姐与俏女仆 其二"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "撞了这么多次，还是纹丝不动…… 埃莉诺，你那边怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不行，窗户也被锁上了，砸都砸不开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来是有机关。这下麻烦了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "哈哈哈！别挣扎了！你们逃不出这栋房子的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "这里本来就是我们的地盘！还好当时没把用来困住入侵者的机关拆掉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "没想到咱们能钓到金城区有钱人家的大小姐啊，哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "本来打算再从她身上捞点油水的，不过现在…… 直接找她家里人勒索吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "哼哼，赎金要多少呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "要怪就怪自己吧！不知天高地厚的小丫头，太小看旅人这行当了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我……说不定根本不适合当旅人，这么容易就被骗了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不是你的问题。虽然我还不够了解你，但我相信……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的人生道路，还轮不到一群恶徒来指手画脚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说实话，我当旅人的经验其实跟你差不了多少，但我至少明白一件事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "旅人是一群比任何人都自由的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "遵从内心的信念，不受任何束缚地冒险……我认识的旅人，全都是这样的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要想成为真正的旅人，就别把那些家伙的话放在心上，坚守你自己的初衷就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈……谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "其实……我不是第一次遇到这种情况了。 小时候我被人绑架过一次，他们也是为了勒索高额的赎金。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "多亏家里的女仆长出手，才及时救了我。 后来我才知道，她是一位退役的旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "退役的旅人……难道，你想成为旅人就是因为她？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是的。从被救下的那时起，我就在心中发誓， 总有一天要长大，成为她那样能守护他人的、帅气的大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。那就更不能老老实实地被困在这里了，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嗯，前辈说得没错！我们一起想办法出去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，尘沙她们在星塔里，暂时联系不上。还有别的突破口吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈，可以看下我箱子里的东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不止是那些人卖给我的，里面还塞了很多我以前收集的道具……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "说不定有些可以帮上忙！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "行，我来看看……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "锵……锵锵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "有从退役旅人那收来的，也有拍卖会上买来的…… 总之四处买买买后就这么多了！怎、怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "厉害过头了！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "欸？欸欸？真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……厉害得超乎意料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你一直以来，都带着一箱子的武器跑来跑去吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "武器？原来它们可以当做武器用吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我只知道买，还不知道要怎么用呢……嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，这样啊…… 你这一箱子，武器商人看了都要惊掉下巴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "塞这么多，不会很重吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是很重啦，一开始确实挺辛苦的，但不知不觉就习惯了，毕竟我平时都是带着这只箱子接委托的嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我相信这种程度在身经百战的旅人眼里，顶多算热身…… 我得再加把劲才行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 我真是有了个前途无量的后辈啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，这么多道具，总该有能用上的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有的武器声音太大，惊动那帮人就不好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这把刀太大，根本无法伸进钥匙孔里…… 有了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个，说不定很合适……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，打开了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "哇——！真的把锁撬开了……！前辈好厉害！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘘，小点声，有人过来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就在门外……还好，她没发现锁被撬开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "对了，那个小女仆在哪，你们没看丢她吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "她在另一个房间里，我们已经把门锁上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "做得好。记住，千万不能让她们出来通风报信。我们要的只有大小姐，其他人有什么奇怪的举动，别手软……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "明白！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "呜……！这群人…… 是我连累了花原小姐……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冷静点，一起来想办法吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "对、对不起，我有点失态了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然眼下情况紧迫，但我们一定能救出花原的，放心吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她大概是被关在隔壁房间了，我们只要想办法进去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈，我突然想到了一件事。她们刚才说了，“只要大小姐”……对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "所以，她们应该不会轻易伤害我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "的确。 等等，你的意思难道……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你想当诱饵？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是的，我去把她们引开。前辈就趁这段时间去救花原小姐，可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我，我知道这很危险……可归根结底，这件事是因我而起……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我不能眼睁睁让花原小姐陷入危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我既然有那样的梦想，就不能选择当一个胆小鬼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了。就照你说的来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "谢谢前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但你要答应我，千万不能勉强。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有危险的时候，一定要把自己的安危放在第一位，好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我记住了，前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……对了，遇到紧急情况，就用你手边的这些武器好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比如，这个怎么样？你应该也会用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "使用时机的话——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "原来如此，这就是魔<r=BOSS></r>王的聪明才智吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "那我出发了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "祝你好运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "很好，埃莉诺成功把看守引开了，趁现在……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呜啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？什么声音……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "啊……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她们怎么都倒了……是你做的吗，花原？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "被您发现了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我其实隐约有种感觉，你不像是一位普通的女仆。只是没想到……你有这么厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但这样一来，事情就方便多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花原小姐，请跟我一起逃吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "您……不打算向我要一个解释吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "更何况，我们不过是初次见面，你本来可以直接逃走……为什么来救我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为我不可能放着无辜的人不管。至于现在，无论你的真实身份是什么，大家都有共同的敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以这是一次合作邀请，你愿意接受吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "您真会说话呢…… 合作可以，但这件事请不要让埃莉诺大小姐知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "我不能将秘密暴露给这一次的委托人，这是…… 组织的规矩，请您谅解。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "很好，我答应你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "抓到她了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "臭丫头，费了这么大功夫才抓到！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟糕，埃莉诺被抓了！我们快走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "放、放开我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我不逃总行了吧！相信我嘛——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "可以啊，等把你的腿打断后，我就信你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "咿——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃莉诺，快用那个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈！ 好——尝尝这个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "哇，什、什么情况！烟雾？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "咳咳咳——！眼睛，眼睛好痛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "咳咳……大小姐跑了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "不好，老大！我们什么都看不见了！ 阿嚏——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "老大，老大你在哪…… 呃啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哼，是你们作恶在先，那就别怪我们不客气了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没想到吧？你们押着的人质是颗炸弹—— 不对……应该是烟雾弹才对……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃莉诺，快跟上我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

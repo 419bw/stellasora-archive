@@ -1,0 +1,940 @@
+{
+ "heading": "# 课后的秘密论文 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：卡娜丝（角色编号 `120`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`12003`",
+  "- **AVG 剧本**：`CG_120_03`"
+ ],
+ "recap": "还有人记得我们是来写论文的吗？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "还有人记得我们是来写论文的吗？",
+  "episode": "第三话",
+  "title": "课后的秘密论文 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "鼓起干劲出门的卡娜丝，似乎在房门前和谁说着话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "母亲大人，父亲大人，让二位久等了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "先前正在同某公司的高层商榷要事，哦呵呵呵呵…… 未能及时相迎，万分抱歉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是谁啊？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，声音是卡娜丝，但语气完全变成另一个人了。话说对方是她的父母吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "不论如何，从结果而言，你让我和你父亲在门口足足等待了六分二十一秒。你对时间的管理实在欠缺考量。你明白一秒钟的价值吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "更何况，你又浪费了大概二十秒的时间为自己的行为开脱狡辩。如果没有合理的解释，这事可没完哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "这个…… 教师工作的汇报已经在三周前送到了宅邸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "至于进入星辉学院元老院这件事，元老院至今还没有空缺，但我不会放过任何机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "这种程度的报告就想蒙混过关？我们梅托尼亚家做事向来要达成预期目标的三倍效果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "当然，前提是你还把自己当做是梅托尼亚家的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的父亲",
+   "text": "好了好了，卡娜丝现在已经是个大人了，就让她做她想做的事情吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的父亲",
+   "text": "不管怎么说，你来这边也只是想确认一下她过得好不好，不是么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来卡娜丝的家里有点问题，之前的慌张也是因为这个吧，既然暂时没有危险，我也该离开这里了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我悄悄的打开了办公室的门，打算从卡娜丝身后溜走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的父亲",
+   "text": "站在这里说也不太方便，卡娜丝，我们进屋说话吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "糟了，得快些离开！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那个！不行！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "卡娜丝，难道你有什么瞒着我们的事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "不，没有，只是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "既然没有，就请让开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "卡娜丝的母亲以意料之外的速度，猛地推开了门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好疼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "哎呀？刚才好像有什么撞到门上了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "痛痛痛…… 您，您好，初次见面……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完…… 完蛋了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的父亲",
+   "text": "诶！？你是什么人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "哼，看起来你今天的异常表现就是因为这位拼命躲藏的...... 嗯，失礼了，不知道该怎么称呼您呢？您和我家小女又是何种关系呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个语气，肯定是向奇怪的方向误会了……？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃，那个……我是卡娜丝的学生。只是来请教问题的，绝对没做可疑的事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "学生……？ 你既不穿学校的制服，鞋子上也沾着户外泥土的痕迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "见到大人物也没有第一时间鞠躬问好，却下意识看向我们手臂的动作，你是旅人对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好强的洞察力……！ 不愧是卡娜丝的母亲……！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "确，确实…… 你是旅人，是我请来帮我写论文的，我在写一篇和星塔有关的论文。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "之所以会称呼是我的学生，是因为你去过苍梧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "受那边文化的影响，谦卑地认为“三人行，必有我师”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好生硬的解释，这样说别人真的会信吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的父亲",
+   "text": "原来如此，那是我们孤陋寡闻了。失礼，想必小女给你添不少麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真信了！？不管怎么说...... 总算得救了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "必须趁现在扭转这诡异的气氛……！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪里哪里！我才要感谢您！一直受卡娜丝老师诸多照顾！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了！是下午茶的时间了？我这就去准备，请在沙发上稍坐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "喂喂，你是我请来的旅人，别扮演得像个佣人啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "等等，下午茶什么的，我办公室里哪有这种东西，现在唯一能喝的就是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃，点心好像没有，先准备茶吧…… 在这个神器里？气味很独特啊…… 我先尝一小口……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咕嘟……呜，味道好怪…… 这就是上流阶层流行的口味吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让，让二位久等了…… 请用茶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "哼…… 茶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么气氛比刚才更紧张了？！是哪里做错了？动作礼仪？还是先后顺序？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道了，贵族用餐应该有侍从先试毒吧，那么……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，是我考虑不周了…… 哈啊……请允许我先为二位试毒……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "等一下，那个不能喝——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咕——咕呜——哈啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "味道果然很怪…… 尝不出好喝在哪……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，啊，诶～诶～？眼皮…… 越来越沉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "喂……！ 醒醒！ 魔王？！魔<r=mowang></r>王！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "哼。我们走吧。这场荒唐的闹剧，没工夫再奉陪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的父亲",
+   "text": "这就要走了吗，我们才刚见面一会，下次可是在三个月后啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "待太久会让那帮“老狐狸”抓到把柄，我想要确认的事情已经有了结果，就没必要继续留在这了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝的母亲",
+   "text": "卡娜丽丝·德·梅托尼亚，这次就破例算你及格了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "母亲大人……！ 非常感谢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "太好了呢，卡娜丝…… 虽，虽然不太明白…… 她说你，及，及格了……呜？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "魔<r=mowang></r>王！？振作一点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "随着卡娜丝的尖叫声，我失去了意识。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "啊…… 你总算醒了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我……一直睡到了现在吗？",
+   "options": [
+    [
+     "我……刚刚睡着了？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "嗯， 昨天你喝了那瓶饮料后一下子就晕了过去， 还好没受伤…… 哎， 给你添了这么大的麻烦…… 抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "我不认为你给我添了麻烦哦",
+   "options": [
+    [
+     "不会的，我完全没有觉得麻烦",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "比起这个我睡了多久了？",
+   "options": [
+    [
+     "对了，我睡了多久？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "也没多久啦， 现在快到中午了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "中午？！难道我妨碍你工作了……",
+   "options": [
+    [
+     "中午？！那不会耽误你工作吧……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "别担心， 今天是周末， 办公室里就我们两个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "而且…… 其实…… 看着你睡着的样子， 我反而觉得挺治愈的， 一点都没觉得耽误工作……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "也就是说卡娜丝你也一直在这里？",
+   "options": [
+    [
+     "诶？你昨晚也没回去吗？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "当然没回啊。 说到底这是我的责任， 总不能把你一个人扔在学校里。 所以 就陪你一起在这儿过夜了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "也就是说我和卡娜丝一晚上都在一起……",
+   "options": [
+    [
+     "过、过夜？！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "嗯， 可能是因为我昨晚在赶论文， 时间一下子就过去了。 还有， 托你的福， 原本预计三天写完的文章， 昨晚就差不多搞定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "三天的工作一晚就！？",
+   "options": [
+    [
+     "这么快？！",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "不过你也没睡够吧？",
+   "options": [
+    [
+     "你该不会一晚上都没怎么睡吧？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "好像是。 等我准备休息的时候， 已经快八点了…… 到现在大概…… 睡了三个小时左右？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "你在我身边熟睡， 有很好闻的香味， 不知不觉我就睡着了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "诶……难道你闻了我的味道？！",
+   "options": [
+    [
+     "诶？香味……？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "啊！ 你可别误会！ 是你翻身的时候， 突然一下就贴过来了。 也就是说， 这完全只是个意外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "不过…… 你睡得特别安稳， 抱着你感觉很安心， 我就顺手把你当成抱枕了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "（卡娜丝把我当成了抱枕……？！）",
+   "options": [
+    [
+     "（她怎么把我当抱枕了啊！）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "总之， 这次真的很感谢你， 果然拜托你是正确的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那个…… 下次再一起出去玩吧， 一定会很开心的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦哦。那我很乐意——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来…… 你昨天对我的称呼好像和平常不一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "是错觉，你当时太累了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对吧，你还喊我魔<r=mowang></r>王，平时都是喊我名字的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "是错觉，你当时太累了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这也太不自然了吧？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，我想起来了…… 你那个茶是什么啊，喝了就困？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那是我特制的魔法安眠药，提高睡眠质量用的，结果你一口气喝太多了......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，难怪突然困意来袭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那…… 昨天你的衣服和说话方式又是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "简直就像贵族的大小姐一样，你父母，还有那个姓氏，也是贵族的姓氏吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "是错觉，你当时太累了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不可能！我明明亲眼所见、亲耳所闻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "是错觉，你当时太累了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对啊，当时你妈妈还说了一个名字，卡娜丽丝·德·梅托尼亚...... 那不会是你的全名吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "呜呜，你怎么连这个也听到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "总，总之，人家不是什么贵族大小姐，也没有贵族姓氏，这一切请当做一场梦吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯…… 虽然不太明白，但是你好像也有难言之隐啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "真，真是善解人意呢，总之，我穿着那种礼服的那种不自然的样子请您务必忘掉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然你都这么说了，我会努力忘记的…… 不过，我必须得说一句——我觉得你穿礼服挺好看的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "忘掉！ 记住我现在的样子就可以了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，这样啊…… 好，好吧，我会试着忘掉的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然而，因为种种原因，后来卡娜丝不止一次地在我面前穿上那件礼服。最终不仅没能忘掉，反而印象更加深刻了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

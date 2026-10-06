@@ -1,0 +1,75 @@
+{
+ "note": "上游数据异常与编译器兜底的机器可读登记（build_story 生成）。人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数（正常行为，按字面解析，不逐条列出）；choice_frame_anomalies=抉择关闭指令的 group 无活跃帧（phone 方言不入帧栈，其落空属设计使然，不登记）；emph_tags_preserved/orphan_emph_tags_stripped=成对保留与孤儿剥离的 <b>/<i> 强调标记计数（Phase 4b，clean_dialogue 栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。口径为清洗调用累计（渐显帧签名与文本生成各清洗一次，被折叠帧也计入），不是产物内标记数——产物内成对强调仅 CG_147_02 一行，其余全在折叠帧里。",
+ "code_mismatches": [
+  {
+   "sid": 1010,
+   "story_id": "BAm09_BT03",
+   "storyid_suffix": "BT03",
+   "display_code": "BT02",
+   "bubble_stem": "BBm09_BT03",
+   "condition_id": "C09_BT03",
+   "chapter": 10
+  },
+  {
+   "sid": 1013,
+   "story_id": "BAm09_BT02",
+   "storyid_suffix": "BT02",
+   "display_code": "BT03",
+   "bubble_stem": "BBm09_BT02",
+   "condition_id": "C09_BT02",
+   "chapter": 10
+  }
+ ],
+ "battle_bubble_missing": [
+  {
+   "sid": "BAm06x5_01",
+   "expected_stem": "BBm06x5_BT01",
+   "chapter": 7
+  },
+  {
+   "sid": "BAm06x5_02",
+   "expected_stem": "BBm06x5_BT02",
+   "chapter": 7
+  }
+ ],
+ "unattached_bbm_scripts": [
+  "BBm00_01",
+  "BBm00_02",
+  "BBm00_03",
+  "BBm00_04",
+  "BBm00_05",
+  "BBm00_06"
+ ],
+ "rows_without_script": [],
+ "speaker_prefix_fallbacks": [
+  {
+   "sid": "avg1_134_BB_002",
+   "via": "prefix",
+   "resolved": "冬香"
+  },
+  {
+   "sid": "avg1_144_BB_002",
+   "via": "prefix",
+   "resolved": "千都世"
+  }
+ ],
+ "speaker_inline_names": 1033,
+ "choice_frame_anomalies": [
+  {
+   "stem": "CG_126_03",
+   "idx": 379,
+   "cmd": "SetChoiceEnd",
+   "group": "a_4",
+   "closer": "end"
+  },
+  {
+   "stem": "STm05_07",
+   "idx": 811,
+   "cmd": "SetPersonalityChoiceRollover",
+   "group": "3",
+   "closer": "roll"
+  }
+ ],
+ "emph_tags_preserved": 132,
+ "orphan_emph_tags_stripped": 12
+}

@@ -1,0 +1,895 @@
+{
+ "heading": "# 02B 否认的代价",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`607`　**编号**：`02B`",
+  "- **关卡名称**：否认的代价",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_02_b`",
+  "- **关卡描述**：听见冰裂的声音再跑，就要来不及了。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你拒绝了达尔茜娅的效忠并被软禁，\n翡冷翠则认可了你的信念，并决定与你暗中合作。\n你通知伙伴们为了避免被要挟，要务必尽快逃离公司……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你拒绝了达尔茜娅的效忠并被软禁，\n翡冷翠则认可了你的信念，并决定与你暗中合作。\n你通知伙伴们为了避免被要挟，要务必尽快逃离公司……",
+  "episode": "第二话",
+  "title": "否认的代价"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "01:30",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 公司走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，请这边走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我在翡冷翠和种业士兵的保<r=挟持></r>护下，走出达尔茜娅的办公室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠，你是知道的吧？ 我只是魔王协议的魔<r=BOSS></r>王，和传说中的那个魔<r=mowang></r>王不是一个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "事到如今，您和我说这些也没用，决定权在达尔茜娅大人手上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "在这里，达尔茜娅大人认为是黑色，白色也得变黑。 所以，她既然说您是“传说中的魔<r=mowang></r>王”，那么——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么我就是“传说中的魔<r=mowang></r>王”…… 这也太不讲道理了吧？你们这是非法拘禁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，我想您应该很清楚，这里是联合种业的地盘。您的同伴也在这里，我劝您还是不要有奇怪的想法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我们只是在执行达尔茜娅大人的命令，请不要让我们难做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然用大家的安全来要挟...... 达尔茜娅！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "02:00",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 贵宾招待室"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=mowang></r>王大人，这是您的临时房间，请随意使用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请不要走出这个房间，有什么需要的东西可以告诉我，我会为您准备。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们打算把我关到什么时候？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这取决于您自己，不过也得看达尔茜娅大人的想法…… 但我觉得，如果您能想起——“您是魔<r=mowang></r>王大人”，应该就可以出去了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么非我不可呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那不是我能揣测的事情， 或许，只有您表现出的才具才符合达尔茜娅大人的标准。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "另外，请您交出手机和公司制服。我们会把这两样东西拿给您的部下看，让她们安心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哼……她们对我来说，是你们要挟我的筹码，而我对她们来说不也一样么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人说，您的部下里有不少奸诈之徒，您一定是在她们的影响下，才认为自己是旅人，而非魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以才强行分开我们？ 顺便，要是我不交手机呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人允许我在不伤到您的前提下，对您使用一定的强制手段。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "但是，我并不想真的使用这个权限。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "如果您能解答我一个问题，满足我的好奇心，我可以考虑在我权限范围内通融一下，只取走制服，把手机留给您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么问题？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您明明可以选择假装接受达尔茜娅大人的效忠，但为什么最后还是拒绝了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她一口一个“达尔茜娅大人”，却问出了如此冒犯达尔茜娅的问题。这是在试探我.......还是另有所图？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有什么特别的原因，我只是无法认同她的想法，仅此而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "即使这个选择，会让您和您的部下陷入危险之中？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你刚才不也说，这里是联合种业的地盘吗？所以无论怎样，我们的安全都无法得到保障。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我不在意传说到底是什么样的，我只想成为同伴们信任的那个魔<r=自己></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "同伴们所信任的那个你么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您和同伴之间的信任，真是令人羡慕啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那，为了兑现刚刚的承诺，手机我就不多过问了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的回答你满意就行。 话说……这个行李箱又是哪里变出来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这个？这是我的行李。 您不必担心，里面只有些能满足最低需求的替换衣物和化妆工具。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请您换下公司制服是因为这身劣质的制服实在不符合您的身份，至于手机...... 您其实不用交出手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "达尔茜娅大人只要求我时刻在您身边守卫，确保不让您奸诈的部下把您引入歧途。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那你刚才说的“强制手段”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "骗你的~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不骗一下，我怎么能知道您的真实想法呢？但是，“您和同伴之间的信任，令人羡慕”，的确是我的真心话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您现在就可以联络您的同伴，说出您想说的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这么做......不会违背达尔茜娅的意愿，被达尔茜娅追究吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "有我在您身边随侍，您就不会误入歧途。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "并且，我也想看看……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "您想要成为的那个魔<r=自己></r>王，究竟是何种样貌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "02:15",
+   "date": "谷月 5日",
+   "place": "菲莱金城区 联合种业办公室"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呼啊，好困， 魔王 都进去一个多小时了，怎么还没聊完啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王肯定在和达尔茜娅执行官讨论一些我们无法想象的复杂话题，毕竟两位都是公司的首席执行官呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "虽然我们破坏了温室……但达尔茜娅执行官人这么好，应该不会责怪师父吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那件事达尔茜娅都说没关系啦，而且，当时不还是达尔茜娅执行官把我们从翡冷翠手里救下来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "呜，那为什么有这么多人在......盯着我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯？是魔<r=BOSS></r>王？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "emoji_nope",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，大家都好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_distract_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，我们还好，这边有吃的和水",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "就是有很多联合种业的士兵在盯着我们",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "emoji_distract_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有件事想拜托你——",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们得想办法出城去旅人营地找花令旅团",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_sneaky_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "出城？可是你还没从达尔茜娅的办公室里出来",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "先不用管我",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "emoji_sigh_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我被达尔茜娅软禁了，几乎不可能逃脱",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们遇到危险就逃走",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们平安脱身，达尔茜娅就没办法用你们威胁我了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这才是我和她谈判的最大筹码",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "（透过窗户能看到好多士兵，屋内也是……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "（简直就像预测了我们的计划一样。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "（得想个办法逃出去。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我的胸口不太舒服，能不能扶我去一下医务室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "又是你啊，快去快去，分给你的工作不能耽误啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的组长",
+   "text": "那边刚才没出声的实习生帮她一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "对了，用星雁前辈的那个办法......希望她能意识到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "咕，好难受。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀？等下，琥珀？！没事吧，怎么了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "胸口，不舒服，医务室......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "医务室......?!",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "那个，琥珀可能过劳导致的心脏缺血，我们快去医务室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "等一下，达尔茜娅大人有命令，你们不能离开这个房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "都什么时候了还在纠结这个？琥珀是魔王协议的员工，可是达尔茜娅大人的贵客，她身体出了什么问题你们担待的起吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "这......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的种业士兵",
+   "text": "听说达尔茜娅大人希望能和魔王协议达成友好的合作关系，我们接到的明面命令也只是“护卫”，真的出了什么事，我们得罪不起啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "但是......也不能轻易地放她们走， 啊，我知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "让开道路，跟在她们后面，护送她们去医务室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "02:45",
+   "date": "谷月 5日",
+   "place": "菲莱温室区 七号温室"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我们到了，这里就是我的“医务室”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "这里是……医务室？ 虽然是有折叠床，但怎么看都只是温室里一个隐蔽的角落啊…… 我喜欢的那种。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "谨慎的种业士兵",
+   "text": "报告，有达尔茜娅大人的联络。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "是，达尔茜娅大人，我们就在这些旅人的身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "明白，这些旅人连同星雁，一个不留。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诶诶诶，你们要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这种情况下的“一个不留”，那不就是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "达尔茜娅此时动手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "也就是说大楼那边也发生了什么情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "多疑的种业军官",
+   "text": "子弹是从哪边飞来的？ 难道......难道监察部早有埋伏？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "幸亏琥珀反应够快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "在这里，我的“飞羽”们就可以自由发挥了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "温室的灌木丛中飞出了数把和星雁手中枪同型号的“飞枪”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在交叉火力的打击下，联合种业的士兵拖着受伤的同伴逃出了温室。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呼……终于甩开了。 琥珀，你假装身体不舒服……是提前知道了达尔茜娅要对我们下手？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不是我，是魔<r=BOSS></r>王。 你们看，魔<r=BOSS></r>王的信息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父被软禁了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "为什么会这样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "现在不是闲聊的时候，士兵们追来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "我会用“飞羽”支援你们，大家快往正门走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我去开小绿~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们在温室门前见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

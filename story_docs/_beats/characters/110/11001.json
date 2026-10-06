@@ -1,0 +1,796 @@
+{
+ "heading": "# 菲莱假日 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：翡冷翠（角色编号 `110`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`11001`",
+  "- **AVG 剧本**：`CG_110_01`"
+ ],
+ "recap": "从未见过的，她的另一面。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "从未见过的，她的另一面。",
+  "episode": "第一话",
+  "title": "菲莱假日 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "办公室内一片安静，唯留笔尖在纸面上专注写作的“沙沙”声。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "翡冷翠大人，这是明天的会议材料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "辛苦，放在这里就行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "那个…… 翡冷翠大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "还有别的问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "其实按照日程，今天您应该休息的。您昨天又没好好吃饭吧，会不会太勉强自己了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我明白。但公司正值转型期，我不能轻易停下手头的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "那，起码让我和红宝石为您分担压力……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不必了。今天是休息日，你和红宝石没必要来公司，回去休息吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "我明白了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "唉，还是老样子。不希望我们加班，她自己却……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "翡冷翠大人已经连续工作快两周了，这样下去不是办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "我们没办法劝翡冷翠大人回心转意，那就去找能劝动的人来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "这么说的话，只有“那位大人”了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，你们就把我拉过来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "拜托啦，魔<r=BOSS></r>王，我们现在能指望的人只有您了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，按你们刚才的说法，确实不能坐视不理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "感谢您的理解。只要一天就好，我们希望她能渡过一个愉快轻松的假日。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但就算我想帮忙，以翡冷翠的性格，不处理完所有工作，恐怕无法心安理得地休息吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总不能强迫她接受。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "放心吧！翡冷翠大人这段时间的工作，就由我和蓝宝石来接手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "是的，我们已经计划好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "只是，在您将翡冷翠大人带出公司的路上，最大的阻碍是那些不知情的员工，大概率会有人找翡冷翠大人汇报工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "为应对这种情况，届时，请您使用我们准备的“秘密武器”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就在这个袋子里？所以里面装的是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "这、这是机密！ 非到万不得已，最好不要使用……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "行吧…… 就按你们说的来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "打扰了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "办公室还是那么整洁。房间里充满了柠檬的香味…… 真清爽。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "是魔<r=BOSS></r>王啊，什么风把你吹来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今天有重要的工作要与你商量，希望能占用你一点时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请讲。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔...... 这里不太方便，我们能不能去公司外面聊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "嗯？呵呵…… 我明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "只是，我手头上还有没处理完的工作，如果你愿意等上一会儿……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "两位，打扰了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "打扰啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不是让你们俩回家休息吗？怎么还留在公司里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "我们在回去的路上偶遇了魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "魔<r=BOSS></r>王可是我们重要的合作伙伴，不能怠慢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "翡冷翠大人，您就放心去吧，文书工作可以先交给我处理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "跑腿的工作就由我负责！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "偶遇？那还真巧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "呜，翡冷翠大人的眼神好犀利，压、压力好大……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "嘘，小点声，别露馅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳…… 总之，工作的问题解决了，应该可以陪我外出了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "那，接下来就交给你们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石&红宝石",
+   "text": "……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石&红宝石",
+   "text": "请您放心！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王，我们走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总感觉她们的计划已经暴露了啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "红宝石",
+   "text": "魔<r=BOSS></r>王，要加油啊，今天别回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蓝宝石",
+   "text": "加油。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊哈哈，我会努力的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "生产部职员",
+   "text": "翡冷翠大人！您来得正好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "怎么，是生产部那边有什么问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "生产部职员",
+   "text": "没有，只是有个生产改进方案需要您看一下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "有意思，让我看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "红宝石和蓝宝石就在你的办公室里吧，生产部也是她们负责的部门......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "说得也是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "抱歉，这份方案能先放到我的办公室吗？会有人给出意见的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "生产部职员",
+   "text": "明白！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你还真是个大忙人啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "公司出了这么大的变动，新的流程建设尚不完善，大家都习惯直接来找我解决问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "不过，你刚刚提醒的对，我不应该再这么带头破坏流程了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心交给红宝石和蓝宝石吧，她们俩可以的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "可是，魔<r=BOSS></r>王，这一路上我们遇到的汇报工作的员工说不定会很多，再被拦下几次的话，我会忍不住先回办公室的哦？呵呵，你打算怎么办呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心，我早有准备。只要用这个“秘密武器”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "这是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "红宝石和蓝宝石给你准备的，她们说遇到困难再拿出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "她们两个准备的？原来如此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "翡冷翠确认了袋子里的东西，露出耐人寻味的微笑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "里面是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "没什么，稍等我一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "久等了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯嗯...... 嗯？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呼，还好能穿得进去。怎么样，合适吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "非常合适…… 这是，校服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "是我以前就读的菲莱公学的校服哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来秘密武器居然是…… 为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我猜，多半是红宝石或蓝宝石打算把它作为变装道具，才从我衣柜里翻出来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可偏偏选了校服？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "因为没有别的选项。为了不把时间浪费在每天早晨的挑选衣服上，我的衣柜里有三十件一样的工作服。除此之外，就只有这件当年留作纪念的校服了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，也算是翡冷翠的风格吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "就当你在夸我好了。那么，衣服也换完了，我们走吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "翡冷翠换上校服后，果然没有汇报的员工找她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "偶尔有员工投来好奇的目光，却没有人能将这位“女学生”与他们的“翡冷翠大人”联系到一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，总算出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "用蹩脚的借口邀请我出门，还特地让我换上校服……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "呵呵，魔<r=BOSS></r>王，你难道， 是打算与我“约会”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "约，约会！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

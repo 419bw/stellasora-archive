@@ -1,0 +1,708 @@
+{
+ "heading": "# 第二话 来自幽灵船",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：惊奇冒险！渊海幽灵船传说！（活动编号 11100）",
+  "- **关卡 ID**：`111000202`",
+  "- **AVG 剧本**：`STev_01_02`",
+  "- **关卡描述**：两位陌生的兔子少女搭救了你。 她们要去寻找“幽灵船”光芒的源头。"
+ ],
+ "recap": "两位陌生的兔子少女搭救了你。\n她们要去寻找“幽灵船”光芒的源头。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "两位陌生的兔子少女搭救了你。\n她们要去寻找“幽灵船”光芒的源头。",
+  "episode": "第二话",
+  "title": "来自幽灵船"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "幽灵船？！真的吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "没错！哼哼，害怕了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "好了好了，小花铃，别开玩笑了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你才醒过来，情绪不能太激动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你感觉怎么样？有哪里不舒服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还好，就是脑袋里嗡嗡的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "应该是溺水时短暂窒息造成的，好好睡一觉就能恢复了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "溺水…… 对了，是你们救了我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "算你走运。我们的船开出去没多久，就看见你在浪花里扑腾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "要不是希娅把你捞上来，你现在已经是鲨鱼点心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感、感谢二位的救命之恩！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "太夸张啦～救人不是理所应当的嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "我救你上来的时候，你的手里还紧紧握着一个提灯。 你是在哪里发现它的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在海里…… 我就是因为去捡提灯，才被海浪卷走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "咳咳，我收回刚刚夸你运气好的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那盏提灯原本放在甲板上，不知道什么时候掉进海里了，可能是刚刚浪太大了。 我正找得认真呢……结果就看到你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "是我们的过失害得你落水了，真是不好意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系，反正你们也救了我嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 这下真的是“幽灵船”的提灯了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "正式介绍一下，我是希娅， 这位是花铃。 我们是从卡洛镇的港口出发的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "卡洛镇……就是我们正在调查的这座小镇吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "希娅、花铃，幸会幸会。 我是 魔王，你们也可以叫我魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "魔<r=BOSS></r>王……？ 有趣的称呼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "魔、魔<r=BOSS></r>王？！ 好奇怪的称呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "老实交代，为什么你会一个人鬼鬼祟祟跑到海边？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你是哪个组织的？谁派你来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冷静冷静，我只是一个普通的旅人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "谁的手机响了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的。不好意思二位，我接一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼，该不会是同伙来接应了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然这样说倒也没错……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "喂喂，魔<r=BOSS></r>王，你没事吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "一直联系不上你，我们都急坏了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，之前出了一点意外……我不小心掉进海里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "掉进海里了？！！ 魔<r=BOSS></r>王，你还好吗？你现在在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "都怪雾语，明知道你不会游泳，还要你去海边调查……这种事我去就好了嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，让你担心了。没事的，有好心人救了我。 我在她们的船上，等下就回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "太好了…… 我们在海边的小吃摊那里等你，一会儿见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，一会儿见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "回去以后，肯定逃不过大家的连环追问了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么都用这种眼神看着我。我说错话了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你刚刚说，“等下就回去了”，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，是说了……怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "其实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你回不去了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊？？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然……四面都是海。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "如你所见，船已经开出了一段距离，离岸边很远了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我们有很重要的事情，时间紧张，没办法送你回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不过，看在你这么可怜的份上，我可以分你几个罐头，不至于让你变成饿死鬼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "哎呀，小花铃，不要说得这么难听嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "好吧，我道歉。 对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么要这样看着我啊？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "明天我们会在途经的小岛补给物资，说不定能找到人带你回镇上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "今晚的话，只能委屈你在船上过夜了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。你们要开去很远的地方吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "没错，非常非常远，连海鸥都飞不过去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我记得鸢尾说过，镇上的自然条件适合出海，不少航海旅人都驻扎在这里。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，没几个旅人能去远海航行。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道她们是为了调查那个神秘出现的光芒吗？这也太冒险了吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们居然能开到那么远的海域，好厉害。 我一开始还以为这只是艘普通的近海渔船……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那当然了，我们可是卡洛镇名声响当当的航海旅人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "论综合实力，希娅是当之无愧的第一名！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我的话…… 应该可以排进前十吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实，能操纵这种多桅帆船，还选择在风暴季节去远海。 如果没有高超的航海技术，一定很难做到吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你明明不会游泳，却很了解出海的知识呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "一般来说，人在溺水后会非常恐惧大海，得知可能要在海上长期停留时更是会崩溃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "而你不仅平静地接受了这个事实，甚至还有些兴奋……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "魔<r=BOSS></r>王，你真的只是“普通的旅人”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊哈哈，我只是碰巧了解一些罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "骗人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "刚刚你用手机的时候，对面那个人提到了“海边调查”，你到底是来干什么的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "事先声明，我不是故意偷听，是声音非要钻进我耳朵里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "你和你的同伴，也是来调查海上出现的光芒吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "距离光芒上次出现已经过去了两年，不少人都想凑个热闹。 我想，你大概也是其中之一吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "事已至此，只能实话实说了。毕竟她们也救了我一命。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，我老实交代。其实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我向她们简单讲述了此行的目的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼……果然是为了“幽灵船”而来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你真是找对人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你面前站着的，是卡洛镇有史以来最伟大的航海旅人，玛琳女士的家人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "而且…… 玛琳女士是唯一亲眼见到海上光芒的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "希娅",
+   "text": "嗯，十三年前，我的奶奶亲眼见到了那团光芒……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她说，那的确是幽灵船散发的光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

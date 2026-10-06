@@ -1,0 +1,847 @@
+{
+ "heading": "# 08 杂鱼战术",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第七章《星之竞拍》（星塔历 996 年）",
+  "- **关卡 ID**：`817`　**编号**：`08`",
+  "- **关卡名称**：杂鱼战术",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm07_08`",
+  "- **关卡描述**：帮手总是多多益善。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你从瑟拉娜那里得知，梅尔库莉娅正想尽办法拖慢你的行动。\n伙伴们各自活跃，一路辗转安全脱身护送你来到城外。\n最终空白旅团殿后掩护，只有千都世与你一起乘上缆车……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你从瑟拉娜那里得知，梅尔库莉娅正想尽办法拖慢你的行动。\n伙伴们各自活跃，一路辗转安全脱身护送你来到城外。\n最终空白旅团殿后掩护，只有千都世与你一起乘上缆车……",
+  "episode": "第八话",
+  "title": "杂鱼战术"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "比琥珀接到魔<r=BOSS></r>王信息稍早一点的时候",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:36",
+   "date": "猎月 14日",
+   "place": "菲莱银城区 酒店房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "魔<r=BOSS></r>王，我这里有一份对你来说非常重要的情报，呵呵。你要不要买？可以给你优惠价哦♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好久不见，瑟拉娜。上次和你聊天，还是在旅人营地吧……我们潜入联合种业之前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "是啊，虽然只有短短三个月，却好像过了很久一样呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "已经过去三个月了啊。 我的确需要情报，不过，我现在有点忙，能否请你直接说明来意呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "明白了。那我就长话短说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，天穹保险的人冲进大厅了，我们的计划成功了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来千都世已经发现了敌人。翡冷翠和星雁五分钟内就会支援过来，我们坚持一下就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉……刚才的聊天被打断了， 瑟拉娜你说的事是？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "魔<r=BOSS></r>王你想用自己做鱼饵，把敌人钓出来，再让天穹保险不认识的千都世做鱼钩，这的确是个不错的计划。但是呢，我偶然得到了一段这样的对话录音——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "二十号，你们去拖住魔<r=BOSS></r>王和空白旅团。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "二十号业务员",
+   "text": "我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "二十号业务员",
+   "text": "梅尔库莉娅大人，您不是开玩笑吧，那帮人和花令旅团一起击败了巨大魔物，还干掉了造出那种植物的达尔茜娅，我们哪里打得过？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "所以是让你们“拖住”！只要让她们在十一点半之前无法抵达缆车站就好，我会派人破坏缆车站，让她们无法上岛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "遇到强敌不要抵抗，破坏了酒店的走廊和大门就可以投降，反正酒店这边的财产都投过保了，你们尽管放手大闹一场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "除此之外，我还安排人在城里散发了传单，很快，魔<r=BOSS></r>王就会寸步难行了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "天穹保险派来的可不是某只狐狸和沙蝎那样的大鱼，你设下的鱼线的确不错，但梅尔库莉娅只想用杂鱼拖住你的脚步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只有一支杆，却来了一大群鱼，这下麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "放下武器，你们被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "佣兵们",
+   "text": "我们投降。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "天穹保险这是雇了多少人？把大门都堵住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "翡冷翠，不好了，你快看这张传单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "联合种业菲莱公司于今日十一时......发放免费的茶色夜莺面包，先到先得。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "我知道，你们的车子停在酒店后面的树林里，那里现在还没被堵住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "不过，外面的情况你也看到了。你的同伴还能靠着魔法和身体素质强行挤出一条路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "“魔力绝缘”的你，想要安全地穿过这群“杂鱼”，也不是件容易的事情，至少需要二十分钟吧。到时候，来领面包的人就会把附近的街道彻底堵死。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "瑟拉娜......你既然掐准这个时间和我联络，你的那个情报就是能解决这个麻烦的情报吧？ 不管多少朵拉，我都买！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "呵呵，都不问一下价格吗？看来你是真着急了呢。不过话虽如此——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "请您掀开房间里的沙发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "沙发？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，抱歉，帮我一把。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "沙发下面有一条密道，五分钟就能让您抵达藏在酒店后方的车子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "瑟拉娜，你在开玩笑吗？沙发下面是完整的地板，根本没有密道！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "咦？？？怎么会？那家伙明明前几天就挖好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可是，真的没有密道， 这个敲击的声音......下面是实心的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "魔<r=BOSS></r>王，鸢尾， 太好了，你们还在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "快来我的房间，我的沙发下面好像有条密道，我们可以从那里逃出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:40",
+   "date": "猎月 14日",
+   "place": "菲莱银城区 酒店406号房"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "唔......密道为什么会在隔壁房间，我明明之前亲自检查过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就结果而言你的情报确实没错。细节就不必太在意了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们走。我给琥珀发信息了，我们和她们在车子处集合， 贝修莉娜，你也一起来，待在这里很危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "遵命♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "可恶，好不容易藏到沙发里，想等魔<r=BOSS></r>王坐上来的时候一下子抓住你，为什么来的是那个看上去比我还未成年的恩赐意志员工？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "明明和那个兜帽女一起确认过了，这里就是魔<r=BOSS></r>王的404房间。难道是......那天来确认的时候，那个狐狸搞的鬼？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "不管了，我可不能让魔<r=BOSS></r>王就这么逃走，顺着密道追上去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:45",
+   "date": "猎月 14日",
+   "place": "菲莱银城区 酒店后方树林"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，快上车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？只有尘沙和千都世？琥珀呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "她为了掩护妾身和尘沙，留下阻拦敌人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，没时间等了，我们必须在十一点半之前赶到缆车站。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不好，你们看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们顺着尘沙手指的方向看去，不少市民和魔物车， 正兴冲冲地向酒店赶来",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "眼前的道路已被完全堵塞",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，你一定要护送魔<r=BOSS></r>王安全抵达。魔<r=BOSS></r>王，这张纸你拿好，这是我昨晚总结的菲莱星塔的资料，爬塔时有用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾你要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "还能怎么办，只能这样了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "随着鸢尾的吟唱，寒风裹着河水，在马路中央凝结成了两道薄薄的冰墙，硬生生地分开了人群，挤出了一条仅供幸运绿洲号通过的道路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "就是现在！快走！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "各位，坐稳了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:20",
+   "date": "猎月 14日",
+   "place": "菲莱城外 缆车站附近"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，我和鸢尾都没受伤，已经和翡冷翠、星雁汇合了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们一共抓到了两百多佣兵，来领面包的市民们......也疏散到附近的几家种业商店去了",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们正在向缆车站赶去......",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_sad_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "不过，应该没办法按时到达了，好遗憾",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家没事就好，是我的错，没提前察觉到天穹保险的计谋",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "还有个好消息",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那些业务员在星雁的审问下全交代了，她们说旅人营地里都是我们的支持者",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "天穹保险根本没雇到靠谱的旅人",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "爬塔许愿，还是我们的赢面大",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_cheerup_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "加油，魔王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心吧，我不会辜负你们的努力的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝修莉娜，天穹保险为了中标闹成这个样子，不会被取消投标的资格吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "是的。毕竟没有违反任何规定呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "所谓的星塔招标，其实不光是考量财力和爬塔许愿水平，也是公司之间竞争的“擂台”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "只要不闹出大事，恩赐意志只会旁观。毕竟公司之间的争斗本就不会“和平”，动刀动枪都是日常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "破坏缆车站还不算大事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "这个嘛……自从星塔被禁用后，就没人用了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "我想，只要梅尔库莉娅打点好绯瞳传讯，别闹出人命，的确不算“大事”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "大家坐稳了，前面就是缆车站了，有人拿着武器放了路障，我们只能冲过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的佣兵",
+   "text": "有车来了，缆车的钢索还没剪断吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "无奈的佣兵",
+   "text": "那帮业务员给的神器是劣质品，剪了几下就豁口了，不过已经快磨断了，再坚持一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狂妄的佣兵",
+   "text": "射箭，开枪，给我拦住她们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好！到～站～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，拦住那个剪钢索的人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "是，主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "被打晕的佣兵从缆车顶翻滚下来，摔在一旁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "缆车钢索上绷断的几条钢丝绳向我抽来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，您没事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没事， 这个钢索......看上去勉强还能用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狂妄的佣兵",
+   "text": "别怕，你们人少，只要让你们无暇给缆车注入魔力，我们的任务就成功了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "打倒一个又冒出一个……天穹保险到底雇了多少人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "总之这里交给我来想办法！小千，你和魔<r=BOSS></r>王上缆车，后面就交给你们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "交给妾身......可是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "总不能让人在这里把小绿弄坏吧。以及，不管怎样我都要留下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "要让缆车运行，必须有人持续注入魔力作为动力才行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，相信大家，做我们能做的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是尘沙，绝对不要乱来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没问题，这些家伙虽然人多，但实力没什么大不了的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "给缆车注入魔力的事情就交给可爱的我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那么魔<r=BOSS></r>王，待会儿见！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "目送尘沙冲向佣兵们的背影――我和千都世登上缆车，向着碧蓝的天空和湖水中，缓缓驶去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

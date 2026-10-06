@@ -1,0 +1,652 @@
+{
+ "heading": "# 千面演者 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：乙叶（角色编号 `145`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`14501`",
+  "- **AVG 剧本**：`CG_145_01`"
+ ],
+ "recap": "怀着不可告人的目的，她精心制造了一场偶遇。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "怀着不可告人的目的，她精心制造了一场偶遇。",
+  "episode": "第一话",
+  "title": "千面演者 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "休息日的清晨，许多人还沉浸在梦乡中，而我却——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然是受尘沙之托…… 但没想到她会托我这么早出去买东西啊，总之赶紧买完回去吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "这位客人，真是不好意思…… 您要的“特大号开口扳手”昨天全卖光了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "全卖光了吗？ 怎么会这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "等等，我想起来了，还有这个—— 我们的镇店之宝，“超级豪华修理工具套装”！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“超级豪华……”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "没错！这个套装里有各种类型的扳手、螺丝刀和钳子！ 只要有了这个，什么都能修！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "当然，也包括您要的“特大号开口扳手”。 只剩最后一套了，给你个优惠价，二十万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不不，这也太贵了。我只需要一个开口扳手而已，用不着那么多工具。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了，我还是去别的店看看吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这位你，请留步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？是在叫我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "如果我没有猜错的话，您购买开口扳手是用来修理神器车的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "乙叶？！她怎么在这里？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了，姑且配合她一下，恐怕她又有什么“秘密计划”。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，我们旅团的神器车出了点问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "原来如此。 那这个套装的确很合适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "里面不仅配有全套修理工具，还附带了测量工具与头戴式照明神器，方便在车底作业。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "只是…… 这工具箱的颜色不够雅致，表面还有不少划痕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "作为礼物的话，还是稍显逊色。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "礼物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "最近我刚好在做神器车相关的研究。 贵旅团的车，我也很感兴趣呢。 您如果不介意的话，可以让我一起去看看吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我来买下这个工具套装送给您，就作为…… 我的上门礼物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎哟，那多不好意思。 来就来吧，还带什么二十万朵拉的礼物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "神器车…… 研究…… 难道说！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "您就是那位传说中的那位天才机械师吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天才…… 机械师？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "您不知道吗？ 这位大师不仅精通各类工具的维修，还花了大价钱搜罗市面上所有新出的工具。只要是她相中的，从来都不会还价。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "在我们修理界，她可是大名鼎鼎的传奇人物！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，过奖了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "听说您只光顾高级定制工具行，怎么今天也来逛集市了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "集市上偶尔也藏着一些惊喜。 这位你，您说对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对、对……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "老板，那就麻烦你帮我包起来了。 这是钱款，您可以清点一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "不用了，这个工具套装我送给您了！ 我一直很仰慕您，就当做是我的一点心意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "谢谢，该付的钱我还是要付的，不能让您赔本做生意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "您别客气，这个套装也是压了很久的库存。价格太贵了，不知道什么时候才能卖掉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "况且这段时间我的生意特别好，也赚了不少，就当是添彩头了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "合着他是想把压箱底的库存卖给我啊…… 还说什么“镇店之宝”。真是个精明的商人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "最近客人变多了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "对，光是旅人就来了好几拨，个个急着买修理工具，说是武器坏了之类的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "难道城外出了什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这我就不太清楚了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "又有大型讨伐？还是旅团之间打起来了？ 如果真是这样，不可能没有一点风声。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "哪些工具卖得比较好呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "除锈剂啊，螺丝、螺栓之类的…… 也没什么特别的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "前几天倒是有人给我推荐什么“保险”，说是万一贵价的工具坏了，可以照价赔付。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "老板你被推销过吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "倒是也有，但都被我轰走了。 我哪有闲钱买保险啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "工具店老板",
+   "text": "要我看，他们就是白费功夫。 听说还找了不少旅人呢，谁会买这东西呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，保险推销员也找过鸢尾，但被她果断拒绝了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，乙叶怎么突然提起保险了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "呵呵，说的也是呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "那就多谢老板的礼物了。这份好意我记下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也是，谢谢老板！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我带着乙叶离开集市，来到公园，才终于松了一口气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "好了，魔<r=BOSS></r>王，不用再装了。 刚刚的表演很精彩呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多谢你的夸奖……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下次再玩角色扮演的话，可以提前预告一下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "当然要在毫无防备的时候，才有意思啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过我确实没想到，你竟然还有“天才机械师”这个名号。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "毕竟我需要的材料和工具比普通旅人更复杂一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "无论是从星塔里发掘的新型武器，还是从商贩那里收来的旧设备，都值得好好研究。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我只是多买了点东西，和老板们交流了一些心得，就被大家赋予了那个头衔，真是受之有愧呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "根本感受不到愧疚的心情啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，谢谢你的工具套装。尘沙收到了一定会很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，你找我是有什么事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "如果我说， 这只是个偶遇呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "魔<r=BOSS></r>王的目光太真诚了，让人无法撒谎呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "我正在调查一件事，这件事情，或许和魔<r=BOSS></r>王也有关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听起来不像是什么好事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "因此，我希望魔<r=BOSS></r>王能助我一臂之力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然我的体力算不上太好…… 但我会尽力帮忙的，也是看在那套工具的份上嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "感谢魔<r=BOSS></r>王的信任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": "在这期间，还请魔<r=BOSS></r>王多多配合我了。 我向你保证，这会是一次有趣的体验。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉…… 看来今天是没办法好好休息了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,795 @@
+{
+ "heading": "# 02B 变装侦查",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`206`　**编号**：`02B`",
+  "- **关卡名称**：变装侦查",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_02_b`",
+  "- **关卡描述**：人靠衣装，是因为有些人只看得见衣装。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "密涅瓦换上白金公学的校服，变成了大小姐。\n她借着应聘的机会，调查清楚了商会的布局，\n然而，潜入真的会一帆风顺吗？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "密涅瓦换上白金公学的校服，变成了大小姐。\n她借着应聘的机会，调查清楚了商会的布局，\n然而，潜入真的会一帆风顺吗？",
+  "episode": "第二话",
+  "title": "变装调查"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:43",
+   "date": "雨月 1日",
+   "place": "埃摩灰城区 灰风俱乐部"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "你们看，这是白垩商会新发的招聘广告。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "他们急招一个神器研究岗，很有可能是为了研究你们的车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "靠白金公学的名声，我应该能拿到面试的机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "到时候，就能知道菲金把车子藏在哪里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "哎，你们怎么不说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "那，那个……你们也有同感吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你......你还是密涅瓦吗？不是什么双胞胎妹妹之类的吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "完全......变身了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "不愧是白金的校服，气质都不一样了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月",
+   "text": "说什么呢，明明是老大气质好，能撑得起来这衣服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新月",
+   "text": "我们穿上同样的衣服也不像样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "别看低自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "靠自己的双手填饱肚子的你们，明明自己也是孩子，却还保护其他孩子的你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我认为非常可贵又了不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月&新月",
+   "text": "老大......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "衣服就只是衣服，永远也无法代替人的价值。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "密涅瓦说的是正理。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过只看衣装的人还是很多吧，要不然，她也不会说——靠着白金公学的名声就能被面试了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲金认识你，只靠一件校服不够吧，是不是还得化个妆？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，你在说什么？密涅瓦都这样伪装了，菲金怎么可能认得出。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不不……应该不至于吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这完全就是两个人嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这份自信究竟从何而来……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "戴上眼镜，就是另一个人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不是这个问题，我是说…… 算了，没什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道是我的感觉出问题了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:30",
+   "date": "雨月 1日",
+   "place": "埃摩金城区 白垩商会"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "你好，我是来应聘的，请问接待处是在这边吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "约定的时间一到，变装后的密涅瓦便走进了白垩商会。 守候在水道桥上的众人正通过手机监听她和商会前台的对话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "商会前台",
+   "text": "您好，您带简历了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "有的，在这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "商会前台",
+   "text": "没想到连白金公学的学生都大驾光临，我们全体员工都倍感荣幸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "是的，今天夏天我就要毕业了，提前出来找找工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "白金的学生？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "日安，我是菲金， 竟然没有给您奉茶，我们的前台不懂事，太失礼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "哎呀？你……的眼睛......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要被识破了吗……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "这副眼镜很适合你呢，镜框颜色和瞳色简直绝配。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "啊，谢谢夸奖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "眼镜也太神奇了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "那么请随我到这边来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "啊，您还是先看一下我的简历吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "不用不用，穿着白金公学校服的孩子都很优秀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "前台，麻烦端茶过来，这可是未来的王牌候补，别用便宜货招待哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "这个岗位的主要职责是研究神器的结构，分析神器不同部位的功能，写出报告。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你是白金公学的学生，平时一定接触过很多神器，的确是这个岗位很适合的人选。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "感谢您的青睐，能听您这么说我也有信心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "不过关于神器的构造，我以为已经研究得很透彻了……相关的报告白金公学里有很多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "如果您需要的话，我可以直接查阅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "白金公学的藏书真令人羡慕啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "不过，我说的并不是那些被人研究透了的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "请跟我来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "这是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "很稀有吧？最近搞到的超大神器车，据说是几个旅人一点点地拼起来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "的确是很稀有的神器，也很有研究价值。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "能不能让我看一下车子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "嗯。想看多久都可以。不过要小心别弄坏了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "唔，四个轮子应该是分别许愿的，轮子和轮轴之间的连接…… 原来是用这种巧妙的结构实现的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "车厢也是分别许愿然后拼装， 不对，这个地方的车壳应该是手工打制的，能做成和许愿出来的金属材料一样的颜色，真不容易。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯嗯，就是这样，这可是大家一起拼出来的小绿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "密涅瓦说得好准，轮轴连接的地方很难做呢，如果让我重做一次，恐怕我就搞不定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "花费了很多时间的地方被注意到了，好高兴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "灰风的滑板是她发明的嘛，当然也能看得懂小绿，都是四个轮子加一个连着轮子的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "白金的学生果然慧眼，我觉得不用继续面试了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "如果你愿意，明天就可以来白垩商会上班。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "月薪五百万朵拉如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "如果能成功分析出各个部分的作用，以及怎么写许愿祷词，可以涨到月薪两千万，并且加入白垩商会的元老院。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "两千万！我没听错吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "元老院......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "喂喂重点错了吧？！她竟敢拆小绿！我们快点冲进去吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冷静，尘沙，我们知道了车子的位置，就能在菲金下手之前把车子夺回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "这太突然了…… 不过非常感谢，请务必让我参与这项工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "另外想问一下，拼出这辆车的旅人呢？如果有拼装者的协助，研究就事半功倍了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "啧……居然要在这种时候让那些野人出场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "她们是欠债，才把这辆车抵押给我们的，人早不知道去哪了。 所以抱歉啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "真遗憾。 我还有最后一个问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "刚才提到要分析许愿方式，但即便理解了原理，也未必能获得相同的结果吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "这样的研究真的有意义吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "放心，我保证你的研究能够应用到许愿上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "我们白垩商会拥有神奇的“许愿卡”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "用这张卡，根本不需要理解祷词的含义，只要付出比平时更多一些的记忆，就能直接许愿出卡里面记录的神器了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "让旅人拿着卡去许愿吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "这种简单的工作当然不会找旅人，成本太高了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "找城邦里的孤儿就行了，雇一个旅人的成本，就能弄来四个孩子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "应聘的学生",
+   "text": "这……许愿的小孩子不是会失去大量记忆吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "你……还挺爱操闲心的啊？那也不是我们的问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "毕竟，我雇佣的时候会和他们签契约的哦。所以就算工作中发生了什么……也是他们自己的责任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "别想那些了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "有了你，白垩商会一定能恢复过去的荣光，成为没人可以轻视的大公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "和我一起成为重振白垩商会的英雄吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

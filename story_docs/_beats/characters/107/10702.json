@@ -1,0 +1,680 @@
+{
+ "heading": "# 蒙面骑士缇莉娅 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：缇莉娅（角色编号 `107`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`10702`",
+  "- **AVG 剧本**：`CG_107_02`"
+ ],
+ "recap": "正义之心觉醒！狩猎巨人的骑士。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "正义之心觉醒！狩猎巨人的骑士。",
+  "episode": "第二话",
+  "title": "蒙面骑士缇莉娅 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王抓紧我，马上就到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "快！再快一点，骏鹰号！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "提莉娅的骏鹰号载着我，奔驰在埃摩城外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好快！这就是骏鹰号真正的速度吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "缇莉娅，我在城里看到的帝国卫队，他们骑的神器车都是慢吞吞的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "骏鹰号是特别的！卫队发下来的神器车…… 都是许愿失败的廉价货——虽然也挺贵了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "所以，我就自己找朋友维修改装了一下，让它恢复了真正的实力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "其实，骏鹰号还可以更快的，只要我继续加速——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别说话了！前面！看前面！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "哇啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "……呼，好险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还好在最后一刻闪开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "吓到你了，不好意思啊，魔<r=BOSS></r>王……没有受伤吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没事。还挺刺激的…… 下次要好好看前面的路啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那是当然！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "话说回来，魔<r=BOSS></r>王一起跟来没关系吗？你还有要去的店……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没问题，我这边不是什么急事， 再说你的对手是“巨人”吧？那么帮手肯定是越多越好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王……！谢谢你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气喘吁吁的少女",
+   "text": "农场，我们的农场被巨人袭击了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "巨，巨人？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "没关系，交给我吧，正义的伙伴缇莉娅会战胜邪恶的巨人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从来没听说过“巨人”这种魔物，明明连敌人是什么都不清楚，为什么立刻就信了啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "万一，只是小孩子错误地把什么东西当成了巨人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "这是……正义的直觉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，就算是正义的直觉，你也得考虑你自己吧，帝国卫队的执勤范围包括城外吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呃，这个……帝国卫队只是家安保公司，当然只会在支付了安保费的街区巡逻，不过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "今天我休息嘛，我是以正义的伙伴的身份去的。骑士尤斯图斯说过——维护正义，没有时间和地点的区分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "道理是这个道理，但总觉得事情不会这么简单——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "总之，我们得先快赶到现场才行！ 冲啊！骏鹰号，展现你真正的实力！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，哎你慢一点啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我们到了！好漂亮的小麦田！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里很和平嘛，哪里看得到什么“巨人”。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "这位骑士大人，是什么风把您吹来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "在下不是骑士，是骑士侍从，啊，不对，我今天也不是以骑士侍从的身份来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "请容我重新介绍—— 在下是见习蒙面骑士缇莉娅，前来击败邪恶的巨人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "巨人？那是什么？我们这里没有那种奇怪的生物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然，那种传说中的生物怎么可能存在啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那……你们的农场有没有发生什么怪事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "农场，农场啊…… 噢噢噢噢，是的，可恶的巨人快要把农场毁掉了，并且还不是一个，是三个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真有巨人，还是三个？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "请您快点带我们去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是……风车吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呜……好吵的声音，是轴承生锈了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "巨人一号，二号，三号风车，联合种业的财产，伫立在这里已经很久了，一直没人来检修。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来这就是那孩子口中的巨人。嗯，确实和巨人一样大啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "如您所见，这种东西悬在头顶不知道什么时候就会掉下来，我们都没办法收麦子了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "有联系联合种业吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的村民",
+   "text": "联系好几个月了！每次都说在研究，在汇报，在走流程，就是没人来修一修。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "喂，你们拿着镰刀做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的村民",
+   "text": "看就知道了，当然是要去收麦子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "恩赐之神在上，你们不能去做那么危险的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的村民",
+   "text": "村长，你看那边的云， 这一两天肯定会下雨，我们不能看着今年的收成烂在地里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的村民",
+   "text": "我们会小心的，在那东西掉下来之前抢收完下面的麦子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "唉，大家都进田里去了……拜托了，千万不要现在掉下来啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "再这样下去太危险了！我得去帮她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "缇莉娅敏捷地跨上了骏鹰号，但她拿起头盔的时候，明显迟疑了一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么了？不戴头盔吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "我……我如果在这里破坏掉那些危险的扇叶，会不会反而给村民们带来麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴阳怪气的路人",
+   "text": "怎么可能？帝国卫队的骑士怎么可能为了我们主动干活啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴阳怪气的路人",
+   "text": "说不定行人里有个元老院元老呢， 这帮骑士只认朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "这毕竟是联合种业的财产，如果联合种业要追究责任……他们找不到我就会找这些村民的麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "那家公司的风评很糟啊，还是说……我们在这里祈祷扇叶不会掉下来是更好的选择呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维护正义也不是那么容易的事啊，这种两难的事情不管怎么做好像都和真正的正义相距甚远。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（拍拍缇莉娅）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要想，但也别想太多了，缇莉娅，你想要帮助他人的这份心情，绝对不会有错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "是，是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没关系，有我在。执行正义后如果发生了什么事，我会用我的方法帮你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "可是……要是真的给村民惹了麻烦，我们不就成了反派了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那太好了！我身为魔<r=BOSS></r>王，在《蒙面骑士》这种故事里，更适合反派吧，还是那种聪明狡猾的反派。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "这……的确，不过反派里也有帅气的家伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "正因为是狡猾的反派，所以会有一些正义的主角想不到，或者想到了也不适合去做的办法，相信我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "偶尔，魔<r=BOSS></r>王也想成为“正义的伙伴”的伙伴呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "健忘的村长",
+   "text": "不，不好了。风车扇叶要掉下来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌乱的村民",
+   "text": "呜哇啊啊！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的村民",
+   "text": "大家快逃——！快离开麦田！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "魔<r=BOSS></r>王，疏散人群！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "骏鹰号， 出发！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘴上说了那么多，真的遇到危险的时候，还是会第一个冲上去啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然，她是个真正的“正义的伙伴”吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "金色的麦田里， 缇莉娅挺起长枪的英姿， 和故事里冲向巨人的骑士并无区别。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

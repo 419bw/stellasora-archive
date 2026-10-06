@@ -1,0 +1,716 @@
+{
+ "heading": "# 临时搭档 其一",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#09《临时搭档》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`100901`",
+  "- **AVG 剧本**：`STsp_09_01`"
+ ],
+ "recap": "清晨，雾语的通讯突然把你叫醒，说有急事需要帮忙。你按照她发来的地址，找到了一座看起来像是豪华酒店的地方。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "清晨，雾语的通讯突然把你叫醒，说有急事需要帮忙。你按照她发来的地址，找到了一座看起来像是豪华酒店的地方。",
+  "episode": "第一话",
+  "title": "临时搭档 其一"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈呼……这么一大早，是谁啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "魔<r=mowang></r>王！ 拜托了！我需要你，我非常需要你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个声音是……雾语？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "你不会刚醒吧！总之快来帮我个忙！现在！立刻！马上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "详细的情况等你来了再说！事态紧急！地址已经给你发过去了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，这就挂断了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道真的是很要紧的事情？起床去看看吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里是……豪华酒店？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语给我发的地址是这里吧…… 希望没有搞错。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "亲爱的~你怎么才来啊！ 快点！快点！来这边！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "亲……亲……亲爱的？不好意思……认错人了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等？雾语？你……你这是什么打扮？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嘘！不要这么激动！小声点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "有人问的话，你就说我们两个是情侣！我是为了爱情离家出走的富家千金露缇，而则你是和我私奔的恋人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "情侣？露缇？你在说什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "再不回去的话我会被怀疑的！具体的事情以后再说，总之，你先配合我一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好……好吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语虽然爱恶作剧，但毕竟从没害过我。这里我还是先配合一下她吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "老板，我把你带回来了！你是我的恋人，只要能跟你在一起，我愿意放弃一切！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "不错！让我看看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "嗯……看起来就很穷，但的确有个好脸蛋， 姐姐我啊，要是年轻二十岁，说不定也会心动呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听起来不像在夸我啊……这到底是什么地方。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，这个酒店里警卫也太多了吧，就算是高标准的安保......也用不着这么多人吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "嗯，就你了！听好了，这可是份靠头脑的工作，好好努力吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "工作？ 我不需要——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "亲· 爱· 的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊！好疼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，太好了！露缇！我正缺一份赚钱的工作呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嗯！为了我们两个人的未来，一起赚大钱吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "如果你们需要赚大钱的工作，那我们这就在合适不过了，只要努力，就一定会获得超额的回报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "顺便说一下，我们这里的主营业务呢，就是贩卖神器。为了造福大众，散播恩赐，我们将价格控制在市面流通价的十分之一。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "是的，亲爱的。我们的任务就是把这些神器推销出去！卖的越多越好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我大概了解了…… 但如果是市场价十分之一的价格的话，即使不需要推销，也会有大把的人抢着买吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "真是迟钝……没听说过“一分钱一分货”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "这些神器只是个空壳子，能看不能用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "诶？那不就是假货吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "咳！ 有需求自然就有市场，我们这里可是正经生意。客户们买神器是为了摆在客厅里炫耀，又不是真的拿去用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "换个说法，我们卖的并不是神器，而是拥有神器的这个“身份”。至于能不能用，谁在乎呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "相比于起花大价钱委托旅人去星塔许愿，购买我们的仿制品可要便宜太多了！不愧是老板！就是有商业眼光！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "还是露缇理解的更快。这位小情人也要多学着点，好去推销我们的商品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "把卖假货说得这么理直气壮，这分明就是诈骗团伙啊！雾语把我拉来这里，到底想干什么……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "emoji_rose",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "卧底工作！配合一下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "放心！不会让你真的去卖假货的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "emoji_heart_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "拜托啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "单手背在身后在手机上盲打啊， 她和琥珀肯定很有共同语言。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "咳咳！新人，领导在说话的时候不要看手机！看在是露缇介绍的面子上，先不罚你，以后注意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好意思，我刚刚特意去关了下手机， 这样就能更专心地听您讲话了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "真是的，最近的年轻人……连最基本的礼貌都搞不明白了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "骗子都开始教人礼貌了么......",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "好了，关于报酬——这里每做成一单，你都可以拿到提成。换句话说，干的越多赚得越多，很简单吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "还有啊，亲爱的！如果你能像我一样拉更多的人入伙……就可以去做更厉害的工作了，还可以拿更高的提成！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "更厉害的工作？这里还卖别的东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我们这里有从一些特殊渠道“买到”的手机。利用变声魔法，就可以帮机主联络亲友，谈一些让大家都赚到钱的“好生意”~★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "咳咳！露缇，你的恋人才刚刚入伙，还不是告诉你这些事的时候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让大家都赚到钱的好生意啊...... 总感觉在哪里听过……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几天前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾！不好了，我的手机丢了，怎么办啊，呜呜呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙！？你怎么在这？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我，我为什么不能在这？我丢了手机当然要回来找你们帮忙啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "刚刚你不是在手机里和我说......你接到了一笔大委托，但是要先准备一百万的抵押金，我正想去找你们呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "但你说你的手机丢了，那刚才和我通话的人是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "该不会是诈骗吧？地理协会哪有这种需要大额抵押金的委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诈骗？！ 可恶，竟然冒充我来骗你们，鸢尾，你没把一百万交出吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们哪有一百万啊......现在的存款也就不到一万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "托空白旅团很穷的福，我们并没有被骗。 后来，我们在温室区的小巷里找到了尘沙丢失的手机。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大概是我们请了翡冷翠帮忙找，闹得声势太大了，偷手机的人害怕起来就扔掉了赃物吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但犯人一直没抓到， 难道说......眼前的这个诈骗组织就是罪魁祸首？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "那个……老板？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "你还有什么事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "人我已经拉来了，之前的货我也都卖出去了，我的考核任务应该完成了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "是不是......可以让我参加那个高提成的业务了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "有上进心是好事，但心急吃不了热豆腐，该走的流程还是要走的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我知道......但是，那个......我们没多少时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "再拖下去，我家里人可能会找到我。想要和你私奔的话，我们需要一大笔朵拉，这就是为什么我会把你也拉来您这里打工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我们必须尽快凑够旅费，然后永远的离开这座城市！万一被抓回去了，我就会沦为政治联姻的牺牲品，和我最爱的你永远分开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你真是什么理由都编的出来啊！这种离谱的说法……老板能上当吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "哎，你们这些年轻人啊，真是敢爱敢恨，为了爱情什么都能做。想当年......我年轻的时候也......可惜，那时候的我犹豫了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "总之，我理解你们的苦衷，有牵挂的人，做起事来才会更拼命。 这回就破个例好了，露缇，你明天去做新业务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟然真的信了？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "谢谢老板！ 我先和你回宿舍了，明天我一定会为您，也为自己赚好多好多的朵拉的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "来吧！亲爱的~为了新生活努力吧★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "奇怪，之前没听露缇说过恋人的事，这个恋人到底是从哪冒出来的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "你们两个，跟上去看看。 看看你们到底是不是真的情侣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼鬼祟祟的队长",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,1129 @@
+{
+ "heading": "# 06A 落不下的雨",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1009`　**编号**：`06A`",
+  "- **关卡名称**：落不下的雨",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_06_a`",
+  "- **关卡描述**：阴云密布，愁云惨雾。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "安琪提出以你自裁交换和平，说出了有关世界毁灭的情报。\n即便如此，谈判仍然破裂，冈希尔德的炮火直接撕裂了土地……\n众人被困于塌陷的矿道中，格蕾霍恩带领部下屹立于前。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "安琪提出以你自裁交换和平，说出了有关世界毁灭的情报。\n即便如此，谈判仍然破裂，冈希尔德的炮火直接撕裂了土地……\n众人被困于塌陷的矿道中，格蕾霍恩带领部下屹立于前。",
+  "episode": "第六话",
+  "title": "落不下的雨"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "16:40",
+   "date": "雾月 18日",
+   "place": "米拉什 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，空中检查完毕，没有敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，地面建筑检查完毕，没有伏兵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看起来安琪不屑于在这里埋伏，或者她认为就算在这里埋伏也会被我们识破，只是白费力气。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，你有什么不好的直觉吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "唔，没有呢，之前的不安感已经消失了，敌人的魔法我们也都掌握了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "死之权杖的子弹，小千能挡住吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "只要不是连射，妾身可以劈开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "160号的时间暂停，只要我们不打伤她，她就没得用了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "也可以一口气打晕她，让她没时间发动魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不过，冈希尔德的远程狙击…… 我们没什么好办法。魔<r=BOSS></r>王，你的衣服上有我附着的防御法阵，我想……至少也可以挡下一发。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎，要是能下一场大雨把那个沙丘冲矮一点就好了，那样一来，对方就没有高度来瞄准了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "下雨么…… 沙漠里虽然会下雨，但一年可能就一两次，我们没那么好的运气啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你要真是传说中的魔<r=mowang></r>王就好了。 前几天，我又在孤儿院里翻出了那本童话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "童话里的魔<r=mowang></r>王一挥手就让沙漠降下了大雨， 让沙漠中多了几个绿洲， 就连沙丘上也开出了美丽的花。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟是童话嘛，现实里想要做到这点，得集合好几个大魔法师的力量吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，小心，安琪的人来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "格蕾霍恩…… 还有刚刚的审判官，你们好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "请问安琪在哪里？提议和我谈判的是她，结果来的却是你们吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "安，安琪大人才不会那么容易就出现！ 魔<r=mowang></r>王！ 那，那个粉色头发的凶恶女人被你们藏在哪里了？谈判时她绝对不许出现！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "粉色头发……是指艾蕾吗？她之前被艾蕾吓得不轻啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谈判还没开始，就打探对方的同伴在哪？这就是拯救委员会的做事风格吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "抱歉，我代替160号向您致歉。她之前被那位强大的孤儿院院长吓到了，有些语无伦次，还请您大人不记小人过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "我们只是来检查谈判场地的安全，安琪大人马上就到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "格蕾霍恩抖开了手中的斗篷，一个朦胧的人影迅速在斗篷中成型。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这家伙到底准备了多少件同款的斗篷啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，我们又见面了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哎呀，你竟然带了三个同伴，还真是谨慎。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对付喜欢偷袭的人，自然要谨慎一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，今天我可是带着十分的诚意，来和你谈判的。 既然话不投机，那我们就切入正题吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你的目标，应该是保护同伴，拖延时间，并逃出米拉什吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "拯救委员会截获了你和翡冷翠的通话，你的援兵三天内就会抵达米拉什。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "考虑到翡冷翠是个喜欢留一手的人，她又知道通话可能被截获，实际抵达的时间可能会更早。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这样一来，我“杀掉你”的可用时间就会大大缩短，一天半……不，为了安全起见，我只有二十四个小时的时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "虽然我已经掌握了沙蝎和米拉什帝国卫队的指挥权，但你的同伴实力比我想象的还要强。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "在这么短的时间里，我并没有“杀死你”的万全把握，我们的战斗必然会导致米拉什变成一片废墟，双方的伤亡也不会少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "所以，我想请你用这把死之权杖自裁，同时，我会确保你的同伴和米拉什的人的绝对安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这叫什么谈判？！随便说两句就想让别人自裁，你的脑子是不是有问题？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我深知现有方案距离你们的预期有一定差距，所以，我附加了一个条件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你的同伴可以加入拯救委员会，跟在我的身边，如果她们经过观察，认为我的行为并未拯救世界。那她们可以随时杀掉我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "即使她们暂时放过了我，四年后，当世界真正免于毁灭的时候，我也会请她们杀掉我，作为我对你的补偿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "也就是说，不论如何，我都会为你赔上自己的命，如果你不放心，可以让你的同伴和我签订魔法契约，最严格的那种魔法契约。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么条件？！……她为了杀我，竟然疯到了这个地步吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公的尊躯岂能与你这卑劣的蝼蚁相提并论？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，稍安勿躁，让我和她聊聊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，你的诚意我了解了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们之间无冤无仇，你却愿意为了杀我赔上自己的性命，我想，你这么干至少不是为了你自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "谢谢你的理解，和明白人说话果然很愉快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，我不明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你说世界要毁灭了，只有杀死我这个“传说中的魔<r=mowang></r>王”才能拯救世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但这一切都是你一个人在说。 我们走过很多城邦， 从未见过世界毁灭的征兆，也没听任何人提起过世界毁灭的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而我，一个失忆的人，为什么就是传说中的魔<r=mowang></r>王？ 为什么魔<r=mowang></r>王一定会毁灭世界？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你的所有依据，不会就是那本《恩赐预言书》吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "《恩赐预言书》只是一张“地图”，还是一张很古老的“地图”，只有按照地图走到目的地，才能知道书上的内容是否正确。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我比任何人都希望这张“地图”是错的。可惜，当我和拯救委员会走到“地图”指示的目的地时，我们发现“地图”完全正确，实际的情况甚至比“地图”描述的还要严重。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你们没有看到，只不过是因为你们没有抵达真正的“世界尽头”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "米拉什不就是“世界尽头”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这里只是文明的尽头…… 还是最近的一百年里，新出现的“文明尽头”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "想要看到真正的世界尽头，你们还需要向西行驶上数天， 越过流沙和山脉，一直行驶到沙漠和大海交接的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "在那里，大地不断塌陷，坠入漆黑的深渊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你们没有人听人说起过，只不过是因为诺瓦人已经习惯把头埋进沙子里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "今天的诺瓦大陆，面积比两百年前少了三分之一；今天的帝国城邦数量，比一百年前少了十五个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这些事情，没有人会告诉你们，你们自己也查不到。因为，诺瓦的图书馆里是没有历史书的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "好了，我已经告诉你们世界毁灭的情况了。你们会信吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大地不断塌陷，坠入漆黑的深渊…… 那不就是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，抓住我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……地震？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不，这不是地震...... 星塔，星塔在下沉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，我们要被下沉的星塔卷进去了...... 对不起，我们可能回不去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那不是偶然的星塔下沉，而是世界毁灭的征兆……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，我相信你说的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哦？真是让我意外，十年来，你还是第一个在我说完后就相信了的人。 并且，我可以看出来，你不是在违心说假话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大地塌陷…… 这听起来非常的离奇啊，但无论是格蕾霍恩还是160号，都没有露出惊讶的表情，想必整个拯救委员会都是这么认为的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果这是假的，难道这么多人都被安琪骗了吗？况且，她还给我们指出了可以亲眼验证的地方，应该不会说这么容易识破的假话吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，在亲眼所见之前，我没办法相信你说的，但我愿意去验证一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵，不错嘛。听完这套说辞后会去看的人，一百个里只有一个，而如果那一个人能够安全地回来，他一定会加入拯救委员会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "就算你说的是真的，那这和魔王是魔<r=mowang></r>王有什么关系？ 你是我们的魔<r=BOSS></r>王，和传说中的那个毫无关系！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "真的吗？我想，你的魔<r=BOSS></r>王都在犹豫吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "既然你们已经去过白猫密室，那你们应该看过了那本书吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "白猫密室多年未曾开启，你为什么连那本书都知道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哎呀，都怪我来得太急，让你没时间读完。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "如果你看完了整本书，就会发现那是先帝的日记。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "日记里明确记载了，你就是传说中的魔<r=mowang></r>王，先帝甚至还亲笔画下了你的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我不清楚先帝是怎么未卜先知的，但这的确是无可辩驳的证据。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就算我是魔<r=mowang></r>王，我也不会毁灭世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "世界的毁灭和你的主观意志无关！虽然我很想告诉你最后的答案，但是魔<r=mowang></r>王，时间到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我从一开始，就不觉得你会乖乖束手就擒。你能让这些优秀的旅人心甘情愿地成为你的同伴，说明你一定是一个意志坚定的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你来和我谈判，只是为了给撤退争取时间吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一刀两断！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然你知道我是在等同伴和市民撤退，那你又在等什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你马上就会知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:00",
+   "date": "雾月 18日",
+   "place": "米拉什 城外沙漠"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的黎明近卫",
+   "text": "冈希尔德队长，一个基数的弹药已经列队完毕，随时可以进行炮击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "辛苦你们了，安琪大人已经把魔<r=mowang></r>王拖在既定位置，下面就是我们奋战的时刻了，这次一定要彻底击败魔<r=mowang></r>王，守护诺瓦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的黎明近卫",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "“贯穿”，展开第二形态，开始炮击！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冒着青蓝色电光的“贯穿”抬起炮口， 尾端延伸出底座如龙爪般钉入沙丘。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "拯救委员会的魔法师排成整齐的队列， 每人都紧握着数枚珍贵的心相石， 排头的魔法师把手放在“贯穿”上，低诵着古朴的咒语。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "坚定的黎明近卫",
+   "text": "凭吾脉中之血，化吾魔力之息，以身为链，葬于狱火。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "澎湃的魔力以她的身体为通路，狂暴地注入到“贯穿”之中， 化为闪耀着光芒的魔法弹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“贯穿”怒吼，承受不住过量魔力的魔法师随即倒地，被守候在侧的同伴抬下救治。 下一名魔法师立刻顶上，再次低诵起同样的咒语。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "我的百人队，满打满算也只有两个基数的“炮弹”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "如果全部打完还没能拿下魔<r=mowang></r>王，就只能用那“最后一招”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:01",
+   "date": "雾月 18日",
+   "place": "米拉什 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这，这是什么狙击啊！完全就是乱砸一通！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这不是狙击，这是炮击……这才是沙丘上的炮击阵地的真正实力么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王，尘沙，千都世，你们快走！我的风盾要撑不住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要走一起走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "安琪大人，炮击已经按计划开始，请您先行撤出战场，这里由我来处置就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那就辛苦你了，格蕾霍恩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "魔<r=mowang></r>王，我们来终结这一切吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "可恶，那家伙怎么站在炮击里一点事都没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "不要小看帝国卫队的防御魔法，旅人——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，妾身来拦住她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "不行了，心相石的魔力要耗尽了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳咳，这是怎么回事？尘沙、夏花、千都世，你们还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "抱歉，我的风盾维持不住了，我们好像……好像掉到了地下的矿道里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "拯救委员会到底有多少魔力啊，把整个地面都砸穿了，啧—— 伤口又裂开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，妾身的右手……不能动了，地面塌陷的时候，被石头砸到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "都怪我，错判了拯救委员会的实力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你没有错判什么，我们还是成功地拖延到了时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "是啊，这个时间大家都应该向城外移动了，我们只要继续逃跑就可以了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "沙场之上，生死本如朝露。若是到了千钧一发的险境，妾身只希望主公能毫不犹豫地舍弃妾身，莫要为妾身回头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别说这话，千都世，我会把你们好好地带出去的，一个都不能少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "魔<r=mowang></r>王，你们走不出去的，安琪大人早就安排我的部下埋伏在这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "她已经放开了“只诛首恶”的限制，从现在开始，我们不会再对你的同伴留手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "你的同伴的确很强，但是在她们魔力耗尽，身体带伤的现在，她们又能做什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "这就是你，是魔王协议和拯救委员会之间，绝对的实力差距。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "魔<r=mowang></r>王，安琪大人愿意给你最后一次机会，如果你愿意接起手机，刚才的条件依旧生效。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "啧——还有援兵吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这里……是不是有人在欺负我的孩子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "妈妈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "魔<r=BOSS></r>王，尘沙，还有小千和夏花，你们先走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这里，就由妈妈来挡住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "孤儿院的孩子们都安全撤离了，妈妈此刻，唯一挂念的就是你们了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "艾蕾院长，你是个好人，也很强。但你一个人是不可能挡得住一个解除了限制的百人队的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "喂，手机那边的人，竖起耳朵听着吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我会让你明白，你的阴谋和布局有多么的不堪一击。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -1,0 +1,1187 @@
+{
+ "heading": "# 09 小鬼当家",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`914`　**编号**：`09`",
+  "- **关卡名称**：小鬼当家",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_12`",
+  "- **关卡描述**：众里寻他千百度，那人却在……",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "未曾想，伙伴们口中神秘失踪的艾蕾阿姨竟在此处。\n原来她带着孩童们从埃摩逃亡，将此地作为孤儿院的新址。\n为了隐瞒众人行迹，艾蕾拒绝了白猫剧团进一步调查的要求……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "未曾想，伙伴们口中神秘失踪的艾蕾阿姨竟在此处。\n原来她带着孩童们从埃摩逃亡，将此地作为孤儿院的新址。\n为了隐瞒众人行迹，艾蕾拒绝了白猫剧团进一步调查的要求……",
+  "episode": "第九话",
+  "title": "小鬼当家"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "不许动！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你们三个家伙，把武器扔掉，蹲在地上，双手抱头，快点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "咿——————！！！！我，我知道了！我知道了啦！！ 求求你别动手啊！！反对暴力！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "对，很好，你们几个也快照着她的样子做！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "接到鸢尾的暗示，我学着她的样子蹲了下来， 趁机观察了一下周围。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……嗯？灯光太暗看不太清楚…… 没看到琥珀啊？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "很好，你们两个是乖孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喂！那边那个！你磨磨蹭蹭地干什么呢？不是叫你快点吗！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎呀～不是我不肯啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我是想把武器扔掉的，可我剑鞘的挂带解不开了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哈，连自己的武器都搞不定，就你们这样还来做贼呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶？贼？你在说什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哼，算了。你这把剑归我了。给我老老实实待着别动啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "抓到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "什，什么？从房梁上......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "琥珀从房梁上跳下来后，转眼之间就把这群来路不明的家伙全部制服了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "可恶，吃我这招——地板裂开术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜哇哇，冻住，快点冻住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "冰蓝色的雾气沿着鸢尾按在地上的手掌蔓延开来，我们脚下的地板发出几声吱吱呀呀的呻吟，终究没能裂开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "怎，怎么可能！陷阱居然没触发……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这小偷竟然会用魔法，那这招呢？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我看穿了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……哈？哈啊啊啊啊啊啊啊？！怎，怎么可能，空手就接住了我们射出的箭？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "什么怎么可能啊，你们的弩是小孩子玩的吧，力道太弱啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "琥珀、鸢尾，把这群家伙全部抓起来！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呼，这几个家伙跑的好快，钻来钻去的，不过都抓到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里不是“黑足猫恶魔”的巢穴吗？怎么会有小孩子，还拿着沙蝎风格的魔法枪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "说起来，这个房间里的装饰......有点熟悉，这种袭击人的方式，也好像在哪里见过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "领头的孩子",
+   "text": "啊哈，你们这些愚蠢的小贼，别以为抓到我们就赢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "领头的孩子",
+   "text": "这可是黑足猫恶魔的地盘——雏菊孤儿院，现在逃走还来得及，要不然，我们可就要喊了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "喊你们说的那个“恶魔”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这种沙漠里能有什么恶魔，就算真的存在，会让小孩子干这种事的家伙，肯定也不是什么好东西吧？那就更得好好教训教训他们了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "领头的孩子",
+   "text": "唉，你们完了，三，二，一，大家一起喊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "孩子们",
+   "text": "妈妈——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "妈？妈妈？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "灯，灯怎么闪起来了，不会真有恶魔吧......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "那是什么......好快，动作跟不上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我，我去找开关，稳定神器灯的魔力，你们保护好魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不管你速度多快，只要是直线移动的话……在这里！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "灯光再次亮起，尘沙的长剑被一支扫把轻轻松松地架住，停在半空中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我不确定你们是偷东西的贼，还是另有别的目的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你们闯入这间孤儿院，已经违背了这片沙漠的规矩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "不管你们接下来如何求饶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "都要付出应有的代价——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不会吧……“黑足猫恶魔”的真身居然是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "尘沙，你是尘沙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "那……旁边那两个人就是鸢尾和琥珀了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "艾，艾蕾阿姨？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "这是怎么回事，我不是在做梦吧，为什么，为什么孤儿院和艾蕾阿姨会在沙漠里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "孤儿院、艾蕾阿姨……！ 也就是说，这位就是她们一直在寻找的“灰城孤儿院”的院长吗？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊啊……太好了……！能再见到你们几个这么有精神，真是……真的太好了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙&鸢尾&琥珀",
+   "text": "阿姨——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然我们来米拉什并不是为了找孤儿院的情报…… 不过能遇到这种意外，真是太好了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "等一下，你们叫我什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "阿，阿姨啊......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊啊，竟然是阿姨这个疏远的称呼， 好伤心呢，原来那三个围着我叫妈妈的可爱小宝贝去哪了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "可，可爱小宝贝......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "本来，从埃摩突然搬到米拉什后，我还很担心这样下去会不会再也见不到你们……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我真是做梦都没想到，重逢的时候，不仅不叫我妈妈了，还跑来当小偷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不是不是不是！所以说我们不是小偷啊……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你们三个人......居然变成了这么坏的孩子…… 这也是我这个妈妈的责任呢……呵呵。正好是个好机会，看来要好好教育一下你们了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "为什么啊啊啊啊啊？！不是的啦！误会，这是误会，我们是来这里找沙漠星塔的，途经米拉什的时候只是偶然进来补给而已……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们会来这里也是因为听说有星塔的情报啊……！而且别人明明说这里被“黑足猫恶魔”占据了，我们当然只能潜入进来……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不管怎么说，这都是私闯民宅，没想到我和我亲爱的孩子们的重逢竟然是这样的，好伤心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那么，跟妈妈过来，让妈妈好好教育一下你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不，不要啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "像，像猫妈妈抓小猫一样被抓走了...... 等等，我还在这里呢。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那么，你是那些孩子的朋友吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是，我是和她们一个旅团的魔王，那个，尘沙鸢尾琥珀都是好孩子，她们不是你想的那样......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我知道的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "请听我解释...... 嗯？你知道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "站在我的身后，一会被进来的那些白猫问起时，记得给自己找个来米拉什的好理由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，好理由？ 这是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这么晚还来打扰，真的不好意思。我是白猫剧团第三小队的队长卡西米拉。我想跟你们谈谈……可以占用你们一点时间吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "门没锁，请进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "22:10",
+   "date": "雾月 07日",
+   "place": "米拉什 雏菊孤儿院"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "艾蕾院长，晚上好。深夜打扰，深表歉意。希望没有把孩子们吓到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，没关系的。这个时间，孩子们该上床睡觉了，卡西米拉队长，不知白猫剧团兴师动众来孤儿院有什么事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我先说清楚，我们完全没有战斗的意思，请放心。我们之所以这样上门拜访，是为了调查今天白天在镇上发生的那场战斗，想确认是否有人知道相关情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "战斗？很遗憾，我今天一天都没离开孤儿院，米拉什发生什么大事了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "今天上午，跟往常一样，沙蝎和帝国卫队在街上发生了争吵，双方大打出手，不过根据目击者的说法，但最后获得胜利的却不是任何一方，而是一位身穿白猫制服，用两把白猫制式魔法手枪的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "白猫剧团……那不就是你的同伴吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "本来应该是这样……但不是的，我们白猫的武器都是专人专用的，如果是双手持枪的话，那就应该对应某位特定的队员才对……可是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "现在剧团里并没有使用双枪的队员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我想，那应该是一个故意伪装成白猫的人，想要打破三大势力的平衡和现在米拉什和平的状态。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "但我个人，还有整个白猫剧团，都绝不能坐视不管，不能让米拉什回到过去的混乱之中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我们来到这里的时候，米拉什已经是个很和平的城镇了，所以“过去的混乱”到底是什么样子……我其实不太能想象呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那这个话题，和孤儿院有什么关系呢？考虑到孩子们的安全，我们当然也不希望米拉什的和平被打破。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，你来说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼哼，那个伪装者的确狡猾，就连拥有漆黑魔眼的本大人也一度毫无头绪。恐怕是使用了相当高阶的魔法障壁，来扭曲观察者的认知吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "哼哼哼！不过呢，不管他用多么高超的技术来隐藏身形，如今世界已被黑暗笼罩，漆黑之力高涨的此刻——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "这个魔眼之下， 已经没有任何东西能逃得掉了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "喵哈哈哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "......说人话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "啊，那个......就是我找了一白天也没找到，结果到了晚上，那个伪装白猫的人终于出来了，我一路跟着，看到她进了孤儿院。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "情况就是这样，艾蕾院长，今天晚上有没有发生什么奇怪或者不寻常的事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "奇怪的事啊……应该没有呢。 顶多就是这位旅人前来借宿。……对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……嗯？借宿？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么想这都是艾蕾在故意包庇空白旅团的大家而撒的谎啊…… 既然这样，我也得配合她把话圆上才行……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯？借宿的旅人......可疑，米拉什这种荒凉，危险，又没有星塔的地方为什么会有旅人来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我受菲莱公司的执行官翡冷翠之托，前来调查米拉什的农产品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这座城镇似乎没有旅馆，所以没办法，只能靠居民好心借宿了，就是这么回事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们......白猫剧团是公司吗？如果有什么问题可以和我的公司交涉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "菲莱公司......之前沙蝎好像去菲莱打过一次……和你们有关系吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "的确，沙蝎袭击了我司的晚宴，如果有可能，我司希望把他们绳之以法，不过刚才我也说了，这不是我这次来米拉什的任务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "不对，不对，拿枪的不是这个人。我刚刚明明看到四个人进了孤儿院，怎么只剩下你一个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你看错了吧，接委托的时候只有我一个人啊……刚才来孤儿院的时候，这些孩子给我引路，你看到的应该是我和孩子一起走的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "领头的孩子",
+   "text": "对，我们在街上遇到了这位你，看你没地方住，就把你拉回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "呜——我的黑暗之力明明清楚捕捉到另外三个人了！让我进去找找……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我不是说过了吗？屋里有孩子在睡觉，不管是谁我都不会放行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "猫眼，回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "为什么啊？！卡西米拉，我以黑暗之力发誓，我绝对看到还有其他人在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我并不是不相信你的话。但是我们突然深夜上门打扰，已经够麻烦人家了。再追问下去，不仅不礼貌，并且也有违沙漠的规矩和白猫的精神。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "服从命令！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "猫眼",
+   "text": "......明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "那么，艾蕾院长，今晚给你添麻烦了， 如果你看到有人伪装白猫，请务必通知我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "很抱歉，在离开之前，还有一件私人的事想问你，你知道“塔菲特”这个名字吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "塔菲特？没听说过。是人的名字吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "嗯......没听过就算了...... 第三小队，我们收队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼......幸运地混过去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "辛苦你了， 话说回来……那三个孩子也太不谨慎了，身后跟了尾巴都没发现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "真的没问题吗……我好担心啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "对了，还没正式自我介绍呢。我叫艾蕾，是这所孤儿院的妈妈......也就是保姆兼院长啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我叫魔王，是一家公司——魔王协议的首席执行官。因为职位关系，大家都叫我魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "几个月前，我在沙漠中被尘沙她们救了，从那之后就一直和她们一起行动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "公司的首席执行官？听起来好厉害，呵呵呵，那三个孩子真是老让我吃惊呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "22:30",
+   "date": "雾月 07日",
+   "place": "米拉什 雏菊孤儿院"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "突然被关起来，我还以为出什么事了呢。原来我们刚才被跟踪了啊......艾蕾阿姨，你一开始直说不就好了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "尘沙，心里藏不住事。鸢尾，一紧张就会马上表现在脸上，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "……再者说，我还因为你们叫我阿姨，而不是叫我妈妈而生气呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "最后那条有关系吗？！我知道了，下次我们会试着叫的。对吧？鸢尾？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "妈......妈………… 不，不行，太不好意思了，我脸都要烧起来了！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "真是的，明明小时候你们叫的可欢了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "先不说这个了，你们才刚到米拉什没多久，怎么就惹上了白猫？而且既然已经卷进这次的纠纷里，接下来很可能也会被沙蝎和帝国卫队同时盯上吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你们就先躲在我这里吧，这里虽然只是个孤儿院，但白猫、沙蝎和帝国卫队轻易都不会出手的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘴上说着担心尘沙她们学坏，实际上毫不犹豫地就给我们打了掩护，还以为我们在外面惹了麻烦，想把我们藏起来。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是家……这就是母亲的感觉么。对连自己该回哪里都不知道的我来说，真的非常羡慕啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没那么严重啦，我们作为孤儿院的孩子，怎么可能闯祸嘛，就算闯祸也不会把麻烦带回来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "说起来，我们还想问，孤儿院为什么一声不响的就从埃摩消失了，是因为联合种业吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "唔......说来话长，如果你们不困的话，我们就趁着孩子们都睡下的这点时间聊一聊？ 我也很想知道......你们离开孤儿院后的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好耶，那就像我们小时候那样，大家一起躺着滚来滚去听故事吧～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我去拿枕头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我去拿被子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "虽然是命运安排的相遇，但尘沙、鸢尾和琥珀似乎完全没有久别重逢的拘谨，很快就进入了状态，仿佛大家昨天才刚刚离开一般。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "大家拉着我蜷缩在柔软的沙发上，喝着温暖的茶水，开始了漫长又温馨的夜谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

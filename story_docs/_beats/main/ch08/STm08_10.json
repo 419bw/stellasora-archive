@@ -1,0 +1,1017 @@
+{
+ "heading": "# 07 初见米拉什",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`911`　**编号**：`07`",
+  "- **关卡名称**：初见米拉什",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_10`",
+  "- **关卡描述**：总有人急着用拳头代替问候。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你将这些本已被忘却的记忆讲述给了鸢尾、尘沙、琥珀，\n回忆起一切的伙伴们，羁绊变得更为紧固。\n另一方面，米拉什现状颇为混乱，一伙沙蝎佣兵围向了你们。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你将这些本已被忘却的记忆讲述给了鸢尾、尘沙、琥珀，\n回忆起一切的伙伴们，羁绊变得更为紧固。\n另一方面，米拉什现状颇为混乱，一伙沙蝎佣兵围向了你们。",
+  "episode": "第七话",
+  "title": "初见米拉什"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "08:00",
+   "date": "雾月 07日",
+   "place": "米拉什 幸运绿洲号"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……我这是在…… 对了，我们昨晚到了米拉什，然后就睡下了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "早安，魔<r=mowang></r>王大人，您昨晚睡得可好？有没有做梦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "早安，维塔，我好像做了一个很长，很长的梦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，愿今夜的星光和美妙的梦境能抚平您和同伴所有的疲惫。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，昨晚的梦不会是你搞的鬼吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "魔<r=mowang></r>王大人，维塔没有搞鬼，您和您的同伴试用“星塔旋律”，是经过您的同意的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我是同意了没错…… 但你说那只是普通的助眠音乐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "那是根据星塔中的记录，编写出的旋律。 如果倾听旋律的人正好和记录共鸣，就能在脑海中唤醒一些东西，一些过去忘记的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "忘记的……可是我没梦到任何我的过去啊，我梦到的都是鸢尾、尘沙、琥珀的事情……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等……你的意思是…… 我在梦里看到的是鸢尾她们的记忆？！她们忘掉的记忆？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "也许是，也许不是，星塔记录中的确有许愿者奉献的记忆，但又不止有记忆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "另外，很抱歉，这次的旋律只是试用，您和您的同伴醒来后就会忘记梦的内容。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "如果您对星塔中的记录很有兴趣，那就请努力完成之前的系统任务“拥有一座星塔”吧， 任务完成的时候，维塔会用可重复共鸣的办法，把这些旋律交给您的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说来说去，你的目的还是推着我完成任务吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了，没事。 不用你担心，只要能得到保护大家的力量，任务我会积极完成的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您的命令就是我的意志， 维塔告退，祝您一路顺风，魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（魔<r=mowang></r>王大人啊……如果维塔说的一切都是真的，那我——）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，早上好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "琥珀，你醒了啊，早上好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "醒了好久了，看你在和维塔说话，就没有打扰你，一直在一个人玩手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，能问一下吗？你到底梦到了什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "emoji_sneaky_c",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我梦见了你、鸢尾、尘沙小时候的事情，什么想要出去打工啦，在水道桥上读书啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "以及离开孤儿院后鸢尾的求职、尘沙拼小绿，你去寻宝这些事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，哎哎哎， 琥珀，怎么突然贴的那么近？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，能把梦的内容， 详细地给我们讲讲吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:20",
+   "date": "雾月 07日",
+   "place": "米拉什 幸运绿洲号"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哈呼，早呀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙，你晚上睡觉能不能老实点，你的大腿压得我喘不过气来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那都是因为琥珀抱着我后腰的缘故啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "琥珀也会抱我，我也没压着你啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "大家，手感不同。 所以抱哪边，看心情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "尘沙，暖洋洋的； 鸢尾，软乎乎的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "软，软乎乎的， 我的体重是不是增加了！ 听好了，从现在开始， 在我说可以之前，谁都不准睡觉时随便抱过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王， 硬硬的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "硬，硬硬的？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "太瘦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，你该多吃点饭啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，等一下，话题聊偏了， 琥珀你不是让我给你讲梦的内容吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "要大家一起听， 所以，要把大家都叫醒。 尘沙，鸢尾，你们还记得昨晚的梦吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "梦啊，好像是梦到了什么呢， 但醒来后就完全不记得了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "……怎，怎么，这次又聊到梦了？ 我也不记得具体内容了…… 不过醒来后的心情很好，应该是做了个好梦吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我多问一句，你们还记得你们小时候在孤儿院的事吗？以及，你们从孤儿院离开后，拼出小绿之前的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "孤儿院的事情，记不清了，只模糊记得，艾蕾阿姨的脸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "从孤儿院离开后的事情倒是还勉强记得，比如小绿我们是怎么拼出来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "但我们三个人一开始做的应该是不同的事情，后面怎么凑成空白旅团的还真记不清楚的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大概是许愿的时候被星塔拿走了吧，书上说，星塔喜欢旅人的那些情感强烈的记忆…… 这么一想，那段时期从各种意义上来说，确实都是充满不安的时候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "而且据说，如果许愿时的祷词不够准确，就容易被拿走更多的记忆。这或许…… 就是初出茅庐的旅人注定要付出的代价吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "幸好有知识渊博的鸢尾在。 要是只有我一个人，肯定会一路许愿一路翻车，到最后记忆都被掏空了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以你们几乎都不记得，以前在孤儿院生活的那些事了吗。 这么说来，那个梦果然是你们的记忆…… 吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然维塔说醒来后就会忘掉那些梦，但大概是我的“魔力绝缘”体质又起了作用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "至于我梦见的内容——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "半个小时后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "哎哎哎，我差一分落榜的原因竟然是这样，我许愿的时候，星塔拿走了我关于最后一门考试的记忆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "要是，我们许愿就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你就能去上星辉附属大学了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你们说什么呢， 如果我去上大学了，不就没办法和你们一起旅行了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "而且也正因为我没考上大学，才能成为魔王协议的员工，“成为公司员工”这个梦想也算是实现了。 那时候少考了一门，肯定是恩赐之神给我的指引。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你……你们看起来很轻松的样子，我还以为……你们听完了这些失去的记忆，会很感叹或者很后怕呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，的确有些感叹，也有些后怕。但是呢—— 笑着也好，哭着也好，我们面对的都是同样的事情…… 那为什么不笑一笑，让自己开心一点呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "既然选择以旅人身份行动，那就得做好“也许会失去重要记忆”的心理准备。而且，只要别让星塔拿走我把朵拉藏在哪里的记忆就好啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "拿走过，有一次，鸢尾从靴子里翻出朵拉的时候，还以为是意外之财，很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "别说那些事啦，总之，和你签了“灵魂契约”后，我们现在许愿也不会失去记忆，那就更不用担心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对了，对了。 魔王把手给我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？这是要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你们也一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "因为，下面的人生，可不是我们三个人的考试了，而是—— 我们四个人的考试。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然之前好像说过类似的话，但是， 魔<r=BOSS></r>王请多多关照。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "要多和我聊天哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我会和大家一起写下，只属于我们的回答的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "是啊！既然大家都起床了，那就动起来吧，米拉什，我们来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "09:00",
+   "date": "雾月 07日",
+   "place": "米拉什 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "刚到的时候天太黑，看得也不太清楚……这就是米拉什吗？看起来就是个普通的沙漠小城啊，为什么这里叫“世界尽头”啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "诺瓦的城邦一般是围绕着星塔建立的， 可米拉什没有星塔，甚至连周边一带都不存在星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "所以这里才会被称作远离星塔之地—— 也就是“世界尽头”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "可是， 为什么要在没有塔的地方建城呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是的，这里面好像有什么内情，但我问过很多旅人前辈，要不然不知道，要不然就三缄其口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，那这里的人肯定很需要星塔，如果有人在沙漠里发现星塔，一定会成为这里的大新闻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，这里没有星塔，看起来也没有什么产业，更没有商人和游客，人们靠什么生活呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "你，你们是不是从沙漠外来的旅人啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是啊，小朋友。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "哇啊~！ 米拉什已经很久没有卫队之外的外乡人来了，你们来米拉什是做什么的？！ 要是不介意的话， 我可以为你们带路哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "有没有人比较多的地方呢，姐姐想打听一些事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "有的，有的，请跟我来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，你们先去，我开车跟在后面。琥珀，等知道地方了记得联系我哦——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "我们这座城邦，虽然很贫瘠，但也是有能养活人们的生意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "沙漠特有的植物？还是说这里有什么稀有的商品？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "姐姐你好厉害！答对啦！我们这里是有全诺瓦最甜的椰枣啦，还有晶钻矿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "但是呢，椰枣根本运不出那片沙漠，晶钻矿也早就停产了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "我们这些孩子，现在靠那个吃饭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是……在晚宴上受雇来杀我的沙蝎佣兵团？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "看起来像是路边摊……他们在卖……神器？ 这就是你说的能养活人的生意？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "看， 有个骑士去买神器了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "生意行吗？ 你们几个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "沙蝎， 你们这神器多少朵拉啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "二十万朵拉一斤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "什、什<r=What's up></r>么？ 我这还是第一次听说神器能论斤卖？ 你这神器壳子是晶钻做的，还是里面装满了晶钻？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "你嫌贵我还嫌贵呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "你瞧瞧你米拉什还有星塔吗？没星塔哪来的神器啊，这都是我们穿过沙漠，一袋子一袋子背回来的神器，当然按重量算。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "行吧，那给我挑个显影器， 被发配到这种地方出差，都快无聊死了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "行。 这个怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "你这神器保真吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "我们沙蝎的大名在米拉什谁不知道？能卖给你假神器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "我问你这神器保真吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "你是故意找茬是不是？ 你要不要吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "你这神器要是真的，能用，我当然要啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "它要是不能用怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "不能用，我当场吃下去， 满意了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "十五斤，三百万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "你这哪够十五斤啊，你这秤有问题啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "看，秤下有重力魔法！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "刚才你说的啊，你这神器要是不能用，你自己吞进去啊， 我帮你切了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "你劈我神器是吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "打起来了，打起来了，帝国卫队和沙蝎打起来了，快来人啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "小朋友，别喊了，我们快点走，这里危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "你说什么呢，就是打起来了，我们才能做生意啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "元气满满的孩子",
+   "text": "沙蝎的大哥哥和帝国卫队的大姐姐，你们向这边看， 这边还有白猫的人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？白猫？等等，那是什么，我们不是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蛮横的沙蝎佣兵",
+   "text": "那身装束……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "掌旗官",
+   "text": "的确是白猫！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "怎，怎么回事，我们昨天才刚到米拉什， 你们说的什么白猫，我们听不懂啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王， 来我身后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们， 冲出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

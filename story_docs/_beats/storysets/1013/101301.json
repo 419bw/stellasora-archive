@@ -1,0 +1,972 @@
+{
+ "heading": "# 大小姐与俏女仆 其一",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#13《大小姐与俏女仆》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`101301`",
+  "- **AVG 剧本**：`STsp_13_01`"
+ ],
+ "recap": "你难以拒绝埃莉诺的热情邀请，决定指导她成为旅人。只不过，和她在一起的还有某位特别的女仆……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你难以拒绝埃莉诺的热情邀请，决定指导她成为旅人。只不过，和她在一起的还有某位特别的女仆……",
+  "episode": "第一话",
+  "title": "大小姐与俏女仆 其一"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里就是她租的房子？好大……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "委托内容是——希望我能亲自教授她旅人社会的常识…… 明明有比我更适合的人选才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不久前，那位名叫埃莉诺的旅人给魔王协议发来消息，特别指定我来接下这份委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热情的年轻旅人",
+   "text": "啊，对哦！相逢就是缘！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我是新人旅人埃莉诺，还在学习中！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "第一次见面还是那个时候，感觉已经过去好久了。 没想到我们还有见第二面的缘分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她既然给了这么多的指名费和定金，那我无论如何都要过来看看……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "等您好久了，前辈！快快请进！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "前辈……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不好意思，见到崇拜已久的前辈，我有点兴奋过头了……嘿嘿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，现在叫我“前辈”是不是太早了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有，其实魔王协议内就有比我更经验丰富的旅人，为什么选择我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "因为……您可是魔<r=BOSS></r>王 ！是领袖！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "自从看到您带领空白、花令两大旅团，一齐解决“三大委托”、拯救营地的英姿之后，我就被深深地触动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "据我所知……花令旅团现任的冬香团长也是您一手栽培的，对吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "正因为您是一位兼具领导力和决策力的旅人，我才希望自己作为旅人迈出的第一步，由您来指点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "过奖了，我没你说得这么厉害啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“三大委托”是大家齐心协力才解决的，你说想拜托我教你旅人社会的常识，其实有更合适的对象……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "太厉害了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不骄不躁，将功绩与同伴共享的谦逊态度……简直就是我心目中的模范旅人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "果然我没选错人，能指导我的人只有您！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "魔<r=BOSS></r>王……不对，前辈！ 今后还请您多多指导和鞭策，我想成为能独当一面的旅人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你都把话说到这个份上……嗯，可能也有些事情只有经验没这么丰富才能教好…明白了，我们先来试试看吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "太感谢了！我会全力以赴的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "那个，请问要从哪里开始……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "事不宜迟，先让我看看你的随身武器吧。 虽然不是每个委托都会存在危险，但身为旅人，必须事先准备好保护自己的手段。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这个……其实我最近尝试了很多类型的武器，但暂时还没有定下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "比如，前几天我买的这些烟雾弹……据说是旅人必备的畅销产品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听上去不错。你打算怎么用呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我想想……比如从强大的魔物或者星骸手里逃命的时候用？ 就像这样丢出去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嘿！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳——咳咳！ 哪有这么直接扔出去的！这烟……熏得眼睛好辣！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "对、对不起！！一不小心就……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈，刚才实在不好意思…… 我们来试试这个小型炸弹怎么样？威力肯定比烟雾弹更大！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得刚才烟雾弹的威力已经够了…… 嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对，这个不是小型炸弹，是爆竹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是龙裔用来庆祝节日用的东西，不能直接拿来当武器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "诶？！原来是这样！房东怎么没和我说清楚呢……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "房东？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嗯，就是这栋房子的房东啦，她也是旅人，这里原本是被她当成旅团据点的，不过她现在不干了，所以把剩下的道具和武器便宜卖给我了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此……顺便问一下，房租大概是多少？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "一个月五十万朵拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "五十万？！这也太贵了，根本不是新手旅人能负担得起的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然房东之前也是旅人，应该对市场价很了解。而且，她居然把爆竹当做小型炸弹卖……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃莉诺，你是不是被骗了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我、我还以为这才是正常的价格……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪里正常了，你不觉得五十万的房租很离谱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "大、大概还好？ 靠我以前攒下来的零花钱，勉强还能承担。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是、是这样啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "二位，请用茶水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有劳了。请问这位是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "啊，忘记给前辈介绍了，她是我特意请来的家政女仆——花原小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "因为最近一段时间，我想把精力集中投入在旅人事业的学习和准备上， 所以就把家务全都交给她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了投入精力而雇佣女仆，怎么感觉我们的世界不太一样…… 嗯？什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "女仆",
+   "text": "是玄关的门铃响了呢，我这就去看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "交给你了，花原小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈，我不会真的被骗了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然目前还不好下结论……但是说实话，可能性很大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "女仆",
+   "text": "打扰二位。大小姐，房东来了，说是想见您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她怎么来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "来得正好！让她去二楼。 前辈，我现在就去问个明白！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，埃莉诺？！你要怎么做——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "花原，麻烦你好好招待前辈啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "女仆",
+   "text": "好的，大小姐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就走了…… 呃，我也叫你“花原”，可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "当然。我是来自谷风家政的花原。恕我冒昧，请问您就是“魔王协议”的首席执行官——魔王阁下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没想到连旅人之外的普通人都听说过我的名字……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "能遇见您是我的荣幸，您的光荣事迹早已传到谷风家政了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "名为花原的女仆恭敬地向我行了一礼。行止间毫无破绽，透露出一股不同寻常的气质。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“谷风家政”…… 以前从来没接触过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听起来，是提供上门家政服务的公司？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "您说得没错。无论是打扫卫生，还是做饭除草，只要客人有需求，任何事情都可以委托我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "请你这样一位女仆来帮忙，得花多少朵拉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "五十万。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "五……五十万？！ 也就是说，埃莉诺每个月都要在生活起居上面花费一百万以上吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "不，五十万不是月付金额，而是每小时的价格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "五十万……一小时？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那每天工作八小时……一天收入四百万朵拉？！ 鸢尾要是知道了，估计得当场昏厥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说回来，埃莉诺到底是何方神圣？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道说，真是某位富豪家的大小姐……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "花原不能透露客户的隐私信息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "但既然我会站在这里，就说明客户能够负担起这份费用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "无论什么样的委托，只要接下了，我们都会全心全意为客户提供最优良的服务，因此才会设置高昂的价格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "若魔王大人之后有需要，请提前通知我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我懂了，这项服务就是专门为有钱人准备的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你刚才说不挑内容和类型，打扫之外的委托也可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "是的。无论是打扫卫生，还是做饭除草，只要客人有需求，任何事情都可以委托我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花原",
+   "text": "您有用得上我们的地方吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不，只是随口一问罢了。我兜里可没那么多朵拉，啊哈哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说，不知道埃莉诺那边怎么样了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么声音？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这是什么意思？刀尖对着人是很危险的哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "这话得问你。我只是来谈房租上涨的事，干嘛搞得我好像坏人一样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "上涨的理由呢？我每个月支付的朵拉，其实已经远超正常标准了吧？ 另外，是否能请您解释一下，您卖给我的“小型炸弹”，为什么会货不对板？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "和往常一样直接把钱付了就完事儿了！哪来这么多废话！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "你就乖乖掏钱吧，不想挨揍就把合同签了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "你们……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃莉诺，没事吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "前辈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "终于露出真面目了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "你又是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我是她的前辈。同为旅人，后辈被恶人利用，我绝不会视而不见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说在前头，如果你们要是不愿意退款，我们就只能委托帝国卫队来处理了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "啧，行吧。钱我会退给她的，别叫卫队来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？这么老实？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的旅人",
+   "text": "才怪嘞！小的们，施行计划B！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "好嘞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "等、等一下——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可疑的跟班",
+   "text": "看招！ 你们就在里面好好享受吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃莉诺……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "哎呀！ 前、前辈，对不起……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "门外的旅人",
+   "text": "哼哼……哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "门外的旅人",
+   "text": "可惜，你们已经没机会了。只要签了我们的合同，想逃也逃不掉了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？这个声音是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "哎？我们这是……被关起来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "等回过神来，我们才意识到，此时此刻，我和埃莉诺都被反锁在了二楼的会客室里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

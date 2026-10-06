@@ -1,0 +1,668 @@
+{
+ "heading": "# 临时搭档 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#09《临时搭档》",
+  "- **栏目**：荒野快讯",
+  "- **小节 ID**：`100903`",
+  "- **AVG 剧本**：`STsp_09_03`"
+ ],
+ "recap": "你被绑起来的照片被雾语当做“邀请函”发送了出去，几天之后，前来应邀的居然是……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你被绑起来的照片被雾语当做“邀请函”发送了出去，几天之后，前来应邀的居然是……",
+  "episode": "第三话",
+  "title": "临时搭档 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "对对对，就是这样， 再无辜一点，再绝望一点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好奇怪啊，为什么要拍我被绑起来的照片啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不应该多拍一点这里在搞诈骗的证据吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "放心，那种已经拍得够多了！来~看这边——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "既然我们出不去，那就创造一个能出去的理由不就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "而这几张你的照片，就是一张至关重要的“邀请函”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "邀请函？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "没错！这将会成为比单纯的曝光新闻，更有趣的东西哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几天之后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的佣兵",
+   "text": "不好了！老板！帝国卫队的人把大楼围上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "慌什么？老规矩，像平常一样塞点朵拉，把人打发走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "慌张的佣兵",
+   "text": "可是，这次的帝国卫队是恩赐意志雇的，贿赂的法子行不通啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "什么？恩赐意志？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎呀，来了！来了！……这下有好戏看了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，到底是发生什么了？为什么恩赐意志会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "当然是因为我把魔王协议的首席执行官被绑架的消息放出去了，还附上了你的照片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "绑，绑架？！ 也是……那几张照片看上去的确是这么回事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "想想看，一位当下有名的公司的首席执行官在菲莱被绑架，恩赐意志的面子也过不去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "并且，让你欠下了一份救命之恩，这背后会有多少的商业价值？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这完全是把我卖了啊……但我可拿不出来任何东西报答他们啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "放心吧，不会让你吃亏的~所以我才把情报交给了恩赐意志嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "老板不也说过么？“有需求才有消费”，情报交换也是同理啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "归根结底，只要公司认为摧毁这个团伙有价值，你即便不提供额外筹码，也不会有什么损失。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "如果报道这么写——“新型诈骗集团落网，恩赐意志助力菲莱安全”，那对公司来说不也扬名了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算盘打得不错嘛……不管结果如何，对恩赐意志都有好处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但你是怎么把这些情报送出去的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我可是魔女诶，这点小儿科的事情岂能难到我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "不要做无谓的抵抗了！快点把魔王协议的首席执行官给放了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "等一下，我们是不是有什么误会啊……我们这里没有什么首席执行官。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "不要装傻了，这些照片就是铁证！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "这不是……露缇的恋人吗？ 可恶——那个小丫头该不会一开始就是冲着这个来的吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "这个反应……果然在这里吗？来人！先从那边的仓库开始搜！一定要把那位首席执行官搞到手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "搞到手……说的我像是什么战利品一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "你当然是战利品了，他们当中如果有人能够拔得头筹成为你的“救命恩人”的话，还会怕好处不够多吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "说不定还会请求你用公司的权力帮他们谋取私利呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行！这可真的会出大问题的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "开玩笑的啦，都说了不会让你吃亏的！ 你到窗边等我一会，我骑扫把过去看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你要去哪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "这么劲爆的场面，自然是要过去亲眼看看啦★",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "等等！这里是私人领地！你们无权擅自闯入！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "遮遮掩掩的，一看就不对劲！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "嘁……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "老板，不好了！后门也被卫队的人包抄了哦，你要怎么办呀~~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "露缇！就是你把这些人招来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "唉唉唉！不要拽我——露缇是谁啊！我不认识啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "别扯我呀， 照片要撒出来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "这是……空壳神器的照片？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卫队新兵",
+   "text": "队长，这部手机里有作案现场的照片！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国骑士",
+   "text": "报告！那边的仓库里发现了大量疑似被盗的手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "住手，住手啊！不是这样的，请听我解释！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "呵呵~这绝望的表情真不错！标题就取为——“诈骗犯惨遭诈骗”，怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "扫把？你是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我就大发慈悲地告诉你吧，真相隐藏的再怎么巧妙，最终还是为大白于天下的哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "好好期待明天的头版头条吧！老板！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老板",
+   "text": "等等！你给我回来！可恶啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎呀，久等了！魔<r=mowang></r>王大人！我们得赶紧走了，闹出这么大动静，恐怕我的同行们已经在路上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那不是好事吗？到时候可以一起把这里的事情公之于众。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "那可不一定，我比你更了解魔女们的喜好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "眼前站着魔王协议的首席执行官，身边还跟着个来历不明的美少女……到处都散发着八卦的香气呢~你猜她们会把注意力放在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也是，那样可就麻烦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "对吧？快到扫把上来，我们走了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "潜入作战大成功★收集到了这——么多有意思的新闻素材，太开心了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还好没出事……真不愧是精英魔女呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "嘿嘿，再多夸夸我呗！我可不是白白从那些修罗场里闯过来的哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说回来，我还有个问题想问你呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "什么呀？本魔女现在心情很好，什么问题都可以回答你哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "雾语你……为什么要穿成这样呢？ 卧底的人设不是“为爱而离家出走的大小姐”么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起“大小姐”，一般不是会穿那种奢华的礼服之类的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "喂，你在质疑我的审美吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是，我没有！只是觉得选不符合身份的服装，有点不像你的作风……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "你理解错了啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "总之就是还有比那种东西更重要的理由！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "我，我们不是情侣设定吗？所以……那个……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "所以我才挑了这件衣服的……不可爱吗？！而且，在恋人面前打扮的更可爱一点，不是理所当然的吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "更可爱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "哎呀，都怪你！让我说这么羞耻的话！ 反正以后也不会再穿了，你要看就抓紧看吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "雾语像是在掩饰那加速的心跳，将我一把拉上扫帚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "随着扫把划破星空，尘世的喧嚣与烦恼逐渐远去，无人能够打扰这对虚假的恋人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "唯有夜空中的群星，察觉了魔女双颊泛起的绯红。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

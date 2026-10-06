@@ -1,0 +1,1155 @@
+{
+ "heading": "# 15 五十一层",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第七章《星之竞拍》（星塔历 996 年）",
+  "- **关卡 ID**：`824`　**编号**：`15`",
+  "- **关卡名称**：五十一层",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm07_15`",
+  "- **关卡描述**：你也要当“断臂的英雄”吗？",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "多亏波西亚给出了前往隐藏楼层的提示，你与千都世一起重演了千年前那位“断臂英雄”的过往，终于成功来到第五十一层。\n在此处蛰伏着的，是给菲莱降下不绝之雨的可怕邪神……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "多亏波西亚给出了前往隐藏楼层的提示，你与千都世一起重演了千年前那位“断臂英雄”的过往，终于成功来到第五十一层。\n在此处蛰伏着的，是给菲莱降下不绝之雨的可怕邪神……",
+  "episode": "第十五话",
+  "title": "五十一层"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "17:00",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 第五十层"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，这层的星骸已经清理完成，请小心脚下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢，帮大忙了。 不过这一层也没有足够大的许愿箱……天穹保险到底派了多少旅人来爬塔啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样一来，我们只能指望资料上说的——隐藏的第五十一层了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，妾身试着敲打了多处墙壁，并没有密道。地板上的每个机关也都踩了，只是一些陷阱，并没有通向第五十一层的机关。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "到底要怎么去第五十一层呢……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "要在天花板上开个洞试试吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不不……也不是所有事都能靠蛮力强行突破的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果还有一种可能的话……我之前听尘沙他们说过：空白旅团找到我沉睡的许愿箱时——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到 一个超级大的许愿箱吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "据说鸢尾在进入升降机前许下了这样的愿望。 不知道是不是因为她的愿望实现了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之她们到达了放着那个许愿箱——我所在的许愿箱的楼层。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "也就是说，只要许愿之后再坐上升降机……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，我们先试试吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:05",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 升降机前"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到一个超级大的许愿箱吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，升降机没有变化。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那，我换个问法试试……！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到一个比手掌更大的许愿箱吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，还是和刚才一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么会……！？唔……让我反过来思考一下——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到一个巨大的星骸吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……………………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉，都不行吗。看来单靠许愿是去不了隐藏的第五十一层的啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "仔细想想也是，要是把愿望说出口就能进入隐藏房间的话，那早就有更多的旅人抵达过那里才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "剩下的办法……唉，虽然不太情愿……还是去便利店看看吧，或许能打听到什么有用的线索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "便利店？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:20",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 星塔便利店"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "欢迎光临，请问您要买点什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "波西亚，下午好啊，我有件事想要请教一下你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "欢迎光临，请问您要买点什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……嗯？波西亚，现在没时间开玩笑了。 拜托你认真听我说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那个……主公？您这是在做什么？就妾身所知，这位店员看起来和往常没有任何区别啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和往常……没区别？怎么可能……！波西亚正常说话的样子，空白旅团的大家也都见过啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身遇到她的时候，她只会重复有限的几句话…… 妾身一直以为——她是注入了魔力的人偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不、不是，不是那样的…… 拜托了波西亚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "就当是帮一起打工的前同事一个忙，告诉我怎么去这座星塔里的隐藏房间，或者第五十一层吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "无可奉告，喜欢您来，不喜欢您不买还占着柜台。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "刚才的回答，妾身还是第一次听到。正如主公所说，她似乎也会说固定台词以外的话呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话虽如此，她的表情仿佛在说“真麻烦”啊。 哎呀呀……看来只能用那招了吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那这样吧。如果你告诉我怎么去隐藏房间，我可以答应你，有机会的话我会考虑一下再来这里打工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "真的？我这里刚好在卖“炸猪排便当”，你不是很喜欢吗？拿去吃吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，我现在肚子不饿……还是先不吃了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要是吃了“炸猪排便当”，又像那时候一样失去自我，可就麻烦了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "哼，随便你。那就买瓶潜能特饮吧。这个真的很好喝。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "波西亚从柜台后拿出潜能特饮料，放在了我面前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……嗯。这个应该能喝吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "感谢惠顾，期待您下次光临。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，从刚才的对话来看，感觉那个店员知道去隐藏房间的方法。不问出来就直接离开真的好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星塔员工也有星塔员工的苦衷啦，她们也不是什么话都能说的，不过——她其实已经告诉我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我把千都世喝空的特饮杯子翻过来，杯子的底部写着四个字——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "重演历史",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "旁边还有更小的一行字：危险，小心。要是你不来打工， 我就没法顺理成章地摸鱼了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "重演历史......这话好像在哪里听过。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "根据我找到的数百年前的记录，断臂英雄和侍从就是从缆车站那里出发……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "通过滑索越过危险的湖面……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "登上星塔直面邪恶的神祇……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "停下了菲莱连绵不绝的雨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "仔细一想，我眼前正好站着菲莱的英雄与手部负伤的侍从，你们走着当年的路线来到了星塔，终结星塔招标那无谓的争斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "简直就像传说中的景象重演，也算是值得了。不是吗？可偏偏有人要破坏这戏剧性的时刻呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂喂，这也太生拉硬拽了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "瑟拉娜",
+   "text": "生拉硬拽……当真如此吗？毕竟常言道“历史会重演”呀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道说......瑟拉娜说的那些话是在提示我？ 不不不，她怎么可能预知到我现在的困境，是我想太多了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是......这的确是个值得一试的办法。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，我有办法了—— 我们来扮演“断臂英雄”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:40",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 升降机前"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，请帮妾身拿好妾身的家人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "——嗯？你这是要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公说要扮演断臂英雄。既然如此，就必须砍下一只手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "但妾身无法眼睁睁看着主公砍下手臂，伤及贵体。所以，如果要砍就砍妾身的手吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等……！我只说要扮演断臂英雄，没说要真的切下来一只胳膊啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，如果“重演历史”就是打开隐藏房间的钥匙，那么空白旅团找到我的时候，应该也在无意中做了类似的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是，她们又没有提前准备，怎么可能重演得多符合历史，应该只是某些要素恰好对上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "按照这个思路推断，也许不需要完全一致，可能只要凑齐几个要素，通路就会打开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "原来如此。也就是说不需要砍断手臂吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯。不需要砍断。但是为了制造出“一只手不能用”的情况……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，我需要你把我的肩膀关节卸下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "可、可是……！ 还是让妾身来吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行。就算到了隐藏房间，我们可是还要和巨大的星骸战斗呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "再说了，我本来在战斗中就帮不上忙。至少在这种时候，让我也出点力吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "可是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，听好了，这是主公下达的命令。 把我的左肩卸下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "………………遵命。 主公，请咬住这块布。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "整个过程异常干脆。一声奇怪的脆响后，我的左臂无力地垂下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……虽然早有心理准备，但这还真是相当疼啊……不过这样一来，就满足了“断臂”的条件了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐之神在上，请让我们去讨伐......给菲莱不断降下雨水的恶神吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，升降机的灯光变了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总......总算蒙对了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说瑟拉娜那家伙，到底是怎么知道这个办法的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "算了。没时间多想，我们继续前进吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:50",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 升降机内"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那么，妾身会数一、二、三，到三的时候就把肩膀接回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "一、二——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……！？好痛……手倒是能动了， 没想到你数到“二”就动手了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "非常抱歉。 因为如果您有所防备，反而会因为下意识的紧张而不容易把关节接回去。 还有，现在您肩关节已经受伤了，这段时间请避免使用这只手臂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢你的忠告。 但是……考虑到接下来要面对的星骸......真正辛苦的其实是千都世。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总是让你承担艰难的任务，真是抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "不需要道歉。妾身是守护主公的刀。无论面对怎样的危机，为您开辟道路是妾身的职责。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "按照尘沙她们的经验，隐藏房间里的星骸是非常巨大以及强大的，想要战胜几乎不可能，她们能做到的也只是抬走了许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没必要勉强去打倒它。说到底，对我们来说只要能许愿就足够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "遵命，只是...... 许愿之后，妾身有一件事想要恳求主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不用那么客气，有什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "您愿意和妾身进行“灵魂交易”吗？妾身是刀，刀本应没有灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "但是……说来惭愧，这具身体是不完整的刀。也就是说，既然还保留着身为人的部分，那是不是也残留着灵魂呢——妾身是这么想的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "而且……主公身边的各位都已经做了“灵魂交易”，只有妾身被排除在外，怎么说呢，这也……太不公平了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“灵魂交易”么……反正似乎没有风险，倒不如说考虑到今后，可以说是利大于弊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，既然千都世想要交易的话， 就想一个愿望吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "好的……！非常感谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "18:00",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 魔王房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，那边有许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦哦！终于找到比手掌大的许愿箱了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过……看起来，这里和之前的楼层似乎没什么区别，真的是隐藏房间吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "正如您所说，外观上并没有太大差别，不过与之前的楼层不同，妾身感觉空气中混杂着一丝淡淡的潮水气息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……潮水气息？不管怎样，如果没有守护许愿箱的巨大星骸那就赚到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "许完愿就马上离开这里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "千都世解决掉小型的星骸后，我跑到许愿箱前，立刻开始许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐之神在上，恩赐之神在上， 请您赐予我单手握持射击的小型短管火药武器——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，请小心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一道剑光从眼前闪过。 紧接着在前方，有什么东西被无声地劈成了两半。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……书？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "真是怪异……这些书会动，仿佛拥有自我意识一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星塔的地板里，不知何时钻出了很多一模一样的绘本，回过神来，我和千都世已经被许多漂浮的书包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道说…… 这些书就是把守着 许愿箱的星骸吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且这些书，和在达尔茜娅记忆里看到的书很像……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，请快点。不知为何……妾身感觉到了非常不妙的气息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我这就许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我转向许愿箱，打算再度念出祷词，然而......千都世斩断的书页，正好飘到了许愿箱上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "书页上的文字，仿佛有魔性一般，让我不由自主地念了出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "恶魔之王自瞳孔中苏醒，将死亡的权能平分给众生。 上主收回祂的恩惠，甘露变为苦艾。 大地碎裂，受膏的恶者从无底坑中上来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "此地的名字终被抹去，其处荒凉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "<r=•>永</r> <r=•>无</r> <r=•>人</r> <r=•>烟</r>",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "在下面！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，请安心许愿， 不管出现的是何种妖魔，妾身都会为主公挡住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "称颂——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "祂的神名——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身本是凡铁，满身尘土。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那声音像铁屑落进脑海",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "锈在血里生长",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "封闭的空间内，漫起海的味道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "所幸得遇主公。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身乃主公所持之利刃……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "这点侵蚀，尚不足以掩盖妾身的锋芒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身，绝不会败。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

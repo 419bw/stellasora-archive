@@ -1,0 +1,669 @@
+{
+ "heading": "# 02A 深夜潜入",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第二章《水道桥上的风》（星塔历 996 年）",
+  "- **关卡 ID**：`205`　**编号**：`02A`",
+  "- **关卡名称**：深夜潜入",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm02_02_a`",
+  "- **关卡描述**：既然说我们是野蛮人，那就做点野蛮的事吧。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "压榨员工的白垩商会半夜才下班，\n浑浑噩噩的员工并没有发现密涅瓦和你们，\n商会的大厅里，菲金试图复制你们的车子。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "压榨员工的白垩商会半夜才下班，\n浑浑噩噩的员工并没有发现密涅瓦和你们，\n商会的大厅里，菲金试图复制你们的车子。",
+  "episode": "第二话",
+  "title": "深夜潜入"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "23:30",
+   "date": "雨月 1日",
+   "place": "埃摩灰城区 灰风俱乐部"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家准备好了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "睡饱了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "准备就绪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "心相石魔力充足。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "满月，新月，你们好好看家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "满月&新月",
+   "text": "是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "02:00",
+   "date": "雨月 2日",
+   "place": "埃摩金城区 水道桥走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我们到了，从这里下去就是白垩商会的后门。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "再核对一下计划吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "潜入后尽量分开行动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "目标是幸运绿洲号，白垩商会的守卫都是临时工，夜班安排的人手不多，但务必小心行事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们要怎么把车搬走？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我开车冲出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呜，这附近的道路我们不熟，有点乱来，但也没别的办法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "还有一条路，这附近有个搬运货物用的大型升降机，应该装得下你们的车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这样，我们就能顺着水道桥开回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "在水道桥上开车？太帅了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，对方肯定想不到这条路，就走这条路吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，行动开始。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "02:30",
+   "date": "雨月 2日",
+   "place": "埃摩金城区 白垩商会大厅"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的临时工",
+   "text": "菲金首席，您还不休息吗？我都困得睁不开眼了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "真是没出息。想回去就回去啊，我可还没走呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "困倦的临时工",
+   "text": "我，我真的撑不住了……抱歉，我先告辞了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "啊，对了对了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "困倦的临时工",
+   "text": "怎，怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "别忘了明天早晨九点上班，别迟到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的临时工",
+   "text": "啊......好的，我们明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "真是的，现在的员工太没有干劲了，没看过埃摩凌晨三点的夜空，怎么可能获得成功？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "那辆稀有的神器车，如果能批量许愿出来，白垩商会就能复兴了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "到时候，那些欺负过我的公司和人，我要一个个报复回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "所以，我现在还不能休息，要快点把许愿卡搞好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "02:45",
+   "date": "雨月 2日",
+   "place": "埃摩金城区 白垩商会走廊"
+  },
+  {
+   "k": "talk",
+   "speaker": "困倦的临时工",
+   "text": "“别忘了明天早晨九点上班，别迟到~”……真是。 她把我们当什么了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "困倦的临时工",
+   "text": "她说得理所当然，也不看看现在都几点了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的临时工",
+   "text": "到九点还有六个小时，回家折腾完这些那些，怕是连两个小时都睡不到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的临时工",
+   "text": "菲金“女王陛下”命就是好啊。就算通宵研究车，反正白天也能在公司休息室睡觉吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "呼，好险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们藏得这么随便，她们都没发现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "每天只睡两个小时，都没力气想别的啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "工作，好可怕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲金对孩子们都那样，对普通员工只会更压榨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们有没有觉得，有人在盯着我们？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我们被菲金发现了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没有吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们没感觉的话，可能只是我精神过于紧张了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果是菲金的话，肯定已经叫帝国卫队过来抓我们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "听那两个临时工刚才说的话，菲金在研究你们的车子，我们朝着她们来的方向搜索准没错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，前面有楼梯，我和琥珀去楼上吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我找附近的房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "等着我，小绿！我一定会找到你的！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我不知道幸运绿洲号的样子，就和魔王一起行动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "我们去最里面的房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "03:00",
+   "date": "雨月 2日",
+   "place": "埃摩金城区 白垩商会大厅"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "上次的许愿卡只许愿出了车壳，还不是金属的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "是哪里出了问题？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……没想到一下就找到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "不过她一个人嘀嘀咕咕的，在做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看不清楚，她好像要拿出什么东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "再试一次吧，用这枚“恩赐印章”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是......士兵棋子外形的恩赐印章？和我的那枚印章很像。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "白垩商会也是公司，有恩赐印章不稀奇，只是......恩赐印章都是棋子样的吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "注入魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "用印章复制这辆车的信息，再把信息印在许愿卡上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菲金",
+   "text": "好了！明天得赶紧找人试试效果，对，就让那个看起来不太聪明的金发旅人来用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "许愿卡是这么做出来的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "恩赐印章还有这样的作用？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是琥珀的消息。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔王，我们被骗了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "以下是鸢尾的原话",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我和琥珀在二楼找到了很多文件，我们违反的那些规章制度，都是临时编出来的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "她还在继续编新的奇怪制度，这写着“在水道桥上没有按照队列行走，一次罚款两千朵拉”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "估计是想下个月发工资的时候用来罚我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "她从一开始就没打算把车还给我们，只是骗我们打白工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "以上，鸢尾口述",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然是这样，菲金根本不想付工资。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "这就是......白垩商会啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "靠着公司的名头为所欲为，制定出的规矩都是为了方便菲金一个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "魔王，既然对方不愿意讲道理。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "咱们也没必要讲什么道理了吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

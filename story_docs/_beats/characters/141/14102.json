@@ -1,0 +1,676 @@
+{
+ "heading": "# 荒村惊魂 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：赤霞（角色编号 `141`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`14102`",
+  "- **AVG 剧本**：`CG_141_02`"
+ ],
+ "recap": "旧日记本记录的那场婚礼是否留有遗憾？未知的黑影闪现，难道是真的有“鬼”？",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "旧日记本记录的那场婚礼是否留有遗憾？未知的黑影闪现，难道是真的有“鬼”？",
+  "episode": "第二话",
+  "title": "荒村惊魂 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "符纸飞入的是一间遭过火灾的房子，被烟熏黑的墙壁、烧焦的家具都是明证。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "房子里的空气中有一股挥之不去的焦味，不知道是符纸燃烧的味道，还是我们的心理作用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个村子还真是到处都是人偶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我以前听说，人偶虽然是人形，但因为没有灵魂，所以很容易被一些幽魂野鬼附体……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那现在这么多人偶岂不是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "别说了，我们还是…… 喂，你还要去翻什么？ 这个屋子一目了然根本没有什么好调查的，我们还是快出去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你说的要相信你吗？既然你的符纸飞到了这里，那还是调查一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……？这是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "笔记本……里面好像写了什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "“花月金藤花日，雨天……和他约好了去城里逛逛，这是他第一次邀请我。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "好像是日记。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我和赤霞翻看了这本日记。 因为年代和烧焦的原因，有些字迹已经模糊了。 但从清晰的部分，我们还是能拼凑出日记主人的一段往事。 日记的主人是一位年轻的少女， 这本日记记录了她与一名龙裔男性从相识相知到相恋的过程， 字里行间都透露着幸福和对未来的期待。 日记的最后一页写着—— 明天就是他们的婚礼，母亲为她做了龙裔传统婚礼的红色礼服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明明是这么幸福的记录，却只写到婚礼前一天。 难道说......婚礼的时候发生了意外……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "喂，魔王…… 我们刚刚来的时候，这个村子是全黑的对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，除了那些人偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那、那那边的房子是怎么回事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "赤霞手指的方向，一片漆黑之中，一扇窗户透出了橙黄的光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一个人形的黑影站在窗前，仿佛直勾勾地看着我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谁在那！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一眨眼的功夫，窗户上的人影不见了，“被人盯着”的感觉也消失了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看错了么……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我我我我们回去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你不是玄师吗？！ 这种时候难道不会想过去看看发生了什么吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我才不要！ 星塔里的影戏都是这么演的，好奇心害死猫，作死的人就会死！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "要不然这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "剪刀石头布，如果你赢了，我们现在就回家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "要是我输了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我们现在就离开这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不是没区别吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但我出来前跟白泽公署打了包票，说请到了玄师赤霞，一定能解决问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "呃……我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没事的，刚才的黑影可能只是窗帘被风吹动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "真的没事吗？影戏里大家作死之前都是这么说的耶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "啊啊啊！真是的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我拼了！这个给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你把它放在贴身的口袋里，如果遇到危险，应该能派上用场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，这难道就是传说中的，那个旅人必备超厉害的护身符？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "有这么出名吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听说无论是多么凶险的情况，只要有玄师赤霞的护身符，就相当于多了一条命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "哦……哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "原来我这么厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你有这么厉害的符，还担心什么，我们走吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "嘻嘻，玄师赤霞一定能解决问题，嘻嘻……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "嗯？诶？！！！ 你等等我！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "屋内空无一人，只有一张老旧的雕花木桌，桌面上立着几根红色的蜡烛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我总觉得有种不好的感觉…… 喂，魔王，你就这么走进去？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "啊，真是的，你这家伙到底是哪里来的胆量，能不能分我一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "什么都没有……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "废屋的横梁和檐柱上缠着红色的绸缎，破损的窗户上贴着红色的“囍”字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在时间的洗刷下，这些红色现在变得灰扑扑，让这里多了一分诡异的氛围。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么装饰？某种仪式？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "这种布置…… 是龙裔传统婚礼的风格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对哦，刚刚的日记里也写了结婚的事。 难道，这就是当时的婚礼现场？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "有可能，可是…… 为什么这些蜡烛还在烧着，而且……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "桌上这些水果，是不是有点新鲜得过分了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看上去像是刚摘下的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那场婚礼是好久以前的事情了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我，我知道了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那个女人在婚礼当天遇到意外，所以日记没有继续写下去。 结婚仪式就变成了没有新娘的结婚仪式，这份怨念……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "噢噢！好推理。 所以，她的灵魂还徘徊在这里，村子才会闹鬼？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这么说的话，说不定和村子里的人偶也有关系。 说不定，那些人偶就是她的未婚夫为了纪念她……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "也也也就是是是说说，“她”在在在这这里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一阵阴冷的风吹过，摇曳的烛火拉长了我们的影子，投射在墙上，就像是活过来一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "咕！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "赤霞，你还好吗？你好像掉色了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我、我还好，我可是玄玄玄师赤霞，我我可以的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……要不我们还是回去吧，你这个状态……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "不！我没事！不能给云笈文化，不能给玄师丢脸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "咳咳，听说，人若执念未了，就无法去往极乐世界，那我们只要……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完成她的心愿？重现当时的情景？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "啊对对！ 嗯？你怎么知道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……奇怪，我怎么知道的？ 这好像是哪个影戏里的剧情……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "总之！应该就是这样没错的！不愧是我玄师赤霞~嘻嘻~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "重现当时的情景的话，我们要怎么确定“她”执念的到底是哪件事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我们都被引导到这里了，“她”的执念当然是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "婚礼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "明明没有风，烛火怎么闪了一下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃……那也就是说，只要我们把“她”当年没有完成的婚礼完成了， 就可以让“她”心满意足地去往生了……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这难道是……猜对了的意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "啊啊啊啊这里果然有鬼啊啊啊啊！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

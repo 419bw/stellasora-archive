@@ -3,7 +3,7 @@
 import json
 import collections
 from html import escape
-import md2html
+import render_html
 
 FAMILIES = [
     ('main', '主线剧情', '全线剧情拓扑、分支抉择与终局推演。'),
@@ -262,8 +262,8 @@ def layout(title, body, depth, crumb, note=''):
        root, root)
 
 
-def script_page(rec, md_content, nav_info=None, branch_targets=None):
-    body, _ = md2html.convert(md_content, branch_targets=branch_targets)
+def script_page(rec, doc, nav_info=None, branch_targets=None):
+    body, _ = render_html.render_body(doc, branch_targets=branch_targets)
     g = rec['group']
     up = g.get('label') or ''
     page = rec['page']

@@ -1,0 +1,1047 @@
+{
+ "heading": "# 04C 不变之物",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1024`　**编号**：`04C`",
+  "- **关卡名称**：不变之物",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_04_c`",
+  "- **关卡描述**：无论重来几次……",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "在你的谋略下，百人队尽数溃散，安琪向你投降。\n她与你独自坦白真相：她也曾抵达过未来、见证过毁灭；\n死之权杖仍有最后一发子弹，她选择对自己扣下扳机……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在你的谋略下，百人队尽数溃散，安琪向你投降。\n她与你独自坦白真相：她也曾抵达过未来、见证过毁灭；\n死之权杖仍有最后一发子弹，她选择对自己扣下扳机……",
+  "episode": "第四话",
+  "title": "不变之物"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "安琪委员长，我们撤吧，这只星骸……我们的攻击对它完全无用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "并非无用，我看过水道桥上战斗的资料，我们要破坏它头上的法阵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "这只星骸和水道桥上的那只完全不同……我们已经试过了，根本没用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "我们的魔法甚至穿透不了它的魔法防御，这不是普通的星骸，这是尊者级的星骸！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "不行！我必须在这里杀死魔<r=mowang></r>王，你已经成长为真正的魔<r=mowang></r>王了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "既然魔法不行，那这把死之权杖呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "安琪的子弹穿过星骸的魔法防御，钉在了星骸头部的法阵上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "巨大星骸",
+   "text": "嗡——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "委员长……快走，我们败了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "格蕾霍恩",
+   "text": "帝国卫队会尽忠职守，为您断后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "格蕾霍恩！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我和尘沙从许愿箱中爬出来时，地面上尽是昏迷的委员会成员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "房间里唯一站着的人……只剩下安琪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，拿到心相石的大家已经回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "琥珀，看好这家伙，我和尘沙去接人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在同伴们陆续抵达魔王房间的过程里，安琪没有任何动作，她就像是凝固了一般，呆呆地站在原地。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，拯救委员会三个百人队皆在星塔里溃散， 格蕾霍恩、160号还有冈希尔德被我们抓住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你输了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵，没错，我的确输了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你很厉害， 就算我带着记忆回来，也没办法战胜你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "记忆？她在说什么？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，不用和她啰嗦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "只要抓住她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "一切就都结束了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "此贼屡次加害主公，妾身愿为主公斩之。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "投降吧，安琪，你已经被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要你投降，我们不会伤害你，我可以保证你受到公正的审判。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "……真是意外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "到了这种时候，你居然还打算留我一命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你的心太软了，魔<r=mowang></r>王",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，你最好别把这当成我可以利用的弱点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我只是想给你一个公正的结局，别以为我不会杀你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我知道。所以，我在认真考虑你的提议。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "事已至此，我向你们投降。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "但是，我有一个条件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "条件……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "看清你的筹码，你现在连坐上谈判桌的资格都没有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，魔<r=mowang></r>王，我相信你会答应我这个条件的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我想要和你单独谈一谈，不去别的地方，就在这里，只是请你的同伴拉开一些距离。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "事到如今还有什么好聊的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我想要告诉你，世界毁灭的真相，只能告诉你一个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这么做有什么意义吗？就算我答应你，谈完之后我也会毫无保留地告诉我的同伴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "有些真相，一旦被不该听见的人知道，只会带来更多麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你听了之后，就会明白的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "前两次和安琪的谈判中，她说了很多……我过去完全不知道的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "先帝的日记，坠落的星塔，以及她那个至死也没说出来的“底牌”……就算是为了收集情报，也有必要听听她怎么说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾，夏花，给我的衣服附上防御魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好了，她们都走到房间的边缘了，这个距离是听不到我们说什么的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "现在，你可以交代了吧，所谓世界毁灭的真相到底是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "感谢魔王对我的信任。既然你愿意接受我提出的全部条件，甚至没有取走我的死之权杖……那么，我也应当拿出与这份信任相匹配的诚意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "先说结论吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我来自四年后的未来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我没有开玩笑，四年后，这个世界毁灭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "大地崩塌，文明断绝。诺瓦帝国……连灰烬都没有留下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "不论是我们深爱的一切， 还是憎恨的一切，都彻底消失了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "而造成这一切的元凶，正是魔<r=mowang></r>王， 也就是——我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是魔<r=mowang></r>王？你到底在说什么啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我曾经在一次偶然的机会中，得到过一部手机。它和你手上的这部，外观一模一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "“诸界之井魔<r=mowang></r>王养成系统”你应该知道这个名字吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那时的我一无所有。为了自己，为了同伴，我拼命地去完成系统发布的任务。 然后一次又一次地，获得了远超常理的奖励。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "最终，我完成了所有的任务。然后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "迎接我的并不是什么美好的结局。星塔在我面前崩塌……这个世界也……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我使用了系统给我的奖励，许下了最后的愿望。我放弃所有同伴，独自逃回了十年前。 以现在的时间计算……应该是六年前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我没有勇气再次取得那部手机，也没有勇气去面对未来的同伴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我只能拼命收集情报。在很远的地方，监视着那家心相石商店。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后，这一次被选中的魔<r=mowang></r>王……就是你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在说谎！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哈哈哈哈，魔<r=mowang></r>王，你现在的表情可真精彩！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你肯定知道这个系统对吧？ 因为你现在所做的一切，和当年的我一模一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我有没有说谎，想必你心里已经有答案了。毕竟那套系统实在太过离奇，如果不是亲自试用过，仅凭想象……是绝对不可能说得这么详细的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "所以啊，魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你只是行为和《恩赐预言书》上记载的吻合，我不会动手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "先帝珍藏的古<r=日记></r>书里有你的画像，我也不会动手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "自从回到过去，我就不再相信任何人，任何事了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "但是，我没办法不相信自己。毕竟，那一切都是我的亲身经历。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "毁灭世界的魔<r=mowang></r>王，就是获得了这套系统的魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我的目的，也只有一个。就是从魔<r=mowang></r>王的手中， 拯救诺瓦",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "话说到这里，你应该已经明白了。魔<r=mowang></r>王，只有你死了，才能避免接下来发生的一切不幸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我知道，这对你来说不公平。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "所以，我会陪你一起赴死……也算是赎罪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在做什么白日梦，我怎么可能因为你的几句胡言乱语就自寻死路！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "只有我们两个死了！才能换大家的生路！我愿意为诺瓦献出自己的一切！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你愿意吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "只要你愿意，米拉什就能得救。你珍视的那些同伴也不会受伤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要说大话了，安琪。我的命运掌握在我自己的手里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果真的有足以毁灭世界的危机，那我一定会去阻止！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你用我的同伴，还有米拉什威胁我，可你的死之权杖里，只剩下一发子弹了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵……你果然一直在数。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "正如你所说，死之权杖里确实只剩下一发子弹。连你身上的防护魔法都不能击破。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "但是，我并没有说大话哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，请做出选择吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "是和我一同赴死，还是让整个米拉什…… 为我们陪葬",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你这家伙……是不是因为接连的失败，连脑子都不清醒了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵，也许吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "毕竟不管我做什么，总会慢你一步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我的每一步都被你看穿了……无论怎么努力，最后总是只差一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "明明我拥有未来的记忆，应该占尽先机。现在的状况，真让人烦躁啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "不过，看你现在这幅困惑的样子，你应该还不知道我最后的底牌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "安琪缓缓掏出一枚棋子，一枚黑色的城堡棋子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你也有恩赐印章……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这枚“黑色城堡”，赐予了我控制一座星塔的权能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那座星塔很奇妙，它悬浮在高空中。只有持有这枚棋子的人， 才能凭借特制的斗篷出入其中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "悬浮在高空的星塔！你的意思是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "呵呵，看来你已经明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "这座星塔就在米拉什的上空。高得几乎无法用肉眼看见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "而当我的呼吸停止的那一刻，它就会开始崩塌。从高空坠落，然后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "我们会死。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你的同伴会死",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "米拉什的一切，都会被彻底埋葬！哈哈……哈哈哈!",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪，停下！你疯了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "也许是吧。如果必须有人发疯，才能把世界从毁灭的深渊中拯救——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "那么，我很乐意成为那个疯子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，安琪！放下死之权杖！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "只要牺牲一座无足轻重的边陲小城，就能拯救整个世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "你是公司的经营者，成本与收益间的差距……你应该很清楚吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "好了，魔<r=mowang></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "来和世界道别吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "来和世界道别吧 然后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后…… 和我一起——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "和我一起——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "成为新世界的基石吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "魔<r=BOSS></r>王和那些穿着恩赐意志衣服的人应该就在这座星塔里打架吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "这次，我绝对不会失手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "星塔可是我们永夜的主场！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "咦？天，天空怎么突然暗下来了？那，那是什么啊？天上为什么会有一座星塔！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

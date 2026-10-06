@@ -88,6 +88,16 @@ jobs:
           echo "Collecting commits in $COMMIT_RANGE"
           python scripts/automation/changelog_from_commits.py --range "$COMMIT_RANGE"
 
+      - name: Unit tests (push only)
+        if: github.event_name == 'push'
+        run: |
+          python -m pytest tests/story/test_release_gate.py tests/automation/test_changelog.py -q
+
+      - name: Validate story docs (push only)
+        if: github.event_name == 'push'
+        run: |
+          python tests/story/validate_story.py
+
       - name: Build static site
         run: |
           python scripts/site/build_site.py

@@ -1,0 +1,508 @@
+{
+ "heading": "# 04C 漫雪的蓝调",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：闪耀的使者与圣夜的精灵（活动编号 20101）",
+  "- **关卡 ID**：`201010206`",
+  "- **AVG 剧本**：`STev_02_04_c`",
+  "- **关卡描述**：你选择追上隔壁街信使的脚步……"
+ ],
+ "recap": "你们追上了信使的脚步，发现了同样穿着制服分发礼物的苍兰。她回忆起了照片和书的去向正是东一街的木匠家，但菈露没等话说完，就着急地立马逃开了。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们追上了信使的脚步，发现了同样穿着制服分发礼物的苍兰。她回忆起了照片和书的去向正是东一街的木匠家，但菈露没等话说完，就着急地立马逃开了。",
+  "episode": "第四话",
+  "title": "漫雪的蓝调"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "为了找到雪愿树精灵的照片，我们前往隔壁街寻找孩子们说的信使。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，找到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "的确，背着那么大的邮包，肯定是信使了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那身衣服…… 也是同事吗…… 不对，这是谁啊？ 完全没印象……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "魔<r=BOSS></r>王？ 贵安，您这顶帽子是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还真是苍兰啊！她也在埃摩啊，而且这身打扮……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我…… 接了帮恩赐意志送雪愿节礼物的委托—— 就戴上了这个帽子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "奇妙的巧合，万送屋也接了恩赐意志的委托—— 帮埃摩城的居民送雪愿节礼物。这次也算是出差了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "虽说是好事…… 但万送屋也人手有限。即使“全员出动”，也就是杯水车薪……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎？原来连外包都用上了啊！好夸张……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嘿嘿，不管怎么说，只要出了力，就都算是我的“摸鱼恩人”啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "说起来，你们原来认识啊？你就是万送屋的那个…… 话说该怎么称呼你？我的摸鱼恩人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "不好意思，初次见面，我是万送屋的苍兰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯哼~在下菈露，请多指教，苍兰！可能明年的雪愿节，恩赐意志也要再麻烦你们一次啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "请您多关照了…… 其实，我也有事想问问恩赐意志这边，不知您能否为我解惑？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯？有关工作的事情别客气尽管问！比如高效摸鱼…… 不对不对，高效工作的秘诀……什么的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "有关贵司的委托…… 其实，我平时工作的时候不是穿成这样的。魔<r=BOSS></r>王应该也知道这点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "正好聊起了我没问出口的问题啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你是在说这套“雪愿节使者”的衣服吗？嘿嘿，很可爱吧！ ——你穿的这套也蛮可爱的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "菈露大人您过奖了——不，不对。我是想问……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "这个派送礼物的工作，需要穿统一的制服…… 我能理解————虽说这个“制服”的样子…… 确实有些出乎意料。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "我其实想问的是，这个委托是发给整个万送屋的，但是…… 我们只收到了一件“制服”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是辛苦了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "结果最后，只有我穿成这样了…… 这是不是哪里搞错了啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "送出的数量错了？大概又是哪个粗心大意的谁点错了数目吧…… 这种事情，也很常有呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "该不会是你干的吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你别瞎说！ 总之，现在就先好好享受节日氛围吧！穿上它，就是“雪愿节使者”了，要感到光荣！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……少发了衣服的事这就不用管了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯……现在补也来不及了不是吗—— 咳咳！我们现在都身负重大责任…… 我谨代表恩赐意志向您的贡献致意！至于你反映的问题，我之后会帮你向同事转达的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "真是太感谢您了…… 万送屋以后，还可以承接更多业务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不客气！啊对—— 差点忘了，我也有事想问你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "您请说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你帮居民送的那些给朋友的礼物里，也有不少书吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "是的，埃摩的大家都很喜欢阅读呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "那么，你有没有见过一本写雪愿树传说的书，里面还夹着照片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "照片……？是说“雪愿树精灵”的照片吗？不过，常理来说客户的隐私我不能……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了实现孩子们的愿望…… 我们很需要这个情报，请你告诉我们吧。我们会礼貌地去拜访的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "好吧，既然您都这样说了…… 收件人是，东一街的一位孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "具体门牌号是……还有什么其他的印象吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "那户人家没有门牌号，但是屋子里弥漫着松木木屑的好闻味道，或许是木匠？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "终于有新线索了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "但是，一张照片…… 是要怎么实现孩子们的愿望呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "哎呀，他们吵着要看精灵啦~而且魔<r=mowang></r>王也对精灵很感兴趣，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂喂——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "嗯……我大概能理解魔<r=BOSS></r>王的心情呢，毕竟照片里的精灵…… 看上去是个很可爱的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "她的模样，就像是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "咳咳！我、我突然想起来，我们还得抓紧时间送礼物呢！要赶不上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "抱歉，耽误你时间了！你也加油哦——魔<r=mowang></r>王，我们走吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊啊啊？！ ……好，再见，苍兰——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "哎？啊，那，再会……魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你怎么了？这么急……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "没什么！而且我们本来就还剩很多礼物没送嘛……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是这样没错…… 但有必要这么着急吗，不是刚问出来情报么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "既、既然已经问到关键情报了，就足够啦。再耽误苍兰的时间也不好意思！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇哦…… 没想到你还挺温柔的。还会为了“同事”的工作着想哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "总、总之！先不管这些了，我们继续送礼物吧！ 当然——顺便也找下照片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然进度有些缓慢，但总算是步入正轨了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "顺着苍兰的线索，我们来到东一街。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我们一边送礼物，一边四处问问吧。这条街上应该没有很多木匠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是啊，等等， 菈露，你看那边——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

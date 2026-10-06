@@ -1,0 +1,660 @@
+{
+ "heading": "# 第二话 书中的旅途",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属 NPC**：维嘉尔（NPC 编号 `9174`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`917402`",
+  "- **AVG 剧本**：`CG_npc174_02`"
+ ],
+ "recap": "书中的文字与插图，不仅是她的消遣，更是她寄托于书页之间、想要与魔王一同踏上的遥远旅途。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "书中的文字与插图，不仅是她的消遣，更是她寄托于书页之间、想要与魔王一同踏上的遥远旅途。",
+  "episode": "第二话",
+  "title": "书中的旅途"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "奇怪……便利店的柜台怎么没有人？店员呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "波西亚的话，她平时都会在柜台旁边打游戏的…… 嗯？这里好像写着什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "自助收银中？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "也就是说，我们自己结账就可以了对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "自助收银……也太相信我们了吧，万一有旅人拿了东西不付钱怎么办。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "没人会做这种事情的。整座星塔里除了许愿箱里的东西，其余皆是恩赐之神的财产。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也是……如果是这样的话，大家也就都会自觉付钱了。 那我们分头行动，快些把东西买齐吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "差不多就这些了……之后还要再买五个风之音……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "奇怪，平时，风之音不是都放在这里吗……是换位置了吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "风之音的话，是在这边哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦！谢谢提醒！波西…… 不对，这个声音是？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？这不是维嘉尔吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "嘘——请小声点，不然我和魔<r=mowang></r>王大人的关系要是被您的同伴们发现了的话就不好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "没想到会在这里相遇呢，魔<r=mowang></r>王大人。也不枉我特地跑一趟便利店了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实有些意外……维嘉尔居然也会来买东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "嗯，不过大多数时候，我都会叫店里的外卖，所以很少亲自来店里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "虽然上次过来已经是很久之前的事情了……但看到这些商品一点都没变，多少还是有些失望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这么一说，倒也确实，在我的记忆里，便利店的商品基本上就没有变过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，有的时候，波西亚不是会从旅人那里换到一些星塔外的东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比如……上次珀尔娜喂给我吃的蛋糕，她说是“波西亚从旅人手上换来”的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "珀尔娜……喂您吃蛋糕？ 我怎么从来没听说过这件事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好，我说了什么不好的话吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维嘉尔的表情突然好吓人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "咳咳……方才有些失态，让您见笑了。难得和魔<r=mowang></r>王大人见一次面，还是不要被这些小事坏了兴致吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "珀尔娜……回头再和你算账……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然，我不该提这件事的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "我们刚刚聊到哪里了？魔<r=mowang></r>王大人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……说到便利店里的商品从来没有改变……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "哦！对！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "尤其是这书架上的漫画和杂志，几乎从来就没有更新过。我现在已经能够闭着眼睛，就说出哪本书讲了些什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦……原来维嘉尔还喜欢看书啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "是的，书乃是精神的食粮，也是星塔里为数不多的消遣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "对了！魔<r=mowang></r>王大人，您可以从星塔外帮我带一些书籍吗？届时直接递给波西亚，让她转交给我就好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果只是带几本书的话，倒是没问题。维嘉尔想要什么样的书呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "嗯……麻烦给我带几本《诺瓦地理志》吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我记得……每当到了陌生地域，旅人就会去地理协会买一本……查查附近的荒野和星塔的状况……有时候也会附上委托广告……是那本吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "对的，就是那本。我一直很好奇现在的《诺瓦地理志》上面都写了些什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“现在的”《诺瓦地理志》吗？维嘉尔的说法感觉好奇怪啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "地理志可相比于漫画和其他杂志来说，无论是内容量还是趣味性，可都差的蛮多的…… 你确定只要这本书就可以了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "嗯，因为我无法离开星塔，所以《诺瓦地理志》可能是为数不多的，我能够了解星塔塔外世界的方式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "嗯，我记得在这边应该就有一本…… 啊，找到了， 请看这个魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……好久以前的《诺瓦地理志》啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "这本是“松川谷风温泉”的城邦特辑，我反反复复看了好多遍呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "魔<r=mowang></r>王大人，您知道吗？据说那里有一种神秘的习俗——从温泉出来之后，要单手叉腰喝牛奶呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不知道诶……这也是地理志上写的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "是的，魔<r=mowang></r>王大人也想要看一看吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家还在买东西……稍微看一会应该没关系。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，那让我看看吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "给~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯……原来如此。 除了要在出来之后喝牛奶，还有要围着桌子打球的习惯吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "好像是一种叫做“弹弹球”的项目呢，您有兴趣吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "哼哼~像这样和魔<r=mowang></r>王大人一起讨论异国的话题，总感觉真的在和您一起旅游呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "与魔<r=mowang></r>王大人一同前往松川， 游历风景， 体验温泉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这书上说，在外面玩了一天之后，就可以回到旅店泡泡温泉……想想就非常的解乏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是……如果已经玩的很累了，还要打弹弹球吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "当然还要打了，这可是必玩项目！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "就像是去千塔一定要看水道桥日落，去了苍梧一定要去吃美食一样！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜啊……必玩项目吗？维嘉尔还真是严格啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且居然连千塔和苍梧的特色都这么清楚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "毕竟我并不能像魔<r=mowang></r>王大人您一样自由进出星塔呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "若是未来有机会能出去旅游的的话，想必一定非常难得吧，必须要好好珍惜，提前做功课才行呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "哈哈，不小心让话题变得有些沉重了呢，我们换一个话题吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "说起来，我一直不太理解，如果泡了温泉之后去打弹弹球，打完弹弹球会出汗，出了汗又要去泡温泉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听上去像是会无限循环的样子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为了解开这个谜题，确实有必要去找基本新的地理志来呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好！包在我身上吧！无论是正篇还是特辑，只要能搞到，我下次都给你带来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "真的吗？好期待啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "谢谢魔<r=mowang></r>王大人……看来我也得准备些回礼来感谢您才行呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "回礼？不用了不用了，举手之劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "身为魔<r=mowang></r>王大人的仆人，没有回礼的话多少有些不太合适吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "请您放心，我一定会准备让您满意的回礼的，请您拭目以待吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧，既然是维嘉尔的回礼……那我就恭敬不如从命了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王！东西都买完了吗？我们走啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊！这就来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "那么魔<r=mowang></r>王大人，我们有缘再会吧， 祝您一路顺风。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯！维嘉尔也要多多保重啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "魔<r=mowang></r>王大人，走掉了呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "但是……明明有那么多的杂志和漫画。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "为什么我偏偏会在意《诺瓦地理志》呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

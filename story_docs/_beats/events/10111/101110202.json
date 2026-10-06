@@ -1,0 +1,724 @@
+{
+ "heading": "# 02 脚踏实地，谦逊努力",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：奋斗吧！大小姐的旅人修炼手册！（活动编号 10111）",
+  "- **关卡 ID**：`101110202`",
+  "- **AVG 剧本**：`STev_12_02`",
+  "- **关卡描述**：一步两步，向前迈进。"
+ ],
+ "recap": "在好友们的帮助下，埃莉诺开始跟着老师学习舞蹈，在杂货店内实习，为迟早能正式踏上旅人之路而努力。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在好友们的帮助下，埃莉诺开始跟着老师学习舞蹈，在杂货店内实习，为迟早能正式踏上旅人之路而努力。",
+  "episode": "第二话",
+  "title": "脚踏实地，谦逊努力"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "集中精神，跟上我的动作，仔细听音乐里的节拍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "没错，就是这样，步伐有进步哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "非常好，我们稍微休息一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……哈啊、哈啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "感谢…… 老师的指导。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "不用客气，这是我的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "说起来，埃莉诺，你连休息时都不肯放下那个箱子呢。里面装了什么很重要的东西吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "呃，也不是啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我只是想尽量适应这个重量，所以才会一直随身带着它。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "上舞蹈课的时候也要带着吗？你这孩子还真奇怪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "之前薇薇安突然来访，拜托我教一位友人跳舞，我原以为你是为了学会贵族的优雅举止……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "但恐怕没那么简单，毕竟你平日里的姿态就称得上优雅得体，应该是从小就有接受这方面的教育。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这、这是因为……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "无妨，我不打算强求你说出秘密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "只是…… 埃莉诺，我看得出你有着得天独厚的资质，若愿意潜心钻研舞蹈，我可以保证，你有朝一日能登上更大的舞台。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……对不起，老师。我的梦想不是成为舞蹈演员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "嗯，我能猜到。 虽然不知道那个箱子里装着什么，但想必它与你的“梦想”有关，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……是的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "能让我拿起来试试吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "可以是可以…… 请您小心，它的重量不轻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "……的确有够扎实。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "好厉害的动作……！ 您嘴上这么说，结果却举重若轻地拿起来了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "呵呵，毕竟我们舞者都是要练托举的，有时服装本身就已经足够沉重，却还需要抬起舞伴或道具。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "在承受重量的同时，还要保持优雅的姿态和轻盈的舞步；哪怕身上的负担再怎么沉重，也绝不能让台下的观众察觉到破绽……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "如果你想学的话，我可以把各种技巧传授给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "诶？真的可以吗？！太感谢您了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "先别急着感谢，我的要求可是很高的哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "对刚入门的新人来说，这注定是一条坎坷的道路，我可不会看在薇薇安的面子上就对你放低考核标准。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "没问题！我一定会加倍努力的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "舞蹈老师",
+   "text": "很好，我期待你的表现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "您好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "埃莉诺，你来啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "请问我今天的工作是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "这个嘛，你毕竟是来实习的，还是先从简单的事情开始做起吧。仓库里刚送来一批新的神器，麻烦你按种类分类好，开始往店里上货吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "完成了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "这么快？手脚还挺麻利的嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "最开始那几天，你连神器的基本分类都搞不清楚，看来是私下里认真做过功课了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "嘿嘿~都是多亏了老板的悉心指导。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "而且，在跟随您学习之后我才知道，原来只要积累足够多的经验，就算是从未见过的神器或道具，也有办法摸索出使用技巧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我也好想学会这么厉害的本领。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "呵呵…… 最初卡特琳大小姐硬把你介绍过来，我还以为是别家的大小姐体验生活来了，没想到小姑娘意外地很能吃苦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "既然你这么有上进心，有没有兴趣尝试新的工作啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "当然有！除了鉴别神器的功能和价格，我还想学会和客人打交道的方法，您愿意教我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "原来如此，台前幕后的工作都想体验一下吗…… 但这可不是什么简单的差事哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "你得学会观察客人，快速抓住对方的需求和喜好，推销出最为合适的产品。里面的门道多着呢，你真的愿意下功夫学吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我会努力的，请您不吝赐教！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "要想完成前辈制定的计划，最好的办法就是尽可能地去接触形形色色的人……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "除此之外，人们对神器有什么样的看法，对什么样的东西情有独钟…… 这些事我都想要去深入了解！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "杂货店老板",
+   "text": "哈哈，真是干劲十足。我很期待你的表现哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "呼…… 真是充实又忙碌的一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "虽然已经累得精疲力尽了，内心却很有成就感…… 这种感觉，我好像从未体会过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "多亏有薇薇安和卡特琳一起劝说，父亲大人和母亲大人总算是答应放我出家门了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "她们帮我引荐的老师们也很了不起，在大家的帮助下，我各方面的能力都得到了提升。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "如果只靠我一个人的力量，是绝对走不到这一步的。这一路上能有朋友们相助，真是太幸运了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "要是前辈现在在我身边，肯定也会赞同我的看法……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不过…… 先打起精神来，现在还不是休息的时候，我还有一个重要的任务没完成呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "应该没有被发现吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "太好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "请原谅我这小小的任性吧，父亲大人，母亲大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这一次，不是“离家出走”。我马上就会回来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "都这个时间了，大家看起来还是很忙碌啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "这就是旅人的生活，我将来也能像他们一样吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不对，现在可不是想这些的时候，我今天是为了收集情报来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "那里…… 就是张贴委托书的公告板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "不可以再像以前那样好高骛远，我必须脚踏实地了解目前旅人行业的生态。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我已经计划好了。等旅人特训有所成效后，就挑选一个最适合我的委托，去验证自己是否真的进步……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我要向自己、向前辈…… 还有，向我最珍视的朋友们，证明给大家看！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "证明？你要证明什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "诶？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "啊…… 不好意思，吓到你了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "没、没事，我只是没想到会有人找我搭话……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "我叫埃莉诺，请问您是这里的工作人员吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "是的，我是这里的负责人薇洛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我看你有些面生，请问是新来的旅人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是…… 啊，不对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "其实我还不能算是正式的旅人，目前只能算是正准备踏上旅人这条道路的“学徒”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "“学徒”？ 呵呵，这说法真是有趣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "怎、怎么了？有哪里很奇怪吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这个嘛…… 毕竟旅人是象征着“自由”的职业，所以多数人在入行之前，其实压根不会想那么多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "要是哪天碰壁了，也只会觉得这份职业不适合自己罢了，像你这样会深思熟虑的新人可不常见呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "……实不相瞒，我以前也有过一时冲动就出门冒险的经历，按现在的眼光来看，那简直就跟过家家一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "结果毫无悬念地上当受骗了。当时多亏有一位旅人前辈伸出援手，我才总算是勉强脱险了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "后来我痛定思痛，决定先做好充分的准备后，再正式踏上旅途，这也是那位帮过我的前辈给我的建议。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "很明智的判断。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "龙裔有句俗话，叫“好饭不怕晚”，看来你遇上了一位优秀的引路人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃莉诺",
+   "text": "是的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "等你下定决心后，就来找我吧，我会帮你筛选出最合适的委托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "埃莉诺小姐，我很期待你的表现哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

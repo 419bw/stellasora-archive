@@ -1,0 +1,769 @@
+{
+ "heading": "# 03A 忠不可言",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第六章《微火的奇迹》（星塔历 996 年）",
+  "- **关卡 ID**：`609`　**编号**：`03A`",
+  "- **关卡名称**：忠不可言",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm06_03_a`",
+  "- **关卡描述**：飞蛾扑火，是为了在灰飞烟灭前看清火的真容。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你们设法逃离了公司，却联系不上花令旅团。\n总部派来的佣兵被达尔茜娅带领的植物大军击退。\n在她的威胁下，你被迫独自回到公司，知晓了可怕的真相……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你们设法逃离了公司，却联系不上花令旅团。\n总部派来的佣兵被达尔茜娅带领的植物大军击退。\n在她的威胁下，你被迫独自回到公司，知晓了可怕的真相……",
+  "episode": "第三话",
+  "title": "忠不可言"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "12:40",
+   "date": "谷月 8日",
+   "place": "菲莱城外 森林边缘"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，坚持一下，马上就到营地了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我体力还好，就是有些不安，这三天你都没联系上花令旅团？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "是的，尘沙前辈她们也帮着联系了，但谁都联系不上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯...... 我这边也联系不上，不会出什么事了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "也可能是花令旅团接到了什么委托，离开了菲莱城星塔的范围吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王你不知道吗？ 只有在同一座星塔范围内的手机才能互相联络。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们虽然和密涅瓦也贴贴了手机，加了心链，但现在我们在菲莱，她在埃摩，是联系不上的哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的吗？我试试...... 唔，还真是这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来我失忆的影响还在啊，这么重要的事情都忘了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "没关系啦，这种事有什么要紧，我们去营地看看就是了，总比待在这干着急好吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "嗯，至少我们从联合种业逃出来了，之后的事乐观应对就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在这三天里，我们一边应付达尔茜娅，一边寻找智慧植物和佣兵的漏洞，最终在米娜的帮助下，成功逃离了诡异的联合种业。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们本想带着米娜一起逃，但米娜说她还有两个妹妹在家，她不能走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，我们也只好先行离开，总有一天，我们会回到这里，救出米娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "13:20",
+   "date": "谷月 8日",
+   "place": "菲莱城外 旅人营地"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，营地里没人……大家都去哪了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我们，被包围了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "目标出现！射击！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅派人绕到我们前面了？不可能，他们不可能比小绿还要快。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别想啦！大家快找掩护，保护好自己！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对方的人数很多，魔法也很强......我们只有五个人，根本冲不出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "停手停手，谁让你们乱放魔法的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "对方只有几个人，你们上来就扔掉了几十块心相石的恩赐，我们没那么多魔力储备给你们浪费！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我们的目标是菲莱城，是达尔茜娅，不是那几个穿着旅人衣服的家伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "目标是菲莱城和达尔茜娅...... 他们不是达尔茜娅的人！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "星雁",
+   "text": "达尔茜娅，你真是疯了，我会向总公司汇报这件事的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道是星雁汇报后总公司派来的人？可为什么会这么快。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "松鸦监察官，不是我们浪费魔力......这边的旅人好厉害的，为了占下这个营地，我们可是伤了几百个兄弟。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "再这么减员下去，我们摸不到菲莱的城边，军心就要散了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "再这么浪费下去，我们就算摸到了也是被那些邪恶的植物打烂！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "等等，你们听到什么声音了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "精锐种业士兵",
+   "text": "有人...... 不，是藤蔓，达尔茜娅的邪恶植物来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶猛的智慧植物",
+   "text": "呜呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "射种子智慧植物",
+   "text": "咿咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "松鸦",
+   "text": "啧，不妙啊…… 全员放弃旅人营地，迅速撤离！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父......士兵们撤退了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "但后面那些智慧植物更难缠啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下，您为什么要做出这种危险的行为？若您遭遇不测，我可怎么办啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅， 翡冷翠......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您不知道吗？联合种业总公司的军队已经前进到菲莱城外的旅人营地，正准备对城市发起进攻，这片森林已经是战场了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这么重要的事为什么不告诉我？还有花令旅团，你知道她们的下落吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "抱歉，陛下，我不知道花令旅团的下落。 我没有告知您敌军的动向，是因为——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您的部下里有坏人啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您看，要不是她们一意孤行挟持您出城，您怎么会陷入这么危险的情况中呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果你指的是在场的大家，那你误会了。 决定离开联合种业的人，从一开始就是我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下决定的？那就更不对了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "你们四个人，面对陛下的危险要求竟然不劝阻，进入森林也没察觉到埋伏，要不然是包藏祸心，要不然是无用之徒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "不过，到底是哪种已经无所谓了。 植物们，处决这些愚蠢之人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅，你在做什么？！快把她们放开，你不是说要永远忠诚于我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "当然陛下，我永远是您忠诚的仆人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那为什么不听我的命令！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下，这并非忤逆， 恰恰相反…… 正因为我忠于您，才会这样做。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "保护您的安全，也就意味着要排除您身边的一切危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "那么，究竟由谁来承担这个使命呢？ 呵呵呵……当然是我了。所以，我才特地准备了这些智慧植物大军，最终征服诺瓦，消除一切威胁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我从未说过我要征服诺瓦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "作为您最忠诚的仆人，我了解您心底的真正愿望， 可能连您本人都没察觉的愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "所以，哪怕这么做会让您讨厌我，我依旧会清除掉这些人，这就是我的忠诚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全说不通.......达尔茜娅忠诚的根本不是我，而是她心目中的魔<r=mowang></r>王。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，不用管我们，区区智慧植物拦不住我的剑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶猛的智慧植物",
+   "text": "呜咿咿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "怎么可能......这家伙变得好敏锐。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下请看，我们全新的第三代智慧植物已经完全超越了老式的第二代和曼德拉辉草。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "现在，每一株辉草都有精锐旅人的战斗经验和判断能力，唯一欠缺的是互相之间的配合能力， 但随着研究的继续，您的植物们很快就能补上这个短板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白了，达尔茜娅，放她们走吧，我跟你回去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父，你在说什么？我们不会丢下你的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你们丢下我，是我丢下你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "达尔茜娅说得对，其实从我醒来，心底就有个声音告诉我要征服世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你在说什么啊！传说中的魔<r=mowang></r>王或许真的会这么做，但你也知道你不是那个人啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那只是你的想法。我和你们在一起，其实是觉得你们有实力，能为我所用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是，现在有更强大，数量更多的智慧植物了，你们就没用了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看在一路同行的情分上，放你们一条生路。 趁我改变主意之前，赶紧离开吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "说谎...... 骗子......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊啊，琥珀你说得对。只要能保护你们，哪怕要我变成骗子、变成恶魔—— 甚至成为真正的魔<r=mowang></r>王，我也毫无怨言。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下……竟如此宽宏大量。 听到了没有？魔<r=mowang></r>王大人大发慈悲留你们一条贱命，还不快滚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，你等着，我会回来的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "受伤的空白旅团和冬香，互相搀扶着走向森林深处。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "真是三流反派的落败台词呢。 陛下，请随我回城吧，接下来的事，请全权交给我吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "离开时，全程一言不发的翡冷翠冷冰冰地看着我，仿佛在看一株不会移动，只能任由他人摆布的盆栽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "15:00",
+   "date": "谷月 8日",
+   "place": "菲莱温室区 地下实验室"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我跟在达尔茜娅身后， 走向地下实验室的深处，不知经过了多少培养罐，我们来到了一处宽阔的地下厅堂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两、三层楼高的巨大培养罐伫立在厅堂尽头，橙色的液体吸收了头顶昏暗的灯光， 散发出妖异的色彩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "“主教”样式的恩赐印章，沉在培养罐底部，像是这巨大鱼缸中的小小装饰。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "陛下请看，这是第三代智慧植物的升级中枢，在您的“主教”印章的权能影响下，我们投入越多的“养料”，植物就能越聪明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "橙色的溶液中，熟悉的面容浮浮沉沉。我捂住嘴，忍住想要呕吐的冲动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你做了错误的选择",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "魔王，你会后悔的",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "脑海中浮现出匿名用户的信息。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那条信息说得对，我的确做了最错误的选择。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

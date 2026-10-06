@@ -1,0 +1,1028 @@
+{
+ "heading": "# 10 告别风雪",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：冬夜镇魂曲与破晓扳机（活动编号 10105）",
+  "- **关卡 ID**：`101050212`",
+  "- **AVG 剧本**：`STev_04_10`",
+  "- **关卡描述**：风将歇，雪将停，太阳总会照常升起。"
+ ],
+ "recap": "这次的调查总算告一段落，你和风影唤醒了其他成员，并与赶来的空白旅团一同回到了千塔……“尊者”事件，最终还是引起了注意。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "这次的调查总算告一段落，你和风影唤醒了其他成员，并与赶来的空白旅团一同回到了千塔……“尊者”事件，最终还是引起了注意。",
+  "episode": "第十话",
+  "title": "告别风雪"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各位的身体恢复得怎么样了？还有哪里不舒服吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "多亏魔王的照顾，已经好得差不多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "持斧大哥",
+   "text": "其实只是醒来后感觉累了点，倒也没有别的问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "法师妹妹",
+   "text": "我也没事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "万幸没留下什么后遗症，太好了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？说起来你们有看到风影吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "回来之后我就没怎么见过她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "长剑小姐",
+   "text": "刚才她好像出门了哦，说是要找点像样的“战利品”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "咕—— 呼~没有冻坏真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影~你在这里做什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "魔王啊，来得正好，接着！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喔…喔！哎？你从哪里搞来的，还是黑莓口味的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "别在意细节了，来，干杯~！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦……干杯——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对啦！……埃妲还不知所踪，没工夫在这里悠闲干杯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "正因如此，才更应该开怀畅饮不是吗？不然会越想越消沉的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "久违地回到家乡，结交了新朋友，顺带解决了危机。这些还不够“干杯”的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "好事成三，条件可以的话我还想办一场宴会呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这也是北境人的风格吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "没错。 好好地吃饭，好好地狩猎，好好地学习，好好地睡觉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "灾难这种东西，谁也不知道什么时候会降临。总会有些事在你毫无准备时就突然发生……不如活在当下、活的尽兴，不要给自己留遗憾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "活得尽兴，不留遗憾……原来如此，那我也没理由拒绝“干杯”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "敬新朋友和北境之城，干杯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "风影说完，举着杯子朝向星塔的方向敬了一杯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "对了，有一点我很在意。 虽然我利用永夜的假情报揭了她的老底……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "但是，为什么你当时也相信我？魔王不是很熟悉永夜吗，怎么没怀疑是我在撒谎呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，那是因为——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "不用担心，出发前，我已经预约了另一辆马车送我们回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "计划顺利的话，应该明天正好能接我们离开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她说的话里，本身就有些疑点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "仔细想想，准备这么充分的她，应该不会这么容易就说漏嘴……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说不定，她的内心深处是想要有人来阻止她的？唉……是我想多了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "反过来想，如果埃妲真的完美地扮演了一名受害者，她不会立刻相信你说的情报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "原来如此，我明白了。 对了魔王，收下这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "给我？可这不是你一直珍藏的东西吗？你当时还指着它说，这是“家族的荣耀”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "这个徽章当然是我们一族的“荣耀”之证。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "我身中埃妲的术式时，如果没有你的保护，我也不会站在这里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的保护……？我只是一路在逃跑吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "而且如果失去了风影，我也失去了制胜的关键，那就只有死路一条了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "你逃跑的英姿很帅哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不不！为什么说得好像你看见了一样啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "不是“像”，是我真的看见了，那个地方很神奇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "呵呵，你的勇气值得嘉奖。所以这枚徽章，你拿着吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "这枚徽章是北境战士的证明，有着超越生死的意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "给我徽章的爷爷也说过，我终有一天能找到足以托付这枚徽章的伙伴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "总之就是这样……你可以收下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉，既然话都说到这份上了…… 好吧，我会收下的，谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "对了，差点忘了说…… 只要收下这枚徽章， 就意味着你会和送出它的人，成为家人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嘿嘿，之后你也是北境的一份子了。 今后多多互相照应吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喔哦……原来是这个意思，吓我一跳……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "吓到你了？ 呵呵，看来你想的是另一种意思？ 不过如果正合你意的话， 我也可以接受哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉……别逗我了。 总之这枚徽章， 我会妥善保管的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "嗯，这样我就放心了。 好了，该做的事都做完了，我们回去吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "欢迎回家！请吃罐头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喔~ 又有罐头派对啊，正好试试之前没吃过的口味…… 选哪个好呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "想吃鱼罐头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我个人推荐午餐肉搭配沙拉呢，营养均衡是很重要的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就听你的。 啊，沙拉酱帮我拿一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "给，魔<r=BOSS></r>王~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢了，尘沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎！？ 尘沙！？还有鸢尾和琥珀！？你们怎么会在这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "当然是来接魔<r=BOSS></r>王你回去的啊，我们可是开着修好的小绿，花了很~ 久~ 时~ 间才到这的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不仅仅是距离的问题吧！ 你们是怎么知道我在这里的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "哼哼，是可爱又迷人的贝修莉娜给大家提的建议哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "风影前辈，我可是刚转正就用掉了年假，之后可要好好补偿我啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "连贝修莉娜都在…… 这啥情况呀？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "出发前，我向贝修莉娜汇报了我们的动向，要是出了什么意外，就让她来找我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "顺带一提，另外三位调查员已经坐上返程的马车先走啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "虽然还有很多事情想问魔<r=BOSS></r>王，不过还是得先……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这个人，是谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，对了对了，在那之前还是先认识一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这位是风影，这次的委托发生了不少危险情况都是她救了我…… 可以算是我的救命恩人了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "初次见面，我是风影。任务期间，我全程都守在你身边，你们放心！ 就连睡觉时间，也都有我在旁守候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话是这么说没错啦…… 但是为什么要用这么容易引起误会的说法啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个…… 我们只是睡在一起，不是睡在一个被窝里的意思——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "这样啊！ 居然连睡觉都在一起，和我们平时一样诶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？这么说倒也没错…… 是这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是…… 那个，贝修莉娜，我想你可能误会了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "哇哦~魔<r=BOSS></r>王可真是人不可貌相，意外的本事很大呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你到底误解成什么了呀！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "总之，谢谢您在这段时间对魔<r=BOSS></r>王的关照！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "手机，贴一下？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们俩不解释一下吗？！不对，好像事实就是那样…… 呜，说不清楚啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "看来今天晚上会很热闹呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "风影——！还不是因为你！虽然我知道你没别的意思……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯~ 恩赐补充得差不多了，我们回去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "都没有东西落下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "没有——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那我们就出发咯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "整理好需要的行李，我们终于离开了北境之城",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一周后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "以上，就是这次事件报告的全部内容啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "辛苦了，稍后我会进行整理的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "尊者降临后进而影响其他星塔这种事…… 真的有可能发生吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "现在还没有足够的线索能证明这件事。不过，无论如何尊者都是绝对不能放任不管的危险存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "你的情报很有价值，这次就算是公务出差了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "也就是说——可以不用扣我的年假了？ 感谢您的理解，那我就继续去监视魔<r=BOSS></r>王一行的动向了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "呼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "「战车」和「魅影」……已经有两位尊者有苏醒的迹象，不能再忽视下去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "必须得成立一个专门的危机应对部门才行。至于人选……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "从结论来说，你的故乡是因为永夜毁灭的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "加入黎明近卫吧，你需要我们的情报，我们也需要你的力量……我认为这对你来说不是件坏事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "送信的女孩",
+   "text": "有一位老爷爷无论如何都希望把这封信寄给你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "送信的女孩",
+   "text": "临走前还嘱咐说：“北境已经在重建了，不用担心家乡，做你真正想做的事吧。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "请您珍惜自己，想要占有您的人可是很多的，不管是您的身体，还是您的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "风影",
+   "text": "看来要调查的事情…… 又要多一件了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "怎么办……好像迷路了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "有人吗—— 有人吗——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "这儿的房子又破……又黑……又， 哈啾！好冷……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呜……魔<r=BOSS></r>王真的会在这里吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "啊！居然有自动售货神器——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "极光大人给的零花钱还剩一点…… 只喝一罐暖暖身子的话，应该没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "哎？明明投了币，为什么不出来？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "是坏掉了吗？喂——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "对了！书上好像说，这种时候用四十五度角的角度踢一脚就能修好了！ 不过万一踢坏了，极光大人又要生气了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "哈……不行了，我要回—— 呜哇！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "疼疼…… 谁呀！把这种怪东西放在这里！我现在心情很不好哦！小心我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "哎？我还以为是什么东西……原来是人？ 喂——还活着吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "埃妲",
+   "text": "魔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "哎？你认识魔<r=BOSS></r>王吗？ 呜哇！不要又晕过去啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "醒一醒，在这里睡着会很危险的哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呜呜！有没有人来帮帮忙啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

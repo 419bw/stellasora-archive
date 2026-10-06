@@ -1,0 +1,628 @@
+{
+ "heading": "# 非典型温室 中",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：岭川（角色编号 `116`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`11602`",
+  "- **AVG 剧本**：`CG_116_02`"
+ ],
+ "recap": "和岭川抓住了偷窃粮食的窃贼，什么？窃贼原来也有苦衷。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "和岭川抓住了偷窃粮食的窃贼，什么？窃贼原来也有苦衷。",
+  "episode": "第二话",
+  "title": "非典型温室 中"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼…… 什么都没发现啊？ 岭川，你那边情况怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜…… 没有…… 什么都没有……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在这里钻了半天树丛，别说树树鼠，连鼠毛都没见着……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "事情的起因，还要说回几小时前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "魔王！大事不好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？岭川？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "突然怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "有小偷偷走了我的菜",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "还把实验的豌豆种子也拿走了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "怎么办怎么办怎么办？帮帮我，魔王",
+   "thought": false,
+   "sticker": false,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "emoji_sad_a",
+   "thought": false,
+   "sticker": true,
+   "channel": "msg"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "豌豆居然……？！ 这可不行，我马上过去帮忙……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是飞来横祸啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你确定偷走你种子的犯人就是树树鼠吗？有没有什么依据？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "绝对是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "树树鼠经常来偷我的菜，只有它们会留下那种细小的爪印和啃咬的痕迹，我一眼就能认出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我顺着痕迹一路追到这，结果…… 痕迹却突然消失了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "怎么办啊，魔<r=BOSS></r>王！ 要是它们带着菜藏进洞里的话…… 可能就再也找不到了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确实，可能会错过最佳时机…… 既然如此，引蛇出洞一网打尽才是上策。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然这样的话……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "岭川，我有个办法…… 要听听看吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "唔……唔…… 咦？！真要这样吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "唔…… 这样未免有点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "好吧，为了抓住犯人，这是必要的付出！我相信魔<r=BOSS></r>王，试试看吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我精挑细选了一些树树鼠们平时最爱偷的菜…… 就放在这里吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，在它们可能躲藏的地方都放一些吧，我来帮你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我和岭川用蔬菜当诱饵，然后躲到一旁等待起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一段时间后——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼祟的树树鼠",
+   "text": "吱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼祟的树树鼠",
+   "text": "吱唧……吱吱唧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好！果然引出来了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "好！这次可不会让你逃掉了，可恶的偷菜贼！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼祟的树树鼠",
+   "text": "吱——！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "认输吧，快把种子还有菜全都还给我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "正当岭川打算拿绳子捆住树树鼠时，树林里突然又窜出来好几只树树鼠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇…… 这是捅了树树鼠窝吗？岭川也发现了吗……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "难过的树树鼠",
+   "text": "吱…… 吱吱吱……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "焦急的树树鼠",
+   "text": "吱唧！吱吱吱吱吱唧唧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "…… 这样啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？好不容易抓到树树鼠，岭川怎么把绳子放下来了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "难过的树树鼠",
+   "text": "吱吱吱唧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "你们的意思是…… 它这么做都是为了家人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鬼祟的树树鼠",
+   "text": "吱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "原来如此原来如此。嗯嗯，我完全明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "魔<r=BOSS></r>王，这群树树鼠被坏家伙赶出了它们的地盘。 因为食物短缺，它们才来偷菜的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "它们说，偷种子是为了今后能自己种出食物，这样就不用饿肚子了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真亏你能理解它们的意思啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "它们说愿意把菜和种子还给我，希望我放了它们的老大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那很好啊，这样就能夺回种子和蔬菜了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "唔…… 话是这么说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有什么在意的事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "但我想，要不就原谅它们吧。这些蔬菜…… 也送给它们好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "虽、虽然这些小偷很可恶，偷走我的粮食，还破坏我的田地。一开始我确实觉得不能原谅……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "可是它们是因为吃不饱才这么做的…… 饿肚子的痛苦，我觉得我比谁都懂……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "当，当然，这些是我辛辛苦苦种出来的，非常重要的食物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "要送出去真的…… 真的…… 真的，很舍不得啊……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "内心超级纠结……！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "…… 一半！只给一半的话，我觉得还是可以接受的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这主意也不错…… 但只给一半的话，对树树鼠们来说可能不太够啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "呜…… 那，那还是全部送出去吧……！ 呜……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "……………… 没办法，这些都送给你们了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "但是…… 这是我最珍视的食物，你们一定要好好吃完喔，不可以浪费喔！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "树树鼠们",
+   "text": "吱！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "树树鼠们用力点头回应岭川的话，转身返回森林。岭川目送着它们，脸上仍带着些许不甘心的神色。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样真的可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你明明很讨厌自己的食物被偷走，而且刚才看起来也非常舍不得，为什么最后还是愿意把食物给那些“小偷”呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "因为…… 它们吃不饱饭，感觉很可怜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我知道吃不饱饭是什么感觉。每天都没有力气，很难过，对明天一点期待都没有…… 那种感觉，我再也不想体会了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "因为我有过这样的经历。 所以一想到它们也在受苦，就......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "我种这么多菜，屯这么多粮食，就是不希望自己和大家饿肚子。既然它们食物短缺，那分给它们一些，或许就能帮它们渡过难关了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "对了！要不我们教会那些树树鼠种地怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "这样，它们就会一直有食物吃，再也不用挨饿了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我觉得这主意不错…… 不过要教会它们种地可没那么容易啊，估计你得忙上好一阵子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岭川",
+   "text": "会吗？一定没问题的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "看着岭川信心满满的模样，我突然觉得她说不定真的能把树树鼠们教成种植专家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

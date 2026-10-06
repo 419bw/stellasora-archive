@@ -1,0 +1,1159 @@
+{
+ "heading": "# 11 谎言与希望",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第七章《星之竞拍》（星塔历 996 年）",
+  "- **关卡 ID**：`821`　**编号**：`11`",
+  "- **关卡名称**：谎言与希望",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm07_11`",
+  "- **关卡描述**：心怀希望总不是坏事。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "千都世和你分享了她的旅途经历和修炼“无刀之法”的过程；\n与此同时，珂赛特也意外救下了遭遇袭击的暗月。\n身后危机步步紧逼的当下，你决定冒险前往“隐藏的楼层”。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "千都世和你分享了她的旅途经历和修炼“无刀之法”的过程；\n与此同时，珂赛特也意外救下了遭遇袭击的暗月。\n身后危机步步紧逼的当下，你决定冒险前往“隐藏的楼层”。",
+  "episode": "第十一话",
+  "title": "谎言与希望"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "20:50",
+   "date": "猎月 14日",
+   "place": "菲莱星塔 第十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那是，一个多月之前的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身和科洛妮丝医生停留在一座衰败的城邦里， 那里，有很多生病的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "谷月 4日",
+   "place": "衰败城邦 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "衰弱的病人",
+   "text": "咳咳，谢谢您，医生， 您真的会帮我们向恩赐之神许愿吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，下次再来时，我会带来恩赐之神的恩惠的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "衰弱的病人",
+   "text": "那就太好了，那个，请问一下……那究竟是什么样的神器？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "哎呀，这个嘛。这是恩赐之神决定的，并非我们应该揣摩的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "衰弱的病人",
+   "text": "啊啊，您说得对，咳咳，是我失礼了。 这有些朵拉，虽然不多，但也是我们的一点心意，请您收下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "不用了，如果我收了你们的朵拉，你们的心愿反而会变得不纯粹了呀。 请各位现在就直接向恩赐之神虔诚地祈祷就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "10:10",
+   "date": "谷月 4日",
+   "place": "衰败城邦 无名街道"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "走了，千都世， 我们去下一户。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "下一户？我们不是要去星塔吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "爬塔？为什么？前面还有好多病人呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "医生你刚刚说——你会为那户人家许愿，带回来恩赐之神的恩惠。那是指从星塔里许愿出来的药品吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵。 那户人家的确需要药，但不是你想的那种药，而是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "这是……肉包？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，这条街上的人，他们所谓的绝大多数“重病”只是缺乏营养罢了，每天就只吃最便宜的饭，连蔬菜和肉的摄入量都不足，怎么可能不生病？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那他们为什么不吃东西呢？妾身看那户人家的客厅里摆着很多神器，看起来不像是生活困难的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这可就难说了。 我们一路走来，没看到有公司在这里开设分部吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "是的， 没看到过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这座城邦的星塔没什么特点，能许愿出的神器和荒野星塔里的差不多，所以没公司看中这里，居民们只能靠种地和纺织生活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "当然了，这也不是居民们的错。然而，这里的人们却认为这都是他们对恩赐之神不够虔诚导致的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "所以，大家攀比着从旅人手里，从公司手里购买神器，好像这样就能体现虔诚，让恩赐意志赐予这座城邦一个公司。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "刚才那人家里不光有神器，还堆满了渊海星融的催款单， 这里的人，恐怕连贷款都用来买神器了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这就是她们生活窘迫的原因。平时吃饭的朵拉都要省下来用去还债，哪怕有剩余，也会思考买个什么新神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "吃不上饭的苦楚，妾身再清楚不过。如果没有主公的一饭之恩，妾身可能已经不在这个世界上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵。那就好说了。因为能治这个“病”的人，不是我，而是你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "两天后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "谷月 6日",
+   "place": "衰败城邦 城外森林"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "谷风的守护神大人，请听取这份诚心的祈祷，荡涤一切灾厄、罪愆与污秽，恳请予以祓除净化。 千都世满怀敬畏地奏上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "医生，这样可以吗？ 家乡的祈祷词，妾身只记得这些……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "哦，很像样嘛，只是…… 虽说否定你的信仰有些抱歉，但你把开头的谷风的守护神大人改成恩赐之神就完美了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "真，真的没问题？妾身觉得临时抱佛脚的祝词，恐怕改变不了什么……这身装束也是按妾身那不确定的记忆，裁剪出来的巫女样式的刀鞘。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这种事情心意最重要啦。你们的故乡不也有——“心诚则灵”、“信则有，不信则无”这样的俗语吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你拿着我们做的肉包给他们，说这是恩赐之神的恩惠，以后要多吃这种形状像心相石的包子， 还要包上不同的馅料代表不同的心相石颜色。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "明白了。但为何要行此欺瞒之举？身为医者，直接告诉他们不好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "因为他们的病根不在身体里， 而是在心里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "他们不是不知道应该好好吃饭，而是他们想象中的恩赐之神， 已经成了他们生活中的唯一的希望，并且无意义地攀比让他们谁也放不开手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "话虽如此，一味固守那份信仰，前方也未必就有出路。 这种时候，就需要有一个人，一个看起来足够充当神的代言人的人告诉他们——可以换一种做法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "奇怪吧，明明大家都在自欺欺人，但人类就是能从这种欺骗中获得安定感， 就是靠着这种“让自己相信”的做法，熬过艰苦的日子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "之所以选你来担当此任……是说服力的问题。 毕竟我压根不信什么神明，大概很快就会被识破是在说谎吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身明白了，若此举能成为救助世人的一份助力…… 妾身会努力让大家相信——这些肉包是恩赐之神的恩惠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "21:20",
+   "date": "猎月 14日",
+   "place": "菲莱星塔 第十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，千都世是为了帮科洛妮丝医生治病，让大家不再盲目购买神器才做出这身衣服啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，我有点没听懂，你不是说……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "说说妾身修行之旅中， 在您的帮助下，掌握了“无刀之法”的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一个月前……我还在联合种业上班呢，怎么可能帮到你？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "嗯……这个是…… 因为，因为妾身在向大家分发恩赐之神的恩惠时…… 为了让自己说得更有底气，更像是神明的代言人，脑子里想的恩赐之神的样子是…… 您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "然后， 在那个过程中，妾身突然理解了主公您的想法， 然后， 妾身就稍稍地，在和您“人刀合一”的旅途上前进了一些， 自然而然地就完全掌握了“无刀之法”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是想一想我就有这种效果？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "分发恩惠的时候，妾身意识到……妾身的确给那些信仰着恩赐之神的人带来了希望，妾身的行为成为了他们的依靠，就像主公是妾身的依靠一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "科洛妮丝医生说，大家都在自欺欺人，这或许是对的……不过，妾身有不一样的想法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么说？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身的确是虚假的巫女，但医生的善意却是真的，那些人之所以相信妾身，并不是因为妾身的打扮和经不起推敲的谎言。 而是…… 他们感受到了善意吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "那么，主公当时分给妾身食物，明明自己很危险还要在意妾身的安危， 以及无论对谁，都在尽力帮忙，甚至很多时候忽略自己安全的做法， 妾身就完全理解了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "这样的主公，妾身很喜欢， 妾身想要做一把守护主公的刀… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳咳， 我也没那么伟大啦， 我只是觉得那么做是对的，然后就做了…… 而且说到善意的话，千都世你才是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "呼… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……嗯？终于睡着了啊。 呵呵。 辛苦你了，千都世。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "今晚，就由“主公”来守护你吧。好好休息吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "23:55",
+   "date": "猎月 14日",
+   "place": "菲莱星塔 ？？？层"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "今晚， 要喝哪种饮料呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "是甜甜的“水玉”， 还是充满气泡的“能量沛沛”， 还是那种苦苦的黑黑的， 但是喝了之后能一夜都不困的“咖啡”呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呜，好难选啊， 不过还没找到魔<r=BOSS></r>王，在星塔里找人真难啊，看起来只能选择“咖啡”了， 好， 就这么许愿吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "只给一杯饮料的吝啬的恩赐之神啊， 如果你觉得我的记忆还算合适，就把记忆拿走，然后满足我的愿望吧。 请交换给我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "什， 什么声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "哼，干掉了，这是这层最后一只星骸了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烦恼的旅人",
+   "text": "但是心相石里的恩赐都快耗干了， 这种常年没人爬的星塔真可怕，遍地都是星骸，还都很硬， 真是麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "是啊。不过，我们的任务也就到此为止了，许愿的情况如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烦恼的旅人",
+   "text": "最接近需求的是这个神器—— 可以装水的枪状玩具，只要在这里面装上溶解的毒药再发射出去， 大概就能做到需求上说的那种事了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "这不是糊弄小孩吗？ 算了，那种根本不讲道理的需求，二队那边的情况估计也好不到什么地方去， 我们有个能说得过去的神器就行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "那既然神器也到手了，就开始准备那个吧。 把那家伙放出来——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的旅人",
+   "text": "嘿咻——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "旅人卸下背在身后的麻袋，一个珂赛特熟悉的面容从里面露了出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "诶？那是…… 暗月？！ 她怎么被抓住了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "喂，永夜，你知道你之前吃了什么吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "是……延时发作的毒药吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "没错， 既然明白，就照我们说的做， 不想死在这种地方吧？ 我们没把你交给黎明近卫，已经算是宽宏大量了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "明， 明白， 你们想让我做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "你们不是特别擅长——让星塔发生灾变吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "现在， 我们会离开这座星塔，你在我们离开后让这座星塔发生灾变， 然后出塔找我们要解药，我们就算两清了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "引发灾变…… 好吧。我，我都听你们的，我这就画引发灾变的法阵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "烦恼的旅人",
+   "text": "喂，你慢点啊， 我们还没进升降机呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的旅人",
+   "text": "小心后面！星骸—— 不对？！ 是永夜的同伴？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "疲惫的旅人",
+   "text": "我…… 我的武器断掉了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "哼， 这么小只的永夜有什么可怕， 比力气可是老子更大啊啊啊啊啊！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "凶悍的旅人",
+   "text": "怎，怎么可能……？！ 竟，竟然正面挡住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "虽然为了魔<r=BOSS></r>王以外的人动用力量有点浪费， 但坏人是必须打倒的…… 那就动手咯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "呼，全干掉了， 暗月，你还好吗？给你解药。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "谢谢你，珂赛特，不过，你怎么来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "我有我的任务，倒是你——这几个旅人虽然都是好手，但你也不应该这么轻松就被抓住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "那个……我今年的任务指标还没完成…… 极光大人要求我每年引发三座星塔的灾变， 现在都猎月了，我还差两座。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "但是，菲莱附近的旅人实在是太多了，在那些地方引发灾变…… 不太好呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "湖心岛上的这座塔倒是没什么人来，只是……一直没找到上岛的办法， 所以我就假装被他们抓住，假装喝下毒药，让他们带我进来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "就是这么回事，所以稍等一下，我把引发灾变的法阵画完。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "等一下——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "那个，我，我陪你去别的星塔引发灾变， 你不要在这里画法阵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "为什么啊？这座星塔里也没人，引发灾变后我会把这些旅人带出去的，不会让他们受伤的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "（倒不是怀疑暗月的实力， 可在这里引发灾变，万一那个看起来弱弱的魔<r=BOSS></r>王被星骸干掉就完蛋了， 我的任务就完不成了！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "那个……这个，对了，这座星塔里能许愿出一种稀有的星塔饮料， 你要是引发灾变，我就好一阵子喝不到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "暗月",
+   "text": "那的确很头疼呢，好吧，得是那种没什么人的星塔哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "好…… 好……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珂赛特",
+   "text": "（魔<r=BOSS></r>王，这次算你运气好，我就先放过你，下次…… 下次我一定会成功绑到你的！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:00",
+   "date": "猎月 15日",
+   "place": "菲莱湖心岛 星塔入口"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险二队旅人",
+   "text": "经理，二队已经完成任务，共计许愿到三十件神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "辛苦各位。那么，一队是什么情况？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险二队旅人",
+   "text": "关于这个，似乎遭到了袭击…… 全员都被人打晕了扔在星塔外面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "利用永夜什么的…… 虽然想法还不错…… 看来是被摆了一道呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险二队旅人",
+   "text": "只是……二队的成员也因许愿导致记忆与体力消耗过大…… 恐怕无法继续行动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "没问题。后面半年，天穹保险会给各位安排最好的疗养院，请在那里好好休养。报酬也会按照之前说好的三倍支付，天穹保险不会辜负各位的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险二队旅人",
+   "text": "噢，不愧是天穹保险…… 非常感谢… …",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "（哼哼，魔<r=BOSS></r>王，比许愿，我请的旅人赢不了你们。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "梅尔库莉娅",
+   "text": "（反正这道题本来就没有标准答案。 既然如此，只要用数量彻底压垮你们就好了—— 你们许愿不到合适的神器，那就是零。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:30",
+   "date": "猎月 15日",
+   "place": "菲莱星塔 第四十五层"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "千都世，向左三步，然后朝着那根柱子跑。趁着它们转头的机会，一口气跑到升降机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还不行…… 再等等…… 看好时机……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "警惕的星骸",
+   "text": "吼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "——就是现在！ 来升降机！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，一切如计划进行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "关门！ 关门！ 快关啊……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "升降机的铁门恰到好处地关上了，把冲过来的星骸留在了门外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，您想出的这个办法真是巧妙， 我们不用消灭所有星骸，靠着手机联络就可以搜索整个楼层。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呵呵。真正厉害的可不是我，是手机才对。 总之，你能体会到它的便利真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "早晨醒来后，为了解决我们队伍只有千都世一人的问题， 我想出了新的战术",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "做法本身很简单： 首先，由千都世靠着身体素质拉扯开星骸， 我去寻找许愿箱和确定升降机的位置",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后我再通过手机和摸清的路线指引千都世躲开星骸， 跑进升降机——仅此而已",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这样一来，既能省去战斗所需时间， 更关键的是千都世也不用消耗那么多的体力",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，有找到许愿箱吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，虽然确实有……但似乎有人赶在我们前面把大一些的许愿箱都许愿掉了，剩下的都是比手掌还要小的微型许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过倒也不是完全没用。我为你许愿了伤药和纱布，来，把手伸出来，我帮你换上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "多谢主公。 不过您说的抢先一步……是指天穹保险的队伍吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "应该是吧……虽然我也不太确定详情，但据说塔内出现的许愿箱数量是固定的，越晚进来的旅人就越吃亏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然，这些许愿箱过一段时间后就能重新出现，但未必能在时限截止前重置。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说，剩下的办法只有一个——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我把视线投向出发前鸢尾塞给我的资料上， 其中的一句话被鸢尾特意圈了出来：",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一般来说，菲莱星塔有五十层， 但也有旅人记录说有隐藏的五十一层",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "若将这视为“隐藏楼层”， 里面应该有与在埃摩对峙过的“巨大星骸”类似、极度危险的敌人。 魔<r=BOSS></r>王，请千万不要踏入第五十一层。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们， 往这座塔的顶点去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不知道.......翡冷翠那边怎么样了？还顺利吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

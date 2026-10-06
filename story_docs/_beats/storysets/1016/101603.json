@@ -1,0 +1,660 @@
+{
+ "heading": "# 此间日常 其三",
+ "info_title": "故事集小节信息",
+ "info": [
+  "- **所属故事集**：#16《此间日常》",
+  "- **栏目**：职场热线",
+  "- **小节 ID**：`101603`",
+  "- **AVG 剧本**：`STsp_16_03`"
+ ],
+ "recap": "争执不下的冲突得以平息，但今天的计划已经完全打乱，这样的忙碌是否有意义，或许这个问题，薇洛心里早有答案。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "争执不下的冲突得以平息，但今天的计划已经完全打乱，这样的忙碌是否有意义，或许这个问题，薇洛心里早有答案。",
+  "episode": "第三话",
+  "title": "此间日常 其三"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "怎么聚集了这么多人…… 到底出了什么事……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "相信流言的旅人",
+   "text": "我有熟人已经出发去寻找星塔了！等他们回来，就知道这个传言到底是真是假了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "怀疑流言的旅人",
+   "text": "连这种谣言都信，说明什么？说明你们也蠢得离谱啊！哇哈哈哈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "相信流言的旅人",
+   "text": "什么？你有本事再说一次？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "啊啊，到此为止，大家先别吵啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "嗯？薇洛！这边这边！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "到底发生了什么事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "他们好像是因为某个传闻吵起来了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "什么传闻？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "也不知道是哪儿的消息，说诺瓦大陆上存在一座无需许愿，也不用付出代价就能带出神器的星塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "因为这个消息，最近各方都在议论，有人深信不疑，当然也有人觉得根本不可能……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "结果这两拨人越吵越激动，差点就打起来了。我们巡逻经过的时候发现情况不对，只能先强行把他们拉开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "“无需许愿和代价的星塔”？这个传闻还有其他更详细点的情报吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "怀疑流言的旅人",
+   "text": "没有了，别的我也一概不知。要我说只有傻子才会轻易相信这种天上掉馅饼的好事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "同感。想的也太美了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你怎么也跟过来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "有热闹哪有不凑的道理！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "言归正传，如果真的有这么“方便”的星塔，早就被旅人搜刮空了。怎么可能会现在才被找到？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "相信流言的旅人",
+   "text": "星塔那么多，有一两个刚被发现也不奇怪吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "相信流言的旅人",
+   "text": "再说了，从消息传出来到现在，也没人拿出确凿证据证明这是谣言！万一是真的呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "她说得没错，在确认真伪之前，我们没必要着急下定论。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不如这样，这件事就交给我们地理协会来调查如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "地理协会的重要作用之一就是方便旅人交流情报，那么我们也有义务确保情报的真实性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "如果有人知晓相关情报，无论是什么渠道得来的消息，都请告知地理协会的工作人员。为了查明真相，还请各位协助配合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "相信流言的旅人",
+   "text": "我跟你们去！其他人呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "不愧是薇洛，刚才还一触即发的气氛，转眼就被她压下去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "如果愿意提供线索，请前往地理协会登记。至于暂时没有头绪的各位，就请先散了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "既然帝国卫队也已经介入，后续如果有新消息，我们也会通过公告栏及时张贴告示。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "无关人员就别继续在街上聚集了，人一多就容易出意外！大家先回去等消息吧，慢走不送啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "呼…… 总算处理完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "接下来干嘛？该去吃晚饭、顺便歇口气了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "说什么呢？这不是还有几个人要跟着去地理协会做记录吗？等做完笔录再吃饭吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "不是吧，太阳都快下山了，你还要加班啊！大不了让他们明天再来嘛！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "明天还有明天的事儿呢，总不能让特地来提供线索的人白跑一趟吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "我真是服了你了…… 你每天都这么工作，难道都不会累吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "唔…… 也还好吧，我不觉得有任何勉强？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "更何况，我本来就喜欢这种充实的生活。所以你就别替我操心了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "等等…… 充实的生活是很好，但你的生活是被工作充实的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "换作是我绝对受不了！工作嘛，讲究的就是个劳逸结合，该摸鱼时就摸鱼，这点很重要！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "你这话也不是没有道理。不过，我真的很喜欢这些旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "地理协会是旅人的家。我们忙碌的一切，都是为了保障旅人的权益和安全。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "所以—— 对我来说，工作带来的充实感，本身就是一种满足。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "嗯…… 话是这么说啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "但再有意义的工作也需要健康的身体，所以休息还是很重要的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你有多久没有给自己放假了？ 要不趁天气热，干脆请个带薪小暑假——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "菈露，你看街口那个人影…… 该不会是奥尔贝德吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "你说谁…… 她怎么会在这？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "菈露",
+   "text": "坏了坏了，我先走了！下次再聊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "跑得还是一如既往的快呢…… 呵呵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "薇洛，我刚刚好像看到菈露了？你们刚才在一起吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "是我拜托她来帮忙处理工作的。毕竟今天下午事情太多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "菈露居然会帮忙工作？这还真稀奇。 明天该不会要下雨了吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不过她刚才已经慌慌张张跑回去了，这会儿大概已经逃回办公室了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "没事，我本来也不是来找她的。其实我有点事情想跟你商量…… 能耽误你一点时间吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "当然可以。要不去我的办公室谈吧？我正准备回协会之家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "奥尔贝德",
+   "text": "多谢。那我就恭敬不如从命了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "原定的工作…… 看来只能推迟到明天了呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "今天也是个好天气啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "微风和煦，阳光也不刺眼…… 正适合出门散步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……可昨天原本打算处理的文件，到现在还一份没动，根本抽不出空。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "而且，昨天奥尔贝德小姐提到的那件事，也得尽快和本部商量。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "再加上…… 我总觉得，今天原定要做完的工作，恐怕也不会有什么进展。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "仔细一想，确实很久没有休假了，上一次申请休假是什么时候来着……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "啊，难怪菈露说我是工作狂……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "连我自己都开始胡思乱想了，说不定真该给自己放个假了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "嗯？那群人好像有点眼熟？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "早上好啊薇洛！我们旅团平安回来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "多亏了地理协会提供的装备和情报，真是帮大忙了！谢谢你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "不用谢！这是我的职责所在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "哈哈，您还是一如既往的谦虚啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "路过的旅人",
+   "text": "等我们休整好了，再和同伴们来登门道谢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "快去吧！我等着你们哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "真好啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "嗯，果然，这样日复一日的生活，倒也不赖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "能像这样，在星塔之外成为旅人们的后盾，这一切就是值得的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "这是我选择的道路—— 也是我珍视的日常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "好了，新的一天又开始了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "今天也准备开始工作吧♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

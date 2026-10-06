@@ -1,0 +1,1399 @@
+{
+ "heading": "# 终局 指尖的沙",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第九章《遥远的塔》（星塔历 996 年）",
+  "- **关卡 ID**：`1011`　**编号**：`终局`",
+  "- **关卡名称**：指尖的沙",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm09_07_a`",
+  "- **关卡描述**：她依然想保护你。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "在艾蕾的奋战下，你与伙伴们脱离了格蕾霍恩的拦截。\n你阻止了160号的施法，却并没能拦下冈希尔德的炮击……\n尘沙用重伤之躯试图保护你，但最终你和她都未能幸免。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在艾蕾的奋战下，你与伙伴们脱离了格蕾霍恩的拦截。\n你阻止了160号的施法，却并没能拦下冈希尔德的炮击……\n尘沙用重伤之躯试图保护你，但最终你和她都未能幸免。",
+  "episode": "终局",
+  "title": "指尖的沙"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "17:20",
+   "date": "雾月 18日",
+   "place": "米拉什 摇摇欲坠的矿道"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾蕾那边……没问题吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "放心吧，妈妈很厉害的，在你给我们讲的回忆里，她可是和纳瑞妲阿姨两个人干掉了上百个黎明近卫和帝国卫队的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "虽然那次是游击战，但矿道那么窄，拯救委员会人再多也施展不开的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花、千都世，你们还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "我没受伤，只是心相石完全没魔力了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "妾身还能用左手继续战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要浪费艾蕾的好意，我们尽快撤退，在星塔汇合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:25",
+   "date": "雾月 18日",
+   "place": "米拉什 城外沙漠"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "冈希尔德，炮击效果如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "第一个基数已经打了一半，一切都按照您的计划在进行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "炮击果然砸穿了地面，把魔<r=mowang></r>王砸进了地面下的废弃矿井里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "提前埋伏在那里的第一百人队已经和格蕾霍恩队长汇合……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "第二百人队和沙蝎、帝国卫队也在向那边包抄。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "矿井的出口有限，这次我们百分之百能抓到魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "世界上没有百分之百的事情，格蕾霍恩那边已经被艾蕾院长拦住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "刚刚和她通话才知道，原来她就是失踪的白猫王牌——塔菲特。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王麾下真是卧虎藏龙， 冈希尔德，不要留手了，把你剩下的弹药基数全部打出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "哪怕隔着地面，你也能看到160号和尘沙的位置，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "17:30",
+   "date": "雾月 18日",
+   "place": "米拉什 摇摇欲坠的矿道"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，前面的矿道被堵住了，土是新的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "这边也是， 拯救委员会是故意把我们堵在这里的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啧——安琪约在这里谈判，原来早有预谋，是我棋差一招……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，我们之间的人力、资源差距太大了，就好像在用十个棋子和对方一百个棋子下棋一样，根本没办法处处防住。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，快来这边，岩壁上有风吹出来，说明——这块石头后面有通路， 看我把它砸开！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙的直觉帮大忙了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嘻——魔<r=mowang></r>王，你要去哪里啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "尘沙，小心，岩壁后面有人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "又是你这个麻烦的家伙，你是跟踪狂吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "跟踪狂？或许是呢， 但现在我，更是指引天火的道标。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呜，又在说让人听不懂的话了。夏花，小千，你们先走，我来缠住这家伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "咕——好疼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "嘻嘻嘻，不敢打我了吗？但我不会客气的，旅人，你的伤口也太明显了，一下就戳中了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "不过，谨慎也没意义，我来找你们之前，早就接受了足够多的痛苦了。 被魔法炮射穿身体的感觉好棒好棒好棒！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "这份好棒的痛苦，就由我来还给你们吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "恩赐之神，求您将时间停在这一刻吧，救救我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（捂住160号的眼睛）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "一切都结束了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "魔<r=mowang></r>王！哎，你捂住我的眼睛干什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但这个魔法并不是真的停止时间，只是强行用魔力限制住身边一定范围内的，被她看到的物体的运动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你只能停止被你看到的物体的运动，那么，只要捂住你的眼睛，你就没办法停下时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "160号",
+   "text": "怎，怎么可能，我能看到你的手掌，你应该被我停下才对——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，我是“魔力免疫”体质嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公，打晕她了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，总算都解决了。 夏花，千都世，你们把这个审判官绑走，我扶着尘沙跟在后面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "安琪委员长，多亏160号拖了一会，我已经找到尘沙的位置了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "开火吧。160号在出发前，就已经做好了必死的决心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冈希尔德",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "抱歉啊，魔<r=BOSS></r>王，这次是我拖后腿了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说什么呢，尘沙，是我们赢了，拯救委员会拦不住我们，大家全都好好地逃出去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "爆炸？就在我们的头顶上？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "夏花，千都世，你们别过来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我最后的视野里，只有轰然崩塌的矿井，以及尘沙转身将我护在身下的身影。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我想到了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇！ 怎、怎么了？ 你想到什么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "让沙漠下雨的办法啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们先让鸢尾把绿洲的水冻成冰块~ 然后拜托雾语把冰块运到天上去！ 等冰块融化就会变成雨下下来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃…… 这样的确能“下雨”， 可既然都把冰块拉到天上了，直接用冰块砸沙丘上的敌人不好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "沙丘上的敌人？ 那是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是……呃，我以为你在考虑的是怎么突破这个情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哈哈哈哈，我才不是这个意思！ 我只是在想，怎么才能让沙漠里开出漂亮的花呢～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "要是真能做到，我们是不是就能看到童话里才有的景色了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "童话里才有的景色……就为了这个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "什么叫就为了这个？ 我的梦想可是和你一起看遍世上所有的景色呢~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊不过当然啦！比起击退魔物我当然是更想摘星的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "摘星？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯！我也是听别人说的，只要打倒星塔里被称作“尊者”的星骸，就可以获得“许愿星”，只要向它许愿，无论什么愿望都能实现哦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……啊， 你的梦想应该是…… 爬到星塔的顶端……然后摘星，没错吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对啊~♪但是 <r=·>梦</r><r=·>想</r><r=·>又</r><r=·>不</r><r=·>是</r><r=·>只</r><r=·>能</r><r=·>有</r><r=·>一</r><r=·>个</r>~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "好啦好啦~先不说这个啦！快看，魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "下雨啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……下雨？ 你在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘、尘沙？你身上——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，这就是……沙漠里最美的花哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "是不是……很好看……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "温热的雨滴，一滴一滴地落在我的脸上，",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "正如她所说，沙漠里——下雨了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，醒醒！快醒醒啊！不准睡！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我们还有好多……好多地方，没一起去过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "求求你！快点睁开眼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "尘……尘沙……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊，魔<r=BOSS></r>王？太好了……我刚刚还以为……你醒不过来了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "太暗了，什么都看不清……你有没有受伤？有哪里疼吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我，我还好，就是被瓦砾压住了，不太能动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "话说回来，看现在的情况，矿道倒塌了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，刚刚的爆炸……让矿坑完全塌了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不过不过，我刚刚看到了小千和夏花都在安全的位置，她们应该平安无事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就好，尘沙你呢？ 听你的声音好虚弱……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我、我吗？啊哈哈……没事没事。就是刚刚摔倒的时候，皮被擦破了，都是小事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种情况只是轻微擦伤，已经是值得庆幸的事了。对了，你知道我手机在哪儿吗？得快点联系大家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？我现在摸到的是你的手机吗？好像被什么卡住了，拿不出来。不过屏幕还是能打开的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好！打开了，屏幕的亮光可以看到……尘沙——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……诶？尘、尘沙？！你……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "温柔地落在我脸颊上的，不是温热的雨点，而是从尘沙胸口上红色水滴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她的身体死死顶住崩塌的矿道，为我撑出了一方小小的生存空间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊……周围好像变亮了一些？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，你找到手机了吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯……奇怪……应该变亮了才对……魔<r=BOSS></r>王……为什么……我还是什么……都看不见……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可以了，尘沙，不要继续勉强自己了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不……不行。要是……要是我不撑着……魔<r=BOSS></r>王就……就会被……石头，压在下面了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿……魔<r=BOSS></r>王不用担心……我恢复能力……很强的…… 这点小伤，不算什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "等我们……从、从这里出去，就把我肩膀里的……木头拔了…… 等过几天，我就能痊愈了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "到时候……我们就一起开着小绿……继续……冒险……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我答应你，不管去哪里我都会陪着你！所以……所以不要再说话了！不要再浪费体力了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不行……让我、让我把话说完，以后……可能就没机会了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要说傻话！尘沙！一定还有机会的！你别乱说！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……嗯……但是……已经……什么都看不见了…… 好像说话……也有些勉强……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊哈哈……明明之前和你约好了……不会对你撒谎……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "如果、如果不趁现在说出来……我肯定会后悔……魔<r=BOSS></r>王……听我说……好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……我知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "谢谢……我……我之前……在孤儿院跟你说、说的那些……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "就是……魔<r=BOSS></r>王和夏花……一起在星塔下许下心愿的事…… 我、我是真的觉得……很美……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "能像那样……一起许下誓言……你们的关系肯定非常……非常好吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "但是、但是……我说的……只要你们幸福就好…… 是骗你的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "和大家一起看你们的故事时……我就在想……要、要是魔<r=BOSS></r>王的身边……是我就好了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那时候，总觉得胸口有些痛……啊哈哈……是不是很奇怪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我自己也没弄明白……那时候的想法……所以就……没告诉你……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我想着……时间还有很多……可以慢慢想……但没想到……这么快就……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙……你的想法一点都不奇怪……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王……有件事……说出来你可能不信……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "在许愿箱里找到你的时候……我突然有种……愿望已经实现的感觉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "愿望、都实现了……我就不能再贪心了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "和你一起旅行……一起冒险……一起看不同的风景……每一天我都很开心……很满足……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿……我好像……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我好像没大家想的……那么阳光开朗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道……我知道的，尘沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，那约好了，为了我们俩能一起去看各种各样的风景，继续旅行……继续冒险……我们一定要活着离开这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯……约好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我想说的……就是这些了……怎么突然……感觉有些困……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你能陪我说说话吗……我好像要睡着了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你能陪我说说话吗……我好像要睡着了…… 好，我来说话，你也不要睡，尘沙",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "嗯",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在那之后，我不停地讲着各种各样的事情",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从我们的第一次相遇， 第一次登上星塔时的事， 睡衣枕头大战， 埃摩的公司战争， 再到菲莱和 沙漠的冒险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙，还记得你教给我的那个剑招吗？ 哪怕是今天，我也有偷着练哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙，还记得你教给我的那个剑招吗？ 哪怕是今天，我也有偷着练哦。 嗯",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她回应的声音越来越细微，滴落在脸颊上的温热液体，间隔时间也越来越长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "啊……对了！听我说！我想到了怎么让沙漠下雨的 办法了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "啊……对了！听我说！我想到了怎么让沙漠下雨的 办法了！ ……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "…………尘，沙？喂，尘沙！尘沙！尘沙！！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "呜哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "沙漠里的雨，停了",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙的臂弯渐渐弯曲，在无数土石的重量下，我们的身体紧紧地贴在了一起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从没有哪一刻，我像现在这般渴求死亡的降临。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "魔<r=mowang></r>王大人，请节哀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "这里是白色房间，您的同伴是没办法抵达这里的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，对，这里是白色房间，那也就是说，我还有回去的机会，还有把尘沙救回来的机会，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "的，的确如此……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "魔<r=mowang></r>王大人，请冷静一下，平时的你不是这样的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙为我流干了血，她就那样一点点，一点点地在我面前变得冰冷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "直到最后，她还在为我撑着上面倒塌的土石。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "冷静，你让我如何冷静！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "我们很理解您的心情，但越是这种时候，越需要冷静。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "哼哼，您这样头脑发热地回到过去，真的能做出准确的判断吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "到时候只能继续带着同伴踏入错误的结局，让同伴和您徒增痛苦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，你们说得对，是我太过冲动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这次的失败，完全是由于我错判了局势，本以为可以带着大家顺利逃走，没想到拯救委员会能动用的资源比我多得多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然艾蕾、千都世、夏花，她们每一个人都能战胜数名，甚至数十名拯救委员会的成员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但在绝对的人数、资源和组织优势前，我们强大的单人战力根本无处发挥。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "您能冷静判断就好，那么，请记住这最后的画面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "在您凝视着远方的风景时，请不要忘记，也会有人，默默地在关注着您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "这份心情，如果能提前察觉，或许对方也会更开心一些吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维塔，打开大门，我要改变这一切！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

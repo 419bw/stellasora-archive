@@ -1,0 +1,788 @@
+{
+ "heading": "# 二人三脚 上",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：花铃（角色编号 `157`）",
+  "- **解锁条件**：好感等级 1",
+  "- **剧情档案 ID**：`15701`",
+  "- **AVG 剧本**：`CG_157_01`"
+ ],
+ "recap": "为了给希娅一个惊喜，加油啊，小花铃——等一下！不是走那边！",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了给希娅一个惊喜，加油啊，小花铃——等一下！不是走那边！",
+  "episode": "第一话",
+  "title": "二人三脚 上"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "让我想想，今天是去协会之家挑个委托呢，还是去星塔的入口呢…… 嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这里好像也没有…… 呜呜……再这样下去就赶不上了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃，你在干什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哇啊啊啊啊啊啊啊啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇啊啊啊啊啊啊啊啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "唉……原来是魔<r=BOSS></r>王啊…… 别吓我啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "被吓到的是我好吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我都走到这个距离了你都没察觉到，这可一点都不像你啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我刚才……只是在集中精力找东西而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "对了，魔<r=BOSS></r>王！你有在这附近看到过星塔的入口吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像，没看到过…… 你也在找吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "好吧……我都已经找了两个星期了……完全不见踪影……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "都是因为航海旅人变多了害的！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。所以大家现在才在抢夺入口啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "唉，只好这样了…… 魔<r=BOSS></r>王！你现在有空吗？！有空的话就来帮我一起找吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃居然会找我帮忙，真是稀奇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "只能死马当活马医了！再磨蹭下去，就要赶不上希娅的生日了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你是打算许愿送给希娅一份生日礼物吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "你、你怎么会知道我的秘密计划？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然是秘密就别说那么大声啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "既然已经暴露，那就不跟你绕弯子了。 你帮还是不帮？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个嘛…… 怎么说我好歹也是个首席执行官，每天都忙得不得了啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哦，是这样啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "——开玩笑的啦。我来帮你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "真的吗……！ 感激不尽！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃花了这么大的心思，而且时间还很紧急，能帮还是尽量帮一把好了！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不是要找入口吗，怎么跑到协会之家了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你刚才也说了，光靠自己到处跑根本找不到对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然如此，不如从同行那里打听下情报，也算是个好办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好意思，打扰一下。我想打听一下最近你们爬的塔入口在哪里，时间大概是什么时候？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "友好的旅人",
+   "text": "我自己没找到，不过有听几天前出现过哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，这就行了。多谢提供情报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "资深的旅人",
+   "text": "大概一周前吧，在这个位置。不过现在肯定消失了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "一本正经的旅人",
+   "text": "最近我们也完全没有收获呢…… 最后一次登塔是一个月前，大概是这一带吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "完全没有问出个结果来呢，我们这样真的能找到入口的情报吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "相信我，往往这种时候会打听出隐藏的情报哦。 啊，那里有位旅人还没问过呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "到底是哪来的自信啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴沉的旅人",
+   "text": "你们两个…… 如果是在找星塔入口的话，我劝你们最好还是不要打听太多哦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴沉的旅人",
+   "text": "因为再问下去，你们可能就要打听到“那个入口了”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哎？！也就是真的有隐藏的入口咯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴沉的旅人",
+   "text": "有是有…… 但没人会去用……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴沉的旅人",
+   "text": "据说那里…… 在闹鬼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "闹、闹鬼……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "阴沉的旅人",
+   "text": "嗯…… 有幽灵出没。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。出现在灵异地点的入口吗…… 也难怪大家都不敢去碰了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我记得传闻中，好像是说装备会离奇消失，同伴突然失踪什么的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哼！因为这种小事就被吓跑，真是太没骨气了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我跟那些胆小鬼可不一样！既然他们不用，那我们就不客气了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘴上这么说，我看你的双腿怎么一直在发抖啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这、这是因为胜利近在眼前，我实在太兴奋了嘛！ 区区空穴来风的谣言怎么可能会吓到我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呜喵喔哦哦哦哦哦哦哦哦哦哦？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃？！你在哪？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "这里！我在这里，魔<r=BOSS></r>王～！快拉我上去～！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这陷阱坑挖得真够深的。 你没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哈啊…… 得救了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "不、不过！这下我也算解开旅人失踪的谜团了！肯定都像我这样掉进陷阱里了吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "没错！这里只是个普通的洞窟…… 只是普通的洞窟…… 普通的洞窟……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在给自己催眠吗……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "呜啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "嗯？魔<r=BOSS></r>王，你刚才说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有啊，我什么都没说哦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "是我的错觉吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "……呜啊啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我果然没听错，就是有奇怪的声音…… 啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "魔<r=BOSS></r>王！你看，那就是星塔的入口吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，花铃！刚才已经中了一次陷阱了，我们还是小心谨慎点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "放心吧，没问题啦！都走到这儿了，接下来只要进塔就能——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "令人毛骨悚然的鸟",
+   "text": "嘎啊啊啊啊啊啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "哇啊啊啊啊啊啊啊啊啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃，你没事吧？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "幽、幽灵！有幽灵的声音啊啊啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别慌。刚才应该只是鸟叫声。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "鸟？ 真是的……叫这么大声干嘛啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呵呵，魔<r=BOSS></r>王你的手好冰啊，都把你吓成这样了？整个人都僵成石头了，真拿你没办法～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "…… 那个……花铃？你对着一块石头自言自语什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呜哇！石，石头……！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃？你该不会没戴隐形眼镜吧，但是之前还能看清……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "呜…… 其，其实我刚才以为看不见就不会害怕，所以先把隐形眼镜摘掉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "结果重新戴回去的时候……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "被刚才的鸟叫声吓掉了！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "嗯……现在什么都看不见啊，要是这种时候。 啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "隐形眼镜……被我踩碎了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉……谁叫你看不清路还乱动…… 今天没带备用的或者其他眼镜吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "没有……备用的刚好用完，本来戴的眼镜也放船上了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "没、没问题！爬个塔而已，就算不戴眼镜也没问题……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "我证明给你看！魔<r=BOSS></r>王你就在这儿吧！完全没问题！状态完美！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "太近了太近了！！难道不凑到这么近就看不见吗！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃。我们还是先回去吧。在这么糟糕的情况下去爬塔太危险了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "可是，好不容易才找到入口！下次再来就不一定还在了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "已经没时间了…… 就算是我一个人也要爬上去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃……真拿你没办法。 好吧，那我就暂且来当你的眼睛吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "魔<r=BOSS></r>王……！ 感谢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "花铃",
+   "text": "那我们就赶紧出发去找许愿箱吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

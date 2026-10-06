@@ -1,0 +1,372 @@
+{
+ "heading": "# 第一话 孤独的店员",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属 NPC**：波西亚（NPC 编号 `9133`）",
+  "- **解锁条件**：好感等级 5",
+  "- **剧情档案 ID**：`913301`",
+  "- **AVG 剧本**：`CG_npc133_01`"
+ ],
+ "recap": "没有什么比独自在便利店打工更无聊的事了，如果有人能来帮波西亚卖东西就好了。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "没有什么比独自在便利店打工更无聊的事了，如果有人能来帮波西亚卖东西就好了。",
+  "episode": "第一话",
+  "title": "孤独的店员"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "啧，这关怎么每次都差一点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "(啊，好像有旅人来了。)",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "（唉，先工作吧……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "欢迎光临……请随便看看吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "啊~累死啦！ 鸢尾！我们买点好喝的吧，我看那个桃子口味的不错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我想要，星之铃。 音乐，喜欢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "喂，辉光币可是很宝贵的！要谨慎地使用才行，不要随便买东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "（啊，又是这三个人。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "（看来，这一次是卖不出什么了。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎呀，大家不是都说“该买的时候就要买”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "潜能特饮也好，星之铃也好，都是提升我们在星塔里释放魔法的重要物资。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "而这个货架上的特饮和星之铃能提升的魔法，都不是我们现在急需的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那确实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "所以，先存起来，下次进便利店的时候再看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "（看起来她们也没多少辉光币……真是精打细算啊。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "（本来还想尝试一下最近新学的推销话术，但…… 还是算了吧，好麻烦。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "更重要的是，如果我们这次再许愿不出任何神器，完不成委托！我们就只有解散旅团这一条路了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "旅团解散，我们就只能露宿街头。露宿街头，我们的东西就会被偷走，东西被偷走……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "开始了，又要开启“绝望模式”了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "从进塔开始，已经是第五次了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "最后，我们只能凄惨地，在寒冷的大雪中划亮最后一根火柴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "（呜哇，说的好惨啊，下次再遇到她们的时候，给她们打个折吧。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哎呀！放轻松啦！这次肯定能许愿出神器的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我，会加油的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "大家…… 没错，现在还不是消沉的时候！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "呼，果然营业额又是零。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "这样下去，什么时候才能把便利店里的东西都卖光啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "如果有人能一次性把便利店里的东西全部买下来就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“店长”夏洛克",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "好的，好的，别催了，我会卖力的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "但这些旅人不买东西，那我也没有办法对不对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“店长”夏洛克",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "知道啦，我下次会更主动一点去推销的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“店长”",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "你要是能经常走两步，说说话，而不是在这里发呆，营业额肯定能更高。 或者，至少也帮我结个账啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "世界上有那么多的星塔和那么多的爬塔旅人，一天二十四小时无休也干不过来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“店长”",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "说到底……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "便利店还是只能靠我一个人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "“店长”",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "唉，什么时候能有个人给我帮忙啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "到时候，就让他去穿着店长的...... 不不，是企鹅的玩偶服招揽客人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "波西亚",
+   "text": "这样一来，肯定能更快地把存货卖完的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

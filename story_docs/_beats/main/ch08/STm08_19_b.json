@@ -1,0 +1,2485 @@
+{
+ "heading": "# 终局 妈妈",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：第八章《往日残影》（星塔历 996 年）",
+  "- **关卡 ID**：`928`　**编号**：`终局`",
+  "- **关卡名称**：妈妈",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm08_19_b`",
+  "- **关卡描述**：永远不要与战争有任何瓜葛。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "决战时，你最终被约瑟夫的新武器暗算而死去。\n空白旅团也没能幸存，艾蕾认为这是自己未能保护好孩子们。\n悲痛欲绝的艾蕾，独自离开米拉什，化身为复仇的恶魔……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "决战时，你最终被约瑟夫的新武器暗算而死去。\n空白旅团也没能幸存，艾蕾认为这是自己未能保护好孩子们。\n悲痛欲绝的艾蕾，独自离开米拉什，化身为复仇的恶魔……",
+  "episode": "终局",
+  "title": "妈妈"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "魔<r=mowang></r>王大人欢迎回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "欢迎回来，这次您真是做成了好大事呢，靠着死之权杖实现了诺瓦的变革。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "变......变革么， 我把一切都搞砸了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明明是想制造混乱后保护身边的人，结果却谁都没有保护住......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "嘻嘻，变革又不是一定向好的方向去变，诺瓦变得更加混沌，也是一种变革。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "不擅长魔法的普通人，也能轻易杀死有魔法师护卫的位高权重的人，这种变革方向，我觉得也未必很坏呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "只不过，您制造的混沌最终也会反噬到您的身上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "并且，按照历史经验，最终还是掌握着资源的人获得胜利，只不过，能略微变一下也是好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "杀死我的那种武器......好像是一种地雷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "嗯，是您没有许愿出来，但是被约瑟夫发明了祷词的全新死之权杖哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "威力超大，格蕾霍恩就算穿着防弹铠甲，还是变成了两段。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙她们......有好好活下来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "这个......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "还是请您亲自看看我记录下来的事情吧，镜子里都被装满了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "恬静的孩子",
+   "text": "妈妈，今天的饭好好吃呀～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "真的吗？那要不要再来一碗？肉和菜都还剩不少哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "趁着妈妈没看到，我溜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "站住……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "碗里的青菜还没吃完！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "不要、不要！我才不要吃青菜！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不吃青菜的话，可当不了姐姐们那样的旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "妈妈骗人，旅人需要有力气，吃肉才能有力气。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "但是荒野可不会给你们挑食的机会哦，没有补给的时候，能捕到魔物就吃魔物，能挖到草根就吃草根。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你仰慕的姐姐们，可是连树皮都吃的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "呜——竟然是这，这样么...... 可是，青菜好苦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "嗯，妈妈听说，小孩子的舌头和大人的舌头不一样，有的青菜小孩子吃的确会觉得苦呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这样吧，下次妈妈尽量给你们做一些更合口的青菜，今天的话——就请勇敢的小旅人把碗里的青菜当成星骸消灭掉吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "然后，大家就都能得到一颗糖作为奖励。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "糖！明，明白了，我是勇敢的旅人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "我吃吃吃吃——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "艾蕾院长。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "卡西米拉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "快进来坐，有空白旅团和魔<r=BOSS></r>王的消息吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "抱歉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这是你们的遗物......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你，你说什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几个月前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "东西都收拾好了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯，都收拾好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "小声点，别把艾蕾阿姨吵醒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你们说，别把谁吵醒了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "还在餐厅留了字条……你们这是打算去哪儿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那个……我们想去保护魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你自己一个人在外面，肯定吃不好，也睡不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你们要去协助调查，可是沙蝎不是在帮忙吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "哈萨娜，不放心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "放不放心先放在一边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "魔<r=BOSS></r>王不会告诉你们你在哪里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王知道这里面的危险，从和沙蝎合作的时候，你就在试图保护我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "但，我们，也想保护你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "所以我们直接找过去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你也没办法拒绝吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那就去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯？我还以为......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "以为什么？我会阻拦你们？ 我教出来的孩子，怎么可能放弃朋友？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "妈妈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "现在肯叫我妈妈了， 那我作为妈妈，对你们只有一个要求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "妈妈，请说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "把魔<r=BOSS></r>王带回来，一起吃那顿没吃完的晚饭，还有，找到魔<r=BOSS></r>王后，和我联络报平安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我......为什么......为什么那时候没和她们一起去......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "艾蕾院长，这不是你的错。那时你的确走不开。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "是谁杀死了她们？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "难道是之前就追杀过魔<r=BOSS></r>王的那个安琪？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "不是她，安琪并没有参与“死之权杖”的买卖，一年多前就消失在星塔里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "杀死她们的是一个叫做灰夫人的前种业员工。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那是......谁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "过去在菲莱做了很多坏事，在达尔茜娅事件中被送进监狱的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "这种人本是空白旅团和魔<r=BOSS></r>王的手下败将，可没想到的是......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "她为了杀死魔<r=BOSS></r>王，连自己的雇主都要背叛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "灰夫人以自己的雇主为饵，故意暴露出这些公司元老开会的地点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "让魔<r=BOSS></r>王误认为可以快速解决这些人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "然而，开会的仓库里，早就装满了易燃物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "我们赶到的时候，什么都没剩下……只找到了这个......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这是......鸢尾的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "琥珀和尘沙的武器，应该被灰夫人当作战利品带走了，魔<r=BOSS></r>王和她们在一起，也死在了大火中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "艾蕾院长，请节哀......我先回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "请等一等！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "告诉我，那个人在哪里！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "艾蕾院长......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我不再是院长了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我是艾蕾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "是尘沙的妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "是鸢尾的妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "是琥珀的妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "是孤儿院所有孩子们的……妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她们，还有魔<r=BOSS></r>王，为什么要遭遇这种事！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "现在……告诉我，告诉我那个畜生的位置！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "灰夫人收拢了她那些死去雇主的财富，还雇佣了帝国卫队做自己的保镖，你一个人......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我不是在询问、也不是请求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我不会牵连你们，我孩子的仇，我会亲手来报！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "现在！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "立刻！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "马上！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "告诉我答案！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "调皮的孩子",
+   "text": "妈妈，你要去哪儿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "孩子们，乖乖听卡西米拉和猫眼的话，妈妈要去沙漠之外，做一件很重要的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "艾蕾院长，你......不再考虑一下么？让白猫来接手孤儿院什么的......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "孤儿院里也有白猫队员的孩子，我相信你们能守护好这里的，米拉什的安宁，你们不就守护得很好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡西米拉",
+   "text": "好吧，我们，还有孩子们等你回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "嗯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我只是去做一个妈妈应该做的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那一天，艾蕾离开了米拉什",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从此，公司元老们的噩梦里多了一个名字：",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "黑足猫恶魔",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "参与了围杀魔<r=BOSS></r>王阴谋，导致空白旅团死亡的人， 一个接一个地死去",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "没有宽恕，没有审判，只有死神的脚步声，在夜色中悄然降临 她像一场无声蔓延的灾厄，将血债如数奉还",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不久后，艾蕾的名单上只剩下最后一个名字——灰夫人",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "为了活下去，已经拥有花不完的朵拉的灰夫人买下了帝国卫队 最高规格的服务，包下了整个酒店让骑士们进驻",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这是在诺瓦，金钱所能买到的，最周密、也最昂贵的防护",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的骑士",
+   "text": "小心，她来了，黑足猫恶魔来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "没有军队，没有号角，也没有宣告",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "只有一个人，一个视野中已经失去了正常颜色的人",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "像一场早已注定会降临的死刑",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "降临在骑士之中",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "列阵！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "举盾！放平长枪！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "帝国骑士们",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "坚守阵地，她只有一个人——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "妈妈！妈妈！快看看！我们今天在森林抓到了野猪哦~！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "妈妈做的弹弓，很好用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾也很厉害！“咻”地一下就把野猪给冻住了！我和琥珀趁机冲上去“邦”地打倒了它！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "也、也不是什么很厉害的事情啦……嘿嘿……不过最后还是多亏了尘沙哦！毕竟……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这么大的野猪，一个人搬回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "三人",
+   "text": "妈妈，肚子好饿啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，知道了知道了。 妈妈现在就开始做饭，你们再稍微等一等吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的骑士",
+   "text": "队长！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "（和那时的对决不同……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "（我们现在面对的是……“战争”。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不过……这么大的野猪，光是前期处理就得花不少工夫呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "胆小的骑士",
+   "text": "她……她在说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "勇敢的骑士",
+   "text": "别傻站着，动起来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "先挂起来放血……然后沿着腹部剖开……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "勇敢的骑士",
+   "text": "好……好快……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逐渐变得勇敢的骑士",
+   "text": "你这家伙……看招！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "好漂亮的牙齿……说不定能拿来做些什么呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哇啊！妈妈好厉害啊！我用剑都砍不断，妈妈竟然用手就掰断了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "逐渐变得勇敢的骑士",
+   "text": "她徒手掰断了……我的长枪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，毕竟我是大家的妈妈啊。像这么大的野猪，皮也特别结实，下次拿来给你们做成护具吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "散开！除了我，其他人不要近她的身！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "队长，我用魔法支援你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "拜托了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊，琥珀，不可以偷吃哦。汤还要再煮一会儿呢，不然吃了会坏肚子的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "妈妈！汤还要煮那么久的话……我们先来烤肉吧~我想吃烤肉~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，说的也对。 那么大家能不能来帮帮妈妈？野猪的肉很容易烤焦，妈妈一个人很难掌握火候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "汹涌澎湃的始源之火啊， 汇集于此，灼烧敌人吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "嗯……啊找到了。 做烤肉的话，这个部位最合适了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被炙烤的骑士",
+   "text": "啊啊啊——好烫！ 盔甲、盔甲融化了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "混账！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被炙烤的骑士",
+   "text": "队长……救救我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "黑足猫，我才是你的对手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "哎呀……我还在想怎么闻到一股焦味呢……原来是烤焦了啊……妈妈可真不小心~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "可恶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "得赶紧准备别的菜呢…… 可不能让孩子们饿着肚子等太久~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "始源之火啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "停！不要再施法了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "可是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "你的法术威力很大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "但你打不中她，伤到的都是我们自己人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "我不想再听见，骑士们被火焰灼烧时发出的可怕声音了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "好香。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我肚子都要饿扁啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "下次大家一起来控制火候，一定不会再烤焦了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "哈……哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "只剩下我们几个还站着了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的骑士",
+   "text": "……还有机会吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "你们去协助队长，我来争取机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "飘散的清幽之水啊， 化作迷雾，遮蔽她的视线！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "成功吸引她注意了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "不对！她根本没在看我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "队长！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "用左手挡下了……我的全力一击……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "好了，孩子们，快过来吧。 要开饭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "轻伤的骑士",
+   "text": "队长！你伤得太重了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "认真的骑士",
+   "text": "我还能再撑一会儿，队长，快逃吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "只有你还有机会撤出去……我们跑不动了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "重伤的骑士",
+   "text": "就算牺牲我们也没关系……只要队长还活着，部队就还有重整的可能……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "再就是把汤也端过去……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "好，完成了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "……够了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士们",
+   "text": "队长……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "……停下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "求你，停下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "我们接了护卫的委托，为了帝国卫队的荣誉，我们必须保护好委托人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "但是......结束吧，我们投降。我作为指挥官，愿意负全部的责任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "我的双手、眼睛、腿，甚至这条命……你想拿什么，都可以。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "求你……放过剩下的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "队长，不可以！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "闭嘴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "……是我接下了委托，也是我把你们带来守在这里，倒下的人已经够多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你也有，要守护的人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "有，有的……我剩余的部下们，还能活着，对吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "带我去见灰夫人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "……好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "老练的骑士",
+   "text": "可是队长，违约金暂且不说……我们要怎么向公司交代？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "一切责任我来承担。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "你终于回来了！怎么样？除掉那个疯女人了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "……你怎么这副样子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "委托终止，这是您的预付款和我们应该支付的违约金。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "这是什么意思？！你疯了？！谁允许你终止委托的？！我不要你的朵拉，我要你保护我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "我花钱买的是安全！是让你们替我去死，不是让你跑来塞给我一张纸！帝国卫队的荣誉呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "荣誉？......我听说，你做乙方的时候，曾经用雇主作为诱饵，并且在那之后吞掉了雇主的财产。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "相比之下，我还会归还预付款和支付违约金，我应该无愧于帝国卫队的荣誉了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "接下来交给你了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "黑足猫恶魔",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "不……不……等等！等等！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "我可以再加朵拉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "你回来！我命令你回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "骑士队长",
+   "text": "帝国卫队，不会再接受你的命令。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "我......我知道，你是为了空白旅团来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "那个，我只是针对魔<r=BOSS></r>王，没想对付空白旅团，那是个意外，意外！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "等、等等……你是在找这个，对吧？这是我花了大价钱修好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "这些重要的武器请拿去吧，在，在那之后，我每天都去恩赐之神的面前为那些旅人祈福。只要你肯放过我，朵拉、神器、情报，我都可以给你......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "啊——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "<r=舌头……我的舌头>咳……咳咳</r>………… <r=怎、怎么会>啊</r>………… <r=她一句都不信>呃</r>……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "从今往后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "你再也不能用这张嘴，编织拙劣的谎言，愚弄他人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "<r=胳膊……>呃！</r><r=我的胳膊……>呃！</r>呃……<r=好疼……>啊</r>……<r=好疼啊……>啊</r>……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "再也不能用这双手，恶意玩弄别人的命运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "灰夫人",
+   "text": "呜<r=腿……></r>……呜<r=我的腿没了……></r>啊…… <r=有人吗>咳</r>…… <r=救命……>呃</r>……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "既然你靠践踏别人走到今天——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那从今以后，像只蛆虫一般……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "努力地在地上爬下去吧",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "好了， 大家都吃饱了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙、鸢尾、琥珀",
+   "text": "吃饱了——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "呵呵，那就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那么，既然已经吃饱了……就去把牙刷了，然后准备睡觉吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "今天玩了这么久，我已经困啦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "对呀，而且大家一起做饭，不知不觉就这么晚了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "妈妈，今天的饭，很好吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "谢谢妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "超~级感谢妈妈！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "妈妈。谢谢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "妈妈——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我曾经，遇到过几个可爱的孩子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "那时的我，一心想成为能让她们依靠、喜欢的人……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我学着身边那些大人的样子，学着照顾她们，学着爱护她们，学着像一个“妈妈”那样陪在她们身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "错",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "都是你的错",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你什么都没能保护",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "你明知危险，还要放任孩子们前去",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "如果，如果你能跟她们一起去找魔<r=BOSS></r>王——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾？",
+   "text": "她们就不会……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "孤儿院——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我一直不喜欢这个名字…… 可不管怎么说，那里都是对我们而言……重要的“家”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我也好，那些孩子也好……谁都不知道自己亲生父母的样子。 但是在这里，我就是那些孩子们的妈妈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我倾尽了一切，把我能给的爱，全部都给了她们……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "千万不要走上跟妈妈相同的路，不要变得跟妈妈一样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我希望她们能无忧无虑、天真无邪，怀抱着梦想与希望，就那样平平安安地长大……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "长大后，她们会做出什么样的选择呢，会成为什么样的大人呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这些事，我当然都不知道。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "因为那本来就是属于她们的……独一无二的未来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "可是…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "为什么……？为什么偏偏是那些孩子？ 为什么会变成这样……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾？",
+   "text": "你不是很清楚吗。都是你的错……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我的……错？不、不是的……不是我的错……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾？",
+   "text": "都是你的错……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不是，不是的！刚刚，刚刚她们还在我身边的……在我身边开心地笑着……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这一切…… 都是你的错　　　　　你没有把她们带走…… 都是你的错 就不会…… 你不是很清楚吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这一切……都是你的错",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "尘沙……鸢尾……琥珀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "都是你的错……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "好啦好啦，你们啊，不要闹得太过头了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "已经很晚了，饭也吃好了，该乖乖去睡觉了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾？",
+   "text": "都是你的错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "梦……对，对……这只是个噩梦……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "都是你的错",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "没错，这一定是场噩梦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我只是还没有醒过来而已……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "呵呵，呵呵呵……等我醒过来，一切都会恢复原样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那些孩子们会像平常那样，笑着、闹着，扑到我怀里来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "都是你的错",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "啊……既然是梦……那就不用着急了…… 对了，来唱歌吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "就唱那首……她们小时候，我总是唱给她们听的歌……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "唱着唱着……一定会醒过来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "都是你的错",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "…… …… …… ……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "别害怕，我可爱的孩子们，不要害怕……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "妈妈已经把坏人们都赶跑了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "所以……回家吧，跟妈妈一起回家吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "来，快过来……妈妈已经不会再让你们独自面对危险了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "孩子们……你们要去哪儿…… 回来啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "不要……不要丢下妈妈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "妈妈......会保护好你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "这一次……妈妈……一定会保护好大家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "求求你们……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "把我的孩子还给我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我们一起……一起回家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "这就是，您死亡之后的事情了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "那位“妈妈”在听说了孩子的死讯后，变得和恶鬼一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "我想，这也是一种“母爱”吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我......我到底做了什么......",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "您只是为了自保，利用了从星塔中许愿的稀有神器而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "你吸取了与达尔茜娅合作的教训，从头到尾没有让沙蝎取得主动权，最后甚至说服沙蝎，主动停止售卖死之权杖。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "只是......有些权力，不是您想放弃就能放弃的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "您没有滥用死之权杖，不如说，您能主动停手，让我感觉很意外呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "只是......您扇起翅膀，至于会刮起什么样的风暴，就没人知道了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白的，当我为了自保，开始散播死之权杖的时候，诺瓦人就不可能放弃这种更方便的武器了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有能力的人都想获得一把死之权杖，哪怕只是为了保护自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对每个人来说的最优解，最终成为了诺瓦最差的解……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我自以为可以掌握一切，最终却害了同伴，也害了艾蕾。让诺瓦陷入了火海之中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维塔，请打开大门吧， 我要改变这一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维塔",
+   "text": "您的命令就是我的意志。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "魔<r=BOSS></r>王，你考虑好了吗？ 我们沙蝎天不怕地不怕，只要你真的能给我许愿出那种神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "哈萨娜",
+   "text": "沙蝎跟着你和拯救委员会斗一斗又如何？沙漠中的蝎子可从未有过天敌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感谢你们愿意递来橄榄枝， 但我不会重新许愿“死之权杖”的，抱歉，哈萨娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

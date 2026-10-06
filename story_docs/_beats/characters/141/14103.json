@@ -1,0 +1,748 @@
+{
+ "heading": "# 荒村惊魂 下",
+ "info_title": "剧情档案信息",
+ "info": [
+  "- **所属角色**：赤霞（角色编号 `141`）",
+  "- **解锁条件**：好感等级 10",
+  "- **剧情档案 ID**：`14103`",
+  "- **AVG 剧本**：`CG_141_03`"
+ ],
+ "recap": "藏在黑夜中的秘密，到底是真的有“鬼”还是人为的捉弄，烛火摇曳，指向红绸缎下的那一段往事。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "藏在黑夜中的秘密，到底是真的有“鬼”还是人为的捉弄，烛火摇曳，指向红绸缎下的那一段往事。",
+  "episode": "第三话",
+  "title": "荒村惊魂 下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你、你、你轻点，我胳膊要给你捏碎了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你冷静一点！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "喂，你有没有感觉越来越冷了？我怎么觉得膝盖以下阴风阵阵。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像是，好厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你怎么还很兴奋的样子？！你就一点都不怕吗？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎么说呢…… 毕竟我以前从来没有遇见过这种事情，正所谓初生牛犊不怕虎嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "更何况，我们都在这里呆了半天了，到现在还没发生意外，也能侧面证明这个“鬼”并不想害人吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你、你说得好像很有道理……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那、那就开始吧！早点解决早点回去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我们现在要还原他们当年的婚礼仪式吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "大概吧。龙裔旧习俗的结婚仪式，除了要有红色的装扮之外，有一个很重要的流程——拜天地，拜父母，以及夫妻对拜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "等一下，如果要还原场景，还得有两个人……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种情况下，不太安全吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "有道理…… 不过，应该也能用别的东西来替代人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那不是正好，外面到处都是木偶，随便搬两个进来就行了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "哦……哦！好主意！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那魔<r=BOSS></r>王去搬两个，我、我就在这里准备其他东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要两个木偶就好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "对…… 你别走太远啊！要是五分钟内没回来我就、我就放条会说话的火龙，满山头大声叫你的名字！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好、好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还真有点想看会说话的火龙……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "木偶我搬进来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "赤霞正站在柱子旁边，双手合掌，一边说着“对不起，借用一下”，一边从檐柱上的红绸缎上撕下来了一小块。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是要干什么的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "是“红盖头”，龙裔旧习俗的婚礼仪式上，新娘要头批红色的盖布。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那两个木偶，就放在桌子前就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样吗？然后要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "就这样，把布盖在头上，然后背对着桌子面向门口。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "魔<r=BOSS></r>王你站在另一边，抓着那个木偶跟我做就行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "准备好了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦、哦！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我们抓着木偶摆出对应的动作，像是跨越了时空，参与到了那场过去的婚礼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "一拜天地——！ 二拜高堂——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "仪式流程并不长，随着我们将两个木偶面对面站好，就到了最后一步。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "夫妻对拜——！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这样就可以了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "成亲拜堂的话，到这里就算礼成了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "唔……那个，新娘姐姐满意了吗？这样可以了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像没什么变化。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "没什么变化那不就说明，人家已经心满意足 ……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "哇啊啊啊啊！！！什么声音？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我我我我我们不会做错了什么惹到“厉鬼”了吧，要要要要要不还是先回去吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "窗外好像有个人影。 你在这里等着，我出去看看……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你别吓我！！？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜啊！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "啊啊！发、发生了什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "诶……魔、魔<r=BOSS></r>王？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "喂……魔<r=BOSS></r>王？你去哪了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "呜啊……别闹了，快出来吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就在这时，一股阴冷的气息已经瞄准了她的尾巴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "呜啊啊啊！！！！！！！ 鬼啊！！！！！！！ 尾巴、 尾巴—— 别抓我尾巴！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我错了我错了我错了！ 我给姐姐道歉。 我这小小玄师不应该自不量力挑战您的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "只要您能把我的朋友还来， 我现在就走， 回去就给您立像， 给您诵经， 给您祈福……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "那个……是我……",
+   "options": [
+    [
+     "那个……是我……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "嗯……？ 这声音怎么这么耳熟…… 魔王！ 你怎么在地板下面？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "谢天谢地， 谢天谢地…… 还好你没事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我还以为你被鬼抓去拜堂成亲， 再也回不来了…… 呜……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "所以说啊，你别哭得那么厉害也……",
+   "options": [
+    [
+     "别哭啊",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我才没哭！ 要是你回不来， 我、 我…… 哪怕是鬼我也要和她拼了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "没有那个必要。抓你尾巴的是我",
+   "options": [
+    [
+     "根本没有鬼，只是地板朽了，我掉了下去",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你说什么？ 原来抓我尾巴的是你？ 就为了从下面爬上来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你把我尾巴 当什么呀？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "本来想着能像拉绳子那样轻松爬上去的……",
+   "options": [
+    [
+     "不好意思，太顺手了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "你这个人， 怎么什么都抓啊！ 松手，快松手……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "不许用力抓！ 不许抬头！ 我、 我拉你上来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "呜…… 这种委托我以后绝对、 绝对、 绝对不会再接了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，我不会乱看的，快把我拉上来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哇啊啊啊啊！！！天花板卡了个鬼啊啊啊啊！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "等等，下面好像有东西，是人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "结果忙活了半天，根本就没有“鬼”！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "柔光那些人也吃饱了没事干，干嘛跑到那种地方造柔光溶液，还搞得神神秘秘装神弄鬼地吓唬人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过那种地方，如果不是“闹鬼”流言传开了，确实也是个不错的据点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "把柔光溶液藏在人偶里，还真是意想不到的主意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "哼哼，说到底都是歪门邪道！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "对了，那个日记本，白泽公署已经找到了原主人，是住在咱们城里的一个老奶奶年轻时候留下的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "结婚那天的烛火不小心点燃了房子，好在火灾不是很严重，最后他们一家也借着这个机会搬到了苍梧城了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "那个村子以前住的都是手艺人，最出名的就是雕刻木偶了，所以才会满地都是木偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "不管怎么说，这次事件在赤霞玄师的帮助下，也算是圆满解决了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也不知道是谁被吓到嗷嗷叫，最后还恼羞成怒把人揍了一顿…… 哎哟！怎么又打我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "谁被吓到嗷嗷叫了？你不许乱说！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "我告诉你，经过这一次，我已经彻底脱胎换骨了！以后这种委托就放心地交给我吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "不过话又说回来，如果没有“鬼”的话，那我画的“寻鬼符”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "但它应该是发挥作用了才对，呃…… 不对，上次师父上课说的是“寻鬼符”吗？好像不是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "完了，那我到底画了个什么东西，为什么会看到魔<r=BOSS></r>王人头落地的幻觉，难道是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在嘀嘀咕咕说什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "没、没什么！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那作为这次你帮助我的回报，我请你去吃饭吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "赤霞",
+   "text": "真的吗！ 那我要吃街口那家凤凰炒蛋！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "今日凤凰炒蛋小吃买一送一，运气真不错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

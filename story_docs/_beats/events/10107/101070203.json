@@ -1,0 +1,868 @@
+{
+ "heading": "# 03 监护人",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：穿透心壁的取景框（活动编号 10107）",
+  "- **关卡 ID**：`101070203`",
+  "- **AVG 剧本**：`STev_07_03`",
+  "- **关卡描述**：离家出走是不行的哦。"
+ ],
+ "recap": "你遇到了火垂的监护人——卡娜丝，在她的带领下，你来到星辉附属大学，并从她口中得知了有关于火垂身份的真相……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你遇到了火垂的监护人——卡娜丝，在她的带领下，你来到星辉附属大学，并从她口中得知了有关于火垂身份的真相……",
+  "episode": "第三话",
+  "title": "监护人"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "终于能回去了……希望路上不要再出什么状况了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "咔嚓。 咔嚓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "拍照，火垂的爱好……开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "开心是好事，但是也要注意剩余胶卷的数量哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟是我们好不容易才拿到的胶卷。要是一口气全用光，那就太可惜了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "用光？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "咦？ 咔嚓，咔嚓……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……拍不出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊……抱歉。我应该早点告诉你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……再进一次塔？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不行，我们本来就是擅自进塔，今天必须得回去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂也不想让“老师”担心你吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂？怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "能感觉到，老师在附近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等、火垂……？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "老师！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "火垂……！ 真是的，你到底跑哪儿去了？我一直在找你啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "火垂，在拍照。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "说谎可是不对的哦？我跑遍了所有能想到的地方，总算在这找到你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "没说谎。火垂真的有在拍照……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "“有在”？ 噢…… 我知道了，除了拍照，还做了别的事情对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "火垂，火垂不知道……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "诚实地回答我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……去塔里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "唉，我就猜到会是这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "我们不是约定过，不准擅自进星塔吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "……对不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不好意思， 虽然有些突然，让我说几句可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂之所以想进星塔……是有合理的理由的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "请问你是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我是魔王，“魔王协议”公司的首席执行官，受伊格娜的委托，正在照顾火垂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "原来如此，你就是伊格娜说的那个人啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "还没自我介绍， 我是卡娜丝。 是火垂的监护人，在星辉附属大学担任教职。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "星辉附属大学……？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "伊格娜已经跟我介绍过你了。 只不过，她说得非常简略，只是单方面地通知了我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "伊格娜和我谈委托的时候也很简略……这是她一贯的风格吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "虽说是她决定的，但把火垂随便交给外人，说老实话我还是挺担心……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "老师。不许欺负魔<r=mowang></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……火垂？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "魔<r=mowang></r>王，对火垂很好，还陪火垂一起玩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……刚才真是失礼了。 这孩子的情况其实挺复杂的，但看她的态度，你似乎值得信任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那既然你提了，就好好解释一下吧——为什么你和火垂会去星塔？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂的留影机胶卷用完了，我们是去许愿胶卷的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然，尽管理由充分，不过擅自入塔毕竟是不对的， 我和她一起给您道个歉吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，火垂之所以这么做，是因为不想给她的老师添麻烦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "……原来如此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "抱歉啊，火垂。我这段时间太忙，完全没顾上给你胶卷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "老师……没有错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "都是胶卷的错，谁叫它一下子就用没了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "呵呵，行了行了。谁都没错啦， 这件事就到此为止吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "这孩子，似乎给你添了不少麻烦啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别在意，毕竟这是我的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "真是太感谢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "说起来，听到魔<r=mowang></r>王这个称呼，我想起来了。 火垂以前跟我提起过你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "雪愿节那天，陪火垂玩的人就是你吧？ 谢谢你。火垂那天真的很开心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "和魔<r=mowang></r>王玩，很高兴。 所以魔<r=mowang></r>王，是好人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "呵呵。看来你真的很会讨人喜欢呢，是个合适的人选。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这算在夸奖我吗。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "伊格娜把你派来，想必有她自己的打算……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "不过，眼下不是刨根问底的时候。 赶在天黑前，先回学校去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里就是星辉附属大学……是诺瓦最大、最顶尖的学府。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要是有志于学问的人，无一不渴望在此求学。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "依稀记得好像还和密涅瓦来这里听过一次课呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾一直很憧憬这个学问的圣地……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "翡冷翠好像也曾在这里就读……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然未曾当过一天学生，但我又一次踏入了校门啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热情的学生",
+   "text": "卡娜丝老师！请问您现在有时间吗？我有几个问题想请教一下……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的学生",
+   "text": "老师，您上次指导的那篇论文，我还是有地方不太明白，您有空能再教教我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "抱歉。我现在有事要忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "今天有客人造访，明天课后我会来给你们统一解答的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "热情的学生",
+   "text": "好的，明白了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "积极的学生",
+   "text": "明天见，老师。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "卡娜丝老师，您很受学生们爱戴呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "谢谢你的夸赞。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我平时的确一直努力想做个好老师—— 但代价就是，睡眠债越欠越多了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "老师根本没时间睡觉。最近从“忙”，变成“超级忙”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "哈哈哈，最近确实分身乏术，都有些影响到本职工作了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "所以说你能接下伊格娜的委托，真是帮了我大忙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "请坐。 我有话想跟你聊聊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "火垂，你能自己先去一边玩吗。我和魔王有重要的事情要谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "好~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火垂这是去哪儿了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "那是属于她的“房间”——我特地隔出了一片区域，让她可以随便在里面折腾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "现在里面到处都是她的照片、零食、玩具……简直和狗窝一样乱。 哎，得麻烦你最好也帮着整理一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "小事一桩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "真可靠。真该早点找你来帮忙的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "好了，言归正传吧，看你的表情，应该有不少疑惑。 你问吧，只要是我知道的事，都尽可能给你解答。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实……除了委托内容，伊格娜几乎什么都没告诉我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她和你的关系，以及她和火垂的关系……都只字未提。我到现在是一头雾水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有――――",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "火垂",
+   "text": "逃啊逃，追啊追，好玩……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "毕竟火垂能把星骸当做玩具随意耍弄…… 这根本是天方夜谭，即便是身经百战的旅人都难以做到这种事……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "跟我详细地介绍一下火垂的情况吧——在您能说的范围里就好。 我现在只知道，她是个战斗力和性格，都有些……“不同寻常”的孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "在回答这个问题之前，我想知道，你对伊格娜的工作有多少了解？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "介绍我这份委托的朋友有提到过，伊格娜小姐是“星辉之眼”的研究员，好像正在负责某项“研究计划”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "嗯，大体正确。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "我们俩其实都算是恩赐意志管理下的“同事”，但相比起能接触到“核心项目”的她——我不过只是个普通教书匠罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "虽说是“同事”，但我们的世界完全不同…… 原本，我们是不应有任何交集的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "但现在，我正在与她协作——保护火垂，将她从“星辉之眼”的控制中解救出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "保护？解救？这是指？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "既然接下来的一段时间，你都会与火垂朝夕相处，那有些事我想也不必继续隐瞒了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "为了避免产生不必要的误会，我就直说吧。 其实火垂这孩子——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "卡娜丝",
+   "text": "曾经是星辉之眼的“实验兵器”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}
