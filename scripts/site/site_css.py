@@ -368,6 +368,11 @@ h1 {
   border-color: rgba(20, 184, 166, 0.22);
   border-left: 4px solid #0D9488;
 }
+.notice-pill.notice-links {
+  background: rgba(37, 99, 235, 0.05);
+  border-color: rgba(37, 99, 235, 0.22);
+  border-left: 4px solid var(--accent);
+}
 .notice-tag {
   display: inline-block;
   flex-shrink: 0;
@@ -392,6 +397,14 @@ h1 {
 [data-theme="dark"] .tag-scope {
   background: rgba(20, 184, 166, 0.25);
   color: #2DD4BF;
+}
+.tag-links {
+  background: rgba(37, 99, 235, 0.14);
+  color: #1D4ED8;
+}
+[data-theme="dark"] .tag-links {
+  background: rgba(37, 99, 235, 0.25);
+  color: #60A5FA;
 }
 .notice-msg {
   color: var(--text-muted);
@@ -2328,6 +2341,15 @@ h1 {
   vertical-align: -4px;
   margin-right: 6px;
   opacity: 0.9;
+}
+.foot-meta a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.15s ease;
+}
+.foot-meta a:hover {
+  opacity: 0.8;
 }
 .foot-disclaimer {
   max-width: 1100px;
