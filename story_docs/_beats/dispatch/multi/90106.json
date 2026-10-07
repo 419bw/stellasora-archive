@@ -1,0 +1,60 @@
+{
+ "heading": "# 苍兰 ＋ 特丽莎 · 双人人委托结算演出",
+ "info_title": "委托结算演出信息",
+ "info": [
+  "- **结算演出**：`DP_multi01`（第 `6` 段）",
+  "- **上阵旅人**：苍兰 ＋ 特丽莎（Id 125、127）",
+  "- **结算类型**：双人结算演出，出现权重 150（单人 50 / 双人 150 / 三人 300，越大越易抽中）",
+  "- **触发条件**：委托完成且含「特殊报酬」时，按上阵旅人与权重随机抽一段结算演出播放；同一份共用剧本按段切分，此处为第 6 段"
+ ],
+ "recap": "",
+ "body_title": "结算演出台词",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "任务完成了喵……我们可以回去了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "多娜今天早上说，让我们回去的时候买点东西当晚饭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "她今天应该来不及回去做饭了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "特丽莎",
+   "text": "那我们去买包子吧，镇上的包子铺好吃~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": "那就去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

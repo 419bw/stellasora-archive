@@ -14,6 +14,7 @@ FAMILIES = [
     ('storysets', '故事集支线', '主题故事集与日常侧写，收录支线剧情与回忆。'),
     ('prologue', '序章', '旅程开启的序幕篇章《最初的起点》。'),
     ('battles_unmounted', '存目战斗气泡', '战场独立战斗气泡与实时对白。'),
+    ('dispatch', '委托对话', '委托（Agent）结算演出台词：完成含特殊报酬的委托时，按上阵旅人与权重随机播放；单人是每位旅人的代表作，双人/三人是随行短对话。'),
 ]
 FAMILY_NAME = {k: n for k, n, _ in FAMILIES}
 
@@ -50,13 +51,18 @@ FAMILY_META = {
     },
     'prologue': {
         'code': '07',
-        'span': 'span-2',
+        'span': 'span-1',
         'desc': '旅程开启的序幕篇章《最初的起点》，旅人初次相遇的故事。',
     },
     'battles_unmounted': {
         'code': '08',
-        'span': 'span-2',
+        'span': 'span-1',
         'desc': '战场独立战斗气泡与角色实时对白。',
+    },
+    'dispatch': {
+        'code': '09',
+        'span': 'span-2',
+        'desc': '委托结算演出台词，按结算演出类型收录。',
     },
 }
 
@@ -66,7 +72,8 @@ STATE_LABEL = {'battle': '战斗', 'story': '剧情'}
 def slug_of(family):
     return {'main': 'main', 'events': 'events', 'characters': 'characters',
             'npc_bonds': 'npc', 'discs': 'discs', 'storysets': 'storysets',
-            'prologue': 'prologue', 'battles_unmounted': 'battles'}[family]
+            'prologue': 'prologue', 'battles_unmounted': 'battles',
+            'dispatch': 'dispatch'}[family]
 
 
 def esc(s):

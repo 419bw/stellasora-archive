@@ -1,0 +1,68 @@
+{
+ "heading": "# 雾语 ＋ 尘沙 · 双人人委托结算演出",
+ "info_title": "委托结算演出信息",
+ "info": [
+  "- **结算演出**：`DP_multi01`（第 `17` 段）",
+  "- **上阵旅人**：雾语 ＋ 尘沙（Id 135、112）",
+  "- **结算类型**：双人结算演出，出现权重 150（单人 50 / 双人 150 / 三人 300，越大越易抽中）",
+  "- **触发条件**：委托完成且含「特殊报酬」时，按上阵旅人与权重随机抽一段结算演出播放；同一份共用剧本按段切分，此处为第 17 段"
+ ],
+ "recap": "",
+ "body_title": "结算演出台词",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿~记者也要来接这种委托吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "没办法啊……生活很难过啊……哭哭……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "听上去好可怜的样子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "可怜我的话，不如给我一点八卦或者新闻吧？ 你们跟魔王很熟吧？透露点你的情报给我吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "到点啦，我要回去啦~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "你怎么也这么无情！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

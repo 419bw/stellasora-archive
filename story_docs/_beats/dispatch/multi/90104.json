@@ -1,0 +1,52 @@
+{
+ "heading": "# 琥珀 ＋ 尘沙 ＋ 鸢尾 · 三人人委托结算演出",
+ "info_title": "委托结算演出信息",
+ "info": [
+  "- **结算演出**：`DP_multi01`（第 `4` 段）",
+  "- **上阵旅人**：琥珀 ＋ 尘沙 ＋ 鸢尾（Id 103、112、111）",
+  "- **结算类型**：三人结算演出，出现权重 300（单人 50 / 双人 150 / 三人 300，越大越易抽中）",
+  "- **触发条件**：委托完成且含「特殊报酬」时，按上阵旅人与权重随机抽一段结算演出播放；同一份共用剧本按段切分，此处为第 4 段"
+ ],
+ "recap": "",
+ "body_title": "结算演出台词",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "空白旅团！顺利完成任务~要去庆祝一下吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "有什么好庆祝的，收拾一下快回去吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "啊，猫猫……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "欸——你们好冷淡！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

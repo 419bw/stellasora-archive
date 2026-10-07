@@ -527,6 +527,10 @@ h1 {
   --card-theme: #DC2626;
   --card-theme-stripe: rgba(220, 38, 38, 0.18);
 }
+.bento-card[data-slug="dispatch"] {
+  --card-theme: #059669;
+  --card-theme-stripe: rgba(5, 150, 105, 0.18);
+}
 
 [data-theme="dark"] .bento-card[data-slug="main"] {
   --card-theme: #38BDF8;
@@ -559,6 +563,10 @@ h1 {
 [data-theme="dark"] .bento-card[data-slug="battles"] {
   --card-theme: #F87171;
   --card-theme-stripe: rgba(248, 113, 113, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="dispatch"] {
+  --card-theme: #34D399;
+  --card-theme-stripe: rgba(52, 211, 153, 0.22);
 }
 
 .bento-card-link {
@@ -1031,6 +1039,10 @@ h1 {
   --grp-accent: #DC2626;
   --grp-accent-stripe: rgba(220, 38, 38, 0.18);
 }
+.grp-grid[data-family="dispatch"] {
+  --grp-accent: #059669;
+  --grp-accent-stripe: rgba(5, 150, 105, 0.18);
+}
 
 [data-theme="dark"] .grp-grid[data-family="events"] {
   --grp-accent: #2DD4BF;
@@ -1059,6 +1071,10 @@ h1 {
 [data-theme="dark"] .grp-grid[data-family="battles"] {
   --grp-accent: #F87171;
   --grp-accent-stripe: rgba(248, 113, 113, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="dispatch"] {
+  --grp-accent: #34D399;
+  --grp-accent-stripe: rgba(52, 211, 153, 0.22);
 }
 
 /* Summary Header */

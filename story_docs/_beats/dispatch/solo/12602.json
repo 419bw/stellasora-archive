@@ -1,0 +1,44 @@
+{
+ "heading": "# 紫槿 · 委托结算演出（其二）",
+ "info_title": "委托结算演出信息",
+ "info": [
+  "- **结算演出**：`DP_single01`（第 `12602` 段）",
+  "- **上阵旅人**：紫槿（Id 126）",
+  "- **结算类型**：单人结算演出，出现权重 50（单人 50 / 双人 150 / 三人 300，越大越易抽中）",
+  "- **触发条件**：委托完成且含「特殊报酬」时，按上阵旅人与权重随机抽一段结算演出播放；同一份共用剧本按段切分，此处为第 12602 段"
+ ],
+ "recap": "",
+ "body_title": "结算演出台词",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "任务完成~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "嗯？你怎么看上去没什么精神？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "要我给你表演个魔术吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

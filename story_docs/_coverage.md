@@ -1,6 +1,6 @@
 # 剧本覆盖对账
 
-- 包内 AVG 剧本：596　已渲染：515　未渲染：81
+- 包内 AVG 剧本：596　已渲染：532　未渲染：64
 
 | 剧本前缀 | 文件数 | 已渲染 | 未渲染 | 挂载来源 | 备注 |
 | --- | --- | --- | --- | --- | --- |
@@ -10,28 +10,11 @@
 | `PM_*` | 63 | 0 | 63 | Chat.AVGId | 心链聊天全篇（`UIText.MainView_Phone` / `OpenFunc.Phone`），外部已有收录，不做 |
 | `STsp_*` | 56 | 56 | 0 | StorySetSection.AVGId |  |
 | `BBm_*` | 31 | 31 | 0 | 无表引用，客户端按「关卡代号里的章号+关卡编号」拼名 | 战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战） |
-| `DP_*` | 17 | 0 | 17 | AgentSpecialPerformance.Avg | 委托玩法结算短演出，待决 |
+| `DP_*` | 17 | 17 | 0 | AgentSpecialPerformance.Avg | 委托结算演出，已入 dispatch/（按结算演出段收录，见 _dev 手册 7.4） |
 | `GD_*` | 1 | 0 | 1 | 无表引用 | 抽卡演出小段（4 句），表不引用，待决 |
 
 ## 未渲染剧本清单
 
-- `DP_multi01`（挂载表：AgentSpecialPerformance）
-- `DP_multi02`（挂载表：AgentSpecialPerformance）
-- `DP_multi03`（挂载表：AgentSpecialPerformance）
-- `DP_single01`（挂载表：AgentSpecialPerformance）
-- `DP_single02`（挂载表：AgentSpecialPerformance）
-- `DP_single03`（挂载表：AgentSpecialPerformance）
-- `DP_single04`（挂载表：AgentSpecialPerformance）
-- `DP_single05`（挂载表：AgentSpecialPerformance）
-- `DP_single114`（挂载表：AgentSpecialPerformance）
-- `DP_single115`（挂载表：AgentSpecialPerformance）
-- `DP_single130`（挂载表：AgentSpecialPerformance）
-- `DP_single137`（挂载表：AgentSpecialPerformance）
-- `DP_single139`（挂载表：AgentSpecialPerformance）
-- `DP_single140`（挂载表：AgentSpecialPerformance）
-- `DP_single145`（挂载表：AgentSpecialPerformance）
-- `DP_single157`（挂载表：AgentSpecialPerformance）
-- `DP_single160`（挂载表：AgentSpecialPerformance）
 - `GD_gacha`（挂载表：无）
 - `PM10301`（挂载表：Chat）
 - `PM10302`（挂载表：Chat）

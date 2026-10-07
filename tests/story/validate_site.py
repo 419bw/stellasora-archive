@@ -619,7 +619,8 @@ main_battle_archive_pages = {
 expected = {p['page'] for p in published} | {'index.html', 'main/index.html'} | \
            {'main/ch%s/index.html' % (c['no'] or 'sp') for c in CH['chapters']} | \
            {'%s/index.html' % s for s in ('events', 'characters', 'npc', 'discs',
-                                          'storysets', 'prologue', 'battles')} | \
+                                          'storysets', 'prologue', 'battles',
+                                          'dispatch')} | \
            main_battle_archive_pages | \
            {'events/10106/index.html', 'events/20101/index.html'} | \
            activity_battle_pages | set(GATE.page_urls())

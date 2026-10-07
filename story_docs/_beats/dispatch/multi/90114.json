@@ -1,0 +1,52 @@
+{
+ "heading": "# 雾语 ＋ 紫槿 · 双人人委托结算演出",
+ "info_title": "委托结算演出信息",
+ "info": [
+  "- **结算演出**：`DP_multi01`（第 `14` 段）",
+  "- **上阵旅人**：雾语 ＋ 紫槿（Id 135、126）",
+  "- **结算类型**：双人结算演出，出现权重 150（单人 50 / 双人 150 / 三人 300，越大越易抽中）",
+  "- **触发条件**：委托完成且含「特殊报酬」时，按上阵旅人与权重随机抽一段结算演出播放；同一份共用剧本按段切分，此处为第 14 段"
+ ],
+ "recap": "",
+ "body_title": "结算演出台词",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "又是你哇~魔术师紫槿大人~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "又是你哇~魔女大人~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "雾语",
+   "text": "这次没有拍到关于您的大新闻真是可惜了~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "紫槿",
+   "text": "是吗？那你下次加油~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

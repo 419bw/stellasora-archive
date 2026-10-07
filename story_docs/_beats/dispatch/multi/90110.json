@@ -1,0 +1,60 @@
+{
+ "heading": "# 缇莉娅 ＋ 密涅瓦 · 双人人委托结算演出",
+ "info_title": "委托结算演出信息",
+ "info": [
+  "- **结算演出**：`DP_multi01`（第 `10` 段）",
+  "- **上阵旅人**：缇莉娅 ＋ 密涅瓦（Id 107、132）",
+  "- **结算类型**：双人结算演出，出现权重 150（单人 50 / 双人 150 / 三人 300，越大越易抽中）",
+  "- **触发条件**：委托完成且含「特殊报酬」时，按上阵旅人与权重随机抽一段结算演出播放；同一份共用剧本按段切分，此处为第 10 段"
+ ],
+ "recap": "",
+ "body_title": "结算演出台词",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "干什么？这里没有规定不能玩滑板吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "啊……抱歉，职业病犯了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "但这里好像规定了不能骑摩托。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "缇莉娅",
+   "text": "欸欸欸？！真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "密涅瓦",
+   "text": "骗你的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}
