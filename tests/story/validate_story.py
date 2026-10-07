@@ -734,11 +734,115 @@ hard(not f_seq, 'F 台词序列不符：%d 页' % len(f_seq))
 hard(not f_bub, 'F 气泡/阶段不符：%d 页' % len(f_bub))
 hard(not f_recap, 'F 概要不符：%d 页' % len(f_recap))
 
+# ---------------------------------------------- N  委托结算分段保真（dispatch 专场）
+print()
+print("=" * 66)
+print("N  委托结算演出：一页 == 该段（脚本 + SetGroupId 段号）的台词序列")
+print("=" * 66)
+
+
+def lua_segment_rows(stem, group):
+    """SetTalk/SetPhoneMsg 台词行，限定在 SetGroupId==group 的那一段内。
+
+    抽取规则镜像 lua_speech_rows，但按段边界裁开：一份 DP_* 脚本按 SetGroupId 被
+    几十段共用，一个 dispatch 页只对应其中一段。
+    """
+    p = os.path.join(CFG, stem + '.lua')
+    if not os.path.exists(p):
+        return None
+    ls, out, i, cur = lines_of(p), [], 0, None
+    while i < len(ls):
+        s = ls[i].strip()
+        if re.match(r'cmd = "SetGroupId"', s):
+            j = i + 1
+            cur = None
+            while j < len(ls) and ls[j].strip().startswith('param'):
+                raw = ls[j].strip().split('{', 1)[1] if '{' in ls[j].strip() else ''
+                cur = unescape_lua(raw.split('}')[0])
+                break
+            i += 1
+            continue
+        m = re.match(r'cmd = "(SetTalk|SetPhoneMsg)"', s)
+        if m and cur == group:
+            j, vals = i + 1, []
+            while j < len(ls):
+                st = ls[j].strip()
+                if st.startswith('param'):
+                    head = st.split('{', 1)[1] if '{' in st else ''
+                    head = head.rstrip('}').rstrip(',').strip()
+                    if head:
+                        vals.append(head)
+                    if st.rstrip().endswith('}'):
+                        break
+                    j += 1
+                    continue
+                st = st.rstrip(',')
+                if st.startswith('}'):
+                    break
+                vals.append(st)
+                j += 1
+            if len(vals) >= 3:
+                raw = unescape_lua(vals[2])
+                seen = norm(raw)
+                if seen and not ASSET.fullmatch(seen) and not (
+                        m.group(1) == 'SetTalk'
+                        and (seen.startswith(('ep_', 'BG_')) or ASSET.fullmatch(seen))):
+                    out.append((m.group(1), raw))
+            i = j
+            continue
+        i += 1
+    return out
+
+
+def lua_segment_seq(stem, group):
+    rows = lua_segment_rows(stem, group)
+    return None if rows is None else [norm(r) for _c, r in fold_nonlog(rows)]
+
+
+DISPATCH = [p for p in glob.glob(os.path.join(NEW, 'dispatch', '**', '*.md'), recursive=True)
+            if not os.path.basename(p).startswith('_')]
+PERF_MARK = re.compile(r'结算演出\*\*：`([A-Za-z0-9_]+)`（第 `([A-Za-z0-9_]+)` 段）')
+disp_bad, disp_stems = [], set()
+for p in DISPATCH:
+    txt = open(p, encoding='utf-8').read()
+    m = PERF_MARK.search(txt)
+    if not m:
+        disp_bad.append((os.path.relpath(p, NEW), '缺分段挂载行'))
+        continue
+    stem, grp = m.group(1), m.group(2)
+    disp_stems.add(stem)
+    truth, got = lua_segment_seq(stem, grp), dialogue(p)
+    if truth is None or truth != got:
+        d = next((i for i, (a, b) in enumerate(zip(truth or [], got)) if a != b),
+                 min(len(truth or []), len(got)))
+        disp_bad.append((os.path.relpath(p, NEW), stem, grp, len(truth or []), len(got), d,
+                         (truth[d][:26] if truth and d < len(truth) else '-'),
+                         (got[d][:26] if d < len(got) else '-')))
+print('委托结算分段页：%d   涉及剧本 %d   台词序列不符：%d' % (len(DISPATCH), len(disp_stems), len(disp_bad)))
+for x in disp_bad[:8]:
+    print('   ~', x)
+hard(not disp_bad, 'N 委托分段保真不符：%d 页' % len(disp_bad))
+
+if DISPATCH:
+    _mp = DISPATCH[0]
+    _mtxt = open(_mp, encoding='utf-8').read()
+    _mm = PERF_MARK.search(_mtxt)
+    _tstem, _tgrp = _mm.group(1), _mm.group(2)
+    _tline = next(l for l in _mtxt.splitlines() if TALK.match(l))
+    _tmp = _mp + '.mut.md'
+    open(_tmp, 'w', encoding='utf-8', newline='\n').write(_mtxt.replace(_tline, _tline + '变', 1))
+    _n_ok = lua_segment_seq(_tstem, _tgrp) != dialogue(_tmp)
+    os.remove(_tmp)
+    hard(_n_ok, 'N 变异[改一句结算台词] MISSED')
+    print('变异测试（%s / %s 第 %s 段）: 改一句台词 -> %s'
+          % (os.path.basename(_mp), _tstem, _tgrp, 'CAUGHT' if _n_ok else 'MISSED'))
+
 # 覆盖对账：产物声明已渲染的剧本数要和 _coverage.md 一致
 cov = open(os.path.join(NEW, '_coverage.md'), encoding='utf-8').read()
 decl = re.search(r'已渲染：(\d+)　未渲染：(\d+)', cov)
-uniq = len({s for _p, s in pages})
-print('去重后剧本数 %d，_coverage.md 声明 %s' % (uniq, decl.group(1) if decl else '?'))
+uniq = len({s for _p, s in pages} | disp_stems)
+print('去重后剧本数 %d（整本 %d + 委托分段涉及 %d），_coverage.md 声明 %s'
+      % (uniq, len({s for _p, s in pages}), len(disp_stems), decl.group(1) if decl else '?'))
 hard(decl is not None and int(decl.group(1)) == uniq,
      'F 覆盖对账不符: _coverage.md 声明 %s，实际去重 %d' % (decl.group(1) if decl else '?', uniq))
 
