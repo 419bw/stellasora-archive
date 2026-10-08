@@ -66,7 +66,8 @@ def parse_inline(text, *, game=False, presets=None, diagnostics=None):
                 pass
             else:
                 buf += token
-                logger.warning('未知标记 %s', token)
+                # 容错不抛错：auto_sync 以 check=True 跑 build，一崩定时同步就全停
+                logger.warning('未知标记 %s，出现于：%s', token, text)
         elif game and m['nonlog']:
             pass
         else:
