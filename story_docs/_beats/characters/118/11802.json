@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "慌张的病人",
-   "text": "医生，别糊弄我了快告诉我实情……！ 我是不是得了脑部疾病？我都找人问过了！",
+   "text": "医生，别糊弄我了快告诉我实情……！我是不是得了脑部疾病？我都找人问过了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "哼…… 看来你是找了位“了不起的名医”看过了啊。",
+   "text": "哼……看来你是找了位“了不起的名医”看过了啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "慌张的病人",
-   "text": "那个……医生…… 我……还能治好吗……？",
+   "text": "那个……医生……我……还能治好吗……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没有…… 得病？",
+   "text": "没有……得病？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "不过今天的重头戏…… 可是接下来的这位68号病人，呵呵~",
+   "text": "不过今天的重头戏……可是接下来的这位68号病人，呵呵~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "如果真是这样…… 那他作为病理标本就具有很高的研究价值了呢……呵呵。啊，我都开始兴奋了。现在就想立刻解剖青蛙呢。",
+   "text": "如果真是这样……那他作为病理标本就具有很高的研究价值了呢……呵呵。啊，我都开始兴奋了。现在就想立刻解剖青蛙呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "病理…… 标本……？",
+   "text": "病理……标本……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "而且还说些什么解剖之类危险的话…… 该不会……",
+   "text": "而且还说些什么解剖之类危险的话……该不会……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "其实只是喝醉后产生了不抖的错觉而已…… 你可真是个让人头疼的病人啊。",
+   "text": "其实只是喝醉后产生了不抖的错觉而已……你可真是个让人头疼的病人啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "如果你想知道…… 我是如何解剖并制作那些标本的话……",
+   "text": "如果你想知道……我是如何解剖并制作那些标本的话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "不过……如果不想被解剖或做成标本的话…… 就给我老老实实接受治疗吧。",
+   "text": "不过……如果不想被解剖或做成标本的话……就给我老老实实接受治疗吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "深 夜",
+   "text": "深  夜",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "呵呵呵…… 终于等到这一刻了。",
+   "text": "呵呵呵……终于等到这一刻了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "这样一来…… 你我就都不会寂寞了。",
+   "text": "这样一来……你我就都不会寂寞了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "呵呵呵…… 光是想象，身体就兴奋得发热了。你也是吧？",
+   "text": "呵呵呵……光是想象，身体就兴奋得发热了。你也是吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不、不要啊啊啊啊啊—— 哈……哈……还好只是梦……",
+   "text": "不、不要啊啊啊啊啊——哈……哈……还好只是梦……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这梦也太真实太可怕了…… 难道是白天出诊时听了什么危险话题的缘故吗……",
+   "text": "这梦也太真实太可怕了……难道是白天出诊时听了什么危险话题的缘故吗……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "现在还是深夜啊。嗯……？ 科洛妮丝的房间还亮着灯……？",
+   "text": "现在还是深夜啊。嗯……？科洛妮丝的房间还亮着灯……？",
    "thought": true,
    "sticker": false,
    "channel": "talk"

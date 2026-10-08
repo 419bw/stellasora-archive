@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "玛琳",
-   "text": "永远…… 永远不要靠近那片海域。",
+   "text": "永远……永远不要靠近那片海域。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "玛琳",
-   "text": "尽管我有武器，可还是抵挡不住它们，只能弃船逃跑…… 如果没有备用的木舟，我恐怕已经变成下一个幽灵了。",
+   "text": "尽管我有武器，可还是抵挡不住它们，只能弃船逃跑……\n如果没有备用的木舟，我恐怕已经变成下一个幽灵了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "不过，前几天暴雨过后，光芒终于又出现了。 我们绝对不能错过这个机会，一定要找到幽灵船。",
+   "text": "不过，前几天暴雨过后，光芒终于又出现了。\n我们绝对不能错过这个机会，一定要找到幽灵船。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此……我明白了。 你们此行是为了给奶奶正名，对吧？",
+   "text": "原来如此……我明白了。\n你们此行是为了给奶奶正名，对吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "…… 那群家伙，最好被暴风雨给吹死了是吧。",
+   "text": "……那群家伙，最好被暴风雨给吹死了是吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谜团？ 难道希娅发现奶奶还隐藏了什么秘密吗？",
+   "text": "谜团？\n难道希娅发现奶奶还隐藏了什么秘密吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "——就能拍到诅咒照片了！ 要让那些说奶奶坏话的家伙，世世代代都受到诅咒了是吧！",
+   "text": "——就能拍到诅咒照片了！\n要让那些说奶奶坏话的家伙，世世代代都受到诅咒了是吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "诅、诅咒…… 看来之前不是我听错了……",
+   "text": "诅、诅咒……\n看来之前不是我听错了……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "唔…… 希娅你觉得呢？",
+   "text": "唔……希娅你觉得呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,10 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "虽然听上去很心动，但你万一是坏人怎么办？",
+   "text": {
+    "cn_f": "虽然听上去很心动，但她万一是坏人怎么办？",
+    "cn_m": "虽然听上去很心动，但他万一是坏人怎么办？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +590,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "啊呀，让你闻到了…… 抱歉啦，那床被子是我和小花铃平时一直在用的。",
+   "text": "啊呀，让你闻到了……\n抱歉啦，那床被子是我和小花铃平时一直在用的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +630,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "大概是海浪拍打船舷上的声音吧。昨晚有段时间浪还挺大的，我还以为你会被吵醒。 结果啊，你看起来睡得很香呢……♪",
+   "text": "大概是海浪拍打船舷上的声音吧。昨晚有段时间浪还挺大的，我还以为你会被吵醒。结果啊，你看起来睡得很香呢……♪",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +718,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "呼，好险啊。 魔<r=BOSS></r>王，你没事吧？",
+   "text": "呼，好险啊。魔<r=BOSS></r>王，你没事吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +750,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "嗯，我没事。 幸好……刚刚要是直接摔在地上，说不定会磕到头呢。",
+   "text": "嗯，我没事。\n幸好……刚刚要是直接摔在地上，说不定会磕到头呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -879,7 +882,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "果然魔<r=BOSS></r>王身上有值得信任的气味呢。 说不定，你就是帮助我解开谜团的那把钥匙。",
+   "text": "果然魔<r=BOSS></r>王身上有值得信任的气味呢。\n说不定，你就是帮助我解开谜团的那把钥匙。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -907,7 +910,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "不过，也有一些我读不懂的成分…… 我还要多闻闻才行呢。",
+   "text": "不过，也有一些我读不懂的成分……我还要多闻闻才行呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -943,7 +946,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "终于成功…… 了……？",
+   "text": "终于成功……了……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -951,7 +954,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……………… 啊哦。",
+   "text": "………………啊哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -959,7 +962,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "哇啊～！超级大诶♪ 要怎么吃呢？炖鱼、刺身、炸鱼……",
+   "text": "哇啊～！超级大诶♪\n要怎么吃呢？炖鱼、刺身、炸鱼……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

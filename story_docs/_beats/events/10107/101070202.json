@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "你好像是叫…… 魔<r=mowang></r>王？",
+   "text": "你好像是叫……魔<r=mowang></r>王？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "接下来这段时间，我会陪你一起玩哦。 请多关照。",
+   "text": "接下来这段时间，我会陪你一起玩哦。请多关照。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "……真的？ 魔<r=mowang></r>王，要一直和火垂在一起？",
+   "text": "……真的？魔<r=mowang></r>王，要一直和火垂在一起？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你说的一直到底是多久啊…… 不过至少在我送你回家之前，我都会陪着你的。",
+   "text": "你说的一直到底是多久啊……不过至少在我送你回家之前，我都会陪着你的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "“唉号”？ ……是什么意思？",
+   "text": "“唉号”？……是什么意思？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我想想怎么说啊…… 所谓的爱好就是，“能让你开心到会忘记时间”的事吧。",
+   "text": "我想想怎么说啊……所谓的爱好就是，“能让你开心到会忘记时间”的事吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "我知道。 把这个按钮按下去。",
+   "text": "我知道。把这个按钮按下去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "还有，拍照片也很开心。 火垂看到的东西，能再看一遍。 看着照片，很开心。",
+   "text": "还有，拍照片也很开心。火垂看到的东西，能再看一遍。看着照片，很开心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "……嗯。 火垂的爱好。",
+   "text": "……嗯。火垂的爱好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "照片……？ 没有了。出不来了。",
+   "text": "照片……？没有了。出不来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "出不来了？ 嗯…… 留影机能给我看一下吗？",
+   "text": "出不来了？嗯……留影机能给我看一下吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 没事。 没有坏哦。 只是“胶卷”用完了而已。有替换的吗？",
+   "text": "……没事。没有坏哦。只是“胶卷”用完了而已。有替换的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "可是老师最近超级忙。 火垂去找她的话…… 一定又会添麻烦的。",
+   "text": "可是老师最近超级忙。火垂去找她的话……一定又会添麻烦的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "“胶卷”这东西…… 想直接买到也并不容易。 相比之下，直接去星塔许愿似乎更有可行性。",
+   "text": "“胶卷”这东西……想直接买到也并不容易。相比之下，直接去星塔许愿似乎更有可行性。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯， 就是在星塔里出现的那个许愿箱—— 念完祷词， 再以失去一些记忆为代价…… 就可以从中获得神器了。 这就是旅人们的工作内容。",
+   "text": "嗯，就是在星塔里出现的那个许愿箱——念完祷词，再以失去一些记忆为代价……就可以从中获得神器了。\n这就是旅人们的工作内容。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等等，等等！喂——星塔是说进就进的吗！ 喂、等等啊火垂—— 呜哇啊啊啊啊啊——！！",
+   "text": "等等，等等！喂——星塔是说进就进的吗！喂、等等啊火垂——呜哇啊啊啊啊啊——！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "是你啊。 真稀奇，不呆在实验室，跑到这种地方来做什么？",
+   "text": "是你啊。真稀奇，不呆在实验室，跑到这种地方来做什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "正因为有事要和您沟通…… 我没想到会在这里见到火垂。 恕我冒昧，就直说了吧—— 您是打算放养那个实验体吗？",
+   "text": "正因为有事要和您沟通……我没想到会在这里见到火垂。恕我冒昧，就直说了吧——您是打算放养那个实验体吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "如此珍贵的样本，竟然不派人监视，还放任她一个人在外面到处乱晃…… 若是我的部下，此种失责可是要被炒的。",
+   "text": "如此珍贵的样本，竟然不派人监视，还放任她一个人在外面到处乱晃……若是我的部下，此种失责可是要被炒的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "宽松的生活条件，与他人的适度接触—— 这二者都有利于她的成长。实验数据已证明了这一点。",
+   "text": "宽松的生活条件，与他人的适度接触——这二者都有利于她的成长。实验数据已证明了这一点。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "有关“兵器”的验证，可不能空口无凭。 在实践中检验成果，才能维护好信任和稳定。",
+   "text": "有关“兵器”的验证，可不能空口无凭。在实践中检验成果，才能维护好信任和稳定。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "恕我直言，您从一开始就不该插手这件事。 说到底，这计划并不是属于您的“项目”。",
+   "text": "恕我直言，您从一开始就不该插手这件事。说到底，这计划并不是属于您的“项目”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "如果我不介入，这个项目早就被取消了—— 口无遮拦前，还请你注意一下自己的立场。",
+   "text": "如果我不介入，这个项目早就被取消了——口无遮拦前，还请你注意一下自己的立场。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "如果按照既定的计划发展，你们那些“秘密”早就公之于众了吧…… 这可不是你们所期望的结果吧。",
+   "text": "如果按照既定的计划发展，你们那些“秘密”早就公之于众了吧……这可不是你们所期望的结果吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "……看来没有什么让步的空间呢。 那我们言归正传。",
+   "text": "……看来没有什么让步的空间呢。那我们言归正传。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "经过内部评议，我们决定要“加快项目进展”。 如果近期内无法确认到显著的进展或数值提升，我们将不得不采取强硬手段—— 我在此提前知会您一声。",
+   "text": "经过内部评议，我们决定要“加快项目进展”。如果近期内无法确认到显著的进展或数值提升，我们将不得不采取强硬手段——我在此提前知会您一声。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "不、不。 只是出于善意，给您提个醒罢了。",
+   "text": "不、不。只是出于善意，给您提个醒罢了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这不是时间长短的问题！ 做事之前要报备——这是规矩问题哇！",
+   "text": "这不是时间长短的问题！做事之前要报备——这是规矩问题哇！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "火垂还是小孩子。 复杂的事情，不明白。",
+   "text": "火垂还是小孩子。复杂的事情，不明白。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "呵呵。那我也给您提个醒好了…… 接下来发生的一切，将会超乎你们那贫瘠的想象力。 就在刚才，我已经把“王牌”拿到手了。",
+   "text": "呵呵。那我也给您提个醒好了……接下来发生的一切，将会超乎你们那贫瘠的想象力。就在刚才，我已经把“王牌”拿到手了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "星辉之眼研究员",
-   "text": "什么王牌？ ……莫非，您是指刚才那位旅人吗？ ……究竟是何方神圣？",
+   "text": "什么王牌？……莫非，您是指刚才那位旅人吗？……究竟是何方神圣？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "呵呵。善意就到此为止了，我可没有义务透露更多情报。 注意了……这可不是提醒，而是给你们一句忠告。",
+   "text": "呵呵。善意就到此为止了，我可没有义务透露更多情报。注意了……这可不是提醒，而是给你们一句忠告。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是什么原理？火垂拉着我的手，结果我也能在半空中悬浮滑行…… 是因为这个物体在起作用吗？",
+   "text": "这是什么原理？火垂拉着我的手，结果我也能在半空中悬浮滑行……是因为这个物体在起作用吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "胶卷， 在哪里？",
+   "text": "胶卷，在哪里？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "事已至此…… 要拿到胶卷，首先就得找到许愿箱。",
+   "text": "事已至此……要拿到胶卷，首先就得找到许愿箱。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "从入口刚进来的这层应该是没有的。 我们需要清理掉星骸，去更高的楼层碰碰运气——",
+   "text": "从入口刚进来的这层应该是没有的。我们需要清理掉星骸，去更高的楼层碰碰运气——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "今天，没时间和你们玩。 拜拜。",
+   "text": "今天，没时间和你们玩。拜拜。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等等，太快了太快了。 你完全不需要休整的吗……？！",
+   "text": "等等，太快了太快了。你完全不需要休整的吗……？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "雪崩—— 开启“痛扁”模式。",
+   "text": "雪崩——开启“痛扁”模式。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "太好了火垂，我们已经到达目的地了。 你看，那个就是许愿箱哦。",
+   "text": "太好了火垂，我们已经到达目的地了。你看，那个就是许愿箱哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -819,7 +819,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "先别急，火垂。 我来帮你许愿吧。",
+   "text": "先别急，火垂。我来帮你许愿吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -827,7 +827,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "哇—— 魔<r=mowang></r>王，果然是个大好人。",
+   "text": "哇——魔<r=mowang></r>王，果然是个大好人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -658,7 +658,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "当然没有，达尔茜娅大人。 这只是我复仇的第一步。",
+   "text": "当然没有，达尔茜娅大人。这只是我复仇的第一步。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -666,7 +666,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "星雁并没有被褫夺监察官的头衔。 我担心公开对一位监察官下手会引来总公司的注意，会影响到达尔茜娅大人您的计划。",
+   "text": "星雁并没有被褫夺监察官的头衔。我担心公开对一位监察官下手会引来总公司的注意，会影响到达尔茜娅大人您的计划。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -730,7 +730,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "达尔茜娅大人，您说得对。 朋友就是用来卖个好价钱的，只有力量，只有您，才值得我效忠。",
+   "text": "达尔茜娅大人，您说得对。朋友就是用来卖个好价钱的，只有力量，只有您，才值得我效忠。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -762,7 +762,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "向祂献上忠诚...... 达尔茜娅大人，您效忠的那个祂，究竟是谁？",
+   "text": "向祂献上忠诚......达尔茜娅大人，您效忠的那个祂，究竟是谁？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -824,7 +824,10 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "被称为“魔<r=mowang></r>王”的你有些疑惑地抬起头……",
+   "text": {
+    "cn_f": "被称为“魔<r=mowang></r>王”的少女有些疑惑地抬起头……",
+    "cn_m": "被称为“魔<r=mowang></r>王”的少年有些疑惑地抬起头……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

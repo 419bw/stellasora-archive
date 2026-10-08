@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈啊…… 哈啊……",
+   "text": "哈啊……哈啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这条山路几乎没有人走过吧…… 我已经快感知不到双腿的存在了……",
+   "text": "这条山路几乎没有人走过吧……我已经快感知不到双腿的存在了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "有点不太明白你在说什么…… 不过我们先原地休息一下吧。",
+   "text": "有点不太明白你在说什么…… \n不过我们先原地休息一下吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "话说回来，这背包也太大了吧，到底是在找东西还是在搬家啊…… 等等，那些东西都是神器吗？",
+   "text": "话说回来，这背包也太大了吧，到底是在找东西还是在搬家啊……等等，那些东西都是神器吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "虽然也没想好具体要做什么…… 但这都是旅人辛辛苦苦许愿出来的，就这样把它们就丢在外面也太可怜了。",
+   "text": "虽然也没想好具体要做什么……\n但这都是旅人辛辛苦苦许愿出来的，就这样把它们就丢在外面也太可怜了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔……咔嗒咔嗒按着的手感挺有意思…… 不过怎么莫名有一种在工作的感觉。",
+   "text": "唔……咔嗒咔嗒按着的手感挺有意思……  \n不过怎么莫名有一种在工作的感觉。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "找到是找到了…… 可这也太高了吧……！",
+   "text": "找到是找到了……  \n可这也太高了吧……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "并且，今天魔<r=BOSS></r>王救了我，这就当做谢礼吧。 那，我去去就回——",
+   "text": "并且，今天魔<r=BOSS></r>王救了我，这就当做谢礼吧。\n那，我去去就回——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "嘿咻……哈…… 呼……爬得挺高了喵……",
+   "text": "嘿咻……哈……\n呼……爬得挺高了喵……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "不过也没有其他合适的地方了…… 还是试试这条路线吧……！",
+   "text": "不过也没有其他合适的地方了……\n还是试试这条路线吧……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "完全不顾我的担心， 特丽莎灵巧地抓着悬崖上的各种缝隙，向上攀爬。",
+   "text": "完全不顾我的担心，\n特丽莎灵巧地抓着悬崖上的各种缝隙，向上攀爬。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好敏捷的动作，可是...... 为什么这么敏捷的特丽莎会掉到那种普通的洞里......",
+   "text": "好敏捷的动作，可是......\n为什么这么敏捷的特丽莎会掉到那种普通的洞里......",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "跳...... 跳起来抓住更上方的凹陷了。",
+   "text": "跳......跳起来抓住更上方的凹陷了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真厉害……！ 不愧是经常攀岩的人……！",
+   "text": "真厉害……！\n不愧是经常攀岩的人……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "哼哼！魔<r=BOSS></r>王，看到了吗？ 这和我从小就爬的悬崖相比，可差远了。",
+   "text": "哼哼！魔<r=BOSS></r>王，看到了吗？  \n这和我从小就爬的悬崖相比，可差远了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "明白啦！ 嘿嘿，留这么多的话明年这一带应该会开满花吧。",
+   "text": "明白啦！  \n嘿嘿，留这么多的话明年这一带应该会开满花吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "它们好像很生气的样子…… 该不会刚才那个地方是你们的洞吧……？",
+   "text": "它们好像很生气的样子……  \n该不会刚才那个地方是你们的洞吧……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "糟……！时机太不巧了……！ 得想办法帮帮特丽莎……！",
+   "text": "糟……！时机太不巧了……！  \n得想办法帮帮特丽莎……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

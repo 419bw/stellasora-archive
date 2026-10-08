@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "谢谢魔<r=mowang></r>王大人关心，我没事。 风影那边，应该也没有问题。",
+   "text": "谢谢魔<r=mowang></r>王大人关心，我没事。\n风影那边，应该也没有问题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那就好……不过我得说一个坏消息， 马车和车夫都不见了。",
+   "text": "那就好……不过我得说一个坏消息，马车和车夫都不见了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "没关系，前面不远就是北境<r=诺斯海姆></r>之城了。 我们立刻赶路的话，晚上就能到灰城区。",
+   "text": "没关系，前面不远就是北境<r=诺斯海姆></r>之城了。\n我们立刻赶路的话，晚上就能到灰城区。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我记得那个叫极光的永夜， 之前在千塔之城的时候， 也用过特别的魔法让星塔发生灾变。",
+   "text": "我记得那个叫极光的永夜，之前在千塔之城的时候，也用过特别的魔法让星塔发生灾变。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这些都是预料之外的事，不是你的错，不用道歉啦。 眼下我们要考虑的是先到达北境<r=诺斯海姆></r>之城。",
+   "text": "这些都是预料之外的事，不是你的错，不用道歉啦。\n眼下我们要考虑的是先到达北境<r=诺斯海姆></r>之城。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "完全是一片破败， 宛如世界末日的样子……",
+   "text": "完全是一片破败，宛如世界末日的样子……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "认真的调查员",
-   "text": "以前这里生活着几万人，号称北部最大的城邦。 听说在过去，他们靠优秀的锻造技术拿了不少恩赐意志的订单。",
+   "text": "以前这里生活着几万人，号称北部最大的城邦。\n听说在过去，他们靠优秀的锻造技术拿了不少恩赐意志的订单。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "认真的调查员",
-   "text": "不愧是埃妲女士， 恩赐意志的事还是您懂得多啊~",
+   "text": "不愧是埃妲女士，恩赐意志的事还是您懂得多啊~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "过奖了。 我们还是快赶路吧，魔<r=mowang></r>王大人衣服上的制热魔法快要结束了。",
+   "text": "过奖了。我们还是快赶路吧，魔<r=mowang></r>王大人衣服上的制热魔法快要结束了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "制热魔法？ 说起来，我到现在确实没觉得冷，是因为这个吗？",
+   "text": "制热魔法？\n说起来，我到现在确实没觉得冷，是因为这个吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "没错， 魔<r=mowang></r>王大人您可是这次行动的重要人物，我会尽全力保护您的安全和健康，您穿的那么薄，万一生病就不好了。",
+   "text": "没错，魔<r=mowang></r>王大人您可是这次行动的重要人物，我会尽全力保护您的安全和健康，您穿的那么薄，万一生病就不好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼，我说怎么身体暖暖的，这个魔法还挺方便的。 不过…… 这里好像有个比我穿的更薄的人啊，我记得…… 她在车上还穿着大衣，下车战斗后怎么就脱了。",
+   "text": "呼，我说怎么身体暖暖的，这个魔法还挺方便的。\n不过……这里好像有个比我穿的更薄的人啊，我记得……她在车上还穿着大衣，下车战斗后怎么就脱了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "精练的调查员",
-   "text": "喂—— 我们把人接回来了哦！",
+   "text": "喂——我们把人接回来了哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "认真的调查员",
-   "text": "我们稍微打扫了一下房间，布置点需要用到的家具。 不用客气，请把这里当成是自己的家吧，之后还得再待上几天呢。",
+   "text": "我们稍微打扫了一下房间，布置点需要用到的家具。\n不用客气，请把这里当成是自己的家吧，之后还得再待上几天呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "后勤调查员",
-   "text": "咦？ 好像少了一份，埃妲女士多带了一个人来吗？",
+   "text": "咦？好像少了一份，埃妲女士多带了一个人来吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "对了~趁这个机会，我来介绍一下吧， 这位我们的特别顾问——魔<r=mowang></r>王。",
+   "text": "对了~趁这个机会，我来介绍一下吧，这位我们的特别顾问——魔<r=mowang></r>王。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,10 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "你曾与永夜有过接触，有这种珍贵经历的人可不多哦。",
+   "text": {
+    "cn_f": "她曾与永夜有过接触，有这种珍贵经历的人可不多哦。",
+    "cn_m": "他曾与永夜有过接触，有这种珍贵经历的人可不多哦。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +406,7 @@
   {
    "k": "talk",
    "speaker": "精练的调查员",
-   "text": "难道是那个拯救了千塔和菲莱， 开了一家公司， 员工全是美少女的魔<r=BOSS></r>王！？",
+   "text": "难道是那个拯救了千塔和菲莱，开了一家公司，员工全是美少女的魔<r=BOSS></r>王！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +414,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等一下， 前面姑且不说，后面的内容是从哪听来的啦！",
+   "text": "等一下，前面姑且不说，后面的内容是从哪听来的啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +430,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个家伙 … …",
+   "text": "那个家伙……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +438,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "另外一位，也是这次调查临时加入的成员—— 风影。",
+   "text": "另外一位，也是这次调查临时加入的成员——风影。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +454,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯…… 嗯……",
+   "text": "嗯……嗯……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +462,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "那个…… 风影？",
+   "text": "那个……风影？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +470,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯，我是风影…… 专业是，追击永夜成员。",
+   "text": "嗯，我是风影……专业是，追击永夜成员。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +478,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "她刚才……难道是睡着了？ 看上去精神有点恍惚啊。",
+   "text": "她刚才……难道是睡着了？看上去精神有点恍惚啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +486,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "我没在睡觉，是思考。 突然认识这么多人，我需要消化一下。",
+   "text": "我没在睡觉，是思考。突然认识这么多人，我需要消化一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +502,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "嗯？你在说什么呢，我是埃妲！ 刚刚我们不是坐在一辆马车上吗？",
+   "text": "嗯？你在说什么呢，我是埃妲！刚刚我们不是坐在一辆马车上吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +510,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "原来， 刚才和我一起坐马车的人是你么……",
+   "text": "原来，刚才和我一起坐马车的人是你么……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +518,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯，如果她是埃妲。同样没有武器…… 用排除法的话，你就是…… 魔王了。",
+   "text": "嗯，如果她是埃妲。同样没有武器……用排除法的话，你就是……魔王了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +614,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "嘿~那我呢~ 虽然我没有武器，但是战斗的样子你应该见过了。",
+   "text": "嘿~那我呢~\n虽然我没有武器，但是战斗的样子你应该见过了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +622,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "怎么样——！ 这下无路可退了吧！",
+   "text": "怎么样——！这下无路可退了吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +654,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "那是我的个人风格啦， 请你不要管那么宽！",
+   "text": "那是我的个人风格啦，请你不要管那么宽！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +662,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "咳咳，总而言之，既然大家都认识了， 我需要再强调一下这次委托的目的——",
+   "text": "咳咳，总而言之，既然大家都认识了，我需要再强调一下这次委托的目的——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +678,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "城镇的破败出自永夜之手，虽然是几年前的事，但最近的星塔异变说明我们仍有可能遇到他们。 所以我们分成两人一组，先调查城市里永夜活动的踪迹。",
+   "text": "城镇的破败出自永夜之手，虽然是几年前的事，但最近的星塔异变说明我们仍有可能遇到他们。所以我们分成两人一组，先调查城市里永夜活动的踪迹。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +694,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "我和魔王一组。 你不能战斗，从战力分配角度我是最适合的。",
+   "text": {
+    "cn_f": "我和魔王一组。她不能战斗，从战力分配角度我是最适合的。",
+    "cn_m": "我和魔王一组。他不能战斗，从战力分配角度我是最适合的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +705,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "哈……好吧。 那么我和“斧头大哥”一起行动，“长剑小姐”和“法师妹妹”一起行动。",
+   "text": "哈……好吧。那么我和“斧头大哥”一起行动，“长剑小姐”和“法师妹妹”一起行动。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +737,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "各位早点休息吧，今天都累坏了。 明天开始我们就要进行调查了。",
+   "text": "各位早点休息吧，今天都累坏了。明天开始我们就要进行调查了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +777,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但这里是我的房间…… 啊，你是希望换房吗， 我倒是不介意——",
+   "text": "但这里是我的房间……\n啊，你是希望换房吗，我倒是不介意——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +801,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "是我的说法有问题吗？我的意思是： 接下来几天， 我们要一起睡。",
+   "text": "是我的说法有问题吗？我的意思是：接下来几天，我们要一起睡。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

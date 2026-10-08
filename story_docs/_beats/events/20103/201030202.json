@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "好蓝的海！好蓝的天！ 好清凉的海风！好漂亮的房子！",
+   "text": "好蓝的海！好蓝的天！好清凉的海风！好漂亮的房子！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "一边听着海浪声一边在街上散步…… 要享受宁静时光，这里真是再合适不过了。",
+   "text": "一边听着海浪声一边在街上散步……要享受宁静时光，这里真是再合适不过了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "好不容易来度个假，就别在意这些细节啦。还是先去看看我们的房间吧。 亲爱的海景房！我们来喽！",
+   "text": "好不容易来度个假，就别在意这些细节啦。还是先去看看我们的房间吧。亲爱的海景房！我们来喽！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "地板？地板上到底有什么…… 啊！",
+   "text": "地板？地板上到底有什么……啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "按理说应该是的吧…… 要不我们去拜托前台换个房间？",
+   "text": "按理说应该是的吧……要不我们去拜托前台换个房间？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "唉，真拿你们没办法…… 魔王，你也说说她们吧。",
+   "text": "唉，真拿你们没办法……魔王，你也说说她们吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -397,7 +397,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "琥珀擦桌椅， 尘沙扫地， 鸢尾整理床铺。 至于魔王，就麻烦你和我一起整理行李和杂物吧。",
+   "text": "琥珀擦桌椅，尘沙扫地，鸢尾整理床铺。至于魔王，就麻烦你和我一起整理行李和杂物吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -481,7 +481,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "琥珀擦桌椅， 尘沙扫地， 鸢尾整理床铺。 至于魔王，就麻烦你和我一起整理行李和杂物吧。",
+   "text": "琥珀擦桌椅，尘沙扫地，鸢尾整理床铺。至于魔王，就麻烦你和我一起整理行李和杂物吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -581,7 +581,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "琥珀擦桌椅， 尘沙扫地， 鸢尾整理床铺。 至于魔王，就麻烦你和我一起整理行李和杂物吧。",
+   "text": "琥珀擦桌椅，尘沙扫地，鸢尾整理床铺。至于魔王，就麻烦你和我一起整理行李和杂物吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +715,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "嗯！而且这身泳装还是魔王挑的，相信你的眼光吧。",
+   "text": {
+    "cn_f": "嗯！而且这身泳装还是魔王挑的，相信她的眼光吧。",
+    "cn_m": "嗯！而且这身泳装还是魔王挑的，相信他的眼光吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -811,7 +814,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "而且…… 这支新义肢，也承了你的情。",
+   "text": "而且……这支新义肢，也承了你的情。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1035,7 +1038,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "我也想下水玩，但是不太会游泳。 可以教我吗？",
+   "text": "我也想下水玩，但是不太会游泳。可以教我吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

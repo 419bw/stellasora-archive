@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "对于想要休憩放松，但却不愿意一头扎进城邦的旅人来说， 这里是绝佳的度假胜地。",
+   "text": "对于想要休憩放松，但却不愿意一头扎进城邦的旅人来说，\n这里是绝佳的度假胜地。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "清凉的微风，柔和的阳光…… 空气中飘荡着麦子的味道，还有泥土的芬芳。",
+   "text": "清凉的微风，柔和的阳光……\n空气中飘荡着麦子的味道，还有泥土的芬芳。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好舒服…… 要是能就这样躺在软绵绵的云朵上睡着该多好……",
+   "text": "好舒服……\n要是能就这样躺在软绵绵的云朵上睡着该多好……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "话音未落，指尖就触到了某种软绵绵的东西。 说是云朵却又觉得太温暖——",
+   "text": "话音未落，指尖就触到了某种软绵绵的东西。\n说是云朵却又觉得太温暖——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来是你啊，小可可。 你没待在杏子身边吗？",
+   "text": "原来是你啊，小可可。你没待在杏子身边吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过怎么了，你要去哪？ 看样子你是想带我去见她？",
+   "text": "不过怎么了，你要去哪？看样子你是想带我去见她？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "知道啦知道啦。 我跟你去就是，别这么拽我嘛。",
+   "text": "知道啦知道啦。\n我跟你去就是，别这么拽我嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈……哈…… 杏子真的会在这种森林深处吗……？",
+   "text": "哈……哈……\n杏子真的会在这种森林深处吗……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "我跟着可可拨开灌木丛的层层枝条，眼前豁然出现一小片平坦的草坪。 以及……",
+   "text": "我跟着可可拨开灌木丛的层层枝条，眼前豁然出现一小片平坦的草坪。\n以及……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "呜…… 泡泡，睡觉的时候要乖乖……",
+   "text": "呜……泡泡，睡觉的时候要乖乖……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "不是做梦，是真的呀？ 哇咿！魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王～！",
+   "text": "不是做梦，是真的呀？\n哇咿！魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王魔<r=momowang>魔</r>王～！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "喔哦…… 不要一下就扑过来啊，差点就没接住。",
+   "text": "喔哦……\n不要一下就扑过来啊，差点就没接住。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "小杏子，这几天有乖乖…… 呜哇！",
+   "text": "小杏子，这几天有乖乖……呜哇！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没有生气，我可不想让杏子受伤啊。 所以，之后记得每次扑过来前要提醒我一下哦。",
+   "text": "没有生气，我可不想让杏子受伤啊。\n所以，之后记得每次扑过来前要提醒我一下哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "啊…… 嗯！杏子会喊得很大声，让魔<r=momowang>魔</r>王很——远——就能听见的！",
+   "text": "啊……\n嗯！杏子会喊得很大声，让魔<r=momowang>魔</r>王很——远——就能听见的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -327,7 +327,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "它说快到森林巡逻的时间啦。 放心，我记得很清楚呢。可可就是太爱操心啦。",
+   "text": "它说快到森林巡逻的时间啦。\n放心，我记得很清楚呢。可可就是太爱操心啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -343,7 +343,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "魔<r=momowang>魔</r>王也要来？ 好耶——！出发！",
+   "text": "魔<r=momowang>魔</r>王也要来？好耶——！出发！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 确实，还是小心为妙。",
+   "text": "……\n确实，还是小心为妙。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "我小心地跟在杏子身后。 越往森林的深处走，风景越加秀丽，但我却无心欣赏那些。",
+   "text": "我小心地跟在杏子身后。\n越往森林的深处走，风景越加秀丽，但我却无心欣赏那些。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "怎么了魔<r=momowang>魔</r>王？ 难道说……魔<r=momowang>魔</r>王也注意到“那个”了？",
+   "text": "怎么了魔<r=momowang>魔</r>王？\n难道说……魔<r=momowang>魔</r>王也注意到“那个”了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "不用糊弄杏子啦。 不用担心，这片森林里，杏子可是设了好多陷阱呢！",
+   "text": "不用糊弄杏子啦。\n不用担心，这片森林里，杏子可是设了好多陷阱呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好厉害……我都没看出来那里还藏着个捕网…… 要是冒然走过去就要中招了……",
+   "text": "好厉害……我都没看出来那里还藏着个捕网……\n要是冒然走过去就要中招了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "每天巡逻就是为了确认有没有坏蛋。不过还有一些以前做的陷阱坏掉了，杏子巡逻的时候也要把它们找出来修一修。 魔<r=momowang>魔</r>王明白了吗？",
+   "text": "每天巡逻就是为了确认有没有坏蛋。不过还有一些以前做的陷阱坏掉了，杏子巡逻的时候也要把它们找出来修一修。魔<r=momowang>魔</r>王明白了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "以前…… 等会，整个森林的陷阱都是杏子你做的吗？",
+   "text": "以前……等会，整个森林的陷阱都是杏子你做的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "森林的陷阱是“伊西村探险队”的大家一起布置的。 以前的侦查小队，除了杏子以外可是有很~多~人的哦！",
+   "text": "森林的陷阱是“伊西村探险队”的大家一起布置的。\n以前的侦查小队，除了杏子以外可是有很~多~人的哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "擅长画画的小豆子，能把逼真的图画当作陷阱。 还有什么都能修好的麦克叔叔，每次机关出问题，他都能搞定。",
+   "text": "擅长画画的小豆子，能把逼真的图画当作陷阱。\n还有什么都能修好的麦克叔叔，每次机关出问题，他都能搞定。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "杏子",
-   "text": "不过后来…… 小队的成员越来越少，有些人说了明天见之后就再也没回来了。 不知不觉间，就只剩杏子一个人了……",
+   "text": "不过后来……小队的成员越来越少，有些人说了明天见之后就再也没回来了。\n不知不觉间，就只剩杏子一个人了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是…… 血？",
+   "text": "这是……血？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "我挡在杏子身前，小心地拨开树枝。 那里藏着的是一只难以想象的庞然大物——",
+   "text": "我挡在杏子身前，小心地拨开树枝。\n那里藏着的是一只难以想象的庞然大物——",
    "thought": false,
    "sticker": false,
    "channel": "talk"

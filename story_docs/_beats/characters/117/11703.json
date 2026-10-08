@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "哎、哎哎哎？！这就和了？！难道这牌上有什么记号？ 还是说……魔<r=BOSS></r>王有超能力？！",
+   "text": "哎、哎哎哎？！这就和了？！难道这牌上有什么记号？\n还是说……魔<r=BOSS></r>王有超能力？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯，在这种牌类游戏上，我的天赋……似乎还不差~ ……开玩笑的啦，只是运气好而已。",
+   "text": "嗯，在这种牌类游戏上，我的天赋……似乎还不差~\n……开玩笑的啦，只是运气好而已。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "十三幺的牌面别致还好看~ 总有一天……我会把这个花色最好看的牌型打出来！",
+   "text": "十三幺的牌面别致还好看~总有一天……我会把这个花色最好看的牌型打出来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "哼~~ 我才不怕啦！",
+   "text": "哼~~我才不怕啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "呜呜……都好难为情！ 都不想要……",
+   "text": "呜呜……都好难为情！\n都不想要……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "换种惩罚我也不会怕啦~ 啊、哇啊！？都这个点了，再不休息的话，会影响明天店里的生意。",
+   "text": "换种惩罚我也不会怕啦~啊、哇啊！？都这个点了，再不休息的话，会影响明天店里的生意。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "对，对不起魔<r=BOSS></r>王， 一不小心就玩入迷了……完全忘记时间了……",
+   "text": "对，对不起魔<r=BOSS></r>王，一不小心就玩入迷了……完全忘记时间了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "哇、哇哇哇……！ 和啦！",
+   "text": {
+    "cn_f": "哇、哇哇哇……！和啦！",
+    "jp_f": "来、来啦！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +470,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "自摸！ 十三幺——！",
+   "text": {
+    "cn_f": "自摸！十三幺——！",
+    "jp_f": "自摸！！十三面国士无双！！！双倍役满啊！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,10 +481,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "咕……！被打倒了……！",
+   "prompt": "",
    "options": [
     [
-     "哇！牌神！",
+     {
+      "cn_f": "哇！牌神！",
+      "jp_f": "咕……！被打倒了……！"
+     },
      "",
      ""
     ]
@@ -487,7 +496,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "没想到我竟然和出了十三幺……！ 我是在做梦吗？",
+   "text": {
+    "cn_f": "没想到我竟然和出了十三幺……！我是在做梦吗？",
+    "jp_f": "没想到我竟然能和出国士无双……！这……不是在做梦吧……！？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -495,7 +507,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "这牌型也太完美太漂亮太好看了！ 我、我都舍不得洗牌了！",
+   "text": {
+    "cn_f": "这牌型也太完美太漂亮太好看了！我、我都舍不得洗牌了！",
+    "jp_f": "而且还能把十三面听做得这么漂亮……！我都舍不得洗牌了……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -503,10 +518,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "那么，拍个纪念照吧",
+   "prompt": "",
    "options": [
     [
-     "那……拍张照留作纪念？",
+     {
+      "cn_f": "那……拍张照留作纪念？",
+      "jp_f": "那么，拍个纪念照吧"
+     },
      "",
      ""
     ]
@@ -515,7 +533,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "啊…… 不行…… 不行不行!",
+   "text": {
+    "cn_f": "啊……不行……不行不行!",
+    "jp_f": "啊，不行……！那个，不行……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +544,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "我的脸上还都是涂鸦…… 等一下， 我先去把它洗掉……！",
+   "text": {
+    "cn_f": "我的脸上还都是涂鸦……等一下，我先去把它洗掉……！",
+    "jp_f": "顶着满脸涂鸦拍纪念照什么的，我才不要……！\n稍微等一下，先让我去洗把脸……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +555,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "呀！ 不要搞突然袭击啦！ 我都说要你等一下的……！ 怎么就已经拍了啊，魔<r=BOSS></r>王。",
+   "text": {
+    "cn_f": "呀！不要搞突然袭击啦！我都说要你等一下的……！\n怎么就已经拍了啊，魔<r=BOSS></r>王。",
+    "jp_f": "诶……！等等？！我明明说了不要了……！\n怎么就已经拍了啊，BOSS……！？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +566,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "我还想着把照片裱起来， 挂在店里跟大家炫耀呢…… 现在这样子， 根本没法用啦……",
+   "text": {
+    "cn_f": "我还想着把照片裱起来，挂在店里跟大家炫耀呢……\n现在这样子，根本没法用啦……",
+    "jp_f": "本来还想挂起来炫耀一下的，可是这副模样根本没法挂在店里啊……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,15 +577,21 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "不是很好吗。涂鸦也是纪念",
+   "prompt": "",
    "options": [
     [
-     "有涂鸦也挺好的啊",
+     {
+      "cn_f": "有涂鸦也挺好的啊",
+      "jp_f": "不是很好吗。涂鸦也是纪念"
+     },
      "",
      ""
     ],
     [
-     "我觉得很可爱哦！",
+     {
+      "cn_f": "我觉得很可爱哦！",
+      "jp_f": "我觉得意外地合适很可爱"
+     },
      "",
      ""
     ]
@@ -564,7 +600,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "是、 是吗？ 唔……魔<r=BOSS></r>王都这么说了……",
+   "text": {
+    "cn_f": "是、是吗？唔……魔<r=BOSS></r>王都这么说了……",
+    "jp_f": "这、这样吗？\n嗯~BOSS这么说的话……可能，就是那样吧……？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -572,7 +611,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "可是…… 我还是不想让大家觉得我是个小孩子……",
+   "text": {
+    "cn_f": "可是……我还是不想让大家觉得我是个小孩子……",
+    "jp_f": "但、但是……我还是不想被别人觉得太像小孩子……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -580,7 +622,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "作为怀璟食府的店长， 要带领大家把店经营好， 就得有店长的威严，不是吗？",
+   "text": {
+    "cn_f": "作为怀璟食府的店长，要带领大家把店经营好，就得有店长的威严，不是吗？",
+    "jp_f": "毕竟，我好歹也算是……怀璟食府的店长。\n与之相应的威严什么的，必须得有不是吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -588,10 +633,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "这个你问问店里的大家就知道了",
+   "prompt": "",
    "options": [
     [
-     "我想，这个问题的答案，就在这份委托里",
+     {
+      "cn_f": "我想，这个问题的答案，就在这份委托里",
+      "jp_f": "这个你问问店里的大家就知道了"
+     },
      "",
      ""
     ]
@@ -600,7 +648,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "这份委托……？",
+   "text": {
+    "cn_f": "这份委托……？",
+    "jp_f": "问大家……？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -608,7 +659,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "啊…… 这次的委托， 就是大家为了我才……",
+   "text": {
+    "cn_f": "啊……这次的委托，就是大家为了我才……",
+    "jp_f": "是啊……这么说来这个委托……\n也是大家委托的呢……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -616,7 +670,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "原来是这样…… 是我想的太复杂了吗？",
+   "text": {
+    "cn_f": "原来是这样……是我想的太复杂了吗？",
+    "jp_f": "要是这样的话……我太过在意反而对不起大家了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -624,7 +681,10 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "欸嘿嘿， 该怎么说呢…… 你不仅愿意陪着我胡闹， 还让我明白了这么重要的事…… 谢谢你！ 魔<r=BOSS></r>王！",
+   "text": {
+    "cn_f": "欸嘿嘿，该怎么说呢……你不仅愿意陪着我胡闹，还让我明白了这么重要的事……\n谢谢你！魔<r=BOSS></r>王！",
+    "jp_f": "怎么说呢……你不仅愿意陪我玩，\n还让我意识到了各种各样的事，谢谢你，BOSS！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -632,7 +692,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "嘿嘿！十三幺……我居然和出来了！ 虽然之前一直输得很惨，但最后关头运气爆棚了！",
+   "text": "嘿嘿！十三幺……我居然和出来了！\n虽然之前一直输得很惨，但最后关头运气爆棚了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -712,7 +772,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "所以什么孩子气啊，威严啊，还有作为店长的责任这些…… 其实你不用太在意。",
+   "text": "所以什么孩子气啊，威严啊，还有作为店长的责任这些……\n其实你不用太在意。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

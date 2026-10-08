@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "之后只要告诉帝国卫队就—— 停下！",
+   "text": "之后只要告诉帝国卫队就——停下！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "烟雾弹已经没了，花原不能在埃莉诺面前出手， 该怎么办……",
+   "text": "烟雾弹已经没了，花原不能在埃莉诺面前出手，\n该怎么办……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "可疑的跟班",
-   "text": "可恶，总之先离开这里…… 呃啊！",
+   "text": "可恶，总之先离开这里……呃啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "可疑的守卫",
-   "text": "怎么回事…… 唔！",
+   "text": "怎么回事……唔！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "可疑的旅人",
-   "text": "等等，这不是我们卖给她的爆竹吗……？ 呜啊！",
+   "text": "等等，这不是我们卖给她的爆竹吗……？呜啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "呼……呼……我，我没事， 花原小姐呢？",
+   "text": "呼……呼……我，我没事，花原小姐呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "嘿嘿……前辈这么夸我会不好意思的啦。 咦？花原小姐，可以给我看下你的手吗？",
+   "text": "嘿嘿……前辈这么夸我会不好意思的啦。咦？花原小姐，可以给我看下你的手吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "怎么了吗…… 啊。",
+   "text": "怎么了吗……啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "没错，在您面前没必要再掩饰什么。 另外，受人之恩必当回报……这是我的原则。",
+   "text": "没错，在您面前没必要再掩饰什么。另外，受人之恩必当回报……这是我的原则。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -843,7 +843,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "其实自从小时候那次绑架事件后，家里人就一直对我看得很紧…… 我其实是偷偷跑出来的。",
+   "text": "其实自从小时候那次绑架事件后，家里人就一直对我看得很紧……我其实是偷偷跑出来的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -971,7 +971,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "自由是一种心态，它不受外界条件的制约。比如说…… 对了，既然不能出门，那不如就在家里锻炼自己的才能。",
+   "text": "自由是一种心态，它不受外界条件的制约。比如说……对了，既然不能出门，那不如就在家里锻炼自己的才能。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1035,7 +1035,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "先从武器的用法和危险性学起…… 不，对你来说，还是先学会平民的金钱观更重要……",
+   "text": "先从武器的用法和危险性学起……不，对你来说，还是先学会平民的金钱观更重要……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

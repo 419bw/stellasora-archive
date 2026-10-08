@@ -1,32 +1,5 @@
 # -*- coding: utf-8 -*-
-"""管线 Stage 5b: HTML 后端 —— PageDoc 侧车（story_docs/_beats/*.json）→ HTML 正文片段。
-
-与 scripts/story/pipeline/render_md.py（Markdown 后端）平行，共同消费同一份
-beat IR。本模块从 beat/PageDoc 字段直接构造 HTML，不再经 md 文本正则反解
-（取代已删除的 md2html.py）。
-
-输入 doc 为侧车 dict（== pipeline.pagedoc.PageDoc.to_dict() 形状）：
-    heading / info_title / info / recap / body_title / meta / appendix / beats
-beat 词汇表（passes.extract_beats 产物，键与取值是契约）：
-    talk{speaker,text,thought,sticker,channel}  bubble{speaker,text}
-    wave{no}  scene{place,date,time}  branch_open{option}
-    merge{count,forks,silent}  choice{kind,prompt,options[(t,d,ev)]}
-
-行为与原 md2html.convert(md) 逐字节等价（507 页全量对拍 + 黄金快照门控）。
-保留的结构语义（契约 M3，见 _dev/AI_HANDOVER_GUIDE.md 3.5）：
-- choice cid 按文档序自增，锚点 choice-{cid} / branch-{cid}-{b_idx} / merge-{cid}；
-- 若选归属：帧栈自内向外按选项名（_clean_opt 归一）匹配，无匹配回退栈顶；
-- 单选项父抉择的若选整体抑制（上游 CG_126_03 的 SetChoiceEnd 错配），不画
-  分支框、不画导航条，选项角标同样跳过被抑制分支；
-- 分支导航条在：下一个若选、▲汇合、正文结束（backlog 关闭）处闭合；
-- 重大抉择的「分支走向」角标按选项名匹配 branch_targets（build_site 提供）。
-
-md 时代按引文组（quote group）聚合的逻辑在此天然简化：render_md 给每个
-引文 beat 前后都留空行，所以一个引文组恰好等于一个 beat（merge 的静默
-附注与 choice 的选项行同组），逐 beat 直渲即为原分组语义。
-
-Usage: body, stats = render_body(doc, branch_targets=None)
-"""
+"""Render PageDoc text, choices and branch navigation as HTML."""
 import os
 import re
 import sys
@@ -54,7 +27,7 @@ CHOICE_LABEL = {'major': '重大抉择', 'personality': '玩家抉择', 'phone':
 
 
 def _inline(s):
-    """Ruby, then bold and code spans; the story text itself is never markup."""
+    """Render inline metadata with ruby, bold and code spans."""
     s = ruby_html(s)
     s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
     s = re.sub(r'\*\*([^*]+)\*\*', r'<b>\1</b>', s)
@@ -62,20 +35,12 @@ def _inline(s):
 
 
 def ruby_html(text):
-    """Escape a run of story text, turning <r=注音></r> into native <ruby>.
-
-    实现委托给管线 markup 编译器（Phase 3）：parse_inline 把空体注音锚定到
-    标签前一个字符（魔<r=mowang></r>王）、带体注音（<r=亲亲>接吻</r>，
-    Phase 4a）取标签体为 base，serialize_html 输出原生 <ruby><rt>；<b>/<i>
-    强调标记（Phase 4b，clean_dialogue 已做配对过滤）映射 <b class="emph">/
-    <i class="emph">。前导空体 ruby（无 base 字符）抛 markup.MarkupError
-    —— 契约 M 会先拦住这种数据。"""
-    return markup.serialize_html(markup.parse_inline(text))
+    return markup.html(text)
 
 
 def _clean_opt(s):
     # Strip rubies, html tags, ellipses, and whitespace for robust option-to-branch matching
-    s = re.sub(r'<[^>]*>', '', s)
+    s = markup.plain(s)
     return re.sub(r'[.…—\s　]', '', s)
 
 
@@ -105,7 +70,7 @@ def choice_tag(b):
         label = '玩家回应' if len(b['options']) == 1 else '抉择'
     else:
         label = CHOICE_LABEL[b['kind']]
-    return "%s：%s" % (label, b['prompt']) if b['prompt'] else label
+    return label
 
 
 def merge_tag(b):
@@ -207,6 +172,7 @@ def render_body(doc, branch_targets=None):
     {'opt', 'code', 'title', 'url', 'cls', 'tag'} targets keyed by the option text the
     target belongs to (built by build_site from the option jump EvIds).
     """
+    doc = markup.decode_text(doc)
     beats = doc['beats']
     choices, branches, merges = _parse_choice_structure(beats)
     choice_iter = iter(choices)
@@ -245,8 +211,7 @@ def render_body(doc, branch_targets=None):
     if doc['recap']:
         out.append('<h2 data-part="2">官方跳过概要</h2>')
         out.append('<blockquote>%s</blockquote>'
-                   % ''.join('<p>%s</p>' % _inline(ln.strip())
-                             for ln in doc['recap'].split('\n')))
+                   % ('<p class="recap-text">%s</p>' % ruby_html(doc['recap'])))
 
     # ---- 3. 正文（backlog 板）----
     out.append('<h2 data-part="3">%s</h2>' % escape(doc['body_title']))
@@ -258,7 +223,7 @@ def render_body(doc, branch_targets=None):
             if b.get('sticker'):
                 out.append('<p class="line sticker"><b class="who">%s</b>'
                            '<span class="say">〔发送表情 <code>%s</code>〕</span></p>'
-                           % (escape(b['speaker']), escape(b['text'])))
+                           % (escape(b['speaker']), escape(markup.plain(b['text']))))
             else:
                 tag = '思考' if b['thought'] else ('短信' if b['channel'] == 'msg' else None)
                 cls = 'line'
@@ -297,8 +262,6 @@ def render_body(doc, branch_targets=None):
                 continue
             close_active_branch()
             bid_attr = f' id="{b_obj["bid"]}"' if b_obj else ''
-            # Phase 4c：选项文本走 markup 编译器（ruby→<ruby>），不再 escape
-            # 字面显示 <r=注音>；「若选」「↓」为程序文本，无需转义。
             out.append('<p class="branch-open"%s>%s</p>'
                        % (bid_attr, '若选「%s」↓' % ruby_html(b['option'])))
             stats['marker'] += 1
@@ -314,7 +277,6 @@ def render_body(doc, branch_targets=None):
             out.append('<p class="merge"%s>%s</p>' % (mid_attr, escape(merge_tag(b))))
             stats['marker'] += 1
             if b['silent']:
-                # Phase 4c：静默选项名同走 markup 编译器（现库无 ruby，防御性统一）
                 out.append('<p class="note">%s</p>'
                            % '（其中%s没有专属台词，选中即跳到汇合点）'
                              % '、'.join('「%s」' % ruby_html(s) for s in b['silent']))
@@ -326,15 +288,12 @@ def render_body(doc, branch_targets=None):
                 # 玩家回应：单选项通用回应渲染为聊天气泡（a bare marker has no
                 # lead-in; the prompt form carries the fixed first half of the
                 # player's reply, kept as a muted line in the bubble）
-                lead = tag_content[len('玩家回应'):].lstrip('：').strip()
+                lead = b['prompt']
                 resp_items = []
                 if lead:
-                    resp_items.append('<p class="reply-lead">%s</p>' % _inline(lead))
+                    resp_items.append('<p class="reply-lead">%s</p>' % ruby_html(lead))
                 for t, d, ev in b['options']:
-                    # Phase 4c：选项标题走 markup 编译器（存量 bug 修复：
-                    # 13201/STm03_08 的玩家回应标题含 <r=BOSS></r>，此前被
-                    # escape 成字面文本显示）
-                    line_text = '<b>%s</b>%s' % (ruby_html(t), _inline('：' + d if d else ''))
+                    line_text = '<b>%s</b>%s' % (ruby_html(t), ('：' + ruby_html(d) if d else ''))
                     resp_items.append('<p>%s</p>' % line_text)
                 id_attr = ' id="%s"' % c_obj['choice_id'] if c_obj and c_obj.get('choice_id') else ''
                 out.append('<div class="player-reply"%s><div class="reply-who">魔王 选择了</div>'
@@ -344,9 +303,7 @@ def render_body(doc, branch_targets=None):
                 continue
             cls = 'choice major-choice' if is_major else 'choice'
             cid_attr = f' id="{c_obj["choice_id"]}"' if c_obj else ''
-            # Phase 4c：标记文本（label+prompt）同走 markup 编译器（现库
-            # prompt 无 ruby，防御性统一口径）
-            out.append('<p class="%s"%s>%s</p>' % (cls, cid_attr, ruby_html(tag_content)))
+            out.append('<p class="%s"%s>%s</p>' % (cls, cid_attr, (ruby_html(tag_content) + ('：' + ruby_html(b['prompt']) if b['prompt'] else ''))))
             stats['marker'] += 1
             c_targets = None
             if is_major:
@@ -395,9 +352,7 @@ def render_body(doc, branch_targets=None):
                     target_anchor = f"#{c_merge_id}"
                     jump_badge = '<span class="opt-jump-badge is-merge">直接汇合 ↓</span>'
 
-                # Phase 4c：选项标题走 markup 编译器（存量 bug 修复：
-                # STm08_03 的选项含 <r=mowang></r>，此前被 escape 成字面文本）
-                opt_text_html = '<div class="opt-main"><b>%s</b>%s</div>' % (ruby_html(t), _inline('：' + d if d else ''))
+                opt_text_html = '<div class="opt-main"><b>%s</b>%s</div>' % (ruby_html(t), ('：' + ruby_html(d) if d else ''))
                 if target_anchor:
                     title_tip = '点击直接跳转至剧情汇合处' if 'is-merge' in jump_badge else '点击跳转至分支台词'
                     item_inner = (

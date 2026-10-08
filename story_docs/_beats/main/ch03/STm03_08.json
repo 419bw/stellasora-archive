@@ -108,7 +108,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "枫，枫姐～～ ……！最喜欢你了！",
+   "text": "枫，枫姐～～……！最喜欢你了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "总之...... 新讨伐队接手后，我这些资料...... 也没地方用。",
+   "text": "总之......新讨伐队接手后，我这些资料......也没地方用。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -148,7 +148,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "所以，魔王，或者我应该叫你魔<r=BOSS></r>王，虽然这个请求很过分，毕竟我之前拒绝了你和瑟拉娜，但你能...... 你能帮助我们去拿下剩下的两大委托吗？",
+   "text": "所以，魔王，或者我应该叫你魔<r=BOSS></r>王，虽然这个请求很过分，毕竟我之前拒绝了你和瑟拉娜，但你能......你能帮助我们去拿下剩下的两大委托吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -176,7 +176,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "所有的娃娃…… 真的假的……",
+   "text": "所有的娃娃……真的假的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -208,7 +208,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "诶？是这样吗？什么嘛……吓死我了…… 真是的，魔<r=BOSS></r>王也太坏心眼了吧。",
+   "text": "诶？是这样吗？什么嘛……吓死我了……真是的，魔<r=BOSS></r>王也太坏心眼了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -338,7 +338,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "好了…… 现在开始作战。但再怎么说对手可是猛进之灵，别放松警惕。",
+   "text": "好了……现在开始作战。但再怎么说对手可是猛进之灵，别放松警惕。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -386,7 +386,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "可是，那帮家伙...... 还有夏花......",
+   "text": "可是，那帮家伙......还有夏花......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -466,7 +466,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "呃……请不要在意细节，你们是从埃摩来的。",
+   "text": {
+    "cn_f": "呃……请不要在意细节，她们是从埃摩来的。",
+    "cn_m": "呃……请不要在意细节，他们是从埃摩来的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -626,7 +629,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "不让我们加入讨伐队…… 那也没办法……",
+   "text": "不让我们加入讨伐队……那也没办法……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -650,7 +653,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "我...... 我会努力的。",
+   "text": "我......我会努力的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -682,7 +685,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "她还能用风魔法从空中监控整个战场。我们要抢先找到目标…… 恐怕有点困难。",
+   "text": "她还能用风魔法从空中监控整个战场。我们要抢先找到目标……恐怕有点困难。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -714,7 +717,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "呜哇，怎么突然从空中降落…… 谁啊？",
+   "text": "呜哇，怎么突然从空中降落……谁啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -786,7 +789,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "飞起来了…… 好棒啊。",
+   "text": "飞起来了……好棒啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -810,7 +813,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说来话长……等有空再解释吧。 总之，有魔女为我们侦查，应该很快就能找到猛进之灵，我们先进入森林吧。",
+   "text": "说来话长……等有空再解释吧。总之，有魔女为我们侦查，应该很快就能找到猛进之灵，我们先进入森林吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -856,7 +859,10 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "那我只要在魔物的附近挖一个陷阱，等到魔<r=BOSS></r>王和魔<r=BOSS></r>王的伙伴来讨伐魔物的时候， 就能把你们一网打尽了！",
+   "text": {
+    "cn_f": "那我只要在魔物的附近挖一个陷阱，等到魔<r=BOSS></r>王和魔<r=BOSS></r>王的伙伴来讨伐魔物的时候，就能把她们一网打尽了！",
+    "cn_m": "那我只要在魔物的附近挖一个陷阱，等到魔<r=BOSS></r>王和魔<r=BOSS></r>王的伙伴来讨伐魔物的时候，就能把他们一网打尽了！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你们先回去吧， 我一个人在森林里再转一转。",
+   "text": "你们先回去吧，我一个人在森林里再转一转。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "不一起走吗？ 快要入夜了，森林里很危险的。",
+   "text": "不一起走吗？快要入夜了，森林里很危险的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊…… 那个…… 我有些事需要思考， 想一个人静一静。",
+   "text": "啊……那个……我有些事需要思考，想一个人静一静。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我， 我的脸上沾了什么吗？",
+   "text": "我，我的脸上沾了什么吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "不用啦，我的直觉告诉我，魔王有重要的事情要去干， 并且，你会很安全的。",
+   "text": {
+    "cn_f": "不用啦，我的直觉告诉我，魔王有重要的事情要去干，并且，她会很安全的。",
+    "cn_m": "不用啦，我的直觉告诉我，魔王有重要的事情要去干，并且，他会很安全的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -130,7 +133,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃… … 这是哪里。",
+   "text": "呃……这是哪里。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -162,7 +165,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呜，好像，好像有人盯着我， 得找个地方躲起来，就选那边的树丛吧。",
+   "text": "呜，好像，好像有人盯着我，得找个地方躲起来，就选那边的树丛吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -178,7 +181,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呜！完蛋了！ 被魔物发现了，要被吃掉了！",
+   "text": "呜！完蛋了！被魔物发现了，要被吃掉了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -202,7 +205,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哎……是夏花？ 别吓我啊。",
+   "text": "哎……是夏花？别吓我啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -210,7 +213,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "大晚上的，你一个人在森林里转悠什么呢？ 我在树上看了好长时间了。",
+   "text": "大晚上的，你一个人在森林里转悠什么呢？我在树上看了好长时间了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -218,7 +221,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "既然看到了那就下来啊 ，我是来找你的。",
+   "text": "既然看到了那就下来啊，我是来找你的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -234,7 +237,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "来帮你忙啊， 放心，我没把秘密说出去。",
+   "text": "来帮你忙啊，放心，我没把秘密说出去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -242,7 +245,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "谢谢， 但我只是在确认讨伐队的撤离情况，一个人就可以了。",
+   "text": "谢谢，但我只是在确认讨伐队的撤离情况，一个人就可以了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -266,7 +269,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然我现在有些迷路，但基本的方向感还是有的， 这边根本不是讨伐队成员会来的 方向。",
+   "text": "虽然我现在有些迷路，但基本的方向感还是有的，这边根本不是讨伐队成员会来的方向。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -274,7 +277,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你真正想找的根本不是讨伐队成员，而是…… 寄生之庭吧？",
+   "text": "你真正想找的根本不是讨伐队成员，而是……寄生之庭吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -298,7 +301,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "一起讨伐的人多了， 反而会分不清 敌我。",
+   "text": "一起讨伐的人多了，反而会分不清敌我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -306,7 +309,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "按照你的性格，你想出来的办法只可能是： 一个人讨伐 寄生之庭。",
+   "text": "按照你的性格，你想出来的办法只可能是：一个人讨伐寄生之庭。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -314,7 +317,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "现在，寄生之庭还没跑远， 再加上大家也都已经撤出森林了。",
+   "text": "现在，寄生之庭还没跑远，再加上大家也都已经撤出森林了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -330,7 +333,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "既然你猜到了这点，为什么还要赶过来？ 你是很擅长指挥战斗，但我从来没见你用过魔法。",
+   "text": "既然你猜到了这点，为什么还要赶过来？你是很擅长指挥战斗，但我从来没见你用过魔法。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -338,7 +341,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "因为我的体质比较特殊，“魔力绝缘” 你听说过吗？",
+   "text": "因为我的体质比较特殊，“魔力绝缘”你听说过吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -354,7 +357,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "这么说，你没办法使用魔力，同时魔力也对你没效果， 所以寄生之庭的雾气对你无效？",
+   "text": "这么说，你没办法使用魔力，同时魔力也对你没效果，所以寄生之庭的雾气对你无效？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -362,7 +365,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "如果是物理意义，或者生物意义上的有毒武器， 那我还是会中毒的。",
+   "text": "如果是物理意义，或者生物意义上的有毒武器，那我还是会中毒的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -370,7 +373,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但既然是魔法雾气，看起来真的没办法 迷惑我。",
+   "text": "但既然是魔法雾气，看起来真的没办法迷惑我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -378,7 +381,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "在地洞里的时候，我也是一点感觉都没有， 最后我也没产生幻觉。",
+   "text": "在地洞里的时候，我也是一点感觉都没有，最后我也没产生幻觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -402,7 +405,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "不好意思…… 我很重吗？",
+   "text": "不好意思……我很重吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -418,7 +421,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "总之，我这个特殊体质在对付寄生之庭上很有用吧， 至少不会认错敌我。",
+   "text": "总之，我这个特殊体质在对付寄生之庭上很有用吧，至少不会认错敌我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -426,7 +429,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "作为指挥者来说的确很有用。 不过， 你现在能指挥的也只有我一个人哦。",
+   "text": "作为指挥者来说的确很有用。不过，你现在能指挥的也只有我一个人哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -442,7 +445,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "所以，我还是会拒绝你， 今天已经这个时间了，我们就在森林里扎营吧。",
+   "text": "所以，我还是会拒绝你，今天已经这个时间了，我们就在森林里扎营吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +461,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "并没有， 本来到这个时间也是要扎营的。",
+   "text": "并没有，本来到这个时间也是要扎营的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -466,7 +469,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "强行在夜晚的森林里探索事倍功半， 不如好好休息一晚，明天一早我送你出去。",
+   "text": "强行在夜晚的森林里探索事倍功半，不如好好休息一晚，明天一早我送你出去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -496,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我们不在小屋里休息吗？ 我听说……大部分魔物都怕火。",
+   "text": "我们不在小屋里休息吗？我听说……大部分魔物都怕火。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -544,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "拟态藤是一种只有小灌木那么高的，富含魔力的肉食性植物， 会捕食落在藤蔓上的小型昆虫。",
+   "text": "拟态藤是一种只有小灌木那么高的，富含魔力的肉食性植物，会捕食落在藤蔓上的小型昆虫。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -552,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "食物变少的时候，拟态藤就会拟态成适合自己大小的。 有过接触的动物，迁徙到食物更多的地方， 这也是它名字的由来。",
+   "text": "食物变少的时候，拟态藤就会拟态成适合自己大小的。有过接触的动物，迁徙到食物更多的地方，这也是它名字的由来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -560,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "拟态藤本来对旅人没什么威胁的，但寄生之庭那棵藤长得太庞大了。 原本只是逃跑时迷惑敌人的魔法雾气，也变成了捕食的工具。",
+   "text": "拟态藤本来对旅人没什么威胁的，但寄生之庭那棵藤长得太庞大了。原本只是逃跑时迷惑敌人的魔法雾气，也变成了捕食的工具。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -568,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白了， 虽然长成了寄生之庭，但它还维持着拟态藤的习性，那么……",
+   "text": "明白了，虽然长成了寄生之庭，但它还维持着拟态藤的习性，那么……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -576,7 +579,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "夜里有着光的地方就会有食物， 寄生之庭反而会被光芒吸引！",
+   "text": "夜里有着光的地方就会有食物，寄生之庭反而会被光芒吸引！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -600,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "我又不是猛进 之灵！",
+   "text": "我又不是猛进之灵！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -616,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "又要膝枕吗？ 不用那么客气。",
+   "text": "又要膝枕吗？不用那么客气。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -672,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "请…… 把手借我用一下可以吗？",
+   "text": "请……把手借我用一下可以吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -688,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "之前鸢尾也对我释放过类似的魔法， 但那时我还不知道自己的特殊体质……",
+   "text": "之前鸢尾也对我释放过类似的魔法，但那时我还不知道自己的特殊体质……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -720,7 +723,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "还能这样？ 一般都不会想到对衣服释放魔法吧……",
+   "text": "还能这样？一般都不会想到对衣服释放魔法吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -736,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "魔法可是一门很精细的学问， 略微修改一下释放方式，同一个法术也能用出完全不同的效果哦。",
+   "text": "魔法可是一门很精细的学问，略微修改一下释放方式，同一个法术也能用出完全不同的效果哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -768,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你的声音…… 是让风送过来的？",
+   "text": "你的声音……是让风送过来的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -784,7 +787,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "风墙？ 这和声音有什么关系？",
+   "text": "风墙？这和声音有什么关系？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -872,7 +875,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "我……很喜欢那个雕像—— 牺牲了自己，拯救了大家的英雄。",
+   "text": "我……很喜欢那个雕像——牺牲了自己，拯救了大家的英雄。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -926,7 +929,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "出现了， 并且大家也都来了。",
+   "text": "出现了，并且大家也都来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -958,7 +961,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "哼， 我还以为你把我们的联络方式都删了呢。",
+   "text": "哼，我还以为你把我们的联络方式都删了呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -966,7 +969,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "所以， 我们就都来了。",
+   "text": "所以，我们就都来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -974,7 +977,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "魔王， 夜不归宿。",
+   "text": "魔王，夜不归宿。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -982,7 +985,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "那个…… 讨伐队看到我们进入了森林，也跟来了。",
+   "text": "那个……讨伐队看到我们进入了森林，也跟来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -990,7 +993,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "喂喂喂， 什么叫我们也跟来了？ 夏花可是讨伐队的人，她发现的寄生之庭自然要让我们先讨伐。",
+   "text": "喂喂喂，什么叫我们也跟来了？夏花可是讨伐队的人，她发现的寄生之庭自然要让我们先讨伐。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -998,7 +1001,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "不， 我想自己讨伐。 寄生之庭的雾气大家都了解，上的人多了反而会互相影响。",
+   "text": "不，我想自己讨伐。寄生之庭的雾气大家都了解，上的人多了反而会互相影响。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1006,7 +1009,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "但是，一个人还是太危险了吧， 我们可以在外围支援。",
+   "text": "但是，一个人还是太危险了吧，我们可以在外围支援。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1014,7 +1017,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "让我们上才对！ 花令旅团好好练过针对寄生之庭的配合了， 就算都中了雾气， 也能辨认出哪个魔物是真的魔物，哪个是伙伴。",
+   "text": "让我们上才对！花令旅团好好练过针对寄生之庭的配合了，就算都中了雾气，也能辨认出哪个魔物是真的魔物，哪个是伙伴。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1022,7 +1025,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "你们…… 这可是讨伐队的猎物， 我带来的也都是好手。",
+   "text": "你们……这可是讨伐队的猎物，我带来的也都是好手。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1030,7 +1033,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "讨伐猛进之灵时， 魔<r=BOSS></r>王表现出很高的指挥水平。",
+   "text": "讨伐猛进之灵时，魔<r=BOSS></r>王表现出很高的指挥水平。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1038,7 +1041,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "由你决定好了， 这样大家都没意见吧？",
+   "text": {
+    "cn_f": "由她决定好了，这样大家都没意见吧？",
+    "cn_m": "由他决定好了，这样大家都没意见吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1046,7 +1052,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "魔<r=BOSS></r>王决定我没意见， 你会选花令旅团的吧。",
+   "text": "魔<r=BOSS></r>王决定我没意见，你会选花令旅团的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1054,7 +1060,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "真是的，尽把机会给外人， 魔<r=BOSS></r>王， 你会公平考虑的吧。",
+   "text": "真是的，尽把机会给外人，魔<r=BOSS></r>王，你会公平考虑的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1112,7 +1118,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "考虑到寄生之庭的雾气，我觉得这里还是先让夏花独自 试试比较好。",
+   "text": "考虑到寄生之庭的雾气，我觉得这里还是先让夏花独自试试比较好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1120,7 +1126,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "大家散开包围圈， 提供远程支援，准备接应。",
+   "text": "大家散开包围圈，提供远程支援，准备接应。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1148,7 +1154,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我觉得， 让夏花和花令旅团一起讨伐寄生之庭是最合适的。",
+   "text": "我觉得，让夏花和花令旅团一起讨伐寄生之庭是最合适的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1164,7 +1170,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你们在讨伐猛进之灵时配合很好， 对付这种魔物，多一个人就多一份力量不是么？",
+   "text": "你们在讨伐猛进之灵时配合很好，对付这种魔物，多一个人就多一份力量不是么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1196,7 +1202,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "花令旅团， 出发。",
+   "text": "花令旅团，出发。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1208,7 +1214,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "大家一起 上吧。",
+   "text": "大家一起上吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1216,7 +1222,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "什么？ 魔<r=BOSS></r>王，你知道寄生之庭的雾气的。",
+   "text": "什么？魔<r=BOSS></r>王，你知道寄生之庭的雾气的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1224,7 +1230,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "由我来指挥，可以最大限度地抵消 雾气的影响， 大家都和我贴一下手机。",
+   "text": "由我来指挥，可以最大限度地抵消雾气的影响，大家都和我贴一下手机。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1232,7 +1238,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "虽然我确实说交给魔<r=BOSS></r>王来决定，但… … 好吧，那就这样吧。",
+   "text": "虽然我确实说交给魔<r=BOSS></r>王来决定，但……好吧，那就这样吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1240,7 +1246,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "对付这种危险的魔物，仅凭一人太冒险了。 我不希望出现任何伤亡或者牺牲。",
+   "text": "对付这种危险的魔物，仅凭一人太冒险了。我不希望出现任何伤亡或者牺牲。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1248,7 +1254,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "那就是比谁更快对吧？ 好… … 讨伐队全员注意， 我们上！",
+   "text": "那就是比谁更快对吧？好……讨伐队全员注意，我们上！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

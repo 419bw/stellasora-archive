@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "商队领队",
-   "text": "好了，送到这里就可以了。 剩下的工作就交给我们商队里的伙计们吧！",
+   "text": "好了，送到这里就可以了。\n剩下的工作就交给我们商队里的伙计们吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "商队领队",
-   "text": "多亏了诸位的护送，这一路上可以说是无比顺利啊！ 这是委托的尾款，请收下！ 如果有缘的话，希望下次能再拜托各位！",
+   "text": "多亏了诸位的护送，这一路上可以说是无比顺利啊！\n这是委托的尾款，请收下！如果有缘的话，希望下次能再拜托各位！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "嗯……本次长途护送的委托也辛苦大家了。 就先解散，各自去苍梧城中稍微放松一下吧，四小时后我们在白泽公署门口集合。",
+   "text": "嗯……本次长途护送的委托也辛苦大家了。\n就先解散，各自去苍梧城中稍微放松一下吧，四小时后我们在白泽公署门口集合。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "嘿嘿， 毕竟真正的主角，总是要留在最后压轴登场嘛！",
+   "text": "嘿嘿，毕竟真正的主角，总是要留在最后压轴登场嘛！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "呃…… 你想这么理解也可以。",
+   "text": "呃……你想这么理解也可以。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "哼哼……这个委托出现的时机…… 简直是命运为我们安排好的。",
+   "text": "哼哼……这个委托出现的时机……简直是命运为我们安排好的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "魔物",
-   "text": "嗷 … …",
+   "text": "嗷……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "哼哼哼，我已经感受到了，沉睡于体内的黑暗之力…… 即将苏醒。",
+   "text": "哼哼哼，我已经感受到了，沉睡于体内的黑暗之力……即将苏醒。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "不错……很好……我感觉到了……！ 力量正在源源不断地涌上来！",
+   "text": "不错……很好……我感觉到了……！力量正在源源不断地涌上来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "十点钟方向， 又有两只靠近！",
+   "text": "十点钟方向，又有两只靠近！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "等，等一下！ 那是我的猎物好不好？！",
+   "text": "等，等一下！那是我的猎物好不好？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "不是说了交给我吗？ 别来插手！",
+   "text": "不是说了交给我吗？别来插手！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "勇敢的旅人",
-   "text": "而且你看—— 她打残猎物后， 后面那个人就会顺手补上最后一击。",
+   "text": "而且你看——她打残猎物后，后面那个人就会顺手补上最后一击。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "勇敢的旅人",
-   "text": "那个拿霰弹枪的人也绝非等闲之辈啊。 一直在帮她清理两翼和背后的盲区……",
+   "text": "那个拿霰弹枪的人也绝非等闲之辈啊。一直在帮她清理两翼和背后的盲区……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +699,7 @@
   {
    "k": "talk",
    "speaker": "疲惫的旅人",
-   "text": "但是看上去， 她俩好像更像是在争抢魔物……",
+   "text": "但是看上去，她俩好像更像是在争抢魔物……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "勇敢的旅人",
-   "text": "管他呢， 趁她们把魔物的注意力全吸引过去了， 我们赶紧撤！",
+   "text": "管他呢，趁她们把魔物的注意力全吸引过去了，我们赶紧撤！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -819,7 +819,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "你怎么知道我一定会被 魔物包围？",
+   "text": "你怎么知道我一定会被魔物包围？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

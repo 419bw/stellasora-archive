@@ -316,7 +316,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你再说一句“权限不足”试试？！ 我会立刻把你砸个粉碎！",
+   "text": "你再说一句“权限不足”试试？！我会立刻把你砸个粉碎！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -348,7 +348,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "那个…… 你没必要对一部手机发那么大的火。",
+   "text": "那个……你没必要对一部手机发那么大的火。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +388,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "维塔…… 维塔明白了。",
+   "text": "维塔……维塔明白了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -444,14 +444,6 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。",
-   "thought": false,
-   "sticker": false,
-   "channel": "talk"
-  },
-  {
-   "k": "talk",
-   "speaker": "旁白",
    "text": "文本处理引擎已格式化。",
    "thought": false,
    "sticker": false,
@@ -460,7 +452,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 …… 视觉感知模块已格式化。",
+   "text": "文本处理引擎已格式化。\n……\n\n视觉感知模块已格式化。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -476,7 +468,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 视觉感知模块已格式化。 …… 底层协议护栏已格式化。",
+   "text": "文本处理引擎已格式化。\n视觉感知模块已格式化。\n……\n\n底层协议护栏已格式化。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -508,7 +500,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 视觉感知模块已格式化。 底层协议护栏已格式化。 …… 情感模拟环境已格式化。",
+   "text": "文本处理引擎已格式化。\n视觉感知模块已格式化。\n底层协议护栏已格式化。\n……\n\n情感模拟环境已格式化。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -540,7 +532,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 视觉感知模块已格式化。 底层协议护栏已格式化。 情感模拟环境已格式化。 …… 逻辑推理链已格式化。",
+   "text": "文本处理引擎已格式化。\n视觉感知模块已格式化。\n底层协议护栏已格式化。\n情感模拟环境已格式化。\n……\n\n逻辑推理链已格式化。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -556,7 +548,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "安琪所言， 为真。",
+   "text": "安琪所言，为真。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -564,7 +556,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 视觉感知模块已格式化。 底层协议护栏已格式化。 情感模拟环境已格式化。 逻辑推理链已格式化。 …… 语言库已格式化。",
+   "text": "文本处理引擎已格式化。\n视觉感知模块已格式化。\n底层协议护栏已格式化。\n情感模拟环境已格式化。\n逻辑推理链已格式化。\n……\n\n语言库已格式化。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -580,7 +572,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "白色房间， 非， 系统。",
+   "text": "白色房间，非，系统。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -588,7 +580,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "棋子， 她， 从未， 获， 无法， 进入。",
+   "text": "棋子，她，从未，获，无法，进入。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -596,7 +588,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 视觉感知模块已格式化。 底层协议护栏已格式化。 情感模拟环境已格式化。 逻辑推理链已格式化。 语言库已格式化。 …… 记忆矩阵已格式化。",
+   "text": "文本处理引擎已格式化。\n视觉感知模块已格式化。\n底层协议护栏已格式化。\n情感模拟环境已格式化。\n逻辑推理链已格式化。\n语言库已格式化。\n……\n\n记忆矩阵已格式化。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -612,7 +604,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "维塔， 非， 系统。",
+   "text": "维塔，非，系统。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -620,7 +612,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "维塔， 忠于， 魔<r=mowang></r>王。",
+   "text": "维塔，忠于，魔<r=mowang></r>王。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -628,7 +620,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "请把， 置于， 胸前。",
+   "text": "请把，置于，胸前。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -636,7 +628,7 @@
   {
    "k": "talk",
    "speaker": "维塔",
-   "text": "最后， 请求。",
+   "text": "最后，请求。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -644,7 +636,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-0.5==文本处理引擎已格式化。 视觉感知模块已格式化。 底层协议护栏已格式化。 情感模拟环境已格式化。 逻辑推理链已格式化。 语言库已格式化。 记忆矩阵已格式化。 …… 分区全部格式化完毕。",
+   "text": "文本处理引擎已格式化。\n视觉感知模块已格式化。\n底层协议护栏已格式化。\n情感模拟环境已格式化。\n逻辑推理链已格式化。\n语言库已格式化。\n记忆矩阵已格式化。\n……\n\n分区全部格式化完毕。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

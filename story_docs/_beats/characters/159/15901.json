@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "小吃摊老板",
-   "text": "来咯—— 小心烫啊！",
+   "text": "来咯——小心烫啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼……呼…… 我尝尝，啊呜…… 好吃！",
+   "text": "呼……呼……我尝尝，啊呜……好吃！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "包子、油条、烤串都尝过了…… 下个吃什么好呢？",
+   "text": "包子、油条、烤串都尝过了……下个吃什么好呢？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "肚子好痛…… 难道吃太多了？",
+   "text": "肚子好痛……难道吃太多了？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔…… 科洛妮丝？",
+   "text": "唔……科洛妮丝？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "脸色煞白，冷汗直冒…… 手也是冰冰凉，看起来你吃了不少呢？",
+   "text": "脸色煞白，冷汗直冒……手也是冰冰凉，看起来你吃了不少呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔呃…… 你说对了……",
+   "text": "唔呃……你说对了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "久等了。 来，慢点喝…… 它应该能缓解你的不适。",
+   "text": "久等了。来，慢点喝……它应该能缓解你的不适。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 好多了。抱歉，给你添麻烦了。",
+   "text": "呼……好多了。抱歉，给你添麻烦了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "这是苍梧的特色—— 药膳茶。每份都根据不同身体状况来调配药材，提高病人的恢复力…… 在苍梧，这可是辅助治疗的良方噢。",
+   "text": "这是苍梧的特色——药膳茶。每份都根据不同身体状况来调配药材，提高病人的恢复力……在苍梧，这可是辅助治疗的良方噢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "平时喝的饮料也能做成药啊…… 好厉害。",
+   "text": "平时喝的饮料也能做成药啊……好厉害。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "也不尽然。入口之物，既可是药也可是毒…… 我们日常食用的肉类、蔬果和点心、以及茶水都是如此。",
+   "text": "也不尽然。入口之物，既可是药也可是毒……我们日常食用的肉类、蔬果和点心、以及茶水都是如此。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好的医生…… 我会反省的……",
+   "text": "好的医生……我会反省的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "茶摊老板",
-   "text": "您客气了，还是得靠科洛妮丝医生啊，她的判断绝对不会出错！ 唉，医生要是能来我家医馆坐诊就好了——",
+   "text": "您客气了，还是得靠科洛妮丝医生啊，她的判断绝对不会出错！唉，医生要是能来我家医馆坐诊就好了——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "茶摊老板",
-   "text": "其实啊，我本职也是名医生。 这摊子只是每逢过年，摆出来做点卖茶的小生意罢了。",
+   "text": "其实啊，我本职也是名医生。这摊子只是每逢过年，摆出来做点卖茶的小生意罢了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "茶摊老板",
-   "text": "医生悟性高，学得快，我当然乐意把处方传授给她啦！ 对了，医生配的药茶在病人之间也广受好评呢~",
+   "text": "医生悟性高，学得快，我当然乐意把处方传授给她啦！对了，医生配的药茶在病人之间也广受好评呢~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "苍梧城有很多吸引我的地方…… 特别是这里的医术，有许多我从未接触过的技法和知识呢。",
+   "text": "苍梧城有很多吸引我的地方……特别是这里的医术，有许多我从未接触过的技法和知识呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "不过你这么一说…… 我的确一直沉浸在研究龙裔的医术里，还没怎么好好逛过。",
+   "text": "不过你这么一说……我的确一直沉浸在研究龙裔的医术里，还没怎么好好逛过。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "快看，这是“舞龙”！是不是特别壮观？ 我第一次看的时候都被震撼到了。",
+   "text": "快看，这是“舞龙”！是不是特别壮观？我第一次看的时候都被震撼到了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "哦~ 那条龙是手工制成的？ 嗯…… 作工精湛又干练，确实不错。",
+   "text": "哦~那条龙是手工制成的？嗯……作工精湛又干练，确实不错。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃…… 这个嘛……",
+   "text": "呃……这个嘛……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "糖果摊老板",
-   "text": "好嘞！ 嗯？这不是科洛妮丝医生吗，前几日多谢您治好了舍弟啊！ 这串糖葫芦就送您啦！",
+   "text": "好嘞！嗯？这不是科洛妮丝医生吗，前几日多谢您治好了舍弟啊！这串糖葫芦就送您啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "那就好…… 就算现在好些了，也别忘了叮嘱他要继续按时吃药—— 谢谢您的糖葫芦，看上去就很美味。",
+   "text": "那就好……就算现在好些了，也别忘了叮嘱他要继续按时吃药——谢谢您的糖葫芦，看上去就很美味。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "科洛妮丝…… 我再确认下，你是来度假的吧？",
+   "text": "科洛妮丝……我再确认下，你是来度假的吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "刚刚那位老板，应该是病人的家属吧…… 你又接诊了吗？",
+   "text": "刚刚那位老板，应该是病人的家属吧……你又接诊了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "他们既然找我帮忙，我自然不会拒绝…… 还能趁着诊疗的机会多了解些知识，这不是一举两得的好事吗？",
+   "text": "他们既然找我帮忙，我自然不会拒绝……还能趁着诊疗的机会多了解些知识，这不是一举两得的好事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "酸酸甜甜的，特别是糖壳和水果之间的口感碰撞…… 还不错。",
+   "text": "酸酸甜甜的，特别是糖壳和水果之间的口感碰撞……还不错。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是吧~这种恰到好处的味道…… 无论多少我都能吃得下！",
+   "text": "是吧~这种恰到好处的味道……无论多少我都能吃得下！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔…… 她怎么把手指……",
+   "text": "唔……她怎么把手指……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "糖渣沾到嘴边了哦。 平时看你这么能干，没想到是个小迷糊呢~",
+   "text": "糖渣沾到嘴边了哦。平时看你这么能干，没想到是个小迷糊呢~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "科洛妮丝怎么…… 哎，总感觉有点羞耻……",
+   "text": "科洛妮丝怎么……哎，总感觉有点羞耻……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "对了…… 你明天有什么安排吗？",
+   "text": "对了……你明天有什么安排吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "暂时没有呢，我打算…… 一个人再到处逛逛吧，怎么了吗？",
+   "text": "暂时没有呢，我打算……一个人再到处逛逛吧，怎么了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那不如，我明天继续带你逛？ 有个能放松身心的地方，可以去试试。",
+   "text": "那不如，我明天继续带你逛？有个能放松身心的地方，可以去试试。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯，虽然你总是说治疗只是为了满足你的求知心什么的…… 可实际上你一直都在为病人奔波，肯定累坏了吧。",
+   "text": "嗯，虽然你总是说治疗只是为了满足你的求知心什么的……可实际上你一直都在为病人奔波，肯定累坏了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +715,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我也算个受了你不少恩惠的病人…… 所以，作为病人我想说，至少在度假的时候，医生你能好好放松一下。",
+   "text": "我也算个受了你不少恩惠的病人……所以，作为病人我想说，至少在度假的时候，医生你能好好放松一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "已经过了约好的时间了…… 科洛妮丝怎么还没来呢，也没有给我发信息……",
+   "text": "已经过了约好的时间了……科洛妮丝怎么还没来呢，也没有给我发信息……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "科洛妮丝医生她…… 出事了！",
+   "text": "科洛妮丝医生她……出事了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

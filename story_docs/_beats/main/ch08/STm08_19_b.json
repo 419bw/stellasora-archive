@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "变......变革么， 我把一切都搞砸了。",
+   "text": "变......变革么，我把一切都搞砸了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +220,7 @@
   {
    "k": "talk",
    "speaker": "调皮的孩子",
-   "text": "呜——竟然是这，这样么...... 可是，青菜好苦。",
+   "text": "呜——竟然是这，这样么......可是，青菜好苦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -300,7 +300,10 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "这是你们的遗物......",
+   "text": {
+    "cn_f": "这是她们的遗物......",
+    "cn_m": "这是他们的遗物......"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -372,7 +375,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "你自己一个人在外面，肯定吃不好，也睡不好。",
+   "text": {
+    "cn_f": "她自己一个人在外面，肯定吃不好，也睡不好。",
+    "cn_m": "他自己一个人在外面，肯定吃不好，也睡不好。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -404,7 +410,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "魔<r=BOSS></r>王不会告诉你们你在哪里吧。",
+   "text": {
+    "cn_f": "魔<r=BOSS></r>王不会告诉你们她在哪里吧。",
+    "cn_m": "魔<r=BOSS></r>王不会告诉你们他在哪里吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -412,7 +421,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "魔<r=BOSS></r>王知道这里面的危险，从和沙蝎合作的时候，你就在试图保护我们。",
+   "text": {
+    "cn_f": "魔<r=BOSS></r>王知道这里面的危险，从和沙蝎合作的时候，她就在试图保护我们。",
+    "cn_m": "魔<r=BOSS></r>王知道这里面的危险，从和沙蝎合作的时候，他就在试图保护我们。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -420,7 +432,10 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "但，我们，也想保护你。",
+   "text": {
+    "cn_f": "但，我们，也想保护她。",
+    "cn_m": "但，我们，也想保护他。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -436,7 +451,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "你也没办法拒绝吧！",
+   "text": {
+    "cn_f": "她也没办法拒绝吧！",
+    "cn_m": "他也没办法拒绝吧！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -460,7 +478,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "以为什么？我会阻拦你们？ 我教出来的孩子，怎么可能放弃朋友？",
+   "text": "以为什么？我会阻拦你们？我教出来的孩子，怎么可能放弃朋友？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -476,7 +494,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "现在肯叫我妈妈了， 那我作为妈妈，对你们只有一个要求。",
+   "text": "现在肯叫我妈妈了，那我作为妈妈，对你们只有一个要求。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -868,7 +886,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "参与了围杀魔<r=BOSS></r>王阴谋，导致空白旅团死亡的人， 一个接一个地死去",
+   "text": "参与了围杀魔<r=BOSS></r>王阴谋，导致空白旅团死亡的人，\n一个接一个地死去",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -876,7 +894,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "没有宽恕，没有审判，只有死神的脚步声，在夜色中悄然降临 她像一场无声蔓延的灾厄，将血债如数奉还",
+   "text": "没有宽恕，没有审判，只有死神的脚步声，在夜色中悄然降临\n她像一场无声蔓延的灾厄，将血债如数奉还",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -892,7 +910,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "为了活下去，已经拥有花不完的朵拉的灰夫人买下了帝国卫队 最高规格的服务，包下了整个酒店让骑士们进驻",
+   "text": "为了活下去，已经拥有花不完的朵拉的灰夫人买下了帝国卫队\n最高规格的服务，包下了整个酒店让骑士们进驻",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -988,7 +1006,10 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "妈妈做的弹弓，很好用。",
+   "text": {
+    "cn_f": "妈妈做的弹弓，很好用。",
+    "jp_f": "妈妈做的弓箭，很好用。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -996,7 +1017,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "鸢尾也很厉害！“咻”地一下就把野猪给冻住了！我和琥珀趁机冲上去“邦”地打倒了它！",
+   "text": {
+    "cn_f": "鸢尾也很厉害！“咻”地一下就把野猪给冻住了！我和琥珀趁机冲上去“邦”地打倒了它！",
+    "jp_f": "鸢尾也很厉害！“咻”地一下就把野猪给冻住了！我和琥珀趁机冲上去“邦邦”两下就打倒了它！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1028,7 +1052,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "呵呵，知道了知道了。 妈妈现在就开始做饭，你们再稍微等一等吧？",
+   "text": "呵呵，知道了知道了。妈妈现在就开始做饭，你们再稍微等一等吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1108,7 +1132,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "好漂亮的牙齿……说不定能拿来做些什么呢。",
+   "text": {
+    "cn_f": "好漂亮的牙齿……说不定能拿来做些什么呢。",
+    "jp_f": "好漂亮的牙齿……说不定能派上什么用场呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1180,7 +1207,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "呵呵，说的也对。 那么大家能不能来帮帮妈妈？野猪的肉很容易烤焦，妈妈一个人很难掌握火候。",
+   "text": {
+    "cn_f": "呵呵，说的也对。那么大家能不能来帮帮妈妈？野猪的肉很容易烤焦，妈妈一个人很难掌握火候。",
+    "jp_f": "好呀。那大家能过来帮帮妈妈吗？野猪的肉很容易烤焦，妈妈一个人很难掌握火候。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1188,7 +1218,7 @@
   {
    "k": "talk",
    "speaker": "老练的骑士",
-   "text": "汹涌澎湃的始源之火啊， 汇集于此，灼烧敌人吧！",
+   "text": "汹涌澎湃的始源之火啊，汇集于此，灼烧敌人吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1196,7 +1226,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "嗯……啊找到了。 做烤肉的话，这个部位最合适了。",
+   "text": {
+    "cn_f": "嗯……啊找到了。做烤肉的话，这个部位最合适了。",
+    "jp_f": "嗯……啊找到了。要拿来烤的话，这个部位最合适了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1204,7 +1237,7 @@
   {
    "k": "talk",
    "speaker": "被炙烤的骑士",
-   "text": "啊啊啊——好烫！ 盔甲、盔甲融化了……",
+   "text": "啊啊啊——好烫！盔甲、盔甲融化了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1252,7 +1285,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "得赶紧准备别的菜呢…… 可不能让孩子们饿着肚子等太久~",
+   "text": {
+    "cn_f": "得赶紧准备别的菜呢……可不能让孩子们饿着肚子等太久~",
+    "jp_f": "得赶紧准备别的菜了……可不能让孩子们饿着肚子等太久~"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1364,7 +1400,7 @@
   {
    "k": "talk",
    "speaker": "老练的骑士",
-   "text": "飘散的清幽之水啊， 化作迷雾，遮蔽她的视线！",
+   "text": "飘散的清幽之水啊，化作迷雾，遮蔽她的视线！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1404,7 +1440,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "好了，孩子们，快过来吧。 要开饭了。",
+   "text": "好了，孩子们，快过来吧。要开饭了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1740,7 +1776,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "<r=舌头……我的舌头>咳……咳咳</r>………… <r=怎、怎么会>啊</r>………… <r=她一句都不信>呃</r>……",
+   "text": "<r=舌头……我的舌头>咳……咳咳</r>…………<r=怎、怎么会>啊</r>…………<r=她一句都不信>呃</r>……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1780,7 +1816,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "呜<r=腿……></r>……呜<r=我的腿没了……></r>啊…… <r=有人吗>咳</r>…… <r=救命……>呃</r>……",
+   "text": "呜<r=腿……></r>……呜<r=我的腿没了……></r>啊……<r=有人吗>咳</r>……<r=救命……>呃</r>……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1812,7 +1848,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "好了， 大家都吃饱了吗？",
+   "text": "好了，大家都吃饱了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1988,7 +2024,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "我一直不喜欢这个名字…… 可不管怎么说，那里都是对我们而言……重要的“家”。",
+   "text": {
+    "cn_f": "我一直不喜欢这个名字……可不管怎么说，那里都是对我们而言……重要的“家”。",
+    "jp_f": "我一直不喜欢这个叫法……但毫无疑问，那里确确实实曾是我们无可替代的归宿。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1996,7 +2035,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "我也好，那些孩子也好……谁都不知道自己亲生父母的样子。 但是在这里，我就是那些孩子们的妈妈。",
+   "text": "我也好，那些孩子也好……谁都不知道自己亲生父母的样子。\n但是在这里，我就是那些孩子们的妈妈。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2012,7 +2051,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "千万不要走上跟妈妈相同的路，不要变得跟妈妈一样……",
+   "text": {
+    "cn_f": "千万不要走上跟妈妈相同的路，不要变得跟妈妈一样……",
+    "jp_f": "我希望你们千万不要走上跟妈妈相同的路，不要变得跟妈妈一样……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2020,7 +2062,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "我希望她们能无忧无虑、天真无邪，怀抱着梦想与希望，就那样平平安安地长大……",
+   "text": {
+    "cn_f": "我希望她们能无忧无虑、天真无邪，怀抱着梦想与希望，就那样平平安安地长大……",
+    "jp_f": "我希望你们能无忧无虑、天真无邪，怀抱着梦想与希望，就这样平平安安地长大……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2036,7 +2081,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "这些事，我当然都不知道。",
+   "text": {
+    "cn_f": "这些事，我当然都不知道。",
+    "jp_f": "这些事，我当然不可能知道。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2060,7 +2108,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "为什么……？为什么偏偏是那些孩子？ 为什么会变成这样……？",
+   "text": "为什么……？为什么偏偏是那些孩子？\n为什么会变成这样……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2100,7 +2148,10 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "这一切…… 都是你的错　　　　　你没有把她们带走…… 都是你的错 就不会…… 你不是很清楚吗？",
+   "text": {
+    "cn_f": "这一切……\n都是你的错　　　　　你没有把她们带走……\n都是你的错\n就不会……\n你不是很清楚吗？",
+    "jp_f": "都是你的错……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2108,7 +2159,10 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "这一切……都是你的错",
+   "text": {
+    "cn_f": "这一切……都是你的错",
+    "jp_f": "全部……\n全部　　　　　全部……\n全部\n全部……\n全部"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2132,7 +2186,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "好啦好啦，你们啊，不要闹得太过头了哦？",
+   "text": {
+    "cn_f": "好啦好啦，你们啊，不要闹得太过头了哦？",
+    "jp_f": "好啦好啦，你们几个小家伙，不要闹得太过头了哦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2140,7 +2197,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "已经很晚了，饭也吃好了，该乖乖去睡觉了哦。",
+   "text": {
+    "cn_f": "已经很晚了，饭也吃好了，该乖乖去睡觉了哦。",
+    "jp_f": "已经很晚了。吃饱了的话，今天就该乖乖去睡了哦。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2212,7 +2272,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "啊……既然是梦……那就不用着急了…… 对了，来唱歌吧……",
+   "text": "啊……既然是梦……那就不用着急了……\n对了，来唱歌吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2244,7 +2304,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "…… …… …… ……",
+   "text": "……………………",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2260,7 +2320,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "妈妈已经把坏人们都赶跑了……",
+   "text": {
+    "cn_f": "妈妈已经把坏人们都赶跑了……",
+    "jp_f": "坏人已经都被妈妈赶跑了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2284,7 +2347,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "孩子们……你们要去哪儿…… 回来啊……",
+   "text": "孩子们……你们要去哪儿……\n回来啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2444,7 +2507,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "维塔，请打开大门吧， 我要改变这一切。",
+   "text": "维塔，请打开大门吧，我要改变这一切。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2460,7 +2523,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "魔<r=BOSS></r>王，你考虑好了吗？ 我们沙蝎天不怕地不怕，只要你真的能给我许愿出那种神器。",
+   "text": "魔<r=BOSS></r>王，你考虑好了吗？我们沙蝎天不怕地不怕，只要你真的能给我许愿出那种神器。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -2476,7 +2539,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "感谢你们愿意递来橄榄枝， 但我不会重新许愿“死之权杖”的，抱歉，哈萨娜。",
+   "text": "感谢你们愿意递来橄榄枝，但我不会重新许愿“死之权杖”的，抱歉，哈萨娜。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "联合种业接待员",
-   "text": "您好，请问有什么可以帮两位的， 是要购买种子还是买卖粮食呢？",
+   "text": "您好，请问有什么可以帮两位的，是要购买种子还是买卖粮食呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "联合种业接待员",
-   "text": "三大魔物...... 灰夫人......请稍等。",
+   "text": "三大魔物......灰夫人......请稍等。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -52,7 +52,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "魔<r=BOSS></r>王，这招真的有用么， 这是联合种业的粮食交易所，不管悬赏的事情吧？",
+   "text": "魔<r=BOSS></r>王，这招真的有用么，这是联合种业的粮食交易所，不管悬赏的事情吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "他们也想过自己讨伐，一开始的那些佣兵就是她的人吧，只是...... 损失惨重。",
+   "text": "他们也想过自己讨伐，一开始的那些佣兵就是她的人吧，只是......损失惨重。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +116,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然也有可能是公司战略调整，觉得旅人更适合讨伐魔物，但我觉得更有可能的情况是—— 她无法补充人手。",
+   "text": "虽然也有可能是公司战略调整，觉得旅人更适合讨伐魔物，但我觉得更有可能的情况是——她无法补充人手。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -212,7 +212,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你好狡猾...... 不，我的意思是你好聪明，你到底是怎么想到这种办法的。",
+   "text": "你好狡猾......不，我的意思是你好聪明，你到底是怎么想到这种办法的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +220,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咳咳，这其实不是我聪明， 而是我比较了解公司运行的逻辑。",
+   "text": "咳咳，这其实不是我聪明，而是我比较了解公司运行的逻辑。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -244,7 +244,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "到时候—— 嘘，有人来了，看我的吧。",
+   "text": "到时候——嘘，有人来了，看我的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -312,7 +312,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "这是...... 恩赐印章？失礼了，您是哪家公司的大人？",
+   "text": "这是......恩赐印章？失礼了，您是哪家公司的大人？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -328,7 +328,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "魔王协议人力派遣公司...... 难道是前些日子在埃摩解冻的那家公司？那您莫非就是报纸上说的那位“魔<r=BOSS></r>王”？",
+   "text": "魔王协议人力派遣公司......难道是前些日子在埃摩解冻的那家公司？那您莫非就是报纸上说的那位“魔<r=BOSS></r>王”？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -336,7 +336,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然没看到具体报道…… 不过，正是在下。",
+   "text": "虽然没看到具体报道……不过，正是在下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -376,7 +376,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "垄断？掌控旅人行业？您这说的什么话，联合种业怎么可能垄断旅人行业...... 我们做不到也不会那么做的。",
+   "text": "垄断？掌控旅人行业？您这说的什么话，联合种业怎么可能垄断旅人行业......我们做不到也不会那么做的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -400,7 +400,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "嗯...... 的确，的确是这样，灰夫人给我们的报酬和物资价值几亿朵拉，现在讨伐队的最优先任务就是讨伐三大魔物中剩下的寄生之庭。",
+   "text": "嗯......的确，的确是这样，灰夫人给我们的报酬和物资价值几亿朵拉，现在讨伐队的最优先任务就是讨伐三大魔物中剩下的寄生之庭。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -408,7 +408,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "几...... 几亿朵拉的物资么...... 我说怎么查账...... 啊，抱歉，这件事给贵公司添了麻烦。",
+   "text": "几......几亿朵拉的物资么......我说怎么查账......啊，抱歉，这件事给贵公司添了麻烦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -440,7 +440,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这就是恩赐印章—— 或者说公司的真实地位啊。",
+   "text": "这就是恩赐印章——或者说公司的真实地位啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -448,7 +448,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "一般人去问，公司自然会倾向多一事不如少一事， 但我身为魔<r=BOSS></r>王，那就不一样了。",
+   "text": "一般人去问，公司自然会倾向多一事不如少一事，但我身为魔<r=BOSS></r>王，那就不一样了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -464,7 +464,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔......你之前说过，全诺瓦百分之七十的粮食都是联合种业种出来的。 简单地说，这种一家公司占据一个行业的情况，就叫“垄断”。",
+   "text": "唔......你之前说过，全诺瓦百分之七十的粮食都是联合种业种出来的。简单地说，这种一家公司占据一个行业的情况，就叫“垄断”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -488,7 +488,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我虽然没见过联合种业的恩赐印章，但里面包含的特许经营专利应该是—— 粮食吧。",
+   "text": "我虽然没见过联合种业的恩赐印章，但里面包含的特许经营专利应该是——粮食吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -496,7 +496,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我在鸢尾的藏书里看到过 ——每家公司都可以在它所特许的行业里随意经营，也可以适当进入其他行业。",
+   "text": "我在鸢尾的藏书里看到过——每家公司都可以在它所特许的行业里随意经营，也可以适当进入其他行业。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -504,7 +504,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但如果想要独占恩赐印章并没有特许给这家公司的行业，那就渎神了。 只要另一家公司发起指控，就会面对大麻烦。",
+   "text": "但如果想要独占恩赐印章并没有特许给这家公司的行业，那就渎神了。只要另一家公司发起指控，就会面对大麻烦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -512,7 +512,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这对联合种业来说可不是能睁只眼闭只眼的事—— 刚才那位负责人既然明白这个道理…… 自然不敢怠慢这件事。",
+   "text": "这对联合种业来说可不是能睁只眼闭只眼的事——刚才那位负责人既然明白这个道理……自然不敢怠慢这件事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -520,7 +520,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "可要是灰夫人只是擅作主张呢？ ......说起来，这就算“垄断”吗？",
+   "text": "可要是灰夫人只是擅作主张呢？......说起来，这就算“垄断”吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -536,7 +536,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "那…… 你觉得刚才那个叫蓝宝石的员工，接下来会怎么做？",
+   "text": "那……你觉得刚才那个叫蓝宝石的员工，接下来会怎么做？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -598,7 +598,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "虽然放晴了，但到处都是烂泥地， 幸好有能飞起来的夏花和雾语，我们才能顺利侦查。",
+   "text": "虽然放晴了，但到处都是烂泥地，幸好有能飞起来的夏花和雾语，我们才能顺利侦查。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -614,7 +614,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "早替过啦！ 可她那人你又不是不知道，总是想一个人把所有的事情都做了，她说还要再巡逻一会，自己又飞出去了。也不知道急什么。",
+   "text": "早替过啦！可她那人你又不是不知道，总是想一个人把所有的事情都做了，她说还要再巡逻一会，自己又飞出去了。也不知道急什么。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -630,7 +630,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "就知道一个人蛮干。夏花这么着急…… 该不会真以为我们什么都没察觉吧？",
+   "text": "就知道一个人蛮干。夏花这么着急……该不会真以为我们什么都没察觉吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -646,7 +646,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "那个，师父，如果我没搞错的话…… 今天早晨去营地的时候，总觉得大家看我的眼神有点怪。",
+   "text": "那个，师父，如果我没搞错的话……今天早晨去营地的时候，总觉得大家看我的眼神有点怪。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -710,7 +710,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "我～ 回～ 来～ 啦！ 你们的小雾语到家了喔★",
+   "text": "我～回～来～啦！你们的小雾语到家了喔★",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -718,7 +718,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "话说回来...... 你们竟然还有闲心在这聊天，你们知不知道外面是怎么说你们的？",
+   "text": "话说回来......你们竟然还有闲心在这聊天，你们知不知道外面是怎么说你们的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -766,7 +766,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "然后，夏花组织新讨伐队，你们依旧维持花令旅团，各拿一次赏金，赚得盆满钵满呢～ 就这样★",
+   "text": "然后，夏花组织新讨伐队，你们依旧维持花令旅团，各拿一次赏金，赚得盆满钵满呢～就这样★",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -846,7 +846,7 @@
   {
    "k": "talk",
    "speaker": "煽动情绪的旅人",
-   "text": "我一开始也不信，但我和你说啊， 真正的罪魁祸首是那个从埃摩来的旅团，领头的那个叫魔<r=BOSS></r>王的，据说能控制别人的灵魂哦。",
+   "text": "我一开始也不信，但我和你说啊，真正的罪魁祸首是那个从埃摩来的旅团，领头的那个叫魔<r=BOSS></r>王的，据说能控制别人的灵魂哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -902,7 +902,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "二十七、二十八号....... 那不就是克莱儿找夏花聊之前？这么看来确实没什么头绪。",
+   "text": "二十七、二十八号.......那不就是克莱儿找夏花聊之前？这么看来确实没什么头绪。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -918,7 +918,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "等等啊小禾！窗外…… 有好多人把地理协会围住了。",
+   "text": "等等啊小禾！窗外……有好多人把地理协会围住了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1012,7 +1012,7 @@
   {
    "k": "talk",
    "speaker": "焦急的讨伐队员",
-   "text": "就是…… 说你想独吞报酬……",
+   "text": "就是……说你想独吞报酬……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1028,7 +1028,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "这根本是无稽之谈！ 再说组建第一批讨伐队时魔<r=BOSS></r>王根本不在菲莱啊。",
+   "text": "这根本是无稽之谈！再说组建第一批讨伐队时魔<r=BOSS></r>王根本不在菲莱啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1044,7 +1044,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "大家...... 不行，我得立刻赶过去。",
+   "text": "大家......不行，我得立刻赶过去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1068,7 +1068,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "克莱儿...... 这一切，不会是你做的吧。",
+   "text": "克莱儿......这一切，不会是你做的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1084,7 +1084,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你 为什么要帮那个人......",
+   "text": "你为什么要帮那个人......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1124,7 +1124,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "你看，营地里的大家还是信任你的， 只要你公开宣布你和花令旅团都是被邪恶的魔<r=BOSS></r>王控制了，大家就不会怪你们了。",
+   "text": "你看，营地里的大家还是信任你的，只要你公开宣布你和花令旅团都是被邪恶的魔<r=BOSS></r>王控制了，大家就不会怪你们了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1132,7 +1132,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "所以夏花…… 这是最后的机会了。就像“断臂英雄”的传说里那样，我们只要献祭一个路过的外乡人就好了。",
+   "text": "所以夏花……这是最后的机会了。就像“断臂英雄”的传说里那样，我们只要献祭一个路过的外乡人就好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1140,7 +1140,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你是...... 这么看那个传说的吗？",
+   "text": "你是......这么看那个传说的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1164,7 +1164,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "一切都是...... 魔<r=BOSS></r>王的错么。",
+   "text": "一切都是......魔<r=BOSS></r>王的错么。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1290,7 +1290,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "不，不是的。全部都是我的错。看来已经瞒不住了—— 是我为了独吞报酬而策划了这一切。",
+   "text": "不，不是的。全部都是我的错。看来已经瞒不住了——是我为了独吞报酬而策划了这一切。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

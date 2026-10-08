@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "落难的渔民",
-   "text": "咳……咳咳、咳咳…… 最后一点水也喝完了……",
+   "text": "咳……咳咳、咳咳……最后一点水也喝完了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "落难的渔民",
-   "text": "咦？海面上…… 怎么这么亮？",
+   "text": "咦？海面上……怎么这么亮？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "神秘的店员？",
-   "text": "恭——喜！恭喜这位顾客中奖～！ 而且是连续五年来都无人抽中的超大特等奖！",
+   "text": "恭——喜！恭喜这位顾客中奖～！而且是连续五年来都无人抽中的超大特等奖！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我们都听说了，你上一次休假已经是半年前了。 而且还在休假当天的晚上跑回去继续加班，这也太夸张了吧！",
+   "text": "我们都听说了，你上一次休假已经是半年前了。而且还在休假当天的晚上跑回去继续加班，这也太夸张了吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "诶…… 原来只是“正好聊到了我”啊。",
+   "text": "诶……原来只是“正好聊到了我”啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "伊织，是你告诉你们的吧？",
+   "text": {
+    "cn_f": "伊织，是你告诉她们的吧？",
+    "cn_m": "伊织，是你告诉他们的吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +294,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "让我猜猜，那个给你们发奖品的商店店员…… 眼睛是不是紫色的，还扎着双马尾？",
+   "text": "让我猜猜，那个给你们发奖品的商店店员……眼睛是不是紫色的，还扎着双马尾？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +318,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "啊，不对不对不对！完全不是你说的那个人！嗯！绝对不可能是菈露什么的…… 啊。",
+   "text": "啊，不对不对不对！完全不是你说的那个人！嗯！绝对不可能是菈露什么的……\n啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +414,10 @@
   {
    "k": "talk",
    "speaker": "伊织",
-   "text": "薇洛，你就跟你们去吧。协会的大家都觉得，你也该休息休息了。",
+   "text": {
+    "cn_f": "薇洛，你就跟她们去吧。协会的大家都觉得，你也该休息休息了。",
+    "cn_m": "薇洛，你就跟他们去吧。协会的大家都觉得，你也该休息休息了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +433,7 @@
   {
    "k": "talk",
    "speaker": "伊织",
-   "text": "虽然我不喜欢给自己找麻烦…… 但帮你的忙我还是愿意的。",
+   "text": "虽然我不喜欢给自己找麻烦……但帮你的忙我还是愿意的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +449,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "好吧，既然你们都已经安排好了…… 我要是再狠心拒绝的话，那也太不近人情了……",
+   "text": "好吧，既然你们都已经安排好了……我要是再狠心拒绝的话，那也太不近人情了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +577,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我们约好碰头的地方…… 是这里没错吧。",
+   "text": "我们约好碰头的地方……是这里没错吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +681,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "太好了，我就知道交给你们准没错！ 不愧是我们家魔<r=mowang></r>王大人啊！",
+   "text": "太好了，我就知道交给你们准没错！\n不愧是我们家魔<r=mowang></r>王大人啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +697,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "啊，不是，你可别误会了我没别的什么意思……！ 喂我说魔王！这孩子眼神好吓人啊？！",
+   "text": "啊，不是，你可别误会了我没别的什么意思……！\n喂我说魔王！这孩子眼神好吓人啊？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +769,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "求求你了，求求你千万不要告诉她我出来摸鱼了！否则的话我就完蛋了！我愿意分你一半炸薯条…… 不对，你要多少我都给你买！",
+   "text": "求求你了，求求你千万不要告诉她我出来摸鱼了！否则的话我就完蛋了！我愿意分你一半炸薯条……不对，你要多少我都给你买！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

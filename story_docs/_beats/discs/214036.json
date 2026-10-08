@@ -86,7 +86,7 @@
   {
    "k": "talk",
    "speaker": "格芮",
-   "text": "面包，圣葡萄，花束，接下来是...... 对了，还得去趟书店。",
+   "text": "面包，圣葡萄，花束，接下来是......对了，还得去趟书店。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -214,7 +214,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽说让我帮忙，但也没说到底是什么忙....... 还把我带进这么深的森林里。",
+   "text": "虽说让我帮忙，但也没说到底是什么忙.......还把我带进这么深的森林里。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -230,7 +230,7 @@
   {
    "k": "talk",
    "speaker": "格芮",
-   "text": "啊…… 抱歉，魔<r=mowang></r>王大人，我有些走神。",
+   "text": "啊……抱歉，魔<r=mowang></r>王大人，我有些走神。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -254,7 +254,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那就好…… 嗯？",
+   "text": "那就好……嗯？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -294,7 +294,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈……哈…… 没想到都走到天黑了。",
+   "text": "哈……哈……没想到都走到天黑了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -326,7 +326,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是....... 墓碑？",
+   "text": "这是.......墓碑？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -350,7 +350,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这片森林...... 墓地，对了，这附近是不是有个恩赐圣所？",
+   "text": "这片森林......墓地，对了，这附近是不是有个恩赐圣所？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -486,7 +486,7 @@
   {
    "k": "talk",
    "speaker": "格芮",
-   "text": "她问我—— 自己是不是被神明抛弃了，我不知道怎么回答，只能告诉她，恩赐之神不会抛弃任何一个人。",
+   "text": "她问我——自己是不是被神明抛弃了，我不知道怎么回答，只能告诉她，恩赐之神不会抛弃任何一个人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -574,7 +574,7 @@
   {
    "k": "talk",
    "speaker": "格芮",
-   "text": "呵呵……也是呢。 命运总是很无情，如果这不是恩赐之神开的恶劣玩笑，又该怎么解释呢？",
+   "text": "呵呵……也是呢。\n命运总是很无情，如果这不是恩赐之神开的恶劣玩笑，又该怎么解释呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -774,7 +774,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "所以我才老是提心吊胆的啊…… 话说，你把我带到这儿来到底要干什么？",
+   "text": "所以我才老是提心吊胆的啊……\n话说，你把我带到这儿来到底要干什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -830,7 +830,7 @@
   {
    "k": "talk",
    "speaker": "格芮",
-   "text": "我很期待呢…… 那今天就到这吧，这么晚了，就由我来护送您吧~",
+   "text": "我很期待呢……那今天就到这吧，这么晚了，就由我来护送您吧~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -846,7 +846,7 @@
   {
    "k": "talk",
    "speaker": "格芮",
-   "text": "呵呵呵…… 别客气，把您抱在怀里送回去，比您自己走快多了吧？",
+   "text": "呵呵呵……别客气，把您抱在怀里送回去，比您自己走快多了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

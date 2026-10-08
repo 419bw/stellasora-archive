@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头目",
-   "text": "小的们，目标已经很明确了—— 干掉“鲭鱼”“河豚”“鲨鱼”，宝藏就是吾等囊中之物！",
+   "text": "小的们，目标已经很明确了——\n干掉“鲭鱼”“河豚”“鲨鱼”，宝藏就是吾等囊中之物！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人副头目",
-   "text": "全体都有—— 作战开始！！",
+   "text": "全体都有——作战开始！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "好多脚步声、好杂、好吵…… 这是……",
+   "text": "好多脚步声、好杂、好吵……这是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "——幽灵来了！！ 大家快跑啊！！！",
+   "text": "——幽灵来了！！大家快跑啊！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真的是幽灵吗？ 不对，突然下雨了！",
+   "text": "真的是幽灵吗？\n不对，突然下雨了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "如果是奶奶的话…… 也一定会这样做！",
+   "text": "如果是奶奶的话……也一定会这样做！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "这可是…… 奶奶曾经的船啊。",
+   "text": "这可是……奶奶曾经的船啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "薇洛说今天还要把这次事件的报告写完。 都这个点了，想必也该忙完了——",
+   "text": "薇洛说今天还要把这次事件的报告写完。都这个点了，想必也该忙完了——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +76,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "啊，魔王。 你怎么来了，有什么事要咨询吗？",
+   "text": "啊，魔王。你怎么来了，有什么事要咨询吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +92,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "还没有，我连笔都还没来得及动。来咨询的人实在太多了…… 这会儿刚闲下来，正准备开始写呢。",
+   "text": "还没有，我连笔都还没来得及动。来咨询的人实在太多了……这会儿刚闲下来，正准备开始写呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "怎么，你是来叫我一起去吃晚饭的吗？ 不过我估计得写到很晚了，你还是先和尘沙她们去吃吧。",
+   "text": "怎么，你是来叫我一起去吃晚饭的吗？不过我估计得写到很晚了，你还是先和尘沙她们去吃吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -172,7 +172,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "难道…… 你的目的，是把我从工作中支开吗？",
+   "text": "难道……你的目的，是把我从工作中支开吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +220,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈哈——…… 可能他们已经和平解决了吧？",
+   "text": "哈哈——……可能他们已经和平解决了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -228,7 +228,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "既然事情已经解决，那我也没有继续留在这里的必要了吧。 我还得回去写报告，就先失陪了——",
+   "text": "既然事情已经解决，那我也没有继续留在这里的必要了吧。我还得回去写报告，就先失陪了——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +260,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个…… 其实我是想让你看看我游泳特训的成果！！",
+   "text": "那个……\n其实我是想让你看看我游泳特训的成果！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -348,7 +348,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "很好，状态还不错。 就这样继续，稳住节奏，注意换气…… 诶？！",
+   "text": "很好，状态还不错。就这样继续，稳住节奏，注意换气……诶？！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -356,7 +356,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哇？！ 不是，怎么、沉、沉了！ 救、救命啊，薇洛……！",
+   "text": "哇？！不是，怎么、沉、沉了！救、救命啊，薇洛……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -444,7 +444,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈啊…… 哈啊…… 薇洛，能稍微休息一下吗……？",
+   "text": "哈啊……哈啊……薇洛，能稍微休息一下吗……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -476,7 +476,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "对。目标是把游泳的基本姿势彻底练成肌肉记忆。 十个来回已经算少的了。",
+   "text": "对。目标是把游泳的基本姿势彻底练成肌肉记忆。十个来回已经算少的了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -492,7 +492,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "这不是当然的嘛。 因为——",
+   "text": "这不是当然的嘛。因为——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -500,7 +500,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "说谎的人， 可是要接受惩罚的。",
+   "text": {
+    "cn_f": "说谎的人，可是要接受惩罚的。",
+    "jp_f": "“对说谎的人的惩罚”……就是这么回事。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -520,7 +523,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "你还要继续装傻吗？ 真没想到， 你还是个坏孩子呢。",
+   "text": {
+    "cn_f": "你还要继续装傻吗？真没想到，你还是个坏孩子呢。",
+    "jp_f": "你还要继续装傻吗？\n没想到魔王竟然是个坏孩子呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -528,7 +534,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "拿想要游泳特训当做借口， 实际上的目的……",
+   "text": {
+    "cn_f": "拿想要游泳特训当做借口，实际上的目的……",
+    "jp_f": "说什么想看游泳特训，只是借口罢了。\n你真正的目的，从一开始就没有变过。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -536,7 +545,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "就是想让我从工作中抽身， 享受假期…… 对吧？",
+   "text": {
+    "cn_f": "就是想让我从工作中抽身，享受假期……对吧？",
+    "jp_f": "你是想让我从工作中抽身……我说的没错吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -556,7 +568,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "你表现得太明显了…… 而且， 那种可疑的举动， 也根本不像平常的你。",
+   "text": {
+    "cn_f": "你表现得太明显了……\n而且，那种可疑的举动，也根本不像平常的你。",
+    "jp_f": "你都露出那种表情了，当然会被发现哦。这可一点儿也不像平时的魔王。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -564,7 +579,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "所以， 为什么要撒这么蹩脚的谎啊？",
+   "text": {
+    "cn_f": "所以，为什么要撒这么蹩脚的谎啊？",
+    "jp_f": "为什么要撒这么蹩脚的谎啊？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -596,7 +614,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "哦？ 你是在怪我了？",
+   "text": {
+    "cn_f": "哦？你是在怪我了？",
+    "jp_f": "哎呀，你觉得是我的错了？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -604,7 +625,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "……呵呵。 我开玩笑的。 你说得对， 是我让你撒了这么蹩脚的谎。",
+   "text": {
+    "cn_f": "……呵呵。我开玩笑的。\n你说得对，是我让你撒了这么蹩脚的谎。",
+    "jp_f": "开玩笑的。正如你所说。让魔王说谎的人……就是我呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -612,7 +636,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "你一直都在想办法， 想让我好好享受这个假期。 而我却一再辜负你的好意…… 抱歉。",
+   "text": {
+    "cn_f": "你一直都在想办法，想让我好好享受这个假期。而我却一再辜负你的好意……抱歉。",
+    "jp_f": "你一直，都在努力想让我享受这个假期。而不断地拒绝这份好意的，不是别人正是我。对不起。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -644,7 +671,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "对自己更好一点？ 唔…… 我确实没考虑过这种事。",
+   "text": {
+    "cn_f": "对自己更好一点？\n唔……我确实没考虑过这种事。",
+    "jp_f": "对自己更好一点……是吗？确实，我大概从没考虑过这种事。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -664,7 +694,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "嗯， 我明白你的意思…… 不过， 我本来就很喜欢工作， 所以并不觉得辛苦……",
+   "text": {
+    "cn_f": "嗯，我明白你的意思……\n不过，我本来就很喜欢工作，所以并不觉得辛苦……",
+    "jp_f": "虽然这些我都明白。但是，我本来就喜欢工作所以并不觉得有多辛苦……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -672,7 +705,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "要不…… 你来教教我， 该怎么对自己好一点吧？ 我刚刚认真想了下， 完全没有头绪。",
+   "text": {
+    "cn_f": "要不……你来教教我，该怎么对自己好一点吧？\n我刚刚认真想了下，完全没有头绪。",
+    "jp_f": "对了，魔王。你能教教我该怎么对自己好一点吗？\n我认真考虑了一下，完全没有头绪。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -692,7 +728,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "谢谢， 那就拜托你了。 作为交换， 就由我来负责让你学会游泳吧？",
+   "text": {
+    "cn_f": "谢谢，那就拜托你了。\n作为交换，就由我来负责让你学会游泳吧？",
+    "jp_f": "非常感谢。作为交换，我会负责教你游泳的方法的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -700,7 +739,10 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "我会手把手， 仔仔细细地教你的哦~",
+   "text": {
+    "cn_f": "我会手把手，仔仔细细地教你的哦~",
+    "jp_f": "我会手把手，仔仔细细地教给你的……哦~"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -748,7 +790,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "看着您明明不擅长撒谎，却还是那么拼命想把我带出来的样子，我真的很开心。 开心到……忍不住想优先考虑你，而不是工作。",
+   "text": "看着您明明不擅长撒谎，却还是那么拼命想把我带出来的样子，我真的很开心。开心到……忍不住想优先考虑你，而不是工作。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -756,7 +798,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "魔王，既然你扰乱了我的心， 那就请负起责任，让我体验一次最棒的假期吧。",
+   "text": "魔王，既然你扰乱了我的心，那就请负起责任，让我体验一次最棒的假期吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -772,7 +814,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "盛夏的假日里，已经没有任何人会来打扰。 两人在海浪细碎的低语中，兴致勃勃地聊起了接下来的假日计划。",
+   "text": "盛夏的假日里，已经没有任何人会来打扰。两人在海浪细碎的低语中，兴致勃勃地聊起了接下来的假日计划。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

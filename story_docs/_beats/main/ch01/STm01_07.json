@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "菲金意外地没有为难我们，带着我们进了星塔。 然而——",
+   "text": "菲金意外地没有为难我们，带着我们进了星塔。\n然而——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -444,7 +444,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "啧...... 我答应你。",
+   "text": "啧......我答应你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -730,7 +730,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "琥珀的手机和我的手机背对背贴在一起。 手机屏幕上出现了一个提示：",
+   "text": "琥珀的手机和我的手机背对背贴在一起。\n手机屏幕上出现了一个提示：",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没错。 ……我来当火垂的朋友，你觉得可以吗？",
+   "text": "没错。……我来当火垂的朋友，你觉得可以吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "……怎么回事，请详细说—— 你说什么？！",
+   "text": "……怎么回事，请详细说——你说什么？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "恐怕好几天都回不来。 ……唉，答应好那几位学生的讲座，看来也只能先作罢。",
+   "text": "恐怕好几天都回不来。……唉，答应好那几位学生的讲座，看来也只能先作罢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "留影机…… 胶卷好像用完了啊。除了拍照，平时你都玩些什么呢？",
+   "text": "留影机……胶卷好像用完了啊。除了拍照，平时你都玩些什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那还能有假。 对了，干脆我们也来画画吧？",
+   "text": "那还能有假。对了，干脆我们也来画画吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "单纯只是因为我们性格合得来吗…… 还是说，其实我是带孩子领域的天才？！",
+   "text": "单纯只是因为我们性格合得来吗……还是说，其实我是带孩子领域的天才？！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咳咳…… 好，火垂！今天我们玩些什么呢。",
+   "text": "咳咳……好，火垂！今天我们玩些什么呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -939,7 +939,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "而且一旦到了塔里，火垂就变得活力满满…… 对她来说，这里简直像是游乐场。",
+   "text": "而且一旦到了塔里，火垂就变得活力满满……对她来说，这里简直像是游乐场。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -1035,7 +1035,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "就像对待实验动物一样对待一个无辜的孩子…… 这种事情，不可原谅。",
+   "text": "就像对待实验动物一样对待一个无辜的孩子……这种事情，不可原谅。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -1067,7 +1067,10 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "魔<r=mowang></r>王，是火垂的朋友。绝对不可以，伤害你。",
+   "text": {
+    "cn_f": "魔<r=mowang></r>王，是火垂的朋友。绝对不可以，伤害她。",
+    "cn_m": "魔<r=mowang></r>王，是火垂的朋友。绝对不可以，伤害他。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1099,7 +1102,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "好奇怪。这里和平时不一样，“玩具”…… 有点多。",
+   "text": "好奇怪。这里和平时不一样，“玩具”……有点多。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

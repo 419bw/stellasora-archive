@@ -1,49 +1,21 @@
 # -*- coding: utf-8 -*-
-"""管线 Stage 3c: 语义 pass —— 命令 IR → beat 列表。
-
-自 build_story.py 原样迁出（Phase 1c），逐行为等价：
-  * fold_animations（原 nonlog_repeats）：折叠 _NOT_IN_LOG_ 渐显动画帧，
-    返回应跳过命令的 idx 集合（命令 IR 稳定身份，不再用 id(param)）；
-  * fork_options：四种抉择方言（major/personality/generic/phone）的选项抽取；
-  * extract_beats（原 extract_script 核心循环）：单遍状态机，产出 beat 列表
-    与分支归属（branch_open/merge），即 PageDoc 的正文 IR。
-
-beat 字典的键与取值是 md/HTML 双后端和 sections.json 的共同上游契约，
-改动必须过黄金对拍与双 validator。
-"""
+"""Extract story beats, localized choices and animation-frame groups from commands."""
 import re
 
-from .lua_parser import T
-from .text_rules import NONLOG, _related, _sig, clean_dialogue, clean_text, is_resource_name
+from .text_rules import NONLOG, _related, _sig, clean_text, is_resource_name
+from . import markup
 
 
-def fold_animations(commands):
-    """SetTalk/SetPhoneMsg params whose only job was the fade-in animation.
-
-    The client renders one long line by issuing the same SetTalk over and over with
-    a rising <alpha=#22..#FF>, and those frames carry a _NOT_IN_LOG_ prefix because
-    they never enter the in-game backlog. Emitting one archive line per frame makes
-    the same sentence appear 6..57 times, so the frames must be folded back down.
-
-    Rules, per run of consecutive _NOT_IN_LOG_ frames:
-      1) if the animated visual ends on a logged frame carrying the same text, drop
-         the whole run -- that logged frame is what the backlog shows;
-      2) otherwise keep only the run's last non-empty frame (the animation's final
-         state), so standalone visuals never vanish from the archive.
-
-    The logged twin is searched along the animation chain around the run, because
-    the script interleaves Clear / SetBGM / Wait between the fade frames and their
-    final logged frame -- segmenting on Clear alone splits one visual in two.
-
-    返回：应跳过的命令 idx 集合（Command IR 稳定身份）。
-    """
+def fold_animations(commands, compiler):
+    """Keep the final text of fade-frame runs, comparing every language and gender."""
     rows = []          # [(idx, in_log, signature)]
     for c in commands:
         if c.cmd in ('SetTalk', 'SetPhoneMsg') and len(c.param) >= 3:
             raw = c.param[2]
             if isinstance(raw, str):
                 rows.append((c.idx, not raw.startswith(NONLOG),
-                             _sig(raw.replace(NONLOG, ''))))
+                             tuple(_sig(compiler.compile(v.replace(NONLOG, '')), sex)
+                                   for v in command_text_slots(c) for sex in ('female', 'male'))))
 
     n = len(rows)
     skip = set()
@@ -56,14 +28,14 @@ def fold_animations(commands):
         while j < n and not rows[j][1]:
             j += 1
         run = range(i, j)                       # maximal _NOT_IN_LOG_ run
-        nonempty = [k for k in run if rows[k][2]]
+        nonempty = [k for k in run if any(rows[k][2])]
         if nonempty:
             last = nonempty[-1]
             sig = rows[last][2]
             twin = None
             for step in (-1, 1):                # walk the animation chain
                 k = last + step
-                while 0 <= k < n and rows[k][2] and _related(rows[k][2], sig):
+                while 0 <= k < n and any(rows[k][2]) and all(_related(a, b) for a, b in zip(rows[k][2], sig)):
                     if rows[k][1] and rows[k][2] == sig:
                         twin = k
                         break
@@ -89,10 +61,10 @@ FORK_DEFS = {
 FORK_CLOSE = {"ChoiceJumpTo": "jump", "ChoiceRollover": "roll", "ChoiceEnd": "end"}
 
 
-def fork_options(kind, param):
+def fork_options(kind, param, compiler):
     """Extract (prompt, [(option title, option desc, jump EvId)]) per fork dialect."""
+    compile_text = compiler.compile
     strings = [x for x in param if isinstance(x, str)]
-    nested = [x for x in param if isinstance(x, T)]
 
     if kind == "major":
         # Every option block starts at an AvgChoice_ prefab and runs until the next
@@ -105,55 +77,50 @@ def fork_options(kind, param):
             seg = strings[i + 1:prefabs[n + 1] if n + 1 < len(prefabs) else len(strings)]
             if not seg:
                 continue
-            title = clean_dialogue(seg[0])
-            desc = clean_dialogue(seg[1]) if len(seg) > 1 and not re.match(r'^[EC][A-Za-z0-9_]*$', seg[1]) else ""
+            title = compile_text(seg[0])
+            desc = compile_text(seg[1]) if len(seg) > 1 and not re.match(r'^[EC][A-Za-z0-9_]*$', seg[1]) else ""
             ev = next((s for s in seg[1:] if re.match(r'^E[A-Za-z0-9_]+$', s)), "")
             if title:
                 opts.append((title, desc, ev))
-        prompt = next((clean_dialogue(s) for s in reversed(strings)
+        prompt = next((compile_text(s) for s in reversed(strings)
                        if not s.startswith(("AvgChoice_", "avg_emoji")) and re.search(r'[？?]', s)), "")
         return prompt, opts
 
     if kind == "phone":
-        # param[0] is the group id the reply jumps are keyed by; the labels follow it
-        return "", [(clean_dialogue(s), "", "") for s in list(param)[1:]
-                    if isinstance(s, str) and clean_dialogue(s) and s != "avg3_100"]
+        options = [compiler.compile(slot(param, i), slot(param, i + 3)) for i in range(1, 4)]
+        return "", [(t, "", "") for t in options if t]
 
     if kind == "generic":
-        filled = [x for x in nested if any(isinstance(v, str) and v.strip() for v in x)]
-        labels = [clean_dialogue(v) for v in filled[0] if isinstance(v, str) and clean_dialogue(v)] if filled else []
-        prompt = ""
-        if len(filled) > 1:
-            prompt = next((clean_dialogue(v) for v in filled[-1] if isinstance(v, str) and clean_dialogue(v)), "")
-        return prompt, [(l, "", "") for l in labels]
+        columns = [slot(param, i, []) for i in (3, 10, 12, 13)]
+        labels = [compiler.compile(*(slot(col, i) for col in columns))
+                  for i in range(4)]
+        return compiler.compile(slot(param, 9)), [(t, "", "") for t in labels if t]
 
-    # personality: flat label list, no AvgChoice_ prefabs
-    skip = ("c", "l", "r", "e", "b", "a", "g", "none", "close")
-    labels = [clean_dialogue(s) for s in strings
-              if clean_dialogue(s) and s not in skip and not re.match(r'^\d{2,3}$', s)
-              and not s.startswith(("avg_emoji", "AvgChoice_"))]
-    prompt = next((l for l in reversed(labels) if re.search(r'[？?]', l)), "")
-    return prompt, [(l, "", "") for l in labels if l != prompt]
+    male_labels = [slot(param, i) for i in (10, 11, 12)]
+    if not all(male_labels):
+        male_labels = ['', '', '']
+    labels = [compiler.compile(slot(param, i + 2), male_labels[i]) for i in range(3)]
+    return compiler.compile(slot(param, 8), slot(param, 13)), [(t, "", "") for t in labels if t]
 
 
-def extract_beats(commands, resolver, diag=None):
-    """Turn one AVG script's command IR into an ordered beat list with branch
-    attribution（原 extract_script 核心循环，行为逐行等价）。
+def slot(values, index, empty=''):
+    return values[index] if index < len(values) and values[index] is not None else empty
 
-    resolver: SpeakerResolver 实例（说话人 id → 显示名）。
-    diag: 可选列表收集器（Phase 3 诊断侧车）。ChoiceJumpTo/Rollover/End 的
-    group 在活跃帧栈里找不到归属帧时记录 {'idx','cmd','group','closer'}——
-    上游数据异常的机器可读证据（如 CG_126_03 用 a_4 的 SetChoiceEnd 关 a_10，
-    见 _dev/AI_HANDOVER_GUIDE.md 3.5）；仅记录，状态机行为不变。
-    返回 {'meta': {recap/episode/title}, 'beats': [...]}。
-    """
+
+def command_text_slots(command):
+    indices = (2, 5, 8, 9) if command.cmd == 'SetBubble' else (2, 6, 7, 8)
+    return tuple(slot(command.param, i) for i in indices)
+
+
+def extract_beats(commands, resolver, compiler, diag=None):
+    """Extract ordered story beats and their choice-branch ownership."""
     beats = []
     stack = []
     pending_close = []
     last_marker = None
     meta = {'recap': '', 'episode': '', 'title': ''}
     # Fade-in frames of the same line are not separate lines of dialogue.
-    skip = fold_animations(commands)
+    skip = fold_animations(commands, compiler)
 
     def frame_for(group):
         for fr in reversed(stack):
@@ -172,7 +139,7 @@ def extract_beats(commands, resolver, diag=None):
         head = str(param[0]) if param else ""
         kind = FORK_DEFS.get(cmd)
         if kind:
-            prompt, opts = fork_options(kind, param)
+            prompt, opts = fork_options(kind, param, compiler)
             opts = [(t, d, e) for t, d, e in opts if t]
             if opts:
                 beats.append({'k': 'choice', 'kind': kind, 'prompt': prompt, 'options': opts})
@@ -221,14 +188,15 @@ def extract_beats(commands, resolver, diag=None):
             if c.idx in skip:
                 continue
             talk_type, spk, raw = str(param[0]), param[1], param[2]
-            text = clean_dialogue(raw if isinstance(raw, str) else "")
+            text = compiler.compile(*command_text_slots(c))
+            rendered = markup.markdown(text)
             if not text:
                 continue
             # In SetTalk/SetBubble a bare asset key is a sprite placeholder, not a line.
             # In SetPhoneMsg it means the character sent that sticker -- real content.
-            if cmd == "SetTalk" and (text.startswith(("ep_", "BG_")) or is_resource_name(text)):
+            if cmd == "SetTalk" and (rendered.startswith(("ep_", "BG_")) or is_resource_name(rendered)):
                 continue
-            sticker = cmd == "SetPhoneMsg" and is_resource_name(text)
+            sticker = cmd == "SetPhoneMsg" and is_resource_name(rendered)
             fr = active()
             if fr:
                 f, kk = fr
@@ -249,10 +217,10 @@ def extract_beats(commands, resolver, diag=None):
         elif cmd == "SetBubble":
             if len(param) < 3:
                 continue
-            text = clean_dialogue(param[2] if isinstance(param[2], str) else "")
+            text = compiler.compile(*command_text_slots(c))
             if not text:
                 continue
-            if not text or is_resource_name(text):
+            if is_resource_name(markup.markdown(text)):
                 continue
             beats.append({'k': 'bubble', 'speaker': resolver.of(param[0], 0), 'text': text})
 
@@ -271,9 +239,8 @@ def extract_beats(commands, resolver, diag=None):
             s = [x if isinstance(x, str) else "" for x in param]
             if len(s) >= 4:
                 # [0] 代号 [1] 话数 [2] 标题 [3] 跳过概要（==RT== 是引擎的换行标记）
-                parts = [clean_dialogue(p) for p in s[3].split('==RT==')]
-                meta['recap'] = "\n".join(p for p in parts if p)
-                meta['episode'] = clean_dialogue(s[1])
-                meta['title'] = clean_dialogue(s[2])
+                meta['recap'] = compiler.compile(s[3])
+                meta['episode'] = markup.text(compiler.compile(s[1]))
+                meta['title'] = markup.text(compiler.compile(s[2]))
 
     return {'meta': meta, 'beats': beats}

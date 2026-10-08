@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "花原让我假扮她的主人， 按理说是为了在展会上让我当掩护。",
+   "text": "花原让我假扮她的主人，\n按理说是为了在展会上让我当掩护。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "种类好多，都要挑花眼了。 这样吧，花原选几款你最推荐的就好。",
+   "text": "种类好多，都要挑花眼了。\n这样吧，花原选几款你最推荐的就好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 排队的人越来越多了，生意真好啊。",
+   "text": "……\n排队的人越来越多了，生意真好啊。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "今天…… 是我的生日。",
+   "text": "今天……是我的生日。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "前些天看日历时，发现今天正好是甜品展…… 就借着委托的名义邀请您了。",
+   "text": "前些天看日历时，发现今天正好是甜品展……\n就借着委托的名义邀请您了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "因为，我真的很喜欢…… 甜品……",
+   "text": "因为，我真的很喜欢……甜品……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我们来庆祝生日吧！ 你坐在这里等我一下！",
+   "text": "我们来庆祝生日吧！\n你坐在这里等我一下！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "这些…… 都是过生日用的吗？",
+   "text": "这些……都是过生日用的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "将点燃的蜡烛插在蛋糕上，闭上眼睛双手合十，许愿。 之后再吹灭蜡烛，寓意着愿望会实现。",
+   "text": "将点燃的蜡烛插在蛋糕上，闭上眼睛双手合十，许愿。\n之后再吹灭蜡烛，寓意着愿望会实现。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "长长的蜡烛，就像延伸至天空尽头的星塔…… 原来如此，真是有趣的习俗。",
+   "text": "长长的蜡烛，就像延伸至天空尽头的星塔……\n原来如此，真是有趣的习俗。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那，我们快开始吧。 花原可以想一想等下要许的愿望了。",
+   "text": "那，我们快开始吧。\n花原可以想一想等下要许的愿望了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "呼—— 是， 是这样 没错吧？",
+   "text": {
+    "cn_f": "呼——\n是，是这样没错吧？",
+    "jp_f": "呼——\n这、这样就可以了吧……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +502,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "第一次吹生日蛋糕上的蜡烛…… 原来， 是这种感觉。",
+   "text": {
+    "cn_f": "第一次吹生日蛋糕上的蜡烛……\n原来，是这种感觉。",
+    "jp_f": "第一次吹生日蛋糕上的蜡烛……\n原来，是这种感觉。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,10 +513,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "别忘了许愿啊",
+   "prompt": "",
    "options": [
     [
-     "你好像......忘了许愿",
+     {
+      "cn_f": "你好像......忘了许愿",
+      "jp_f": "别忘了许愿啊"
+     },
      "",
      ""
     ]
@@ -519,7 +528,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "诶…… 刚才太紧张了， 现在补上 还来得及吗？",
+   "text": {
+    "cn_f": "诶……\n刚才太紧张了，现在补上还来得及吗？",
+    "jp_f": "啊，刚才太紧张忘记了……\n现在补上还来得及吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -527,7 +539,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "我的生日愿望是…… 以后， 每一年的生日， 都可以像今天这样……",
+   "text": {
+    "cn_f": "我的生日愿望是……\n以后，每一年的生日，都可以像今天这样……",
+    "jp_f": "嗯……我的生日愿望是……\n从今往后的每个生日，都可以像今天这样……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -535,10 +550,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "“像今天这样”是指……？",
+   "prompt": "",
    "options": [
     [
-     "“像今天这样”是……？",
+     {
+      "cn_f": "“像今天这样”是……？",
+      "jp_f": "“像今天这样”是指……？"
+     },
      "",
      ""
     ]
@@ -547,7 +565,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "秘密。",
+   "text": {
+    "cn_f": "秘密。",
+    "jp_f": "是……秘密。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,10 +576,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "说不定我能帮你实现哦……",
+   "prompt": "",
    "options": [
     [
-     "告诉我的话，说不定可以帮你实现哦",
+     {
+      "cn_f": "告诉我的话，说不定可以帮你实现哦",
+      "jp_f": "说不定我能帮你实现哦……"
+     },
      "",
      ""
     ]
@@ -567,7 +591,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "谢谢您， 今天已经非常幸福了。 所以， 不能再麻烦您了。",
+   "text": {
+    "cn_f": "谢谢您，今天已经非常幸福了。\n所以，不能再麻烦您了。",
+    "jp_f": "今天已经……非常幸福了。\n所以，不能再麻烦魔<r=mowang></r>王大人了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -575,7 +602,10 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "请魔<r=mowang></r>王大人放心…… 我会努力， 把愿望 变成现实的。",
+   "text": {
+    "cn_f": "请魔<r=mowang></r>王大人放心……\n我会努力，把愿望变成现实的。",
+    "jp_f": "请您放心。\n我会努力，把愿望变成现实的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

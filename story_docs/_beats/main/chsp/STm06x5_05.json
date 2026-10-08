@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "观众朋友们，晚上好！ 我是《菲莱速报》的驻场魔女，奥菲尔。",
+   "text": "观众朋友们，晚上好！\n我是《菲莱速报》的驻场魔女，奥菲尔。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +76,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "机会难得，让我们先去突击采访几位来宾， 听听她们对此次晚宴的期待吧！",
+   "text": "机会难得，让我们先去突击采访几位来宾，听听她们对此次晚宴的期待吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "哦~这边是恩赐意志的代表！ 可以麻烦您对本次晚宴发表几句感言吗？",
+   "text": "哦~这边是恩赐意志的代表！可以麻烦您对本次晚宴发表几句感言吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "这么正式的采访还是得交给资深员工。 您说是吧，菈露前辈？",
+   "text": "这么正式的采访还是得交给资深员工。您说是吧，菈露前辈？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -108,7 +108,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "哎呦，好痛！ 干嘛戳我！害得我薯条都掉地上了……",
+   "text": "哎呦，好痛！干嘛戳我！害得我薯条都掉地上了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +124,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "呃……感言？ 薯条炸得不错，香脆可口，要是能再多放点盐就完美了。",
+   "text": "呃……感言？薯条炸得不错，香脆可口，要是能再多放点盐就完美了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "啊！不对不对！！ 刚刚那段全掐掉，别播出去！",
+   "text": "啊！不对不对！！刚刚那段全掐掉，别播出去！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -140,7 +140,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "咳咳。 我谨代表恩赐意志，预祝本次晚宴取得圆满成功。",
+   "text": "咳咳。我谨代表恩赐意志，预祝本次晚宴取得圆满成功。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -148,7 +148,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "这就…… 没了么？",
+   "text": "这就……没了么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -180,7 +180,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "我来代为回答吧。 我是联合种业的监察官松鸦。",
+   "text": "我来代为回答吧。我是联合种业的监察官松鸦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -188,7 +188,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "谢谢您！ 贵公司菲莱分部的代理执行官，翡冷翠小姐似乎缺席了…… 请问，这是出于什么原因呢？",
+   "text": "谢谢您！贵公司菲莱分部的代理执行官，翡冷翠小姐似乎缺席了……请问，这是出于什么原因呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -204,7 +204,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "那么换一个问题，也是大家最关心的…… 联合种业菲莱分部的下一任执行官，会在何时公布人选？",
+   "text": "那么换一个问题，也是大家最关心的……联合种业菲莱分部的下一任执行官，会在何时公布人选？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -236,7 +236,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "好可怕…… 谢谢您，那我没什么要问的了。",
+   "text": "好可怕……谢谢您，那我没什么要问的了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -244,7 +244,7 @@
   {
    "k": "talk",
    "speaker": "明镜",
-   "text": "采、采访？！ 可以让我们顺便打个广告吗？ 唉，不行啊…… 那好吧。",
+   "text": "采、采访？！可以让我们顺便打个广告吗？唉，不行啊……那好吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -252,7 +252,7 @@
   {
    "k": "talk",
    "speaker": "千语",
-   "text": "总之，不管谁当执行官， 渊海星融都敞开大门为您提供融资服务！",
+   "text": "总之，不管谁当执行官，渊海星融都敞开大门为您提供融资服务！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -324,7 +324,7 @@
   {
    "k": "talk",
    "speaker": "缇莉娅",
-   "text": "等等，是谁在那边点火？！ 那根蜡烛不能动啊——！！",
+   "text": "等等，是谁在那边点火？！那根蜡烛不能动啊——！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -340,7 +340,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "目前能用的素材还远远不够，剩下的得在晚宴上想办法拍完！ 先休息一会儿吧。",
+   "text": "目前能用的素材还远远不够，剩下的得在晚宴上想办法拍完！先休息一会儿吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -484,7 +484,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "哼，朵拉我可一点兴趣没有…… 只要能让我痛痛快快地大闹一场就行。",
+   "text": "哼，朵拉我可一点兴趣没有……只要能让我痛痛快快地大闹一场就行。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -492,7 +492,7 @@
   {
    "k": "talk",
    "speaker": "弥尔沙",
-   "text": "报告团长大人，这里是弥尔沙~ 第一、第二、第三小队均已就位，请指示！",
+   "text": "报告团长大人，这里是弥尔沙~第一、第二、第三小队均已就位，请指示！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -604,7 +604,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "为了不让他们打扰我和魔<r=BOSS></r>王的好戏…… 我得换个花样了。",
+   "text": "为了不让他们打扰我和魔<r=BOSS></r>王的好戏……我得换个花样了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -618,7 +618,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼，演讲稿都背熟了。 没问题的……我应该……能做到的……",
+   "text": "呼，演讲稿都背熟了。没问题的……我应该……能做到的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -762,7 +762,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "哎呀，这么快就被你看穿了…… 眼力真不错，对同伴观察得很仔细呢。",
+   "text": "哎呀，这么快就被你看穿了……眼力真不错，对同伴观察得很仔细呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是个适合散步的日子...... 要是没有那个在身后晃来晃去的影子就好了。",
+   "text": "是个适合散步的日子......\n要是没有那个在身后晃来晃去的影子就好了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "好机会，看招—— 啊！！！",
+   "text": "好机会，看招——啊！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "难道说…… 我的目的已经被魔<r=BOSS></r>王识破了吗……",
+   "text": "难道说……我的目的已经被魔<r=BOSS></r>王识破了吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "一定要来啊！要是敢临阵脱逃...... 就要请我喝饮料！",
+   "text": "一定要来啊！要是敢临阵脱逃......就要请我喝饮料！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "谁、谁…… 魔<r=BOSS></r>王？你什么时候来的？",
+   "text": "谁、谁……魔<r=BOSS></r>王？你什么时候来的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是吗。那就好。 既然是约会，你有什么想去的地方吗？",
+   "text": "是吗。那就好。\n既然是约会，你有什么想去的地方吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,10 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "和星骸战斗的话，魔<r=BOSS></r>王就不得不使出真本事了吧， 我就能知道你特殊能力的情报了……",
+   "text": {
+    "cn_f": "和星骸战斗的话，魔<r=BOSS></r>王就不得不使出真本事了吧，我就能知道她特殊能力的情报了……",
+    "cn_m": "和星骸战斗的话，魔<r=BOSS></r>王就不得不使出真本事了吧，我就能知道他特殊能力的情报了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +366,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "书，书上说...... 真心在乎对方的人去哪里约会都可以，因为最想看的风景就在身边。",
+   "text": "书，书上说......真心在乎对方的人去哪里约会都可以，因为最想看的风景就在身边。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +398,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 你看的到底是什么书？",
+   "text": "……\n你看的到底是什么书？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -145,7 +145,7 @@
   {
    "k": "talk",
    "speaker": "监狱看守",
-   "text": "你！ 给我老实点——别惹麻烦！",
+   "text": "你！给我老实点——别惹麻烦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -193,7 +193,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "你的审判结果下来了， 自己看看吧。",
+   "text": "你的审判结果下来了，自己看看吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -201,7 +201,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "让我瞧瞧…… 嗯，“亵渎恩赐之神，异端。判处公开绞刑。”",
+   "text": "让我瞧瞧……嗯，“亵渎恩赐之神，异端。判处公开绞刑。”",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -241,7 +241,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "“他们可以使用自身产生的魔力，不需要心相石。” ……如此简单，直白。",
+   "text": "“他们可以使用自身产生的魔力，不需要心相石。”……如此简单，直白。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -265,7 +265,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "按照教义，魔法和心相石都是恩赐之神赐予诺瓦人的礼物，独一无二的礼物。 没人敢公然否定它……哪怕研究和质疑都是不被允许的。",
+   "text": "按照教义，魔法和心相石都是恩赐之神赐予诺瓦人的礼物，独一无二的礼物。\n没人敢公然否定它……哪怕研究和质疑都是不被允许的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -313,7 +313,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "对牛弹琴…… 哈哈哈！",
+   "text": "对牛弹琴……哈哈哈！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -361,7 +361,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "医学教室…… 医学教室……",
+   "text": "医学教室……医学教室……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -409,7 +409,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "等等！ 这位同学！你刚刚是说……标本吗？",
+   "text": "等等！这位同学！你刚刚是说……标本吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -433,7 +433,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "业余兴趣罢了，我叫科洛妮丝…… 你是……这里的老师吗？",
+   "text": "业余兴趣罢了，我叫科洛妮丝……你是……这里的老师吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -465,7 +465,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "那真是太谢谢了， 伊格娜学姐。",
+   "text": "那真是太谢谢了，伊格娜学姐。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -625,7 +625,7 @@
   {
    "k": "talk",
    "speaker": "医学专业教师",
-   "text": "嗯……不错，很好入口。 让我试试，先用个光亮术吧。",
+   "text": "嗯……不错，很好入口。\n让我试试，先用个光亮术吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -769,7 +769,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "没错，星辉之眼不会放过任何知识， 哪怕是禁忌的知识。",
+   "text": "没错，星辉之眼不会放过任何知识，哪怕是禁忌的知识。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -785,7 +785,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "就请你， 一字一句， 完整地， 和我分享你的发现吧。",
+   "text": "就请你，一字一句，完整地，和我分享你的发现吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

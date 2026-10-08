@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我还行，不过也确实爬了很多层了， 既然大家都累了的话，那还是休息一下再继续前进吧。",
+   "text": "我还行，不过也确实爬了很多层了，既然大家都累了的话，那还是休息一下再继续前进吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "但硬撑也不是办法…… 那就休息十分钟，在继续前进吧！",
+   "text": "但硬撑也不是办法……那就休息十分钟，在继续前进吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "请给我来一份这个， 对，就是这个。",
+   "text": "请给我来一份这个，对，就是这个。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "嗯？！ 你什么时候过来的！",
+   "text": "嗯？！你什么时候过来的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "这样啊…… 你的感激之情我收到了，所以你可以走了吗？",
+   "text": "这样啊……你的感激之情我收到了，所以你可以走了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "休息时间？ 她不是一直在休息吗？",
+   "text": "休息时间？她不是一直在休息吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不是不是，是我之前吃了一次波西亚的猪排饭，导致……短暂的也成了店员…… 还好，后来被空白旅团的大家救走了。",
+   "text": "不是不是，是我之前吃了一次波西亚的猪排饭，导致……短暂的也成了店员……还好，后来被空白旅团的大家救走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "即使是迷失在星塔里，我也不推荐你去那家便利店。 既然如此就吸取教训，不要再犯同样的错误了。",
+   "text": "即使是迷失在星塔里，我也不推荐你去那家便利店。\n既然如此就吸取教训，不要再犯同样的错误了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过贝缇丽在这里…… 在炸鸡店，是在做什么呢？",
+   "text": "不过贝缇丽在这里……在炸鸡店，是在做什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "哦……我明白了，那我现在就给你扎一针好了。 扎完了之后你就马上给我消失！",
+   "text": "哦……我明白了，那我现在就给你扎一针好了。\n扎完了之后你就马上给我消失！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不，我不是这个意思…… 嗯？贝缇丽，你嘴边好像沾着什么东西？",
+   "text": "不，我不是这个意思……嗯？贝缇丽，你嘴边好像沾着什么东西？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "如果十秒之内你还没有消失， 我就要在你的头上打针了！",
+   "text": "如果十秒之内你还没有消失，我就要在你的头上打针了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "啧—— 卑鄙小人。",
+   "text": "啧——卑鄙小人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +579,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "自言自语？ 不会是被什么东西附身了吧！",
+   "text": "自言自语？不会是被什么东西附身了吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "魔<r=mowang></r>王大人这么厉害，恶灵什么的伤不到你的啦！",
+   "text": {
+    "cn_f": "魔<r=mowang></r>王大人这么厉害，恶灵什么的伤不到她的啦！",
+    "cn_m": "魔<r=mowang></r>王大人这么厉害，恶灵什么的伤不到他的啦！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

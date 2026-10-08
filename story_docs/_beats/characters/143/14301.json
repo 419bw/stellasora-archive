@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 总算赶到了。还好，没迟到太久，她应该不至于生气吧？",
+   "text": "呼……总算赶到了。还好，没迟到太久，她应该不至于生气吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "热情的店员",
-   "text": "啊…… 您是说那位客人啊，她坐在那里。",
+   "text": "啊……您是说那位客人啊，她坐在那里。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "啊…… 好吃。",
+   "text": "啊……好吃。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "居然点了满满一桌子的菜…… 估计是看我没准时到，自己先开吃了吧。",
+   "text": "居然点了满满一桌子的菜……估计是看我没准时到，自己先开吃了吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "唔嗯？ 系符文原麽，<r=是服务员吗？我等的人来了吗></r>唔登德刃呜哩哇？",
+   "text": "唔嗯？系符文原麽，<r=是服务员吗？我等的人来了吗></r>唔登德刃呜哩哇？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊…… 嘴里塞满东西就不要说话啊，完全听不清…… 不过看她这么可爱的份上，就不计较这些了。",
+   "text": "啊……嘴里塞满东西就不要说话啊，完全听不清……不过看她这么可爱的份上，就不计较这些了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过，我都离这么近了她也没认出来是我…… 果然还是老样子啊。",
+   "text": "不过，我都离这么近了她也没认出来是我……果然还是老样子啊。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嚼嚼…… 嗯。不好意思，那边端托盘的那位—— 刚才你推荐的那道菜很有特色，我想再加一份。",
+   "text": "嚼嚼……嗯。不好意思，那边端托盘的那位——刚才你推荐的那道菜很有特色，我想再加一份。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "焦急的店员",
-   "text": "您是在叫我吗？不好意思，刚才接待您的不是我…… 我不太清楚她给您推荐了哪道菜！",
+   "text": "您是在叫我吗？不好意思，刚才接待您的不是我……我不太清楚她给您推荐了哪道菜！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然风影她是靠武器来认人的…… 原来托盘也能算是武器吗！",
+   "text": "虽然风影她是靠武器来认人的……原来托盘也能算是武器吗！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "原来如此，抱歉。我想想…… 就是那个整整一大块肉端上来、冒着热气的那道菜，这样说能听明白么？",
+   "text": "原来如此，抱歉。我想想……就是那个整整一大块肉端上来、冒着热气的那道菜，这样说能听明白么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "焦急的店员",
-   "text": "啊~ 您说的是特制烟熏鹿肉吧！没问题，我这就去准备，请您稍等~",
+   "text": "啊~您说的是特制烟熏鹿肉吧！没问题，我这就去准备，请您稍等~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "对，就是那个。顺便…… 这页菜单上的鱼肉料理，能从头到尾再全部来一份吗？",
+   "text": "对，就是那个。顺便……这页菜单上的鱼肉料理，能从头到尾再全部来一份吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是打算吃多少啊…… 那一页少说也有十几道菜吧！",
+   "text": "这是打算吃多少啊……那一页少说也有十几道菜吧！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯…… 怎么没人理呢？",
+   "text": "嗯……怎么没人理呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这状况毕竟也是因为我迟到在先…… 要不先想个办法帮帮他们吧…… 有了。",
+   "text": "这状况毕竟也是因为我迟到在先……要不先想个办法帮帮他们吧……有了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "居然真把我当店员使唤了…… 罢了，接下来只要把这订单传给后厨就行了吧。",
+   "text": "居然真把我当店员使唤了……罢了，接下来只要把这订单传给后厨就行了吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "慌张的店员",
-   "text": "不是吧…… 怎么这么忙啊！我明明是想清闲一点才挑了今天排班的！",
+   "text": "不是吧……怎么这么忙啊！我明明是想清闲一点才挑了今天排班的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "您好！这是您点的…… 嫩烤牛肉、铁板鸡腿、蘑菇汤，还有香煎鱼排。",
+   "text": "您好！这是您点的……嫩烤牛肉、铁板鸡腿、蘑菇汤，还有香煎鱼排。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "多谢，我正等着上菜呢。对了，还能再加些菜吗？ 顺便来点饮料，我有点渴。",
+   "text": "多谢，我正等着上菜呢。对了，还能再加些菜吗？顺便来点饮料，我有点渴。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "五、五号桌，加菜—— 还要加一份饮料！",
+   "text": "五、五号桌，加菜——还要加一份饮料！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "可是我脑内没有“新人培训”的记忆啊…… 原来我失忆了吗！",
+   "text": "可是我脑内没有“新人培训”的记忆啊……原来我失忆了吗！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你开心就好…… 等下，还要加？！",
+   "text": "你开心就好……等下，还要加？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "再加点鱼和肉？还是…… 嗯…… 选哪种好呢。",
+   "text": "再加点鱼和肉？还是……嗯……选哪种好呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼、呼…… 报单，端菜，还要做饮料！根本忙不过来啊……",
+   "text": "呼、呼……报单，端菜，还要做饮料！根本忙不过来啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "厨房？！我不行的—— 传菜我还能糊弄一下，做菜我是真的不会啊！",
+   "text": "厨房？！我不行的——传菜我还能糊弄一下，做菜我是真的不会啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "眼冒金星的主厨",
-   "text": "没事的，所谓的料理，最重要的就是注入“爱”！ 只要用心、有爱，谁都能做好！",
+   "text": "没事的，所谓的料理，最重要的就是注入“爱”！只要用心、有爱，谁都能做好！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哪有你说得那么容易啊…… 别、别拽我！主厨，你冷静点！！",
+   "text": "哪有你说得那么容易啊……别、别拽我！主厨，你冷静点！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "啊呜…… 咕嘟咕嘟……",
+   "text": "啊呜……咕嘟咕嘟……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "慌张的店员",
-   "text": "哎，那个谁，快把这些送到五号桌去。还有啊…… 咱们店今天的食材已经全都用光了…… 只能收摊截单了，麻烦你跟客人打个招呼吧！",
+   "text": "哎，那个谁，快把这些送到五号桌去。还有啊……咱们店今天的食材已经全都用光了……只能收摊截单了，麻烦你跟客人打个招呼吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "食材用完了？太好了，终于能从加菜地狱中解脱了…… 不，不对，我不是服务员啊！算了……",
+   "text": "食材用完了？太好了，终于能从加菜地狱中解脱了……不，不对，我不是服务员啊！算了……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嚼嚼…… 咕嘟。总算等到了！这道菜真是百吃不腻。 对了，我还要——",
+   "text": "嚼嚼……咕嘟。总算等到了！这道菜真是百吃不腻。对了，我还要——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "用完了？你是说…… 没法加菜了吗？肉和鱼都没有了吗？",
+   "text": "用完了？你是说……没法加菜了吗？肉和鱼都没有了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯嗯，今天就先回去…… 打猎？！",
+   "text": "嗯嗯，今天就先回去……打猎？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明明是你在那里头也不抬地大吃特吃，根本没发现我啊！ 算了，我迟到在先，不好意思。",
+   "text": "明明是你在那里头也不抬地大吃特吃，根本没发现我啊！算了，我迟到在先，不好意思。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "热情的店员",
-   "text": "客人，您看我们马上要打烊收摊了，这是小票—— 两位要是方便的话，现在结账可以吗？",
+   "text": "客人，您看我们马上要打烊收摊了，这是小票——两位要是方便的话，现在结账可以吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是我眼花了么，最后那行数字…… 后面的零是不是多得有点夸张了？",
+   "text": "是我眼花了么，最后那行数字……后面的零是不是多得有点夸张了？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "既然她的武器还留在这里，人应该还没走远吧…… 千万别是直接回去了啊！",
+   "text": "既然她的武器还留在这里，人应该还没走远吧……千万别是直接回去了啊！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +699,7 @@
   {
    "k": "talk",
    "speaker": "热情的店员",
-   "text": "呃…… 您打算怎么支付呢？",
+   "text": "呃……您打算怎么支付呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +731,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "风影？！太好了，你回来了…… 嗯？你手里拖着的是什么啊！",
+   "text": "风影？！太好了，你回来了……嗯？你手里拖着的是什么啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "眼冒金星的主厨",
-   "text": "天呐…… 瞧瞧这紧致的肌肉分布，还有这油光水滑的皮毛…… 不管是拿来烹饪还是做装备，都是最顶级的材料啊！这一只，起码就能值几百万朵拉！",
+   "text": "天呐……瞧瞧这紧致的肌肉分布，还有这油光水滑的皮毛……不管是拿来烹饪还是做装备，都是最顶级的材料啊！这一只，起码就能值几百万朵拉！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "要不算了吧，风影…… 而且吃太多容易闹肚子。这只熊就当饭钱抵给他们吧，而且这顿饭也确实不便宜，对吧？",
+   "text": "要不算了吧，风影……而且吃太多容易闹肚子。这只熊就当饭钱抵给他们吧，而且这顿饭也确实不便宜，对吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -779,7 +779,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "不会的，我从来没有闹过肚子…… 不过，既然魔<r=BOSS></r>王都这么说了，那就给你们吧！",
+   "text": "不会的，我从来没有闹过肚子……不过，既然魔<r=BOSS></r>王都这么说了，那就给你们吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -843,7 +843,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "魔<r=BOSS></r>王你不能吗？ 人在饥饿的时候，会自动消耗身体的脂肪的，我今天吃的可不只是今天的饭。",
+   "text": "魔<r=BOSS></r>王你不能吗？人在饥饿的时候，会自动消耗身体的脂肪的，我今天吃的可不只是今天的饭。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -867,7 +867,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "总之…… 你吃饱了就好。 说起来，你找我有什么事？",
+   "text": "总之……你吃饱了就好。说起来，你找我有什么事？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -875,7 +875,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "唔..... 现在已经没事了，我想要的...... 已经得到了呢。",
+   "text": "唔.....现在已经没事了，我想要的......已经得到了呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -883,7 +883,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "得到了？这是什么意思？ 算了，风影总是这样让人摸不到头脑。",
+   "text": "得到了？这是什么意思？算了，风影总是这样让人摸不到头脑。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -891,7 +891,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "话说回来…… 你刚才明明连武器都没带吧…… 你是怎么把这么大一头熊打倒的？",
+   "text": "话说回来……你刚才明明连武器都没带吧……你是怎么把这么大一头熊打倒的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

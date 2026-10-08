@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "卡特琳",
-   "text": "啊~今天的水果蛋挞卖相真不错，上面的水果就像宝石一样闪闪发亮。 你说是吧，埃莉诺？",
+   "text": "啊~今天的水果蛋挞卖相真不错，上面的水果就像宝石一样闪闪发亮。你说是吧，埃莉诺？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "薇薇安",
-   "text": "真是的…… 果然在发呆。我看你一直心不在焉，是有什么心事吗？",
+   "text": "真是的……果然在发呆。我看你一直心不在焉，是有什么心事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "不，我并没有什么特别的烦恼…… 啊。",
+   "text": "不，我并没有什么特别的烦恼……啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "那、那个…… 呃……",
+   "text": "那、那个……呃……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,10 @@
   {
    "k": "talk",
    "speaker": "薇薇安",
-   "text": "机会难得，在魔<r=BOSS></r>王大人来访期间，我们还可以邀请你来一起参加茶会。",
+   "text": {
+    "cn_f": "机会难得，在魔<r=BOSS></r>王大人来访期间，我们还可以邀请她来一起参加茶会。",
+    "cn_m": "机会难得，在魔<r=BOSS></r>王大人来访期间，我们还可以邀请他来一起参加茶会。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +350,7 @@
   {
    "k": "talk",
    "speaker": "薇薇安",
-   "text": "哎呀，埃莉诺脸都红了~难不成…… 是在害羞？",
+   "text": "哎呀，埃莉诺脸都红了~难不成……是在害羞？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +366,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "我、我哪有啊…… 真是的……",
+   "text": "我、我哪有啊……真是的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +390,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "所以我就想拜托埃莉诺教我两手。 我记得，你说过自己有上舞蹈课，对吧？",
+   "text": "所以我就想拜托埃莉诺教我两手。我记得，你说过自己有上舞蹈课，对吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +446,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "确实有道理。 但如果埃莉诺觉得为难的话，我也不能强求……",
+   "text": "确实有道理。但如果埃莉诺觉得为难的话，我也不能强求……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +462,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "虽、虽然是这样没错…… 不对，卡特琳！这件事不是说好了也要保密的吗……！",
+   "text": "虽、虽然是这样没错……不对，卡特琳！这件事不是说好了也要保密的吗……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +494,7 @@
   {
    "k": "talk",
    "speaker": "薇薇安",
-   "text": "明明还是初次见面，这般冒昧还请见谅…… 为了埃莉诺，我有一事相求，恳请您能帮忙。",
+   "text": "明明还是初次见面，这般冒昧还请见谅……为了埃莉诺，我有一事相求，恳请您能帮忙。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +502,7 @@
   {
    "k": "talk",
    "speaker": "薇薇安",
-   "text": "如果可以的话，能否请您挑选合适的时机，问问埃莉诺有什么烦恼？ 她最近老是唉声叹气，我们作为朋友真的很担心。",
+   "text": "如果可以的话，能否请您挑选合适的时机，问问埃莉诺有什么烦恼？她最近老是唉声叹气，我们作为朋友真的很担心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +606,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "那、那好吧…… 只要能帮上前辈的忙…… 我接受。",
+   "text": "那、那好吧……只要能帮上前辈的忙……我接受。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +670,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "烦恼吗……？ 倒也没什么……",
+   "text": "烦恼吗……？倒也没什么……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +686,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "啊…… 这话难不成是薇薇安对前辈说的？那卡特琳刚才一直缠着我说话，是因为……",
+   "text": "啊……这话难不成是薇薇安对前辈说的？那卡特琳刚才一直缠着我说话，是因为……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +718,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "前辈…… 其实，我……",
+   "text": "前辈……其实，我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +742,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "嗯，我想成为像前辈那样优秀的领导者！我还很不成熟…… 一想到自己的能力与前辈相距甚远，便一直为此感到苦恼。",
+   "text": "嗯，我想成为像前辈那样优秀的领导者！我还很不成熟……一想到自己的能力与前辈相距甚远，便一直为此感到苦恼。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +766,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔，总感觉…… 有哪里不太对劲。",
+   "text": "唔，总感觉……有哪里不太对劲。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +798,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "欸？！也没必要做到这种地步吧…… 而且不是还要上舞蹈课……",
+   "text": "欸？！也没必要做到这种地步吧……而且不是还要上舞蹈课……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -811,7 +814,7 @@
   {
    "k": "talk",
    "speaker": "埃莉诺",
-   "text": "啊…… 说得也是………… 那就请您多多指教了。",
+   "text": "啊……说得也是…………那就请您多多指教了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

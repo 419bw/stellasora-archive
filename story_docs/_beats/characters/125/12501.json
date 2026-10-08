@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "来吧，魔<r=BOSS></r>王。 这是我们最后的对决了。",
+   "text": "来吧，魔<r=BOSS></r>王。\n这是我们最后的对决了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "三、 二……",
+   "text": "三、二……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "早安，魔<r=BOSS></r>王。 暌违已久，愿您别来无恙。",
+   "text": "早安，魔<r=BOSS></r>王。\n暌违已久，愿您别来无恙。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "感谢您接受了我的委托。 今日多娜和特丽莎外出，您的到来解决了万送屋的燃眉之急。",
+   "text": "感谢您接受了我的委托。\n今日多娜和特丽莎外出，您的到来解决了万送屋的燃眉之急。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没关系，我很乐意当你们的“特邀嘉宾”。 我需要做些什么呢？",
+   "text": "没关系，我很乐意当你们的“特邀嘉宾”。\n我需要做些什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "我通常都是骑车送信，这样效率高一些。 平时我会停下来看地图，但今天时间紧任务重，只能麻烦您帮我指路了。",
+   "text": "我通常都是骑车送信，这样效率高一些。\n平时我会停下来看地图，但今天时间紧任务重，只能麻烦您帮我指路了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白了。让我看看地图…… 要去的地方还挺多嘛。",
+   "text": "明白了。让我看看地图……要去的地方还挺多嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "昨晚我计算过了，总计骑行五十七公里。 除去中途的休息时间，大约需要四个半小时。",
+   "text": "昨晚我计算过了，总计骑行五十七公里。\n除去中途的休息时间，大约需要四个半小时。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真是辛苦啊…… 不过，具体要我怎么指路呢？",
+   "text": "真是辛苦啊……\n不过，具体要我怎么指路呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "咳…… 我绝不会做那种对您不敬的行为。",
+   "text": "咳……\n我绝不会做那种对您不敬的行为。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 这、这只是加了个车后座而已吧！",
+   "text": "……\n这、这只是加了个车后座而已吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "装上车座后，我就可以载着您一起送信了。 后方的视野足够宽广，也便于您看路指路。",
+   "text": "装上车座后，我就可以载着您一起送信了。\n后方的视野足够宽广，也便于您看路指路。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我明白了。 那就辛苦你载我一程了。",
+   "text": "我明白了。\n那就辛苦你载我一程了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "您客气了，我们准备出发吧。 上车后，请您记得抓紧……",
+   "text": "您客气了，我们准备出发吧。\n上车后，请您记得抓紧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -287,7 +287,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "魔<r=BOSS></r>王，请下车吧，我们到了。 您的脸色似乎有些苍白……有哪里不舒服吗？",
+   "text": "魔<r=BOSS></r>王，请下车吧，我们到了。\n您的脸色似乎有些苍白……有哪里不舒服吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -295,7 +295,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没关系…… 我只是…… 有点晕车。",
+   "text": "没关系……\n我只是……有点晕车。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -311,7 +311,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "之后可以在后座加一个遮阳棚，避免阳光直射。 这样应该能减轻一些眩晕症状。",
+   "text": "之后可以在后座加一个遮阳棚，避免阳光直射。\n这样应该能减轻一些眩晕症状。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -319,7 +319,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "有没有可能…… 是你骑得太快了？ 刚刚下坡的时候，我们都快飞起来了。",
+   "text": "有没有可能……是你骑得太快了？\n刚刚下坡的时候，我们都快飞起来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -327,7 +327,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "原来如此。 我还以为下坡是冲刺的好时机呢。",
+   "text": "原来如此。\n我还以为下坡是冲刺的好时机呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -415,7 +415,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "掉链子、车把歪了、轮胎没气、车铃不响了…… 我总是要麻烦特丽莎把它修好。",
+   "text": "掉链子、车把歪了、轮胎没气、车铃不响了……\n我总是要麻烦特丽莎把它修好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -431,7 +431,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "我不喜欢…… 自己给别人添麻烦。",
+   "text": "我不喜欢……自己给别人添麻烦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -511,7 +511,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "下次…… 我一定会更小心的。",
+   "text": "下次……我一定会更小心的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

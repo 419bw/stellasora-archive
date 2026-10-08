@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是哪里……这个房间布置……我还在酒店里吗？ 可恶，被绑的好紧，完全动不了。",
+   "text": "这是哪里……这个房间布置……我还在酒店里吗？\n可恶，被绑的好紧，完全动不了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "醒过来花了五分二十秒。 不错，符合预期，魔<r=BOSS></r>王你的身体很健康呢。",
+   "text": "醒过来花了五分二十秒。不错，符合预期，魔<r=BOSS></r>王你的身体很健康呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +116,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "至于我为什么要扮成尘沙小姐的样子…… 也是出于无奈。",
+   "text": "至于我为什么要扮成尘沙小姐的样子……也是出于无奈。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -204,7 +204,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 原来如此。你就是那个幕后主使派来的刺客是吧？",
+   "text": "……原来如此。你就是那个幕后主使派来的刺客是吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +220,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "那是因为…… 我想要看清你这个人的本质。",
+   "text": "那是因为……我想要看清你这个人的本质。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +388,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "有的。意义…… 是有的。",
+   "text": "有的。意义……是有的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -444,7 +444,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "我再举一个可能性吧。 你所说的——“约定”，就算你愿意为此赌上性命，可对方呢？她可不见得一定会遵守这份约定吧，你能保证你们永远在一条船上吗？",
+   "text": "我再举一个可能性吧。你所说的——“约定”，就算你愿意为此赌上性命，可对方呢？她可不见得一定会遵守这份约定吧，你能保证你们永远在一条船上吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -468,7 +468,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "你的同伴——翡冷翠小姐，也会收到同样的条件。 你觉得她会不会选择从菲莱抽身呢？",
+   "text": "你的同伴——翡冷翠小姐，也会收到同样的条件。\n你觉得她会不会选择从菲莱抽身呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -484,7 +484,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "唔，翡冷翠的联络？ 有趣，你的手机果然如我观察的一样，可以和别的城邦的朋友通话。",
+   "text": "唔，翡冷翠的联络？\n有趣，你的手机果然如我观察的一样，可以和别的城邦的朋友通话。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -500,7 +500,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "还等什么，赶快接呀，你们可以好好谈谈了。 当“约定”被轻易打破时，你会露出什么表情呢？真期待啊……",
+   "text": "还等什么，赶快接呀，你们可以好好谈谈了。\n当“约定”被轻易打破时，你会露出什么表情呢？真期待啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -516,7 +516,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "很遗憾，你的那些妄想恐怕实现不了。 不过，能和翡冷翠通话，那倒是再好不过。",
+   "text": "很遗憾，你的那些妄想恐怕实现不了。\n不过，能和翡冷翠通话，那倒是再好不过。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -572,7 +572,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我就知道你会这么说。 你那边一直有爆炸的声音，有人在追杀你们吗？",
+   "text": "我就知道你会这么说。\n你那边一直有爆炸的声音，有人在追杀你们吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -580,7 +580,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "嗯，不过我们已经突破包围了。现在正要去和玛蒂尔达大监察官汇合。 看起来，大监察官也被人蒙蔽了呢。",
+   "text": "嗯，不过我们已经突破包围了。现在正要去和玛蒂尔达大监察官汇合。\n看起来，大监察官也被人蒙蔽了呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -588,7 +588,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "太好了。 不用担心我，等你们安定下来了再联系吧。",
+   "text": "太好了。不用担心我，等你们安定下来了再联系吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -692,7 +692,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是吗？我看你听得挺开心的。 总之，你那雇主提的条件，我和翡冷翠都拒绝了。",
+   "text": "是吗？我看你听得挺开心的。\n总之，你那雇主提的条件，我和翡冷翠都拒绝了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -716,7 +716,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我们不是约好了吗——“在晚宴结束前保护我的安全”。 这个约定，你还没有打破呢。",
+   "text": "我们不是约好了吗——“在晚宴结束前保护我的安全”。\n这个约定，你还没有打破呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -732,7 +732,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "确实…… 你从一开始就带着别的目的接近我，满嘴都是谎言。",
+   "text": "确实……你从一开始就带着别的目的接近我，满嘴都是谎言。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -748,7 +748,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你不仅干掉了那些跟踪我们的雇佣兵， 据我所知，你昨晚甚至还打晕了一帮沙蝎，保护我的安全。",
+   "text": "你不仅干掉了那些跟踪我们的雇佣兵，\n据我所知，你昨晚甚至还打晕了一帮沙蝎，保护我的安全。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -772,7 +772,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这个嘛……就当是我的个人爱好吧。 谢谢你满足了我的爱好，乙叶。",
+   "text": "这个嘛……就当是我的个人爱好吧。谢谢你满足了我的爱好，乙叶。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -788,7 +788,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "………… 我已经说得够多了，现在也轮到我问你个问题了吧，我只有一个问题要问。",
+   "text": "…………我已经说得够多了，现在也轮到我问你个问题了吧，我只有一个问题要问。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -812,7 +812,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我在乎的是—— 乙叶，你把花原怎么了？",
+   "text": "我在乎的是——乙叶，你把花原怎么了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -844,7 +844,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "花原……？！ 你和花原，不， 你和那个女仆关系有那么好吗？",
+   "text": "花原……？！你和花原，不，你和那个女仆关系有那么好吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -908,7 +908,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "万一…… 万一那个小女仆其实和我串通一气给你设套呢？",
+   "text": "万一……万一那个小女仆其实和我串通一气给你设套呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -924,7 +924,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "不是那种人？你又对她了解多少？ 谷风家政的女仆……无一例外，从小就活在无尽的阴谋和沉重的责任之中。",
+   "text": "不是那种人？你又对她了解多少？谷风家政的女仆……无一例外，从小就活在无尽的阴谋和沉重的责任之中。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1076,7 +1076,10 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "乙叶把手伸进我你的口袋，拿走了朵拉",
+   "text": {
+    "cn_f": "乙叶把手伸进我裙子的口袋，拿走了朵拉",
+    "cn_m": "乙叶把手伸进我裤子的口袋，拿走了朵拉"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

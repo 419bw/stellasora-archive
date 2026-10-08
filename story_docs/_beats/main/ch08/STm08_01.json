@@ -22,7 +22,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那要是我不是传说中的魔<r=mowang></r>王呢……？！ 你不就杀错人了？",
+   "text": "那要是我不是传说中的魔<r=mowang></r>王呢……？！你不就杀错人了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -30,7 +30,7 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "您说得没错。 可是——只要牺牲您一条命，或许就能拯救这个世界。 那么……我愿意赌上这个可能性。",
+   "text": "您说得没错。可是——只要牺牲您一条命，或许就能拯救这个世界。那么……我愿意赌上这个可能性。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -46,7 +46,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个时候再赎罪还有什么用？！ 这种事，简直太荒唐了……",
+   "text": "那个时候再赎罪还有什么用？！这种事，简直太荒唐了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -54,7 +54,7 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "您真的是个好人，我对您也没有任何私人恩怨。 所以，虽然很抱歉，但为了这个世界，还请您务必赴死，感激不尽。",
+   "text": "您真的是个好人，我对您也没有任何私人恩怨。所以，虽然很抱歉，但为了这个世界，还请您务必赴死，感激不尽。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -70,7 +70,7 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "希望这一次，能让您获得永恒的安眠。 永别了……魔<r=mowang></r>王。",
+   "text": "希望这一次，能让您获得永恒的安眠。永别了……魔<r=mowang></r>王。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -150,7 +150,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "怎么话题越扯越远了……？！ 魔<r=mowang></r>王勇者这都是什么乱七八糟的！",
+   "text": "怎么话题越扯越远了……？！魔<r=mowang></r>王勇者这都是什么乱七八糟的！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -278,7 +278,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "斩——！！ 主公，您没受伤吧？",
+   "text": "斩——！！主公，您没受伤吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -310,7 +310,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "千都世，别和她硬拼， 我们走。",
+   "text": "千都世，别和她硬拼，我们走。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -326,7 +326,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "污秽浊气...... 呵呵，我的确是个无可救药的女人，但只要能保护诺瓦......",
+   "text": "污秽浊气......呵呵，我的确是个无可救药的女人，但只要能保护诺瓦......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -556,7 +556,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "是的，不过你不用感谢我，你的主公还欠我一个小小的愿望。 如果你遇到什么不好的事情，我的愿望可就无处兑现了，我只是为了自己才救人的。",
+   "text": {
+    "cn_f": "是的，不过你不用感谢我，你的主公还欠我一个小小的愿望。如果她遇到什么不好的事情，我的愿望可就无处兑现了，我只是为了自己才救人的。",
+    "cn_m": "是的，不过你不用感谢我，你的主公还欠我一个小小的愿望。如果他遇到什么不好的事情，我的愿望可就无处兑现了，我只是为了自己才救人的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -610,7 +613,7 @@
   {
    "k": "talk",
    "speaker": "奥尔贝德",
-   "text": "…… 你就不能正经点找吗？",
+   "text": "……你就不能正经点找吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

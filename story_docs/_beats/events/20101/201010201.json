@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "寒冬凛冽，晶莹的雪花缓缓飘落。 白雪覆盖的街道之上，点缀着绚烂的节日装饰。",
+   "text": "寒冬凛冽，晶莹的雪花缓缓飘落。\n白雪覆盖的街道之上，点缀着绚烂的节日装饰。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "今天可是雪愿节，大家都有自己的安排了吧…… 咦？",
+   "text": "今天可是雪愿节，大家都有自己的安排了吧……咦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "啊啊…… 怎么会在这种时候碰见你。",
+   "text": "啊啊……怎么会在这种时候碰见你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那倒不用。 不过，你这副打扮是要去参加什么活动吗？",
+   "text": "那倒不用。不过，你这副打扮是要去参加什么活动吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "这可是雪愿节使者的服装。总之…… 是恩赐意志的任务啦。",
+   "text": "这可是雪愿节使者的服装。总之……是恩赐意志的任务啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "从烟囱里洒下神器…… 这么厉害吗？",
+   "text": "从烟囱里洒下神器……这么厉害吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "不知道为什么，这个任务常常落到我头上…… 今年也是一样。",
+   "text": "不知道为什么，这个任务常常落到我头上……今年也是一样。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "原本应该是两人一组，但刚刚领导突然跟我说人手不够，让我再去找个搭档…… 这可怎么办啊……",
+   "text": "原本应该是两人一组，但刚刚领导突然跟我说人手不够，让我再去找个搭档……这可怎么办啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那倒没有…… 只是看大家都去过节，我来街上逛逛。",
+   "text": "那倒没有……只是看大家都去过节，我来街上逛逛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃…… 为什么体验雪愿节要来恩赐意志啊？",
+   "text": "呃……为什么体验雪愿节要来恩赐意志啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "传统帽子…… 好吧，我戴就是了。",
+   "text": "传统帽子……好吧，我戴就是了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "只是个帽子而已…… 毕竟有的人穿得更夸张。",
+   "text": "只是个帽子而已……毕竟有的人穿得更夸张。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "哼，这次先放过你。我只是被熟人看见这副打扮有点不好意思而已…… 也不是讨厌这身衣服。",
+   "text": "哼，这次先放过你。我只是被熟人看见这副打扮有点不好意思而已……也不是讨厌这身衣服。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "但是你仔细想想，这个工作可不是谁都能胜任的。除了恩赐意志的员工…… 就只有像孩子一样心灵纯洁的人才能干！",
+   "text": "但是你仔细想想，这个工作可不是谁都能胜任的。除了恩赐意志的员工……就只有像孩子一样心灵纯洁的人才能干！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "好吧…… 那我只能跪下来求你了……",
+   "text": "好吧……那我只能跪下来求你了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "差不多吧…… 这次我负责哪块区域？",
+   "text": "差不多吧……这次我负责哪块区域？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "哼哼…… 今天的菈露大人可不一般，放心交给我吧！",
+   "text": "哼哼……今天的菈露大人可不一般，放心交给我吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "看起来数量不少啊…… 今天能全部送完吗？",
+   "text": "看起来数量不少啊……今天能全部送完吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "恩赐意志员工",
-   "text": "就是这个…… 大炮雪橇。",
+   "text": "就是这个……大炮雪橇。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +731,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "你跟我说实话…… 这是不是奥尔贝德的鬼点子？她想故意为难我？",
+   "text": "你跟我说实话……这是不是奥尔贝德的鬼点子？她想故意为难我？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +763,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯…… 说不定能派上用场。",
+   "text": "嗯……说不定能派上用场。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "魔<r=mowang></r>王…… 你又有什么馊主意了？",
+   "text": "魔<r=mowang></r>王……你又有什么馊主意了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "好吧…… 为了给孩子们送去梦想，我忍了！",
+   "text": "好吧……为了给孩子们送去梦想，我忍了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -803,7 +803,7 @@
   {
    "k": "talk",
    "speaker": "恩赐意志员工",
-   "text": "事不宜迟，你们还是赶紧出发吧。 雪愿节使者的任务可不能延期哦？",
+   "text": "事不宜迟，你们还是赶紧出发吧。\n雪愿节使者的任务可不能延期哦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -843,7 +843,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "来了来了。 对了，你可别忘了之后要带我逛街啊。",
+   "text": "来了来了。对了，你可别忘了之后要带我逛街啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

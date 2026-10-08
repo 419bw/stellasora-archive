@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "头衔好像是什么“高级顾问”之类的…… 如果没人的话，我就先走了。",
+   "text": "头衔好像是什么“高级顾问”之类的……如果没人的话，我就先走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "保险经理",
-   "text": "不用确认了。 我们不能让尊贵的客人久等。",
+   "text": "不用确认了。我们不能让尊贵的客人久等。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然知道是在演戏…… 但还是有些不习惯啊。",
+   "text": "虽然知道是在演戏……但还是有些不习惯啊。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "我就想给你买一份最贵的，收益最高的保险。",
+   "text": {
+    "cn_f": "我就想给她买一份最贵的，收益最高的保险。",
+    "cn_m": "我就想给他买一份最贵的，收益最高的保险。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +230,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "你是我投资的下一部影戏的主角。我们之间…… 还挺投缘的，对吧？",
+   "text": {
+    "cn_f": "她是我投资的下一部影戏的主角。我们之间……还挺投缘的，对吧？",
+    "cn_m": "他是我投资的下一部影戏的主角。我们之间……还挺投缘的，对吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +241,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那当然了…… 但是，这段关系必须保密，绝对不能传出去。",
+   "text": "那当然了……但是，这段关系必须保密，绝对不能传出去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +265,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "你看看你那张漂亮的脸蛋， 万一出了什么意外，将来可怎么办啊。",
+   "text": {
+    "cn_f": "你看看她那张漂亮的脸蛋，万一出了什么意外，将来可怎么办啊。",
+    "cn_m": "你看看他那张漂亮的脸蛋，万一出了什么意外，将来可怎么办啊。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +276,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "停停停…… 这也太近了吧！有必要这样捏我的手臂吗！",
+   "text": "停停停……这也太近了吧！有必要这样捏我的手臂吗！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +324,7 @@
   {
    "k": "talk",
    "speaker": "保险经理",
-   "text": "绝对不会！ 您可能不太了解，我们总公司位于金翎港，连续十年稳居行业第一。",
+   "text": "绝对不会！您可能不太了解，我们总公司位于金翎港，连续十年稳居行业第一。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +396,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "五百万…… 是乙叶先前交代的暗号。接下来才是重头戏。",
+   "text": "五百万……是乙叶先前交代的暗号。接下来才是重头戏。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +460,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 演戏可真消耗体力啊，还好顺利收场了。",
+   "text": "呼……演戏可真消耗体力啊，还好顺利收场了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +468,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "接下来…… 只要等乙叶从办公室里拿到想要的东西就好。",
+   "text": "接下来……只要等乙叶从办公室里拿到想要的东西就好。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +500,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我对自己的演技没什么信心啊…… 好吧，我会尽力而为的。",
+   "text": "我对自己的演技没什么信心啊……好吧，我会尽力而为的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +524,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她那么厉害…… 肯定没事。",
+   "text": "她那么厉害……肯定没事。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +548,7 @@
   {
    "k": "talk",
    "speaker": "惊讶的市民",
-   "text": "听说了听说了，好像已经被抓住了。 难怪我刚刚路过时，外面围了好多人，帝国卫队都来了。",
+   "text": "听说了听说了，好像已经被抓住了。难怪我刚刚路过时，外面围了好多人，帝国卫队都来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +556,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "他们说的…… 就是天穹保险那栋楼！",
+   "text": "他们说的……就是天穹保险那栋楼！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +564,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "乙叶…… 一定要平安无事啊！",
+   "text": "乙叶……一定要平安无事啊！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +588,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？是乙叶？那被抓住的…… 是谁？",
+   "text": "嗯？是乙叶？那被抓住的……是谁？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +628,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "怎么了？ 瞧你这气喘吁吁的样子。",
+   "text": {
+    "cn_f": "怎么了？瞧你这气喘吁吁的样子。",
+    "jp_f": "哎呀，怎么气喘吁吁的？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,10 +639,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "你一直没联系我，我担心出了什么事",
+   "prompt": "",
    "options": [
     [
-     "你一直没联系我，我担心出了什么事",
+     {
+      "cn_f": "你一直没联系我，我担心出了什么事",
+      "jp_f": "你一直没联系我，我担心出了什么事"
+     },
      "",
      ""
     ]
@@ -639,7 +654,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "真抱歉。 途中出了些小插曲， 比预想中多花了点时间。",
+   "text": {
+    "cn_f": "真抱歉。途中出了些小插曲，比预想中多花了点时间。",
+    "jp_f": "真抱歉，遇上了点小状况，比预想中多花了点时间。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -647,10 +665,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "那就好……你真的没受伤吗？",
+   "prompt": "",
    "options": [
     [
-     "那就好……你真的没受伤吗？",
+     {
+      "cn_f": "那就好……你真的没受伤吗？",
+      "jp_f": "那就好……你真的没受伤吗？"
+     },
      "",
      ""
     ]
@@ -659,7 +680,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵， 正如你所见， 我平安无事。",
+   "text": {
+    "cn_f": "呵呵，正如你所见，我平安无事。",
+    "jp_f": "呵呵……魔王，你好像是误会了什么呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +691,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "比起这个…… 难道你不好奇， 我究竟拿到了什么吗？",
+   "text": {
+    "cn_f": "比起这个……难道你不好奇，我究竟拿到了什么吗？",
+    "jp_f": "比起那个，我到手的东西究竟是什么，你不好奇吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +702,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "毕竟这可是与你息息相关的东西。",
+   "text": {
+    "cn_f": "毕竟这可是与你息息相关的东西。",
+    "jp_f": "那明明是……跟你有关的东西。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,10 +713,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "你这么一说，我确实有些好奇了……",
+   "prompt": "",
    "options": [
     [
-     "你这么一说，我确实有些好奇了……",
+     {
+      "cn_f": "你这么一说，我确实有些好奇了……",
+      "jp_f": "你这么一说，我确实有些好奇了……"
+     },
      "",
      ""
     ]
@@ -695,10 +728,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "不过，你会跟我说实话吗？",
+   "prompt": "",
    "options": [
     [
-     "不过，你会跟我说实话吗？",
+     {
+      "cn_f": "不过，你会跟我说实话吗？",
+      "jp_f": "不过，你会跟我说实话吗？"
+     },
      "",
      ""
     ]
@@ -707,7 +743,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 若是平常， 我大概会借此机会， 跟你谈条件吧……",
+   "text": {
+    "cn_f": "呵呵……若是平常，我大概会借此机会，跟你谈条件吧……",
+    "jp_f": "呵呵，若是平时的我应该会向你提出条件吧……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +754,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "但今天…… 不擅长说谎的你， 却为了配合我撒了谎。 唔， 就当作是对你这份心意的谢礼， 这次便特别对你坦诚一些吧。",
+   "text": {
+    "cn_f": "但今天……不擅长说谎的你，却为了配合我撒了谎。唔，就当作是对你这份心意的谢礼，这次便特别对你坦诚一些吧。",
+    "jp_f": "不过今天就当是给不惜撒下不擅长的谎，也要配合我的你的谢礼好了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,58 +765,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "我想，之后也不会习惯撒谎的",
+   "prompt": "",
    "options": [
     [
-     "我想，之后也不会习惯撒谎的",
-     "",
-     ""
-    ]
-   ]
-  },
-  {
-   "k": "choice",
-   "kind": "generic",
-   "prompt": "不过，今天还挺开心的",
-   "options": [
-    [
-     "不过，今天还挺开心的",
-     "",
-     ""
-    ]
-   ]
-  },
-  {
-   "k": "talk",
-   "speaker": "乙叶",
-   "text": "人只有在展现真实的时候， 才是最耀眼的。",
-   "thought": false,
-   "sticker": false,
-   "channel": "talk"
-  },
-  {
-   "k": "talk",
-   "speaker": "乙叶",
-   "text": "只可惜…… “真实”已经离我太过遥远了。",
-   "thought": false,
-   "sticker": false,
-   "channel": "talk"
-  },
-  {
-   "k": "talk",
-   "speaker": "乙叶",
-   "text": "就像是夜空中的圆月， 即便能看到， 也永远无法触及。",
-   "thought": false,
-   "sticker": false,
-   "channel": "talk"
-  },
-  {
-   "k": "choice",
-   "kind": "generic",
-   "prompt": "的确我们无法触及月亮。可是——",
-   "options": [
-    [
-     "虽然我们无法触碰月亮……",
+     {
+      "cn_f": "我想，之后也不会习惯撒谎的",
+      "jp_f": "我想，之后也不会习惯撒谎的"
+     },
      "",
      ""
     ]
@@ -783,10 +780,61 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "就算无法看见，在那里也有真实存在不是吗？",
+   "prompt": "",
    "options": [
     [
-     "却可以被月光照亮",
+     {
+      "cn_f": "不过，今天还挺开心的",
+      "jp_f": "不过，今天还挺开心的"
+     },
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": {
+    "cn_f": "人只有在展现真实的时候，才是最耀眼的。",
+    "jp_f": "人在展现自己真实的那一瞬间，才会成为最耀眼的存在。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": {
+    "cn_f": "只可惜……“真实”已经离我太过遥远了。",
+    "jp_f": "可是我的“真实”，却早已远去了。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乙叶",
+   "text": {
+    "cn_f": "就像是夜空中的圆月，即便能看到，也永远无法触及。",
+    "jp_f": "就像是夜空中的满月，即便能看到，也永远无法触及。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     {
+      "cn_f": "虽然我们无法触碰月亮……",
+      "jp_f": "的确我们无法触及月亮。可是——"
+     },
      "",
      ""
     ]
@@ -795,10 +843,28 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "那样的话就无需叹息了",
+   "prompt": "",
    "options": [
     [
-     "所以，真实依旧存在",
+     {
+      "cn_f": "却可以被月光照亮",
+      "jp_f": "就算无法看见，在那里也有真实存在不是吗？"
+     },
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     {
+      "cn_f": "所以，真实依旧存在",
+      "jp_f": "那样的话就无需叹息了"
+     },
      "",
      ""
     ]
@@ -807,7 +873,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 原来你是这样想的。 不愧是你。",
+   "text": {
+    "cn_f": "呵呵……原来你是这样想的。不愧是你。",
+    "jp_f": "呵呵。果然魔王你啊，是个坦诚的人呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -815,7 +884,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "你说得对， 真实与虚妄， 本就是一体两面。",
+   "text": {
+    "cn_f": "你说得对，真实与虚妄，本就是一体两面。",
+    "jp_f": "正如您所说，真实与虚伪本就是表里一体。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -823,7 +895,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "既然如此…… 便依你所言。 让我来感受一番， 此刻这久违的“真实”吧。",
+   "text": {
+    "cn_f": "既然如此……便依你所言。让我来感受一番，此刻这久违的“真实”吧。",
+    "jp_f": "那么就如你所说……此刻在这里的“真实”，就让我去感受一下吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -871,7 +946,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此…… 你拿到的那个东西，到底是什么呢？",
+   "text": "原来如此……你拿到的那个东西，到底是什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -879,7 +954,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "是他们在埃摩的业务方案计划书，或者说是—— 作恶的证据。",
+   "text": "是他们在埃摩的业务方案计划书，或者说是——作恶的证据。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -887,7 +962,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "其中包括：将含有容易制锈成分的润械油，品质低劣的螺栓和螺母大量投放到市场…… 导致旅人们在委托中受伤，借机推广意外保险。",
+   "text": "其中包括：将含有容易制锈成分的润械油，品质低劣的螺栓和螺母大量投放到市场……导致旅人们在委托中受伤，借机推广意外保险。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -919,7 +994,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "之前我打听到，他们的老大似乎对“魔王人力资源公司”很感兴趣。 但计划书里倒是没有和你有关的内容，我会继续调查的。",
+   "text": "之前我打听到，他们的老大似乎对“魔王人力资源公司”很感兴趣。但计划书里倒是没有和你有关的内容，我会继续调查的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -943,7 +1018,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过…… 我有一个疑问。",
+   "text": "不过……我有一个疑问。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1007,7 +1082,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这个嘛…… 虽然有点麻烦，但演戏也挺好玩的。",
+   "text": "这个嘛……虽然有点麻烦，但演戏也挺好玩的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1039,7 +1114,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "几天后，我在报纸上看到了揭露天穹保险不正当销售的报道， 公布了他们的计划书",
+   "text": "几天后，我在报纸上看到了揭露天穹保险不正当销售的报道，\n公布了他们的计划书",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "哼哼…… 哈哈哈哈哈！",
+   "text": "哼哼……哈哈哈哈哈！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "草莓牛奶、海盐柠檬汽水、冰咖啡…… 看起来都很好喝啊，不过……",
+   "text": "草莓牛奶、海盐柠檬汽水、冰咖啡……看起来都很好喝啊，不过……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "而且名字里还有“极光”， 喝了这个的话，我会不会变得像极光大人那么厉害呢……？",
+   "text": "而且名字里还有“极光”，喝了这个的话，我会不会变得像极光大人那么厉害呢……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是…… 饮料？",
+   "text": "这是……饮料？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "又是两罐…… 这种摆放方式，难道……",
+   "text": "又是两罐……这种摆放方式，难道……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "快点， 把我的——",
+   "text": "快点，把我的——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,10 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "不对不对不对……这个陷阱明明是用来对付那个邪恶坏蛋的，怎么会抓到你？",
+   "text": {
+    "cn_f": "不对不对不对……这个陷阱明明是用来对付那个邪恶坏蛋的，怎么会抓到她？",
+    "cn_m": "不对不对不对……这个陷阱明明是用来对付那个邪恶坏蛋的，怎么会抓到他？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +278,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "可恶，这样一来计划就彻底泡汤了…… 嗯？哎？",
+   "text": "可恶，这样一来计划就彻底泡汤了……嗯？哎？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +286,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "等等…… 仔细想想，我、我居然成功抓到了魔王？！",
+   "text": "等等……仔细想想，我、我居然成功抓到了魔王？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +294,10 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "现在立刻把你带回去的话，极光大人一定会夸奖我的！",
+   "text": {
+    "cn_f": "现在立刻把她带回去的话，极光大人一定会夸奖我的！",
+    "cn_m": "现在立刻把他带回去的话，极光大人一定会夸奖我的！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +305,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "呜……可是这样的话，就抓不到那个强盗了…… 呜呜……到底该怎么办才好啊……",
+   "text": "呜……可是这样的话，就抓不到那个强盗了……呜呜……到底该怎么办才好啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +361,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "糟糕，怎么还有别人过来…… 继续留在这里，肯定会被发现的！",
+   "text": "糟糕，怎么还有别人过来……继续留在这里，肯定会被发现的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +481,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢你，薇洛。 那个，能不能顺便拜托你一件事……",
+   "text": "谢谢你，薇洛。那个，能不能顺便拜托你一件事……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +521,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "呵呵，开玩笑的。你这副模样实在太有趣了，所以忍不住想多看一会…… 我这就放你下来。",
+   "text": "呵呵，开玩笑的。你这副模样实在太有趣了，所以忍不住想多看一会……我这就放你下来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +537,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 终于能站着说话了。",
+   "text": "呼……终于能站着说话了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +545,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "接下来…… 你还有什么安排吗？",
+   "text": "接下来……你还有什么安排吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +689,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "我一开始还以为你只是懒得下水，后来才意识到—— 魔王，你其实不太擅长游泳吧？",
+   "text": "我一开始还以为你只是懒得下水，后来才意识到——魔王，你其实不太擅长游泳吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +721,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "哼哼~ 你在说谎哦。",
+   "text": "哼哼~你在说谎哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

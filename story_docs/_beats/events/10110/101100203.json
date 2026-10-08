@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "咳……咳咳……海水……好苦…… 比错过了促销活动的心还要苦……",
+   "text": "咳……咳咳……海水……好苦……比错过了促销活动的心还要苦……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "这不是空白旅团吗？ 喂——你们还好吗？能听见我说话吗？！",
+   "text": "这不是空白旅团吗？喂——你们还好吗？能听见我说话吗？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "有、有救了…… 谢天谢地，这次应该不是幻觉了吧……",
+   "text": "有、有救了……谢天谢地，这次应该不是幻觉了吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "你们还有力气用绳子爬上来吗？ ……算了，我下去接你们。",
+   "text": "你们还有力气用绳子爬上来吗？……算了，我下去接你们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "下一个！ 快点快点，别在海里谦让了！",
+   "text": "下一个！快点快点，别在海里谦让了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "噫——说话好凶啊…… 不过花铃你人可真好，就是喜欢你这点……",
+   "text": "噫——说话好凶啊……不过花铃你人可真好，就是喜欢你这点……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "能脚踏实地坐在地面上…… 原来是如此幸福的一件事啊……",
+   "text": "能脚踏实地坐在地面上……原来是如此幸福的一件事啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我们遇上了暴风雨，船触礁了…… 其实薇洛本来也和我们在一起，可她为了救掉进海里的魔王，和我们失散了……",
+   "text": "我们遇上了暴风雨，船触礁了……其实薇洛本来也和我们在一起，可她为了救掉进海里的魔王，和我们失散了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "怎么办啊，万一你们真有什么不测……",
+   "text": {
+    "cn_f": "怎么办啊，万一她们真有什么不测……",
+    "cn_m": "怎么办啊，万一他们真有什么不测……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +278,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "希娅说得没错。 你们大概是在什么位置遭遇的暴风雨？当时的风向和洋流的流向呢？",
+   "text": "希娅说得没错。你们大概是在什么位置遭遇的暴风雨？当时的风向和洋流的流向呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +414,7 @@
   {
    "k": "talk",
    "speaker": "优叶",
-   "text": "再结合她们从度假村出发后的航行距离…… 失散的位置应该就在这一带……",
+   "text": "再结合她们从度假村出发后的航行距离……失散的位置应该就在这一带……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +446,7 @@
   {
    "k": "talk",
    "speaker": "优叶",
-   "text": "现在只能推断出是这个方位。要缩小范围的话，还是要去到…… 现场……确认…… 呜呕……",
+   "text": "现在只能推断出是这个方位。要缩小范围的话，还是要去到……现场……确认……呜呕……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +462,7 @@
   {
    "k": "talk",
    "speaker": "优叶",
-   "text": "视线一离开地图，就又开始晕船了…… 我、我先抱着地图去休息一会儿……",
+   "text": "视线一离开地图，就又开始晕船了……我、我先抱着地图去休息一会儿……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +478,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "花铃，希娅！我们终于联系上魔王和薇洛了，你们现在在一座荒岛上。",
+   "text": {
+    "cn_f": "花铃，希娅！我们终于联系上魔王和薇洛了，她们现在在一座荒岛上。",
+    "cn_m": "花铃，希娅！我们终于联系上魔王和薇洛了，他们现在在一座荒岛上。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +497,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "啊，我知道这个地方！唔…… 怎么偏偏是这座岛啊……",
+   "text": "啊，我知道这个地方！唔……怎么偏偏是这座岛啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +545,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "明白了，我相信你的专业判断。那就等海况允许后，我们再一起去接你们吧。",
+   "text": {
+    "cn_f": "明白了，我相信你的专业判断。那就等海况允许后，我们再一起去接她们吧。",
+    "cn_m": "明白了，我相信你的专业判断。那就等海况允许后，我们再一起去接他们吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +556,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "希娅，前面左舵二十度。 ……再加五，保持。",
+   "text": "希娅，前面左舵二十度。……再加五，保持。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +620,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "咳咳…… 那当然了！我们可是专业人士！",
+   "text": "咳咳……那当然了！我们可是专业人士！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +652,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "肯定是你们呀！",
+   "text": {
+    "cn_f": "肯定是她们呀！",
+    "cn_m": "肯定是他们呀！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +695,10 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "说的也是…… 好吧，只要你们平安无事，我也算是能松口气了——",
+   "text": {
+    "cn_f": "说的也是……好吧，只要她们平安无事，我也算是能松口气了——",
+    "cn_m": "说的也是……好吧，只要他们平安无事，我也算是能松口气了——"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +706,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "呜…… 还给我……把……把我的饮料还给我啊——！",
+   "text": "呜……还给我……把……把我的饮料还给我啊——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +730,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "这不应该是伙伴度过危机重新团聚的感人场景吗？ 为什么……",
+   "text": "这不应该是伙伴度过危机重新团聚的感人场景吗？为什么……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

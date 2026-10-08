@@ -13,6 +13,10 @@ import sys
 import json
 import re
 import shutil
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "story"))
+from pipeline.text_rules import clean_dialogue
 
 # Ensure UTF-8 output
 sys.stdout.reconfigure(encoding='utf-8')
@@ -99,35 +103,12 @@ EET_MAP = {
 }
 
 def clean_text(text):
-    if not text:
-        return ""
-    text = re.sub(r'<color=#[a-fA-F0-9]+>', '', text)
-    text = re.sub(r'</color>', '', text)
-    text = re.sub(r'<size=[^>]*>', '', text)
-    text = re.sub(r'</size>', '', text)
-    text = re.sub(r'<sprite[^>]*>', '', text)
-    text = re.sub(r'&Param\d+&', '[数值]', text)
-    text = re.sub(r'&Param\d+', '[数值]', text)
+    text = (text or '').replace('==DATING_CHARACTER==', ' ')
+    text = re.sub(r'&Param\d+&?', '[数值]', text)
     text = re.sub(r'##([^#]+)#\d+#', r'「\1」', text)
     text = text.replace('\x0b', '\n\n').replace('\r\n', '\n').replace('\r', '\n')
-    text = text.replace('==PLAYER_NAME==', '魔王')
-    text = re.sub(r'==SEX\d*==', '你', text)
-    text = re.sub(r'==[A-Z0-9_]+==', ' ', text)
-    return text.strip()
+    return clean_dialogue(text)
 
-def clean_dialogue(text):
-    if not text:
-        return ""
-    text = re.sub(r'</?size[^>]*>', '', text)
-    text = re.sub(r'</?color[^>]*>', '', text)
-    text = re.sub(r'<r=[^>]*>', '', text)
-    text = re.sub(r'</r>', '', text)
-    text = re.sub(r'<sprite[^>]*>', '', text)
-    text = text.replace('==PLAYER_NAME==', '魔王')
-    text = re.sub(r'==SEX\d*==', '你', text)
-    text = re.sub(r'==[A-Z0-9_]+==', ' ', text)
-    text = re.sub(r'[ \t]+', ' ', text)
-    return text.strip()
 
 def safe_write(filepath, content):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -286,11 +267,11 @@ def parse_lua_avg(script_name):
         if len(params) >= 4:
             result['episode'] = clean_dialogue(params[1])
             result['title'] = clean_dialogue(params[2])
-            result['recap'] = clean_dialogue(params[3].replace('==RT==', '\n'))
+            result['recap'] = clean_dialogue(params[3])
         elif len(params) >= 3:
             result['episode'] = clean_dialogue(params[0])
             result['title'] = clean_dialogue(params[1])
-            result['recap'] = clean_dialogue(params[2].replace('==RT==', '\n'))
+            result['recap'] = clean_dialogue(params[2])
 
     # 2. Parse Talk and Choices in sequence.
     #

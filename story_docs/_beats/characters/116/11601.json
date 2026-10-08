@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这地方…… 怎么像迷宫一样……",
+   "text": "这地方……怎么像迷宫一样……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "倒是没看到什么奇怪的植物…… 都是一些普通的蔬菜啊。",
+   "text": "倒是没看到什么奇怪的植物……都是一些普通的蔬菜啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "抓住你了！今天一定要把你脱粒！ 做好觉悟吧，偷菜贼！",
+   "text": "抓住你了！今天一定要把你脱粒！\n做好觉悟吧，偷菜贼！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈哈哈…… 没关系，谁都会有看走眼的时候。 总之你先把铲子收起来……",
+   "text": "哈哈哈……没关系，谁都会有看走眼的时候。\n总之你先把铲子收起来……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "噢…… 好~真的对不起啦……",
+   "text": "噢……好~真的对不起啦……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哦，哦……！ 那我就不客气了……",
+   "text": "哦，哦……！那我就不客气了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "不愧是魔<r=BOSS></r>王，吃得真香啊～ 喜欢吗？会不会不够？我再去给你拿一些吧。",
+   "text": "不愧是魔<r=BOSS></r>王，吃得真香啊～\n喜欢吗？会不会不够？我再去给你拿一些吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "对了…… 委托。",
+   "text": "对了……委托。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个，岭川…… 这个温室…… 是不是有点不对劲啊……？",
+   "text": "那个，岭川……\n这个温室……是不是有点不对劲啊……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "差、差点就掉进去了， 这种地方居然有陷阱……",
+   "text": "差、差点就掉进去了，\n这种地方居然有陷阱……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "然后…… 一不小心就装多了点~",
+   "text": "然后……一不小心就装多了点~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "先不说这个了…… 到了，这边就是我的试验田。",
+   "text": "先不说这个了……\n到了，这边就是我的试验田。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔…… 虽然很想帮忙…… 可我不懂农活啊……",
+   "text": "唔……虽然很想帮忙……\n可我不懂农活啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "提高产量的方法啊…… 仔细想想，之前在星塔里好像还真看过这方面的书，内容是什么来着……",
+   "text": "提高产量的方法啊……仔细想想，之前在星塔里好像还真看过这方面的书，内容是什么来着……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "嗯嗯，我懂了！ 也就是说，把高产品种进行杂交改良就行了对吧！",
+   "text": "嗯嗯，我懂了！\n也就是说，把高产品种进行杂交改良就行了对吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "顺便重新评估各品种在不同环境下的表现，确认肥料适配性…… 让效果最大化的话，一定能……！",
+   "text": "顺便重新评估各品种在不同环境下的表现，确认肥料适配性……\n让效果最大化的话，一定能……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "有、有这么夸张吗？ 不过能帮上忙就好。",
+   "text": "有、有这么夸张吗？\n不过能帮上忙就好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "嗯。突然用玉米可能不太保险。 既然叫“豌豆实验”，就先用豌豆试试看吧。",
+   "text": "嗯。突然用玉米可能不太保险。\n既然叫“豌豆实验”，就先用豌豆试试看吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "——那就这样！ 这些全—— 部都送给你吃！",
+   "text": "——那就这样！\n这些全——部都送给你吃！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哦、哦……还是这么多啊…… 总之谢谢。",
+   "text": "哦、哦……还是这么多啊……\n总之谢谢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "满满一车的瓜果蔬菜啊…… 有这么多的话，短期内应该不用为食物发愁了。",
+   "text": "满满一车的瓜果蔬菜啊……\n有这么多的话，短期内应该不用为食物发愁了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈哈哈…… 再拿的话就带不回去了， 心意我领了。",
+   "text": "哈哈哈……再拿的话就带不回去了，\n心意我领了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

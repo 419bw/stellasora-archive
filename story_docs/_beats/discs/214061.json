@@ -22,7 +22,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "艾蕾，厨房打扫完了哦~ 接下来还有哪要帮忙？",
+   "text": "艾蕾，厨房打扫完了哦~接下来还有哪要帮忙？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -30,7 +30,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "嗯…… 那就拜托你再整理一下书架可以吗？ 呵呵，今天的大扫除多亏了有魔<r=BOSS></r>王，真是帮大忙了呢！",
+   "text": "嗯……那就拜托你再整理一下书架可以吗？呵呵，今天的大扫除多亏了有魔<r=BOSS></r>王，真是帮大忙了呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -54,7 +54,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？ 这本书…… 封皮上怎么没书名？ 而且书里面竟然也都是白纸。",
+   "text": "嗯？这本书……封皮上怎么没书名？而且书里面竟然也都是白纸。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -78,7 +78,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "呵呵，毕竟全是白纸嘛，你觉得奇怪也很正常。 正好，也到了该休息的时间了，魔<r=BOSS></r>王想听听空白旅团小时候的故事吗？",
+   "text": "呵呵，毕竟全是白纸嘛，你觉得奇怪也很正常。正好，也到了该休息的时间了，魔<r=BOSS></r>王想听听空白旅团小时候的故事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -86,7 +86,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊…… 我的确有兴趣，但这样会不会不太好……",
+   "text": "啊……我的确有兴趣，但这样会不会不太好……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -94,7 +94,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "放心好了，肯定不介意告诉你的。 那是，我刚建立“灰城孤儿院”没多久的时候——",
+   "text": "放心好了，肯定不介意告诉你的。那是，我刚建立“灰城孤儿院”没多久的时候——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -238,7 +238,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "那当然了。 只是去买本书，很快就能回来， 我出门喽~",
+   "text": "那当然了。只是去买本书，很快就能回来，我出门喽~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -270,7 +270,7 @@
   {
    "k": "talk",
    "speaker": "书摊老板",
-   "text": "真是不好意思……我们这最近一直进不到货。 毕竟，本来就没多少旅人会去特意许愿书籍……",
+   "text": "真是不好意思……我们这最近一直进不到货。毕竟，本来就没多少旅人会去特意许愿书籍……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -310,7 +310,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "终于找到许愿箱了！ 虽然花费的时间比预想中的多了些，但起码是找到了……",
+   "text": "终于找到许愿箱了！虽然花费的时间比预想中的多了些，但起码是找到了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -326,7 +326,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "万能的恩赐之神啊，我虔诚地向您许下愿望。 请赐予我—— 一本能让尘沙、琥珀与鸢尾都喜欢的绘本故事书。",
+   "text": "万能的恩赐之神啊，我虔诚地向您许下愿望。请赐予我——一本能让尘沙、琥珀与鸢尾都喜欢的绘本故事书。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -334,7 +334,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "这个声音，许愿箱打开了。 让我看看，恩赐之神会赐予我们什么样的书呢……",
+   "text": "这个声音，许愿箱打开了。让我看看，恩赐之神会赐予我们什么样的书呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -366,7 +366,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "这下可麻烦了…… 明明都和孩子们约好了，现在难道要再去找一个许愿箱吗？",
+   "text": "这下可麻烦了……明明都和孩子们约好了，现在难道要再去找一个许愿箱吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -390,7 +390,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "还好没有继续找，没想到太阳都已经下山了…… 孩子们肯定担心坏了。得抓紧时间赶回去——",
+   "text": "还好没有继续找，没想到太阳都已经下山了……孩子们肯定担心坏了。得抓紧时间赶回去——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -630,7 +630,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "可我们却……连和妈妈的约定都遵守不了， 对不起妈妈……",
+   "text": "可我们却……连和妈妈的约定都遵守不了，对不起妈妈……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -670,7 +670,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "没关系的，鸢尾。 等等……说不定……",
+   "text": "没关系的，鸢尾。等等……说不定……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -678,7 +678,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "——我明白了。 如果是这样的话，一定能让孩子们都开心起来吧。",
+   "text": "——我明白了。如果是这样的话，一定能让孩子们都开心起来吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -774,7 +774,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "真不错。那就这么办。 “尘沙和鸢尾乘着船出发去冒险。在船上，她们遇上了带着猫咪的琥珀，于是三人成为了好朋友。”",
+   "text": "真不错。那就这么办。“尘沙和鸢尾乘着船出发去冒险。在船上，她们遇上了带着猫咪的琥珀，于是三人成为了好朋友。”",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -790,7 +790,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "这是属于你们的故事。你们可以尽情去描绘属于自己的梦想…… 所以这本书才叫做“空白绘本”啊。",
+   "text": "这是属于你们的故事。你们可以尽情去描绘属于自己的梦想……所以这本书才叫做“空白绘本”啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -830,7 +830,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "现在想想，我当时还抱怨过…… 还真是有些过意不去。",
+   "text": "现在想想，我当时还抱怨过……还真是有些过意不去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

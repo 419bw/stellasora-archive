@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头领",
-   "text": "太好了…… 真是太好了……",
+   "text": "太好了……真是太好了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头领",
-   "text": "咦？你是说你的这台自动售货神器，可以无限出饮料？这…… 这么神奇的吗？",
+   "text": "咦？你是说你的这台自动售货神器，可以无限出饮料？这……这么神奇的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "度假村的怪异事件 、惊心动魄的夏日冒险、战胜大海的航海旅人、沉睡在漩涡深处的神秘星塔…… 这些可都是能吸引眼球的大好题材。",
+   "text": "度假村的怪异事件、惊心动魄的夏日冒险、战胜大海的航海旅人、沉睡在漩涡深处的神秘星塔……这些可都是能吸引眼球的大好题材。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "《晴风碧海 · 悠哉盛夏依然打卡~》、 《欢歌劲浪 · 闪耀假日惊涛探险！》—— 专题名我都已经想好了！",
+   "text": "《晴风碧海 · 悠哉盛夏依然打卡~》、《欢歌劲浪 · 闪耀假日惊涛探险！》——\n专题名我都已经想好了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "呀——人家的小心思一眼就被看得透透的啦~ 不愧是魔<r=BOSS></r>王~",
+   "text": "呀——人家的小心思一眼就被看得透透的啦~不愧是魔<r=BOSS></r>王~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -393,7 +393,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "确实…… 仔细想想只有炒面的话有点单调了。",
+   "text": "确实……仔细想想只有炒面的话有点单调了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -409,7 +409,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "停停停，点这么多吃得下吗？唔…… 我都被你说得有点饿了……",
+   "text": "停停停，点这么多吃得下吗？唔……我都被你说得有点饿了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -461,7 +461,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "我现在需要的是阳光、海风， 还有一杯冰饮带来的创作氛围！",
+   "text": "我现在需要的是阳光、海风，还有一杯冰饮带来的创作氛围！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -501,7 +501,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "救命啊…… 谁来救救我……",
+   "text": "救命啊……谁来救救我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,10 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "没事，刚刚好像听到了魔<r=BOSS></r>王的声音，你应该也玩得很开心吧。",
+   "text": {
+    "cn_f": "没事，刚刚好像听到了魔<r=BOSS></r>王的声音，她应该也玩得很开心吧。",
+    "cn_m": "没事，刚刚好像听到了魔<r=BOSS></r>王的声音，他应该也玩得很开心吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +558,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "真是个地图脑袋…… 我还特地拿了鱿鱼米饼想让她尝尝呢，算了……",
+   "text": "真是个地图脑袋……我还特地拿了鱿鱼米饼想让她尝尝呢，算了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

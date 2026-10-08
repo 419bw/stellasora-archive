@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "醒醒，琥珀，醒一醒！ 你怎么趴在桌子上睡着了？",
+   "text": "醒醒，琥珀，醒一醒！你怎么趴在桌子上睡着了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "一个小时前魔<r=BOSS></r>王就说要到了，这都过去好久了。再不回来的话，我真要去找你了！",
+   "text": {
+    "cn_f": "一个小时前魔<r=BOSS></r>王就说要到了，这都过去好久了。再不回来的话，我真要去找她了！",
+    "cn_m": "一个小时前魔<r=BOSS></r>王就说要到了，这都过去好久了。再不回来的话，我真要去找他了！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +54,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "快、快去海滩……！ 魔<r=BOSS></r>王回来了！！",
+   "text": "快、快去海滩……！魔<r=BOSS></r>王回来了！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +78,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "对不起！我替尘沙向你道歉…… 尘沙也真是的，没点眼力见儿！",
+   "text": "对不起！我替尘沙向你道歉……尘沙也真是的，没点眼力见儿！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +86,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "岂止是没眼力，耳朵也不好使啊！ 喂！好好听人说话啊！",
+   "text": "岂止是没眼力，耳朵也不好使啊！喂！好好听人说话啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +94,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "呜哇——不愧是帮了魔<r=BOSS></r>王大忙的小花铃呢～♪ 手感好好啊~软软的最棒了！",
+   "text": "呜哇——不愧是帮了魔<r=BOSS></r>王大忙的小花铃呢～♪\n手感好好啊~软软的最棒了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +110,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "一百三十七、 一百三十八……",
+   "text": "一百三十七、一百三十八……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -375,7 +378,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "她最后那句话，是想和魔<r=BOSS></r>王说什么？ “我们是……？”",
+   "text": "她最后那句话，是想和魔<r=BOSS></r>王说什么？\n“我们是……？”",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -383,7 +386,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "算了，不想了， 还是去买瓶海滨限定的饮料吧！",
+   "text": "算了，不想了，还是去买瓶海滨限定的饮料吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

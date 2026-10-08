@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "啊，魔<r=BOSS></r>王！ 往这边，这边！",
+   "text": "啊，魔<r=BOSS></r>王！\n往这边，这边！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "快看，这是我之前种的豌豆喔！ 已经长这么大了！",
+   "text": "快看，这是我之前种的豌豆喔！\n已经长这么大了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "环顾四周，在岭川的试验田里，分区种了不同的豌豆。 有的还只是刚冒出土的小苗，有的则已长得接近一人高了。",
+   "text": "环顾四周，在岭川的试验田里，分区种了不同的豌豆。\n有的还只是刚冒出土的小苗，有的则已长得接近一人高了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "想不到的还在后头喔！ 最近，我额外用了一些促进生长的营养剂！",
+   "text": "想不到的还在后头喔！\n最近，我额外用了一些促进生长的营养剂！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "这些营养剂的使用方式、产生的效果区别很大…… 所以这些豌豆的生长情况也有好大差异——保证让你大吃一惊！",
+   "text": "这些营养剂的使用方式、产生的效果区别很大……所以这些豌豆的生长情况也有好大差异——保证让你大吃一惊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "其中最厉害的…… 嘻嘻……",
+   "text": "其中最厉害的……嘻嘻……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好、好大！ 话说豌豆能长得这么大吗？这都要比树还高了！",
+   "text": "好、好大！\n话说豌豆能长得这么大吗？这都要比树还高了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "随着吆喝，岭川把促进剂浓缩液、和其他看不懂成分的材料调在了一起，然后洒向了巨大豌豆根旁的土里…… 接着就是…… 等待。",
+   "text": "随着吆喝，岭川把促进剂浓缩液、和其他看不懂成分的材料调在了一起，然后洒向了巨大豌豆根旁的土里……接着就是……等待。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "唔…… 还是没反应啊……",
+   "text": "唔……还是没反应啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "用魔力…… 真的没问题吗？",
+   "text": "用魔力……真的没问题吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "肯定没问题啦！ 我经常这么干！",
+   "text": "肯定没问题啦！\n我经常这么干！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但愿如此…… 等等，是地震吗？",
+   "text": "但愿如此……等等，是地震吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "什……？！ 巨型豌豆居然…… 动起来了……？！",
+   "text": "什……？！\n巨型豌豆居然……动起来了……？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "呜哇！ 好、好痛…… 效果和我预想的不一样， 怎么会变成这样……",
+   "text": {
+    "cn_f": "呜哇！好、好痛……效果和我预想的不一样，怎么会变成这样……",
+    "jp_f": "噫~~唔……！好痛啊……！为、为什么事情会变成这样……？！明明不应该是这样的……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +254,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "的确激发了活性…… 可这方向完全不受控制了啊！",
+   "text": {
+    "cn_f": "的确激发了活性……\n可这方向完全不受控制了啊！",
+    "jp_f": "虽然我是很开心能培育得这么大……\n可是我完全没想过它会这样动起来啊……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,10 +265,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "没事吧？！我这就来救你！",
+   "prompt": "",
    "options": [
     [
-     "没事吧？我现在就来帮你！",
+     {
+      "cn_f": "没事吧？我现在就来帮你！",
+      "jp_f": "没事吧？！我这就来救你！"
+     },
      "",
      ""
     ]
@@ -271,7 +280,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "啊…… 等、等一下！ 别动那边…… 别、 别这么用力啊！",
+   "text": {
+    "cn_f": "啊……等、等一下！别动那边……别、别这么用力啊！",
+    "jp_f": "啊……等、等等……唔！\n那里不行……不、不要这么用力地拉扯啊……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -279,7 +291,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "你拉扯得越用力…… 它们缠得就越紧…… 啊…… 等、等一下！",
+   "text": {
+    "cn_f": "你拉扯得越用力……它们缠得就越紧……啊……等、等一下！",
+    "jp_f": "这么强硬地拉扯的话……\n反而会缠得更紧……啊，等、等一下啊……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -287,7 +302,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "呜…… 比刚才还勒得紧， 好痛…… 我难道一辈子都要被捆在这里了吗？",
+   "text": {
+    "cn_f": "呜……比刚才还勒得紧，好痛……我难道一辈子都要被捆在这里了吗？",
+    "jp_f": "唔、唔嗯嗯呢……缠得好紧……\n我，到底会变成什么样啊……？！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -295,10 +313,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "对不起，我这边也是尽力了……",
+   "prompt": "",
    "options": [
     [
-     "不行，缠太紧了根本解不开",
+     {
+      "cn_f": "不行，缠太紧了根本解不开",
+      "jp_f": "对不起，我这边也是尽力了……"
+     },
      "",
      ""
     ]
@@ -307,7 +328,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "啊！ 别、别往那边去啊！ 快住手， 豌豆十三号！ 你要是再不松开， 我可要生气了哦！",
+   "text": {
+    "cn_f": "啊！别、别往那边去啊！快住手，豌豆十三号！你要是再不松开，我可要生气了哦！",
+    "jp_f": "呀啊……！那种地方，要是被缠住了……真、真是的……！豌豆十三号？要是再不放开我的话，我可要生气了哦？可以吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +339,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "我生起气来可是很可怕的…… 会把你摘下来炒菜， 然后全都吃掉哦？",
+   "text": {
+    "cn_f": "我生起气来可是很可怕的……会把你摘下来炒菜，然后全都吃掉哦？",
+    "jp_f": "我要是生气的话……就要把豌豆十三号，炒成菜，然后全部吃掉哦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,10 +350,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "哦哦！平时温厚的岭川发火了！",
+   "prompt": "",
    "options": [
     [
-     "哦哦！平时温柔的岭川竟然发火了！？",
+     {
+      "cn_f": "哦哦！平时温柔的岭川竟然发火了！？",
+      "jp_f": "哦哦！平时温厚的岭川发火了！"
+     },
      "",
      ""
     ]
@@ -335,7 +365,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "欸？ 啊啊啊！ 好痛， 好痛啊！ 怎么越缠越紧啊！ 豌豆十三号？！ 你…… 你该不会也生气了吧？",
+   "text": {
+    "cn_f": "欸？啊啊啊！好痛，好痛啊！怎么越缠越紧啊！豌豆十三号？！你……你该不会也生气了吧？",
+    "jp_f": "诶？啊，等……！好痛！好痛啊啊啊啊！好痛好痛好痛！豌豆十三号？难道说……你生气了？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -343,7 +376,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "啊哈哈…… 那个， 刚才说要吃掉你 只是开玩笑啦…… 我们还是好好相处吧？",
+   "text": {
+    "cn_f": "啊哈哈……那个，刚才说要吃掉你只是开玩笑啦……我们还是好好相处吧？",
+    "jp_f": "啊哈哈哈……讨、讨厌啦，吃掉你什么的只是开玩笑啦……呐？我们好好相处吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -351,7 +387,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "呜！ 不、不行…… 啊， 不要再继续了！ 我、我投降！我投降……",
+   "text": {
+    "cn_f": "呜！不、不行……啊，不要再继续了！我、我投降！我投降……",
+    "jp_f": "呀啊！？不、不行……我要、撑不住了……！我、我投降！我投降了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -359,7 +398,10 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "呜呜呜！ 魔王， 快想想办法……",
+   "text": {
+    "cn_f": "呜呜呜！魔王，快想想办法……",
+    "jp_f": "噫噫！魔王大人，救救我啊！！！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -367,7 +409,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "得马上帮她！ 可是…… 有什么办法……！",
+   "text": "得马上帮她！\n可是……有什么办法……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -399,7 +441,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "喂，那边的树树鼠！ 听我说——！",
+   "text": "喂，那边的树树鼠！\n听我说——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -415,7 +457,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊，跑得也太快了…… 啧，看来靠别人…… 不对， 靠魔物是靠不住的啊……！",
+   "text": "啊，跑得也太快了……啧，看来靠别人……不对，\n靠魔物是靠不住的啊……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -431,7 +473,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "可恶！还是不行…… 只靠我一个人没办法吗……？",
+   "text": "可恶！还是不行……\n只靠我一个人没办法吗……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -439,7 +481,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "去喊人来？但时间来不及了…… 考虑到岭川的体力，现在必须分秒必争——",
+   "text": "去喊人来？但时间来不及了……\n考虑到岭川的体力，现在必须分秒必争——",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -495,7 +537,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "转眼间，失控的巨大豌豆就被撕咬得七零八落， 岭川终于成功获救了。",
+   "text": "转眼间，失控的巨大豌豆就被撕咬得七零八落，\n岭川终于成功获救了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -519,7 +561,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "它们帮完忙就走了啊。 说不定，真的是为了报答之前投喂过它们的恩情……",
+   "text": "它们帮完忙就走了啊。\n说不定，真的是为了报答之前投喂过它们的恩情……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -527,7 +569,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "嗯，也许吧…… 这下算是两不相欠了吧……？",
+   "text": "嗯，也许吧……\n这下算是两不相欠了吧……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -535,7 +577,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "先不说这个…… 我们继续做豌豆实验吧，魔<r=BOSS></r>王！",
+   "text": "先不说这个……\n我们继续做豌豆实验吧，魔<r=BOSS></r>王！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -559,7 +601,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "虽然这次出了一点…… 问题…… 但也给了我很多启发，必须好好利用起来！",
+   "text": "虽然这次出了一点……问题……但也给了我很多启发，必须好好利用起来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -567,7 +609,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "能吸取教训是好事啦…… 但这真的只是“一点”问题的程度吗？",
+   "text": "能吸取教训是好事啦……\n但这真的只是“一点”问题的程度吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -575,7 +617,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "而且，品种改良这种大事，本来就是得一步步来的！ 只是这种程度的挫折，可不能就这样放弃啊！",
+   "text": "而且，品种改良这种大事，本来就是得一步步来的！\n只是这种程度的挫折，可不能就这样放弃啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -583,7 +625,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "所以！为了今后能继续增加粮食储备， 一起加油吧，魔<r=BOSS></r>王！",
+   "text": "所以！为了今后能继续增加粮食储备，\n一起加油吧，魔<r=BOSS></r>王！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -591,7 +633,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔，嗯！这份志向确实值得赞赏，还请努力…… 等等，我也要一起吗？！",
+   "text": "唔，嗯！这份志向确实值得赞赏，还请努力……\n等等，我也要一起吗？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -599,7 +641,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "没错！我好像有一点冒冒失失的…… 有你在身边就安心啦！",
+   "text": "没错！我好像有一点冒冒失失的……\n有你在身边就安心啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -607,7 +649,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "只是“一点”吗？哎，对你也确实放心不下啊…… 好吧，我以后也会来偶尔帮个忙的。",
+   "text": "只是“一点”吗？哎，对你也确实放心不下啊……\n好吧，我以后也会来偶尔帮个忙的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -623,7 +665,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "看～！这一车的菜—— 全都送给你！",
+   "text": "看～！这一车的菜——全都送给你！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -631,7 +673,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这，这么多？！ 不不，这未免也太不好意思了……！",
+   "text": "这，这么多？！  \n不不，这未免也太不好意思了……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -647,7 +689,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "魔<r=BOSS></r>王已经是我的“农友”了， 农友之间，就该要一起分享美味才对！",
+   "text": "魔<r=BOSS></r>王已经是我的“农友”了，\n农友之间，就该要一起分享美味才对！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

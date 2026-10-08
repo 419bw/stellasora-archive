@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "呜、呜哇啊啊啊…… 腿好酸，我想回家……",
+   "text": "呜、呜哇啊啊啊……腿好酸，我想回家……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "年轻父亲",
-   "text": "不要太任性了！ 这样你怎么长大！？",
+   "text": "不要太任性了！这样你怎么长大！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她推着的是…… 一个大茶桶？",
+   "text": "她推着的是……一个大茶桶？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "希望大家吃得开心~ 喝得开心~",
+   "text": "希望大家吃得开心~喝得开心~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此，还有这招啊。 刚才那对吵架的父女呢？不知道他们怎么样了。",
+   "text": "原来如此，还有这招啊。刚才那对吵架的父女呢？不知道他们怎么样了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "我…… 我全都要……",
+   "text": "我……我全都要……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不愧是人气餐馆的店长，处理得真漂亮 ——嗯？",
+   "text": "不愧是人气餐馆的店长，处理得真漂亮——嗯？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "嗯……？嗯嗯嗯……？？？好像比以前更甜更好吃了~ 该不会秦爷爷又升级了配方吧？",
+   "text": "嗯……？嗯嗯嗯……？？？好像比以前更甜更好吃了~\n该不会秦爷爷又升级了配方吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哇，好火爆的生意。 这“人气第一”，看来还真不是吹的。",
+   "text": "哇，好火爆的生意。这“人气第一”，看来还真不是吹的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "有偏向我们龙裔口味的“传统版”，和适合普通人的“改良版”两种…… 魔<r=BOSS></r>王第一次来，推荐选“改良版”哦！",
+   "text": "有偏向我们龙裔口味的“传统版”，和适合普通人的“改良版”两种……\n魔<r=BOSS></r>王第一次来，推荐选“改良版”哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,10 @@
   {
    "k": "talk",
    "speaker": "路过的食客",
-   "text": "不可能吧……你看起来也不像龙裔，那种口味肯定吃不消。我劝你还是不要挑战了！",
+   "text": {
+    "cn_f": "不可能吧……她看起来也不像龙裔，那种口味肯定吃不消。我劝你还是不要挑战了！",
+    "cn_m": "不可能吧……他看起来也不像龙裔，那种口味肯定吃不消。我劝你还是不要挑战了！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +702,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "一 壶 龙 裔 生 茶。",
+   "text": "一  壶  龙 裔 生 茶。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

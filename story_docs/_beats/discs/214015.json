@@ -94,7 +94,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "对方的声音好像很激动。我好像没做什么会挨骂的事情吧…… 难道来错地方了？",
+   "text": "对方的声音好像很激动。我好像没做什么会挨骂的事情吧……难道来错地方了？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -142,7 +142,7 @@
   {
    "k": "talk",
    "speaker": "守林人",
-   "text": "哎呀，总算能放心了。这座山一直都很安宁， 可最近不知道从哪儿冒出了凶残的魔物……",
+   "text": "哎呀，总算能放心了。这座山一直都很安宁，可最近不知道从哪儿冒出了凶残的魔物……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -150,7 +150,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃…… 魔物？",
+   "text": "呃……魔物？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -238,7 +238,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是从那边的小屋传来的…… 难道是魔物？",
+   "text": "是从那边的小屋传来的……难道是魔物？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -302,7 +302,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "假设导致异变的原因就是那只魔物，我们可以合作。如何？ 你一个人也没法对付吧？",
+   "text": "假设导致异变的原因就是那只魔物，我们可以合作。如何？你一个人也没法对付吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -342,7 +342,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "这家伙…… 一定是嗅到附近有陌生人的气味了。",
+   "text": "这家伙……一定是嗅到附近有陌生人的气味了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -422,7 +422,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "小事一桩。 好了，我们去和老爷爷汇报一下，让他安心吧。",
+   "text": "小事一桩。好了，我们去和老爷爷汇报一下，让他安心吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -446,7 +446,7 @@
   {
    "k": "talk",
    "speaker": "守林人",
-   "text": "没想到你们效率这么高…… 这我可得好好答谢你们。",
+   "text": "没想到你们效率这么高……这我可得好好答谢你们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -462,7 +462,7 @@
   {
    "k": "talk",
    "speaker": "守林人",
-   "text": "那些可不够。 对了，山上的那间小屋你们拿去吧！",
+   "text": "那些可不够。对了，山上的那间小屋你们拿去吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -502,7 +502,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "都说到这份上了…… 好吧，谢谢您。",
+   "text": "都说到这份上了……好吧，谢谢您。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -526,7 +526,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "嗯…… 我觉得稍微收拾一下，应该能作为巡逻的据点。",
+   "text": "嗯……我觉得稍微收拾一下，应该能作为巡逻的据点。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -542,7 +542,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你也要回礼？ 呵呵，看来这份委托的报酬真的很丰厚。",
+   "text": "你也要回礼？呵呵，看来这份委托的报酬真的很丰厚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -566,7 +566,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "哈…… 搬完家具有些困呢……",
+   "text": "哈……搬完家具有些困呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -574,7 +574,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？这是…… 睡着了吗？",
+   "text": "嗯？这是……睡着了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -690,7 +690,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你刚才…… 是不是看了我很久？",
+   "text": "你刚才……是不是看了我很久？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -798,7 +798,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我也没帮上什么忙。 而且，也不知道下次再来这片森林是什么时候。",
+   "text": "我也没帮上什么忙。而且，也不知道下次再来这片森林是什么时候。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -870,7 +870,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "我想见你，你想见我…… 作为理由，这便足矣。",
+   "text": "我想见你，你想见我……作为理由，这便足矣。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -878,7 +878,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "的确。 那么，干脆现在就来约定下一次见面的时间吧？",
+   "text": "的确。那么，干脆现在就来约定下一次见面的时间吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

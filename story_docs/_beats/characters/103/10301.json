@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "慢一点，轻一点…… 很好，目标没有发现我们。",
+   "text": "慢一点，轻一点……很好，目标没有发现我们。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我们花了这么多时间，追踪、引诱、埋伏…… 终于到了这一步。",
+   "text": "我们花了这么多时间，追踪、引诱、埋伏……终于到了这一步。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "烟雾……？！ 什么都看不见了！",
+   "text": "烟雾……？！什么都看不见了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "在广阔的环境使用， 烟雾也会同时遮蔽我们的视线",
+   "text": "在广阔的环境使用，\n烟雾也会同时遮蔽我们的视线",
    "thought": false,
    "sticker": false,
    "channel": "msg"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "催泪弹、闪光弹、麻醉弹、 鸢尾特制冻结弹……",
+   "text": "催泪弹、闪光弹、麻醉弹、\n鸢尾特制冻结弹……",
    "thought": false,
    "sticker": false,
    "channel": "msg"

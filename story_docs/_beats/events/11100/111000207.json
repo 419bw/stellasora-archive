@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "这、这个叫声……是六角鲸——！！ 这种超大块头的家伙最麻烦了！！",
+   "text": "这、这个叫声……是六角鲸——！！\n这种超大块头的家伙最麻烦了！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "怎么可能先走？！ 她一个人很危险，我们得马上去救她！",
+   "text": "怎么可能先走？！她一个人很危险，我们得马上去救她！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "这么巨大的六角鲸，正面作战的优势很小，得避免被它直接攻击…… 让我想想，如果希娅在，她会怎么做。",
+   "text": "这么巨大的六角鲸，正面作战的优势很小，得避免被它直接攻击……让我想想，如果希娅在，她会怎么做。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "啊，我知道了！ 需要魔<r=BOSS></r>王配合我一下。",
+   "text": "啊，我知道了！需要魔<r=BOSS></r>王配合我一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "哎呀，我不要紧的。 事成之后，我请你吃豪华海鲜拼盘——！！",
+   "text": "哎呀，我不要紧的。事成之后，我请你吃豪华海鲜拼盘——！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "已经跑了这么远了，可恶……怎么还是甩不掉！！ 那就试试这个——",
+   "text": "已经跑了这么远了，可恶……怎么还是甩不掉！！那就试试这个——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "三、二、一…… 就是现在！",
+   "text": "三、二、一……就是现在！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "成功了…… 魔<r=BOSS></r>王，你还好吗？",
+   "text": "成功了……魔<r=BOSS></r>王，你还好吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我没事…… 六角鲸呢？！",
+   "text": "我没事……六角鲸呢？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "好像不见了…… 应该被我们甩掉了吧？",
+   "text": "好像不见了……应该被我们甩掉了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "太好了，希娅…… 终于……",
+   "text": "太好了，希娅……终于……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,10 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头目",
-   "text": "等你们和海怪斗个两败俱伤时，我们便可坐享其成！",
+   "text": {
+    "cn_f": "等她们和海怪斗个两败俱伤时，我们便可坐享其成！",
+    "cn_m": "等他们和海怪斗个两败俱伤时，我们便可坐享其成！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +510,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头目",
-   "text": "嘶，不对啊！如果玛琳当时死了，那后面回到卡洛镇上的…… 是谁？！",
+   "text": "嘶，不对啊！如果玛琳当时死了，那后面回到卡洛镇上的……是谁？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +518,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头目",
-   "text": "难不成……她是…… 幽、幽灵？！",
+   "text": "难不成……她是……幽、幽灵？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +622,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "你说得对…… 希娅肯定没事！说不定希娅现在正抓着它的大鱼鳍冲浪呢。",
+   "text": "你说得对……希娅肯定没事！说不定希娅现在正抓着它的大鱼鳍冲浪呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

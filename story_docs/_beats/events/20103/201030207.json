@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "不算。 魔王呢？",
+   "text": "不算。魔王呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我之前和别人一起出过海，知道一点基本操作， 可是……",
+   "text": "我之前和别人一起出过海，知道一点基本操作，可是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "这样的话……只能由我来掌舵了。 魔王负责协助我，可以吗？",
+   "text": "这样的话……只能由我来掌舵了。魔王负责协助我，可以吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "只是之前在塞尔斯泰的时候进行过相关的训练，远远谈不上熟练。 如果有熟手带我们出海是最好的，但现在事出紧急，不能再耽误下去了。",
+   "text": "只是之前在塞尔斯泰的时候进行过相关的训练，远远谈不上熟练。如果有熟手带我们出海是最好的，但现在事出紧急，不能再耽误下去了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "风好像有点大…… 而且，远处那片云层也让人有些在意。",
+   "text": "风好像有点大……而且，远处那片云层也让人有些在意。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "鸢尾……！ 大家都抓紧附近的东西！",
+   "text": "鸢尾……！大家都抓紧附近的东西！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "又一道巨浪拍了过来，船身被高高抛起，随即又重重砸回海面。 桅杆剧烈摇晃着，船头也随之偏了方向。",
+   "text": "又一道巨浪拍了过来，船身被高高抛起，随即又重重砸回海面。\n桅杆剧烈摇晃着，船头也随之偏了方向。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这里是…… 无人岛吗？",
+   "text": "这里是……无人岛吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "抱歉…… 光是把你救起来就已经竭尽全力了，之后的事我也不太清楚……",
+   "text": "抱歉……光是把你救起来就已经竭尽全力了，之后的事我也不太清楚……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊哈哈……抱歉，我的手机说她不喜欢水。 现在帮不上忙。",
+   "text": "啊哈哈……抱歉，我的手机说她不喜欢水。现在帮不上忙。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "没过多久，薇洛抱着一些树枝、藤条还有巨大的叶片回来。 接着利用机械手里弹出的刀片切割加工材料，娴熟地支起简易帐篷。",
+   "text": "没过多久，薇洛抱着一些树枝、藤条还有巨大的叶片回来。\n接着利用机械手里弹出的刀片切割加工材料，娴熟地支起简易帐篷。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "刀片转得好快啊……这样啊，机械手里内置了自动锯， 嗯嗯……原来如此……",
+   "text": "刀片转得好快啊……这样啊，机械手里内置了自动锯，\n嗯嗯……原来如此……",
    "thought": true,
    "sticker": false,
    "channel": "talk"

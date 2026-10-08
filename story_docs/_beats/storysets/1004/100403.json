@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "嗯？你们怎么...... 你们不是应该被抓住了吗？",
+   "text": "嗯？你们怎么......你们不是应该被抓住了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "太失礼了，我绝对没下毒，这可是我认认真真做出来的抹茶蛋糕。 只不过稍微加了一点点调料而已。",
+   "text": "太失礼了，我绝对没下毒，这可是我认认真真做出来的抹茶蛋糕。\n只不过稍微加了一点点调料而已。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "你根本就没有一点调味的天赋啊。 比昨天的抹布水还难喝。",
+   "text": "你根本就没有一点调味的天赋啊。\n比昨天的抹布水还难喝。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "先不说这个了。 喂，你们的雇主在哪？",
+   "text": "先不说这个了。\n喂，你们的雇主在哪？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "这些佣兵太让我失望了...... 竟然被一块蛋糕干掉了。",
+   "text": "这些佣兵太让我失望了......竟然被一块蛋糕干掉了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "确实，魔法防御卷轴很厉害。 但只能挡住来自体外的威胁……",
+   "text": "确实，魔法防御卷轴很厉害。\n但只能挡住来自体外的威胁……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "我...... 我好像看到了松川城外的大海——",
+   "text": "我......我好像看到了松川城外的大海——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "任务完成啦！ 虽然有点手忙脚乱的，但能平安回来真是太好了！",
+   "text": "任务完成啦！\n虽然有点手忙脚乱的，但能平安回来真是太好了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "吃归吃…… 你可千万别负责煮饭。",
+   "text": "吃归吃……\n你可千万别负责煮饭。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "只是...... 什么时候才能回家呢？",
+   "text": "只是......什么时候才能回家呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "嘿嘿嘿…… 那就拜托啦！",
+   "text": "嘿嘿嘿……那就拜托啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "呼…… 一不小心泡太久了。 得赶紧去叫她们俩。",
+   "text": "呼……一不小心泡太久了。  \n得赶紧去叫她们俩。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "呜呜，抹茶蛋糕真难做啊。 要是把宴会上做的留着给前辈就好了……",
+   "text": "呜呜，抹茶蛋糕真难做啊。\n要是把宴会上做的留着给前辈就好了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "唯咲和秋葵……？ 她们在干什么呢。",
+   "text": "唯咲和秋葵……？她们在干什么呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "可是现在再怎么弄，都只能像长了青苔的石头一样难看了吧？ 感觉师父的牙都要被硌掉了。",
+   "text": "可是现在再怎么弄，都只能像长了青苔的石头一样难看了吧？\n感觉师父的牙都要被硌掉了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "呜……好吧…… 再努力一下试试看。",
+   "text": "呜……好吧……再努力一下试试看。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "原来是……要给我做抹茶蛋糕么...... 就像，过去我给师父做的那样。",
+   "text": "原来是……要给我做抹茶蛋糕么......就像，过去我给师父做的那样。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "上一次给您做抹茶蛋糕…… 已经是很久很久以前的事情了呢，师父。",
+   "text": "上一次给您做抹茶蛋糕……已经是很久很久以前的事情了呢，师父。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "那…… 那个！我想让您尝尝这个！",
+   "text": "那……那个！我想让您尝尝这个！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "这是我给师父您做的抹茶蛋糕！我好不容易才做出来的…… 请……师......师父品尝……",
+   "text": "这是我给师父您做的抹茶蛋糕！我好不容易才做出来的……请……师......师父品尝……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "咳咳…… 这是我和秋葵一起做的抹茶蛋糕，请师父品尝。",
+   "text": "咳咳……这是我和秋葵一起做的抹茶蛋糕，请师父品尝。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -811,7 +811,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "啊…… 光想着抹茶蛋糕的事了，差点就忘了。",
+   "text": "啊……光想着抹茶蛋糕的事了，差点就忘了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -827,7 +827,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "呼…… 抹茶蛋糕还是配茶比较好吃。",
+   "text": "呼……抹茶蛋糕还是配茶比较好吃。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -843,7 +843,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "不管经历了多大的痛苦，之后一定会迎来喜悦。 那，属于我的甜，何时会来呢？",
+   "text": "不管经历了多大的痛苦，之后一定会迎来喜悦。\n那，属于我的甜，何时会来呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

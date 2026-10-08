@@ -2,6 +2,64 @@
 """Design system tokens and styles for StellaSora story knowledge base."""
 
 CSS = """
+ruby { ruby-align: center; }
+ruby.ruby-point {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  overflow: visible;
+}
+ruby.ruby-point > rt {
+  display: block;
+  position: absolute;
+  bottom: 1.9em;
+  left: 0;
+  transform: translateX(-50%);
+  font-size: 0.5em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.recap-text { white-space: pre-line; }
+.text-variants > [hidden] { display: none; }
+.text-variant-controls {
+  display: inline-flex;
+  float: right;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-left: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1;
+}
+.text-variant-controls button {
+  appearance: none;
+  border: 0;
+  border-radius: 4px;
+  padding: 5px 7px;
+  background: transparent;
+  color: var(--text-subtle);
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.text-variant-controls button:hover { background: var(--card-bg-subtle); color: var(--text-main); }
+.text-variant-controls button[aria-pressed="true"] {
+  color: var(--story);
+  background: color-mix(in srgb, var(--story) 9%, transparent);
+}
+.text-variant-controls button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.line-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-bottom: 6px;
+}
+.page .line-header > .who, .player-reply .line-header > .reply-who { margin-bottom: 0; }
+.line-header > .text-variant-controls { float: none; margin-left: auto; }
+
 :root {
   --font-sans: "MiSans", "MiSansLatin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;

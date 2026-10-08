@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "春联摊摊主",
-   "text": "这一手字，真是翩若惊鸿，婉若…… 呃……婉若……",
+   "text": "这一手字，真是翩若惊鸿，婉若……呃……婉若……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "你说我手里这个？ 这叫做“春联”。每逢春节，家家户户都要在门口贴上新的春联。",
+   "text": "你说我手里这个？这叫做“春联”。每逢春节，家家户户都要在门口贴上新的春联。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "小吃店老板",
-   "text": "抱歉啊，你这张照片里的三个人我没印象。 但这个小个子的女孩昨天确实来我这买过早餐，我们还聊了一会买菜的事。",
+   "text": "抱歉啊，你这张照片里的三个人我没印象。但这个小个子的女孩昨天确实来我这买过早餐，我们还聊了一会买菜的事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "这样啊…… 谢谢你。",
+   "text": "这样啊……谢谢你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "小吃店老板",
-   "text": "没事没事。 对了，几位吃过了吗？要不要尝尝我这里的特色灌汤包？",
+   "text": "没事没事。对了，几位吃过了吗？要不要尝尝我这里的特色灌汤包？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嘶—— 烫烫烫！",
+   "text": "嘶——烫烫烫！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "惊讶的女孩",
-   "text": "难不成…… 是被诱拐犯给骗走了？",
+   "text": "难不成……是被诱拐犯给骗走了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "惊讶的女孩",
-   "text": "因，因为…… 以前也发生过那种事啊！之前城里就一下子冒出来好多诱拐犯！",
+   "text": "因，因为……以前也发生过那种事啊！之前城里就一下子冒出来好多诱拐犯！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "老板还会画糖画，捏面人…… 上次还给我画了只大老虎~",
+   "text": "老板还会画糖画，捏面人……上次还给我画了只大老虎~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "咳咳！当、当然不只是因为这个哦？我们还是得仔细观，寻找线索……啊！说着说着人就围上来了！要是卖完了，今天就吃不到了…… 咦？",
+   "text": "咳咳！当、当然不只是因为这个哦？我们还是得仔细观，寻找线索……啊！说着说着人就围上来了！要是卖完了，今天就吃不到了……咦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "你们…… 借口让我去给师渺送东西，自己在这里偷偷买糖炒栗子和糖葫芦不带我？！",
+   "text": "你们……借口让我去给师渺送东西，自己在这里偷偷买糖炒栗子和糖葫芦不带我？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "云舒",
-   "text": "算是能算，不过…… 我只能算到一个和她们有关的模糊方位。",
+   "text": "算是能算，不过……我只能算到一个和她们有关的模糊方位。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "云舒",
-   "text": "没关系。所以…… 你们要算一卦吗？",
+   "text": "没关系。所以……你们要算一卦吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +731,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我知道了…… 谢谢二位。",
+   "text": "我知道了……谢谢二位。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,10 @@
   {
    "k": "talk",
    "speaker": "霁月",
-   "text": "怎么不告诉你们呢？",
+   "text": {
+    "cn_f": "怎么不告诉她们呢？",
+    "cn_m": "怎么不告诉他们呢？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

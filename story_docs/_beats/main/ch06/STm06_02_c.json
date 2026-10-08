@@ -172,7 +172,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "情况不妙，我得想办法通知大家...... 对了！我可以——",
+   "text": "情况不妙，我得想办法通知大家......对了！我可以——",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -212,7 +212,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哼……我根本没有拒绝的余地是么。 好啊，那我告诉你。",
+   "text": "哼……我根本没有拒绝的余地是么。好啊，那我告诉你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -276,7 +276,7 @@
   {
    "k": "talk",
    "speaker": "精锐种业士兵",
-   "text": "报，报告。 隔壁房间的旅人们逃走了！",
+   "text": "报，报告。\n隔壁房间的旅人们逃走了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -298,7 +298,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "魔王进去半个小时了， 到底在聊什么呢？",
+   "text": "魔王进去半个小时了，到底在聊什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -338,7 +338,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "这么贵重的勋章…… 给我！？ 您是不是弄错了！",
+   "text": "这么贵重的勋章……给我！？您是不是弄错了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -354,7 +354,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "但听了你的话，我发现是我庸俗了， 像你们这样的旅人，无需这种繁琐的仪式，也能让大家自发地敬仰。",
+   "text": "但听了你的话，我发现是我庸俗了，像你们这样的旅人，无需这种繁琐的仪式，也能让大家自发地敬仰。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -370,7 +370,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "真的吗？ 如果她完全能理解我们，为什么在门外放了那么多士兵？",
+   "text": "真的吗？如果她完全能理解我们，为什么在门外放了那么多士兵？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -410,7 +410,10 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "你说，我们有危险。",
+   "text": {
+    "cn_f": "她说，我们有危险。",
+    "cn_m": "他说，我们有危险。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -544,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "...... 是，是的。",
+   "text": "......是，是的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -552,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "是我错怪你了， 你带魔<r=mowang></r>王大人去安全的地方休息，那些旅人我来解决。",
+   "text": "是我错怪你了，你带魔<r=mowang></r>王大人去安全的地方休息，那些旅人我来解决。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -684,7 +687,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "这么跑的话根本逃不走， 我去把小绿开过来，你们掩护我。",
+   "text": "这么跑的话根本逃不走，我去把小绿开过来，你们掩护我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -724,7 +727,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "不知死活的旅人们， 只有我，才能向魔<r=mowang></r>王大人献上忠诚。",
+   "text": "不知死活的旅人们，只有我，才能向魔<r=mowang></r>王大人献上忠诚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -748,7 +751,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "别争了，必须有人留下了掩护， 这是我作为监察官的责任！",
+   "text": "别争了，必须有人留下了掩护，这是我作为监察官的责任！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

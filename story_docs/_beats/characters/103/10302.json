@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "而她脚下的屋顶应声碎裂，腐朽梁木纷纷落下。 琥珀牢牢抱住黑猫，连人带猫一起摔了下去。",
+   "text": "而她脚下的屋顶应声碎裂，腐朽梁木纷纷落下。\n琥珀牢牢抱住黑猫，连人带猫一起摔了下去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "还好及时抓住了琥珀的绑带，没让她们掉下去。 但现在这情况……",
+   "text": "还好及时抓住了琥珀的绑带，没让她们掉下去。\n但现在这情况……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -859,7 +859,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "魔<r=BOSS></r>王， 我抓到猫了。",
+   "text": "魔<r=BOSS></r>王，我抓到猫了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

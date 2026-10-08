@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "大家注意——我们今天的任务是投递哦！ 出发前检查一下要投递的东西，漏了东西可就麻烦啦！",
+   "text": "大家注意——我们今天的任务是投递哦！\n出发前检查一下要投递的东西，漏了东西可就麻烦啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "好的，今天就拜托特丽莎教导我注意事项啦！ 我看看…… 投递的地点有不少还挺远的，事前准备确实很重要。",
+   "text": "好的，今天就拜托特丽莎教导我注意事项啦！我看看……投递的地点有不少还挺远的，事前准备确实很重要。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "是的！想起来上次因为着急出门，结果忘记带钱包了…… 结果连午饭都买不起，可真是太艰难了喵——",
+   "text": "是的！想起来上次因为着急出门，结果忘记带钱包了……\n结果连午饭都买不起，可真是太艰难了喵——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "信…… 地图…… 便当…… 都带上啦！ 咦，这个箱子是用来装什么的来着……？",
+   "text": "信……地图……便当……都带上啦！\n咦，这个箱子是用来装什么的来着……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "那个……魔<r=BOSS></r>王……特丽莎确实是“信使”没错吧？ 老实说我怎么感觉有点慌呢……",
+   "text": "那个……魔<r=BOSS></r>王……特丽莎确实是“信使”没错吧？\n老实说我怎么感觉有点慌呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然特丽莎偶尔有些粗心大意，但她确实是个出色的信使哦。 听她指示行事就好——",
+   "text": "虽然特丽莎偶尔有些粗心大意，但她确实是个出色的信使哦。听她指示行事就好——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "魔<r=BOSS></r>王、鸢尾！今天我们得“抄个近路”啦！ 跟我来！",
+   "text": "魔<r=BOSS></r>王、鸢尾！今天我们得“抄个近路”啦！跟我来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "喵！ 喵！",
+   "text": "喵！喵！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "喂， 喂……！",
+   "text": "喂，喂……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这算什么“近道”呀，连兽道都算不上吧！ 这么着急，到底是要去哪里啊？",
+   "text": "这算什么“近道”呀，连兽道都算不上吧！\n这么着急，到底是要去哪里啊？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "特、特丽莎小姐！就算要赶时间…… 哈、哈、也稍微选个…… 好走一些的路吧？！",
+   "text": "特、特丽莎小姐！就算要赶时间……哈、哈、也稍微选个……好走一些的路吧？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "鸢尾，一定要跟紧特丽莎！ 一不小心迷路的话，可能真的会在树林里遇难的！",
+   "text": "鸢尾，一定要跟紧特丽莎！一不小心迷路的话，可能真的会在树林里遇难的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "蒙塔娜",
-   "text": "啊……没想到能这么快就送到了！ 谢谢！真的非常感谢！",
+   "text": "啊……没想到能这么快就送到了！谢谢！真的非常感谢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "蒙塔娜",
-   "text": "家里的备药正好用完了……昨晚又有症状了，真是急坏我了…… 太感谢您了……您就是我女儿的恩人。",
+   "text": "家里的备药正好用完了……昨晚又有症状了，真是急坏我了……\n太感谢您了……您就是我女儿的恩人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "使命必达、不负所托！这是万送屋应该做的！ 有困难别客气，尽管委托我们就好啦！",
+   "text": "使命必达、不负所托！这是万送屋应该做的！\n有困难别客气，尽管委托我们就好啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "之前送信的时候，我也和那孩子正好聊过天呢。 她是个很孝顺的好孩子噢！",
+   "text": "之前送信的时候，我也和那孩子正好聊过天呢。她是个很孝顺的好孩子噢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "原来是这样啊…… 赶上了真是太好了。",
+   "text": "原来是这样啊……赶上了真是太好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "不好意思，没做解释就把你们卷进来了…… 是我冲的太着急了，没事吧？要是太累的话，需要先休息一下吗？",
+   "text": "不好意思，没做解释就把你们卷进来了……是我冲的太着急了，没事吧？要是太累的话，需要先休息一下吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "魔<r=BOSS></r>王……！ 嗯，你说的没错， 一起把剩下的委托完成吧！",
+   "text": "魔<r=BOSS></r>王……！\n嗯，你说的没错，一起把剩下的委托完成吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "特丽莎考虑了收件人的特殊需求， 所以才选择了最短的路线呢。",
+   "text": "特丽莎考虑了收件人的特殊需求，所以才选择了最短的路线呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "没错！ 不过，其实也不止是这个原因喔？",
+   "text": "没错！不过，其实也不止是这个原因喔？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "每次探索新的行进路线时，都会有惊喜~ 从未见过的花朵在身旁绽放， 从未见过的鸟儿从身旁飞过…… 也可能偶然经过谁的隐居之所，结识新朋友呢！",
+   "text": "每次探索新的行进路线时，都会有惊喜~\n从未见过的花朵在身旁绽放，从未见过的鸟儿从身旁飞过……\n也可能偶然经过谁的隐居之所，结识新朋友呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "走得越远，走的越多，新鲜的事情也越来越多—— 超有趣的不是吗！",
+   "text": "走得越远，走的越多，新鲜的事情也越来越多——超有趣的不是吗！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "看来确实是我误会了，特丽莎。 你确实是一位出色的信使！",
+   "text": "看来确实是我误会了，特丽莎。你确实是一位出色的信使！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "嘿嘿，被表扬了耶！ 谢谢夸奖，今天的鸢尾也是一位出色的信使喔！",
+   "text": "嘿嘿，被表扬了耶！\n谢谢夸奖，今天的鸢尾也是一位出色的信使喔！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "说起来， 和多娜相遇的时候也…… 好像是在森林里来着——",
+   "text": "说起来，和多娜相遇的时候也……好像是在森林里来着——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "嗯～！在树上睡一觉真是太棒啦—— 休息得差不多了，该出发了…… 嗯？有人的声音？",
+   "text": "嗯～！在树上睡一觉真是太棒啦——\n休息得差不多了，该出发了……嗯？有人的声音？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "糟了。说不定真的迷路了…… 要是天黑了可怎么办…… 听说这附近会有魔物出没……",
+   "text": "糟了。说不定真的迷路了……要是天黑了可怎么办……\n听说这附近会有魔物出没……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "为什么偏偏今天没带武器…… 呜呜…… 真是太冒失了……我是笨蛋吗……",
+   "text": "为什么偏偏今天没带武器……呜呜……真是太冒失了……我是笨蛋吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "喂~~~ 没事吧？",
+   "text": "喂~~~没事吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "……咦，诶？ 不是魔物…… 你是……？",
+   "text": "……咦，诶？不是魔物……你是……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "我是特丽莎哦。 莫非是……迷路了吗？",
+   "text": "我是特丽莎哦。莫非是……迷路了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "你好……我是多娜，本来是想抄近路的，结果一钻进森林就完全搞不清方向了…… 不好意思……我看上去确实是迷路了……",
+   "text": "你好……我是多娜，本来是想抄近路的，结果一钻进森林就完全搞不清方向了……不好意思……我看上去确实是迷路了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "小事， 交给我带路吧！",
+   "text": "小事，交给我带路吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "终于穿过森林了……！ 谢谢！多亏你我才得救啦～。",
+   "text": "终于穿过森林了……！谢谢！多亏你我才得救啦～。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "投递信件……？ 诶，你也在当“信使”啊！？",
+   "text": "投递信件……？诶，你也在当“信使”啊！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "我也是噢！ 我现在也在当“信使旅人”！",
+   "text": "我也是噢！我现在也在当“信使旅人”！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "其实我正打算开拓一条新的邮路，就想着调查一下平时不走的路线…… 结果就迷路了。",
+   "text": "其实我正打算开拓一条新的邮路，就想着调查一下平时不走的路线……结果就迷路了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "没错！要是平时走的路堵上了或者毁坏了，递送不就会延误了嘛…… 所以我想，如果能开辟更多的邮路的话，心里也会更有底吧……",
+   "text": "没错！要是平时走的路堵上了或者毁坏了，递送不就会延误了嘛……\n所以我想，如果能开辟更多的邮路的话，心里也会更有底吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "哇啊啊啊！？ 这一沓……是地图吗？ 难道这全都是你一个人画的！？",
+   "text": "哇啊啊啊！？\n这一沓……是地图吗？难道这全都是你一个人画的！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "好巧！ 只是帮助了迷路的人，结果两边怀揣着同样的梦想！",
+   "text": "好巧！只是帮助了迷路的人，结果两边怀揣着同样的梦想！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "我确实也吓了一跳呢。 说起来，我加入的时候，苍兰也已经在了，就这样我们三人建立了“万送屋”！",
+   "text": "我确实也吓了一跳呢。\n说起来，我加入的时候，苍兰也已经在了，就这样我们三人建立了“万送屋”！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "万送屋的梦想就是用投递信件的方式帮助到更多的人。现在一边在坚持投递， 一边也在绘制诺瓦大陆的邮路地图噢！",
+   "text": "万送屋的梦想就是用投递信件的方式帮助到更多的人。现在一边在坚持投递，\n一边也在绘制诺瓦大陆的邮路地图噢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "当然—— 请看——",
+   "text": "当然——请看——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "好厉害……信息量居然不输《诺瓦地理志》…… 而且为了投递的委托，这些近路、小路的情报……特丽莎的地图上好像还更详尽一些！",
+   "text": "好厉害……信息量居然不输《诺瓦地理志》……\n而且为了投递的委托，这些近路、小路的情报……特丽莎的地图上好像还更详尽一些！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "还差得远呢…… 嘿嘿，从贝林港到千塔的道路还真的用双脚走过噢！ 一路上经过的住宅和店铺，地图上应该也都标过了！",
+   "text": "还差得远呢……嘿嘿，从贝林港到千塔的道路还真的用双脚走过噢！\n一路上经过的住宅和店铺，地图上应该也都标过了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +699,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "也是，检查地图确实是一开始就会想到的—— 不，不对……",
+   "text": "也是，检查地图确实是一开始就会想到的——不，不对……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +715,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "嗯。 为了保证递送的时候不迷路，要是遇上道路毁坏，或者房屋、店铺的信息变化了，就得及时更新地图！",
+   "text": "嗯。为了保证递送的时候不迷路，要是遇上道路毁坏，或者房屋、店铺的信息变化了，就得及时更新地图！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "欸！说得对喵！ 我居然漏了这点没考虑……等等，我这就看看——",
+   "text": "欸！说得对喵！我居然漏了这点没考虑……等等，我这就看看——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "这个， 还有这个…… 这个，这个也是！",
+   "text": "这个，还有这个……这个，这个也是！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -755,7 +755,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "不好意思，我也来一起看看…… ……霍华德，霍华德。",
+   "text": "不好意思，我也来一起看看……\n……霍华德，霍华德。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +763,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "找到了！ 在地图上——你看，就在这儿——！",
+   "text": "找到了！在地图上——你看，就在这儿——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "啊——真的。上面真的写着“霍华德先生的家”……！ 我们以前居然途径过这里……完全忘记了喵……",
+   "text": "啊——真的。上面真的写着“霍华德先生的家”……！\n我们以前居然途径过这里……完全忘记了喵……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -779,7 +779,7 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "多亏了魔<r=BOSS></r>王和鸢尾，我想起来了喵！ 回去后一定要告诉多娜！",
+   "text": "多亏了魔<r=BOSS></r>王和鸢尾，我想起来了喵！\n回去后一定要告诉多娜！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -923,7 +923,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你做的菜都很好吃。 一口气做那么多，一定很辛苦吧？",
+   "text": "你做的菜都很好吃。一口气做那么多，一定很辛苦吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -931,7 +931,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "一点也不～感觉大家就像突然多了好多家人一样，我反而很开心！ 我很喜欢这种大家热热闹闹在一起的感觉。",
+   "text": "一点也不～感觉大家就像突然多了好多家人一样，我反而很开心！我很喜欢这种大家热热闹闹在一起的感觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1003,7 +1003,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "已经…… 不想再变成一个人了。",
+   "text": "已经……不想再变成一个人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1019,7 +1019,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "啊！我好像说得有点奇怪。 那个，其实也没有别的意思，就是……",
+   "text": "啊！我好像说得有点奇怪。那个，其实也没有别的意思，就是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1027,7 +1027,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "你看嘛，现在工作量也越来越多，一个人当然是送不完的对吧？ 所以我的意思是——再一个人单干就不行啦！ 嗯，绝对不行！",
+   "text": "你看嘛，现在工作量也越来越多，一个人当然是送不完的对吧？所以我的意思是——再一个人单干就不行啦！嗯，绝对不行！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1035,7 +1035,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "好啦好啦，明天还要早起，我先睡啦！ 晚安，魔<r=BOSS></r>王~",
+   "text": "好啦好啦，明天还要早起，我先睡啦！晚安，魔<r=BOSS></r>王~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1059,7 +1059,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "已经…… 再也不想变成一个人了。",
+   "text": "已经……再也不想变成一个人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

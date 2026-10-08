@@ -22,7 +22,7 @@
   {
    "k": "talk",
    "speaker": "满月",
-   "text": "呼…… 多亏了魔<r=BOSS></r>王，才让我们从白垩商会手里解脱出来！",
+   "text": "呼……多亏了魔<r=BOSS></r>王，才让我们从白垩商会手里解脱出来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -198,7 +198,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "应该是的，我怎么都想不起来了。 可恶，明明是很重要的一句话……",
+   "text": "应该是的，我怎么都想不起来了。\n可恶，明明是很重要的一句话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -222,7 +222,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "这样吗？ 让我想想看啊！",
+   "text": "这样吗？让我想想看啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -662,7 +662,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "随着一颗炸弹在骑士们的脚边炸开， 早就在屋顶埋伏的密涅瓦也跳了下来与剩余的追兵们打做一团。",
+   "text": "随着一颗炸弹在骑士们的脚边炸开，\n早就在屋顶埋伏的密涅瓦也跳了下来与剩余的追兵们打做一团。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -686,7 +686,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "有关影戏中的后半句话似乎已经不再重要， 因为密涅瓦的眼神告诉了我，她已经有了自己的选择。",
+   "text": "有关影戏中的后半句话似乎已经不再重要，\n因为密涅瓦的眼神告诉了我，她已经有了自己的选择。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

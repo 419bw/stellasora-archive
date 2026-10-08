@@ -62,7 +62,7 @@
   {
    "k": "talk",
    "speaker": "谄媚的声音",
-   "text": "您喜欢园艺吗？ 我也是，我能跟着您打理这些花吗？",
+   "text": "您喜欢园艺吗？我也是，我能跟着您打理这些花吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -86,7 +86,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这些声音越来越清晰了，我被溶液中的魔力影响了？ 好像...... 又不是，身体没什么感觉。",
+   "text": "这些声音越来越清晰了，我被溶液中的魔力影响了？好像......又不是，身体没什么感觉。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -158,7 +158,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊…… 这应该是某个人的记忆，我只是附在对方的视角上旁观而已。",
+   "text": "啊……这应该是某个人的记忆，我只是附在对方的视角上旁观而已。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -182,7 +182,7 @@
   {
    "k": "talk",
    "speaker": "积极的星辉学生",
-   "text": "你的消息真不灵通啊，你不知道吗？ 现任学生会会长的父亲在联合种业的元老会里大打出手，把另一个元老打死了。",
+   "text": "你的消息真不灵通啊，你不知道吗？现任学生会会长的父亲在联合种业的元老会里大打出手，把另一个元老打死了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -198,7 +198,7 @@
   {
    "k": "talk",
    "speaker": "积极的星辉学生",
-   "text": "对啊，星辉附属大学的学生会会长，怎么可能让一个杀人犯的家属来当？ 这次临时选举的结果恐怕已经内定了，是恩赐意志的人。",
+   "text": "对啊，星辉附属大学的学生会会长，怎么可能让一个杀人犯的家属来当？这次临时选举的结果恐怕已经内定了，是恩赐意志的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -270,7 +270,7 @@
   {
    "k": "talk",
    "speaker": "热情铲花的星辉学生",
-   "text": "活动经费也都是她在出…… 本来是个不错的人，怎么会这样呢？",
+   "text": "活动经费也都是她在出……本来是个不错的人，怎么会这样呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -278,7 +278,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "太过分了…… 这种话怎么说得出口。",
+   "text": "太过分了……这种话怎么说得出口。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -298,7 +298,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "喂，你们在干什么？ 为什么要破坏别人辛辛苦苦种出来的花！",
+   "text": "喂，你们在干什么？为什么要破坏别人辛辛苦苦种出来的花！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -306,7 +306,7 @@
   {
    "k": "talk",
    "speaker": "积极破坏的星辉学生",
-   "text": "可惜了，花草本身是没错啦…… 可只要会长一换，这里八成也会被铲平的。",
+   "text": "可惜了，花草本身是没错啦……可只要会长一换，这里八成也会被铲平的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -338,7 +338,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "我抓向锄头的手穿过木柄，抓了个空。 两名女生锄掉最后一朵花，拍拍手离开了温室。",
+   "text": "我抓向锄头的手穿过木柄，抓了个空。两名女生锄掉最后一朵花，拍拍手离开了温室。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -346,7 +346,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我终究只是...... 故事的旁观者吗？",
+   "text": "我终究只是......故事的旁观者吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -354,7 +354,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "谢…… 谢谢，你很温柔呢。",
+   "text": "谢……谢谢，你很温柔呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -386,7 +386,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "嗯，但…… 你不用为我说话，否则，你也会被当成坏人对待的。",
+   "text": "嗯，但……你不用为我说话，否则，你也会被当成坏人对待的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -402,7 +402,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "书上的那个符号...... 是魔<r=BOSS></r>王的符号？！",
+   "text": "书上的那个符号......是魔<r=BOSS></r>王的符号？！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -418,7 +418,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "达？达尔茜娅？ 你为什么会在这里？",
+   "text": "达？达尔茜娅？你为什么会在这里？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -426,7 +426,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "呵呵， 没了那身夸张的服装， 陛下您都不敢认我了呢。",
+   "text": "呵呵，没了那身夸张的服装，陛下您都不敢认我了呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -434,7 +434,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "这里是我的记忆， 大概是“精神之水”， 不，不是那种人造的东西的作用。",
+   "text": "这里是我的记忆，大概是“精神之水”，不，不是那种人造的东西的作用。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -442,7 +442,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "我想， 应该是您的“主教”棋子， 把您和我的灵魂连接起来了吧。",
+   "text": "我想，应该是您的“主教”棋子，把您和我的灵魂连接起来了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -450,7 +450,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "我很幸运， 在最后的时刻， 还能和陛下您的灵魂链接。",
+   "text": "我很幸运，在最后的时刻，还能和陛下您的灵魂链接。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +458,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个黑影...... 是上学时的你？",
+   "text": "那个黑影......是上学时的你？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -466,7 +466,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "嗯...... 我的父亲本是联合种业的元老， 他在联合种业和恩赐意志的争端中为公司清除了敌人，自己也牺牲了。 但是...... 联合种业元老院不仅没有承认他的功绩， 还分食了我的家产。",
+   "text": "嗯......我的父亲本是联合种业的元老，他在联合种业和恩赐意志的争端中为公司清除了敌人，自己也牺牲了。但是......联合种业元老院不仅没有承认他的功绩，还分食了我的家产。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -474,7 +474,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "拥簇着我，想要从我这里拿到好处的同学们一夜星散， 就像元老院里的元老那样背叛了我， 开始欺负我，嘲笑我。",
+   "text": "拥簇着我，想要从我这里拿到好处的同学们一夜星散，就像元老院里的元老那样背叛了我，开始欺负我，嘲笑我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -482,7 +482,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "一开始，我只是觉得她们愚蠢，只能以欺负弱者为乐。 我还有我种下的花，就算世界上所有人都背叛了我，植物也不会背叛我。",
+   "text": "一开始，我只是觉得她们愚蠢，只能以欺负弱者为乐。我还有我种下的花，就算世界上所有人都背叛了我，植物也不会背叛我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -490,7 +490,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "但是， 当她们挖掉了我的花后，我明白了。 她们其实并不是想从我这里获得什么，甚至不算以欺负人为乐。",
+   "text": "但是，当她们挖掉了我的花后，我明白了。她们其实并不是想从我这里获得什么，甚至不算以欺负人为乐。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -538,7 +538,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "害怕孤独，害怕无人承认，必须要待在群体中才能感到安全。 为了达成这个目的，人类不惜献祭同类， 身为群居动物的人类，就是这样一种丑陋的生物。",
+   "text": "害怕孤独，害怕无人承认，必须要待在群体中才能感到安全。为了达成这个目的，人类不惜献祭同类，身为群居动物的人类，就是这样一种丑陋的生物。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -546,7 +546,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "在我的花被毁掉的时候，我捡到了一本书。 呵呵，想必您已经猜到这本书的内容了吧？",
+   "text": "在我的花被毁掉的时候，我捡到了一本书。呵呵，想必您已经猜到这本书的内容了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -554,7 +554,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "没错，上面记载的正是您的故事。 故事里的您和我有着类似的遭遇，不止一次被身边人背叛， 又不止一次地起身重新战斗，您的坚韧触动了我。",
+   "text": "没错，上面记载的正是您的故事。故事里的您和我有着类似的遭遇，不止一次被身边人背叛，又不止一次地起身重新战斗，您的坚韧触动了我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -562,7 +562,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "您就是我生命中的光，正因为有魔<r=mowang></r>王大人， 我才能鼓起勇气，一块块地收集那些击伤我的石头，把它们垫在脚底， 爬到现在的位置。",
+   "text": "您就是我生命中的光，正因为有魔<r=mowang></r>王大人，我才能鼓起勇气，一块块地收集那些击伤我的石头，把它们垫在脚底，爬到现在的位置。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -570,7 +570,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "因此，我向陛下宣誓效忠，本就是理所当然的事。 把植物引入您的军团，并赋予它们智慧…… 这就是我对那些无辜花朵的赎罪。",
+   "text": "因此，我向陛下宣誓效忠，本就是理所当然的事。把植物引入您的军团，并赋予它们智慧……这就是我对那些无辜花朵的赎罪。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -578,7 +578,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "最重要的是—— 只要你愿意用心照料，植物就会盛开美丽的花朵来回报你。",
+   "text": "最重要的是——只要你愿意用心照料，植物就会盛开美丽的花朵来回报你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -586,7 +586,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "所以，只要用几十年，甚至上百年的时间…… 一步步将军团完善起来，就一定不会辜负陛下的期待。",
+   "text": "所以，只要用几十年，甚至上百年的时间……一步步将军团完善起来，就一定不会辜负陛下的期待。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -594,7 +594,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "如果，大家的灵魂都转移到植物中去， 那会是多么和平而宁静的世界啊。",
+   "text": "如果，大家的灵魂都转移到植物中去，那会是多么和平而宁静的世界啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -602,7 +602,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但植物也分很多种吧。 寄生植物会抽走寄主的养料，攀援植物抢夺作为支点的树木的阳光。",
+   "text": "但植物也分很多种吧。寄生植物会抽走寄主的养料，攀援植物抢夺作为支点的树木的阳光。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -610,7 +610,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "核桃树的落叶会阻止其他植物在它附近发芽， 高耸的乔木树冠间的缝隙，也是树枝互相斗争的结果。",
+   "text": "核桃树的落叶会阻止其他植物在它附近发芽，高耸的乔木树冠间的缝隙，也是树枝互相斗争的结果。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -626,7 +626,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "就像，成为你的光的， 你所信奉的那位魔<r=mowang></r>王大人也并非是站在你面前的我。",
+   "text": "就像，成为你的光的，你所信奉的那位魔<r=mowang></r>王大人也并非是站在你面前的我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -634,7 +634,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你希望...... 我能变成你想象中的魔<r=mowang></r>王大人。 可惜，我就是我， 我真的变不成你想象中的那位魔<r=mowang></r>王大人。",
+   "text": "你希望......我能变成你想象中的魔<r=mowang></r>王大人。可惜，我就是我，我真的变不成你想象中的那位魔<r=mowang></r>王大人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -642,7 +642,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "我知道，陛下。 从您踏入公司的那一刻，我就在观察您。",
+   "text": "我知道，陛下。从您踏入公司的那一刻，我就在观察您。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -650,7 +650,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "可是，我不能承认，因为一旦承认了这个事实，我就会再次变成孤身一人。 好不容易才找到的那束光…… 我怎么可能舍得放手？",
+   "text": "可是，我不能承认，因为一旦承认了这个事实，我就会再次变成孤身一人。好不容易才找到的那束光……我怎么可能舍得放手？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -658,7 +658,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "呵呵，呵呵呵…… 我当然明白，我和我厌恶的其他人类并无区别，把理想强加于人，好让自己获得所谓的安全感。",
+   "text": "呵呵，呵呵呵……我当然明白，我和我厌恶的其他人类并无区别，把理想强加于人，好让自己获得所谓的安全感。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -666,7 +666,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这就是你的真心话么？ 人类的确是胆小的生物，我们会惧怕很多的事情。",
+   "text": "这就是你的真心话么？人类的确是胆小的生物，我们会惧怕很多的事情。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -698,7 +698,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "达尔茜娅，放弃吧，一切还来得及。 菲莱城的混乱...... 并没有人失去生命，你还有赎罪的机会。",
+   "text": "达尔茜娅，放弃吧，一切还来得及。菲莱城的混乱......并没有人失去生命，你还有赎罪的机会。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -706,7 +706,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "现在的我，哪里配得上您这番话呢。呵呵…… 果然，您就是我一直憧憬的魔<r=mowang></r>王大人。",
+   "text": "现在的我，哪里配得上您这番话呢。呵呵……果然，您就是我一直憧憬的魔<r=mowang></r>王大人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -730,7 +730,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "达尔茜娅...... 你....... 这又是何必。",
+   "text": "达尔茜娅......你.......这又是何必。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -738,7 +738,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "我给翡冷翠安排了和我一样的境遇，然而...... 她比我幸运多了，她有绝对忠诚的伙伴。",
+   "text": "我给翡冷翠安排了和我一样的境遇，然而......她比我幸运多了，她有绝对忠诚的伙伴。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -746,7 +746,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "呵呵……. 我只是想有人爱我， 想有人需要我， 想要有人告诉我—— 我出生在这个世界上，并非一场错误。",
+   "text": "呵呵…….我只是想有人爱我，想有人需要我，想要有人告诉我——我出生在这个世界上，并非一场错误。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -754,7 +754,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "可再看到您选择伙伴的标准，我突然意识到...... 走错了路的我，根本不可能被您选中。",
+   "text": "可再看到您选择伙伴的标准，我突然意识到......走错了路的我，根本不可能被您选中。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -762,7 +762,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "这就是达尔茜娅…… 我的结局么。",
+   "text": "这就是达尔茜娅……我的结局么。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -770,7 +770,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "不过这一切，我都早有觉悟，不打算赎罪。 我既已憎恶人类，那么直到最后一刻，我都是人类的敌人。",
+   "text": "不过这一切，我都早有觉悟，不打算赎罪。我既已憎恶人类，那么直到最后一刻，我都是人类的敌人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -778,7 +778,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "这是我最后的愿望—— 请您拿走棋子，亲手结束我的生命吧。",
+   "text": "这是我最后的愿望——请您拿走棋子，亲手结束我的生命吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -786,7 +786,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "虽然，我没办法站在您的身边，但请您记得—— 这个世界上所有的其他公司，都是您的敌人。",
+   "text": "虽然，我没办法站在您的身边，但请您记得——这个世界上所有的其他公司，都是您的敌人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -794,7 +794,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咕...... 刚刚那是......",
+   "text": "咕......刚刚那是......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -802,7 +802,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "棋子...... 主教棋子，我拿到了！",
+   "text": "棋子......主教棋子，我拿到了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -824,7 +824,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼，呼，我上来了， 翡冷翠，我跳下去了多久？",
+   "text": "呼，呼，我上来了，翡冷翠，我跳下去了多久？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -832,7 +832,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "一分钟...... 我不确定，至少不会超过两分钟。",
+   "text": "一分钟......我不确定，至少不会超过两分钟。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -840,7 +840,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真是...... 好漫长的两分钟啊。",
+   "text": "真是......好漫长的两分钟啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -848,7 +848,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不对，比起这种事情…… 达尔茜娅呢？她人在哪？！",
+   "text": "不对，比起这种事情……达尔茜娅呢？她人在哪？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -856,7 +856,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "就在那儿，看起来...... 她早就进入培养罐，和流风草母体融合了。",
+   "text": "就在那儿，看起来......她早就进入培养罐，和流风草母体融合了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -864,7 +864,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "陛下...... 是您吗？",
+   "text": "陛下......是您吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

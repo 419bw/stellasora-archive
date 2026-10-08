@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "你、你…… 你不准碰她……！！",
+   "text": "你、你……你不准碰她……！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,10 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "刚才魔<r=BOSS></r>王不小心摔了一跤，我想去拉你，没想到自己也倒下了。",
+   "text": {
+    "cn_f": "刚才魔<r=BOSS></r>王不小心摔了一跤，我想去拉她，没想到自己也倒下了。",
+    "cn_m": "刚才魔<r=BOSS></r>王不小心摔了一跤，我想去拉他，没想到自己也倒下了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +118,10 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "知道了，我会好·好·配·合你的~",
+   "text": {
+    "cn_f": "知道了，我会好·好·配·合她的~",
+    "cn_m": "知道了，我会好·好·配·合他的~"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +185,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "竟然对希娅做出那种事情…… 不可原谅！不可原谅！",
+   "text": "竟然对希娅做出那种事情……不可原谅！不可原谅！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +201,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "什么……？！ 她居然还特意闻了你的气味？！！",
+   "text": "什么……？！她居然还特意闻了你的气味？！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +321,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "实在不行的话…… 我亲自给你当鱼饵也可以啊！！",
+   "text": "实在不行的话……我亲自给你当鱼饵也可以啊！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +425,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "人呢—— 跑得也太快了吧！",
+   "text": "人呢——跑得也太快了吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +497,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "知、知道了！ 魔<r=BOSS></r>王，你记住了吗？绝对不能乱跑啊！",
+   "text": "知、知道了！魔<r=BOSS></r>王，你记住了吗？绝对不能乱跑啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +521,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "呼、呼…… 应该差不多了吧？我捡的果子都快装不下了……",
+   "text": "呼、呼……应该差不多了吧？我捡的果子都快装不下了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +569,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "小花铃，不可以这样说。 刚刚你走不动的时候，魔<r=BOSS></r>王可是主动提出帮你背包呢。",
+   "text": "小花铃，不可以这样说。\n刚刚你走不动的时候，魔<r=BOSS></r>王可是主动提出帮你背包呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +577,10 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "那、那最后我也没让你帮我背嘛，你已经拎了很多东西了……",
+   "text": {
+    "cn_f": "那、那最后我也没让她帮我背嘛，她已经拎了很多东西了……",
+    "cn_m": "那、那最后我也没让他帮我背嘛，他已经拎了很多东西了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +644,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "他们也可能是从岛屿另一端的海滩登陆的。 渔季已经结束了，这个时候登岛，恐怕另有企图。",
+   "text": "他们也可能是从岛屿另一端的海滩登陆的。\n渔季已经结束了，这个时候登岛，恐怕另有企图。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +684,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "只要这些人还在岛上…… 我就一定能把他们找出来！",
+   "text": "只要这些人还在岛上……我就一定能把他们找出来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -891,7 +900,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那…… 祝你们好运！",
+   "text": "那……祝你们好运！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -923,7 +932,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "小花铃，你看，她们的午饭好像有些寒酸啊， 我们来给大家添点小菜吧~",
+   "text": "小花铃，你看，她们的午饭好像有些寒酸啊，我们来给大家添点小菜吧~",
    "thought": false,
    "sticker": false,
    "channel": "talk"

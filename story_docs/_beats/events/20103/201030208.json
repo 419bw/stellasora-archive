@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你左手的动作看起来很僵硬…… 而且脸色好差啊，身体不舒服了吗？",
+   "text": "你左手的动作看起来很僵硬……而且脸色好差啊，身体不舒服了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "这样吗，说的也对。 我会铭记在心的。",
+   "text": "这样吗，说的也对。我会铭记在心的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "或许是因为一直淋着暴雨紧绷着精神，还要一直留意脚下湿滑的泥地…… 明明没走多远，却仿佛已长途跋涉了很久。",
+   "text": "或许是因为一直淋着暴雨紧绷着精神，还要一直留意脚下湿滑的泥地……\n明明没走多远，却仿佛已长途跋涉了很久。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？ 薇洛，等等！我刚才好像听见了什么——",
+   "text": "嗯？薇洛，等等！我刚才好像听见了什么——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "不好……！ 魔王，快后退！",
+   "text": "不好……！魔王，快后退！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "…… 本该是这样的",
+   "text": "……\n本该是这样的",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "诶……？ 我的手……",
+   "text": "诶……？我的手……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔……我没事……薇洛你呢？ 你的手……",
+   "text": "唔……我没事……薇洛你呢？你的手……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "…… 哈哈，你说得对。",
+   "text": "……哈哈，你说得对。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此…… 嗯？薇洛，你来看看这个。",
+   "text": "原来如此……嗯？薇洛，你来看看这个。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "也许吧。虽然木板两面的奇怪划痕让人有些在意…… 不过现在这种时候，应该先考虑就地取材。",
+   "text": "也许吧。虽然木板两面的奇怪划痕让人有些在意……不过现在这种时候，应该先考虑就地取材。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "嗯，没错。做得很棒。 啊……活过来了，真暖和。",
+   "text": "嗯，没错。做得很棒。啊……活过来了，真暖和。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "魔王，再靠近点吧？这样…… 会更暖和一些。",
+   "text": "魔王，再靠近点吧？这样……会更暖和一些。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "…… 刚才，谢谢你，魔王。",
+   "text": "……刚才，谢谢你，魔王。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "不仅是那个…… 更重要的是，你抚平了我的慌乱。",
+   "text": "不仅是那个……更重要的是，你抚平了我的慌乱。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -787,7 +787,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "嗯……为什么呢…… 因为发生过一些事，让我认清自己不是那块料吧——我还是更适合幕后工作。",
+   "text": "嗯……为什么呢……因为发生过一些事，让我认清自己不是那块料吧——我还是更适合幕后工作。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -811,7 +811,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "薇洛…… ——哇啊！",
+   "text": "薇洛……——哇啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -827,7 +827,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "喂喂？魔王？！ 太好了，终于打通了！",
+   "text": "喂喂？魔王？！太好了，终于打通了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -843,7 +843,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是啊，我们俩被大浪冲到了一座荒岛上。 多亏薇洛，我们都没事，你们呢？",
+   "text": "是啊，我们俩被大浪冲到了一座荒岛上。多亏薇洛，我们都没事，你们呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -867,7 +867,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "听到伙伴们熟悉的声音，我不禁松了口气。 互道平安后，薇洛向伙伴们说明了荒岛的大致方位。",
+   "text": "听到伙伴们熟悉的声音，我不禁松了口气。\n互道平安后，薇洛向伙伴们说明了荒岛的大致方位。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -939,7 +939,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "你接住我的那双手…… 真的很可靠呢。",
+   "text": "你接住我的那双手……真的很可靠呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

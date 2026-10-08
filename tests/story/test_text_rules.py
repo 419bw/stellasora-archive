@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Unit tests for scripts/story/pipeline/text_rules.py 的强调标记与签名行为
-（Phase 4b）。
-
-钉死四条：
-  1. clean_dialogue 对成对 <b>/<i>（含嵌套）原样保留，孤儿/交叉标记剥离
-     且不丢正文字，排版类 TMP 标签（color/size/align…）照旧全剥；
-  2. EMPH_STATS 计数 paired/orphan，供 _diagnostics.json 登记；
-  3. _sig 排除 <b>/<i>：渐显帧折叠的签名口径与 4b 之前逐字节一致
-     （<i><b>Y</b></i> 与 <i><b>Y O</b></i> 剥标记后保持子串包含关系）；
-  4. 强调标记与 ruby 双形式可共存，互不干扰。
-"""
+"""Text cleanup, emphasis pairing and fade-frame signatures."""
 import os
 import sys
 
@@ -24,8 +14,7 @@ from pipeline.passes import _related  # noqa: E402
 
 @pytest.fixture(autouse=True)
 def _reset_stats():
-    text_rules.EMPH_STATS['paired'] = 0
-    text_rules.EMPH_STATS['orphan'] = 0
+    text_rules.default_compiler.cache_clear()
     yield
 
 
@@ -38,26 +27,26 @@ def test_paired_emph_preserved():
         '_NOT_IN_LOG_<br><margin-left=5em><align=left><i><b><size=800%>'
         '<alpha=#88>Y</size></b></i></align></margin>==A0.15=='
     ) == '<i><b>Y</b></i>'
-    assert text_rules.EMPH_STATS['paired'] == 6   # 2（第一句）+ 4（<i> <b> </b> </i>）
-    assert text_rules.EMPH_STATS['orphan'] == 0
+    assert text_rules.default_compiler().diagnostics['paired'] == 6   # 2（第一句）+ 4（<i> <b> </b> </i>）
+    assert text_rules.default_compiler().diagnostics['orphan'] == 0
 
 
 def test_orphan_and_crossing_emph_stripped():
     # 语料原型：STm06_01 悬空 </b>（open 缺失）——只丢标记，不丢字
     assert text_rules.clean_dialogue(
         '<size=47>——佚名 《旧诺瓦前史》</b></size>') == '——佚名 《旧诺瓦前史》'
-    assert text_rules.EMPH_STATS['orphan'] == 1
+    assert text_rules.default_compiler().diagnostics['orphan'] == 1
     # 语料原型：disc4055 未闭合 <i>（计数为进程内累计）
     assert text_rules.clean_dialogue('<i><voffset=0.3em>It’s</voffset> nothing') == \
         'It’s nothing'
-    assert text_rules.EMPH_STATS['orphan'] == 2
+    assert text_rules.default_compiler().diagnostics['orphan'] == 2
     # 真交叉 <b><i></b></i>：close 只配栈顶同种 open —— </b> 遇栈顶 i 判孤儿，
     # </i> 配 i 成对；b 的 open 遗留栈底同判孤儿（尽力保留原则）
     assert text_rules.clean_dialogue('前<b><i>中</b></i>后尾') == '前<i>中</i>后尾'
-    assert text_rules.EMPH_STATS == {'paired': 2, 'orphan': 4}
+    assert text_rules.default_compiler().diagnostics == {'paired': 2, 'orphan': 4}
     # 合法嵌套 <b><i></i></b> 不受影响
     assert text_rules.clean_dialogue('前<b><i>中</i>后</b>尾') == '前<b><i>中</i>后</b>尾'
-    assert text_rules.EMPH_STATS == {'paired': 6, 'orphan': 4}
+    assert text_rules.default_compiler().diagnostics == {'paired': 6, 'orphan': 4}
 
 
 def test_layout_tags_still_stripped():
@@ -68,7 +57,7 @@ def test_layout_tags_still_stripped():
 
 
 def test_sig_excludes_emph():
-    """渐显帧签名剥表现标记：折叠判定口径与 4b 之前一致。"""
+    """Compare fade frames by text while retaining ruby content."""
     s1 = text_rules._sig('<alpha=#22><i><b>Y</b></i>')
     s2 = text_rules._sig('<i><b>Y O</b></i>')
     assert s1 == 'Y' and s2 == 'YO'
@@ -86,3 +75,9 @@ def test_emph_and_ruby_coexist():
         '<b>魔<r=momowang>魔</r>王</b>'
     # 排版标签被剥后强调标记可能变成新的相邻关系，仍按字面配对
     assert text_rules.clean_dialogue('<b><size=50>字</size></b>') == '<b>字</b>'
+
+
+def test_reading_projection_preserves_breaks_and_authored_spaces():
+    assert text_rules.clean_dialogue('前==W==中==B==后==P==末==A-1====Off==') == '前中后末'
+    assert text_rules.clean_dialogue('前==RT==后<br>末') == '前<br>后<br>末'
+    assert text_rules.clean_dialogue('It’s  nothing==W== now') == 'It’s  nothing now'

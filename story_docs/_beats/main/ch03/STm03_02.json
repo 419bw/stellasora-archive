@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但是，贝修莉娜说...... 那个情报商人借住在协会之家。",
+   "text": "但是，贝修莉娜说......那个情报商人借住在协会之家。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "怎么会变成这样？ 这条路感觉很久没人走了，都被草盖住了。",
+   "text": "怎么会变成这样？\n这条路感觉很久没人走了，都被草盖住了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -114,7 +114,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嗨！请问有人在吗？ 有—— 人—— 在—— 吗？",
+   "text": "嗨！请问有人在吗？\n有——人——在——吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -130,7 +130,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "不好意思，我们是空白旅团，冒昧前来打扰…… 屋子里没人？",
+   "text": "不好意思，我们是空白旅团，冒昧前来打扰……屋子里没人？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -162,7 +162,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "协会之家一楼大厅的黑暗角落里，有数台摆放在一起的娃娃机。 发出声音的女孩坐在其中一台前。",
+   "text": "协会之家一楼大厅的黑暗角落里，有数台摆放在一起的娃娃机。\n发出声音的女孩坐在其中一台前。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -210,7 +210,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "难道她就是…… 不，不太像。",
+   "text": "难道她就是……不，不太像。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -298,7 +298,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "可以，但是你们得陪我玩一把…… 不对，是通过我的考验，毕竟我还不太清楚你们是什么来头呢。",
+   "text": "可以，但是你们得陪我玩一把……\n不对，是通过我的考验，毕竟我还不太清楚你们是什么来头呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -306,7 +306,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "哦哦，我明白了，就和故事里一样， 想要见到隐居的传奇旅人，必须先打赢守门的部下。",
+   "text": "哦哦，我明白了，就和故事里一样，\n想要见到隐居的传奇旅人，必须先打赢守门的部下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -322,7 +322,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "对，对不起！我替尘沙道歉…… 所以你说的测试是指？",
+   "text": "对，对不起！我替尘沙道歉……\n所以你说的测试是指？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -330,7 +330,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "当然是这个——抓娃娃，每人控制一只爪子， 规定时间内抓到更多娃娃的人获胜。",
+   "text": "当然是这个——抓娃娃，每人控制一只爪子，\n规定时间内抓到更多娃娃的人获胜。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -476,7 +476,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "你们这可是在向“娃娃机仙人”挑战啊。 找到瑟拉娜算什么，如果你们赢了，你们要我做什么都可以。",
+   "text": "你们这可是在向“娃娃机仙人”挑战啊。\n找到瑟拉娜算什么，如果你们赢了，你们要我做什么都可以。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -484,7 +484,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那...... 琥珀......",
+   "text": "那......琥珀......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -624,7 +624,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "哦？看起来有点自信嘛…… 不过先说好，这里的娃娃机和星塔里的可不一样。",
+   "text": "哦？看起来有点自信嘛……\n不过先说好，这里的娃娃机和星塔里的可不一样。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -632,7 +632,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "这里的机器都是特别调试过的，爪子的力量非常微妙。 不习惯的玩家，可能抓一百次也……",
+   "text": "这里的机器都是特别调试过的，爪子的力量非常微妙。\n不习惯的玩家，可能抓一百次也……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -696,7 +696,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "哼哼，哼哼哼，挺有意思嘛。 看来是个不容小觑的对手呢……",
+   "text": "哼哼，哼哼哼，挺有意思嘛。\n看来是个不容小觑的对手呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -772,7 +772,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "灵…… 灵魂？！",
+   "text": "灵……灵魂？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -788,7 +788,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呵呵……那就开始吧！ 就让本王麾下的暗黑之豹，给予你永生难忘的教训吧！",
+   "text": "呵呵……那就开始吧！\n就让本王麾下的暗黑之豹，给予你永生难忘的教训吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -834,7 +834,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "娃娃机仙人的字典中没有失败两个字！过去如此…… 今后亦然！！呜噢噢噢噢噢噢～～～！！！",
+   "text": "娃娃机仙人的字典中没有失败两个字！过去如此……\n今后亦然！！呜噢噢噢噢噢噢～～～！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -936,7 +936,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "呃，咦？辛辛苦苦从塔里许愿回来，一点点收集起来的——娃娃收藏…… 怎么变少了？",
+   "text": "呃，咦？辛辛苦苦从塔里许愿回来，一点点收集起来的——娃娃收藏……\n怎么变少了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -944,7 +944,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "啊、啊哈哈……这样啊，那这……看来不是梦啊…… 算了，输了就是输了……我不是输不起的人……",
+   "text": "啊、啊哈哈……这样啊，那这……看来不是梦啊……\n算了，输了就是输了……我不是输不起的人……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1016,7 +1016,7 @@
   {
    "k": "talk",
    "speaker": "“娃娃机仙人”",
-   "text": "虽然不甘心，但从今天开始，再也没有娃娃机仙人了。 从今天起，我要作为花令旅团的普通一员小禾活下去……",
+   "text": "虽然不甘心，但从今天开始，再也没有娃娃机仙人了。\n从今天起，我要作为花令旅团的普通一员小禾活下去……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1024,7 +1024,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "所以，那个……琥珀？ “娃娃机仙人”的称号，从今天起就归你了。",
+   "text": "所以，那个……琥珀？\n “娃娃机仙人”的称号，从今天起就归你了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1088,7 +1088,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "其实...... 其实瑟拉娜只是出门办事了，晚上就会回来了。",
+   "text": "其实......其实瑟拉娜只是出门办事了，晚上就会回来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1104,7 +1104,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "哎，不麻烦，虽然看起来破破烂烂的…… 不过这里以前是地理协会在菲莱的协会之家，本来就是旅人们歇脚的地方。",
+   "text": "哎，不麻烦，虽然看起来破破烂烂的……\n不过这里以前是地理协会在菲莱的协会之家，本来就是旅人们歇脚的地方。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1136,7 +1136,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "这个...... 哎，等晚上大家回来以后，我会好好解释的。",
+   "text": "这个......哎，等晚上大家回来以后，我会好好解释的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

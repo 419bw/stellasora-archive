@@ -1,20 +1,5 @@
 # -*- coding: utf-8 -*-
-"""管线 Stage 1b: Lua 语法分析器（递归下降 → T(list) AST，带 SourcePos）。
-
-与重构前 build_story.py 的 T/LuaReader/parse_lua 逐行为等价（以 git 4496bd1 为基准，
-588 Config + AvgCharacter 预设全量对拍验证）：
-- T 为 list 子类：positional items 存于 list 本体，key=value 存于 .pairs；
-- parse_lua(text) 返回文件中第一个值（跳过前导 return），通常是根表 T；
-- 表内键识别 = IDENT + '='（词法层排除 '=='）；分隔符 ',' 或 ';' 各吞一个；
-- true/false/nil → True/False/None；裸标识符按旧行为返回字符串本身；
-  字符串与数字已在词法层完成反转义/转型。
-
-在等价之上仅做增强（语料实测零出现，字节不变，对拍记录见 .tmp_verify）：
-- 词法层接受单引号串、长字符串 [[..]]/[=[..]=]、块注释、\\ddd 与 \\xNN 转义；
-- 键与 '=' 之间允许跨行/注释（旧实现仅允许空格与制表符）；
-- 每个 T 附 .pos 属性（SourcePos，不进入 list/pairs 内容）；
-- LuaError 消息带 stem+行+列；词法错误 LuaLexError 统一包装为 LuaError 抛出。
-"""
+"""Parse Lua data tables with positional, named and bracketed scalar keys."""
 from __future__ import annotations
 
 from .lua_lexer import LuaLexError, SourcePos, Token, tokenize
@@ -25,11 +10,7 @@ class LuaError(ValueError):
 
 
 class T(list):
-    """A Lua table: positional items plus any key = value pairs.
-
-    与旧 build_story.T 完全同构；.pos 为增强属性（SourcePos 或 None），
-    不参与相等比较与序列化。
-    """
+    """Lua table items, keyed values and source position."""
 
     def __init__(self, items=(), pairs=None):
         super().__init__(items)
@@ -63,8 +44,13 @@ class _Parser:
         return self._peek().kind == kind
 
     # ---- 值 ----
+    def _expect(self, kind):
+        token = self._advance()
+        if token.kind != kind:
+            raise LuaError('expected %s at %s' % (kind, token.pos))
+
     def _value(self):
-        """对应旧 LuaReader.parse()：处理 {、return 前缀与标量。"""
+        """Read a table or scalar value, accepting a leading return."""
         if self._at('{'):
             return self._table()
         t = self._peek()
@@ -99,6 +85,11 @@ class _Parser:
             if self._at('ident') and self._tokens[self._i + 1].kind == '=':
                 key = self._advance().value
                 self._advance()  # '='
+            elif self._at('['):
+                self._advance()
+                key = self._scalar()
+                self._expect(']')
+                self._expect('=')
             v = self._value()
             if key is not None:
                 pairs[key] = v

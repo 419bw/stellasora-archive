@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "温婉的大小姐",
-   "text": "呵呵。祖父大人真是的，兴奋成这样。 明明去年也看过紫槿大人的表演呢。",
+   "text": "呵呵。祖父大人真是的，兴奋成这样。\n明明去年也看过紫槿大人的表演呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "正当光怪陆离的美景和“赚到了”的美妙小心思在我的脑内交错时， 一位女士在我的身旁默默入座。",
+   "text": "正当光怪陆离的美景和“赚到了”的美妙小心思在我的脑内交错时，一位女士在我的身旁默默入座。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "==A-1==尊敬的魔<r=BOSS></r>王大人： ==A-1==下周末晚7点，于弗拉维奥西城剧场，与您不见不散。 野空事务所将盛情欢迎您的到访。 ==A-1== ——凡妮",
+   "text": "尊敬的魔<r=BOSS></r>王大人：\n\n下周末晚7点，于弗拉维奥西城剧场，与您不见不散。\n野空事务所将盛情欢迎您的到访。\n                                                             ——凡妮",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "托她的福才能享受如此美妙的夜晚， 倒也没什么可抱怨的……",
+   "text": "托她的福才能享受如此美妙的夜晚，\n倒也没什么可抱怨的……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "管理员",
-   "text": "实在不好意思—— 不，不对！这，这个月的……？！ 不是前几天才一次性付清的吗……！",
+   "text": "实在不好意思——不，不对！这，这个月的……？！\n不是前几天才一次性付清的吗……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是在为钱争执吗？虽然帮不上什么忙…… 但还是去看看情况吧。",
+   "text": "是在为钱争执吗？虽然帮不上什么忙……\n但还是去看看情况吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "紫槿",
-   "text": "那么…… 火焰幻象秀正式开始！请各位好好欣赏！",
+   "text": "那么……火焰幻象秀正式开始！请各位好好欣赏！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "紫槿",
-   "text": "那么今天的压轴节目“捆绑术”就到此结束啦~ 感谢大家今天的到场，让我们下次再会！",
+   "text": "那么今天的压轴节目“捆绑术”就到此结束啦~\n感谢大家今天的到场，让我们下次再会！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "刚才...... 到底发生了什么？",
+   "text": "刚才......到底发生了什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "那，那个…… 今天也让我们看到了这么厉害的魔术……非常感谢……！",
+   "text": "那，那个……今天也让我们看到了这么厉害的魔术……非常感谢……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "紫槿",
-   "text": "猜对了～！ 虽然我很想这么说，但这次不是哦。",
+   "text": "猜对了～！虽然我很想这么说，但这次不是哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "紫槿",
-   "text": "倒也不是什么见不得人的事啦，只是…… 唔……",
+   "text": "倒也不是什么见不得人的事啦，只是……唔……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "紫槿",
-   "text": "总之能稍等一下吗？我得先回后台换衣服。这段时间…… 凡妮，能麻烦你先陪陪魔王吗？",
+   "text": "总之能稍等一下吗？我得先回后台换衣服。这段时间……\n凡妮，能麻烦你先陪陪魔王吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

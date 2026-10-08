@@ -43,7 +43,10 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "你才醒过来，情绪不能太激动。",
+   "text": {
+    "cn_f": "她才醒过来，情绪不能太激动。",
+    "cn_m": "他才醒过来，情绪不能太激动。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +78,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "溺水…… 对了，是你们救了我吗？",
+   "text": "溺水……对了，是你们救了我吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +118,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "我救你上来的时候，你的手里还紧紧握着一个提灯。 你是在哪里发现它的？",
+   "text": "我救你上来的时候，你的手里还紧紧握着一个提灯。\n你是在哪里发现它的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +126,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "在海里…… 我就是因为去捡提灯，才被海浪卷走了。",
+   "text": "在海里……\n我就是因为去捡提灯，才被海浪卷走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +142,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "那盏提灯原本放在甲板上，不知道什么时候掉进海里了，可能是刚刚浪太大了。 我正找得认真呢……结果就看到你了。",
+   "text": "那盏提灯原本放在甲板上，不知道什么时候掉进海里了，可能是刚刚浪太大了。\n我正找得认真呢……结果就看到你了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +166,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 这下真的是“幽灵船”的提灯了。",
+   "text": "……这下真的是“幽灵船”的提灯了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +174,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "正式介绍一下，我是希娅， 这位是花铃。 我们是从卡洛镇的港口出发的。",
+   "text": "正式介绍一下，我是希娅，这位是花铃。\n我们是从卡洛镇的港口出发的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +190,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "希娅、花铃，幸会幸会。 我是 魔王，你们也可以叫我魔<r=BOSS></r>王。",
+   "text": "希娅、花铃，幸会幸会。\n我是 魔王，你们也可以叫我魔<r=BOSS></r>王。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +198,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "魔<r=BOSS></r>王……？ 有趣的称呼。",
+   "text": "魔<r=BOSS></r>王……？有趣的称呼。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +206,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "魔、魔<r=BOSS></r>王？！ 好奇怪的称呼……",
+   "text": "魔、魔<r=BOSS></r>王？！好奇怪的称呼……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +294,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "掉进海里了？！！ 魔<r=BOSS></r>王，你还好吗？你现在在哪里？",
+   "text": "掉进海里了？！！\n魔<r=BOSS></r>王，你还好吗？你现在在哪里？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +310,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "抱歉，让你担心了。没事的，有好心人救了我。 我在她们的船上，等下就回去了。",
+   "text": "抱歉，让你担心了。没事的，有好心人救了我。\n我在她们的船上，等下就回去了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +318,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "太好了…… 我们在海边的小吃摊那里等你，一会儿见！",
+   "text": "太好了……\n我们在海边的小吃摊那里等你，一会儿见！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +430,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "好吧，我道歉。 对不起！",
+   "text": "好吧，我道歉。对不起！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +510,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你们居然能开到那么远的海域，好厉害。 我一开始还以为这只是艘普通的近海渔船……",
+   "text": "你们居然能开到那么远的海域，好厉害。\n我一开始还以为这只是艘普通的近海渔船……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +534,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "我的话…… 应该可以排进前十吧。",
+   "text": "我的话……应该可以排进前十吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +542,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "确实，能操纵这种多桅帆船，还选择在风暴季节去远海。 如果没有高超的航海技术，一定很难做到吧。",
+   "text": "确实，能操纵这种多桅帆船，还选择在风暴季节去远海。\n如果没有高超的航海技术，一定很难做到吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +622,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "距离光芒上次出现已经过去了两年，不少人都想凑个热闹。 我想，你大概也是其中之一吧。",
+   "text": "距离光芒上次出现已经过去了两年，不少人都想凑个热闹。\n我想，你大概也是其中之一吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +678,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "而且…… 玛琳女士是唯一亲眼见到海上光芒的人。",
+   "text": "而且……玛琳女士是唯一亲眼见到海上光芒的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

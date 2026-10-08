@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "啊~累死啦！ 鸢尾！我们买点好喝的吧，我看那个桃子口味的不错。",
+   "text": "啊~累死啦！鸢尾！我们买点好喝的吧，我看那个桃子口味的不错。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "我想要，星之铃。 音乐，喜欢。",
+   "text": "我想要，星之铃。\n音乐，喜欢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "波西亚",
-   "text": "（本来还想尝试一下最近新学的推销话术，但…… 还是算了吧，好麻烦。）",
+   "text": "（本来还想尝试一下最近新学的推销话术，但……还是算了吧，好麻烦。）",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "大家…… 没错，现在还不是消沉的时候！",
+   "text": "大家……没错，现在还不是消沉的时候！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "波西亚",
-   "text": "你要是能经常走两步，说说话，而不是在这里发呆，营业额肯定能更高。 或者，至少也帮我结个账啊。",
+   "text": "你要是能经常走两步，说说话，而不是在这里发呆，营业额肯定能更高。\n或者，至少也帮我结个账啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "波西亚",
-   "text": "到时候，就让他去穿着店长的...... 不不，是企鹅的玩偶服招揽客人。",
+   "text": "到时候，就让他去穿着店长的......不不，是企鹅的玩偶服招揽客人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "热情的富商",
-   "text": "承蒙贵客光临寒舍，不胜欣喜。 地方不大，但希望大家能玩得尽兴！",
+   "text": "承蒙贵客光临寒舍，不胜欣喜。\n地方不大，但希望大家能玩得尽兴！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "甜点比其他菜简单多了，你肯定能搞定。 再说也不用急着马上准备好。",
+   "text": "甜点比其他菜简单多了，你肯定能搞定。\n再说也不用急着马上准备好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "好吧…… 那我们赶快去厨房准备吧！",
+   "text": "好吧……那我们赶快去厨房准备吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "只有谷风人才知道的怎么吃的...... 哦，我知道该买什么了。",
+   "text": "只有谷风人才知道的怎么吃的......哦，我知道该买什么了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "总之按步骤做就行 只要别乱加料应该没问题……大概吧",
+   "text": "总之按步骤做就行\n只要别乱加料应该没问题……大概吧",
    "thought": false,
    "sticker": false,
    "channel": "msg"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "公司元老",
-   "text": "这...... 我记得河豚有毒吧，真的可以吃吗？",
+   "text": "这......我记得河豚有毒吧，真的可以吃吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "真没想到能在菲莱吃到河豚刺身。 能完美处理有毒部位的厨师还挺难找吧。",
+   "text": "真没想到能在菲莱吃到河豚刺身。\n能完美处理有毒部位的厨师还挺难找吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "刚才我是不是听到了什么危险发言？这些人...... 难道是客人带来的刺客？！",
+   "text": "刚才我是不是听到了什么危险发言？这些人......难道是客人带来的刺客？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "严肃的队长",
-   "text": "你们啊…… 想在道上混就多长点见识。 就理解为谷风人的佣兵吧，一群只会偷袭，不敢正面作战的胆小鬼们。",
+   "text": "你们啊……想在道上混就多长点见识。\n就理解为谷风人的佣兵吧，一群只会偷袭，不敢正面作战的胆小鬼们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "看来您对那里印象很好呢～ 实际上只是个特别偏僻的乡下地方。",
+   "text": "看来您对那里印象很好呢～\n实际上只是个特别偏僻的乡下地方。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "不过话说回来，这块蛋糕倒很像松川城所在的那个破岛的形状，只是...... 先苦后甜，我在那座岛上只有苦涩的回忆啊。",
+   "text": "不过话说回来，这块蛋糕倒很像松川城所在的那个破岛的形状，只是......先苦后甜，我在那座岛上只有苦涩的回忆啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "抱歉，耽误您时间真不好意思。 突然说这些莫名其妙的胡话…… 我大概是有些醉了。",
+   "text": "抱歉，耽误您时间真不好意思。\n突然说这些莫名其妙的胡话……我大概是有些醉了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "严肃的队长",
-   "text": "等等...... 你是这里的厨师？为什么穿着谷风人的衣服？",
+   "text": "等等......你是这里的厨师？为什么穿着谷风人的衣服？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "严肃的队长",
-   "text": "嗯...... 原来如此，那位大人既然来自松川，有一两个谷风佣人也很正常。谢谢你了。",
+   "text": "嗯......原来如此，那位大人既然来自松川，有一两个谷风佣人也很正常。谢谢你了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "请不要小看人。您不妨想想—— 为什么我能如此从容地站在这里？",
+   "text": "请不要小看人。您不妨想想——为什么我能如此从容地站在这里？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "我说怎么没看到埋伏在这边的佣兵，原来都被你干掉了…… 这些人真是不中用啊。",
+   "text": "我说怎么没看到埋伏在这边的佣兵，原来都被你干掉了……这些人真是不中用啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "嘿嘿，还轮不到你这个女仆...... 或者说忍者来教训我，那不是抓不到我，却又不敢耽误税收的恶代官强行加收的错吗？",
+   "text": "嘿嘿，还轮不到你这个女仆......或者说忍者来教训我，那不是抓不到我，却又不敢耽误税收的恶代官强行加收的错吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "竟然...... 被挡住了。",
+   "text": "竟然......被挡住了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "我劝您还是放弃吧。毕竟我把加征米赚来的钱全砸在卷轴上了—— 保护我的卷轴可不止一两张呢。",
+   "text": "我劝您还是放弃吧。毕竟我把加征米赚来的钱全砸在卷轴上了——保护我的卷轴可不止一两张呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -803,7 +803,7 @@
   {
    "k": "talk",
    "speaker": "金城区的客人",
-   "text": "如果您执意要继续，我自然奉陪到底。毕竟我不介意陪您耗上一整夜—— 但是，你的朋友可等不了那么久。",
+   "text": "如果您执意要继续，我自然奉陪到底。毕竟我不介意陪您耗上一整夜——但是，你的朋友可等不了那么久。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "你帮忙一起找是很好…… 但如果因此出了事故，不就本末倒置了吗？",
+   "text": "你帮忙一起找是很好……\n但如果因此出了事故，不就本末倒置了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "星塔的入口…… 不是应该往那边走吗？",
+   "text": "星塔的入口……不是应该往那边走吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "透过车窗向外看去，森林深处耸立着一座高塔。 塔身之上，十字星型光芒宛如指引方向的信标，又像是吸引旅人不断前往的灯火。",
+   "text": "透过车窗向外看去，森林深处耸立着一座高塔。塔身之上，十字星型光芒宛如指引方向的信标，又像是吸引旅人不断前往的灯火。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "噢噢噢—— 我找到啦~！",
+   "text": "噢噢噢——我找到啦~！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "关于星塔，还有很多未解之谜。 虽然还没被完全证实，但这或许是某种传送魔法......",
+   "text": "关于星塔，还有很多未解之谜。\n虽然还没被完全证实，但这或许是某种传送魔法......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "这些升降机我们进出一次就会消失，转移到星塔附近的其他地方。或许，真的就像传说中的解释那样—— 这是恩赐之神对攀登星塔的人的考验。",
+   "text": "这些升降机我们进出一次就会消失，转移到星塔附近的其他地方。或许，真的就像传说中的解释那样——这是恩赐之神对攀登星塔的人的考验。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "那种情况就说明当时运气不好，本来就不适合爬塔啦~ 就算强行进去也不一定能许愿出好东西。",
+   "text": "那种情况就说明当时运气不好，本来就不适合爬塔啦~\n就算强行进去也不一定能许愿出好东西。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "现在还没有任何切实证据可以证明两者间有直接关联…… 这只是尘沙你的主观猜测而已。",
+   "text": "现在还没有任何切实证据可以证明两者间有直接关联……这只是尘沙你的主观猜测而已。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "说得也对…… 那我们现在就开始做准备吧。",
+   "text": "说得也对……\n那我们现在就开始做准备吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但我也不知道需要做哪些准备…… 要不看看她们都在做些什么好了。",
+   "text": "但我也不知道需要做哪些准备……要不看看她们都在做些什么好了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "像这样，和我背靠背…… 胳膊勾在一起。",
+   "text": "像这样，和我背靠背……胳膊勾在一起。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等、等等…… 好痛！好痛好痛好痛！",
+   "text": "等、等等……好痛！好痛好痛好痛！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "哈哈哈~ 别说这种丧气话嘛，再坚持一下~",
+   "text": "哈哈哈~\n别说这种丧气话嘛，再坚持一下~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嘿嘿~那就好~ 星塔里特殊状况很多，之后也要记得在进入之前做好热身哦！",
+   "text": "嘿嘿~那就好~\n星塔里特殊状况很多，之后也要记得在进入之前做好热身哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然我很乐意帮忙。但怎么感觉你还是小心一些， 别总是被缠住比较好……",
+   "text": "虽然我很乐意帮忙。但怎么感觉你还是小心一些，别总是被缠住比较好……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "请…… 把手借我用一下可以吗？",
+   "text": "请……把手借我用一下可以吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +715,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此。 你突然来握手，我还以为发生什么事了呢。",
+   "text": "原来如此。\n你突然来握手，我还以为发生什么事了呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "还有...... 星塔里有很多神奇的东西，那都是恩赐之神的造物。我们可以看，可以触碰，但千万不要试图拿走，更不要吃星塔里的东西。",
+   "text": "还有......星塔里有很多神奇的东西，那都是恩赐之神的造物。我们可以看，可以触碰，但千万不要试图拿走，更不要吃星塔里的东西。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -827,7 +827,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "不要听尘沙乱说…… 是不管吃多少，在离开星塔的时候都会被星塔拿回去。",
+   "text": "不要听尘沙乱说……是不管吃多少，在离开星塔的时候都会被星塔拿回去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -835,7 +835,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "……不，只是拿回去还算好的。 在星塔里吃得越多，就越容易忘记自己是谁......最终消失在星塔里。",
+   "text": "……不，只是拿回去还算好的。\n在星塔里吃得越多，就越容易忘记自己是谁......最终消失在星塔里。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -843,7 +843,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "感觉是个有点可怕的地方…… 总之，我会注意的。",
+   "text": "感觉是个有点可怕的地方……\n总之，我会注意的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

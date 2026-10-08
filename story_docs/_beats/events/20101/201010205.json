@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "小男孩",
-   "text": "她看起来有点吓人…… 我们都不敢跟她说太多话。",
+   "text": "她看起来有点吓人……我们都不敢跟她说太多话。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "刚刚还见到的…… 啊！就在那里！",
+   "text": "刚刚还见到的……啊！就在那里！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "哦~~我懂了，是那种“跟踪”啊。 魔<r=mowang></r>王还挺受欢迎嘛~",
+   "text": "哦~~我懂了，是那种“跟踪”啊。魔<r=mowang></r>王还挺受欢迎嘛~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "总觉得她又想歪了…… 算了。",
+   "text": "总觉得她又想歪了……算了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "呼…… 她、她跑得也太快了吧？！",
+   "text": "呼……她、她跑得也太快了吧？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "看到了！ 在那边—— 快跟上！",
+   "text": "看到了！在那边——快跟上！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "好人怎么可能拖着一台有大炮的雪橇…… 肯定是危险的人！",
+   "text": "好人怎么可能拖着一台有大炮的雪橇……肯定是危险的人！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "当然了，不然我干嘛打扮成这个鬼样子！ 就算你不相信我，也要相信我旁边这位吧。",
+   "text": "当然了，不然我干嘛打扮成这个鬼样子！\n就算你不相信我，也要相信我旁边这位吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "公园的自动售货神器里有，我刚刚看到了！ 走吧走吧！我们现在就去！",
+   "text": "公园的自动售货神器里有，我刚刚看到了！\n走吧走吧！我们现在就去！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "按照约定，现在可以告诉我们书和照片的事了吧。 你还记得那本“雪愿树传说”的故事书吗？",
+   "text": "按照约定，现在可以告诉我们书和照片的事了吧。\n你还记得那本“雪愿树传说”的故事书吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "不在，今天早晨我在灰风俱乐部门前和一群小朋友一起看完书， 就把书借给下一个人了。",
+   "text": "不在，今天早晨我在灰风俱乐部门前和一群小朋友一起看完书，就把书借给下一个人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "我记得…… 是东一街的小孩子，家里好像…… 总是在敲木头。",
+   "text": "我记得……是东一街的小孩子，家里好像……总是在敲木头。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "敲木头？ 你说的是木匠吧，那我大概知道了。",
+   "text": "敲木头？你说的是木匠吧，那我大概知道了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "不、不客气。也谢谢魔<r=BOSS></r>王的饮料…… 很好喝……",
+   "text": "不、不客气。也谢谢魔<r=BOSS></r>王的饮料……很好喝……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这只能碰运气了。 说起来，你好像很在意那张照片啊。",
+   "text": "这只能碰运气了。说起来，你好像很在意那张照片啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +579,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "不要用那种怀疑的眼神看我啦！总之…… 先找到照片再说吧！",
+   "text": "不要用那种怀疑的眼神看我啦！总之……先找到照片再说吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你有没有感觉…… 好像有人在跟着我们？",
+   "text": "你有没有感觉……好像有人在跟着我们？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -91,7 +91,10 @@
   {
    "k": "talk",
    "speaker": "严厉的老师",
-   "text": "那边你的同学。",
+   "text": {
+    "cn_f": "那边白头发的同学。",
+    "cn_m": "那边黑头发的同学。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +198,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "总算下课了， 原来听课是这么累的事啊。",
+   "text": "总算下课了，原来听课是这么累的事啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +206,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "这位老师比较严格， 不过她也是最认真的星塔学老师。",
+   "text": "这位老师比较严格，不过她也是最认真的星塔学老师。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +246,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "一周去两、三次，多的时候会连续听一整天， 都是和星塔、和旅人有关的课程。",
+   "text": "一周去两、三次，多的时候会连续听一整天，都是和星塔、和旅人有关的课程。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +694,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我？ 大腿？",
+   "text": "我？大腿？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

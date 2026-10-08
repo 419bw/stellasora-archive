@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔喵唔喵…… 再睡5分钟……",
+   "text": "唔喵唔喵……再睡5分钟……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……… 不过，这么一折腾也完全清醒了。",
+   "text": "………不过，这么一折腾也完全清醒了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,10 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "因为从今天开始，我就是—— 斯帕克拉的“你”了！",
+   "text": {
+    "cn_f": "因为从今天开始，我就是——斯帕克拉的“女仆”了！",
+    "cn_m": "因为从今天开始，我就是——斯帕克拉的“管家”了！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +158,10 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "我希望你能代替兔子派来做我的你",
+   "text": {
+    "cn_f": "我希望你能代替兔子派来做我的女仆",
+    "cn_m": "我希望你能代替兔子派来做我的管家"
+   },
    "thought": false,
    "sticker": false,
    "channel": "msg"
@@ -195,7 +201,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "三十万朵拉……呵呵，一定要严肃对待工作。 先让斯帕克拉见识见识我的拿手料理，烤吐司吧！早晨餐桌上可不能缺了这个。",
+   "text": "三十万朵拉……呵呵，一定要严肃对待工作。先让斯帕克拉见识见识我的拿手料理，烤吐司吧！早晨餐桌上可不能缺了这个。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +209,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "烤箱……应该是这台机器吧。 好，启动！",
+   "text": "烤箱……应该是这台机器吧。好，启动！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +241,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "哈啊~ 料理做完了当然值得庆祝一下。而且这个功能还可以给厨师提供情绪价值……",
+   "text": "哈啊~料理做完了当然值得庆祝一下。而且这个功能还可以给厨师提供情绪价值……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +249,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "做饭也是一种创作，不可以小看每一道菜背后的辛苦哦…… 哈啊……",
+   "text": "做饭也是一种创作，不可以小看每一道菜背后的辛苦哦……哈啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +257,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个……斯帕克拉？ 你的脸色很差哦。要不要再去睡一会儿？",
+   "text": "那个……斯帕克拉？你的脸色很差哦。要不要再去睡一会儿？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +265,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "哈啊……没关系。 已经是该起床的时间了……而且我还闻到了烤吐司的香味……",
+   "text": "哈啊……没关系。已经是该起床的时间了……而且我还闻到了烤吐司的香味……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +273,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 是吗，最近工作任务这么重啊。",
+   "text": "……是吗，最近工作任务这么重啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +289,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "魔王派…… 斯帕克拉之前好像说过，正在开发一款以我为原型的爬塔辅助机关人。",
+   "text": "魔王派……斯帕克拉之前好像说过，正在开发一款以我为原型的爬塔辅助机关人。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +321,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嚼嚼嚼嚼…… 嗯，今天的味道也是一绝！ 怎么样斯帕克拉，我倾注心血烤好的吐司，味道如何？！",
+   "text": "嚼嚼嚼嚼……嗯，今天的味道也是一绝！怎么样斯帕克拉，我倾注心血烤好的吐司，味道如何？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +329,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "嚼……嚼…… 嗯……很好吃呢……",
+   "text": "嚼……嚼……嗯……很好吃呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +337,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "吃、吃了我的吐司竟然还是没精神…… 再这样下去，三十万朵拉的日薪我受之有愧啊……",
+   "text": "吃、吃了我的吐司竟然还是没精神……再这样下去，三十万朵拉的日薪我受之有愧啊……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +353,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "魔<r=BOSS></r>王。能过来一下吗？ 对，坐在我旁边。",
+   "text": "魔<r=BOSS></r>王。能过来一下吗？对，坐在我旁边。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +385,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "嗯～不错！ 这个距离刚刚好♪",
+   "text": "嗯～不错！这个距离刚刚好♪",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +417,10 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "还有这脸颊，也是滑滑嫩嫩的。",
+   "text": {
+    "cn_f": "还有这脸颊，也是滑滑嫩嫩的。",
+    "cn_m": "明明这么好看却偏要把一只眼睛遮起来……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +428,10 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "好想一直摸下去啊～",
+   "text": {
+    "cn_f": "好想一直摸下去啊～",
+    "cn_m": "不是太可惜了吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +439,10 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "快、快住手……",
+   "text": {
+    "cn_f": "快、快住手……",
+    "cn_m": "就算你这么说，我也不会换发型的哦。这可是好多影戏里男主的标配造型，我很喜欢呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +450,10 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "那个，耳朵也让我……摸一下下好不好？呵呵呵呵～♪",
+   "text": {
+    "cn_f": "那个，耳朵也让我……摸一下下好不好？呵呵呵呵～♪",
+    "cn_m": "哼——真遗憾。那……能让我摸一下下耳朵吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +461,10 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好、好痒啊！ 很痒的，快停下啦！",
+   "text": {
+    "cn_f": "好、好痒啊！很痒的，快停下啦！",
+    "cn_m": "喂，你不是已经在摸了吗……！？好、好痒啊！很痒的，快停下啦！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +480,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "话说回来，完全符合我喜好的人竟然真实存在，而且还是我认识的人…… 真是太幸运了♪",
+   "text": "话说回来，完全符合我喜好的人竟然真实存在，而且还是我认识的人……真是太幸运了♪",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +488,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "一有精神，肚子就突然饿起来了。 魔<r=BOSS></r>王，拜托再给我烤一片吐司吧！",
+   "text": "一有精神，肚子就突然饿起来了。魔<r=BOSS></r>王，拜托再给我烤一片吐司吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +568,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 盯我盯得太紧了吧！完全没办法专心做家务了！",
+   "text": "……盯我盯得太紧了吧！完全没办法专心做家务了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +632,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "如果总是被别人牵着鼻子走，是想不出好点子的。 于是我就又决定把她们拉黑啦。",
+   "text": "如果总是被别人牵着鼻子走，是想不出好点子的。于是我就又决定把她们拉黑啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +640,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 那这么一来，之后布洛可又该来找我哭诉说联系不上斯帕克拉了。",
+   "text": "……那这么一来，之后布洛可又该来找我哭诉说联系不上斯帕克拉了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +680,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "喜欢的事吗…… 应该就是在发明室里待上一整天搞发明吧。",
+   "text": "喜欢的事吗……应该就是在发明室里待上一整天搞发明吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +728,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "以前确实经常看。也读了很多旅人的故事…… 特别是弗拉维奥出版的作品，我以前经常买来收藏呢。",
+   "text": "以前确实经常看。也读了很多旅人的故事……特别是弗拉维奥出版的作品，我以前经常买来收藏呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +744,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "猜对了，她果然很喜欢童话呢…… 我记得紫槿说过，弗拉维奥的剧团正在巡演童话剧来着。",
+   "text": "猜对了，她果然很喜欢童话呢……我记得紫槿说过，弗拉维奥的剧团正在巡演童话剧来着。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -755,7 +776,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "童话剧…… 你说的是《翡翠城堡里的魔法师》？",
+   "text": "童话剧……你说的是《翡翠城堡里的魔法师》？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -803,7 +824,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "确实有道理。 因为通缉令画得实在太丑，我当时差点就忍不住让他们重画了。这么一想，往丑里画其实也不全是坏事呢。",
+   "text": "确实有道理。因为通缉令画得实在太丑，我当时差点就忍不住让他们重画了。这么一想，往丑里画其实也不全是坏事呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "好好好好…… 好了！",
+   "text": "好好好好……好了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +92,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "大家都在看着我…… 我必须努力……",
+   "text": "大家都在看着我……我必须努力……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +124,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "打…… 打倒一个……",
+   "text": "打……打倒一个……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -188,7 +188,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呜…… 为什么就是做不好呢……",
+   "text": "呜……为什么就是做不好呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -196,7 +196,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "大家看着我...... 好紧张...... 身体完全不听使唤……",
+   "text": "大家看着我......好紧张......身体完全不听使唤……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +220,7 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "我们的视线还是很让她紧张的，她一紧张就会犯错， 一犯错就觉得自己很没用，然后就恶性循环了。",
+   "text": "我们的视线还是很让她紧张的，她一紧张就会犯错，\n一犯错就觉得自己很没用，然后就恶性循环了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -274,7 +274,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呜呜……对不起。只是被人看着...... 就紧张成那个样子。果然我连树树鼠的排泄物都不如啊……",
+   "text": "呜呜……对不起。只是被人看着......就紧张成那个样子。果然我连树树鼠的排泄物都不如啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -298,7 +298,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "这是沙袋么...... 有点重……",
+   "text": "这是沙袋么......有点重……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -408,7 +408,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "嗯...... 好。",
+   "text": "嗯......好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -424,7 +424,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "别，别过来……！ 啊，那个…… 对不起，我不是那个意思，只是觉得离远一点比较安全……",
+   "text": "别，别过来……！\n啊，那个……对不起，我不是那个意思，只是觉得离远一点比较安全……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -456,7 +456,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此…… 等等我没听错吧？力量变强了？",
+   "text": "原来如此……等等我没听错吧？力量变强了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -472,7 +472,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "但是...... 到了昨天，我就感受不到那些沙袋的重量了，挥拳反而变得更快了，威力也更大。",
+   "text": "但是......到了昨天，我就感受不到那些沙袋的重量了，挥拳反而变得更快了，威力也更大。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -520,7 +520,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你能这么积极看待问题，咳咳，还是挺好的…… 不过沙袋也训练不行啊，得想个别的办法。",
+   "text": "你能这么积极看待问题，咳咳，还是挺好的……\n不过沙袋也训练不行啊，得想个别的办法。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -568,7 +568,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "哈……哈喽…… 能，能救救我吗……",
+   "text": "哈……哈喽……能，能救救我吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -592,7 +592,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "倒不如说....... 在那种情况下居然还能活着……",
+   "text": "倒不如说.......在那种情况下居然还能活着……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -616,7 +616,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "这个嘛，我自己也搞不清楚诶～？ 只记得刚刚我停在树梢上小睡了一会，不知道为什么树就倒了。",
+   "text": "这个嘛，我自己也搞不清楚诶～？\n只记得刚刚我停在树梢上小睡了一会，不知道为什么树就倒了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -632,7 +632,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那，那个…… 雾语你来这里做什么？ 既然自称“魔女”，你是来森林中采药的吗？",
+   "text": "那，那个……雾语你来这里做什么？\n既然自称“魔女”，你是来森林中采药的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -704,7 +704,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "对，我们魔女最喜欢揭开秘密，吃掉里面的真相了，您全身上下， 都散发着最上等的味道哦。",
+   "text": "对，我们魔女最喜欢揭开秘密，吃掉里面的真相了，您全身上下，都散发着最上等的味道哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "怎么还恶人先告状…… 明明是你们先动的手啊。",
+   "text": "怎么还恶人先告状……明明是你们先动的手啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但这些传闻不可能全是空穴来风，这个度假村里肯定发生了些什么…… 你们在这里工作的时候，有遇到过什么怪事吗？",
+   "text": "但这些传闻不可能全是空穴来风，这个度假村里肯定发生了些什么……你们在这里工作的时候，有遇到过什么怪事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,10 @@
   {
    "k": "talk",
    "speaker": "嘴快的寻宝旅人",
-   "text": "老大…… 要不，就和你们说说吧？我们现在也没别的好办法了……",
+   "text": {
+    "cn_f": "老大……要不，就和她们说说吧？我们现在也没别的好办法了……",
+    "cn_m": "老大……要不，就和他们说说吧？我们现在也没别的好办法了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +174,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头目",
-   "text": "好吧…… 我们确实遇到了一些怪事。",
+   "text": "好吧……我们确实遇到了一些怪事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +222,7 @@
   {
    "k": "talk",
    "speaker": "嘴快的寻宝旅人",
-   "text": "我那天看得一清二楚！那台自动售货神器正在慢悠悠地往海里移动…… 等我追到海边的时候，已经消失得无影无踪了！",
+   "text": "我那天看得一清二楚！那台自动售货神器正在慢悠悠地往海里移动……等我追到海边的时候，已经消失得无影无踪了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +262,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "黑影，眼睛，沙滩上的痕迹，会移动的售货神器…… 看来这些线索之间多少存在着某种关联呢。",
+   "text": "黑影，眼睛，沙滩上的痕迹，会移动的售货神器……看来这些线索之间多少存在着某种关联呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +270,10 @@
   {
    "k": "talk",
    "speaker": "嘴快的寻宝旅人",
-   "text": "老大……那件事要不也一块告诉你们算了？",
+   "text": {
+    "cn_f": "老大……那件事要不也一块告诉她们算了？",
+    "cn_m": "老大……那件事要不也一块告诉他们算了？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +313,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "白色头发，个子小小的…… 难道是珂赛特？",
+   "text": "白色头发，个子小小的……难道是珂赛特？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +401,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "别跑啊！ 快把我的饮料还回来——！",
+   "text": "别跑啊！快把我的饮料还回来——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +457,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "巨大的寄居蟹已经彻底发狂， 挥舞着钳子在度假村里到处横冲直撞",
+   "text": "巨大的寄居蟹已经彻底发狂，\n挥舞着钳子在度假村里到处横冲直撞",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +489,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "伴随一声沉闷的巨响， 薇洛的机械手狠狠砸在了寄居蟹的脑袋上",
+   "text": "伴随一声沉闷的巨响，\n薇洛的机械手狠狠砸在了寄居蟹的脑袋上",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +681,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "都—— 说——啦——！ 快还给我啊——！",
+   "text": "都——说——啦——！快还给我啊——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -779,7 +785,7 @@
   {
    "k": "talk",
    "speaker": "寻宝旅人头目",
-   "text": "活要见人死要见尸呀！不是…… 坏了还能想办法修，没了的话那可是一切都没了！",
+   "text": "活要见人死要见尸呀！不是……坏了还能想办法修，没了的话那可是一切都没了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +801,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……好吧。不管怎么说，先把珂赛特救回来是最重要的。 至于自动售货神器，我们尽量想办法一起带回来。",
+   "text": "……好吧。不管怎么说，先把珂赛特救回来是最重要的。至于自动售货神器，我们尽量想办法一起带回来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

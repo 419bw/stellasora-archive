@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "激动的旅人",
-   "text": "好厉害！我…… 我第一次见到您本人！冬香小姐，您能给我签个名吗！",
+   "text": "好厉害！我……我第一次见到您本人！冬香小姐，您能给我签个名吗！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "菲莱市民",
-   "text": "说得…… 也是呢，冬香大人一语不发的高贵气质，真让人着迷。我们居然连这都没领会，太不应该了！",
+   "text": "说得……也是呢，冬香大人一语不发的高贵气质，真让人着迷。我们居然连这都没领会，太不应该了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "啊…… 是，是这样。真对不起，我忘了这件事，我们现在就走吧。",
+   "text": "啊……是，是这样。真对不起，我忘了这件事，我们现在就走吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,10 @@
   {
    "k": "talk",
    "speaker": "路过的学生",
-   "text": "刚刚那个人是谁？你为啥能请到冬香啊？",
+   "text": {
+    "cn_f": "刚刚那个人是谁？她为啥能请到冬香啊？",
+    "cn_m": "刚刚那个人是谁？他为啥能请到冬香啊？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +270,10 @@
   {
    "k": "talk",
    "speaker": "菲莱市民",
-   "text": "嘘，小声点。那人好像是…… 魔王协议的首席执行官。据说你用一个魔法，就消灭了和联合种业厂房一样大的星骸。",
+   "text": {
+    "cn_f": "嘘，小声点。那人好像是……魔王协议的首席执行官。据说她用一个魔法，就消灭了和联合种业厂房一样大的星骸。",
+    "cn_m": "嘘，小声点。那人好像是……魔王协议的首席执行官。据说他用一个魔法，就消灭了和联合种业厂房一样大的星骸。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +305,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "谢，谢谢…… 师父又救了我一次，那个，我的手。",
+   "text": "谢，谢谢……师父又救了我一次，那个，我的手。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +345,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呼…… 太好了。那个，既然如此…… 请师父继续抓着我，那样感觉很安心。",
+   "text": "呼……太好了。那个，既然如此……请师父继续抓着我，那样感觉很安心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +361,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "嘿嘿…… 谢谢师父。",
+   "text": "嘿嘿……谢谢师父。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +393,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "其实…… 我是故意的。我想做些什么改变自己。",
+   "text": "其实……我是故意的。我想做些什么改变自己。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +409,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "但我觉得这是必要的。 对了！今天的训练计划还没完成，我，我先走了！",
+   "text": "但我觉得这是必要的。对了！今天的训练计划还没完成，我，我先走了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +425,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "跑这么快…… 也不知道到底是胆子太小还是行动力太高。",
+   "text": "跑这么快……也不知道到底是胆子太小还是行动力太高。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +441,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "冬香应该在这附近。 怎么不知不觉跑进森林了？",
+   "text": "冬香应该在这附近。怎么不知不觉跑进森林了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +465,10 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "但是，在我害怕到不敢动弹的时候，你出现了。真不愧是师父……！",
+   "text": {
+    "cn_f": "但是，在我害怕到不敢动弹的时候，她出现了。真不愧是师父……！",
+    "cn_m": "但是，在我害怕到不敢动弹的时候，他出现了。真不愧是师父……！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +476,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "冬香…… 正在对着树说话？",
+   "text": "冬香……正在对着树说话？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +516,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那是....... 演讲吗？冬香也在默默努力啊，不过，只是这样可练习不出来。",
+   "text": "那是.......演讲吗？冬香也在默默努力啊，不过，只是这样可练习不出来。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +524,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "既然如此，我也该作为师父出一份力。 对了，我不如——",
+   "text": "既然如此，我也该作为师父出一份力。对了，我不如——",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -559,7 +568,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "小、小鸟…… 不，这个声音，是师——！",
+   "text": "小、小鸟……不，这个声音，是师——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -599,7 +608,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "啊...... 您原来已经发现了。这么敏锐的观察力...... 真不愧是师父。",
+   "text": "啊......您原来已经发现了。这么敏锐的观察力......真不愧是师父。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -607,7 +616,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "我，我最近确实有烦恼的事情想要向师…… 向仙人您倾诉！",
+   "text": "我，我最近确实有烦恼的事情想要向师……向仙人您倾诉！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -623,7 +632,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "营地有定期让旅人上台演讲，介绍冒险经验，给大家加油打气的传统…… 下次演讲，我被选上了。",
+   "text": "营地有定期让旅人上台演讲，介绍冒险经验，给大家加油打气的传统……下次演讲，我被选上了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -647,7 +656,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "可是…… 我本来就不擅长和陌生人说话，更别说上台……",
+   "text": "可是……我本来就不擅长和陌生人说话，更别说上台……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -655,7 +664,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "我从一本书上看到，演讲时把台下的观众想象成小动物或者是植物，就不会觉得紧张了，可是…… 总感觉收效甚微。",
+   "text": "我从一本书上看到，演讲时把台下的观众想象成小动物或者是植物，就不会觉得紧张了，可是……总感觉收效甚微。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -663,7 +672,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呜…… 我的做法，到底对不对呢？",
+   "text": "呜……我的做法，到底对不对呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

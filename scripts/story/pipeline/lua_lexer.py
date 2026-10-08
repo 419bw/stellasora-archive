@@ -1,18 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Lua 词法分析：源文本 → token 流（每个 token 带 SourcePos）。
-
-从原 build_story.LuaReader 的字符级扫描拆出（管线重构 Phase 1，Stage 1 前端）。
-与原扫描器行为完全兼容，并补齐它缺失、当前语料未用到的文法（防御性加固，
-588 个 Config 剧本 + AvgCharacter 预设实测下列构造 0 次出现，故产物字节不变）：
-
-  * 单引号字符串 '...'
-  * 长字符串 [[...]] / [==[...]==]
-  * 块注释 --[[...]] / --[==[...]==]
-  * 数值转义 \\ddd 与 \\xNN
-
-转义映射与原实现一致：\\n \\t \\" \\' \\\\ 走表，其余 \\c 取字面 c（含裸换行续行）。
-错误统一为 LuaLexError，带 stem + 行 + 列（原实现只有字符偏移）。
-"""
+"""Tokenize Lua data, retaining source positions and decoding string escapes."""
 import re
 from collections import namedtuple
 
@@ -190,6 +177,10 @@ def tokenize(text, stem=None):
             toks.append(Token(',', ',', pos()))
             bump(1)
             continue
+        if c0 == ']':
+            toks.append(Token(']', ']', pos()))
+            bump(1)
+            continue
         if c0 == ';':
             toks.append(Token(';', ';', pos()))
             bump(1)
@@ -208,7 +199,9 @@ def tokenize(text, stem=None):
             p0 = pos()
             r = read_long(i, line, col)
             if r is None:
-                raise LuaLexError("unexpected character '['", p0)
+                toks.append(Token('[', '[', p0))
+                bump(1)
+                continue
             v, stop, nline, ncol = r
             toks.append(Token('string', v, p0))
             i, line, col = stop, nline, ncol

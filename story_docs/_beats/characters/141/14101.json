@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "嗯？你想问苍梧城近日流传的“闹鬼”传闻？ 问我可就问对人了。",
+   "text": "嗯？你想问苍梧城近日流传的“闹鬼”传闻？\n问我可就问对人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "算、算…… 不过只知道传闻可解决不了事情，如果真的是“闹鬼”，得找个会抓鬼的人来帮忙才行……",
+   "text": "算、算……不过只知道传闻可解决不了事情，如果真的是“闹鬼”，得找个会抓鬼的人来帮忙才行……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "啊？啊？？我……我？ 那个，我师父还给我留了不少功课你那几天我可能抽不出时间……",
+   "text": "啊？啊？？我……我？\n那个，我师父还给我留了不少功课你那几天我可能抽不出时间……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "要不你去找我师姐？虽然我不知道她们现在都在哪里…… 都说心诚则灵，你一定能找到她们的！",
+   "text": "要不你去找我师姐？虽然我不知道她们现在都在哪里……\n都说心诚则灵，你一定能找到她们的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "呜哇！！！ 妖魔鬼怪快离开妖魔鬼怪快离开！！！",
+   "text": "呜哇！！！\n妖魔鬼怪快离开妖魔鬼怪快离开！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 你怎么还站着不走？",
+   "text": "……\n你怎么还站着不走？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "你、你走前面，万一后面有什么怪物，我、我还能守护你的背后…… 哇啊啊啊草丛里有东西！！",
+   "text": "你、你走前面，万一后面有什么怪物，我、我还能守护你的背后……\n 哇啊啊啊草丛里有东西！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你你快松手，胳膊要被你捏碎了…… 那是老鼠，真的，往那边跑过去了！",
+   "text": "你你快松手，胳膊要被你捏碎了……\n那是老鼠，真的，往那边跑过去了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "别、别跑了…… 真的要是有什么，跑是没用的吧？",
+   "text": "别、别跑了……\n真的要是有什么，跑是没用的吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "要不我们还是先回去吧，驱鬼什么的，我师父也没教过我…… 绝对不是因为害怕了！",
+   "text": "要不我们还是先回去吧，驱鬼什么的，我师父也没教过我……\n绝对不是因为害怕了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咳咳……咳…… 诶……？诶？？？？？",
+   "text": "咳咳……咳……\n诶……？诶？？？？？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "啊啊你怎么跑到我后面去了？！你吓死我…… 了……",
+   "text": "啊啊你怎么跑到我后面去了？！你吓死我……了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "魔、魔<r=BOSS></r>王你的…… 脖、脖子……要、要断了……",
+   "text": "魔、魔<r=BOSS></r>王你的……脖、脖子……要、要断了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "你的头、头…… 诶？还在……",
+   "text": "你的头、头……\n诶？还在……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "不是……刚刚你…… 幻觉？？？？",
+   "text": "不是……刚刚你……\n幻觉？？？？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "就是有点点意外发生嘛…… 不过就结果而言，还是有效的！",
+   "text": "就是有点点意外发生嘛……不过就结果而言，还是有效的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没……没什么…… 咳咳，所以呢？结果是什么？",
+   "text": "没……没什么……\n咳咳，所以呢？结果是什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "符纸点燃之后往那边的房子飞过去了，也许那边有什么，也许…… 嗯。",
+   "text": "符纸点燃之后往那边的房子飞过去了，也许那边有什么，也许……嗯。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

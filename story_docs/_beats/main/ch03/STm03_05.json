@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呼…… 呼…… 结束了……",
+   "text": "呼……呼……结束了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "这样就…… 全部搞定了。",
+   "text": "这样就……全部搞定了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "嘿……嘿嘿…… 谢谢夸奖。我，我和前辈们还差得远。",
+   "text": "嘿……嘿嘿……谢谢夸奖。我，我和前辈们还差得远。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +124,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "好......我....... 我会加油的……",
+   "text": "好......我.......我会加油的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -364,7 +364,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "我，我不是故意的…… 我打的时候星骸后面没人。",
+   "text": "我，我不是故意的……我打的时候星骸后面没人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -428,7 +428,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "可，可是让大家受伤确实是我的责任…… 虽然现在拿不出来，我会慢慢做委托来还，一定会还清的……",
+   "text": "可，可是让大家受伤确实是我的责任……\n虽然现在拿不出来，我会慢慢做委托来还，一定会还清的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +458,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "事情就，就是这样...... 从那之后，我就只敢一个人做委托，身边有其他旅人就没办法好好挥拳。",
+   "text": "事情就，就是这样......从那之后，我就只敢一个人做委托，身边有其他旅人就没办法好好挥拳。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -474,7 +474,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "那支队伍...... 有问题吧？",
+   "text": "那支队伍......有问题吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -538,7 +538,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "之前也和冬香解释过…… 她遇到的是一伙专门骗新人的坏旅人。",
+   "text": "之前也和冬香解释过……她遇到的是一伙专门骗新人的坏旅人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -562,7 +562,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "我也想知道他们在哪儿…… 最初组建讨伐队时，那帮家伙也想参加。但因为风评太差我们没要。",
+   "text": "我也想知道他们在哪儿……最初组建讨伐队时，那帮家伙也想参加。但因为风评太差我们没要。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -570,7 +570,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "不过，后来听说他们其实偷偷跟了上来，结果谁都没回来…… 就这样。",
+   "text": "不过，后来听说他们其实偷偷跟了上来，结果谁都没回来……就这样。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -602,7 +602,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "我，我知道那都是骗我的，但是…… 我总是会想起那个人倒在地上的样子，我怕下一次出事就是真的了。",
+   "text": "我，我知道那都是骗我的，但是……我总是会想起那个人倒在地上的样子，我怕下一次出事就是真的了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -656,7 +656,10 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "放心吧，小冬香。那个人可是魔<r=BOSS></r>王，或者，我应该称呼你为魔<r=mowang></r>王。",
+   "text": {
+    "cn_f": "放心吧，小冬香。那个人可是魔<r=BOSS></r>王，或者，我应该称呼她为魔<r=mowang></r>王。",
+    "cn_m": "放心吧，小冬香。那个人可是魔<r=BOSS></r>王，或者，我应该称呼他为魔<r=mowang></r>王。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -664,7 +667,10 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "你的这点小问题，对你来说只是举手之劳。",
+   "text": {
+    "cn_f": "你的这点小问题，对她来说只是举手之劳。",
+    "cn_m": "你的这点小问题，对他来说只是举手之劳。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -672,7 +678,10 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "可，可是......你今天上午看完我的战斗后，表情很严肃。",
+   "text": {
+    "cn_f": "可，可是......她今天上午看完我的战斗后，表情很严肃。",
+    "cn_m": "可，可是......他今天上午看完我的战斗后，表情很严肃。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -712,7 +721,7 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "只要把身体的控制权交给别人，自己当个傀儡。这样的话…… 就算伤害到谁，也不是自己的责任了。",
+   "text": "只要把身体的控制权交给别人，自己当个傀儡。这样的话……就算伤害到谁，也不是自己的责任了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -720,7 +729,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "成为...... 魔<r=BOSS></r>王的傀儡，让魔<r=BOSS></r>王控制我的身体，这样我就不会，也不可能伤到大家了。",
+   "text": "成为......魔<r=BOSS></r>王的傀儡，让魔<r=BOSS></r>王控制我的身体，这样我就不会，也不可能伤到大家了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -768,7 +777,7 @@
   {
    "k": "talk",
    "speaker": "瑟拉娜",
-   "text": "既然你这么决定了，那就去做吧，我觉得...... 按照自己的想法行动就好。",
+   "text": "既然你这么决定了，那就去做吧，我觉得......按照自己的想法行动就好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

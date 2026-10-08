@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "呜呜……脑袋晕乎乎的…… 我的自动售货神器，我的饮料……",
+   "text": "呜呜……脑袋晕乎乎的……\n我的自动售货神器，我的饮料……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "还在心疼你那饮料啊…… 那大概没啥事吧……",
+   "text": "还在心疼你那饮料啊……那大概没啥事吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "这都严重变形了，这种损坏程度真的还能修好吗…… 算了，总之还是带回去吧。",
+   "text": "这都严重变形了，这种损坏程度真的还能修好吗……算了，总之还是带回去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咦，这不是希娅吗！？ 花铃也在？",
+   "text": "咦，这不是希娅吗！？花铃也在？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "花铃",
-   "text": "没错。 听说你又在海上落难，我第一反应就是“怎么又来了……”",
+   "text": "没错。听说你又在海上落难，我第一反应就是“怎么又来了……”",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "我朝薇洛走近了一些， 脚踝触碰到冰凉的海水，感觉十分惬意。",
+   "text": "我朝薇洛走近了一些，脚踝触碰到冰凉的海水，感觉十分惬意。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没什么，怎么说呢…… 感觉现在的薇洛，和平时的感觉有些不一样了。",
+   "text": "没什么，怎么说呢……感觉现在的薇洛，和平时的感觉有些不一样了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "所以…… 感觉总会忍不住就依赖你，觉得“只要跟着薇洛”，就一切都万事大吉了。",
+   "text": "所以……感觉总会忍不住就依赖你，觉得“只要跟着薇洛”，就一切都万事大吉了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那可真是太好了…… 既然如此，想让我陪你多久都可以。",
+   "text": "那可真是太好了……既然如此，想让我陪你多久都可以。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "焦急的旅人",
-   "text": "他现在非常虚弱…… 搬运的时候小心点！",
+   "text": "他现在非常虚弱……搬运的时候小心点！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "落难的渔民",
-   "text": "咳咳……海…… 海里……有……",
+   "text": "咳咳……海……海里……有……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "落难的渔民",
-   "text": "海里…… 有……星塔……！",
+   "text": "海里……有……星塔……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "…… 魔王…… 魔王……",
+   "text": "……魔王……魔王……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "兜风才没有这种说法啦，当然是开到哪儿就是哪儿~ 路上的每一处风景都很好。",
+   "text": "兜风才没有这种说法啦，当然是开到哪儿就是哪儿~\n路上的每一处风景都很好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "特别像这样，和你在一起的时候。 就连平常这条早已经熟悉的路……看上去，都好像多了新的色彩。",
+   "text": "特别像这样，和你在一起的时候。\n就连平常这条早已经熟悉的路……看上去，都好像多了新的色彩。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "咚咚……咚咚…… 从我心里传来，像是要跳出来似的鼓动……",
+   "text": "咚咚……咚咚……从我心里传来，像是要跳出来似的鼓动……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "尘沙不再说话， 周遭的声响似乎也逐渐轻了下来。",
+   "text": "尘沙不再说话，周遭的声响似乎也逐渐轻了下来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 确实，卫队赶来还要一段时间……",
+   "text": "……\n确实，卫队赶来还要一段时间……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "尘沙，我准备好了。 全速前进，追上那辆车吧！我相信你的技术。",
+   "text": "尘沙，我准备好了。\n全速前进，追上那辆车吧！我相信你的技术。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嗯！ 我一定会追上他。",
+   "text": "嗯！我一定会追上他。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "前面那个大弯道，我们可以抄近路，只不过…… 得从树和树之间一路撞过去。",
+   "text": "前面那个大弯道，我们可以抄近路，只不过……\n得从树和树之间一路撞过去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "小绿，你忍下痛。 之后我会给你换上强度更高的材料，再做一个高级机油润滑服务~",
+   "text": "小绿，你忍下痛。\n之后我会给你换上强度更高的材料，再做一个高级机油润滑服务~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没、没关系！ 我会护住脑袋！不碍事。",
+   "text": "没、没关系！\n我会护住脑袋！不碍事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "那么， 我要上咯！！",
+   "text": "那么，我要上咯！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这就是你的速度？好慢哦。 劝你快点停车认输！",
+   "text": "这就是你的速度？好慢哦。\n劝你快点停车认输！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "耳边传来发动机咆哮的声音， 本来与我们并驾齐驱的车辆突然再次加速。",
+   "text": "耳边传来发动机咆哮的声音，本来与我们并驾齐驱的车辆突然再次加速。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "呜哇？！ 他、他从车里爬出来了？！",
+   "text": "呜哇？！他、他从车里爬出来了？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "嚣张的司机",
-   "text": "你们…… 你们……",
+   "text": "你们……你们……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "下车的司机涨红着脸朝我们冲来。 尘沙见状，一把将我护在身后。",
+   "text": "下车的司机涨红着脸朝我们冲来。尘沙见状，一把将我护在身后。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嗯！我明白。 你就躲在车里，小心受伤。",
+   "text": "嗯！我明白。你就躲在车里，小心受伤。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

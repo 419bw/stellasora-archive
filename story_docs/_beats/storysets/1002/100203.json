@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "星塔里的空间是混沌的，只能通过随机出现升降机前进或者离开， 你不熟悉路线的话，很容易迷失在星塔里。",
+   "text": "星塔里的空间是混沌的，只能通过随机出现升降机前进或者离开，你不熟悉路线的话，很容易迷失在星塔里。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "得想办法尽快和她们三人汇合才行。可是…… 要怎么做才好？",
+   "text": "得想办法尽快和她们三人汇合才行。可是……要怎么做才好？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "如果是这样，就算留下记号，大概也没什么用。但这里星骸太多了，待在原地也很危险…… 必须赶紧找到一个安全的地方。",
+   "text": "如果是这样，就算留下记号，大概也没什么用。但这里星骸太多了，待在原地也很危险……必须赶紧找到一个安全的地方。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "你、 饿、 吗？",
+   "text": "你、饿、吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "味觉惊惧",
-   "text": "你、 饿。",
+   "text": "你、饿。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "味觉惊惧",
-   "text": "我、 这里、 有饭。",
+   "text": "我、这里、有饭。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "味觉惊惧",
-   "text": "快、 吃我、 做的、 饭。",
+   "text": "快、吃我、做的、饭。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃…… 我突然觉得又不是很饿了……",
+   "text": "呃……我突然觉得又不是很饿了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "味觉惊惧",
-   "text": "不当、 客人， 那就来当、 食材！",
+   "text": "不当、客人，那就来当、食材！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "味觉惊惧",
-   "text": "为什么、 不吃！",
+   "text": "为什么、不吃！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼、呼…… 怎么还在追啊！",
+   "text": "呼、呼……怎么还在追啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说不饿其实是假的，其实都快要饿到昏厥了！ 可恶，已经跑不动了……意识也……",
+   "text": "说不饿其实是假的，其实都快要饿到昏厥了！\n可恶，已经跑不动了……意识也……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "喂—— 这边。",
+   "text": "喂——这边。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "味觉惊惧",
-   "text": "为什么、 不吃、 我做的、 饭！",
+   "text": "为什么、不吃、我做的、饭！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "安全了…… 吗？",
+   "text": "安全了……吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢，得救了…… 你是谁？",
+   "text": "谢谢，得救了……你是谁？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好香的味道…… 闻着这个味道，感觉更饿了……",
+   "text": "好香的味道……闻着这个味道，感觉更饿了……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这、这猪排饭……！ 好吃……太好吃了！怎么会这么好吃？！",
+   "text": "这、这猪排饭……！\n好吃……太好吃了！怎么会这么好吃？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "波西亚",
-   "text": "呵呵，吃得真香呢~ 这么喜欢的话，那不如留下来吧，这样就能一直吃到美味的猪排饭了。",
+   "text": "呵呵，吃得真香呢~\n这么喜欢的话，那不如留下来吧，这样就能一直吃到美味的猪排饭了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等等…… 猪排饭？",
+   "text": "等等……猪排饭？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "糟糕…… 意识又要……",
+   "text": "糟糕……意识又要……",
    "thought": true,
    "sticker": false,
    "channel": "talk"

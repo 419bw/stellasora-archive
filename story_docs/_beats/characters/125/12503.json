@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说起来，之前小葵和海伦阿姨说的“决斗”， 都是什么事情啊？",
+   "text": "说起来，之前小葵和海伦阿姨说的“决斗”，\n都是什么事情啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -135,7 +135,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "难怪小葵那么急着和你约下次决斗…… 那海伦阿姨说的又是什么呢？",
+   "text": "难怪小葵那么急着和你约下次决斗……\n那海伦阿姨说的又是什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "我担心您听到决斗后，会对我…… 对万送屋，留下不好的印象。",
+   "text": "我担心您听到决斗后，会对我……对万送屋，留下不好的印象。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "毕竟决斗文化已经过时了。 大部分人在第一次听说时，都觉得这是一种野蛮的行为。",
+   "text": "毕竟决斗文化已经过时了。\n大部分人在第一次听说时，都觉得这是一种野蛮的行为。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "“决斗裁判”这个古老的传统，我也有所了解。 像之前那样，用决斗解决问题，其实挺有效的。",
+   "text": "“决斗裁判”这个古老的传统，我也有所了解。\n像之前那样，用决斗解决问题，其实挺有效的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "更何况，苍兰并不是出于私心才发起决斗， 而是为了帮助大家。",
+   "text": "更何况，苍兰并不是出于私心才发起决斗，\n而是为了帮助大家。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "决斗时的我，会变得很可怕…… 以前也有人这样说过。",
+   "text": "决斗时的我，会变得很可怕……\n以前也有人这样说过。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 啊，只剩最后一块零食了。",
+   "text": "……啊，只剩最后一块零食了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "意见不统一啊……得想个办法。 啊，我知道了！",
+   "text": "意见不统一啊……得想个办法。\n啊，我知道了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "不。 雨中的决斗，更令人兴奋呢。",
+   "text": "不。\n雨中的决斗，更令人兴奋呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 还剩最后一颗弹珠……",
+   "text": "呼……还剩最后一颗弹珠……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "来吧，魔<r=BOSS></r>王。 这是我们最后的对决了。",
+   "text": "来吧，魔<r=BOSS></r>王。\n这是我们最后的对决了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "三、 二、 一。",
+   "text": "三、二、一。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "恭喜您，魔<r=BOSS></r>王。 这场决斗，您胜利了。",
+   "text": "恭喜您，魔<r=BOSS></r>王。\n这场决斗，您胜利了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "承让，承让。 决斗时的苍兰，和平时也没有什么太大区别嘛。",
+   "text": "承让，承让。\n决斗时的苍兰，和平时也没有什么太大区别嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "嗯，我也是。 很荣幸能与您决斗。",
+   "text": "嗯，我也是。\n很荣幸能与您决斗。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嘶，有点冷……刚才在外面都淋透了。 没办法，只能等着衣服晾干了。",
+   "text": "嘶，有点冷……刚才在外面都淋透了。\n没办法，只能等着衣服晾干了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +579,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "魔<r=BOSS></r>王， 您醒了？ 我拿来了干净的衣服， 请您换上吧。",
+   "text": {
+    "cn_f": "魔<r=BOSS></r>王，您醒了？\n我拿来了干净的衣服，请您换上吧。",
+    "jp_f": "魔<r=BOSS></r>王，你醒了。\n我拿来了新的衣服，请您换上吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +590,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "天气有些凉， 淋湿了不马上处理， 很容易感冒的。",
+   "text": {
+    "cn_f": "天气有些凉，淋湿了不马上处理，很容易感冒的。",
+    "jp_f": "一直这样湿着，恐怕会感冒的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,10 +601,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "不好意思，给你添麻烦了",
+   "prompt": "",
    "options": [
     [
-     "没关系，不用这么麻烦",
+     {
+      "cn_f": "没关系，不用这么麻烦",
+      "jp_f": "不好意思，给你添麻烦了"
+     },
      "",
      ""
     ]
@@ -607,7 +616,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "您今天 帮了我很多。 如果让您生病， 就太过意不去了。",
+   "text": {
+    "cn_f": "您今天帮了我很多。\n如果让您生病，就太过意不去了。",
+    "jp_f": "添麻烦什么的，完全不会。\n倒不如说，这些都是我的份内之事。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -615,10 +627,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "我也没做什么了不得的事情……",
+   "prompt": "",
    "options": [
     [
-     "好像......我也没帮到什么",
+     {
+      "cn_f": "好像......我也没帮到什么",
+      "jp_f": "我也没做什么了不得的事情……"
+     },
      "",
      ""
     ]
@@ -627,7 +642,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "无论是送信、决斗， 还是玩弹珠游戏， 您一直都陪在我身边。",
+   "text": {
+    "cn_f": "无论是送信、决斗，还是玩弹珠游戏，您一直都陪在我身边。",
+    "jp_f": "回想起来，今天一整天，您都和我呆在一起。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +653,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "我没想到， 您竟然愿意 玩那种 “小孩子的游戏”。 而且还这么擅长。",
+   "text": {
+    "cn_f": "我没想到，您竟然愿意玩那种“小孩子的游戏”。\n而且还这么擅长。",
+    "jp_f": "不过……我没有想到，那种“小孩子的游戏”，您不仅认真陪我玩，还那么熟练……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,10 +664,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "纯粹是因为玩得很开心",
+   "prompt": "",
    "options": [
     [
-     "过奖、过奖了",
+     {
+      "cn_f": "过奖、过奖了",
+      "jp_f": "纯粹是因为玩得很开心"
+     },
      "",
      ""
     ]
@@ -655,10 +679,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "应该是我感谢你才对",
+   "prompt": "",
    "options": [
     [
-     "能在雨中坚持那么久，苍兰也很厉害",
+     {
+      "cn_f": "能在雨中坚持那么久，苍兰也很厉害",
+      "jp_f": "应该是我感谢你才对"
+     },
      "",
      ""
     ]
@@ -667,7 +694,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "…… 雨越下越大了呢。",
+   "text": {
+    "cn_f": "……雨越下越大了呢。",
+    "jp_f": "您太客气了。话说回来……雨，似乎下得更大了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,47 +705,10 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "我以前， 不太喜欢下雨天， 会让我想起一些无法改变的、 不愉快的过去。",
-   "thought": false,
-   "sticker": false,
-   "channel": "talk"
-  },
-  {
-   "k": "choice",
-   "kind": "generic",
-   "prompt": "这么说……",
-   "options": [
-    [
-     "那现在呢？",
-     "",
-     ""
-    ]
-   ]
-  },
-  {
-   "k": "choice",
-   "kind": "generic",
-   "prompt": "现在也是吗？",
-   "options": [
-    [
-     "还会因为下雨天而不开心吗？",
-     "",
-     ""
-    ]
-   ]
-  },
-  {
-   "k": "talk",
-   "speaker": "苍兰",
-   "text": "不会了。 因为， 新的回忆已经诞生了。 从明天开始， 当雨再下起来的时候。 我回忆起的…… 就是和您 一起度过的这个夜晚。",
-   "thought": false,
-   "sticker": false,
-   "channel": "talk"
-  },
-  {
-   "k": "talk",
-   "speaker": "苍兰",
-   "text": "对您来说， 它或许没有什么特别之处。 但于我而言， 意义非凡。 谢谢您，魔<r=BOSS></r>王。",
+   "text": {
+    "cn_f": "我以前，不太喜欢下雨天，会让我想起一些无法改变的、不愉快的过去。",
+    "jp_f": "其实……我对雨天，向来没什么好的回忆。只是听到雨声，心情就会不由自主地低落起来..."
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,10 +716,28 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "啊，这没什么大不了的——阿嚏！！",
+   "prompt": "",
    "options": [
     [
-     "阿、阿嚏——",
+     {
+      "cn_f": "那现在呢？",
+      "jp_f": "这么说……"
+     },
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     {
+      "cn_f": "还会因为下雨天而不开心吗？",
+      "jp_f": "现在也是吗？"
+     },
      "",
      ""
     ]
@@ -735,7 +746,47 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "啊， 您的发梢还在滴水。 作为回报， 请让我帮您擦干吧。",
+   "text": {
+    "cn_f": "不会了。因为，新的回忆已经诞生了。\n从明天开始，当雨再下起来的时候。我回忆起的……就是和您一起度过的这个夜晚。",
+    "jp_f": "不，今天是非常美好的一天。\n所以，从今往后的雨天里，我回忆起的，是今天……和您一起度过的这个夜晚。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": {
+    "cn_f": "对您来说，它或许没有什么特别之处。但于我而言，意义非凡。\n谢谢您，魔<r=BOSS></r>王。",
+    "jp_f": "这样一想，似乎也可以试着喜欢下雨天了。\n请允许我再次……向您道谢。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     {
+      "cn_f": "阿、阿嚏——",
+      "jp_f": "啊，这没什么大不了的——阿嚏！！"
+     },
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "苍兰",
+   "text": {
+    "cn_f": "啊，您的发梢还在滴水。\n作为回报，请让我帮您擦干吧。",
+    "jp_f": "哎呀，您的发梢还是湿的。请不要动……让我来为您擦干吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -743,7 +794,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "之后，雨始终没有停。 我和苍兰在万送屋度过了一个温暖的夜晚。",
+   "text": "之后，雨始终没有停。\n我和苍兰在万送屋度过了一个温暖的夜晚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

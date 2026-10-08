@@ -50,9 +50,10 @@ FRAME_ANOMALIES = []      # [(stem, {'idx','cmd','group','closer'})]
 # （对 git 4496bd1 原实现做过 588 Config + AvgCharacter 预设全量对拍）。
 from pipeline.lua_parser import LuaError, T, parse_lua  # noqa: E402
 from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
-from pipeline.text_rules import clean_text, EMPH_STATS  # noqa: E402
+from pipeline.text_rules import clean_text  # noqa: E402
 from pipeline.speakers import SpeakerResolver  # noqa: E402
 from pipeline.passes import extract_beats  # noqa: E402
+from pipeline import markup  # noqa: E402
 from pipeline.pagedoc import PageDoc  # noqa: E402
 from pipeline.render_md import page_markdown  # noqa: E402
 
@@ -78,6 +79,8 @@ def load_speakers():
     return out
 
 
+TEXT_COMPILER = markup.TextCompiler.load(PRESET, BIN, LANG)
+EMPH_STATS = TEXT_COMPILER.diagnostics
 SPEAKERS = load_speakers()
 SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS, diag=SPEAKER_FALLBACKS)
 LANG_STORY = load_json(LANG, 'Story.json')
@@ -146,7 +149,7 @@ def extract_script(stem):
     if cmds is None:
         return None
     diag = []
-    res = extract_beats(cmds, SPEAKER_RESOLVER, diag=diag)
+    res = extract_beats(cmds, SPEAKER_RESOLVER, TEXT_COMPILER, diag=diag)
     for d in diag:
         FRAME_ANOMALIES.append((stem, d))
     return res
@@ -173,6 +176,7 @@ def safe_name(s):
 # The site is built from these records, never from the Markdown, so both artefacts come
 # out of the same parse pass and cannot drift apart.
 _PAGES = []
+_SEARCH_ENTRIES = []
 _CHAPTER_NODES = collections.OrderedDict()
 _RENDERED = set()
 
@@ -206,21 +210,30 @@ def record_page(family, path, doc, ident, title, code='', group=None,
         'page_md': os.path.relpath(path, OUT).replace(os.sep, '/'),
         'page': page,
         'stems': stems,
-        'recap': doc.meta['recap'],
+        'recap': markup.text(doc.meta['recap']),
         'speakers': speakers,
         'counts': dict(counts),
-        'preview': " ".join(b['text'] for b in beats if b['k'] == 'talk')[:180],
+        'preview': " ".join(markup.plain(b['text']) for b in beats if b['k'] == 'talk')[:180],
     }
     # Document-ordered 重大抉择 blocks with per-option jump EvId; the site joins
     # these against StoryCondition/ActivityStoryEvidence to label branch targets.
     major_choices = [
-        [{'title': t, 'ev': ev} for (t, _d, ev) in b['options']]
+        [{'title': markup.text(t), 'ev': ev} for (t, _d, ev) in b['options']]
         for b in beats if b['k'] == 'choice' and b['kind'] == 'major' and b['options']
     ]
     if major_choices:
         rec['major_choices'] = major_choices
     rec.update(extra)
     _PAGES.append(rec)
+    search_text = [title, rec['recap'], rec['preview'],
+                   markup.text(doc.meta['recap'], 'male'),
+                   ' '.join(markup.plain(b['text'], 'male')
+                            for b in beats if b['k'] == 'talk')[:180]]
+    _SEARCH_ENTRIES.append({
+        **{key: rec[key] for key in ('id', 'family', 'code', 'title', 'page', 'speakers')},
+        'group': rec['group'].get('label', ''),
+        'hay': ' '.join(dict.fromkeys(text for text in search_text if text)),
+    })
     _RENDERED.update(stems)
     write_beats(page, doc)
     return rec
@@ -838,15 +851,8 @@ def write_data():
                                 'chapters': chapters})
     dump_json('sections.json', {'meta': dict(total, families=sorted({p['family'] for p in _PAGES})),
                                 'pages': _PAGES})
-    dump_json('search.json', {'meta': {'pages': len(_PAGES)},
-                              'entries': [{'id': p['id'], 'family': p['family'],
-                                           'code': p['code'], 'title': p['title'],
-                                           'group': p['group'].get('label', ''),
-                                           'page': p['page'], 'speakers': p['speakers'],
-                                           'hay': " ".join(x for x in
-                                                            (p['title'], p['recap'],
-                                                             p['preview']) if x)}
-                                          for p in _PAGES]})
+    dump_json('search.json', {'meta': {'pages': len(_SEARCH_ENTRIES)},
+                              'entries': _SEARCH_ENTRIES})
     dump_json('personality.json', {
         'axes': [{'id': r['Id'], 'name': field_lang(LANG_PERSONALITY, r),
                   'color': r.get('Color'), 'icon': r.get('Icon')}
@@ -924,11 +930,10 @@ def write_diagnostics(battle_map, skipped, unattached):
                 'choice_frame_anomalies=抉择关闭指令的 group 无活跃帧'
                 '（phone 方言不入帧栈，其落空属设计使然，不登记）；'
                 'emph_tags_preserved/orphan_emph_tags_stripped=成对保留与'
-                '孤儿剥离的 <b>/<i> 强调标记计数（Phase 4b，clean_dialogue '
+                '孤儿剥离的 <b>/<i> 强调标记计数（TextCompiler '
                 '栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。'
-                '口径为清洗调用累计（渐显帧签名与文本生成各清洗一次，'
-                '被折叠帧也计入），不是产物内标记数——产物内成对强调仅 '
-                'CG_147_02 一行，其余全在折叠帧里。',
+                '口径为本次构建中不同原始文本的标签数量，包含被折叠帧；'
+                '相同原始文本复用缓存，不重复计数。',
         'code_mismatches': [
             {'sid': sid, 'story_id': story, 'storyid_suffix': suffix,
              'display_code': disp, 'bubble_stem': stem, 'condition_id': cond,

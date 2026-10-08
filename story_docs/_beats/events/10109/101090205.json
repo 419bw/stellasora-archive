@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "沙蝎领队",
-   "text": "这里可没有什么宿舍食堂。要睡就自己找条毯子打地铺。 至于伙食，一日三餐管够，统一发放茶色夜莺面包。",
+   "text": "这里可没有什么宿舍食堂。要睡就自己找条毯子打地铺。\n至于伙食，一日三餐管够，统一发放茶色夜莺面包。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "沙蝎领队",
-   "text": "钱当然不会少了各位的， 这个你们可以放心。",
+   "text": "钱当然不会少了各位的，这个你们可以放心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "沙蝎领队",
-   "text": "不过…… 你们得在这里干满半年才有钱拿。 要是中途想开溜，那对不住，一分钱都没有。",
+   "text": "不过……你们得在这里干满半年才有钱拿。\n要是中途想开溜，那对不住，一分钱都没有。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "旅人领队",
-   "text": "卑鄙！你们这种霸王条款我们是说什么都不会答应的！ 这委托我们干不了，告辞！",
+   "text": "卑鄙！你们这种霸王条款我们是说什么都不会答应的！\n这委托我们干不了，告辞！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "沙蝎领队",
-   "text": "是啊！委托书右下角的小字都写的明明白白的！ 该不会……你们签字前连一眼都没看过吧~？",
+   "text": "是啊！委托书右下角的小字都写的明明白白的！\n该不会……你们签字前连一眼都没看过吧~？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "担忧的白猫队员",
-   "text": "猫眼大人！这边这边！ 藏在这里偷看保证不会被发现。",
+   "text": "猫眼大人！这边这边！藏在这里偷看保证不会被发现。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "哦，多谢。 看来你们对这条坑道还挺熟悉的。",
+   "text": "哦，多谢。\n看来你们对这条坑道还挺熟悉的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "热心的白猫队员",
-   "text": "以前我们在这一带干过活。 还好坑道里的结构没怎么变，我的知识还能派上用场。",
+   "text": "以前我们在这一带干过活。\n还好坑道里的结构没怎么变，我的知识还能派上用场。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "啊，怪不得卡西米拉特意把你们派过来…… 真是的，竟瞎操心。",
+   "text": "啊，怪不得卡西米拉特意把你们派过来……\n真是的，竟瞎操心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "担忧的白猫队员",
-   "text": "咦？猫眼，你好像掉了什么东西… …",
+   "text": "咦？猫眼，你好像掉了什么东西……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "啊，是卡西米拉那家伙拜托蓝锥塞给我的。 说什么能带来好运保平安之类的。",
+   "text": "啊，是卡西米拉那家伙拜托蓝锥塞给我的。\n说什么能带来好运保平安之类的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "担忧的白猫队员",
-   "text": "没什么，就随口问问。 想必它一定能保佑我们顺利完成任务吧。",
+   "text": "没什么，就随口问问。\n想必它一定能保佑我们顺利完成任务吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "旅人领队",
-   "text": "巧了， 我正有此意……",
+   "text": "巧了，我正有此意……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "弥尔沙",
-   "text": "别在那鬼吼鬼叫的。 他只是晕过去而已，一会就醒了。",
+   "text": "别在那鬼吼鬼叫的。\n他只是晕过去而已，一会就醒了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "弥尔沙",
-   "text": "你也别闲的没事跟这群旅人浪费口舌扯皮了。 这帮嫌命长的家伙，直接扔去跟那个碍事的魔物作伴去吧。",
+   "text": "你也别闲的没事跟这群旅人浪费口舌扯皮了。\n这帮嫌命长的家伙，直接扔去跟那个碍事的魔物作伴去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "弥尔沙",
-   "text": "还有，去吩咐底下的人做好出发的准备。 我们要赶去菲莱和团长大人汇合了。",
+   "text": "还有，去吩咐底下的人做好出发的准备。\n我们要赶去菲莱和团长大人汇合了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "弥尔沙",
-   "text": "随你的便。 不过前提是你们得活着从这里出去呢。",
+   "text": "随你的便。\n不过前提是你们得活着从这里出去呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "沙蝎这帮人渣……！ 看我现在一枪干掉那个副团长，营救那些旅人！",
+   "text": "沙蝎这帮人渣……！\n看我现在一枪干掉那个副团长，营救那些旅人！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "担忧的白猫队员",
-   "text": "等一下！猫眼大人！ 现在贸然开枪，不仅救不出他们，就连我们也会被一网打尽的！",
+   "text": "等一下！猫眼大人！\n现在贸然开枪，不仅救不出他们，就连我们也会被一网打尽的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "猫眼！ 别！",
+   "text": "猫眼！别！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "我们先撤退吧！ 必须马上把这个情报告诉大家。",
+   "text": "我们先撤退吧！\n必须马上把这个情报告诉大家。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "气愤的白猫队员",
-   "text": "不仅想独吞晶钻矿脉， 竟然还使诈把旅人骗去当免费的苦工！",
+   "text": "不仅想独吞晶钻矿脉，\n竟然还使诈把旅人骗去当免费的苦工！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "里面到底还藏着多少沙蝎的人，我们现在一无所知。 要是就这么贸然闯入，多半会掉进敌人的圈套。",
+   "text": "里面到底还藏着多少沙蝎的人，我们现在一无所知。\n要是就这么贸然闯入，多半会掉进敌人的圈套。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "只要派人去镇上到处打听打听， 大概率能找到认识他们的人。",
+   "text": "只要派人去镇上到处打听打听，大概率能找到认识他们的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "原来如此， 先潜入敌人老巢的最深处，然后在那里解放黑暗之力，将他们一举歼灭对吧！",
+   "text": "原来如此，先潜入敌人老巢的最深处，然后在那里解放黑暗之力，将他们一举歼灭对吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
