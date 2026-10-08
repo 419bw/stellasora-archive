@@ -198,6 +198,20 @@ def test_storage_keeps_text_readable():
         {'cn_f': '她来了', 'cn_m': '他来了'}
 
 
+def test_unknown_game_marker_preserves_text_and_warns(caplog):
+    compiler = markup.TextCompiler({'==SEX1==': ['她', '他']})
+    raw = '==SEX1==前==NEW_MARKER==后==W=='
+    with caplog.at_level('WARNING', logger='pipeline.markup'):
+        text = compiler.compile(raw)
+        compiler.compile(raw)
+    assert text.to_data() == {'cn_f': '她前==NEW_MARKER==后',
+                              'cn_m': '他前==NEW_MARKER==后'}
+    assert markup.html(text) == markup.html(markup.decode_text(text.to_data()))
+    assert len(caplog.records) == 1
+    assert '==NEW_MARKER==' in caplog.records[0].getMessage()
+    assert raw in caplog.records[0].getMessage()
+
+
 def test_stored_variants_preserve_projections():
     text = markup.TextCompiler({'==SEX1==': ['她', '他']}).compile(
         '==SEX1==叫魔<r=BOSS></r>王==RT==来了', '男主文案\n第二行', '<b>日文女</b>==RT==第二行', '日文男')

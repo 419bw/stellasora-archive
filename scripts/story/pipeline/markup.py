@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Inline syntax, localized story text, and Markdown/HTML projections."""
 import json
+import logging
 import re
 from dataclasses import dataclass
 from html import escape
@@ -23,8 +24,7 @@ VERSION_KEYS = ('cn_f', 'cn_m', 'jp_f', 'jp_m')
 VERSION_LABELS = {'cn_f': '中文女', 'cn_m': '中文男', 'jp_f': '日文女', 'jp_m': '日文男'}
 
 
-class MarkupError(ValueError):
-    pass
+logger = logging.getLogger(__name__)
 
 
 def parse_inline(text, *, game=False, presets=None, diagnostics=None):
@@ -65,7 +65,8 @@ def parse_inline(text, *, game=False, presets=None, diagnostics=None):
             elif CONTROL.fullmatch(token):
                 pass
             else:
-                raise MarkupError('未知文内标记: %s' % token)
+                buf += token
+                logger.warning('未知标记 %s', token)
         elif game and m['nonlog']:
             pass
         else:
