@@ -91,7 +91,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-08
-- feat(story,site): 新增「委托对话」板块——委托结算演出按段收录（111 篇）
+- feat(story): 支持男女主、中日文案版本切换，统一文本解析规则
 
 ---
 
