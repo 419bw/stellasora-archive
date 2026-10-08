@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "三—— 四—— 五—— 六——",
+   "text": "三——四——五——六——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "九—— 十。",
+   "text": "九——十。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "这局又是我赢了。 魔<r=mowang></r>王，是不是没认真陪我玩呀？",
+   "text": "这局又是我赢了。\n魔<r=mowang></r>王，是不是没认真陪我玩呀？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是火垂太强了吧…… 还有，借着雪崩的速度追……这不算犯规吗？",
+   "text": "是火垂太强了吧……还有，借着雪崩的速度追……这不算犯规吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "因为魔<r=mowang></r>王会陪我玩，所以魔<r=mowang></r>王是最好的朋友。 无论什么时候，都很好玩。",
+   "text": "因为魔<r=mowang></r>王会陪我玩，所以魔<r=mowang></r>王是最好的朋友。无论什么时候，都很好玩。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "我在学校里，总是一个人。 不知道大家会聊什么话题， 大家也不会主动来找我搭话。",
+   "text": "我在学校里，总是一个人。\n不知道大家会聊什么话题， 大家也不会主动来找我搭话。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "总是远远地看着别人聊天， 会有些奇怪的，刺痛的感觉。",
+   "text": "总是远远地看着别人聊天，会有些奇怪的，刺痛的感觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是只要彼此认识了就算“朋友”…… 还是要有过几次交流才算“朋友”…… 还是说要一直黏一起，才能算“朋友”？",
+   "text": "是只要彼此认识了就算“朋友”……还是要有过几次交流才算“朋友”……还是说要一直黏一起，才能算“朋友”？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +579,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "先…… 尝试普通地搭话，不是就挺好的吗？",
+   "text": "先……尝试普通地搭话，不是就挺好的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "我怕自己做不好， 有魔<r=mowang></r>王在，很安心。",
+   "text": "我怕自己做不好，有魔<r=mowang></r>王在，很安心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +699,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "在大学眼里，我完全是个外人啊…… 还是先跟卡娜丝打个招呼吧。",
+   "text": "在大学眼里，我完全是个外人啊……还是先跟卡娜丝打个招呼吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"

@@ -60,7 +60,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "格蕾霍恩是位重视荣誉的骑士，她不会行偷袭之事， 至于你——",
+   "text": "格蕾霍恩是位重视荣誉的骑士，她不会行偷袭之事，至于你——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -140,7 +140,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "只是…… 你的自信从何而来？",
+   "text": "只是……你的自信从何而来？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -172,7 +172,10 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "格蕾霍恩，告诉你们第二百人队的损失情况。",
+   "text": {
+    "cn_f": "格蕾霍恩，告诉她们第二百人队的损失情况。",
+    "cn_m": "格蕾霍恩，告诉他们第二百人队的损失情况。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -284,7 +287,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "怎么？无话可说了？ 我知道你在等翡冷翠和黄昏裁判的支援，她们两天左右就会抵达这里。",
+   "text": "怎么？无话可说了？我知道你在等翡冷翠和黄昏裁判的支援，她们两天左右就会抵达这里。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -340,7 +343,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "能问出这样的问题， 说明你已经看过白猫密室里的那本日记，接受了自己就是魔<r=mowang></r>王的事实吧。",
+   "text": "能问出这样的问题，说明你已经看过白猫密室里的那本日记，接受了自己就是魔<r=mowang></r>王的事实吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -356,7 +359,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "魔<r=mowang></r>王， 你知道星塔许愿的基本原理吗？",
+   "text": "魔<r=mowang></r>王，你知道星塔许愿的基本原理吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -400,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "还...... 还能这样？",
+   "text": "还......还能这样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -408,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "欺骗星塔...... 不对，我们其实没欺骗星塔，星塔也获得了记忆，只不过是复制品，但信息这种东西，复制品和原品并无区别。",
+   "text": "欺骗星塔......不对，我们其实没欺骗星塔，星塔也获得了记忆，只不过是复制品，但信息这种东西，复制品和原品并无区别。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -416,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那是…… 魔<r=mowang></r>王养成系统结合棋子的权能搞出的功能，许愿的时候向星塔献祭复制的记忆。",
+   "text": "那是……魔<r=mowang></r>王养成系统结合棋子的权能搞出的功能，许愿的时候向星塔献祭复制的记忆。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -480,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "安琪不可能知道魔<r=mowang></r>王养成系统，也没有理由在这种地方骗我—— 如果她说的是假话，我一查《恩赐预言书》就知道了。",
+   "text": "安琪不可能知道魔<r=mowang></r>王养成系统，也没有理由在这种地方骗我——如果她说的是假话，我一查《恩赐预言书》就知道了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -616,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你的条件…… 我联系一下同伴，问问她们的意见。",
+   "text": "你的条件……我联系一下同伴，问问她们的意见。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -752,7 +755,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "但是，你和我还有约定，我不会让你受伤的，拯救委员会的疯子们，放下你们的法杖！",
+   "text": {
+    "cn_f": "但是，她和我还有约定，我不会让她受伤的，拯救委员会的疯子们，放下你们的法杖！",
+    "cn_m": "但是，他和我还有约定，我不会让他受伤的，拯救委员会的疯子们，放下你们的法杖！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

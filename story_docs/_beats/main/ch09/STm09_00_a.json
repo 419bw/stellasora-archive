@@ -22,7 +22,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "傲慢的魔王不再与睿智的尊者共商治理之策。他独揽权柄，消失在沙漠深处，誓要将巍峨的高塔化为灰烬。 　　　　 　　　　　　　　　　　　 　——维嘉尔 《新诺瓦前史》",
+   "text": "傲慢的魔王不再与睿智的尊者共商治理之策。他独揽权柄，消失在沙漠深处，誓要将巍峨的高塔化为灰烬。\n　　　　   　　　　　　　　　　　　  　——维嘉尔 《新诺瓦前史》",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "然而， 暴君终将受到神明的惩罚。",
+   "text": "然而，暴君终将受到神明的惩罚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -52,7 +52,7 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "报告，委员长，炮击阵地准备完毕…… 哎？我打扰到您读书了？",
+   "text": "报告，委员长，炮击阵地准备完毕……哎？我打扰到您读书了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -60,7 +60,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "没关系，我也只是随便读读历史…… 很久很久以前的，魔<r=mowang></r>王的历史。",
+   "text": "没关系，我也只是随便读读历史……很久很久以前的，魔<r=mowang></r>王的历史。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -202,7 +202,10 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "外来者乐见其成，你隐入荒野，不知所踪。",
+   "text": {
+    "cn_f": "外来者乐见其成，她隐入荒野，不知所踪。",
+    "cn_m": "外来者乐见其成，他隐入荒野，不知所踪。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -266,7 +269,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "《诺瓦前史》， 作者名字是……诶？没写。",
+   "text": "《诺瓦前史》，作者名字是……诶？没写。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -330,7 +333,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "这种咸香和甜腻、 火热和冰凉的结合好完美！两种截然相反的味道在嘴里融合在一起！既补充了盐分，又消解了酷暑，简直是救人一命的伟大食物啊！",
+   "text": "这种咸香和甜腻、火热和冰凉的结合好完美！两种截然相反的味道在嘴里融合在一起！既补充了盐分，又消解了酷暑，简直是救人一命的伟大食物啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -680,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "明白了。 魔王协议的各位，还有艾蕾院长，请跟我走，白猫会把你们安全带出去的。",
+   "text": "明白了。魔王协议的各位，还有艾蕾院长，请跟我走，白猫会把你们安全带出去的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -768,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "如果一切都在前代皇帝的算计之中，那我……难道真的是 魔<r=mowang></r>王？",
+   "text": "如果一切都在前代皇帝的算计之中，那我……难道真的是\n魔<r=mowang></r>王？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -816,7 +819,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "魔王，你走神得太严重啦，差点就被落下了。 就在刚才，猫眼找到了还可以用的矿道，我让鸢尾、琥珀还有艾蕾妈妈先跟着白猫走了。",
+   "text": "魔王，你走神得太严重啦，差点就被落下了。就在刚才，猫眼找到了还可以用的矿道，我让鸢尾、琥珀还有艾蕾妈妈先跟着白猫走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1112,7 +1115,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "啊，这个啊，哈哈…… 其实我是骗你的，你根本没这个习惯啦。",
+   "text": "啊，这个啊，哈哈……其实我是骗你的，你根本没这个习惯啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1144,7 +1147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈，被你完美地骗到了…… 下次我绝对不会上当了！",
+   "text": "哈，被你完美地骗到了……下次我绝对不会上当了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1176,7 +1179,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "前面似乎有白色的烟？ 不，这是很强的风魔法，用来索敌的风魔法！",
+   "text": "前面似乎有白色的烟？不，这是很强的风魔法，用来索敌的风魔法！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

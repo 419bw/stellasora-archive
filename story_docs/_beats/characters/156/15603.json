@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "曾经被布娃娃胡乱填满的房间， 现在变得难以置信的整洁。",
+   "text": "曾经被布娃娃胡乱填满的房间，现在变得难以置信的整洁。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没什么其他事情的话， 我就先告辞了。",
+   "text": "没什么其他事情的话，我就先告辞了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哎，外面好黑啊！？ 已经是这个时间了， 森林里的魔物们都出来活动了吧。",
+   "text": "哎，外面好黑啊！？已经是这个时间了，森林里的魔物们都出来活动了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "多亏了魔王帮忙，才能在今天收拾完整个房间， 让我报答一下你嘛。",
+   "text": "多亏了魔王帮忙，才能在今天收拾完整个房间，\n让我报答一下你嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没想到，那个任性的小禾， 居然还会有这么温柔体贴的一面。",
+   "text": "没想到，那个任性的小禾，居然还会有这么温柔体贴的一面。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "… … ！",
+   "text": "……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔，好黑， 天还没亮吗？",
+   "text": "唔，好黑，天还没亮吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "动……动不了？ 我被什么东西压住了？",
+   "text": "动……动不了？我被什么东西压住了？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "小禾？",
-   "text": "我—— 好—— 恨—— 呜——",
+   "text": "我——好——恨——呜——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "朦胧中， 一坨白色的块状物正趴在我的身上，发出奇怪的叫声。",
+   "text": "朦胧中，一坨白色的块状物正趴在我的身上，发出奇怪的叫声。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "… … 小禾？",
+   "text": "……小禾？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "我是可怕的布娃娃幽灵， 团子飘飘先生！",
+   "text": "我是可怕的布娃娃幽灵，团子飘飘先生！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "呜咿咿，我是被你无情流放到仓库里的 小禾的伙<r=布娃娃></r>伴的怨念凝聚而成的呜~",
+   "text": "呜咿咿，我是被你无情流放到仓库里的小禾的伙<r=布娃娃></r>伴的怨念凝聚而成的呜~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "设定的还挺详细， 不过真的有这种自报家门的幽灵吗？ 还有——你这幽灵怎么还有重量啊！",
+   "text": "设定的还挺详细，不过真的有这种自报家门的幽灵吗？\n还有——你这幽灵怎么还有重量啊！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊啊啊啊啊！好可怕， 团子飘飘先生，饶了我吧。",
+   "text": "啊啊啊啊啊！好可怕，团子飘飘先生，饶了我吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "呜——哈——哈——害怕也没用啦！ 想要不被我永远压住， 困在这无尽的黑夜中， 你得乖乖听我命令才行呜～！！",
+   "text": "呜——哈——哈——害怕也没用啦！想要不被我永远压住，\n困在这无尽的黑夜中，你得乖乖听我命令才行呜～！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "不仅要陪小禾玩抓娃娃机， 还要陪小禾收拾房间呜。",
+   "text": "不仅要陪小禾玩抓娃娃机，还要陪小禾收拾房间呜。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "抓娃娃机没问题， 但收拾自己的房间， 还是要小禾自己来 的吧？最开始不就说过了吗？",
+   "text": "抓娃娃机没问题，但收拾自己的房间，还是要小禾自己来的吧？最开始不就说过了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "这是命令，不准拒绝呜～！ 从今以后你要永远帮小禾整理房间呜～！",
+   "text": "这是命令，不准拒绝呜～！\n从今以后你要永远帮小禾整理房间呜～！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好好，我答应你， 收了神通吧，团子飘飘先生。",
+   "text": "好好，我答应你，收了神通吧，团子飘飘先生。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -359,7 +359,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "呜咿，人家不是布娃娃， 突然， 突然抱过来什么的呜——",
+   "text": "呜咿，人家不是布娃娃，突然，突然抱过来什么的呜——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -367,7 +367,7 @@
   {
    "k": "talk",
    "speaker": "团子飘飘先生？",
-   "text": "那个那个那个那个...... 看你的态度还算恭顺，这个证明我也很满意， 今天就先放过你呜~",
+   "text": "那个那个那个那个......\n看你的态度还算恭顺，这个证明我也很满意，今天就先放过你呜~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -375,7 +375,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "团子飘飘先生有些恋恋不舍地钻出我的臂弯， 摇摇晃晃地飞起升<r=爬到床铺上层></r>上天空。",
+   "text": "团子飘飘先生有些恋恋不舍地钻出我的臂弯，\n摇摇晃晃地飞起升<r=爬到床铺上层></r>上天空。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -407,7 +407,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "团子飘飘先生其实—— 就是小禾！ 哎~ 没想到你这么容易就被骗了， 你也有可爱的地方呢~？",
+   "text": {
+    "cn_f": "团子飘飘先生其实——就是小禾！哎~没想到你这么容易就被骗了，你也有可爱的地方呢~？",
+    "jp_f": "没想到吧！妖怪的真面目，就是我哦~♪这么简单就被骗了，魔王也有可爱的地方呢~？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -415,10 +418,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "没想到会被可爱的人这么说",
+   "prompt": "",
    "options": [
     [
-     "是啊，我也没想到会被可爱的家伙说可爱。",
+     {
+      "cn_f": "是啊，我也没想到会被可爱的家伙说可爱。",
+      "jp_f": "没想到会被可爱的人这么说"
+     },
      "",
      ""
     ]
@@ -427,7 +433,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "我我我…… 可、可爱？！ ……咳咳， 总之，刚刚约好的事你还记得吧？",
+   "text": {
+    "cn_f": "我我我……可、可爱？！……咳咳，总之，刚刚约好的事你还记得吧？",
+    "jp_f": "可、可爱……？！……咳！总之，你还记的刚刚的约定吧！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +444,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "从今天起，你要一直陪着我哦， 不仅要和我一起玩，还要帮我整理房间。",
+   "text": {
+    "cn_f": "从今天起，你要一直陪着我哦，不仅要和我一起玩，还要帮我整理房间。",
+    "jp_f": "魔王啊，从现在开始你得一直陪我玩，房间也要和我一起收拾。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +455,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "不管我说了什么任性的话，你都不能丢下我~",
+   "text": {
+    "cn_f": "不管我说了什么任性的话，你都不能丢下我~",
+    "jp_f": "就算我说了什么任性的话，也绝对不能把我丢在一边哦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,10 +466,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "嗯，约好了。",
+   "prompt": "",
    "options": [
     [
-     "嗯，我答应小禾。",
+     {
+      "cn_f": "嗯，我答应小禾。",
+      "jp_f": "嗯，约好了。"
+     },
      "",
      ""
     ]
@@ -463,10 +481,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "对了，有件事我必须要感谢小禾",
+   "prompt": "",
    "options": [
     [
-     "以及，我必须要感谢小禾呢。",
+     {
+      "cn_f": "以及，我必须要感谢小禾呢。",
+      "jp_f": "对了，有件事我必须要感谢小禾"
+     },
      "",
      ""
     ]
@@ -475,7 +496,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "欸？ 谢我？ 为什么？",
+   "text": {
+    "cn_f": "欸？谢我？为什么？",
+    "jp_f": "诶，感谢我？为什么？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,10 +507,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "我睡着的时候你给我盖了被子吧？",
+   "prompt": "",
    "options": [
     [
-     "昨晚，小禾不是帮我盖上被子了吗？",
+     {
+      "cn_f": "昨晚，小禾不是帮我盖上被子了吗？",
+      "jp_f": "我睡着的时候你给我盖了被子吧？"
+     },
      "",
      ""
     ]
@@ -495,10 +522,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "谢谢你这么为我着想。",
+   "prompt": "",
    "options": [
     [
-     "谢谢你这么为我着想，小禾。",
+     {
+      "cn_f": "谢谢你这么为我着想，小禾。",
+      "jp_f": "谢谢你这么为我着想。"
+     },
      "",
      ""
     ]
@@ -507,7 +537,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "我、我…… 我才不会干这种事呢！",
+   "text": {
+    "cn_f": "我、我……我才不会干这种事呢！",
+    "jp_f": "不、不是……那个啊，我才不可能做这种事……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +548,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "是大家想要感谢你， 我只不过是代替大家，稍微照顾了一下你而已。",
+   "text": {
+    "cn_f": "是大家想要感谢你，我只不过是代替大家，稍微照顾了一下你而已。",
+    "jp_f": "是朋友们想要感谢魔王，我才代替他们，照顾了一下魔王而已。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +559,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "但是…… 你的感谢我就收下了。",
+   "text": {
+    "cn_f": "但是……你的感谢我就收下了。",
+    "jp_f": "但是……这份感谢的心意我就收下了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,10 +570,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "小禾的朋友也很会为对方着想呢。",
+   "prompt": "",
    "options": [
     [
-     "小禾身边的伙伴，都很会照顾人啊。",
+     {
+      "cn_f": "小禾身边的伙伴，都很会照顾人啊。",
+      "jp_f": "小禾的朋友也很会为对方着想呢。"
+     },
      "",
      ""
     ]
@@ -543,7 +585,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "嘿嘿，那当然！ 不过，你不用太羡慕~",
+   "text": {
+    "cn_f": "嘿嘿，那当然！不过，你不用太羡慕~",
+    "jp_f": "哼哼，那是当然~♪不过呢，你也不用太羡慕哦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -551,7 +596,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "因为从今天开始， 你也是我们的一员了。",
+   "text": {
+    "cn_f": "因为从今天开始，你也是我们的一员了。",
+    "jp_f": "因为魔王，从今天起也是其中的一员啦！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -559,7 +607,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "能被小禾选中， 可要心怀感激呐！",
+   "text": {
+    "cn_f": "能被小禾选中，可要心怀感激呐！",
+    "jp_f": "能够成为我的朋友，你可要心怀感激哦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -575,7 +626,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯， 昨晚在小禾这里过夜， 忘记和 空白旅团的大家说了。",
+   "text": "嗯，昨晚在小禾这里过夜，忘记和空白旅团的大家说了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -615,7 +666,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "但是没办法嘛！ 鲨鲨咬<r=布娃娃></r>咬伯爵说他想去看看外面的世界。",
+   "text": "但是没办法嘛！\n鲨鲨咬<r=布娃娃></r>咬伯爵说他想去看看外面的世界。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -623,7 +674,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "作为交换，魔王要把鲨鲨咬咬伯爵当作我， 永远带在身边， 睡觉的时候也要抱着！",
+   "text": "作为交换，魔王要把鲨鲨咬咬伯爵当作我，永远带在身边，\n睡觉的时候也要抱着！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

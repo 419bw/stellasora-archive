@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 什么都没发现啊？ 岭川，你那边情况怎么样？",
+   "text": "呼……什么都没发现啊？\n岭川，你那边情况怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "呜…… 没有…… 什么都没有……",
+   "text": "呜……没有……什么都没有……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "豌豆居然……？！ 这可不行，我马上过去帮忙……！",
+   "text": "豌豆居然……？！这可不行，我马上过去帮忙……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "我顺着痕迹一路追到这，结果…… 痕迹却突然消失了。",
+   "text": "我顺着痕迹一路追到这，结果……痕迹却突然消失了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "怎么办啊，魔<r=BOSS></r>王！ 要是它们带着菜藏进洞里的话…… 可能就再也找不到了……",
+   "text": "怎么办啊，魔<r=BOSS></r>王！\n要是它们带着菜藏进洞里的话……可能就再也找不到了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "确实，可能会错过最佳时机…… 既然如此，引蛇出洞一网打尽才是上策。",
+   "text": "确实，可能会错过最佳时机……\n既然如此，引蛇出洞一网打尽才是上策。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "岭川，我有个办法…… 要听听看吗？",
+   "text": "岭川，我有个办法……要听听看吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "唔……唔…… 咦？！真要这样吗……",
+   "text": "唔……唔……咦？！真要这样吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "唔…… 这样未免有点……",
+   "text": "唔……这样未免有点……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "我精挑细选了一些树树鼠们平时最爱偷的菜…… 就放在这里吗？",
+   "text": "我精挑细选了一些树树鼠们平时最爱偷的菜……就放在这里吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哇…… 这是捅了树树鼠窝吗？岭川也发现了吗……？",
+   "text": "哇……这是捅了树树鼠窝吗？岭川也发现了吗……？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "难过的树树鼠",
-   "text": "吱…… 吱吱吱……！",
+   "text": "吱……吱吱吱……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "…… 这样啊。",
+   "text": "……这样啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "你们的意思是…… 它这么做都是为了家人？",
+   "text": "你们的意思是……它这么做都是为了家人？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "魔<r=BOSS></r>王，这群树树鼠被坏家伙赶出了它们的地盘。 因为食物短缺，它们才来偷菜的。",
+   "text": "魔<r=BOSS></r>王，这群树树鼠被坏家伙赶出了它们的地盘。\n因为食物短缺，它们才来偷菜的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "唔…… 话是这么说……",
+   "text": "唔……话是这么说……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "但我想，要不就原谅它们吧。这些蔬菜…… 也送给它们好了。",
+   "text": "但我想，要不就原谅它们吧。这些蔬菜……也送给它们好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "可是它们是因为吃不饱才这么做的…… 饿肚子的痛苦，我觉得我比谁都懂……",
+   "text": "可是它们是因为吃不饱才这么做的……\n饿肚子的痛苦，我觉得我比谁都懂……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "要送出去真的…… 真的…… 真的，很舍不得啊……！",
+   "text": "要送出去真的……真的……真的，很舍不得啊……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "…… 一半！只给一半的话，我觉得还是可以接受的！",
+   "text": "……一半！只给一半的话，我觉得还是可以接受的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这主意也不错…… 但只给一半的话，对树树鼠们来说可能不太够啊……",
+   "text": "这主意也不错……但只给一半的话，对树树鼠们来说可能不太够啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "呜…… 那，那还是全部送出去吧……！ 呜……！",
+   "text": "呜……那，那还是全部送出去吧……！呜……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "……………… 没办法，这些都送给你们了！",
+   "text": "………………没办法，这些都送给你们了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "但是…… 这是我最珍视的食物，你们一定要好好吃完喔，不可以浪费喔！",
+   "text": "但是……这是我最珍视的食物，你们一定要好好吃完喔，不可以浪费喔！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "因为…… 它们吃不饱饭，感觉很可怜……",
+   "text": "因为……它们吃不饱饭，感觉很可怜……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "我知道吃不饱饭是什么感觉。每天都没有力气，很难过，对明天一点期待都没有…… 那种感觉，我再也不想体会了。",
+   "text": "我知道吃不饱饭是什么感觉。每天都没有力气，很难过，对明天一点期待都没有……那种感觉，我再也不想体会了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "岭川",
-   "text": "因为我有过这样的经历。 所以一想到它们也在受苦，就......",
+   "text": "因为我有过这样的经历。\n所以一想到它们也在受苦，就......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我觉得这主意不错…… 不过要教会它们种地可没那么容易啊，估计你得忙上好一阵子了。",
+   "text": "我觉得这主意不错……不过要教会它们种地可没那么容易啊，估计你得忙上好一阵子了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -2,6 +2,31 @@
 """Client-side interactions and search engine script for StellaSora story knowledge base."""
 
 JS = """(function() {
+  document.querySelectorAll('.text-variants').forEach(function(variants) {
+    var controls = variants.querySelector('.text-variant-controls');
+    var card = variants.closest('.line, .player-reply');
+    if (card) {
+      var heading = card.querySelector('.who, .reply-who');
+      var header = document.createElement('span');
+      header.className = 'line-header';
+      heading.before(header);
+      header.append(heading, controls);
+    }
+    controls.addEventListener('click', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var button = event.target.closest('button[data-version]');
+      if (!button) return;
+      var key = button.getAttribute('data-version');
+      controls.querySelectorAll('button').forEach(function(item) {
+        item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
+      });
+      variants.querySelectorAll('[data-text-version]').forEach(function(text) {
+        text.hidden = text.getAttribute('data-text-version') !== key;
+      });
+    });
+  });
+
   // Theme management
   var themeToggle = document.getElementById('themeToggle');
   function setTheme(t) {

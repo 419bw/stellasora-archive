@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "焦糖老师，今天的表演也非常棒哦， 调查问卷结果已经出来了，观众们都赞不绝口呢！",
+   "text": "焦糖老师，今天的表演也非常棒哦，\n调查问卷结果已经出来了，观众们都赞不绝口呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "虽然中间的即兴表演让我捏了把汗， 但真不愧是焦糖老师！您是在有意控制观众的情绪流对吧！",
+   "text": "虽然中间的即兴表演让我捏了把汗，\n但真不愧是焦糖老师！您是在有意控制观众的情绪流对吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "又是这样……一想说出真相， 就会突然语塞……",
+   "text": "又是这样……一想说出真相，\n就会突然语塞……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "啊哈哈，明白明白。 老师想要给演出加点整蛊反应的小巧思嘛。",
+   "text": "啊哈哈，明白明白。\n老师想要给演出加点整蛊反应的小巧思嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "不过，整蛊做得太过火的话，还是会有观众脱粉的， 要注意点啊。大家花钱买票来可不是为了看“这些”的。",
+   "text": "不过，整蛊做得太过火的话，还是会有观众脱粉的，\n要注意点啊。大家花钱买票来可不是为了看“这些”的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "吉他手？ 不对，米达丝是.......！",
+   "text": "吉他手？\n不对，米达丝是.......！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "是贝斯啊！ 为什么……我也发不出声音？！",
+   "text": "是贝斯啊！\n为什么……我也发不出声音？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "哦？又开始展示你的小巧思了？ 不过，大家想要的…… 是这个。",
+   "text": "哦？又开始展示你的小巧思了？\n不过，大家想要的……是这个。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "现在弗拉维奥的流行趋势是吉他。 所以，“焦糖”也必须去演奏吉他。",
+   "text": "现在弗拉维奥的流行趋势是吉他。\n所以，“焦糖”也必须去演奏吉他。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "制作人",
-   "text": "大家喜欢的音乐都是激烈的节奏加上明亮的音色。 所以，“焦糖”的音乐也必须跟上流行趋势。",
+   "text": "大家喜欢的音乐都是激烈的节奏加上明亮的音色。\n所以，“焦糖”的音乐也必须跟上流行趋势。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "哈啊……哈啊……！ 这、这里是……？",
+   "text": "哈啊……哈啊……！\n这、这里是……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "这里是我的诊所， 慢慢平复呼吸。喝点水压压惊吧。",
+   "text": "这里是我的诊所，\n慢慢平复呼吸。喝点水压压惊吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "啊，谢谢…… 我刚才在做梦……？",
+   "text": "啊，谢谢……\n我刚才在做梦……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "原来是这样…… 呼……还好是梦。现在想说什么都能随意说出来了。",
+   "text": "原来是这样……\n呼……还好是梦。现在想说什么都能随意说出来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "嗯……米达丝的声音也没变。 没错。贝斯怎么会变成吉他的声音……",
+   "text": "嗯……米达丝的声音也没变。\n没错。贝斯怎么会变成吉他的声音……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "医生……我都想起来了。 塔里究竟发生了什么，我全想起来了……",
+   "text": "医生……我都想起来了。\n塔里究竟发生了什么，我全想起来了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "我说不定已经有点精神失常了…… 医生，能听我说说吗？",
+   "text": "我说不定已经有点精神失常了……\n医生，能听我说说吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "也就是说，你在星塔里弹吉他， 然后看到了幻觉……是这样吗？",
+   "text": "也就是说，你在星塔里弹吉他，\n然后看到了幻觉……是这样吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "嗯，对！不对…… 米达丝不是吉他，米达丝是贝斯啦！",
+   "text": "嗯，对！不对……米达丝不是吉他，米达丝是贝斯啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "抱歉。我对音乐领域比较生疏……咳咳。 言归正传，继续描述你的所见所感吧。",
+   "text": "抱歉。我对音乐领域比较生疏……咳咳。\n言归正传，继续描述你的所见所感吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "对……太可怕了。 简直就像是变成了一具提线木偶……",
+   "text": "对……太可怕了。\n简直就像是变成了一具提线木偶……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "太好了…… 会是许愿时的副作用吗？说不定许了什么大愿望，只是我不记得了……",
+   "text": "太好了……\n会是许愿时的副作用吗？说不定许了什么大愿望，只是我不记得了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "不知道算不算异常状况，但我那个时候觉得四周异常安静。 平时一直回荡在耳边的星塔之声也完全听不到……",
+   "text": "不知道算不算异常状况，但我那个时候觉得四周异常安静。\n平时一直回荡在耳边的星塔之声也完全听不到……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "可是，却看到了可怕的幻觉…… 难道是因为我的回应没有让那个声音满意，所以星塔生气了吗？",
+   "text": "可是，却看到了可怕的幻觉……\n难道是因为我的回应没有让那个声音满意，所以星塔生气了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "说起来……在幻觉里，有人好几次对我说，焦糖必须用吉他演奏明快的曲子。 说那是“罗维娜”定下的规则。",
+   "text": "说起来……在幻觉里，有人好几次对我说，焦糖必须用吉他演奏明快的曲子。说那是“罗维娜”定下的规则。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "另外除了伤药，我还可以开一些镇定精神的药。 还有什么问题吗？",
+   "text": "另外除了伤药，我还可以开一些镇定精神的药。\n还有什么问题吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "那个……在您看来，或许会觉得，我疤没好就忘了疼…… 但我还是想问——我能继续在星塔里演奏吗？！",
+   "text": "那个……在您看来，或许会觉得，我疤没好就忘了疼……\n但我还是想问——我能继续在星塔里演奏吗？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "医生可没有剥夺音乐家玩音乐的权利哦。 不过，你不害怕幻觉症状吗？",
+   "text": "医生可没有剥夺音乐家玩音乐的权利哦。\n不过，你不害怕幻觉症状吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "说实话，害怕肯定是害怕的…… 但心里更多的是不甘心，我的回应没能让塔的声音满意。",
+   "text": "说实话，害怕肯定是害怕的……\n但心里更多的是不甘心，我的回应没能让塔的声音满意。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "而且，我也想知道。为什么塔的声音会去追求那样的音乐…… 作为一名演奏者，我想好好面对这件事。",
+   "text": "而且，我也想知道。为什么塔的声音会去追求那样的音乐……\n作为一名演奏者，我想好好面对这件事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "这样啊……志向远大呢。 既然如此，那就更不能阻止你演奏了。我会支持你的。",
+   "text": "这样啊……志向远大呢。\n既然如此，那就更不能阻止你演奏了。我会支持你的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "没想到，竟会在这里抓住你的狐狸尾巴。我可不会放过这个机会—— “魅影”。",
+   "text": "没想到，竟会在这里抓住你的狐狸尾巴。我可不会放过这个机会——“魅影”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "今天是来做星塔的探索报告的对吧。 抱歉需要照常走个流程，请阅读一下确认事项。",
+   "text": "今天是来做星塔的探索报告的对吧。\n抱歉需要照常走个流程，请阅读一下确认事项。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "同意同意都同意。 我觉得所有人都有必要了解……",
+   "text": "同意同意都同意。\n我觉得所有人都有必要了解……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "我接下来要说的事情，你可能会有些难以置信， 但真的全是我亲身体验过的事。先从这里讲起吧——",
+   "text": "我接下来要说的事情，你可能会有些难以置信，\n但真的全是我亲身体验过的事。先从这里讲起吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "需、需要和那么多的大人物讨论吗！？我明白了。 那就拜托了……！",
+   "text": "需、需要和那么多的大人物讨论吗！？我明白了。\n那就拜托了……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "可悲之人的灵魂，被星塔吞噬后的末路—— 也算是一种星骸吧。",
+   "text": "可悲之人的灵魂，被星塔吞噬后的末路——也算是一种星骸吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

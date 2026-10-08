@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "没用，我的魔法对这些藤蔓的效果太差了， 清理的速度赶不上生长的速度。",
+   "text": "没用，我的魔法对这些藤蔓的效果太差了，清理的速度赶不上生长的速度。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不清理这些藤蔓，就没办法打开大门。 这样下去，到底什么时候才能出去啊！",
+   "text": "不清理这些藤蔓，就没办法打开大门。这样下去，到底什么时候才能出去啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "尘沙她们在外面找这座温室的位置， 但附近的温室看起来都太相似了，估计得花上不少时间。",
+   "text": "尘沙她们在外面找这座温室的位置，但附近的温室看起来都太相似了，估计得花上不少时间。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -52,7 +52,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "米娜，你知道些什么吗？ 比如这间温室的位置，或者是内部构造， 什么情报都可以！",
+   "text": "米娜，你知道些什么吗？比如这间温室的位置，或者是内部构造，什么情报都可以！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -60,7 +60,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "这间温室……在最新的区域图上并没有被标识。 是不是……已经被废弃很久了？",
+   "text": "这间温室……在最新的区域图上并没有被标识。是不是……已经被废弃很久了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不会， 你看这边的路面还没被杂草淹没，说明这里有人在维护。",
+   "text": "不会，你看这边的路面还没被杂草淹没，说明这里有人在维护。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +76,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "至于这扇门， 我想只是平时没人走被荒废了。",
+   "text": "至于这扇门，我想只是平时没人走被荒废了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "这些缠绕的藤蔓在温室外墙上也有， 或许就是有人故意栽种在这边，用来隐藏温室的。",
+   "text": "这些缠绕的藤蔓在温室外墙上也有，或许就是有人故意栽种在这边，用来隐藏温室的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +92,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "这种不自然的生长速度… … 究竟怎么回事？",
+   "text": "这种不自然的生长速度……究竟怎么回事？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "答案很明显， 你看。",
+   "text": "答案很明显，你看。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -108,7 +108,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "翠煌草？！ 所以这里是…… 培育翠煌草的温室。",
+   "text": "翠煌草？！所以这里是……培育翠煌草的温室。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +116,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "约瑟夫部长培育了这么多翠煌草， 他到底想干什么？",
+   "text": "约瑟夫部长培育了这么多翠煌草，他到底想干什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +124,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不止是翠煌草。 米娜，你看翠煌草叶片上的液体。",
+   "text": "不止是翠煌草。米娜，你看翠煌草叶片上的液体。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "这个颜色和魔力… … 这难道是柔光溶液？",
+   "text": "这个颜色和魔力……这难道是柔光溶液？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -148,7 +148,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "是一种被恩赐意志禁止使用的魔力液体， 很不稳定。",
+   "text": "是一种被恩赐意志禁止使用的魔力液体，很不稳定。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -156,7 +156,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "在柔光溶液附近使用魔法， 很容易扰动柔光溶液中的魔力。 就像这样——",
+   "text": "在柔光溶液附近使用魔法，很容易扰动柔光溶液中的魔力。就像这样——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -172,7 +172,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "这种液体中富含着大量的魔力，对于一些魔物来说绝对是顿大餐。 各位还记得约瑟夫部长说过的话吗？",
+   "text": "这种液体中富含着大量的魔力，对于一些魔物来说绝对是顿大餐。各位还记得约瑟夫部长说过的话吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -196,7 +196,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "可能也用来浇灌翠煌草， 好让这些植物快点生长。",
+   "text": "可能也用来浇灌翠煌草，好让这些植物快点生长。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -204,7 +204,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "的确，这边还散落着羽毛。 夏花和翠煌之刃战斗过，我发个信息让她辨认一下。",
+   "text": "的确，这边还散落着羽毛。夏花和翠煌之刃战斗过，我发个信息让她辨认一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -212,7 +212,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "约瑟夫部长如此滥用柔光溶液， 严重违反了公司规则。",
+   "text": "约瑟夫部长如此滥用柔光溶液，严重违反了公司规则。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +220,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "不，不只是公司规则， 还有诺瓦各大公司的共识。",
+   "text": "不，不只是公司规则，还有诺瓦各大公司的共识。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -228,7 +228,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "米娜， 按照你的标准， 约瑟夫部长可是违反了不少规则。",
+   "text": "米娜，按照你的标准，约瑟夫部长可是违反了不少规则。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -236,7 +236,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "对付这样的人， 你还要继续讲规则吗？",
+   "text": "对付这样的人，你还要继续讲规则吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -244,7 +244,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "我…… 我相信公司会有人出来主持公道的。",
+   "text": "我……我相信公司会有人出来主持公道的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -252,7 +252,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "哦， 那你觉得这个公道会由谁出来主持？ 翡冷翠、 还是达尔茜娅？",
+   "text": "哦，那你觉得这个公道会由谁出来主持？翡冷翠、还是达尔茜娅？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +260,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "约瑟夫本身是研发部的部长， 他做的事情涉及九个温室，还指挥着一大群公司的佣兵， 达尔茜娅和翡冷翠真的不知道吗？",
+   "text": "约瑟夫本身是研发部的部长，他做的事情涉及九个温室，还指挥着一大群公司的佣兵，达尔茜娅和翡冷翠真的不知道吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -268,7 +268,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "如果她们知道， 她们会自己惩罚自己的人吗？",
+   "text": "如果她们知道，她们会自己惩罚自己的人吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -276,7 +276,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "如果她们不知道， 已经无能到让下属在自己眼皮下做出这么大的计划， 她们又能主持什么公道？",
+   "text": "如果她们不知道，已经无能到让下属在自己眼皮下做出这么大的计划，她们又能主持什么公道？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -284,7 +284,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "如、 如果这件事真的和那两位大人有关……",
+   "text": "如、如果这件事真的和那两位大人有关……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -292,7 +292,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "我会向联合种业的总公司反应， 但总不可能公司里的所有人都是坏人吧。",
+   "text": "我会向联合种业的总公司反应，但总不可能公司里的所有人都是坏人吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -300,7 +300,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "… …",
+   "text": "……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -308,7 +308,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "好吧， 既然你这么说…… 我建议你让我把这里的情况都拍下来。",
+   "text": "好吧，既然你这么说……我建议你让我把这里的情况都拍下来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -316,7 +316,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "我让你…… 拍下来？",
+   "text": "我让你……拍下来？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -324,7 +324,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "当然， 你肯定没办法容忍联合种业把魔力催熟的，根本没营养的食物卖给顾客吧。",
+   "text": "当然，你肯定没办法容忍联合种业把魔力催熟的，根本没营养的食物卖给顾客吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -332,7 +332,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "在这件事上， 我们的目的是一致的。",
+   "text": "在这件事上，我们的目的是一致的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -340,7 +340,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "你想把这的事交给公司处理， 也需要我的照片作为证据。",
+   "text": "你想把这的事交给公司处理，也需要我的照片作为证据。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -348,7 +348,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "我当然不会让这些魔力催熟的食物流向市场。 只是， 我想问的是… …",
+   "text": "我当然不会让这些魔力催熟的食物流向市场。只是，我想问的是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -356,7 +356,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "你为什么要问我的意见？ 你明明说——魔女有真相就够了。",
+   "text": "你为什么要问我的意见？你明明说——魔女有真相就够了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -364,7 +364,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "魔女当然有真相就够了， 不过嘛……",
+   "text": "魔女当然有真相就够了，不过嘛……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -372,7 +372,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "刚才不是有人以“不可能放弃同事”的理由帮了我一把， 让我想起我还没离职呢。",
+   "text": "刚才不是有人以“不可能放弃同事”的理由帮了我一把，让我想起我还没离职呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -380,7 +380,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "所以，我除了魔女之外，也算是你的同事…… 嗯， 也可以说是下属了， 毕竟你是茶色夜莺这个项目的经理嘛。",
+   "text": "所以，我除了魔女之外，也算是你的同事……嗯，也可以说是下属了，毕竟你是茶色夜莺这个项目的经理嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +388,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "那， 我拍的有关公司的照片由你来决定使用方式也是很合理的吧。",
+   "text": "那，我拍的有关公司的照片由你来决定使用方式也是很合理的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -396,7 +396,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "况且，我有种感觉， 这件事还远远没有结束，后面还有的挖呢。",
+   "text": "况且，我有种感觉，这件事还远远没有结束，后面还有的挖呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -404,7 +404,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "魔<r=BOSS></r>王， 你会和我们一起调查吧。",
+   "text": "魔<r=BOSS></r>王，你会和我们一起调查吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -412,7 +412,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "当然， 从我们进公司的那一天起， 我们就在被人利用，被人当工具使。",
+   "text": "当然，从我们进公司的那一天起，我们就在被人利用，被人当工具使。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -420,7 +420,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "既然那么想用我们当诱饵把对方钓出来， 那我们就真的当一次诱饵好了。",
+   "text": "既然那么想用我们当诱饵把对方钓出来，那我们就真的当一次诱饵好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -434,7 +434,7 @@
   {
    "k": "talk",
    "speaker": "小南瓜",
-   "text": "一朵不剩， 全部摘光光！",
+   "text": "一朵不剩，全部摘光光！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -442,7 +442,7 @@
   {
    "k": "talk",
    "speaker": "小提灯",
-   "text": "全部烧掉， 也不错~",
+   "text": "全部烧掉，也不错~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -450,7 +450,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "对， 就这么干， 让我们把温室里的翠煌草全部铲掉。",
+   "text": "对，就这么干，让我们把温室里的翠煌草全部铲掉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +458,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "喂， 魔<r=BOSS></r>王， 你这个法子真的有用吗？ 那个约瑟夫真的会在意这些植物？",
+   "text": "喂，魔<r=BOSS></r>王，你这个法子真的有用吗？那个约瑟夫真的会在意这些植物？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -466,7 +466,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "如果我是他， 我肯定早就跑路了。",
+   "text": "如果我是他，我肯定早就跑路了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -482,7 +482,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "只要他真的醉心于研究， 他就不可能忍受我们随便破坏他的成果。",
+   "text": "只要他真的醉心于研究，他就不可能忍受我们随便破坏他的成果。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -490,7 +490,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "况且， 那些佣兵数量不少，还有点眼熟， 我觉得他现在还认为“优势在他”呢。",
+   "text": "况且，那些佣兵数量不少，还有点眼熟，我觉得他现在还认为“优势在他”呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -498,7 +498,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "住手！ 你们在做什么？",
+   "text": "住手！你们在做什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -506,7 +506,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "真的出现了！ 魔<r=BOSS></r>王你真是料事如神。",
+   "text": "真的出现了！魔<r=BOSS></r>王你真是料事如神。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -514,7 +514,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "约瑟夫部长， 你没看到吗？ 我们正在给温室拔草， 这些杂草好烦人的。",
+   "text": "约瑟夫部长，你没看到吗？我们正在给温室拔草，这些杂草好烦人的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -522,7 +522,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "杂草… … 看样子， 你们根本没有理解翠煌草的真正价值啊。",
+   "text": "杂草……看样子，你们根本没有理解翠煌草的真正价值啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -530,7 +530,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "哼， 本来看在“那位大人”对你们赏识有加， 想放你们一条生路的。",
+   "text": "哼，本来看在“那位大人”对你们赏识有加，想放你们一条生路的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -538,7 +538,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "但我改变主意了… … 先把你们几个全部消灭， 之后再向“那位大人”解释好了。",
+   "text": "但我改变主意了……先把你们几个全部消灭，之后再向“那位大人”解释好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -546,7 +546,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "手下败将， 你真的觉得靠着几个人就能击败魔女？",
+   "text": "手下败将，你真的觉得靠着几个人就能击败魔女？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -554,7 +554,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "几个人？ 灰夫人， 你被这位魔女小看了哦。",
+   "text": "几个人？灰夫人，你被这位魔女小看了哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -562,7 +562,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "贵安~ 自我介绍…… 我猜也没必要了吧？",
+   "text": "贵安~自我介绍……我猜也没必要了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -570,7 +570,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "我就是灰夫人， 三大委托的事情真是有劳各位了。",
+   "text": "我就是灰夫人，三大委托的事情真是有劳各位了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -578,7 +578,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "果然是你，灰夫人。 你手下的佣兵也太明显了。",
+   "text": "果然是你，灰夫人。你手下的佣兵也太明显了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -586,7 +586,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明明是躲在联合种业， 这么高调好吗？",
+   "text": "明明是躲在联合种业，这么高调好吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -594,7 +594,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "我躲在联合种业？ 哈哈哈， 我完成了“那位大人”的任务，拿到了“那个东西”， 有什么好躲的？",
+   "text": "我躲在联合种业？哈哈哈，我完成了“那位大人”的任务，拿到了“那个东西”，有什么好躲的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -602,7 +602,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "又是“那个东西” … …",
+   "text": "又是“那个东西”……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -610,7 +610,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "约瑟夫部长， 灰夫人应该没和你说过城外营地发生的事情吧。",
+   "text": "约瑟夫部长，灰夫人应该没和你说过城外营地发生的事情吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -618,7 +618,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "嗯？ 你是说三大委托的事情？",
+   "text": "嗯？你是说三大委托的事情？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -626,7 +626,10 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "别听你乱说， 约瑟夫。 我们完成了“那位大人”的事情， “那位大人”会保护我们的。",
+   "text": {
+    "cn_f": "别听她乱说，约瑟夫。我们完成了“那位大人”的事情，“那位大人”会保护我们的。",
+    "cn_m": "别听他乱说，约瑟夫。我们完成了“那位大人”的事情，“那位大人”会保护我们的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -634,7 +637,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "你们是完成了任务…… 只不过用的都是些既违规，又毫无道德的手段！",
+   "text": "你们是完成了任务……只不过用的都是些既违规，又毫无道德的手段！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -650,7 +653,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "真的吗？ 绯瞳传讯的档案库里有很多类似的事情， 你们知道那些事情最后是怎么发展的吗？",
+   "text": "真的吗？绯瞳传讯的档案库里有很多类似的事情，你们知道那些事情最后是怎么发展的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -658,7 +661,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "闭嘴吧，魔女。 别想用这些言语来扰乱我们。",
+   "text": "闭嘴吧，魔女。别想用这些言语来扰乱我们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -666,7 +669,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "士兵们， 干掉她们。",
+   "text": "士兵们，干掉她们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -682,7 +685,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "约瑟夫，你不会被刚才那番话吓住了吧…… 你刚才不是还很生气吗？",
+   "text": "约瑟夫，你不会被刚才那番话吓住了吧……你刚才不是还很生气吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -690,7 +693,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "这位魔女随便破坏我的研究成果，我当然很生气。 但作为研发部部长，我还是习惯尊重事实的。",
+   "text": "这位魔女随便破坏我的研究成果，我当然很生气。但作为研发部部长，我还是习惯尊重事实的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -698,7 +701,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "事实就是， 温室的骚乱已经发生几个小时了，我们还没看到“那位大人”，也没有接到任何消息。 或许她说的对……",
+   "text": "事实就是，温室的骚乱已经发生几个小时了，我们还没看到“那位大人”，也没有接到任何消息。或许她说的对……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -722,7 +725,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "一派胡言， 只要亲手解决了这两个人， 一切还能挽回。",
+   "text": "一派胡言，只要亲手解决了这两个人，一切还能挽回。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -730,7 +733,10 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "唉，你在想什么。 你们追进来的人至少有三个，现在我们面前只有两人， 另一个人肯定是去叫援兵了。",
+   "text": {
+    "cn_f": "唉，你在想什么。她们追进来的人至少有三个，现在我们面前只有两人，另一个人肯定是去叫援兵了。",
+    "cn_m": "唉，你在想什么。他们追进来的人至少有三个，现在我们面前只有两人，另一个人肯定是去叫援兵了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -738,7 +744,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "温室外面还有四个旅人， 温室里至少还有一个我们不知道的狙击手在掩护。",
+   "text": "温室外面还有四个旅人，温室里至少还有一个我们不知道的狙击手在掩护。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -754,7 +760,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "怎么可能？！ 援兵这么快就到了么？",
+   "text": "怎么可能？！援兵这么快就到了么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -762,7 +768,7 @@
   {
    "k": "talk",
    "speaker": "机警的佣兵",
-   "text": "报告， 左侧有敌人！",
+   "text": "报告，左侧有敌人！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -770,7 +776,7 @@
   {
    "k": "talk",
    "speaker": "受伤的佣兵",
-   "text": "右侧也有！ 我被击中了……",
+   "text": "右侧也有！我被击中了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -778,7 +784,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "我们中计了， 快撤。",
+   "text": "我们中计了，快撤。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -794,7 +800,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "不好意思， 我可不能让你带走重要的证人。",
+   "text": "不好意思，我可不能让你带走重要的证人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -802,7 +808,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "太好了…… 赶上了！",
+   "text": "太好了……赶上了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -810,7 +816,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "魔王， 你是怎么知道星雁前辈在这里的？",
+   "text": "魔王，你是怎么知道星雁前辈在这里的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -818,7 +824,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "请假…… 星雁前辈，每周五都会请假，周四还会晚到。",
+   "text": "请假……星雁前辈，每周五都会请假，周四还会晚到。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -826,7 +832,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是琥珀告诉我的， 她怀疑星雁是这次事件的犯人。",
+   "text": "是琥珀告诉我的，她怀疑星雁是这次事件的犯人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -834,7 +840,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "那你是怎么看出， 我不是你们的敌人的？",
+   "text": "那你是怎么看出，我不是你们的敌人的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -842,7 +848,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "偶然罢了。 我整合一下从蓝宝石和琥珀那得到的信息，一下就发现， 你每周五都会偷偷地去干别的事情。",
+   "text": "偶然罢了。我整合一下从蓝宝石和琥珀那得到的信息，一下就发现，你每周五都会偷偷地去干别的事情。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -850,7 +856,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她们都说你在市场部被人呼来喝去， 做繁重的工作弄得自己缺乏睡眠， 不得不四处补觉。",
+   "text": "她们都说你在市场部被人呼来喝去，做繁重的工作弄得自己缺乏睡眠，不得不四处补觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -858,7 +864,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你在菲莱根本没家人， 也没欠高利贷什么的。",
+   "text": "你在菲莱根本没家人，也没欠高利贷什么的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -866,7 +872,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我完全想不明白， 为什么一个没有急迫的经济压力的人会这么逆来顺受， 要不然你是受虐狂，要不然你有别的目的。",
+   "text": "我完全想不明白，为什么一个没有急迫的经济压力的人会这么逆来顺受，要不然你是受虐狂，要不然你有别的目的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -874,7 +880,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "另外，你每天抱着枕头也未免太浮夸了， 这不符合你外在的“人设”，那么最大的可能就是—— 你有什么东西必须每天随身带着，枕头只是遮掩，那不就更可疑了？",
+   "text": "另外，你每天抱着枕头也未免太浮夸了，这不符合你外在的“人设”，那么最大的可能就是——你有什么东西必须每天随身带着，枕头只是遮掩，那不就更可疑了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -882,7 +888,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "完美的推理，没想到竟然是这里出了纰漏， 看来我的潜伏技巧还要加强啊。",
+   "text": "完美的推理，没想到竟然是这里出了纰漏，看来我的潜伏技巧还要加强啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -952,7 +958,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "约瑟夫部长， 我们走吧。 出了温室会有人给你治伤的。",
+   "text": "约瑟夫部长，我们走吧。出了温室会有人给你治伤的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

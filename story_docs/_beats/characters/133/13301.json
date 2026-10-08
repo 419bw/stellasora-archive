@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "夏花居然会迟到，总感觉不像她的作风…… 啊，她来了。",
+   "text": "夏花居然会迟到，总感觉不像她的作风……啊，她来了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "抱歉，我来晚了。 工作太忙了。",
+   "text": "抱歉，我来晚了。\n工作太忙了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "好的……呼…… 总觉得有些过意不去。",
+   "text": "好的……呼……\n总觉得有些过意不去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "那让我补偿你一下吧？比如…… 你有什么想要的？",
+   "text": "那让我补偿你一下吧？比如……\n你有什么想要的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你也辛苦。 营地的状况如何？",
+   "text": "你也辛苦。\n营地的状况如何？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "卖烤串的商贩",
-   "text": "这不是夏花嘛，快来尝尝这个！ 这是对你平日里照顾营地的谢礼，旁边那位也一起吃吧。",
+   "text": "这不是夏花嘛，快来尝尝这个！\n这是对你平日里照顾营地的谢礼，旁边那位也一起吃吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "这…… 太好吃了！",
+   "text": "这……太好吃了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "其实……我确实有点饿了。 填饱肚子才能集中注意力。谢谢你的体谅。",
+   "text": "其实……我确实有点饿了。\n填饱肚子才能集中注意力。谢谢你的体谅。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "夏花大人，您好！ 您身边那位难道……难道是您的恋人？ 哇，二位今天是来约会的吗？",
+   "text": "夏花大人，您好！\n您身边那位难道……难道是您的恋人？哇，二位今天是来约会的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "欸？不……不是的…… 你只是来协助我巡逻的。",
+   "text": {
+    "cn_f": "欸？不……不是的……\n她只是来协助我巡逻的。",
+    "cn_m": "欸？不……不是的……\n他只是来协助我巡逻的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +302,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "哈哈，您就别藏着掖着了。 对了，看看这个怎么样？",
+   "text": "哈哈，您就别藏着掖着了。\n对了，看看这个怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +310,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是…… 风车？",
+   "text": "这是……风车？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +318,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "没错，菲莱城的标志性纪念品——风车！ 这是最近情侣间非常流行的纪念礼物，据说有着美好的象征意义……",
+   "text": "没错，菲莱城的标志性纪念品——风车！\n这是最近情侣间非常流行的纪念礼物，据说有着美好的象征意义……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +334,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "可我看你们俩很般配啊…… 那就作为让彼此间感情加深的礼物，怎么样？",
+   "text": "可我看你们俩很般配啊……\n那就作为让彼此间感情加深的礼物，怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +350,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "哈哈，抱歉抱歉。 我还想着夏花大人带着我家的纪念品打打广告呢，可惜了~",
+   "text": "哈哈，抱歉抱歉。\n我还想着夏花大人带着我家的纪念品打打广告呢，可惜了~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +358,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "我猜也是。 魔王，我们走吧。",
+   "text": "我猜也是。魔王，我们走吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +398,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "迟到已经够糟糕了，偏偏这种时候肚子还叫了起来…… 太粗心大意了。",
+   "text": "迟到已经够糟糕了，偏偏这种时候肚子还叫了起来……太粗心大意了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +406,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "夏花大人，您好！ 您身边那位难道……难道是您的恋人？ 哇，二位今天是来约会的吗？",
+   "text": "夏花大人，您好！\n您身边那位难道……难道是您的恋人？哇，二位今天是来约会的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +414,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "欸？不……不是的…… 你只是来协助我巡逻的。",
+   "text": {
+    "cn_f": "欸？不……不是的……\n她只是来协助我巡逻的。",
+    "cn_m": "欸？不……不是的……\n他只是来协助我巡逻的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +425,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "约会！？确，确实……我和你约在这里见面，还一起吃了烤串…… 原来周围人看我们像是情侣吗？",
+   "text": {
+    "cn_f": "约会！？确，确实……我和她约在这里见面，还一起吃了烤串……原来周围人看我们像是情侣吗？",
+    "cn_m": "约会！？确，确实……我和他约在这里见面，还一起吃了烤串……原来周围人看我们像是情侣吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +436,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "哈哈，您就别藏着掖着了。 对了，看看这个怎么样？",
+   "text": "哈哈，您就别藏着掖着了。\n对了，看看这个怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +452,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是…… 风车？",
+   "text": "这是……风车？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +460,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "没错，菲莱城的标志性纪念品——风车！ 这是最近情侣间非常流行的纪念礼物，据说有着美好的象征意义……",
+   "text": "没错，菲莱城的标志性纪念品——风车！\n这是最近情侣间非常流行的纪念礼物，据说有着美好的象征意义……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +468,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "是一直以来在本地流传的说法吧？ 风车与风同行，互赠这个就象征着双方互相陪伴……那个，也就是说……",
+   "text": "是一直以来在本地流传的说法吧？\n风车与风同行，互赠这个就象征着双方互相陪伴……那个，也就是说……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +484,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "不……绝对不能让你知道。",
+   "text": {
+    "cn_f": "不……绝对不能让她知道。",
+    "cn_m": "不……绝对不能让他知道。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +503,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "可我看你们俩很般配啊…… 那就作为让彼此间感情加深的礼物，怎么样？",
+   "text": "可我看你们俩很般配啊……\n那就作为让彼此间感情加深的礼物，怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +511,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "般配？我和你真的很般配吗…… 不行……清醒一点！",
+   "text": {
+    "cn_f": "般配？我和她真的很般配吗……\n不行……清醒一点！",
+    "cn_m": "般配？我和他真的很般配吗……\n不行……清醒一点！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +530,7 @@
   {
    "k": "talk",
    "speaker": "卖纪念品的商贩",
-   "text": "哈哈，抱歉抱歉。 我还想着夏花大人带着我家的纪念品打打广告呢，可惜了~",
+   "text": "哈哈，抱歉抱歉。\n我还想着夏花大人带着我家的纪念品打打广告呢，可惜了~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +538,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "我猜也是。 魔王，我们走吧。",
+   "text": "我猜也是。魔王，我们走吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +658,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等一下！我也去！ 啊，已经走掉了。能用魔法就是好。",
+   "text": "等一下！我也去！\n啊，已经走掉了。能用魔法就是好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +714,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "是有人试图袭击集市，打算从那个方向突破……好在没有人员伤亡。 但等我到达现场的时候，犯人已经逃走了。",
+   "text": "是有人试图袭击集市，打算从那个方向突破……好在没有人员伤亡。\n但等我到达现场的时候，犯人已经逃走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

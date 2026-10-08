@@ -44,7 +44,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "（提前安排的狙击和埋伏都失效了， 就连哈萨娜的沙暴也被料到了， 就好像…… 战场对她们单方面透明一样。）",
+   "text": "（提前安排的狙击和埋伏都失效了，就连哈萨娜的沙暴也被料到了，就好像……战场对她们单方面透明一样。）",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -52,7 +52,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "（那个魔<r=mowang></r>王…… 到底用了什么作弊手段？）",
+   "text": "（那个魔<r=mowang></r>王……到底用了什么作弊手段？）",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -108,7 +108,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "你是？ ……想起来了，你是孤儿院的艾蕾院长？",
+   "text": "你是？……想起来了，你是孤儿院的艾蕾院长？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,10 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "对我来说，你和我们的孩子没什么两样。",
+   "text": {
+    "cn_f": "对我来说，她和我们的孩子没什么两样。",
+    "cn_m": "对我来说，他和我们的孩子没什么两样。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -156,7 +159,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "啧—— 跑得好快，你为什么不反击？",
+   "text": "啧——跑得好快，你为什么不反击？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -228,7 +231,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "这明明是白猫的战斗方式， 啊，我明白了，原来你就是谋杀先帝的罪魁祸首。",
+   "text": "这明明是白猫的战斗方式，啊，我明白了，原来你就是谋杀先帝的罪魁祸首。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -236,7 +239,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "我之所以变成这样，都是因为白猫， 都是因为你们——",
+   "text": "我之所以变成这样，都是因为白猫，都是因为你们——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -252,7 +255,7 @@
   {
    "k": "talk",
    "speaker": "160号",
-   "text": "哈——哈—— 看来，拯救委员会里也有内鬼啊，要不然你怎么能如此了解我的魔法，一直不肯攻击我。",
+   "text": "哈——哈——看来，拯救委员会里也有内鬼啊，要不然你怎么能如此了解我的魔法，一直不肯攻击我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -300,7 +303,7 @@
   {
    "k": "talk",
    "speaker": "艾蕾",
-   "text": "嗯， 她挥舞匕首的姿势…… 比起伤人，更像是一种长期被动防御，在惊恐中形成的身体习惯。",
+   "text": "嗯，她挥舞匕首的姿势……比起伤人，更像是一种长期被动防御，在惊恐中形成的身体习惯。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -316,7 +319,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "把她绑起来吧， 只要能抓住安琪，一切都会好起来的。",
+   "text": "把她绑起来吧，只要能抓住安琪，一切都会好起来的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -346,7 +349,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "怎么会这样？ 第二百人队就这样被几个旅人冲垮了？",
+   "text": "怎么会这样？第二百人队就这样被几个旅人冲垮了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -386,7 +389,7 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "明明是我们急行军偷袭魔<r=mowang></r>王才对，怎么感觉…… 我们好像一头掉进了魔<r=mowang></r>王精心准备的陷阱里……",
+   "text": "明明是我们急行军偷袭魔<r=mowang></r>王才对，怎么感觉……我们好像一头掉进了魔<r=mowang></r>王精心准备的陷阱里……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -402,7 +405,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "应该不是间谍的问题， 在160号失败前，她能监听到方圆三十公里内所有的心链，间谍就算要送消息，也只敢用传统的送信方式。",
+   "text": "应该不是间谍的问题，在160号失败前，她能监听到方圆三十公里内所有的心链，间谍就算要送消息，也只敢用传统的送信方式。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -410,7 +413,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "而我们一抵达米拉什就开始进攻， 就算我们内部有间谍，应该也没时间送信过去。",
+   "text": "而我们一抵达米拉什就开始进攻，就算我们内部有间谍，应该也没时间送信过去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -418,7 +421,10 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "《恩赐预言书》记载：魔<r=mowang></r>王的确有未卜先知的能力。 大概，我们的行动被你算到了。",
+   "text": {
+    "cn_f": "《恩赐预言书》记载：魔<r=mowang></r>王的确有未卜先知的能力。大概，我们的行动被她算到了。",
+    "cn_m": "《恩赐预言书》记载：魔<r=mowang></r>王的确有未卜先知的能力。大概，我们的行动被他算到了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -442,7 +448,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "没有，后勤队一切正常，我们还做了薯条蘸冰淇淋给前线的同袍送去。 然后，我就遇到了魔<r=mowang></r>王的同伴。",
+   "text": "没有，后勤队一切正常，我们还做了薯条蘸冰淇淋给前线的同袍送去。然后，我就遇到了魔<r=mowang></r>王的同伴。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -490,7 +496,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "（其实是奥尔贝德的间谍才对，这也不算说谎！ 况且，我写在薯条盒里的情报，那个小禾的确没要啊。）",
+   "text": "（其实是奥尔贝德的间谍才对，这也不算说谎！况且，我写在薯条盒里的情报，那个小禾的确没要啊。）",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -498,7 +504,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "辛苦你为大家做薯条蘸冰淇淋了， 咕姆—— 这还挺好吃的， 冈希尔德你也尝尝。",
+   "text": "辛苦你为大家做薯条蘸冰淇淋了，咕姆——这还挺好吃的，冈希尔德你也尝尝。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -514,7 +520,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "脑子转不动的时候，我喜欢吃一些甜的东西呢， 谢谢你。 那么，能把魔<r=mowang></r>王的口信告诉我吗？",
+   "text": "脑子转不动的时候，我喜欢吃一些甜的东西呢，谢谢你。那么，能把魔<r=mowang></r>王的口信告诉我吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -522,7 +528,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "啊，抱歉，一聊起来就忘了。 魔<r=mowang></r>王让我告诉您——",
+   "text": "啊，抱歉，一聊起来就忘了。魔<r=mowang></r>王让我告诉您——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -530,7 +536,10 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "下午三点之前，你愿意和您谈判，地点可以由您来选择。",
+   "text": {
+    "cn_f": "下午三点之前，她愿意和您谈判，地点可以由您来选择。",
+    "cn_m": "下午三点之前，他愿意和您谈判，地点可以由您来选择。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -568,7 +577,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "看来，拯救委员会里不止我们一组间谍啊。 奇怪……会是谁呢？",
+   "text": "看来，拯救委员会里不止我们一组间谍啊。奇怪……会是谁呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -576,7 +585,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "想那么多做什么？ 你中有我，我中有你，诺瓦的事情好就好在这里。",
+   "text": "想那么多做什么？你中有我，我中有你，诺瓦的事情好就好在这里。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -584,7 +593,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "你看，我们现在也努力过了，魔<r=mowang></r>王也拿到了情报，正在一路高歌猛进： 先在矿井里困住了格蕾霍恩， 又以摧枯拉朽的气势碾压了160号。",
+   "text": "你看，我们现在也努力过了，魔<r=mowang></r>王也拿到了情报，正在一路高歌猛进：先在矿井里困住了格蕾霍恩，又以摧枯拉朽的气势碾压了160号。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -592,7 +601,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "我们既不用担心魔<r=mowang></r>王被抓，更不用担心失业， 这种时候，就是要悠闲地摸鱼才对啊~",
+   "text": "我们既不用担心魔<r=mowang></r>王被抓，更不用担心失业，这种时候，就是要悠闲地摸鱼才对啊~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -600,7 +609,10 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "唔……总感觉不太对， 如果魔<r=mowang></r>王的优势真的那么大，你为什么还要和安琪大人谈判呢？",
+   "text": {
+    "cn_f": "唔……总感觉不太对，如果魔<r=mowang></r>王的优势真的那么大，她为什么还要和安琪大人谈判呢？",
+    "cn_m": "唔……总感觉不太对，如果魔<r=mowang></r>王的优势真的那么大，他为什么还要和安琪大人谈判呢？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -608,7 +620,10 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "菈露前辈，你不会是想抓住安琪大人，用这招击败拯救委员会吧？",
+   "text": {
+    "cn_f": "菈露前辈，她不会是想抓住安琪大人，用这招击败拯救委员会吧？",
+    "cn_m": "菈露前辈，他不会是想抓住安琪大人，用这招击败拯救委员会吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -616,7 +631,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "是又怎么样？ 我看那个安琪已经完全上钩了，她绝对会去谈判的。",
+   "text": "是又怎么样？我看那个安琪已经完全上钩了，她绝对会去谈判的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -624,7 +639,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "不行， 我们得想办法警告魔<r=mowang></r>王—— 就算抓住了安琪，战斗也不会结束的！",
+   "text": "不行，我们得想办法警告魔<r=mowang></r>王——就算抓住了安琪，战斗也不会结束的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -654,7 +669,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "明白， 魔<r=BOSS></r>王，你注意安全。",
+   "text": "明白，魔<r=BOSS></r>王，你注意安全。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -702,7 +717,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这里的地面不够结实，很容易就能打穿， 让地面上的人掉进下面的废弃矿道里。",
+   "text": "这里的地面不够结实，很容易就能打穿，让地面上的人掉进下面的废弃矿道里。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -718,7 +733,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "现在，冬香在地下等我的信号， 千都世在我身边护卫， 夏花带着城外的同伴准备偷袭拯救委员会的炮击阵地， 空白旅团和艾蕾在帮大家撤退， 根本不会出现在这里。",
+   "text": "现在，冬香在地下等我的信号，千都世在我身边护卫，夏花带着城外的同伴准备偷袭拯救委员会的炮击阵地，空白旅团和艾蕾在帮大家撤退，根本不会出现在这里。",
    "thought": true,
    "sticker": false,
    "channel": "talk"

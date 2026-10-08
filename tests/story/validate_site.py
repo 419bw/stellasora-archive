@@ -532,7 +532,7 @@ MD_LINE = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$', re.M)
 HTML_LINE = re.compile(r'<p class="line[^"]*"><b class="who">.*?</b>(?:<i class="tag">.*?</i>)?'
                        r'<span class="say">「(.*?)」</span>')
 MD_RUBY = re.compile(r'<r=([^<>]*)>([^<>]+)</r>|<r=([^<>]*)></r>')
-HTML_RUBY = re.compile(r'<ruby>(.*?)<rt>(.*?)</rt></ruby>')
+HTML_RUBY = re.compile(r'<ruby(?: class="ruby-point")?>(.*?)<rt>(.*?)</rt></ruby>')
 # Phase 4b：<b>/<i> 强调标记。md 侧原样字面，HTML 侧映射 <b class="emph">；
 # 文字投影两边都剥掉（对照的是字，不是表现），计数另做对账。
 MD_EMPH = re.compile(r'</?[bi]>')
@@ -557,12 +557,24 @@ def md_view(text):
     return MD_RUBY.sub(lambda m: m.group(2) or '', MD_EMPH.sub('', text)), marks
 
 
+def female_html(text):
+    text = re.sub(r'<span class="text-variant-controls".*?</span>', '', text, flags=re.S)
+    text = re.sub(r'<span class="text-variants">(.*)</span>', r'\1', text, flags=re.S)
+    text = re.sub(r'<span data-text-version="[^"]+" hidden>.*?</span>', '', text, flags=re.S)
+    return re.sub(r'<span data-text-version="[^"]+">(.*?)</span>', r'\1', text, flags=re.S)
+
+
 def html_view(text):
     """The same two projections read back out of the rendered HTML.
 
     强调标记在 unesc 之前剥（只命中真实标签；正文里字面的 &lt;b&gt; 不受影响）。
     """
-    marks = [(a[-1] if a else '', unesc(n)) for a, n in HTML_RUBY.findall(text)]
+    text = female_html(text)
+    marks = []
+    for m in HTML_RUBY.finditer(text):
+        base = m[1] or re.sub(r'<[^>]*>', '', HTML_RUBY.sub(lambda x: x[1], text[:m.start()]))
+        base = unesc(base)
+        marks.append((base[-1] if base else '', unesc(m[2])))
     t = HTML_RUBY.sub(lambda m: m.group(1), text)
     t = re.sub(r'</?[bi](?: class="emph")?>', '', t)
     return unesc(t), marks
@@ -587,7 +599,7 @@ for p in published:
     ruby_md += sum(len(w[1]) for w in want)
     ruby_html += sum(len(g[1]) for g in got)
     emph_md += sum(len(MD_EMPH_OPEN.findall(m.group(2))) for m in MD_LINE.finditer(md))
-    emph_html += sum(len(HTML_EMPH_OPEN.findall(m.group(1))) for m in HTML_LINE.finditer(html))
+    emph_html += sum(len(HTML_EMPH_OPEN.findall(female_html(m.group(1)))) for m in HTML_LINE.finditer(html))
     if want != got:
         drift.append((p['page'], len(want), len(got)))
 print('应生成 HTML：%d 篇（另有 %d 篇未到开放时间，只显示未开放占位）   缺文件：%d   逐句漂移：%d'
@@ -684,9 +696,9 @@ print('正对照（未篡改）    : %s' % ('PASS' if _i2_pos else 'FAIL'))
 for label, mut in [
         ('植入[改 HTML 一个字]', orig.replace('」', 'X」', 1)),
         ('植入[弄坏一行结构]  ', orig.replace('<p class="line', '<p class="x" data-line="', 1)),
-        ('植入[HTML 丢一处注音]', orig.replace('<ruby>魔<rt>mowang</rt></ruby>', '魔', 1)),
-        ('植入[注音挪了位置]  ', orig.replace('<ruby>魔<rt>mowang</rt></ruby>',
-                                             '<ruby>王<rt>mowang</rt></ruby>', 1))]:
+        ('植入[HTML 丢一处注音]', orig.replace('魔<ruby class="ruby-point"><rt>mowang</rt></ruby>', '魔', 1)),
+        ('植入[注音挪了位置]  ', orig.replace('魔<ruby class="ruby-point"><rt>mowang</rt></ruby>',
+                                             '王<ruby class="ruby-point"><rt>mowang</rt></ruby>', 1))]:
     if mut == orig:
         print('%s : 样本里没有该形状' % label)
         continue
@@ -851,7 +863,7 @@ def clean_opt(s):
     # Phase 4c：选项文本两侧投影到纯文字再比——HTML 侧 <ruby>base<rt>note</rt>
     # 折叠为 base（rt 是注音不是正文，剥标签会残留），md 侧带体 <r=note>base</r>
     # 折叠为 base、空体 <r=note></r> 随其余标签剥除（base 字本就在标签外）。
-    s = re.sub(r'<ruby>(.*?)<rt>.*?</rt></ruby>', r'\1', s)
+    s = re.sub(r'<ruby(?: class="ruby-point")?>(.*?)<rt>.*?</rt></ruby>', r'\1', s)
     s = re.sub(r'<r=[^>]*>([^<>]*)</r>', r'\1', s)
     s = re.sub(r'<[^>]*>', '', s)
     return re.sub(r'[.…—\s　]', '', s)
@@ -1109,10 +1121,10 @@ try:
         finally:
             shutil.move(mut_page + '.bak', mut_page)
     open(victim, 'w', encoding='utf-8', newline='\n').write(
-        orig_m.replace('<p class="reply-lead">那就……你真努力呢</p>', '', 1))
+        re.sub(r'<div class="player-reply"[^>]*>', '<div class="removed-reply">', orig_m, count=1))
     _m2b = bool(audit_player_replies()[0])
-    hard(_m2b, 'M2 植入[删掉一处 reply-lead] MISSED')
-    print('植入[删掉一处 reply-lead]: %s' % ('CAUGHT' if _m2b else 'MISSED'))
+    hard(_m2b, 'M2 植入[删掉一个回应气泡] MISSED')
+    print('植入[删掉一个回应气泡]: %s' % ('CAUGHT' if _m2b else 'MISSED'))
 finally:
     shutil.move(victim + '.bak', victim)
 _m2re = not audit_anchors() and not audit_player_replies()[0]
@@ -1155,7 +1167,7 @@ def audit_single_option_choices():
         if not os.path.exists(md_path):
             continue
         lines = open(md_path, encoding='utf-8').read().splitlines()
-        one_opt = {}   # choice tag -> its single option
+        one_opt = []   # (choice tag, single option) in document order
         tags = []      # every 若选 tag on the page
         i = 0
         while i < len(lines):
@@ -1173,7 +1185,7 @@ def audit_single_option_choices():
                         opts.append(bm.group(1))
                     j += 1
                 if len(opts) == 1:
-                    one_opt[tag] = opts[0]
+                    one_opt.append((tag, opts[0]))
                 i = j
                 continue
             if tag.startswith('若选'):
@@ -1197,7 +1209,7 @@ def audit_single_option_choices():
             cid[clean_opt(m.group(2))] = m.group(1)
         html_ruose = {clean_opt(m.group(1))
                       for m in re.finditer(r'<p class="branch-open"[^>]*>若选「(.*?)」', html)}
-        for tag, opt in one_opt.items():
+        for tag, opt in one_opt:
             if clean_opt(opt) in html_ruose:
                 errs.append((p['page'], '单选项抉择被渲染成若选分支框', tag))
             anchor = cid.get(clean_opt(tag))

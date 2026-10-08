@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "尘沙她们忙不过来，特意交代我来采购。 但是这店到底是在哪啊……",
+   "text": "尘沙她们忙不过来，特意交代我来采购。\n但是这店到底是在哪啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "完全问不出来啊…… 但也不能假装没看到吧……",
+   "text": "完全问不出来啊……\n但也不能假装没看到吧……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "咦？刚刚好像听到有小孩哭声…… 嗯？是魔<r=BOSS></r>王呀！",
+   "text": "咦？刚刚好像听到有小孩哭声……嗯？是魔<r=BOSS></r>王呀！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "话说，这个孩子…… 是迷路了吗？",
+   "text": "话说，这个孩子……是迷路了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "啊！ 还是说魔<r=BOSS></r>王对她做了什么把她弄哭了？！",
+   "text": "啊！\n还是说魔<r=BOSS></r>王对她做了什么把她弄哭了？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等一下，误会了……！ 我什么都没做！",
+   "text": "等一下，误会了……！我什么都没做！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "嘿嘿，开玩笑的啦～ 我知道魔<r=BOSS></r>王才不会做什么奇怪的事。",
+   "text": "嘿嘿，开玩笑的啦～\n我知道魔<r=BOSS></r>王才不会做什么奇怪的事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "呜啊啊！！ 我要妈妈！！我要回家！！",
+   "text": "呜啊啊！！我要妈妈！！我要回家！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "好了好了，一个人害怕了吧～？ 不过姐姐会把你送回妈妈身边的，所以不用再哭啦。",
+   "text": "好了好了，一个人害怕了吧～？\n不过姐姐会把你送回妈妈身边的，所以不用再哭啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "嘿嘿！是吧是吧～ 那现在，能跟姐姐说你家是住在哪儿吗？ 或者，家附近有什么明显的标志也可以哦。",
+   "text": "嘿嘿！是吧是吧～\n那现在，能跟姐姐说你家是住在哪儿吗？\n或者，家附近有什么明显的标志也可以哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "唔，我家旁边有一家玩具店…… 还有一棵很大很大的树！",
+   "text": "唔，我家旁边有一家玩具店……还有一棵很大很大的树！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "玩具店和大树啊……那我以前送信的时候，可能有路过那一带？ 好，那就由姐姐送你回家吧！",
+   "text": "玩具店和大树啊……那我以前送信的时候，可能有路过那一带？\n好，那就由姐姐送你回家吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真是帮大忙了…… 不过你是不是还有工作没做完？会不会有点耽误你时间了……",
+   "text": "真是帮大忙了……不过你是不是还有工作没做完？会不会有点耽误你时间了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "没事~正好今天要派送的信件都送完了！ 走吧，我们送她回家~",
+   "text": "没事~正好今天要派送的信件都送完了！\n走吧，我们送她回家~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "温柔的老爷爷",
-   "text": "哎呀，这不是多娜吗？ 之前谢谢你帮我儿子送信过来啊。",
+   "text": "哎呀，这不是多娜吗？\n之前谢谢你帮我儿子送信过来啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "嘿嘿，是哦~无论山间还是海底，甚至是星塔的顶端！ 只要在诺瓦大陆上，任何地方我们都能准时送达哦！",
+   "text": "嘿嘿，是哦~无论山间还是海底，甚至是星塔的顶端！只要在诺瓦大陆上，任何地方我们都能准时送达哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "哇……好厉害！ 那我以后如果写了信，你也能帮我送到吗……？",
+   "text": "哇……好厉害！\n那我以后如果写了信，你也能帮我送到吗……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "当然可以啦~ 我们会小心保管你的信，然后稳稳当当地给你送到目的地的！",
+   "text": "当然可以啦~\n我们会小心保管你的信，然后稳稳当当地给你送到目的地的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来是为了宣传业务啊…… 真不愧是万送屋的领队，任何时候都心系万送屋的发展。",
+   "text": "原来是为了宣传业务啊……\n真不愧是万送屋的领队，任何时候都心系万送屋的发展。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……不过话说回来， 她做这些，应该也不全是只为了万送屋的发展考虑吧？",
+   "text": "……不过话说回来，她做这些，应该也不全是只为了万送屋的发展考虑吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "小女孩的母亲",
-   "text": "你这孩子…… 不好意思啊，给你们添麻烦了。",
+   "text": "你这孩子……\n不好意思啊，给你们添麻烦了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "不麻烦不麻烦！ 能把她能平安送到家，我们也就放心了。",
+   "text": "不麻烦不麻烦！\n能把她能平安送到家，我们也就放心了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "小女孩的母亲",
-   "text": "那我们先回去了。 快点，和姐姐说谢谢。",
+   "text": "那我们先回去了。\n快点，和姐姐说谢谢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +579,7 @@
   {
    "k": "talk",
    "speaker": "小女孩",
-   "text": "谢谢姐姐！ 我下次会写信的，到时候我们再见面哦！",
+   "text": "谢谢姐姐！\n我下次会写信的，到时候我们再见面哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "小事一桩啦~有困难就要互相帮助嘛！ 不过，不过嘛，要是你实在很想感谢我的话… …",
+   "text": "小事一桩啦~有困难就要互相帮助嘛！\n不过，不过嘛，要是你实在很想感谢我的话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "之后就给我们多介绍点大客户的委托……或者介绍些新的客人吧—— 嘿嘿，开玩笑的~ 那魔<r=BOSS></r>王，我们就下次再见啦~",
+   "text": "之后就给我们多介绍点大客户的委托……或者介绍些新的客人吧——嘿嘿，开玩笑的~那魔<r=BOSS></r>王，我们就下次再见啦~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "下次再见。 那我也要去采购了……",
+   "text": "下次再见。\n那我也要去采购了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "哈哈哈哈……也就是说，这次轮到魔<r=BOSS></r>王你迷路了？ 她们没给你地图之类的东西吗？",
+   "text": "哈哈哈哈……也就是说，这次轮到魔<r=BOSS></r>王你迷路了？\n她们没给你地图之类的东西吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "你这也太理直气壮了吧…… 要不拿给我看看？",
+   "text": "你这也太理直气壮了吧……\n要不拿给我看看？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "啊，原来是这家店啊。 上周我送信的时候去过，我带你过去吧。",
+   "text": "啊，原来是这家店啊。\n上周我送信的时候去过，我带你过去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +699,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "小事情~ 走吧，跟紧了别再迷路了哦！",
+   "text": "小事情~\n走吧，跟紧了别再迷路了哦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

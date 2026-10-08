@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哇啊——希娅…… 你什么时候来的？",
+   "text": "哇啊——希娅……你什么时候来的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "呵呵，我可不是来偷听的哦~ 只是来给你拿件外套，夜晚风大，以免着凉了。",
+   "text": "呵呵，我可不是来偷听的哦~\n只是来给你拿件外套，夜晚风大，以免着凉了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "结果……一不小心看到了魔<r=BOSS></r>王那么认真的样子， 我都不好意思打扰你呢。",
+   "text": "结果……一不小心看到了魔<r=BOSS></r>王那么认真的样子，我都不好意思打扰你呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "“执念”…… 呵呵，魔<r=BOSS></r>王有什么执念吗？",
+   "text": "“执念”……呵呵，魔<r=BOSS></r>王有什么执念吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "老实说……我一时半会儿还真想不到。 希娅呢？",
+   "text": "老实说……我一时半会儿还真想不到。希娅呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "只有一件事……我一直放心不下。 魔<r=BOSS></r>王，你可以答应我一个请求吗？",
+   "text": "只有一件事……我一直放心不下。魔<r=BOSS></r>王，你可以答应我一个请求吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "她一直以奶奶为榜样，希望成为像她一样厉害的航海旅人。 我担心，万一真相并非奶奶说的那样……",
+   "text": "她一直以奶奶为榜样，希望成为像她一样厉害的航海旅人。我担心，万一真相并非奶奶说的那样……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "所以我想先去前面探探路，至少能提前想好对策。 魔<r=BOSS></r>王可以帮我暂时瞒着花铃吗？",
+   "text": "所以我想先去前面探探路，至少能提前想好对策。魔<r=BOSS></r>王可以帮我暂时瞒着花铃吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "嗯…… 确实是这个道理……",
+   "text": "嗯……确实是这个道理……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "希娅话音刚落，一个翻身跃下船舷。 她的冲浪板在海面上划出一道银线，转瞬便融入夜色之中。",
+   "text": "希娅话音刚落，一个翻身跃下船舷。\n她的冲浪板在海面上划出一道银线，转瞬便融入夜色之中。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 天亮前要回来啊。",
+   "text": "……天亮前要回来啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这个声音……是花铃？！ 我得赶紧去看看她。",
+   "text": "这个声音……是花铃？！我得赶紧去看看她。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说起来，你就睡在希娅旁边，怎么没发现她起来了？ 你听力不是蛮好的嘛。",
+   "text": "说起来，你就睡在希娅旁边，怎么没发现她起来了？\n你听力不是蛮好的嘛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "其实，她和我讲了你刚来时的那些事情。 她说，现在你们已经是真正的家人了，她当然想照顾好你。",
+   "text": "其实，她和我讲了你刚来时的那些事情。\n她说，现在你们已经是真正的家人了，她当然想照顾好你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "希娅",
-   "text": "太好了！接通了！ 魔<r=BOSS></r>王，你们快走，有 ……",
+   "text": "太好了！接通了！\n魔<r=BOSS></r>王，你们快走，有……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

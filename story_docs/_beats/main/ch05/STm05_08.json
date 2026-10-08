@@ -76,7 +76,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "咳咳， 是尘沙啊，真是的……你们明白自己到底在做什么吗？",
+   "text": "咳咳，是尘沙啊，真是的……你们明白自己到底在做什么吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +124,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "那只不过是些副产物罢了。 各位请看，这是我发明的最新的魔力催熟技术——翠煌草。",
+   "text": "那只不过是些副产物罢了。各位请看，这是我发明的最新的魔力催熟技术——翠煌草。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -140,7 +140,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "野生的这种草白天储存阳光，晚上释放出来，就和真的阳光一样。 为了完美复刻这种效果，我可是每天都住在翠煌之刃的笼子里啊！",
+   "text": "野生的这种草白天储存阳光，晚上释放出来，就和真的阳光一样。为了完美复刻这种效果，我可是每天都住在翠煌之刃的笼子里啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +388,10 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "这人一老啊，话就多， 闲话也说够了，解决掉你们吧。",
+   "text": {
+    "cn_f": "这人一老啊，话就多，闲话也说够了，解决掉她们吧。",
+    "cn_m": "这人一老啊，话就多，闲话也说够了，解决掉他们吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -468,7 +471,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "用扫把马上就能追上了， 魔<r=BOSS></r>王，愣着干什么，快上来！",
+   "text": "用扫把马上就能追上了，魔<r=BOSS></r>王，愣着干什么，快上来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -476,7 +479,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "旅人，还有枪手， 我明白了，我都明白了，原来是这样，那位大人从一开始就只是想利用我们。",
+   "text": "旅人，还有枪手，我明白了，我都明白了，原来是这样，那位大人从一开始就只是想利用我们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -772,7 +775,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我，米娜，约瑟夫的共同点是...... 我明白了！",
+   "text": "我，米娜，约瑟夫的共同点是......我明白了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -820,7 +823,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "只是这样？ 那我只要换回原来的衣服， 哎，完全腾不出手啊，你们这些可恶的植物，给我走开！",
+   "text": "只是这样？那我只要换回原来的衣服，哎，完全腾不出手啊，你们这些可恶的植物，给我走开！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -836,7 +839,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "雾语， 我帮你。",
+   "text": "雾语，我帮你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -852,7 +855,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "米娜...... 谢谢， 你为什么要帮我？",
+   "text": "米娜......谢谢，你为什么要帮我？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1018,7 +1021,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "聚在一起雾语和米娜之间肯定会吵架， 不过也没办法了， 那些佣兵......真的是约瑟夫的手下吗，我总觉得这件事没那么简单。",
+   "text": "聚在一起雾语和米娜之间肯定会吵架，不过也没办法了，那些佣兵......真的是约瑟夫的手下吗，我总觉得这件事没那么简单。",
    "thought": true,
    "sticker": false,
    "channel": "talk"

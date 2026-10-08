@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "咕—— 呼~没有冻坏真是太好了。",
+   "text": "咕——呼~没有冻坏真是太好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "没错。 好好地吃饭，好好地狩猎，好好地学习，好好地睡觉。",
+   "text": "没错。\n好好地吃饭，好好地狩猎，好好地学习，好好地睡觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "对了，有一点我很在意。 虽然我利用永夜的假情报揭了她的老底……",
+   "text": "对了，有一点我很在意。\n虽然我利用永夜的假情报揭了她的老底……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "原来如此，我明白了。 对了魔王，收下这个。",
+   "text": "原来如此，我明白了。对了魔王，收下这个。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唉，既然话都说到这份上了…… 好吧，我会收下的，谢谢你。",
+   "text": "唉，既然话都说到这份上了……好吧，我会收下的，谢谢你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "对了，差点忘了说…… 只要收下这枚徽章， 就意味着你会和送出它的人，成为家人。",
+   "text": "对了，差点忘了说……只要收下这枚徽章，就意味着你会和送出它的人，成为家人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嘿嘿，之后你也是北境的一份子了。 今后多多互相照应吧。",
+   "text": "嘿嘿，之后你也是北境的一份子了。\n今后多多互相照应吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "吓到你了？ 呵呵，看来你想的是另一种意思？ 不过如果正合你意的话， 我也可以接受哦？",
+   "text": "吓到你了？呵呵，看来你想的是另一种意思？\n不过如果正合你意的话，我也可以接受哦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唉……别逗我了。 总之这枚徽章， 我会妥善保管的。",
+   "text": "唉……别逗我了。总之这枚徽章，我会妥善保管的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯，这样我就放心了。 好了，该做的事都做完了，我们回去吧~",
+   "text": "嗯，这样我就放心了。\n好了，该做的事都做完了，我们回去吧~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "喔~ 又有罐头派对啊，正好试试之前没吃过的口味…… 选哪个好呢？",
+   "text": "喔~又有罐头派对啊，正好试试之前没吃过的口味……选哪个好呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那就听你的。 啊，沙拉酱帮我拿一下。",
+   "text": "那就听你的。啊，沙拉酱帮我拿一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哎！？ 尘沙！？还有鸢尾和琥珀！？你们怎么会在这里？",
+   "text": "哎！？尘沙！？还有鸢尾和琥珀！？你们怎么会在这里？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "当然是来接魔<r=BOSS></r>王你回去的啊，我们可是开着修好的小绿，花了很~ 久~ 时~ 间才到这的。",
+   "text": "当然是来接魔<r=BOSS></r>王你回去的啊，我们可是开着修好的小绿，花了很~久~时~间才到这的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这不仅仅是距离的问题吧！ 你们是怎么知道我在这里的？",
+   "text": "这不仅仅是距离的问题吧！你们是怎么知道我在这里的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "连贝修莉娜都在…… 这啥情况呀？",
+   "text": "连贝修莉娜都在……这啥情况呀？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这位是风影，这次的委托发生了不少危险情况都是她救了我…… 可以算是我的救命恩人了。",
+   "text": "这位是风影，这次的委托发生了不少危险情况都是她救了我……可以算是我的救命恩人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "初次见面，我是风影。任务期间，我全程都守在你身边，你们放心！ 就连睡觉时间，也都有我在旁守候。",
+   "text": {
+    "cn_f": "初次见面，我是风影。任务期间，我全程都守在她身边，你们放心！就连睡觉时间，也都有我在旁守候。",
+    "cn_m": "初次见面，我是风影。任务期间，我全程都守在他身边，你们放心！就连睡觉时间，也都有我在旁守候。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +622,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "话是这么说没错啦…… 但是为什么要用这么容易引起误会的说法啊！",
+   "text": "话是这么说没错啦……但是为什么要用这么容易引起误会的说法啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +630,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个…… 我们只是睡在一起，不是睡在一个被窝里的意思——！",
+   "text": "那个……我们只是睡在一起，不是睡在一个被窝里的意思——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +638,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "这样啊！ 居然连睡觉都在一起，和我们平时一样诶！",
+   "text": "这样啊！居然连睡觉都在一起，和我们平时一样诶！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +646,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？这么说倒也没错…… 是这样吗？",
+   "text": "嗯？这么说倒也没错……是这样吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +662,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不是…… 那个，贝修莉娜，我想你可能误会了。",
+   "text": "不是……那个，贝修莉娜，我想你可能误会了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +702,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你们俩不解释一下吗？！不对，好像事实就是那样…… 呜，说不清楚啦！",
+   "text": "你们俩不解释一下吗？！不对，好像事实就是那样……呜，说不清楚啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +726,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嗯~ 恩赐补充得差不多了，我们回去吧。",
+   "text": "嗯~恩赐补充得差不多了，我们回去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -787,7 +790,7 @@
   {
    "k": "talk",
    "speaker": "奥尔贝德",
-   "text": "尊者降临后进而影响其他星塔这种事…… 真的有可能发生吗？",
+   "text": "尊者降临后进而影响其他星塔这种事……真的有可能发生吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -811,7 +814,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "也就是说——可以不用扣我的年假了？ 感谢您的理解，那我就继续去监视魔<r=BOSS></r>王一行的动向了。",
+   "text": "也就是说——可以不用扣我的年假了？感谢您的理解，那我就继续去监视魔<r=BOSS></r>王一行的动向了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -891,7 +894,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "看来要调查的事情…… 又要多一件了。",
+   "text": "看来要调查的事情……又要多一件了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -907,7 +910,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "有人吗—— 有人吗——！",
+   "text": "有人吗——有人吗——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -915,7 +918,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "这儿的房子又破……又黑……又， 哈啾！好冷……！",
+   "text": "这儿的房子又破……又黑……又，哈啾！好冷……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -939,7 +942,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "极光大人给的零花钱还剩一点…… 只喝一罐暖暖身子的话，应该没事吧？",
+   "text": "极光大人给的零花钱还剩一点……只喝一罐暖暖身子的话，应该没事吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -963,7 +966,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "对了！书上好像说，这种时候用四十五度角的角度踢一脚就能修好了！ 不过万一踢坏了，极光大人又要生气了……",
+   "text": "对了！书上好像说，这种时候用四十五度角的角度踢一脚就能修好了！不过万一踢坏了，极光大人又要生气了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -971,7 +974,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "哈……不行了，我要回—— 呜哇！",
+   "text": "哈……不行了，我要回——呜哇！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -979,7 +982,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "疼疼…… 谁呀！把这种怪东西放在这里！我现在心情很不好哦！小心我……",
+   "text": "疼疼……谁呀！把这种怪东西放在这里！我现在心情很不好哦！小心我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -987,7 +990,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "哎？我还以为是什么东西……原来是人？ 喂——还活着吗？",
+   "text": "哎？我还以为是什么东西……原来是人？喂——还活着吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1003,7 +1006,7 @@
   {
    "k": "talk",
    "speaker": "珂赛特",
-   "text": "哎？你认识魔<r=BOSS></r>王吗？ 呜哇！不要又晕过去啊！",
+   "text": "哎？你认识魔<r=BOSS></r>王吗？呜哇！不要又晕过去啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

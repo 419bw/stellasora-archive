@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "呼—— 今天的工作，这下就全部完成了。",
+   "text": "呼——今天的工作，这下就全部完成了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "太好了…… 居然能在上午就提前处理完。 这下晚上可以安心去看灯咯……",
+   "text": "太好了……居然能在上午就提前处理完。这下晚上可以安心去看灯咯……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "哈……哈，且慢！ 我，我要报名“游鱼节”，还来得及吗？",
+   "text": "哈……哈，且慢！\n我，我要报名“游鱼节”，还来得及吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "喘口气，别着急，还来得及哦， 距离截止还有一分钟。",
+   "text": "喘口气，别着急，还来得及哦，距离截止还有一分钟。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "——这不是明明很着急吗？！ 咳，不过还好赶上了。",
+   "text": "——这不是明明很着急吗？！咳，不过还好赶上了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "好，好了！ 给，麻烦你了。",
+   "text": "好，好了！给，麻烦你了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "我看看，嗯…… 没什么问题。我现在就帮你交上去。",
+   "text": "我看看，嗯……没什么问题。我现在就帮你交上去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "太……太感谢了！ 我，我好不容易回一趟苍梧，要是错过了……",
+   "text": "太……太感谢了！我，我好不容易回一趟苍梧，要是错过了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "感谢您的支持与热情。 对了，话说，你的鱼灯做了吗？",
+   "text": "感谢您的支持与热情。对了，话说，你的鱼灯做了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "从现在开始努努力的话，大概还有救吧……？ 诶，你是——",
+   "text": "从现在开始努努力的话，大概还有救吧……？诶，你是——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "偏偏在这种好日子……！ 不好意思，我们一会再说。",
+   "text": "偏偏在这种好日子……！不好意思，我们一会再说。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "哇——！！！ 怎么回事？！救命啊！",
+   "text": "哇——！！！怎么回事？！救命啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "原来如此， 没事没事！我只是在给他们点鱼灯罢了！",
+   "text": "原来如此，没事没事！我只是在给他们点鱼灯罢了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "乖巧的小孩",
-   "text": "难不成这些水是……哦，误会这儿起火 了吗？",
+   "text": "难不成这些水是……哦，误会这儿起火了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "你是……啊，是璟麟妹妹？ 你长这么大了啊……",
+   "text": "你是……啊，是璟麟妹妹？你长这么大了啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "嘿嘿，我记得那时候我们住在一个院子里！ 我和师渺还经常带着你出门玩呢！",
+   "text": "嘿嘿，我记得那时候我们住在一个院子里！我和师渺还经常带着你出门玩呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "抱歉，没立刻想起来。 你也长大了呀，璟麟。记忆里只有你小时候的模样了……",
+   "text": "抱歉，没立刻想起来。你也长大了呀，璟麟。记忆里只有你小时候的模样了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "要说抱歉的应该是我……刚刚气喘吁吁地跑过来却没认出你。 不过，我可是一直有好好记住师渺姐姐的哟，嘿嘿，不介意吧？",
+   "text": "要说抱歉的应该是我……刚刚气喘吁吁地跑过来却没认出你。不过，我可是一直有好好记住师渺姐姐的哟，嘿嘿，不介意吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "什么介意不介意的， 大家都是朋友嘛！",
+   "text": "什么介意不介意的，大家都是朋友嘛！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "人家哪有在问你啦…… 算了。 话说回来，你后来是搬去菲莱了吗？",
+   "text": "人家哪有在问你啦……算了。话说回来，你后来是搬去菲莱了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "这样啊…… 总之，欢迎回来，璟麟。",
+   "text": "这样啊……总之，欢迎回来，璟麟。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "难得回来一趟聚聚，确实该高兴高兴！要不，我们找个地方坐 ——阿嚏 ！",
+   "text": "难得回来一趟聚聚，确实该高兴高兴！要不，我们找个地方坐——阿嚏！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "差点忘了这人还湿着呢——我帮你擦擦吧， 来。",
+   "text": "差点忘了这人还湿着呢——我帮你擦擦吧，来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "真是的……不要乱动了，还没擦干呢。 嗯？话说，“通融”是……",
+   "text": "真是的……不要乱动了，还没擦干呢。嗯？话说，“通融”是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "嘿嘿嘿，我来安排就好， 你们看这个~！",
+   "text": "嘿嘿嘿，我来安排就好，你们看这个~！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "哼哼，厉害吧！我可是凤凰炒蛋分店的店长！ 菲莱的怀璟食府，听说过没？",
+   "text": "哼哼，厉害吧！我可是凤凰炒蛋分店的店长！菲莱的怀璟食府，听说过没？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "就是说啊！ 璟麟你也记得吧，我们一起玩闹的那个院子旁边有条小巷来着！",
+   "text": "就是说啊！璟麟你也记得吧，我们一起玩闹的那个院子旁边有条小巷来着！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "小巷子…… 还有旁边的糖葫芦和小卖部， 街景确实变了不少啊。",
+   "text": "小巷子……还有旁边的糖葫芦和小卖部，街景确实变了不少啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "幸好，大家都只是迁到了步行街那开了新店面， 虽然有几个老板都交给徒弟管了，但还是以前的老味道。",
+   "text": "幸好，大家都只是迁到了步行街那开了新店面，虽然有几个老板都交给徒弟管了，但还是以前的老味道。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "话说，赤霞姐姐是在云笈文化当玄师吗！ 你画的驱邪符纸特别好用，在菲莱也很有名呢！",
+   "text": "话说，赤霞姐姐是在云笈文化当玄师吗！你画的驱邪符纸特别好用，在菲莱也很有名呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "哈哈哈哈！！没错！ 没想到我居然已经如此声名远扬，在菲莱也是大名人了吗？",
+   "text": "哈哈哈哈！！没错！没想到我居然已经如此声名远扬，在菲莱也是大名人了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "师渺姐姐刚才在处理游鱼节的报名…… 那么也就是说，你已经正式加入了白泽公署吗！？",
+   "text": "师渺姐姐刚才在处理游鱼节的报名……那么也就是说，你已经正式加入了白泽公署吗！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "以前，我就特别憧憬你认真努力的样子…… 真是太帅气了！",
+   "text": "以前，我就特别憧憬你认真努力的样子……真是太帅气了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "刚刚还在陪小孩点灯玩，结果自己的还没搞定吗…… 你可真是……",
+   "text": "刚刚还在陪小孩点灯玩，结果自己的还没搞定吗……你可真是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "赤霞",
-   "text": "今天早课完就直接放假了。 结果一上街，就玩的忘乎所以了！",
+   "text": "今天早课完就直接放假了。结果一上街，就玩的忘乎所以了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "师渺",
-   "text": "真拿你没办法，不过我最近也一直在忙工作，我的鱼灯也还…… 不如我们一起做吧？",
+   "text": "真拿你没办法，不过我最近也一直在忙工作，我的鱼灯也还……不如我们一起做吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "那不是正好嘛！ 要不，我们就一起做鱼灯吧？",
+   "text": "那不是正好嘛！要不，我们就一起做鱼灯吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "咔嚓。 咔嚓。",
+   "text": "咔嚓。咔嚓。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "咦？ 咔嚓，咔嚓……？",
+   "text": "咦？咔嚓，咔嚓……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "火垂……！ 真是的，你到底跑哪儿去了？我一直在找你啊。",
+   "text": "火垂……！真是的，你到底跑哪儿去了？我一直在找你啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "“有在”？ 噢…… 我知道了，除了拍照，还做了别的事情对吧？",
+   "text": "“有在”？噢……我知道了，除了拍照，还做了别的事情对吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不好意思， 虽然有些突然，让我说几句可以吗？",
+   "text": "不好意思，虽然有些突然，让我说几句可以吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "还没自我介绍， 我是卡娜丝。 是火垂的监护人，在星辉附属大学担任教职。",
+   "text": "还没自我介绍，我是卡娜丝。是火垂的监护人，在星辉附属大学担任教职。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "伊格娜已经跟我介绍过你了。 只不过，她说得非常简略，只是单方面地通知了我。",
+   "text": "伊格娜已经跟我介绍过你了。\n只不过，她说得非常简略，只是单方面地通知了我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "……刚才真是失礼了。 这孩子的情况其实挺复杂的，但看她的态度，你似乎值得信任。",
+   "text": "……刚才真是失礼了。这孩子的情况其实挺复杂的，但看她的态度，你似乎值得信任。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "当然，尽管理由充分，不过擅自入塔毕竟是不对的， 我和她一起给您道个歉吧！",
+   "text": "当然，尽管理由充分，不过擅自入塔毕竟是不对的，我和她一起给您道个歉吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "呵呵，行了行了。谁都没错啦， 这件事就到此为止吧。",
+   "text": "呵呵，行了行了。谁都没错啦，这件事就到此为止吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "说起来，听到魔<r=mowang></r>王这个称呼，我想起来了。 火垂以前跟我提起过你。",
+   "text": "说起来，听到魔<r=mowang></r>王这个称呼，我想起来了。火垂以前跟我提起过你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "雪愿节那天，陪火垂玩的人就是你吧？ 谢谢你。火垂那天真的很开心。",
+   "text": "雪愿节那天，陪火垂玩的人就是你吧？谢谢你。火垂那天真的很开心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "和魔<r=mowang></r>王玩，很高兴。 所以魔<r=mowang></r>王，是好人。",
+   "text": "和魔<r=mowang></r>王玩，很高兴。所以魔<r=mowang></r>王，是好人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "不过，眼下不是刨根问底的时候。 赶在天黑前，先回学校去吧。",
+   "text": "不过，眼下不是刨根问底的时候。赶在天黑前，先回学校去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "我平时的确一直努力想做个好老师—— 但代价就是，睡眠债越欠越多了。",
+   "text": "我平时的确一直努力想做个好老师——但代价就是，睡眠债越欠越多了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "请坐。 我有话想跟你聊聊。",
+   "text": "请坐。我有话想跟你聊聊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "现在里面到处都是她的照片、零食、玩具……简直和狗窝一样乱。 哎，得麻烦你最好也帮着整理一下。",
+   "text": "现在里面到处都是她的照片、零食、玩具……简直和狗窝一样乱。哎，得麻烦你最好也帮着整理一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +731,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "好了，言归正传吧，看你的表情，应该有不少疑惑。 你问吧，只要是我知道的事，都尽可能给你解答。",
+   "text": "好了，言归正传吧，看你的表情，应该有不少疑惑。\n你问吧，只要是我知道的事，都尽可能给你解答。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -771,7 +771,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "毕竟火垂能把星骸当做玩具随意耍弄…… 这根本是天方夜谭，即便是身经百战的旅人都难以做到这种事……",
+   "text": "毕竟火垂能把星骸当做玩具随意耍弄……这根本是天方夜谭，即便是身经百战的旅人都难以做到这种事……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -779,7 +779,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "跟我详细地介绍一下火垂的情况吧——在您能说的范围里就好。 我现在只知道，她是个战斗力和性格，都有些……“不同寻常”的孩子。",
+   "text": "跟我详细地介绍一下火垂的情况吧——在您能说的范围里就好。我现在只知道，她是个战斗力和性格，都有些……“不同寻常”的孩子。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -819,7 +819,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "虽说是“同事”，但我们的世界完全不同…… 原本，我们是不应有任何交集的。",
+   "text": "虽说是“同事”，但我们的世界完全不同……原本，我们是不应有任何交集的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -851,7 +851,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "为了避免产生不必要的误会，我就直说吧。 其实火垂这孩子——",
+   "text": "为了避免产生不必要的误会，我就直说吧。其实火垂这孩子——",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "热血的蓝方佣兵",
-   "text": "哇啊啊啊啊！终于可以赢队长...... “不败的卡西米拉”一次了吗？！",
+   "text": "哇啊啊啊啊！终于可以赢队长......“不败的卡西米拉”一次了吗？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "冷静的蓝方佣兵",
-   "text": "确实，这么守下去我们赢定了...... 但是，你们不觉得有点太过顺利了？",
+   "text": "确实，这么守下去我们赢定了......但是，你们不觉得有点太过顺利了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "谨慎的红方佣兵",
-   "text": "好多星骸...... 为什么都堵在我们前进的路线上？",
+   "text": "好多星骸......为什么都堵在我们前进的路线上？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "谨慎的红方佣兵",
-   "text": "十，十发…… 啊，我明白了，魔<r=BOSS></r>王是想用这些星骸消耗我们的弹药，喂，卡西米拉队长，这不犯规吗？",
+   "text": "十，十发……啊，我明白了，魔<r=BOSS></r>王是想用这些星骸消耗我们的弹药，喂，卡西米拉队长，这不犯规吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,10 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "哼，那也得看你的陷阱能不能装得进我。",
+   "text": {
+    "cn_f": "哼，那也得看她的陷阱能不能装得进我。",
+    "cn_m": "哼，那也得看他的陷阱能不能装得进我。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +238,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "听枪声…… 她们应该没弹药了。",
+   "text": "听枪声……她们应该没弹药了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +366,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我...... 我出局了，不甘心啊。",
+   "text": "我......我出局了，不甘心啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +390,7 @@
   {
    "k": "talk",
    "speaker": "冷静的蓝方佣兵",
-   "text": "嗯，虽然输了，但能和卡西米拉队长战斗到这种程度还是第一次。 魔<r=BOSS></r>王用的战术和思考的方式都很有效。",
+   "text": "嗯，虽然输了，但能和卡西米拉队长战斗到这种程度还是第一次。\n魔<r=BOSS></r>王用的战术和思考的方式都很有效。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +406,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "咳咳，战斗时的勇气和突进时机的判断也是同样重要的。 但其实我更想说的是—— 大家平时一定要努力积累运气。",
+   "text": "咳咳，战斗时的勇气和突进时机的判断也是同样重要的。\n但其实我更想说的是——大家平时一定要努力积累运气。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +478,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "咦？去哪了？奇怪…… 口袋里没有，披风上…… 也没有…… 糟了，糟了糟了糟了。",
+   "text": "咦？去哪了？奇怪……口袋里没有，披风上……也没有……糟了，糟了糟了糟了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +494,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "你们..... 各自带了多少枚硬币在身上？",
+   "text": "你们.....各自带了多少枚硬币在身上？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +534,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我数数...... 二、四、六...... 八，八枚。",
+   "text": "我数数......二、四、六......八，八枚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +582,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "这是一项…… 只有你能完成的委托，我会付演习委托三倍，不，考虑到难度，应该付你十倍的委托费。",
+   "text": "这是一项……只有你能完成的委托，我会付演习委托三倍，不，考虑到难度，应该付你十倍的委托费。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +590,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哎...... 你是要让我指挥十支小队？还是干脆要派给我一支军队？",
+   "text": "哎......你是要让我指挥十支小队？还是干脆要派给我一支军队？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +598,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "我想请你帮我找...... 有四片叶子的三叶草。",
+   "text": "我想请你帮我找......有四片叶子的三叶草。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +606,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白了，有四片叶子的三叶草，立刻就找...... 哎？你付我十倍委托费，就是为了让我帮你找四叶草？",
+   "text": "明白了，有四片叶子的三叶草，立刻就找......哎？你付我十倍委托费，就是为了让我帮你找四叶草？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

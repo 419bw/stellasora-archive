@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "闲聊的店员",
-   "text": "这个月的下午茶采购单，也不知道是谁安排的， 一整个月都是不同口味的薯条。",
+   "text": "这个月的下午茶采购单，也不知道是谁安排的，\n一整个月都是不同口味的薯条。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "闲聊的店员",
-   "text": "想什么呢，我们哪有这待遇。 是元老院的下午茶。",
+   "text": "想什么呢，我们哪有这待遇。\n是元老院的下午茶。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "嘘—— 上了，上了。",
+   "text": "嘘——上了，上了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "呀呼—— 太爽啦，一条爆桶，这得有七斤以上……不，十斤！",
+   "text": "呀呼——太爽啦，一条爆桶，这得有七斤以上……不，十斤！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "别羡慕我哦，这条鱼...... 哼哼，可不是我钓过的最大的。",
+   "text": "别羡慕我哦，这条鱼......哼哼，可不是我钓过的最大的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "前提是...... 你也得钓上点东西。",
+   "text": "前提是......你也得钓上点东西。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

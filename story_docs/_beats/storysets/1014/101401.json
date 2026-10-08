@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "天真的小男孩",
-   "text": "真的吗？ 那就往这边走！跟我们来吧！",
+   "text": "真的吗？\n那就往这边走！跟我们来吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "嗯……膝盖，手臂，小腿……的确到处都是伤口呢。 你叫什么名字？",
+   "text": "嗯……膝盖，手臂，小腿……的确到处都是伤口呢。你叫什么名字？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "善良的小女孩",
-   "text": "你还教育起别人来了！整个灰城区就属你摔的最多。 那我们先走了。保重哦，大姐姐！",
+   "text": "你还教育起别人来了！整个灰城区就属你摔的最多。那我们先走了。保重哦，大姐姐！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "就是我手上拿的这小家伙。 自从在星塔里许愿得到它后，我就一直用它演奏星塔之音……",
+   "text": "就是我手上拿的这小家伙。\n自从在星塔里许愿得到它后，我就一直用它演奏星塔之音……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "是的！我能听到星塔的声音。 我可没有骗你哦，那声音回荡在星塔的房间中，循环往复……",
+   "text": "是的！我能听到星塔的声音。\n我可没有骗你哦，那声音回荡在星塔的房间中，循环往复……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "大家都说能听得这么清楚的人很罕见…… 但我真的能听到。",
+   "text": "大家都说能听得这么清楚的人很罕见……但我真的能听到。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "不对劲……我去星塔里干什么来着？ 我，我什么都不记得了，今天明明没有许愿啊……",
+   "text": "不对劲……我去星塔里干什么来着？\n我，我什么都不记得了，今天明明没有许愿啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "同行的旅人",
-   "text": "是啊，太对了！ 焦糖小姐之后有计划去埃摩的大剧院演出吗？",
+   "text": "是啊，太对了！\n焦糖小姐之后有计划去埃摩的大剧院演出吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "呼…… 应该是最后一只了吧。暂且休整一下吧，希望离许愿箱不远了……",
+   "text": "呼……应该是最后一只了吧。暂且休整一下吧，希望离许愿箱不远了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "忽然意识到，今天塔里是不是有点安静过头了…… 便利店的店员小姐和护士小姐也不在呢。",
+   "text": "忽然意识到，今天塔里是不是有点安静过头了……便利店的店员小姐和护士小姐也不在呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "啊……能听到塔的声音。 就是这样，把复杂的情绪重叠在一起，进一步产生共鸣，勾勒出旋律……",
+   "text": "啊……能听到塔的声音。\n就是这样，把复杂的情绪重叠在一起，进一步产生共鸣，勾勒出旋律……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "嗯？这、这是什么地方？舞台上？ 我不是在星塔里吗……",
+   "text": "嗯？这、这是什么地方？舞台上？\n我不是在星塔里吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "嗯？大家的反应跟想象中不太一样…… 这首曲子应该挺受欢迎的啊……",
+   "text": "嗯？大家的反应跟想象中不太一样……\n这首曲子应该挺受欢迎的啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "无聊……软绵绵……？ 大家在说什么啊？我的音乐，一直以来不都是这个风格的吗？",
+   "text": "无聊……软绵绵……？\n大家在说什么啊？我的音乐，一直以来不都是这个风格的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -899,7 +899,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "拜托了……如果是梦的话就快点醒过来吧！ 来个人结束掉这场演唱会啊！！",
+   "text": "拜托了……如果是梦的话就快点醒过来吧！\n来个人结束掉这场演唱会啊！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

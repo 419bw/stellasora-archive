@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢，帮大忙了。 不过这一层也没有足够大的许愿箱……天穹保险到底派了多少旅人来爬塔啊？",
+   "text": "谢谢，帮大忙了。不过这一层也没有足够大的许愿箱……天穹保险到底派了多少旅人来爬塔啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +92,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到 一个超级大的许愿箱吧",
+   "text": "恩赐之神在上，恩赐之神在上，请保佑我们找到\n一个超级大的许愿箱吧",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "据说鸢尾在进入升降机前许下了这样的愿望。 不知道是不是因为她的愿望实现了……",
+   "text": "据说鸢尾在进入升降机前许下了这样的愿望。不知道是不是因为她的愿望实现了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -264,7 +264,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……嗯？波西亚，现在没时间开玩笑了。 拜托你认真听我说。",
+   "text": "……嗯？波西亚，现在没时间开玩笑了。拜托你认真听我说。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -288,7 +288,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "妾身遇到她的时候，她只会重复有限的几句话…… 妾身一直以为——她是注入了魔力的人偶。",
+   "text": "妾身遇到她的时候，她只会重复有限的几句话……妾身一直以为——她是注入了魔力的人偶。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -296,7 +296,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不、不是，不是那样的…… 拜托了波西亚。",
+   "text": "不、不是，不是那样的……拜托了波西亚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -328,7 +328,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "话虽如此，她的表情仿佛在说“真麻烦”啊。 哎呀呀……看来只能用那招了吗？",
+   "text": "话虽如此，她的表情仿佛在说“真麻烦”啊。哎呀呀……看来只能用那招了吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -432,7 +432,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "旁边还有更小的一行字：危险，小心。要是你不来打工， 我就没法顺理成章地摸鱼了。",
+   "text": "旁边还有更小的一行字：危险，小心。要是你不来打工，\n我就没法顺理成章地摸鱼了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -512,7 +512,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "难道说......瑟拉娜说的那些话是在提示我？ 不不不，她怎么可能预知到我现在的困境，是我想太多了吧。",
+   "text": "难道说......瑟拉娜说的那些话是在提示我？不不不，她怎么可能预知到我现在的困境，是我想太多了吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -528,7 +528,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "千都世，我有办法了—— 我们来扮演“断臂英雄”吧。",
+   "text": "千都世，我有办法了——我们来扮演“断臂英雄”吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -630,7 +630,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "可、可是……！ 还是让妾身来吧——",
+   "text": "可、可是……！还是让妾身来吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -662,7 +662,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "千都世，听好了，这是主公下达的命令。 把我的左肩卸下来。",
+   "text": "千都世，听好了，这是主公下达的命令。把我的左肩卸下来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -670,7 +670,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "………………遵命。 主公，请咬住这块布。",
+   "text": "………………遵命。主公，请咬住这块布。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -756,7 +756,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔……！？好痛……手倒是能动了， 没想到你数到“二”就动手了啊。",
+   "text": "唔……！？好痛……手倒是能动了，没想到你数到“二”就动手了啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -764,7 +764,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "非常抱歉。 因为如果您有所防备，反而会因为下意识的紧张而不容易把关节接回去。 还有，现在您肩关节已经受伤了，这段时间请避免使用这只手臂。",
+   "text": "非常抱歉。因为如果您有所防备，反而会因为下意识的紧张而不容易把关节接回去。还有，现在您肩关节已经受伤了，这段时间请避免使用这只手臂。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -772,7 +772,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢你的忠告。 但是……考虑到接下来要面对的星骸......真正辛苦的其实是千都世。",
+   "text": "谢谢你的忠告。但是……考虑到接下来要面对的星骸......真正辛苦的其实是千都世。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -812,7 +812,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "遵命，只是...... 许愿之后，妾身有一件事想要恳求主公。",
+   "text": "遵命，只是......许愿之后，妾身有一件事想要恳求主公。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -860,7 +860,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好，既然千都世想要交易的话， 就想一个愿望吧。",
+   "text": "好，既然千都世想要交易的话，就想一个愿望吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -938,7 +938,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "恩赐之神在上，恩赐之神在上， 请您赐予我单手握持射击的小型短管火药武器——",
+   "text": "恩赐之神在上，恩赐之神在上，请您赐予我单手握持射击的小型短管火药武器——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -954,7 +954,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "一道剑光从眼前闪过。 紧接着在前方，有什么东西被无声地劈成了两半。",
+   "text": "一道剑光从眼前闪过。紧接着在前方，有什么东西被无声地劈成了两半。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -986,7 +986,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "难道说…… 这些书就是把守着 许愿箱的星骸吗？",
+   "text": "难道说……这些书就是把守着许愿箱的星骸吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1034,7 +1034,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "恶魔之王自瞳孔中苏醒，将死亡的权能平分给众生。 上主收回祂的恩惠，甘露变为苦艾。 大地碎裂，受膏的恶者从无底坑中上来。",
+   "text": "恶魔之王自瞳孔中苏醒，将死亡的权能平分给众生。\n\n上主收回祂的恩惠，甘露变为苦艾。\n\n大地碎裂，受膏的恶者从无底坑中上来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1066,7 +1066,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "主公，请安心许愿， 不管出现的是何种妖魔，妾身都会为主公挡住。",
+   "text": "主公，请安心许愿，不管出现的是何种妖魔，妾身都会为主公挡住。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

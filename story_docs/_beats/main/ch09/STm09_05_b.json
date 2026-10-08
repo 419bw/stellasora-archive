@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "精锐的委员会成员",
-   "text": "前卫展开防御魔法， 后排火球术压制， 放！",
+   "text": "前卫展开防御魔法，后排火球术压制，放！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "冲动的白猫",
-   "text": "他们怕了， 我们追过去。",
+   "text": "他们怕了，我们追过去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +116,7 @@
   {
    "k": "talk",
    "speaker": "沮丧的白猫",
-   "text": "不好，这是陷阱— —",
+   "text": "不好，这是陷阱——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -148,7 +148,10 @@
   {
    "k": "talk",
    "speaker": "埋伏的委员会成员",
-   "text": "魔<r=mowang></r>王和你的部下的心相石，是耗不到明天早晨的。",
+   "text": {
+    "cn_f": "魔<r=mowang></r>王和她的部下的心相石，是耗不到明天早晨的。",
+    "cn_m": "魔<r=mowang></r>王和他的部下的心相石，是耗不到明天早晨的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -298,7 +301,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "只要能黏住魔<r=mowang></r>王的同伴，等待附近的其他小组支援，就能把战斗拖入到拯救委员会的舒适区—— 靠着人数和资源决胜负的消耗战。",
+   "text": "只要能黏住魔<r=mowang></r>王的同伴，等待附近的其他小组支援，就能把战斗拖入到拯救委员会的舒适区——靠着人数和资源决胜负的消耗战。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -306,7 +309,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "就算魔<r=mowang></r>王集中同伴突击，或者让艾蕾院长出马， 也只能一下子击溃一到两个战斗小组。",
+   "text": "就算魔<r=mowang></r>王集中同伴突击，或者让艾蕾院长出马，也只能一下子击溃一到两个战斗小组。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -386,7 +389,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "被魔法炸到？ 是谁干的？",
+   "text": "被魔法炸到？是谁干的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -544,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "格蕾霍恩，我们合作的时间不长，我应该没和你讲过…… 我家乡的事吧。",
+   "text": "格蕾霍恩，我们合作的时间不长，我应该没和你讲过……我家乡的事吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -560,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "不是，我的家乡在遥远的北方， 那里很冷，一年有六个月都是冬天，大家只能依靠星塔里的神器维持生活。",
+   "text": "不是，我的家乡在遥远的北方，那里很冷，一年有六个月都是冬天，大家只能依靠星塔里的神器维持生活。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -632,7 +635,10 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "拯救委员会的每个成员都有和我差不多的经历，而导致这一切的魔<r=mowang></r>王就在眼前，身边还有一群冥顽不灵的护着你的人。",
+   "text": {
+    "cn_f": "拯救委员会的每个成员都有和我差不多的经历，而导致这一切的魔<r=mowang></r>王就在眼前，身边还有一群冥顽不灵的护着她的人。",
+    "cn_m": "拯救委员会的每个成员都有和我差不多的经历，而导致这一切的魔<r=mowang></r>王就在眼前，身边还有一群冥顽不灵的护着他的人。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -790,7 +796,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "有个好消息告诉大家，猫眼在矿井里发现了一条通向城外星塔的废弃矿道，这条矿道有好几处被碎石堵住， 幸好，我们找到了一位厉害的帮手——",
+   "text": "有个好消息告诉大家，猫眼在矿井里发现了一条通向城外星塔的废弃矿道，这条矿道有好几处被碎石堵住，幸好，我们找到了一位厉害的帮手——",
    "thought": false,
    "sticker": false,
    "channel": "talk"

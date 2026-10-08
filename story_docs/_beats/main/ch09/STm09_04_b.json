@@ -634,7 +634,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "我们赶来为魔<r=BOSS></r>王帮忙，不是因为什么灵魂， 而是因为我们实实在在地接受过魔<r=BOSS></r>王的恩惠。",
+   "text": "我们赶来为魔<r=BOSS></r>王帮忙，不是因为什么灵魂，\n而是因为我们实实在在地接受过魔<r=BOSS></r>王的恩惠。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -642,7 +642,10 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "那只是……你不得不做的事情，你必须收买人心。",
+   "text": {
+    "cn_f": "那只是……她不得不做的事情，她必须收买人心。",
+    "cn_m": "那只是……他不得不做的事情，他必须收买人心。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -658,7 +661,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "名字挺好听的，但我问你， 当菲金在灰城区肆意欺负孩子们，压榨童工的时候，你们在做什么？",
+   "text": "名字挺好听的，但我问你，当菲金在灰城区肆意欺负孩子们，压榨童工的时候，你们在做什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -810,7 +813,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "魔<r=mowang></r>王，你能看到未来吗？还是说…… 你本就是从未来回来的人呢？",
+   "text": "魔<r=mowang></r>王，你能看到未来吗？还是说……你本就是从未来回来的人呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -898,7 +901,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她前来谈判并且安排了炮击，这是要…… 和我同归于尽？还是说，她真有还没掏出来的底牌？",
+   "text": "她前来谈判并且安排了炮击，这是要……和我同归于尽？还是说，她真有还没掏出来的底牌？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -906,7 +909,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "呼——呼—— 可找到你们了，魔<r=BOSS></r>王，你们怎么还没走？",
+   "text": "呼——呼——可找到你们了，魔<r=BOSS></r>王，你们怎么还没走？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

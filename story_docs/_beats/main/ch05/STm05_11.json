@@ -394,7 +394,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "对，就是翡冷—— 呃。",
+   "text": "对，就是翡冷——呃。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -410,7 +410,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "我......我喘不上 ......上......",
+   "text": "我......我喘不上......上......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -426,7 +426,7 @@
   {
    "k": "talk",
    "speaker": "灰夫人",
-   "text": "这是......毒， 救，救我——",
+   "text": "这是......毒，救，救我——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -434,7 +434,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "你中的是什么毒？再坚持一下！ 喂！",
+   "text": "你中的是什么毒？再坚持一下！喂！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -450,7 +450,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "达尔茜娅大人！她、她说着说着就突然倒下了，好像是中了某种烈性的毒，可到底是不是…… 我也不敢确定。",
+   "text": "达尔茜娅大人！她、她说着说着就突然倒下了，好像是中了某种烈性的毒，可到底是不是……我也不敢确定。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -482,7 +482,7 @@
   {
    "k": "talk",
    "speaker": "干练的秘书",
-   "text": "是， 达尔茜娅大人。",
+   "text": "是，达尔茜娅大人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -530,7 +530,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "不过在这之前……我有点担心翡冷翠，她做事太冲动了。 这样吧，你先跟我来一下。",
+   "text": "不过在这之前……我有点担心翡冷翠，她做事太冲动了。\n这样吧，你先跟我来一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -600,7 +600,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "... ...",
+   "text": "......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -712,7 +712,10 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "你们没有讨价还价的资格。跟我上，把你拿下。",
+   "text": {
+    "cn_f": "你们没有讨价还价的资格。跟我上，把她拿下。",
+    "cn_m": "你们没有讨价还价的资格。跟我上，把他拿下。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -736,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "“身为领导者，一定要掌握一线情况”。 这可是你教给我的，翡冷翠。",
+   "text": "“身为领导者，一定要掌握一线情况”。这可是你教给我的，翡冷翠。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -744,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "另外，需要澄清一点——她们的一切行动，都是在我的指示之下进行的。 因此，若是出现任何问题，责任都由我来承担。",
+   "text": "另外，需要澄清一点——她们的一切行动，都是在我的指示之下进行的。因此，若是出现任何问题，责任都由我来承担。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -752,7 +755,10 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "请恕下属愚钝，无论这些人怎么辩解，被破坏的温室和受伤的研发部部长都和你们脱不开干系，把你们带回去调查符合公司的规则。",
+   "text": {
+    "cn_f": "请恕下属愚钝，无论这些人怎么辩解，被破坏的温室和受伤的研发部部长都和她们脱不开干系，把她们带回去调查符合公司的规则。",
+    "cn_m": "请恕下属愚钝，无论这些人怎么辩解，被破坏的温室和受伤的研发部部长都和他们脱不开干系，把他们带回去调查符合公司的规则。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -950,7 +956,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来是军队啊... ... 嗯？ 你说什么？军？军队？",
+   "text": "原来是军队啊......嗯？你说什么？军？军队？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

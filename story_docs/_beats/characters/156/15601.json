@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "...... 没人在...... 是来得太早了吗？时间应该刚刚好才对。",
+   "text": "......没人在......\n是来得太早了吗？时间应该刚刚好才对。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不好意思！ 这是昨天说好要送来的东西，我就放在大厅了。",
+   "text": "不好意思！这是昨天说好要送来的东西，我就放在大厅了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "小禾的伙<r=布娃娃></r>伴...... 受<r=受潮></r>伤了......",
+   "text": "小禾的伙<r=布娃娃></r>伴......受<r=受潮></r>伤了......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "把受潮部分弄干净的办法是有的， 不用担心。",
+   "text": "把受潮部分弄干净的办法是有的，不用担心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "小禾已经是大人了。 一名合格的大人，一定要收拾好自己的房间才行。",
+   "text": "小禾已经是大人了。一名合格的大人，一定要收拾好自己的房间才行。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "不对！ 不许转移话题。",
+   "text": "不对！不许转移话题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "可是，大家都是重要的伙<r=布娃娃></r>伴！ 我想和伙伴一直在一起嘛……",
+   "text": "可是，大家都是重要的伙<r=布娃娃></r>伴！\n我想和伙伴一直在一起嘛……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "是重要的伙<r=布娃娃></r>伴的话，就更应该认真地对待了。 随手乱丢多可怜啊？",
+   "text": "是重要的伙<r=布娃娃></r>伴的话，就更应该认真地对待了。\n随手乱丢多可怜啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "呜......我知道了我知道了。 你们回家之前，我一定把房间收拾好了就是。",
+   "text": "呜......我知道了我知道了。你们回家之前，我一定把房间收拾好了就是。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "毕竟再这样下去，别的布娃 ...... 伙伴， 说不定也会有受潮的危险。",
+   "text": "毕竟再这样下去，别的布娃......伙伴，说不定也会有受潮的危险。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "可，可是…… 要一个人收拾这个房间……",
+   "text": "可，可是……要一个人收拾这个房间……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "突然间， 小禾拉住了我的衣角， 抬起湿润的眼睛望过来。",
+   "text": "突然间，小禾拉住了我的衣角，抬起湿润的眼睛望过来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "帮帮我，魔王。 要是明天之前不收拾完的话，枫姐一定会超生气的。",
+   "text": "帮帮我，魔王。要是明天之前不收拾完的话，枫姐一定会超生气的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真拿你没辙...... 好吧。反正今天也没安排。",
+   "text": "真拿你没辙......好吧。反正今天也没安排。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "知道啦知道啦♪ 那就赶快开始吧～！",
+   "text": "知道啦知道啦♪\n那就赶快开始吧～！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唉…… 总觉得惹上麻烦事了……",
+   "text": "唉……总觉得惹上麻烦事了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

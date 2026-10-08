@@ -30,7 +30,10 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "我已经警告你们了，不过，我觉得你们没那么容易退缩",
+   "text": {
+    "cn_f": "我已经警告她们了，不过，我觉得她们没那么容易退缩",
+    "cn_m": "我已经警告他们了，不过，我觉得他们没那么容易退缩"
+   },
    "thought": false,
    "sticker": false,
    "channel": "msg"
@@ -54,7 +57,10 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "但也不用太过担心，说不定你们还能帮上我们一把",
+   "text": {
+    "cn_f": "但也不用太过担心，说不定她们还能帮上我们一把",
+    "cn_m": "但也不用太过担心，说不定他们还能帮上我们一把"
+   },
    "thought": false,
    "sticker": false,
    "channel": "msg"
@@ -68,7 +74,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "辛苦大家了。 上班第一天，大家感觉还习惯吗？",
+   "text": "辛苦大家了。上班第一天，大家感觉还习惯吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +82,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "搞研究好难啊… … 给大家添麻烦了。",
+   "text": "搞研究好难啊……给大家添麻烦了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +106,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嘿嘿， 多试两次就好啦， 后面我们再注入魔力就没出过问题。",
+   "text": "嘿嘿，多试两次就好啦，后面我们再注入魔力就没出过问题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -108,7 +114,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "要喊话， 好可怕… …",
+   "text": "要喊话，好可怕……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +122,7 @@
   {
    "k": "talk",
    "speaker": "积极的组长",
-   "text": "那边的实习生怎么不出声？ 这可是重要的动员会。别害羞，跟着大家一起喊！释放自己！喊出音量！来，预备——！",
+   "text": "那边的实习生怎么不出声？这可是重要的动员会。别害羞，跟着大家一起喊！释放自己！喊出音量！来，预备——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -148,7 +154,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "别担心， 琥珀。 我问了市场部的前辈，动员会不是每天都有的， 大概一周两次吧 。",
+   "text": "别担心，琥珀。我问了市场部的前辈，动员会不是每天都有的，大概一周两次吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -156,7 +162,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "一周…… 两次？！ ！ ！ ！",
+   "text": "一周……两次？！！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -164,7 +170,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "生产部很有趣， 我们见识到了不得了的东西呢！",
+   "text": "生产部很有趣，我们见识到了不得了的东西呢！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -172,7 +178,7 @@
   {
    "k": "talk",
    "speaker": "红宝石",
-   "text": "像猫咪一样，咕噜咕噜滚呀滚~ 挺直腰板， 身高往上飙呀飙~",
+   "text": "像猫咪一样，咕噜咕噜滚呀滚~挺直腰板，身高往上飙呀飙~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -196,7 +202,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "曼德拉辉草？ 我听研发部的同事说过！ 没想到雾语你们抢先一步 看到实物了呢~",
+   "text": "曼德拉辉草？我听研发部的同事说过！没想到雾语你们抢先一步看到实物了呢~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -204,7 +210,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这种植物还挺危险的， 毕竟没办法真的听懂人话，一不留神就会出问题 。",
+   "text": "这种植物还挺危险的，毕竟没办法真的听懂人话，一不留神就会出问题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +226,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "翡冷翠大人去生产部了呀~ 怎么样，气场是不是特别强？",
+   "text": "翡冷翠大人去生产部了呀~怎么样，气场是不是特别强？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -236,7 +242,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "很有压迫感， 而且在她眼皮底下干活，总感觉更容易累了……",
+   "text": "很有压迫感，而且在她眼皮底下干活，总感觉更容易累了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -244,7 +250,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "啊、 啊哈哈，你们也不用太担心！ 翡冷翠大人是个大忙人， 一般不出现在生产部。",
+   "text": "啊、啊哈哈，你们也不用太担心！翡冷翠大人是个大忙人，一般不出现在生产部。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -252,7 +258,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "工作相关的问题，找红宝石和蓝宝石就行啦， 她们都挺和善的。",
+   "text": "工作相关的问题，找红宝石和蓝宝石就行啦，她们都挺和善的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +266,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "一般不会出现在生产部…… 难道是知道我们今天入职才特意过来的？",
+   "text": "一般不会出现在生产部……难道是知道我们今天入职才特意过来的？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -268,7 +274,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "总之， 第一天平稳度过，我们来汇总一下收集到的情报把。",
+   "text": "总之，第一天平稳度过，我们来汇总一下收集到的情报把。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -276,7 +282,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "今天发生的所有事情， 事无巨细，都说来听听~",
+   "text": "今天发生的所有事情，事无巨细，都说来听听~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -284,7 +290,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "我先来我先来， 今天早晨，我去研发部的时候 发生了这样的事——",
+   "text": "我先来我先来，今天早晨，我去研发部的时候发生了这样的事——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -292,7 +298,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "首先， 在实验室遇到人打招呼的第一句用“早上好”。",
+   "text": "首先，在实验室遇到人打招呼的第一句用“早上好”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -300,7 +306,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呃， 好像经常看见一群人同时出现呢…… 那就， “诸位早上好”这样？",
+   "text": "呃，好像经常看见一群人同时出现呢……那就，“诸位早上好”这样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -308,7 +314,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "说话时的表情， 唔， 微笑就可以了吧？",
+   "text": "说话时的表情，唔，微笑就可以了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -316,7 +322,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "露出尘沙那样的笑容好像效果会更好， 但…… 也太、 太难了。",
+   "text": "露出尘沙那样的笑容好像效果会更好，但……也太、太难了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -324,7 +330,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "打完招呼以后， 就可以顺势聊一些重要的话题了， 比如.. .... 联合种业的佣兵好帅啊， 他们用的武器是什么啊？ 之类的？ 不不， 这样是不是太生硬了。",
+   "text": "打完招呼以后，就可以顺势聊一些重要的话题了，比如......联合种业的佣兵好帅啊，他们用的武器是什么啊？之类的？不不，这样是不是太生硬了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -340,7 +346,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呜哇——！ 尘、 尘沙……",
+   "text": "呜哇——！尘、尘沙……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -348,7 +354,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "和小禾她们说的一样呢—— 找不到冬香的时候， 去走廊的角落里就能挖到只自言自语的白蘑菇。",
+   "text": "和小禾她们说的一样呢——找不到冬香的时候，去走廊的角落里就能挖到只自言自语的白蘑菇。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -356,7 +362,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "今天我的运气还不错， 第二个角落就挖到了！",
+   "text": "今天我的运气还不错，第二个角落就挖到了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -364,7 +370,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "小禾前辈…… 好了解我。",
+   "text": "小禾前辈……好了解我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -380,7 +386,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "呃…… 好、好的。 我、我只是需要在没、没人能看见的地方，酝酿一下， 该怎么和同事们打招呼……",
+   "text": "呃……好、好的。我、我只是需要在没、没人能看见的地方，酝酿一下，该怎么和同事们打招呼……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +394,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "再酝酿会儿就一个人都碰不到咯。 因为——",
+   "text": "再酝酿会儿就一个人都碰不到咯。因为——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -412,7 +418,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嘿嘿~ 比比谁先到吧！",
+   "text": "嘿嘿~比比谁先到吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -420,7 +426,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "尘、尘沙， 这、这些就不用和大家说了吧！",
+   "text": "尘、尘沙，这、这些就不用和大家说了吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -428,7 +434,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "雾语说的， 要事无巨细啦~",
+   "text": "雾语说的，要事无巨细啦~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -436,7 +442,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "没错没错， 就是要有这样的细致程度才行。",
+   "text": "没错没错，就是要有这样的细致程度才行。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -444,7 +450,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "嘻嘻， 里面说不定就藏着金色夜莺的线索。",
+   "text": "嘻嘻，里面说不定就藏着金色夜莺的线索。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -452,7 +458,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "雾语这家伙， 真的只是为了找金色夜莺的线索吗？ 感觉她还有别的目的……",
+   "text": "雾语这家伙，真的只是为了找金色夜莺的线索吗？感觉她还有别的目的……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -460,7 +466,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "为了节省时间，市场部的所见所闻就拜托琥珀了， 你把你和鸢尾发现的事情用手机发给我吧， 我一边听尘沙和冬香的讲述一边处理。",
+   "text": "为了节省时间，市场部的所见所闻就拜托琥珀了，你把你和鸢尾发现的事情用手机发给我吧，我一边听尘沙和冬香的讲述一边处理。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -468,7 +474,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "同时处理两边的信息， 没问题吗？",
+   "text": "同时处理两边的信息，没问题吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -476,7 +482,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不是两边，是三边哦， 生产部的事情我也会同时写出来~",
+   "text": "不是两边，是三边哦，生产部的事情我也会同时写出来~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -484,7 +490,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "我去给大家准备夜宵， 一起加油吧。",
+   "text": "我去给大家准备夜宵，一起加油吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -506,7 +512,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "好累… … 今晚，今晚说了一年份的话。",
+   "text": "好累……今晚，今晚说了一年份的话。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -514,7 +520,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "还是第一次说到完全不想张口的地步， 雾语你问得也太细了。",
+   "text": "还是第一次说到完全不想张口的地步，雾语你问得也太细了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -522,7 +528,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "手指， 有点疼了。",
+   "text": "手指，有点疼了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -530,7 +536,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "呜呼呼，第一天上班就总结出了一百页的记录， 我觉得我们距离金色夜莺的真相更近了一步呢~",
+   "text": "呜呼呼，第一天上班就总结出了一百页的记录，我觉得我们距离金色夜莺的真相更近了一步呢~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -538,7 +544,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "调查了这么多……居然才靠近了一步吗？ 整理这一百页记录也得花费不少时间吧……",
+   "text": "调查了这么多……居然才靠近了一步吗？整理这一百页记录也得花费不少时间吧……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -546,7 +552,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "大家都辛苦了， 哎，已经是这个时间了， 整理的事情就交给我，大家快去休息吧。",
+   "text": "大家都辛苦了，哎，已经是这个时间了，整理的事情就交给我，大家快去休息吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -554,7 +560,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不不不， 米娜你也去休息， 这些记录交给我和魔王就可以了。",
+   "text": "不不不，米娜你也去休息，这些记录交给我和魔王就可以了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -570,7 +576,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "可是， 向你们下达委托的是我……",
+   "text": "可是，向你们下达委托的是我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -578,7 +584,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "没什么可是的， 明天你还得居中协调其他部门呢，睡眠太少脑子不清醒可不行。",
+   "text": "没什么可是的，明天你还得居中协调其他部门呢，睡眠太少脑子不清醒可不行。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -594,7 +600,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "那，那好吧，你们也别太勉强自己， 线索也不是一天就能找到的，那我就先走了。",
+   "text": "那，那好吧，你们也别太勉强自己，线索也不是一天就能找到的，那我就先走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -610,7 +616,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我们先去睡了， 记得早点回来，请别太勉强自己了。",
+   "text": "我们先去睡了，记得早点回来，请别太勉强自己了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -618,7 +624,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "呼呼呼， 魔<r=BOSS></r>王， 仓库里现在只剩下我们两个人了。",
+   "text": "呼呼呼，魔<r=BOSS></r>王，仓库里现在只剩下我们两个人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -626,7 +632,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你想避着米娜说事情， 何必让大家在这里聊几个小时把米娜熬走？ 把我叫出去不就好了？",
+   "text": "你想避着米娜说事情，何必让大家在这里聊几个小时把米娜熬走？把我叫出去不就好了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -634,7 +640,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "哎呀呀，把米娜熬走是一方面， 但本魔女是真心想要这些记录的， 这里面可是藏着美味的真相呢。",
+   "text": "哎呀呀，把米娜熬走是一方面，但本魔女是真心想要这些记录的，这里面可是藏着美味的真相呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -650,7 +656,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "比如你们接下米娜的委托，不单单是为了赚钱， 还是为了潜入联合种业找人吧。",
+   "text": "比如你们接下米娜的委托，不单单是为了赚钱，还是为了潜入联合种业找人吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -658,7 +664,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "你们要找的人…… 我猜猜， 就是把寄生之庭放进旅人营地的罪魁祸首——",
+   "text": "你们要找的人……我猜猜，就是把寄生之庭放进旅人营地的罪魁祸首——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -682,7 +688,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "理由就在这些记录里， 冬香刚才这么说了吧——",
+   "text": "理由就在这些记录里，冬香刚才这么说了吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -690,7 +696,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "打完招呼以后， 就可以顺势聊一些重要的话题了， 比如.. .... 联合种业的佣兵好帅啊， 他们用的武器是什么啊？ 之类的？ 不不， 这样是不是太生硬了。",
+   "text": "打完招呼以后，就可以顺势聊一些重要的话题了，比如......联合种业的佣兵好帅啊，他们用的武器是什么啊？之类的？不不，这样是不是太生硬了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -698,7 +704,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "调查金色夜莺需要问佣兵的事情吗？ 那是灰夫人带领的部队吧？",
+   "text": "调查金色夜莺需要问佣兵的事情吗？那是灰夫人带领的部队吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -706,7 +712,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "魔<r=BOSS></r>王你虽然是个好人， 但好像也没正义感强到潜入联合种业就是为了抓灰夫人吧， 那是菲莱旅人的责任。",
+   "text": "魔<r=BOSS></r>王你虽然是个好人，但好像也没正义感强到潜入联合种业就是为了抓灰夫人吧，那是菲莱旅人的责任。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -714,7 +720,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "然后，我就想到， 第一次见面时，我们聊过孤儿院的话题吧——",
+   "text": "然后，我就想到，第一次见面时，我们聊过孤儿院的话题吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -730,7 +736,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "那么，真相就很明显了—— 灰夫人， 或者说联合种业和孤儿院的事情有关系。",
+   "text": "那么，真相就很明显了——灰夫人，或者说联合种业和孤儿院的事情有关系。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -750,7 +756,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不错，不愧是弗拉维奥的王牌魔女， 靠着只言片语就猜到了七七八八， 我们接下米娜的委托的确有这层目的在。",
+   "text": "不错，不愧是弗拉维奥的王牌魔女，靠着只言片语就猜到了七七八八，我们接下米娜的委托的确有这层目的在。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -758,7 +764,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "只是， 你不觉得这样探听别人的秘密很危险吗？",
+   "text": "只是，你不觉得这样探听别人的秘密很危险吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -766,7 +772,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "当然觉得啊， 但是没办法嘛。 你身上隐藏的秘密可是散发着诱人的香味， 就算知道危险，也想去触碰。",
+   "text": "当然觉得啊，但是没办法嘛。你身上隐藏的秘密可是散发着诱人的香味，就算知道危险，也想去触碰。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -774,7 +780,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "魔女， 可是以“真相”为食~",
+   "text": "魔女，可是以“真相”为食~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -782,7 +788,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "况且，我也不白探听你的秘密， 我也会把自己拿到的孤儿院独家情报交给你的。",
+   "text": "况且，我也不白探听你的秘密，我也会把自己拿到的孤儿院独家情报交给你的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -790,7 +796,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "毕竟， 我们现在可是“合作关系”。",
+   "text": "毕竟，我们现在可是“合作关系”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -798,7 +804,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白了， 稍等一下。",
+   "text": "明白了，稍等一下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -822,7 +828,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "讨厌~ 难道你们全听到了？",
+   "text": "讨厌~难道你们全听到了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -830,7 +836,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "走之前， 魔<r=BOSS></r>王，偷偷发了信息， 说魔女有别的事情和我们说。",
+   "text": "走之前，魔<r=BOSS></r>王，偷偷发了信息，说魔女有别的事情和我们说。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -838,7 +844,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "哎呀呀， 我的倾诉欲有那么明显么， 原来我才是魔<r=BOSS></r>王的猎物★",
+   "text": "哎呀呀，我的倾诉欲有那么明显么，原来我才是魔<r=BOSS></r>王的猎物★",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -846,7 +852,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "那么， 请看这条信息—— 新鲜热乎的独家情报哦。",
+   "text": "那么，请看这条信息——新鲜热乎的独家情报哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -902,7 +908,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "面包的配方… …",
+   "text": "面包的配方……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -910,7 +916,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "是从孤儿院里拿到的？ ！",
+   "text": "是从孤儿院里拿到的？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -918,7 +924,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "灰城区的孤儿院… …",
+   "text": "灰城区的孤儿院……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -926,7 +932,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "只有一家 ！",
+   "text": "只有一家！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -934,7 +940,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "今晚回到仓库后， 我的手机上收到了“匿名用户申请成为你的好友。”",
+   "text": "今晚回到仓库后，我的手机上收到了“匿名用户申请成为你的好友。”",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -942,7 +948,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "手机只有贴贴才能加上心链， 我最后一次看手机是今天早晨离开仓库时。",
+   "text": "手机只有贴贴才能加上心链，我最后一次看手机是今天早晨离开仓库时。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -950,7 +956,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "也就是说， 这个“匿名用户”在今天我不知情的情况下， 用手机贴上了我的手机，发出了申请， 在提供给我们信息后，又立刻删除了我的好友。",
+   "text": "也就是说，这个“匿名用户”在今天我不知情的情况下，用手机贴上了我的手机，发出了申请，在提供给我们信息后，又立刻删除了我的好友。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -958,7 +964,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "身为魔女，虽然遇到过不少暗中提供情报的情况， 但做得这么干脆，让我完全察觉和追踪不到的，这还是第一次， 对方是个厉害的家伙啊。",
+   "text": "身为魔女，虽然遇到过不少暗中提供情报的情况，但做得这么干脆，让我完全察觉和追踪不到的，这还是第一次，对方是个厉害的家伙啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -966,7 +972,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "能在今天之内贴上雾语手机的人…… 只有我们今天见过的人吧。",
+   "text": "能在今天之内贴上雾语手机的人……只有我们今天见过的人吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -974,7 +980,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等等，不对。 在关心这件事之前，记录里大家调查到的一些事情发生的时间…… 未免太巧合了。",
+   "text": "等等，不对。在关心这件事之前，记录里大家调查到的一些事情发生的时间……未免太巧合了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -982,7 +988,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "孤儿院、联合种业、 研发部的约瑟夫、 市场部的星雁、 面试我们的翡冷翠、 执行官达尔茜娅， 还有不知躲在何处的灰夫人。",
+   "text": "孤儿院、联合种业、研发部的约瑟夫、市场部的星雁、面试我们的翡冷翠、执行官达尔茜娅，还有不知躲在何处的灰夫人。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -990,7 +996,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来是这样， 所有的一切都被茶色夜莺和金色夜莺连了起来。",
+   "text": "原来是这样，所有的一切都被茶色夜莺和金色夜莺连了起来。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -998,7 +1004,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "各位， 米娜的委托、灰夫人的下落， 以及孤儿院的去向恐怕不是三件事。",
+   "text": "各位，米娜的委托、灰夫人的下落，以及孤儿院的去向恐怕不是三件事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

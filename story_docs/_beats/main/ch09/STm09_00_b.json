@@ -156,7 +156,7 @@
   {
    "k": "talk",
    "speaker": "放哨的黎明近卫",
-   "text": "有这样的吃法吗？—— 啊呜啊呜……",
+   "text": "有这样的吃法吗？——啊呜啊呜……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -284,7 +284,10 @@
   {
    "k": "talk",
    "speaker": "操控沙的近卫",
-   "text": "我看到了，矿洞里的沙子告诉我，你的魔<r=mowang></r>王和你唯一的护卫，就躲在白猫密室附近！",
+   "text": {
+    "cn_f": "我看到了，矿洞里的沙子告诉我，白头发的魔<r=mowang></r>王和她唯一的护卫，就躲在白猫密室附近！",
+    "cn_m": "我看到了，矿洞里的沙子告诉我，黑头发的魔<r=mowang></r>王和他唯一的护卫，就躲在白猫密室附近！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -402,7 +405,7 @@
   {
    "k": "talk",
    "speaker": "格蕾霍恩",
-   "text": "魔<r=mowang></r>王的伙伴和这个目的无关， 没必要节外生枝，也不要造成无谓的伤亡。",
+   "text": "魔<r=mowang></r>王的伙伴和这个目的无关，没必要节外生枝，也不要造成无谓的伤亡。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -586,7 +589,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "哦？我已经那么出名了吗？ 等等，什么叫这个身高？！我记住你了，穿衣服四面漏风的铁罐头！",
+   "text": "哦？我已经那么出名了吗？等等，什么叫这个身高？！我记住你了，穿衣服四面漏风的铁罐头！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -626,7 +629,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "淡绿色的风围绕在夏花身边，轻柔但坚定地把矿道中流淌的黄色热风 阻隔在身前，不让附有侦查魔法的砂砾接触到同伴一丝一毫",
+   "text": "淡绿色的风围绕在夏花身边，轻柔但坚定地把矿道中流淌的黄色热风\n阻隔在身前，不让附有侦查魔法的砂砾接触到同伴一丝一毫",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -680,7 +683,10 @@
   {
    "k": "talk",
    "speaker": "操控沙的近卫",
-   "text": "呼呼呼，我看到了，格蕾霍恩队长已经包围了魔<r=mowang></r>王，还有你身边那个白头发的，看起来弱弱的护卫。",
+   "text": {
+    "cn_f": "呼呼呼，我看到了，格蕾霍恩队长已经包围了魔<r=mowang></r>王，还有她身边那个白头发的，看起来弱弱的护卫。",
+    "cn_m": "呼呼呼，我看到了，格蕾霍恩队长已经包围了魔<r=mowang></r>王，还有他身边那个白头发的，看起来弱弱的护卫。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -696,7 +702,7 @@
   {
    "k": "talk",
    "speaker": "操控风的近卫",
-   "text": "你看到的到底是谁？ 呜——",
+   "text": "你看到的到底是谁？呜——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -736,7 +742,7 @@
   {
    "k": "talk",
    "speaker": "菈露",
-   "text": "好，好厉害的风，使用魔法的人似乎很生气啊。 幸好我背着这么重的薯条和冰淇淋，才没有被吹走。",
+   "text": "好，好厉害的风，使用魔法的人似乎很生气啊。幸好我背着这么重的薯条和冰淇淋，才没有被吹走。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -766,7 +772,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "魔<r=BOSS></r>王，我们回来啦。 那个穿衣服四面漏风的铁罐头和一大堆帝国卫队、黎明近卫都被冬香砸塌的矿道堵在另一边了。",
+   "text": "魔<r=BOSS></r>王，我们回来啦。那个穿衣服四面漏风的铁罐头和一大堆帝国卫队、黎明近卫都被冬香砸塌的矿道堵在另一边了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -790,7 +796,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "大家…… 你们都来了。",
+   "text": "大家……你们都来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -798,7 +804,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "嗯，不仅是菲莱城的同伴， 主公您在埃摩的友人密涅瓦， 还有绯瞳传讯的魔女雾语也赶来支援了，她们正在城外侦查。",
+   "text": "嗯，不仅是菲莱城的同伴，主公您在埃摩的友人密涅瓦，还有绯瞳传讯的魔女雾语也赶来支援了，她们正在城外侦查。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -910,7 +916,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个…… 肩膀上没有伤痕， 肋下也没有受伤吧？",
+   "text": "那个……肩膀上没有伤痕，肋下也没有受伤吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -918,7 +924,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "怎，怎么突然问这个，当然没有受伤啊。 你不会想在这里看我的肚子吧……",
+   "text": "怎，怎么突然问这个，当然没有受伤啊。你不会想在这里看我的肚子吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -982,7 +988,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没什么， 我只是不想让尘沙继续不安下去了。",
+   "text": "没什么，我只是不想让尘沙继续不安下去了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1205,7 +1211,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "哎？魔<r=BOSS></r>王，你在说什么啊， 我们只有这么几个人……",
+   "text": "哎？魔<r=BOSS></r>王，你在说什么啊，我们只有这么几个人……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1213,7 +1219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "足够了， 只要能进入那座星塔，我们就能以弱胜强，逆转战局。",
+   "text": "足够了，只要能进入那座星塔，我们就能以弱胜强，逆转战局。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

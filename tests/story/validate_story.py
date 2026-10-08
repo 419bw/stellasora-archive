@@ -78,12 +78,16 @@ BULLET = re.compile(r'^> - ')
 SILENT = re.compile(r'^> \*（其中')
 
 
+SEX_TABLE = dict(re.findall(r'\["(==SEX\d*==)"\]\s*=\s*\{\s*"([^"]*)",',
+    open(os.path.join(os.path.dirname(CFG), 'Preset', 'AvgUIText.lua'), encoding='utf-8').read()))
+
+
 def norm(s):
-    s = s.replace('<br>', ' ')            # a line break is a space in text, not nothing
+    s = s.replace('==RT==', ' ').replace('<br>', ' ')            # a line break is a space in text, not nothing
     s = re.sub(r'<[^>]*>', '', s)
     s = s.replace('==PLAYER_NAME==', '魔王')
-    s = re.sub(r'==SEX\d*==', '你', s)
-    s = re.sub(r'==[A-Za-z0-9_.]*==', ' ', s)     # ==A0.5== / ==Off== carry no words either
+    s = re.sub(r'==SEX\d*==', lambda m: SEX_TABLE[m[0]], s)
+    s = re.sub(r'==[A-Za-z0-9_.-]*==', '', s)     # ==A0.5== / ==Off== carry no words either
     s = s.replace('_NOT_IN_LOG_', '')
     return re.sub(r'\s+', ' ', s).strip()
 
@@ -176,6 +180,16 @@ for p in glob.glob(os.path.join(NEW, '**', 'sections', '*.md'), recursive=True):
 old_files = {}
 for p in glob.glob(os.path.join(OLD, 'story', '**', 'sections', '*.md'), recursive=True):
     old_files.setdefault(id_of(p), p)
+
+def legacy_gender_equal(old, new):
+    """Ignore legacy marker spacing and its uniform 你; Lua checks stay exact."""
+    old = [re.sub(r'\s+', '', s) for s in old]
+    new = [re.sub(r'\s+', '', s) for s in new]
+    words = '|'.join(re.escape(w) for w in SEX_TABLE.values())
+    return len(old) == len(new) and all(
+        re.fullmatch(re.escape(a).replace('你', '(?:你|' + words + ')'), b)
+        for a, b in zip(old, new))
+
 
 def strip_esc(s):
     BS = chr(92)
@@ -279,7 +293,9 @@ for i in both:
         continue
     compared += 1
     if a != b:
-        if [x.replace('\\' + '"', '"') for x in a] == b:
+        if legacy_gender_equal(a, b):
+            continue
+        if legacy_gender_equal([x.replace('\\' + '"', '"') for x in a], b):
             escape_only.append(i)
             continue
         first = next((k for k in range(min(len(a), len(b))) if a[k] != b[k]), None)
@@ -447,7 +463,8 @@ base = bubble_seq(orig)
 _d_pos = base == truth
 hard(_d_pos, 'D 正对照 FAIL（未改动文件应与 Lua 一致）')
 print('正对照（未改动文件）: %s' % ('PASS' if _d_pos else 'FAIL'))
-v1 = orig.replace(base[1][1], base[1][1] + 'X', 1)
+raw_bubble = next(BUBBLE.match(l).group(2) for l in orig.splitlines() if BUBBLE.match(l))
+v1 = orig.replace(raw_bubble, raw_bubble + 'X', 1)
 first_wave_line = next(l for l in orig.splitlines() if WAVE.match(l.strip()))
 v2 = orig.replace(first_wave_line, "> **[战斗阶段 99]**", 1)
 first_bubble_line = next(l for l in orig.splitlines() if BUBBLE.match(l.strip()))
@@ -954,7 +971,7 @@ print()
 print("=" * 66)
 print("M  台词里的 <r=注音></r> / <r=注音>正文</r> 逐句对齐剧本：位置（紧跟哪个字）+ 文字")
 print("=" * 66)
-# 空体 ruby 锚定标签前一个字符；带体 ruby 的 base 在标签体内（可多字，取末字）。
+# 用插入点之前的正文末字核对空体注音位置；带体注音核对正文末字。
 RUBY = re.compile(r'<r=([^<>]*)>([^<>]+)</r>|<r=([^<>]*)></r>')
 
 

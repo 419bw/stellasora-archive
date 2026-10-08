@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "如果每天都有这么多…… 万送屋也不容易啊。",
+   "text": "如果每天都有这么多……万送屋也不容易啊。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那我拿这个大的箱子…… 好重？！糟了——！",
+   "text": "那我拿这个大的箱子……好重？！糟了——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "家族关系、对辩护师这份工作的质疑，还有我犯下的过失…… 当时各种烦恼全都压在一起，每天都像走在瓢泼大雨里一样。",
+   "text": "家族关系、对辩护师这份工作的质疑，还有我犯下的过失……当时各种烦恼全都压在一起，每天都像走在瓢泼大雨里一样。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "我还没把你送回贝林港， 所以委托不算结束。",
+   "text": "我还没把你送回贝林港，所以委托不算结束。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "唔…… 我也不知道，可能到处走走吧。",
+   "text": "唔……我也不知道，可能到处走走吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "既然这样的话…… 要不要，和我一起当信使？",
+   "text": "既然这样的话……要不要，和我一起当信使？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "但是…… 我或许没有成为信使的资格呢。 毕竟我自己正在无视着……试图传达给我的心意……",
+   "text": "但是……我或许没有成为信使的资格呢。\n毕竟我自己正在无视着……试图传达给我的心意……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "离家出走的时候，母亲在我的包里悄悄放了一封信。直到现在，我都没能拆开它…… 连家人的信都无法面对的我，怎么能当信使呢……",
+   "text": "离家出走的时候，母亲在我的包里悄悄放了一封信。直到现在，我都没能拆开它……连家人的信都无法面对的我，怎么能当信使呢……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "原来如此…… 不过我觉得，那你就更该试试了！",
+   "text": "原来如此……不过我觉得，那你就更该试试了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "这场邂逅就像一阵风…… 名为“多娜”的风，吹散了我心里盘踞许久的乌云",
+   "text": "这场邂逅就像一阵风……\n名为“多娜”的风，吹散了我心里盘踞许久的乌云",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "所以…… 在找到答案之前，我不会拆开那封信的。",
+   "text": "所以……在找到答案之前，我不会拆开那封信的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "可是……我的辩护师资格证已经…… 而且，没有合理理由，直接调取个人信息是禁止的。",
+   "text": "可是……我的辩护师资格证已经……而且，没有合理理由，直接调取个人信息是禁止的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊，嗯…… 勉强算是。",
+   "text": "啊，嗯……勉强算是。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "即使没有辩护师资质了，但说不定也有其他的手段。 两位，请帮我一起搭把手。",
+   "text": "即使没有辩护师资质了，但说不定也有其他的手段。\n两位，请帮我一起搭把手。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "苍兰",
-   "text": "那封信已经相当破旧了…… 所以我借来了近二十年的资料汇总。",
+   "text": "那封信已经相当破旧了……所以我借来了近二十年的资料汇总。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +723,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "霍华德……霍华德……啊！ 找到了！虽然找到了……但是……",
+   "text": "霍华德……霍华德……啊！找到了！虽然找到了……但是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -915,7 +915,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你做的菜都很好吃。 一口气做那么多，一定很辛苦吧？",
+   "text": "你做的菜都很好吃。一口气做那么多，一定很辛苦吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -923,7 +923,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "一点也不～感觉大家就像突然多了好多家人一样，我反而很开心！ 我很喜欢这种大家热热闹闹在一起的感觉。",
+   "text": "一点也不～感觉大家就像突然多了好多家人一样，我反而很开心！我很喜欢这种大家热热闹闹在一起的感觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -995,7 +995,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "已经…… 不想再变成一个人了。",
+   "text": "已经……不想再变成一个人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1011,7 +1011,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "啊！我好像说得有点奇怪。 那个，其实也没有别的意思，就是……",
+   "text": "啊！我好像说得有点奇怪。那个，其实也没有别的意思，就是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1019,7 +1019,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "你看嘛，现在工作量也越来越多，一个人当然是送不完的对吧？ 所以我的意思是——再一个人单干就不行啦！ 嗯，绝对不行！",
+   "text": "你看嘛，现在工作量也越来越多，一个人当然是送不完的对吧？所以我的意思是——再一个人单干就不行啦！嗯，绝对不行！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1027,7 +1027,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "好啦好啦，明天还要早起，我先睡啦！ 晚安，魔<r=BOSS></r>王~",
+   "text": "好啦好啦，明天还要早起，我先睡啦！晚安，魔<r=BOSS></r>王~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1051,7 +1051,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "已经…… 再也不想变成一个人了。",
+   "text": "已经……再也不想变成一个人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "恩赐……补充完毕 这样一来，制热魔法又能持续一天了。",
+   "text": "恩赐……补充完毕\n这样一来，制热魔法又能持续一天了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "万事小心，如果发现了永夜，请第一时间回来。 我们这次前来是探索星塔，不要勉强自己。",
+   "text": "万事小心，如果发现了永夜，请第一时间回来。\n我们这次前来是探索星塔，不要勉强自己。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "别放在心上，有你在身边我安心不少。 至少不用对永夜的袭击提心吊胆，今晚肯定能睡个好觉。",
+   "text": "别放在心上，有你在身边我安心不少。\n至少不用对永夜的袭击提心吊胆，今晚肯定能睡个好觉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这边侦查得也差不多了，我们去别处看…… 嗯？",
+   "text": "这边侦查得也差不多了，我们去别处看……嗯？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这边的洞窟...... 有很多人工的痕迹。",
+   "text": "这边的洞窟......有很多人工的痕迹。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "有永夜偷袭吗！？ 撑住！我这就来！",
+   "text": "有永夜偷袭吗！？撑住！我这就来！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "疼疼疼…… 我没事，只是摔了一跤。",
+   "text": "疼疼疼……我没事，只是摔了一跤。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是什么，剑？ 锈迹斑斑的， 看起来是很古老的剑了。",
+   "text": "这是什么，剑？锈迹斑斑的，看起来是很古老的剑了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "没事就好，稍等一下，我这就来看看—— 呃……嗯？",
+   "text": "没事就好，稍等一下，我这就来看看——\n呃……嗯？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "没，没事…… 我马上就来……！",
+   "text": "没，没事……我马上就来……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好吧。 我数三二一， 咱们一起用力。",
+   "text": "好吧。我数三二一，咱们一起用力。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "三~ 二~ 一！",
+   "text": "三~二~一！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "勉强能理解，但我们的传统是用口述和行动来传承历史， 所以，我也不能保证解读出的内容的准确性——",
+   "text": "勉强能理解，但我们的传统是用口述和行动来传承历史，所以，我也不能保证解读出的内容的准确性——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "并不是，从来没听说过“恩赐之神”有别的名字。 我想，这只是北境的独特信仰。这里的人们会敬畏更加原始的，自然的存在。",
+   "text": "并不是，从来没听说过“恩赐之神”有别的名字。\n我想，这只是北境的独特信仰。这里的人们会敬畏更加原始的，自然的存在。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "我想是的，不过..... 这幅壁画的内容很诡异啊。",
+   "text": "我想是的，不过.....这幅壁画的内容很诡异啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "“神自星塔降临…… 参与者…… 决斗…… 回应……”",
+   "text": "“神自星塔降临……参与者……决斗……回应……”",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "这里似乎记载了某种召唤神的仪式，启动这个仪式必须让参与者用武器决斗， 这些古代武器大概就是古老的仪式留下的吧。",
+   "text": "这里似乎记载了某种召唤神的仪式，启动这个仪式必须让参与者用武器决斗，这些古代武器大概就是古老的仪式留下的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哎？ 长剑小姐，你怎么会在这里？",
+   "text": "哎？长剑小姐，你怎么会在这里？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "躲开！魔王！ 她有点不对劲！",
+   "text": "躲开！魔王！她有点不对劲！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "长剑小姐",
-   "text": "啊啊——异乡人………… 觉悟吧——",
+   "text": "啊啊——异乡人…………觉悟吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "招式和动作如此怪异， 不像是正常人类，更像是被人操控了。",
+   "text": "招式和动作如此怪异，不像是正常人类，更像是被人操控了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "我打掉她的剑后，那种笼罩在她身上的操控感就消失了。 那把武器很可疑，先不要碰。",
+   "text": "我打掉她的剑后，那种笼罩在她身上的操控感就消失了。\n那把武器很可疑，先不要碰。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +699,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "总之先带她回去吧，这里很不安全。 我去确认一下出去的路，你在这里守好她。",
+   "text": "总之先带她回去吧，这里很不安全。\n我去确认一下出去的路，你在这里守好她。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +715,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她的剑被打掉后，她就晕倒了， 这其中有什么联系吗……？",
+   "text": "她的剑被打掉后，她就晕倒了，这其中有什么联系吗……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "壁画，仪式、武器，还有永夜…… 总感觉。这些事情之间有什么联系……",
+   "text": "壁画，仪式、武器，还有永夜……\n总感觉。这些事情之间有什么联系……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +763,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "呃呜……不是…… 我又卡在那个缝隙中了......",
+   "text": "呃呜……不是……我又卡在那个缝隙中了......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -779,7 +779,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……… ………",
+   "text": "………………",
    "thought": false,
    "sticker": false,
    "channel": "talk"

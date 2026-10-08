@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "花原委托我扮演她的主人，陪她一起参加甜品展会。 委托当日，我们约定在谷风家政的门口见面。",
+   "text": "花原委托我扮演她的主人，陪她一起参加甜品展会。\n委托当日，我们约定在谷风家政的门口见面。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "经过十字路路口后右转、左转、再直走， 经过六棵树后，右手边第一个院子……",
+   "text": "经过十字路路口后右转、左转、再直走，\n经过六棵树后，右手边第一个院子……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好详细…… 那我们就边走边看吧。",
+   "text": "好详细……那我们就边走边看吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "蛋糕摊主",
-   "text": "二位，早上好，要不要来尝尝我们家的招牌提拉米苏？ 每日限量，来晚就吃不到了。",
+   "text": "二位，早上好，要不要来尝尝我们家的招牌提拉米苏？\n每日限量，来晚就吃不到了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "主人，这家的提拉米苏芝士浓郁，可可香醇， 是本次展会主办方大力推荐的产品之一。",
+   "text": "主人，这家的提拉米苏芝士浓郁，可可香醇，\n是本次展会主办方大力推荐的产品之一。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯—— 好吃！口感很棒，甜度也刚刚好！",
+   "text": "嗯——\n好吃！口感很棒，甜度也刚刚好！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

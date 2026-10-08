@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "治疗…… 旅人的心病？",
+   "text": "治疗……旅人的心病？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "担忧的旅人",
-   "text": "自从那天以后，只要走进星塔，我的身体就不受控制的颤抖…… 根本没法战斗。",
+   "text": "自从那天以后，只要走进星塔，我的身体就不受控制的颤抖……\n根本没法战斗。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "急躁的旅人",
-   "text": "其实大家都想尽快回到前线…… 但是，顶着这种心病可没法探索啊！",
+   "text": "其实大家都想尽快回到前线……\n但是，顶着这种心病可没法探索啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "急躁的旅人",
-   "text": "万一解散的话…… 我不会唱歌也不会跳舞，该怎么在弗拉维奥活下去！",
+   "text": "万一解散的话……我不会唱歌也不会跳舞，该怎么在弗拉维奥活下去！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "……话虽这么说。但要是被传出去“这魔<r=mowang></r>王不懂人心”， 可就一点都不好笑了。",
+   "text": "……话虽这么说。但要是被传出去“这魔<r=mowang></r>王不懂人心”，\n可就一点都不好笑了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯……？ 这是。",
+   "text": "嗯……？这是。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "拜托让一让路——！ 感谢大家的配合！",
+   "text": "拜托让一让路——！感谢大家的配合！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "太感谢您了，嗯…… 魔<r=mowang></r>王？",
+   "text": "太感谢您了，嗯……魔<r=mowang></r>王？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,10 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "还是叫您制作人你比较好呢。",
+   "text": {
+    "cn_f": "还是叫您制作人小姐比较好呢。",
+    "cn_m": "还是叫您制作人先生比较好呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -515,7 +518,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "太好了…… 今天能偶遇魔<r=mowang></r>王，一定是因为星塔回应了我的召唤吧。",
+   "text": "太好了……今天能偶遇魔<r=mowang></r>王，一定是因为星塔回应了我的召唤吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +558,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然魔<r=mowang></r>王有很多才能，可是音乐…… 我确实不算很懂。",
+   "text": "虽然魔<r=mowang></r>王有很多才能，可是音乐……我确实不算很懂。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +566,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "制作人…… 要是在专业问题上出糗，那不仅你丢人，“魔王协议”也丢人了。",
+   "text": "制作人……要是在专业问题上出糗，那不仅你丢人，“魔王协议”也丢人了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +638,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "对…… 对…… 灵感……！",
+   "text": "对……对……灵感……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +646,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "……我这几天，就算拿着贝斯…… 对着大海，对着高山，对着星塔，却什么思绪都涌不上来……",
+   "text": "……我这几天，就算拿着贝斯……\n对着大海，对着高山，对着星塔，却什么思绪都涌不上来……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +654,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "要是以前的话，稍微深呼吸几下，就可以听到它们的召唤…… 它们传来的声音了。",
+   "text": "要是以前的话，稍微深呼吸几下，就可以听到它们的召唤……\n它们传来的声音了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +662,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "怎么办呢…… 要是星塔再也不回应我的话……",
+   "text": "怎么办呢……要是星塔再也不回应我的话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +686,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "那些声响，或许也是星塔真相的一个组成部分—— 只是人们对此缺乏了解，包括我。",
+   "text": "那些声响，或许也是星塔真相的一个组成部分——只是人们对此缺乏了解，包括我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +726,7 @@
   {
    "k": "talk",
    "speaker": "焦糖",
-   "text": "太好了…… 那我们——",
+   "text": "太好了……那我们——",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "这次大会主办方要求的机关人，主要考查的是荒野生存能力。在我看来…… 野外求生最关键的便是要克服对荒野的恐惧。",
+   "text": "这次大会主办方要求的机关人，主要考查的是荒野生存能力。在我看来……野外求生最关键的便是要克服对荒野的恐惧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "我直说好了—— 所有恐惧，都来源于“火力不足”。",
+   "text": "我直说好了——\n所有恐惧，都来源于“火力不足”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "布洛可",
-   "text": "好了好了，这下好了！我们稳赢了！ 我布洛可一夜暴富的梦想终于要成真了～",
+   "text": "好了好了，这下好了！我们稳赢了！我布洛可一夜暴富的梦想终于要成真了～",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "布洛可",
-   "text": "嘿嘿……朵拉……两个亿的朵拉……朝我飞过来啦…… 呵呵……呼……",
+   "text": "嘿嘿……朵拉……两个亿的朵拉……朝我飞过来啦……呵呵……呼……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "布洛可",
-   "text": "完蛋了……我怎么会在这种地方翻车？！ 看看现在都几点了！技术大会只剩三个小时就要开赛了！！",
+   "text": "完蛋了……我怎么会在这种地方翻车？！看看现在都几点了！技术大会只剩三个小时就要开赛了！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "竟然都这个时间了？！ 有好几个鸢尾的未接通话，我们睡得也太死了吧……",
+   "text": "竟然都这个时间了？！有好几个鸢尾的未接通话，我们睡得也太死了吧……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -243,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "斯帕克拉",
-   "text": "其实我还准备了一个压箱底的惊喜—— 总算是时候亮相了！！",
+   "text": "其实我还准备了一个压箱底的惊喜——总算是时候亮相了！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我——没——事…… 我——们——很——快——就——到…… 你——们——先——走……",
+   "text": "我——没——事……我——们——很——快——就——到……你——们——先——走……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "风声太大，听不太清楚…… 总之好像是让我们先去会场。",
+   "text": "风声太大，听不太清楚……总之好像是让我们先去会场。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "格蕾小姐，我是鸢尾。 她们是尘沙和琥珀， 还有这位是薇洛。",
+   "text": "格蕾小姐，我是鸢尾。她们是尘沙和琥珀，还有这位是薇洛。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "格蕾",
-   "text": "尘沙小姐，琥珀小姐，薇洛小姐…… 请多指教。",
+   "text": "尘沙小姐，琥珀小姐，薇洛小姐……请多指教。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "你好你好…… 诶？总觉得……好像在哪里见过你啊……",
+   "text": "你好你好……诶？总觉得……好像在哪里见过你啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "那个…… 她应该还在赶来的路上吧。",
+   "text": "那个……她应该还在赶来的路上吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "主持人",
-   "text": "“后勤组”将以领航能力、负载能力与安全性能为评分标准…… 而“火力组”则是直接来一场简单粗暴的决斗！",
+   "text": "“后勤组”将以领航能力、负载能力与安全性能为评分标准……而“火力组”则是直接来一场简单粗暴的决斗！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -579,7 +579,7 @@
   {
    "k": "talk",
    "speaker": "主持人",
-   "text": "在此重申一下大会奖励——冠军不仅能带十亿朵拉的巨额奖金，还将获得由洛克菲尔家族独家提供的技术赞助—— 二十枚“柔光币”！",
+   "text": "在此重申一下大会奖励——冠军不仅能带十亿朵拉的巨额奖金，还将获得由洛克菲尔家族独家提供的技术赞助——二十枚“柔光币”！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "格蕾",
-   "text": "抱歉瞒着你们…… 其实这届大会，是我们家族牵头主办的。",
+   "text": "抱歉瞒着你们……其实这届大会，是我们家族牵头主办的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "格蕾",
-   "text": "至于竞猜嘛…… 纯属是当时气氛太好了情不自禁，哈哈。而且这么点小钱，对我来说只是日常零花而已，所以说没什么特别的理由啦。",
+   "text": "至于竞猜嘛……纯属是当时气氛太好了情不自禁，哈哈。而且这么点小钱，对我来说只是日常零花而已，所以说没什么特别的理由啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "莱欧",
-   "text": "问题根本不在这里！ 斯帕克拉怎么还没来？！",
+   "text": "问题根本不在这里！斯帕克拉怎么还没来？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "布洛可",
-   "text": "这就是……你说的…… 惊喜？ 确实……很惊！ 呕呕呕呕……",
+   "text": "这就是……你说的……惊喜？确实……很惊！呕呕呕呕……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +675,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这种移动方式……本以为已经稍微习惯些了…… 果然还是……吃不消…… 呕呕呕呕……",
+   "text": "这种移动方式……本以为已经稍微习惯些了……果然还是……吃不消……呕呕呕呕……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "迁就我们的话……会赶不上大会的…… 呕呕呕？！",
+   "text": "迁就我们的话……会赶不上大会的……呕呕呕？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "到底……是哪里…… 没关系……了……",
+   "text": "到底……是哪里……没关系……了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +723,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这么乱来……不会被取消参赛资格吗…… 呕呕呕……",
+   "text": "这么乱来……不会被取消参赛资格吗……呕呕呕……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +731,7 @@
   {
    "k": "talk",
    "speaker": "布洛可",
-   "text": "柔光会社那群工匠们也喜欢这种狂野的比试风格，没问…… 呕呕呕呕……",
+   "text": "柔光会社那群工匠们也喜欢这种狂野的比试风格，没问……呕呕呕呕……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "莱欧",
-   "text": "怎么全都是一堆破铜烂铁…… 我还是早点出手，节约下时间。",
+   "text": "怎么全都是一堆破铜烂铁……我还是早点出手，节约下时间。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -803,7 +803,7 @@
   {
    "k": "talk",
    "speaker": "莱欧",
-   "text": "喂——火力组那群自称工匠的笨蛋—— 大家都干脆点，直接决出小组出线的赢家怎么样？",
+   "text": "喂——火力组那群自称工匠的笨蛋——大家都干脆点，直接决出小组出线的赢家怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -851,7 +851,7 @@
   {
    "k": "talk",
    "speaker": "格蕾",
-   "text": "无妨。看样子莱欧小姐有着绝对的自信呢…… 更何况这个提议明显会更有趣不是吗♪",
+   "text": "无妨。看样子莱欧小姐有着绝对的自信呢……更何况这个提议明显会更有趣不是吗♪",
    "thought": false,
    "sticker": false,
    "channel": "talk"

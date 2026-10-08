@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "哎呀，只关心我一个人？你也太喜欢我了吧~ 魔<r=BOSS></r>王，一会见。",
+   "text": "哎呀，只关心我一个人？你也太喜欢我了吧~魔<r=BOSS></r>王，一会见。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +124,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不好，不小心走到这些植物的地盘了...... 既然是智慧植物，或许可以试着交流一下。",
+   "text": "不好，不小心走到这些植物的地盘了......既然是智慧植物，或许可以试着交流一下。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -156,7 +156,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是在模仿人类鞠躬吗？也就是说......在没人命令智慧植物的时候，它们并不会主动攻击人类。 既然如此......",
+   "text": "是在模仿人类鞠躬吗？也就是说......在没人命令智慧植物的时候，它们并不会主动攻击人类。既然如此......",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -164,7 +164,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你有见过一个老爷爷吗， 头上还戴着圆圆的眼镜。",
+   "text": "你有见过一个老爷爷吗，头上还戴着圆圆的眼镜。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -212,7 +212,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "老爷爷……在那边， 明白了，谢谢你。",
+   "text": "老爷爷……在那边，明白了，谢谢你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -244,7 +244,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "他在说谎， 翠煌草需要翠煌之刃才能培养出来，能不能抓到翠煌之刃全靠偶然，没有公司会用这么偶然的办法提升产量的。",
+   "text": "他在说谎，翠煌草需要翠煌之刃才能培养出来，能不能抓到翠煌之刃全靠偶然，没有公司会用这么偶然的办法提升产量的。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +260,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "他真正的目的应该还是为了培育智慧植物，但是这么大的计划...... 绝对不是约瑟夫一个人能做的。",
+   "text": "他真正的目的应该还是为了培育智慧植物，但是这么大的计划......绝对不是约瑟夫一个人能做的。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -268,7 +268,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "绝对有人在帮他一起实行这个计划，最有嫌疑的…… 应该是躲在联合种业的灰夫人。",
+   "text": "绝对有人在帮他一起实行这个计划，最有嫌疑的……应该是躲在联合种业的灰夫人。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -292,7 +292,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "前面有人？！ 糟了，来不及叫雾语她们回来，只能试一试了......",
+   "text": "前面有人？！糟了，来不及叫雾语她们回来，只能试一试了......",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -340,7 +340,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "我投降…… 二十年前的我姑且不论，以我现在的年纪去对付旅人，只能说是自讨苦吃。",
+   "text": "我投降……二十年前的我姑且不论，以我现在的年纪去对付旅人，只能说是自讨苦吃。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +388,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "我...... 我那时还有没做完的事。",
+   "text": "我......我那时还有没做完的事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -540,7 +540,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "是啊，走吧…… 和你们一起去那个世界！",
+   "text": "是啊，走吧……和你们一起去那个世界！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -556,7 +556,7 @@
   {
    "k": "talk",
    "speaker": "约瑟夫",
-   "text": "你能耐心等我把翠煌草浇完，是在等你的同伴吧？哈哈哈，我也一样！ 看，它来了——我强有力的同伴！！",
+   "text": "你能耐心等我把翠煌草浇完，是在等你的同伴吧？哈哈哈，我也一样！\n看，它来了——我强有力的同伴！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -596,7 +596,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "抱歉，雾语， 之后就拜托你了……",
+   "text": "抱歉，雾语，之后就拜托你了……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -722,7 +722,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我会注意的， 维塔，开门。",
+   "text": "我会注意的，维塔，开门。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

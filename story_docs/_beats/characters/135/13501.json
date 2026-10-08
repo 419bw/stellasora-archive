@@ -27,7 +27,10 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "今天的魔<r=mowang></r>王大人，要去完成你光荣的物资采购任务——至少我本来是这样想的。",
+   "text": {
+    "cn_f": "今天的魔<r=mowang></r>王大人，要去完成她光荣的物资采购任务——至少我本来是这样想的。",
+    "cn_m": "今天的魔<r=mowang></r>王大人，要去完成他光荣的物资采购任务——至少我本来是这样想的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +46,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过现在得先解决眼前的…… 不，确切的来说是背后的问题。",
+   "text": "不过现在得先解决眼前的……\n不，确切的来说是背后的问题。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +118,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "又开始瞎编了…… 是忘了上次编到第几条了吧。",
+   "text": "又开始瞎编了……是忘了上次编到第几条了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +158,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "可恶，失败了！这可真是我作为魔女，一生的失误…… 一生的遗憾……！",
+   "text": "可恶，失败了！这可真是我作为魔女，一生的失误……一生的遗憾……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +206,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好的好的，知道了。 所以，今天是哪门子的真相需要从我的脸上找呢？",
+   "text": "好的好的，知道了。\n所以，今天是哪门子的真相需要从我的脸上找呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +254,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "刚在甜品店里入座，打开了话匣子的雾语，就兴奋地介绍起来—— 她刚接到的“神秘委托”。",
+   "text": "刚在甜品店里入座，打开了话匣子的雾语，就兴奋地介绍起来——\n她刚接到的“神秘委托”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +278,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "这下有充分的理由， 诶嘿嘿嘿，可以给你好好照张相了，魔<r=mowang></r>王大人！",
+   "text": "这下有充分的理由，诶嘿嘿嘿，可以给你好好照张相了，魔<r=mowang></r>王大人！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +302,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "一点儿都没错！ 而且要近距离的，清甜爽口的，活灵活现的，新鲜出炉的……",
+   "text": "一点儿都没错！\n而且要近距离的，清甜爽口的，活灵活现的，新鲜出炉的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +318,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "所 以 说！ 魔<r=mowang></r>王，恳请您高抬贵手，就乖乖地在我留影机之下就范吧！",
+   "text": "所以说！\n魔<r=mowang></r>王，恳请您高抬贵手，就乖乖地在我留影机之下就范吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +366,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "这…… 这个嘛！",
+   "text": "这……这个嘛！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +446,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "辛辛苦苦写那么多报道，最后换到的朵拉，只够每天买个小蛋糕吃！ ——啊不，谢谢，我不是在点餐……！",
+   "text": "辛辛苦苦写那么多报道，最后换到的朵拉，只够每天买个小蛋糕吃！\n——啊不，谢谢，我不是在点餐……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -467,7 +470,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那这回，不如…… 就由魔<r=mowang></r>王，来当你的贵人！",
+   "text": "那这回，不如……\n就由魔<r=mowang></r>王，来当你的贵人！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +478,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "诶？ 啊，嗯？",
+   "text": "诶？啊，嗯？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

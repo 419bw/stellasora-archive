@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼……今天也是平静的一天啊。 这种日子最适合散…… 步…… 咦？",
+   "text": "呼……今天也是平静的一天啊。\n这种日子最适合散……步……咦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那边的是……多娜？ 怎么两手拎满了纸袋？看上去很重的样子……",
+   "text": "那边的是……多娜？\n怎么两手拎满了纸袋？看上去很重的样子……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "呀，是魔<r=BOSS></r>王！ 这些嘛……都是一些材料啦， 购物的时候看到不错的就往篮子里拿，不知不觉就买了这么多……",
+   "text": "呀，是魔<r=BOSS></r>王！\n这些嘛……都是一些材料啦，购物的时候看到不错的就往篮子里拿，不知不觉就买了这么多……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "要不要我帮你拿一点？ 一个人拿这么多很吃力吧。",
+   "text": "要不要我帮你拿一点？\n一个人拿这么多很吃力吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "没事没事！ 搬东西这种事情，我平时跑腿送货时早就习惯啦！这点重量完全小菜一碟~",
+   "text": "没事没事！\n搬东西这种事情，我平时跑腿送货时早就习惯啦！这点重量完全小菜一碟~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唉小心点！ 你看我说什么来着……",
+   "text": "唉小心点！\n你看我说什么来着……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我刚刚好像听谁说“小菜一碟”来着…… 是我听错了吗？",
+   "text": "我刚刚好像听谁说“小菜一碟”来着……\n是我听错了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "唔…… 本来应该是没问题的…… 好奇怪啊？",
+   "text": "唔……本来应该是没问题的……\n好奇怪啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "需要帮忙的话，直说就好啦？ 来吧，我帮你拿一半。",
+   "text": "需要帮忙的话，直说就好啦？\n来吧，我帮你拿一半。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "特丽莎跑去森林那了，苍兰骑着车去旁边另一座城送信…… 她们俩都说要到傍晚才回来。",
+   "text": "特丽莎跑去森林那了，苍兰骑着车去旁边另一座城送信……\n她们俩都说要到傍晚才回来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "没错~ 以前都是哪里开线了就缝一缝，破了就补块布糊弄一下，不过最近觉得还是干脆做套新的比较快。",
+   "text": "没错~\n以前都是哪里开线了就缝一缝，破了就补块布糊弄一下，不过最近觉得还是干脆做套新的比较快。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "太、太厉害了…… 转眼间素描本上就画满了一件件可爱的设计图……！",
+   "text": "太、太厉害了……\n转眼间素描本上就画满了一件件可爱的设计图……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -267,7 +267,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "大功告成！ 这次也是非常有自信的作品哟。",
+   "text": "大功告成！\n这次也是非常有自信的作品哟。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真的太厉害了…… 有这手艺，就算去当专业服装设计师，或者开家服装店都绰绰有余吧？",
+   "text": "真的太厉害了……\n有这手艺，就算去当专业服装设计师，或者开家服装店都绰绰有余吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "哼哼～毕竟我可是多才多艺的多娜，这点小事不在话下~ 不过现在暂时还没打算靠这个赚钱啦，做衣服毕竟只是我的兴趣爱好。",
+   "text": "哼哼～毕竟我可是多才多艺的多娜，这点小事不在话下~\n不过现在暂时还没打算靠这个赚钱啦，做衣服毕竟只是我的兴趣爱好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这样啊……嗯？ 难道那边挂着的衣服，也全都是你做的？",
+   "text": "这样啊……嗯？\n难道那边挂着的衣服，也全都是你做的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "是啊。最里面的衣架都是给苍兰的连衣裙，那边挂着的给特丽莎的衬衫和外套…… 是不是每套都超可爱？",
+   "text": "是啊。最里面的衣架都是给苍兰的连衣裙，那边挂着的给特丽莎的衬衫和外套……是不是每套都超可爱？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "的确都很可爱……不过这个数量也太多了吧？！ 衣柜都要塞不下了。",
+   "text": "的确都很可爱……不过这个数量也太多了吧？！\n衣柜都要塞不下了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "她们两个平时基本都只穿万送屋的制服。 所以日常的衣服都没有穿坏的机会，自然而然就越来越多了。",
+   "text": "她们两个平时基本都只穿万送屋的制服。所以日常的衣服都没有穿坏的机会，自然而然就越来越多了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然有点懂，又好像不太懂…… 话说回来，多娜没有做自己穿的吗？",
+   "text": "虽然有点懂，又好像不太懂……\n话说回来，多娜没有做自己穿的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那边……你是说随手堆着的那几件？ 跟给苍兰和特丽莎的比起来，数量是不是有点太少了……？",
+   "text": "那边……你是说随手堆着的那几件？\n跟给苍兰和特丽莎的比起来，数量是不是有点太少了……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "没办法嘛，她们两个都那么可爱~ 比起自己穿，我更喜欢给她们做可爱的衣服，然后看她们穿起来的样子~",
+   "text": "没办法嘛，她们两个都那么可爱~\n比起自己穿，我更喜欢给她们做可爱的衣服，然后看她们穿起来的样子~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "嗯哼哼……给魔<r=BOSS></r>王做衣服吗？ 唔…… 刚才也说了，做衣服只是我的兴趣爱好，所以除了苍兰和特丽莎，我还没给别人做过衣服耶……",
+   "text": "嗯哼哼……给魔<r=BOSS></r>王做衣服吗？\n唔……刚才也说了，做衣服只是我的兴趣爱好，所以除了苍兰和特丽莎，我还没给别人做过衣服耶……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "钱就不用啦。 不过作为交换，我可等着你给我介绍几个大单哦~",
+   "text": "钱就不用啦。\n不过作为交换，我可等着你给我介绍几个大单哦~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -459,7 +459,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "等、 你在干什么！？",
+   "text": "等、你在干什么！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不不不，这是我要说的吧？ 为什么要突然抱过来……？！",
+   "text": "不不不，这是我要说的吧？\n为什么要突然抱过来……？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "什么叫抱过来啦！ 是量尺寸啦，量·尺·寸。 不先量好尺寸，我要怎么给你做衣服呀？",
+   "text": "什么叫抱过来啦！是量尺寸啦，量·尺·寸。\n不先量好尺寸，我要怎么给你做衣服呀？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -499,7 +499,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "抱歉抱歉，忘记说明了。 那我正式开始量喽，你就保持刚刚那样别动哦？",
+   "text": "抱歉抱歉，忘记说明了。\n那我正式开始量喽，你就保持刚刚那样别动哦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "来来来，再把手抬高一点！ 接下来要量胸围咯~",
+   "text": "来来来，再把手抬高一点！\n接下来要量胸围咯~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "知、知道—— 唔唔唔！？ 等、等一下！那、那个有点……！",
+   "text": "知、知道——唔唔唔！？\n等、等一下！那、那个有点……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哈哈！啊哈哈哈哈哈！ 不、不行了……好痒……！",
+   "text": "哈哈！啊哈哈哈哈哈！\n不、不行了……好痒……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我也想忍住的…… 呜噗！ 话说多娜，你真的不是在故意挠我痒痒吗！？",
+   "text": "我也想忍住的……呜噗！\n话说多娜，你真的不是在故意挠我痒痒吗！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "怎么可能！是你自己乱动，结果自己蹭来蹭去的而已。 好——现在你就当自己是一座星塔，站好不要动了！",
+   "text": "怎么可能！是你自己乱动，结果自己蹭来蹭去的而已。\n好——现在你就当自己是一座星塔，站好不要动了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我是一座星塔， 我是一座星塔… … 嗯？",
+   "text": "我是一座星塔，我是一座星塔……嗯？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔哈哈哈哈！！ 不行、不行，饶了我吧——",
+   "text": "唔哈哈哈哈！！不行、不行，饶了我吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "要是店员来量的话，你这反应，早被吓跑了吧？ 不过好歹现在尺寸都量完了，接下来就正式开工——",
+   "text": "要是店员来量的话，你这反应，早被吓跑了吧？\n不过好歹现在尺寸都量完了，接下来就正式开工——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "真是对不起！布料一点儿也没剩了…… 下次一定，下次一定！",
+   "text": "真是对不起！布料一点儿也没剩了……下次一定，下次一定！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "不过嘛，魔<r=BOSS></r>王的尺码我已经全部记下来了！ 等我之后买材料再做一件，直接亲自送上门给你！ 好好期待着吧！",
+   "text": "不过嘛，魔<r=BOSS></r>王的尺码我已经全部记下来了！\n等我之后买材料再做一件，直接亲自送上门给你！\n好好期待着吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

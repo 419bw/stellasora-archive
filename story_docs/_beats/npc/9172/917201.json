@@ -83,7 +83,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我会小心的—— 哇——",
+   "text": "我会小心的——哇——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -107,7 +107,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "刚才是踩到了一块风化的地板，这好像是....... 上面好高看不到，应该掉下了不止一层吧。",
+   "text": "刚才是踩到了一块风化的地板，这好像是.......上面好高看不到，应该掉下了不止一层吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "糟了，我一个人无法战斗啊…… 先跑再说吧！",
+   "text": "糟了，我一个人无法战斗啊……先跑再说吧！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "我对你的故事没兴趣。需要治疗吗？ 如果不需要的话，请不要打扰我。",
+   "text": "我对你的故事没兴趣。需要治疗吗？\n如果不需要的话，请不要打扰我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "治疗？ 啊……刚才跌下来时......的确摔到了胳膊，已经肿起来了。",
+   "text": "治疗？啊……刚才跌下来时......的确摔到了胳膊，已经肿起来了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "真拿你没办法…… 啊，你的同伴来了。",
+   "text": "真拿你没办法……啊，你的同伴来了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "被骗了！呜，好粗的针头，但是....... 一点都不疼。",
+   "text": "被骗了！呜，好粗的针头，但是.......一点都不疼。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "贝缇丽",
-   "text": "总之，在星塔里受伤就可以找我治疗，免费的。 但也请注意安全，不要随便受伤增加我的工作量。",
+   "text": "总之，在星塔里受伤就可以找我治疗，免费的。\n但也请注意安全，不要随便受伤增加我的工作量。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "就这么消失了？不过...... 星塔员工好像都是这样吧，神神秘秘的。",
+   "text": "就这么消失了？不过......星塔员工好像都是这样吧，神神秘秘的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好痛！ 可恶……是刚刚那只星骸追过来了吗？",
+   "text": "好痛！\n可恶……是刚刚那只星骸追过来了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "贝缇丽？ 啊哈哈……真巧啊。",
+   "text": "贝缇丽？\n啊哈哈……真巧啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊……这个啊，抱歉，我刚才被星骸偷袭了。 下次我会注意的！",
+   "text": "啊……这个啊，抱歉，我刚才被星骸偷袭了。\n下次我会注意的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那么，振作起来，去找鸢尾她们吧！ 唔啊啊啊啊！？",
+   "text": "那么，振作起来，去找鸢尾她们吧！唔啊啊啊啊！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -475,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "怎么可能啊，我只是倒霉的病人， 麻烦你再帮我治疗一下吧。",
+   "text": "怎么可能啊，我只是倒霉的病人，\n麻烦你再帮我治疗一下吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "贝缇丽露出一副嫌麻烦的表情，注射器狠狠地扎进了我的皮肤。 一针下去……药到病除。",
+   "text": "贝缇丽露出一副嫌麻烦的表情，注射器狠狠地扎进了我的皮肤。\n一针下去……药到病除。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

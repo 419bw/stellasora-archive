@@ -28,7 +28,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 大名鼎鼎的“沙蝎”佣兵团，就只有这点本事吗？",
+   "text": "呵呵……大名鼎鼎的“沙蝎”佣兵团，就只有这点本事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -52,7 +52,10 @@
   {
    "k": "talk",
    "speaker": "弥尔沙",
-   "text": "团长马上就来，我们在这里负责拖住你们！",
+   "text": {
+    "cn_f": "团长马上就来，我们在这里负责拖住她们！",
+    "cn_m": "团长马上就来，我们在这里负责拖住他们！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +71,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "沙蝎的团长—— 哈萨娜。虽然不及我，但也是个难缠的女人呢。",
+   "text": "沙蝎的团长——哈萨娜。虽然不及我，但也是个难缠的女人呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +79,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "既然如此…… 晚宴马上就要开始了，我们不能继续在这里浪费时间了。",
+   "text": "既然如此……晚宴马上就要开始了，我们不能继续在这里浪费时间了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +95,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？有信息？ 但这个情况，根本来不及看啊。",
+   "text": "嗯？有信息？但这个情况，根本来不及看啊。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -122,7 +125,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "怎么办……怎么办…… 晚宴马上就要开始了，我还是联系不上魔<r=BOSS></r>王！",
+   "text": "怎么办……怎么办……晚宴马上就要开始了，我还是联系不上魔<r=BOSS></r>王！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -170,7 +173,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "喂，你们几个。应该是魔王协议的人…… 没错吧？",
+   "text": "喂，你们几个。应该是魔王协议的人……没错吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -178,7 +181,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "咿、咿呀！ 我们确实是魔王协议的员工，你是哪位！？",
+   "text": "咿、咿呀！我们确实是魔王协议的员工，你是哪位！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -194,7 +197,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "看你们从刚才起状态就不太对，出什么事了吗？难道说…… 魔王协议的首席执行官失踪了？",
+   "text": "看你们从刚才起状态就不太对，出什么事了吗？难道说……魔王协议的首席执行官失踪了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -218,7 +221,10 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "翡冷翠不在，能主持晚宴的就只有魔<r=BOSS></r>王了。都到这个点了，你还迟迟不肯露面，自然会让人觉得是出什么事了嘛。",
+   "text": {
+    "cn_f": "翡冷翠不在，能主持晚宴的就只有魔<r=BOSS></r>王了。都到这个点了，她还迟迟不肯露面，自然会让人觉得是出什么事了嘛。",
+    "cn_m": "翡冷翠不在，能主持晚宴的就只有魔<r=BOSS></r>王了。都到这个点了，他还迟迟不肯露面，自然会让人觉得是出什么事了嘛。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -226,7 +232,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "所以…… 你到底想说什么？",
+   "text": "所以……你到底想说什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -234,7 +240,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "别这么凶嘛。我可不是你们的敌人。 毕竟这场晚宴，是打着我们联合种业的名号举办的。 要是搞砸了，也会影响到总部的颜面。",
+   "text": "别这么凶嘛。我可不是你们的敌人。毕竟这场晚宴，是打着我们联合种业的名号举办的。要是搞砸了，也会影响到总部的颜面。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -250,7 +256,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "无论发生什么，都请确保晚宴按计划举行。 否则，迄今为止的所有努力都将化为泡影。",
+   "text": "无论发生什么，都请确保晚宴按计划举行。否则，迄今为止的所有努力都将化为泡影。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -282,7 +288,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "你刚刚直接质问我是不是犯人，这么单纯是不行的哦。 毕竟，像我这样拐弯抹角打探情报的人，可不全是好人哦。",
+   "text": "你刚刚直接质问我是不是犯人，这么单纯是不行的哦。毕竟，像我这样拐弯抹角打探情报的人，可不全是好人哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -314,7 +320,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "慌张成那个样子，明眼人都看得出来出事了。 在这种场合，脸皮越厚越好。哪怕装，也要装出冷静、从容。",
+   "text": "慌张成那个样子，明眼人都看得出来出事了。在这种场合，脸皮越厚越好。哪怕装，也要装出冷静、从容。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -354,7 +360,7 @@
   {
    "k": "talk",
    "speaker": "松鸦",
-   "text": "我这边也会尽力提供掩护的，我很期待你们的表现哦。 那么，拜拜啦～",
+   "text": "我这边也会尽力提供掩护的，我很期待你们的表现哦。那么，拜拜啦～",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -370,7 +376,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "可以给他们营造一种错觉—— 要让魔<r=BOSS></r>王亲自出马，你们这些小虾米还不够格，魔王协议的首席执行官可是更有分量的大人物。",
+   "text": "可以给他们营造一种错觉——要让魔<r=BOSS></r>王亲自出马，你们这些小虾米还不够格，魔王协议的首席执行官可是更有分量的大人物。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -378,7 +384,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "不过，我们也需要听起来像模像样的头衔呢…… 要不然会被轻视的。",
+   "text": "不过，我们也需要听起来像模像样的头衔呢……要不然会被轻视的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -418,7 +424,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "那我就是…… 首席财务官。就这么定了吧。",
+   "text": "那我就是……首席财务官。就这么定了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -426,7 +432,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "魔<r=BOSS></r>王的致辞时间是晚上八点半。在此之前，我们绝不能让客人们起疑。 无论如何，绝对要做到！！",
+   "text": "魔<r=BOSS></r>王的致辞时间是晚上八点半。在此之前，我们绝不能让客人们起疑。无论如何，绝对要做到！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +464,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "咦？刚才，好像稍微晃动了一下…… 是我眼花了吗？",
+   "text": "咦？刚才，好像稍微晃动了一下……是我眼花了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -466,7 +472,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呼…… 总算是赶上了……",
+   "text": "呼……总算是赶上了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -474,7 +480,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "得、得救了…… 谢谢你，乙叶。我就知道你是个出色的保镖。",
+   "text": "得、得救了……谢谢你，乙叶。我就知道你是个出色的保镖。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -514,7 +520,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "我就当你是在夸我了，谢谢啦…… 你应该已经向雇主报告过了吧？",
+   "text": "我就当你是在夸我了，谢谢啦……你应该已经向雇主报告过了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -546,7 +552,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "原来如此。呵呵，我倒是无所谓。 既然你觉得能办到，那就请试试看吧♪",
+   "text": "原来如此。呵呵，我倒是无所谓。既然你觉得能办到，那就请试试看吧♪",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -554,7 +560,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "哈哈！那我就不客气了。 给我上！",
+   "text": "哈哈！那我就不客气了。给我上！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -570,7 +576,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "唉…… 真是被看扁了呢。",
+   "text": "唉……真是被看扁了呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -610,7 +616,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "楼梯被堵死了吗…… 这下可有点麻烦了。",
+   "text": "楼梯被堵死了吗……这下可有点麻烦了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -672,7 +678,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼啊……呼啊…… 已经……跑、不动了……",
+   "text": "呼啊……呼啊……已经……跑、不动了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -760,7 +766,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "您猜得很对。 我可是专业人士，早就布好局了。",
+   "text": "您猜得很对。我可是专业人士，早就布好局了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -768,7 +774,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来你刚才笑眯眯的…… 是因为这个啊。",
+   "text": "原来你刚才笑眯眯的……是因为这个啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -776,7 +782,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "笑眯眯的…… 哎呀，竟然喜形于色了，看来我还是不够沉得住气呢。真是失礼了。",
+   "text": "笑眯眯的……哎呀，竟然喜形于色了，看来我还是不够沉得住气呢。真是失礼了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -792,7 +798,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "哈哈！有趣，真有趣。 魔<r=BOSS></r>王，你这个派对搞得很热闹嘛！",
+   "text": "哈哈！有趣，真有趣。魔<r=BOSS></r>王，你这个派对搞得很热闹嘛！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -832,7 +838,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "那家伙可是背叛了生她养她的组织，倒戈向曾经的宿敌。 现在又再次重演背叛的戏码，站在了你的身边。 你懂我的意思吧？总有一天，你也肯定会遭到背叛的。",
+   "text": "那家伙可是背叛了生她养她的组织，倒戈向曾经的宿敌。现在又再次重演背叛的戏码，站在了你的身边。你懂我的意思吧？总有一天，你也肯定会遭到背叛的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -856,7 +862,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯。感谢你的提议，不过…… 我决定相信乙叶。",
+   "text": "嗯。感谢你的提议，不过……我决定相信乙叶。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -864,7 +870,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "……………………………… 哈？相信？你、你…… 脑子没毛病吧？",
+   "text": "………………………………哈？相信？你、你……脑子没毛病吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -872,7 +878,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵，头脑简单的蝎子没办法理解吧…… 魔<r=BOSS></r>王就是这样的人。",
+   "text": "呵呵，头脑简单的蝎子没办法理解吧……魔<r=BOSS></r>王就是这样的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -896,7 +902,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "哈哈。少说梦话了…… 要是让你这只狐狸溜了，我们就有大麻烦了，还是请你乖乖死在这里吧。",
+   "text": "哈哈。少说梦话了……要是让你这只狐狸溜了，我们就有大麻烦了，还是请你乖乖死在这里吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -904,7 +910,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 这句话，我原封不动地还给你。",
+   "text": "呵呵……这句话，我原封不动地还给你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

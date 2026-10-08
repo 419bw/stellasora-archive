@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "拿起　它…… 然　后……　　　　　那些胆敢…… 对……　　　　　…… 魔<r=mowang></r>王　　 僭越的家伙！",
+   "text": "拿起　它……\n然　后……　　　　　那些胆敢……\n对……　　　　　……\n魔<r=mowang></r>王　　\n僭越的家伙！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "马车……北境……？ 头好晕……我这是在什么地方？",
+   "text": "马车……北境……？头好晕……我这是在什么地方？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "雇主……？我好像是参加了一个要到北境来的委托。 呃……脑袋好沉，思考都变得迟钝了。",
+   "text": "雇主……？我好像是参加了一个要到北境来的委托。呃……脑袋好沉，思考都变得迟钝了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢， 不过出发前，我的同伴应该给我一瓶水，好像是放在这……",
+   "text": "谢谢，不过出发前，我的同伴应该给我一瓶水，好像是放在这……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "就是这个，能量沛…… 哎？这…这是什么东西啊！？",
+   "text": "就是这个，能量沛……哎？这…这是什么东西啊！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嗯……这里，还有这里，缺损得还蛮严重的啊。 不过，坏掉的零件用新的替换应该就没问题啦。",
+   "text": "嗯……这里，还有这里，缺损得还蛮严重的啊。不过，坏掉的零件用新的替换应该就没问题啦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我倒是希望最好别真出什么事…… 谢了尘沙！回头见！",
+   "text": "我倒是希望最好别真出什么事……谢了尘沙！回头见！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "走掉了啊…… 真让人担心……",
+   "text": "走掉了啊……真让人担心……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "… …… …………",
+   "text": "…\n……\n…………",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "埃妲",
-   "text": "这里应该就没问题了， 很抱歉，因为涉及到到一些未公开的情报，我们的交谈必须保密。",
+   "text": "这里应该就没问题了，很抱歉，因为涉及到到一些未公开的情报，我们的交谈必须保密。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过，我需要你们预付一半的定金给到我的伙伴。 这趟出远门时间会比较久，我希望他们能得到一些保障。",
+   "text": "不过，我需要你们预付一半的定金给到我的伙伴。这趟出远门时间会比较久，我希望他们能得到一些保障。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呜……现在还是有点耳鸣…… 不过没什么问题。",
+   "text": "呜……现在还是有点耳鸣……不过没什么问题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -795,7 +795,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你是说极光？ 那其实是……",
+   "text": "你是说极光？那其实是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"

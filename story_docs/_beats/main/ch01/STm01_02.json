@@ -238,7 +238,7 @@
   {
    "k": "talk",
    "speaker": "店员",
-   "text": "没能帮上忙非常抱歉…… 贝修莉娜，送送客人。",
+   "text": "没能帮上忙非常抱歉……贝修莉娜，送送客人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -342,7 +342,10 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "说起来，我的你的确挂着一把钥匙。",
+   "text": {
+    "cn_f": "说起来，我的脖颈的确挂着一把钥匙。",
+    "cn_m": "说起来，我的腰间的确挂着一把钥匙。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -442,7 +445,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "吓死我了，尘沙， 能把游戏声音关掉吗？！",
+   "text": "吓死我了，尘沙，能把游戏声音关掉吗？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -550,7 +553,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真的打开了—— 咦，这是？",
+   "text": "真的打开了——咦，这是？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -662,7 +665,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是......我的脸？ 那下面就是我的名字吧，读起来有点熟悉。",
+   "text": "这是......我的脸？那下面就是我的名字吧，读起来有点熟悉。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -722,7 +725,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "瀵逛笉璧凤紝鎴戝彧鑳借繖涔堝仛 鎴戠埍浣狅紝，魔王",
+   "text": "瀵逛笉璧凤紝鎴戝彧鑳借繖涔堝仛\n鎴戠埍浣狅紝，魔王",
    "thought": false,
    "sticker": false,
    "channel": "msg"
@@ -730,7 +733,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃......有一条信息。 这根本看不懂啊，只能看出名字是我。",
+   "text": "呃......有一条信息。这根本看不懂啊，只能看出名字是我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -770,7 +773,7 @@
   {
    "k": "talk",
    "speaker": "贝修莉娜",
-   "text": "对，一号保险柜刚刚被打开。 有重要的事情要告诉客人吗？明白，我明白了，一定办好。",
+   "text": "对，一号保险柜刚刚被打开。有重要的事情要告诉客人吗？明白，我明白了，一定办好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

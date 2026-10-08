@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "吾！ 在此以上古喵喵之神的名义降下制裁！",
+   "text": "吾！在此以上古喵喵之神的名义降下制裁！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "红月临空， 血之门扉开启， 与喵神为敌之人将堕入诅咒的深渊——",
+   "text": "红月临空，血之门扉开启，与喵神为敌之人将堕入诅咒的深渊——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "魔神之眼—— 解·禁！ 烧毁一切吧！",
+   "text": "魔神之眼——解·禁！烧毁一切吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "配合演出的队员",
-   "text": "呜啊— —！",
+   "text": "呜啊——！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "配合演出的队员",
-   "text": "可恶！ 吃我这招！",
+   "text": "可恶！吃我这招！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "就凭这样的攻击，也想命中我猫眼大人？ 简直是痴心妄想！",
+   "text": "就凭这样的攻击，也想命中我猫眼大人？简直是痴心妄想！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "让你见识一下真正的黑暗之力吧！ 呀啊啊啊——",
+   "text": "让你见识一下真正的黑暗之力吧！呀啊啊啊——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "认真的孩子",
-   "text": "你们手里拿着的枪，是演戏用的道具吗？ 好厉害……做得跟真的一模一样呢。",
+   "text": "你们手里拿着的枪，是演戏用的道具吗？\n好厉害……做得跟真的一模一样呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "热心的白猫队员",
-   "text": "咳咳，猫眼， 我们还有任务在身……",
+   "text": "咳咳，猫眼，我们还有任务在身……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "担忧的白猫队员",
-   "text": "这几个孩子，明明年纪这么小，倒是挺懂事的…… 那个密涅瓦姐姐，是个什么样的人啊？",
+   "text": "这几个孩子，明明年纪这么小，倒是挺懂事的……\n那个密涅瓦姐姐，是个什么样的人啊？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -563,7 +563,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "让你见识一下真正的黑暗之力吧！ 呀啊啊啊——",
+   "text": "让你见识一下真正的黑暗之力吧！呀啊啊啊——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "嗯，确实是一场非常精彩的表演。 不仅完成了委托，连特别公演也饱受好评呢。",
+   "text": "嗯，确实是一场非常精彩的表演。不仅完成了委托，连特别公演也饱受好评呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -667,7 +667,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "我是密涅瓦。灰风俱乐部的负责人，现在嘛…… 也在兼职做旅人。",
+   "text": "我是密涅瓦。灰风俱乐部的负责人，现在嘛……也在兼职做旅人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "哼——…… 不对！！先不说这个！卡西米拉！把这么无聊的任务推给我，究竟是什么意思？什么溢出的星骸我是一个都没看见啊！",
+   "text": "哼——……不对！！先不说这个！卡西米拉！把这么无聊的任务推给我，究竟是什么意思？什么溢出的星骸我是一个都没看见啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,10 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "哦哦，这个啊。这附近的星骸，早就被我和魔<r=BOSS></r>王你们清理干净了。 你们这个委托，应该是地理协会为了以防万一再扫个尾而已。",
+   "text": {
+    "cn_f": "哦哦，这个啊。这附近的星骸，早就被我和魔<r=BOSS></r>王她们清理干净了。\n你们这个委托，应该是地理协会为了以防万一再扫个尾而已。",
+    "cn_m": "哦哦，这个啊。这附近的星骸，早就被我和魔<r=BOSS></r>王他们清理干净了。\n你们这个委托，应该是地理协会为了以防万一再扫个尾而已。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -755,7 +758,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "哼哼~当然没问题！ 等到诸位同胞们心中盈满黑暗之力之时…… 吾等便会再度现身！",
+   "text": "哼哼~当然没问题！\n等到诸位同胞们心中盈满黑暗之力之时……吾等便会再度现身！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

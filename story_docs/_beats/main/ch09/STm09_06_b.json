@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢你，蓝锥。 你们要不要留几块？",
+   "text": "谢谢你，蓝锥。你们要不要留几块？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -52,7 +52,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不是这个问题， 你们手里没有备用心相石，拯救委员会再次攻来，还守得住吗？",
+   "text": "不是这个问题，你们手里没有备用心相石，拯救委员会再次攻来，还守得住吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "卡西米拉",
-   "text": "不用担心孩子们，你又突围出去了，我们的行动就自由多了， 可以在米拉什的地上和矿道里和拯救委员会捉迷藏了。",
+   "text": "不用担心孩子们，你又突围出去了，我们的行动就自由多了，可以在米拉什的地上和矿道里和拯救委员会捉迷藏了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +76,7 @@
   {
    "k": "talk",
    "speaker": "猫眼",
-   "text": "哼哼哼，说到捉迷藏，猫眼大人可没输给过谁， 看我用黑暗之力把他们耍得团团转吧。",
+   "text": "哼哼哼，说到捉迷藏，猫眼大人可没输给过谁，看我用黑暗之力把他们耍得团团转吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "真是的，每次都想出这种超级危险，超级不在乎自己的计划， 真不知道你这个人是怎么想的！",
+   "text": "真是的，每次都想出这种超级危险，超级不在乎自己的计划，真不知道你这个人是怎么想的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我们的优势不只有我和卡西米拉分析的那些，还有一个之前一直被我们忽略的—— 幸运绿洲号的机动性。",
+   "text": "我们的优势不只有我和卡西米拉分析的那些，还有一个之前一直被我们忽略的——幸运绿洲号的机动性。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -164,7 +164,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "可是，一想到你要被那么多人追…… 还不如让我跟着去！",
+   "text": "可是，一想到你要被那么多人追……还不如让我跟着去！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -172,7 +172,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "主公，妾身也愿随行护卫， 若不能陪在您身边守护，妾身这颗心…… 根本平静不下来。",
+   "text": "主公，妾身也愿随行护卫，若不能陪在您身边守护，妾身这颗心……根本平静不下来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -180,7 +180,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我知道你们的担心。 但是，夏花，大家还要在米拉什和拯救委员会周旋下去，她们需要你的空中侦查。",
+   "text": "我知道你们的担心。但是，夏花，大家还要在米拉什和拯救委员会周旋下去，她们需要你的空中侦查。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -196,7 +196,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你这个人啊…… 总能想出一大堆道理来说服我们。 千都世，我们不和你讲，反正也讲不过。",
+   "text": {
+    "cn_f": "你这个人啊……总能想出一大堆道理来说服我们。千都世，我们不和她讲，反正也讲不过。",
+    "cn_m": "你这个人啊……总能想出一大堆道理来说服我们。千都世，我们不和他讲，反正也讲不过。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -204,7 +207,10 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "等你冲出包围，米拉什也安全了，我就带你飞着去找你。",
+   "text": {
+    "cn_f": "等她冲出包围，米拉什也安全了，我就带你飞着去找她。",
+    "cn_m": "等他冲出包围，米拉什也安全了，我就带你飞着去找他。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -220,7 +226,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你们两个人的关系什么时候变得那么好了…… 嘛，这也算是好事吧。",
+   "text": "你们两个人的关系什么时候变得那么好了……嘛，这也算是好事吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -252,7 +258,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好，我们出发了。 鸢尾，带安琪上车。",
+   "text": "好，我们出发了。鸢尾，带安琪上车。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +266,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "鸢尾押着双手被捆住的安琪走上幸运绿洲号， 我迎着即将落下的夕阳，将加速踏板一踩到底。",
+   "text": "鸢尾押着双手被捆住的安琪走上幸运绿洲号，我迎着即将落下的夕阳，将加速踏板一踩到底。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -290,7 +296,7 @@
   {
    "k": "talk",
    "speaker": "精锐的委员会成员",
-   "text": "应该…… 不是， 委员长给我们的名单上没有她，但她的魔法和永夜很像， 我们实在无法判断，只能把她带回来交给您判断。",
+   "text": "应该……不是，委员长给我们的名单上没有她，但她的魔法和永夜很像，我们实在无法判断，只能把她带回来交给您判断。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -314,7 +320,7 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "害怕得说不出话了么。 那…… 不好意思，请让我摸一下你的头。",
+   "text": "害怕得说不出话了么。那……不好意思，请让我摸一下你的头。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -322,7 +328,7 @@
   {
    "k": "talk",
    "speaker": "冈希尔德",
-   "text": "没有角， 魔力用的是心相石里的恩赐。",
+   "text": "没有角，魔力用的是心相石里的恩赐。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -354,7 +360,7 @@
   {
    "k": "talk",
    "speaker": "格蕾霍恩",
-   "text": "冈希尔德，来这边一下，有重要情况， 咳咳——",
+   "text": "冈希尔德，来这边一下，有重要情况，咳咳——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -432,7 +438,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "可以是可以，但你可不要想着逃跑， 死之权杖就顶在你的后心上。",
+   "text": "可以是可以，但你可不要想着逃跑，死之权杖就顶在你的后心上。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -456,7 +462,10 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "所以，我才想在菲莱偷袭魔<r=mowang></r>王。 这样，损失的只是你和我—— 两条命而已， 你看，是不是比战火蔓延到米拉什要好得多？",
+   "text": {
+    "cn_f": "所以，我才想在菲莱偷袭魔<r=mowang></r>王。这样，损失的只是她和我——两条命而已，你看，是不是比战火蔓延到米拉什要好得多？",
+    "cn_m": "所以，我才想在菲莱偷袭魔<r=mowang></r>王。这样，损失的只是他和我——两条命而已，你看，是不是比战火蔓延到米拉什要好得多？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -464,7 +473,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "这是什么歪理！ 如果不是你非要相信那个什么《恩赐预言书》，根本不会发生这些事， 这些天我查过了，那本书连作者都不知道，根本无法确保真实性。",
+   "text": "这是什么歪理！如果不是你非要相信那个什么《恩赐预言书》，根本不会发生这些事，这些天我查过了，那本书连作者都不知道，根本无法确保真实性。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -496,7 +505,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "好努力呢，如果有时间的话，我们还真可以讨论一下， 不过…… 还是先看看窗外吧，我的同伴已经追上来了哦。",
+   "text": "好努力呢，如果有时间的话，我们还真可以讨论一下，不过……还是先看看窗外吧，我的同伴已经追上来了哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -512,7 +521,7 @@
   {
    "k": "talk",
    "speaker": "施法的委员会成员",
-   "text": "火焰， 聚集吧——",
+   "text": "火焰，聚集吧——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -528,7 +537,7 @@
   {
    "k": "talk",
    "speaker": "施法的委员会成员",
-   "text": "法，法杖被冻住了？！ 怎么会有这么大范围的冰冻魔法？那车里到底坐着什么人？！",
+   "text": "法，法杖被冻住了？！怎么会有这么大范围的冰冻魔法？那车里到底坐着什么人？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -544,7 +553,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "等等，我手里的心相石怎么空了？ 刚才那个魔法一下子就用光了一枚心相石里的恩赐？！",
+   "text": "等等，我手里的心相石怎么空了？刚才那个魔法一下子就用光了一枚心相石里的恩赐？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -592,7 +601,7 @@
   {
    "k": "talk",
    "speaker": "精锐的委员会成员",
-   "text": "可恶，这两个旅人是从哪里冒出来的？ 挡住她的射击。",
+   "text": "可恶，这两个旅人是从哪里冒出来的？挡住她的射击。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -616,7 +625,7 @@
   {
    "k": "talk",
    "speaker": "格蕾霍恩",
-   "text": "咳咳， 魔<r=mowang></r>王这一手还真是厉害，这么快就抓到了战术的唯一漏洞——",
+   "text": "咳咳，魔<r=mowang></r>王这一手还真是厉害，这么快就抓到了战术的唯一漏洞——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -760,7 +769,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "你今天好像……格外在乎我们。 不，自私一点地说，你今天好像特别在乎我。",
+   "text": "你今天好像……格外在乎我们。不，自私一点地说，你今天好像特别在乎我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -776,7 +785,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "还好，最后的“逃走大作战”，你还是选了我们， 你没有忘记…… 我们抵达米拉什的那天晚上，我们四个人之间的约定呢。",
+   "text": "还好，最后的“逃走大作战”，你还是选了我们，你没有忘记……我们抵达米拉什的那天晚上，我们四个人之间的约定呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -824,7 +833,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "第一次并肩作战，就要面对那样恐怖的怪物，还真是乱来啊。 那种压倒性的差距，任谁看了都会觉得我们毫无胜算—— 无论如何也跨越不过去的绝望。",
+   "text": "第一次并肩作战，就要面对那样恐怖的怪物，还真是乱来啊。那种压倒性的差距，任谁看了都会觉得我们毫无胜算——无论如何也跨越不过去的绝望。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -872,7 +881,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "沙蝎希望尽快结束这场战斗， 就算不能结束，也请他们去别的地方打啊，再这么折腾下去，我们的晶钻矿都要塌了。",
+   "text": "沙蝎希望尽快结束这场战斗，就算不能结束，也请他们去别的地方打啊，再这么折腾下去，我们的晶钻矿都要塌了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -888,7 +897,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "此一时彼一时， 那时候我觉得拯救委员会能速胜的，就小小帮了一手，没想到那些人的布置完全被魔<r=BOSS></r>王看破了。",
+   "text": "此一时彼一时，那时候我觉得拯救委员会能速胜的，就小小帮了一手，没想到那些人的布置完全被魔<r=BOSS></r>王看破了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -896,7 +905,7 @@
   {
    "k": "talk",
    "speaker": "哈萨娜",
-   "text": "幸好魔<r=BOSS></r>王那边无人受伤，不至于结仇。 现在，我们该反过来帮魔<r=BOSS></r>王了， 当然，也不能让拯救委员会看出来找我们的麻烦。",
+   "text": "幸好魔<r=BOSS></r>王那边无人受伤，不至于结仇。现在，我们该反过来帮魔<r=BOSS></r>王了，当然，也不能让拯救委员会看出来找我们的麻烦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -920,7 +929,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "黄沙凝聚成的巨人在拯救委员会竖起的沙墙前站起， 而后像是魔力失控般崩塌了下来。",
+   "text": "黄沙凝聚成的巨人在拯救委员会竖起的沙墙前站起，而后像是魔力失控般崩塌了下来。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -960,7 +969,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "沙丘顶端，幸运绿洲号在空中划出一道完美的弧线， 越过格蕾霍恩和冈希尔德的头顶，落在无垠的沙漠中。",
+   "text": "沙丘顶端，幸运绿洲号在空中划出一道完美的弧线，越过格蕾霍恩和冈希尔德的头顶，落在无垠的沙漠中。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -998,7 +1007,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那就好， 我们的恩赐有点不够了，能不能派人来接应我们一下？",
+   "text": "那就好，我们的恩赐有点不够了，能不能派人来接应我们一下？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1006,7 +1015,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "雾语、夏花还有千都世几天前就出发去找你了，她们带着足够多的心相石， 说起来，你们跑得真远啊。",
+   "text": "雾语、夏花还有千都世几天前就出发去找你了，她们带着足够多的心相石，说起来，你们跑得真远啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1014,7 +1023,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没办法啦，本来我们是想逃出米拉什后，就向东开和你们汇合的， 结果格蕾霍恩的指挥还挺厉害的，我们完全绕不到东边，只能一路向着西北狂奔。",
+   "text": "没办法啦，本来我们是想逃出米拉什后，就向东开和你们汇合的，结果格蕾霍恩的指挥还挺厉害的，我们完全绕不到东边，只能一路向着西北狂奔。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1030,7 +1039,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "现在我们已经向回返了，应该很快就能遇到雾语她们，我先联系一下。 再见，翡冷翠。",
+   "text": "现在我们已经向回返了，应该很快就能遇到雾语她们，我先联系一下。再见，翡冷翠。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1054,7 +1063,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然中间遇到了种种波折，还意外地帮拯救委员会“增强”了一次战斗力， 但现在都结束了。",
+   "text": "虽然中间遇到了种种波折，还意外地帮拯救委员会“增强”了一次战斗力，但现在都结束了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1070,7 +1079,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "魔<r=mowang></r>王， 一切真的结束了吗？",
+   "text": "魔<r=mowang></r>王，一切真的结束了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1078,7 +1087,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "此时此刻，我依旧没有放弃杀掉你哦，魔<r=mowang></r>王， 并且，我依旧有十足的把握可以杀掉你。",
+   "text": "此时此刻，我依旧没有放弃杀掉你哦，魔<r=mowang></r>王，并且，我依旧有十足的把握可以杀掉你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1110,7 +1119,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "你，你们快来看…… 沙，沙漠消失了。",
+   "text": "你，你们快来看……沙，沙漠消失了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1124,7 +1133,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这里是…… 大海？！沙漠里怎么会有大海？",
+   "text": "这里是……大海？！沙漠里怎么会有大海？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1156,7 +1165,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "喂，夏花，你们现在在哪？ 我们这边遇到了点麻烦，得花点时间才能和你们汇合了。",
+   "text": "喂，夏花，你们现在在哪？我们这边遇到了点麻烦，得花点时间才能和你们汇合了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1180,7 +1189,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "想要看到真正的世界尽头，你们还需要向西行驶上数天， 越过流沙和山脉，一直行驶到沙漠和大海交接的地方。",
+   "text": "想要看到真正的世界尽头，你们还需要向西行驶上数天，越过流沙和山脉，一直行驶到沙漠和大海交接的地方。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1196,7 +1205,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "上一次，安琪在谈判时的确这么说过。 难道，眼前的海是…… 不会吧！",
+   "text": "上一次，安琪在谈判时的确这么说过。难道，眼前的海是……不会吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1228,7 +1237,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "主公…… 在海的另一边？",
+   "text": "主公……在海的另一边？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1236,7 +1245,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "哈哈， 哈哈哈哈——",
+   "text": "哈哈，哈哈哈哈——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1260,7 +1269,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "诺瓦大陆的西北角因为没有星塔，本就是毁灭最严重的地方， 你们只顾着把拯救委员会引入死地，却没意识到你们这么做也让自己踏入了死地。",
+   "text": "诺瓦大陆的西北角因为没有星塔，本就是毁灭最严重的地方，你们只顾着把拯救委员会引入死地，却没意识到你们这么做也让自己踏入了死地。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1276,7 +1285,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "对， 雾语， 我们去接魔<r=BOSS></r>王。",
+   "text": "对，雾语，我们去接魔<r=BOSS></r>王。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1284,7 +1293,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不，不行—— 在海面上根本飞不起来，这里的空气中怎么有这么多魔力，根本操纵不了扫把。",
+   "text": "不，不行——在海面上根本飞不起来，这里的空气中怎么有这么多魔力，根本操纵不了扫把。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1292,7 +1301,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "怎么会—— 呜——",
+   "text": "怎么会——呜——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1356,7 +1365,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "呵呵，再见了， 魔<r=mowang></r>王， 这样的结局——我很满足。",
+   "text": "呵呵，再见了，魔<r=mowang></r>王，这样的结局——我很满足。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1428,7 +1437,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "大地崩裂引发的魔力乱流，化作一道狂暴的屏障 隔开了我们所在的沙漠“碎片”和诺瓦",
+   "text": "大地崩裂引发的魔力乱流，化作一道狂暴的屏障\n隔开了我们所在的沙漠“碎片”和诺瓦",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1436,7 +1445,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "诺瓦的河运固然发达，但海运却早已荒废 距离我们最近的船只全速赶来也要一个月的时间",
+   "text": "诺瓦的河运固然发达，但海运却早已荒废\n距离我们最近的船只全速赶来也要一个月的时间",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1500,7 +1509,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "那个，刚刚你昏过去了，没有听到尘沙和琥珀最后的话语， 我，我帮她们再说一次，咳咳咳——",
+   "text": "那个，刚刚你昏过去了，没有听到尘沙和琥珀最后的话语，我，我帮她们再说一次，咳咳咳——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1594,7 +1603,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咳—— 呃—— 嗓子不疼了，我，我现在可以说话了？",
+   "text": "咳——呃——嗓子不疼了，我，我现在可以说话了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1610,7 +1619,7 @@
   {
    "k": "talk",
    "speaker": "维嘉尔",
-   "text": "这一次，您真的受苦了呢， 在那种烈日的炙烤下，身体里的水分一点点流失的感觉我很明白呢。",
+   "text": "这一次，您真的受苦了呢，在那种烈日的炙烤下，身体里的水分一点点流失的感觉我很明白呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1618,7 +1627,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "不过，能和最重要的同伴，以及一直以来的“家”埋葬在同一片沙漠里，或许还挺幸福的， 有很多人，连这点都求不得呢。",
+   "text": "不过，能和最重要的同伴，以及一直以来的“家”埋葬在同一片沙漠里，或许还挺幸福的，有很多人，连这点都求不得呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1626,7 +1635,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我…… 我又失败了， 还连累了更多的同伴陪我一起经受折磨。",
+   "text": "我……我又失败了，还连累了更多的同伴陪我一起经受折磨。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1634,7 +1643,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "还有，世界毁灭…… 竟然是真的……",
+   "text": "还有，世界毁灭……竟然是真的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1666,7 +1675,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我明白了。 维塔，你呢？你知不知道？ 不对，你就算知道，也会说——",
+   "text": "我明白了。维塔，你呢？你知不知道？不对，你就算知道，也会说——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1796,7 +1805,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "哎？魔<r=BOSS></r>王，你在说什么啊， 我们只有这么几个人……",
+   "text": "哎？魔<r=BOSS></r>王，你在说什么啊，我们只有这么几个人……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1804,7 +1813,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "足够了， 只要能进入那座星塔，我们就能以弱胜强，逆转战局。",
+   "text": "足够了，只要能进入那座星塔，我们就能以弱胜强，逆转战局。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

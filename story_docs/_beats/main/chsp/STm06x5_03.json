@@ -22,7 +22,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是…… 赤裸裸的威胁……！？",
+   "text": "这是……赤裸裸的威胁……！？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -38,7 +38,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 尘沙、琥珀、鸢尾，她们可能也有危险，得赶紧和大家汇合。",
+   "text": "……尘沙、琥珀、鸢尾，她们可能也有危险，得赶紧和大家汇合。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -62,7 +62,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不好意思，打扰你们休息了。 有人在我门口放了这个。",
+   "text": "不好意思，打扰你们休息了。\n有人在我门口放了这个。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -70,7 +70,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "魔王的照片？还挺好看的嘛。 不对，为什么脸上被画了个红叉？！",
+   "text": "魔王的照片？还挺好看的嘛。不对，为什么脸上被画了个红叉？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -102,7 +102,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "这，这该不会是什么…… “作案预告”吧？",
+   "text": "这，这该不会是什么……“作案预告”吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -110,7 +110,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "很有可能。如果我退出了晚宴，或者没有退出却在晚宴上受到了攻击，引发了骚动， 那就做实了翡冷翠没有能力管理菲莱分公司的事实。",
+   "text": "很有可能。如果我退出了晚宴，或者没有退出却在晚宴上受到了攻击，引发了骚动，那就做实了翡冷翠没有能力管理菲莱分公司的事实。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -166,7 +166,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "唔，有道理呢， 干脆我们来保护魔<r=BOSS></r>王好了。",
+   "text": "唔，有道理呢，干脆我们来保护魔<r=BOSS></r>王好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -254,7 +254,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊……可能听起来有点奇怪。 她确实是个女仆，但是……她应该也很擅长保镖的工作！",
+   "text": "啊……可能听起来有点奇怪。她确实是个女仆，但是……她应该也很擅长保镖的工作！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -334,7 +334,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢你们的好意…… 咳咳，那为了安全，大家一起睡吧。",
+   "text": "谢谢你们的好意……咳咳，那为了安全，大家一起睡吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -372,7 +372,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谷风家政这地方也太难找了…… 不过，好漂亮的房子啊。",
+   "text": "谷风家政这地方也太难找了……不过，好漂亮的房子啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +388,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "琥珀？怎么这么严肃…… 出什么事了？",
+   "text": "琥珀？怎么这么严肃……出什么事了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -412,7 +412,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "气息消失了……是察觉到了吗？ 好像……是很强的人。",
+   "text": "气息消失了……是察觉到了吗？好像……是很强的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -436,7 +436,7 @@
   {
    "k": "talk",
    "speaker": "？？？",
-   "text": "哦？我还以为是谁呢…… 原来是您啊。",
+   "text": "哦？我还以为是谁呢……\n原来是您啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -500,7 +500,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我一时疏忽，看错门牌误入了她的房间…… 实在抱歉，见笑了。",
+   "text": "我一时疏忽，看错门牌误入了她的房间……实在抱歉，见笑了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -508,7 +508,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵，请别放在心上。虽说确有些惊诧，不过也算是个愉快的邂逅。 那您今日莅临，又所为何事呢？",
+   "text": "呵呵，请别放在心上。虽说确有些惊诧，不过也算是个愉快的邂逅。那您今日莅临，又所为何事呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -524,7 +524,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "花原啊…… 她最近在外执行任务，恐怕无暇抽身。若有要事，您可直接与我详谈。",
+   "text": "花原啊……她最近在外执行任务，恐怕无暇抽身。若有要事，您可直接与我详谈。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -540,7 +540,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "了解了。 非常荣幸您选择了谷风家政，我们一定不会辜负您的期待。",
+   "text": "了解了。\n非常荣幸您选择了谷风家政，我们一定不会辜负您的期待。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -588,7 +588,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "这两位不明人士似乎一路在跟踪您，我替您解决了她们。 就当是送给二位的“见面礼”吧。",
+   "text": "这两位不明人士似乎一路在跟踪您，我替您解决了她们。\n就当是送给二位的“见面礼”吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -684,7 +684,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "原来如此…… 总之，您需要一位可靠的保镖，在暗中保护您的安全。",
+   "text": "原来如此……总之，您需要一位可靠的保镖，在暗中保护您的安全。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -700,7 +700,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 您不会觉得，这件事就到此为止了吧？",
+   "text": "呵呵……您不会觉得，这件事就到此为止了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -732,7 +732,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "您的人身安危依然存在着威胁…… 此时掉以轻心，可是大忌。",
+   "text": "您的人身安危依然存在着威胁……\n此时掉以轻心，可是大忌。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -812,7 +812,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "其实……我作为菲莱分部的总管，本就打算登门拜访您。 今日在这里等到您，真是缘分呢。",
+   "text": "其实……我作为菲莱分部的总管，本就打算登门拜访您。\n今日在这里等到您，真是缘分呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -828,7 +828,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "正是如此，可惜昨天与您相见太过突然，我又临时有事，只能先离开了酒店。 没能正式结识您，实属遗憾。",
+   "text": "正是如此，可惜昨天与您相见太过突然，我又临时有事，只能先离开了酒店。\n没能正式结识您，实属遗憾。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -836,7 +836,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "这个“保镖”的委托，就当作是我的谢礼吧。 我不会收取任何费用，相对的——",
+   "text": "这个“保镖”的委托，就当作是我的谢礼吧。\n我不会收取任何费用，相对的——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -852,7 +852,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "如果让其他人知道，谷风家政的总管居然愿意免费出勤……那我们以后的生意可不好做了—— 也就是说，您这回，只能当作“特例”。",
+   "text": "如果让其他人知道，谷风家政的总管居然愿意免费出勤……那我们以后的生意可不好做了——也就是说，您这回，只能当作“特例”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -884,7 +884,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不管你听过什么传闻…… 总之，你愿意接下这个委托就好。",
+   "text": "不管你听过什么传闻……\n总之，你愿意接下这个委托就好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -892,7 +892,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "委托内容很简单——直到晚宴结束，保证我平安无事…… 我的安全，拜托你了。",
+   "text": "委托内容很简单——直到晚宴结束，保证我平安无事……\n我的安全，拜托你了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

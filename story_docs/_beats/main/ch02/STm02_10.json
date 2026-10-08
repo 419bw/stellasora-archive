@@ -108,7 +108,7 @@
   {
    "k": "talk",
    "speaker": "白发少女",
-   "text": "这些星骸，是菲金的仇恨—— 不，只是仇恨还不够，是比那更深层次的、更加黑暗的情感所孕育出来的……",
+   "text": "这些星骸，是菲金的仇恨——不，只是仇恨还不够，是比那更深层次的、更加黑暗的情感所孕育出来的……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -148,7 +148,7 @@
   {
    "k": "talk",
    "speaker": "白发少女",
-   "text": "你们说的的确有道理， 但是——战争可是世界上最不讲道理的事情了。",
+   "text": "你们说的的确有道理，但是——战争可是世界上最不讲道理的事情了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -172,7 +172,7 @@
   {
    "k": "talk",
    "speaker": "白发少女",
-   "text": "追随？ 可笑——",
+   "text": "追随？可笑——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -284,7 +284,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "等等，那个大块头—— 居然冲着灰城区去了！",
+   "text": "等等，那个大块头——  居然冲着灰城区去了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -356,7 +356,7 @@
   {
    "k": "talk",
    "speaker": "慌乱的孩子",
-   "text": "呜——啊！！ 妈妈。",
+   "text": "呜——啊！！妈妈。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -608,7 +608,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白， 这里就拜托你了。",
+   "text": "明白，这里就拜托你了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -672,7 +672,10 @@
   {
    "k": "talk",
    "speaker": "极光",
-   "text": "哈。既然你这么想打，我就成全你。",
+   "text": {
+    "cn_f": "哈。既然你这么想打，我就成全你。",
+    "jp_f": "哈。既然你这么想打……就让你见识一下我的真面目吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -688,7 +691,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "看来……她极有可能在准备释放魔法。是右手？不对，是左手。",
+   "text": {
+    "cn_f": "看来……她极有可能在准备释放魔法。是右手？不对，是左手。",
+    "jp_f": "看起来……她似乎还有什么魔法招式隐藏至今。是右手吗？不对……是左手。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -712,7 +718,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "那么这一击，就作为你妄图夺去妾身性命的谢礼……做好觉悟吧。",
+   "text": {
+    "cn_f": "那么这一击，就作为你妄图夺去妾身性命的谢礼……做好觉悟吧。",
+    "jp_f": "那么妾身也……将用这一击，斩断你的阴谋……请做好觉悟吧——！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -728,7 +737,10 @@
   {
    "k": "talk",
    "speaker": "极光",
-   "text": "哈哈哈……真令人惊讶。",
+   "text": {
+    "cn_f": "哈哈哈……真令人惊讶。",
+    "jp_f": "咕……这不可能……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -736,7 +748,10 @@
   {
    "k": "talk",
    "speaker": "极光",
-   "text": "没想到在诺瓦，竟然还存在这样令人敬佩的武者。",
+   "text": {
+    "cn_f": "没想到在诺瓦，竟然还存在这样令人敬佩的武者。",
+    "jp_f": "没想到在诺瓦，竟还有这样的怪物……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -744,7 +759,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "妾身并非武者，只是一柄主公的刀罢了。",
+   "text": {
+    "cn_f": "妾身并非武者，只是一柄主公的刀罢了。",
+    "jp_f": "妾身并非是什么怪物。妾身是……属于主公的刀。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -752,7 +770,10 @@
   {
    "k": "talk",
    "speaker": "极光",
-   "text": "不过下次，可别以为还能赢了。",
+   "text": {
+    "cn_f": "不过下次，可别以为还能赢了。",
+    "jp_f": "下次……可别以为会像这次一样顺利。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -760,7 +781,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "不论再来几次，妾身一定奉陪。",
+   "text": {
+    "cn_f": "不论再来几次，妾身一定奉陪。",
+    "jp_f": "无论尝试多少次，结果都不会改变。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -768,7 +792,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "呼……妾身自小修炼的便是无需魔法加持的拔刀术。此番战斗，妾身尚显锋芒不足，看来还需精进。",
+   "text": {
+    "cn_f": "呼……妾身自小修炼的便是无需魔法加持的拔刀术。此番战斗，妾身尚显锋芒不足，看来还需精进。",
+    "jp_f": "呼……妾身自小修炼的便是无需魔法加持的拔刀术。也就是说……此战、又借用了师父的力量。\n看来妾身的技艺，仍需精进。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -776,7 +803,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "……嗯？只剩这些星骸吗。",
+   "text": {
+    "cn_f": "……嗯？只剩这些星骸吗。",
+    "jp_f": "……嗯？只剩这些残余之敌了吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -784,7 +814,10 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "可惜，妾身绝不会让你们通过此地。",
+   "text": {
+    "cn_f": "可惜，妾身绝不会让你们通过此地。",
+    "jp_f": "反省的事先暂且搁置。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -808,7 +841,10 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "充能完毕，发射。",
+   "text": {
+    "cn_f": "充能完毕，发射。",
+    "jp_f": "——就是那里！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -824,7 +860,10 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "干得好，琥珀！那我就按照计划去水道桥啦！",
+   "text": {
+    "cn_f": "干得好，琥珀！那我就按照计划去水道桥啦！",
+    "jp_f": "干得好！那我就按照计划去水道桥啦！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

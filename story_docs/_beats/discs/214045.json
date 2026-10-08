@@ -22,7 +22,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "今晚24时，我将前来取走美丽的纯白之棋。 无名怪盗",
+   "text": "今晚24时，我将前来取走美丽的纯白之棋。\n无名怪盗",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -30,7 +30,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是…… 犯罪预告吗？ “美丽的纯白之棋”…… 是指恩赐印章吗？",
+   "text": "这是……犯罪预告吗？“美丽的纯白之棋”……是指恩赐印章吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -38,7 +38,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过这个怪盗的名字…… 完全没有听过啊，难道是恶作剧？ 但话又说回来，如果不是恶作剧的话……",
+   "text": "不过这个怪盗的名字……完全没有听过啊，难道是恶作剧？但话又说回来，如果不是恶作剧的话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -46,7 +46,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "怎么办呢…… 空白旅团的大家在处理委托，要后天才回来，光靠我一个人的话，怪盗来了瞬间就能把东西抢走吧……",
+   "text": "怎么办呢……空白旅团的大家在处理委托，要后天才回来，光靠我一个人的话，怪盗来了瞬间就能把东西抢走吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -54,7 +54,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊，对了—— 上次那张名片还在，去谷风家政咨询一下吧……",
+   "text": "啊，对了——上次那张名片还在，去谷风家政咨询一下吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -62,7 +62,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "怎么还没来啊…… 见面地点应该就是这附近才对。",
+   "text": "怎么还没来啊……见面地点应该就是这附近才对。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -70,7 +70,7 @@
   {
    "k": "talk",
    "speaker": "活力的女仆少女",
-   "text": "久等啦！谷风家政上门服务！ 您就是要请女仆的魔王对吧？",
+   "text": "久等啦！谷风家政上门服务！您就是要请女仆的魔王对吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -78,7 +78,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？ 啊…… 对，是我请了女仆。不过你是……？",
+   "text": "嗯？啊……对，是我请了女仆。不过你是……？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -86,7 +86,7 @@
   {
    "k": "talk",
    "speaker": "活力的女仆少女",
-   "text": "前辈们最近太忙了，实在抽不开身，所以组织派我来执行本次委托。 我会好好保护您的，请放心吧！",
+   "text": "前辈们最近太忙了，实在抽不开身，所以组织派我来执行本次委托。我会好好保护您的，请放心吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -94,7 +94,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我明白了…… 行，那就拜托了。",
+   "text": "我明白了……行，那就拜托了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -102,7 +102,7 @@
   {
    "k": "talk",
    "speaker": "活力的女仆少女",
-   "text": "包在我身上！ 不过委托开始之前，我能先看看那枚印章吗？",
+   "text": "包在我身上！不过委托开始之前，我能先看看那枚印章吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -118,7 +118,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说得也是。 印章在——",
+   "text": "说得也是。印章在——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -126,7 +126,7 @@
   {
    "k": "talk",
    "speaker": "活力的女仆少女",
-   "text": "呵呵…… 您还是这么好骗。",
+   "text": "呵呵……您还是这么好骗。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -134,7 +134,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯？这个语气…… 你是？！",
+   "text": "嗯？这个语气……你是？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -142,7 +142,7 @@
   {
    "k": "talk",
    "speaker": "活力的女仆少女",
-   "text": "您还是提高警惕吧。 我要是怪盗，印章早就被我顺走了。",
+   "text": "您还是提高警惕吧。我要是怪盗，印章早就被我顺走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -150,7 +150,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "乙叶！？ 怎、怎么是你？！",
+   "text": "乙叶！？怎、怎么是你？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -158,7 +158,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "外表和声音简直判若两人，我完全没有发现…… 哇啊！？",
+   "text": "外表和声音简直判若两人，我完全没有发现……哇啊！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -166,7 +166,7 @@
   {
    "k": "talk",
    "speaker": "路人",
-   "text": "对、对不起！我赶时间！ 真的很抱歉——",
+   "text": "对、对不起！我赶时间！真的很抱歉——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -174,7 +174,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真是的…… 再急也得好好看路啊。 不好意思啊，乙叶……",
+   "text": "真是的……再急也得好好看路啊。不好意思啊，乙叶……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -190,7 +190,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "刚刚还在这里…… 这一眨眼去哪了？",
+   "text": "刚刚还在这里……这一眨眼去哪了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -214,7 +214,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "分身？！ 也就是说，从刚刚开始和我说话的都是……",
+   "text": "分身？！也就是说，从刚刚开始和我说话的都是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -222,7 +222,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "如您所想，那个谷风家政的人只是一个魔法技巧制造出来的幻象。 怎么样，是不是天衣无缝？",
+   "text": "如您所想，那个谷风家政的人只是一个魔法技巧制造出来的幻象。怎么样，是不是天衣无缝？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -230,7 +230,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "确实很厉害…… 但这么厉害的技术，为什么要用在我身上？",
+   "text": "确实很厉害……但这么厉害的技术，为什么要用在我身上？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -238,7 +238,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "这还用问吗？ 自然是为了欣赏您惊慌失措的样子了~",
+   "text": "这还用问吗？自然是为了欣赏您惊慌失措的样子了~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -254,7 +254,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "嗯…… 是怪盗的预告信啊。",
+   "text": "嗯……是怪盗的预告信啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -270,7 +270,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "当然没问题…… 不过魔<r=BOSS></r>王？ 您不觉得这封预告信很可疑吗？ 说不定是我自导自演—— 你没有怀疑过吗？",
+   "text": "当然没问题……不过魔<r=BOSS></r>王？您不觉得这封预告信很可疑吗？说不定是我自导自演——你没有怀疑过吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -286,7 +286,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "谁知道呢？ 说不定是我太想见魔<r=BOSS></r>王，所以才演了这出戏呢？",
+   "text": "谁知道呢？说不定是我太想见魔<r=BOSS></r>王，所以才演了这出戏呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -302,7 +302,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "就算是有不好对我直说的事，你也应该会假装成我亲近的人来接近我。 你要是动真格了，根本不会露出任何破绽。",
+   "text": "就算是有不好对我直说的事，你也应该会假装成我亲近的人来接近我。你要是动真格了，根本不会露出任何破绽。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -318,7 +318,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 连我故意装出破绽被看穿这点，分析得很有道理。",
+   "text": "呵呵……连我故意装出破绽被看穿这点，分析得很有道理。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -326,7 +326,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "抱歉用这种方式试探您。 正如您所想的那样，这件事和我毫无关系。",
+   "text": "抱歉用这种方式试探您。正如您所想的那样，这件事和我毫无关系。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -342,7 +342,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "再拉条绳固定住…… 好，这样就行了吧。",
+   "text": "再拉条绳固定住……好，这样就行了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -374,7 +374,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好痛！！？ 小、小腿！ 我的小腿啊啊啊啊啊啊！！！！",
+   "text": "好痛！！？小、小腿！我的小腿啊啊啊啊啊啊！！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -382,7 +382,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "您真是…… 这附近我已经布好陷阱了，请您不要随意走动。",
+   "text": "您真是……这附近我已经布好陷阱了，请您不要随意走动。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -398,7 +398,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我没事。 只是这个陷阱被我弄坏了，抱歉……",
+   "text": "我没事。只是这个陷阱被我弄坏了，抱歉……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -406,7 +406,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "您不必放在心上。 只是一个陷阱而已—— 好了，已经复原了。",
+   "text": "您不必放在心上。只是一个陷阱而已——好了，已经复原了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -414,7 +414,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好、好厉害…… 眨眼的功夫就弄好了，我光是布置一个就花了那么多时间……",
+   "text": "好、好厉害……眨眼的功夫就弄好了，我光是布置一个就花了那么多时间……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -430,7 +430,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "除了魔<r=BOSS></r>王刚才踩中的击打小腿陷阱之外，还有飞箭、滚石、爆炸…… 我设置了各种各样有趣—— 令人愉快的陷阱。",
+   "text": "除了魔<r=BOSS></r>王刚才踩中的击打小腿陷阱之外，还有飞箭、滚石、爆炸……我设置了各种各样有趣——令人愉快的陷阱。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -438,7 +438,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你这个补充说明未免有点太吓人了…… 还好我踩中的算安全的那种。",
+   "text": "你这个补充说明未免有点太吓人了……还好我踩中的算安全的那种。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -454,7 +454,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "放心吧。 我已经散布谣言说这里发现了危险物，明天一整天都能糊弄过去。",
+   "text": "放心吧。我已经散布谣言说这里发现了危险物，明天一整天都能糊弄过去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -462,7 +462,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真不愧是你…… 滴水不漏。",
+   "text": "真不愧是你……滴水不漏。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -478,7 +478,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "那么—— 准备就到这儿。接下来就边吃甜点喝茶，边慢慢等对方上门吧。",
+   "text": "那么——准备就到这儿。接下来就边吃甜点喝茶，边慢慢等对方上门吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -486,7 +486,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "魔<r=BOSS></r>王…… 您准备好了吗？",
+   "text": "魔<r=BOSS></r>王……您准备好了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -502,7 +502,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "就是这个气势。那么，距离零点还有…… 三， 二， 一——",
+   "text": "就是这个气势。那么，距离零点还有……三，二，一——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -534,7 +534,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "太、太狠了…… 到底设了多少陷阱啊……",
+   "text": "太、太狠了……到底设了多少陷阱啊……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -558,7 +558,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "哎呀。居然还能站得起来，可真够结实的呢。 魔<r=BOSS></r>王，请您别动。",
+   "text": "哎呀。居然还能站得起来，可真够结实的呢。魔<r=BOSS></r>王，请您别动。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -574,7 +574,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "我既受雇于人，就该用尽全力回应委托人的期待。呵呵…… 做好觉悟吧。",
+   "text": "我既受雇于人，就该用尽全力回应委托人的期待。呵呵……做好觉悟吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -582,7 +582,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "嗯？那把伞是…… 难、难道那是武器！？",
+   "text": "嗯？那把伞是……难、难道那是武器！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -598,7 +598,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "您看起来已经相当疲惫了…… 差不多该放弃了吧？",
+   "text": "您看起来已经相当疲惫了……差不多该放弃了吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -622,7 +622,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "哈哈哈！！这就是你刚才那份“礼物”的回礼！ 怎么样？尝尝我的魔法滋味！",
+   "text": "哈哈哈！！这就是你刚才那份“礼物”的回礼！\n怎么样？尝尝我的魔法滋味！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -654,7 +654,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "分、分身魔法……！？ 原来如此，我还以为打倒的是你，结果是你的分身吗！",
+   "text": "分、分身魔法……！？原来如此，我还以为打倒的是你，结果是你的分身吗！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -678,7 +678,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "瞄得很准哦…… 就是眼力还差了点。",
+   "text": "瞄得很准哦……就是眼力还差了点。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -694,7 +694,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "不过对我来说…… 究竟哪个才是我的“真身”，连我自己都分不清呢~",
+   "text": "不过对我来说……究竟哪个才是我的“真身”，连我自己都分不清呢~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -702,7 +702,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "哎呀…… 闲聊就到此为止吧。差不多该落下帷幕了。",
+   "text": "哎呀……闲聊就到此为止吧。差不多该落下帷幕了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -726,7 +726,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "呜呜，对、对不起…… 我有在好好反省了……",
+   "text": "呜呜，对、对不起……我有在好好反省了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -734,7 +734,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "看样子，你只是个普通人吧，为什么要冒充怪盗？ 而且居然还盯上了恩赐印章。",
+   "text": "看样子，你只是个普通人吧，为什么要冒充怪盗？而且居然还盯上了恩赐印章。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -742,7 +742,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "我、我也是无意间听到那些“大人物”们说的…… 魔<r=BOSS></r>王手上有一枚价值连城的恩赐印章。",
+   "text": "我、我也是无意间听到那些“大人物”们说的……魔<r=BOSS></r>王手上有一枚价值连城的恩赐印章。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -758,7 +758,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "我、我也不知道他们是谁。 前些天金城区有家公司举行开业庆典，我被雇去当清洁工，听到了他们的对话。",
+   "text": "我、我也不知道他们是谁。\n前些天金城区有家公司举行开业庆典，我被雇去当清洁工，听到了他们的对话。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -774,7 +774,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "魔<r=BOSS></r>王，以后还是要加紧小心啊。 暗中盯着你的眼睛，不止我一双呢，呵呵。",
+   "text": "魔<r=BOSS></r>王，以后还是要加紧小心啊。\n暗中盯着你的眼睛，不止我一双呢，呵呵。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -782,7 +782,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯，我会注意的。 话说回来，你怎么还编了个怪盗的身份。",
+   "text": "嗯，我会注意的。\n话说回来，你怎么还编了个怪盗的身份。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -790,7 +790,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "怪盗这个身份…… 不觉得很帅吗？",
+   "text": "怪盗这个身份……不觉得很帅吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -806,7 +806,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "呜…… 话是这么说啦……",
+   "text": "呜……话是这么说啦……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -814,7 +814,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "真想赚钱，就该找份正经工作…… 拿着这张名片去吧。",
+   "text": "真想赚钱，就该找份正经工作……拿着这张名片去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -822,7 +822,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "这是我熟人开的工坊。 凭你的魔法技术，应该能拿到不错的薪水。",
+   "text": "这是我熟人开的工坊。凭你的魔法技术，应该能拿到不错的薪水。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -830,7 +830,7 @@
   {
    "k": "talk",
    "speaker": "无名怪盗",
-   "text": "太、太感谢您了！ 这份恩情我一辈子都不会忘记的！",
+   "text": "太、太感谢您了！这份恩情我一辈子都不会忘记的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -838,7 +838,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 哎呀，这下总算告一段落了。 谢谢你，乙叶。多亏了你，我才能守住这枚恩赐印章。",
+   "text": "呼……哎呀，这下总算告一段落了。谢谢你，乙叶。多亏了你，我才能守住这枚恩赐印章。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -846,7 +846,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵，这毕竟是魔<r=BOSS></r>王的请求嘛。 而且能让您欠个人情，对我来说也不是什么坏事。",
+   "text": "呵呵，这毕竟是魔<r=BOSS></r>王的请求嘛。而且能让您欠个人情，对我来说也不是什么坏事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -870,7 +870,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵，这还用说嘛—— 当然是货真价实的，本尊哦~",
+   "text": "呵呵，这还用说嘛——当然是货真价实的，本尊哦~",
    "thought": false,
    "sticker": false,
    "channel": "talk"

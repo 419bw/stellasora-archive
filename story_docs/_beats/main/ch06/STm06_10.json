@@ -138,7 +138,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "穿着联合种业制服的女性...... 这些植物是你们放出来的？",
+   "text": "穿着联合种业制服的女性......这些植物是你们放出来的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -154,7 +154,10 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "嗯，我们听你说了，会有联合种业的人来找我们。",
+   "text": {
+    "cn_f": "嗯，我们听她说了，会有联合种业的人来找我们。",
+    "cn_m": "嗯，我们听他说了，会有联合种业的人来找我们。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -178,7 +181,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "呵呵， 你的欢迎方式，还真是不客气呢。",
+   "text": "呵呵，你的欢迎方式，还真是不客气呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -202,7 +205,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "这，这样么...... 那或许是个好人吧。",
+   "text": "这，这样么......那或许是个好人吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -210,7 +213,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "我不算什么好人，只能说和各位，以及魔<r=BOSS></r>王有着共同的目标， 澄清谣言也只是做了应该做的事情，弥补各位的损失而已。",
+   "text": "我不算什么好人，只能说和各位，以及魔<r=BOSS></r>王有着共同的目标，澄清谣言也只是做了应该做的事情，弥补各位的损失而已。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -234,7 +237,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "以及，各位要去星塔获得星塔恩赐的力量吧， 这段时间里，我可以帮你们照看昏迷的雾语小姐。",
+   "text": "以及，各位要去星塔获得星塔恩赐的力量吧，这段时间里，我可以帮你们照看昏迷的雾语小姐。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -376,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "证明我是你们这边的人......这样的证据我的确拿不出来， 现在，魔<r=BOSS></r>王和达尔茜娅在一起，也不可能和你们通话证明我的清白。",
+   "text": "证明我是你们这边的人......这样的证据我的确拿不出来，现在，魔<r=BOSS></r>王和达尔茜娅在一起，也不可能和你们通话证明我的清白。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -408,7 +411,7 @@
   {
    "k": "talk",
    "speaker": "琥珀",
-   "text": "这是……. 前辈的枕头。",
+   "text": "这是…….前辈的枕头。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -416,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "帮我带着吧，遇到难以决断的关键时刻，就拆开它吧—— 枕头里有答案。",
+   "text": "帮我带着吧，遇到难以决断的关键时刻，就拆开它吧——枕头里有答案。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -432,7 +435,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "枕头？ 呵呵，这个办法还挺有星雁的风格的…… 里面是什么？",
+   "text": "枕头？呵呵，这个办法还挺有星雁的风格的……里面是什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -440,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "我，我拆了。 里面有......一张照片？",
+   "text": "我，我拆了。里面有......一张照片？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -464,7 +467,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "唔，虽然看着不太一样， 但这照片上的人的确是你。",
+   "text": "唔，虽然看着不太一样，但这照片上的人的确是你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -472,7 +475,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "证，证件照...... 星雁这家伙从哪弄来的。",
+   "text": "证，证件照......星雁这家伙从哪弄来的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -504,7 +507,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "没问题，放心交给我们吧！ 毕竟我们可是有——",
+   "text": "没问题，放心交给我们吧！毕竟我们可是有——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -512,7 +515,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "考虑到尘沙的恩赐，那么队长就是…… 不对，现在还是让冬香来当吧，她更熟悉菲莱。",
+   "text": "考虑到尘沙的恩赐，那么队长就是……不对，现在还是让冬香来当吧，她更熟悉菲莱。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -544,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "呵呵…… 好久没有这样的感觉了。魔<r=BOSS></r>王，我有点羡慕你呢。",
+   "text": "呵呵……好久没有这样的感觉了。魔<r=BOSS></r>王，我有点羡慕你呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -574,7 +577,7 @@
   {
    "k": "talk",
    "speaker": "米娜",
-   "text": "跟我比什么的……说实话，我连想都不敢想。 不管是在联合种业，还是在魔<r=mowang></r>王大人身边，您都比我重要的多。",
+   "text": "跟我比什么的……说实话，我连想都不敢想。不管是在联合种业，还是在魔<r=mowang></r>王大人身边，您都比我重要的多。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -598,7 +601,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "你也好，翡冷翠也好。 你们这种心思纯粹的人和魔<r=mowang></r>王大人站在一起更合衬。",
+   "text": "你也好，翡冷翠也好。你们这种心思纯粹的人和魔<r=mowang></r>王大人站在一起更合衬。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -614,7 +617,7 @@
   {
    "k": "talk",
    "speaker": "达尔茜娅",
-   "text": "不懂也好， 我这里有一份文件，你看看，如果你觉得合适，那就签了它吧。",
+   "text": "不懂也好，我这里有一份文件，你看看，如果你觉得合适，那就签了它吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

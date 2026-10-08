@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "魔王…… 我……",
+   "text": "魔王……我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +163,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "虽然是你情我愿的促销，但恐怕在这的人，都没有意识到得到三折的条件有 多么苛刻。",
+   "text": "虽然是你情我愿的促销，但恐怕在这的人，都没有意识到得到三折的条件有\n多么苛刻。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -483,7 +483,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "算今天用了多少钱， 我们还有多少物资储备， 再列一遍未来的计划……",
+   "text": "算今天用了多少钱，我们还有多少物资储备，再列一遍未来的计划……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "这是……黄油曲奇？ 为什么……",
+   "text": "这是……黄油曲奇？为什么……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +603,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "早上 还因为 在床上吃东西斥责了尘沙， 现在我却…… 魔<r=Boss></r>王， 你 一定要帮我保密！",
+   "text": {
+    "cn_f": "早上还因为在床上吃东西斥责了尘沙，现在我却……\n魔<r=Boss></r>王，你一定要帮我保密！",
+    "jp_f": "说起来、斥责了尘沙的我，现在在床上吃曲奇什么的……\n那个、这件事情就当做我们两个人的秘密可以吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,10 +614,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "不要担心，你慢慢享用吧",
+   "prompt": "",
    "options": [
     [
-     "不用担心",
+     {
+      "cn_f": "不用担心",
+      "jp_f": "不要担心，你慢慢享用吧"
+     },
      "",
      ""
     ]
@@ -623,10 +629,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "这是我们两个之间的约定",
+   "prompt": "",
    "options": [
     [
-     "这件事就当做我们之间的秘密吧",
+     {
+      "cn_f": "这件事就当做我们之间的秘密吧",
+      "jp_f": "这是我们两个之间的约定"
+     },
      "",
      ""
     ]
@@ -635,7 +644,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "嗯，谢谢你……魔<r=Boss></r>王。 那个……",
+   "text": {
+    "cn_f": "嗯，谢谢你……魔<r=Boss></r>王。\n那个……",
+    "jp_f": "太好了。那个……非常感谢您。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +655,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我现在的样子， 一定很奇怪吧…… 不仅被你抓到偷偷算账， 现在还躲在被子里吃曲奇……",
+   "text": {
+    "cn_f": "我现在的样子，一定很奇怪吧……\n不仅被你抓到偷偷算账，现在还躲在被子里吃曲奇……",
+    "jp_f": "让你看到了难为情的一面。\n这种样子可没办法给大家当个好榜样……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +666,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "唉…… 感觉心里乱糟糟的…… 就连难得吃到的曲奇， 感觉也变苦了……",
+   "text": {
+    "cn_f": "唉……感觉心里乱糟糟的……\n就连难得吃到的曲奇，感觉也变苦了……",
+    "jp_f": "啊啊……为什么我会因为那种事情生气……\n难得能吃到的曲奇，现在……完全不觉得它好吃……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,10 +677,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "难道说，是我做了多余的事？",
+   "prompt": "",
    "options": [
     [
-     "我是不是做了多余的事，让你困扰了",
+     {
+      "cn_f": "我是不是做了多余的事，让你困扰了",
+      "jp_f": "难道说，是我做了多余的事？"
+     },
      "",
      ""
     ]
@@ -671,7 +692,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我不是 这个意思……",
+   "text": {
+    "cn_f": "我不是这个意思……",
+    "jp_f": "没有那种事情，我非常的开心。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -679,7 +703,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "其实…… 你给我曲奇的时候， 我真的非常开心……",
+   "text": {
+    "cn_f": "其实……你给我曲奇的时候，我真的非常开心……",
+    "jp_f": "诶诶……我已经不知道应该怎么感谢你才好了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -687,7 +714,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "但是一想到， 只有我受到这种优待…… 就 觉得自己 不应该 这么开心……",
+   "text": {
+    "cn_f": "但是一想到，只有我受到这种优待……\n就觉得自己不应该这么开心……",
+    "jp_f": "所以，就是因为这样，才没办法坦率地开心起来……\n对那两个人保密，只有我自己，受到这样的优待……有点过意不去……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -695,10 +725,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "因为对我来说，鸢尾是很重要的存在",
+   "prompt": "",
    "options": [
     [
-     "鸢尾值得被优待",
+     {
+      "cn_f": "鸢尾值得被优待",
+      "jp_f": "因为对我来说，鸢尾是很重要的存在"
+     },
      "",
      ""
     ]
@@ -707,7 +740,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "诶？ 不、不是……我……",
+   "text": {
+    "cn_f": "诶？不、不是……我……",
+    "jp_f": "突、突然之间说什么……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +751,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "但是， 听到你这么说， 我有些 安心了。",
+   "text": {
+    "cn_f": "但是，听到你这么说，我有些安心了。",
+    "jp_f": "但、但是，要是话都说到这个份上了。\n我也没办法再拒绝了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +762,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "真是的， 我好像...... 越来越依赖你了。",
+   "text": {
+    "cn_f": "真是的，我好像...... 越来越依赖你了。",
+    "jp_f": "嘛、只是……像这样被温柔地对待……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +773,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "你要负起责任来啊。",
+   "text": {
+    "cn_f": "你要负起责任来啊。",
+    "jp_f": "我会误会的哦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +784,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "如果以后吃不到曲奇， 我会很难过的。",
+   "text": {
+    "cn_f": "如果以后吃不到曲奇， 我会很难过的。",
+    "jp_f": "要是之后才说这些都不算数的话，我是不会原谅你的。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"

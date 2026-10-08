@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咦？这里为什么会放着一面镜子？ 这样子看着有点眼熟，好像在哪里见过......",
+   "text": "咦？这里为什么会放着一面镜子？\n这样子看着有点眼熟，好像在哪里见过......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "尘沙，鸢尾，琥珀，你们在哪？ 四周的陈设完全不一样了，我这是...... 又被传送了吗？",
+   "text": "尘沙，鸢尾，琥珀，你们在哪？\n四周的陈设完全不一样了，我这是......又被传送了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "丢了小命。过去每次见你们不都是这样—— 因为某些事情死掉了，从白色房间回到做出选择的地方。",
+   "text": "丢了小命。过去每次见你们不都是这样——\n因为某些事情死掉了，从白色房间回到做出选择的地方。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -123,7 +123,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "维嘉尔不会是故意把镜子扔在那里的吧...... 算了，现在不是纠结这件事的时候。",
+   "text": "维嘉尔不会是故意把镜子扔在那里的吧......算了，现在不是纠结这件事的时候。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "原来如此…… 所以，我该怎么回去？",
+   "text": "原来如此……所以，我该怎么回去？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -139,7 +139,7 @@
   {
    "k": "talk",
    "speaker": "维嘉尔",
-   "text": "我想想…… 告诉您也可以，不过您得答应我一件事。",
+   "text": "我想想……告诉您也可以，不过您得答应我一件事。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "什…… 什么？",
+   "text": "什……什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她绝对是故意把镜子扔在那里的，绝对！ 不过，为了快点回去，还是先顺从她吧。",
+   "text": "她绝对是故意把镜子扔在那里的，绝对！\n不过，为了快点回去，还是先顺从她吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "一上来就是这种问题...... 但既然规则是这样，也只能回答“是的”了吧。",
+   "text": "一上来就是这种问题......但既然规则是这样，也只能回答“是的”了吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这可不能随便回答，吃掉星塔里的，不是许愿得来的食物...... 会像上次那样被留在星塔里的。",
+   "text": "这可不能随便回答，吃掉星塔里的，不是许愿得来的食物......\n会像上次那样被留在星塔里的。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +331,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "我跟着维嘉尔走到楼层的一处角落，坐在阳伞下的椅子上。 四周空无一人，更没有星骸捣乱，维嘉尔为我端出蛋糕和茶。",
+   "text": "我跟着维嘉尔走到楼层的一处角落，坐在阳伞下的椅子上。\n四周空无一人，更没有星骸捣乱，维嘉尔为我端出蛋糕和茶。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "把我传送过来捉弄，就是为了这点事吗？ 维嘉尔也太闲了吧，星塔里的工作还是太少了！",
+   "text": "把我传送过来捉弄，就是为了这点事吗？\n维嘉尔也太闲了吧，星塔里的工作还是太少了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "维嘉尔",
-   "text": "太好了，但是我想要的不仅仅是约会，还有…… 喂蛋糕。",
+   "text": "太好了，但是我想要的不仅仅是约会，还有……喂蛋糕。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -403,7 +403,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我来喂么...... 也好，只要不用我吃东西就好。",
+   "text": "我来喂么......也好，只要不用我吃东西就好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "维嘉尔",
-   "text": "啊…… 嗷呜。",
+   "text": "啊……嗷呜。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "维嘉尔",
-   "text": "嗷呜…… 嗯！感觉稍微变好吃了一些。",
+   "text": "嗷呜……嗯！感觉稍微变好吃了一些。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +531,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咦？怎么感觉...... 她不是单纯地为了捉弄我......",
+   "text": "咦？怎么感觉......她不是单纯地为了捉弄我......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +539,7 @@
   {
    "k": "talk",
    "speaker": "维嘉尔",
-   "text": "对了，最后还有一个小小的请求。 刚才发生的一切，请当作只属于我们两个人的秘密哦~",
+   "text": "对了，最后还有一个小小的请求。\n刚才发生的一切，请当作只属于我们两个人的秘密哦~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "之后的一段时间里，我一直遵守着承诺。 只是，临别时维嘉尔的笑容，却在我的脑海中挥之不去。",
+   "text": "之后的一段时间里，我一直遵守着承诺。\n只是，临别时维嘉尔的笑容，却在我的脑海中挥之不去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -28,7 +28,10 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "医生，请你救救你。",
+   "text": {
+    "cn_f": "医生，请你救救她。",
+    "cn_m": "医生，请你救救他。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -36,7 +39,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "密涅瓦，我感觉还行， 你不用那么紧张。",
+   "text": "密涅瓦，我感觉还行，你不用那么紧张。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -44,7 +47,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "怎么会没 事！ 你可是被那个黑漆漆的魔法击中了。",
+   "text": "怎么会没事！你可是被那个黑漆漆的魔法击中了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -60,7 +63,7 @@
   {
    "k": "talk",
    "speaker": "医生",
-   "text": "安静，这里是 诊所。 所以， 你们两个谁是病人？",
+   "text": "安静，这里是诊所。所以，你们两个谁是病人？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +71,10 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "是你， 一只魔法凝结成的乌鸦钻进了你心脏的位置。",
+   "text": {
+    "cn_f": "是她，一只魔法凝结成的乌鸦钻进了她心脏的位置。",
+    "cn_m": "是他，一只魔法凝结成的乌鸦钻进了他心脏的位置。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +82,10 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "医生，求你了！ 快给你看看吧！",
+   "text": {
+    "cn_f": "医生，求你了！快给她看看吧！",
+    "cn_m": "医生，求你了！快给他看看吧！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +93,7 @@
   {
    "k": "talk",
    "speaker": "医生",
-   "text": "魔法乌鸦啊… … 有意思，陪同人请在诊室外等待。",
+   "text": "魔法乌鸦啊……有意思，陪同人请在诊室外等待。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +101,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "啊…… 明， 明白。",
+   "text": "啊……明，明白。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +109,10 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "那个，医生， 请您一定要救救你！ 你是灰风俱乐部的恩人！",
+   "text": {
+    "cn_f": "那个，医生，请您一定要救救她！她是灰风俱乐部的恩人！",
+    "cn_m": "那个，医生，请您一定要救救他！他是灰风俱乐部的恩人！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -108,7 +120,7 @@
   {
    "k": "talk",
    "speaker": "医生",
-   "text": "… …",
+   "text": "……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +128,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "是， 我这就走。",
+   "text": "是，我这就走。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -124,7 +136,7 @@
   {
    "k": "talk",
    "speaker": "医生",
-   "text": "等一下， 拿着 。",
+   "text": "等一下，拿着。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +144,7 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "这是…… 药膏？",
+   "text": "这是……药膏？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -180,7 +192,7 @@
   {
    "k": "talk",
    "speaker": "医生",
-   "text": "本来不会给你的，但我只是借住在这里的， 你受着伤在外面等，坏了朋友诊所的名声就不好了。",
+   "text": "本来不会给你的，但我只是借住在这里的，你受着伤在外面等，坏了朋友诊所的名声就不好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -188,7 +200,10 @@
   {
    "k": "talk",
    "speaker": "密涅瓦",
-   "text": "谢谢， 你这么厉害，肯定能治好你吧……",
+   "text": {
+    "cn_f": "谢谢，你这么厉害，肯定能治好她吧……",
+    "cn_m": "谢谢，你这么厉害，肯定能治好他吧……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -196,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "医生",
-   "text": "所以诊所要保持安静。 不然就把你嘴缝上 哦？",
+   "text": "所以诊所要保持安静。不然就把你嘴缝上哦？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -204,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 还是别惹她生气为好 。",
+   "text": "……还是别惹她生气为好。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -212,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "重新自我介绍一下， 我叫科洛妮丝， 对治病没有兴趣，勉强算个医生。",
+   "text": "重新自我介绍一下，我叫科洛妮丝，对治病没有兴趣，勉强算个医生。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -228,7 +243,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "不过， 我对稀有的病例很有兴趣， 比如…… 像你这样，中了有趣魔法的患者。",
+   "text": "不过，我对稀有的病例很有兴趣，比如……像你这样，中了有趣魔法的患者。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -244,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那只黑鸟没入了我的胸口， 不过我没什么感觉，应该没事…… 吧？！",
+   "text": "那只黑鸟没入了我的胸口，不过我没什么感觉，应该没事……吧？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好可怕好可怕好可怕！！ 看病需要挨得这么近吗？",
+   "text": "好可怕好可怕好可怕！！看病需要挨得这么近吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -268,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "奇怪， 我在你的眼睛里看不到……",
+   "text": "奇怪，我在你的眼睛里看不到……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -284,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这样…… 可以吗？",
+   "text": "这样……可以吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -292,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "真奇怪…… 用龙裔的检测方法也感受不到魔力的流动。 这种程度至少该有一点反应啊。",
+   "text": "真奇怪……用龙裔的检测方法也感受不到魔力的流动。这种程度至少该有一点反应啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -308,7 +323,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "其实我 ……",
+   "text": "其实我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -332,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "无法和恩赐之水共鸣，魔力绝缘体质…… 世界上竟然真的有这样的人？",
+   "text": "无法和恩赐之水共鸣，魔力绝缘体质……世界上竟然真的有这样的人？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -372,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "对， 但我对你的特殊体质很有兴趣。",
+   "text": "对，但我对你的特殊体质很有兴趣。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -380,7 +395,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "你的身体没有外伤，内脏也没有受损，体温，心跳，瞳孔都正常， 却不能使用魔法，甚至完全感应不到魔力。",
+   "text": "你的身体没有外伤，内脏也没有受损，体温，心跳，瞳孔都正常，却不能使用魔法，甚至完全感应不到魔力。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -404,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊哈哈， 既然我没什么事，是不是可以走了？",
+   "text": "啊哈哈，既然我没什么事，是不是可以走了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -412,7 +427,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "不， 我建议你住院，便于我观察你。",
+   "text": "不，我建议你住院，便于我观察你。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -428,7 +443,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "呵呵…… 开玩笑的。",
+   "text": "呵呵……开玩笑的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -436,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "科洛妮丝",
-   "text": "你们熬了一夜，街上都是抓你们的骑士， 至少补足精神再出去吧。",
+   "text": "你们熬了一夜，街上都是抓你们的骑士，至少补足精神再出去吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -450,7 +465,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "魔王，你好好在这休息， 我们去俱乐部 看看情况。",
+   "text": "魔王，你好好在这休息，我们去俱乐部看看情况。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +473,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "拜托你们了。 对了，密涅瓦去哪了？",
+   "text": "拜托你们了。对了，密涅瓦去哪了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -466,7 +481,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "……她在外面， 给她一点时间比较好。",
+   "text": "……她在外面，给她一点时间比较好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -562,7 +577,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过， 现在的我也没什么立场说“正常”吧。",
+   "text": "不过，现在的我也没什么立场说“正常”吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -618,7 +633,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "她说她是你的刀，我们就让她进来了， 她刚才砍人可厉害了。",
+   "text": "她说她是你的刀，我们就让她进来了，她刚才砍人可厉害了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -650,7 +665,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "身为主公的刀， 自然要被安置在主公容易拔出的地方。",
+   "text": "身为主公的刀，自然要被安置在主公容易拔出的地方。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -666,7 +681,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "刀是不会睡觉的， 并且， 妾身感受到了主公炽热目光的召唤。",
+   "text": "刀是不会睡觉的，并且，妾身感受到了主公炽热目光的召唤。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -674,7 +689,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我的目光一点也不炽热吧， 以及…… 这是什么奇怪的说话方式？",
+   "text": "我的目光一点也不炽热吧，以及……这是什么奇怪的说话方式？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -682,7 +697,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "感谢你刚刚出手相助， 那个， 我能问一下吗？",
+   "text": "感谢你刚刚出手相助，那个，我能问一下吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -698,7 +713,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "妾身并不是称呼自己是一把刀， 妾身真的是一把刀。",
+   "text": "妾身并不是称呼自己是一把刀，妾身真的是一把刀。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -740,7 +755,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我记得你战斗时用的也是刀， 既然你自己是刀，刀怎么用刀呢？ 说不通啊……",
+   "text": "我记得你战斗时用的也是刀，既然你自己是刀，刀怎么用刀呢？说不通啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -748,7 +763,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "那是妾身修炼不够导致的， 无法靠自己的力量斩断骑士们的长枪。",
+   "text": "那是妾身修炼不够导致的，无法靠自己的力量斩断骑士们的长枪。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -788,7 +803,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "书上写， 心中有刀，万物为刃。",
+   "text": "书上写，心中有刀，万物为刃。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -796,7 +811,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "若将注意力集中至极限，仅凭身体切断东西并非难事…… 不过现在， 妾身只能切断一些柔软之物。",
+   "text": "若将注意力集中至极限，仅凭身体切断东西并非难事……不过现在，妾身只能切断一些柔软之物。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -840,7 +855,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你的意思是， 你修炼够的时候，就会变成一把…… 和你身边那些刀一样的刀？",
+   "text": "你的意思是，你修炼够的时候，就会变成一把……和你身边那些刀一样的刀？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -848,7 +863,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "是，妾身正在进行淬火之旅， 总有一天，妾身会变成一把完整的刀。",
+   "text": "是，妾身正在进行淬火之旅，总有一天，妾身会变成一把完整的刀。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -864,7 +879,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "听起来，她称呼自己为刀只是一种修辞方法， 就先这么接受吧。",
+   "text": "听起来，她称呼自己为刀只是一种修辞方法，就先这么接受吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -876,7 +891,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔， 她怎么称呼自己，我就怎么叫吧， 反正也不影响交流。",
+   "text": "唔，她怎么称呼自己，我就怎么叫吧，反正也不影响交流。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -884,7 +899,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "你的确是一把好刀， 很厉害， 一个人就杀退了那么多骑士。",
+   "text": "你的确是一把好刀，很厉害，一个人就杀退了那么多骑士。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -892,7 +907,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "您…… 认为我是刀？",
+   "text": "您……认为我是刀？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -908,7 +923,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "不不，只是…… 您是第一个直接接受我是刀的人。",
+   "text": "不不，只是……您是第一个直接接受我是刀的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -938,7 +953,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那， 你为什么要叫我“主公”？ 又要自认为是“我的刀”呢？",
+   "text": "那，你为什么要叫我“主公”？又要自认为是“我的刀”呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -946,7 +961,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "因为， 您是妾身遇到的， 唯一有器量成为妾身的持刀人的人。",
+   "text": "因为，您是妾身遇到的，唯一有器量成为妾身的持刀人的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -954,7 +969,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我们见过？ 难道……",
+   "text": "我们见过？难道……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -994,7 +1009,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "那时妾身接不到委托，流落街头…… 买不起刀油就锈住了。",
+   "text": "那时妾身接不到委托，流落街头……买不起刀油就锈住了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1018,7 +1033,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "总之…… 你的情况我大致明白了，以后有什么打算？",
+   "text": "总之……你的情况我大致明白了，以后有什么打算？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1034,7 +1049,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "妾身不会打扰您， 其实，妾身出鞘后就一直跟着您了。",
+   "text": "妾身不会打扰您，其实，妾身出鞘后就一直跟着您了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1042,7 +1057,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我感受到的视线…… 原来是她啊。",
+   "text": "我感受到的视线……原来是她啊。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -1050,7 +1065,7 @@
   {
    "k": "talk",
    "speaker": "千都世",
-   "text": "主公， 小心。",
+   "text": "主公，小心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1058,7 +1073,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咳咳咳， 千都世，发生什么事了？",
+   "text": "咳咳咳，千都世，发生什么事了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1074,7 +1089,7 @@
   {
    "k": "talk",
    "speaker": "白发少女",
-   "text": "找到了， 你们躲在这里啊。",
+   "text": "找到了，你们躲在这里啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

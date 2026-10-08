@@ -130,7 +130,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "下雨了， 还好刚刚买了伞，真是明智之举。",
+   "text": "下雨了，还好刚刚买了伞，真是明智之举。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -146,7 +146,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那是......夏花？ 她没带伞啊，我去帮她一下吧， 这种时候要是淋雨生病就糟了。",
+   "text": "那是......夏花？她没带伞啊，我去帮她一下吧，这种时候要是淋雨生病就糟了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -170,7 +170,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "这么急着约我见面， 有什么事吗？",
+   "text": "这么急着约我见面，有什么事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -234,7 +234,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "我记得， 你有什么想法？",
+   "text": "我记得，你有什么想法？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -242,7 +242,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "麻烦的是寄生之庭的魔法雾气， 只要能把魔法雾气消耗干净，寄生之庭也不过是个只会挥动枝条的笨重魔物。",
+   "text": "麻烦的是寄生之庭的魔法雾气，只要能把魔法雾气消耗干净，寄生之庭也不过是个只会挥动枝条的笨重魔物。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -274,7 +274,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "只是吸入雾气而已， 不会致死的.......对吧？",
+   "text": "只是吸入雾气而已，不会致死的.......对吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -290,7 +290,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "更别说寄生之庭现在力量已经太强了。 这么危险的魔物......克莱儿，下次讨伐时，我们必须亲手消灭它。",
+   "text": "更别说寄生之庭现在力量已经太强了。这么危险的魔物......克莱儿，下次讨伐时，我们必须亲手消灭它。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -306,7 +306,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "以为两清就能放过我们？ 哈哈，太天真了， 我们知道了那些事，还能全身而退吗？ 联合种业根本不会放过我们。",
+   "text": "以为两清就能放过我们？哈哈，太天真了，我们知道了那些事，还能全身而退吗？联合种业根本不会放过我们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -394,7 +394,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "真到那时候……你就说全是我的主意， 你装作什么都不知道就好，所有责任由我来承担。",
+   "text": "真到那时候……你就说全是我的主意，你装作什么都不知道就好，所有责任由我来承担。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -426,7 +426,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "哼，哼哼哼， 哈哈哈哈。",
+   "text": "哼，哼哼哼，哈哈哈哈。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -530,7 +530,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "原来是想把我们当棋子利用。 你刚刚那个让讨伐队员消耗雾气的计策，也是她给你出的主意吧......",
+   "text": "原来是想把我们当棋子利用。你刚刚那个让讨伐队员消耗雾气的计策，也是她给你出的主意吧......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -688,7 +688,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "还有湖中星塔的影响吧。 那座塔的祈愿箱里会产出很多种地用的神器。",
+   "text": "还有湖中星塔的影响吧。那座塔的祈愿箱里会产出很多种地用的神器。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -880,7 +880,7 @@
   {
    "k": "choice",
    "kind": "personality",
-   "prompt": "",
+   "prompt": "我的看法是......",
    "options": [
     [
      "向往英雄",
@@ -894,11 +894,6 @@
     ],
     [
      "另一种可能",
-     "",
-     ""
-    ],
-    [
-     "我的看法是......",
      "",
      ""
     ]
@@ -927,7 +922,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "确实有可能…… 不过那样的话，神明就不是神明了，而是恶神了吧。",
+   "text": "确实有可能……不过那样的话，神明就不是神明了，而是恶神了吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -947,7 +942,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说到底只是雕像没有手臂吧？那也可能只是雕像的手臂恰好断掉丢失了， 至于暴雨，终究不过是自然现象罢了。",
+   "text": "说到底只是雕像没有手臂吧？那也可能只是雕像的手臂恰好断掉丢失了，至于暴雨，终究不过是自然现象罢了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -971,7 +966,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "你这么说也有道理， 希望真相就像你说的那样，没有人受到伤害，大家幸福地生活在一起。",
+   "text": "你这么说也有道理，希望真相就像你说的那样，没有人受到伤害，大家幸福地生活在一起。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -1024,9 +1019,7 @@
    "k": "merge",
    "count": 3,
    "forks": 1,
-   "silent": [
-    "我的看法是......"
-   ]
+   "silent": []
   },
   {
    "k": "talk",
@@ -1063,7 +1056,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白了， 那......既然我在你的眼里曾是“断臂英雄像”的样子。",
+   "text": "明白了，那......既然我在你的眼里曾是“断臂英雄像”的样子。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

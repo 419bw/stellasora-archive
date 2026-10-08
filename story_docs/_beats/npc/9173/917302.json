@@ -51,7 +51,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唉……照这么捡下去，得到什么时候才能结束啊。 如果能用什么魔法或者神器一瞬间全部“吸”过来的话，就轻松多了。",
+   "text": "唉……照这么捡下去，得到什么时候才能结束啊。如果能用什么魔法或者神器一瞬间全部“吸”过来的话，就轻松多了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -75,7 +75,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "当然是我啦，您最忠诚的仆人——珀尔娜。 魔<r=mowang></r>王大人居然连我的声音都听不出来吗？看来我有必要多在您身边刷一些存在感才行。",
+   "text": "当然是我啦，您最忠诚的仆人——珀尔娜。魔<r=mowang></r>王大人居然连我的声音都听不出来吗？看来我有必要多在您身边刷一些存在感才行。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -187,7 +187,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这样啊，但…… 听上去像是你一直在这里等我的样子……",
+   "text": "这样啊，但……听上去像是你一直在这里等我的样子……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不知道…… 话说，星塔里还会有新店开张这种事情吗？",
+   "text": "不知道……话说，星塔里还会有新店开张这种事情吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +235,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "选衣服啊…… 算了吧，我还要搜集这一层的战利品……尽快与大家汇合呢。",
+   "text": "选衣服啊……算了吧，我还要搜集这一层的战利品……尽快与大家汇合呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -275,7 +275,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "如果这是真的的话，那确实很方便。 但从珀尔娜嘴里说出来的提案，总让人觉得放心不下……",
+   "text": "如果这是真的的话，那确实很方便。但从珀尔娜嘴里说出来的提案，总让人觉得放心不下……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +307,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "魔<r=mowang></r>王大人这两件衣服您更喜欢哪一件呢？ 是这件知性一点的？ 还是这件可爱一点的？",
+   "text": "魔<r=mowang></r>王大人这两件衣服您更喜欢哪一件呢？是这件知性一点的？还是这件可爱一点的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +419,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "啊…… 那我就为您做个示范吧！",
+   "text": "啊……那我就为您做个示范吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +491,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "话是这么说…… 但我要是突然消失不见了的话，空白旅团的大家肯定会非常着急的！",
+   "text": "话是这么说……但我要是突然消失不见了的话，空白旅团的大家肯定会非常着急的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -555,7 +555,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "真可惜…… 那作为补偿，魔<r=mowang></r>王大人一定要帮我选好多好多衣服才行。",
+   "text": "真可惜……那作为补偿，魔<r=mowang></r>王大人一定要帮我选好多好多衣服才行。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +595,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "这家店的衣品真差，虽然没有一件是我中意的。 但只要魔<r=mowang></r>王大人愿意陪我，我就很开心了。",
+   "text": "这家店的衣品真差，虽然没有一件是我中意的。但只要魔<r=mowang></r>王大人愿意陪我，我就很开心了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -611,7 +611,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "说起来，刚刚选衣服的时候，满脑子想的都是珀尔娜适合什么样的衣服…… 该不会这才是她的真正目的吧。",
+   "text": "说起来，刚刚选衣服的时候，满脑子想的都是珀尔娜适合什么样的衣服……该不会这才是她的真正目的吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "当然，交给我吧。 好了……启动！",
+   "text": "当然，交给我吧。好了……启动！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "这是平时给您打扫白色房间的“全自动扫地神器”，我改造了一下，让它可以帮 魔<r=mowang></r>王大人来收集星骸的掉落物。",
+   "text": "这是平时给您打扫白色房间的“全自动扫地神器”，我改造了一下，让它可以帮\n魔<r=mowang></r>王大人来收集星骸的掉落物。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +707,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊，消失了。 算了先不管这些了，赶快去和尘沙她们汇合吧，也耽误了不少时间了。",
+   "text": "啊，消失了。算了先不管这些了，赶快去和尘沙她们汇合吧，也耽误了不少时间了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +723,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "这次没有迷路真是太好了…… 等等，你哪来的这么一大袋？",
+   "text": "这次没有迷路真是太好了……等等，你哪来的这么一大袋？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "哇！魔<r=mowang></r>王大人好厉害！ 我们明明什么都没捡到……",
+   "text": "哇！魔<r=mowang></r>王大人好厉害！我们明明什么都没捡到……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +763,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "我刚准备去捡，就有一个东西就突然冒出来把掉落物抢走了…… 该不会一种专门和旅人抢夺战利品的星骸吧！",
+   "text": "我刚准备去捡，就有一个东西就突然冒出来把掉落物抢走了……该不会一种专门和旅人抢夺战利品的星骸吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

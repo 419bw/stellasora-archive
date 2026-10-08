@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 搞定了。真是漂亮的一击，毫无破绽。",
+   "text": "呼……搞定了。真是漂亮的一击，毫无破绽。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼—— 平安回来了，这次的收获也不错。",
+   "text": "呼——平安回来了，这次的收获也不错。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -115,7 +115,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "对哦，进塔之前你就提到过…… 你想尝试的新东西，到底是什么？",
+   "text": "对哦，进塔之前你就提到过……你想尝试的新东西，到底是什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊，我没事。 既然星塔也爬完了，我们先回去吧？",
+   "text": "啊，我没事。既然星塔也爬完了，我们先回去吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +179,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "好， 不过战斗之后，身体好热啊……",
+   "text": "好，不过战斗之后，身体好热啊……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "负责什么的...... 有了…… 你不是想凉快一下吗，跟我来！我知道个好地方！",
+   "text": "负责什么的......有了……你不是想凉快一下吗，跟我来！我知道个好地方！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -259,7 +259,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这间房是我上周租来的，本来是做野外调查、采药的临时据点。 要脱衣服乘凉的话，至少进屋再脱吧……",
+   "text": "这间房是我上周租来的，本来是做野外调查、采药的临时据点。要脱衣服乘凉的话，至少进屋再脱吧……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -283,7 +283,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "唔…… 脱个衣服原来这么麻烦啊。",
+   "text": "唔……脱个衣服原来这么麻烦啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -299,7 +299,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唉…… 总算是…… 她一热就想脱衣服的习惯，真让人头疼。",
+   "text": "唉……总算是……她一热就想脱衣服的习惯，真让人头疼。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "思绪好乱…… 都怪风影那家伙，老是动不动就要在我面前脱衣服！",
+   "text": "思绪好乱……都怪风影那家伙，老是动不动就要在我面前脱衣服！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +347,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "别瞎想了—— 我得降温……降温…… 不对不对，现在这天气根本不热啊！",
+   "text": "别瞎想了——我得降温……降温……不对不对，现在这天气根本不热啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -355,7 +355,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 呼……",
+   "text": "呼……呼……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -363,7 +363,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "唔？！ 糟糕，不知不觉居然打盹了……",
+   "text": "唔？！糟糕，不知不觉居然打盹了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +371,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "她还没出来么？ 都过去这么久了，怎么一点动静都没有……",
+   "text": "她还没出来么？都过去这么久了，怎么一点动静都没有……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +387,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "没回应…… 她到底在里面干什么呢？",
+   "text": "没回应……她到底在里面干什么呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -411,7 +411,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯…… 地板， 凉凉的…… 好舒服……",
+   "text": {
+    "cn_f": "嗯……地板，凉凉的……好舒服……",
+    "jp_f": "嗯嗯……地板，凉凉的好舒服……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -419,7 +422,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "脸颊、 手臂、 腿…… 全身的温度都降下来了……",
+   "text": {
+    "cn_f": "脸颊、手臂、腿……全身的温度都降下来了……",
+    "jp_f": "脸颊、手臂、还有腿，刚刚还发热的地方也慢慢凉下去了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +433,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "唔…… 再也离不开了…… 真想就这么一直…… 一直趴着……",
+   "text": {
+    "cn_f": "唔……再也离不开了……真想就这么一直……一直趴着……",
+    "jp_f": "一旦知道了这种舒服的感觉，就再也离不开它了……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,10 +444,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "怎么了？全身都是破绽哦？",
+   "prompt": "",
    "options": [
     [
-     "露出破绽了哦？",
+     {
+      "cn_f": "露出破绽了哦？",
+      "jp_f": "怎么了？全身都是破绽哦？"
+     },
      "",
      ""
     ]
@@ -447,7 +459,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "呵呵， 你怎么来了？ 你刚刚不是一本正经地说 要是你在房间， 就不让我脱衣服吗。",
+   "text": {
+    "cn_f": "呵呵，你怎么来了？你刚刚不是一本正经地说要是你在房间，就不让我脱衣服吗。",
+    "jp_f": "呵呵，你才是吧……突然之间怎么了吗？你不是说你要待在外面吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -455,7 +470,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "看来你也不在意我在你面前脱啊。 早知道， 我直接把衣服脱掉就好了……",
+   "text": {
+    "cn_f": "看来你也不在意我在你面前脱啊。早知道，我直接把衣服脱掉就好了……",
+    "jp_f": "早知道就在你出门之前，把衣服脱掉就好了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -463,10 +481,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "不是这个问题吧，说到底……",
+   "prompt": "",
    "options": [
     [
-     "重点不是这个吧……",
+     {
+      "cn_f": "重点不是这个吧……",
+      "jp_f": "不是这个问题吧，说到底……"
+     },
      "",
      ""
     ]
@@ -475,10 +496,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "如果来的人，不是我而是敌人呢？",
+   "prompt": "",
    "options": [
     [
-     "万一来的不是我，是敌人怎么办？",
+     {
+      "cn_f": "万一来的不是我，是敌人怎么办？",
+      "jp_f": "如果来的人，不是我而是敌人呢？"
+     },
      "",
      ""
     ]
@@ -487,7 +511,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "的确， 这个状态下如果被偷袭是会有些危险。",
+   "text": {
+    "cn_f": "的确，这个状态下如果被偷袭是会有些危险。",
+    "jp_f": "确实，像这样毫无防备的状态下被偷袭的话，可能是有危险。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -495,7 +522,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "但是我还是选择这样…… 趴在冰凉的地板上。",
+   "text": {
+    "cn_f": "但是我还是选择这样……趴在冰凉的地板上。",
+    "jp_f": "但是我啊，还是甘愿选择这份凉意。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -503,10 +533,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "为什么？",
+   "prompt": "",
    "options": [
     [
-     "为什么？",
+     {
+      "cn_f": "为什么？",
+      "jp_f": "为什么？"
+     },
      "",
      ""
     ]
@@ -515,7 +548,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "因为没有必要设防啊。",
+   "text": {
+    "cn_f": "因为没有必要设防啊。",
+    "jp_f": "因为没有警戒的必要啊。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +559,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "我向来记不住人脸， 都是靠对方用的武器来分辨是谁。",
+   "text": {
+    "cn_f": "我向来记不住人脸，都是靠对方用的武器来分辨是谁。",
+    "jp_f": "不擅长记住人脸的我，只能靠着武器去分辨谁是谁。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -531,7 +570,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "可最近， 我好像…… 慢慢能记得住你的脸了。",
+   "text": {
+    "cn_f": "可最近，我好像……慢慢能记得住你的脸了。",
+    "jp_f": "但是最近，虽然只是一点点……但我竟然不可思议地记住了你的脸。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,10 +581,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "虽然在餐厅碰面的时候弄得一团糟",
+   "prompt": "",
    "options": [
     [
-     "在餐厅那次你就没记住吧……",
+     {
+      "cn_f": "在餐厅那次你就没记住吧……",
+      "jp_f": "虽然在餐厅碰面的时候弄得一团糟"
+     },
      "",
      ""
     ]
@@ -551,7 +596,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "呵呵， 那不是正说明—— 我们的关系正在发生改变吗？",
+   "text": {
+    "cn_f": "呵呵，那不是正说明——我们的关系正在发生改变吗？",
+    "jp_f": "呵呵，这正说明我们的关系正在变化——就是这么回事呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -559,7 +607,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "现在不止是你的脸…… 就连你说话的声音、 走路的节奏、 甚至呼吸的频率， 我都能立刻辨认出来。",
+   "text": {
+    "cn_f": "现在不止是你的脸……就连你说话的声音、走路的节奏、甚至呼吸的频率，我都能立刻辨认出来。",
+    "jp_f": "也就是说结果，不仅是你的脸，你的说话声、脚步声、呼吸声——我变得能通过这一切来感知到你。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -567,7 +618,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "对我来说， 这件事真的太奇妙了。",
+   "text": {
+    "cn_f": "对我来说，这件事真的太奇妙了。",
+    "jp_f": "对我而言，这就像是个奇迹一样呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -575,10 +629,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "所以才这么放松吗？",
+   "prompt": "",
    "options": [
     [
-     "所以……你才敢这么毫无防备？",
+     {
+      "cn_f": "所以……你才敢这么毫无防备？",
+      "jp_f": "所以才这么放松吗？"
+     },
      "",
      ""
     ]
@@ -587,7 +644,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "没错， 因为我很确信， 你不会伤害我。",
+   "text": {
+    "cn_f": "没错，因为我很确信，你不会伤害我。",
+    "jp_f": "没错，你不会伤害我的。绝对不会。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,10 +655,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "你怎么会知道呢？",
+   "prompt": "",
    "options": [
     [
-     "那可不一定吧？",
+     {
+      "cn_f": "那可不一定吧？",
+      "jp_f": "你怎么会知道呢？"
+     },
      "",
      ""
     ]
@@ -607,7 +670,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "一定不会。 你的眼睛就是这么告诉我的。",
+   "text": {
+    "cn_f": "一定不会。你的眼睛就是这么告诉我的。",
+    "jp_f": "绝对的。只要看着你的眼睛，我就知道你根本没有那种打算。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -615,10 +681,13 @@
   {
    "k": "choice",
    "kind": "generic",
-   "prompt": "……不愧是风影啊。",
+   "prompt": "",
    "options": [
     [
-     "不愧是风影",
+     {
+      "cn_f": "不愧是风影",
+      "jp_f": "……不愧是风影啊。"
+     },
      "",
      ""
     ]
@@ -627,7 +696,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯， 所以…… 也希望你能坦然接受——",
+   "text": {
+    "cn_f": "嗯，所以……也希望你能坦然接受——",
+    "jp_f": "嗯嗯，所以也希望你能坦率地接受。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +707,10 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "在特别的人面前， 无论哪一面， 我都可以毫无保留地展现给对方。 这就是我所认定的事。",
+   "text": {
+    "cn_f": "在特别的人面前，无论哪一面，我都可以毫无保留地展现给对方。这就是我所认定的事。",
+    "jp_f": "如果是特别的人，无论哪一面我都可以毫无保留地展现给对方……这就是我，发自内心确信的事。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +726,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "那时，我很慌...... 拼命想用战斗转移注意力，所以才六天没吃饭。不过...... 那天和你相遇后，我发现我又能回忆起来的。",
+   "text": "那时，我很慌......拼命想用战斗转移注意力，所以才六天没吃饭。不过......那天和你相遇后，我发现我又能回忆起来的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +734,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "见面的次数越多，你的脸就越清晰，或许...... 你是第一个，我不用在意武器也能记住样貌的人，并且...... 记得非常，非常清楚。",
+   "text": "见面的次数越多，你的脸就越清晰，或许......你是第一个，我不用在意武器也能记住样貌的人，并且......记得非常，非常清楚。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -675,7 +750,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊哈哈…… 那可真是我的荣幸。",
+   "text": "啊哈哈……那可真是我的荣幸。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +758,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "嗯？ 你现在的这幅表情，我还真是第一次见，让我仔细看看……",
+   "text": "嗯？你现在的这幅表情，我还真是第一次见，让我仔细看看……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +766,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "一下子凑…… 凑这么近吗！",
+   "text": "一下子凑……凑这么近吗！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +782,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呃…… 我们该回去了！",
+   "text": "呃……我们该回去了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -715,7 +790,7 @@
   {
    "k": "talk",
    "speaker": "风影",
-   "text": "哎~ 别跑呀，我还没观察完呢。",
+   "text": "哎~别跑呀，我还没观察完呢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +798,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我不跑总行了吧！ 先把手撒开，喘不上气啦！",
+   "text": "我不跑总行了吧！先把手撒开，喘不上气啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -62,7 +62,7 @@
   {
    "k": "talk",
    "speaker": "店主",
-   "text": "周边监管公会…… 不也是民间组织，你们有什么权利……",
+   "text": "周边监管公会……不也是民间组织，你们有什么权利……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -70,7 +70,7 @@
   {
    "k": "talk",
    "speaker": "公会会计",
-   "text": "注意你的态度，我们可是有专门负责报道的魔女。 你也不希望这件事被曝光后，对你产生什么不良的影响吧？",
+   "text": "注意你的态度，我们可是有专门负责报道的魔女。\n你也不希望这件事被曝光后，对你产生什么不良的影响吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -78,7 +78,7 @@
   {
    "k": "talk",
    "speaker": "店主",
-   "text": "呃…… 抱，抱歉。",
+   "text": "呃……抱，抱歉。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -118,7 +118,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "哈…… 我说店主先生，你对魔女的了解还少吗？",
+   "text": "哈……我说店主先生，你对魔女的了解还少吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -142,7 +142,7 @@
   {
    "k": "talk",
    "speaker": "公会头目",
-   "text": "今天就先补齐上周的营收，过几天我们还会再来的。 老实点啊，只要还在弗拉维奥，你就跑不了。",
+   "text": "今天就先补齐上周的营收，过几天我们还会再来的。\n老实点啊，只要还在弗拉维奥，你就跑不了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -166,7 +166,7 @@
   {
    "k": "talk",
    "speaker": "公会头目",
-   "text": "咕，咕—— 哈！干得好，干得好呀！",
+   "text": "咕，咕——哈！干得好，干得好呀！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -206,7 +206,7 @@
   {
    "k": "talk",
    "speaker": "公会头目",
-   "text": "诶~别光说我，今天最大功臣可是这位魔女大人。 来，我们敬魔女大人一杯！",
+   "text": "诶~别光说我，今天最大功臣可是这位魔女大人。\n来，我们敬魔女大人一杯！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -222,7 +222,7 @@
   {
    "k": "talk",
    "speaker": "公会头目",
-   "text": "嗝…… 别光顾着喝啊，你们就没想过有钱之后咋过吗？",
+   "text": "嗝……别光顾着喝啊，你们就没想过有钱之后咋过吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -238,7 +238,7 @@
   {
    "k": "talk",
    "speaker": "公会会计",
-   "text": "实不相瞒，我最近一直在挑那边的房子。 有钱之后，每天都能看青叶亲的演唱会了，诶嘿嘿……",
+   "text": "实不相瞒，我最近一直在挑那边的房子。\n有钱之后，每天都能看青叶亲的演唱会了，诶嘿嘿……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -358,7 +358,7 @@
   {
    "k": "talk",
    "speaker": "公会头目",
-   "text": "可恶…… 小的们别怕！终究只是个魔女，让她见识一下反抗我们是什么下场！",
+   "text": "可恶……小的们别怕！终究只是个魔女，让她见识一下反抗我们是什么下场！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -382,7 +382,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "熄灯…… 然后审判开始~",
+   "text": "熄灯……然后审判开始~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -398,7 +398,7 @@
   {
    "k": "talk",
    "speaker": "公会头目",
-   "text": "帝国卫队！？…… 混账魔女！连你一起抓了！",
+   "text": "帝国卫队！？……混账魔女！连你一起抓了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -446,7 +446,7 @@
   {
    "k": "talk",
    "speaker": "店主",
-   "text": "谁，谁！？难道又是收钱的…… 请，请等一下！",
+   "text": "谁，谁！？难道又是收钱的……请，请等一下！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -494,7 +494,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "保护费？ 我只是来找你聊天的啦~ 话说我去了你的店铺没见着人，找了好半天原来你在这。",
+   "text": "保护费？我只是来找你聊天的啦~\n话说我去了你的店铺没见着人，找了好半天原来你在这。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -502,7 +502,7 @@
   {
    "k": "talk",
    "speaker": "店主",
-   "text": "我，我不打算开店了…… 过几天就回老家。",
+   "text": "我，我不打算开店了……过几天就回老家。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -518,7 +518,7 @@
   {
    "k": "talk",
    "speaker": "店主",
-   "text": "还问为什么…… 之前交了保护费之后我已经连租金都交不起了。",
+   "text": "还问为什么……之前交了保护费之后我已经连租金都交不起了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -566,7 +566,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "不用客气！真要谢礼的话…… 你知道我们魔女会想要什么吧？",
+   "text": "不用客气！真要谢礼的话……你知道我们魔女会想要什么吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -614,7 +614,7 @@
   {
    "k": "talk",
    "speaker": "看热闹的市民",
-   "text": "唔…… 这个魔女会是谁呢？",
+   "text": "唔……这个魔女会是谁呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -622,7 +622,7 @@
   {
    "k": "talk",
    "speaker": "不关心的市民",
-   "text": "我看看啊，叫…… 雾语。",
+   "text": "我看看啊，叫……雾语。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -638,7 +638,7 @@
   {
    "k": "talk",
    "speaker": "看热闹的市民",
-   "text": "咳咳…… 喂！那个魔女！能不能好好看路啊！？",
+   "text": "咳咳……喂！那个魔女！能不能好好看路啊！？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -694,7 +694,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "那么…… 会是谁藏在幕后呢？",
+   "text": "那么……会是谁藏在幕后呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -726,7 +726,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "那么接下来，该去找点更有意思的…… 嗯？",
+   "text": "那么接下来，该去找点更有意思的……嗯？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -766,7 +766,7 @@
   {
    "k": "talk",
    "speaker": "奥菲尔",
-   "text": "好像是叫…… “魔王协议派遣公司”。",
+   "text": "好像是叫……“魔王协议派遣公司”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -782,7 +782,7 @@
   {
    "k": "talk",
    "speaker": "雾语",
-   "text": "真是太—— 有意思了！！！",
+   "text": "真是太——有意思了！！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

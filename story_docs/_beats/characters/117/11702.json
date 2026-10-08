@@ -19,7 +19,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "甜…… 呃……好甜……",
+   "text": "甜……呃……好甜……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -35,7 +35,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "来来来，喝杯茶、 喝杯茶就好！",
+   "text": "来来来，喝杯茶、喝杯茶就好！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "咳咳咳…… 咳……谢，谢谢……！",
+   "text": "咳咳咳……咳……谢，谢谢……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好吃！！ 这么好吃的虾还是头一回吃到…… ！嚼嚼……！",
+   "text": "好吃！！这么好吃的虾还是头一回吃到……！嚼嚼……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "啊哈哈！喜欢吃就多吃点~ 看你吃得这么香，我也超开心的！",
+   "text": "啊哈哈！喜欢吃就多吃点~看你吃得这么香，我也超开心的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +251,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "唔……虽然很想去……还是下次吧！ 最近多亏大家关照店里的生意，我们都忙得头晕眼花呢♪",
+   "text": "唔……虽然很想去……还是下次吧！最近多亏大家关照店里的生意，我们都忙得头晕眼花呢♪",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -427,7 +427,10 @@
   {
    "k": "talk",
    "speaker": "食府的店员甲",
-   "text": "所以啊，就拜托了店长你认识的那位你做一天你的陪玩~",
+   "text": {
+    "cn_f": "所以啊，就拜托了店长你认识的那位姑娘做一天你的陪玩~",
+    "cn_m": "所以啊，就拜托了店长你认识的那位小伙做一天你的陪玩~"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -435,7 +438,10 @@
   {
    "k": "talk",
    "speaker": "食府的店员乙",
-   "text": "商量后你还免了我们的委托费。等下呀，就让你陪你打打最爱的麻雀牌吧~",
+   "text": {
+    "cn_f": "商量后她还免了我们的委托费。等下呀，就让她陪你打打最爱的麻雀牌吧~",
+    "cn_m": "商量后他还免了我们的委托费。等下呀，就让他陪你打打最爱的麻雀牌吧~"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -443,7 +449,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯，就像他们说的那样， 今天我是来做璟麟的陪玩的~",
+   "text": "嗯，就像他们说的那样，今天我是来做璟麟的陪玩的~",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +593,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好多字……好多图案…… 这么复杂，我真的能学会吗？",
+   "text": "好多字……好多图案……这么复杂，我真的能学会吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +665,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好的。 我已经完全理解了。",
+   "text": "好的。我已经完全理解了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +689,7 @@
   {
    "k": "talk",
    "speaker": "璟麟",
-   "text": "明明就是两个菜鸟吧！ 不过，菜鸟之间亦有差别，我可不会输给临时抱佛脚的人！",
+   "text": "明明就是两个菜鸟吧！不过，菜鸟之间亦有差别，我可不会输给临时抱佛脚的人！",
    "thought": false,
    "sticker": false,
    "channel": "talk"

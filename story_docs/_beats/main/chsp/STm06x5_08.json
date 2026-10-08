@@ -132,7 +132,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊，没错…… 可楼梯已经被堵死了。",
+   "text": "啊，没错……可楼梯已经被堵死了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -228,7 +228,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 我明白了。所以，你打算怎么做？",
+   "text": "……我明白了。所以，你打算怎么做？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -236,7 +236,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "魔<r=BOSS></r>王有所不知。我以前...... 是谷风家政的人。",
+   "text": {
+    "cn_f": "魔<r=BOSS></r>王有所不知。我以前......是谷风家政的人。",
+    "jp_f": "请您安心。我以前……曾是谷风家政的人。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -252,7 +255,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "表面是整日穿梭于帘帷之间，奉茶执盏的女仆。",
+   "text": {
+    "cn_f": "表面是整日穿梭于帘帷之间，奉茶执盏的女仆。",
+    "jp_f": "表面上是奉茶执盏的女仆……"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -260,7 +266,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "我的衣袖之下，藏着最锋利的苦无。",
+   "text": {
+    "cn_f": "我的衣袖之下，藏着最锋利的苦无。",
+    "jp_f": "呵呵，但其实衣袖之下，吾辈还有隐匿的另一面。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -280,7 +289,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "很久没有像这样站在月光之下，以这副模样示人了。",
+   "text": {
+    "cn_f": "很久没有像这样站在月光之下，以这副模样示人了。",
+    "jp_f": "没想到会在您面前，展现这个姿态呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -288,7 +300,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "看到这样的我，你很吃惊吗？",
+   "text": {
+    "cn_f": "看到这样的我，你很吃惊吗？",
+    "jp_f": "总之，这就是属于我的“另一面”。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -296,7 +311,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "对我们而言，这世上没有抵达不了的地方。",
+   "text": {
+    "cn_f": "对我们而言，这世上没有抵达不了的地方。",
+    "jp_f": "此刻的吾，没有走不通的路。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -304,7 +322,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "路若是不通，那就再开一条便是。",
+   "text": {
+    "cn_f": "路若是不通，那就再开一条便是。",
+    "jp_f": "若前路被阻，那就再开一条便是。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -336,7 +357,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "看看你的脚下吧。",
+   "text": {
+    "cn_f": "看看你的脚下吧。",
+    "jp_f": "请看您的脚下。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -344,7 +368,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "想回到会场最近的路…… 就是从天台，直抵地面。",
+   "text": {
+    "cn_f": "想回到会场最近的路……就是从天台，直抵地面。",
+    "jp_f": "想回到会场，最短的路径——便是直抵地面。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -392,7 +419,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "不管是屋檐，还是峭壁…… 哪怕是星塔的塔尖。",
+   "text": {
+    "cn_f": "不管是屋檐，还是峭壁……哪怕是星塔的塔尖。",
+    "jp_f": "屋檐也好，断崖也罢……哪怕是星塔的塔尖。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -416,7 +446,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "来吧，魔<r=BOSS></r>王。",
+   "text": {
+    "cn_f": "来吧，魔<r=BOSS></r>王。",
+    "jp_f": "来吧，魔<r=mowang></r>王。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -424,7 +457,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "时间可不等人哦。",
+   "text": {
+    "cn_f": "时间可不等人哦。",
+    "jp_f": "一刻千金，时不我待。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -432,7 +468,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这真是…… 我知道了，来吧。",
+   "text": "这真是……我知道了，来吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -440,7 +476,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "好好抱紧我，别松手。",
+   "text": {
+    "cn_f": "好好抱紧我，别松手。",
+    "jp_f": "那么，好好抓紧我吧。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -456,7 +495,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "(唔，乙叶的尾巴缠上来了， 这又暖又软的…… 毛茸茸的触感……!)",
+   "text": "(唔，乙叶的尾巴缠上来了，这又暖又软的……毛茸茸的触感……!)",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -464,7 +503,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "三、 二、 一——",
+   "text": "三、二、一——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -480,7 +519,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "怎么样？",
+   "text": {
+    "cn_f": "怎么样？",
+    "jp_f": "怎么样，魔<r=mowang></r>王？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -488,7 +530,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "从这般高空俯瞰夜色的感觉，还不错吧？",
+   "text": {
+    "cn_f": "从这般高空俯瞰夜色的感觉，还不错吧？",
+    "jp_f": "从这般高空俯瞰夜色，也别具情调吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -496,7 +541,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我还是第一次看到这样的景色…… 风很大， 但是很漂亮。",
+   "text": "我还是第一次看到这样的景色……风很大，但是很漂亮。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -504,7 +549,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "好好看看这座城市吧，这可是你尽心守护的地方。",
+   "text": {
+    "cn_f": "好好看看这座城市吧，这可是你尽心守护的地方。",
+    "jp_f": "那些灯火，正是你所珍视的……在这城市的芸芸众生，所点亮的生命之光。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -512,7 +560,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "那遥远的灯火……或许其中就有一盏，是因为你才重新点亮的呢。",
+   "text": {
+    "cn_f": "那遥远的灯火……或许其中就有一盏，是因为你才重新点亮的呢。",
+    "jp_f": "或许其中就有一盏，是因为你的奋战，才重新点亮的呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -520,7 +571,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "虽然我无法理解，为什么你要为素不相识的人冒这么大风险。",
+   "text": {
+    "cn_f": "虽然我无法理解，为什么你要为素不相识的人冒这么大风险。",
+    "jp_f": "为了素不相识之人，为何要冒险到这种地步……尽管我还无法理解。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -528,7 +582,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "但如果这是你执意要走的路…… 我愿意助你一程。",
+   "text": {
+    "cn_f": "但如果这是你执意要走的路……我愿意助你一程。",
+    "jp_f": "但如果这就是您选择的路，我愿意助您一臂之力。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -548,7 +605,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "不过当然，我也会收取相应的报酬。",
+   "text": {
+    "cn_f": "不过当然，我也会收取相应的报酬。",
+    "jp_f": "虽说如此……报酬可是免不了的呢。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -556,7 +616,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "比如刚才…… 你偷偷摸了好几下我的尾巴。",
+   "text": {
+    "cn_f": "比如刚才……你偷偷摸了好几下我的尾巴。",
+    "jp_f": "比如刚才……您趁乱，偷偷摸了好几下我的尾巴吧？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -564,7 +627,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "关于这件事的“封口费”，我也会一并记账哦。",
+   "text": {
+    "cn_f": "关于这件事的“封口费”，我也会一并记账哦。",
+    "jp_f": "关于此事的“封口费”，我也一并记账了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -592,7 +658,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵，但是你来回摸我的尾巴，是事实吧？ 你也不想这件事传得人尽皆知，让自己的名声受损吧？",
+   "text": {
+    "cn_f": "呵呵，但是你来回摸我的尾巴，是事实吧？\n你也不想这件事传得人尽皆知，让自己的名声受损吧？",
+    "jp_f": "呵呵，魔<r=mowang></r>王你来回摸我的尾巴可是事实噢~\n要是传出去可就有损您的形象啦？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -600,7 +669,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "好了，马上要到了。",
+   "text": {
+    "cn_f": "好了，马上要到了。",
+    "jp_f": "好了，马上就到了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -630,7 +702,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "八点二十七分…… 竟然还有三分钟的空余。",
+   "text": "八点二十七分……竟然还有三分钟的空余。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -670,7 +742,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "…… 什么？",
+   "text": "……什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -694,7 +766,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "还是留到下次再说吧。 等到……未来真正需要这么做的那一刻...... 我会连同您欠我的“封口费”一起讨要的。",
+   "text": "还是留到下次再说吧。等到……未来真正需要这么做的那一刻......我会连同您欠我的“封口费”一起讨要的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -702,7 +774,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "如果你觉得这样可以的话，我没意见。 时间到了。我差不多该——",
+   "text": "如果你觉得这样可以的话，我没意见。时间到了。我差不多该——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -758,7 +830,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "从她的身上，隐隐飘来了一股…… 陌生的味道，和每次见她时闻到的都不相同",
+   "text": "从她的身上，隐隐飘来了一股……\n陌生的味道，和每次见她时闻到的都不相同",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -834,7 +906,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "还有…… 刚刚发生的事情，请当做是只属于您和我两人之间的秘密哦。",
+   "text": "还有……刚刚发生的事情，请当做是只属于您和我两人之间的秘密哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -854,7 +926,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "谢谢您。那么…… 祝您的晚宴一切顺利哦。",
+   "text": "谢谢您。那么……祝您的晚宴一切顺利哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -870,7 +942,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "那个陌生的味道...... 是掺杂了花香的血的味道。",
+   "text": "那个陌生的味道......是掺杂了花香的血的味道。",
    "thought": true,
    "sticker": false,
    "channel": "talk"

@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "可恶，他们要过来了……！ 得想办法拖延点时间。",
+   "text": "可恶，他们要过来了……！得想办法拖延点时间。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,10 @@
   {
    "k": "talk",
    "speaker": "不怀好意的旅人",
-   "text": "哼，一看就是连剑都不会用的家伙，根本不是我们的对手。不用管你。",
+   "text": {
+    "cn_f": "哼，一看就是连剑都不会用的家伙，根本不是我们的对手。不用管她。",
+    "cn_m": "哼，一看就是连剑都不会用的家伙，根本不是我们的对手。不用管他。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -147,7 +150,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "看来他们不打算善罢甘休…… 那我只好再强硬一些了！",
+   "text": "看来他们不打算善罢甘休……那我只好再强硬一些了！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -163,7 +166,7 @@
   {
    "k": "talk",
    "speaker": "不怀好意的旅人",
-   "text": "哦—— 就你这小身板，挨一发魔法就得哭着求饶吧！喂！上！",
+   "text": "哦——就你这小身板，挨一发魔法就得哭着求饶吧！喂！上！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +214,7 @@
   {
    "k": "talk",
    "speaker": "追逐猎物的旅人",
-   "text": "啧…… 我可不想在这种地方白送命。撤！",
+   "text": "啧……我可不想在这种地方白送命。撤！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +222,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "呼…… 算是把他们赶走了。",
+   "text": "呼……算是把他们赶走了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +230,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "好厉害…… 一个人几句话就把敌人赶跑了……",
+   "text": "好厉害……一个人几句话就把敌人赶跑了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -307,7 +310,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "唔…… 剑、好重……！",
+   "text": "唔……剑、好重……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +326,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "一直都是你在照顾我…… 我也想保护好你啊……！",
+   "text": "一直都是你在照顾我……我也想保护好你啊……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +382,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "这次…… 终于守护住了……",
+   "text": "这次……终于守护住了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -407,7 +410,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "咦…… 我刚才在干什么…… 魔王在叫我的名字…… 我晕过去了吗……",
+   "text": "咦……我刚才在干什么……魔王在叫我的名字……我晕过去了吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -439,7 +442,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "还是这么爱操心…… 明明每次都是自己第一个冲进最危险的地方。",
+   "text": "还是这么爱操心……明明每次都是自己第一个冲进最危险的地方。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -447,7 +450,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "说起来…… 见到你的那一刻起，我就有种奇特的熟悉感。",
+   "text": "说起来……见到你的那一刻起，我就有种奇特的熟悉感。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -455,7 +458,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "明明刚苏醒不久，又失去了绝大部分的记忆…… 却选择先站出来帮我们解决问题。",
+   "text": "明明刚苏醒不久，又失去了绝大部分的记忆……却选择先站出来帮我们解决问题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -479,7 +482,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "被猛进之灵盯上的时候，真为你捏了把汗啊…… 即使再危险，你也总和我们站在一起……",
+   "text": "被猛进之灵盯上的时候，真为你捏了把汗啊……即使再危险，你也总和我们站在一起……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -511,7 +514,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "翡冷翠、星雁、雾语，还有米娜…… 大家都在拼命地奋战……",
+   "text": "翡冷翠、星雁、雾语，还有米娜……大家都在拼命地奋战……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -535,7 +538,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "我…… 追得上你的脚步吗……",
+   "text": "我……追得上你的脚步吗……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -543,7 +546,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "魔王…… 等等我……",
+   "text": "魔王……等等我……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -575,7 +578,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "约…… 好了……",
+   "text": "约……好了……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -623,7 +626,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯…… 熟悉的天花板…… 我也睡过去了吗？",
+   "text": "嗯……熟悉的天花板……我也睡过去了吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -631,7 +634,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "迷迷糊糊的…… 等等，啊！",
+   "text": "迷迷糊糊的……等等，啊！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -711,7 +714,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这幅样子…… 看来是变回平时的那个尘沙了。",
+   "text": "这幅样子……看来是变回平时的那个尘沙了。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -719,7 +722,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我睡着的时候…… 没说什么奇怪的梦话吧？",
+   "text": "我睡着的时候……没说什么奇怪的梦话吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -815,7 +818,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "尘沙你…… 记得今天发生了什么事吗？",
+   "text": "尘沙你……记得今天发生了什么事吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -847,7 +850,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "真跟鸢尾说的一样，一点都不记得…… 下次找机会再问问吧。",
+   "text": "真跟鸢尾说的一样，一点都不记得……下次找机会再问问吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"

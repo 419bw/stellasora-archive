@@ -67,7 +67,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "刚刚那是…… 梦？居然坐着就睡着了，我还是太不成熟了。",
+   "text": "刚刚那是……梦？居然坐着就睡着了，我还是太不成熟了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -91,7 +91,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "哈？！这哪里是抹布水啊！ 怎么看都是香喷喷的汤好吧！",
+   "text": "哈？！这哪里是抹布水啊！\n怎么看都是香喷喷的汤好吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -99,7 +99,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "秋葵和唯咲...... 她们做了下午茶？",
+   "text": "秋葵和唯咲......她们做了下午茶？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +155,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "前辈是教导我们的人，师父也是教导我们的人。 那前辈就是师父，所以花原前辈就是师父！",
+   "text": "前辈是教导我们的人，师父也是教导我们的人。\n那前辈就是师父，所以花原前辈就是师父！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "我都是照着书挑的食材，肯定没问题！ 来嘛师父！您就尝尝吧！",
+   "text": "我都是照着书挑的食材，肯定没问题！\n来嘛师父！您就尝尝吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +211,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "花原前辈您千万别喝！ 回头我会替您好好教训唯咲的！",
+   "text": "花原前辈您千万别喝！\n回头我会替您好好教训唯咲的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -315,7 +315,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "我的师父曾经说过—— 身为忍者，要能吃下一切可以吃的东西，身为女仆，要始终保持冷静和优雅。",
+   "text": "我的师父曾经说过——身为忍者，要能吃下一切可以吃的东西，身为女仆，要始终保持冷静和优雅。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -339,7 +339,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "师...... 师父，还是你懂我。",
+   "text": "师......师父，还是你懂我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -379,7 +379,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "我知道我知道，这就是先苦后甜的道理吧…… 诶，我是不是说了句挺有道理的话？",
+   "text": "我知道我知道，这就是先苦后甜的道理吧……诶，我是不是说了句挺有道理的话？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -451,7 +451,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "一直追查的贵族...... 不会是害了我们村子的那个吧！",
+   "text": "一直追查的贵族......不会是害了我们村子的那个吧！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -635,7 +635,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "这......这倒是...... 不过，你许愿出来的那个也很奇怪啊，为什么女仆装还有耳朵？",
+   "text": "这......这倒是......不过，你许愿出来的那个也很奇怪啊，为什么女仆装还有耳朵？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "秋葵",
-   "text": "嗯....... 啊，这个是可爱的动物装饰。",
+   "text": "嗯.......啊，这个是可爱的动物装饰。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "你们觉得...... 怎么样？",
+   "text": "你们觉得......怎么样？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -731,7 +731,7 @@
   {
    "k": "talk",
    "speaker": "花原",
-   "text": "好了，好了，别夸我了。 还有秋葵，别光顾着一直拍照啊。",
+   "text": "好了，好了，别夸我了。\n还有秋葵，别光顾着一直拍照啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -763,7 +763,7 @@
   {
    "k": "talk",
    "speaker": "唯咲",
-   "text": "虽然是我自己许愿来的…… 但，但到底是什么样的任务才能用得上这样的女仆装啊。",
+   "text": "虽然是我自己许愿来的……但，但到底是什么样的任务才能用得上这样的女仆装啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

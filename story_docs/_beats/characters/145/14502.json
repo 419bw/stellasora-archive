@@ -27,7 +27,7 @@
   {
    "k": "talk",
    "speaker": "新晋魔女",
-   "text": "前、前辈…… 好久不见！我一直在等你！！",
+   "text": "前、前辈……好久不见！我一直在等你！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -43,7 +43,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "这位你是我邀请来的采访对象，或许对你的报道有所帮助。",
+   "text": {
+    "cn_f": "这位小姐是我邀请来的采访对象，或许对你的报道有所帮助。",
+    "cn_m": "这位先生是我邀请来的采访对象，或许对你的报道有所帮助。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -59,7 +62,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "魔王平日事务繁忙，今天早上我才和你约好时间。",
+   "text": {
+    "cn_f": "魔王平日事务繁忙，今天早上我才和她约好时间。",
+    "cn_m": "魔王平日事务繁忙，今天早上我才和他约好时间。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -83,7 +89,7 @@
   {
    "k": "talk",
    "speaker": "新晋魔女",
-   "text": "我只是想向您请教一些撰稿经验， 没想到您还特地请来了采访对象…… 真的太感谢了！！",
+   "text": "我只是想向您请教一些撰稿经验，没想到您还特地请来了采访对象……真的太感谢了！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -155,7 +161,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不过我没想到乙叶还是一位“魔女”大前辈…… 你真的当过魔女吗？",
+   "text": "不过我没想到乙叶还是一位“魔女”大前辈……你真的当过魔女吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -179,7 +185,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好厉害…… 是真的吗？",
+   "text": "好厉害……是真的吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -211,7 +217,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "魔王恰好是一家人力资源公司的首席执行官，具体的情况你可以详细咨询一下你。",
+   "text": {
+    "cn_f": "魔王恰好是一家人力资源公司的首席执行官，具体的情况你可以详细咨询一下她。",
+    "cn_m": "魔王恰好是一家人力资源公司的首席执行官，具体的情况你可以详细咨询一下他。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +236,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "我当初正是因为仰慕魔王的才华，才不再当魔女，转投你的门下，成为了公司的特邀顾问。",
+   "text": {
+    "cn_f": "我当初正是因为仰慕魔王的才华，才不再当魔女，转投她的门下，成为了公司的特邀顾问。",
+    "cn_m": "我当初正是因为仰慕魔王的才华，才不再当魔女，转投他的门下，成为了公司的特邀顾问。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -235,7 +247,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "噗？！ 咳，咳咳……",
+   "text": "噗？！咳，咳咳……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +303,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "客气了。 说起来，最近关于失业的报道格外多啊。",
+   "text": "客气了。说起来，最近关于失业的报道格外多啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -323,7 +335,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "简直像是为了打广告而写的文章…… 真想亲眼见识一下作者的真面目啊。",
+   "text": "简直像是为了打广告而写的文章……真想亲眼见识一下作者的真面目啊。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -331,7 +343,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "天穹保险？ 难道是他们在背后指使，买通了绯瞳传讯吗？",
+   "text": "天穹保险？难道是他们在背后指使，买通了绯瞳传讯吗？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -371,7 +383,10 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "你的竞争对手众多，今天讲的商业机密可不能透露了。",
+   "text": {
+    "cn_f": "她的竞争对手众多，今天讲的商业机密可不能透露了。",
+    "cn_m": "他的竞争对手众多，今天讲的商业机密可不能透露了。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -387,7 +402,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "看样子…… 乙叶的调查目标是天穹保险。难怪她刚刚要向工具店的老板打听消息。",
+   "text": "看样子……乙叶的调查目标是天穹保险。难怪她刚刚要向工具店的老板打听消息。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -395,7 +410,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "但是这个保险公司和我有什么关系呢…… 她的真实目的究竟是什么？",
+   "text": "但是这个保险公司和我有什么关系呢……她的真实目的究竟是什么？",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -491,7 +506,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "老板？！ 是在说乙叶吗……",
+   "text": "老板？！是在说乙叶吗……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -507,7 +522,7 @@
   {
    "k": "talk",
    "speaker": "甜品店店长",
-   "text": "原来如此。 对了，这是您要的这个月订单明细，我已经整理好了。",
+   "text": "原来如此。对了，这是您要的这个月订单明细，我已经整理好了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -539,7 +554,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我当然很震惊了！ 这家甜品店真是你开的？",
+   "text": "我当然很震惊了！这家甜品店真是你开的？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +562,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "准确地说，我是出资人，店铺的日常管理由专人负责—— 就是刚刚的那位店长。",
+   "text": "准确地说，我是出资人，店铺的日常管理由专人负责——就是刚刚的那位店长。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -587,7 +602,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "交流…… 你的意思是，很适合“接头”吧？",
+   "text": "交流……你的意思是，很适合“接头”吧？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -603,7 +618,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "只是…… 有时候没办法纯粹地享受甜食带来的喜悦。",
+   "text": "只是……有时候没办法纯粹地享受甜食带来的喜悦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +642,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "虽然一直猜不透她，但能感觉到她一个人承担了许多压力…… 平时也很辛苦吧。",
+   "text": "虽然一直猜不透她，但能感觉到她一个人承担了许多压力……平时也很辛苦吧。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +706,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "呵呵…… 和我预想的一样呢。魔<r=BOSS></r>王，你看下这份订单明细。",
+   "text": "呵呵……和我预想的一样呢。魔<r=BOSS></r>王，你看下这份订单明细。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -699,7 +714,7 @@
   {
    "k": "talk",
    "speaker": "乙叶",
-   "text": "从上周起，每天下午三点，都会有一名职员准时来取预订的下午茶。而预定方就是—— 天穹保险。",
+   "text": "从上周起，每天下午三点，都会有一名职员准时来取预订的下午茶。而预定方就是——天穹保险。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -707,7 +722,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "又是这家公司…… 他们到底想干什么？",
+   "text": "又是这家公司……他们到底想干什么？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +738,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这…… 能问得出来吗？",
+   "text": "这……能问得出来吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

@@ -59,7 +59,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "跨过距离，穿越岁月…… 无论在哪个时代，信件始终能将人与人连接在一起。",
+   "text": "跨过距离，穿越岁月……无论在哪个时代，信件始终能将人与人连接在一起。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -131,7 +131,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "不要再强调残酷的现实了！啊啊……要是再赚不到钱，大家就只能流落街头，然后活活饿死…… 不行，绝对不行!",
+   "text": "不要再强调残酷的现实了！啊啊……要是再赚不到钱，大家就只能流落街头，然后活活饿死……不行，绝对不行!",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -203,7 +203,10 @@
   {
    "k": "talk",
    "speaker": "特丽莎",
-   "text": "魔<r=BOSS></r>王知道的可多了！只要交给你，这次的事件也能马上解决！",
+   "text": {
+    "cn_f": "魔<r=BOSS></r>王知道的可多了！只要交给她，这次的事件也能马上解决！",
+    "cn_m": "魔<r=BOSS></r>王知道的可多了！只要交给他，这次的事件也能马上解决！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +222,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "倒也没有到那种程度啦……不过，确实遇到了一点麻烦…… 可能不止一点。",
+   "text": "倒也没有到那种程度啦……不过，确实遇到了一点麻烦……可能不止一点。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -251,7 +254,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "不愧是我，今天也是能量满满！ 嗯？这是……",
+   "text": "不愧是我，今天也是能量满满！嗯？这是……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -347,7 +350,7 @@
   {
    "k": "talk",
    "speaker": "多娜",
-   "text": "好可疑啊…… 如果是同行，我怎么从没有听说过？",
+   "text": "好可疑啊……如果是同行，我怎么从没有听说过？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -595,7 +598,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "情况我了解了。那接下来…… 或许我们可以分工一下？",
+   "text": "情况我了解了。那接下来……或许我们可以分工一下？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

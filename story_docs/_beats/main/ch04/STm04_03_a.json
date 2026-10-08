@@ -60,7 +60,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "她的帐篷也完全没有睡过的痕迹， 她昨晚......不会没回来吧，到底跑到哪里去了......",
+   "text": "她的帐篷也完全没有睡过的痕迹，她昨晚......不会没回来吧，到底跑到哪里去了......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "枫",
-   "text": "别担心，夏花那么厉害，不会出事的…… 她会去哪里呢？",
+   "text": "别担心，夏花那么厉害，不会出事的……她会去哪里呢？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -76,7 +76,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "大家不要急， 尘沙她们和雾语已经去森林里找了，我想很快就会有消息。",
+   "text": "大家不要急，尘沙她们和雾语已经去森林里找了，我想很快就会有消息。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -122,7 +122,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "不好意思啊，是我。 看这样子，夏花还是没消息？",
+   "text": "不好意思啊，是我。看这样子，夏花还是没消息？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -178,7 +178,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "夏花...... 寄生之庭....... 不会吧。",
+   "text": "夏花......寄生之庭.......不会吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -354,7 +354,7 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "下雨后，小径会被疯狂生长的野草覆盖，树木也是一天一个样，很容易就会找不到路。 还好，我们有尘沙——",
+   "text": "下雨后，小径会被疯狂生长的野草覆盖，树木也是一天一个样，很容易就会找不到路。还好，我们有尘沙——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -386,7 +386,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "好厉害的直觉。 那我们就从这里开始，分散找找吧。",
+   "text": "好厉害的直觉。那我们就从这里开始，分散找找吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -498,7 +498,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不对……现在最重要的是找到夏花的线索。 那天，我真不该死板地遵守诺言的。",
+   "text": "不对……现在最重要的是找到夏花的线索。那天，我真不该死板地遵守诺言的。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -594,7 +594,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "维塔......声音直接传到思绪里了， 感觉好奇怪……",
+   "text": "维塔......声音直接传到思绪里了，感觉好奇怪……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -610,7 +610,10 @@
   {
    "k": "talk",
    "speaker": "珀尔娜",
-   "text": "唔，维嘉尔，魔<r=mowang></r>王大人好像生气了呢，就盯着你的手机，都不理我们。",
+   "text": {
+    "cn_f": "唔，维嘉尔，魔<r=mowang></r>王大人好像生气了呢，就盯着她的手机，都不理我们。",
+    "cn_m": "唔，维嘉尔，魔<r=mowang></r>王大人好像生气了呢，就盯着他的手机，都不理我们。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -658,7 +661,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这是......夏花的法杖， 为什么你们给我看的是这个？",
+   "text": "这是......夏花的法杖，为什么你们给我看的是这个？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -714,7 +717,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "明白了， 维塔，开门。",
+   "text": "明白了，维塔，开门。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -730,7 +733,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "谢谢你们在这里等我， 我们......下次见。",
+   "text": "谢谢你们在这里等我，我们......下次见。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -794,7 +797,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我明白的…… 这次，我一定要保护好夏花。",
+   "text": "我明白的……这次，我一定要保护好夏花。",
    "thought": true,
    "sticker": false,
    "channel": "talk"

@@ -147,7 +147,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "这次记录下来的战斗数据，远超过去的所有记录。 事实胜于雄辩，这个数字足以让所有人信服——",
+   "text": "这次记录下来的战斗数据，远超过去的所有记录。\n事实胜于雄辩，这个数字足以让所有人信服——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -195,7 +195,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "这群人必须为此付出代价。 为了让这种事不再重演，我会在内部发起彻底的调查。",
+   "text": "这群人必须为此付出代价。\n为了让这种事不再重演，我会在内部发起彻底的调查。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -219,7 +219,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "这样最好。 稍等， 收拾完毕后我们一起去。",
+   "text": "这样最好。稍等，收拾完毕后我们一起去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -227,7 +227,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "在此之前，我还有一件重要的事情想要向你说明…… 关于火垂将来的生活和教育问题。",
+   "text": "在此之前，我还有一件重要的事情想要向你说明……\n关于火垂将来的生活和教育问题。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -291,7 +291,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "……呵呵，毕竟我是星辉之眼的人呢。 你不愿意信任我，也是情理之中。",
+   "text": "……呵呵，毕竟我是星辉之眼的人呢。\n你不愿意信任我，也是情理之中。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -523,7 +523,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "我只是尽了我的职责而已。 归根到底，这次事件是我们组织内部的“过失”。",
+   "text": "我只是尽了我的职责而已。\n归根到底，这次事件是我们组织内部的“过失”。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -547,7 +547,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "火垂凭着自己的意愿再次回到了这里—— 这就是她的回答。",
+   "text": "火垂凭着自己的意愿再次回到了这里——这就是她的回答。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -571,7 +571,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "那我就不过多打扰了。 ……在走之前，我还有几句话提醒二位。",
+   "text": "那我就不过多打扰了。\n……在走之前，我还有几句话提醒二位。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "就算再发生类似这次的事情，我也绝对会阻止。 由我……和魔王一起。",
+   "text": "就算再发生类似这次的事情，我也绝对会阻止。由我……和魔王一起。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "到时候我一定会飞奔过来帮忙。 无论如何，都要确保火垂的人生只属于她自己。",
+   "text": "到时候我一定会飞奔过来帮忙。\n无论如何，都要确保火垂的人生只属于她自己。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -651,7 +651,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "伊格娜， 请让我再次向你道谢。",
+   "text": "伊格娜，请让我再次向你道谢。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -683,7 +683,7 @@
   {
    "k": "talk",
    "speaker": "伊格娜",
-   "text": "我的习惯是提前就把所有的“王牌”都握在手里，所以将来可能还会有事委托你…… 到时候，请务必赏脸。",
+   "text": "我的习惯是提前就把所有的“王牌”都握在手里，所以将来可能还会有事委托你……到时候，请务必赏脸。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -691,7 +691,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "伊格娜…… 真是个让人猜不透的人。",
+   "text": "伊格娜……真是个让人猜不透的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -819,7 +819,10 @@
   {
    "k": "talk",
    "speaker": "卡娜丝",
-   "text": "魔王是很厉害的旅人，肩负着拯救他人的使命，注定要在诺瓦大陆四处奔走。 既然你们是朋友，就不该打扰你的工作，你心里是明白这个道理的，不是吗？",
+   "text": {
+    "cn_f": "魔王是很厉害的旅人，肩负着拯救他人的使命，注定要在诺瓦大陆四处奔走。\n既然你们是朋友，就不该打扰她的工作，你心里是明白这个道理的，不是吗？",
+    "cn_m": "魔王是很厉害的旅人，肩负着拯救他人的使命，注定要在诺瓦大陆四处奔走。\n既然你们是朋友，就不该打扰他的工作，你心里是明白这个道理的，不是吗？"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -875,7 +878,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯。而且这里可是埃摩，诺瓦大陆的中心，我会经常顺道过来—— 呜哇？！",
+   "text": "嗯。而且这里可是埃摩，诺瓦大陆的中心，我会经常顺道过来——呜哇？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -915,7 +918,7 @@
   {
    "k": "talk",
    "speaker": "火垂",
-   "text": "睡—衣—派—对？ 什么意思？听起来好好玩……想玩。",
+   "text": "睡—衣—派—对？\n什么意思？听起来好好玩……想玩。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -955,7 +958,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我才要说谢谢呢。 在我心里，火垂也是最好的朋友哦。",
+   "text": "我才要说谢谢呢。\n在我心里，火垂也是最好的朋友哦。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

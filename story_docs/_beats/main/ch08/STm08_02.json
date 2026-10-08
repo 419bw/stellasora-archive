@@ -140,7 +140,10 @@
   {
    "k": "talk",
    "speaker": "缇莉娅",
-   "text": "魔<r=BOSS></r>王和伙伴们一起保护了菲莱，你怎么可能毁灭诺瓦……绝对不可能！",
+   "text": {
+    "cn_f": "魔<r=BOSS></r>王和伙伴们一起保护了菲莱，她怎么可能毁灭诺瓦……绝对不可能！",
+    "cn_m": "魔<r=BOSS></r>王和伙伴们一起保护了菲莱，他怎么可能毁灭诺瓦……绝对不可能！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -300,7 +303,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "啊……这样啊？ 记住了，谢谢你的提醒。",
+   "text": "啊……这样啊？记住了，谢谢你的提醒。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -332,7 +335,7 @@
   {
    "k": "talk",
    "speaker": "星雁",
-   "text": "抱歉，本来想再快点的……看来还是晚到一步。 总之，平安无事就好。",
+   "text": "抱歉，本来想再快点的……看来还是晚到一步。总之，平安无事就好。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -388,7 +391,7 @@
   {
    "k": "talk",
    "speaker": "骑士队长",
-   "text": "我们也去帮忙， 骑士们，列队。",
+   "text": "我们也去帮忙，骑士们，列队。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -450,7 +453,10 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "......撤退吧，是我低估了魔<r=mowang></r>王。你的准备比我想象得更充分，我们需要重新集结伙伴。",
+   "text": {
+    "cn_f": "......撤退吧，是我低估了魔<r=mowang></r>王。她的准备比我想象得更充分，我们需要重新集结伙伴。",
+    "cn_m": "......撤退吧，是我低估了魔<r=mowang></r>王。他的准备比我想象得更充分，我们需要重新集结伙伴。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -458,7 +464,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "等着吧，魔<r=mowang></r>王。 为了诺瓦的未来......",
+   "text": "等着吧，魔<r=mowang></r>王。为了诺瓦的未来......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -506,7 +512,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "但是，和诺瓦毁灭这样的事情比起来， 菲莱城的混乱和恩赐意志的麻烦又算得了什么呢——",
+   "text": "但是，和诺瓦毁灭这样的事情比起来，菲莱城的混乱和恩赐意志的麻烦又算得了什么呢——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -546,7 +552,7 @@
   {
    "k": "talk",
    "speaker": "安琪",
-   "text": "哎呀，大家都在啊。 但我很忙，先告辞了。各位，我们下次再见了。",
+   "text": "哎呀，大家都在啊。但我很忙，先告辞了。各位，我们下次再见了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -672,7 +678,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "千都世，请给奥尔贝德大人松绑， 我想......她并不是我们的敌人。",
+   "text": "千都世，请给奥尔贝德大人松绑，我想......她并不是我们的敌人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -688,7 +694,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "天空院的理事长吗…… 确认一下，想杀我的人就是这位理事长？",
+   "text": "天空院的理事长吗……确认一下，想杀我的人就是这位理事长？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -712,7 +718,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "刚才被黎明近卫追杀时，您保护了我和千都世。 这种情况下，我愿意相信您的话。",
+   "text": "刚才被黎明近卫追杀时，您保护了我和千都世。这种情况下，我愿意相信您的话。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -816,7 +822,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "天穹保险是理事长联络来的，帝国卫队是长期兜底的合作公司， 那岂不是......",
+   "text": "天穹保险是理事长联络来的，帝国卫队是长期兜底的合作公司，那岂不是......",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -888,7 +894,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "考验啊…… 回想一下，从初次见面的“游戏”到冬香的特训，我一直都在被她测试……",
+   "text": "考验啊……回想一下，从初次见面的“游戏”到冬香的特训，我一直都在被她测试……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -904,7 +910,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "不，不对，瑟拉娜是贝修莉娜给我介绍的， 也就是说......在更早的时候，在埃摩城的时候，我就被盯上了。",
+   "text": "不，不对，瑟拉娜是贝修莉娜给我介绍的，也就是说......在更早的时候，在埃摩城的时候，我就被盯上了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -984,7 +990,7 @@
   {
    "k": "talk",
    "speaker": "奥尔贝德",
-   "text": "那么，魔王， 你认为你是传说中的魔<r=mowang></r>王吗？",
+   "text": "那么，魔王，你认为你是传说中的魔<r=mowang></r>王吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"

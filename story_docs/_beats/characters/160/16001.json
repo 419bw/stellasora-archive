@@ -36,7 +36,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "没错，为了这片沙滩的安全，也为了大家， 能请您配合一下吗？",
+   "text": "没错，为了这片沙滩的安全，也为了大家，\n能请您配合一下吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -60,7 +60,7 @@
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "看来薇洛是认真的…… 我到底该怎么办啊……！",
+   "text": "看来薇洛是认真的……\n我到底该怎么办啊……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "是啊。 虽然之前独占整片沙滩也挺爽的，不过现在这样热热闹闹的感觉也不错。",
+   "text": "是啊。虽然之前独占整片沙滩也挺爽的，不过现在这样热热闹闹的感觉也不错。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -92,7 +92,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "薇洛，你难得有机会放松一下， 我们还是抓紧时间切换回度假模式吧。",
+   "text": "薇洛，你难得有机会放松一下，\n我们还是抓紧时间切换回度假模式吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,7 @@
   {
    "k": "talk",
    "speaker": "溺水的旅人",
-   "text": "谢谢你们！ 要不是你们两位，我可能已经没命了……！",
+   "text": "谢谢你们！要不是你们两位，我可能已经没命了……！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -268,7 +268,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "总、总算把事情都处理完了…… 谢谢大家来帮忙。明明你们都在享受假期，这么突然把大家都叫过来，真是不好意思。",
+   "text": "总、总算把事情都处理完了……谢谢大家来帮忙。明明你们都在享受假期，这么突然把大家都叫过来，真是不好意思。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -316,7 +316,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "什么？！ 可现在游客都这么多了，怎么能没有管理人员呢？！",
+   "text": "什么？！可现在游客都这么多了，怎么能没有管理人员呢？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -340,7 +340,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "那不是很危险吗？！ 还好我们刚好在这里，不然的话……",
+   "text": "那不是很危险吗？！还好我们刚好在这里，不然的话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -364,7 +364,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "度假村好不容易才恢复生气，要是再这样下去，迟早会出大事故。 必须提前防范才行，我决定了——",
+   "text": "度假村好不容易才恢复生气，要是再这样下去，迟早会出大事故。必须提前防范才行，我决定了——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -420,7 +420,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "我这可是实话。 你那边呢，讲座准备得怎么样了？",
+   "text": "我这可是实话。你那边呢，讲座准备得怎么样了？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -428,7 +428,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "嗯。 琥珀，能麻烦你把这份资料发给在场的听众吗？",
+   "text": "嗯。琥珀，能麻烦你把这份资料发给在场的听众吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -452,7 +452,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "正想和你说呢。 你愿意在讲座上当我的演示搭档吗？",
+   "text": "正想和你说呢。你愿意在讲座上当我的演示搭档吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -468,7 +468,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "来听讲的人里，有很多都是不擅长游泳、或者很少出海的。 你正好是游泳初学者，反而更能站在他们的角度做出反应。 让你上台，其实再合适不过了。",
+   "text": "来听讲的人里，有很多都是不擅长游泳、或者很少出海的。你正好是游泳初学者，反而更能站在他们的角度做出反应。让你上台，其实再合适不过了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -484,7 +484,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "太好了。 这是演示内容，你事先确认一下吧。",
+   "text": "太好了。这是演示内容，你事先确认一下吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -492,7 +492,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "嗯……原来如此，要我来扮演溺水的人啊…… 嗯？！",
+   "text": "嗯……原来如此，要我来扮演溺水的人啊……嗯？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -508,7 +508,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "当然了，这是最重要的部分。 准备好了的话，我们要开始了！",
+   "text": "当然了，这是最重要的部分。准备好了的话，我们要开始了！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -524,7 +524,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "差不多该我出场了……呜呜，开始紧张起来了。 不过，要相信薇洛……",
+   "text": "差不多该我出场了……呜呜，开始紧张起来了。不过，要相信薇洛……",
    "thought": true,
    "sticker": false,
    "channel": "talk"
@@ -572,7 +572,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "那么接下来，我们将结合实际演示继续讲解。 有请我的搭档—— 魔王！",
+   "text": "那么接下来，我们将结合实际演示继续讲解。有请我的搭档——魔王！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -596,7 +596,10 @@
   {
    "k": "talk",
    "speaker": "听众",
-   "text": "你，加油啊——！",
+   "text": {
+    "cn_f": "小姐，加油啊——！",
+    "cn_m": "小哥，加油啊——！"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -604,7 +607,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "谢谢大家的鼓励。 好了，那就先请你躺下吧。",
+   "text": "谢谢大家的鼓励。好了，那就先请你躺下吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -676,7 +679,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "哇哇哇哇哇哇？！薇洛？！ 等、等等，这是不是太、太近了？！",
+   "text": "哇哇哇哇哇哇？！薇洛？！等、等等，这是不是太、太近了？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -708,7 +711,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这已经够清楚了吧？！ 还有人要提问吗？！",
+   "text": "这已经够清楚了吧？！还有人要提问吗？！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -740,7 +743,7 @@
   {
    "k": "talk",
    "speaker": "喜欢开玩笑的听众",
-   "text": "不过话说回来，要是能让又帅又漂亮的薇洛小姐亲自来救我，就算溺个水好像也挺值的呢～ 哈哈，开玩笑啦！",
+   "text": "不过话说回来，要是能让又帅又漂亮的薇洛小姐亲自来救我，就算溺个水好像也挺值的呢～哈哈，开玩笑啦！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -772,7 +775,7 @@
   {
    "k": "talk",
    "speaker": "薇洛",
-   "text": "连自己的性命都不当回事的人，根本不配享受这片海滩！ 胡来只会给周围的人添麻烦，简直连垃圾都不如！",
+   "text": "连自己的性命都不当回事的人，根本不配享受这片海滩！\n胡来只会给周围的人添麻烦，简直连垃圾都不如！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -788,7 +791,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "这么可怕的薇洛，我还是第一次见…… 以后可一定得小心，千万别惹她生气……",
+   "text": "这么可怕的薇洛，我还是第一次见……以后可一定得小心，千万别惹她生气……",
    "thought": true,
    "sticker": false,
    "channel": "talk"

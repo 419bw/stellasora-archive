@@ -68,7 +68,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "太好啦！谢谢你—— 喂，这个风魔法的手环能不能做得更漂亮一点，比如加点装饰什么的。",
+   "text": "太好啦！谢谢你——喂，这个风魔法的手环能不能做得更漂亮一点，比如加点装饰什么的。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -84,7 +84,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "可是枫和冬香都有。 我的也要嘛——我也要你帮我弄——！！",
+   "text": "可是枫和冬香都有。我的也要嘛——我也要你帮我弄——！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -100,7 +100,7 @@
   {
    "k": "talk",
    "speaker": "小禾",
-   "text": "唔……虽然你这样说听起来很有道理， 但你是故意的吧，肯定是故意的吧。",
+   "text": "唔……虽然你这样说听起来很有道理，但你是故意的吧，肯定是故意的吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -116,7 +116,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "嘿嘿，大战前能放松是好事， 还得是你，能想出这么有趣的办法对付魔法雾气。",
+   "text": "嘿嘿，大战前能放松是好事，还得是你，能想出这么有趣的办法对付魔法雾气。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -132,7 +132,10 @@
   {
    "k": "talk",
    "speaker": "鸢尾",
-   "text": "店员？可这明明是我们的同伴。 你看，你手上还有透明的魔法水环呢，那是我进塔前握住你的手时，释放的寻人魔法。",
+   "text": {
+    "cn_f": "店员？可这明明是我们的同伴。你看，她手上还有透明的魔法水环呢，那是我进塔前握住她的手时，释放的寻人魔法。",
+    "cn_m": "店员？可这明明是我们的同伴。你看，他手上还有透明的魔法水环呢，那是我进塔前握住他的手时，释放的寻人魔法。"
+   },
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -140,7 +143,7 @@
   {
    "k": "talk",
    "speaker": "尘沙",
-   "text": "用魔法水环和魔法风环把大家连在一起，就不怕幻觉了。 就算那个雾气厉害到能变化手环的样式，我们也可以通过连在一起的感觉分辨敌我。",
+   "text": "用魔法水环和魔法风环把大家连在一起，就不怕幻觉了。就算那个雾气厉害到能变化手环的样式，我们也可以通过连在一起的感觉分辨敌我。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -188,7 +191,7 @@
   {
    "k": "talk",
    "speaker": "魔王",
-   "text": "大家按照预定的位置， 合围那间小屋。",
+   "text": "大家按照预定的位置，合围那间小屋。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -402,7 +405,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "枝条断了好多，不对......这是寄生之庭自己折断的，这种自残行为究竟有什么意义—— 难道说……它要把魔力集中到一处？如果是这样的话……",
+   "text": "枝条断了好多，不对......这是寄生之庭自己折断的，这种自残行为究竟有什么意义——难道说……它要把魔力集中到一处？如果是这样的话……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -426,7 +429,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "连小型魔物都来了…… 这不可能啊，它们平时见到旅人只会远远地避开。",
+   "text": "连小型魔物都来了……这不可能啊，它们平时见到旅人只会远远地避开。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -482,7 +485,7 @@
   {
    "k": "talk",
    "speaker": "夏花",
-   "text": "寄生之庭…… 在说话？",
+   "text": "寄生之庭……在说话？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -498,7 +501,7 @@
   {
    "k": "talk",
    "speaker": "死去的佣兵",
-   "text": "为什么…… 只有你活了下来？",
+   "text": "为什么……只有你活了下来？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -506,7 +509,7 @@
   {
    "k": "talk",
    "speaker": "绝望的佣兵",
-   "text": "那时候…… 为什么不救我们？",
+   "text": "那时候……为什么不救我们？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -514,7 +517,7 @@
   {
    "k": "talk",
    "speaker": "受了致命伤的佣兵",
-   "text": "命令是绝对的…… 无论如何都要拿到“那个东西”……",
+   "text": "命令是绝对的……无论如何都要拿到“那个东西”……",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -522,7 +525,7 @@
   {
    "k": "talk",
    "speaker": "克莱儿",
-   "text": "不要过来啊——我和你们无冤无仇， 那时候明明是你们自己冲过来的啊，并且你们还想杀了我们！",
+   "text": "不要过来啊——我和你们无冤无仇，那时候明明是你们自己冲过来的啊，并且你们还想杀了我们！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -722,7 +725,7 @@
   {
    "k": "talk",
    "speaker": "冬香",
-   "text": "师父，为了让你们安全撤离，我也会…… 全力以赴的！！",
+   "text": "师父，为了让你们安全撤离，我也会……全力以赴的！！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
