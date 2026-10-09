@@ -112,7 +112,7 @@ class ConditionCatalog:
         _group, start, end, threshold = param
         def chapter(ident):
             return self.text('StoryChapter', self.tables['StoryChapter'][str(ident)]['Name'])
-        scope = '%s至%s的分支剧情已读比例' % (chapter(start), chapter(end))
+        scope = '%s至%s的终局已阅读比例' % (chapter(start), chapter(end))
         return {1: scope + '为 0%',
                 2: scope + f'大于 0%，且不超过 {threshold}%',
                 3: scope + f'大于 {threshold}%，且小于 100%',

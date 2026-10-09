@@ -61,6 +61,7 @@ def test_shared_be_cases_keep_source_and_merge_only_reading_text():
     html, _ = render_html.render_body(doc.to_dict())
     assert html.count(repeated) == 1
     assert '8%' in html
+    assert '若第一章至第八章的终局已阅读比例为 0%' in html
 
 
 def test_choice_condition_ends_at_the_real_jump_destination():
