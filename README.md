@@ -91,7 +91,8 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-08
-- feat(story,site): 新增「委托对话」板块——委托结算演出按段收录（111 篇）
+- fix(story): 未知标记 warning 带上原文
+- fix(story): 解析时遇到未知标记时保留原文，不再构建失败
 
 ---
 
