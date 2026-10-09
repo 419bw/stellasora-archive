@@ -550,6 +550,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_1",
+   "labels": [
+    "若已阅读以下任一剧情：《终局 没有旅人的未来》、《终局 永恒》"
+   ]
+  },
+  {
    "k": "scene",
    "time": "??:??",
    "date": "??月 ??日",
@@ -692,6 +699,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_1",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "scene",
    "time": "??:??",
    "date": "??月 ??日",
@@ -832,6 +846,10 @@
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:a_1"
   },
   {
    "k": "talk",

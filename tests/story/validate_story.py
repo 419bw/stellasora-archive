@@ -100,9 +100,36 @@ def id_of(path):
     return os.path.basename(path).split('_')[0]
 
 
+def source_case_lines(lines):
+    """Expand shared historical prose back to its declared source cases."""
+    body = None
+    count = 0
+    in_labels = False
+    for line in lines:
+        opening = line == '> **[历史条件分支]**'
+        closing = line == '> **[▲ 历史条件分支到此汇合]**'
+        if opening or closing:
+            if body is not None:
+                for _ in range(count):
+                    yield from body
+            body = [] if opening else None
+            count = 0
+            in_labels = opening
+        elif body is None:
+            yield line
+        elif in_labels and line.startswith('> - '):
+            count += 1
+        else:
+            in_labels = False
+            body.append(line)
+    if body is not None:
+        for _ in range(count):
+            yield from body
+
+
 def dialogue(path, drop_chat=False, raw=False):
     out = []
-    for l in lines_of(path):
+    for l in source_case_lines(lines_of(path)):
         if BUBBLE.match(l) or MARKER.match(l) or SCENE.match(l) or CHOICE.match(l) or BULLET.match(l) or SILENT.match(l):
             continue
         m = TALK.match(l)

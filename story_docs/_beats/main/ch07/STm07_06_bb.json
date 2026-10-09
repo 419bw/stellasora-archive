@@ -922,6 +922,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:f_05",
+   "labels": [
+    "若已阅读《终局 自异世界》、《终局 未竟之约》、《终局 联合种业的救赎》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "我会回去的......这一次，我必须回到更久远的过去。",
@@ -930,12 +937,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:f_05",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "我会回去的......这一次，不能拖那么久了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:f_05"
   },
   {
    "k": "talk",
@@ -970,6 +988,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:f_06",
+   "labels": [
+    "若已阅读《终局 自异世界》、《终局 未竟之约》、《终局 联合种业的救赎》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "翡冷翠",
    "text": "并不想独占星塔……那个梅尔库莉娅到底在打什么主意？",
@@ -994,6 +1019,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:f_06",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "不过，如果什么改变都不做，我们恐怕也会被这个混乱的市场影响，进入慢性死亡。",
@@ -1016,6 +1048,10 @@
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:f_06"
   }
  ]
 }

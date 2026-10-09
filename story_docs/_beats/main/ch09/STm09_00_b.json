@@ -810,6 +810,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:t_1",
+   "labels": [
+    "若已阅读《终局 指尖的沙》、《终局 身旁的她》、《终局 遥远的塔》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "鸢尾",
    "text": "连灰风都来了……我们要在这里和拯救委员会决战吗？呜——不管怎么想都打不过吧。",
@@ -832,6 +839,13 @@
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_branch",
+   "group": "unlock:t_1",
+   "labels": [
+    "否则，若已阅读《终局 指尖的沙》、《终局 身旁的她》"
+   ]
   },
   {
    "k": "talk",
@@ -880,6 +894,13 @@
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_branch",
+   "group": "unlock:t_1",
+   "labels": [
+    "否则，若已阅读《终局 指尖的沙》"
+   ]
   },
   {
    "k": "talk",
@@ -1034,6 +1055,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:t_1",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "鸢尾",
    "text": "连灰风都来了……我们要在这里和拯救委员会决战吗？呜——不管怎么想都打不过吧。",
@@ -1080,6 +1108,10 @@
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:t_1"
   },
   {
    "k": "choice",
