@@ -324,6 +324,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_1",
+   "labels": [
+    "若已阅读《终局 天下静谧》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "不管出于什么理由，接受她的效忠都没有好结果。",
@@ -340,12 +347,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_1",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "这种把人当做“养料”，肆意榨取他人记忆的做法，我怎么可能认可！",
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:a_1"
   },
   {
    "k": "talk",

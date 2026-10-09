@@ -512,12 +512,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:1",
+   "labels": [
+    "若已阅读《13B 沙蝎的野望》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "哈萨娜",
    "text": "当然，我真正想要的，是传闻中你身上那好几枚“恩赐印章”，只要能抢到一枚，沙蝎也能建立自己的公司，到时候就算不能和恩赐意志，联合种业这种大公司平起平坐，也不至于像现在这样被单方面压榨。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:1"
   },
   {
    "k": "talk",
@@ -584,6 +595,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:2",
+   "labels": [
+    "若已阅读《05B 亿万》，且已选择《05B 亿万》中的「联合玛蒂尔达」"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "明镜",
    "text": "这枚印章的特许经营专利是——矿业。",
@@ -600,12 +618,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:2",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "她有了和其他公司平起平坐的机会，就不会再久居于人下。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:2"
   },
   {
    "k": "talk",

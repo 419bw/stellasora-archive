@@ -2433,6 +2433,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_15",
+   "labels": [
+    "若已阅读《终局 天下静谧》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "珀尔娜",
    "text": "您只是为了自保，利用了从星塔中许愿的稀有神器而已。",
@@ -2457,6 +2464,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_15",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "维嘉尔",
    "text": "您没有滥用死之权杖，不如说，您能主动停手，让我感觉很意外呢。",
@@ -2471,6 +2485,10 @@
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:a_15"
   },
   {
    "k": "talk",

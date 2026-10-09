@@ -1208,6 +1208,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_92",
+   "labels": [
+    "若已阅读《终局 妈妈》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "艾蕾刚刚那种状态，就像是我在白色房间里看到的那段已经不存在的未来。",
@@ -1224,12 +1231,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_92",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "艾蕾刚刚那种状态，好可怕……160号的魔法完全激发了她作为妈妈想要保护孩子的一面。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:a_92"
   },
   {
    "k": "talk",

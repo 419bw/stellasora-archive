@@ -54,6 +54,7 @@ from pipeline.text_rules import clean_text  # noqa: E402
 from pipeline.speakers import SpeakerResolver  # noqa: E402
 from pipeline.passes import extract_beats  # noqa: E402
 from pipeline import markup  # noqa: E402
+from pipeline.conditions import ConditionCatalog, reading_beats  # noqa: E402
 from pipeline.pagedoc import PageDoc  # noqa: E402
 from pipeline.render_md import page_markdown  # noqa: E402
 
@@ -143,13 +144,16 @@ def script_commands(stem):
 # FORK_DEFS/FORK_CLOSE/fork_options 已移入 pipeline/passes.py（Phase 1c）。
 
 
+CONDITIONS = ConditionCatalog.load(BIN, LANG, script_commands, TEXT_COMPILER)
+
+
 def extract_script(stem):
     """Turn one AVG script into an ordered beat list with branch attribution."""
     cmds = script_commands(stem)
     if cmds is None:
         return None
     diag = []
-    res = extract_beats(cmds, SPEAKER_RESOLVER, TEXT_COMPILER, diag=diag)
+    res = extract_beats(cmds, SPEAKER_RESOLVER, TEXT_COMPILER, diag=diag, conditions=CONDITIONS)
     for d in diag:
         FRAME_ANOMALIES.append((stem, d))
     return res
@@ -196,7 +200,7 @@ def write_beats(page, doc):
 
 def record_page(family, path, doc, ident, title, code='', group=None,
                 stems=(), page=None, **extra):
-    beats = doc.beats
+    beats = reading_beats(doc.beats)
     speakers = []
     for b in beats:
         if b['k'] in ('talk', 'bubble') and b['speaker'] not in speakers:

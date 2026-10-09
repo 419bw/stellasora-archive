@@ -692,6 +692,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_1",
+   "labels": [
+    "若已阅读《05B 亿万》，且已选择《05B 亿万》中的「默默等待时机」"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "星塔消失......难道是和我那次经历的一样......",
@@ -740,12 +747,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_1",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "星塔消失......虽然听上去很离谱，但如果这是真的......说不定，这件事和我们要寻找的沙漠星塔有很大的关系。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:a_1"
   },
   {
    "k": "talk",

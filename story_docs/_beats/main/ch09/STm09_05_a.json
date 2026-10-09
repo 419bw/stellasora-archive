@@ -50,6 +50,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "be:a1",
+   "labels": [
+    "若第一章至第八章的终局已阅读比例为 0%"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "不，不对，在过去的冒险里，我也没少遇到危险。那些时候，尘沙并没有像今天一样，因为直觉的原因慌成这样。",
@@ -58,12 +65,11 @@
    "channel": "talk"
   },
   {
-   "k": "talk",
-   "speaker": "魔王",
-   "text": "不，不对。在过去的冒险里，我又不是没遇到死亡的情况。那些时候，尘沙并没有像今天一样，在死亡降临前这么慌张。",
-   "thought": true,
-   "sticker": false,
-   "channel": "talk"
+   "k": "condition_branch",
+   "group": "be:a1",
+   "labels": [
+    "若第一章至第八章的终局已阅读比例大于 0%，且不超过 8%"
+   ]
   },
   {
    "k": "talk",
@@ -74,12 +80,38 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "be:a1",
+   "labels": [
+    "若第一章至第八章的终局已阅读比例大于 8%，且小于 100%"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "不，不对。在过去的冒险里，我又不是没遇到死亡的情况。那些时候，尘沙并没有像今天一样，在死亡降临前这么慌张。",
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_branch",
+   "group": "be:a1",
+   "labels": [
+    "若第一章至第八章的终局已阅读比例为 100%"
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不对。在过去的冒险里，我又不是没遇到死亡的情况。那些时候，尘沙并没有像今天一样，在死亡降临前这么慌张。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "be:a1"
   },
   {
    "k": "talk",

@@ -12,6 +12,7 @@ _STORY_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 if _STORY_DIR not in sys.path:
     sys.path.insert(0, _STORY_DIR)
 from pipeline import markup  # noqa: E402
+from pipeline.conditions import reading_beats  # noqa: E402
 
 META = re.compile(r'^- \*\*(.+?)\*\*：(.*)$')
 
@@ -45,6 +46,14 @@ def _clean_opt(s):
 
 
 def _branch_nav_html(choice_id, merge_id):
+    choice_btn = ''
+    if choice_id:
+        choice_btn = (
+            f'<a class="branch-nav-btn to-choice" href="#{choice_id}" title="回到抉择选项位置">'
+            f'<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2">'
+            f'<path d="M12 19V5M5 12l7-7 7 7"/>'
+            f'</svg><span>返回抉择</span></a>'
+        )
     merge_btn = ''
     if merge_id:
         merge_btn = (
@@ -55,10 +64,7 @@ def _branch_nav_html(choice_id, merge_id):
         )
     return (
         f'<div class="branch-nav">'
-        f'<a class="branch-nav-btn to-choice" href="#{choice_id}" title="回到抉择选项位置">'
-        f'<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2">'
-        f'<path d="M12 19V5M5 12l7-7 7 7"/>'
-        f'</svg><span>返回抉择</span></a>'
+        f'{choice_btn}'
         f'{merge_btn}'
         f'</div>'
     )
@@ -173,11 +179,15 @@ def render_body(doc, branch_targets=None):
     target belongs to (built by build_site from the option jump EvIds).
     """
     doc = markup.decode_text(doc)
-    beats = doc['beats']
+    beats = reading_beats(doc['beats'])
     choices, branches, merges = _parse_choice_structure(beats)
     choice_iter = iter(choices)
     branch_iter = iter(branches)
     merge_iter = iter(merges)
+    condition_ends = [b for b in beats if b['k'] == 'condition_end']
+    condition_merges = {b['group']: f'condition-merge-{i}'
+                        for i, b in enumerate(condition_ends, 1)}
+    active_conditions = []
 
     out = []
     stats = {'line': 0, 'marker': 0, 'scene': 0, 'choice': 0, 'meta': 0}
@@ -250,6 +260,21 @@ def render_body(doc, branch_targets=None):
             stats['scene'] += 1
         elif k == 'wave':
             out.append('<p class="wave">%s</p>' % escape('战斗阶段 %s' % b['no']))
+            stats['marker'] += 1
+        elif k == 'condition_branch':
+            group = b['group']
+            if active_conditions and active_conditions[-1] == group:
+                out.append(_branch_nav_html(None, condition_merges[group]))
+            else:
+                active_conditions.append(group)
+            out.append('<aside class="branch-open condition-branch"><b>历史条件分支</b>%s</aside>'
+                       % ''.join('<div>%s</div>' % escape(label) for label in b['labels']))
+            stats['marker'] += 1
+        elif k == 'condition_end':
+            active_conditions.pop()
+            merge_id = condition_merges[b['group']]
+            out.append(_branch_nav_html(None, merge_id))
+            out.append('<p class="merge" id="%s">▲ 历史条件分支到此汇合</p>' % merge_id)
             stats['marker'] += 1
         elif k == 'branch_open':
             b_obj = next(branch_iter, None)

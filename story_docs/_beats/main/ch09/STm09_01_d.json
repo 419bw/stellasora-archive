@@ -3170,6 +3170,24 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:t_1",
+   "labels": [
+    "若已阅读《终局 妈妈》"
+   ]
+  },
+  {
+   "k": "condition_branch",
+   "group": "unlock:t_1",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:t_1"
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "如果没有我，如果她们从未遇到过我，是否……她们的命运，她们的人生会比现在好得多呢？",

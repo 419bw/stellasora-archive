@@ -112,7 +112,7 @@ def command_text_slots(command):
     return tuple(slot(command.param, i) for i in indices)
 
 
-def extract_beats(commands, resolver, compiler, diag=None):
+def extract_beats(commands, resolver, compiler, diag=None, conditions=None):
     """Extract ordered story beats and their choice-branch ownership."""
     beats = []
     stack = []
@@ -120,7 +120,14 @@ def extract_beats(commands, resolver, compiler, diag=None):
     last_marker = None
     meta = {'recap': '', 'episode': '', 'title': ''}
     # Fade-in frames of the same line are not separate lines of dialogue.
-    skip = fold_animations(commands, compiler)
+    if conditions is not None:
+        from .conditions import condition_markers
+        markers = condition_markers(commands, conditions)
+    else:
+        markers = {}
+    boundaries = sorted({0, len(commands), *markers})
+    skip = set().union(*(fold_animations(commands[start:end], compiler)
+                         for start, end in zip(boundaries, boundaries[1:])))
 
     def frame_for(group):
         for fr in reversed(stack):
@@ -135,6 +142,7 @@ def extract_beats(commands, resolver, compiler, diag=None):
         return None
 
     for c in commands:
+        beats.extend(markers.get(c.idx, []))
         cmd, param = c.cmd, c.param
         head = str(param[0]) if param else ""
         kind = FORK_DEFS.get(cmd)

@@ -2,6 +2,7 @@
 """Render PageDoc as readable Markdown with adjacent nonempty text variants."""
 from __future__ import annotations
 from .markup import markdown as md, alternatives
+from .conditions import reading_beats
 
 
 def variant_lines(text, prefix=''):
@@ -12,7 +13,7 @@ def variant_lines(text, prefix=''):
 def beat_lines(beats):
     """One beat list -> markdown lines. Used by both the main and event writers."""
     lines = []
-    for b in beats:
+    for b in reading_beats(beats):
         k = b['k']
         if k == 'talk':
             if b.get('sticker'):
@@ -33,6 +34,11 @@ def beat_lines(beats):
         elif k == 'scene':
             bits = [x for x in (b['place'], b['date'], b['time']) if x]
             lines += ["", "> **【场景 · %s】**" % " · ".join(bits)]
+        elif k == 'condition_branch':
+            lines += ['', '> **[历史条件分支]**']
+            lines += ['> - %s' % label for label in b['labels']]
+        elif k == 'condition_end':
+            lines += ['', '> **[▲ 历史条件分支到此汇合]**']
         elif k == 'branch_open':
             lines += ["", "> **[若选「%s」↓]**" % md(b['option'])]
         elif k == 'merge':

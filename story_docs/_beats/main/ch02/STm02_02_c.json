@@ -476,12 +476,23 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "choice:g_1",
+   "labels": [
+    "若已选择《07 不同的许愿》中的「放弃思考」"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "旁白",
    "text": "她们有些眼熟，似乎是曾经引导我的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "choice:g_1"
   },
   {
    "k": "talk",

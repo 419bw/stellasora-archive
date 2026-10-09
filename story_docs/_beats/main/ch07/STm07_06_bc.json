@@ -1034,12 +1034,37 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:h_08",
+   "labels": [
+    "若已阅读《终局 自异世界》、《终局 未竟之约》、《终局 联合种业的救赎》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "我会回去的......这一次，我必须回到更久远的过去。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_branch",
+   "group": "unlock:h_08",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:h_08"
+  },
+  {
+   "k": "condition_branch",
+   "group": "unlock:h_11",
+   "labels": [
+    "若已阅读《终局 自异世界》、《终局 未竟之约》、《终局 联合种业的救赎》"
+   ]
   },
   {
    "k": "talk",
@@ -1064,6 +1089,13 @@
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_branch",
+   "group": "unlock:h_11",
+   "labels": [
+    "否则"
+   ]
   },
   {
    "k": "talk",
@@ -1096,6 +1128,10 @@
    "thought": true,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:h_11"
   }
  ]
 }

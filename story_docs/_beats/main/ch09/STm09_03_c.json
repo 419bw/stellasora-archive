@@ -979,6 +979,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_2",
+   "labels": [
+    "若已阅读《终局 妈妈》"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "蓝锥",
    "text": {
@@ -990,6 +997,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:a_2",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "蓝锥",
    "text": {
@@ -999,6 +1013,10 @@
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:a_2"
   },
   {
    "k": "talk",

@@ -530,6 +530,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:1",
+   "labels": [
+    "若已阅读《05B 亿万》，且已选择《05B 亿万》中的「默默等待时机」"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "大地不断塌陷，坠入漆黑的深渊……那不就是……",
@@ -594,6 +601,13 @@
    "channel": "talk"
   },
   {
+   "k": "condition_branch",
+   "group": "unlock:1",
+   "labels": [
+    "否则"
+   ]
+  },
+  {
    "k": "talk",
    "speaker": "魔王",
    "text": "大地塌陷……这听起来非常的离奇啊，但无论是格蕾霍恩还是160号，都没有露出惊讶的表情，想必整个拯救委员会都是这么认为的。",
@@ -624,6 +638,10 @@
    "thought": false,
    "sticker": false,
    "channel": "talk"
+  },
+  {
+   "k": "condition_end",
+   "group": "unlock:1"
   },
   {
    "k": "talk",
