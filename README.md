@@ -98,8 +98,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-10
-- docs: 文档大更——架构章按当前实现重写，过时数字改为动态口径
-- refactor(story): 统一兜底机制至 pipeline/diagnostics.py
+- feat(story): 收录心链（手机聊天）全篇至 story_docs/_chat/
 
 ---
 
