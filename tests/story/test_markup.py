@@ -210,6 +210,9 @@ def test_unknown_game_marker_preserves_text_and_warns(caplog):
     assert len(caplog.records) == 1
     assert '==NEW_MARKER==' in caplog.records[0].getMessage()
     assert raw in caplog.records[0].getMessage()
+    # 降级不崩只是底线：同一条兜底还必须登记进诊断侧车，否则审 diff 的人看不见
+    assert compiler.diagnostics.entries('unknown_control_markers') == [
+        {'marker': '==NEW_MARKER==', 'text': raw}]
 
 
 def test_stored_variants_preserve_projections():

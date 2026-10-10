@@ -12,6 +12,7 @@ _STORY_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 if _STORY_DIR not in sys.path:
     sys.path.insert(0, _STORY_DIR)
 from pipeline import markup  # noqa: E402
+from pipeline.diagnostics import warn  # noqa: E402
 from pipeline.conditions import reading_beats  # noqa: E402
 
 META = re.compile(r'^- \*\*(.+?)\*\*：(.*)$')
@@ -264,15 +265,27 @@ def render_body(doc, branch_targets=None):
         elif k == 'condition_branch':
             group = b['group']
             if active_conditions and active_conditions[-1] == group:
-                out.append(_branch_nav_html(None, condition_merges[group]))
+                merge_id = condition_merges.get(group)
+                if merge_id:
+                    out.append(_branch_nav_html(None, merge_id))
             else:
                 active_conditions.append(group)
             out.append('<aside class="branch-open condition-branch"><b>历史条件分支</b>%s</aside>'
                        % ''.join('<div>%s</div>' % escape(label) for label in b['labels']))
             stats['marker'] += 1
         elif k == 'condition_end':
-            active_conditions.pop()
-            merge_id = condition_merges[b['group']]
+            group = b['group']
+            # 侧车被手工改坏 / 上游指令交叉嵌套时不崩：补一个兜底锚点、按 group 退栈
+            # （不再无条件 pop——交叉嵌套时 pop 会弹错组，见 _dev/AI_HANDOVER_GUIDE.md
+            # 「兜底与诊断策略」）。站点侧只告警，不建登记侧车。
+            if group not in condition_merges:
+                warn('condition_end 的 group %r 没有对应的汇合锚点，使用兜底锚点' % (group,))
+                condition_merges[group] = 'condition-merge-%d' % (len(condition_merges) + 1)
+            if group not in active_conditions:
+                warn('condition_end 的 group %r 没有活跃的条件组（指令交叉嵌套？）' % (group,))
+            else:
+                active_conditions.remove(group)
+            merge_id = condition_merges[group]
             out.append(_branch_nav_html(None, merge_id))
             out.append('<p class="merge" id="%s">▲ 历史条件分支到此汇合</p>' % merge_id)
             stats['marker'] += 1

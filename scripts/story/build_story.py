@@ -36,12 +36,12 @@ OUT = os.path.join(ROOT, 'story_docs')
 # Filled by build_main(), reported in _battle_reconciliation.md.
 CODE_MISMATCHES = []
 
-# Phase 3 诊断侧车（story_docs/_diagnostics.json）收集点：上游数据异常的机器可读
-# 登记，只记录、不改变任何行为。SPEAKER_FALLBACKS 由 pipeline/speakers.py 填充
-# （预置表查不到、走前缀/裸 id 兜底的说话人），FRAME_ANOMALIES 由
-# pipeline/passes.py 填充（抉择关闭指令的 group 找不到活跃帧，如 CG_126_03）。
-SPEAKER_FALLBACKS = []
-FRAME_ANOMALIES = []      # [(stem, {'idx','cmd','group','closer'})]
+# Phase 3 诊断侧车（story_docs/_diagnostics.json）唯一收集点：上游数据异常与编译器
+# 兜底的机器可读登记，只记录、不改变任何行为。全部降级通道（markup 强调计数与两处
+# "保留原文"、speakers 前缀兜底、passes 帧异常、conditions 查表降级、构建期命名回退）
+# 都注入这同一个 DIAG，由 pipeline/diagnostics.py 的 CATEGORIES 注册表描述口径，
+# write_diagnostics() 只是把它序列化——不再有跨模块的裸 list/dict 和手抄说明。
+# 注意：必须在下方 pipeline 导入之后创建（Diagnostics 来自 pipeline.diagnostics）。
 
 # ============================================================== Lua table parser
 # 解析器已拆分为 pipeline/lua_lexer.py（词法，token 流带 SourcePos）与
@@ -55,8 +55,11 @@ from pipeline.speakers import SpeakerResolver  # noqa: E402
 from pipeline.passes import extract_beats  # noqa: E402
 from pipeline import markup  # noqa: E402
 from pipeline.conditions import ConditionCatalog, reading_beats  # noqa: E402
+from pipeline.diagnostics import CATEGORIES, Diagnostics  # noqa: E402
 from pipeline.pagedoc import PageDoc  # noqa: E402
 from pipeline.render_md import page_markdown  # noqa: E402
+
+DIAG = Diagnostics()
 
 
 # ================================================================= data loading
@@ -80,10 +83,9 @@ def load_speakers():
     return out
 
 
-TEXT_COMPILER = markup.TextCompiler.load(PRESET, BIN, LANG)
-EMPH_STATS = TEXT_COMPILER.diagnostics
+TEXT_COMPILER = markup.TextCompiler.load(PRESET, BIN, LANG, diagnostics=DIAG)
 SPEAKERS = load_speakers()
-SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS, diag=SPEAKER_FALLBACKS)
+SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS, diag=DIAG)
 LANG_STORY = load_json(LANG, 'Story.json')
 LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
 LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
@@ -144,7 +146,7 @@ def script_commands(stem):
 # FORK_DEFS/FORK_CLOSE/fork_options 已移入 pipeline/passes.py（Phase 1c）。
 
 
-CONDITIONS = ConditionCatalog.load(BIN, LANG, script_commands, TEXT_COMPILER)
+CONDITIONS = ConditionCatalog.load(BIN, LANG, script_commands, TEXT_COMPILER, diagnostics=DIAG)
 
 
 def extract_script(stem):
@@ -152,11 +154,8 @@ def extract_script(stem):
     cmds = script_commands(stem)
     if cmds is None:
         return None
-    diag = []
-    res = extract_beats(cmds, SPEAKER_RESOLVER, TEXT_COMPILER, diag=diag, conditions=CONDITIONS)
-    for d in diag:
-        FRAME_ANOMALIES.append((stem, d))
-    return res
+    return extract_beats(cmds, SPEAKER_RESOLVER, TEXT_COMPILER,
+                         diag=DIAG, conditions=CONDITIONS, stem=stem or '')
 
 
 # ==================================================================== rendering
@@ -290,6 +289,12 @@ def bubble_stem_for(story_id, code):
     tail = re.sub(r'[^A-Za-z0-9]', '', m.group(2))
     if re.fullmatch(r'BT\d+', tail):
         return 'BB%s_%s' % (token, tail)
+    # 顺序名关卡（ch01–ch05）与特别篇：StoryId 尾部不是战斗编号，只能退回显示代号。
+    # 这是既定正常行为（docstring 与 _battle_reconciliation.md 有说明），但此前侧车里
+    # 没有计数——按 speaker_inline_names 的惯例登记一个去重计数，上游若哪天开始给
+    # 这些关卡补 BTnn 编号，diff 里立刻可见。
+    DIAG.bump('bubble_stem_display_code_fallback',
+              key=(str(story_id or ''), str(code or '')))
     return 'BB%s_%s' % (token, re.sub(r'[^A-Za-z0-9]', '', code or ''))
 
 
@@ -912,51 +917,26 @@ def write_coverage():
 def write_diagnostics(battle_map, skipped, unattached):
     """story_docs/_diagnostics.json —— 上游数据异常与编译器兜底的机器可读登记。
 
-    与人读的 _battle_reconciliation.md 互补：这里是脚本/测试可直接消费的结构化
-    条目（手册 8.5 认可的根级侧车）。纯增量文件：不在黄金清单覆盖面（其只收
-    *.md、_data/*.json、site/**），也不被任何现有契约消费。列表按构造序或
-    显式排序，同一输入重建字节稳定。
+    与人读的 _battle_reconciliation.md 互补。所有分类都在解析/构建过程中实时登记进
+    进程级 DIAG（pipeline/diagnostics.py），本函数只做两件事：把四个构建期分类补登
+    进去，再整份序列化。分类口径、键序、note 文案全部由 CATEGORIES 注册表生成，
+    不在这里手抄——所以"加了兜底忘记写说明"会直接 KeyError，而不是静默进侧车。
+    同一输入重建字节稳定（list 按去重键排序，count 为累计值）。
     """
-    anomalies = {}
-    for stem, d in FRAME_ANOMALIES:
-        anomalies[(stem, d['idx'], d['cmd'], d['group'])] = {
-            'stem': stem, 'idx': d['idx'], 'cmd': d['cmd'],
-            'group': d['group'], 'closer': d['closer']}
-    fallbacks = {}
-    for f in SPEAKER_FALLBACKS:
-        fallbacks.setdefault(f['sid'], f)
-    obj = {
-        'note': '上游数据异常与编译器兜底的机器可读登记（build_story 生成）。'
-                '人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。'
-                'speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；'
-                'speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数'
-                '（正常行为，按字面解析，不逐条列出）；'
-                'choice_frame_anomalies=抉择关闭指令的 group 无活跃帧'
-                '（phone 方言不入帧栈，其落空属设计使然，不登记）；'
-                'emph_tags_preserved/orphan_emph_tags_stripped=成对保留与'
-                '孤儿剥离的 <b>/<i> 强调标记计数（TextCompiler '
-                '栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。'
-                '口径为本次构建中不同原始文本的标签数量，包含被折叠帧；'
-                '相同原始文本复用缓存，不重复计数。',
-        'code_mismatches': [
-            {'sid': sid, 'story_id': story, 'storyid_suffix': suffix,
-             'display_code': disp, 'bubble_stem': stem, 'condition_id': cond,
-             'chapter': c}
-            for sid, story, suffix, disp, stem, cond, c in CODE_MISMATCHES],
-        'battle_bubble_missing': [
-            {'sid': b[0], 'expected_stem': b[1], 'chapter': b[3]}
-            for b in battle_map if b[2] == 'MISSING'],
-        'unattached_bbm_scripts': sorted(unattached),
-        'rows_without_script': [
-            {'chapter': c, 'sid': sid, 'stem': stem, 'title': t, 'kind': kind}
-            for c, sid, stem, t, kind in skipped],
-        'speaker_prefix_fallbacks': [
-            fallbacks[k] for k in sorted(fallbacks) if fallbacks[k]['via'] == 'prefix'],
-        'speaker_inline_names': sum(1 for k in fallbacks if fallbacks[k]['via'] == 'sid'),
-        'choice_frame_anomalies': [anomalies[k] for k in sorted(anomalies)],
-        'emph_tags_preserved': EMPH_STATS['paired'],
-        'orphan_emph_tags_stripped': EMPH_STATS['orphan'],
-    }
+    for sid, story, suffix, disp, stem, cond, c in CODE_MISMATCHES:
+        DIAG.add('code_mismatches', key=(sid, story, suffix, disp, stem, cond, c),
+                 sid=sid, story_id=story, storyid_suffix=suffix, display_code=disp,
+                 bubble_stem=stem, condition_id=cond, chapter=c)
+    for b in battle_map:
+        if b[2] == 'MISSING':
+            DIAG.add('battle_bubble_missing', key=(b[0], b[1], b[3]),
+                     sid=b[0], expected_stem=b[1], chapter=b[3])
+    DIAG.extend('unattached_bbm_scripts', unattached)
+    for c, sid, stem, t, kind in skipped:
+        DIAG.add('rows_without_script', key=(c, sid, stem, t, kind),
+                 chapter=c, sid=sid, stem=stem, title=t, kind=kind)
+    obj = {'note': DIAG.note()}
+    obj.update(DIAG.as_dict())
     write(os.path.join(OUT, '_diagnostics.json'),
           json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
     return obj
@@ -1035,15 +1015,19 @@ def main():
         lines += ["- 第 %s 章 `%s` %s（%s，剧本代号 `%s`）" % (c, sid, t, kind, stem) for c, sid, stem, t, kind in skipped]
     write(os.path.join(OUT, '_battle_reconciliation.md'), "\n".join(lines))
     djson = write_diagnostics(battle_map, skipped, unattached)
-    print("诊断侧车 _diagnostics.json：代号错配=%d 气泡缺失=%d 未引用BBm=%d "
-          "无剧本行=%d 前缀兜底=%d 内联名=%d 帧异常=%d 强调保留=%d 强调孤儿=%d"
-          % (len(djson['code_mismatches']), len(djson['battle_bubble_missing']),
-             len(djson['unattached_bbm_scripts']), len(djson['rows_without_script']),
-             len(djson['speaker_prefix_fallbacks']), djson['speaker_inline_names'],
-             len(djson['choice_frame_anomalies']),
-             djson['emph_tags_preserved'], djson['orphan_emph_tags_stripped']))
+    print("诊断侧车 _diagnostics.json：%s"
+          % (' '.join('%s=%s' % kv for kv in sorted(DIAG.nonzero().items()))
+             or '本次构建无任何兜底触发'))
     print("Wrote %s" % OUT)
 
 
 if __name__ == '__main__':
+    # --out 仅供校验用（tests/story/validate_story.py 的 P3 组重建到临时目录后逐字节
+    # 比对 _diagnostics.json）。默认仍是 story_docs/，行为与加参数前完全一致。
+    import argparse
+    ap = argparse.ArgumentParser(description='解析上游数据源并生成 story_docs/')
+    ap.add_argument('--out', default=OUT,
+                    help='输出目录（默认 %s；仅校验用临时重建时才覆盖）' % OUT)
+    args = ap.parse_args()
+    OUT = args.out
     main()

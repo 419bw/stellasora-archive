@@ -12,8 +12,10 @@ from .text_rules import clean_text
 class SpeakerResolver:
     """Resolve an AVG speaker id to a display name, honouring the protagonist rules.
 
-    diag: 可选列表收集器（Phase 3 诊断侧车）。预置表查不到的 id 走前缀回退
-    或裸 id 兜底时记录一条 {'sid','via','resolved'}；仅记录，不影响解析结果。
+    diag: 可选 Diagnostics 收集器（Phase 3 诊断侧车）。预置表查不到的 id 走前缀回退
+    或裸 id 兜底时登记一条：前缀归位进 speaker_prefix_fallbacks（逐条），
+    裸 id/sid 字面量只按去重 sid 计一条 speaker_inline_names（正常行为，不逐条列）。
+    仅记录，不影响解析结果。
     """
 
     def __init__(self, speakers, diag=None):
@@ -30,9 +32,11 @@ class SpeakerResolver:
         name, surfix = hit or self.prefix_of(sid) or ("", "")
         out = clean_text(name or surfix or sid)
         if hit is None and self.diag is not None:
-            self.diag.append({'sid': sid,
-                              'via': 'prefix' if self.prefix_of(sid) else 'sid',
-                              'resolved': out})
+            if self.prefix_of(sid):
+                self.diag.add('speaker_prefix_fallbacks', key=(sid,),
+                              sid=sid, via='prefix', resolved=out)
+            else:
+                self.diag.bump('speaker_inline_names', key=(sid,))
         return out
 
     def prefix_of(self, sid):

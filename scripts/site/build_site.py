@@ -26,6 +26,7 @@ from site_js import JS
 import site_templates as T
 import graph_layout
 import release_gate
+from pipeline.diagnostics import warn  # noqa: E402
 
 SRC = os.path.join(ROOT, 'story_docs')
 DATA = os.path.join(SRC, '_data')
@@ -374,9 +375,10 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
             nav_index[cur_p['page']] = {'prev': prev_items, 'next': next_items}
 
     if unresolved_branches:
-        print("分支走向角标：%d 个选项未解析到目标关卡（对应上方页面将不显示角标）：" % len(unresolved_branches))
-        for page, opt, ev in unresolved_branches:
-            print("    %s  选项「%s」ev=%s" % (page, opt, ev))
+        # 与 _diagnostics.json 同一套告警出口（站点侧只告警，不建登记侧车）
+        warn('分支走向角标：%d 个选项未解析到目标关卡（对应上方页面将不显示角标）：%s'
+             % (len(unresolved_branches),
+                '；'.join('%s 选项「%s」ev=%s' % x for x in unresolved_branches)))
 
     return nav_index, branch_index
 

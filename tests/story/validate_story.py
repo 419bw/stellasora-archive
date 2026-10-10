@@ -15,6 +15,8 @@ D  变异测试   : planted errors must be caught.
 K  挂载语义   : a mounted BBm script only speaks with characters of that stage's chapter
                (F checks content against the declared stem, so a wrong declaration is
                invisible to it; this contract ignores file names entirely)
+P  诊断侧车   : story_docs/_diagnostics.json 与 pipeline/diagnostics.py 的分类注册表
+               同构（schema/note/排序/去重），且子进程重建后逐字节一致
 """
 import sys, os, re, glob, json, collections
 
@@ -25,6 +27,13 @@ NEW = os.path.join(ROOT, 'story_docs')
 CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Config')
 BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
 LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
+
+# P 组（诊断侧车契约）需要分类注册表口径。pipeline.diagnostics 是只依赖 logging 的
+# 叶子模块，导入它不破坏本文件"never imports build_story.py"的独立性。
+sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
+from pipeline.diagnostics import CATEGORIES as _REGISTRY  # noqa: E402
+from pipeline.diagnostics import Diagnostics as _Diagnostics  # noqa: E402
+_REGISTRY_NOTE = _Diagnostics().note()
 
 # ---- 分级退出码（管线重构 Phase 0 引入）----------------------------------------
 # 绝对真值契约（B/C/D/E/F/K/M：产物 vs 剧本原文/表数据、全部变异测试）违例 → exit 1。
@@ -1072,6 +1081,107 @@ _m_re = not audit_ruby(rp, rstem)
 hard(_m_re, 'M2 还原后复检 FAIL')
 print('还原后复检: %s' % ('PASS' if _m_re else 'FAIL'))
 
+# ============================================================ P 诊断侧车契约
+# 兜底统一的验收闸门（pipeline/diagnostics.py）：
+#   P1 schema   —— 顶层键集合/形状/排序/去重 必须与 CATEGORIES 注册表一致；
+#   P2 note     —— note 文案必须由注册表现生成（不允许手抄 prose 与代码漂移）；
+#   P3 重建漂移 —— 子进程把 build_story 重建到临时目录，_diagnostics.json 必须逐字节
+#                  相同（"同输入重建字节稳定"是侧车可人审的前提）；
+#   P4 变异测试 —— 往侧车注入假条目/改坏 note 必须被 P1/P2 抓到。
+# 独立性：P3 用 subprocess 跑生成器，本文件依旧 never imports build_story.py。
+print()
+print('=' * 66)
+print('P  诊断侧车 _diagnostics.json（兜底统一契约）')
+
+_DIAG_PATH = os.path.join(NEW, '_diagnostics.json')
+_diag_text = open(_DIAG_PATH, encoding='utf-8').read()
+_diag_obj = json.loads(_diag_text)
+
+
+def _diag_entry_key(entry):
+    return json.dumps(entry, ensure_ascii=False)
+
+
+def audit_diag_schema(obj):
+    """返回违例列表；空列表 = 合规。"""
+    errs = []
+    registry = _REGISTRY
+    if list(obj) != ['note'] + list(registry):
+        errs.append('顶层键集合/顺序与 CATEGORIES 不符：%s' % list(obj))
+        return errs
+    if obj.get('note') != _REGISTRY_NOTE:
+        errs.append('note 与 CATEGORIES 重新生成的文案不一致（手抄 prose 漂移）')
+    for name, (shape, _desc) in registry.items():
+        value = obj.get(name)
+        if shape == 'count':
+            if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+                errs.append('%s 应为非负 int，实为 %r' % (name, value))
+            continue
+        if not isinstance(value, list):
+            errs.append('%s 应为 list，实为 %r' % (name, value))
+            continue
+        keys = [_diag_entry_key(e) for e in value]
+        if len(set(keys)) != len(keys):
+            errs.append('%s 含重复条目' % name)
+        if keys != sorted(keys):
+            errs.append('%s 未按去重键排序' % name)
+    return errs
+
+
+# P 组（诊断侧车契约）注册表口径已在文件头导入（pipeline.diagnostics 是纯 logging
+# 叶子模块，导入它不破坏"never imports build_story.py"的独立性）。
+
+if _REGISTRY:
+    _p1 = audit_diag_schema(_diag_obj)
+    hard(not _p1, 'P1 诊断侧车 schema FAIL：%s' % '；'.join(_p1))
+    print('正对照（未篡改）: %s' % ('PASS' if not _p1 else 'FAIL'))
+
+    print('P4 变异测试')
+    for label, mutated in [
+            ('植入[多加一个分类]', dict(_diag_obj, not_a_category=[])),
+            ('植入[删一个分类]', {k: v for k, v in _diag_obj.items()
+                                if k != 'unknown_control_markers'}),
+            ('植入[改坏 note]', dict(_diag_obj, note='手抄的说明')),
+            ('植入[加重复条目]', dict(
+                _diag_obj, choice_frame_anomalies=(
+                    _diag_obj['choice_frame_anomalies']
+                    + _diag_obj['choice_frame_anomalies'][:1]))),
+            ('植入[打乱排序]', dict(
+                _diag_obj, unattached_bbm_scripts=list(reversed(
+                    _diag_obj['unattached_bbm_scripts'])))),
+            ('植入[计数改成负数]', dict(_diag_obj, emph_tags_preserved=-1))]:
+        _p4 = audit_diag_schema(mutated)
+        hard(_p4, 'P4 %s MISSED' % label)
+        print('%s : %s' % (label, 'CAUGHT' if _p4 else 'MISSED'))
+
+    if os.environ.get('STELLA_DIAG_REBUILD', '1') != '0':
+        import shutil
+        import subprocess
+        import tempfile
+        _tmp = tempfile.mkdtemp(prefix='stella_diag_')
+        try:
+            _r = subprocess.run(
+                [sys.executable, os.path.join(ROOT, 'scripts', 'story', 'build_story.py'),
+                 '--out', _tmp],
+                capture_output=True, text=True, encoding='utf-8', errors='replace')
+            if _r.returncode != 0:
+                hard(False, 'P3 重建 build_story 失败：%s' % _r.stderr[-400:])
+                print('P3 重建 : FAIL（build_story 退出码 %s）' % _r.returncode)
+            else:
+                _rebuilt = os.path.join(_tmp, '_diagnostics.json')
+                if not os.path.exists(_rebuilt):
+                    hard(False, 'P3 重建未产出 _diagnostics.json')
+                    print('P3 重建 : FAIL（缺产物）')
+                elif open(_rebuilt, encoding='utf-8').read() != _diag_text:
+                    hard(False, 'P3 诊断侧车重建漂移：提交版与重跑结果不一致')
+                    print('P3 重建漂移 : FAIL')
+                else:
+                    print('P3 重建漂移 : PASS（逐字节一致）')
+        finally:
+            shutil.rmtree(_tmp, ignore_errors=True)
+    else:
+        print('P3 重建漂移 : SKIP（STELLA_DIAG_REBUILD=0）')
+
 # ---- 汇总与退出码 -------------------------------------------------------------
 print()
 print('=' * 66)
@@ -1080,7 +1190,7 @@ if HARD:
     for x in HARD:
         print('   ✗', x)
     sys.exit(1)
-print('RESULT: PASS —— 绝对真值契约（B/C/D/E/F/K/M + 全部变异测试）全绿；')
+print('RESULT: PASS —— 绝对真值契约（B/C/D/E/F/K/M/P + 全部变异测试）全绿；')
 print('              历史对照（A/A2）在白名单内（%d 关卡：%s）'
       % (len(A_WHITELIST), ', '.join(sorted(A_WHITELIST))))
 sys.exit(0)
