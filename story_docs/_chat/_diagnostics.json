@@ -1,0 +1,195 @@
+{
+ "note": "心链提取兜底登记。segment_without_chat_row / unbalanced_choice / empty_segment_skipped / jump_index_out_of_range 是当前上游数据的已知怪象（白名单，实例见各条目），其余类别必须为 0。文本与说话人兜底走共享 DIAG，落在 story_docs/_diagnostics.json 的既有类别里。",
+ "counts": {
+  "empty_segment_skipped": 1,
+  "jump_index_out_of_range": 1,
+  "segment_without_chat_row": 39,
+  "unbalanced_choice": 2
+ },
+ "categories": {
+  "segment_without_chat_row": [
+   {
+    "stem": "PM10301",
+    "gid": "08"
+   },
+   {
+    "stem": "PM10701",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11001",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11101",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11201",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11301",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11401",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11501",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11601",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11701",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11801",
+    "gid": "08"
+   },
+   {
+    "stem": "PM11901",
+    "gid": "08"
+   },
+   {
+    "stem": "PM12001",
+    "gid": "08"
+   },
+   {
+    "stem": "PM12301",
+    "gid": "08"
+   },
+   {
+    "stem": "PM12501",
+    "gid": "08"
+   },
+   {
+    "stem": "PM12601",
+    "gid": "08"
+   },
+   {
+    "stem": "PM12701",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13001",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13201",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13301",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13401",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13501",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13701",
+    "gid": "08"
+   },
+   {
+    "stem": "PM13901",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14001",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14101",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14201",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14301",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14401",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14501",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14701",
+    "gid": "08"
+   },
+   {
+    "stem": "PM14901",
+    "gid": "08"
+   },
+   {
+    "stem": "PM15001",
+    "gid": "08"
+   },
+   {
+    "stem": "PM15501",
+    "gid": "08"
+   },
+   {
+    "stem": "PM15601",
+    "gid": "08"
+   },
+   {
+    "stem": "PM15701",
+    "gid": "08"
+   },
+   {
+    "stem": "PM15801",
+    "gid": "08"
+   },
+   {
+    "stem": "PM15901",
+    "gid": "08"
+   },
+   {
+    "stem": "PM16001",
+    "gid": "08"
+   }
+  ],
+  "unbalanced_choice": [
+   {
+    "stem": "PM11701",
+    "gid": "04",
+    "group": "1"
+   },
+   {
+    "stem": "PM14101",
+    "gid": "05",
+    "group": "1"
+   }
+  ],
+  "empty_segment_skipped": [
+   {
+    "stem": "PM13501",
+    "gid": "08"
+   }
+  ],
+  "jump_index_out_of_range": [
+   {
+    "stem": "PM14101",
+    "gid": "05",
+    "group": "1",
+    "index": "2"
+   }
+  ]
+ }
+}
