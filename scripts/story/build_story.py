@@ -58,6 +58,7 @@ from pipeline.conditions import ConditionCatalog, reading_beats  # noqa: E402
 from pipeline.diagnostics import CATEGORIES, Diagnostics  # noqa: E402
 from pipeline.pagedoc import PageDoc  # noqa: E402
 from pipeline.render_md import page_markdown  # noqa: E402
+import phone_chat  # noqa: E402
 
 DIAG = Diagnostics()
 
@@ -117,6 +118,9 @@ LANG_SST_TAB = load_json(LANG, 'StorySetTab.json')
 LANG_SST_CHAPTER = load_json(LANG, 'StorySetChapter.json')
 LANG_SST_SECTION = load_json(LANG, 'StorySetSection.json')
 BIN_DISPATCH_PERF = load_json(BIN, 'AgentSpecialPerformance.json')
+BIN_CHAT = load_json(BIN, 'Chat.json')
+BIN_ITEM = load_json(BIN, 'Item.json')
+LANG_ITEM = load_json(LANG, 'Item.json')
 
 _TAG_CACHE = {}
 
@@ -685,6 +689,96 @@ def build_dispatch():
     return stats
 
 
+def build_chat():
+    """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
+
+    收录口径与 dispatch 同款自外于站点：一页 = 一个 PM 剧本（按 SetGroupId 切段，
+    一段一节），**扁平**摆在 `_chat/` 下（63 个文件名按 PM 编号排序即按联系人分组，
+    角色名在每篇 H1 与 `_index.md` 里）。**不调 record_page**、不进 sections.json /
+    search.json / _beats 侧车，因此不生成任何 HTML、不进导航与离线检索；`_chat/` 目录名
+    本身带 `_` 前缀，validate_site 的 G2 与 validate_story 的 A/C/F 都不会收编（见
+    _dev/AI_HANDOVER_GUIDE.md 7.6/7.7）。信息行刻意写 `心链剧本**：` 而不写
+    `AVG 剧本**：`，避免被 F 的「整本页」对账收编。
+
+    注意：**不要在 `_chat/` 下再建子目录**。G2 的 `_` 放行是按"直接所在目录名"判的，
+    `_chat/103_琥珀/PM10301.md` 会被当成站点页收编、撞"sections.json 没登记"。
+
+    脚本段是权威：537 个 SetGroupId 段 vs Chat 表 498 行，多出的 39 个 `08` 段是
+    上游缺行，照常渲染并标注；空段跳过。两者都在 _chat/_diagnostics.json 登记。
+    """
+    stats = collections.Counter()
+    diag = phone_chat.ChatDiagnostics()
+    item_names = {str(r['Id']): lang_of(LANG_ITEM, r.get('Title') or '')
+                  for r in BIN_ITEM.values() if r.get('Title')}
+
+    by_file = collections.defaultdict(dict)    # (cid, stem) -> {段号: Chat 行}
+    stems_of = collections.defaultdict(list)   # cid -> [stem]（表内出现序）
+    for r in BIN_CHAT.values():
+        cid, stem = r.get('AddressBookId'), r.get('AVGId')
+        if cid is None or not stem:
+            continue
+        by_file[(cid, stem)][str(r.get('AVGGroupId'))] = r
+        if stem not in stems_of[cid]:
+            stems_of[cid].append(stem)
+    mounted = {stem for _cid, stem in by_file}
+    for stem in sorted(f[:-4] for f in os.listdir(CFG)
+                       if f.startswith('PM') and f.endswith('.lua')):
+        if stem not in mounted:
+            diag.add('script_without_chat_rows', {'stem': stem})
+
+    contacts = []
+    for cid in sorted(stems_of):
+        cname = character_name(cid) or ('旅人 %s' % cid)
+        files = []
+        for stem in sorted(stems_of[cid]):
+            path = os.path.join(CFG, stem + '.lua')
+            if not os.path.exists(path):
+                for gid, r in sorted(by_file[(cid, stem)].items()):
+                    diag.add('chat_row_without_segment',
+                             {'stem': stem, 'gid': gid, 'chat_id': r.get('Id')})
+                continue
+            segments = phone_chat.extract_script(stem, script_commands(stem),
+                                                 SPEAKER_RESOLVER, TEXT_COMPILER, diag)
+            rows = by_file[(cid, stem)]
+            prepared, skipped = [], []
+            for seg in segments:
+                if seg['gid'] not in rows:
+                    diag.add('segment_without_chat_row', {'stem': stem, 'gid': seg['gid']})
+                if seg['n_msg'] == 0 and seg['n_begin'] == 0:
+                    diag.add('empty_segment_skipped', {'stem': stem, 'gid': seg['gid']})
+                    skipped.append(seg['gid'])
+                    continue
+                prepared.append((seg, rows.get(seg['gid'])))
+                stats['segments'] += 1
+                stats['messages'] += seg['n_msg']
+                stats['choices'] += seg['n_begin']
+            if not prepared:
+                continue
+            files.append({'stem': stem,
+                          'script': os.path.relpath(path, ROOT).replace(os.sep, '/'),
+                          'segments': segments, 'rows': rows,
+                          'prepared': prepared, 'skipped_gids': skipped})
+            stats['scripts'] += 1
+        if files:
+            contacts.append({'id': cid, 'name': cname, 'files': files})
+            stats['contacts'] += 1
+
+    out = os.path.join(OUT, '_chat')
+    for contact in contacts:
+        for f in contact['files']:
+            write(os.path.join(out, f['stem'] + '.md'),
+                  phone_chat.render_script_md(contact, f, item_names))
+    write(os.path.join(out, '_index.md'), phone_chat.render_index_md(contacts))
+    write(os.path.join(out, '_diagnostics.json'),
+          json.dumps(diag.as_dict(), ensure_ascii=False, indent=1) + "\n")
+    for cat, n in sorted(diag.unexpected().items()):
+        print("!! 心链诊断 %s：%d 处（详见 story_docs/_chat/_diagnostics.json）" % (cat, n))
+    print("  心链聊天：联系人=%d 剧本=%d 段=%d 短信=%d 抉择=%d"
+          % (stats['contacts'], stats['scripts'], stats['segments'],
+             stats['messages'], stats['choices']))
+    return stats
+
+
 def build_storysets():
     """StorySet* tables mount the side-story collections (STsp_<chapter>_<part>).
 
@@ -892,7 +986,7 @@ def write_coverage():
            'CG': 'Plot / NPCAffinityPlot / DiscIP', 'STsp': 'StorySetSection.AVGId',
            'BBm': '无表引用，客户端按「关卡代号里的章号+关卡编号」拼名',
            'PM': 'Chat.AVGId', 'DP': 'AgentSpecialPerformance.Avg', 'GD': '无表引用'}
-    note = {'PM': '心链聊天全篇（`UIText.MainView_Phone` / `OpenFunc.Phone`），外部已有收录，不做',
+    note = {'PM': '心链聊天全篇，已提取至 `_chat/` 人读存档（不进站点，故不计入已渲染）',
             'DP': '委托结算演出，已入 dispatch/（按结算演出段收录，见 _dev 手册 7.4）',
             'GD': '抽卡演出小段（4 句），表不引用，待决',
             'BBm': '战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战）',
@@ -962,6 +1056,8 @@ def main():
                       ("委托结算演出", build_dispatch)):
         st = fn()
         print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
+    print("Parsing 心链 (phone chat) scripts...")
+    build_chat()
 
     attached = [b for b in battle_map if b[2] == 'attached']
     missing = [b for b in battle_map if b[2] == 'MISSING']

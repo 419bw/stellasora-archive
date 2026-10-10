@@ -24,6 +24,8 @@
 - **秘闻**：收录秘闻剧本与散文、故事集日常回忆与侧写。
 - **战场气泡与战斗档案**：随战斗阶段推进的角色实时气泡对白，以及零对白战斗关卡的独立档案与流程跳转。
 
+> **心链（手机聊天）不在本站收录**：游戏内手机聊天功能的全篇文本（40 位旅人、63 个剧本、10174 条短信、340 组回复抉择）以 Markdown 形式存放在仓库 `story_docs/_chat/`（随主构建自动生成，含回复抉择的分支归属与解锁条件），未做成网页；索引入口见该目录下的 `_index.md`。
+
 ---
 
 ## 本地构建
@@ -110,12 +112,15 @@ stellasora-archive/
 ├── story_docs/              # Markdown 真源文档库与结构化侧车数据（build_story 全量生成，勿放手工文件）
 │   ├── _data/               # chapters/sections/search/personality 等侧车（meta 带权威计数）
 │   ├── _beats/              # PageDoc IR 侧车：md 与 HTML 两个后端共同的上游
+│   ├── _chat/               # 心链（手机聊天）全篇人读存档：build_chat() 生成，一页一个 PM 剧本；
+│   │                        # `_` 前缀 = 生成物但非站点页，不进静态站（dispatch 同款约定）
 │   ├── _battle_reconciliation.md   # 人读版对账报告（代号错配/气泡缺失/未引用 BBm）
 │   └── _diagnostics.json    # 上游数据异常与编译器兜底的机器可读登记（口径见 pipeline/diagnostics.py 的 CATEGORIES）
 ├── docs/                    # 遗留生成器的冻结输出，被 git 跟踪；仅供历史对照契约，见下文说明
 ├── scripts/                 # 构建与维护脚本工具集
 │   ├── story/               # 剧情抽取与拓扑计算模块
 │   │   ├── build_story.py   # 编排器：解析上游数据源 -> 生成 Markdown 与侧车数据
+│   │   ├── phone_chat.py    # 心链（手机聊天）提取：SetGroupId 切段 + 回复抉择分支归属 + 聊天渲染
 │   │   ├── release_gate.py  # 未开放内容门控（按官方 OpenTime/StartTime 过滤发布面）
 │   │   ├── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
 │   │   └── pipeline/        # 编译管线（自上而下单向依赖，无环）
