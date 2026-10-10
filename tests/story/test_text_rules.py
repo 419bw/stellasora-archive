@@ -27,26 +27,33 @@ def test_paired_emph_preserved():
         '_NOT_IN_LOG_<br><margin-left=5em><align=left><i><b><size=800%>'
         '<alpha=#88>Y</size></b></i></align></margin>==A0.15=='
     ) == '<i><b>Y</b></i>'
-    assert text_rules.default_compiler().diagnostics['paired'] == 6   # 2（第一句）+ 4（<i> <b> </b> </i>）
-    assert text_rules.default_compiler().diagnostics['orphan'] == 0
+    # 计数走 Diagnostics 收集器（进程内累计，同原裸 dict 口径）：
+    # 2（第一句）+ 4（<i> <b> </b> </i>）
+    assert_emph(6, 0)
+
+
+def assert_emph(paired, orphan):
+    stats = text_rules.default_compiler().diagnostics
+    assert (stats.count('emph_tags_preserved'), stats.count('orphan_emph_tags_stripped')) == \
+        (paired, orphan)
 
 
 def test_orphan_and_crossing_emph_stripped():
     # 语料原型：STm06_01 悬空 </b>（open 缺失）——只丢标记，不丢字
     assert text_rules.clean_dialogue(
         '<size=47>——佚名 《旧诺瓦前史》</b></size>') == '——佚名 《旧诺瓦前史》'
-    assert text_rules.default_compiler().diagnostics['orphan'] == 1
+    assert text_rules.default_compiler().diagnostics.count('orphan_emph_tags_stripped') == 1
     # 语料原型：disc4055 未闭合 <i>（计数为进程内累计）
     assert text_rules.clean_dialogue('<i><voffset=0.3em>It’s</voffset> nothing') == \
         'It’s nothing'
-    assert text_rules.default_compiler().diagnostics['orphan'] == 2
+    assert text_rules.default_compiler().diagnostics.count('orphan_emph_tags_stripped') == 2
     # 真交叉 <b><i></b></i>：close 只配栈顶同种 open —— </b> 遇栈顶 i 判孤儿，
     # </i> 配 i 成对；b 的 open 遗留栈底同判孤儿（尽力保留原则）
     assert text_rules.clean_dialogue('前<b><i>中</b></i>后尾') == '前<i>中</i>后尾'
-    assert text_rules.default_compiler().diagnostics == {'paired': 2, 'orphan': 4}
+    assert_emph(2, 4)
     # 合法嵌套 <b><i></i></b> 不受影响
     assert text_rules.clean_dialogue('前<b><i>中</i>后</b>尾') == '前<b><i>中</i>后</b>尾'
-    assert text_rules.default_compiler().diagnostics == {'paired': 6, 'orphan': 4}
+    assert_emph(6, 4)
 
 
 def test_layout_tags_still_stripped():

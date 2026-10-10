@@ -18,20 +18,27 @@
    - [3.3 玩家抉择项精准解析（严禁粗暴正则）](#33-玩家抉择项精准解析严禁粗暴正则)
    - [3.4 文本占位符与富文本标记清洗标准](#34-文本占位符与富文本标记清洗标准)
    - [3.5 抉择分支的台词归属与汇合标记](#35-抉择分支的台词归属与汇合标记)
+   - [3.6 兜底与诊断策略（pipeline/diagnostics.py）](#36-兜底与诊断策略pipelinediagnosticspy)
 4. [拓扑图构建算法（Mermaid DAG）](#四拓扑图构建算法mermaid-dag)
-5. [完整提取与生成参考脚本（Python 独立实现）](#五完整提取与生成参考脚本python-独立实现)
+5. [自动化持续集成流水线（CI/CD）](#五自动化持续集成流水线cicd)
 6. [常见踩坑记录与 FAQ（交接备忘）](#六常见踩坑记录与-faq交接备忘)
 7. [剧情管道 v2：build_story.py（八族剧情 + 结构化侧车）](#七-剧情管道-v2scriptsbuild_storypy当前唯一在推进的模块)
-   - [7.2 带文本的指令清单](#72-带文本的指令清单全库-588-个_cnconfig-剧本实测)
-   - [7.4 已接入的四个剧本族](#74-已接入的四个剧本族本轮新增)
-   - [7.5 剩余遗漏](#75-剩余遗漏下一步的活别再重新发现一遍)
-   - [7.6 产物目录与覆盖对账](#76-产物目录与覆盖对账)
+   - [7.1 参数解析的历史陷阱](#71-参数解析的历史陷阱)
+   - [7.2 带文本的指令清单](#72-带文本的指令清单全库-个-_cnconfig-剧本实测)
+   - [7.3 战斗气泡的挂接规则](#73-战斗气泡的挂接规则)
+   - [7.4 已接入的剧本族](#74-已接入的剧本族本轮新增)
+   - [7.5 流程控制指令：历史条件分支（已实现）](#75-流程控制指令历史条件分支已实现)
+   - [7.6 挂载语义的坑](#76-挂载语义的坑)
+   - [7.7 上游数据获取与目录约定](#77-上游数据获取与目录约定)
    - [7.8 台词的显示通道（查清了，决定不显示）](#78-台词的显示通道查清了决定不显示)
 8. [站点与数据契约](#八-站点与数据契约build_sitepy--graph_layoutpy--testsstory)
+   - [8.1 数据流](#81-数据流)
    - [8.2 主线节点图的地面真相](#82-主线节点图的地面真相实测别再重新发现)
-   - [8.3 校验（契约 A–K）](#83-校验testsstory两份都不-import-生成器)
+   - [8.3 契约总表](#83-契约总表)
+   - [8.4 刻意没做的东西](#84-刻意没做的东西)
    - [8.5 未开放内容的门控](#85-未开放内容的门控release_gatepy)
-9. [修订记录](#九-修订记录2026-10-02)
+9. [遗留产物与目录处置](#九遗留产物与目录处置)
+10. [修订记录](#十修订记录)
 
 ---
 
@@ -91,7 +98,7 @@ StoryChapter.json (章节定义)
   - 严禁直接输出“塞拉”！
 
 ### 3.2 灰色对话框（内心独白）判定：TalkType 枚举
-在官方源码 [AvgCmdParamOptionDefine.lua](file:///j:/学习/项目/星塔机器人/scratch/ss_lua_repo/Lua/Game/UI/Avg/AvgCmdParamOptionDefine.lua#L138-L151) 中，`SetTalk` 传入的第一个参数代表 `TalkType`：
+在官方源码 `ss_lua/Avg/_cn/Config/AvgCmdParamOptionDefine.lua`（`TalkType` 枚举表）中，`SetTalk` 传入的第一个参数代表 `TalkType`：
 ```lua
 TalkType = {
   "角色说",   -- 0: NPC/其他角色说出口的话
@@ -160,36 +167,80 @@ TalkType = {
   ```
 
 ### 3.4 文本占位符与富文本标记清洗标准
-必须按以下顺序对台词字符串执行过滤：
-```python
-def clean_dialogue(text):
-    if not text:
-        return ""
-    # 1. 清除富文本与颜色标签
-    text = re.sub(r'</?size[^>]*>', '', text)
-    text = re.sub(r'</?color[^>]*>', '', text)
-    text = re.sub(r'<r=[^>]*>', '', text)
-    text = re.sub(r'</r>', '', text)
-    text = re.sub(r'<sprite[^>]*>', '', text)
-    # 2. 玩家名称变量重写
-    text = text.replace('==PLAYER_NAME==', '魔王')
-    text = re.sub(r'==SEX\d*==', '你', text)
-    # 3. 消除引擎排版控制字符 (==W== 为打字机停顿, ==RT== 为换行)
-    text = re.sub(r'==[A-Z0-9_]+==', ' ', text)
-    # 4. 压缩连续多余空格
-    text = re.sub(r'[ \t]+', ' ', text)
-    return text.strip()
-```
+
+> ⚠️ **本节 2026-10-10 重写**。旧版这里放的是一段"想象出来"的伪代码（把 `==SEX==` 换成"你"、
+> 把 `<r=>` 注音剥掉、把所有 `==XXX==` 替换成空格），与真实实现 `scripts/story/pipeline/markup.py`
+> 几乎条条不符。下面以代码为准。
+
+内联标记的**唯一**实现在 `pipeline/markup.py`（`parse_inline` → `normalize_nodes` → `TextCompiler.compile`），
+按以下顺序处理，**不是**一串正则替换：
+
+| 标记 | 真实行为 | 说明 |
+|---|---|---|
+| `$nnnn` | 替换为官方词表文案 | 词表来自 `ContentWord.json`（`bin/` 取 key、`language/zh_CN` 取译文）。**查不到的 `$nnnn` 原样保留**并登记 `unknown_preset_words`——客户端会显示裸 token，本就是数据缺陷 |
+| `==SEX1==` / `==SEX2==` | **性别变体**，不是"你" | 按说话人性别二选一（`AvgUIText.lua` 的 `SEX` 表，如 `她/他`）。产物因此可能是 `{cn_f, cn_m}` 两个变体，`Text.select(sex)` 取一个 |
+| `==W==` | **直接删除**（不补空格） | 打字机停顿标记 |
+| `==RT==` | 换行 | 场景头 5 槽之间用 |
+| `==A0.15==` | 删除 | 动画等待时长 |
+| `<r=注音></r>` / `<r=注音>正文</r>` | **保留**为 Markdown 内联注音 | 站点侧由 `render_html.py` 转成 `<ruby><rt>`；契约 M 逐句核对位置与文字 |
+| `<b>` / `<i>` | **保留**（成对时） | 只丢孤儿标记不丢字，计数进 `emph_tags_preserved` / `orphan_emph_tags_stripped` |
+| `<size=…>` `<color=…>` `<margin-left=…>` `<align=…>` `<alpha=…>` `<voffset=…>` 等排版标签 | 全部剥离 | 纯引擎排版，无语义 |
+| `<br>` | 转为换行 | 场景头 5 槽之间用 |
+| `==PLAYER_NAME==` | 替换为 `魔王` | 见 3.1 |
+| 其余 `==XXX==` | **原样保留** + `logger.warning` + 登记 `unknown_control_markers` | PR #3 立的"容错不抛错"，见 3.6 |
+
+**不要把这段逻辑改成正则批处理**：`<b><i></b></i>` 这类交叉标签要用栈配对（close 只配栈顶同种 open），
+孤儿标记单独计数；`==SEX==` 的性别选择依赖 `Text.select(sex)`，替换成固定字符串会直接毁掉男女变体。
+`text_rules.clean_dialogue()` / `default_compiler()` 是给外部用的薄封装。
 
 ### 3.5 抉择分支的台词归属与汇合标记
+
+#### ① 三类玩家交互抉择（同一套帧栈机制）
+
 - **引擎结构**：`Set*Choice(group, 选项行…)` 声明一次抉择；此后每个选项的专属剧本以 `Set*ChoiceJumpTo{group, k}` 开始，到 `Set*ChoiceRollover{group}` 结束；`Set*ChoiceEnd{group}` 关闭整个构造。各段剧本在 Lua 文件里**顺序平铺**，玩家一局只看到自己选中的那一段，所以直接平铺进 Markdown 会让互斥台词读成连续剧情。
 - **group 才是主键**：`group` 就是 `Set*Choice` 的 param 第 0 项。分支必须按 `JumpTo{group, k}` 定位，**不能按行序配对**——存在一个抉择嵌在另一个抉择分支里的级联（`STm01_07.lua` 4 层，group 99/3/1/4，且 `Set*ChoiceEnd` 不满足 LIFO），因此解析用按 group 查的帧栈。
 - **输出规则**：分支首条台词前插入 `> **[若选「选项标题」↓]**`；当帧栈清空（含嵌套的全部抉择一起关闭）时插入**一条**汇合标记 `> **[▲ …]**`，嵌套多于单层时写明层数与分支总数，并列出去往空分支的选项名。
-- **空分支不打标记**：`JumpTo` 之后紧跟 `Rollover` 的选项（如 JumpTo 序列为 `(1,3)`、`(2,3)` 的抉择）没有专属台词，不产生 `若选` 标记，只在汇合处以「其中「X」没有专属台词，选中即跳到汇合点」说明。官方数据里同一选项组存在重名项（`同意 / 同意 / 拒绝`），故该说明按选项名去重。
+- **空分支不打标记**：`JumpTo` 之后紧跟 `Rollover` 的选项没有专属台词，不产生 `若选` 标记，只在汇合处以「其中「X」没有专属台词，选中即跳到汇合点」说明（按选项名去重，官方数据存在重名项）。
 - **短信抉择不打标记**：`SetPhoneMsgChoiceBegin` 的正文由 `SetPhoneMsg` 指令承载，而该指令当前未被提取，文档中没有可归属的台词，因此不标注分支。
-- **上游数据 bug 备案：`CG_126_03.lua` 的 End group 错配（不为它改生成器）**：角色 126 紫槿「蝶说 下」第 10 个抉择块 `SetChoiceBegin` 的 group 是 `a_10`，但其 `SetChoiceEnd` 误写成了更早、已关闭的 `a_4`——全库 588 个剧本实测仅此一处 End 与 Begin 的 group 不配对。帧栈按 group 严格配对（见上条），`a_10` 因此永不退栈、`cur=1` 全程有效；又因每遇到新抉择标记 `last_marker` 会重置，其后 5 个**单选项**抉择的台词被反复标注为 `> **[若选「别拖了，快赶不上演出了」↓]**`（`12603_蝶说 下.md` 里 5 个完全相同的标记）。游戏内不可见（单选项 + 线性内容，无分支 UI）。**处理决定**：不为上游错误给生成器加特例；单选项抉择本就不是分支，兜底放在渲染层语义（单选项父抉择不画分支框），此处仅备案，修上游时可删。
-- **渲染层兜底实现（妥协点，修上游后可删）**：`scripts/site/render_html.py` 的 `_parse_choice_structure` 会给每个 `若选` 计算 `single_parent`（按选项名归属到的父抉择只有 1 个选项；Phase 2 起直接对 `story_docs/_beats/` 侧车的 beat 流计算，取代原先从 md 反解的 `md2html.py`，已删除）；渲染时该标记整体不输出，也不产生「返回抉择 / 跳到汇合」导航条，台词直接续排（`12603.html` 因此少 5 个分支框、5 条导航；气泡 `id` 保留，无害）。选项行上的「跳转分支 ↓」角标同样跳过被抑制的分支，避免指向不存在的锚点。判定依据是**归属到的父抉择**，不是"最近一个抉择"（305 曾按最近帧误判）。契约 **M3**（`tests/story/validate_site.py`）独立从 md 重算单选项抉择，断言 HTML 不出现对应 `若选` 分支框、也没有分支导航指向它，并带变异测试（把分支框画回去必须被抓到）。
-- **校验**：`.tmp_verify/validate_v2.py` 是与生成器实现相互独立的校验器（它用"最小包含行窗口"给台词归属，生成器用状态机），逐条验证：台词零增删、每条分支内容与 Lua 窗口一致、标记序列合法，并以植入错误反证校验器本身有效。
+- **上游数据 bug 备案：`CG_126_03.lua` 的 End group 错配（不为它改生成器）**：角色 126 紫槿「蝶说 下」第 10 个抉择块 `SetChoiceBegin` 的 group 是 `a_10`，但其 `SetChoiceEnd` 误写成了更早、已关闭的 `a_4`——全库实测仅此一处 End 与 Begin 的 group 不配对。帧栈按 group 严格配对（见上条），`a_10` 因此永不退栈；又因每遇到新抉择标记会重置，其后 5 个**单选项**抉择的台词被反复标注。游戏内不可见（单选项 + 线性内容，无分支 UI）。**处理决定**：不为上游错误给生成器加特例；兜底放在渲染层语义（单选项父抉择不画分支框），此处仅备案，修上游后可删。
+- **渲染层兜底实现（妥协点，修上游后可删）**：`scripts/site/render_html.py` 会给每个 `若选` 计算 `single_parent`（归属到的父抉择只有 1 个选项）；渲染时该标记整体不输出，也不产生「返回抉择 / 跳到汇合」导航条。契约 **M3**（`tests/story/validate_site.py`）独立从 md 重算单选项抉择，断言 HTML 不出现对应分支框，并带变异测试。
+
+#### ② 历史条件分支（第四类，PR #4 新增）
+
+与"玩家当场做选择"不同，还有一类分支由**玩家此前的存档状态**决定，剧本里是另一组指令：
+
+| 指令族 | 判据 | 标签长相 |
+|---|---|---|
+| `IfUnlock` / `IfUnlockElse` / `IfUnlockEnd` | `StoryCondition` 表：读过哪些剧情、取得哪些 `StoryEvidence`、完成哪些成就、世界等级 | `若已阅读《终局 指尖的沙》、《终局 身旁的她》…` / `否则，若…` / `否则` |
+| `IfTrue` / `EndIf` | `SetMajorChoice`/`SetPersonalityChoice` 当时选了哪项 | `若已选择《07 不同的许愿》中的「放弃思考」` |
+| `CheckBE` / `CheckBECase` / `CheckBEEnd` | `CheckBE` 给出的终局已阅读比例区间（4 个档位） | `若第一章至第八章的终局已阅读比例为 0%` |
+
+- **实现位置**：`pipeline/conditions.py`（`ConditionCatalog` 负责把 ID 翻成中文人话，`condition_markers` 负责把指令位置映射成 beat 标记，`reading_beats` 负责合并相邻等体分支）。
+- **输出形态**：`> **[历史条件分支]**` + 若干条 `> - 若…`；多个分支正文完全相同时**只留一份正文、标签合并列出**；分支结束处 `> **[▲ 历史条件分支到此汇合]**`。站点侧额外渲染"跳到汇合"导航与 `condition-merge-N` 锚点。
+- **为什么要合并**：第十章等"多周目"剧情里四个分支往往只差结尾一两句，不去重会让档案看起来是断裂的重复段落。
+- **单测**：`tests/story/test_conditions.py` 断言 4 类真实剧本（`STm08_11` / `STm09_00_b` / `STm09_05_a` / `STm07_06_ba`）的标签文案、合并条数、md/HTML 锚点完整性；`test_diagnostics.py` 用假表逐个降级点断言"产出可读 + 恰好登记一条 + 不抛异常"。
+
+#### ③ 校验
+
+`.tmp_verify/validate_v2.py` 是与生成器实现相互独立的校验器（它用"最小包含行窗口"给台词归属，生成器用状态机），逐条验证：台词零增删、每条分支内容与 Lua 窗口一致，标记序列合法，并以植入错误反证校验器本身有效。
+
+### 3.6 兜底与诊断策略（`pipeline/diagnostics.py`）
+
+**为什么必须有这一节**：上游数据是社区解包镜像，随时会变；而 `scripts/automation/auto_sync.py` 以 `check=True` 跑 `build_story.py`，**生成器一抛异常，整条定时同步流水线就停**。所以管线的既定方针是"降级不崩"——但只崩改成不崩还不够：如果降级是静默的，上游加了新标记、改了表结构，只有等某个周目剧情在线上变成裸 id 才被发现。
+
+**三条纪律**（改管线前必读，新增兜底时必守）：
+
+1. **降级不崩**：解析/渲染路径遇到上游脏数据时产出**可读**结果，绝不向上抛异常。
+2. **必登记**：每一次降级都要经过 `Diagnostics.add()/bump()/extend()` 登记进 `story_docs/_diagnostics.json`。只打 `logger`/`print` 的告警**不算**登记——log 给跑构建的人看，侧车给审 diff 的人看，两边都要有。
+3. **分类必须进注册表**：`CATEGORIES`（`scripts/story/pipeline/diagnostics.py`）是唯一真源，键名/顺序/口径说明都在那里，`_diagnostics.json` 的 `note` 文案由它生成。**未注册的分类名会直接 `KeyError`**——这是故意的：把"加了兜底忘记写说明"变成开发期的显性失败，而不是运行期的静默通道。
+
+**机制**：`build_story.py` 在 import 期建一个进程级 `DIAG = Diagnostics()`，所有降级通道都注入它——`markup`（强调配对计数、未知 `==XXX==` 标记、未知 `$nnnn` 词条）、`speakers`（预置表查不到的前缀/裸 id 兜底）、`passes`（抉择关闭指令的 group 无活跃帧）、`conditions`（历史条件的全部查表降级）、`build_story`（显示代号拼气泡剧本名的回退、四个构建期分类）。`write_diagnostics()` 只是把它序列化，不再手工拼盘。`add()` 按去重键去重（同一 key 只留一条，反复解析同一剧本不会让侧车膨胀），`bump()` 不给 key 时累加、给 key 时按 key 去重（如 `speaker_inline_names` 数的是去重 sid）。同一输入重建**字节稳定**。
+
+**结构型缺参不登记**：`passes.slot()`/`fork_options()` 对缺参返回 `''`、`conditions.choice()` 对形状不符的指令参数直接退化，这类"上游指令形状变了"与"查表查不到"不是一回事，逐条登记只会把侧车噪声化。判据是**语义查找失败才登记**（ID 查得到不到、序号越界、档位越界、行缺主键）。
+
+**站点侧只告警不登记**：`scripts/site/` 是纯消费方，不写 `story_docs/`。`render_html.py` 对条件组弹栈/锚点缺失做防御（交叉嵌套时按 group 退栈而非无条件 `pop()`，缺锚点时补兜底锚点），`build_site.py` 的分支角标未解析、`release_gate.py` 的失败开放，统一走 `pipeline.diagnostics.warn()` 记日志，不建站点侧侧车（避免新增要过 `release_gate.strip_locked_from_data()` 审查的发布物）。
+
+**验收闸门**：`tests/story/validate_story.py` 里新增一组诊断侧车检查，断言提交的 `_diagnostics.json` 与 `CATEGORIES` 同构（键集合/形状/排序/去重）、`note` 与注册表重新生成的文案一致、并用子进程把 `build_story.py --out <tmp>` 重建后**逐字节**比对；带 6 个变异测试（多加/删分类、改坏 note、加重复条目、打乱排序、计数改负都必须被抓到）。`tests/story/test_diagnostics.py` 用假表逐个降级点断言"产出可读 + 恰好登记一条 + 不抛异常"；`tests/story/test_conditions.py` 有一个全量用例：`CFG` 目录下全部剧本跑完后 `condition_*` 必须一条都没触发。`STELLA_DIAG_REBUILD=0` 可跳过那次子进程重建（默认开）。
 
 ---
 
@@ -224,15 +275,28 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
 
 ---
 
-## 五、 完整提取与生成参考脚本（Python 独立实现）
+## 五、 自动化持续集成流水线（CI/CD）
 
-已沉淀为全量生产脚本 [build_wiki_knowledge_base.py](file:///j:/学习/项目/星塔机器人/scratch/build_wiki_knowledge_base.py)。后续 AI 可直接查阅或复用其中的以下函数：
-1. `parse_lua_avg(script_name)`：负责单文件剧本、SetIntro概要、SetTalk与抉择支解析。
-2. `parse_choices(cmd, param_str)`：负责上述三大抉择项的清洗与解包。
-3. `format_choice_block(d)`：负责生成标准优雅的 Markdown 引用块。
-4. `generate_main_story()`：主线 10 章的遍历、DAG 构建与分小节落盘。
-5. `generate_event_stories()`：11 个大型活动的逐小节生成。
-6. `generate_characters()`：40 位角色的突破属性、专属约会全剧情整合。
+工作流定义在 `.github/workflows/deploy.yml`，三种触发方式走**两条不同的路**：
+
+| 触发 | 步骤 |
+|---|---|
+| `push`（推送到 `main`） | 收集提交生成更新日志 → **全量单元测试** `pytest tests/story tests/automation -q` → `validate_story.py`（含诊断侧车的重建漂移检查）→ 构建静态站 → `validate_site.py` → 提交生成物 → 部署 Cloudflare Pages |
+| `schedule`（每 6 小时） | 跑 `scripts/automation/auto_sync.py`：比对两个上游仓库最新提交 → 有更新则重建 `story_docs/` + `site/` → 跑校验 → 提交（`[skip ci]`）→ 部署 |
+| `workflow_dispatch` | 同 `schedule`，额外支持 `force_sync`（上游没变也强制）、`allow_single_upstream`（任一上游更新即同步）、`changelog_note`（手动指定更新理由） |
+
+**几条关键语义**：
+
+- **`auto_sync.py` 以 `check=True` 运行生成器**，所以生成器任何未捕获异常都会让整条定时同步停摆。
+  管线的对应方针是"降级不崩 + 必登记"，见 3.6。
+- **单元测试必须全量**。历史上 CI 只跑 `test_release_gate.py` + `test_changelog.py`，
+  导致新增的测试文件在流水线里等于没测；2026-10-10 起改为 `pytest tests/story tests/automation -q`。
+  新增测试文件时不需要改 workflow，但**别再把列表改回白名单**。
+- **`story_docs/` 是提交物**：定时同步重建后会 `git add story_docs/` 提交，所以上游数据一变，
+  diff 里能直接看到新增/变化的页面与 `_diagnostics.json` 的新登记——这是发现上游结构变动的主渠道。
+- **部署是纯静态目录** `site/`，用 Cloudflare Pages（项目名 `stellasora-archive`）。
+  换任何静态托管都行，构建产物不依赖平台。
+- `STELLA_DIAG_REBUILD=0` 可跳过诊断侧车的子进程重建（省一次全量 build），默认开启。
 
 ---
 
@@ -247,7 +311,9 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
    **A**：Windows 控制台默认 GBK 编码，运行 Python 时必须在最顶部执行：  
    `sys.stdout.reconfigure(encoding='utf-8')`，写入文件必须指定 `open(..., encoding='utf-8')`。
 3. **Q：如何确保没有遗漏小节？**  
-   **A**：全库主线共 10 章，总小节数严格等于 **604 个 Markdown 文件**。生成完毕后检查文件数量即可确认是否完整无损。
+   **A**：不要数文件——文件数会随上游数据变。看 `story_docs/_coverage.md`（每次构建自动重算的
+   逐族覆盖表 + 未渲染清单）与 `story_docs/_data/sections.json` 的 `meta.pages`，二者与
+   `validate_story.py` 的 G2 对账（"声明页数 == 磁盘 md 数 == 有剧本的节点数"）一致才算完整。
 4. **Q：前端渲染时 Mermaid 图报错？**  
    **A**：Mermaid 节点标签内如果包含括号、连字符等字符，必须加英文双引号包裹（例如 `Node["01_序幕 (上)"]`），否则解析器会语法报错。
 
@@ -264,7 +330,7 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
 Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。新脚本实现了真正的 Lua 表解析器
 （平衡括号 + 转义还原 + `nil/true/false`），顺带修掉了这两个问题。
 
-### 7.2 带文本的指令清单（全库 588 个 `_cn/Config` 剧本实测）
+### 7.2 带文本的指令清单（全库 `_cn/Config` 剧本实测）
 | 指令 | 全库条数 | 说明 | 新脚本 |
 |---|---|---|---|
 | `SetTalk` | 48004 | 主线台词，param = `{通道号, 说话人, 文本, …}`；通道号是**显示通道**，见 7.8 | ✅ |
@@ -285,7 +351,7 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
 判据不看文件名，只看人：把每个 BBm 的说话人集合拿去和各章正篇演员表比对——
 `BBm07_*`（夏花/小禾/千都世）全员见于第七章（表 Id 8），特别篇正篇里一个都没有；
 `BBm08_*`（含黎明近卫士兵）见于表 Id 9 及以后，第七章没有。
-这条判据固化成了 `tests/story/validate_story.py` 的**契约 K**，植入变异可抓到本条 bug 的原样。
+这条判据固化成了 `tests/story/validate_story.py` 的一组检查，植入变异可抓到本条 bug 的原样。
 
 27 个主线战斗关卡命中 23 个；无剧本的 4 个 = 特别篇两场（期望名 `BBm06x5_BT01/02`，包里确实没有）
 \+ 第九章 `BAm09_BT04/BT05`。BBm 一律**不写进任何配置表**（对全部 `CN/bin` 的字符串字段做过穷举匹配，
@@ -318,13 +384,36 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
   一份 `DP_*` 脚本按 `SetGroupId` 被几十段共用（如 `DP_single01` 含 40 段），一页只含其中一段。
   因此 dispatch 是**分段挂载**、自外于 F/E/M 的「一页 == 整份剧本」模型——做法与约定：
   - md 放 `dispatch/` 下、**不进各族的 sections/ 子目录**，页首写 `- **结算演出**：\`<脚本>\`（第 \`<段号>\` 段）`
-    而**不写** `AVG 剧本**：` 那一行。这样 validate_story 的 A/A2/B/C/D/E 与 F/M 都不会把它当整剧本页收编。
+    而**不写** `AVG 剧本**：` 那一行。这样 validate_story 的逐句/概要/气泡类检查都不会把它当整剧本页收编。
   - 新增契约 **N（`validate_story.py` 委托分段保真）**：独立扫 Lua、按 `SetGroupId` 段号裁出该段台词序列，
-    与页面逐句对账（111 页，0 分歧；变异"改一句台词"可被抓到）。F 的覆盖对账改为
-    `去重整本剧本数 + 委托分段涉及剧本数`，仍等于 `_coverage.md` 声明（515 + 17 = 532）。
+    与页面逐句对账（变异"改一句台词"可被抓到）。F 的覆盖对账改为
+    `去重整本剧本数 + 委托分段涉及剧本数`，与 `_coverage.md` 声明一致。
   - 想换回整脚本一页、或将来别的族也分段共用，直接复用 N 这套"按 `(脚本, 段号)` 切段"即可。
 
-### 7.5 剩余遗漏（下一步的活，别再重新发现一遍）
+### 7.5 流程控制指令：历史条件分支（已实现）
+
+剧本里有三族指令**不在运行时由玩家操作触发**，而是读玩家存档的既有状态来分流剧情。它们在
+2026-10-09 之前被整段丢弃，导致第十章等"多周目"剧情在档案里看起来是断裂的重复段落。
+
+| 指令族 | 参数形状 | 判据来源 |
+|---|---|---|
+| `IfUnlock{id}` / `IfUnlockElse{id}` / `IfUnlockEnd{id}` | `id` 是 `StoryCondition.ConditionId` | `StoryCondition` 行：`StoryId_a`（全部读过）、`StoryId_b`（任一读过）、`EvIds_a`（全部取得）/`EvIds_b`（任一取得）、`AchieveIds`、`PlayerWorldLevel` |
+| `IfTrue{group,kind,stem,choice_group,rule}` / `EndIf{group}` | 5 元组；`kind` 0=重大抉择 / 1=性格抉择；`rule` 形如 `A`、`A+B`、`A|C` | 回到 `stem` 剧本里那条 `SetMajorChoice`/`SetPersonalityChoice` 的选项表，`A`/`B`/`C` 是选项下标，`+` 是与，`|` 是或，数字后缀（`A2`）是"本轮至少 N 次" |
+| `CheckBE{id,start,end,threshold}` / `CheckBECase{id,case}` / `CheckBEEnd{id}` | `case` ∈ 1..4 | 按 `start`..`end` 章的终局已阅读比例分 4 档：0% / (0, threshold] / (threshold, 100%) / 100% |
+
+**实现分层**（`pipeline/conditions.py`，301 行）：
+- `ConditionCatalog` —— 查表把 ID 翻成中文人话（剧情名走 `Story.Index`+`Title` 文案，选项名回到源剧本的选项表，比例档位按 `CheckBE` 的 range 生成）。`load()` 读 5 张表 + 4 张文案表。
+- `condition_markers(commands, catalog)` —— 按 `(族, group)` 聚簇指令，产出 `{'k': 'condition_branch'|'condition_end', 'group', 'labels'}` 标记，挂在原指令位置上。
+- `reading_beats(beats)` —— md / HTML / 侧车三个后端**共用**的投影：相邻且正文完全相同的分支合并成一条标记 + 多行标签。
+
+**三个容易踩的点**：
+1. `IfUnlock` 的 `StoryId_b` 是"任一"不是"全部"，`EvIds_a`/`EvIds_b` 同理，连接词分别是 `、` 和 `，或`——混用会让标签意思反了。
+2. `CheckBECase` 的档位标签必须由组内 `CheckBE` 的 range 生成，同组出现不同 range 会张冠李戴（已登记 `condition_be_case_unknown`）。
+3. `GetEvidence` 要反查"哪个剧本、哪个选项给的这个证据"，是全表扫描，`ConditionCatalog.evidence_sources` 用懒加载缓存，只跑一次。
+
+**查表失败的兜底**见 3.6：所有 ID 查不到都降级成可读标签并登记，不会让 build 崩。
+
+### 7.6 剩余遗漏（下一步的活，别再重新发现一遍）
 - `PM_*` 63 个 —— **心链**（游戏内手机聊天功能的官方名，见 `OpenFunc.Phone.1` = 心链、
   `UIText.Guide_43_1.1` = "「心链」可以和结识的旅人发送信息，是手机最重要的功能"）。
   `Chat.json`(498 行) 的**心链聊天全篇**：10174 条短信（其中 822 条是发送表情）、
@@ -337,50 +426,51 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
   委托单本身在 `Agent.json`(36 行，含 `Consignor` 委托人)。**已接入**：family=`dispatch`（见 7.4），
   `/dispatch/` 板块，**一页 = 一段、按出场旅人/组合归类**（共 111 篇），由 validate_story 契约 N 做分段保真。
 - `GD_gacha` 1 个 —— 抽卡时的 4 句小车演出，无表引用，建议不做。
-- **流程控制指令未处理**：`IfTrue`/`IfUnlock`/`IfUnlockElse`/`IfUnlockEnd`（按解锁状态分支）、
-  `JUMP_AVG_ID`（跳到另一个剧本的指定位置，说明存在跨剧本连续剧情）、
-  `CheckBE`/`CheckBECase`/`CheckBEEnd`/`GetEvidence`（坏结局与"证据"判定，关系多结局 DAG）。
-  相关表：`StoryCondition.json`(200)、`StoryEvidence.json`(40)、`StoryPersonality.json`、`StoryRolePersonality.json`。
+- **流程控制指令：`IfTrue`/`IfUnlock`/`IfUnlockElse`/`IfUnlockEnd`/`CheckBE`/`CheckBECase`/`CheckBEEnd` 已实现**（2026-10-09），见 7.5。相关表：`StoryCondition.json`(200)、`StoryEvidence.json`(40)、`StoryPersonality.json`、`StoryRolePersonality.json`。
+- `JUMP_AVG_ID`（跳到另一个剧本的指定位置，说明存在跨剧本连续剧情）仍未处理。
 - `NewCharIntro`(40) 角色首次登场卡（名字+头衔）未渲染。
 - `CN/bubble/_cn/BubbleData.json`(4262 条) 是**语音→文案**表（按性别分列），能补战斗语音/角色语音的字幕文本，目前完全没用上。
 - 最新一章（表 Id 10，游戏内第九章《遥远的塔》）只开放了部分线路：`STm09_0x_c/_d` 与
   `BBm09_BT04/BT05` 在包里本就不存在，不是解包缺陷；对账见 `story_docs/_battle_reconciliation.md`。
   特别篇的两场战斗（`BAm06x5_01/02`）同样无气泡剧本，但那是**包里就没有**，不是没开放。
 
-### 7.6 产物目录与覆盖对账
+### 7.7 产物目录与覆盖对账
 ```text
 story_docs/
-├── main/chapter_NN_<章名>/sections/            185 篇主线关卡
-├── events/activity_NN_<活动名>/sections/        105 篇活动关卡
-├── characters/<角色号>_<姓名>/sections/         120 篇角色个人剧情（好感 1/5/10 三篇）
-├── npc_bonds/<NPC号>_<姓名>/sections/            8 篇星塔 NPC 好感
-├── discs/<唱片 ID>_<唱片名>.md                   24 篇唱片剧情（含散文附文）
-├── storysets/<栏目>/<章号>_<章名>/sections/      56 篇故事集
-├── prologue/sections/                            2 篇序章
-├── battles_unmounted/                            7 篇无关卡引用的战斗气泡
-├── dispatch/<solo|multi>/<标题>_<演出ID>.md      111 篇委托结算演出（一页=一段，按出场旅人/组合归类；目录用英文避免 URL 中文编码）
+├── main/chapter_NN_<章名>/sections/            主线关卡
+├── events/activity_NN_<活动名>/sections/        活动关卡
+├── characters/<角色号>_<姓名>/sections/         角色个人剧情（好感 1/5/10 三篇）
+├── npc_bonds/<NPC号>_<姓名>/sections/            星塔 NPC 好感
+├── discs/<唱片 ID>_<唱片名>.md                   唱片剧情（含散文附文）
+├── storysets/<栏目>/<章号>_<章名>/sections/      故事集
+├── prologue/sections/                            序章
+├── battles_unmounted/                            无关卡引用的战斗气泡
+├── dispatch/<solo|multi>/<标题>_<演出ID>.md      委托结算演出（一页=一段，按出场旅人/组合归类；目录用英文避免 URL 中文编码）
+├── _data/                                       结构化侧车（meta 带权威计数）
+├── _beats/                                      PageDoc IR 侧车（md/HTML 双后端共同上游）
+├── _diagnostics.json                            兜底登记（口径见 3.6）
 ├── _battle_reconciliation.md   战斗气泡挂接对账
-└── _coverage.md                596 个剧本的逐族覆盖表 + 未渲染清单（每次构建自动重算）
+└── _coverage.md                全部剧本的逐族覆盖表 + 未渲染清单（每次构建自动重算）
 ```
-当前 596 个剧本已渲染 **532** 个，未渲染 64 个 = `PM_*`63（心链，决定不做）+ `GD_gacha`1
-（`DP_*`17 已接入 `dispatch` 板块，不再计未渲染），
-这个数字由 `write_coverage()` 生成，不用手工维护。
+各族篇数、已渲染/未渲染数**以 `_coverage.md` 和 `sections.json` 的 `meta.pages` 为准**，
+由 `write_coverage()` 生成，不手工维护。未渲染的大头是 `PM_*`（心链，决定不做，见 7.6）
+与 `GD_gacha`；`DP_*` 已接入 `dispatch` 板块，不再计未渲染。
 
-### 7.7 校验
-`tests/story/validate_story.py`（独立行扫描实现，不 import 新脚本）契约 A–F + K + N：
-- `A2` 跳过概要 旧产物 == 新产物 == 剧本 `SetIntro[3]`（290 篇，0 分歧；旧脚本 `"([^"]*)"` 的截断缺陷保留 1 处证据）
-- `A`  逐句台词序列 旧产物 == 新产物（268 篇，0 分歧）
-- `B`  战斗气泡逐阶段完整性（330 条，0 分歧）
+### 7.8 校验
+`tests/story/validate_story.py`（独立行扫描实现，不 import 新脚本）契约见 8.3 契约总表。
+各契约的具体篇数/条数以校验器自己的输出为准，此处只讲**判据**：
+- `A2` 跳过概要：旧产物 == 新产物 == 剧本 `SetIntro[3]`（旧脚本 `"([^"]*)"` 的截断缺陷保留 1 处证据）
+- `A`  逐句台词序列：旧产物 == 新产物
+- `B`  战斗气泡逐阶段完整性
 - `C`  新增行来源计数与 Lua 指令数对等（场景卡/气泡/短信/通用抉择）
-- `D`/`E`/`F` 变异测试 + 新四族挂载审计 + **全树逐页**（532 页：台词序列、气泡+阶段号、跳过概要三项各自对齐剧本原文，全部 0 分歧；
+- `D`/`E`/`F` 变异测试 + 新族挂载审计 + **全树逐页**（台词序列、气泡+阶段号、跳过概要三项各自对齐剧本原文；
   植入"改一句台词/改阶段号/改概要"均被抓到）
 - `K`  **气泡剧本挂得对不对**：不看文件名，只看人——挂载的 BBm 剧本里每个说话人都必须在该关卡
-  `Chapter` 所指那一章的正篇演员表里出现过（23 条，0 违例）。加这条是因为 F 只验证"页面内容 ==
+  `Chapter` 所指那一章的正篇演员表里出现过。加这条是因为 F 只验证"页面内容 ==
   声明的那份剧本"，声明本身错了它看不见；植入"把 `BBm07_BT01` 挂回特别篇"被抓到。
-- `N`  **委托结算分段保真**（dispatch 专场，本轮新增）：一份 `DP_*` 脚本按 `SetGroupId` 被几十段共用，
-  一个 dispatch 页只对应 `(脚本, AVGGroupId)` 一段。N 独立扫 Lua、按段号裁出该段台词序列，与页面逐句对账
-  （111 页 0 分歧；变异"改一句结算台词"被抓到）。F 的覆盖对账相应改为 `去重整本 515 + 委托分段涉及 17 = 532`
-  去等于 `_coverage.md` 声明。dispatch 页不写 `AVG 剧本**：` 行，故 A/A2/B/C/D/E 与 F/M 都不收编它们。
+- `N`  **委托结算分段保真**（dispatch 专场）：一份 `DP_*` 脚本按 `SetGroupId` 被几十段共用，
+  一个 dispatch 页只对应 `(脚本, AVGGroupId)` 一段。N 独立扫 Lua、按段号裁出该段台词序列，与页面逐句对账。
+  dispatch 页不写 `AVG 剧本**：` 行，故那些逐句/概要/气泡类检查都不收编它们。
 
 尺子自己的坑（已踩）：`unescape_lua` 用 `s.strip('"')` 会把 `"……\""` 结尾的反斜杠留成野字符，
 必须只剥首尾各一个引号再单遍反转义，否则会假报 CG_126_03 一处分歧。
@@ -391,7 +481,7 @@ story_docs/
 "家族索引页"slug 清单是**硬编码**的（`expected` 集合里那行三/四元组），新 slug 不加进去会被判"未登记的页面"。
 `release_gate` 对未知家族 fail-open，非开放家族不用动它。
 
-### 7.8 台词的显示通道（查清了，决定不显示）
+### 7.9 台词的显示通道（查清了，决定不显示）
 `SetTalk` 的第一个参数不是文本属性，是**用什么样式说**。通道名在客户端自己的表里：
 `AvgCmdParamOptionDefine.lua` 的 `TalkType`，**0 起算**；索引基准由 `Avg_4_TalkCtrl.lua` 里
 `SetTalk` 的分支链独立印证（`nType == 8` → `imgContentBg_Center`＝居中字幕、
@@ -429,12 +519,21 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 ### 8.1 数据流
 `build_story.py` 在写 md 的同一次解析里顺手记录结构化侧车（`record_page` / `record_node`），
 `write_data()` 落到 `story_docs/_data/`：
+
 | 文件 | 内容 | 谁在用 |
 |---|---|---|
-| `chapters.json` | 10 章 × 196 节点：`code/title/kind/parents/state/time/col/lane/x/y/page` + 章级 `geometry{columns,width,height,step_x,step_y,edges,card}` 与官方 `time_slots` | 主线节点图 |
-| `sections.json` | 507 页：`family/group/code/title/page/page_md/stems/recap/speakers/counts/preview` | 索引页、检索、覆盖统计 |
-| `search.json` → `site/data/search.js` | 507 条 `{id,family,code,title,group,page,speakers,hay}` | 前端检索（内嵌成 js 是为了 `file://` 能跑） |
-| `personality.json` | 三轴定义与颜色 | 术语卡（**不**用于给选项上色，见 9.4） |
+| `chapters.json` | 每章一个节点数组：`code/title/kind/parents/state/time/col/lane/x/y/page` + 章级 `geometry{columns,width,height,step_x,step_y,edges,card}` 与官方 `time_slots` | 主线节点图 |
+| `sections.json` | 每页一条：`family/group/code/title/page/page_md/stems/recap/speakers/counts/preview` | 索引页、检索、覆盖统计 |
+| `search.json` → `site/data/search.js` | 每条 `{id,family,code,title,group,page,speakers,hay}` | 前端检索（内嵌成 js 是为了 `file://` 能跑） |
+| `personality.json` | 三轴定义与颜色 | 术语卡（**不**用于给选项上色，见 8.4） |
+
+> 📏 **规模数字一律不写死**。每份侧车的 `meta` 里都带权威计数（`chapters.meta = {chapters, nodes,
+> pages, source, edge_field}`、`sections.meta = {chapters, nodes, pages, families}`、
+> `search.meta = {pages}`）。要报数就读 `meta` 或看两个校验器结尾的汇总，**不要**在文档里抄一份——
+> 抄了就会过时（本文档历史上已经因此错过一批，页数从 507 一路漂到 626）。
+> ```bash
+> python -c "import json;print(json.load(open('story_docs/_data/sections.json',encoding='utf-8'))['meta'])"
+> ```
 
 坐标进数据不进代码：`graph_layout.layout()` 由 `build_story.py` 调用，所以布局在**建站之前**就能被校验。
 
@@ -443,39 +542,50 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 三份侧车都会剔除对应记录。**不要让任何新消费点绕过这一层。**
 
 ### 8.2 主线节点图的地面真相（实测，别再重新发现）
-- 边只有一个来源：`Story.ParentStoryId`（前驱 `StoryId` 字符串数组）。196 行、**零跨章引用、零悬空引用**，
-  除特别篇外每章根唯一。分叉度：1 路 144、2 路 2、3 路 11、4 路 1（`STm09_00_b`）。
+- 边只有一个来源：`Story.ParentStoryId`（前驱 `StoryId` 字符串数组）。节点数 = `chapters.meta.nodes`，
+  **零跨章引用、零悬空引用**，除特别篇外每章根唯一。分叉度分布读 `chapters.json` 自己数
+  （`len(node['parents'])`），**别信任何文档里写的分布**——上游加关卡就会变。
 - 卡面编号 = `Story.Index` 的文案（`Story.<id>.4`）：`幕间 / 幕间 上 / 01 / 02A / BT01 / 终局 / 追忆 / 真·终局 / 尾声`。
 - 状态判定：`IsBattle` 战斗、`IsBranch` 终局、`IsLast` 本章终幕、`MemoryType` 1 追忆 / 2 真·终局、
-  `code` 以「幕间/尾声」开头者单独标。**无剧本 = 表里有行但包里找不到 `.lua`**（恰 10 行：表 Id 10 的
-  8 行 + 特别篇两场战斗）。站点据此分两种措辞：剧情行标「未开放」，战斗行标「无对白剧本」——
-  战斗本身可能早就开放了，只是包里没它的气泡剧本，统一说"未开放"会误导读者。
+  `code` 以「幕间/尾声」开头者单独标。**无剧本 = 表里有行但包里找不到 `.lua`**，具体行数读
+  `sections.json` 里 `kind` 为 `no_script` 的节点，或看 `_coverage.md` 的未渲染清单。站点据此分两种措辞：
+  剧情行标「未开放」，战斗行标「无对白剧本」——战斗本身可能早就开放了，只是包里没它的气泡剧本，
+  统一说"未开放"会误导读者。
 - 表 `StoryChapter.Id` 与游戏内章号差一章（Id 7 = 特别篇、Id 8 = 第七章）。md 目录名仍用表 Id（`chapter_08_星之竞拍`），
-  站点 URL 与页面标题用 `Index/Name`，**不要**为了对齐去改 185 个目录名。
+  站点 URL 与页面标题用 `Index/Name`，**不要**为了对齐去改历史目录名（改过一次，代价是全文链接失效）。
 - 时间条：官方按**列**给一条 `StoryChapterTimeStamp.<章 Id*100+列序>`，列序归属写在 UI 预制体里，解包表没有。
-  所以节点上的时间取该关剧本自己的首个 `SetSceneHeading`（`时刻/月/日`），196 节点里 155 个有。
-  拿"时刻相同"去反查列号**不成立**（实测会把 `猎月 13日 18:00` 误配成别列的 `刻木鸟日 18:00`），
-  且游戏历法的"日名"与剧本里的"编号日"不同源（13 日在猎月是吠啸枭日、在别处是刻木鸟日）。
-- 特别篇 12 行全无 `ParentStoryId`：官方没记录连线，页面按编号顺序列出并注明，不画假线。
+  所以节点上的时间取该关剧本自己的首个 `SetSceneHeading`（`时刻/月/日`），有多少节点带 `time` 字段
+  读 `chapters.json` 自己数。拿"时刻相同"去反查列号**不成立**（实测会把 `猎月 13日 18:00` 误配成别列的
+  `刻木鸟日 18:00`），且游戏历法的"日名"与剧本里的"编号日"不同源（13 日在猎月是吠啸枭日、在别处是刻木鸟日）。
+- 特别篇全无 `ParentStoryId`：官方没记录连线，页面按编号顺序列出并注明，不画假线。
 
-### 8.3 校验（`tests/story/`，两份都不 import 生成器）
-- `validate_story.py` A/A2/B/C/D/E/F **+ K**：md 产物对旧产物、对剧本原文（台词序列、气泡+阶段号、
-  跳过概要、挂载表、变异测试）；K 管"挂的是不是这一章的剧本"（见 7.3）。
-- `validate_site.py` G/G2/G3/H/H2/**H3**/I/I2/J/J2：
-  G 逐字段重导 196 节点 + 图不变量 + "page ⟺ 包里真有剧本"；H 几何（列 = 最长路径、同列不撞位、
-  卡片矩形互不相交、边只跨相邻列）；H3 图页面落点（可点卡片数 == 有剧本的节点数、每列锚点 id 与列号一致、
-  href 指向的文件真实存在）；I 逐页 HTML 台词序列 == md 台词序列（md == 剧本由 F 兜底）；
-  J 检索索引路径/说话人/行数对得上。
-  每条都配植入变异，全部 CAUGHT 才算过。
-- `validate_site.py` **N/N2**（2026-10-05 新增）：未开放内容只准显示未开放占位。断言被门控组的
-  组名不出现在 `site/` 任何文件、提示页不含台词行也不含话数标题、未开放 URL 不被任何页面引用、
-  该组 URL 目录下只有提示页、族索引的占位数量/遮罩/开放时间齐全。五种植入（把正文页写回锁定 URL、
-  给占位卡写组名、给提示页写话数标题、把锁定 URL 塞回 `search.js`、删掉一个提示页）全部 CAUGHT。
-  判据与门控本身见 8.5。
-- 可比对台词行的口径是 `talk + bubble - sticker`（表情发送渲染成 `〔发送表情 …〕`，不是「台词」），
-  当前 48,576 行。
-- `build_story.py` 每次运行**先删后写** `story_docs/`：挂载规则一变就会少写文件，
-  留着旧文件会让校验器读到这份脚本从没写过的页面（2026-10-02 的挂错就是靠残留文件才显形的）。
+### 8.3 契约总表（`tests/story/`，两份都不 import 生成器）
+
+`validate_story.py`（story_docs 侧）与 `validate_site.py`（site 侧）是两套独立的契约集，
+**都不 import 生成器**，只读产物 + 独立重解上游，且每个检查组都带**植入变异测试**
+（故意改坏产物，同一套断言必须抓到；只看"正对照 PASS"不算数）。
+
+**`validate_story.py`** 覆盖：跳过概要、逐句台词序列、战斗气泡逐阶段完整性、新增行来源计数与
+指令数对等、各族挂载审计、全树逐页对齐剧本原文、气泡剧本挂没挂对章、注音保真、
+单选项抉择不画分支框、诊断侧车的 schema / note / 重建漂移。
+
+**`validate_site.py`** 覆盖：节点逐字段重导与图不变量、`sections.json` 与磁盘 md/剧本对账、
+布局几何（列 = 最长路径、同列不撞位、卡片矩形互不相交、边只跨相邻列）、图页面落点与链接可达、
+逐页 HTML 台词序列 == md 台词序列、检索索引路径/说话人/行数、重大抉择角标映射、
+页内锚点与聊天气泡、未开放组只出占位零台词泄露。
+
+> 具体的检查组编号会随迭代增删，**不要在文档里抄清单**——要当前有哪些，跑一遍看输出开头的小节标题。
+
+未开放门控的判据与实现见 8.5；诊断侧车的分类口径见 3.6。
+
+`validate_site.py` 的**未开放门控检查**（2026-10-05 新增）：未开放内容只准显示未开放占位。断言被门控组的
+组名不出现在 `site/` 任何文件、提示页不含台词行也不含话数标题、未开放 URL 不被任何页面引用、
+该组 URL 目录下只有提示页、族索引的占位数量/遮罩/开放时间齐全。五种植入（把正文页写回锁定 URL、
+给占位卡写组名、给提示页写话数标题、把锁定 URL 塞回 `search.js`、删掉一个提示页）全部 CAUGHT。
+判据与门控本身见 8.5。
+
+`build_story.py` 每次运行**先删后写** `story_docs/`：挂载规则一变就会少写文件，
+留着旧文件会让校验器读到这份脚本从没写过的页面（2026-10-02 的挂错就是靠残留文件才显形的）。
 
 ### 8.4 刻意没做的东西
 - 不给抉择选项标"直觉/分析/混沌"轴色：`SetPersonalityChoice` 参数里只有组号、槽位整数和三句文案，
@@ -546,11 +656,12 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 
 - 2026-10-05：**补上"官方还没开放的内容不该发布"这道闸**。新增 `scripts/story/release_gate.py`
   与建站侧门控；故事集 #18《眠于秋分之日》（`OpenTime 2026-10-13 12:00`）此前连同 286 句台词一起上线。
-  判据表、页面形态、加新族的纪律、失败开放语义与已知残留全部写进 8.5；`validate_site.py` 新增契约 N/N2；
-  `tests/story/test_release_gate.py` 入库。站点侧页数 507 → 504、故事集 56 → 53。- 本文档 604 小节的说法过时：`Story.json` 196 行 + `ActivityStory.json` 124 行 = **320 个剧情小节**，
-  旧产物共 510 个 md。以表为准。
-- 同日：`build_story.py` 接入 `CG_*`(角色/NPC/唱片) + `STsp_*` + 序章 `STm00_*` + 7 个存目战斗气泡，
-  产物 507 个剧本页 + 2 个对账文件；`story_docs/_coverage.md` 改为构建时自动生成。
+  判据表、页面形态、加新族的纪律、失败开放语义与已知残留全部写进 8.5；`validate_site.py` 新增未开放门控检查；
+  `tests/story/test_release_gate.py` 入库。站点侧被门控组的页面改为只出占位与提示页。
+- 本文档早期"604 个 Markdown 文件"的说法已作废：文件数随上游数据增长，改以 `sections.json` 的
+  `meta.pages` 与 `_coverage.md` 为准（见 7.7 与 FAQ 3）。
+- 同日：`build_story.py` 接入 `CG_*`(角色/NPC/唱片) + `STsp_*` + 序章 `STm00_*` + 存目战斗气泡，
+  产物侧车进 `story_docs/_data/`，`story_docs/_coverage.md` 改为构建时自动生成。
 - 同日：撤回"BBm00_* 是教学关"的推测（`TutorialLevel*` 引的是 `TrainingLevels_01`，与 BBm 无关），
   改判为注册流程序章那一战，证据见 7.3。
 - 同日：修掉两处抽取缺陷 —— 手机回复抉择把 `param[0]`（组号）当选项输出（产物里出现 `> - **1**`），
@@ -563,9 +674,10 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
   （连带修好列锚点跳转，它一直是 `map.scrollTo`）。新增契约 H3 管卡片可点数与链接可达。
 - 同日：**战斗气泡整批挂错章**。拼名规则应为关卡 `StoryId` 里的章号（`BAm07_01` → `BBm07_BT01`），
   此前按 `Story.Chapter` 拼，而 `Chapter` 把特别篇记成 7、特别篇关卡却记作 `06x5`，
-  于是第七章的三场气泡挂到了特别篇，后面两章依次错位。判据与复现见 7.3，新增契约 K 固化。
-  修正后：27 场战斗命中 23 场，特别篇两场与第九章两场无气泡剧本；存目 BBm 由 7 个变 6 个。
-  `build_story.py` 同时改为先删后写 `story_docs/`（残留旧页会让校验器读到没写过的文件）。
+  于是第七章的三场气泡挂到了特别篇，后面两章依次错位。判据与复现见 7.3，并固化成一组校验。
+  修正后主线战斗关卡大部分能命中气泡剧本，剩下无剧本的都是"包里确实没有"；
+  存目 BBm 相应减少。`build_story.py` 同时改为先删后写 `story_docs/`
+  （残留旧页会让校验器读到没写过的文件）。
 - 同日：查清 `SetTalk` 第一个参数是**显示通道**（通道名在 `AvgCmdParamOptionDefine.lua`，0 起算，
   分支链印证），一度把 4136 句标上通道标签（`efcd711`），随后**全部还原**：`CG对话` 不等于回忆
   （开场 CG 也走这条通道），且标签太吵。判据与实测留在 7.8，产物维持只有「思考 / 短信 / 战斗气泡」三种标记。
@@ -579,3 +691,39 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
      改设 `--grp-accent` / `--chap-accent` 吃既有设计令牌。
 - 2026-10-05（CI 自动提交的更新日志会改源文件里的首页"更新时间"串，例如 `fcc9228`：
   只碰 README 与 `site_templates.py` 的 `home_page` 文案，与功能改动不同行， rebase 不会冲突）。
+- 2026-10-09：**接入历史条件分支**（PR #4）。新增 `pipeline/conditions.py`，`IfUnlock`/`IfTrue`/`CheckBE`
+  三族指令不再被丢弃，改为渲染成「历史条件分支」标记 + 汇合点，正文相同的相邻分支自动合并。
+  `extract_beats` 增加可选 `conditions` 参数；`fold_animations` 改为按条件边界分段，避免淡入帧跨分支错误折叠。
+- 2026-10-09：更正终局已阅读比例文案（8% 边界），`Story.json` 200 行条件表的标签文案随侧车落盘。
+- 2026-10-10：**兜底机制统一**（本轮）。新增 `pipeline/diagnostics.py`（`Diagnostics` 收集器 +
+  `CATEGORIES` 分类注册表 + 统一 `warn()`），`markup`/`speakers`/`passes`/`conditions`/`build_story`
+  五个通道原先各自为政（裸 list / 裸 dict / 只打 logger / 静默 / 直接 KeyError），现在全部注入同一个
+  进程级 `DIAG`。`conditions.py` 里 9 处会崩掉 build 的裸查找改为「可读标签 + 登记」。
+  `validate_story.py` 新增契约 **P**（schema + note 一致 + 子进程重建逐字节无漂移 + 6 项变异测试）；
+  新增 `tests/story/test_diagnostics.py`；`build_story.py` 增加 `--out` 供临时目录重建。
+- 2026-10-10：**文档大更**。修正 8 处过时规模数字（改为读侧车 `meta`，不再写死）、重写 3.4
+  （旧伪代码与实现几乎全不符）、把 7.5「尚未实现的指令」改写为已实现的历史条件分支详解、
+  补全目录缺失的 6 个条目、新增第九章（遗留产物 `docs/` 的处置）与第五章（CI/CD 流水线）。
+
+## 十、 遗留产物与目录处置
+
+### `docs/` —— 早期原型生成器的冻结输出
+
+`docs/` 约 5 MB、500+ 文件，**仍在 git 跟踪下**。它的来历与今天的用途：
+
+- **初衷**：`scripts/tools/build_wiki.py`（原名 `build_wiki_knowledge_base.py`）是要把剧情库做成
+  "渐进式披露、便于 AI 检索"的知识库（Wiki-grade progressive disclosure knowledge base）——
+  按世界观/角色/剧情分层组织，让读者和 AI 都能逐层深入，而不是一屏铺开。
+- **为什么不再是主链路**：主链路后来转向 `story_docs/`（人审 Markdown 真源）+ `scripts/site/`
+  （纯 Python 静态站）+ `_beats/`（PageDoc IR 双后端）方案，可校验性（契约 A–P）和发布可控性
+  （release gate）都更强。`build_wiki.py` 的正则参数解析还有两个硬缺陷（见 7.1），已不适合继续演进。
+- **今天唯一的用途**：`tests/story/validate_story.py` 的 **A / A2 历史对照契约**以它为基线，
+  用来盯住"新实现没有悄悄改掉已评审内容"。
+- **处置纪律**：
+  1. **不要手工编辑** `docs/`——改了会让 A/A2 的"旧产物"失真，基线就没意义了。
+  2. **不要删除** `docs/`——A/A2 会直接失败。
+  3. 它是可再生的（`python scripts/tools/build_wiki.py`，输出到 `docs/`），但**重新生成前先想清
+     是否要重置历史基线**——那等于宣布"以前的评审结论全部作废"。
+  4. 它**不参与** CI 构建，也不随站点发布。
+- 如果将来要做 AI 检索向的知识库，正确做法是基于 `story_docs/_data/*.json` 侧车另做一个投影，
+  而不是复活 `build_wiki.py`。

@@ -112,8 +112,13 @@ def command_text_slots(command):
     return tuple(slot(command.param, i) for i in indices)
 
 
-def extract_beats(commands, resolver, compiler, diag=None, conditions=None):
-    """Extract ordered story beats and their choice-branch ownership."""
+def extract_beats(commands, resolver, compiler, diag=None, conditions=None, stem=''):
+    """Extract ordered story beats and their choice-branch ownership.
+
+    diag: 可选 Diagnostics 收集器。帧栈失配这类"指令被静默丢弃"的降级在此登记
+    （choice_frame_anomalies）；不传则完全不登记，库用法不受影响。
+    stem: 剧本代号，仅用于登记条目定位。
+    """
     beats = []
     stack = []
     pending_close = []
@@ -187,7 +192,9 @@ def extract_beats(commands, resolver, compiler, diag=None, conditions=None):
                 # 之类数据异常，指令被静默丢弃（行为与历史一致），此处登记。
                 # phone 方言从不入帧栈（上方 kind != 'phone' 才推帧），其
                 # JumpTo/End 落空是设计使然，不登记。
-                diag.append({'idx': c.idx, 'cmd': cmd, 'group': head, 'closer': closer})
+                diag.add('choice_frame_anomalies',
+                         key=(stem, c.idx, cmd, head, closer),
+                         stem=stem, idx=c.idx, cmd=cmd, group=head, closer=closer)
             continue
 
         if cmd in ("SetTalk", "SetPhoneMsg"):

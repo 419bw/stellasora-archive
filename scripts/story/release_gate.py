@@ -48,7 +48,16 @@ MASK = '敬请期待'
 
 
 def _warn(msg):
-    print('[release_gate] %s' % msg)
+    """失败开放告警。优先走管线统一出口（pipeline.diagnostics.warn），保持与
+    _diagnostics.json 同一套日志格式；本模块被单独 import（path 上没有 scripts/story）
+    时退回 print，不因此多一个硬依赖——门控是安全组件，依赖越少越稳。
+    """
+    try:
+        from pipeline.diagnostics import warn
+    except ImportError:
+        print('[release_gate] %s' % msg)
+    else:
+        warn('[release_gate] %s' % msg)
 
 
 def _read(path):

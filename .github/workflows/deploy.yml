@@ -95,8 +95,10 @@ jobs:
 
       - name: Unit tests (push only)
         if: github.event_name == 'push'
+        # 全量 tests/story：兜底统一机制（test_diagnostics）与 conditions 全量用例
+        # 必须进 CI，否则新增的降级登记在流水线里等于没测。
         run: |
-          python -m pytest tests/story/test_release_gate.py tests/automation/test_changelog.py -q
+          python -m pytest tests/story tests/automation -q
 
       - name: Validate story docs (push only)
         if: github.event_name == 'push'

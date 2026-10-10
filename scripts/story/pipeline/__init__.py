@@ -7,7 +7,8 @@
   Stage 2 语义    passes/fold_animations、passes/resolve_speakers、
                   passes/attribute_branches → PageDoc IR（pagedoc）
   Stage 4a 后端   render_md（人审真源 Markdown，字节锁）
-  横切            diagnostics（Phase 3 引入）、markup（Phase 3 引入）
+  横切            diagnostics（兜底统一登记：收集器 + 分类注册表 + warn）、
+                  markup（内联标记/词表编译）
 
 站点 HTML 后端在 scripts/site/render_html.py（Phase 2 引入），与本包共享
 落盘的 PageDoc 侧车（story_docs/_beats/）。

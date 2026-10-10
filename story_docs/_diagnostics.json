@@ -1,5 +1,5 @@
 {
- "note": "上游数据异常与编译器兜底的机器可读登记（build_story 生成）。人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md 3.5。speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的变体键；speaker_inline_names=剧本把显示名直接写在 speaker 字段的条数（正常行为，按字面解析，不逐条列出）；choice_frame_anomalies=抉择关闭指令的 group 无活跃帧（phone 方言不入帧栈，其落空属设计使然，不登记）；emph_tags_preserved/orphan_emph_tags_stripped=成对保留与孤儿剥离的 <b>/<i> 强调标记计数（TextCompiler 栈配对；孤儿如 STm06_01 悬空 </b>，只丢标记不丢字）。口径为本次构建中不同原始文本的标签数量，包含被折叠帧；相同原始文本复用缓存，不重复计数。",
+ "note": "上游数据异常与编译器兜底的机器可读登记（build_story 生成，只记录、不改变任何行为）。人读版见 _battle_reconciliation.md 与 _dev/AI_HANDOVER_GUIDE.md「兜底与诊断策略」。各分类口径：code_mismatches=官方显示代号与自身 StoryId 编号交叉（上游笔误）；battle_bubble_missing=关卡表有行、包内暂无气泡剧本；unattached_bbm_scripts=没有任何关卡表引用的 BBm 剧本；rows_without_script=关卡表已列出、包内无剧本的关卡行（未开放线路）；speaker_prefix_fallbacks=预置表未收录、按最长点分前缀归位的说话人键；speaker_inline_names=剧本把显示名直接写在 speaker 字段的去重 sid 数（正常行为）；choice_frame_anomalies=抉择关闭指令的 group 找不到活跃帧；emph_tags_preserved=成对保留的 <b>/<i> 强调标记数；orphan_emph_tags_stripped=孤儿强调标记被剥离的数（只丢标记不丢字）；unknown_control_markers=正文里无法识别的 ==XXX== 控制标记，按原文保留；unknown_preset_words=正文里无法识别的 $nnnn 词条，按原文保留；bubble_stem_display_code_fallback=StoryId 尾部非 BTnn、按显示代号拼气泡剧本名的关卡行数；condition_story_unknown=条件标签引用的 StoryId 在 Story 表查不到，标签退回原始 id；condition_unlock_unknown=条件标签引用的 ConditionId 在 StoryCondition 表查不到；condition_evidence_unknown=条件标签引用的 EvId 在 StoryEvidence 表查不到；condition_achievement_unknown=AchieveIds 里的成就在 Achievement 表查不到；condition_choice_frame_missing=历史条件找不到对应的 SetMajorChoice/SetPersonalityChoice 指令；condition_choice_option_missing=历史条件的选项序号越界或为空，该项已跳过；condition_be_case_unknown=CheckBE/CheckBECase 解析异常：档位号越界、章号查不到、组内 range 不一致；condition_row_malformed=Story/StoryCondition/StoryEvidence 行结构异常（缺主键或字段类型不符），已跳过。list 分类按去重键排序、同键只留一条；count 分类为本次构建的累计计数（给过去重键的按 key 去重，如 speaker_inline_names 数的是去重 sid）。",
  "code_mismatches": [
   {
    "sid": 1010,
@@ -71,5 +71,16 @@
   }
  ],
  "emph_tags_preserved": 130,
- "orphan_emph_tags_stripped": 10
+ "orphan_emph_tags_stripped": 10,
+ "unknown_control_markers": [],
+ "unknown_preset_words": [],
+ "bubble_stem_display_code_fallback": 22,
+ "condition_story_unknown": [],
+ "condition_unlock_unknown": [],
+ "condition_evidence_unknown": [],
+ "condition_achievement_unknown": [],
+ "condition_choice_frame_missing": [],
+ "condition_choice_option_missing": [],
+ "condition_be_case_unknown": [],
+ "condition_row_malformed": []
 }

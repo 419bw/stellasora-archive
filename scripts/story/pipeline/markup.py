@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from html import escape
 from pathlib import Path
 
+from .diagnostics import Diagnostics
 from .domain import PROTAG_NAME
 from .lua_parser import parse_lua
 
@@ -27,10 +28,25 @@ VERSION_LABELS = {'cn_f': '中文女', 'cn_m': '中文男', 'jp_f': '日文女',
 logger = logging.getLogger(__name__)
 
 
+def _preset_word(match, presets, text, diagnostics):
+    """$nnnn 词条查询：查不到时保留原文（客户端会显示裸 token，本就是数据缺陷），并登记。"""
+    key = match[0][1:]
+    if key in presets.words:
+        return presets.words[key]
+    if diagnostics is not None:
+        diagnostics.add('unknown_preset_words', key=(key, text), word=key, text=text)
+    return match[0]
+
+
 def parse_inline(text, *, game=False, presets=None, diagnostics=None):
-    """Parse ruby, emphasis and game markers into inline nodes."""
+    """Parse ruby, emphasis and game markers into inline nodes.
+
+    diagnostics: 可选 Diagnostics 收集器。两处"保留原文"的兜底在此登记
+    （未知 $nnnn 词条、未知 ==XXX== 控制标记）——PR #3 起定为"容错不抛错"，
+    但只有 logger 告警不够：侧车里看不到，审 diff 的人不知道上游又加了新标记。
+    """
     if game:
-        text = re.sub(r'\$\d{4}', lambda m: presets.words.get(m[0][1:], m[0]), text)
+        text = re.sub(r'\$\d{4}', lambda m: _preset_word(m, presets, text, diagnostics), text)
     nodes, buf = [], ''
     pos = 0
     for m in INLINE.finditer(text):
@@ -66,8 +82,12 @@ def parse_inline(text, *, game=False, presets=None, diagnostics=None):
                 pass
             else:
                 buf += token
-                # 容错不抛错：auto_sync 以 check=True 跑 build，一崩定时同步就全停
+                # 容错不抛错：auto_sync 以 check=True 跑 build，一崩定时同步就全停。
+                # log 给跑构建的人，侧车给审 diff 的人——两边都要有。
                 logger.warning('未知标记 %s，出现于：%s', token, text)
+                if diagnostics is not None:
+                    diagnostics.add('unknown_control_markers', key=(token, text),
+                                    marker=token, text=text)
         elif game and m['nonlog']:
             pass
         else:
@@ -93,8 +113,9 @@ def normalize_nodes(nodes, diagnostics):
             paired.add(stack.pop()[0])
             paired.add(i)
     if diagnostics is not None:
-        diagnostics['paired'] += len(paired)
-        diagnostics['orphan'] += sum(n[0] == 'tag' for n in nodes) - len(paired)
+        diagnostics.bump('emph_tags_preserved', len(paired))
+        diagnostics.bump('orphan_emph_tags_stripped',
+                         sum(1 for n in nodes if n[0] == 'tag') - len(paired))
     out = []
     for i, n in enumerate(nodes):
         if n[0] == 'tag' and i not in paired:
@@ -264,20 +285,25 @@ def alternatives(value):
 
 
 class TextCompiler:
-    """Own official word tables and compile all story text fields."""
-    def __init__(self, sex, words=None):
+    """Own official word tables and compile all story text fields.
+
+    diagnostics: 可选 Diagnostics 收集器（缺省自建）。强调配对/孤儿计数与两处
+    "保留原文"兜底都登记到它；宿主（build_story）注入进程级单例以汇总进侧车。
+    """
+    def __init__(self, sex, words=None, diagnostics=None):
         self.sex = sex
         self.words = words or {}
-        self.diagnostics = {'paired': 0, 'orphan': 0}
+        self.diagnostics = diagnostics if diagnostics is not None else Diagnostics()
         self._cache = {}
 
     @classmethod
-    def load(cls, preset, binary, language):
+    def load(cls, preset, binary, language, diagnostics=None):
         table = parse_lua(Path(preset, 'AvgUIText.lua').read_text(encoding='utf-8'))
         sex = {k: list(v) for k, v in table.get('SEX').pairs.items()}
         terms = json.loads(Path(binary, 'ContentWord.json').read_text(encoding='utf-8'))
         translated = json.loads(Path(language, 'ContentWord.json').read_text(encoding='utf-8'))
-        return cls(sex, {key: translated[row['Word']] for key, row in terms.items()})
+        return cls(sex, {key: translated[row['Word']] for key, row in terms.items()},
+                   diagnostics=diagnostics)
 
     def compile(self, cn_f='', cn_m='', jp_f='', jp_m=''):
         versions = {}
