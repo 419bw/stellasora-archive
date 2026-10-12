@@ -97,8 +97,8 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-10-10
-- feat(story): 收录心链（手机聊天）全篇至 story_docs/_chat/
+### 2026-10-12
+- feat(site): 检索懒加载 + 全量台词全文检索（closes #7）
 
 ---
 
