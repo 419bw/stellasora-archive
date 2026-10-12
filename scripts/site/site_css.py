@@ -855,7 +855,38 @@ h1 {
 .hit-title { font-size: 14px; font-weight: 600; }
 .hit-group { font-size: 11.5px; color: var(--text-subtle); }
 .hit-speakers { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
-.results .loading { color: var(--text-muted); }
+/* 索引懒加载：加载态做在搜索框内联，不弹结果面板 */
+.index-hint {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-subtle);
+  white-space: nowrap;
+  pointer-events: none;
+}
+.searchbox.index-loading .index-hint::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--card-border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: index-spin 0.8s linear infinite;
+}
+@keyframes index-spin { to { transform: rotate(360deg); } }
+.searchbox.index-loading input {
+  background: var(--card-bg-subtle);
+  color: var(--text-subtle);
+  cursor: progress;
+  padding-right: 108px;
+}
+.searchbox.index-error .index-hint { color: var(--text-muted); }
+.searchbox.index-error input { border-color: var(--card-border-hover); padding-right: 140px; }
 .hit-snippet {
   font-size: 12px;
   color: var(--text-muted);
