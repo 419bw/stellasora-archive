@@ -64,14 +64,21 @@ JS = """(function() {
   function score(e, q) {
     var h = norm(e.hay), t = norm(e.title + ' ' + e.code + ' ' + e.group),
         sp = norm(e.speakers.join(' '));
-    if (t.indexOf(q) >= 0 || sp.indexOf(q) >= 0) return 1;
-    if (q.length < 2) return h.indexOf(q) >= 0 ? 1 : 0;
-    var hit = 0, total = q.length - 1;
-    for (var i = 0; i + 2 <= q.length; i++) if (h.indexOf(q.substr(i, 2)) >= 0) hit++;
-    var ratio = hit / total;
-    // 阈值 0.5：实测 10 字台词查询下，非真命页二元组覆盖率 ≤0.33、真命页 1.0
-    if (ratio < 0.5) return 0;
-    return ratio * 10 + (h.indexOf(q) >= 0 ? 2 : 0);
+    var cover = 0;
+    if (q.length >= 2) {
+      var hit = 0, total = q.length - 1;
+      for (var i = 0; i + 2 <= q.length; i++) if (h.indexOf(q.substr(i, 2)) >= 0) hit++;
+      var ratio = hit / total;
+      // 阈值 0.5：实测 10 字台词查询下，非真命页二元组覆盖率 ≤0.33、真命页 1.0
+      if (ratio >= 0.5) cover = ratio * 10 + (h.indexOf(q) >= 0 ? 2 : 0);
+    } else if (h.indexOf(q) >= 0) {
+      cover = 1;
+    }
+    // 分层：标题/组名命中=页面主题（角色个人剧情的组名就是角色名，人名查询时应置顶）
+    //       > 说话人命中=角色在场 > 仅全文提及；档内用覆盖率微调
+    if (t.indexOf(q) >= 0) return 100 + cover;
+    if (sp.indexOf(q) >= 0) return 50 + cover;
+    return cover;
   }
   function wrapMatches(text, q, tag, cls) {
     var lower = text.toLowerCase(), lq = q.toLowerCase(), out = '', pos = 0, at;
@@ -83,9 +90,17 @@ JS = """(function() {
     return out + escapeHtml(text.slice(pos));
   }
   function snippet(hay, q) {
-    var at = hay.toLowerCase().indexOf(q.toLowerCase());
+    var lh = hay.toLowerCase(), lq = q.toLowerCase();
+    var at = lh.indexOf(lq);
+    if (at < 0 && lq.length >= 2) {
+      // 整句不在 hay（错字查询靠覆盖率命中）：退回首个命中的二元组位置
+      for (var i = 0; i + 2 <= lq.length; i++) {
+        var p = lh.indexOf(lq.substr(i, 2));
+        if (p >= 0) { at = p; break; }
+      }
+    }
     if (at < 0) return '';
-    var from = Math.max(0, at - 40), to = Math.min(hay.length, at + q.length + 40);
+    var from = Math.max(0, at - 40), to = Math.min(hay.length, at + lq.length + 40);
     return (from > 0 ? '…' : '') + hay.slice(from, to) + (to < hay.length ? '…' : '');
   }
   function run(pane, scope, root, q) {
