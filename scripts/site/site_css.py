@@ -855,6 +855,24 @@ h1 {
 .hit-title { font-size: 14px; font-weight: 600; }
 .hit-group { font-size: 11.5px; color: var(--text-subtle); }
 .hit-speakers { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+.results .loading { color: var(--text-muted); }
+.hit-snippet {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 3px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hit-mark { font-style: normal; font-weight: 600; color: var(--accent); }
+mark.q-hit {
+  background: var(--card-bg-subtle);
+  color: var(--accent);
+  padding: 0 1px;
+  border-radius: 2px;
+}
 
 /* Chapter List & Group Section */
 .chaplist {

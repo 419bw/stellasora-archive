@@ -53,22 +53,42 @@ JS = """(function() {
   }
 
   // Search Engine
-  var IDX = (window.STORY_INDEX || { entries: [] }).entries;
+  var IDX = null, indexPromise = null;
   var FAM = { npc: 'npc_bonds', battles: 'battles_unmounted' };
   function norm(s) { return (s || '').toLowerCase(); }
-  function score(e, q) {
-    var s = 0, t = norm(e.title + ' ' + e.code + ' ' + e.group), h = norm(e.hay), sp = norm(e.speakers.join(' '));
-    if (t.indexOf(q) >= 0) s += 6;
-    if (sp.indexOf(q) >= 0) s += 4;
-    if (h.indexOf(q) >= 0) s += 2;
-    for (var i = 0; i + 2 <= q.length; i++) {
-      var g = q.substr(i, 2);
-      if (h.indexOf(g) >= 0) s += 1;
-      if (sp.indexOf(g) >= 0) s += 1;
-    }
-    return s;
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
   }
-  function run(box, pane, scope, root, q) {
+  function score(e, q) {
+    var h = norm(e.hay), t = norm(e.title + ' ' + e.code + ' ' + e.group),
+        sp = norm(e.speakers.join(' '));
+    if (t.indexOf(q) >= 0 || sp.indexOf(q) >= 0) return 1;
+    if (q.length < 2) return h.indexOf(q) >= 0 ? 1 : 0;
+    var hit = 0, total = q.length - 1;
+    for (var i = 0; i + 2 <= q.length; i++) if (h.indexOf(q.substr(i, 2)) >= 0) hit++;
+    var ratio = hit / total;
+    // 阈值 0.5：实测 10 字台词查询下，非真命页二元组覆盖率 ≤0.33、真命页 1.0
+    if (ratio < 0.5) return 0;
+    return ratio * 10 + (h.indexOf(q) >= 0 ? 2 : 0);
+  }
+  function wrapMatches(text, q, tag, cls) {
+    var lower = text.toLowerCase(), lq = q.toLowerCase(), out = '', pos = 0, at;
+    while ((at = lower.indexOf(lq, pos)) >= 0) {
+      out += escapeHtml(text.slice(pos, at)) + '<' + tag + ' class="' + cls + '">'
+           + escapeHtml(text.slice(at, at + lq.length)) + '</' + tag + '>';
+      pos = at + lq.length;
+    }
+    return out + escapeHtml(text.slice(pos));
+  }
+  function snippet(hay, q) {
+    var at = hay.toLowerCase().indexOf(q.toLowerCase());
+    if (at < 0) return '';
+    var from = Math.max(0, at - 40), to = Math.min(hay.length, at + q.length + 40);
+    return (from > 0 ? '…' : '') + hay.slice(from, to) + (to < hay.length ? '…' : '');
+  }
+  function run(pane, scope, root, q) {
     var hits = [];
     for (var i = 0; i < IDX.length; i++) {
       var e = IDX[i];
@@ -76,23 +96,43 @@ JS = """(function() {
       var s = score(e, q);
       if (s > 0) hits.push([s, e]);
     }
-    hits.sort(function(a, b) { return b[0] - a[0] || String(a[1].title).localeCompare(b[1].title); });
+    hits.sort(function (a, b) { return b[0] - a[0] || String(a[1].title).localeCompare(b[1].title); });
     pane.hidden = false;
     if (!hits.length) {
       pane.innerHTML = '<p class="aside" style="padding:10px 0;">未检索到匹配的剧情档案。</p>';
       return;
     }
-    var out = ['<div class="results-header"><span>匹配到 ' + hits.length + ' 篇档案（最多显示 40 篇）</span></div><ul class="hits">'];
-    hits.slice(0, 40).forEach(function(h) {
+    var out = ['<div class="results-header"><span>匹配到 ' + hits.length
+      + ' 篇档案（含全文检索，最多显示 40 篇）</span></div><ul class="hits">'];
+    hits.slice(0, 40).forEach(function (h) {
       var e = h[1];
       var displayTitle = (e.code && e.title && e.title.indexOf(e.code) === 0) ? e.title : [e.code, e.title].filter(Boolean).join(' ');
-      out.push('<li><a class="hit-link" href="' + root + e.page + '">'
-        + '<div class="hit-top"><b class="hit-title">' + displayTitle + '</b>'
-        + '<span class="hit-group">' + e.group + '</span></div>'
-        + '<div class="hit-speakers">' + (e.speakers.slice(0, 5).join('、') || '旁白') + '</div>'
+      var snip = snippet(e.hay, q);
+      out.push('<li><a class="hit-link" href="' + root + e.page + '?q=' + encodeURIComponent(q) + '">'
+        + '<div class="hit-top"><b class="hit-title">' + escapeHtml(displayTitle) + '</b>'
+        + '<span class="hit-group">' + escapeHtml(e.group) + '</span></div>'
+        + '<div class="hit-speakers">' + escapeHtml(e.speakers.slice(0, 5).join('、') || '旁白') + '</div>'
+        + (snip ? '<div class="hit-snippet">' + wrapMatches(snip, q, 'em', 'hit-mark') + '</div>' : '')
         + '</a></li>');
     });
     pane.innerHTML = out.join('') + '</ul>';
+  }
+
+  // 动态注入而非 fetch：file:// 下 fetch 被 CORS 拦，classic script 不受限
+  function loadIndex(root) {
+    if (IDX) return Promise.resolve(IDX);
+    if (indexPromise) return indexPromise;
+    indexPromise = new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = root + 'data/search.js';
+      s.onload = function () {
+        IDX = (window.STORY_INDEX || { entries: [] }).entries;
+        if (IDX.length) resolve(IDX); else reject(new Error('empty index'));
+      };
+      s.onerror = function () { indexPromise = null; reject(new Error('index load failed')); };
+      document.head.appendChild(s);
+    });
+    return indexPromise;
   }
 
   // Multi-column Masonry for Group Grid (.grp-grid)
@@ -143,14 +183,36 @@ JS = """(function() {
     var pane = box.closest('.searchbox').querySelector('.results');
     var scope = box.getAttribute('data-scope'), root = box.getAttribute('data-root') || '';
     var groups = [].slice.call(document.querySelectorAll('.grp, .chaplist li, .bento-item, .tiles li'));
+    var armed = false;
+    function kick() {
+      if (IDX) {
+        var v = box.value.trim().toLowerCase();
+        if (v.length >= 1) run(pane, scope, root, v); else pane.hidden = true;
+        return;
+      }
+      pane.hidden = false;
+      pane.innerHTML = '<p class="aside loading" style="padding:10px 0;">检索索引加载中…</p>';
+      armed = true;
+      loadIndex(root).then(function() {
+        armed = false;
+        kick();
+      }).catch(function() {
+        armed = false;
+        pane.innerHTML = '<p class="aside" style="padding:10px 0;">检索索引加载失败，请重试。</p>';
+      });
+    }
+    function ensure() { if (!armed) kick(); }
+    box.addEventListener('pointerdown', ensure);
+    box.addEventListener('focus', ensure);
     box.addEventListener('input', function() {
       var q = box.value.trim().toLowerCase();
       groups.forEach(function(g) {
         var match = !q || g.textContent.toLowerCase().indexOf(q) >= 0;
         g.style.display = match ? '' : 'none';
       });
-      if (q.length >= 1 && IDX.length) run(box, pane, scope, root, q);
-      else pane.hidden = true;
+      if (IDX) {
+        if (q.length >= 1) run(pane, scope, root, q); else pane.hidden = true;
+      } else ensure();
     });
   });
 
@@ -226,5 +288,36 @@ JS = """(function() {
     void target.offsetWidth;
     target.classList.add('target-flash');
   });
+
+  // ?q= 落地高亮：从检索结果跳进正文时标出匹配位置并滚动到首处
+  (function() {
+    var q = new URLSearchParams(location.search).get('q');
+    if (!q || q.length < 2) return;
+    var lq = q.toLowerCase(), root = document.querySelector('main') || document.body;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function(node) {
+        if (!node.parentElement || node.parentElement.closest('script, style')) return NodeFilter.FILTER_REJECT;
+        return node.nodeValue.toLowerCase().indexOf(lq) >= 0 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode() && nodes.length < 200) nodes.push(walker.currentNode);
+    nodes.forEach(function(node) {
+      var text = node.nodeValue, lower = text.toLowerCase();
+      var frag = document.createDocumentFragment(), pos = 0, at;
+      while ((at = lower.indexOf(lq, pos)) >= 0) {
+        frag.appendChild(document.createTextNode(text.slice(pos, at)));
+        var mark = document.createElement('mark');
+        mark.className = 'q-hit';
+        mark.textContent = text.slice(at, at + lq.length);
+        frag.appendChild(mark);
+        pos = at + lq.length;
+      }
+      frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+    var first = document.querySelector('mark.q-hit');
+    if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  })();
 })();
 """

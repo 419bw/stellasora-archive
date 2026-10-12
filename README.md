@@ -41,7 +41,7 @@ python scripts/site/build_site.py
 python tests/story/validate_site.py
 ```
 
-如需本地预览，可进入 `site/` 目录直接用浏览器打开 `index.html`（离线检索已内嵌）。
+如需本地预览，可进入 `site/` 目录直接用浏览器打开 `index.html`（检索索引在首次使用搜索框时按需加载，动态 script 注入，离线可用）。
 
 ---
 

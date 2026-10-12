@@ -232,10 +232,25 @@ def record_page(family, path, doc, ident, title, code='', group=None,
         rec['major_choices'] = major_choices
     rec.update(extra)
     _PAGES.append(rec)
-    search_text = [title, rec['recap'], rec['preview'],
-                   markup.text(doc.meta['recap'], 'male'),
-                   ' '.join(markup.plain(b['text'], 'male')
-                            for b in beats if b['k'] == 'talk')[:180]]
+    # 全量台词进检索 hay，中段文本才可被精确检索（issue #7）；男主变体仅在与默认
+    # 文本不同时才收录，否则索引体积约翻倍
+    lines, male_only = [], []
+    for b in beats:
+        if b['k'] in ('talk', 'bubble'):
+            text_f = markup.plain(b['text'])
+            text_m = markup.plain(b['text'], 'male')
+            if text_f:
+                lines.append(text_f)
+            if text_m and text_m != text_f:
+                male_only.append(text_m)
+        elif b['k'] == 'choice':
+            # options 首元素是 Text（versions 结构的编译产物），必须过 markup.plain 解码
+            lines += [t for t in (markup.plain(o)
+                                  for (o, _d, _ev) in b['options']) if t]
+    recap_m = markup.text(doc.meta['recap'], 'male')
+    search_text = [title, rec['recap']] + lines + male_only
+    if recap_m and recap_m != rec['recap']:
+        search_text.append(recap_m)
     _SEARCH_ENTRIES.append({
         **{key: rec[key] for key in ('id', 'family', 'code', 'title', 'page', 'speakers')},
         'group': rec['group'].get('label', ''),
