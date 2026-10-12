@@ -98,7 +98,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-12
-- feat(site): 检索懒加载 + 全量台词全文检索（closes #7）
+- fix(site): 索引加载态改搜索框内联
 
 ---
 
