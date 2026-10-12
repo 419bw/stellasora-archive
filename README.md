@@ -98,7 +98,7 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-10-12
-- fix(site): 索引加载态改搜索框内联
+- fix(site): 检索排序分层 + 结果片段兜底
 
 ---
 
