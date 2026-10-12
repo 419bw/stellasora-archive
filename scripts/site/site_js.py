@@ -184,21 +184,33 @@ JS = """(function() {
     var scope = box.getAttribute('data-scope'), root = box.getAttribute('data-root') || '';
     var groups = [].slice.call(document.querySelectorAll('.grp, .chaplist li, .bento-item, .tiles li'));
     var armed = false;
+    // 加载态做在搜索框内联（spinner + 小字 + 置灰），不弹结果面板
+    var hint = document.createElement('span');
+    hint.className = 'index-hint';
+    hint.hidden = true;
+    box.closest('.search-input-wrap').appendChild(hint);
+    function state(cls, text) {
+      var sb = box.closest('.searchbox');
+      sb.classList.remove('index-loading', 'index-error');
+      if (cls) sb.classList.add(cls);
+      hint.textContent = text || '';
+      hint.hidden = !cls;
+    }
     function kick() {
       if (IDX) {
+        state(null);
         var v = box.value.trim().toLowerCase();
         if (v.length >= 1) run(pane, scope, root, v); else pane.hidden = true;
         return;
       }
-      pane.hidden = false;
-      pane.innerHTML = '<p class="aside loading" style="padding:10px 0;">检索索引加载中…</p>';
+      state('index-loading', '索引加载中…');
       armed = true;
       loadIndex(root).then(function() {
         armed = false;
         kick();
       }).catch(function() {
         armed = false;
-        pane.innerHTML = '<p class="aside" style="padding:10px 0;">检索索引加载失败，请重试。</p>';
+        state('index-error', '索引加载失败，点击重试');
       });
     }
     function ensure() { if (!armed) kick(); }
