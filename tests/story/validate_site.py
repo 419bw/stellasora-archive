@@ -750,9 +750,12 @@ print('应可比对台词行（talk+bubble-sticker）%d   HTML 实提取 %d   �
       % (want, got, want == got))
 hard(want == got, 'J 台词行对账不符: 应 %d 实 %d' % (want, got))
 js = open(os.path.join(SITE, 'data', 'search.js'), encoding='utf-8').read()
-print('search.js 内嵌条目数 %d（与 json 一致=%s）'
-      % (js.count('"family"'), js.count('"family"') == len(ent)))
-hard(js.count('"family"') == len(ent), 'J search.js 条目数与 json 不一致')
+_m = re.match(r'\s*window\.STORY_INDEX\s*=\s*', js)
+hard(bool(_m), 'J search.js 缺少 window.STORY_INDEX 赋值')
+# 全文 hay 里可能出现 "family" 字面量，旧的字面量计数不再可靠，改为解析后深比较
+_js_entries = json.loads(js[_m.end():].rstrip().rstrip(';'))['entries']
+print('search.js 条目数 %d（与 json 一致=%s）' % (len(_js_entries), _js_entries == ent))
+hard(_js_entries == ent, 'J search.js 与 search.json 条目不一致')
 
 print()
 print('J2 变异测试')
@@ -798,6 +801,107 @@ k['entries'][3]['page'] = 'nowhere/ghost.html'
 _j2c = bool(audit_index(k['entries']))
 hard(_j2c, 'J2 植入[页面链接指空] MISSED')
 print('植入[页面链接指空] : %s' % ('CAUGHT' if _j2c else 'MISSED'))
+
+
+# ============================================================ J3  全文覆盖
+print()
+print("=" * 66)
+print("J3  全文覆盖：published 条目的每句台词都出现在其 hay 中")
+print("=" * 66)
+# beats 侧车文本是 serialize_text 投影（带 ruby/emph 标记），hay 是 plain 投影；
+# 两种投影对同一 node 流的字符输出只差这些标记，剥掉后做包含比对
+# （ruby 序列化是 base<r=note></r> 与 <r=note>base</r> 两种形态，闭合 </r> 也要剥）
+_TAGSTRIP = re.compile(r'</?r(?:=[^<>]*)?>|</?[bi]>')
+
+
+def beat_lines(page):
+    rel = page[:-len('.html')] + '.json' if page.endswith('.html') else page + '.json'
+    path = os.path.join(OUT, '_beats', *rel.split('/'))
+    if not os.path.exists(path):
+        return None
+    doc = json.load(open(path, encoding='utf-8'))
+    out = []
+    for b in doc.get('beats', []):
+        if b['k'] not in ('talk', 'bubble'):
+            continue
+        v = b.get('text') or ''
+        if isinstance(v, dict):
+            # hay 只收中文槽位，jp_* 不进索引
+            v = v.get('cn_f') or ''
+        if v:
+            out.append(_TAGSTRIP.sub('', v))
+    return out
+
+
+def audit_fulltext(entries):
+    errs = []
+    for e in entries:
+        lines = beat_lines(e['page'])
+        if lines is None:
+            errs.append((e['page'], 'beats 侧车缺失'))
+            continue
+        miss = next((t for t in lines if t not in e['hay']), None)
+        if miss is not None:
+            errs.append((e['page'], miss[:30]))
+    return errs
+
+
+_j3_pos = not audit_fulltext(ent)
+hard(_j3_pos, 'J3 正对照 FAIL')
+print('受检条目 %d   正对照（未篡改）: %s' % (len(ent), 'PASS' if _j3_pos else 'FAIL'))
+k = K()
+_pub = [e for e in k['entries'] if not GATE.is_page(e['family'], e['id'])]
+_v = _pub[0]
+_orig_hay = _v['hay']
+_v['hay'] = _orig_hay[:20]
+_j3a = bool(audit_fulltext(_pub))
+hard(_j3a, 'J3 植入[截断一条 hay] MISSED')
+print('植入[截断一条 hay] : %s' % ('CAUGHT' if _j3a else 'MISSED'))
+k = K()
+_pub = [e for e in k['entries'] if not GATE.is_page(e['family'], e['id'])]
+_pub[0]['hay'], _pub[1]['hay'] = _pub[1]['hay'], _pub[0]['hay']
+_j3b = bool(audit_fulltext(_pub))
+hard(_j3b, 'J3 植入[对调两条 hay] MISSED')
+print('植入[对调两条 hay] : %s' % ('CAUGHT' if _j3b else 'MISSED'))
+
+
+# ============================================================ J4  懒加载契约
+print()
+print("=" * 66)
+print("J4  懒加载契约：无页面内嵌 data/search.js，索引文件仍在 site/data/")
+print("=" * 66)
+
+
+def audit_lazy():
+    errs = []
+    for dirpath, _dirs, files in os.walk(SITE):
+        for f in files:
+            if not f.endswith('.html'):
+                continue
+            p = os.path.join(dirpath, f)
+            if 'data/search.js' in open(p, encoding='utf-8').read():
+                errs.append(os.path.relpath(p, SITE))
+    if not os.path.exists(os.path.join(SITE, 'data', 'search.js')):
+        errs.append('site/data/search.js 缺失')
+    return errs
+
+
+_j4_pos = not audit_lazy()
+hard(_j4_pos, 'J4 正对照 FAIL')
+print('正对照（未篡改）: %s' % ('PASS' if _j4_pos else 'FAIL'))
+_victim = os.path.join(SITE, 'index.html')
+_orig_v = open(_victim, encoding='utf-8').read()
+try:
+    open(_victim, 'w', encoding='utf-8', newline='\n').write(
+        _orig_v.replace('</body>', '<script src="data/search.js"></script></body>', 1))
+    _j4a = bool(audit_lazy())
+    hard(_j4a, 'J4 植入[把 search.js 写回页面] MISSED')
+    print('植入[把 search.js 写回页面] : %s' % ('CAUGHT' if _j4a else 'MISSED'))
+finally:
+    open(_victim, 'w', encoding='utf-8', newline='\n').write(_orig_v)
+_j4b = not audit_lazy()
+hard(_j4b, 'J4 植入[还原后未恢复] MISSED')
+print('植入[还原后恢复]           : %s' % ('CAUGHT' if _j4b else 'MISSED'))
 
 
 # ============================================================ L  「分支走向」角标 == 权威映射

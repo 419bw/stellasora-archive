@@ -259,14 +259,13 @@ def layout(title, body, depth, crumb, note=''):
 <button class="back-to-top" id="backToTop" type="button" title="回到顶部" aria-label="回到顶部">
   <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.2" fill="none"><polyline points="18 15 12 9 6 15"></polyline></svg>
 </button>
-<script src="%sdata/search.js"></script>
 <script src="%sassets/site.js"></script>
 </body></html>
 """ % (esc(title), root, root,
        root, root, nav_links,
        ('<nav class="crumb">%s</nav>\n' % crumb) if crumb else '', body,
        root, ((' · ' + esc(note)) if note else ''),
-       root, root)
+       root)
 
 
 def script_page(rec, doc, nav_info=None, branch_targets=None):

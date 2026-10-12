@@ -546,7 +546,7 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 |---|---|---|
 | `chapters.json` | 每章一个节点数组：`code/title/kind/parents/state/time/col/lane/x/y/page` + 章级 `geometry{columns,width,height,step_x,step_y,edges,card}` 与官方 `time_slots` | 主线节点图 |
 | `sections.json` | 每页一条：`family/group/code/title/page/page_md/stems/recap/speakers/counts/preview` | 索引页、检索、覆盖统计 |
-| `search.json` → `site/data/search.js` | 每条 `{id,family,code,title,group,page,speakers,hay}` | 前端检索（内嵌成 js 是为了 `file://` 能跑） |
+| `search.json` → `site/data/search.js` | 每条 `{id,family,code,title,group,page,speakers,hay}`；`hay` = 标题 + 概要 + **全量 talk/bubble/choice 台词**（男主变体仅在与默认文本不同时才收录） | 前端检索：页面不再内嵌该 script，首次与搜索框交互时动态注入加载（内嵌成 js 而非 json 是为了 `file://` 下动态注入不受 CORS 限制） |
 | `personality.json` | 三轴定义与颜色 | 术语卡（**不**用于给选项上色，见 8.4） |
 
 > 📏 **规模数字一律不写死**。每份侧车的 `meta` 里都带权威计数（`chapters.meta = {chapters, nodes,
