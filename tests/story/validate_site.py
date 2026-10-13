@@ -1490,7 +1490,7 @@ hard(not idx_errs, 'N 占位渲染违例：%d 处' % len(idx_errs))
 
 print()
 print('N2 变异测试')
-if not GATE.groups:
+if not GATE:
     print('（当前没有被门控的组，N2 无样本可跑）')
 else:
     first = next(it for items in GATE.groups.values() for it in items.values())
