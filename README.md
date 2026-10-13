@@ -97,8 +97,8 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-10-12
-- fix(site): 检索排序分层 + 结果片段兜底
+### 2026-10-13
+- fix(test): 门控组清零后 N2 变异测试空样本 StopIteration
 
 ---
 
