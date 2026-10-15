@@ -97,8 +97,8 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-10-13
-- fix(test): 门控组清零后 N2 变异测试空样本 StopIteration
+### 2026-10-15
+- docs: 新增 MCP 服务器设计方案（工具面/部署/测试）
 
 ---
 
