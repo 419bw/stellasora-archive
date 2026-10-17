@@ -15,6 +15,7 @@ FAMILIES = [
     ('prologue', '序章', '旅程开启的序幕篇章《最初的起点》。'),
     ('battles_unmounted', '存目战斗气泡', '战场独立战斗气泡与实时对白。'),
     ('dispatch', '委托对话', '委托（Agent）结算演出台词：完成含特殊报酬的委托时，按上阵旅人与权重随机播放；单人是每位旅人的代表作，双人/三人是随行短对话。'),
+    ('anecdotes', '逸闻笔记', '攀登的旅途，总是伴随着意外'),
 ]
 FAMILY_NAME = {k: n for k, n, _ in FAMILIES}
 
@@ -61,8 +62,13 @@ FAMILY_META = {
     },
     'dispatch': {
         'code': '09',
-        'span': 'span-2',
+        'span': 'span-1',
         'desc': '委托结算演出台词，按结算演出类型收录。',
+    },
+    'anecdotes': {
+        'code': '10',
+        'span': 'span-1',
+        'desc': '攀登的旅途，总是伴随着意外',
     },
 }
 
@@ -73,7 +79,7 @@ def slug_of(family):
     return {'main': 'main', 'events': 'events', 'characters': 'characters',
             'npc_bonds': 'npc', 'discs': 'discs', 'storysets': 'storysets',
             'prologue': 'prologue', 'battles_unmounted': 'battles',
-            'dispatch': 'dispatch'}[family]
+            'dispatch': 'dispatch', 'anecdotes': 'anecdotes'}[family]
 
 
 def esc(s):
@@ -336,17 +342,18 @@ def script_page(rec, doc, nav_info=None, branch_targets=None):
 
             story_nav_html = '<nav class="story-nav" aria-label="剧情前后导航">%s%s</nav>' % (prev_html, next_html)
 
+    cast_html = ('\n<details class="cast"><summary>出场说话人（%d）</summary><div class="facets">%s</div></details>'
+                 % (len(rec['speakers']), facets)) if rec.get('speakers') else ''
+
     return layout(rec['title'] or page, """
 %s
 <div class="page" data-family="%s" data-counts='%s'>
 %s
 </div>
-%s
-<details class="cast"><summary>出场说话人（%d）</summary><div class="facets">%s</div></details>
+%s%s
 """ % (aside, esc(rec['family']),
        json.dumps(rec['counts'], ensure_ascii=False), body,
-       story_nav_html,
-       len(rec['speakers']), facets), d, crumb)
+       story_nav_html, cast_html), d, crumb)
 
 
 def chapter_graph_page(c, all_chapters):
@@ -699,13 +706,26 @@ def family_index(family, intro, pages_in_family, locked_items=()):
         groups.setdefault(key, []).append(r)
     blocks = []
     total_stages = 0
+    total_notes = 0
     for (label, gid), items in groups.items():
         total_stages += len(items)
         topo_badge = ''
         if family == 'events' and str(gid) in ('10106', '20101'):
             topo_badge = '<div class="grp-topo-wrap"><a class="grp-topo-btn" href="%s/index.html">✦ 查看本活动关卡拓扑图（含分支路线） →</a></div>' % gid
         links = []
+        grp_notes = 0
         for it in items:
+            if family == 'anecdotes' and it.get('notes'):
+                for nt in it['notes']:
+                    grp_notes += 1
+                    total_notes += 1
+                    links.append(
+                        '<li><a class="plain-link" href="%s#note-%s">'
+                        '<span class="link-title">%s</span>'
+                        '<span class="sub">%s</span></a></li>'
+                        % (rel(d, it['page']), nt['id'], esc(nt['title']), esc(nt['source']))
+                    )
+                continue
             is_battle = it.get('kind') == 'battle'
             sub = ('战斗关卡' if is_battle
                    else ('%d 句' % it['counts'].get('talk', 0)
@@ -713,7 +733,12 @@ def family_index(family, intro, pages_in_family, locked_items=()):
             display_title = full_title(it.get('code'), it.get('title'))
             links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s</span><span class="sub">%s</span></a></li>'
                          % (rel(d, it['page']), esc(display_title), esc(sub)))
-        count_label = '%d 关' if family == 'events' else '%d 篇'
+        if family == 'anecdotes':
+            badge_text = '%d 篇' % (grp_notes or len(items))
+        elif family == 'events':
+            badge_text = '%d 关' % len(items)
+        else:
+            badge_text = '%d 篇' % len(items)
         blocks.append('<details class="grp">'
                       '<summary class="grp-header">'
                       '<div class="grp-head-row">'
@@ -726,20 +751,21 @@ def family_index(family, intro, pages_in_family, locked_items=()):
                       '</summary>'
                       '<div class="grp-body">%s<ul class="plain">%s</ul></div>'
                       '</details>'
-                      % (esc(label), count_label % len(items), topo_badge, ''.join(links)))
+                      % (esc(label), badge_text, topo_badge, ''.join(links)))
     for item in locked_items:
         blocks.append(locked_block(item))
 
     crumb = '<a href="%sindex.html">首页</a> › %s' % ('../' * d, FAMILY_NAME[family])
     unit_name = '个活动' if family == 'events' else ('位角色' if family == 'characters' else '个分类')
     stage_unit = '关' if family == 'events' else '篇'
+    display_total = total_notes if (family == 'anecdotes' and total_notes) else total_stages
     toolbar = """<div class="grp-toolbar">
   <div class="grp-toolbar-info">收录 %d %s · 共 %d %s%s</div>
   <div class="grp-toolbar-actions">
     <button type="button" class="btn-grp-toggle" id="expandAllBtn">全部展开</button>
     <button type="button" class="btn-grp-toggle" id="collapseAllBtn">全部收起</button>
   </div>
-</div>""" % (len(groups), unit_name, total_stages, stage_unit,
+</div>""" % (len(groups), unit_name, display_total, stage_unit,
                (' · 待开放 %d 个' % len(locked_items)) if locked_items else '')
 
     return layout(FAMILY_NAME[family], """
@@ -757,6 +783,7 @@ def family_index(family, intro, pages_in_family, locked_items=()):
 
 def home_page(pages, personality_data):
     counts = collections.Counter(p['family'] for p in pages)
+    anecdote_notes = sum(p['counts'].get('anecdote', 0) for p in pages if p['family'] == 'anecdotes')
     lines = sum(p['counts'].get('talk', 0) + p['counts'].get('bubble', 0) for p in pages)
     
     bento_items = []
@@ -765,6 +792,7 @@ def home_page(pages, personality_data):
         meta = FAMILY_META.get(f, {})
         cnt = counts.get(f, 0)
         slug = slug_of(f)
+        cnt_text = ('%d 篇' % anecdote_notes) if f == 'anecdotes' and anecdote_notes else ('%d 篇' % cnt)
         bento_items.append("""<li class="bento-item %s">
 <article class="bento-card" data-slug="%s">
   <a class="bento-card-link" href="%s/index.html" aria-label="%s"></a>
@@ -776,13 +804,13 @@ def home_page(pages, personality_data):
     <p class="bento-desc">%s</p>
   </div>
   <div class="bento-foot">
-    <span class="bento-count">%d 篇</span>
+    <span class="bento-count">%s</span>
     <span class="bento-arrow">→</span>
   </div>
 </article></li>""" % (
             meta.get('span', ''), slug, slug, esc(n),
             meta.get('code', '00'),
-            esc(n), meta.get('desc', ''), cnt
+            esc(n), meta.get('desc', ''), cnt_text
         ))
 
     return layout('首页', """

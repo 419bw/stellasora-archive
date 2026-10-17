@@ -126,7 +126,7 @@ JS = """(function() {
       out.push('<li><a class="hit-link" href="' + root + e.page + '?q=' + encodeURIComponent(q) + '">'
         + '<div class="hit-top"><b class="hit-title">' + escapeHtml(displayTitle) + '</b>'
         + '<span class="hit-group">' + escapeHtml(e.group) + '</span></div>'
-        + '<div class="hit-speakers">' + escapeHtml(e.speakers.slice(0, 5).join('、') || '旁白') + '</div>'
+        + '<div class="hit-speakers">' + escapeHtml(e.speakers.slice(0, 5).join('、') || (e.family === 'anecdotes' ? '逸闻笔记' : '旁白')) + '</div>'
         + (snip ? '<div class="hit-snippet">' + wrapMatches(snip, q, 'em', 'hit-mark') + '</div>' : '')
         + '</a></li>');
     });
@@ -298,7 +298,7 @@ JS = """(function() {
 
   // Choice & Branch smooth scroll jump with highlight pulse
   document.addEventListener('click', function(e) {
-    var link = e.target.closest('.opt-link, .branch-nav-btn');
+    var link = e.target.closest('.opt-link, .branch-nav-btn, .anecdote-tab');
     if (!link) return;
     var href = link.getAttribute('href');
     if (!href || href.charAt(0) !== '#') return;

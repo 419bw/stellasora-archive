@@ -63,6 +63,14 @@ def beat_lines(beats):
                 lines.append('> - **%s**%s' % (md(t), '：%s' % md(d) if d else ''))
                 lines += variant_lines(t, '>   ')
                 lines += variant_lines(d, '>   ')
+        elif k == 'anecdote':
+            lines += ["",
+                      "### %s" % md(b['title']),
+                      "",
+                      "> - **笔记 ID**：`%s`　**获取条件**：%s" % (b['id'], md(b['source']))]
+            for para in md(b['story']).split("<br>"):
+                if para.strip():
+                    lines += ["", para.strip()]
         lines.append("")
     return lines
 
@@ -73,11 +81,12 @@ def page_markdown(doc):
     if doc.recap:
         lines += ["## 2. 官方跳过概要", "",
                   "> " + md(doc.recap).replace("<br>", "\n> "), ""]
-    lines += ["## 3. " + doc.body_title, ""]
+    part = 3 if doc.recap else 2
+    lines += ["## %d. %s" % (part, doc.body_title), ""]
     lines += beat_lines(doc.beats)
     text = "\n".join(lines).rstrip() + "\n"
     if doc.appendix:
         a = doc.appendix
-        text += ("\n\n## 4. %s\n\n> %s\n\n" % (a['title'], a['note'])
+        text += ("\n\n## %d. %s\n\n> %s\n\n" % (part + 1, a['title'], a['note'])
                  + "\n".join("> " + ln for ln in a['prose'].split("\n")) + "\n")
     return text

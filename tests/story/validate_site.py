@@ -235,6 +235,12 @@ dup = [k for k, v in collections.Counter((p['family'], p['id']) for p in pages).
 nopagelink = [p for p in pages if not p['page']]
 badcount = []
 for p in pages:
+    if p['family'] == 'anecdotes':
+        n_anec = p['counts'].get('anecdote', 0)
+        if n_anec <= 0 or n_anec != len(p.get('notes') or []):
+            badcount.append((p['family'], p['id'], '逸闻笔记则数异常 %s!=%s'
+                             % (n_anec, len(p.get('notes') or []))))
+        continue
     if not p['stems']:
         badcount.append((p['family'], p['id'], '无剧本代号'))
         continue
@@ -585,7 +591,19 @@ def unesc(s):
             .replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&'))
 
 
-drift, missing_html = [], []
+ANEC_MD_BLOCK = re.compile(
+    r'^###[ \t]+([^\n]+)\n\n> - \*\*笔记 ID\*\*：`(\d+)`　\*\*获取条件\*\*：([^\n]+)\n\n(.*?)(?=\n###[ \t]+|\Z)',
+    re.M | re.S,
+)
+ANEC_HTML_BLOCK = re.compile(
+    r'<article class="anecdote-book" id="note-(\d+)" data-note-id="\1">.*?'
+    r'<h3 class="anecdote-title">(.*?)</h3>.*?'
+    r'<div class="anecdote-prose">(.*?)</div>.*?'
+    r'<span class="anecdote-cond">(.*?)</span>',
+    re.S,
+)
+
+drift, missing_html, anec_drift = [], [], []
 ruby_md = ruby_html = emph_md = emph_html = 0
 for p in published:
     hp = os.path.join(SITE, *p['page'].split('/'))
@@ -594,6 +612,20 @@ for p in published:
         continue
     md = open(os.path.join(OUT, *p['page_md'].split('/')), encoding='utf-8').read()
     html = open(hp, encoding='utf-8').read()
+    if p['family'] == 'anecdotes':
+        md_notes = [
+            (m.group(2), md_view(m.group(1).strip())[0], md_view(m.group(3).strip())[0],
+             [md_view(x.strip())[0] for x in m.group(4).splitlines() if x.strip()])
+            for m in ANEC_MD_BLOCK.finditer(md)
+        ]
+        html_notes = [
+            (m.group(1), html_view(m.group(2))[0], html_view(m.group(4))[0],
+             [html_view(pm.group(1))[0] for pm in re.finditer(r'<p>(.*?)</p>', m.group(3), re.S)])
+            for m in ANEC_HTML_BLOCK.finditer(html)
+        ]
+        if not md_notes or md_notes != html_notes:
+            anec_drift.append((p['page'], len(md_notes), len(html_notes)))
+        continue
     want = [md_view(m.group(2)) for m in MD_LINE.finditer(md)]
     got = [html_view(m.group(1)) for m in HTML_LINE.finditer(html)]
     ruby_md += sum(len(w[1]) for w in want)
@@ -602,15 +634,16 @@ for p in published:
     emph_html += sum(len(HTML_EMPH_OPEN.findall(female_html(m.group(1)))) for m in HTML_LINE.finditer(html))
     if want != got:
         drift.append((p['page'], len(want), len(got)))
-print('应生成 HTML：%d 篇（另有 %d 篇未到开放时间，只显示未开放占位）   缺文件：%d   逐句漂移：%d'
-      % (len(published), len(locked_pages), len(missing_html), len(drift)))
+print('应生成 HTML：%d 篇（另有 %d 篇未到开放时间，只显示未开放占位）   缺文件：%d   逐句漂移：%d   逸闻笔记漂移：%d'
+      % (len(published), len(locked_pages), len(missing_html), len(drift), len(anec_drift)))
 print('注音渲染：md %d 处 == HTML %d 处，一致=%s' % (ruby_md, ruby_html, ruby_md == ruby_html))
 print('强调渲染：md <b>/<i> %d 处 == HTML emph %d 处，一致=%s'
       % (emph_md, emph_html, emph_md == emph_html))
-for x in drift[:5]:
+for x in (drift + anec_drift)[:5]:
     print('   ~', x)
 hard(not missing_html, 'I 应生成的 HTML 缺文件：%d' % len(missing_html))
 hard(not drift, 'I HTML/md 逐句漂移：%d 页' % len(drift))
+hard(not anec_drift, 'I 逸闻笔记 HTML/md 漂移：%d 页' % len(anec_drift))
 hard(ruby_md == ruby_html, 'I 注音渲染数不一致: md=%d html=%d' % (ruby_md, ruby_html))
 hard(emph_md == emph_html, 'I 强调标记渲染数不一致: md=%d html=%d' % (emph_md, emph_html))
 
@@ -632,7 +665,7 @@ expected = {p['page'] for p in published} | {'index.html', 'main/index.html'} | 
            {'main/ch%s/index.html' % (c['no'] or 'sp') for c in CH['chapters']} | \
            {'%s/index.html' % s for s in ('events', 'characters', 'npc', 'discs',
                                           'storysets', 'prologue', 'battles',
-                                          'dispatch')} | \
+                                          'dispatch', 'anecdotes')} | \
            main_battle_archive_pages | \
            {'events/10106/index.html', 'events/20101/index.html'} | \
            activity_battle_pages | set(GATE.page_urls())
@@ -822,6 +855,15 @@ def beat_lines(page):
     doc = json.load(open(path, encoding='utf-8'))
     out = []
     for b in doc.get('beats', []):
+        if b['k'] == 'anecdote':
+            for fld in ('title', 'source'):
+                v = b.get(fld) or ''
+                if v:
+                    out.append(_TAGSTRIP.sub('', v))
+            for para in (b.get('story') or '').split('\n'):
+                if para.strip():
+                    out.append(_TAGSTRIP.sub('', para.strip()))
+            continue
         if b['k'] not in ('talk', 'bubble'):
             continue
         v = b.get('text') or ''

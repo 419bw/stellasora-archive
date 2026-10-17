@@ -218,14 +218,54 @@ def render_body(doc, branch_targets=None):
         else:
             out.append('<p>%s</p>' % _inline(ln))
 
+    part = 2
     # ---- 2. 官方跳过概要（可缺省）----
     if doc['recap']:
-        out.append('<h2 data-part="2">官方跳过概要</h2>')
+        out.append('<h2 data-part="%d">官方跳过概要</h2>' % part)
         out.append('<blockquote>%s</blockquote>'
                    % ('<p class="recap-text">%s</p>' % ruby_html(doc['recap'])))
+        part += 1
 
-    # ---- 3. 正文（backlog 板）----
-    out.append('<h2 data-part="3">%s</h2>' % escape(doc['body_title']))
+    # ---- 正文（backlog 板 / 逸闻笔记手帐页）----
+    out.append('<h2 data-part="%d">%s</h2>' % (part, escape(doc['body_title'])))
+    part += 1
+    if beats and all(b['k'] == 'anecdote' for b in beats):
+        tabs = ''.join(
+            '<a class="anecdote-tab" href="#note-%s">'
+            '<span class="anecdote-tab-dot"></span>'
+            '<span class="anecdote-tab-title">%s</span>'
+            '</a>' % (b['id'], escape(markup.plain(b['title'])))
+            for b in beats
+        )
+        out.append('<nav class="anecdote-tabs" aria-label="本页笔记快速定位">%s</nav>' % tabs)
+        out.append('<div class="anecdote-deck">')
+        for b in beats:
+            paras = ''.join('<p>%s</p>' % ruby_html(p.strip())
+                            for p in markup.text(b['story']).split('\n') if p.strip())
+            out.append(
+                '<article class="anecdote-book" id="note-%s" data-note-id="%s">'
+                '<div class="anecdote-paper">'
+                '<span class="anecdote-ribbon" aria-hidden="true"></span>'
+                '<header class="anecdote-head">'
+                '<h3 class="anecdote-title">%s</h3>'
+                '</header>'
+                '<div class="anecdote-prose">%s</div>'
+                '<footer class="anecdote-foot">'
+                '<span class="anecdote-pin" aria-hidden="true">'
+                '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">'
+                '<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>'
+                '</svg>'
+                '</span>'
+                '<span class="anecdote-source"><b>获取条件：</b><span class="anecdote-cond">%s</span></span>'
+                '</footer>'
+                '</div>'
+                '</article>'
+                % (b['id'], b['id'], ruby_html(b['title']),
+                   paras, ruby_html(b['source']))
+            )
+        out.append('</div>')
+        return '\n'.join(out), stats
+
     out.append(BACKLOG_OPEN)
 
     for b in beats:
@@ -409,10 +449,10 @@ def render_body(doc, branch_targets=None):
     close_active_branch()
     out.append('</div></div>')
 
-    # ---- 4. 附录（当前唯一使用方：唱片散文）----
+    # ---- 附录（当前唯一使用方：唱片散文）----
     a = doc.get('appendix')
     if a:
-        out.append('<h2 data-part="4">%s</h2>' % escape(a['title']))
+        out.append('<h2 data-part="%d">%s</h2>' % (part, escape(a['title'])))
         out.append('<blockquote><p>%s</p></blockquote>' % _inline(a['note'].strip()))
         out.append('<blockquote>%s</blockquote>'
                    % ''.join('<p>%s</p>' % _inline(ln.strip())

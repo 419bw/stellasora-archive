@@ -235,7 +235,7 @@ def strip_esc(s):
 def recap_of(path):
     ls = lines_of(path)
     for i, l in enumerate(ls):
-        if l.startswith('## 2.'):
+        if l.startswith('## 2. 官方跳过概要'):
             block = []
             for j in range(i + 1, len(ls)):
                 s = ls[j].strip()
@@ -1182,6 +1182,116 @@ if _REGISTRY:
     else:
         print('P3 重建漂移 : SKIP（STELLA_DIAG_REBUILD=0）')
 
+# ============================================================ Q 逸闻笔记全量保真
+print()
+print('=' * 66)
+print('Q  逸闻笔记（StarTowerBookEventReward）：人物合并页、获取条件与散文正文 1:1 对齐源表')
+print('=' * 66)
+
+_EVBOOK_BIN = json.load(open(os.path.join(BIN, 'StarTowerBookEventReward.json'), encoding='utf-8'))
+_EVBOOK_LANG = json.load(open(os.path.join(LANG, 'StarTowerBookEventReward.json'), encoding='utf-8'))
+_ANEC_H3 = re.compile(r'^###\s+(.+?)\s*$')
+_ANEC_META = re.compile(r'^> - \*\*笔记 ID\*\*：`(\d+)`　\*\*获取条件\*\*：(.+?)\s*$')
+
+
+def _parse_anecdote_md(path):
+    """Extract {note_id: (title, source, [paragraphs])} from an anecdote markdown file."""
+    notes = {}
+    cur_title = None
+    cur_id = None
+    cur_source = None
+    cur_paras = []
+    in_body = False
+    for raw_ln in open(path, encoding='utf-8').read().splitlines():
+        ln = raw_ln.strip()
+        if ln.startswith(('## 2.', '## 3.')):
+            in_body = True
+            continue
+        if not in_body:
+            continue
+        m_h3 = _ANEC_H3.match(ln)
+        if m_h3:
+            if cur_id is not None:
+                notes[cur_id] = (cur_title, cur_source, cur_paras)
+            cur_title = norm(m_h3.group(1))
+            cur_id = None
+            cur_source = None
+            cur_paras = []
+            continue
+        m_meta = _ANEC_META.match(ln)
+        if m_meta and cur_title is not None:
+            cur_id = int(m_meta.group(1))
+            cur_source = norm(m_meta.group(2))
+            continue
+        if cur_id is not None and ln:
+            cur_paras.append(norm(ln))
+    if cur_id is not None:
+        notes[cur_id] = (cur_title, cur_source, cur_paras)
+    return notes
+
+
+_expected_anec = {}
+_expected_anec_groups = set()
+for _r in _EVBOOK_BIN.values():
+    if _r.get('IsBanned'):
+        continue
+    _nid = int(_r['Id'])
+    _expected_anec_groups.add((int(_r.get('Type', 0)), int(_r.get('NPCId', 0))))
+    _t = norm(_EVBOOK_LANG.get(_r.get('Name', ''), ''))
+    _s = norm(_EVBOOK_LANG.get(_r.get('Source', ''), ''))
+    _p = [norm(x.strip()) for x in _EVBOOK_LANG.get(_r.get('Story', ''), '').replace('\r\n', '\n').split('\n') if x.strip()]
+    _expected_anec[_nid] = (_t, _s, _p)
+
+_ANEC_FILES = sorted(
+    p for p in glob.glob(os.path.join(NEW, 'anecdotes', '**', '*.md'), recursive=True)
+    if not os.path.basename(p).startswith('_')
+)
+_actual_anec = {}
+_anec_dup = []
+for _ap in _ANEC_FILES:
+    for _nid, _val in _parse_anecdote_md(_ap).items():
+        if _nid in _actual_anec:
+            _anec_dup.append(_nid)
+        _actual_anec[_nid] = _val
+
+_anec_miss = sorted(set(_expected_anec) - set(_actual_anec))
+_anec_extra = sorted(set(_actual_anec) - set(_expected_anec))
+_anec_diff = [nid for nid in sorted(set(_expected_anec) & set(_actual_anec))
+              if _expected_anec[nid] != _actual_anec[nid]]
+print('逸闻笔记人物页：%d（应 %d）   笔记总则数：%d（应 %d）   缺漏：%d   多余：%d   正文/条件不符：%d'
+      % (len(_ANEC_FILES), len(_expected_anec_groups), len(_actual_anec), len(_expected_anec),
+         len(_anec_miss), len(_anec_extra), len(_anec_diff)))
+for _nid in _anec_diff[:5]:
+    print('   ~ 笔记 %s 不符: 源=%r 实=%r' % (_nid, _expected_anec[_nid][:2], _actual_anec[_nid][:2]))
+hard(len(_ANEC_FILES) == len(_expected_anec_groups),
+     'Q 逸闻笔记人物页数不符: 实=%d 应=%d' % (len(_ANEC_FILES), len(_expected_anec_groups)))
+hard(not _anec_dup, 'Q 逸闻笔记重复 ID：%s' % _anec_dup)
+hard(not _anec_miss, 'Q 逸闻笔记缺漏 ID：%d 则' % len(_anec_miss))
+hard(not _anec_extra, 'Q 逸闻笔记多余 ID：%d 则' % len(_anec_extra))
+hard(not _anec_diff, 'Q 逸闻笔记正文/条件不符：%d 则' % len(_anec_diff))
+
+if _ANEC_FILES:
+    _qp = _ANEC_FILES[0]
+    _qtxt = open(_qp, encoding='utf-8').read()
+    _qbase = _parse_anecdote_md(_qp)
+    _qtmp = _qp + '.mut.md'
+    try:
+        # 变异 1：改动获取条件
+        _qmut1 = _qtxt.replace('获取条件**：', '获取条件**：篡改', 1)
+        open(_qtmp, 'w', encoding='utf-8', newline='\n').write(_qmut1)
+        _q_ok1 = _parse_anecdote_md(_qtmp) != _qbase
+        # 变异 2：改动最后一段散文
+        _qmut2 = _qtxt.rstrip() + '篡改\n'
+        open(_qtmp, 'w', encoding='utf-8', newline='\n').write(_qmut2)
+        _q_ok2 = _parse_anecdote_md(_qtmp) != _qbase
+    finally:
+        if os.path.exists(_qtmp):
+            os.remove(_qtmp)
+    hard(_q_ok1, 'Q2 变异[改获取条件] MISSED')
+    hard(_q_ok2, 'Q2 变异[改散文正文] MISSED')
+    print('Q2 变异测试（%s）: 改获取条件->%s   改散文正文->%s'
+          % (os.path.basename(_qp), 'CAUGHT' if _q_ok1 else 'MISSED', 'CAUGHT' if _q_ok2 else 'MISSED'))
+
 # ---- 汇总与退出码 -------------------------------------------------------------
 print()
 print('=' * 66)
@@ -1190,7 +1300,7 @@ if HARD:
     for x in HARD:
         print('   ✗', x)
     sys.exit(1)
-print('RESULT: PASS —— 绝对真值契约（B/C/D/E/F/K/M/P + 全部变异测试）全绿；')
+print('RESULT: PASS —— 绝对真值契约（B/C/D/E/F/K/M/N/P/Q + 全部变异测试）全绿；')
 print('              历史对照（A/A2）在白名单内（%d 关卡：%s）'
       % (len(A_WHITELIST), ', '.join(sorted(A_WHITELIST))))
 sys.exit(0)
