@@ -349,11 +349,15 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
     by_grp = collections.defaultdict(list)
     for p in pages:
         if p['family'] not in ('main', 'events'):
-            grp_key = (p['family'], p['group'].get('id'))
+            gid = p['group'].get('kind') if p['family'] == 'anecdotes' else p['group'].get('id')
+            grp_key = (p['family'], gid)
             by_grp[grp_key].append(p)
 
     for grp_key, grp_pages in by_grp.items():
-        sorted_p = sorted(grp_pages, key=lambda x: x['id'])
+        sorted_p = sorted(
+            grp_pages,
+            key=lambda x: (str(x['group'].get('id', '')), x['id']) if grp_key[0] == 'anecdotes' else x['id'],
+        )
         for idx, cur_p in enumerate(sorted_p):
             cur_d = T.depth_of(cur_p['page'])
             prev_items = []

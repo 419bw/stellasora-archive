@@ -589,6 +589,10 @@ h1 {
   --card-theme: #059669;
   --card-theme-stripe: rgba(5, 150, 105, 0.18);
 }
+.bento-card[data-slug="anecdotes"] {
+  --card-theme: #3B5B92;
+  --card-theme-stripe: rgba(59, 91, 146, 0.18);
+}
 
 [data-theme="dark"] .bento-card[data-slug="main"] {
   --card-theme: #38BDF8;
@@ -625,6 +629,10 @@ h1 {
 [data-theme="dark"] .bento-card[data-slug="dispatch"] {
   --card-theme: #34D399;
   --card-theme-stripe: rgba(52, 211, 153, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="anecdotes"] {
+  --card-theme: #7DA2E1;
+  --card-theme-stripe: rgba(125, 162, 225, 0.22);
 }
 
 .bento-card-link {
@@ -1150,6 +1158,10 @@ mark.q-hit {
   --grp-accent: #059669;
   --grp-accent-stripe: rgba(5, 150, 105, 0.18);
 }
+.grp-grid[data-family="anecdotes"] {
+  --grp-accent: #3B5B92;
+  --grp-accent-stripe: rgba(59, 91, 146, 0.18);
+}
 
 [data-theme="dark"] .grp-grid[data-family="events"] {
   --grp-accent: #2DD4BF;
@@ -1182,6 +1194,10 @@ mark.q-hit {
 [data-theme="dark"] .grp-grid[data-family="dispatch"] {
   --grp-accent: #34D399;
   --grp-accent-stripe: rgba(52, 211, 153, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="anecdotes"] {
+  --grp-accent: #7DA2E1;
+  --grp-accent-stripe: rgba(125, 162, 225, 0.22);
 }
 
 /* Summary Header */
@@ -2005,6 +2021,224 @@ mark.q-hit {
   color: var(--text-main);
 }
 
+/* ========================================================= */
+/* In-Game StarTower Event Book (星塔图鉴 · 逸闻笔记手帐页)      */
+/* ========================================================= */
+.anecdote-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 18px;
+}
+.anecdote-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--card-bg-subtle);
+  border: 1.5px solid var(--card-border);
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 0 var(--card-border);
+  transition: all 0.16s ease;
+}
+.anecdote-tab:hover {
+  color: #3B5B92;
+  border-color: #3B5B92;
+  background: rgba(59, 91, 146, 0.06);
+  box-shadow: 0 2px 0 #3B5B92;
+  transform: translateY(-1px);
+}
+[data-theme="dark"] .anecdote-tab:hover {
+  color: #7DA2E1;
+  border-color: #7DA2E1;
+  background: rgba(125, 162, 225, 0.10);
+  box-shadow: 0 2px 0 #7DA2E1;
+}
+.anecdote-tab-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #3B5B92;
+  opacity: 0.75;
+}
+[data-theme="dark"] .anecdote-tab-dot {
+  background: #7DA2E1;
+}
+
+.anecdote-deck {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 14px 0 6px;
+}
+
+/* 外层深蓝手帐封皮 (Notebook Cover Frame: #2e4b83 cover + #142b45 outline) */
+.anecdote-book {
+  position: relative;
+  background: #2e4b83;
+  border: 2px solid #142b45;
+  border-radius: 10px;
+  padding: 7px 8px 8px 20px;
+  box-shadow: 0 4px 14px rgba(20, 43, 69, 0.14);
+  scroll-margin-top: 84px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+[data-theme="dark"] .anecdote-book {
+  background: #1f3358;
+  border-color: #102036;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* 内层信笺纸页 (Inner Notebook Paper: #f7f7f7 surface + #dcdcde top/left rim) */
+.anecdote-paper {
+  position: relative;
+  background-color: #f7f7f7;
+  border-top: 3px solid #dcdcde;
+  border-left: 3px solid #dcdcde;
+  border-right: 1px solid #dcdcde;
+  border-bottom: 1px solid #dcdcde;
+  border-radius: 6px;
+  padding: 20px 26px 14px;
+}
+[data-theme="dark"] .anecdote-paper {
+  background-color: #161f30;
+  border-top-color: #28364f;
+  border-left-color: #28364f;
+  border-right-color: rgba(255, 255, 255, 0.08);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+/* 右上角燕尾书签缎带 (Top-Right Swallowtail Bookmark Ribbon: #142b45 + left highlight edge) */
+.anecdote-ribbon {
+  position: absolute;
+  top: -8px;
+  right: 26px;
+  width: 22px;
+  height: 38px;
+  background: #142b45;
+  border-left: 3px solid #354c7c;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+  pointer-events: none;
+}
+[data-theme="dark"] .anecdote-ribbon {
+  background: #0f2136;
+  border-left-color: #46659e;
+}
+
+/* 笔记标题栏 + 虚线分割 (Note Header & Dashed Rule) */
+.anecdote-head {
+  display: flex;
+  align-items: center;
+  padding: 0 42px 11px 0;
+  margin-bottom: 15px;
+  border-bottom: 1.5px dashed #dcdcde;
+}
+[data-theme="dark"] .anecdote-head {
+  border-bottom-color: rgba(148, 163, 184, 0.25);
+}
+.anecdote-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: #142b45;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+[data-theme="dark"] .anecdote-title {
+  color: #f1f5f9;
+}
+
+/* 散文正文排版 (Multi-paragraph Prose Body) */
+.anecdote-prose {
+  font-size: 14.5px;
+  line-height: 1.85;
+  font-weight: 500;
+  color: #142b45;
+  padding: 2px 2px 6px;
+}
+[data-theme="dark"] .anecdote-prose {
+  color: #e2e8f0;
+}
+.anecdote-prose p {
+  margin: 0 0 11px;
+  text-align: justify;
+}
+.anecdote-prose p:last-child {
+  margin-bottom: 0;
+}
+
+/* 底部获取条件条 (Left-Docked Half-Pill Footer: #dcdcde background + sky-blue pin) */
+.anecdote-foot {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 14px 0 0 -26px;
+  padding: 4px 18px 4px 12px;
+  max-width: calc(100% + 14px);
+  background: #dcdcde;
+  border-radius: 0 999px 999px 0;
+  font-size: 13px;
+  color: #6a7c8f;
+  box-sizing: border-box;
+}
+[data-theme="dark"] .anecdote-foot {
+  background: #233149;
+  color: #94a3b8;
+}
+.anecdote-pin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #629ce8;
+  flex-shrink: 0;
+}
+[data-theme="dark"] .anecdote-pin {
+  color: #7da2e1;
+}
+.anecdote-source {
+  line-height: 1.45;
+  font-weight: 600;
+}
+.anecdote-source b {
+  font-weight: 700;
+  color: #53677b;
+}
+[data-theme="dark"] .anecdote-source b {
+  color: #cbd5e1;
+}
+.anecdote-cond {
+  color: #6a7c8f;
+}
+[data-theme="dark"] .anecdote-cond {
+  color: #94a3b8;
+}
+@media (max-width: 600px) {
+  .anecdote-book {
+    padding: 6px 6px 7px 14px;
+  }
+  .anecdote-paper {
+    padding: 16px 15px 12px;
+  }
+  .anecdote-ribbon {
+    top: -7px;
+    right: 14px;
+    width: 19px;
+    height: 32px;
+  }
+  .anecdote-head {
+    padding-right: 28px;
+  }
+  .anecdote-foot {
+    margin-left: -15px;
+    padding: 4px 14px 4px 10px;
+  }
+}
+
 /* Scene Markers */
 .scene {
   margin: 24px 0 14px;
@@ -2242,6 +2476,10 @@ mark.q-hit {
 .target-flash {
   animation: target-flash 1.6s ease-out;
 }
+.anecdote-book:target,
+.anecdote-book.target-flash {
+  animation: anecdote-target-flash 1.2s ease-out;
+}
 @keyframes target-flash {
   0% {
     background-color: rgba(37, 99, 235, 0.16);
@@ -2250,6 +2488,14 @@ mark.q-hit {
   100% {
     background-color: transparent;
     box-shadow: none;
+  }
+}
+@keyframes anecdote-target-flash {
+  0% {
+    box-shadow: 0 0 0 4px rgba(46, 75, 131, 0.38), 0 4px 14px rgba(20, 43, 69, 0.14);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(46, 75, 131, 0), 0 4px 14px rgba(20, 43, 69, 0.14);
   }
 }
 

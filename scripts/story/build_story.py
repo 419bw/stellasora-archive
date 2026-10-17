@@ -118,6 +118,8 @@ LANG_SST_TAB = load_json(LANG, 'StorySetTab.json')
 LANG_SST_CHAPTER = load_json(LANG, 'StorySetChapter.json')
 LANG_SST_SECTION = load_json(LANG, 'StorySetSection.json')
 BIN_DISPATCH_PERF = load_json(BIN, 'AgentSpecialPerformance.json')
+BIN_EVENT_BOOK = load_json(BIN, 'StarTowerBookEventReward.json')
+LANG_EVENT_BOOK = load_json(LANG, 'StarTowerBookEventReward.json')
 BIN_CHAT = load_json(BIN, 'Chat.json')
 BIN_ITEM = load_json(BIN, 'Item.json')
 LANG_ITEM = load_json(LANG, 'Item.json')
@@ -220,7 +222,10 @@ def record_page(family, path, doc, ident, title, code='', group=None,
         'recap': markup.text(doc.meta['recap']),
         'speakers': speakers,
         'counts': dict(counts),
-        'preview': " ".join(markup.plain(b['text']) for b in beats if b['k'] == 'talk')[:180],
+        'preview': " ".join(
+            [markup.plain(b['text']) for b in beats if b['k'] == 'talk']
+            or [markup.plain(b['story']).replace('\n', ' ') for b in beats if b['k'] == 'anecdote']
+        )[:180],
     }
     # Document-ordered 重大抉择 blocks with per-option jump EvId; the site joins
     # these against StoryCondition/ActivityStoryEvidence to label branch targets.
@@ -247,6 +252,14 @@ def record_page(family, path, doc, ident, title, code='', group=None,
             # options 首元素是 Text（versions 结构的编译产物），必须过 markup.plain 解码
             lines += [t for t in (markup.plain(o)
                                   for (o, _d, _ev) in b['options']) if t]
+        elif b['k'] == 'anecdote':
+            for fld in ('title', 'source'):
+                v = markup.plain(b.get(fld, ''))
+                if v:
+                    lines.append(v)
+            for para in markup.plain(b.get('story', '')).split('\n'):
+                if para.strip():
+                    lines.append(para.strip())
     recap_m = markup.text(doc.meta['recap'], 'male')
     search_text = [title, rec['recap']] + lines + male_only
     if recap_m and recap_m != rec['recap']:
@@ -704,6 +717,95 @@ def build_dispatch():
     return stats
 
 
+def build_anecdotes():
+    """StarTowerBookEventReward: 星塔图鉴「逸闻笔记」短篇故事。
+
+    按人物合并成页，每页收录该人物的
+    （一）（二）（三）共 3 则逸闻笔记、获取条件与正文。md 置于 `anecdotes/` 下。
+    """
+    stats = collections.Counter()
+    rows_sorted = sorted(
+        (r for r in BIN_EVENT_BOOK.values() if not r.get('IsBanned')),
+        key=lambda x: (int(x.get('Sort', 0)), int(x['Id'])),
+    )
+    by_person = collections.OrderedDict()
+    for r in rows_sorted:
+        key = (int(r.get('Type', 0)), int(r.get('NPCId', 0)))
+        by_person.setdefault(key, []).append(r)
+
+    for seq, ((r_type, npc_id), rows) in enumerate(by_person.items(), 1):
+        if r_type == 2:
+            npc = BIN_NPC.get(str(npc_id))
+            who = field_lang(LANG_NPC, npc) if npc else ('NPC %s' % npc_id)
+            role_label = '星塔 NPC'
+            sub = 'npc'
+        else:
+            who = character_name(npc_id) or ('旅人 %s' % npc_id)
+            role_label = '旅人'
+            sub = 'char'
+        group_label = who
+
+        beats = []
+        notes = []
+        for r in rows:
+            ntitle = lang_of(LANG_EVENT_BOOK, r.get('Name', ''))
+            nsource = lang_of(LANG_EVENT_BOOK, r.get('Source', ''))
+            raw_story = LANG_EVENT_BOOK.get(r.get('Story', ''), '').replace('\r\n', '\n')
+            paras = [ln.strip() for ln in raw_story.split('\n') if ln.strip()]
+            nstory = '\n'.join(paras)
+            beats.append({
+                'k': 'anecdote',
+                'id': int(r['Id']),
+                'sort': int(r.get('Sort', 0)),
+                'title': ntitle,
+                'source': nsource,
+                'story': nstory,
+            })
+            notes.append({
+                'id': int(r['Id']),
+                'title': ntitle,
+                'source': nsource,
+            })
+
+        base_titles = list(dict.fromkeys(
+            re.sub(r'（[一二三四五六七八九十\d]+）$', '', b['title']).strip() or b['title']
+            for b in beats
+        ))
+        series_title = ' / '.join(base_titles)
+        page_title = '%s · %s' % (who, series_title)
+        info = [
+            "- **所属人物**：%s（编号 `%s`）" % (who, npc_id),
+            "- **收录笔记**：%d 篇（%s）" % (len(beats), '、'.join('`%s`' % b['id'] for b in beats)),
+        ]
+        path = os.path.join(
+            OUT, 'anecdotes', sub,
+            safe_name('%s_%s_%s' % (npc_id, who, series_title)) + '.md',
+        )
+        doc = PageDoc(
+            "# " + page_title, info, '', '逸闻笔记全文', beats,
+            info_title='逸闻笔记信息',
+            meta={'recap': '', 'episode': '', 'title': ''},
+        )
+        write(path, page_markdown(doc))
+        record_page(
+            'anecdotes', path, doc, int(npc_id), page_title,
+            code='',
+            group={
+                'kind': sub,
+                'id': '%03d_%s' % (seq, npc_id),
+                'label': group_label,
+                'npc_id': int(npc_id),
+                'type': r_type,
+            },
+            stems=[],
+            page='anecdotes/%s/%s.html' % (sub, npc_id),
+            notes=notes,
+        )
+        stats['sections'] += 1
+        stats['lines'] += len(beats)
+    return stats
+
+
 def build_chat():
     """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
 
@@ -1068,7 +1170,8 @@ def main():
                       ("唱片剧情", build_discs),
                       ("故事集支线", build_storysets),
                       ("序章", build_prologue),
-                      ("委托结算演出", build_dispatch)):
+                      ("委托结算演出", build_dispatch),
+                      ("逸闻笔记", build_anecdotes)):
         st = fn()
         print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
     print("Parsing 心链 (phone chat) scripts...")

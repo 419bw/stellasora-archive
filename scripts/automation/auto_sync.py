@@ -103,6 +103,7 @@ _FAMILY_LABEL = [
     ('discs', '秘闻'),
     ('storysets', '故事集支线'),
     ('npc_bonds', '星塔 NPC 羁绊'),
+    ('anecdotes', '逸闻笔记'),
 ]
 _FAMILY_KNOWN = {fam for fam, _ in _FAMILY_LABEL}
 _OTHER_LABEL = '其他剧情'
