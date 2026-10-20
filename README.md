@@ -97,8 +97,10 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-10-17
-- feat(story):新增逸闻笔记栏目；当页面无“官方跳过概要”时，正文与后续附录自动顺延为2、3
+### 2026-10-20
+- fix: 审查跟进——SortIndex 强转 int、模板 switch/line_key 去重、时间线滚轮 ARIA 补全
+- feat(site): 章图页切换条按时间线折叠
+- feat(story): 特别篇与时间线判定改由上游表驱动
 
 ---
 
