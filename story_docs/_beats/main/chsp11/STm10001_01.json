@@ -1,0 +1,1010 @@
+{
+ "heading": "# 01 昨日重现",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1101`　**编号**：`01`",
+  "- **关卡名称**：昨日重现",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_01`",
+  "- **关卡描述**：又一次醒来，又一段新的人生。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "久困于白色房间的你，终于再次从“许愿箱”里醒来，\n眼中所见，是与伙伴们的面庞相似但并不相同的两人。\n你顺势认下“见习司祭”的身份，却挡不住“她”的试探……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "久困于白色房间的你，终于再次从“许愿箱”里醒来，\n眼中所见，是与伙伴们的面庞相似但并不相同的两人。\n你顺势认下“见习司祭”的身份，却挡不住“她”的试探……",
+  "episode": "第一话",
+  "title": "昨日重现"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "安琪",
+   "text": "魔<r=mowang></r>王，我这条命，就是为了这一刻而存在的，和我一起成为新世界的基石吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王，我们，是不是要死了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "和你一起坐在这里，化作指引旅人的路标也不错呢，魔<r=BOSS></r>王……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔<r=BOSS></r>王，不要睡，睁开眼睛看着我！我们还有好多，好多的地方没去过呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "所以，魔<r=mowang></r>王陛下，请不要再次成为星星。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "已经存在的路，再怎么走，也不可能抵达新的世界。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "♪~♪~♫~♫~♪~♪~♫~♫~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？这个声音……是那个时候的声音？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我回去了？回到一开始被空白旅团找到的那个时候了？！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我还有，再来一次的机会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（睁开眼睛）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "主人，您终于醒了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你的伙伴，好像醒过来了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "鸢尾……尘沙……能再见到你们真是太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "鸢尾？尘沙？喂，罪人，你刚刚自报的名字可不是这两个，你所谓的“主人”真的是你的“主人”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？她们在说什么奇怪的话？主人？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "哼，乡下来的守夜人懂得什么，这是练习魔法的正常反应。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "主人，您又把我认成鸢尾啦。我是天冬，是鸢尾的姐姐，是您忠诚又卑微的奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "天冬……？",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "对，天冬，可以用来熬汤的那种天冬，这是您赐予我的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "您的脑子里现在很乱吧，不用害怕，这是您练习复活魔法成功的证明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "<r=·>不</r><r=·>用</r><r=·>着</r><r=·>急</r><r=·>说</r><r=·>话</r>，请休息一下，一会就能恢复了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是怎么回事？这个人明明和鸢尾长得一样，却说自己是天冬，是鸢尾的姐姐？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙说话的语气也很奇怪，罪人？等等，这里根本不是幸运绿洲号……这是囚车？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "住口！狡猾的罪人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": {
+    "cn_f": "你刚才拼命暗示她不要说话。怎么，心虚了？",
+    "cn_m": "你刚才拼命暗示他不要说话。怎么，心虚了？"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": {
+    "cn_f": "让我猜猜……这个人你根本不认识，她更不是你口中那位“主人”。",
+    "cn_m": "让我猜猜……这个人你根本不认识，他更不是你口中那位“主人”。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呵，和你这种头脑简单的家伙说话真是累啊，真拿你没办法，竖起耳朵给我听好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我的主人是特里维亚女神的仆人，半神露希拉的宠儿，埃摩城最有前途的见习司祭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "在埃摩，想要晋升为正式司祭，需要在特里维亚女神的神殿中，献上一个自创魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "然而，自创魔法是危险的，在探索的过程中，施法者很容易被不成熟的魔法侵蚀心灵，导致记忆错乱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我仁慈又善良的主人为了不影响他人，特意把自己关在荒野中的高塔里，潜心钻研着从未有人挑战成功的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "复活魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "复活……魔法……骗人，那种魔法根本不存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "正是因为不存在，所以才要自创，我的主人凭借她天才的头脑，已经完成了这个魔法！",
+    "cn_m": "正是因为不存在，所以才要自创，我的主人凭借他天才的头脑，已经完成了这个魔法！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你也看到了，在你劫持我们的这几天里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "我的主人没有心跳，没有呼吸，也没有体温，但她现在堂堂复活了！",
+    "cn_m": "我的主人没有心跳，没有呼吸，也没有体温，但他现在堂堂复活了！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这不就说明，复活魔法成功了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": {
+    "cn_f": "我不相信，一定是你用什么魔法，让她之前处于“假死”的状态中。",
+    "cn_m": "我不相信，一定是你用什么魔法，让他之前处于“假死”的状态中。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "请让开一下，我有几句话想问一问你的“主人”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "守夜人，注意你的身份！你没有权力向一位尊贵的见习司祭问话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听起来，长得像尘沙的女骑士在追捕鸢尾……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对，是长得很像鸢尾的天冬，而我似乎被卷入到这件事里，所以才被一起关在囚车中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，事情的可能性有两种。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其一，天冬说的都是假话，她刚才刻意说的一大堆事情，都是说给我听的。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她想让我按照她的口径描绘自己和她的身份，这样就能凭借我“见习司祭”的高贵身份摆脱追捕。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其二，天冬说的都是真话，她真的认识一个研究“复活魔法”的，和我长得一样的见习司祭，也有一个叫做鸢尾的妹妹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "根本不可能有这样的巧合吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来……这到底是什么地方？特里维亚女神……半神露希拉，她们说的这些话里，只有“埃摩”是我听过的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那就说明？我还在诺瓦？不对，诺瓦哪里有奴隶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还是说，我通过白色房间里的那道特殊的门，抵达了和诺瓦很相似的另一个世界？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "又或者，我不会还在梦里吧？还是说……这些都是我被砍头的那一刻产生的幻觉？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "维塔，你觉得是哪种情况？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……哈，我在干什么啊，维塔为了救我，已经坏掉了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，不想那么多了，不管我身在何方，当务之急是离开这个囚车……先和那位守夜人聊一聊吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "天冬，请那位守夜人过来",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "主人？您不用在意一个小小守夜人的意见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这个人不分青红皂白就把我和您装进囚车，非常的野蛮、粗鲁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "进城后，我会想办法找到她的庇主，让庇主狠狠地处罚她。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "“见习司祭”大人，我是菲兰尼斯的守夜人艾琳娜·柯罗西，我的庇主是菲兰尼斯的尊者奥林匹娅大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "为了您的安全，我必须询问您几件事。如果最终证明，我的确错判了两位的身份，我会向两位道歉，并且接受奥林匹娅大人的惩罚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "请问吧，我刚刚苏醒，脑子还不是很清楚，只能尽力回答你的问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想，我们之前可能有一些误会，才导致我和她坐在你的囚车中，如果能借这个机会把误会解开就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请问，您知道三年前的“圣女失踪事件”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "天冬向我使了使眼色，似乎想让我承认自己知道这件事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这位守夜人很尊重“见习司祭”啊，想要让艾琳娜放了我们，最好的办法就是做实“见习司祭”这个身份……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么……只能先和天冬合作了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "用一些模棱两可的话术回答吧，尽量不让她听出破绽。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔，三年前么……有一些印象，但这和把我们拘禁起来有关吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请看这份画像。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……这是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请借一步说话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我被艾琳娜请出了囚车，来到距离囚车数米外的树下，这个距离正好可以让我们两个人说话的声音不被囚车里的天冬听到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您的奴隶和失踪圣女的画像很像。冒昧问一下，她是何时，何地成为您的奴隶的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬疑似失踪的圣女么……那么她被追捕就说得过去了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只不过，我刚才已经立起了自己的“见习司祭”人设，和天冬在一条船上了。嗯……现在只能糊弄过去了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我和天冬是四年前在埃摩遇到的。从时间上判断，她不可能是失踪的圣女。我想，她只是恰巧长得和画像上比较像。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "嗯……原来如此，我明白了。看来，的确是我误会了，错把您的奴隶认成失踪的圣女，非常抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "回到菲兰尼斯城后，我会向我的庇主说明这一切，给予您相应的补偿，自然，我也会领受应得的惩罚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "惩罚就不必了，之前我因为钻研魔法，陷入了死亡般的沉睡中……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你产生这样的误会也不奇怪，只要不再把我们当成可疑的人就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您真是一位兼具谦逊和仁慈的大人，感谢您的宽容，我这就去把您的奴隶放出囚车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对了，我的家乡就在埃摩，真怀念那里的大角斗场啊，每到角斗日都会人山人海，一票难求，您看过角斗吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "埃摩哪里有什么角斗场啊……我怎么不知道？不过，听起来角斗是个热门活动，如果我说看过很可能会在细节上露馅，得找个自然点的借口搪塞过去。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳，很可惜，我还没去过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "身为见习司祭，我要学习的东西很多没有多少闲暇时间，并且……大角斗场的票也的确难买。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "主人，您回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我们的误会解开了，这就放你出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "见习司祭大人，有件事您可能还不知道——外面流传的“圣女失踪事件”，并不是事情的真相。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "市井流言，三年前，一位圣女在埃摩的高塔祭祀仪式上神秘失踪，疑似被强大的魔法师绑架。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "但是，我作为维护菲兰尼斯治安的守夜人，被告知了其中的隐情——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "没有绑架发生，一切都是那位堕落圣女的自导自演，她背弃了自己发誓侍奉的神明，逃出了祭祀仪式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "过去三年中，她为了掩盖自身的行踪，流窜了多个城邦，屡屡杀人灭口，迄今已造成十五人死亡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "她最擅长的，就是用魔法蛊惑无辜的人给自己做挡箭牌，中招的人会下意识为她说话，帮她遮掩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬是堕落圣女？我中了她的魔法？不，不对，我有魔力绝缘体质，不会中任何精神控制类魔法。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "从您高雅的举止和华贵的穿着判断，您的确是一位见习司祭，至少也是位地位相仿的贵人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您的眼神清澈，并没有被魔法蛊惑。那么，在下不明白，您为什么要袒护罪人，故意配合她说谎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说……说谎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您在谈及天冬的时候，从未称她为奴隶，也从未把她视为自己的所有物。习惯了被奴隶侍奉的人，永远也无法伪装出这样的姿态。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我想，您和她之间，并没有主从关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "当然，仅凭这点怀疑，我还不能下判断。但是，您后面所说的那件事，证明了您绝非埃摩人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "前往埃摩的大角斗场观赏角斗，并不需要购买门票，也没有门票可以购买，观众都是用免费发放的陶片座号牌入场的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咦？可是，你那个时候明明说了一票难求……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对了，我的家乡就在埃摩，真怀念那里的大角斗场啊，每到角斗日都会人山人海，一票难求，您看过角斗吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "抱歉，我用了小小的诈术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "因为您面前的这个女人非常危险，她自称是您的奴隶，绝对没安好心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "主……主人……不要信她的话，我是您最忠诚的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "罪人！别做小动作，把手从胸前的那块石头上放下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呵，真没想到，菲兰尼斯那种乡下地方还有如此敏锐的守夜人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔法之神，请广布冥府的浓雾，遮蔽敌人的双眼，助我隐身前行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "隐身魔法么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "微光成炬，无所遁形！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "嘻嘻，咒语里有隐身两个字，就一定是隐身魔法吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "竟然是加速术？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "“见习司祭”谢谢你，如果不是你把她引到十步之外，我就没办法提前画好加速术的法阵了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那么，有缘再见了，敏锐的乡下守夜人和善良的“见习司祭”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那是……她用魔力驱动了森林里的废弃人偶吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "见习司祭，把囚车的大门关上，待在里面不要动。对你来说，这是最安全的地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这些人偶，就交给我来清理！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

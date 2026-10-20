@@ -21,6 +21,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 sys.path.insert(0, SCRIPT_DIR)
 import graph_layout
+import chapter_path
 
 sys.stdout.reconfigure(encoding='utf-8')
 BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
@@ -96,6 +97,10 @@ LANG_ACT = load_json(LANG, 'ActivityStory.json')
 LANG_ACT_GROUP = load_json(LANG, 'ActivityGroup.json')
 BIN_STORY = load_json(BIN, 'Story.json')
 BIN_CHAPTER = load_json(BIN, 'StoryChapter.json')
+# 章节目录与时间线：URL slug 的唯一来源。build_slug_map 在导入期算一次并断言
+# 全局唯一（撞车直接 raise，不再静默覆盖），build_main / write_data 共用这一份。
+STORY_LINES = chapter_path.story_lines(BIN, LANG)
+CHAPTER_SLUGS = chapter_path.build_slug_map(BIN_CHAPTER)
 BIN_ACTIVITY = load_json(BIN, 'ActivityStory.json')
 BIN_ACTIVITY_CHAPTER = load_json(BIN, 'ActivityStoryChapter.json')
 BIN_CHARACTER = load_json(BIN, 'Character.json')
@@ -432,15 +437,13 @@ def build_main():
                 is_valid_battle = (bool(r.get('IsBattle')) and len(released_stems) > 0
                                    and (not parents or all(p in released_stems for p in parents)))
                 if is_valid_battle:
-                    cno = cdef.get('Index') or 'sp'
-                    page = 'main/ch%s/%s.html' % (cno, stem)
+                    page = chapter_path.node_page(CHAPTER_SLUGS[ch], stem)
                     record_node(ch, r, page, None)
                     continue
                 record_node(ch, r, None, None)
                 skipped.append((ch, r['Id'], stem, title, '战斗关卡' if r.get('IsBattle') else '剧情关卡'))
                 continue
-            cno = cdef.get('Index') or 'sp'
-            page = 'main/ch%s/%s.html' % (cno, stem)
+            page = chapter_path.node_page(CHAPTER_SLUGS[ch], stem)
             body_src = bubbles or parsed
             record_node(ch, r, page, bubble_stem, body_src['beats'])
             info = [
@@ -1053,6 +1056,9 @@ def write_data():
             'unlock_show_story_id': cdef.get('UnlockShowStoryId'),
             'open_time': cdef.get('OpenTime'),
             'folder': 'main/chapter_%02d_%s' % (ch, safe_name(title or name or 'chapter')),
+            'special': chapter_path.is_special(cdef),   # StoryChapter.Type == 2
+            'story_line': chapter_path.chapter_line_info(cdef, STORY_LINES),
+            'slug': CHAPTER_SLUGS[ch],                  # 站点 URL 目录，全局唯一
             'edge_source': 'ParentStoryId' if any(n['parents'] for n in nodes) else 'none',
             'time_slots': {str(i): v for i, v in sorted(time_slots(ch).items())},
             'geometry': None if edges is None else {
@@ -1067,7 +1073,8 @@ def write_data():
     total = {'chapters': len(chapters), 'nodes': sum(len(c['nodes']) for c in chapters),
              'pages': len(_PAGES)}
     dump_json('chapters.json', {'meta': dict(total, source='Story.json',
-                                             edge_field='ParentStoryId'),
+                                             edge_field='ParentStoryId',
+                                             story_lines=[STORY_LINES[k] for k in sorted(STORY_LINES)]),
                                 'chapters': chapters})
     dump_json('sections.json', {'meta': dict(total, families=sorted({p['family'] for p in _PAGES})),
                                 'pages': _PAGES})

@@ -29,10 +29,17 @@ Env:
 
 import json
 import os
+import sys
 from datetime import datetime, timezone, timedelta
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+# 章节目录/时间线的唯一解析处；与 build_story、build_site、validate_site 共用。
+# 本模块可能被单独 import（path 上没有 scripts/story），所以自己补一次。
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+import chapter_path  # noqa: E402
+
 BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
 LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
 
@@ -210,6 +217,9 @@ def _main(out, at):
     for row in _rows(_read(os.path.join(BIN, 'Story.json'))):
         if row.get('StoryId'):
             rows_by_chap.setdefault(row.get('Chapter'), []).append(row)
+    # 章节目录与建站/校验共用同一套推导（chapter_path），避免三处各算一遍又漂移。
+    # 本模块读原始表、不读侧车，所以共享的是实现而不是数据。
+    slugs = chapter_path.build_slug_map(chapters)
     for row in _rows(chapters):
         open_time = row.get('OpenTime')
         if not is_locked(open_time, at):
@@ -218,14 +228,14 @@ def _main(out, at):
         rows = rows_by_chap.get(cid) or rows_by_chap.get(str(cid)) or []
         if not rows:
             continue
-        cno = row.get('Index') or 'sp'
+        slug = slugs[cid]
         # the chapter index page is a real URL in the released site, so a locked
         # chapter gets a notice page there too instead of a 404
         out[cid] = _item('main', cid, open_time,
                          str(row.get('Index') or ''),
                          preview.get(cid, ''),
-                         ['main/ch%s/index.html' % cno]
-                         + ['main/ch%s/%s.html' % (cno, r['StoryId']) for r in rows],
+                         [chapter_path.chapter_page(slug)]
+                         + [chapter_path.node_page(slug, r['StoryId']) for r in rows],
                          [r['Id'] for r in rows if r.get('Id') is not None])
 
 

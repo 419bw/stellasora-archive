@@ -1404,6 +1404,150 @@ mark.q-hit {
   border-color: var(--chapsel-accent-dark, #38BDF8);
 }
 
+/* 章图页切换条里的时间线段标签（主线按 StoryLine.json 分段） */
+.chapline-label {
+  align-self: center;
+  padding: 0 2px 0 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.chapline-label::after {
+  content: "▸";
+  margin-left: 5px;
+  color: var(--chapsel-accent, #0284C7);
+}
+
+/* ============================================================ 时间线滚轮
+   主线索引页左侧的 wheel picker：CSS scroll-snap 垂直滚轮，纯手写不引库。
+   两条时间线都留在 DOM 里，切换只做显隐——无 JS / 打印 / 检索都能拿到全部章节。
+   容器上下各留 45% 高度的垫片，否则只有两项时第 2 项滚不到居中观测线，
+   IntersectionObserver 永不触发（实测坑）。 */
+.linewheel-wrap {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+.linewheel {
+  --lw-accent: #0284C7;
+  --lw-accent-dark: #38BDF8;
+  flex: 0 0 232px;
+  position: relative;
+  height: 300px;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 0;
+  border: 1.5px solid var(--card-border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 0 var(--card-border), 0 3px 8px rgba(15, 23, 42, 0.04);
+}
+.linewheel::-webkit-scrollbar { display: none; }
+[data-theme="dark"] .linewheel {
+  --lw-accent: #38BDF8;
+  --lw-accent-dark: #7DD3FC;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+/* 上下垫片：给首尾两项留出滚到居中的行程 */
+.linewheel-pad {
+  height: 135px;   /* 300px * 45% */
+  scroll-snap-align: none;
+}
+.linewheel-item {
+  display: block;
+  height: 76px;
+  scroll-snap-align: center;
+  padding: 12px 16px;
+  border-left: 4px solid transparent;
+  color: var(--text-muted);
+  text-decoration: none;
+  opacity: 0.55;
+  transition: opacity 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+.linewheel-item .lw-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.linewheel-item .lw-sub {
+  display: block;
+  margin-top: 2px;
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+.linewheel-item .lw-count {
+  display: block;
+  margin-top: 3px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  opacity: 0.75;
+}
+.linewheel-item.is-active {
+  opacity: 1;
+  border-left-color: var(--lw-accent);
+  background: color-mix(in srgb, var(--lw-accent) 8%, transparent);
+  color: var(--text-main);
+}
+.linewheel-item:hover { opacity: 0.85; }
+.linewheel-item.is-active:hover { opacity: 1; }
+
+.linepanes { flex: 1 1 auto; min-width: 0; }
+.linepane-title {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.linepane-title::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 14px;
+  margin-right: 8px;
+  vertical-align: -1px;
+  background: var(--lw-accent, #0284C7);
+  border-radius: 2px;
+}
+/* 无 JS：两个面板都可见（内容不依赖 JS）。有 .js-enabled 才收起未激活面板，
+   避免 JS 初始化前双列表同时闪现再坍缩。 */
+html:not(.js-enabled) .linepane { display: block; }
+html.js-enabled .linepane { display: none; }
+html.js-enabled .linepane.is-active { display: block; }
+
+@media (max-width: 860px) {
+  .linewheel-wrap { flex-direction: column; gap: 12px; }
+  .linewheel {
+    flex: none;
+    width: 100%;
+    height: auto;
+    /* 窄屏改横向滚轮，避免竖轮盘吃掉一屏；高度自适应，卡片压成两行 */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    display: flex;
+  }
+  .linewheel-pad { height: auto; width: 22%; flex: 0 0 22%; }
+  .linewheel-item {
+    flex: 0 0 62%;
+    height: auto;
+    padding: 9px 12px;
+    border-left: none;
+    border-bottom: 3px solid transparent;
+    scroll-snap-align: center;
+  }
+  /* 副标题与章数并到一行，卡片从三行压到两行 */
+  .linewheel-item .lw-title { font-size: 13.5px; line-height: 1.3; }
+  .linewheel-item .lw-sub { display: inline; font-size: 11px; margin-top: 0; }
+  .linewheel-item .lw-count { display: inline; font-size: 10.5px; margin-top: 0; margin-left: 8px; }
+  .linewheel-item.is-active { border-bottom-color: var(--lw-accent); }
+}
+
 .anchors-wrap {
   overflow-x: auto;
   margin-bottom: 14px;

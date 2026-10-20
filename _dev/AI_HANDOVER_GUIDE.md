@@ -544,13 +544,13 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 
 | 文件 | 内容 | 谁在用 |
 |---|---|---|
-| `chapters.json` | 每章一个节点数组：`code/title/kind/parents/state/time/col/lane/x/y/page` + 章级 `geometry{columns,width,height,step_x,step_y,edges,card}` 与官方 `time_slots` | 主线节点图 |
+| `chapters.json` | 每章一个节点数组：`code/title/kind/parents/state/time/col/lane/x/y/page` + 章级 `geometry{columns,width,height,step_x,step_y,edges,card}` 与官方 `time_slots`；章级另有 `special`（`StoryChapter.Type==2`）、`story_line{id,title,subtitle,sort_index}`、`slug`（站点 URL 目录），`meta.story_lines` 是 `StoryLine.json` 的目录 | 主线节点图、主线索引的时间线分组 |
 | `sections.json` | 每页一条：`family/group/code/title/page/page_md/stems/recap/speakers/counts/preview` | 索引页、检索、覆盖统计 |
 | `search.json` → `site/data/search.js` | 每条 `{id,family,code,title,group,page,speakers,hay}`；`hay` = 标题 + 概要 + **全量 talk/bubble/choice 台词**（男主变体仅在与默认文本不同时才收录） | 前端检索：页面不再内嵌该 script，首次与搜索框交互时动态注入加载（内嵌成 js 而非 json 是为了 `file://` 下动态注入不受 CORS 限制） |
 | `personality.json` | 三轴定义与颜色 | 术语卡（**不**用于给选项上色，见 8.4） |
 
 > 📏 **规模数字一律不写死**。每份侧车的 `meta` 里都带权威计数（`chapters.meta = {chapters, nodes,
-> pages, source, edge_field}`、`sections.meta = {chapters, nodes, pages, families}`、
+> pages, source, edge_field, story_lines}`、`sections.meta = {chapters, nodes, pages, families}`、
 > `search.meta = {pages}`）。要报数就读 `meta` 或看两个校验器结尾的汇总，**不要**在文档里抄一份——
 > 抄了就会过时（本文档历史上已经因此错过一批，页数从 507 一路漂到 626）。
 > ```bash
@@ -558,6 +558,14 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 > ```
 
 坐标进数据不进代码：`graph_layout.layout()` 由 `build_story.py` 调用，所以布局在**建站之前**就能被校验。
+
+**章节目录与时间线的唯一解析处是 `scripts/story/chapter_path.py`**（叶子模块，不 import pipeline）：
+`build_story` / `build_site` / `release_gate` / `validate_site` 四个消费端共用它，各自初始化时调一次
+`build_slug_map()` 拿 `{章 Id: slug}`。三个"编号"不要混：`StoryChapter.Id`（表主键，用于 `chsp{Id}`）、
+`StoryChapter.Index`（游戏内显示编号 `'01'`–`'09'`，特别篇没有，用于 `ch{Index}`）、`Story.StoryId`
+（关卡 Id，与章编号无关）。`Id` 与 `Index` 错开一位（特别篇占 Id=7 但无显示编号），所以 `ch07`
+（第八章）与 `chsp7`（特别篇）并存不冲突。slug 撞车时 `build_slug_map` 直接 `raise`——
+旧实现是"后写的章覆盖先写的章"这种静默故障。
 
 建站侧在消费上面任何一份侧车**之前**，先过 `release_gate`（见 8.5）：官方还没到开放时间的组，
 只出「未开放」占位与提示页，`pages` / `chapters` / 活动战斗页、以及 copytree 到 `site/data/` 的
@@ -580,6 +588,14 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
   读 `chapters.json` 自己数。拿"时刻相同"去反查列号**不成立**（实测会把 `猎月 13日 18:00` 误配成别列的
   `刻木鸟日 18:00`），且游戏历法的"日名"与剧本里的"编号日"不同源（13 日在猎月是吠啸枭日、在别处是刻木鸟日）。
 - 特别篇全无 `ParentStoryId`：官方没记录连线，页面按编号顺序列出并注明，不画假线。
+- **特别篇判定读 `StoryChapter.Type == 2`**（侧车 `special` 字段），**不要**再用"本章一个父引用都没有"
+  去倒推——那正是把"上游漏填 ParentStoryId 的普通章"误判成特别篇的通道。校验器 G 组把三条锁成
+  双向充要：`special ⇔ edge_source=='none' ⇔ Index is None`。特别篇在游戏里只有线性清单、没有拓扑图、
+  不带章节号，所以"特别篇却有边/却有编号"一律按构建失败处理。
+- **时间线是正交的另一个维度**，读 `StoryChapter.StoryLineId` + `StoryLine.json`（标题/SortIndex/图标）。
+  第 7 章是特别篇但属于时间线 1，第 11 章是特别篇且属于时间线 2——"特别篇"不等于"另一条线"。
+  站点主线索引左侧的滚轮按 `sort_index` 升序（与游戏内左侧入口一致），默认激活章节数最多的那条线；
+  章图页内的 `chapsel` 切换条同样按时间线分段。上游加线只改数据，不改代码。
 
 ### 8.3 契约总表（`tests/story/`，两份都不 import 生成器）
 
@@ -587,9 +603,18 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 **都不 import 生成器**，只读产物 + 独立重解上游，且每个检查组都带**植入变异测试**
 （故意改坏产物，同一套断言必须抓到；只看"正对照 PASS"不算数）。
 
-**`validate_story.py`** 覆盖：跳过概要、逐句台词序列、战斗气泡逐阶段完整性、新增行来源计数与
-指令数对等、各族挂载审计、全树逐页对齐剧本原文、气泡剧本挂没挂对章、注音保真、
-单选项抉择不画分支框、诊断侧车的 schema / note / 重建漂移。
+**`validate_story.py`** 覆盖：战斗气泡逐阶段完整性、气泡剧本的挂载语义（说话人必须出自该章演员表）、
+增量行来源计数与指令数对等、逐页台词序列对齐剧本原文（含跳过概要 vs `SetIntro[3]`）、
+各族挂载审计、注音保真、委托结算分段、单选项抉择不画分支框、诊断侧车的 schema / note / 重建漂移、
+逸闻笔记 1:1 对齐源表。
+
+> **历史对照已退役**（2026-10-20）：原 A / A2 两组拿 `docs/`（旧世代生成器的冻结快照）与
+> `story_docs/` 逐句 / 逐概要对比，配一份手工维护的 `A_WHITELIST`。退役原因两条：
+> A2 的绝对真值部分与 E 组完全重复；A 的前提是"`docs/` 与上游表覆盖同一批关卡"，
+> 上游每加一章就失配一次（第 11 章整章不在 `docs/` 里 → 表推导 34 ≠ 快照推导 21），
+> 只能不断补白名单。现在 `story_docs/` 本身在 git 里，**改完直接
+> `git diff -- story_docs/` 就是更贴近的历史对照**（比的是上一次提交，不是几年前的生成器），
+> 也不需要维护白名单。`docs/` 目录保留作历史资料，不再被任何脚本读取。
 
 **`validate_site.py`** 覆盖：节点逐字段重导与图不变量、`sections.json` 与磁盘 md/剧本对账、
 布局几何（列 = 最长路径、同列不撞位、卡片矩形互不相交、边只跨相邻列）、图页面落点与链接可达、
@@ -615,6 +640,10 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 - 不做"只看我选的那条线"折叠：默认全展开 + 互斥标记，静态可读、可打印、不依赖 JS。
 - 不引任何 webfont / 图标 / CDN；不加阴影、渐变、模糊、光效（第一版扁平是硬要求）。
 - 站点 URL 里不放中文（用 `main/node/STm07_08.html`、`characters/144/14401.html`），md 文件名保留中文便于人工核对。
+- 特别篇的 URL 目录**不做**历史别名双写：第 7 章从 `main/chsp/` 改到 `main/chsp7/` 之后，
+  旧外链会 404。静态站没有重定向，双写别名页只会让"哪个是真的"变含糊；托管平台若支持
+  `_redirects`（Cloudflare Pages 支持）可在静态根放一行 `/main/chsp/* /main/chsp7/:splat 301`，
+  这是部署层的事，不进构建脚本。
 - **门控只做页面层**：不删 `story_docs/`、不改 `build_story.py`、不重写 git 历史。存档保持完整，
   人工核对才有的对；"连仓库历史一起干净"是另一个决定，要做先想清 fork/star/PR 的代价。
 - 门控**不做**倒计时、红点、`IsHighLight` 高亮视觉；也**不读** `LockText`——zh_CN 里 18 个故事集章

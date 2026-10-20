@@ -1,0 +1,853 @@
+{
+ "heading": "# 06 圣女的意义",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1107`　**编号**：`06`",
+  "- **关卡名称**：圣女的意义",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_06`",
+  "- **关卡描述**：“命运就是用来改变的。”",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "在艾琳娜的因苏拉中，你与天冬聊起了更多这个世界的信息。\n这个“诺瓦”与你的认知并不一致，存在各种不同的“阶级”。\n而她自己则是一名被视作“消耗品”的圣女。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "在艾琳娜的因苏拉中，你与天冬聊起了更多这个世界的信息。\n这个“诺瓦”与你的认知并不一致，存在各种不同的“阶级”。\n而她自己则是一名被视作“消耗品”的圣女。",
+  "episode": "第六话",
+  "title": "圣女的意义"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "15:00",
+   "date": "5月 26日",
+   "place": "菲兰尼斯岛外 破旧因苏拉"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "在诺瓦，一个人的地位高低，主要取决于这个人的施法水平，而一个人的施法水平，八分靠天赋，二分靠努力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "夸张一点说，一个人的未来，早在妈妈的肚子里时就决定了大体的走向，血脉带来的力量比什么都重要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "施法水平高的人有资格成为贵族，无法使用魔法的人只能做一位普通公民、自由民或者奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……单纯用实力来决定地位高低吗？那如果一位贵族的后代完全没有魔法天赋呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那就会降为普通公民，或许那位贵族在乎自己的孩子，会让他一生过得衣食无忧，但不会魔法就是不会魔法，既没办法成为贵族，也没办法担任任何职位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "若是一位奴隶的孩子拥有魔法天赋呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "拥有魔法天赋的人是很珍贵的，如果这个孩子被检测出来天赋了，那么立刻就会被贵族收养，他的父母也会得以脱离奴隶身份。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "当然……如果运气不好，根本没接受过检测，那就没办法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这种制度虽然残酷，但某种意义上倒也算是“公平”。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "最低阶的贵族名为“骑士”，过去指能够使用魔法，自备武器和马匹为城邦出征的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "现在能够被称为“骑士”的，大多是施法水平一般，但是颇有财富的人。呃……艾琳娜除外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "“骑士”会担任城邦里的各种公共职位，这些职位没有俸禄，需要“骑士”自筹资金处理各种公共事务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "自筹资金？你的意思是……菲兰尼斯守夜人的各种支出都由艾琳娜来出？那为什么会有人做这种吃力不讨好的事情？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "怎么会吃力不讨好？有了权力还怕没有金币吗？至于艾琳娜为什么穷成这个样子，我就不知道了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "在“骑士”之上，是擅长各种魔法，敬奉魔法女神特里维亚的“司祭”，也就是你伪装的身份。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "“见习司祭”虽然不算正式的“司祭”，但因为前途远大，大家一般也把“见习司祭”视为正式的司祭来对待。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，我才有这样超然的地位，但又因为是“见习”，所以大家不会对我有“司祭”的要求，这还真是便利啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我醒来后你给我编身份的时候，一瞬间你就想到了这么多吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "当然，没有这种随机应变的能力，可没办法逃亡三年……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "——虽然我大部分时候是在高塔里躲着，但也得出来采购食物嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“司祭”之上又是什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "“大司祭”和“元老”，前者是每个城邦和魔法之神沟通的最高负责人，后者高坐在诺瓦的元老院的石头长椅上，决定整个诺瓦的命运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "再向上便是统治巨型城邦和神赐高塔的“尊者”，他们可以制定一个城邦的法律。艾琳娜的庇主奥林匹娅大人就是菲兰尼斯的尊者。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "神赐高塔……虽然我们也会说星塔是恩赐之神给予诺瓦人的恩赐，但他们敬拜的似乎不是恩赐之神而是魔法女神……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是不同地域……或者说不同世界的信仰差异吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "“尊者”之上就是诺瓦——“元老院与诺瓦人民”的执政官们：“半神”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "他们人数稀少，离群索居，拥有常人无法理解的世界级魔法和漫长的寿命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "“半神”们每年会轮换一人执掌诺瓦的权柄，但一般都是延续之前的做法，不会轻易做出什么改变。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，在这里，施法水平相当于“学历”，没有在好的学校上过学，就没办法进入大公<r=成为贵族></r>司，各种贵族头衔，就是公司里不同的职位。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只不过，学习这种事靠后天努力多一些，魔法天赋什么的就全靠天生了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "多谢你，天冬，这样一来，我大致就知道我扮演的这个身份和其他人的上下级关系了，和他们交流时就知道应该用什么态度了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "正是如此，你理解得好快呢，果然是哪里的贵族孩子吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的不是……我的故乡虽然也有富人和穷人，也有各种尊贵的头衔，但没有你说的这种阶级森严的“贵族”，主要还是你这个老师教得好呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "老师……嗯嗯，我的确教了你不少东西，你这么称呼我倒是也对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "等等，老师，老师……被人叫老师感觉真不错呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "老师，我还有两个问题想问。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "请问吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你说一个人的施法水平，八分靠天赋，二分靠努力，可是咒语什么的都是后天学习的吧？再怎么努力也只能占二分吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "当然了，因为一个人能学习什么咒语也是靠天赋决定的，就算再努力，倘若一开始就不具备学习的条件也是零嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "竟，竟然是这样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "详细给你讲讲吧——使用魔法需要用到魔力，魔力源于我们自身的精神力量，但每个人的身体条件不同。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "有人擅长把精神力量转化为魔力，有人能储存更多魔力，有人能更好地控制魔力，也有人以上几点全有，那就是大司祭的苗子了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "像我这种……泡在饱含魔力的浴池中一会就晕倒了，就是身体对魔力的忍耐度不够，我就算学会再多的咒语，也没有魔力可以释放。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白了，你之前在森林里施放魔法是靠这块心相石吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你，你怎么知道？对哦，你在浴场测试的时候……也说“心相石”这个词了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这……这种石头在我的故乡就叫心相石啊，大家都用的，石头里面储存着魔力，使用魔法的时候用这里面的魔力就可以了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "怎么可能？！！！这是我试验了好久，费了好大功夫才做出来的独一无二的石头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "结果你告诉我在你的故乡，大家已经都在用这东西了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我这……这不是重新发明轮子了吗？我还想靠这个赚大钱呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，那个……不要伤心，重新发明轮子也很厉害吧，至少菲兰尼斯还没人用这种石头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "嗯……你说的也对啊，就算远方已经有人发明了同样的东西，只要诺瓦没人知道那我还是可以赚到金币的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你还在被通缉吧，这么快就想着赚钱的事情了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "人无远虑必有近忧，再说，没有金币我要怎么继续逃亡啊，菲兰尼斯送来的那笔赏金我们一人一半哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在攒钱和谨慎这方面，她还真有点像鸢尾呢。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "喂喂喂，老师讲课呢，怎么走神了？难道是在想别的女孩子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你这个人，刚从囚车里醒来的时候也一样，看着我的脸就叫别人的名字，哼~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，你……还有艾琳娜，实在和我故乡的同伴太像了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我……我不知道这辈子还能不能再见到她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "……你的心情我是可以理解啦，但是——请不要把我当成别的东西，哪怕是幻视也不行，绝对不行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我的名字是天冬，随处可见，可以熬汤的天冬，不是鸢尾也不是别的什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "虽然这么说显得我有点苛刻，但我的确不喜欢这样，尤其是……尤其是不喜欢你这样！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉……这件事是我的不好，我没考虑到你的心情，我们毕竟是同伴，看着你想到别人实在不应该。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "同伴什么的，谁和你是同伴啊，别说得那么亲密，我们只是同谋，同党，一条船上的逃亡者。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些关系也挺亲密的吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白，明白，你是天冬，可以熬汤的那种天冬，不是鸢尾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "哼，这还差不多，那我作为老师，就宽宏大量地原谅你了。快问第二个问题吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，你刚刚说的那些贵族里为什么没有“圣女”？我看菲兰尼斯的那位圣女，地位似乎和大司祭一样高？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呵，圣女主要负责在高塔里向神明许愿，并不属于贵族。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那是普通的公民、自由民，还是什么别的地位超然的存在？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "都不是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那……总不能是奴隶吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "也不是。我们圣女只是“物件”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "物件？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "生起一堆火需要什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "火种……以及可以燃烧的树枝、枯草什么的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那当火焰燃尽，你会费心去关照那堆已经冷掉的灰烬吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不会吧……最多看看有没有余火，以免引起火灾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呵，我们圣女就是那种用完后就没人关心的“物件”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "每位圣女，都是拥有“魔法天赋”的残次品。以我为例，我的身体对魔力耐受极差，只要身体里有一点魔力，我就要释放出来，否则就会不舒服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "拥有这样身体的我可以学习咒语，却根本没办法正常使用魔法，所以……只是残次品而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "但残次品也有用处，我们被大人物们悉心培养，获得大小姐一般的待遇，学会各种知识和魔法，然后在大人物们需要的时候走上高塔中的祭台，敬奉神明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "敬奉神明……你指的不会是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "在高塔里向神明献祭，用自己为代价，实现大人物们的愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我们……只是实现愿望之火的火种、燃料，一种昂贵又稀少的“物件”。那么，在被利用之前，自然要好好地保管起来，顺便给予一些权势也无所谓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你，你在说什么？你们为啥这么许愿啊？星塔里不是这样，你们应该找到许愿箱，然后准备好祷词，再想象着你们想要的神器念出祷词。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "哦，那是你的故乡的许愿方式么，听上去温柔很多呢，可惜我没有生在你的故乡，诺瓦也不是你的故乡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，这是不对的，你们的许愿方法有问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "遇到这种愚蠢的许愿方法，是我我也跑啊，你能逃掉实在太好了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "太……太好了……你真的是这么认为的？许愿……是圣女的工作，也是圣女的命运，诺瓦的每个人都不应该逃避。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪有什么东西比人的生命更重要的？！命运……\n命运就是用来改变的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "……噗，真会说大话呢，还什么“命运就是用来改变的”……好自不量力，我们现在可还处在一旦曝光真实身份就要被处刑的状态呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "但是，我不讨厌你的这种“自不量力”，因为——从祭台上逃跑的时候，我也没想那么多，我只是觉得：我不想死，我不想死！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "从这个角度讲，我也是个自不量力的人呢。果然，你是个特别的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "抱歉，从昨天开始就什么都没吃了，我们又聊了这么久，艾琳娜的家里……有什么填饱肚子的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "有的，她出门巡逻之前，给我们留下了她亲手做的早餐。给，面包夹火腿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜做的早餐……应该和尘沙做的早餐一样的美味吧，这下有口福了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我就不客气了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这……这是什么？我咬的是石头吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呼呼呼，那个守夜人的厨艺简直是杀人术啊，她烤的面包都可以拿来当盾牌了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对，不是尘沙，艾琳娜一点都不像尘沙！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "见习司祭大人，还有……那个奴隶，你们都在太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "快跟我来，艾琳娜队长需要帮忙，堕落圣女出现了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "堕落圣女？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

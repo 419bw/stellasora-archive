@@ -346,5 +346,64 @@ JS = """(function() {
     var first = document.querySelector('mark.q-hit');
     if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
   })();
+
+  // 时间线滚轮（主线索引页）：wheel picker。
+  // 唯一状态源是"滚轮里居中的那一项"——点击只负责把该项滚到居中
+  // （scrollIntoView），由滚动触发 Observer 切面板，避免"点击改状态"和
+  // "滚动改状态"两条路径互相打架。无 IntersectionObserver 时退回点击直改。
+  (function() {
+    var wheel = document.getElementById('linewheel');
+    if (!wheel) return;
+    var items = [].slice.call(wheel.querySelectorAll('.linewheel-item'));
+    var panes = [].slice.call(document.querySelectorAll('.linepane'));
+    if (!items.length || !panes.length) return;
+
+    function activate(key, pushHash) {
+      items.forEach(function(item) {
+        item.classList.toggle('is-active', item.getAttribute('data-line') === key);
+      });
+      panes.forEach(function(pane) {
+        pane.classList.toggle('is-active', pane.getAttribute('data-line') === key);
+      });
+      if (pushHash && history.replaceState) {
+        history.replaceState(null, '', '#line-' + key);
+      }
+    }
+
+    items.forEach(function(item) {
+      item.addEventListener('click', function(e) {
+        e.preventDefault();
+        // 先落 hash（无 Observer 的浏览器也能分享/刷新），再驱动滚动。
+        activate(item.getAttribute('data-line'), true);
+        if (typeof item.scrollIntoView === 'function') {
+          item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    });
+
+    if (typeof IntersectionObserver === 'function') {
+      var observer = new IntersectionObserver(function(entries) {
+        // 只认真正穿过居中观测线的那一项；阈值 0.6 防止边缘项误触发。
+        var hit = entries.filter(function(en) {
+          return en.isIntersecting && en.intersectionRatio >= 0.6;
+        });
+        if (!hit.length) return;
+        hit.sort(function(a, b) { return b.intersectionRatio - a.intersectionRatio; });
+        var key = hit[0].target.getAttribute('data-line');
+        if (key) activate(key, true);
+      }, { root: wheel, threshold: [0.6], rootMargin: '0px' });
+      items.forEach(function(item) { observer.observe(item); });
+    }
+
+    // 落地状态：URL hash 指定哪条线就把那一项滚到居中（瞬时，不触发平滑动画）。
+    var wanted = (location.hash || '').replace('#line-', '');
+    if (wanted) {
+      var target = items.filter(function(i) { return i.getAttribute('data-line') === wanted; })[0];
+      if (target && typeof target.scrollIntoView === 'function') {
+        target.scrollIntoView({ block: 'center' });
+        activate(wanted, false);
+      }
+    }
+  })();
 })();
 """

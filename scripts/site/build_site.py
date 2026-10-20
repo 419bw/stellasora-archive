@@ -234,33 +234,38 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
 
             nav_index[p['page']] = {'prev': prev_items, 'next': next_items}
 
-    # Chapter 7 (特别篇) sequential navigation
-    sp_nodes = [n for c in chapters if c['id'] == 7 for n in c['nodes']]
-    for i, n in enumerate(sp_nodes):
-        page_url = n.get('page')
-        if not page_url:
+    # 特别篇（special）顺序导航：特别篇没有拓扑图，导航只能是线性的。
+    # 判据统一读 c['special']（契约锁死 special ⇔ 无边 ⇔ 无编号），
+    # 不再硬编码某个章 id——上游再加特别篇自动覆盖。
+    for c in chapters:
+        if not c.get('special'):
             continue
-        cur_d = T.depth_of(page_url)
-        prev_items = []
-        next_items = []
-        if i > 0 and sp_nodes[i - 1].get('page'):
-            prev_n = sp_nodes[i - 1]
-            prev_items.append({
-                'code': prev_n.get('code') or '·',
-                'title': prev_n.get('title') or '',
-                'url': T.rel(cur_d, prev_n['page']),
-                'cls': T.node_state_class(prev_n),
-            })
-        if i < len(sp_nodes) - 1 and sp_nodes[i + 1].get('page'):
-            next_n = sp_nodes[i + 1]
-            next_items.append({
-                'code': next_n.get('code') or '·',
-                'title': next_n.get('title') or '',
-                'url': T.rel(cur_d, next_n['page']),
-                'cls': T.node_state_class(next_n),
-                'tag': '战斗' if next_n.get('kind') == 'battle' else '剧情',
-            })
-        nav_index[page_url] = {'prev': prev_items, 'next': next_items}
+        sp_nodes = c['nodes']
+        for i, n in enumerate(sp_nodes):
+            page_url = n.get('page')
+            if not page_url:
+                continue
+            cur_d = T.depth_of(page_url)
+            prev_items = []
+            next_items = []
+            if i > 0 and sp_nodes[i - 1].get('page'):
+                prev_n = sp_nodes[i - 1]
+                prev_items.append({
+                    'code': prev_n.get('code') or '·',
+                    'title': prev_n.get('title') or '',
+                    'url': T.rel(cur_d, prev_n['page']),
+                    'cls': T.node_state_class(prev_n),
+                })
+            if i < len(sp_nodes) - 1 and sp_nodes[i + 1].get('page'):
+                next_n = sp_nodes[i + 1]
+                next_items.append({
+                    'code': next_n.get('code') or '·',
+                    'title': next_n.get('title') or '',
+                    'url': T.rel(cur_d, next_n['page']),
+                    'cls': T.node_state_class(next_n),
+                    'tag': '战斗' if next_n.get('kind') == 'battle' else '剧情',
+                })
+            nav_index[page_url] = {'prev': prev_items, 'next': next_items}
 
     # 2. Activity DAG & linear navigation for all 11 activities via ActivityStoryCondition.json
     cond_file = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin', 'ActivityStoryCondition.json')
@@ -443,8 +448,7 @@ def main():
     write(os.path.join(SITE, 'main', 'index.html'),
           T.main_index(chapters, gate.items('main')))
     for c in chapters:
-        cno = c['no'] or 'sp'
-        write(os.path.join(SITE, 'main', 'ch%s' % cno, 'index.html'),
+        write(os.path.join(SITE, 'main', c['slug'], 'index.html'),
               T.chapter_graph_page(c, chapters))
 
     # 2b. Battle archive pages for main story pure battle stages

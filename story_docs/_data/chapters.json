@@ -1,10 +1,26 @@
 {
  "meta": {
-  "chapters": 10,
-  "nodes": 196,
-  "pages": 670,
+  "chapters": 11,
+  "nodes": 219,
+  "pages": 690,
   "source": "Story.json",
-  "edge_field": "ParentStoryId"
+  "edge_field": "ParentStoryId",
+  "story_lines": [
+   {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   {
+    "id": 2,
+    "title": "魔王，吾向您祈愿",
+    "subtitle": "前星塔历4年",
+    "sort_index": 1,
+    "icon": "Icon/ZZZOther/timeline_1_l"
+   }
+  ]
  },
  "chapters": [
   {
@@ -17,6 +33,15 @@
    "unlock_show_story_id": 101,
    "open_time": null,
    "folder": "main/chapter_01_没有记忆的生物",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch01",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "花月 醒神草日 08:00",
@@ -507,6 +532,15 @@
    "unlock_show_story_id": 204,
    "open_time": null,
    "folder": "main/chapter_02_水道桥上的风",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch02",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "雨月 糖果日 15:25",
@@ -1140,6 +1174,15 @@
    "unlock_show_story_id": 304,
    "open_time": null,
    "folder": "main/chapter_03_我们的旅团",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch03",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "雨月 黄梅日 13:00",
@@ -1777,6 +1820,15 @@
    "unlock_show_story_id": 403,
    "open_time": null,
    "folder": "main/chapter_04_梦的彼岸",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch04",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "雨月 初晴日 17:18",
@@ -2432,6 +2484,15 @@
    "unlock_show_story_id": 504,
    "open_time": null,
    "folder": "main/chapter_05_落于暗夜的荧光",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch05",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "雷月 失眠日 15：00",
@@ -3122,6 +3183,15 @@
    "unlock_show_story_id": 604,
    "open_time": null,
    "folder": "main/chapter_06_微火的奇迹",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch06",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "谷月 回归日 00:45",
@@ -3934,6 +4004,15 @@
    "unlock_show_story_id": 6503,
    "open_time": "2026-04-16T12:00:00+08:00",
    "folder": "main/chapter_07_谜影的序曲",
+   "special": true,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "chsp7",
    "edge_source": "none",
    "time_slots": {},
    "geometry": null,
@@ -3958,7 +4037,7 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/chsp/BAm06x5_01.html"
+     "page": "main/chsp7/BAm06x5_01.html"
     },
     {
      "sid": 6502,
@@ -3980,7 +4059,7 @@
      },
      "state": "released",
      "time": null,
-     "page": "main/chsp/BAm06x5_02.html"
+     "page": "main/chsp7/BAm06x5_02.html"
     },
     {
      "sid": 6503,
@@ -4005,7 +4084,7 @@
       "clock": "23:00",
       "date": "猎月 2日"
      },
-     "page": "main/chsp/STm06x5_01.html"
+     "page": "main/chsp7/STm06x5_01.html"
     },
     {
      "sid": 6504,
@@ -4030,7 +4109,7 @@
       "clock": "15:00",
       "date": "猎月 3日"
      },
-     "page": "main/chsp/STm06x5_02.html"
+     "page": "main/chsp7/STm06x5_02.html"
     },
     {
      "sid": 6505,
@@ -4055,7 +4134,7 @@
       "clock": "11:00",
       "date": "猎月 4日"
      },
-     "page": "main/chsp/STm06x5_03.html"
+     "page": "main/chsp7/STm06x5_03.html"
     },
     {
      "sid": 6506,
@@ -4080,7 +4159,7 @@
       "clock": "13:30",
       "date": "猎月 4日"
      },
-     "page": "main/chsp/STm06x5_04.html"
+     "page": "main/chsp7/STm06x5_04.html"
     },
     {
      "sid": 6507,
@@ -4105,7 +4184,7 @@
       "clock": "18:00",
       "date": "猎月 5日"
      },
-     "page": "main/chsp/STm06x5_05.html"
+     "page": "main/chsp7/STm06x5_05.html"
     },
     {
      "sid": 6508,
@@ -4130,7 +4209,7 @@
       "clock": "18:30",
       "date": "猎月 5日"
      },
-     "page": "main/chsp/STm06x5_06.html"
+     "page": "main/chsp7/STm06x5_06.html"
     },
     {
      "sid": 6509,
@@ -4155,7 +4234,7 @@
       "clock": "18:50",
       "date": "猎月 5日"
      },
-     "page": "main/chsp/STm06x5_07.html"
+     "page": "main/chsp7/STm06x5_07.html"
     },
     {
      "sid": 6510,
@@ -4180,7 +4259,7 @@
       "clock": "20:20",
       "date": "猎月 5日"
      },
-     "page": "main/chsp/STm06x5_08.html"
+     "page": "main/chsp7/STm06x5_08.html"
     },
     {
      "sid": 6511,
@@ -4205,7 +4284,7 @@
       "clock": "20:28",
       "date": "猎月 5日"
      },
-     "page": "main/chsp/STm06x5_09.html"
+     "page": "main/chsp7/STm06x5_09.html"
     },
     {
      "sid": 6512,
@@ -4230,7 +4309,7 @@
       "clock": "11:00",
       "date": "猎月 7日"
      },
-     "page": "main/chsp/STm06x5_10.html"
+     "page": "main/chsp7/STm06x5_10.html"
     }
    ]
   },
@@ -4246,6 +4325,15 @@
    "unlock_show_story_id": 804,
    "open_time": "2026-05-08T12:00:00+08:00",
    "folder": "main/chapter_08_星之竞拍",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch07",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "猎月 无脚隼日 09:30",
@@ -5164,6 +5252,15 @@
    "unlock_show_story_id": 901,
    "open_time": "2026-08-11T12:00:00+08:00",
    "folder": "main/chapter_09_往日残影",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch08",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "猎月 火狼日 10:00",
@@ -6173,8 +6270,17 @@
     "STm08_21"
    ],
    "unlock_show_story_id": 1001,
-   "open_time": "2026-09-29T12:00:00+08:00",
+   "open_time": null,
    "folder": "main/chapter_10_遥远的塔",
+   "special": false,
+   "story_line": {
+    "id": 1,
+    "title": "我思，故魔王在",
+    "subtitle": "星塔历996年",
+    "sort_index": 2,
+    "icon": "Icon/ZZZOther/timeline_2_l"
+   },
+   "slug": "ch09",
    "edge_source": "ParentStoryId",
    "time_slots": {
     "1": "雾月 千塔日 13:10",
@@ -7094,6 +7200,551 @@
      "lane": -2,
      "x": 528,
      "y": 0
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "no": null,
+   "name": "特别篇",
+   "title": "完璧之庭·微尘破晓",
+   "year": "前星塔历 4 年",
+   "prev_stories": [
+    "STm09_01_d"
+   ],
+   "unlock_show_story_id": 1101,
+   "open_time": null,
+   "folder": "main/chapter_11_完璧之庭·微尘破晓",
+   "special": true,
+   "story_line": {
+    "id": 2,
+    "title": "魔王，吾向您祈愿",
+    "subtitle": "前星塔历4年",
+    "sort_index": 1,
+    "icon": "Icon/ZZZOther/timeline_1_l"
+   },
+   "slug": "chsp11",
+   "edge_source": "none",
+   "time_slots": {},
+   "geometry": null,
+   "nodes": [
+    {
+     "sid": 1101,
+     "story_id": "STm10001_01",
+     "code": "01",
+     "title": "昨日重现",
+     "desc": "又一次醒来，又一段新的人生。",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": null,
+     "parents": [],
+     "stems": {
+      "story": "STm10001_01",
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/STm10001_01.html"
+    },
+    {
+     "sid": 1102,
+     "story_id": "BAm10001_BT01",
+     "code": "BT01",
+     "title": "森林弃子",
+     "desc": "她冲了上去——身影果决而凌厉。",
+     "aim": "",
+     "kind": "battle",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_BT01",
+     "parents": [],
+     "stems": {
+      "story": null,
+      "bubble": "BBm10001_BT01"
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/BAm10001_BT01.html"
+    },
+    {
+     "sid": 1103,
+     "story_id": "STm10001_02",
+     "code": "02",
+     "title": "完璧之城",
+     "desc": "物是人非，街道上并没有你熟悉的风景……",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_02",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_02",
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/STm10001_02.html"
+    },
+    {
+     "sid": 1104,
+     "story_id": "STm10001_03",
+     "code": "03",
+     "title": "浴场与奴隶",
+     "desc": "“愿你将我的同伴接入高天之上……”",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_03",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_03",
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/STm10001_03.html"
+    },
+    {
+     "sid": 1105,
+     "story_id": "STm10001_04",
+     "code": "04",
+     "title": "浴场测试",
+     "desc": "魔力满满，胃里空空……",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_04",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_04",
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/STm10001_04.html"
+    },
+    {
+     "sid": 1106,
+     "story_id": "STm10001_05",
+     "code": "05",
+     "title": "因苏拉",
+     "desc": "以绝望为基的土地并不能收获希望。",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_05",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_05",
+      "bubble": null
+     },
+     "state": "released",
+     "time": {
+      "clock": "13:30",
+      "date": "5月 26日"
+     },
+     "page": "main/chsp11/STm10001_05.html"
+    },
+    {
+     "sid": 1107,
+     "story_id": "STm10001_06",
+     "code": "06",
+     "title": "圣女的意义",
+     "desc": "“命运就是用来改变的。”",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_06",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_06",
+      "bubble": null
+     },
+     "state": "released",
+     "time": {
+      "clock": "15:00",
+      "date": "5月 26日"
+     },
+     "page": "main/chsp11/STm10001_06.html"
+    },
+    {
+     "sid": 1108,
+     "story_id": "STm10001_07",
+     "code": "07",
+     "title": "守夜人的日常",
+     "desc": "人靠衣装，是因为……这里只看得见衣装。",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_07",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_07",
+      "bubble": null
+     },
+     "state": "released",
+     "time": {
+      "clock": "16:30",
+      "date": "5月 26日"
+     },
+     "page": "main/chsp11/STm10001_07.html"
+    },
+    {
+     "sid": 1109,
+     "story_id": "STm10001_08",
+     "code": "08",
+     "title": "禁忌的愿望",
+     "desc": "——与此一同深埋的是，她的过去与伤痛。",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_08",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_08",
+      "bubble": null
+     },
+     "state": "released",
+     "time": {
+      "clock": "18:10",
+      "date": "5月 26日"
+     },
+     "page": "main/chsp11/STm10001_08.html"
+    },
+    {
+     "sid": 1110,
+     "story_id": "STm10001_09",
+     "code": "09",
+     "title": "角斗士",
+     "desc": "“对不起……我们明明赢了。明明已经赢了才对……”",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_09",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_09",
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/STm10001_09.html"
+    },
+    {
+     "sid": 1111,
+     "story_id": "STm10001_10",
+     "code": "10",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_10",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_10",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1112,
+     "story_id": "STm10001_11",
+     "code": "11",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_11",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_11",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1113,
+     "story_id": "STm10001_12",
+     "code": "12",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_12",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_12",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1114,
+     "story_id": "STm10001_13",
+     "code": "13",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_13",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_13",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1115,
+     "story_id": "STm10001_14",
+     "code": "14",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_14",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_14",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1116,
+     "story_id": "BAm10001_BT02",
+     "code": "BT02",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "battle",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_BT02",
+     "parents": [],
+     "stems": {
+      "story": null,
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/BAm10001_BT02.html"
+    },
+    {
+     "sid": 1117,
+     "story_id": "STm10001_15",
+     "code": "15",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_15",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_15",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1118,
+     "story_id": "STm10001_16",
+     "code": "16",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_16",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_16",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1119,
+     "story_id": "STm10001_17",
+     "code": "17",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_17",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_17",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1120,
+     "story_id": "STm10001_18",
+     "code": "18",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_18",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_18",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1121,
+     "story_id": "BAm10001_BT03",
+     "code": "BT03",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "battle",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_BT03",
+     "parents": [],
+     "stems": {
+      "story": null,
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/BAm10001_BT03.html"
+    },
+    {
+     "sid": 1122,
+     "story_id": "STm10001_19",
+     "code": "19",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_19",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_19",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1123,
+     "story_id": "STm10001_20",
+     "code": "20",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": true,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_20",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_20",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
     }
    ]
   }
