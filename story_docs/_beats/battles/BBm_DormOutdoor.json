@@ -1,0 +1,44 @@
+{
+ "heading": "# 战斗气泡 `BBm_DormOutdoor`",
+ "info_title": "剧本信息",
+ "info": [
+  "- **AVG 剧本**：`BBm_DormOutdoor`",
+  "- **气泡条数**：4",
+  "- **出场说话人**：魔王、尘沙、鸢尾",
+  "- **挂载状态**：包内没有任何关卡表引用此剧本，只按剧本代号存目"
+ ],
+ "recap": "",
+ "body_title": "战斗气泡对白（SetBubble，随战斗阶段推进）",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "wave",
+   "no": "1"
+  },
+  {
+   "k": "bubble",
+   "speaker": "魔王",
+   "text": "这里是……诶，那是星塔的入口吗？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "没错，魔<r=BOSS></r>王，我把小绿停在附近了！"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "……这里，很适合当露营地。把该用的东西从车里拿出来吧。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "魔<r=BOSS></r>王，先到处走走看看，熟悉熟悉这里的环境吧？"
+  }
+ ]
+}

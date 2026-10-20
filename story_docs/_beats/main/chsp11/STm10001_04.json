@@ -1,0 +1,905 @@
+{
+ "heading": "# 04 浴场测试",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1105`　**编号**：`04`",
+  "- **关卡名称**：浴场测试",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_04`",
+  "- **关卡描述**：魔力满满，胃里空空……",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "天冬似乎在圣女手里侥幸逃过了一劫，大司祭却怀疑起了你；\n为证明你“见习司祭”的身份，你被浸入了满溢魔力的浴池。\n魔免体质虽助你完成了测试，但饥饿却让你晕了过去……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "天冬似乎在圣女手里侥幸逃过了一劫，大司祭却怀疑起了你；\n为证明你“见习司祭”的身份，你被浸入了满溢魔力的浴池。\n魔免体质虽助你完成了测试，但饥饿却让你晕了过去……",
+  "episode": "第四话",
+  "title": "浴场测试"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您能告诉我关于“复活魔法”的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不管要付出什么……只要我有的，我都愿意给您！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "复活魔法？她为什么想问这个……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我仁慈又善良的主人为了不影响他人，特意把自己关在荒野中的高塔里，潜心钻研着从未有人挑战成功的——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "复活魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "复活……魔法……骗人，那种魔法根本不存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我刚醒过来的时候……天冬为了解释我为什么之前没有呼吸，信口胡说了这个理由。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听艾琳娜的反应……复活魔法似乎是根本不存在的魔法，但她为什么没有直接指出天冬说谎呢？难道说……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜看着我的眼神失去了往日的淡然和冷静，似乎在期盼着我给出肯定的回答。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "“通过白色房间回到过去”倒是可以勉强算成另类的“复活魔法”。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然不知道她为什么对“复活魔法”有着执念，但且不说我没办法把白色房间相关的事情说出口，这种办法应该不是艾琳娜想要的那种“复活魔法”。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "况且，我连我现在能不能再次回到那个房间，回去了能不能找到别的大门都不清楚……要怎么回答她才好呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "抱歉，见习司祭大人。打听您正在研究的秘密魔法这种事……果然还是太失礼了，破坏了您洗浴后的好心情，实在非常抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？我的犹豫被她当成拒绝了吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜是个有责任心的好人，误会解开后，一路上对我们也很照顾，我们在这里逃走的话……她会不会受到惩罚啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎，现在不是想这些的时候，还是自保为先吧，不过……至少让我多回答她几个问题，略微补偿一下吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，那个……没关系的……“复活魔法”什么的，我其实也没弄得太明白，现在的确没办法告诉你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没帮上忙很遗憾。距离觐见还有些时间，你可以换个问题……不，还是随便问吧，问几个问题都行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "真……真的吗？高塔和许愿的问题也能问吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里的人把星塔叫做高塔吗？这些问题我倒是可以回答，不管怎么说，我也是做了大半年旅人的人。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没问题，只要是我知道的事情，我都会回答的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您真是太慷慨了，这些知识很贵的，我一直都没攒够去大图书馆查阅这部分内容的金币。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "在这里……星塔的知识需要用钱来买吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那么，我想先问一下……高塔是真的能实现一切愿望吗？什么愿望都行？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "不，不不不好了，艾琳娜队长，见习司祭大人！浴场后巷发生了大爆炸！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "这里很危险，你们快躲一躲！本浴场照顾不周，非常抱歉，非常抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不会是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我趁这个机会从下水道逃走。逃走后我会在附近的街上搞出动静，到时候守夜人被我吸引走，您就可以大摇大摆地从大门处溜走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬这家伙，弄出来的动静未免太大了吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不要慌，空气中的魔力浓度不对劲，似乎不是爆炸，而是某种幻术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "露露，派你的魔法手臂封锁浴场附近的所有的通道，见习司祭大人，您的那位奴……仆人“天冬”是不是还在浴场里？我这就去救人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "没这个必要，你们要找的“天冬”就是这位吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天，天冬？！你没事吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "之前说的那么有把握，这不是刚一逃出去就被抓了吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "圣女大人，大司祭大人，您们怎么会来这里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "奥林匹娅大人收到了你的觐见申请，得知你找到了疑似“堕落圣女”的少女和一位疑似被“堕落圣女”劫持的“见习司祭”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "奥林匹娅大人本应亲自见你，辨别两人真伪，但大人此刻正处于登神的关键时期，不便露面，于是就派遣我们前来，查明两人真实身份。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "我们刚到浴场，就看见这位小姐身上披着浴巾，鬼鬼祟祟地从下水道里钻了出来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我、我那只是泡澡泡晕了，想出去透会气！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "哦？既然只是透气，那为何又要往我的马车底下钻呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "当然是看到你的马车做工精致，一时好奇，就想参观一下车底……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "原来如此，看来是我见识浅薄，竟不知道鉴赏马车还需要隐藏身形，倒挂在车轴之上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我……我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "远道而来的见习司祭啊，请看管好你的奴隶，别让她再做出这等可笑的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "奴隶？这么说……对方并不认为天冬是“堕落圣女”？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白，明白，我家天冬给各位添麻烦了，回去后我一定严加管束。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "圣女大人，您已经确定这位天冬不是“堕落圣女”吗？她之前可是用过数个魔法，用得还很熟练。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "呵呵，“堕落圣女”可是杀人无数的恶徒，怎么可能被我一个幻象魔法就吓晕过去？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "至于她会魔法的事情……艾琳娜，在菲兰尼斯以外，司祭和元老院的大人们有个会简单魔法的奴隶并不是什么稀奇的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "圣女大人言之有理，不过……这位天冬女士的确和通缉上的画像很像，我们还是谨慎一些比较好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "您说得对，那就让我再次确认一下吧，毕竟，我可是那位“堕落圣女”的同期呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "疼疼疼疼——别捏我脸啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "她虽然看上去和“堕落圣女”有点像，但既然没有用伪装魔法，那就不是“堕落圣女”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "何以见得？“堕落圣女”出逃有三年了吧，三年里相貌也会有变化的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "的确如此，但人的本性不会在三年里就有那么大的变化。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "那个人，在圣女修习阶段就总喜欢装出一副聪明伶俐的模样，仿佛世上没有任何事能难住她。可一旦真正轮到她承担责任，她想到的第一件事，便是从祭台上逃走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "她自以为逃得干净，却把所有麻烦都留给了别人。与她同批的圣女全都受到牵连。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "后来，我听说她为了掩藏自己的身份，肆意杀戮逃亡路上见过自己的人，这种自私、凶恶又毫无担当的人，才是真正的“堕落圣女”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "我与她共同生活过很长一段时间。她那副令人火大的性子，我记得一清二楚，不至于认错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女",
+   "text": "至于我们眼前这个一脸傻气，披着浴场里的毛巾就向别人马车下钻的小奴隶，只是个恰好长得像的小笨蛋而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "圣女大人……您……您说得对，我只是一个愚蠢的奴隶而已，“堕落圣女”什么的，和我毫无关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "既然圣女大人做出了判断，那请容我为之前的错误道歉……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "稍等一下，艾琳娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "“堕落圣女”的问题已由圣女大人辨明，但这位远道而来的客人是否为真的见习司祭，还需确认。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "我都是真的奴隶了，那我的主人自然也是真的见习司祭。她在高塔里钻研魔法时出了点意外，导致记忆不太清楚……",
+    "cn_m": "我都是真的奴隶了，那我的主人自然也是真的见习司祭。他在高塔里钻研魔法时出了点意外，导致记忆不太清楚……"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "魔王，你有一位忠心护主的好奴隶呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "请不要担心，菲兰尼斯不会冤枉一个好人，也不会放过一个坏人，因为，这里可是奥林匹娅大人建立的——完美之城。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭",
+   "text": "我们有绝对公正的办法，判断您是否为见习司祭。艾琳娜——去准备“浴场测试”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "兜兜转转，我们又回到了浴场里啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，你知道浴场测试是什么吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "完全不知道啊，大概是菲兰尼斯当地的某种习俗吧。好消息是——这种测试看起来并不会盘问你，你可是连那个乡下守夜人都说不过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个测试是测试我的吧，你也要来吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "说什么呢？我可是你的奴隶，这种时候怎么可能不陪在主人的身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "唔——这是什么味道，她们给池子里换水了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "见习司祭大人，“浴场测试”已经准备完毕，您可以随时开始。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "明白了，在开始测试之前，能请你讲解一下测试的内容吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "理当如此，您身为见习司祭大人，肯定有着超凡的魔法天赋。就算您忘掉了所有的魔法咒文，您与生俱来的天赋也不会变，“浴场测试”就是用来检测魔法天赋的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "现在，浴池中注满了富含魔力的温水，请您进入浴池，我们会依据您在浴池中坚持的时间长短来判断您的魔法天赋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "魔法天赋什么的……这不是更糟了？面对盘问我还可以编上几句，但我根本不会魔法啊，我是魔力绝缘体质……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "主人，请让天冬服侍您进入浴池。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "事已至此，只能死马当活马医了，先下去……然后靠着意志力硬顶吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "烫烫烫！好烫，守夜人，你想把我的主人煮熟吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，你摸到的不是水的温度，而是高浓度的魔力给身体带来的刺激……你的反应这么强烈，嗯……你的魔法天赋也不是很好啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王如果是真的见习司祭，应该不会觉得这水有多刺激的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（试着摸一摸浴池里的水）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "手感和普通的温水没有差别，等等……如果她们只是用对这种水的忍耐力测试的话，比这水更富含魔力的液体我都泡过啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，如果你觉得难受的话，不用勉强陪我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "怎么会，不管是刀山还是火海，天冬身为您的奴隶，都会陪您一起走下去的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是……我看你已经快撑不住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "好晕……身体好热……但是，我绝对不是没有魔法天赋的人，只是我的天赋……不在这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我明白的，你的魔法天赋在之前的森林里就已经得到证明了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "嘻嘻，果然主人最懂我，那……在我晕倒之前，我还有一件事要拜托主人，请主人把手给我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，等一下，别把我的手向你胸上拉啊， 我没有，没有那种意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "傻瓜，只有放在这里才能躲过搜身，把这东西带进来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……心相石？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "心相石？那是什么？你怎么可能知道这块石头？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呜——没力气思考了，算了，反正你身上的秘密也不差这一个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那个，魔王，艾琳娜距离这里好远，我就先不叫主人了哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "哎，我第一次和别人共浴，第一次叫别人主人，连衣服……也是第一次穿得这么少。我的这么多“第一次”都交给你了，你可要负责啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂喂，你在胡说什么啊……艾琳娜，快来帮忙，天冬要晕倒了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "拿好那块石头，千万不要让其他人看见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "天冬说完这句话后，就歪倒在我的怀里，被赶来的艾琳娜抱了出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "在那之后，我的测试依旧在继续——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……我到底在这泡了多久……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "三个小时了，这个时长……就算是正式司祭也忍受不住了，您还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实……还是有些不舒服的……我的肚子……我要不行了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "见习司祭大人，您已经证明了自己的魔法天赋，可以不用勉强自己了，我这就帮您从浴池里出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "肚子……好饿……抵达菲兰尼斯后，我还什么都没吃过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "充盈着魔力的池水没能战胜强大的“见习司祭大人”，在艾琳娜轻轻地惊呼中，先一步让魔王倒下的，是她空空如也的胃。",
+    "cn_m": "充盈着魔力的池水没能战胜强大的“见习司祭大人”，在艾琳娜轻轻地惊呼中，先一步让魔王倒下的，是他空空如也的胃。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

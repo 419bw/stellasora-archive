@@ -3,8 +3,8 @@
  "counts": {
   "empty_segment_skipped": 1,
   "jump_index_out_of_range": 1,
-  "segment_without_chat_row": 39,
-  "unbalanced_choice": 2
+  "segment_without_chat_row": 40,
+  "unbalanced_choice": 3
  },
  "categories": {
   "segment_without_chat_row": [
@@ -163,6 +163,10 @@
    {
     "stem": "PM16001",
     "gid": "08"
+   },
+   {
+    "stem": "PM16201",
+    "gid": "08"
    }
   ],
   "unbalanced_choice": [
@@ -174,6 +178,11 @@
    {
     "stem": "PM14101",
     "gid": "05",
+    "group": "1"
+   },
+   {
+    "stem": "PM16201",
+    "gid": "04",
     "group": "1"
    }
   ],

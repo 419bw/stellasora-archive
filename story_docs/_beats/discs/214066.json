@@ -1,0 +1,844 @@
+{
+ "heading": "# 指引前路的启明星",
+ "info_title": "唱片信息",
+ "info": [
+  "- **唱片 ID**：`214066`",
+  "- **关联角色**：尘沙（源初）",
+  "- **AVG 剧本**：`CG_disc4066`"
+ ],
+ "recap": "为了能与那个人再次并肩，骑士在繁星与高塔下许下了誓言。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为了能与那个人再次并肩，骑士在繁星与高塔下许下了誓言。",
+  "episode": "记忆回想",
+  "title": "指引前路的启明星"
+ },
+ "appendix": {
+  "title": "唱片附文（DiscIP 表 StoryDesc 原文）",
+  "note": "与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。",
+  "prose": "黎明到来后，不再无瑕的人偶沉睡在开满鲜花的浴场。\n失踪的人们相继醒来、归家、团聚……这座依水而建的城市，生机似乎已重现。\n有些事物不曾改变，有些则永远回不到最初的模样。\n\n天冬自那之后便总是闭门不出，她似乎一直在研究着那个“箱子”。\n和我不同，她对魔法的事太过了解，我没有插话的余地。\n露露……她似乎变得更积极了些，她开始学习识字，似乎想把我们的故事记录下来。\n和我不同，那孩子的学习天赋很好，我没什么可以再多教她的了。\n\n而我……消沉了一段时间。\n做完守夜人的工作后，我常常守在那座墓碑前，说上几句今天发生的事。\n从什么时候开始……我也能像这样总结、分享我的每一天了？\n——是因为那个人吗？\n\n和你在一起时，我总是安心的，\n那些埋藏于心的秘密，那些无法和他人诉说的愁苦……你认真倾听的脸。\n明明，你的身躯那般纤细脆弱。\n但在那刻，毫不犹豫选择牺牲的人，还是你……\n“我那边的世界，人们会在荒野上互相帮助，分享见闻，欢笑与共，苦难同担——他们就是‘旅人’。”\n……他们就是你所说的“伙伴”吗？\n\n月亮爬上了枯木的枝头，满天的繁星划出苍迹。\n我握紧剑，只身来到无人的湖畔。\n\n快回想起来吧，至今为止的人生。\n那个时候想要活下去的愿望。\n那个时候想要守护大家的决意。\n挥动这把剑吧……\n为了那些回不来的人们，为了那些活在当下的人们。\n为了能与那个人再次并肩，我必须变得更强。\n\n“比奥林匹娅还要强大的家伙还有更多——！”\n“比科佩里乌斯还要狡猾的家伙还有更多——！”\n“菲兰尼斯之外的世界会遇到的阻碍……在未来也还有更多——！”\n\n挥剑，练习，思考……\n直到身体撑不住就休息，休息结束之后就继续练习。\n重复，重复，重复…\n极限与命运，我都要跨过。\n\n仍在某处闪耀的你……我的启明之星。\n纵使记忆终将褪色，我仍会追寻那道光芒前进。\n尽头，会是与你的重逢吗？"
+ },
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "左上劈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "右下斜切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对，就这样用力劈下来，手腕再灵活一点，保持转向的充裕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "很好，身体重心抬高一点。你现在压得太靠前了，要给自己留足变招的充裕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是，是这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "没错，姿势进步很大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "来，魔王，我们试试实战——用刚才练习的所有招数攻击我，用全力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "剑刃相撞的声音打破了夜空的宁静。我手握练习剑，全神贯注地向艾琳娜发起进攻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "普通的斩击肯定一下子就会被挡下来，既然她说用“所有的”招数攻击，那就——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，我上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（用斩击的假动作掩盖真实的直刺）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "嚯——不错嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "练习剑的剑尖如愿以偿地穿过艾琳娜斜举的长剑，这是我今晚第一次突破她的防御。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有机会——唔？！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "发……发生了什么？我？我躺在地上了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，轻一点……我有点喘不上气了，我，我认输。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对，对不起魔王，我一时激动，太失礼了，你没受伤吧……我拉你起来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没事，不用那么客气啦。再说你刚刚不是也保护我了吗？我被你摔倒的时候……你还抓着我的肩膀，帮我卸力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对了，我刚刚那招是不是有点厉害？都逼得你把我按在地上了，我的剑术也算有所长进了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "剑术啊……的确熟练了不少，还想出了用假动作骗过我，变斩击为直刺的点子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "但是呢，你的身体太缺乏锻炼了，完全跟不上你的思路，你刚刚变招的时候露出了一个超大的破绽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "就是那种……让人一看就想贴身摔绊再给你加上一个头槌的那种破绽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哎？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "实在是太诱人了，我的身体被你吸引得直接动了起来，还好在最后的头槌之前收住了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也就是说，刚刚你不是温柔地抓住我的肩膀想帮我卸力，而是打算狠狠地撞断我的鼻梁？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂喂喂，这也太狠了吧，我们只是在练习，练习。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咳咳咳，这的确是我的失误，但是——只有练习的时候全力以赴，面对真正的战斗时才能得心应手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王也感觉到了吧，你的身体已经在给你的大脑拖后腿了，再好的战术如果没办法用出来……那就是不存在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不过，锻炼身体这种事也不是一蹴而就的，就算每天都坚持锻炼，也得几个月到一年才能见到明显的成效。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "从明天开始，和我一起夜跑吧，一边锻炼一边练习剑招，慢慢坚持下去，一切都会好起来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "知道啦，我会好好锻炼的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，一提到练剑的话题，艾琳娜就会打开话匣子，滔滔不绝地说个没完呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咦？有，有吗？我会那么啰嗦吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "仔细想想，在我和你独处的时间里，好像五成时间都是一起练剑……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "也，也不是吧……我们还一起巡逻来着，对了，我们现在就去夜巡吧，转换一下心情！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "另外五成的时间是一起巡逻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "的确如此，完全无法反驳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "虽然很不甘心，但我不得不承认，我的生活的确很……很单调，和我在一起很无聊吧，魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "客观地说的确是有点无聊，但是呢，和你一起做这些事又很好地弥补了这一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "和我？……我也不是什么有趣的人吧？论风趣和渊博，我比不上天冬，论对菲兰尼斯了解，我也不如露露。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "待在你的身边，就会很安心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "安……安心？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "虽然我的剑术不错，也的确会保护你，但我也不是什么情况都能解决的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "就算是在完美的菲兰尼斯夜巡，说不定也会碰到因为没钱吃饭去偷面包的小贼或者从别的城邦来的，性情依旧凶恶的歹徒。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "绝，绝对不能因为我在身边就放松警惕，随便安心，要是被敌人偷袭了怎么办啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "严谨地说，我没办法在任何情况下都保护住你。所以……不要随便安心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是你说的那种安心啦，我是指……即使我们现在行走在黑夜中，即使菲兰尼斯的居民里只有很少一部分人知道你的付出。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你也没有沮丧和气馁，一直在追寻更好的明天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你就像个温暖的小太阳一样，待在你的身边，就会被你的干劲所感染。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，我也得加把劲了，等到你因为这次任务的奖励再进塔的时候，我一定要找到回到故乡的办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "故乡……你再和我说说那里好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "你上次说，你的故乡没有奴隶。那是一个什么样的城邦啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦，我的故乡不是一个具体的城邦，而是一辆车。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我和同伴一起开着那辆车，在世界各地旅行，不过的确所有我们到过的城邦都没有奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "听上去……好自由，我从小到大，待过的地方只有埃摩的大角斗场和菲兰尼斯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我甚至不知道……大角斗场之外的埃摩是什么样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "会有机会的，现在艾琳娜也是自由的啊，你是为了报答恩情，以及为了把菲兰尼斯变得更好留下的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总有一天，菲兰尼斯会变成你理想中的模样，到时候……如果我还在的话，我和你一起去旅行。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那就这么说定了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说定了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "啊，已经是这个时间了啊，我该去巡逻，吹响报时的号角了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我和你一起去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "你昨天就因为帮我整理守夜人的账目睡得很晚吧……还撑得住吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别小看我，我可是超级能熬夜的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "还是睡着了啊，一边走，一边拉着我的剑柄就睡了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，最近也太辛苦你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "艾琳娜横着抱起不断向自己身上倚靠的少女，推开了因苏拉的房门，轻轻地把她放在床铺上。",
+    "cn_m": "艾琳娜横着抱起不断向自己身上倚靠的少年，推开了因苏拉的房门，轻轻地把他放在床铺上。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在我的身边……会让你感到安心吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "其实……在你身边，我也会感到安心呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "尤其是……看着你这张睡脸的时候。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "夜巡结束，艾琳娜倚靠着少女的床边坐下。",
+    "cn_m": "夜巡结束，艾琳娜倚靠着少年的床边坐下。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "清冷的星光之下，两个人轻轻的呼吸声逐渐同步，一同坠入黑甜的沉眠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不知何时，骑士猛然醒来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "床上空无一人，枕头和被褥整整齐齐地码放着，似乎在邀请着困倦的旅人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "骑士不会上床睡觉，她习惯了倚靠着床边睡着，那张床……是她留给一个人，留给一个重要的人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "骑士提起惯用的长剑，披着清冷的星光走出狭小的因苏拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "现在的菲兰尼斯，已经不用她来夜巡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "年轻的市民们加入了守夜人的队伍，大家每天轮班，守护着这座属于他们的城邦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "但是，骑士还是习惯在这个时间出门，习惯在这个时段来到因苏拉旁边的空地上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜，我上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她的眼神游移，似乎是在寻找着谁的身影，似乎是在等着某个熟悉的声音喊出自己的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后，这次寻找很快就被骑士自己的轻笑打断了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "她已经不是艾琳娜，她是尘沙，微不足道的尘沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "想要成为魔王口中的那个尘沙的……尘沙，连魔王都不知道的尘沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "呼——真傻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": {
+    "cn_f": "我在这里找什么啊，她明明就在那座星塔里。",
+    "cn_m": "我在这里找什么啊，他明明就在那座星塔里。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不过，锻炼身体这种事也不是一蹴而就的，就算每天都坚持锻炼，也得几个月到一年才能见到明显的成效。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "从明天开始，和我一起夜跑吧，一边锻炼一边练习剑招，慢慢坚持下去，一切都会好起来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "骑士轻声呢喃，缓缓架起手中的长剑，仿佛那个想法总比剑法多的同伴还在自己的面前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你为我们带来的这份未来，我会一直守护下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你在菲兰尼斯留下的痕迹，我会让它们永远存在下去，直到……你能完成我们约定的那一天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "对，只要坚持下去，总有一天，一切都会好起来，一切的愿望都会实现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我不会后悔，魔王，我想你也不会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "请看着吧。我一定会变得比现在更加强大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "下一次，我一定要保护你直到最后一刻。所以，请允许我许下一个愿望吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "总有一天，我能再次与你相遇。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "骑士向夜空献上誓言之剑，这里能倾听她内心愿望的，只有天上的繁星和沉默的高塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "至于，她的愿望到底有没有实现，那就是另一个故事，要由另一段岁月来叙说了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

@@ -27,6 +27,7 @@ CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'C
 
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
 import release_gate
+import chapter_path
 
 # ---- 分级退出码（管线重构 Phase 0 引入）----------------------------------------
 # validate_site 的全部契约（G/G2/G3/H/H2/H3/I/I2/J/J2/L/L2/M/M2/M3/N/N2）都是
@@ -111,6 +112,8 @@ def expect_node(row):
 CH = json.load(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8'))
 nodes = {n['sid']: n for c in CH['chapters'] for n in c['nodes']}
 STORIES_CHAPTER = {r['StoryId']: r['Chapter'] for r in STORY.values()}
+# 时间线目录（StoryLine.json 的侧车镜像）：章节的 story_line.id 必须落在其中。
+STORY_LINE_IDS = {ln['id'] for ln in (CH.get('meta') or {}).get('story_lines') or []}
 
 print("=" * 66)
 print("G  chapters.json == 表 + 剧本独立重导（196 节点，逐字段）")
@@ -138,23 +141,50 @@ hard(not extra, 'G JSON 多出未声明节点：%d' % len(extra))
 
 print()
 print("-- 图不变量 --")
-inv = []
-for c in CH['chapters']:
-    by_sid = {n['story_id']: n for n in c['nodes']}
-    for n in c['nodes']:
-        for p in n['parents']:
-            q = by_sid.get(p)
-            if q is None:
-                inv.append(('悬空父引用', c['id'], n['sid'], p))
-            elif q['sid'] == n['sid']:
-                inv.append(('自环', c['id'], n['sid']))
-            elif STORIES_CHAPTER.get(p) != c['id']:
-                inv.append(('跨章父引用', c['id'], n['sid'], p))
-    roots = [n for n in c['nodes'] if not n['parents']]
-    if c['edge_source'] == 'ParentStoryId' and len(roots) != 1:
-        inv.append(('根不唯一', c['id'], len(roots)))
-    if c['edge_source'] == 'none' and c['id'] != 7:
-        inv.append(('无边章不是特别篇', c['id']))
+
+
+def chapter_invariants(chapters):
+    """G 组的图不变量。G 段与 G3 变异测试共用同一套断言，避免两处漂移。
+
+    特别篇 ⇔ 无边 ⇔ 无编号是三条双向充要（判据见 scripts/story/chapter_path.py）：
+    特别篇在游戏里只有线性清单、没有拓扑图、不带章节号，所以不存在
+    "特别篇却有边/却有编号"的合法形态；上游填表手滑（新增普通章漏填
+    ParentStoryId 或 Index）也必须在这里炸掉，而不是静默落进 chsp 撞目录。
+    """
+    inv = []
+    for c in chapters:
+        by_sid = {n['story_id']: n for n in c['nodes']}
+        for n in c['nodes']:
+            for p in n['parents']:
+                q = by_sid.get(p)
+                if q is None:
+                    inv.append(('悬空父引用', c['id'], n['sid'], p))
+                elif q['sid'] == n['sid']:
+                    inv.append(('自环', c['id'], n['sid']))
+                elif STORIES_CHAPTER.get(p) != c['id']:
+                    inv.append(('跨章父引用', c['id'], n['sid'], p))
+        roots = [n for n in c['nodes'] if not n['parents']]
+        if c['edge_source'] == 'ParentStoryId' and len(roots) != 1:
+            inv.append(('根不唯一', c['id'], len(roots)))
+        if (c['edge_source'] == 'none') != bool(c.get('special')):
+            inv.append(('无边与特别篇标记不一致', c['id'],
+                        c['edge_source'], bool(c.get('special'))))
+        if (c['no'] is None) != bool(c.get('special')):
+            inv.append(('无编号与特别篇标记不一致', c['id'],
+                        c['no'], bool(c.get('special'))))
+        if not c.get('slug'):
+            inv.append(('缺少章节目录', c['id']))
+        line = c.get('story_line') or {}
+        if line.get('id') is not None and line['id'] not in STORY_LINE_IDS:
+            inv.append(('章节归属的时间线不存在', c['id'], line.get('id')))
+    slugs = [c.get('slug') for c in chapters]
+    if len(slugs) != len(set(slugs)):
+        dup = sorted({s for s in slugs if slugs.count(s) > 1})
+        inv.append(('章节目录撞车', dup))
+    return inv
+
+
+inv = chapter_invariants(CH['chapters'])
 print('不变量违例：%d' % len(inv))
 for x in inv[:8]:
     print('   ~', x)
@@ -285,12 +315,7 @@ def audit(chapters):
                     errs.append((exp['sid'], 'parents'))
             elif got.get(k) != v:
                 errs.append((exp['sid'], k))
-    for c in chapters:
-        ids = {n['story_id'] for n in c['nodes']}
-        for n in c['nodes']:
-            for p in n['parents']:
-                if p not in ids:
-                    errs.append((c['id'], '悬空父引用', n['sid'], p))
+    errs.extend(chapter_invariants(chapters))
     return errs
 
 
@@ -320,6 +345,25 @@ clone['chapters'][0]['nodes'].pop()
 _g3d = bool(audit(clone['chapters']))
 hard(_g3d, 'G3 植入[删一个节点] MISSED')
 print('植入[删一个节点]    : %s' % ('CAUGHT' if _g3d else 'MISSED'))
+
+# 反向植入①：给一条有边的普通章盖上特别篇标记 —— 必须被「无边与特别篇标记不一致」抓到。
+# 这条正是本次 CI 事故的反面：特别篇标记与章节形态必须同时成立，单边放行等于
+# 给"上游漏填 ParentStoryId"开了静默通道。
+clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
+normal = next(c for c in clone['chapters'] if not c.get('special'))
+normal['special'] = True
+_g3e = bool(audit(clone['chapters']))
+hard(_g3e, 'G3 植入[给有边章盖特别篇标记] MISSED')
+print('植入[给有边章盖特别篇标记]: %s' % ('CAUGHT' if _g3e else 'MISSED'))
+
+# 反向植入②：把某普通章的 Index 置空 —— 必须被「无编号与特别篇标记不一致」抓到。
+# 旧实现里这种章会静默拿到 chsp 目录、和真正的特别篇撞车（后写覆盖先写）。
+clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
+normal = next(c for c in clone['chapters'] if not c.get('special'))
+normal['no'] = None
+_g3f = bool(audit(clone['chapters']))
+hard(_g3f, 'G3 植入[把普通章的编号置空] MISSED')
+print('植入[把普通章的编号置空]  : %s' % ('CAUGHT' if _g3f else 'MISSED'))
 
 
 # ============================================================ H  节点图几何
@@ -432,13 +476,13 @@ ANCH = re.compile(r'<a href="#(col\d+)" data-scroll-to="\d+">')
 
 def audit_graph_page(c, site):
     g = c['geometry']
-    rel = ['main', 'ch%s' % (c['no'] or 'sp'), 'index.html']
+    rel = ['main', c['slug'], 'index.html']
     path = os.path.join(site, *rel)
     if not os.path.isfile(path):
         return [(c['id'], '图页面缺失', path)]
     html = open(path, encoding='utf-8').read()
     errs = []
-    if g is None:
+    if c.get('special'):
         # 特别篇官方无连线，渲染成有序列表，但"有剧本才可点"这条规则一样要成立
         items = re.findall(r'<li>(<a href="([^"]*)">)?<span class="code">', html)
         if len(items) != len(c['nodes']):
@@ -492,7 +536,7 @@ for x in h3_errs[:8]:
 hard(not h3_errs, 'H3 图页面落点违例：%d 处' % len(h3_errs))
 k = CLONE()
 first = next(c for c in k['chapters'] if c['geometry'])
-h3_page = os.path.join(SITE, 'main', 'ch%s' % (first['no'] or 'sp'), 'index.html')
+h3_page = os.path.join(SITE, 'main', first['slug'], 'index.html')
 src = open(h3_page, encoding='utf-8').read()
 tmp = h3_page + '.bak'
 shutil.copyfile(h3_page, tmp)
@@ -502,7 +546,7 @@ try:
     hard(_h3a, 'H3 植入[抹掉一个列锚点] MISSED')
     print('植入[抹掉一个列锚点]: %s' % ('CAUGHT' if _h3a else 'MISSED'))
     open(h3_page, 'w', encoding='utf-8').write(
-        src.replace('data-col="0" href="../../main/ch%s/' % (first['no'] or 'sp'),
+        src.replace('data-col="0" href="../../main/%s/' % first['slug'],
                     'data-col="0" href="../../main/gone/', 1))
     _h3b = bool(audit_graph_page(first, SITE))
     hard(_h3b, 'H3 植入[卡片链接指空] MISSED')
@@ -512,21 +556,31 @@ finally:
 _h3re = not audit_graph_page(first, SITE)
 hard(_h3re, 'H3 还原后复检 FAIL')
 print('还原后复检: %s' % ('PASS' if _h3re else 'FAIL'))
-sp_c = next(c for c in CH['chapters'] if c['geometry'] is None)
-sp_page = os.path.join(SITE, 'main', 'chsp', 'index.html')
-sp_src = open(sp_page, encoding='utf-8').read()
-shutil.copyfile(sp_page, sp_page + '.bak')
-try:
-    open(sp_page, 'w', encoding='utf-8').write(sp_src.replace('<li><a href="../../main/chsp/BAm06x5_01.html"><span class="code">BT01',
-                                                              '<li><a href="#"><span class="code">BT01', 1))
-    _h3c = bool(audit_graph_page(sp_c, SITE))
-    hard(_h3c, 'H3 植入[无剧本关卡给占位链接] MISSED')
-    print('植入[无剧本关卡给占位链接]: %s' % ('CAUGHT' if _h3c else 'MISSED'))
-finally:
-    shutil.move(sp_page + '.bak', sp_page)
-_h3re2 = not audit_graph_page(sp_c, SITE)
-hard(_h3re2, 'H3 还原后复检(特别篇) FAIL')
-print('还原后复检(特别篇): %s' % ('PASS' if _h3re2 else 'FAIL'))
+
+# 特别篇：每个 special 章都跑一遍"无剧本关卡给占位链接"的植入 + 还原后复检。
+# 判据用 c['special']（契约锁死 special ⇔ 无边），不再只挑第一个无边章；
+# 篡改目标取该章自己的首个可点条目，不写死任何一章的具体 HTML 片段。
+sp_chapters = [c for c in CH['chapters'] if c.get('special')]
+hard(bool(sp_chapters), 'H3 侧车里没有任何特别篇(special)章')
+for sp_c in sp_chapters:
+    sp_page = os.path.join(SITE, 'main', sp_c['slug'], 'index.html')
+    sp_src = open(sp_page, encoding='utf-8').read()
+    m = re.search(r'<li><a href="([^"]+)"><span class="code">', sp_src)
+    hard(bool(m), 'H3 特别篇页面里找不到可点条目: %s' % sp_c['slug'])
+    shutil.copyfile(sp_page, sp_page + '.bak')
+    try:
+        open(sp_page, 'w', encoding='utf-8').write(
+            sp_src.replace('<li><a href="%s"><span class="code">' % m.group(1),
+                           '<li><a href="#"><span class="code">', 1))
+        _h3c = bool(audit_graph_page(sp_c, SITE))
+        hard(_h3c, 'H3 植入[无剧本关卡给占位链接] MISSED (%s)' % sp_c['slug'])
+        print('植入[无剧本关卡给占位链接] %s: %s'
+              % (sp_c['slug'], 'CAUGHT' if _h3c else 'MISSED'))
+    finally:
+        shutil.move(sp_page + '.bak', sp_page)
+    _h3re2 = not audit_graph_page(sp_c, SITE)
+    hard(_h3re2, 'H3 还原后复检(特别篇) FAIL (%s)' % sp_c['slug'])
+    print('还原后复检(特别篇) %s: %s' % (sp_c['slug'], 'PASS' if _h3re2 else 'FAIL'))
 
 
 # ============================================================ I  HTML 与 md 不漂移
@@ -662,7 +716,7 @@ main_battle_archive_pages = {
     n['page'] for n in nodes.values() if n['sid'] in main_battle_archive_nodes
 }
 expected = {p['page'] for p in published} | {'index.html', 'main/index.html'} | \
-           {'main/ch%s/index.html' % (c['no'] or 'sp') for c in CH['chapters']} | \
+           {chapter_path.chapter_page(c['slug']) for c in CH['chapters']} | \
            {'%s/index.html' % s for s in ('events', 'characters', 'npc', 'discs',
                                           'storysets', 'prologue', 'battles',
                                           'dispatch', 'anecdotes')} | \

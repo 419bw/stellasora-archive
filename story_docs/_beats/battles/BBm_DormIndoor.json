@@ -1,0 +1,44 @@
+{
+ "heading": "# 战斗气泡 `BBm_DormIndoor`",
+ "info_title": "剧本信息",
+ "info": [
+  "- **AVG 剧本**：`BBm_DormIndoor`",
+  "- **气泡条数**：4",
+  "- **出场说话人**：魔王、尘沙、鸢尾、琥珀",
+  "- **挂载状态**：包内没有任何关卡表引用此剧本，只按剧本代号存目"
+ ],
+ "recap": "",
+ "body_title": "战斗气泡对白（SetBubble，随战斗阶段推进）",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "wave",
+   "no": "1"
+  },
+  {
+   "k": "bubble",
+   "speaker": "魔王",
+   "text": "这里就是……我的星塔？"
+  },
+  {
+   "k": "bubble",
+   "speaker": "尘沙",
+   "text": "好帅，以后是不是就可以在这里摆床，躺下睡觉了！"
+  },
+  {
+   "k": "bubble",
+   "speaker": "鸢尾",
+   "text": "这怎么行……不，好像，还挺有道理的。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "……这里……可以养猫吗？"
+  }
+ ]
+}

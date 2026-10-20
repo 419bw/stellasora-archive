@@ -1,0 +1,904 @@
+{
+ "heading": "# 09 角斗士",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1110`　**编号**：`09`",
+  "- **关卡名称**：角斗士",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_09`",
+  "- **关卡描述**：“对不起……我们明明赢了。明明已经赢了才对……”",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "艾琳娜说起自己的过去——她曾是与奴隶一起生活的角斗士。\n她拼死赢下了与魔法人偶的角斗，独自获得了自由。\n但却没能救下出生入死的同伴……执念便如此成了“许愿”。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "艾琳娜说起自己的过去——她曾是与奴隶一起生活的角斗士。\n她拼死赢下了与魔法人偶的角斗，独自获得了自由。\n但却没能救下出生入死的同伴……执念便如此成了“许愿”。",
+  "episode": "第九话",
+  "title": "角斗士"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "喂，十八号。该你上场了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "听好，场上流的血越多，看台上的掌声就越响。尤其是你这种细皮嫩肉的小姑娘，他们最喜欢了——不管是你把别人打得满身是血，还是你被打得哭着求饶，他们都会看得兴奋不已。听明白了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "不过嘛，只要你能混出些名气，你就能跟这个又窄又臭的鬼地方说再见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "到时候，你还能住进弥漫着没药与乳香的豪宅，坐在清澈的水池边，倚着填满天鹅羽毛的丝绸靠垫，像个真正的淑女一样，品尝冰镇的蜜酒——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "哈哈，那才叫人过的日子！怎么样，小姑娘，光是听着就心动了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "……啧，张口闭口就只会“嗯”。怎么，嘴里就挤不出别的声音了？你是不会说话的人偶吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "嗯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "前辈角斗士",
+   "text": "哎行了行了，懒得跟你废话了。赶紧上场吧。就你这副丢了魂的样子，怕是用不了多久，就会变成一具尸体，让人从场上拖出去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在埃摩的中心，矗立着一座永不落幕的剧场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "高墙是它的帷幕，昏黄的沙地便是舞台。衣着华贵的观众坐在阳光下，而被锁链束缚的奴隶，只能站在阴影里，茫然等待命运的裁决。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "人们说，大角斗场是为埃摩注入激情的心脏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "可让这颗心脏日夜跳动的，从来不是什么荣耀。而是一次又一次浸透沙地的鲜血。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我就出生在那座高墙之下。还没来得及拥有名字，就先从双亲那里继承了奴隶的枷锁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "没有人会问奴隶的孩子长大后想要做什么。因为从出生的那一刻起，我们要做什么、要怎么活，就已经由主人决定了。就像被丝线牵着的人偶一般，只能按照他们的意愿行动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那时的我，唯一能自己选择的，就只有上场时使用的武器。\n我选择了剑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "角斗场由一对双胞胎尊者掌管。姐姐出租场地和奴隶，妹妹出售门票，将一场场厮杀包装成名为“角斗”的剧目",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "主人牵动着丝线，操纵着奴隶们的手脚。命令我们挣扎、哀号，最后以观众喜欢的姿态倒下。",
+    "jp_f": "丝线牵动、操纵着奴隶们的手脚。我们挣扎、哀号，最后以观众喜欢的姿态倒下——主人如此命令着。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "受伤的角斗士",
+   "text": "啊……刚才……谢谢你手下留情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "找点蜂蜜抹在伤口上，不容易化脓。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": {
+    "cn_f": "诶？蜂蜜还有这种用处啊……对了，我叫余音。你呢？你叫什么名字？",
+    "jp_f": "这、这样吗？对了，我叫余音……如果可以的话，也告诉我你的名字吧？"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "十八号",
+   "text": "十八号。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "那是编号吧？我也有……我是一百零三号。\n但是我不是想问编号……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "十八号",
+   "text": "我没有名字，也不需要。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的角斗士",
+   "text": "好了余音。过来吧，我先帮你包扎。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "小有名气的角斗士",
+   "text": "余音，你还真敢跟那孩子搭话。她整天闷声不响的，也不知道心里在想什么。要是哪天突然给你一剑……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": {
+    "cn_f": "我觉得……她不会那么做的。要真想伤害我，刚刚就不会手下留情了。",
+    "jp_f": "砍？那个孩子、非常温柔喔，我不觉得她会这么做……"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "角斗士没有名字。至少，没有像那些观众一样正式而体面的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "当然，也有人会按照自己的战斗方式取个简单的名字，好让看台上的观众记住自己。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "可那时的我，并不觉得名字有什么必要。反正我们只是物品，是属于主人的财产。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "说到底，角斗士的名字，不过是贴在身上的标签，好让主人把我们的命卖出更高的价钱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "与其在这种事上浪费时间，还不如把时间花在磨炼剑术上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "在角斗场上，每当有人倒下，观众就会攥紧拳头、竖起拇指，催促我补上最后一剑，为这场演出献上他们想要的结局。",
+    "jp_f": "在角斗场上，每当有人倒下，观众就会攥紧拳头、竖起拇指，催促我补上致命的最后一击为这场戏收尾。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "可我不想听从他们的命令，也不打算拿别人的性命取悦他们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "所以每次决斗，我都只用剑尖划破对手的皮肤，同时避开重要的血管与肌腱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "这样一来，即使看上去鲜血四溅，也不至于让对方丧命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "只是……那时的我并不知道，在这座没有出口的角斗场里，希望最终只会化为更深的绝望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "事情发生在一年前。菲兰尼斯的尊者带着大批魔法人偶来到这里，想让它们代替奴隶，登上角斗场的舞台。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "那位大人满怀善意，却不知道看台上的观众根本不在乎技巧，也不在乎表演是否精彩。\n他们真正想看的，只有从活人身上飞溅出来的鲜血。",
+    "jp_f": "但是……那位大人并不知道。观众们真正期望的，不是精湛的技巧，也不是美丽——\n而是从鲜活的人体，飞溅出来的鲜血。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，掌管角斗场的双胞胎尊者，为那位大人准备了一场盛大的角斗——由角斗士对战魔法人偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "可那根本不是为了测试人偶的实力。主人们只是想借魔法人偶之手，拆掉那些学会了思考、不再绝对服从他们的“旧人偶”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "十八号，这个……送给你~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "十八号",
+   "text": "余音？这是……剑？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "嗯。我们很快就要和那些人偶战斗了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": {
+    "cn_f": "你的剑已经破损得很严重了，所以大家凑了些钱，给你买了把新的。",
+    "jp_f": "因为十八号的剑，已经破损得很严重了，所以大家凑了些钱，给你买了把新的。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "十八号",
+   "text": "给我……诶？为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": {
+    "cn_f": "因为你帮过我们很多次呀。大家一直想着，该怎么向你道谢才好。如果没有你，我们大概早就已经死了……所以，这把剑就当作大家的谢礼吧。",
+    "jp_f": "嗯……因为大家都被十八号帮过很多次……这算是“回礼”吧？啊哈哈……要是没有你的话，大概我们早就死了吧。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "总、总之，你先收下！之后跟人偶的战斗……可能还是需要你多多照应我们……毕竟我们之中，最可靠的人就是你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "啊，不过我们也会努力的，绝不会拖你的后腿！只是……那些人偶不会像你一样手下留情。想到这，多少还是会有些害怕……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那时，我犹豫着要不要告诉她。我并不是为了谁而战，只是想反抗角斗场替我安排好的命运。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "可是……手中这把剑的重量，却让我的心微微颤动，最终什么也没能说出口。\n那是我出生以来，第一次收到别人送给我的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不是奖赏，而是一份真正的礼物",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "几天后，角斗场的主人特意安排那些被我救下、伤势尚未痊愈的同伴，和我一起迎战魔法人偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "角斗在神圣的午夜开始。为了这场盛大的表演，大角斗场内燃起了上千堆篝火。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "起初，那些人偶动作僵硬，面对我们的配合，似乎毫无还手之力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "可它们经过魔法强化的身体，比我想象中更加坚固。更可怕的是，他们被魔法强化的“头脑”，有着令人难以置信的模仿能力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "它们很快便学会了我们的战术和招式……局势也随之逆转。原本就带伤的同伴，一个接一个地倒下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "飞溅的鲜血落进篝火，发出刺耳的声响……转瞬便被震耳欲聋的欢呼淹没。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那些观众渴望更多鲜血的贪婪目光，甚至比魔法人偶更加可怕。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "好在，人偶学会的大多是我的剑技。也正因如此，倒下的同伴们才没有受到致命伤。而我也从那些熟悉的招式中，找到了取胜的机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "还是我的剑先折断！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "感受不到疼痛的人偶……来一决胜负吧。看看是你们的魔力先耗尽，\n还是我的剑先折断！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我究竟是怎么坚持下来的……现在已经记不清了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "只记得黎明到来时，在足以撼动整座角斗场的欢呼声中——我和最后一具人偶，一同倒在了染满鲜血的沙地上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "当我再次睁开眼睛时，已经是第二天了。我正躺在一辆驶往菲兰尼斯的马车里。菲兰尼斯的尊者——奥林匹娅大人买下了我。她不仅给了我自由，还让我成为了一名骑士。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "她还告诉我，她会继续研究能够代替奴隶的魔法人偶。\n总有一天，所有奴隶都会重获自由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "奥林匹娅大人给了我一个完整而正式的名字——艾琳娜·柯罗西。",
+    "jp_f": "名为「艾琳娜·柯罗西」的人，也直到此刻才真正降生于这个世界。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "为了报答奥林匹娅大人的恩情，我成为了菲兰尼斯的守夜人。我也发自内心地立下誓言，要守护她所建立的、没有奴隶的完美城邦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "成为守夜人时，奥林匹娅大人还预付了我十年的薪酬。可曾是奴隶的我，根本不知道该怎样使用这么多钱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "于是，我带着那些钱回到了埃摩。我想买下那些身受重伤的同伴，让他们重新获得自由。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就像我熬过漫长的黑夜，终于迎来黎明一样——\n我也想让同伴们迎来属于他们的黎明。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": "余音……？实在抱歉，我对这个名字没什么印象。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": "……啊，请您稍等，骑士大人。我想起来了，以前的一百零三号，好像确实叫这个名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "“以前的”……这是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": {
+    "cn_f": "哎呀，就是字面上的意思，骑士大人。角斗场里的奴隶死了，空出来的编号自然会分给后来的人。一个号码前前后后换上几个人，再正常不过了。上个月那场人偶决斗……参赛的奴隶一个都没活下来，他们的编号也早就给新来的用上了。",
+    "jp_f": "哎呀，就是字面上的意思。角斗场里的奴隶死了，空出来的编号自然也会给后来的用啊？上次那些和人偶对战的奴隶，全都没能活下来呢。他们的编号也早就给新来的用上了。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不可能！你别想骗我！那些人偶明明一个人都没杀死！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": "哎哟！骑士大人，您千万别动怒！就算借我几个胆子，我也不敢骗您啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": {
+    "cn_f": "您说得没错，那些人偶在场上的确没杀死谁。可参赛的奴隶大多伤得不轻，角斗场又不会白养一群干不了活的人。有的只撑了半天，命硬些的还多熬了个几天……但到最后，一个也没能活下来。",
+    "jp_f": "总之，参赛的奴隶大多伤得不轻。说到底，角斗场的主人，是不会白养一群干不了活的人的。半天……不对，差不多也就过去个几天吧，好像就没一个还活着了。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": {
+    "cn_f": "当时倒有几个伤得不算重。一百零三号……对，她也在其中。可没过多久，她又被送上了场，给人偶试招，当了活靶子。至于她后来撑了多久……骑士大人，我实在记不清了。您可千万别怪罪。",
+    "jp_f": "当时确实也有伤得不算重的……一百零三号也在其中，可没过多久，她又被送上了角斗场，给人偶当成了试招的靶子什么的……"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "角斗士奴隶主",
+   "text": "话说回来，骑士大人，我们这里还有比他们更上等的角斗士奴隶，您要不要考虑一下？要是想带件那场角斗的纪念品回去，我这里正好有两枚参赛奴隶的身份牌……嘿嘿，只要您今天买下一名奴隶，这两枚牌子就作为赠品，一并送您。您看怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那枚熟悉的身份牌，从我的指间滑落——坠入了角斗场地下那片永不干涸的血泊中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "魔法人偶的确站上了角斗场的舞台。可到头来……\n没有一个奴隶因此获得拯救",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对不起……是我回来得太晚了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对不起……我们明明赢了。明明已经赢了才对……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对不起……到最后……我还是一个人都没能救下……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "角斗场的欢呼如浪潮般，一阵接一阵地涌来。我听着那些声音，失魂落魄地走在埃摩的街道上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "那座舞台上最受欢迎的表演，已经从奴隶之间的角斗，变成了奴隶与魔法人偶之间的角斗。不……那根本算不上角斗。只是更合观众心意的、单方面的屠杀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "是我的错……因为我在那场角斗中证明了，奴隶与魔法人偶能够彼此厮杀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "是我……亲手断送了大家逃离角斗场的最后一条路……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "……不，还没有结束。一定还有办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "就在那时，我想起了余音曾经说起的那座塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "十八号，你知道吗？听说只要走进那座高塔，在里面许下心愿，不管什么愿望都能实现哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "如果这是真的……我希望下辈子再也不要成为奴隶。不知道这样的愿望，能不能实现呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "十八号",
+   "text": "想什么呢，那里只有元老、祭司和圣女才能进去。我们只是角斗士，根本没这个资格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "我知道啦……我是说“如果”嘛。只要还活着，说不定哪一天，我们之中真有人能碰上这样的好运呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "余音",
+   "text": "要是真有谁进了那座塔，就替大家许个愿吧——希望下辈子，我们谁都不要再做奴隶了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "如果金币换不回你们……那我就献上比金币更加珍贵的东西。\n无论要付出什么代价，我都在所不惜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "既然死亡夺走了你们，我就去那座塔里许愿。无论如何，都要亲手把你们带回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我会带着你们送给我的这把剑，不断前行，直到取得进入那座塔的资格。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我绝不会让你们的故事，就这样结束在那片染血的沙地上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "呼……这就是曾经的角斗士十八号，也是现在的守夜人——艾琳娜的故事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "曾经，十八号拿起剑，只是为了让自己活下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "可如今，我挥剑早已不再只是为了活着。我想再见你们一面……想亲口向你们道歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那时的我，谁也没能救下。在你们最痛苦的时候，我也没能陪在你们身边……\n真的……对不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

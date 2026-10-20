@@ -1,0 +1,34 @@
+{
+ "heading": "# 战斗气泡 `BBm_DormApproach`",
+ "info_title": "剧本信息",
+ "info": [
+  "- **AVG 剧本**：`BBm_DormApproach`",
+  "- **气泡条数**：2",
+  "- **出场说话人**：琥珀",
+  "- **挂载状态**：包内没有任何关卡表引用此剧本，只按剧本代号存目"
+ ],
+ "recap": "",
+ "body_title": "战斗气泡对白（SetBubble，随战斗阶段推进）",
+ "meta": {
+  "recap": "",
+  "episode": "",
+  "title": ""
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "wave",
+   "no": "1"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王……我在这里。"
+  },
+  {
+   "k": "bubble",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王……琥珀，想贴一下。"
+  }
+ ]
+}

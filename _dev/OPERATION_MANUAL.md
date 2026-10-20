@@ -291,7 +291,7 @@ python -m http.server 8000 --directory site
 
 | 校验器 | 盯什么 | 契约组 |
 |---|---|---|
-| `tests/story/validate_story.py` | `story_docs/` 对旧产物、对剧本原文 | `A` `A2` 跳过概要/逐句台词；`B` 气泡逐阶段；`C` 行来源计数；`D`/`E`/`F` 变异 + 挂载审计 + 全树逐页；`K` 气泡挂章；`M`/`M2` 注音保真；`M3` 单选项抉择；`P` 诊断侧车 |
+| `tests/story/validate_story.py` | `story_docs/` 对剧本原文 | `B` 气泡逐阶段；`C` 行来源计数；`D`/`E`/`F` 变异 + 挂载审计 + 全树逐页（含跳过概要 vs `SetIntro[3]`）；`K` 气泡挂章；`M`/`M2` 注音保真；`M3` 单选项抉择；`N` 委托结算；`P` 诊断侧车；`Q` 逸闻笔记 |
 | `tests/story/validate_site.py` | `site/` 对 `story_docs/` 与剧本 | `G`/`G2`/`G3` 节点重导与对账；`H`/`H2`/`H3` 几何与落点；`I`/`I2` HTML==md 逐句；`J`/`J2` 检索索引；`L`/`L2` 抉择角标；`M`/`M2` 锚点与气泡；`M3` 单选项；`N`/`N2` 未开放门控 |
 
 每个契约组都带**植入变异测试**：故意改坏产物，同一套断言必须抓到。只看"正对照 PASS"不算数。
@@ -300,7 +300,7 @@ python -m http.server 8000 --directory site
 
 | 现象 | 先查哪里 |
 |---|---|
-| `validate_story.py` 报 A/A2 分歧 | 是不是改了 `render_md.py` 的渲染逻辑，或 `docs/`（遗留基线，见第九章）被手工动过 |
+| 产物疑似被改坏 | 用 `git diff -- story_docs/` 自查（历史对照已退役，见第九章）；`validate_story.py` 只盯绝对真值，不再对照旧产物 |
 | 报 F「计数与剧本指令数矛盾」 | 新接入的族没在 `write_coverage()` 登记，或挂载规则变了但旧文件没删（build 先删后写，重跑一次） |
 | 报 K 违例 | 战斗气泡拼名规则：必须用关卡 `StoryId` 里的章号，**不是** `Story.Chapter` |
 | 报未开放门控违例 | 新族/新页面没进 `release_gate`，或新侧车没在 `strip_locked_from_data()` 里加一条 |
@@ -326,12 +326,13 @@ python -m http.server 8000 --directory site
 后来主链路转向 `story_docs/` + 静态站 + `_beats/` IR 方案，可校验性与发布可控性都更强，
 `build_wiki.py` 遂退出主链路（它的正则参数解析还有两个硬缺陷，见 AI_HANDOVER_GUIDE 7.1）。
 
-**它今天唯一的用途**：`tests/story/validate_story.py` 的 `A`/`A2` 历史对照契约以它为基线，
-盯住"新实现没有悄悄改掉已评审内容"。
+**它今天已无脚本用途**：`A`/`A2` 历史对照契约已退役——上游持续加章后 `docs/` 与上游表
+不再覆盖同一批关卡，基线必然失配；其绝对真值部分由 `E` 组承担。改完产物后用
+`git diff -- story_docs/` 自查即可。
 
 **纪律**：
-1. **不要手工编辑** `docs/` —— 改了会让 A/A2 的"旧产物"失真；
-2. **不要删除** `docs/` —— A/A2 会直接失败；
+1. **不要手工编辑** `docs/` —— 它只是历史资料，改了没有校验器会报，但会污染历史记录；
+2. **不要删除** `docs/` —— 它仍在 git 跟踪下，是早期知识库形态的历史存档；
 3. 可再生（`python scripts/tools/build_wiki.py`），但重新生成等于重置历史基线，做之前先想清；
 4. 它不参与 CI 构建，也不随站点发布。
 

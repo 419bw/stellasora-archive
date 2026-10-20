@@ -1,28 +1,34 @@
 # -*- coding: utf-8 -*-
 """
-Validator for scripts/build_story.py against the legacy docs it must not regress.
+Validator for scripts/build_story.py against the raw Lua ground truth.
 
 Independent by construction: it re-extracts ground truth from the raw Lua with plain
 line scanning and never imports build_story.py.
 
-A  逐句对齐   : legacy dialogue == new dialogue, per 关卡 Id, same order.
 B  气泡完整性 : every SetBubble text of the mapped BBm script appears, in order,
                under the right 战斗阶段 marker; and the mapping itself follows the
                stage's own StoryId battle token, never the display code.
 C  增量归因   : new-only lines are only scene headings / chat lines / battle bubbles /
                generic choices / branch markers, and their totals match Lua counts.
 D  变异测试   : planted errors must be caught.
+E  逐句序列   : 产物台词序列 == Lua 独立重导的序列（含跳过概要 vs SetIntro[3]）
+F  全树对齐   : 每一页对齐它自己声明的那份剧本原文
 K  挂载语义   : a mounted BBm script only speaks with characters of that stage's chapter
                (F checks content against the declared stem, so a wrong declaration is
                invisible to it; this contract ignores file names entirely)
+M  注音保真   : <r=注音> 的位置与文字逐句对齐剧本
+N  委托结算   : 一页 == 该段（脚本 + SetGroupId 段号）的台词序列
 P  诊断侧车   : story_docs/_diagnostics.json 与 pipeline/diagnostics.py 的分类注册表
                同构（schema/note/排序/去重），且子进程重建后逐字节一致
+Q  逸闻笔记   : 人物合并页、获取条件与散文正文 1:1 对齐源表
+
+历史对照（原 A / A2：docs/ 旧世代产物 vs story_docs/）已退役——story_docs/ 本身在
+git 里，改完直接 `git diff -- story_docs/` 就是更贴近的历史对照。
 """
 import sys, os, re, glob, json, collections
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OLD = os.path.join(ROOT, 'docs')
 NEW = os.path.join(ROOT, 'story_docs')
 CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Config')
 BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
@@ -36,44 +42,15 @@ from pipeline.diagnostics import Diagnostics as _Diagnostics  # noqa: E402
 _REGISTRY_NOTE = _Diagnostics().note()
 
 # ---- 分级退出码（管线重构 Phase 0 引入）----------------------------------------
-# 绝对真值契约（B/C/D/E/F/K/M：产物 vs 剧本原文/表数据、全部变异测试）违例 → exit 1。
-# 历史对照契约（A/A2 的 old-vs-new 比较）走白名单：docs/ 是 legacy 生成器产物，
-# 下列 6 个关卡的 old-vs-new 差异是旧生成器缺陷 + 新生成器 _NOT_IN_LOG_ 帧折叠修复
-# 的既定结果（人工核对过，非回归信号），仅当差异超出白名单才硬失败。
+# 全部检查组都是绝对真值契约（产物 vs 剧本原文 / 表数据）+ 植入变异测试，违例即 exit 1。
+# 曾经另有一档"历史对照契约"（原 A/A2 的 docs/ vs story_docs/ 逐句对比，走白名单），
+# 已退役：story_docs/ 在 git 里，`git diff -- story_docs/` 是更贴近的历史对照。
 HARD = []
 
 
 def hard(cond, label):
     if not cond:
         HARD.append(label)
-
-
-A_WHITELIST = {
-    # old=docs/ legacy 产物, new=story_docs/ 现产物；len 为可比台词行数 old vs new
-    '1011':        '旧版把渐显帧逐帧计入（len 208 vs 166），新版按 _NOT_IN_LOG_ 折叠',
-    '101110206':   '旧版多计一条渐显帧（len 98 vs 97）',
-    '201010209':   '旧版把渐显帧逐帧计入（len 97 vs 83）',
-    '605':         '旧版把 ==A-1==/==RT== 信号原样写进文本（len 121 vs 121）',
-    '927':         '旧版把渐显帧逐帧计入（len 249 vs 193）',
-    '928':         '旧版多计渐显帧（len 314 vs 307）',
-
-    # ---- 上游 1.16.1（2026-10-06）第十章《遥远的塔》更新触发的差异 ----
-    # docs/ 是旧世代生成器产物（渲染自更早的上游数据）。以下每一项都已回 Lua
-    # 原文核对，且与 04d14b6（上游自动同步提交=旧解析器渲染同一份新数据）对拍：
-    # 新旧解析器台词逐行一致，差异全部在旧产物侧，非新解析器回归。上游再次
-    # 修订文本时本表需按同一流程补充登记。
-    '1002':        '旧产物文本损坏（Lua 原文「好，很有精神」，legacy 误作「好，好有精神」）',
-    '1003':        '旧产物剥离 <r=BOSS></r> 注音标记（新版自 Phase 4a 起保留）',
-    '1006':        '旧产物分句词序错（Lua 原文「与…同时开战」，legacy 作「同时与…一同开战」）',
-    '1012':        '旧产物句尾「？」误作「。」（Lua 原文为「？」）',
-    '1017':        '旧产物「的多」（Lua 原文「得多」）',
-    '1019':        '旧产物未渲染该篇（台词 0 行 vs 103）；新旧解析器对拍一致',
-    '1021':        '旧产物未渲染该篇（台词 0 行 vs 113）；新旧解析器对拍一致',
-    '1022':        '旧产物未渲染该篇（台词 0 行 vs 147）；新旧解析器对拍一致',
-    '1024':        '旧产物未渲染该篇（台词 0 行 vs 128）；新旧解析器对拍一致',
-    '1025':        '旧产物未渲染该篇（台词 0 行 vs 95）；新旧解析器对拍一致',
-    '1026':        '旧产物未渲染该篇（台词 0 行 vs 411）；新旧解析器对拍一致',
-}
 
 
 TALK = re.compile(r'^\*\*(.+?)\*\*(?:（[^）]*）)?：「(.*)」$')
@@ -209,27 +186,10 @@ def lua_counts(stems):
     return c
 
 
-# ============================================================= pair up old vs new
+# ============================================================= pair up new files
 new_files = {}
 for p in glob.glob(os.path.join(NEW, '**', 'sections', '*.md'), recursive=True):
     new_files.setdefault(id_of(p), p)
-old_files = {}
-for p in glob.glob(os.path.join(OLD, 'story', '**', 'sections', '*.md'), recursive=True):
-    old_files.setdefault(id_of(p), p)
-
-def legacy_gender_equal(old, new):
-    """Ignore legacy marker spacing and its uniform 你; Lua checks stay exact."""
-    old = [re.sub(r'\s+', '', s) for s in old]
-    new = [re.sub(r'\s+', '', s) for s in new]
-    words = '|'.join(re.escape(w) for w in SEX_TABLE.values())
-    return len(old) == len(new) and all(
-        re.fullmatch(re.escape(a).replace('你', '(?:你|' + words + ')'), b)
-        for a, b in zip(old, new))
-
-
-def strip_esc(s):
-    BS = chr(92)
-    return s.replace(BS + '"', '').replace(BS, '')
 
 
 def recap_of(path):
@@ -270,84 +230,17 @@ def lua_setintro_recap(stem):
 
 story = json.load(open(os.path.join(BIN, 'Story.json'), encoding='utf-8'))
 lang = json.load(open(os.path.join(LANG, 'Story.json'), encoding='utf-8'))
-act = json.load(open(os.path.join(BIN, 'ActivityStory.json'), encoding='utf-8'))
-both = sorted(set(old_files) & set(new_files))
 
-print()
-print("=" * 66)
-print("A2  跳过概要：旧产物 == 新产物 == 剧本 SetIntro[3]")
-print("=" * 66)
-mism_old, mism_intro = [], []
-escape_recap = 0
-truncated = []
-checked = 0
-for i in both:
-    np_ = new_files[i]
-    new_recap = recap_of(np_)
-    old_recap = recap_of(old_files[i])
-    m = re.search(r'AVG 剧本\*\*：`([A-Za-z0-9_]+)`', open(np_, encoding='utf-8').read())
-    stem = m.group(1) if m else None
-    truth = lua_setintro_recap(stem) if stem else None
-    if not new_recap and not old_recap and not truth:
-        continue
-    checked += 1
-    if new_recap != old_recap:
-        if new_recap == old_recap.replace('\\' + '"', '"'):
-            escape_recap += 1
-            continue          # 旧产物把 Lua 的 \" 漏进文本，新产物已正确还原
-        if new_recap.startswith(strip_esc(old_recap).rstrip()):
-            truncated.append((i, old_recap[-24:]))
-            continue          # 旧产物用 "([^"]*)" 抠 SetIntro，遇到 \" 直接截断
-        mism_old.append((i, old_recap[:38], new_recap[:38]))
-    if truth is not None and truth and new_recap != truth:
-        mism_intro.append((i, truth[:38], new_recap[:38]))
-print('有概要的关卡：%d   新产物与 SetIntro 不一致：%d   旧产物转义泄漏：%d   旧产物被截断：%d   其它不一致：%d'
-      % (checked, len(mism_intro), escape_recap, len(truncated), len(mism_old)))
-for x in truncated[:6]:
-    print('   ~  旧版截断于:', x)
-for x in mism_old[:6]:
-    print('   !! old vs new', x)
-for x in mism_intro[:6]:
-    print('   !! intro vs new', x)
-hard(not mism_intro, 'A2 新产物概要与剧本 SetIntro[3] 不符：%d 处' % len(mism_intro))
-hard(not [x for x in mism_old if x[0] not in A_WHITELIST],
-     'A2 old-vs-new 超白名单：%s' % sorted({x[0] for x in mism_old} - set(A_WHITELIST)))
-
-print()
-print("=" * 66)
-print("A  逐句对齐（旧产物台词序列 == 新产物台词序列）")
-print("=" * 66)
-diffs = []
-escape_only = []
-compared = 0
-chat_added = 0
-for i in both:
-    a = dialogue(old_files[i])
-    b = dialogue(new_files[i], drop_chat=True)
-    chat_added += len([l for l in lines_of(new_files[i]) if '（短信）' in l or '〔发送表情' in l])
-    if not a and not b:
-        continue
-    compared += 1
-    if a != b:
-        if legacy_gender_equal(a, b):
-            continue
-        if legacy_gender_equal([x.replace('\\' + '"', '"') for x in a], b):
-            escape_only.append(i)
-            continue
-        first = next((k for k in range(min(len(a), len(b))) if a[k] != b[k]), None)
-        diffs.append((i, os.path.basename(old_files[i]), 'len %d vs %d' % (len(a), len(b)),
-                      'old=%s' % (a[first][:34] if first is not None and first < len(a) else ''),
-                      'new=%s' % (b[first][:34] if first is not None and first < len(b) else '')))
-print('共同关卡：%d  有台词且可比：%d  真实不一致：%d  仅旧版转义泄漏：%d'
-      % (len(both), compared, len(diffs), len(escape_only)))
-print('   （转义泄漏 = 旧产物把 Lua 的 \\" 直接写进文本，共 %s 篇：%s）'
-      % (len(escape_only), ", ".join(escape_only[:6])))
-print('新产物补出的短信正文行数：%d（旧产物完全没渲染 SetPhoneMsg）' % chat_added)
-for d in diffs[:12]:
-    print('   !!', d)
-hard(all(d[0] in A_WHITELIST for d in diffs),
-     'A 历史对照超白名单：%s' % sorted({d[0] for d in diffs} - set(A_WHITELIST)))
-old_only = set(old_files) - set(new_files)
+# ---- 已退役：旧世代产物 docs/ 的逐句 / 逐概要历史对照（原 A 与 A2）--------------
+# 退役理由，两条各自独立成立：
+#   * A2 的绝对真值部分（产物跳过概要 vs Lua SetIntro[3]）与 E 组完全重复；
+#   * A 的历史对照前提是"docs/ 与上游表覆盖同一批关卡"，上游每加一章就失配一次
+#     （第 11 章整章在 docs/ 里不存在 → 表推导的 expected 34 ≠ docs/ 推导的
+#     old_only 21），过去只能靠不断往 A_WHITELIST 补条目糊过去。
+# 现在 story_docs/ 本身在 git 里：改完直接 `git diff -- story_docs/` 就是更贴近的
+# 历史对照（比的是上一次提交，不是几年前的生成器），也不需要维护白名单。
+print('A  历史对照（docs/ vs story_docs/）已退役：改用 git diff -- story_docs/，'
+      '概要对账由 E 组承担')
 
 
 def bbm_candidate(r):
@@ -376,19 +269,6 @@ def bbm_story_token(r):
     tail = re.sub(r'[^A-Za-z0-9]', '', m.group(1))
     return tail if re.fullmatch(r'BT\d+', tail) else None
 
-
-exp_main = {str(r['Id']) for r in story.values()
-            if not os.path.exists(os.path.join(CFG, str(r.get('StoryId')) + '.lua'))
-            and not (r.get('IsBattle') and bbm_candidate(r)
-                     and os.path.exists(os.path.join(CFG, bbm_candidate(r) + '.lua')))}
-exp_act = {str(r['Id']) for r in act.values()
-           if not os.path.exists(os.path.join(CFG, str(r.get('AvgLuaName') or '') + '.lua'))}
-expected = exp_main | exp_act
-print('旧有新无的关卡 Id：%d（预期：%d = 主线无剧本行 %d + 活动战斗行 %d）%s'
-      % (len(old_only), len(expected), len(exp_main), len(exp_act),
-         'OK' if old_only == expected else '!! 差集: %s' % str(sorted(old_only ^ expected))[:200]))
-hard(old_only == expected,
-     'A 旧有新无差集与表推导不符: %s' % str(sorted(old_only ^ expected))[:120])
 
 print()
 print("=" * 66)
@@ -1301,6 +1181,5 @@ if HARD:
         print('   ✗', x)
     sys.exit(1)
 print('RESULT: PASS —— 绝对真值契约（B/C/D/E/F/K/M/N/P/Q + 全部变异测试）全绿；')
-print('              历史对照（A/A2）在白名单内（%d 关卡：%s）'
-      % (len(A_WHITELIST), ', '.join(sorted(A_WHITELIST))))
+print('              历史对照已退役，改完用 git diff -- story_docs/ 自查')
 sys.exit(0)

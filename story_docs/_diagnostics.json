@@ -30,6 +30,16 @@
    "sid": "BAm06x5_02",
    "expected_stem": "BBm06x5_BT02",
    "chapter": 7
+  },
+  {
+   "sid": "BAm10001_BT02",
+   "expected_stem": "BBm10001_BT02",
+   "chapter": 11
+  },
+  {
+   "sid": "BAm10001_BT03",
+   "expected_stem": "BBm10001_BT03",
+   "chapter": 11
   }
  ],
  "unattached_bbm_scripts": [
@@ -38,9 +48,90 @@
   "BBm00_03",
   "BBm00_04",
   "BBm00_05",
-  "BBm00_06"
+  "BBm00_06",
+  "BBm_DormApproach",
+  "BBm_DormIndoor",
+  "BBm_DormOutdoor"
  ],
- "rows_without_script": [],
+ "rows_without_script": [
+  {
+   "chapter": 11,
+   "sid": 1111,
+   "stem": "STm10001_10",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1112,
+   "stem": "STm10001_11",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1113,
+   "stem": "STm10001_12",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1114,
+   "stem": "STm10001_13",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1115,
+   "stem": "STm10001_14",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1117,
+   "stem": "STm10001_15",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1118,
+   "stem": "STm10001_16",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1119,
+   "stem": "STm10001_17",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1120,
+   "stem": "STm10001_18",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1122,
+   "stem": "STm10001_19",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  },
+  {
+   "chapter": 11,
+   "sid": 1123,
+   "stem": "STm10001_20",
+   "title": "敬请期待",
+   "kind": "剧情关卡"
+  }
+ ],
  "speaker_prefix_fallbacks": [
   {
    "sid": "avg1_134_BB_002",
@@ -53,7 +144,7 @@
    "resolved": "千都世"
   }
  ],
- "speaker_inline_names": 1033,
+ "speaker_inline_names": 1063,
  "choice_frame_anomalies": [
   {
    "stem": "CG_126_03",
