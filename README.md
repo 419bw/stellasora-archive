@@ -97,10 +97,8 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-10-20
-- fix: 审查跟进——SortIndex 强转 int、模板 switch/line_key 去重、时间线滚轮 ARIA 补全
-- feat(site): 章图页切换条按时间线折叠
-- feat(story): 特别篇与时间线判定改由上游表驱动
+### 2026-10-21
+- 上游数据与剧本文案修正
 
 ---
 
