@@ -1404,21 +1404,37 @@ mark.q-hit {
   border-color: var(--chapsel-accent-dark, #38BDF8);
 }
 
-/* 章图页切换条里的时间线段标签（主线按 StoryLine.json 分段） */
+/* 章图页切换条：每条时间线一个 <details>（原生开合，无 JS 也能用）。
+   当前章所在的那条默认展开，其余收起——在一条时间线里时，另一条线的
+   章节跳转按钮不占地方，点它的标签即可展开。时间线标签就是普通文本
+   （不装按钮外壳），悬停时变色提示可点；展开状态由章节按钮是否可见
+   直接体现，不用箭头指示。 */
+.chapline-seg { display: block; }
+.chapline-seg > summary {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 3px;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+.chapline-seg > summary::-webkit-details-marker { display: none; }
+.chapline-seg > a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 3px;
+}
 .chapline-label {
-  align-self: center;
   padding: 0 2px 0 6px;
   font-size: 11.5px;
   font-weight: 700;
   color: var(--text-muted);
   letter-spacing: 0.04em;
   white-space: nowrap;
+  transition: color 0.15s ease;
 }
-.chapline-label::after {
-  content: "▸";
-  margin-left: 5px;
-  color: var(--chapsel-accent, #0284C7);
-}
+.chapline-label:hover { color: var(--chapsel-accent, #0284C7); }
+[data-theme="dark"] .chapline-label:hover { color: var(--chapsel-accent-dark, #38BDF8); }
 
 /* ============================================================ 时间线滚轮
    主线索引页左侧的 wheel picker：CSS scroll-snap 垂直滚轮，纯手写不引库。

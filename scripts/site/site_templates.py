@@ -472,24 +472,41 @@ def chapter_switch(c, all_chapters, root):
 
     链接一律用 ``c['slug']``（侧车字段），不再用 ``no or 'sp'`` 推导——两个
     特别篇曾因那条推导撞进同一个 ``chsp`` 目录、后写的覆盖先写的。
+
+    每条时间线是一个 ``<details>``：当前章所在的那条默认展开，其余收起——
+    在一条时间线里时，另一条线的章节跳转按钮不占地方，点它的标签即可展开。
+    开合是 details 原生行为：无 JS 可用，也不需要 js-enabled 防闪烁。
+    没有时间线归属的章（活动剧情等）不分组，直接平铺。
     """
     def line_key(x):
         info = x.get('story_line') or {}
         si = info.get('sort_index')
         return (si if isinstance(si, int) else 10 ** 6, x['id'])
 
-    parts = []
-    last = object()
+    segs = []
     for x in sorted(all_chapters, key=line_key):
         info = x.get('story_line') or {}
-        if info.get('id') != last:
-            label = info.get('title') or ''
-            if label:
-                parts.append('<span class="chapline-label">%s</span>' % esc(label))
-            last = info.get('id')
-        parts.append('<a href="%smain/%s/index.html"%s>%s</a>' % (
-            root, x['slug'], ' class="on"' if x['id'] == c['id'] else '',
-            esc(x['name'] or '特别篇')))
+        lid = info.get('id')
+        if not segs or segs[-1]['id'] != lid:
+            segs.append({'id': lid, 'label': info.get('title') or '',
+                         'items': [], 'current': False})
+        if x['id'] == c['id']:
+            segs[-1]['current'] = True
+        segs[-1]['items'].append(
+            '<a href="%smain/%s/index.html"%s>%s</a>' % (
+                root, x['slug'], ' class="on"' if x['id'] == c['id'] else '',
+                esc(x['name'] or '特别篇')))
+
+    parts = []
+    for seg in segs:
+        if not seg['label']:
+            parts.extend(seg['items'])
+            continue
+        parts.append(
+            '<details class="chapline-seg"%s>'
+            '<summary class="chapline-label">%s</summary>%s</details>'
+            % (' open' if seg['current'] else '',
+               esc(seg['label']), ''.join(seg['items'])))
     return ' '.join(parts)
 
 
