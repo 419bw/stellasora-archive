@@ -65,7 +65,8 @@ def story_lines(bin_dir, lang_dir):
             'id': lid,
             'title': str(lang.get(row.get('TitleMain') or '', '') or ''),
             'subtitle': str(lang.get(row.get('TitleSub') or '', '') or ''),
-            'sort_index': row.get('SortIndex'),
+            # 强转 int：站点侧 _line_sort_key 只认 int，字符串会静默沉底并拆段
+            'sort_index': _as_int(row.get('SortIndex')),
             'icon': row.get('Icon'),
         }
     return out

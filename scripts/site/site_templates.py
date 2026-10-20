@@ -441,8 +441,6 @@ def chapter_graph_page(c, all_chapters):
                          esc(min((n['code'] or '·') for n in c['nodes'] if n['col'] == col)))
                       for col in range(g['columns']))
                       
-    switch = chapter_switch(c, all_chapters, root)
-
     unreleased = sum(1 for n in c['nodes'] if n['state'] == 'unreleased')
     return layout('%s《%s》' % (c['name'], c['title']), """
 <h1>%s《%s》</h1>
@@ -467,6 +465,14 @@ def chapter_graph_page(c, all_chapters):
         d, crumb)
 
 
+def _line_sort_key(x):
+    """时间线排序键：sort_index 升序（与游戏内左侧入口一致），缺 story_line 的章
+    归到末尾，同键按章 Id。chapter_switch 与 main_index 共用，防两处排序规则漂移。"""
+    info = x.get('story_line') or {}
+    si = info.get('sort_index')
+    return (si if isinstance(si, int) else 10 ** 6, x['id'])
+
+
 def chapter_switch(c, all_chapters, root):
     """章图页内的章节切换条：按时间线分段，段首是该线的官方标题。
 
@@ -478,13 +484,8 @@ def chapter_switch(c, all_chapters, root):
     开合是 details 原生行为：无 JS 可用，也不需要 js-enabled 防闪烁。
     没有时间线归属的章（活动剧情等）不分组，直接平铺。
     """
-    def line_key(x):
-        info = x.get('story_line') or {}
-        si = info.get('sort_index')
-        return (si if isinstance(si, int) else 10 ** 6, x['id'])
-
     segs = []
-    for x in sorted(all_chapters, key=line_key):
+    for x in sorted(all_chapters, key=_line_sort_key):
         info = x.get('story_line') or {}
         lid = info.get('id')
         if not segs or segs[-1]['id'] != lid:
@@ -550,15 +551,10 @@ def main_index(chapters, locked_items=()):
     d = depth_of('main/index.html')
     crumb = '<a href="../index.html">首页</a> › 主线剧情'
 
-    # 时间线分组：滚轮顺序按 sort_index 升序（与游戏内左侧入口一致，时间线 2 在上），
-    # 缺 story_line 的章归到末尾。默认激活章节数最多的那条线（当前即时间线 1 主线）。
-    def line_key(x):
-        info = x.get('story_line') or {}
-        si = info.get('sort_index')
-        return (si if isinstance(si, int) else 10 ** 6, x['id'])
-
+    # 时间线分组：滚轮顺序见 _line_sort_key（sort_index 升序，与游戏内左侧入口
+    # 一致，时间线 2 在上）。默认激活章节数最多的那条线（当前即时间线 1 主线）。
     groups = []
-    for c in sorted(chapters, key=line_key):
+    for c in sorted(chapters, key=_line_sort_key):
         info = c.get('story_line') or {}
         key = info.get('id')
         if not groups or groups[-1]['id'] != key:
@@ -582,18 +578,25 @@ def main_index(chapters, locked_items=()):
         key = 'none' if g['id'] is None else str(g['id'])
         title = info.get('title') or '主线'
         active = ' is-active' if i == default_idx else ''
+        sel = 'true' if i == default_idx else 'false'
+        # ARIA 补全：容器声明了 tablist，子项就得有 role="tab" + aria-selected，
+        # 面板配 role="tabpanel" + aria-labelledby；aria-selected 由 site_js 的
+        # activate() 随视觉状态同步。全部是读屏元数据，零视觉影响。
         wheel.append(
-            '<a class="linewheel-item%s" href="#line-%s" data-line="%s">'
+            '<a class="linewheel-item%s" href="#line-%s" data-line="%s"'
+            ' role="tab" id="linetab-%s" aria-selected="%s" aria-controls="line-%s">'
             '<span class="lw-title">%s</span>'
             '<span class="lw-sub">%s</span>'
             '<span class="lw-count">%d 章</span>'
-            '</a>' % (active, key, key, esc(title), esc(info.get('subtitle') or ''),
+            '</a>' % (active, key, key, key, sel, key,
+                      esc(title), esc(info.get('subtitle') or ''),
                       len(g['cards'])))
         panes.append(
-            '<section class="linepane%s" id="line-%s" data-line="%s">'
+            '<section class="linepane%s" id="line-%s" data-line="%s"'
+            ' role="tabpanel" aria-labelledby="linetab-%s">'
             '<h2 class="linepane-title">%s%s</h2>'
             '<ul class="chaplist">%s</ul>'
-            '</section>' % (active, key, key, esc(title),
+            '</section>' % (active, key, key, key, esc(title),
                             ('　%s' % esc(info.get('subtitle'))) if info.get('subtitle') else '',
                             ''.join(g['cards'])))
 

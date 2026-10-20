@@ -96,8 +96,10 @@ def test_story_lines_parses_titles_and_sort_index(tmp_path):
     (bin_dir / 'StoryLine.json').write_text(
         '{"1": {"Id": 1, "TitleMain": "StoryLine.1.1", "TitleSub": "StoryLine.1.2",'
         ' "SortIndex": 2, "Icon": "Icon/ZZZOther/timeline_2_l"},'
+        # 线 2 的 SortIndex 故意写成字符串：story_lines 必须强转 int，否则站点侧
+        # _line_sort_key（只认 int）会把该线静默沉底并拆成多段。
         ' "2": {"Id": 2, "TitleMain": "StoryLine.2.1", "TitleSub": "StoryLine.2.2",'
-        ' "SortIndex": 1}}',
+        ' "SortIndex": "1"}}',
         encoding='utf-8')
     (lang_dir / 'StoryLine.json').write_text(
         '{"StoryLine.1.1": "我思，故魔王在", "StoryLine.1.2": "星塔历996年",'

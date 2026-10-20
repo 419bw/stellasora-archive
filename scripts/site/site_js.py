@@ -360,7 +360,10 @@ JS = """(function() {
 
     function activate(key, pushHash) {
       items.forEach(function(item) {
-        item.classList.toggle('is-active', item.getAttribute('data-line') === key);
+        var on = item.getAttribute('data-line') === key;
+        item.classList.toggle('is-active', on);
+        // ARIA 选中态与视觉状态同步（读屏器播报用，零视觉影响）
+        item.setAttribute('aria-selected', on ? 'true' : 'false');
       });
       panes.forEach(function(pane) {
         pane.classList.toggle('is-active', pane.getAttribute('data-line') === key);
