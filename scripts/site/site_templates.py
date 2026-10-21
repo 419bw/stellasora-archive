@@ -925,7 +925,7 @@ def home_page(pages, personality_data):
   <div class="hero-badge-wrap">
     <a class="hero-update-pill" href="#updates">
       <span class="pill-dot"></span>
-      <span class="pill-date">2026-10-21</span>
+      <span class="pill-date">2026-10-22</span>
       <span class="pill-sep">·</span>
       <span class="pill-text">上次更新：上游数据与剧本文案修正</span>
       <span class="pill-arrow">↓</span>
@@ -969,7 +969,7 @@ def home_page(pages, personality_data):
       </div>
       <div class="update-date-badge">
         <span class="dot"></span>
-        <span>更新时间：2026-10-21</span>
+        <span>更新时间：2026-10-22</span>
       </div>
     </div>
     <div class="update-summary">上游数据与剧本文案修正</div>
