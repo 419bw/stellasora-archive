@@ -264,12 +264,25 @@ hard(not (md_on_disk - declared), 'G2 磁盘上没登记：%d' % len(md_on_disk 
 dup = [k for k, v in collections.Counter((p['family'], p['id']) for p in pages).items() if v > 1]
 nopagelink = [p for p in pages if not p['page']]
 badcount = []
+ENDING_T = table('SoldierEndingPlan')
 for p in pages:
     if p['family'] == 'anecdotes':
         n_anec = p['counts'].get('anecdote', 0)
         if n_anec <= 0 or n_anec != len(p.get('notes') or []):
             badcount.append((p['family'], p['id'], '逸闻笔记则数异常 %s!=%s'
                              % (n_anec, len(p.get('notes') or []))))
+        continue
+    if p.get('table_refs'):
+        # 表驱动页（尖兵陷阵终局）：无剧本代号，逐条核对表行存在
+        if p['stems']:
+            badcount.append((p['family'], p['id'], '表驱动页不应有剧本代号 %s' % p['stems']))
+        if p['counts'].get('anecdote', 0) != 1:
+            badcount.append((p['family'], p['id'], '表驱动页 anecdote 计数异常 %s'
+                             % p['counts'].get('anecdote', 0)))
+        for ref in p['table_refs']:
+            tbl, _, rid = ref.partition('#')
+            if tbl != 'SoldierEndingPlan' or rid not in ENDING_T:
+                badcount.append((p['family'], p['id'], '表行不存在 %s' % ref))
         continue
     if not p['stems']:
         badcount.append((p['family'], p['id'], '无剧本代号'))
@@ -666,7 +679,7 @@ for p in published:
         continue
     md = open(os.path.join(OUT, *p['page_md'].split('/')), encoding='utf-8').read()
     html = open(hp, encoding='utf-8').read()
-    if p['family'] == 'anecdotes':
+    if p['family'] == 'anecdotes' or p.get('table_refs'):
         md_notes = [
             (m.group(2), md_view(m.group(1).strip())[0], md_view(m.group(3).strip())[0],
              [md_view(x.strip())[0] for x in m.group(4).splitlines() if x.strip()])
@@ -719,7 +732,8 @@ expected = {p['page'] for p in published} | {'index.html', 'main/index.html'} | 
            {chapter_path.chapter_page(c['slug']) for c in CH['chapters']} | \
            {'%s/index.html' % s for s in ('events', 'characters', 'npc', 'discs',
                                           'storysets', 'prologue', 'battles',
-                                          'dispatch', 'anecdotes')} | \
+                                          'dispatch', 'anecdotes', 'returnee',
+                                          'soldier')} | \
            main_battle_archive_pages | \
            {'events/10106/index.html', 'events/20101/index.html'} | \
            activity_battle_pages | set(GATE.page_urls())

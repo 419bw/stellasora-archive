@@ -16,6 +16,8 @@ FAMILIES = [
     ('battles_unmounted', '存目战斗气泡', '战场独立战斗气泡与实时对白。'),
     ('dispatch', '委托对话', '委托（Agent）结算演出台词：完成含特殊报酬的委托时，按上阵旅人与权重随机播放；单人是每位旅人的代表作，双人/三人是随行短对话。'),
     ('anecdotes', '逸闻笔记', '攀登的旅途，总是伴随着意外'),
+    ('returnee', '回归剧情', '回归玩家重逢活动《归星漫途》的开场剧情全文。'),
+    ('soldier', '尖兵陷阵', '自走棋模式「尖兵陷阵」的开场剧情与终局档案。'),
 ]
 FAMILY_NAME = {k: n for k, n, _ in FAMILIES}
 
@@ -70,6 +72,16 @@ FAMILY_META = {
         'span': 'span-1',
         'desc': '攀登的旅途，总是伴随着意外',
     },
+    'returnee': {
+        'code': '11',
+        'span': 'span-1',
+        'desc': '回归玩家重逢活动《归星漫途》的开场剧情全文。',
+    },
+    'soldier': {
+        'code': '12',
+        'span': 'span-1',
+        'desc': '自走棋模式「尖兵陷阵」的开场剧情与终局档案。',
+    },
 }
 
 STATE_LABEL = {'battle': '战斗', 'story': '剧情'}
@@ -79,7 +91,8 @@ def slug_of(family):
     return {'main': 'main', 'events': 'events', 'characters': 'characters',
             'npc_bonds': 'npc', 'discs': 'discs', 'storysets': 'storysets',
             'prologue': 'prologue', 'battles_unmounted': 'battles',
-            'dispatch': 'dispatch', 'anecdotes': 'anecdotes'}[family]
+            'dispatch': 'dispatch', 'anecdotes': 'anecdotes',
+            'returnee': 'returnee', 'soldier': 'soldier'}[family]
 
 
 def esc(s):
@@ -832,9 +845,13 @@ def family_index(family, intro, pages_in_family, locked_items=()):
                     )
                 continue
             is_battle = it.get('kind') == 'battle'
-            sub = ('战斗关卡' if is_battle
-                   else ('%d 句' % it['counts'].get('talk', 0)
-                         + (' / %d 气泡' % it['counts']['bubble'] if it['counts'].get('bubble') else '')))
+            if it.get('table_refs'):
+                sub = '终局文本 · %d 字' % it.get('text_chars', 0)
+            elif is_battle:
+                sub = '战斗关卡'
+            else:
+                sub = ('%d 句' % it['counts'].get('talk', 0)
+                       + (' / %d 气泡' % it['counts']['bubble'] if it['counts'].get('bubble') else ''))
             display_title = full_title(it.get('code'), it.get('title'))
             links.append('<li><a class="plain-link" href="%s"><span class="link-title">%s</span><span class="sub">%s</span></a></li>'
                          % (rel(d, it['page']), esc(display_title), esc(sub)))

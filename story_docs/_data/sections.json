@@ -2,7 +2,7 @@
  "meta": {
   "chapters": 11,
   "nodes": 219,
-  "pages": 690,
+  "pages": 694,
   "families": [
    "anecdotes",
    "battles_unmounted",
@@ -13,6 +13,8 @@
    "main",
    "npc_bonds",
    "prologue",
+   "returnee",
+   "soldier",
    "storysets"
   ]
  },
@@ -26041,6 +26043,120 @@
      "source": "携带艾蕾通关3次星塔"
     }
    ]
+  },
+  {
+   "id": "ST_sys_reengagement",
+   "family": "returnee",
+   "code": "",
+   "title": "归星漫途",
+   "group": {
+    "kind": "returnee",
+    "id": 101004,
+    "label": "归星漫途"
+   },
+   "page_md": "returnee/sections/ST_sys_reengagement_归星漫途.md",
+   "page": "returnee/ST_sys_reengagement.html",
+   "stems": [
+    "ST_sys_reengagement"
+   ],
+   "recap": "",
+   "speakers": [
+    "琥珀",
+    "尘沙",
+    "鸢尾",
+    "魔王",
+    "尘沙&琥珀"
+   ],
+   "counts": {
+    "talk": 33,
+    "sticker": 0
+   },
+   "preview": "尘沙，肚子饿了，午饭还没好吗？ 嗯~没呢，没呢，马上就好！再耐心等一等！ 不知道今天魔王会回来吗？ 放心啦，魔王今天一定会回来的，我都特意做了四人份的饭了。 话是这么说，可这些日子不是每天都做的四人份吗？ 果然，魔王不在，尘沙也会觉得很寂寞呢，不用勉强自己的…… 唔……我哪有啊……之前就算做的比平时多，那也因为我想多吃一点，所以实际上还是三人份啦！ 尘沙……"
+  },
+  {
+   "id": "ST_sys_soldier_intro",
+   "family": "soldier",
+   "code": "",
+   "title": "尖兵陷阵 · 开场剧情",
+   "group": {
+    "kind": "soldier_intro",
+    "id": "01_intro",
+    "label": "开场"
+   },
+   "page_md": "soldier/sections/ST_sys_soldier_intro_尖兵陷阵 · 开场剧情.md",
+   "page": "soldier/ST_sys_soldier_intro.html",
+   "stems": [
+    "ST_sys_soldier_intro"
+   ],
+   "recap": "",
+   "speakers": [
+    "旁白",
+    "？？？",
+    "尘沙",
+    "魔王",
+    "琥珀",
+    "鸢尾",
+    "贝修莉娜",
+    "风影"
+   ],
+   "counts": {
+    "talk": 46,
+    "choice": 2,
+    "sticker": 0
+   },
+   "preview": "本应是完美无瑕的作品，为何却会日渐腐朽？ 不是因为所用的材料不够珍贵，也并非制作的技艺有欠缺。\n仅仅是因为……它被置入了残缺之中。 灰尘在其表面堆积，杂音混入其回响。\n而后，错误化作侵蚀一切的伤痕—— 久而久之，人们便会忘记何为正确。\n最终甚至会把那份残缺当成自身的本质。 所以……若想达到真正的完美，就不能仅仅满足于“完成”一件作品，还必须不断地修正其中的误"
+  },
+  {
+   "id": 10101,
+   "family": "soldier",
+   "code": "",
+   "title": "帷幕后的人偶",
+   "group": {
+    "kind": "soldier_ending",
+    "id": "02_ending",
+    "label": "终局"
+   },
+   "page_md": "soldier/sections/10101_帷幕后的人偶.md",
+   "page": "soldier/endings/10101.html",
+   "stems": [],
+   "recap": "",
+   "speakers": [],
+   "counts": {
+    "anecdote": 1,
+    "sticker": 0
+   },
+   "preview": "战斗持续了太久。 眼前的敌人一次次承受攻击，又一次次修复破损的躯体。交锋之中祂的力量不断增强，逐渐将调查队逼至败局边缘。现在，祂仍旧保持着那副优雅从容的姿态等待着你们的挑战，而你与你的同伴已无力应敌。 先前拼尽全力的攻击，只在祂身上留下了寥寥数道伤痕。一道裂痕在祂低垂的面孔上缓缓延伸，破损的罩袍之下裸露出精密的关节构造。直至此刻你才明白，自己拼命追寻、试图击",
+   "table_refs": [
+    "SoldierEndingPlan#10101"
+   ],
+   "text_chars": 736,
+   "cg": "Icon/SoldierAVG/soldier_s1_ending_001"
+  },
+  {
+   "id": 10102,
+   "family": "soldier",
+   "code": "",
+   "title": "未至之终",
+   "group": {
+    "kind": "soldier_ending",
+    "id": "02_ending",
+    "label": "终局"
+   },
+   "page_md": "soldier/sections/10102_未至之终.md",
+   "page": "soldier/endings/10102.html",
+   "stems": [],
+   "recap": "",
+   "speakers": [],
+   "counts": {
+    "anecdote": 1,
+    "sticker": 0
+   },
+   "preview": "你已经记不清，这是第几次通过那条走廊，来到这个房间。 战斗的痕迹还留在这里，若是仔细寻找，也能找到你们留下的标记，但房间内的陈设却总与记忆中的模样有着细微的区别。重复了太多次后，你已逐渐无法确定，这里到底是已经被探索过的旧地，还是一处刻意布置得相似、用来迷惑你们的新领域。 在这座星塔里，你们不断追寻着线索前行，又不断击败阻拦在面前的强敌。曾经有数次，你们以为",
+   "table_refs": [
+    "SoldierEndingPlan#10102"
+   ],
+   "text_chars": 700,
+   "cg": "Icon/SoldierAVG/soldier_s1_ending_002"
   },
   {
    "id": "BBm00_01",

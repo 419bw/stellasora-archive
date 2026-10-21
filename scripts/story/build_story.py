@@ -128,6 +128,11 @@ LANG_EVENT_BOOK = load_json(LANG, 'StarTowerBookEventReward.json')
 BIN_CHAT = load_json(BIN, 'Chat.json')
 BIN_ITEM = load_json(BIN, 'Item.json')
 LANG_ITEM = load_json(LANG, 'Item.json')
+# 回归活动（Reengagement）与尖兵陷阵（Soldier，自走棋模式）
+BIN_RETURNEE = load_json(BIN, 'ActivityReturnee.json')
+BIN_ENDING = load_json(BIN, 'SoldierEndingPlan.json')
+LANG_UITEXT = load_json(LANG, 'UIText.json')
+LANG_ENDING = load_json(LANG, 'SoldierEndingPlan.json')
 
 _TAG_CACHE = {}
 
@@ -809,6 +814,112 @@ def build_anecdotes():
     return stats
 
 
+def build_returnee():
+    """ActivityReturnee.AVG → ST_sys_reengagement*.lua（回归活动重逢剧情）。
+
+    回归活动（Reengagement）是面向流失回归玩家的系统活动：其开场剧情由
+    `ActivityReturnee.json` 的 `AVG` 字段直接点名剧本，不走关卡表
+    （Story / ActivityStory 均无行），与序章 STm00_* 同为「流程直接调用」的挂载方式。
+    标题取官方 `UIText.MainView_Reengagement`（归星漫途），取不到时回退「回归剧情」。
+    """
+    stats = collections.Counter()
+    official_title = lang_of(LANG_UITEXT, 'UIText.MainView_Reengagement.1')
+    stems = sorted(f[:-4] for f in os.listdir(CFG) if f.startswith('ST_sys_reengagement'))
+    for stem in stems:
+        parsed = extract_script(stem)
+        if not parsed:
+            continue
+        title = official_title or '回归剧情'
+        info = [
+            "- **所属**：回归活动《%s》" % title,
+            "- **AVG 剧本**：`%s`" % stem,
+            "- **挂载来源**：`ActivityReturnee.json` 的 `AVG` 字段（Id 101004，"
+            "回归玩家专属活动流程直接调用，关卡表内无行）",
+            ("- **标题来源**：官方 `UIText.MainView_Reengagement`" if official_title
+             else "- **标题来源**：站点拟名（官方文案表无对应条目）"),
+        ]
+        path = os.path.join(OUT, 'returnee', 'sections',
+                            safe_name('%s_%s' % (stem, title)) + '.md')
+        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                      parsed['beats'], info_title="回归剧情信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('returnee', path, doc, stem, title,
+                    group={'kind': 'returnee', 'id': 101004, 'label': title},
+                    stems=[stem], page='returnee/%s.html' % stem)
+        stats['sections'] += 1
+        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+    return stats
+
+
+def build_soldier():
+    """尖兵陷阵（Soldier，自走棋模式）：开场剧本 + 终局档案。
+
+    开场剧本 `ST_sys_soldier_intro.lua` 由模式入口直接调用，包内无任何配置表引用；
+    终局取自 `SoldierEndingPlan` 表（标题 + 描述 + 解锁条件），表驱动、仿逸闻笔记的
+    anecdote beat 机制（每页 1 则）。
+
+    局内随机事件（`SoldierStoryType` / `SoldierOptionType` /
+    `SoldierStoryPersonalityOption` / `SoldierStoryResult` /
+    `SoldierEventPersonalityStory`）以 3 选 1、性格轴检定与奖励结算为主，结果文案
+    大量缺失（语言表 114 条去重后仅 7 条独立文本），按玩法内容不纳入本档案。
+    """
+    stats = collections.Counter()
+    stem = 'ST_sys_soldier_intro'
+    parsed = extract_script(stem)
+    if parsed:
+        title = '尖兵陷阵 · 开场剧情'
+        info = [
+            "- **所属**：尖兵陷阵（自走棋模式）开场剧情",
+            "- **AVG 剧本**：`%s`" % stem,
+            "- **挂载状态**：模式入口直接调用，包内无任何配置表引用",
+            "- **标题来源**：站点拟名（剧本无官方章节标题；「尖兵陷阵」为官方模式名）",
+        ]
+        path = os.path.join(OUT, 'soldier', 'sections',
+                            safe_name('%s_%s' % (stem, title)) + '.md')
+        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
+                      parsed['beats'], info_title="尖兵陷阵信息", meta=parsed['meta'])
+        write(path, page_markdown(doc))
+        record_page('soldier', path, doc, stem, title,
+                    group={'kind': 'soldier_intro', 'id': '01_intro', 'label': '开场'},
+                    stems=[stem], page='soldier/%s.html' % stem)
+        stats['sections'] += 1
+        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
+
+    for r in rows_of(BIN_ENDING):
+        rid = r.get('Id')
+        etitle = lang_of(LANG_ENDING, r.get('EndingTitle', ''))
+        raw_story = LANG_ENDING.get(r.get('Desc', ''), '').replace('\r\n', '\n')
+        paras = [ln.strip() for ln in raw_story.split('\n') if ln.strip()]
+        story = '\n'.join(paras)
+        if not etitle or not story:
+            print("!! 尖兵陷阵终局表行缺标题或正文，跳过: id=%s" % rid)
+            continue
+        cond = r.get('EndingCondition1')
+        cg = r.get('BossCG') or r.get('CG') or ''
+        info = [
+            "- **所属**：尖兵陷阵（自走棋模式）终局",
+            "- **表 Id**：`%s`（`SoldierEndingPlan`）" % rid,
+            "- **解锁条件**：`EndingCondition1 = %s`（表内无条件文案，原样显示）" % cond,
+            "- **CG 资源**：`%s`（资源未随包提供，页面以 CSS 意象面板占位）"
+            % (cg or '（表内无字段）'),
+        ]
+        beat = {'k': 'anecdote', 'id': int(rid), 'sort': 0,
+                'title': etitle, 'source': '终局 · EndingCondition1=%s' % cond,
+                'story': story}
+        path = os.path.join(OUT, 'soldier', 'sections',
+                            safe_name('%s_%s' % (rid, etitle)) + '.md')
+        doc = PageDoc("# %s" % etitle, info, '', '终局文本', [beat],
+                      info_title="终局信息", meta={'recap': '', 'episode': '', 'title': ''})
+        write(path, page_markdown(doc))
+        record_page('soldier', path, doc, int(rid), etitle,
+                    group={'kind': 'soldier_ending', 'id': '02_ending', 'label': '终局'},
+                    table_refs=['SoldierEndingPlan#%s' % rid], stems=[],
+                    page='soldier/endings/%s.html' % rid,
+                    text_chars=len(story), cg=cg)
+        stats['sections'] += 1
+    return stats
+
+
 def build_chat():
     """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
 
@@ -1096,7 +1207,7 @@ def write_coverage():
     for tbl, fld in (('Story', 'AvgLuaName'), ('ActivityStory', 'AvgLuaName'),
                      ('Plot', 'AvgId'), ('NPCAffinityPlot', 'avgId'), ('DiscIP', 'AvgId'),
                      ('StorySetSection', 'AVGId'), ('Chat', 'AVGId'),
-                     ('AgentSpecialPerformance', 'Avg')):
+                     ('AgentSpecialPerformance', 'Avg'), ('ActivityReturnee', 'AVG')):
         for r in load_json(BIN, tbl + '.json').values():
             v = r.get(fld)
             if isinstance(v, str):
@@ -1109,12 +1220,14 @@ def write_coverage():
     src = {'STm': 'Story.AvgLuaName', 'STev': 'ActivityStory.AvgLuaName',
            'CG': 'Plot / NPCAffinityPlot / DiscIP', 'STsp': 'StorySetSection.AVGId',
            'BBm': '无表引用，客户端按「关卡代号里的章号+关卡编号」拼名',
-           'PM': 'Chat.AVGId', 'DP': 'AgentSpecialPerformance.Avg', 'GD': '无表引用'}
+           'PM': 'Chat.AVGId', 'DP': 'AgentSpecialPerformance.Avg', 'GD': '无表引用',
+           'ST': 'ActivityReturnee.AVG（ST_sys_reengagement）；ST_sys_soldier_intro 无表引用'}
     note = {'PM': '心链聊天全篇，已提取至 `_chat/` 人读存档（不进站点，故不计入已渲染）',
             'DP': '委托结算演出，已入 dispatch/（按结算演出段收录，见 _dev 手册 7.4）',
             'GD': '抽卡演出小段（4 句），表不引用，待决',
             'BBm': '战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战）',
-            'STm': '含序章 STm00_*，已渲染进 prologue/'}
+            'STm': '含序章 STm00_*，已渲染进 prologue/',
+            'ST': 'ST_sys_* 系统流程剧本：回归活动《归星漫途》入 returnee/，尖兵陷阵开场入 soldier/'}
     todo = [s for s in alls if s not in rendered]
     lines = ["# 剧本覆盖对账", "",
              "- 包内 AVG 剧本：%d　已渲染：%d　未渲染：%d" % (len(alls), len(alls) - len(todo), len(todo)),
@@ -1178,7 +1291,9 @@ def main():
                       ("故事集支线", build_storysets),
                       ("序章", build_prologue),
                       ("委托结算演出", build_dispatch),
-                      ("逸闻笔记", build_anecdotes)):
+                      ("逸闻笔记", build_anecdotes),
+                      ("归星漫途", build_returnee),
+                      ("尖兵陷阵", build_soldier)):
         st = fn()
         print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
     print("Parsing 心链 (phone chat) scripts...")

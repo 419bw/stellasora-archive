@@ -1,6 +1,6 @@
 # 剧本覆盖对账
 
-- 包内 AVG 剧本：626　已渲染：550　未渲染：76
+- 包内 AVG 剧本：626　已渲染：552　未渲染：74
 
 | 剧本前缀 | 文件数 | 已渲染 | 未渲染 | 挂载来源 | 备注 |
 | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,7 @@
 | `STsp_*` | 56 | 56 | 0 | StorySetSection.AVGId |  |
 | `BBm_*` | 35 | 35 | 0 | 无表引用，客户端按「关卡代号里的章号+关卡编号」拼名 | 战斗气泡，含 7 个无表引用者（序章一战 + 第七章追加战） |
 | `DP_*` | 18 | 18 | 0 | AgentSpecialPerformance.Avg | 委托结算演出，已入 dispatch/（按结算演出段收录，见 _dev 手册 7.4） |
-| `ST_*` | 2 | 0 | 2 | - |  |
+| `ST_*` | 2 | 2 | 0 | ActivityReturnee.AVG（ST_sys_reengagement）；ST_sys_soldier_intro 无表引用 | ST_sys_* 系统流程剧本：回归活动《归星漫途》入 returnee/，尖兵陷阵开场入 soldier/ |
 | `GD_*` | 1 | 0 | 1 | 无表引用 | 抽卡演出小段（4 句），表不引用，待决 |
 
 ## 未渲染剧本清单
@@ -90,5 +90,3 @@
 - `PM15902`（挂载表：Chat）
 - `PM16001`（挂载表：Chat）
 - `PM16201`（挂载表：Chat）
-- `ST_sys_reengagement`（挂载表：无）
-- `ST_sys_soldier_intro`（挂载表：无）
