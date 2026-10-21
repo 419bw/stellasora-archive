@@ -895,16 +895,13 @@ def build_soldier():
             print("!! 尖兵陷阵终局表行缺标题或正文，跳过: id=%s" % rid)
             continue
         cond = r.get('EndingCondition1')
-        cg = r.get('BossCG') or r.get('CG') or ''
         info = [
             "- **所属**：尖兵陷阵（自走棋模式）终局",
             "- **表 Id**：`%s`（`SoldierEndingPlan`）" % rid,
-            "- **解锁条件**：`EndingCondition1 = %s`（表内无条件文案，原样显示）" % cond,
-            "- **CG 资源**：`%s`（资源未随包提供，页面以 CSS 意象面板占位）"
-            % (cg or '（表内无字段）'),
+            "- **解锁条件**：`EndingCondition1 = %s`" % cond,
         ]
         beat = {'k': 'anecdote', 'id': int(rid), 'sort': 0,
-                'title': etitle, 'source': '终局 · EndingCondition1=%s' % cond,
+                'title': etitle, 'source': '尖兵陷阵终局',
                 'story': story}
         path = os.path.join(OUT, 'soldier', 'sections',
                             safe_name('%s_%s' % (rid, etitle)) + '.md')
@@ -915,7 +912,7 @@ def build_soldier():
                     group={'kind': 'soldier_ending', 'id': '02_ending', 'label': '终局'},
                     table_refs=['SoldierEndingPlan#%s' % rid], stems=[],
                     page='soldier/endings/%s.html' % rid,
-                    text_chars=len(story), cg=cg)
+                    text_chars=len(story))
         stats['sections'] += 1
     return stats
 

@@ -26129,8 +26129,7 @@
    "table_refs": [
     "SoldierEndingPlan#10101"
    ],
-   "text_chars": 736,
-   "cg": "Icon/SoldierAVG/soldier_s1_ending_001"
+   "text_chars": 736
   },
   {
    "id": 10102,
@@ -26155,8 +26154,7 @@
    "table_refs": [
     "SoldierEndingPlan#10102"
    ],
-   "text_chars": 700,
-   "cg": "Icon/SoldierAVG/soldier_s1_ending_002"
+   "text_chars": 700
   },
   {
    "id": "BBm00_01",
