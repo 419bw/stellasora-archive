@@ -322,6 +322,31 @@ mermaid_doc = "```mermaid\ngraph LR\n" + "\n".join(edges) + "\n```"
 星塔 NPC 好感剧情、唱片剧情、故事集支线，输出到 `story_docs/`。
 它与 `build_wiki.py` 互不影响，可各自重跑。
 
+### 7.0 数据加载：`context.py` 的 DataContext（Phase A 起）
+
+上游表与共享服务的加载集中在 `scripts/story/context.py`，**编排器 `build_story.py` 不再在
+import 期加载任何表**（改造前它在模块级无条件加载约 40 张 BIN/LANG 表并构造全部服务，
+`import build_story` = 全量加载，单族运行/隔离测试不可能）：
+
+- `DataContext(root, out=None)`：持 BIN/LANG/CFG/PRESET 路径与输出目录；`table(scope, name)`
+  按 `(scope, name)` **懒加载 + 进程内缓存**（缺文件返回 `{}`）；`lang_table` 同门。
+- 共享服务**构造一次、经 ctx 注入**，族模块不得自行构造：`text_compiler`
+  （`markup.TextCompiler.load`，PRESET 词表 + BIN/LANG ContentWord）、`speaker_resolver`
+  （PRESET AvgCharacter.lua）、`conditions`（`ConditionCatalog.load`）、`script_commands`
+  （CFG 剧本解析缓存）、`extract_script`、`character_name`（BIN/LANG Character）、
+  `story_lines`/`chapter_slugs`（章节目录与 URL slug 唯一来源）、`time_slots`、`diag`
+  （进程级唯一 Diagnostics）。其表依赖在 `context.SHARED_NEEDS` 一次性声明并审计。
+- 表工具纯函数 `lang_of`/`rows_of`/`field_lang` 同在 `context.py`；文件工具
+  `write`/`safe_name` 在 `sink.py`（Phase B）。
+- `ScopedDataContext(ctx, needs)`：Phase C 起编排器按族 `NEEDS` 白名单包装后传入
+  `fam.build(scoped, sink)`；未声明表的解析调用立即 raise `UndeclaredTableError`
+  （fail-loud：auto_sync 会停，修复动作是补一行 NEEDS）。共享服务属性原样透传。
+  全量构建收尾对 declared-but-untouched 表输出**非阻塞 warning**。
+- **目录扫描型族**（returnee/prologue/orphan_battles/chat）走 `os.listdir(ctx.cfg)`
+  不读表，`NEEDS` 为空是**正确形态**，不是漏声明——门控覆盖率天然不是 100%。
+- 测试取数同样经 ctx：`tests/story/test_conditions.py` 构造 `DataContext(ROOT)` 后调
+  `ctx.extract_script`，不再 import 编排器。
+
 ### 7.1 换掉正则的原因
 `build_wiki.py` 用 `param\s*=\s*\{([^}]*)\}` 抓参数，遇到**嵌套表**会在第一个 `}` 处截断，
 因此 `SetChoiceBegin`（选项文本在嵌套表里，且 group 是 `"a_1"` 这类字符串）整族读不出来；
