@@ -616,99 +616,6 @@ def build_dispatch(ctx):
     return stats
 
 
-def build_anecdotes(ctx):
-    """StarTowerBookEventReward: 星塔图鉴「逸闻笔记」短篇故事。
-
-    按人物合并成页，每页收录该人物的
-    （一）（二）（三）共 3 则逸闻笔记、获取条件与正文。md 置于 `anecdotes/` 下。
-    """
-    BIN_EVENT_BOOK = ctx.table('BIN', 'StarTowerBookEventReward')
-    LANG_EVENT_BOOK = ctx.lang_table('LANG', 'StarTowerBookEventReward')
-    BIN_NPC = ctx.table('BIN', 'StarTowerNPC')
-    LANG_NPC = ctx.lang_table('LANG', 'StarTowerNPC')
-    stats = collections.Counter()
-    rows_sorted = sorted(
-        (r for r in BIN_EVENT_BOOK.values() if not r.get('IsBanned')),
-        key=lambda x: (int(x.get('Sort', 0)), int(x['Id'])),
-    )
-    by_person = collections.OrderedDict()
-    for r in rows_sorted:
-        key = (int(r.get('Type', 0)), int(r.get('NPCId', 0)))
-        by_person.setdefault(key, []).append(r)
-
-    for seq, ((r_type, npc_id), rows) in enumerate(by_person.items(), 1):
-        if r_type == 2:
-            npc = BIN_NPC.get(str(npc_id))
-            who = field_lang(LANG_NPC, npc) if npc else ('NPC %s' % npc_id)
-            role_label = '星塔 NPC'
-            sub = 'npc'
-        else:
-            who = ctx.character_name(npc_id) or ('旅人 %s' % npc_id)
-            role_label = '旅人'
-            sub = 'char'
-        group_label = who
-
-        beats = []
-        notes = []
-        for r in rows:
-            ntitle = lang_of(LANG_EVENT_BOOK, r.get('Name', ''))
-            nsource = lang_of(LANG_EVENT_BOOK, r.get('Source', ''))
-            raw_story = LANG_EVENT_BOOK.get(r.get('Story', ''), '').replace('\r\n', '\n')
-            paras = [ln.strip() for ln in raw_story.split('\n') if ln.strip()]
-            nstory = '\n'.join(paras)
-            beats.append({
-                'k': 'anecdote',
-                'id': int(r['Id']),
-                'sort': int(r.get('Sort', 0)),
-                'title': ntitle,
-                'source': nsource,
-                'story': nstory,
-            })
-            notes.append({
-                'id': int(r['Id']),
-                'title': ntitle,
-                'source': nsource,
-            })
-
-        base_titles = list(dict.fromkeys(
-            re.sub(r'（[一二三四五六七八九十\d]+）$', '', b['title']).strip() or b['title']
-            for b in beats
-        ))
-        series_title = ' / '.join(base_titles)
-        page_title = '%s · %s' % (who, series_title)
-        info = [
-            "- **所属人物**：%s（编号 `%s`）" % (who, npc_id),
-            "- **收录笔记**：%d 篇（%s）" % (len(beats), '、'.join('`%s`' % b['id'] for b in beats)),
-        ]
-        path = os.path.join(
-            OUT, 'anecdotes', sub,
-            safe_name('%s_%s_%s' % (npc_id, who, series_title)) + '.md',
-        )
-        doc = PageDoc(
-            "# " + page_title, info, '', '逸闻笔记全文', beats,
-            info_title='逸闻笔记信息',
-            meta={'recap': '', 'episode': '', 'title': ''},
-        )
-        write(path, page_markdown(doc))
-        record_page(
-            'anecdotes', path, doc, int(npc_id), page_title,
-            code='',
-            group={
-                'kind': sub,
-                'id': '%03d_%s' % (seq, npc_id),
-                'label': group_label,
-                'npc_id': int(npc_id),
-                'type': r_type,
-            },
-            stems=[],
-            page='anecdotes/%s/%s.html' % (sub, npc_id),
-            notes=notes,
-        )
-        stats['sections'] += 1
-        stats['lines'] += len(beats)
-    return stats
-
-
 def build_chat(ctx):
     """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
 
@@ -1070,8 +977,8 @@ def main():
     st = build_dispatch(ctx)
     print("  委托结算演出：小节=%d 台词行=%d" % (st['sections'], st['lines']))
     print("Parsing 逸闻笔记 (anecdotes) scripts...")
-    st = build_anecdotes(ctx)
-    print("  逸闻笔记：小节=%d 台词行=%d" % (st['sections'], st['lines']))
+    import families.anecdotes as _fam_anecdotes
+    _fam_anecdotes.build(ctx, _migrated_sink(ctx))
     print("Parsing 归星漫途 (returnee) scripts...")
     import families.returnee as _fam_returnee
     _fam_returnee.build(ctx, _migrated_sink(ctx))
