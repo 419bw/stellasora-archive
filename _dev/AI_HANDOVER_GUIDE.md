@@ -9,9 +9,6 @@
 1. [数据源层：开源数据规范与镜像结构](#一数据源层开源数据规范与镜像结构)
    - [1.1 开源数据源仓库架构](#11-开源数据源仓库架构)
 2. [数据结构与映射关系规范](#二数据结构与映射关系规范)
-   - [2.1 主线关卡：Story.json 与 StoryChapter.json](#21-主线关卡storyjson-与-storychapterjson)
-   - [2.2 剧本载体：Avg/_cn/Config/*.lua](#22-剧本载体avg_cnconfiglua)
-   - [2.3 文本国际化表：zh_CN/Story.json](#23-文本国际化表zh_cnstoryjson)
 3. [剧情解析核心状态机（关键业务逻辑）](#三剧情解析核心状态机关键业务逻辑)
    - [3.1 主角正名逻辑（为什么是“魔王”，为何原始数据是“塞拉”）](#31-主角正名逻辑为什么是魔王为何原始数据是塞拉)
    - [3.2 灰色对话框（内心独白）判定：TalkType 枚举](#32-灰色对话框内心独白判定talktype-枚举)
@@ -22,23 +19,24 @@
 4. [拓扑图构建算法（Mermaid DAG）](#四拓扑图构建算法mermaid-dag)
 5. [自动化持续集成流水线（CI/CD）](#五自动化持续集成流水线cicd)
 6. [常见踩坑记录与 FAQ（交接备忘）](#六常见踩坑记录与-faq交接备忘)
-7. [剧情管道 v2：build_story.py（八族剧情 + 结构化侧车）](#七-剧情管道-v2scriptsbuild_storypy当前唯一在推进的模块)
-   - [7.1 参数解析的历史陷阱](#71-参数解析的历史陷阱)
-   - [7.2 带文本的指令清单](#72-带文本的指令清单全库-个-_cnconfig-剧本实测)
+7. [剧情管道 v2：build_story.py（当前唯一在推进的模块）](#七-剧情管道-v2scriptsbuild_storypy当前唯一在推进的模块)
+   - [7.1 换掉正则的原因](#71-换掉正则的原因)
+   - [7.2 带文本的指令清单（全库 `_cn/Config` 剧本实测）](#72-带文本的指令清单全库-_cnconfig-剧本实测)
    - [7.3 战斗气泡的挂接规则](#73-战斗气泡的挂接规则)
-   - [7.4 已接入的剧本族](#74-已接入的剧本族本轮新增)
+   - [7.4 已接入的剧本族](#74-已接入的剧本族)
    - [7.5 流程控制指令：历史条件分支（已实现）](#75-流程控制指令历史条件分支已实现)
-   - [7.6 挂载语义的坑](#76-挂载语义的坑)
-   - [7.7 上游数据获取与目录约定](#77-上游数据获取与目录约定)
-   - [7.8 台词的显示通道（查清了，决定不显示）](#78-台词的显示通道查清了决定不显示)
+   - [7.6 剩余遗漏（下一步的活，别再重新发现一遍）](#76-剩余遗漏下一步的活别再重新发现一遍)
+   - [7.7 产物目录与覆盖对账](#77-产物目录与覆盖对账)
+   - [7.8 校验](#78-校验)
+   - [7.9 台词的显示通道（查清了，决定不显示）](#79-台词的显示通道查清了决定不显示)
 8. [站点与数据契约](#八-站点与数据契约build_sitepy--graph_layoutpy--testsstory)
    - [8.1 数据流](#81-数据流)
    - [8.2 主线节点图的地面真相](#82-主线节点图的地面真相实测别再重新发现)
    - [8.3 契约总表](#83-契约总表)
    - [8.4 刻意没做的东西](#84-刻意没做的东西)
    - [8.5 未开放内容的门控](#85-未开放内容的门控release_gatepy)
-9. [遗留产物与目录处置](#九遗留产物与目录处置)
-10. [修订记录](#十修订记录)
+9. [修订记录（2026-10-02）](#九-修订记录2026-10-02)
+10. [遗留产物与目录处置](#十-遗留产物与目录处置)
 
 ---
 
@@ -362,7 +360,7 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
   与它内容严格对上（许愿箱、沙漠、同一批人），`Story`/`StoryChapter` 都从第 1 章起列，所以表里查不到；
   先前推测的"教学关"不成立，`TutorialLevel`/`TutorialLevelFloor` 引的是 `TrainingLevels_01`。
 
-### 7.4 已接入的四个剧本族（本轮新增）
+### 7.4 已接入的剧本族
 | 族 | 文件数 | 挂载源（字段名实测，别再猜） | 产物目录 |
 |---|---|---|---|
 | 角色个人剧情 | 120 篇（129 行） | `Plot.json`：`AvgId`+`Char`+`UnlockAffinityLevel`(1/5/10)+`Name`/`Desc` 文案键 | `story_docs/characters/<角色号>_<姓名>/sections/` |
@@ -370,7 +368,10 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
 | 唱片剧情 | 24 | `DiscIP.json`：102 行里只有 24 行带 `AvgId`，标题 `StoryName`、散文 `StoryDesc` | `story_docs/discs/` |
 | 故事集支线 | 56 节 / 18 章 | `StorySetSection.json`：`AVGId`，上级 `StorySetChapter`(1..18)+`StorySetTab`（1 是"全部"过滤器，不是栏目） | `story_docs/storysets/<栏目>/<章号>_<章名>/sections/` |
 | 序章 | 2 | 无表引用，剧本代号 `STm00_*` | `story_docs/prologue/` |
-| 委托结算演出 | 111 篇（= 111 段/行） | `AgentSpecialPerformance.json`：`Avg`(脚本)+`CharId`(上阵旅人)+`Weight`(50/150/300)+`AVGGroupId`(段号) | `story_docs/dispatch/<单人|多人>/` |
+| 委托结算演出 | 111 篇（= 111 段/行） | `AgentSpecialPerformance.json`：`Avg`(脚本)+`CharId`(上阵旅人)+`Weight`(50/150/300)+`AVGGroupId`(段号) | `story_docs/dispatch/<单人\|多人>/` |
+| 逸闻笔记 | 一人一页 | **表驱动，无剧本**：`StarTowerBookEventReward.json`：`Name`/`Source`/`Story` 文案键 + `Type`(2=星塔 NPC，其余=旅人)+`NPCId`+`Sort`；`IsBanned` 行过滤掉 | `story_docs/anecdotes/{char,npc}/` |
+| 回归剧情 | `ActivityReturnee.AVG` 点名的剧本（现 1 篇） | `ActivityReturnee.json`：`AVG` 字段直接点名剧本（Id 101004），Story/ActivityStory 均无行；标题走官方 `UIText.MainView_Reengagement`（归星漫途），取不到回退「回归剧情」 | `story_docs/returnee/sections/` |
+| 尖兵陷阵 | 开场 1 剧本 + 终局每表行一页 | 开场 `ST_sys_soldier_intro` 无表引用（自走棋模式入口直接调用）；终局**表驱动**：`SoldierEndingPlan.json`：`EndingTitle`/`Desc` 文案键 + `EndingCondition1`（表内无条件文案，原样显示） | `story_docs/soldier/sections/`（md 全在此；终局页 URL 走 `soldier/endings/`） |
 
 要点：
 - `Plot.json` 有 9 行是"换皮角色"复用同一剧本（薇洛（盛夏）160 与魔侍巨像 997/998/999 指向同一
@@ -389,6 +390,16 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
     与页面逐句对账（变异"改一句台词"可被抓到）。F 的覆盖对账改为
     `去重整本剧本数 + 委托分段涉及剧本数`，与 `_coverage.md` 声明一致。
   - 想换回整脚本一页、或将来别的族也分段共用，直接复用 N 这套"按 `(脚本, 段号)` 切段"即可。
+- **逸闻笔记与尖兵陷阵终局是「表驱动页」**：内容来自配置表行而非 AVG 剧本，登记时 `stems=[]`，
+  正文直接取语言表原文（只做 `\r\n`→`\n` 归一并按行去空，**不过 `lang_of`/`clean_text`**——
+  `clean_text` 会把段落换行压成空格）。识别判据有两代：逸闻笔记按 `family == 'anecdotes'` 认
+  （一页多则，`notes` 字段驱动索引页锚点，导航分组用 `group.kind` 而非 `group.id`）；
+  尖兵终局引入通用的 `table_refs: ['SoldierEndingPlan#<Id>']` 标记（一页一则），
+  `validate_site` 据此逐条核对表行存在、索引页副题显示「终局文本 · N 字」。
+  **纪律**：`table_refs` 的现有消费端把「终局」语义写死（副题文案硬编码、校验只认 `SoldierEndingPlan`）；
+  第三个表驱动族出现时，先把判据收编进 `FAMILIES`/`FAMILY_META` 注册表再接入，**不要再加第三处硬判**。
+- 回归活动的挂载方式与序章 `STm00_*` 同款——流程直接调用、关卡表内无行；
+  `write_coverage()` 的挂载审计已加 `('ActivityReturnee', 'AVG')`，剧本前缀族 `ST_*` 就此清零。
 
 ### 7.5 流程控制指令：历史条件分支（已实现）
 
@@ -446,6 +457,10 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
   一段**委托玩法结算短演出**，共 321 句台词（平均 19 句/文件），`SetGroupId` 用的就是委托 Plot id（10301…）。
   委托单本身在 `Agent.json`(36 行，含 `Consignor` 委托人)。**已接入**：family=`dispatch`（见 7.4），
   `/dispatch/` 板块，**一页 = 一段、按出场旅人/组合归类**（共 111 篇），由 validate_story 契约 N 做分段保真。
+- 尖兵陷阵**局内随机事件**五表（`SoldierStoryType` / `SoldierOptionType` / `SoldierStoryPersonalityOption` /
+  `SoldierStoryResult` / `SoldierEventPersonalityStory`）—— 3 选 1、性格轴检定与奖励结算为主的玩法内容，
+  结果文案大量缺失（语言表 114 条去重后仅 7 条独立文本），2026-10-21 议定**不纳入**；
+  开场与终局已接入（见 7.4）。想再接入的先复核这个结论，别重新发现一遍。
 - `GD_gacha` 1 个 —— 抽卡时的 4 句小车演出，无表引用，建议不做。
 - **流程控制指令：`IfTrue`/`IfUnlock`/`IfUnlockElse`/`IfUnlockEnd`/`CheckBE`/`CheckBECase`/`CheckBEEnd` 已实现**（2026-10-09），见 7.5。相关表：`StoryCondition.json`(200)、`StoryEvidence.json`(40)、`StoryPersonality.json`、`StoryRolePersonality.json`。
 - `JUMP_AVG_ID`（跳到另一个剧本的指定位置，说明存在跨剧本连续剧情）仍未处理。
@@ -467,6 +482,9 @@ story_docs/
 ├── prologue/sections/                            序章
 ├── battles_unmounted/                            无关卡引用的战斗气泡
 ├── dispatch/<solo|multi>/<标题>_<演出ID>.md      委托结算演出（一页=一段，按出场旅人/组合归类；目录用英文避免 URL 中文编码）
+├── anecdotes/<char|npc>/                         逸闻笔记（表驱动：StarTowerBookEventReward，一人一页；扁平，无 sections/ 子目录）
+├── returnee/sections/                            回归剧情《归星漫途》（ActivityReturnee.AVG 直接点名剧本）
+├── soldier/sections/                             尖兵陷阵（开场剧本 + 终局表驱动页的 md 同放此目录；终局页 URL 走 soldier/endings/）
 ├── _chat/PM<编号>.md                          心链全篇（build_chat 生成；**必须扁平**，`_` 前缀 = 非站点页，不进站点）
 ├── _data/                                       结构化侧车（meta 带权威计数）
 ├── _beats/                                      PageDoc IR 侧车（md/HTML 双后端共同上游）
@@ -617,6 +635,7 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 > 也不需要维护白名单。`docs/` 目录保留作历史资料，不再被任何脚本读取。
 
 **`validate_site.py`** 覆盖：节点逐字段重导与图不变量、`sections.json` 与磁盘 md/剧本对账、
+表驱动页（`table_refs`）逐条核对表行存在且不得携带剧本代号、
 布局几何（列 = 最长路径、同列不撞位、卡片矩形互不相交、边只跨相邻列）、图页面落点与链接可达、
 逐页 HTML 台词序列 == md 台词序列、检索索引路径/说话人/行数、重大抉择角标映射、
 页内锚点与聊天气泡、未开放组只出占位零台词泄露。
@@ -755,6 +774,17 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 - 2026-10-10：**文档大更**。修正 8 处过时规模数字（改为读侧车 `meta`，不再写死）、重写 3.4
   （旧伪代码与实现几乎全不符）、把 7.5「尚未实现的指令」改写为已实现的历史条件分支详解、
   补全目录缺失的 6 个条目、新增第九章（遗留产物 `docs/` 的处置）与第五章（CI/CD 流水线）。
+- 2026-10-17：**接入逸闻笔记**（d06aeba）。`StarTowerBookEventReward` 表驱动、一人一页
+  （旅人归 `anecdotes/char/`、星塔 NPC 归 `anecdotes/npc/`），复用 anecdote beat 渲染；
+  页面无「官方跳过概要」时正文与附录自动顺延为第 2、3 节。`validate_story.py` 新增契约 **Q**
+  （逸闻笔记 1:1 对齐源表）。本条与 7.4/7.7 的对应内容为 2026-10-21 补记。
+- 2026-10-21：**接入回归剧情与尖兵陷阵**（365227d、2a9be4a）。回归活动《归星漫途》
+  （`ActivityReturnee.AVG` 直接点名剧本）入 `returnee/`；尖兵陷阵开场剧本 + `SoldierEndingPlan`
+  终局表驱动页入 `soldier/`，引入 `table_refs` 通用表驱动标记（`validate_site` 新增表驱动页校验分支，
+  族索引副题「终局文本 · N 字」）；局内随机事件五表因结果文案大量缺失，议定不纳入（见 7.6）。
+  `write_coverage()` 挂载审计加 `('ActivityReturnee', 'AVG')`，`ST_*` 前缀族清零。
+  同日补手册：7.4 补逸闻笔记/回归剧情/尖兵陷阵三族与「表驱动页」判据纪律，7.7 目录树补三行，
+  8.3 补表驱动页对账描述，并修正目录（TOC）与实际章节标题的多处漂移（2.x 幽灵条目、7.x 旧标题、九/十顺序）。
 
 ## 十、 遗留产物与目录处置
 

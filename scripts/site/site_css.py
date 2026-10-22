@@ -593,6 +593,14 @@ h1 {
   --card-theme: #3B5B92;
   --card-theme-stripe: rgba(59, 91, 146, 0.18);
 }
+.bento-card[data-slug="returnee"] {
+  --card-theme: #C026D3;
+  --card-theme-stripe: rgba(192, 38, 211, 0.18);
+}
+.bento-card[data-slug="soldier"] {
+  --card-theme: #92400E;
+  --card-theme-stripe: rgba(146, 64, 14, 0.18);
+}
 
 [data-theme="dark"] .bento-card[data-slug="main"] {
   --card-theme: #38BDF8;
@@ -633,6 +641,14 @@ h1 {
 [data-theme="dark"] .bento-card[data-slug="anecdotes"] {
   --card-theme: #7DA2E1;
   --card-theme-stripe: rgba(125, 162, 225, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="returnee"] {
+  --card-theme: #F0ABFC;
+  --card-theme-stripe: rgba(240, 171, 252, 0.22);
+}
+[data-theme="dark"] .bento-card[data-slug="soldier"] {
+  --card-theme: #D9A45B;
+  --card-theme-stripe: rgba(217, 164, 91, 0.22);
 }
 
 .bento-card-link {
@@ -1162,6 +1178,14 @@ mark.q-hit {
   --grp-accent: #3B5B92;
   --grp-accent-stripe: rgba(59, 91, 146, 0.18);
 }
+.grp-grid[data-family="returnee"] {
+  --grp-accent: #C026D3;
+  --grp-accent-stripe: rgba(192, 38, 211, 0.18);
+}
+.grp-grid[data-family="soldier"] {
+  --grp-accent: #92400E;
+  --grp-accent-stripe: rgba(146, 64, 14, 0.18);
+}
 
 [data-theme="dark"] .grp-grid[data-family="events"] {
   --grp-accent: #2DD4BF;
@@ -1198,6 +1222,14 @@ mark.q-hit {
 [data-theme="dark"] .grp-grid[data-family="anecdotes"] {
   --grp-accent: #7DA2E1;
   --grp-accent-stripe: rgba(125, 162, 225, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="returnee"] {
+  --grp-accent: #F0ABFC;
+  --grp-accent-stripe: rgba(240, 171, 252, 0.22);
+}
+[data-theme="dark"] .grp-grid[data-family="soldier"] {
+  --grp-accent: #D9A45B;
+  --grp-accent-stripe: rgba(217, 164, 91, 0.22);
 }
 
 /* Summary Header */

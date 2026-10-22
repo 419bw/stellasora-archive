@@ -55,7 +55,7 @@ flowchart TD
     end
 
     subgraph StoryDocs["人审真源 (story_docs/)"]
-        C1["main/ events/ characters/ npc_bonds/<br/>discs/ storysets/ prologue/<br/>dispatch/ battles_unmounted/"]
+        C1["main/ events/ characters/ npc_bonds/<br/>discs/ storysets/ prologue/<br/>dispatch/ battles_unmounted/<br/>anecdotes/ returnee/ soldier/"]
         C2["_data/*.json：chapters / sections /<br/>search / personality（meta 带权威计数）"]
         C3["_beats/*.json：PageDoc IR 侧车"]
         C4["_diagnostics.json：上游异常与兜底登记"]
