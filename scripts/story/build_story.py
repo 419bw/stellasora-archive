@@ -75,6 +75,19 @@ def safe_name(s):
     return re.sub(r'[\\/:*?"<>|]', '_', s).strip()
 
 
+# Phase B 混合调度中间态：已搬迁族经 SidecarSink 记录，但累加器容器注入本文件的
+# 模块级列表/集合（未搬迁族仍写同一批累加器），从而保持 sections.json /
+# search.json/_coverage 的字节序与页面追加序不变。每搬迁一族调用一次；
+# 最后一族搬完后（Phase C）整体删除。
+def _migrated_sink(ctx):
+    import sink as _sink_mod
+    return _sink_mod.SidecarSink(ctx.out, ctx.lang_table('LANG', 'Story'), containers={
+        'pages': _PAGES, 'search_entries': _SEARCH_ENTRIES,
+        'chapter_nodes': _CHAPTER_NODES, 'rendered': _RENDERED,
+        'battle_map': [], 'skipped': [], 'code_mismatches': CODE_MISMATCHES,
+    })
+
+
 # ============================================================ structured sidecars
 # The site is built from these records, never from the Markdown, so both artefacts come
 # out of the same parse pass and cannot drift apart.
@@ -696,112 +709,6 @@ def build_anecdotes(ctx):
     return stats
 
 
-def build_returnee(ctx):
-    """ActivityReturnee.AVG → ST_sys_reengagement*.lua（回归活动重逢剧情）。
-
-    回归活动（Reengagement）是面向流失回归玩家的系统活动：其开场剧情由
-    `ActivityReturnee.json` 的 `AVG` 字段直接点名剧本，不走关卡表
-    （Story / ActivityStory 均无行），与序章 STm00_* 同为「流程直接调用」的挂载方式。
-    标题取官方 `UIText.MainView_Reengagement`（归星漫途），取不到时回退「回归剧情」。
-    """
-    LANG_UITEXT = ctx.lang_table('LANG', 'UIText')
-    stats = collections.Counter()
-    official_title = lang_of(LANG_UITEXT, 'UIText.MainView_Reengagement.1')
-    stems = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.startswith('ST_sys_reengagement'))
-    for stem in stems:
-        parsed = ctx.extract_script(stem)
-        if not parsed:
-            continue
-        title = official_title or '回归剧情'
-        info = [
-            "- **所属**：回归活动《%s》" % title,
-            "- **AVG 剧本**：`%s`" % stem,
-            "- **挂载来源**：`ActivityReturnee.json` 的 `AVG` 字段（Id 101004，"
-            "回归玩家专属活动流程直接调用，关卡表内无行）",
-            ("- **标题来源**：官方 `UIText.MainView_Reengagement`" if official_title
-             else "- **标题来源**：站点拟名（官方文案表无对应条目）"),
-        ]
-        path = os.path.join(OUT, 'returnee', 'sections',
-                            safe_name('%s_%s' % (stem, title)) + '.md')
-        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                      parsed['beats'], info_title="回归剧情信息", meta=parsed['meta'])
-        write(path, page_markdown(doc))
-        record_page('returnee', path, doc, stem, title,
-                    group={'kind': 'returnee', 'id': 101004, 'label': title},
-                    stems=[stem], page='returnee/%s.html' % stem)
-        stats['sections'] += 1
-        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
-    return stats
-
-
-def build_soldier(ctx):
-    """尖兵陷阵（Soldier，自走棋模式）：开场剧本 + 终局档案。
-
-    开场剧本 `ST_sys_soldier_intro.lua` 由模式入口直接调用，包内无任何配置表引用；
-    终局取自 `SoldierEndingPlan` 表（标题 + 描述 + 解锁条件），表驱动、仿逸闻笔记的
-    anecdote beat 机制（每页 1 则）。
-
-    局内随机事件（`SoldierStoryType` / `SoldierOptionType` /
-    `SoldierStoryPersonalityOption` / `SoldierStoryResult` /
-    `SoldierEventPersonalityStory`）以 3 选 1、性格轴检定与奖励结算为主，结果文案
-    大量缺失（语言表 114 条去重后仅 7 条独立文本），按玩法内容不纳入本档案。
-    """
-    BIN_ENDING = ctx.table('BIN', 'SoldierEndingPlan')
-    LANG_ENDING = ctx.lang_table('LANG', 'SoldierEndingPlan')
-    stats = collections.Counter()
-    stem = 'ST_sys_soldier_intro'
-    parsed = ctx.extract_script(stem)
-    if parsed:
-        title = '尖兵陷阵 · 开场剧情'
-        info = [
-            "- **所属**：尖兵陷阵（自走棋模式）开场剧情",
-            "- **AVG 剧本**：`%s`" % stem,
-            "- **挂载状态**：模式入口直接调用，包内无任何配置表引用",
-            "- **标题来源**：站点拟名（剧本无官方章节标题；「尖兵陷阵」为官方模式名）",
-        ]
-        path = os.path.join(OUT, 'soldier', 'sections',
-                            safe_name('%s_%s' % (stem, title)) + '.md')
-        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                      parsed['beats'], info_title="尖兵陷阵信息", meta=parsed['meta'])
-        write(path, page_markdown(doc))
-        record_page('soldier', path, doc, stem, title,
-                    group={'kind': 'soldier_intro', 'id': '01_intro', 'label': '开场'},
-                    stems=[stem], page='soldier/%s.html' % stem)
-        stats['sections'] += 1
-        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
-
-    for r in rows_of(BIN_ENDING):
-        rid = r.get('Id')
-        etitle = lang_of(LANG_ENDING, r.get('EndingTitle', ''))
-        raw_story = LANG_ENDING.get(r.get('Desc', ''), '').replace('\r\n', '\n')
-        paras = [ln.strip() for ln in raw_story.split('\n') if ln.strip()]
-        story = '\n'.join(paras)
-        if not etitle or not story:
-            print("!! 尖兵陷阵终局表行缺标题或正文，跳过: id=%s" % rid)
-            continue
-        cond = r.get('EndingCondition1')
-        info = [
-            "- **所属**：尖兵陷阵（自走棋模式）终局",
-            "- **表 Id**：`%s`（`SoldierEndingPlan`）" % rid,
-            "- **解锁条件**：`EndingCondition1 = %s`" % cond,
-        ]
-        beat = {'k': 'anecdote', 'id': int(rid), 'sort': 0,
-                'title': etitle, 'source': '尖兵陷阵终局',
-                'story': story}
-        path = os.path.join(OUT, 'soldier', 'sections',
-                            safe_name('%s_%s' % (rid, etitle)) + '.md')
-        doc = PageDoc("# %s" % etitle, info, '', '终局文本', [beat],
-                      info_title="终局信息", meta={'recap': '', 'episode': '', 'title': ''})
-        write(path, page_markdown(doc))
-        record_page('soldier', path, doc, int(rid), etitle,
-                    group={'kind': 'soldier_ending', 'id': '02_ending', 'label': '终局'},
-                    table_refs=['SoldierEndingPlan#%s' % rid], stems=[],
-                    page='soldier/endings/%s.html' % rid,
-                    text_chars=len(story))
-        stats['sections'] += 1
-    return stats
-
-
 def build_chat(ctx):
     """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
 
@@ -947,44 +854,6 @@ def build_storysets(ctx):
                         page='storysets/%s/%s.html' % (chap['Id'], s['Id']))
             stats['sections'] += 1
             stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
-    return stats
-
-
-def build_prologue(ctx):
-    """STm00_* is the opening 序章《最初的起点》played during registration.
-
-    Story lists no chapter 0 row, so the stage table cannot mount it; the script's own
-    SetIntro carries the official episode labels, and BBm00_* are the battle bubbles of
-    that same desert mission (same trio, same 许愿箱).
-    """
-    stats = collections.Counter()
-    stems = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.startswith('STm00_'))
-    battle = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.startswith('BBm00_'))
-    for stem in stems:
-        parsed = ctx.extract_script(stem)
-        if not parsed:
-            continue
-        info = [
-            "- **所属**：序章《%s》" % (parsed['meta']['title'] or '最初的起点'),
-            "- **话数**：%s" % (parsed['meta']['episode'] or '序'),
-            "- **AVG 剧本**：`%s`" % stem,
-            "- **挂载状态**：Story 表从第 1 章起列关卡，序章由注册流程直接调用，故表内无行",
-        ]
-        if stem.startswith('STm00_01') and battle:
-            info.append("- **同场战斗气泡**：%s（见 `battles_unmounted/`）" % "、".join(battle))
-        path = os.path.join(OUT, 'prologue', 'sections',
-                            safe_name('%s_%s' % (stem, parsed['meta']['title'] or stem)) + '.md')
-        doc = PageDoc("# %s %s" % (parsed['meta']['episode'] or '序',
-                                   parsed['meta']['title'] or ''),
-                      info, parsed['meta']['recap'], "逐句台词", parsed['beats'],
-                      info_title="序章信息", meta=parsed['meta'])
-        write(path, page_markdown(doc))
-        record_page('prologue', path, doc, stem, parsed['meta']['title'] or stem,
-                    code=parsed['meta']['episode'] or '序',
-                    group={'kind': 'prologue', 'id': 0, 'label': '序章'},
-                    stems=[stem], page='prologue/%s.html' % stem)
-        stats['sections'] += 1
-        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
     return stats
 
 
@@ -1176,6 +1045,9 @@ def main():
     # 上游数据与共享服务：构造一次，族经 ctx 取数（Phase A；ScopedDataContext
     # NEEDS 门控在 Phase C 的 FAMILY_ORDER 循环上线）
     ctx = DataContext(ROOT, out=OUT)
+    # Phase B 混合调度中间态：已搬迁族走 families/<id>.build(ctx, sink)（sink 侧车），
+    # 未搬迁族仍走本文件内的旧函数（record_page 等模块级累加器）。每搬完一族，
+    # 此处与旧函数定义各删一处；Phase C 起全部收进 aggregate 前的 FAMILY_ORDER 循环。
     print("Parsing official AVG scripts (main story)...")
     mstats, battle_map, skipped = build_main(ctx)
     mstats['empty'] = len(skipped)
@@ -1186,17 +1058,28 @@ def main():
     for label, fn in (("角色个人剧情", build_character_plots),
                       ("星塔 NPC 好感剧情", build_npc_plots),
                       ("唱片剧情", build_discs),
-                      ("故事集支线", build_storysets),
-                      ("序章", build_prologue),
-                      ("委托结算演出", build_dispatch),
-                      ("逸闻笔记", build_anecdotes),
-                      ("归星漫途", build_returnee),
-                      ("尖兵陷阵", build_soldier)):
+                      ("故事集支线", build_storysets)):
         st = fn(ctx)
         print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
+    # 已搬迁族（顺序须与 FAMILY_ORDER 一致：prologue → dispatch → anecdotes
+    # → returnee → soldier → chat）
+    print("Parsing 序章 (prologue) scripts...")
+    import families.prologue as _fam_prologue
+    _fam_prologue.build(ctx, _migrated_sink(ctx))
+    print("Parsing 委托结算演出 (dispatch) scripts...")
+    st = build_dispatch(ctx)
+    print("  委托结算演出：小节=%d 台词行=%d" % (st['sections'], st['lines']))
+    print("Parsing 逸闻笔记 (anecdotes) scripts...")
+    st = build_anecdotes(ctx)
+    print("  逸闻笔记：小节=%d 台词行=%d" % (st['sections'], st['lines']))
+    print("Parsing 归星漫途 (returnee) scripts...")
+    import families.returnee as _fam_returnee
+    _fam_returnee.build(ctx, _migrated_sink(ctx))
+    print("Parsing 尖兵陷阵 (soldier) scripts...")
+    import families.soldier as _fam_soldier
+    _fam_soldier.build(ctx, _migrated_sink(ctx))
     print("Parsing 心链 (phone chat) scripts...")
     build_chat(ctx)
-
     attached = [b for b in battle_map if b[2] == 'attached']
     missing = [b for b in battle_map if b[2] == 'MISSING']
     used = {b[1] for b in attached}
