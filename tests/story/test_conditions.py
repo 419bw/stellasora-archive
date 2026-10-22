@@ -10,12 +10,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'site'))
 
-import build_story
+# Phase A 起剧情侧取数经 context.DataContext（懒加载 + 共享服务注入），
+# 不再 import 编排器 build_story（设计 5.3：移除最后一处测试对编排器的耦合）。
+from context import DataContext
 import render_html
 from pipeline import markup
 from pipeline.diagnostics import Diagnostics
 from pipeline.pagedoc import PageDoc
 from pipeline.render_md import page_markdown
+
+CTX = DataContext(ROOT)
 
 
 @pytest.mark.parametrize('stem,branches,visible', [
@@ -26,7 +30,7 @@ from pipeline.render_md import page_markdown
     ('STm07_06_ba', 4, 4),
 ])
 def test_historical_conditions_survive_json_and_rendering(stem, branches, visible):
-    parsed = build_story.extract_script(stem)
+    parsed = CTX.extract_script(stem)
     beats = parsed['beats']
     cases = [b for b in beats if b['k'] == 'condition_branch']
     assert len(cases) == branches
@@ -52,7 +56,7 @@ def test_historical_conditions_survive_json_and_rendering(stem, branches, visibl
 
 
 def test_shared_be_cases_keep_source_and_merge_only_reading_text():
-    parsed = build_story.extract_script('STm09_05_a')
+    parsed = CTX.extract_script('STm09_05_a')
     repeated = '不，不对。在过去的冒险里，我又不是没遇到死亡的情况。'
     source = [b for b in parsed['beats'] if b['k'] == 'talk'
               and markup.plain(b['text']).startswith(repeated)]
@@ -66,7 +70,7 @@ def test_shared_be_cases_keep_source_and_merge_only_reading_text():
 
 
 def test_choice_condition_ends_at_the_real_jump_destination():
-    beats = build_story.extract_script('STm02_02_c')['beats']
+    beats = CTX.extract_script('STm02_02_c')['beats']
     case = next(b for b in beats if b['k'] == 'condition_branch')
     assert case['labels'] == ['若已选择《07 不同的许愿》中的「放弃思考」']
     end = next(i for i, b in enumerate(beats) if b['k'] == 'condition_end')
@@ -74,7 +78,7 @@ def test_choice_condition_ends_at_the_real_jump_destination():
 
 
 def test_historical_choice_markers_use_the_source_option():
-    beats = build_story.extract_script('STm08_11')['beats']
+    beats = CTX.extract_script('STm08_11')['beats']
     case = next(b for b in beats if b['k'] == 'condition_branch')
     assert case['labels'] == ['若已阅读《05B 亿万》，且已选择《05B 亿万》中的「默默等待时机」']
 
@@ -88,13 +92,13 @@ def test_every_real_script_resolves_conditions_without_a_single_fallback():
     剧本集合取 CFG 目录本身（包内全部 596 个 AVG 剧本），不取 _beats 侧车——
     后者的 stem 对角色/NPC 页是数字 id，不是剧本代号。
     """
-    cfg = build_story.CFG
+    cfg = CTX.cfg
     stems = sorted(f[:-4] for f in os.listdir(cfg) if f.endswith('.lua'))
     assert len(stems) > 500
-    before = dict(build_story.DIAG.nonzero())
+    before = dict(CTX.diag.nonzero())
     for stem in stems:
-        assert build_story.extract_script(stem) is not None, stem
-    fired = {k: v for k, v in build_story.DIAG.nonzero().items()
+        assert CTX.extract_script(stem) is not None, stem
+    fired = {k: v for k, v in CTX.diag.nonzero().items()
              if k.startswith('condition_') and v != before.get(k, 0)}
     assert fired == {}, '真实数据触发了条件降级：%s' % fired
 

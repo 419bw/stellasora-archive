@@ -24,10 +24,6 @@ import graph_layout
 import chapter_path
 
 sys.stdout.reconfigure(encoding='utf-8')
-BIN = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')
-LANG = os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'language', 'zh_CN')
-CFG = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Config')
-PRESET = os.path.join(ROOT, 'data', 'ss_lua', 'Lua', 'Game', 'UI', 'Avg', '_cn', 'Preset')
 OUT = os.path.join(ROOT, 'story_docs')
 
 # 主角域常量（PROTAG_ID/PROTAG_NAME）已随语义 pass 移入 pipeline/domain.py
@@ -35,143 +31,31 @@ OUT = os.path.join(ROOT, 'story_docs')
 # Stages whose own StoryId carries a `BTnn` battle token that disagrees with the display
 # code the localization table publishes for them (upstream official labelling slip).
 # Filled by build_main(), reported in _battle_reconciliation.md.
+# （Phase B-0 起改记入 SidecarSink.code_mismatches；此处暂留模块级。）
 CODE_MISMATCHES = []
-
-# Phase 3 诊断侧车（story_docs/_diagnostics.json）唯一收集点：上游数据异常与编译器
-# 兜底的机器可读登记，只记录、不改变任何行为。全部降级通道（markup 强调计数与两处
-# "保留原文"、speakers 前缀兜底、passes 帧异常、conditions 查表降级、构建期命名回退）
-# 都注入这同一个 DIAG，由 pipeline/diagnostics.py 的 CATEGORIES 注册表描述口径，
-# write_diagnostics() 只是把它序列化——不再有跨模块的裸 list/dict 和手抄说明。
-# 注意：必须在下方 pipeline 导入之后创建（Diagnostics 来自 pipeline.diagnostics）。
 
 # ============================================================== Lua table parser
 # 解析器已拆分为 pipeline/lua_lexer.py（词法，token 流带 SourcePos）与
-# pipeline/lua_parser.py（语法，递归下降 → T(list)）。此处仅保留兼容壳：
-# T / LuaError / parse_lua 三个符号与原 LuaReader 实现语义一致
-# （对 git 4496bd1 原实现做过 588 Config + AvgCharacter 预设全量对拍）。
-from pipeline.lua_parser import LuaError, T, parse_lua  # noqa: E402
-from pipeline.command_ir import Command, build_commands  # noqa: E402,F401
+# pipeline/lua_parser.py（语法，递归下降 → T(list)）；剧本解析（command_ir 的
+# build_commands）改由 context.DataContext.script_commands 提供（Phase A），
+# 此处不再保留兼容壳（对 git 4496bd1 原实现做过 588 Config + AvgCharacter
+# 预设全量对拍）。
 from pipeline.text_rules import clean_text  # noqa: E402
-from pipeline.speakers import SpeakerResolver  # noqa: E402
-from pipeline.passes import extract_beats  # noqa: E402
+from pipeline.conditions import reading_beats  # noqa: E402
 from pipeline import markup  # noqa: E402
-from pipeline.conditions import ConditionCatalog, reading_beats  # noqa: E402
-from pipeline.diagnostics import CATEGORIES, Diagnostics  # noqa: E402
 from pipeline.pagedoc import PageDoc  # noqa: E402
 from pipeline.render_md import page_markdown  # noqa: E402
 import phone_chat  # noqa: E402
-
-DIAG = Diagnostics()
+# 表懒加载 + 共享服务一次构造注入（import 无副作用；族取数经 ctx）。
+from context import DataContext, lang_of, rows_of, field_lang  # noqa: E402
 
 
 # ================================================================= data loading
-def load_json(folder, name):
-    p = os.path.join(folder, name)
-    if not os.path.exists(p):
-        return {}
-    with open(p, encoding='utf-8') as f:
-        return json.load(f)
-
-
-def load_speakers():
-    """id -> (name, surfix) from the official AVG character preset."""
-    recs = parse_lua(open(os.path.join(PRESET, 'AvgCharacter.lua'), encoding='utf-8').read())
-    out = {}
-    for r in recs:
-        if isinstance(r, T):
-            sid = r.get('id')
-            if sid is not None:
-                out[str(sid)] = (r.get('name') or "", r.get('surfix') or "")
-    return out
-
-
-TEXT_COMPILER = markup.TextCompiler.load(PRESET, BIN, LANG, diagnostics=DIAG)
-SPEAKERS = load_speakers()
-SPEAKER_RESOLVER = SpeakerResolver(SPEAKERS, diag=DIAG)
-LANG_STORY = load_json(LANG, 'Story.json')
-LANG_STORY_CHAP = load_json(LANG, 'StoryChapter.json')
-LANG_STORY_TS = load_json(LANG, 'StoryChapterTimeStamp.json')
-LANG_PERSONALITY = load_json(LANG, 'StoryPersonality.json')
-LANG_ROLE_PERSONALITY = load_json(LANG, 'StoryRolePersonality.json')
-LANG_ACT = load_json(LANG, 'ActivityStory.json')
-LANG_ACT_GROUP = load_json(LANG, 'ActivityGroup.json')
-BIN_STORY = load_json(BIN, 'Story.json')
-BIN_CHAPTER = load_json(BIN, 'StoryChapter.json')
-# 章节目录与时间线：URL slug 的唯一来源。build_slug_map 在导入期算一次并断言
-# 全局唯一（撞车直接 raise，不再静默覆盖），build_main / write_data 共用这一份。
-STORY_LINES = chapter_path.story_lines(BIN, LANG)
-CHAPTER_SLUGS = chapter_path.build_slug_map(BIN_CHAPTER)
-BIN_ACTIVITY = load_json(BIN, 'ActivityStory.json')
-BIN_ACTIVITY_CHAPTER = load_json(BIN, 'ActivityStoryChapter.json')
-BIN_CHARACTER = load_json(BIN, 'Character.json')
-BIN_PLOT = load_json(BIN, 'Plot.json')
-BIN_NPC_PLOT = load_json(BIN, 'NPCAffinityPlot.json')
-BIN_NPC = load_json(BIN, 'StarTowerNPC.json')
-BIN_DISC = load_json(BIN, 'DiscIP.json')
-BIN_SST_TAB = load_json(BIN, 'StorySetTab.json')
-BIN_SST_CHAPTER = load_json(BIN, 'StorySetChapter.json')
-BIN_SST_SECTION = load_json(BIN, 'StorySetSection.json')
-BIN_STORY_TS = load_json(BIN, 'StoryChapterTimeStamp.json')
-BIN_PERSONALITY = load_json(BIN, 'StoryPersonality.json')
-BIN_ROLE_PERSONALITY = load_json(BIN, 'StoryRolePersonality.json')
-LANG_CHARACTER = load_json(LANG, 'Character.json')
-LANG_PLOT = load_json(LANG, 'Plot.json')
-LANG_NPC_PLOT = load_json(LANG, 'NPCAffinityPlot.json')
-LANG_NPC = load_json(LANG, 'StarTowerNPC.json')
-LANG_DISC = load_json(LANG, 'DiscIP.json')
-LANG_SST_TAB = load_json(LANG, 'StorySetTab.json')
-LANG_SST_CHAPTER = load_json(LANG, 'StorySetChapter.json')
-LANG_SST_SECTION = load_json(LANG, 'StorySetSection.json')
-BIN_DISPATCH_PERF = load_json(BIN, 'AgentSpecialPerformance.json')
-BIN_EVENT_BOOK = load_json(BIN, 'StarTowerBookEventReward.json')
-LANG_EVENT_BOOK = load_json(LANG, 'StarTowerBookEventReward.json')
-BIN_CHAT = load_json(BIN, 'Chat.json')
-BIN_ITEM = load_json(BIN, 'Item.json')
-LANG_ITEM = load_json(LANG, 'Item.json')
-# 回归活动（Reengagement）与尖兵陷阵（Soldier，自走棋模式）
-BIN_RETURNEE = load_json(BIN, 'ActivityReturnee.json')
-BIN_ENDING = load_json(BIN, 'SoldierEndingPlan.json')
-LANG_UITEXT = load_json(LANG, 'UIText.json')
-LANG_ENDING = load_json(LANG, 'SoldierEndingPlan.json')
-
-_TAG_CACHE = {}
-
-
-def script_commands(stem):
-    """Parse one AVG script into an ordered [Command] list (stable idx identity)."""
-    if stem in _TAG_CACHE:
-        return _TAG_CACHE[stem]
-    path = os.path.join(CFG, stem + '.lua')
-    if not os.path.exists(path):
-        _TAG_CACHE[stem] = None
-        return None
-    recs = parse_lua(open(path, encoding='utf-8').read(), stem)
-    cmds = build_commands(recs)
-    _TAG_CACHE[stem] = cmds
-    return cmds
-
-
-# ==================================================================== text rules
-# 文本清洗/签名规则（clean_text/clean_dialogue/is_resource_name/_sig/_related）已移入
-# pipeline/text_rules.py；动画帧折叠 fold_animations（原 nonlog_repeats）、抉择方言
-# fork_options、beat 提取与分支归属 extract_beats 已移入 pipeline/passes.py；
-# 说话人解析已移入 pipeline/speakers.py（Phase 1c）。行为与原实现逐行等价。
-
-
-# ============================================================ command processing
-# FORK_DEFS/FORK_CLOSE/fork_options 已移入 pipeline/passes.py（Phase 1c）。
-
-
-CONDITIONS = ConditionCatalog.load(BIN, LANG, script_commands, TEXT_COMPILER, diagnostics=DIAG)
-
-
-def extract_script(stem):
-    """Turn one AVG script into an ordered beat list with branch attribution."""
-    cmds = script_commands(stem)
-    if cmds is None:
-        return None
-    return extract_beats(cmds, SPEAKER_RESOLVER, TEXT_COMPILER,
-                         diag=DIAG, conditions=CONDITIONS, stem=stem or '')
+# 约 40 张 BIN/LANG 表与全部共享服务（TextCompiler / SpeakerResolver /
+# ConditionCatalog / 剧本解析缓存 / character_name）的加载移入
+# context.DataContext：按 (scope, name) 懒加载 + 进程内缓存，编排器构造一次
+# 经 ctx 注入，族模块不得自行构造。text rules 与 command processing 均已随
+# pipeline 拆分移出（见原注释）；extract_script 即 ctx.extract_script。
 
 
 # ==================================================================== rendering
@@ -290,20 +174,6 @@ def record_page(family, path, doc, ident, title, code='', group=None,
 # the scripts use (「猎月 13日」 is 吠啸枭日, not the 刻木鸟日 that an equal clock would suggest).
 # So a node carries its own script's opening scene time, and the chapter keeps the raw slot
 # list as reference data instead of pretending the two are joined.
-_SLOTS = None
-
-
-def time_slots(chapter):
-    global _SLOTS
-    if _SLOTS is None:
-        _SLOTS = collections.defaultdict(dict)
-        for k in BIN_STORY_TS:
-            txt = lang_of(LANG_STORY_TS, 'StoryChapterTimeStamp.%s.1' % k)
-            if txt:
-                _SLOTS[int(k) // 100][int(k) % 100] = txt
-    return _SLOTS.get(chapter, {})
-
-
 def node_time(beats):
     head = next((b for b in beats or [] if b['k'] == 'scene'), None)
     if not head:
@@ -311,7 +181,7 @@ def node_time(beats):
     return {'clock': head['time'], 'date': head['date']}
 
 
-def bubble_stem_for(story_id, code):
+def bubble_stem_for(ctx, story_id, code):
     """The client names a battle's bubble script after the battle token baked into the
     stage's own StoryId (BAm09_BT03 -> BBm09_BT03), not after Story.Chapter and not
     after the stage's display code. Two reasons the StoryId wins:
@@ -335,8 +205,8 @@ def bubble_stem_for(story_id, code):
     # 这是既定正常行为（docstring 与 _battle_reconciliation.md 有说明），但此前侧车里
     # 没有计数——按 speaker_inline_names 的惯例登记一个去重计数，上游若哪天开始给
     # 这些关卡补 BTnn 编号，diff 里立刻可见。
-    DIAG.bump('bubble_stem_display_code_fallback',
-              key=(str(story_id or ''), str(code or '')))
+    ctx.diag.bump('bubble_stem_display_code_fallback',
+                  key=(str(story_id or ''), str(code or '')))
     return 'BB%s_%s' % (token, re.sub(r'[^A-Za-z0-9]', '', code or ''))
 
 
@@ -352,8 +222,9 @@ def stem_code_mismatch(story_id, code):
     return bool(re.fullmatch(r'BT\d+', tail)) and tail != re.sub(r'[^A-Za-z0-9]', '', code or '')
 
 
-def record_node(ch, row, page, bubble_stem, beats=None):
+def record_node(ctx, ch, row, page, bubble_stem, beats=None):
     """Every Story row is a graph node, even the ones with no script in the pack."""
+    LANG_STORY = ctx.lang_table('LANG', 'Story')
     nodes = _CHAPTER_NODES.setdefault(ch, [])
     parents = [p for p in (row.get('ParentStoryId') or []) if isinstance(p, str)]
     nodes.append({
@@ -380,11 +251,16 @@ def record_node(ch, row, page, bubble_stem, beats=None):
 
 
 # ==================================================================== generation
-def lang_of(table, key):
-    return clean_text(table.get(key, ''))
+# lang_of / rows_of / field_lang / character_name 已移入 context.py
+# （character_name 即 ctx.character_name，backed by BIN/LANG Character 表）；
+# extract_script / script_commands 即 ctx.extract_script / ctx.script_commands。
 
 
-def build_main():
+def build_main(ctx):
+    BIN_CHAPTER = ctx.table('BIN', 'StoryChapter')
+    BIN_STORY = ctx.table('BIN', 'Story')
+    LANG_STORY = ctx.lang_table('LANG', 'Story')
+    LANG_STORY_CHAP = ctx.lang_table('LANG', 'StoryChapter')
     chapters = {int(k): v for k, v in BIN_CHAPTER.items()}
     rows = collections.defaultdict(list)
     for r in BIN_STORY.values():
@@ -404,10 +280,10 @@ def build_main():
         for r_cand in rows.get(ch, []):
             st = r_cand.get('StoryId')
             idx_cand = lang_of(LANG_STORY, r_cand.get('Index', ''))
-            if st and script_commands(st):
+            if st and ctx.script_commands(st):
                 released_stems.add(st)
-            bcand = bubble_stem_for(st, idx_cand)
-            if bcand and script_commands(bcand):
+            bcand = bubble_stem_for(ctx, st, idx_cand)
+            if bcand and ctx.script_commands(bcand):
                 released_stems.add(st)
 
         for r in sorted(rows.get(ch, []), key=lambda x: x['Id']):
@@ -416,13 +292,13 @@ def build_main():
             hint = lang_of(LANG_STORY, r.get('Desc', ''))
             aim = lang_of(LANG_STORY, r.get('Aim', ''))
             stem = r.get('StoryId')
-            parsed = extract_script(stem) if stem else None
+            parsed = ctx.extract_script(stem) if stem else None
             bubbles = None
             bubble_stem = None
             if parsed is None and r.get('IsBattle'):
-                cand = bubble_stem_for(stem, idx)
-                if cand and script_commands(cand):
-                    bubbles = extract_script(cand)
+                cand = bubble_stem_for(ctx, stem, idx)
+                if cand and ctx.script_commands(cand):
+                    bubbles = ctx.extract_script(cand)
                     bubble_stem = cand
                     battle_map.append((stem, cand, 'attached', ch))
                 else:
@@ -442,15 +318,15 @@ def build_main():
                 is_valid_battle = (bool(r.get('IsBattle')) and len(released_stems) > 0
                                    and (not parents or all(p in released_stems for p in parents)))
                 if is_valid_battle:
-                    page = chapter_path.node_page(CHAPTER_SLUGS[ch], stem)
-                    record_node(ch, r, page, None)
+                    page = chapter_path.node_page(ctx.chapter_slugs[ch], stem)
+                    record_node(ctx, ch, r, page, None)
                     continue
-                record_node(ch, r, None, None)
+                record_node(ctx, ch, r, None, None)
                 skipped.append((ch, r['Id'], stem, title, '战斗关卡' if r.get('IsBattle') else '剧情关卡'))
                 continue
-            page = chapter_path.node_page(CHAPTER_SLUGS[ch], stem)
+            page = chapter_path.node_page(ctx.chapter_slugs[ch], stem)
             body_src = bubbles or parsed
-            record_node(ch, r, page, bubble_stem, body_src['beats'])
+            record_node(ctx, ch, r, page, bubble_stem, body_src['beats'])
             info = [
                 "- **所属篇章**：%s《%s》（%s）" % (clabel or '第 %d 章' % ch, ctitle, cyear),
                 "- **关卡 ID**：`%s`　**编号**：`%s`" % (r['Id'], idx or '-'),
@@ -479,25 +355,28 @@ def build_main():
     return stats, battle_map, skipped
 
 
-def activity_name(cid, first_section_title):
+def activity_name(ctx, cid, first_section_title):
     """The official activity title only exists inside the 「…」 of the activity notice."""
+    LANG_ACT_GROUP = ctx.lang_table('LANG', 'ActivityGroup')
     notice = LANG_ACT_GROUP.get('ActivityGroup.%s.1' % cid, '')
     m = re.search(r'「(.+?)」', notice)
     return (m.group(1) if m else first_section_title)[:24]
 
 
-def build_events():
+def build_events(ctx):
+    BIN_ACTIVITY = ctx.table('BIN', 'ActivityStory')
+    LANG_ACT = ctx.lang_table('LANG', 'ActivityStory')
     stats = collections.Counter()
     groups = collections.defaultdict(list)
     for r in BIN_ACTIVITY.values():
         groups[r['ChapterId']].append(r)
     for cid in sorted(groups):
         secs = sorted(groups[cid], key=lambda x: x['Id'])
-        name = activity_name(cid, lang_of(LANG_ACT, secs[0].get('Title', '')))
+        name = activity_name(ctx, cid, lang_of(LANG_ACT, secs[0].get('Title', '')))
         folder = os.path.join(OUT, 'events', 'activity_%s_%s' % (cid, safe_name(name)))
         for r in sorted(secs, key=lambda x: x['Id']):
             stem = r.get('AvgLuaName') or r.get('StoryId')
-            parsed = extract_script(stem) if stem else None
+            parsed = ctx.extract_script(stem) if stem else None
             if not parsed:
                 continue
             idx = lang_of(LANG_ACT, r.get('Index', ''))
@@ -521,36 +400,28 @@ def build_events():
 
 
 # ---------------------------------------------------------- other story families
-def rows_of(table):
-    return sorted(table.values(), key=lambda r: r.get('Id', 0))
+# rows_of / field_lang 已移入 context.py（ctx.rows / ctx.field_lang 同语义）。
 
 
-def field_lang(lang_table, row, field='Name'):
-    return lang_of(lang_table, row.get(field, ''))
-
-
-def character_name(cid):
-    row = BIN_CHARACTER.get(str(cid))
-    return field_lang(LANG_CHARACTER, row) if row else ''
-
-
-def build_character_plots():
+def build_character_plots(ctx):
     """Plot.json mounts each traveller's personal story (CG_<char>_<part>).
 
     Three parts per character, gated at affinity 1 / 5 / 10. Costume reissues register
     their own Plot rows against the same script, so rows are grouped by script and the
     titled row owns the page while the others are listed on it.
     """
+    BIN_PLOT = ctx.table('BIN', 'Plot')
+    LANG_PLOT = ctx.lang_table('LANG', 'Plot')
     stats = collections.Counter()
     by_stem = collections.OrderedDict()
     for r in rows_of(BIN_PLOT):
         by_stem.setdefault(r.get('AvgId'), []).append(r)
     for stem, group in by_stem.items():
-        parsed = extract_script(stem)
+        parsed = ctx.extract_script(stem)
         if not parsed:
             continue
         owner = next((r for r in group if field_lang(LANG_PLOT, r)), group[0])
-        cname = character_name(owner.get('Char'))
+        cname = ctx.character_name(owner.get('Char'))
         title = field_lang(LANG_PLOT, owner) or stem
         info = [
             "- **所属角色**：%s（角色编号 `%s`）" % (cname or '未知', owner.get('Char')),
@@ -558,7 +429,7 @@ def build_character_plots():
             "- **剧情档案 ID**：`%s`" % owner['Id'],
             "- **AVG 剧本**：`%s`" % stem,
         ]
-        twins = [character_name(r.get('Char')) for r in group if r is not owner]
+        twins = [ctx.character_name(r.get('Char')) for r in group if r is not owner]
         if twins:
             info.append("- **复用此剧本的档案**：%s" % "、".join(x for x in twins if x))
         folder = os.path.join(OUT, 'characters',
@@ -576,11 +447,15 @@ def build_character_plots():
     return stats
 
 
-def build_npc_plots():
+def build_npc_plots(ctx):
     """NPCAffinityPlot.json mounts the star-tower staff bond stories (CG_npc<id>_<part>)."""
+    BIN_NPC_PLOT = ctx.table('BIN', 'NPCAffinityPlot')
+    BIN_NPC = ctx.table('BIN', 'StarTowerNPC')
+    LANG_NPC = ctx.lang_table('LANG', 'StarTowerNPC')
+    LANG_NPC_PLOT = ctx.lang_table('LANG', 'NPCAffinityPlot')
     stats = collections.Counter()
     for r in rows_of(BIN_NPC_PLOT):
-        parsed = extract_script(r.get('avgId'))
+        parsed = ctx.extract_script(r.get('avgId'))
         if not parsed:
             continue
         npc = BIN_NPC.get(str(r.get('NPCId')))
@@ -611,21 +486,23 @@ def build_npc_plots():
     return stats
 
 
-def build_discs():
+def build_discs(ctx):
     """DiscIP rows carrying an AvgId play a CG_disc* vignette.
 
     The same row also stores a prose retelling in StoryDesc. It is table copy, not
     script dialogue -- none of its lines appear in the AVG -- so it is kept as a
     labelled appendix instead of being merged into the beat list.
     """
+    BIN_DISC = ctx.table('BIN', 'DiscIP')
+    LANG_DISC = ctx.lang_table('LANG', 'DiscIP')
     stats = collections.Counter()
     for r in rows_of(BIN_DISC):
         stem = r.get('AvgId')
-        parsed = extract_script(stem) if stem else None
+        parsed = ctx.extract_script(stem) if stem else None
         if not parsed:
             continue
         title = field_lang(LANG_DISC, r, 'StoryName')
-        chars = [character_name(c) for c in (r.get('CharId') or [])]
+        chars = [ctx.character_name(c) for c in (r.get('CharId') or [])]
         owners = "、".join(x for x in chars if x)
         info = [
             "- **唱片 ID**：`%s`" % r['Id'],
@@ -650,7 +527,7 @@ def build_discs():
     return stats
 
 
-def build_dispatch():
+def build_dispatch(ctx):
     """AgentSpecialPerformance: 委托（Agent）结算演出 DP_single*/DP_multi*。
 
     委托完成时，若该委托掉落[特殊报酬]，客户端会从 AgentSpecialPerformance 里按
@@ -664,12 +541,13 @@ def build_dispatch():
     也不写 `AVG 剧本**：` 挂载行（一页只含该段而非整份共用脚本）。因此由 validate_story
     的「委托分段保真(N)」契约按 (脚本, 段号) 独立切段对账；A/A2/B/C/D/E 与 F/M 对它不适用。
     """
+    BIN_DISPATCH_PERF = ctx.table('BIN', 'AgentSpecialPerformance')
     stats = collections.Counter()
     parsed = {}
 
     def segments(stem):
         if stem not in parsed:
-            pr = extract_script(stem) or {'beats': []}
+            pr = ctx.extract_script(stem) or {'beats': []}
             groups, cur = {}, None
             for b in pr['beats']:
                 if b['k'] == 'wave':
@@ -690,7 +568,7 @@ def build_dispatch():
         cast = [int(c) for c in (r.get('CharId') or [])]
         n = len(cast)
         kind = {1: '单人', 2: '双人', 3: '三人'}.get(n, '%d 人' % n)
-        names = [character_name(c) or ('旅人 %d' % c) for c in cast]
+        names = [ctx.character_name(c) or ('旅人 %d' % c) for c in cast]
         if n == 1:
             variant_no[cast[0]] = variant_no.get(cast[0], 0) + 1
             ordinal = {1: '其一', 2: '其二', 3: '其三'}.get(variant_no[cast[0]], str(variant_no[cast[0]]))
@@ -725,12 +603,16 @@ def build_dispatch():
     return stats
 
 
-def build_anecdotes():
+def build_anecdotes(ctx):
     """StarTowerBookEventReward: 星塔图鉴「逸闻笔记」短篇故事。
 
     按人物合并成页，每页收录该人物的
     （一）（二）（三）共 3 则逸闻笔记、获取条件与正文。md 置于 `anecdotes/` 下。
     """
+    BIN_EVENT_BOOK = ctx.table('BIN', 'StarTowerBookEventReward')
+    LANG_EVENT_BOOK = ctx.lang_table('LANG', 'StarTowerBookEventReward')
+    BIN_NPC = ctx.table('BIN', 'StarTowerNPC')
+    LANG_NPC = ctx.lang_table('LANG', 'StarTowerNPC')
     stats = collections.Counter()
     rows_sorted = sorted(
         (r for r in BIN_EVENT_BOOK.values() if not r.get('IsBanned')),
@@ -748,7 +630,7 @@ def build_anecdotes():
             role_label = '星塔 NPC'
             sub = 'npc'
         else:
-            who = character_name(npc_id) or ('旅人 %s' % npc_id)
+            who = ctx.character_name(npc_id) or ('旅人 %s' % npc_id)
             role_label = '旅人'
             sub = 'char'
         group_label = who
@@ -814,7 +696,7 @@ def build_anecdotes():
     return stats
 
 
-def build_returnee():
+def build_returnee(ctx):
     """ActivityReturnee.AVG → ST_sys_reengagement*.lua（回归活动重逢剧情）。
 
     回归活动（Reengagement）是面向流失回归玩家的系统活动：其开场剧情由
@@ -822,11 +704,12 @@ def build_returnee():
     （Story / ActivityStory 均无行），与序章 STm00_* 同为「流程直接调用」的挂载方式。
     标题取官方 `UIText.MainView_Reengagement`（归星漫途），取不到时回退「回归剧情」。
     """
+    LANG_UITEXT = ctx.lang_table('LANG', 'UIText')
     stats = collections.Counter()
     official_title = lang_of(LANG_UITEXT, 'UIText.MainView_Reengagement.1')
-    stems = sorted(f[:-4] for f in os.listdir(CFG) if f.startswith('ST_sys_reengagement'))
+    stems = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.startswith('ST_sys_reengagement'))
     for stem in stems:
-        parsed = extract_script(stem)
+        parsed = ctx.extract_script(stem)
         if not parsed:
             continue
         title = official_title or '回归剧情'
@@ -851,7 +734,7 @@ def build_returnee():
     return stats
 
 
-def build_soldier():
+def build_soldier(ctx):
     """尖兵陷阵（Soldier，自走棋模式）：开场剧本 + 终局档案。
 
     开场剧本 `ST_sys_soldier_intro.lua` 由模式入口直接调用，包内无任何配置表引用；
@@ -863,9 +746,11 @@ def build_soldier():
     `SoldierEventPersonalityStory`）以 3 选 1、性格轴检定与奖励结算为主，结果文案
     大量缺失（语言表 114 条去重后仅 7 条独立文本），按玩法内容不纳入本档案。
     """
+    BIN_ENDING = ctx.table('BIN', 'SoldierEndingPlan')
+    LANG_ENDING = ctx.lang_table('LANG', 'SoldierEndingPlan')
     stats = collections.Counter()
     stem = 'ST_sys_soldier_intro'
-    parsed = extract_script(stem)
+    parsed = ctx.extract_script(stem)
     if parsed:
         title = '尖兵陷阵 · 开场剧情'
         info = [
@@ -917,7 +802,7 @@ def build_soldier():
     return stats
 
 
-def build_chat():
+def build_chat(ctx):
     """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
 
     收录口径与 dispatch 同款自外于站点：一页 = 一个 PM 剧本（按 SetGroupId 切段，
@@ -934,6 +819,9 @@ def build_chat():
     脚本段是权威：537 个 SetGroupId 段 vs Chat 表 498 行，多出的 39 个 `08` 段是
     上游缺行，照常渲染并标注；空段跳过。两者都在 _chat/_diagnostics.json 登记。
     """
+    BIN_CHAT = ctx.table('BIN', 'Chat')
+    BIN_ITEM = ctx.table('BIN', 'Item')
+    LANG_ITEM = ctx.lang_table('LANG', 'Item')
     stats = collections.Counter()
     diag = phone_chat.ChatDiagnostics()
     item_names = {str(r['Id']): lang_of(LANG_ITEM, r.get('Title') or '')
@@ -949,24 +837,24 @@ def build_chat():
         if stem not in stems_of[cid]:
             stems_of[cid].append(stem)
     mounted = {stem for _cid, stem in by_file}
-    for stem in sorted(f[:-4] for f in os.listdir(CFG)
+    for stem in sorted(f[:-4] for f in os.listdir(ctx.cfg)
                        if f.startswith('PM') and f.endswith('.lua')):
         if stem not in mounted:
             diag.add('script_without_chat_rows', {'stem': stem})
 
     contacts = []
     for cid in sorted(stems_of):
-        cname = character_name(cid) or ('旅人 %s' % cid)
+        cname = ctx.character_name(cid) or ('旅人 %s' % cid)
         files = []
         for stem in sorted(stems_of[cid]):
-            path = os.path.join(CFG, stem + '.lua')
+            path = os.path.join(ctx.cfg, stem + '.lua')
             if not os.path.exists(path):
                 for gid, r in sorted(by_file[(cid, stem)].items()):
                     diag.add('chat_row_without_segment',
                              {'stem': stem, 'gid': gid, 'chat_id': r.get('Id')})
                 continue
-            segments = phone_chat.extract_script(stem, script_commands(stem),
-                                                 SPEAKER_RESOLVER, TEXT_COMPILER, diag)
+            segments = phone_chat.extract_script(stem, ctx.script_commands(stem),
+                                                 ctx.speaker_resolver, ctx.text_compiler, diag)
             rows = by_file[(cid, stem)]
             prepared, skipped = [], []
             for seg in segments:
@@ -1007,12 +895,18 @@ def build_chat():
     return stats
 
 
-def build_storysets():
+def build_storysets(ctx):
     """StorySet* tables mount the side-story collections (STsp_<chapter>_<part>).
 
     Tab (栏目) -> Chapter (故事集) -> Section (小节); tab 1 is the site-wide "全部"
     filter, not a category, so chapters are filed under their real tab only.
     """
+    BIN_SST_TAB = ctx.table('BIN', 'StorySetTab')
+    BIN_SST_CHAPTER = ctx.table('BIN', 'StorySetChapter')
+    BIN_SST_SECTION = ctx.table('BIN', 'StorySetSection')
+    LANG_SST_TAB = ctx.lang_table('LANG', 'StorySetTab')
+    LANG_SST_CHAPTER = ctx.lang_table('LANG', 'StorySetChapter')
+    LANG_SST_SECTION = ctx.lang_table('LANG', 'StorySetSection')
     stats = collections.Counter()
     tabs = {r['Id']: lang_of(LANG_SST_TAB, r.get('TabName', ''))
             for r in rows_of(BIN_SST_TAB) if not r.get('IsAll')}
@@ -1029,7 +923,7 @@ def build_storysets():
         folder = os.path.join(OUT, 'storysets', safe_name(tab),
                               safe_name('%s_%s' % (chap['Id'], cname)))
         for s in secs:
-            parsed = extract_script(s.get('AVGId'))
+            parsed = ctx.extract_script(s.get('AVGId'))
             if not parsed:
                 continue
             idx = lang_of(LANG_SST_SECTION, s.get('Title', ''))
@@ -1056,7 +950,7 @@ def build_storysets():
     return stats
 
 
-def build_prologue():
+def build_prologue(ctx):
     """STm00_* is the opening 序章《最初的起点》played during registration.
 
     Story lists no chapter 0 row, so the stage table cannot mount it; the script's own
@@ -1064,10 +958,10 @@ def build_prologue():
     that same desert mission (same trio, same 许愿箱).
     """
     stats = collections.Counter()
-    stems = sorted(f[:-4] for f in os.listdir(CFG) if f.startswith('STm00_'))
-    battle = sorted(f[:-4] for f in os.listdir(CFG) if f.startswith('BBm00_'))
+    stems = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.startswith('STm00_'))
+    battle = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.startswith('BBm00_'))
     for stem in stems:
-        parsed = extract_script(stem)
+        parsed = ctx.extract_script(stem)
         if not parsed:
             continue
         info = [
@@ -1094,7 +988,7 @@ def build_prologue():
     return stats
 
 
-def build_orphan_battles(used):
+def build_orphan_battles(ctx, used):
     """BBm* scripts no stage row points at.
 
     No CN/bin table ever names a BBm script -- the client derives the name from the
@@ -1102,10 +996,10 @@ def build_orphan_battles(used):
     still official dialogue, so they get pages rather than a footnote.
     """
     stats = collections.Counter()
-    orphans = sorted(f[:-4] for f in os.listdir(CFG)
+    orphans = sorted(f[:-4] for f in os.listdir(ctx.cfg)
                      if f.startswith('BBm') and f[:-4] not in used)
     for stem in orphans:
-        parsed = extract_script(stem)
+        parsed = ctx.extract_script(stem)
         if not parsed:
             continue
         n = sum(1 for b in parsed['beats'] if b['k'] == 'bubble')
@@ -1136,8 +1030,12 @@ def dump_json(name, obj):
           json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
 
 
-def write_data():
+def write_data(ctx):
     """Site-facing structure: chapter graphs, the page index, search, personality axes."""
+    BIN_CHAPTER = ctx.table('BIN', 'StoryChapter')
+    LANG_STORY_CHAP = ctx.lang_table('LANG', 'StoryChapter')
+    BIN_PERSONALITY = ctx.table('BIN', 'StoryPersonality')
+    LANG_PERSONALITY = ctx.lang_table('LANG', 'StoryPersonality')
     chapters = []
     for ch, nodes in _CHAPTER_NODES.items():
         cdef = BIN_CHAPTER.get(str(ch), {})
@@ -1165,10 +1063,10 @@ def write_data():
             'open_time': cdef.get('OpenTime'),
             'folder': 'main/chapter_%02d_%s' % (ch, safe_name(title or name or 'chapter')),
             'special': chapter_path.is_special(cdef),   # StoryChapter.Type == 2
-            'story_line': chapter_path.chapter_line_info(cdef, STORY_LINES),
-            'slug': CHAPTER_SLUGS[ch],                  # 站点 URL 目录，全局唯一
+            'story_line': chapter_path.chapter_line_info(cdef, ctx.story_lines),
+            'slug': ctx.chapter_slugs[ch],         # 站点 URL 目录，全局唯一
             'edge_source': 'ParentStoryId' if any(n['parents'] for n in nodes) else 'none',
-            'time_slots': {str(i): v for i, v in sorted(time_slots(ch).items())},
+            'time_slots': {str(i): v for i, v in sorted(ctx.time_slots(ch).items())},
             'geometry': None if edges is None else {
                 'columns': placed['columns'], 'width': placed['width'],
                 'height': placed['height'], 'roots': list(placed['roots']),
@@ -1182,7 +1080,7 @@ def write_data():
              'pages': len(_PAGES)}
     dump_json('chapters.json', {'meta': dict(total, source='Story.json',
                                              edge_field='ParentStoryId',
-                                             story_lines=[STORY_LINES[k] for k in sorted(STORY_LINES)]),
+                                             story_lines=[ctx.story_lines[k] for k in sorted(ctx.story_lines)]),
                                 'chapters': chapters})
     dump_json('sections.json', {'meta': dict(total, families=sorted({p['family'] for p in _PAGES})),
                                 'pages': _PAGES})
@@ -1196,16 +1094,16 @@ def write_data():
     return total
 
 
-def write_coverage():
+def write_coverage(ctx):
     """Every script in the pack is either rendered or named here with its mount source."""
     rendered = set(_RENDERED)
-    alls = sorted(f[:-4] for f in os.listdir(CFG) if f.endswith('.lua'))
+    alls = sorted(f[:-4] for f in os.listdir(ctx.cfg) if f.endswith('.lua'))
     mounts = collections.defaultdict(set)
     for tbl, fld in (('Story', 'AvgLuaName'), ('ActivityStory', 'AvgLuaName'),
                      ('Plot', 'AvgId'), ('NPCAffinityPlot', 'avgId'), ('DiscIP', 'AvgId'),
                      ('StorySetSection', 'AVGId'), ('Chat', 'AVGId'),
                      ('AgentSpecialPerformance', 'Avg'), ('ActivityReturnee', 'AVG')):
-        for r in load_json(BIN, tbl + '.json').values():
+        for r in ctx.table('BIN', tbl).values():
             v = r.get(fld)
             if isinstance(v, str):
                 mounts[v].add(tbl)
@@ -1242,7 +1140,7 @@ def write_coverage():
     return len(alls), len(alls) - len(todo), len(todo)
 
 
-def write_diagnostics(battle_map, skipped, unattached):
+def write_diagnostics(ctx, battle_map, skipped, unattached):
     """story_docs/_diagnostics.json —— 上游数据异常与编译器兜底的机器可读登记。
 
     与人读的 _battle_reconciliation.md 互补。所有分类都在解析/构建过程中实时登记进
@@ -1252,19 +1150,19 @@ def write_diagnostics(battle_map, skipped, unattached):
     同一输入重建字节稳定（list 按去重键排序，count 为累计值）。
     """
     for sid, story, suffix, disp, stem, cond, c in CODE_MISMATCHES:
-        DIAG.add('code_mismatches', key=(sid, story, suffix, disp, stem, cond, c),
+        ctx.diag.add('code_mismatches', key=(sid, story, suffix, disp, stem, cond, c),
                  sid=sid, story_id=story, storyid_suffix=suffix, display_code=disp,
                  bubble_stem=stem, condition_id=cond, chapter=c)
     for b in battle_map:
         if b[2] == 'MISSING':
-            DIAG.add('battle_bubble_missing', key=(b[0], b[1], b[3]),
+            ctx.diag.add('battle_bubble_missing', key=(b[0], b[1], b[3]),
                      sid=b[0], expected_stem=b[1], chapter=b[3])
-    DIAG.extend('unattached_bbm_scripts', unattached)
+    ctx.diag.extend('unattached_bbm_scripts', unattached)
     for c, sid, stem, t, kind in skipped:
-        DIAG.add('rows_without_script', key=(c, sid, stem, t, kind),
+        ctx.diag.add('rows_without_script', key=(c, sid, stem, t, kind),
                  chapter=c, sid=sid, stem=stem, title=t, kind=kind)
-    obj = {'note': DIAG.note()}
-    obj.update(DIAG.as_dict())
+    obj = {'note': ctx.diag.note()}
+    obj.update(ctx.diag.as_dict())
     write(os.path.join(OUT, '_diagnostics.json'),
           json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
     return obj
@@ -1275,12 +1173,15 @@ def main():
     # files behind would let the validators read a tree this script never wrote
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
+    # 上游数据与共享服务：构造一次，族经 ctx 取数（Phase A；ScopedDataContext
+    # NEEDS 门控在 Phase C 的 FAMILY_ORDER 循环上线）
+    ctx = DataContext(ROOT, out=OUT)
     print("Parsing official AVG scripts (main story)...")
-    mstats, battle_map, skipped = build_main()
+    mstats, battle_map, skipped = build_main(ctx)
     mstats['empty'] = len(skipped)
     print("  sections=%(sections)s 战斗气泡关卡=%(bubbles)s 台词行=%(lines)s 无剧本关卡行=%(empty)s" % mstats)
     print("Parsing event story scripts...")
-    estat = build_events()
+    estat = build_events(ctx)
     print("  sections=%(sections)s lines=%(lines)s" % estat)
     for label, fn in (("角色个人剧情", build_character_plots),
                       ("星塔 NPC 好感剧情", build_npc_plots),
@@ -1291,22 +1192,22 @@ def main():
                       ("逸闻笔记", build_anecdotes),
                       ("归星漫途", build_returnee),
                       ("尖兵陷阵", build_soldier)):
-        st = fn()
+        st = fn(ctx)
         print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
     print("Parsing 心链 (phone chat) scripts...")
-    build_chat()
+    build_chat(ctx)
 
     attached = [b for b in battle_map if b[2] == 'attached']
     missing = [b for b in battle_map if b[2] == 'MISSING']
     used = {b[1] for b in attached}
-    ostats, unattached = build_orphan_battles(used)
-    chlab = {int(c['Id']): (clean_text(lang_of(LANG_STORY_CHAP, c.get('Name', '')))
-                            or '表 Id %s' % c['Id']) for c in BIN_CHAPTER.values()}
+    ostats, unattached = build_orphan_battles(ctx, used)
+    chlab = {int(c['Id']): (clean_text(lang_of(ctx.lang_table('LANG', 'StoryChapter'), c.get('Name', '')))
+                            or '表 Id %s' % c['Id']) for c in ctx.table('BIN', 'StoryChapter').values()}
     miss_ch = sorted({chlab.get(b[3], b[3]) for b in missing})
-    print("  无关卡引用的战斗气泡剧本：剧本=%d 气泡=%d" % (ostats['sections'], ostats['lines']))
-    dstats = write_data()
+    print("  无关卡引用的战斗气泡剧本：脚本=%d 气泡=%d" % (ostats['sections'], ostats['lines']))
+    dstats = write_data(ctx)
     print("结构化侧车：章=%d 节点=%d 页=%d" % (dstats['chapters'], dstats['nodes'], dstats['pages']))
-    total, done, todo = write_coverage()
+    total, done, todo = write_coverage(ctx)
     print("剧本覆盖对账：包内 %d 个，已渲染 %d 个，未渲染 %d 个" % (total, done, todo))
 
     lines = ["# 战斗气泡剧本对账", "",
@@ -1347,9 +1248,9 @@ def main():
         lines += ["## 关卡表已列出、包内无剧本的关卡行（未开放线路）", ""]
         lines += ["- 第 %s 章 `%s` %s（%s，剧本代号 `%s`）" % (c, sid, t, kind, stem) for c, sid, stem, t, kind in skipped]
     write(os.path.join(OUT, '_battle_reconciliation.md'), "\n".join(lines))
-    djson = write_diagnostics(battle_map, skipped, unattached)
+    djson = write_diagnostics(ctx, battle_map, skipped, unattached)
     print("诊断侧车 _diagnostics.json：%s"
-          % (' '.join('%s=%s' % kv for kv in sorted(DIAG.nonzero().items()))
+          % (' '.join('%s=%s' % kv for kv in sorted(ctx.diag.nonzero().items()))
              or '本次构建无任何兜底触发'))
     print("Wrote %s" % OUT)
 
