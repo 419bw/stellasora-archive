@@ -23,16 +23,6 @@ from context import lang_of, rows_of, field_lang
 from sink import write, safe_name
 from families import FAMILY_ORDER
 
-# 挂载对的中文挂载源说明（_coverage.md 的「挂载来源」列；MOUNTS 声明提供
-# (表, 字段) 机器可读对账，本表只提供给人看的文案）。
-_MOUNT_SRC_LABEL = {
-    'Story': 'Story.AvgLuaName', 'ActivityStory': 'ActivityStory.AvgLuaName',
-    'Plot': 'Plot.AvgId', 'NPCAffinityPlot': 'NPCAffinityPlot.avgId',
-    'DiscIP': 'DiscIP.AvgId', 'StorySetSection': 'StorySetSection.AVGId',
-    'Chat': 'Chat.AVGId', 'AgentSpecialPerformance': 'AgentSpecialPerformance.Avg',
-    'ActivityReturnee': 'ActivityReturnee.AVG',
-}
-
 
 def dump_json(out, name, obj):
     write(os.path.join(out, '_data', name),

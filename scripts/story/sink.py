@@ -54,26 +54,23 @@ def node_time(beats):
 class SidecarSink:
     """一次构建的全部侧车累加器 + 落盘；实例状态即 sections/chapters/search 的真源。
 
-    ``containers`` 可选：注入外部累加器容器（Phase B 混合调度中间态用——已搬迁
-    族经 sink 记录但并入编排器尚在使用的模块级列表，保持产物字节序）。
-    键：pages / search_entries / chapter_nodes / rendered / battle_map /
-    skipped / code_mismatches。缺省全部自建。
+    全部容器在 __init__ 自建、只归本实例所有：编排器单实例直读各属性，
+    无外部注入面（Phase B 混合调度中间态的 containers 注入已随族搬迁完成移除）。
     """
 
-    def __init__(self, out, lang_story, containers=None):
-        containers = containers or {}
+    def __init__(self, out, lang_story):
         self.out = out
         self.lang_story = lang_story          # LANG Story 表（record_node 取展示文案）
-        self.pages = containers.get('pages', [])
-        self.search_entries = containers.get('search_entries', [])
-        self.chapter_nodes = containers.get('chapter_nodes', collections.OrderedDict())
-        self.rendered = containers.get('rendered', set())
+        self.pages = []
+        self.search_entries = []
+        self.chapter_nodes = collections.OrderedDict()
+        self.rendered = set()
         # 主线对账记录（R1）：main 族写入，aggregate/orphan_battles 读取
-        self.battle_map = containers.get('battle_map', [])
-        self.skipped = containers.get('skipped', [])
-        self.code_mismatches = containers.get('code_mismatches', [])
+        self.battle_map = []
+        self.skipped = []
+        self.code_mismatches = []
         # orphan_battles 族写入：有剧本但无关卡引用的 BBm 清单
-        self.unattached = containers.get('unattached', [])
+        self.unattached = []
 
     # ------------------------------------------------------------ 页面记录
     def record_page(self, family, path, doc, ident, title, *, code='', group=None,
@@ -202,7 +199,7 @@ class SidecarSink:
 
     def record_unattached(self, orphans):
         """有剧本但无关卡引用的 BBm 清单（orphan_battles 族写入）。"""
-        self.unattached = list(orphans)
+        self.unattached.extend(orphans)
 
     # ------------------------------------------------------------ 侧车落盘
     def write_beats(self, page, doc):
