@@ -6,11 +6,13 @@
   2. 每个族的 NEEDS/MOUNTS 是 (scope, name) / (表, 字段) 二元组格式，scope 合法；
   3. MOUNTS 引用的表在 data/ 里真实存在（上游不会凭空多表）；
   4. sections.json（git 跟踪的侧车快照）出现的每个 family 都有对应族模块；
-  5. 站点侧每个族 id 都有 CSS accent 片段（依赖 Phase E 的 assemble.py 落位，缺则 skip）。
+  5. 站点侧每个族 id 都有 CSS accent 片段（依赖 Phase E1 的 CSS_MANIFEST 落位，缺则 skip）；
+  6. 站点分发表覆盖 kind taxonomy 全集（Phase D3，子进程隔离 import）。
 """
 import os
 import sys
 import json
+import subprocess
 import importlib
 
 import pytest
@@ -76,17 +78,43 @@ def test_sections_families_all_have_modules():
 
 
 def test_family_css_accent_exists():
-    """站点侧每个族 id 都有 CSS accent 片段（Phase E 后 scripts/site/families/<id>/style.css）。
+    """站点侧每个族 id 都有 CSS accent 片段（Phase E1 后 scripts/site/families/<id>/style.css）。
 
-    D1 已建 families/ 空壳（只搬 main/events 模板），真正的族样式切片要等 Phase E
-    的 assemble.py 落位；用 assemble.py 存在性做"E 已完工"信号，落位前 skip，
+    D3 先建 assemble.py（彼时只有模板分发注册表），CSS 超级拼接要等 E1；
+    用 assemble.py 里的 CSS_MANIFEST 声明做"E1 已完工"信号，落位前 skip，
     落位后任一族缺 style.css 立即红。
     """
-    if not os.path.exists(os.path.join(ROOT, 'scripts', 'site', 'assemble.py')):
-        pytest.skip('Phase E 未落位（assemble.py 不存在），族 style.css 切片尚未生成')
+    assemble_py = os.path.join(ROOT, 'scripts', 'site', 'assemble.py')
+    if not os.path.exists(assemble_py) or \
+            'CSS_MANIFEST' not in open(assemble_py, encoding='utf-8').read():
+        pytest.skip('Phase E1 未落位（assemble.py 无 CSS_MANIFEST），族 style.css 切片尚未生成')
     fam_dir = os.path.join(ROOT, 'scripts', 'site', 'families')
     for fam_id in FAMILY_ORDER:
         if fam_id in ('chat',):        # 心链自外于站点，无 accent
             continue
         assert os.path.exists(os.path.join(fam_dir, fam_id, 'style.css')), \
             '站点侧缺 %s 族 accent 片段' % fam_id
+
+
+def test_site_dispatch_table_covers_kind_taxonomy():
+    """站点分发表覆盖 kind taxonomy 全集且条目可调用（Phase D3 契约）。
+
+    子进程隔离 import assemble——测试进程里 scripts/story 与 scripts/site 各有
+    一个 ``families`` 包，同进程 import 会互相掩蔽。
+    """
+    assemble_py = os.path.join(ROOT, 'scripts', 'site', 'assemble.py')
+    if not os.path.exists(assemble_py):
+        pytest.skip('Phase D3 未落位（assemble.py 不存在）')
+    code = (
+        "import sys; sys.path.insert(0, %r); import assemble; "
+        "kinds = {k for _, k in assemble.DISPATCH}; "
+        "need = {'home', 'index', 'reading', 'battle_archive', "
+        "'chapter_graph', 'activity_graph'}; "
+        "assert need <= kinds, '缺 kind: %%s' %% (need - kinds); "
+        "assert all(callable(v) for v in assemble.DISPATCH.values()); "
+        "assert ('main', 'index') in assemble.DISPATCH; "
+        "assert ('events', 'activity_graph') in assemble.DISPATCH; "
+        "print('ok')" % os.path.join(ROOT, 'scripts', 'site')
+    )
+    res = subprocess.run([sys.executable, '-c', code], capture_output=True, text=True)
+    assert res.returncode == 0, res.stderr

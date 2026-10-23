@@ -1,15 +1,22 @@
 # -*- coding: utf-8 -*-
 """活动族站点模板。
 
-Phase D1 建包占位；D2 迁入 activity_graph_page 组装层（拓扑骨架用
-theme.graph.graph_map_page）；BRANCHING_ACTS 声明在 D3 落位，取代
-build_site.py 里的 10106/20101 硬编码清单。
+Phase D2 迁入 activity_graph_page 组装层（拓扑骨架用 theme.graph.graph_map_page）；
+Phase D3 起 BRANCHING_ACTS 在此声明，取代 build_site.py 里的 10106/20101
+硬编码清单（设计痛点 5）。新增分支活动只改这里，编排器零改动。
 """
 from theme.layout import depth_of, esc
 from theme.graph import graph_map_page
 
-# D3 待迁入：branching_acts 声明（id/code/name/title + 卡片与步进几何）
-BRANCHING_ACTS = ()
+# 分支活动拓扑页声明：id/code/name/title 供切换条与面包屑使用，card/step 是
+# 活动图几何（卡片 208×96、列距 264、行距 136——比主线章图更矮的卡片；
+# 主线章图用 graph_layout 内置 CARD_*，不在此声明）。
+BRANCHING_ACTS = (
+    {'id': 10106, 'code': '10106', 'name': '万送屋', 'title': '万送屋的委托',
+     'card': [208, 96], 'step_x': 264, 'step_y': 136},
+    {'id': 20101, 'code': '20101', 'name': '雪愿节', 'title': '雪愿节的使者与圣夜的奇迹',
+     'card': [208, 96], 'step_x': 264, 'step_y': 136},
+)
 
 
 def activity_graph_page(act_info, all_branching_acts):

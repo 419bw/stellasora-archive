@@ -8,8 +8,8 @@ Refactored modular structure (Phase D/E):
   - theme/:                公共组件——layout（页面骨架+helper）、gate（未开放门控）、
                            graph（拓扑图共用骨架：连线/卡片/列锚点/map）、
                            home/index/reading/battle 四类页型模板。
-  - families/<id>/:        族级模板片段与钩子（INDEX_OVERRIDE/BRANCHING_ACTS）。
-  - assemble.py:           CSS 超级拼接（theme/tokens|base|graph_base + families/*/style.css）。
+  - families/<id>/:        族级模板片段与钩子（INDEX_OVERRIDE/BRANCHING_ACTS/章图与活动图组装层）。
+  - assemble.py:           (family, kind) 模板分发注册表 + CSS 超级拼接（Phase E1）。
   - site_css.py / site_js.py / render_html.py / graph_layout.py: 其余既有模块。
 """
 import sys
@@ -35,16 +35,12 @@ from pipeline.diagnostics import warn  # noqa: E402
 
 # Phase D1：模板层按主题拆包（原 site_templates.py 单文件 915 行 → theme/ + families/）。
 from registry import FAMILIES, FAMILY_NAME, slug_of  # noqa: E402
-from theme.layout import (depth_of, rel, node_state_class, node_state_label,  # noqa: E402
-                          layout, esc)
+from theme.layout import depth_of, node_state_class, rel  # noqa: E402
 from theme.gate import locked_notice_page  # noqa: E402
-from theme.home import home_page  # noqa: E402
-from theme.index import family_index  # noqa: E402
-from theme.reading import script_page  # noqa: E402
-from theme.battle import battle_archive_page  # noqa: E402
-# Phase D2：章图/活动拓扑组装层落位各自族包（theme/graph.py 只留共用骨架组件）
-from families.main.templates import chapter_graph_page, main_index  # noqa: E402
-from families.events.templates import activity_graph_page  # noqa: E402
+# Phase D3：页型渲染统一走 assemble.py 的 (family, kind) 分发表，main() 零特判；
+# BRANCHING_ACTS 声明随活动族模板落位（消灭 10106/20101 硬编码）。
+from assemble import render  # noqa: E402
+from families.events.templates import BRANCHING_ACTS  # noqa: E402
 
 SRC = os.path.join(ROOT, 'story_docs')
 DATA = os.path.join(SRC, '_data')
@@ -460,14 +456,14 @@ def main():
     nav_index, branch_index = build_navigation_index(pages, chapters, act_battle_pages)
 
     # 1. Homepage
-    write(os.path.join(SITE, 'index.html'), home_page(pages, pers_data))
+    write(os.path.join(SITE, 'index.html'), render(None, 'home', pages, pers_data))
 
     # 2. Main story index & chapter graph pages
     write(os.path.join(SITE, 'main', 'index.html'),
-          main_index(chapters, gate.items('main')))
+          render('main', 'index', chapters, gate.items('main')))
     for c in chapters:
         write(os.path.join(SITE, 'main', c['slug'], 'index.html'),
-              chapter_graph_page(c, chapters))
+              render('main', 'chapter_graph', c, chapters))
 
     # 2b. Battle archive pages for main story pure battle stages
     rendered_pages = {p['page'] for p in pages}
@@ -479,19 +475,16 @@ def main():
     for n in main_battle_nodes:
         chap = node_to_chap.get(n['sid'], {})
         stage_info = dict(n, chapter_name=chap.get('name'), chapter_title=chap.get('title'))
-        html = battle_archive_page(stage_info, nav_info=nav_index.get(n['page']))
+        html = render('main', 'battle_archive', stage_info, nav_info=nav_index.get(n['page']))
         write(os.path.join(SITE, n['page'].replace('/', os.sep)), html)
 
-    # 2c. Activity DAG topology pages for 10106 and 20101 (including battle stages)
-    branching_acts = [
-        {"id": 10106, "code": "10106", "name": "万送屋", "title": "万送屋的委托"},
-        {"id": 20101, "code": "20101", "name": "雪愿节", "title": "雪愿节的使者与圣夜的奇迹"},
-    ]
+    # 2c. Activity DAG topology pages for the declared branching acts
+    #     (including battle stages; 声明见 families/events/templates.BRANCHING_ACTS)
     cond_file = os.path.join(ROOT, "data", "StellaSoraData", "CN", "bin", "ActivityStoryCondition.json")
     cond_data = json.load(open(cond_file, encoding="utf-8")) if os.path.exists(cond_file) else {}
     all_event_pages = [p for p in pages if p['family'] == 'events'] + act_battle_pages
 
-    for b_act in branching_acts:
+    for b_act in BRANCHING_ACTS:
         act_id = b_act["id"]
         if gate.is_group('events', act_id):
             continue  # still locked: its events/<id>/index.html is a notice page
@@ -519,9 +512,9 @@ def main():
                 "page": p["page"]
             })
         geom = graph_layout.layout(act_nodes)
-        geom["card"] = [208, 96]
-        geom["step_x"] = 264
-        geom["step_y"] = 136
+        geom["card"] = b_act["card"]
+        geom["step_x"] = b_act["step_x"]
+        geom["step_y"] = b_act["step_y"]
         act_info = {
             "id": act_id,
             "name": b_act["name"],
@@ -529,19 +522,19 @@ def main():
             "nodes": act_nodes,
             "geometry": geom
         }
-        html = activity_graph_page(act_info, branching_acts)
+        html = render('events', 'activity_graph', act_info, BRANCHING_ACTS)
         write(os.path.join(SITE, "events", str(act_id), "index.html"), html)
 
     # 2d. Battle archive pages for activity battle stages (19 pages)
     for bp in act_battle_pages:
-        html = battle_archive_page(bp, nav_info=nav_index.get(bp['page']))
+        html = render('events', 'battle_archive', bp, nav_info=nav_index.get(bp['page']))
         write(os.path.join(SITE, bp['page'].replace('/', os.sep)), html)
 
     # 3. Other family indexes
     for family, _, intro in FAMILIES:
         if family != 'main':
             write(os.path.join(SITE, slug_of(family), 'index.html'),
-                  family_index(family, intro, by_family[family], gate.items(family)))
+                  render(family, 'index', family, intro, by_family[family], gate.items(family)))
 
     # 3b. Locked-notice pages for every URL a still-locked group would occupy,
     #     so old links read "not open yet" instead of 404 or a transcript.
@@ -558,10 +551,10 @@ def main():
         page_rel = rec['page']
         cur_nav = nav_index.get(page_rel)
         cur_branches = branch_index.get(page_rel)
-        html = script_page(rec, doc, nav_info=cur_nav, branch_targets=cur_branches)
+        html = render(rec.get('family'), 'reading', rec, doc, nav_info=cur_nav, branch_targets=cur_branches)
         write(os.path.join(SITE, page_rel.replace('/', os.sep)), html)
 
-    graphs = len(chapters) + len(branching_acts)
+    graphs = len(chapters) + len(BRANCHING_ACTS)
     battle_pages_total = len(main_battle_nodes) + len(act_battle_pages)
     print("站点生成：site/ 剧本页 %d 篇 + 战斗档案 %d 篇 + 索引 %d 页 + 拓扑地图 %d 页"
           % (len(pages), battle_pages_total, len(FAMILIES) + 1, graphs))
