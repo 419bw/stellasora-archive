@@ -1,0 +1,58 @@
+.bento-card[data-slug="events"] {
+  --card-theme: #0D9488;
+  --card-theme-stripe: rgba(13, 148, 136, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="events"] {
+  --card-theme: #2DD4BF;
+  --card-theme-stripe: rgba(45, 212, 191, 0.22);
+}
+/* @@ */
+/* Category-specific theme accent & stripes */
+.grp-grid[data-family="events"] {
+  --grp-accent: #0D9488;
+  --grp-accent-stripe: rgba(13, 148, 136, 0.18);
+}
+/* @@ */
+
+[data-theme="dark"] .grp-grid[data-family="events"] {
+  --grp-accent: #2DD4BF;
+  --grp-accent-stripe: rgba(45, 212, 191, 0.22);
+}
+/* @@ */
+.chapsel[data-family="events"] {
+  --chapsel-accent: #0D9488;
+  --chapsel-accent-dark: #2DD4BF;
+}
+/* @@ */
+.anchors[data-family="events"] {
+  --anchors-accent: #0D9488;
+  --anchors-accent-dark: #2DD4BF;
+}
+/* @@ */
+
+.map[data-family="events"] .edge.story { stroke: #0D9488; }
+[data-theme="dark"] .map[data-family="events"] .edge.story { stroke: #2DD4BF; }
+/* @@ */
+
+/* 活动剧情节点 (翠绿色) */
+.map[data-family="events"] .node.story {
+  border-left-color: #0D9488;
+}
+.map[data-family="events"] .node.story .state {
+  color: #0D9488;
+}
+.map[data-family="events"] .node.story:hover {
+  border-color: #0D9488;
+  box-shadow: 0 3px 0 #0D9488, 0 6px 14px rgba(13, 148, 136, 0.15);
+}
+[data-theme="dark"] .map[data-family="events"] .node.story {
+  border-left-color: #2DD4BF;
+}
+[data-theme="dark"] .map[data-family="events"] .node.story .state {
+  color: #2DD4BF;
+}
+[data-theme="dark"] .map[data-family="events"] .node.story:hover {
+  border-color: #2DD4BF;
+  box-shadow: 0 3px 0 #2DD4BF, 0 6px 14px rgba(45, 212, 191, 0.25);
+}

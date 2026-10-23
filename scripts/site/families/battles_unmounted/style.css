@@ -1,0 +1,19 @@
+.bento-card[data-slug="battles"] {
+  --card-theme: #DC2626;
+  --card-theme-stripe: rgba(220, 38, 38, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="battles"] {
+  --card-theme: #F87171;
+  --card-theme-stripe: rgba(248, 113, 113, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="battles"] {
+  --grp-accent: #DC2626;
+  --grp-accent-stripe: rgba(220, 38, 38, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="battles"] {
+  --grp-accent: #F87171;
+  --grp-accent-stripe: rgba(248, 113, 113, 0.22);
+}

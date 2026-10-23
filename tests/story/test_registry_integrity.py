@@ -92,8 +92,10 @@ def test_family_css_accent_exists():
     for fam_id in FAMILY_ORDER:
         if fam_id in ('chat',):        # 心链自外于站点，无 accent
             continue
-        assert os.path.exists(os.path.join(fam_dir, fam_id, 'style.css')), \
-            '站点侧缺 %s 族 accent 片段' % fam_id
+        # 站点侧族 id 与剧情侧的差异只有 orphan_battles ↔ battles_unmounted
+        site_id = FAMILY_TO_SITE.get(fam_id, fam_id)
+        assert os.path.exists(os.path.join(fam_dir, site_id, 'style.css')), \
+            '站点侧缺 %s 族 accent 片段' % site_id
 
 
 def test_site_dispatch_table_covers_kind_taxonomy():

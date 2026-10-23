@@ -10,7 +10,7 @@ Refactored modular structure (Phase D/E):
                            home/index/reading/battle 四类页型模板。
   - families/<id>/:        族级模板片段与钩子（INDEX_OVERRIDE/BRANCHING_ACTS/章图与活动图组装层）。
   - assemble.py:           (family, kind) 模板分发注册表 + CSS 超级拼接（Phase E1）。
-  - site_css.py / site_js.py / render_html.py / graph_layout.py: 其余既有模块。
+  - site_js.py / render_html.py / graph_layout.py: 其余既有模块。
 """
 import sys
 import os
@@ -27,7 +27,6 @@ ROOT = os.path.dirname(SCRIPTS_DIR)
 sys.path.insert(0, os.path.join(SCRIPTS_DIR, 'story'))
 sys.path.insert(0, SCRIPT_DIR)
 
-from site_css import CSS
 from site_js import JS
 import graph_layout
 import release_gate
@@ -39,7 +38,7 @@ from theme.layout import depth_of, node_state_class, rel  # noqa: E402
 from theme.gate import locked_notice_page  # noqa: E402
 # Phase D3：页型渲染统一走 assemble.py 的 (family, kind) 分发表，main() 零特判；
 # BRANCHING_ACTS 声明随活动族模板落位（消灭 10106/20101 硬编码）。
-from assemble import render  # noqa: E402
+from assemble import assemble_css, render  # noqa: E402
 from families.events.templates import BRANCHING_ACTS  # noqa: E402
 
 SRC = os.path.join(ROOT, 'story_docs')
@@ -428,7 +427,7 @@ def main():
     write(os.path.join(SITE, 'data', 'search.js'),
           'window.STORY_INDEX = %s;\n' % json.dumps(index, ensure_ascii=False,
                                                     separators=(',', ':')))
-    write(os.path.join(SITE, 'assets', 'tokens.css'), CSS)
+    write(os.path.join(SITE, 'assets', 'tokens.css'), assemble_css())
     write(os.path.join(SITE, 'assets', 'site.js'), JS)
     src_assets = os.path.join(ROOT, 'assets')
     if os.path.exists(src_assets):

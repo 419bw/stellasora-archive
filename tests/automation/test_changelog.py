@@ -246,8 +246,17 @@ def test_changelog_empty_reason_is_noop(changelog_paths):
 def test_repo_template_and_css_have_no_update_list():
     tpl = open(mod.HOMEPAGE_PY, encoding='utf-8').read()
     assert 'update-list' not in tpl
-    css = open(os.path.join(ROOT, 'scripts', 'site', 'site_css.py'), encoding='utf-8').read()
-    assert '.update-list' not in css
+    # Phase E1 起 CSS 切片住在 theme/*.css + families/*/style.css（原 site_css.py）
+    site_dir = os.path.join(ROOT, 'scripts', 'site')
+    slices = [os.path.join(site_dir, 'theme', n)
+              for n in ('tokens.css', 'base.css', 'graph_base.css')]
+    fam_dir = os.path.join(site_dir, 'families')
+    slices += [os.path.join(fam_dir, d, 'style.css')
+               for d in sorted(os.listdir(fam_dir))
+               if os.path.isfile(os.path.join(fam_dir, d, 'style.css'))]
+    assert slices, 'CSS 片段文件未找到'
+    for p in slices:
+        assert '.update-list' not in open(p, encoding='utf-8').read(), p
 
 
 # --------------------------------------------------------------------------

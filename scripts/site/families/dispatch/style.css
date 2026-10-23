@@ -1,0 +1,19 @@
+.bento-card[data-slug="dispatch"] {
+  --card-theme: #059669;
+  --card-theme-stripe: rgba(5, 150, 105, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="dispatch"] {
+  --card-theme: #34D399;
+  --card-theme-stripe: rgba(52, 211, 153, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="dispatch"] {
+  --grp-accent: #059669;
+  --grp-accent-stripe: rgba(5, 150, 105, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="dispatch"] {
+  --grp-accent: #34D399;
+  --grp-accent-stripe: rgba(52, 211, 153, 0.22);
+}

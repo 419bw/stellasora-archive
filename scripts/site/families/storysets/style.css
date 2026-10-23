@@ -1,0 +1,19 @@
+.bento-card[data-slug="storysets"] {
+  --card-theme: #D97706;
+  --card-theme-stripe: rgba(217, 119, 6, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="storysets"] {
+  --card-theme: #FBBF24;
+  --card-theme-stripe: rgba(251, 191, 36, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="storysets"] {
+  --grp-accent: #D97706;
+  --grp-accent-stripe: rgba(217, 119, 6, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="storysets"] {
+  --grp-accent: #FBBF24;
+  --grp-accent-stripe: rgba(251, 191, 36, 0.22);
+}

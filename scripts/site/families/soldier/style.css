@@ -1,0 +1,19 @@
+.bento-card[data-slug="soldier"] {
+  --card-theme: #92400E;
+  --card-theme-stripe: rgba(146, 64, 14, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="soldier"] {
+  --card-theme: #D9A45B;
+  --card-theme-stripe: rgba(217, 164, 91, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="soldier"] {
+  --grp-accent: #92400E;
+  --grp-accent-stripe: rgba(146, 64, 14, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="soldier"] {
+  --grp-accent: #D9A45B;
+  --grp-accent-stripe: rgba(217, 164, 91, 0.22);
+}
