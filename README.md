@@ -57,7 +57,7 @@ python tests/story/validate_site.py
 推送（push）事件下的流水线：收集提交生成更新日志 → 全量单元测试 → 两份契约校验 → 构建静态站 → 部署。
 定时（schedule）事件改为跑 `scripts/automation/auto_sync.py`，由它自己完成构建与提交。
 
-`auto_sync.py` 以 `check=True` 运行生成器，因此**生成器任何未捕获异常都会让整条流水线停止**。管线的对应方针是"降级不崩 + 必登记"，详见 `_dev/AI_HANDOVER_GUIDE.md` 的「兜底与诊断策略」一节。
+`auto_sync.py` 以 `check=True` 运行生成器，因此**生成器任何未捕获异常都会让整条流水线停止**。管线的对应方针是"降级不崩 + 必登记"，详见 `_dev/guide/ch7-story-pipeline.md`（交接手册「兜底与诊断策略」章）。
 
 ---
 
@@ -166,7 +166,7 @@ stellasora-archive/
 ├── tests/                   # 测试套件
 │   ├── story/               # 地面真相严格契约与变异测试（两份校验器 + pytest）
 │   └── automation/          # 自动化与变更日志单元测试
-├── _dev/                    # 维护者文档：AI_HANDOVER_GUIDE.md（实现细节与踩坑）、OPERATION_MANUAL.md（操作手册）
+├── _dev/                    # 维护者文档（渐进式披露）：AI_HANDOVER_GUIDE.md 与 OPERATION_MANUAL.md 是索引，正文分册在 guide/ 与 manual/
 └── .github/workflows/       # GitHub Actions 自动化构建与定时同步流水线
 ```
 
@@ -176,8 +176,8 @@ stellasora-archive/
 
 它今天只作为历史资料保留（`validate_story.py` 的"历史对照"契约已于 2026-10-20 退役——`story_docs/` 本身在 git 里，`git diff -- story_docs/` 就是更贴近的对照，不再需要手工白名单）。因此：
 
-- **不要手工编辑** `docs/`（改了会让历史对照失真）；
-- **不要删除** `docs/`（对照契约会直接失败）；
+- **不要手工编辑** `docs/`（纯历史资料，改了没有校验器会报，但会污染历史记录）；
+- **不要删除** `docs/`（仍在 git 跟踪下，是早期知识库形态的历史存档）；
 - 它是可再生的（`python scripts/tools/build_wiki.py`），但重新生成前先想清是否要重置历史基线。
 
 > 提示：在 `scripts/` 根目录下提供了 `build_site.py`、`build_story.py` 与 `auto_sync.py` 的轻量转发器，直接在根目录执行旧命令依然 100% 兼容。`build_wiki.py` **没有**转发器，需写全 `scripts/tools/build_wiki.py`。
