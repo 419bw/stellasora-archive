@@ -6,7 +6,7 @@
   2. 每个族的 NEEDS/MOUNTS 是 (scope, name) / (表, 字段) 二元组格式，scope 合法；
   3. MOUNTS 引用的表在 data/ 里真实存在（上游不会凭空多表）；
   4. sections.json（git 跟踪的侧车快照）出现的每个 family 都有对应族模块；
-  5. 站点侧每个族 id 都有 CSS accent 片段（依赖 Phase D/E 落位，缺目录时 skip）。
+  5. 站点侧每个族 id 都有 CSS accent 片段（依赖 Phase E 的 assemble.py 落位，缺则 skip）。
 """
 import os
 import sys
@@ -22,7 +22,7 @@ from families import FAMILY_ORDER  # noqa: E402
 
 # sections.json 的 family 值是站点 slug，与族 id 的差异只有 orphan_battles 一族
 # （族 id orphan_battles ↔ 站点 family/slug battles_unmounted，与站点侧
-# site_templates.slug_of 的别名同源）。
+# registry.slug_of 的别名同源）。
 FAMILY_TO_SITE = {'orphan_battles': 'battles_unmounted'}
 
 
@@ -76,13 +76,15 @@ def test_sections_families_all_have_modules():
 
 
 def test_family_css_accent_exists():
-    """站点侧每个族 id 都有 CSS accent 片段（Phase E 后 scripts/site/families/<id>/）。
+    """站点侧每个族 id 都有 CSS accent 片段（Phase E 后 scripts/site/families/<id>/style.css）。
 
-    D/E 未落位前目录不存在，按 skipif 守到落位后自动生效。
+    D1 已建 families/ 空壳（只搬 main/events 模板），真正的族样式切片要等 Phase E
+    的 assemble.py 落位；用 assemble.py 存在性做"E 已完工"信号，落位前 skip，
+    落位后任一族缺 style.css 立即红。
     """
+    if not os.path.exists(os.path.join(ROOT, 'scripts', 'site', 'assemble.py')):
+        pytest.skip('Phase E 未落位（assemble.py 不存在），族 style.css 切片尚未生成')
     fam_dir = os.path.join(ROOT, 'scripts', 'site', 'families')
-    if not os.path.isdir(fam_dir):
-        pytest.skip('scripts/site/families/ 尚未落位（Phase D/E）')
     for fam_id in FAMILY_ORDER:
         if fam_id in ('chat',):        # 心链自外于站点，无 accent
             continue

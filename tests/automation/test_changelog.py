@@ -154,11 +154,11 @@ def test_resolve_reason_override():
 
 @pytest.fixture()
 def changelog_paths(tmp_path, monkeypatch):
-    tpl = tmp_path / 'site_templates.py'
+    tpl = tmp_path / 'home.py'
     rd = tmp_path / 'README.md'
     tpl.write_text(MIN_TEMPLATE, encoding='utf-8')
     rd.write_text(MIN_README, encoding='utf-8')
-    monkeypatch.setattr(mod, 'TEMPLATES_PY', str(tpl))
+    monkeypatch.setattr(mod, 'HOMEPAGE_PY', str(tpl))
     monkeypatch.setattr(mod, 'README_MD', str(rd))
     return tpl, rd
 
@@ -244,7 +244,7 @@ def test_changelog_empty_reason_is_noop(changelog_paths):
 # --------------------------------------------------------------------------
 
 def test_repo_template_and_css_have_no_update_list():
-    tpl = open(mod.TEMPLATES_PY, encoding='utf-8').read()
+    tpl = open(mod.HOMEPAGE_PY, encoding='utf-8').read()
     assert 'update-list' not in tpl
     css = open(os.path.join(ROOT, 'scripts', 'site', 'site_css.py'), encoding='utf-8').read()
     assert '.update-list' not in css

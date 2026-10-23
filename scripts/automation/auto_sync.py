@@ -24,7 +24,7 @@ UPSTREAM_LUA_REPO = 'https://github.com/MakoStar/ss-lua.git'
 DATA_DIR = os.path.join(ROOT, 'data', 'StellaSoraData')
 LUA_DIR = os.path.join(ROOT, 'data', 'ss_lua')
 SECTIONS_JSON = os.path.join(ROOT, 'story_docs', '_data', 'sections.json')
-TEMPLATES_PY = os.path.join(ROOT, 'scripts', 'site', 'site_templates.py')
+HOMEPAGE_PY = os.path.join(ROOT, 'scripts', 'site', 'theme', 'home.py')
 README_MD = os.path.join(ROOT, 'README.md')
 
 
@@ -166,11 +166,14 @@ def _today_str():
 
 
 def _write_homepage_markers(today_str, reason):
-    """Rewrite the homepage date badge / hero pill / pill-text / update-summary."""
-    if not os.path.exists(TEMPLATES_PY):
+    """Rewrite the homepage date badge / hero pill / pill-text / update-summary.
+
+    Phase D1 起首页模板住在 scripts/site/theme/home.py（原 site_templates.py 单文件已拆包）。
+    """
+    if not os.path.exists(HOMEPAGE_PY):
         return
     r_home = _esc_html(reason)
-    content = open(TEMPLATES_PY, encoding='utf-8').read()
+    content = open(HOMEPAGE_PY, encoding='utf-8').read()
     content = re.sub(r'<span>更新时间：\d{4}-\d{2}-\d{2}</span>',
                      lambda m: f'<span>更新时间：{today_str}</span>', content)
     content = re.sub(r'<span class="pill-date">\d{4}-\d{2}-\d{2}</span>',
@@ -179,9 +182,9 @@ def _write_homepage_markers(today_str, reason):
                      lambda m: f'<span class="pill-text">上次更新：{r_home}</span>', content)
     content = re.sub(r'<div class="update-summary">[^<]*</div>',
                      lambda m: f'<div class="update-summary">{r_home}</div>', content)
-    with open(TEMPLATES_PY, 'w', encoding='utf-8') as f:
+    with open(HOMEPAGE_PY, 'w', encoding='utf-8') as f:
         f.write(content)
-    print(f"[Changelog] Updated {TEMPLATES_PY}: {reason}")
+    print(f"[Changelog] Updated {HOMEPAGE_PY}: {reason}")
 
 
 def _readme_write_latest(today_str, lines):
@@ -210,7 +213,7 @@ def _readme_write_latest(today_str, lines):
 
 
 def update_changelog_in_files(today_str, reason):
-    """Write the recent-update date + one-line reason into site_templates.py and README.md."""
+    """Write the recent-update date + one-line reason into theme/home.py and README.md."""
     reason = ' '.join((reason or '').split()).strip()
     if not reason:
         return

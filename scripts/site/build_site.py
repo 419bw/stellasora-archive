@@ -3,11 +3,13 @@
 
     python scripts/build_site.py        # -> site/
 
-Refactored modular structure:
-  - scripts/site_css.py: Design tokens and full layout CSS.
-  - scripts/site_js.py: Client-side search, theme toggle, and map interactions.
-  - scripts/site_templates.py: HTML layout, bento cards, chapter graphs, and reading views.
-  - scripts/render_html.py: PageDoc sidecar (story_docs/_beats) -> story body HTML.
+Refactored modular structure (Phase D/E):
+  - registry.py:           族注册表（FAMILIES/FAMILY_META/slug_of/SLUG_ALIAS）。
+  - theme/:                公共组件——layout（页面骨架+helper）、gate（未开放门控）、
+                           home/index/reading/graph/battle 六类页型模板。
+  - families/<id>/:        族级模板片段与钩子（INDEX_OVERRIDE/BRANCHING_ACTS）。
+  - assemble.py:           CSS 超级拼接（theme/tokens|base|graph_base + families/*/style.css）。
+  - site_css.py / site_js.py / render_html.py / graph_layout.py: 其余既有模块。
 """
 import sys
 import os
@@ -18,15 +20,29 @@ import shutil
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRIPTS_DIR = os.path.dirname(SCRIPT_DIR)
 ROOT = os.path.dirname(SCRIPTS_DIR)
-sys.path.insert(0, SCRIPT_DIR)
+# 注意 path 顺序：scripts/site 必须排在 scripts/story 之前——两侧各有一个
+# ``families`` 包（剧情族 / 站点族），站点构建只应看到 scripts/site/families；
+# 剧情侧的 families 由 build_story/aggregate 在自己进程内使用，互不干扰。
 sys.path.insert(0, os.path.join(SCRIPTS_DIR, 'story'))
+sys.path.insert(0, SCRIPT_DIR)
 
 from site_css import CSS
 from site_js import JS
-import site_templates as T
 import graph_layout
 import release_gate
 from pipeline.diagnostics import warn  # noqa: E402
+
+# Phase D1：模板层按主题拆包（原 site_templates.py 单文件 915 行 → theme/ + families/）。
+from registry import FAMILIES, FAMILY_NAME, slug_of  # noqa: E402
+from theme.layout import (depth_of, rel, node_state_class, node_state_label,  # noqa: E402
+                          layout, esc)
+from theme.gate import locked_notice_page  # noqa: E402
+from theme.home import home_page  # noqa: E402
+from theme.index import family_index  # noqa: E402
+from theme.reading import script_page  # noqa: E402
+from theme.graph import chapter_graph_page, activity_graph_page  # noqa: E402
+from theme.battle import battle_archive_page  # noqa: E402
+from families.main.templates import main_index  # noqa: E402
 
 SRC = os.path.join(ROOT, 'story_docs')
 DATA = os.path.join(SRC, '_data')
@@ -176,8 +192,8 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
         return {
             'code': ch.get('code') or '·',
             'title': ch.get('title') or '',
-            'url': T.rel(cur_d, ch['page']),
-            'cls': T.node_state_class(ch),
+            'url': rel(cur_d, ch['page']),
+            'cls': node_state_class(ch),
             'tag': '终局' if ch.get('is_branch') or ch.get('is_last') else ('战斗' if ch.get('kind') == 'battle' else '剧情'),
         }
 
@@ -185,7 +201,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
         if p['family'] == 'main':
             stem = p.get('story_id')
             n = sid_to_node.get(stem)
-            cur_d = T.depth_of(p['page'])
+            cur_d = depth_of(p['page'])
             prev_items = []
             next_items = []
             if n:
@@ -195,8 +211,8 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                         prev_items.append({
                             'code': par.get('code') or '·',
                             'title': par.get('title') or '',
-                            'url': T.rel(cur_d, par['page']),
-                            'cls': T.node_state_class(par),
+                            'url': rel(cur_d, par['page']),
+                            'cls': node_state_class(par),
                         })
                 ch_nodes = children_map.get(n['story_id'], [])
                 for ch in ch_nodes:
@@ -245,7 +261,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
             page_url = n.get('page')
             if not page_url:
                 continue
-            cur_d = T.depth_of(page_url)
+            cur_d = depth_of(page_url)
             prev_items = []
             next_items = []
             if i > 0 and sp_nodes[i - 1].get('page'):
@@ -253,16 +269,16 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                 prev_items.append({
                     'code': prev_n.get('code') or '·',
                     'title': prev_n.get('title') or '',
-                    'url': T.rel(cur_d, prev_n['page']),
-                    'cls': T.node_state_class(prev_n),
+                    'url': rel(cur_d, prev_n['page']),
+                    'cls': node_state_class(prev_n),
                 })
             if i < len(sp_nodes) - 1 and sp_nodes[i + 1].get('page'):
                 next_n = sp_nodes[i + 1]
                 next_items.append({
                     'code': next_n.get('code') or '·',
                     'title': next_n.get('title') or '',
-                    'url': T.rel(cur_d, next_n['page']),
-                    'cls': T.node_state_class(next_n),
+                    'url': rel(cur_d, next_n['page']),
+                    'cls': node_state_class(next_n),
                     'tag': '战斗' if next_n.get('kind') == 'battle' else '剧情',
                 })
             nav_index[page_url] = {'prev': prev_items, 'next': next_items}
@@ -294,7 +310,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                     act_children[par_id].append(p['id'])
 
         for p in act_pages:
-            cur_d = T.depth_of(p['page'])
+            cur_d = depth_of(p['page'])
             prev_items = []
             for par_id in act_parents[p['id']]:
                 par_p = act_page_map.get(par_id)
@@ -303,7 +319,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                     prev_items.append({
                         'code': par_p.get('code') or '·',
                         'title': par_p.get('title') or '',
-                        'url': T.rel(cur_d, par_p['page']),
+                        'url': rel(cur_d, par_p['page']),
                         'cls': 'battle' if is_b else 'story',
                     })
             next_items = []
@@ -316,7 +332,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                     next_items.append({
                         'code': ch_p.get('code') or '·',
                         'title': ch_p.get('title') or '',
-                        'url': T.rel(cur_d, ch_p['page']),
+                        'url': rel(cur_d, ch_p['page']),
                         'cls': 'battle' if is_b else 'story',
                         'tag': tag,
                     })
@@ -339,7 +355,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                                 'opt': opt.get('title') or '',
                                 'code': ch_p.get('code') or '·',
                                 'title': ch_p.get('title') or '',
-                                'url': T.rel(cur_d, ch_p['page']),
+                                'url': rel(cur_d, ch_p['page']),
                                 'cls': 'battle' if is_b else 'story',
                                 'tag': '战斗' if is_b else '分支',
                             })
@@ -364,7 +380,7 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
             key=lambda x: (str(x['group'].get('id', '')), x['id']) if grp_key[0] == 'anecdotes' else x['id'],
         )
         for idx, cur_p in enumerate(sorted_p):
-            cur_d = T.depth_of(cur_p['page'])
+            cur_d = depth_of(cur_p['page'])
             prev_items = []
             next_items = []
             if idx > 0:
@@ -372,14 +388,14 @@ def build_navigation_index(pages, chapters, act_battle_pages=None):
                 prev_items.append({
                     'code': prev_p.get('code') or '',
                     'title': prev_p.get('title') or '',
-                    'url': T.rel(cur_d, prev_p['page']),
+                    'url': rel(cur_d, prev_p['page']),
                 })
             if idx < len(sorted_p) - 1:
                 next_p = sorted_p[idx + 1]
                 next_items.append({
                     'code': next_p.get('code') or '',
                     'title': next_p.get('title') or '',
-                    'url': T.rel(cur_d, next_p['page']),
+                    'url': rel(cur_d, next_p['page']),
                 })
             nav_index[cur_p['page']] = {'prev': prev_items, 'next': next_items}
 
@@ -442,14 +458,14 @@ def main():
     nav_index, branch_index = build_navigation_index(pages, chapters, act_battle_pages)
 
     # 1. Homepage
-    write(os.path.join(SITE, 'index.html'), T.home_page(pages, pers_data))
+    write(os.path.join(SITE, 'index.html'), home_page(pages, pers_data))
 
     # 2. Main story index & chapter graph pages
     write(os.path.join(SITE, 'main', 'index.html'),
-          T.main_index(chapters, gate.items('main')))
+          main_index(chapters, gate.items('main')))
     for c in chapters:
         write(os.path.join(SITE, 'main', c['slug'], 'index.html'),
-              T.chapter_graph_page(c, chapters))
+              chapter_graph_page(c, chapters))
 
     # 2b. Battle archive pages for main story pure battle stages
     rendered_pages = {p['page'] for p in pages}
@@ -461,7 +477,7 @@ def main():
     for n in main_battle_nodes:
         chap = node_to_chap.get(n['sid'], {})
         stage_info = dict(n, chapter_name=chap.get('name'), chapter_title=chap.get('title'))
-        html = T.battle_archive_page(stage_info, nav_info=nav_index.get(n['page']))
+        html = battle_archive_page(stage_info, nav_info=nav_index.get(n['page']))
         write(os.path.join(SITE, n['page'].replace('/', os.sep)), html)
 
     # 2c. Activity DAG topology pages for 10106 and 20101 (including battle stages)
@@ -511,25 +527,25 @@ def main():
             "nodes": act_nodes,
             "geometry": geom
         }
-        html = T.activity_graph_page(act_info, branching_acts)
+        html = activity_graph_page(act_info, branching_acts)
         write(os.path.join(SITE, "events", str(act_id), "index.html"), html)
 
     # 2d. Battle archive pages for activity battle stages (19 pages)
     for bp in act_battle_pages:
-        html = T.battle_archive_page(bp, nav_info=nav_index.get(bp['page']))
+        html = battle_archive_page(bp, nav_info=nav_index.get(bp['page']))
         write(os.path.join(SITE, bp['page'].replace('/', os.sep)), html)
 
     # 3. Other family indexes
-    for family, _, intro in T.FAMILIES:
+    for family, _, intro in FAMILIES:
         if family != 'main':
-            write(os.path.join(SITE, T.slug_of(family), 'index.html'),
-                  T.family_index(family, intro, by_family[family], gate.items(family)))
+            write(os.path.join(SITE, slug_of(family), 'index.html'),
+                  family_index(family, intro, by_family[family], gate.items(family)))
 
     # 3b. Locked-notice pages for every URL a still-locked group would occupy,
     #     so old links read "not open yet" instead of 404 or a transcript.
     for item in [it for items in gate.groups.values() for it in items.values()]:
         for url in item['pages']:
-            write(os.path.join(SITE, *url.split('/')), T.locked_notice_page(item, url))
+            write(os.path.join(SITE, *url.split('/')), locked_notice_page(item, url))
 
     # 4. Detailed script pages (507 pages) — rendered from the PageDoc sidecars
     #    (story_docs/_beats/*.json, written by build_story's record_page); the
@@ -540,13 +556,13 @@ def main():
         page_rel = rec['page']
         cur_nav = nav_index.get(page_rel)
         cur_branches = branch_index.get(page_rel)
-        html = T.script_page(rec, doc, nav_info=cur_nav, branch_targets=cur_branches)
+        html = script_page(rec, doc, nav_info=cur_nav, branch_targets=cur_branches)
         write(os.path.join(SITE, page_rel.replace('/', os.sep)), html)
 
     graphs = len(chapters) + len(branching_acts)
     battle_pages_total = len(main_battle_nodes) + len(act_battle_pages)
     print("站点生成：site/ 剧本页 %d 篇 + 战斗档案 %d 篇 + 索引 %d 页 + 拓扑地图 %d 页"
-          % (len(pages), battle_pages_total, len(T.FAMILIES) + 1, graphs))
+          % (len(pages), battle_pages_total, len(FAMILIES) + 1, graphs))
 
 
 if __name__ == '__main__':
