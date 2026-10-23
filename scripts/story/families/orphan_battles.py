@@ -6,7 +6,7 @@ chapter and stage index -- so these can only be filed by their own code. They ar
 still official dialogue, so they get pages rather than a footnote.
 
 NEEDS：目录扫描型（os.listdir(ctx.cfg) 匹配 BBm 前缀），无表依赖；
-used 集合由编排器从 sink.battle_map 的 attached 项推导后传入（编排器零特判）。
+used 集合族内自算（sink.battle_map 的 attached 项），编排器零特判。
 """
 import os
 import collections
@@ -19,8 +19,9 @@ NEEDS = ()
 MOUNTS = ()
 
 
-def build(ctx, sink, used):
+def build(ctx, sink):
     stats = collections.Counter()
+    used = {b[1] for b in sink.battle_map if b[2] == 'attached'}
     orphans = sorted(f[:-4] for f in os.listdir(ctx.cfg)
                      if f.startswith('BBm') and f[:-4] not in used)
     for stem in orphans:
@@ -47,4 +48,5 @@ def build(ctx, sink, used):
                          stems=[stem], page='battles/%s.html' % stem, mount_note=note)
         stats['sections'] += 1
         stats['lines'] += n
-    return stats, orphans
+    sink.record_unattached(orphans)
+    return stats

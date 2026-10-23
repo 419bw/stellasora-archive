@@ -15,7 +15,7 @@ A/C/F 都不会收编（见 _dev/AI_HANDOVER_GUIDE.md 7.6/7.7）。信息行刻�
 脚本段是权威：537 个 SetGroupId 段 vs Chat 表 498 行，多出的 39 个 `08` 段是
 上游缺行，照常渲染并标注；空段跳过。两者都在 _chat/_diagnostics.json 登记。
 
-NEEDS：BIN/LANG Chat + BIN/LANG Item（礼物名）+ CFG 目录扫描（PM_*）。
+NEEDS：BIN Chat（联系人/段号行）+ BIN/LANG Item（礼物名）+ CFG 目录扫描（PM_*）。
 """
 import os
 import json
@@ -26,7 +26,7 @@ import phone_chat
 from context import lang_of
 from sink import write
 
-NEEDS = (('BIN', 'Chat'), ('LANG', 'Chat'), ('BIN', 'Item'), ('LANG', 'Item'))
+NEEDS = (('BIN', 'Chat'), ('BIN', 'Item'), ('LANG', 'Item'))
 MOUNTS = (('Chat', 'AVGId'),)
 
 

@@ -72,6 +72,8 @@ class SidecarSink:
         self.battle_map = containers.get('battle_map', [])
         self.skipped = containers.get('skipped', [])
         self.code_mismatches = containers.get('code_mismatches', [])
+        # orphan_battles 族写入：有剧本但无关卡引用的 BBm 清单
+        self.unattached = containers.get('unattached', [])
 
     # ------------------------------------------------------------ 页面记录
     def record_page(self, family, path, doc, ident, title, *, code='', group=None,
@@ -197,6 +199,10 @@ class SidecarSink:
         """(sid, story_id, suffix, display, stem, condition, chapter)：官方显示代号与
         StoryId 交叉行（上游笔误）。"""
         self.code_mismatches.append(entry)
+
+    def record_unattached(self, orphans):
+        """有剧本但无关卡引用的 BBm 清单（orphan_battles 族写入）。"""
+        self.unattached = list(orphans)
 
     # ------------------------------------------------------------ 侧车落盘
     def write_beats(self, page, doc):
