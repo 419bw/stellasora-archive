@@ -41,6 +41,8 @@ python scripts/site/build_site.py
 python tests/story/validate_site.py
 ```
 
+日常改动的快循环用 `python -m pytest tests/ -q -m "not slow"`（秒级；全量语料集成用例带 `slow` 标记，push/验收前跑不带 `-m` 的全量）。本地快检 `validate_story.py` 可设 `STELLA_DIAG_REBUILD=0` 跳过其中的子进程全量重建。
+
 如需本地预览，可进入 `site/` 目录直接用浏览器打开 `index.html`（检索索引在首次使用搜索框时按需加载，动态 script 注入，离线可用）。
 
 ---

@@ -182,10 +182,14 @@ def test_css_theme_fragments_define_no_family_tokens():
     assert not hits, 'theme/ 片段定义了族令牌具体值: %s' % hits
 
 
+@pytest.mark.slow
 def test_shared_needs_covers_eager_reads():
     """急切层审计（4.5-1）：DataContext 构造后，登记簿里的可观察读取必须全在
     SHARED_NEEDS 里。TextCompiler/ConditionCatalog 内部裸读文件、不经 table()，
     本审计看不见——冻结盲区，堵它需改 pipeline 模块 load 签名，不在本次范围。
+
+    刻意构造新鲜实例而不用 conftest 的 data_ctx fixture：共享实例会被其他
+    测试的懒读污染 resolved_tables()，审计就失真了。
     """
     if not os.path.isdir(os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')):
         pytest.skip('上游 data/ 不在位')
