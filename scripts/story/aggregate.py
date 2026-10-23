@@ -23,6 +23,21 @@ from context import lang_of, rows_of, field_lang
 from sink import write, safe_name
 from families import FAMILY_ORDER
 
+# 会计领料单（4.5-1 强制层）：write_* 直读的表。coverage 按各族 MOUNTS 扫 BIN 的
+# 读取由 needs() 机械派生，不手抄——挂载源单一真相（设计 4.4）。
+AGGREGATE_NEEDS = (('BIN', 'StoryChapter'), ('LANG', 'StoryChapter'),
+                   ('BIN', 'StoryPersonality'), ('LANG', 'StoryPersonality'))
+
+
+def needs():
+    """完整领料单 = 静态四张 + 各族 MOUNTS 派生的 BIN 读。
+
+    编排器以 ScopedDataContext(ctx, needs()) 调四个 write_*；经 PASSTHROUGH
+    的惰性读表方法（time_slots）内部落全量 ctx，其表依赖在 SHARED_NEEDS，
+    由构建末端打烊对账统一兜底。
+    """
+    return AGGREGATE_NEEDS + tuple(('BIN', t) for t, _f in family_mounts())
+
 
 def dump_json(out, name, obj):
     write(os.path.join(out, '_data', name),

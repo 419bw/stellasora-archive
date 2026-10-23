@@ -42,7 +42,8 @@ OUT = os.path.join(ROOT, 'story_docs')
 # 预设全量对拍）。
 from pipeline.text_rules import clean_text  # noqa: E402
 # 表懒加载 + 共享服务一次构造注入（import 无副作用；族取数经 ctx）。
-from context import DataContext, ScopedDataContext, lang_of  # noqa: E402
+from context import (DataContext, ScopedDataContext, UndeclaredTableError,  # noqa: E402
+                     SHARED_NEEDS, lang_of)
 from families import FAMILY_ORDER, FAMILY_LABELS  # noqa: E402
 import aggregate  # noqa: E402
 import sink as sink_mod  # noqa: E402
@@ -86,12 +87,25 @@ def main():
     m['empty'] = len(sink.skipped)
     print("主线汇总：sections=%(sections)s 战斗气泡关卡=%(bubbles)s "
           "台词行=%(lines)s 无剧本关卡行=%(empty)s" % m)
-    dstats = aggregate.write_data(ctx, sink)
+    # 汇总与对账同样过门控：领料单 = aggregate.AGGREGATE_NEEDS + 各族 MOUNTS 派生
+    actx = ScopedDataContext(ctx, aggregate.needs())
+    dstats = aggregate.write_data(actx, sink)
     print("结构化侧车：章=%d 节点=%d 页=%d" % (dstats['chapters'], dstats['nodes'], dstats['pages']))
-    total, done, todo = aggregate.write_coverage(ctx, sink)
+    total, done, todo = aggregate.write_coverage(actx, sink)
     print("剧本覆盖对账：包内 %d 个，已渲染 %d 个，未渲染 %d 个" % (total, done, todo))
-    aggregate.write_reconciliation(ctx, sink)
-    aggregate.write_diagnostics(ctx, sink)
+    aggregate.write_reconciliation(actx, sink)
+    aggregate.write_diagnostics(actx, sink)
+    # 打烊对账（4.5-1 强制层）：凡进过登记簿的表必须有声明面归属——族 NEEDS /
+    # aggregate.needs() / SHARED_NEEDS；账外读取立即停线并指路。兜的是透传方法
+    # 代拿（character_name/time_slots 一类）与未来一切漂移；族直读在调用点已被拦。
+    import importlib
+    declared = set(SHARED_NEEDS) | set(aggregate.needs())
+    for fam_id in FAMILY_ORDER:
+        declared |= set(importlib.import_module('families.%s' % fam_id).NEEDS)
+    extra = sorted(ctx.resolved_tables() - declared)
+    if extra:
+        raise UndeclaredTableError('构建读了不属于任何声明面的表：%s'
+                                   % ', '.join('%s/%s' % t for t in extra))
     print("诊断侧车 _diagnostics.json：%s"
           % (' '.join('%s=%s' % kv for kv in sorted(ctx.diag.nonzero().items()))
              or '本次构建无任何兜底触发'))

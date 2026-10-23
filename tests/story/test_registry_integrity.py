@@ -182,6 +182,19 @@ def test_css_theme_fragments_define_no_family_tokens():
     assert not hits, 'theme/ 片段定义了族令牌具体值: %s' % hits
 
 
+def test_shared_needs_covers_eager_reads():
+    """急切层审计（4.5-1）：DataContext 构造后，登记簿里的可观察读取必须全在
+    SHARED_NEEDS 里。TextCompiler/ConditionCatalog 内部裸读文件、不经 table()，
+    本审计看不见——冻结盲区，堵它需改 pipeline 模块 load 签名，不在本次范围。
+    """
+    if not os.path.isdir(os.path.join(ROOT, 'data', 'StellaSoraData', 'CN', 'bin')):
+        pytest.skip('上游 data/ 不在位')
+    from context import DataContext, SHARED_NEEDS
+    ctx = DataContext(ROOT)
+    extra = sorted(ctx.resolved_tables() - set(SHARED_NEEDS))
+    assert not extra, '急切构造读了 SHARED_NEEDS 之外的表：%s' % extra
+
+
 def test_site_dispatch_table_covers_kind_taxonomy():
     """站点分发表覆盖 kind taxonomy 全集且条目可调用（Phase D3 契约）。
 

@@ -122,7 +122,7 @@ stellasora-archive/
 ├── scripts/                 # 构建与维护脚本工具集
 │   ├── story/               # 剧情抽取与拓扑计算模块
 │   │   ├── build_story.py   # 编排器（≤200 行零特判循环）：建 ctx/sink，按 FAMILY_ORDER 调族，无模块级副作用
-│   │   ├── context.py       # DataContext：表懒加载+缓存、共享服务一次构造注入、ScopedDataContext NEEDS 门控
+│   │   ├── context.py       # DataContext：表懒加载+缓存、共享服务一次构造注入、ScopedDataContext NEEDS 门控（透传白名单+构建末端打烊对账）
 │   │   ├── sink.py          # SidecarSink：侧车记录（record_page/record_node/写 beats/对账），文件工具 write/safe_name
 │   │   ├── aggregate.py     # 收尾落盘：_data 侧车 / 覆盖对账（MOUNTS 自动汇总）/ 诊断 / 对账报告
 │   │   ├── families/        # 一族一模块（13 族）：文件头声明 NEEDS/MOUNTS，统一契约 build(ctx, sink)；

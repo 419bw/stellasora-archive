@@ -65,7 +65,8 @@ def load_speakers(preset):
 # 共享服务的表依赖（编排器声明、审计时并入全集；设计附录 A 末段）。
 # SpeakerResolver 读 PRESET/AvgCharacter.lua、script_commands 缓存读 CFG 目录，
 # 均非 (scope, name) 表，故不在此列；TextCompiler/ConditionCatalog 各自加载的
-# BIN/LANG 表与 character_name 的 Character 表列示如下。
+# BIN/LANG 表、character_name 的 Character 表、以及构造期急切读取的
+# story_lines（StoryLine）与 chapter_slugs（StoryChapter）列示如下。
 SHARED_NEEDS = (
     ('BIN', 'ContentWord'), ('LANG', 'ContentWord'),          # TextCompiler 词表
     ('BIN', 'Story'), ('BIN', 'StoryCondition'), ('BIN', 'StoryEvidence'),
@@ -73,6 +74,8 @@ SHARED_NEEDS = (
     ('LANG', 'Story'), ('LANG', 'StoryEvidence'),
     ('LANG', 'StoryChapter'), ('LANG', 'Achievement'),
     ('BIN', 'Character'), ('LANG', 'Character'),              # character_name
+    ('BIN', 'StoryLine'), ('LANG', 'StoryLine'),              # story_lines（急切属性）
+    ('BIN', 'StoryChapterTimeStamp'), ('LANG', 'StoryChapterTimeStamp'),  # time_slots
 )
 
 
@@ -102,7 +105,9 @@ class DataContext:
             diagnostics=self.diag)
         # 章节目录与时间线：URL slug 的唯一来源。build_slug_map 断言全局唯一
         # （撞车直接 raise，不再静默覆盖），main 族与 write_data 共用这一份。
-        self.story_lines = chapter_path.story_lines(self.bin, self.lang)
+        # 两处均经 self.table 取数：读取落进表登记簿，打烊对账可见（4.5-1）。
+        self.story_lines = chapter_path.story_lines_from_tables(
+            self.table('BIN', 'StoryLine'), self.table('LANG', 'StoryLine'))
         self.chapter_slugs = chapter_path.build_slug_map(self.table('BIN', 'StoryChapter'))
 
     # ------------------------------------------------------------- 表访问
@@ -168,6 +173,10 @@ class DataContext:
                     self._slots[int(k) // 100][int(k) % 100] = txt
         return self._slots.get(chapter, {})
 
+    def resolved_tables(self):
+        """本次构建经 table() 解析过的表（构建末端声明面对账用）。"""
+        return frozenset(self._tables)
+
 
 class UndeclaredTableError(RuntimeError):
     """族 build 解析了未在 NEEDS 声明的表（设计 4.5-1 运行时门控）。"""
@@ -178,12 +187,27 @@ class ScopedDataContext:
 
     - ``table`` / ``lang_table`` 都会解析表名，同样在门控范围内：透传
       lang_table 会直接凿穿门控，故不做透传；
-    - 其余属性（共享服务、extract_script / script_commands / character_name /
-      time_slots / rows / field_lang / 路径 / out）原样透传——共享服务基于
-      全量 ctx 构造，其表依赖由 SHARED_NEEDS 一次性声明并审计；
-    - ``touched`` 记录本次实际解析到的表，供全量构建收尾输出
+    - 其余属性按 ``PASSTHROUGH`` 显式白名单透传（取代早期的全能
+      ``__getattr__``）：名单来自 families + aggregate 的实际用法并集，
+      DataContext 新增属性默认对族不可见——加面须有意识决定，读表者
+      同步登记 SHARED_NEEDS；
+    - 注意白名单内的惰性读表方法（``character_name`` / ``time_slots``）
+      是绑定在全量 ctx 上的，其内部取数不经门控也不进 ``touched()``；
+      这类读取由构建末端的打烊对账（resolved_tables ⊆ 全部声明面）兜底；
+    - ``touched`` 记录本次门控解析到的表，供全量构建收尾输出
       declared-but-untouched 非阻塞 warning。
     """
+
+    # 透传面显式白名单（设计 4.5-1 风险对策"仅透传列明属性"的落地）。
+    # 刻意排除：bin/lang/preset/speakers/conditions/field_lang（全仓无消费方）。
+    PASSTHROUGH = frozenset((
+        'root', 'cfg', 'out', 'diag',                # 路径与诊断
+        'text_compiler', 'speaker_resolver',         # 共享服务（急切构造）
+        'story_lines', 'chapter_slugs',              # 急切构造的数据属性
+        'script_commands', 'extract_script',         # 剧本解析（读 CFG 目录，非表）
+        'character_name', 'time_slots',              # 惰性读表方法（表依赖在 SHARED_NEEDS）
+        'rows',                                      # 纯函数便利面（吃已加载表）
+    ))
 
     def __init__(self, ctx, needs):
         self._ctx = ctx
@@ -206,4 +230,9 @@ class ScopedDataContext:
         return sorted({(s, n) for s, n in needs} - self.touched)
 
     def __getattr__(self, name):
+        if name not in self.PASSTHROUGH:
+            raise AttributeError(
+                '%r 不在 ScopedDataContext 透传白名单：直接读表请走 table/lang_table '
+                '并在族模块文件头声明 NEEDS；新共享面先评审加入 PASSTHROUGH'
+                '（读表者同步 SHARED_NEEDS）' % name)
         return getattr(self._ctx, name)

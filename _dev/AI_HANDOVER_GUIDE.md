@@ -340,8 +340,11 @@ import 期加载任何表**（改造前它在模块级无条件加载约 40 张 
   `write`/`safe_name` 在 `sink.py`（Phase B）。
 - `ScopedDataContext(ctx, needs)`：Phase C 起编排器按族 `NEEDS` 白名单包装后传入
   `fam.build(scoped, sink)`；未声明表的解析调用立即 raise `UndeclaredTableError`
-  （fail-loud：auto_sync 会停，修复动作是补一行 NEEDS）。共享服务属性原样透传。
-  全量构建收尾对 declared-but-untouched 表输出**非阻塞 warning**。
+  （fail-loud：auto_sync 会停，修复动作是补一行 NEEDS）。透传面收为显式白名单
+  `PASSTHROUGH`（读表服务如 `time_slots` 的表依赖并入 `SHARED_NEEDS`）；构建末端
+  打烊对账：凡进过登记簿的表必须归属某声明面（族 NEEDS / `aggregate.needs()` /
+  `SHARED_NEEDS`），账外读取即 raise。全量构建中对 declared-but-untouched 表输出
+  **非阻塞 warning**。
 - **目录扫描型族**（returnee/prologue/orphan_battles/chat）走 `os.listdir(ctx.cfg)`
   不读表，`NEEDS` 为空是**正确形态**，不是漏声明——门控覆盖率天然不是 100%。
 - 测试取数同样经 ctx：`tests/story/test_conditions.py` 构造 `DataContext(ROOT)` 后调
