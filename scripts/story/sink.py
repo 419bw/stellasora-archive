@@ -25,6 +25,7 @@ import collections
 
 from pipeline.conditions import reading_beats
 from pipeline import markup
+from context import lang_of
 
 
 def write(path, text):
@@ -159,7 +160,6 @@ class SidecarSink:
     # ------------------------------------------------------------ 章节点
     def record_node(self, ch, row, page, bubble_stem, beats=None):
         """Every Story row is a graph node, even the ones with no script in the pack."""
-        lang_of = lambda table, key: markup.plain(table.get(key, ''))  # noqa: E731
         nodes = self.chapter_nodes.setdefault(ch, [])
         parents = [p for p in (row.get('ParentStoryId') or []) if isinstance(p, str)]
         nodes.append({
