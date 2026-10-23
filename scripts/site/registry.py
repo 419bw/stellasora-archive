@@ -96,11 +96,13 @@ SLUG_ALIAS = {'orphan_battles': 'battles_unmounted', 'npc_bonds': 'npc'}
 
 
 def slug_of(family):
+    """族 id → 站点 URL slug。例外 slug 查表；未列出的族恒等于族 id——
+    加族的默认路径无需改这里（只有 URL slug 需要例外的族才登记）。"""
     return {'main': 'main', 'events': 'events', 'characters': 'characters',
             'npc_bonds': 'npc', 'discs': 'discs', 'storysets': 'storysets',
             'prologue': 'prologue', 'battles_unmounted': 'battles',
             'dispatch': 'dispatch', 'anecdotes': 'anecdotes',
-            'returnee': 'returnee', 'soldier': 'soldier'}[family]
+            'returnee': 'returnee', 'soldier': 'soldier'}.get(family, family)
 
 
 STATE_LABEL = {'battle': '战斗', 'story': '剧情'}
