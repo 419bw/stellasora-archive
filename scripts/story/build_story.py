@@ -368,52 +368,9 @@ def build_main(ctx):
     return stats, battle_map, skipped
 
 
-def activity_name(ctx, cid, first_section_title):
-    """The official activity title only exists inside the 「…」 of the activity notice."""
-    LANG_ACT_GROUP = ctx.lang_table('LANG', 'ActivityGroup')
-    notice = LANG_ACT_GROUP.get('ActivityGroup.%s.1' % cid, '')
-    m = re.search(r'「(.+?)」', notice)
-    return (m.group(1) if m else first_section_title)[:24]
-
-
-def build_events(ctx):
-    BIN_ACTIVITY = ctx.table('BIN', 'ActivityStory')
-    LANG_ACT = ctx.lang_table('LANG', 'ActivityStory')
-    stats = collections.Counter()
-    groups = collections.defaultdict(list)
-    for r in BIN_ACTIVITY.values():
-        groups[r['ChapterId']].append(r)
-    for cid in sorted(groups):
-        secs = sorted(groups[cid], key=lambda x: x['Id'])
-        name = activity_name(ctx, cid, lang_of(LANG_ACT, secs[0].get('Title', '')))
-        folder = os.path.join(OUT, 'events', 'activity_%s_%s' % (cid, safe_name(name)))
-        for r in sorted(secs, key=lambda x: x['Id']):
-            stem = r.get('AvgLuaName') or r.get('StoryId')
-            parsed = ctx.extract_script(stem) if stem else None
-            if not parsed:
-                continue
-            idx = lang_of(LANG_ACT, r.get('Index', ''))
-            title = lang_of(LANG_ACT, r.get('Title', ''))
-            hint = lang_of(LANG_ACT, r.get('Desc', ''))
-            doc = PageDoc("# %s %s" % (idx, title),
-                          ["- **所属活动**：%s（活动编号 %s）" % (name, cid),
-                           "- **关卡 ID**：`%s`" % r['Id'],
-                           "- **AVG 剧本**：`%s`" % stem,
-                           "- **关卡描述**：%s" % hint],
-                          parsed['meta']['recap'] or hint,
-                          "逐句台词", parsed['beats'], meta=parsed['meta'])
-            path = os.path.join(folder, 'sections', safe_name('%s_%s_%s' % (r['Id'], idx, title)) + '.md')
-            write(path, page_markdown(doc))
-            record_page('events', path, doc, r['Id'], title, code=idx,
-                        group={'kind': 'activity', 'id': cid, 'label': name},
-                        stems=[stem], page='events/%s/%s.html' % (cid, r['Id']), hint=hint)
-            stats['sections'] += 1
-            stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] == 'talk')
-    return stats
-
-
 # ---------------------------------------------------------- other story families
 # rows_of / field_lang 已移入 context.py（ctx.rows / ctx.field_lang 同语义）。
+# activity_name / build_events 已迁至 families/events.py（Phase B-11）。
 
 
 def build_chat(ctx):
@@ -705,8 +662,8 @@ def main():
     mstats['empty'] = len(skipped)
     print("  sections=%(sections)s 战斗气泡关卡=%(bubbles)s 台词行=%(lines)s 无剧本关卡行=%(empty)s" % mstats)
     print("Parsing event story scripts...")
-    estat = build_events(ctx)
-    print("  sections=%(sections)s lines=%(lines)s" % estat)
+    import families.events as _fam_events
+    _fam_events.build(ctx, _migrated_sink(ctx))
     print("Parsing 角色个人剧情 (characters) scripts...")
     import families.characters as _fam_characters
     _fam_characters.build(ctx, _migrated_sink(ctx))
