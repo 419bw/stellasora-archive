@@ -499,47 +499,6 @@ def build_npc_plots(ctx):
     return stats
 
 
-def build_discs(ctx):
-    """DiscIP rows carrying an AvgId play a CG_disc* vignette.
-
-    The same row also stores a prose retelling in StoryDesc. It is table copy, not
-    script dialogue -- none of its lines appear in the AVG -- so it is kept as a
-    labelled appendix instead of being merged into the beat list.
-    """
-    BIN_DISC = ctx.table('BIN', 'DiscIP')
-    LANG_DISC = ctx.lang_table('LANG', 'DiscIP')
-    stats = collections.Counter()
-    for r in rows_of(BIN_DISC):
-        stem = r.get('AvgId')
-        parsed = ctx.extract_script(stem) if stem else None
-        if not parsed:
-            continue
-        title = field_lang(LANG_DISC, r, 'StoryName')
-        chars = [ctx.character_name(c) for c in (r.get('CharId') or [])]
-        owners = "、".join(x for x in chars if x)
-        info = [
-            "- **唱片 ID**：`%s`" % r['Id'],
-            "- **关联角色**：%s" % (owners or '无'),
-            "- **AVG 剧本**：`%s`" % stem,
-        ]
-        prose = LANG_DISC.get(r.get('StoryDesc', ''), '').strip()
-        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                      parsed['beats'], info_title="唱片信息", meta=parsed['meta'],
-                      appendix={'title': '唱片附文（DiscIP 表 StoryDesc 原文）',
-                                'note': '与上面的 AVG 剧本是两份文本：这段是唱片自带的散文，剧本里没有对应的台词。',
-                                'prose': prose} if prose else None)
-        path = os.path.join(OUT, 'discs', safe_name('%s_%s' % (r['Id'], title or stem)) + '.md')
-        write(path, page_markdown(doc))
-        record_page('discs', path, doc, r['Id'], title,
-                    group={'kind': 'disc', 'id': r['Id'], 'label': title,
-                           'characters': [c for c in chars if c]},
-                    stems=[stem], page='discs/%s.html' % r['Id'],
-                    prose_lines=len(prose.split("\n")) if prose else 0)
-        stats['sections'] += 1
-        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
-    return stats
-
-
 def build_chat(ctx):
     """心链（手机聊天）全篇：Chat.json 挂载的 PM_* 剧本 → story_docs/_chat/ 人读 md。
 
@@ -887,11 +846,17 @@ def main():
     estat = build_events(ctx)
     print("  sections=%(sections)s lines=%(lines)s" % estat)
     for label, fn in (("角色个人剧情", build_character_plots),
-                      ("星塔 NPC 好感剧情", build_npc_plots),
-                      ("唱片剧情", build_discs),
-                      ("故事集支线", build_storysets)):
+                      ("星塔 NPC 好感剧情", build_npc_plots)):
         st = fn(ctx)
         print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
+    # 已搬迁族（顺序须与 FAMILY_ORDER 一致：discs → storysets → prologue → dispatch
+    # → anecdotes → returnee → soldier → chat）
+    print("Parsing 唱片剧情 (discs) scripts...")
+    import families.discs as _fam_discs
+    _fam_discs.build(ctx, _migrated_sink(ctx))
+    print("Parsing 故事集支线 (storysets) scripts...")
+    st = build_storysets(ctx)
+    print("  故事集支线：小节=%d 台词行=%d" % (st['sections'], st['lines']))
     # 已搬迁族（顺序须与 FAMILY_ORDER 一致：prologue → dispatch → anecdotes
     # → returnee → soldier → chat）
     print("Parsing 序章 (prologue) scripts...")
