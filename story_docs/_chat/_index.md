@@ -1,7 +1,7 @@
 # 心链聊天总索引
 
-> 游戏内「心链」（手机聊天）功能的全篇文本存档，由 `scripts/story/build_story.py` 的
-> `build_chat()` 随主构建自动生成。**不进静态站点**——`_` 前缀目录在本仓库的约定是
+> 游戏内「心链」（手机聊天）功能的全篇文本存档，由 chat 族随主构建自动生成。
+> **不进静态站点**——`_` 前缀目录在本仓库的约定是
 > "生成物但非站点页"（与 `_coverage.md` / `_battle_reconciliation.md` 同义），
 > validate_site 的 G2 与 validate_story 的 A/C/F 都不收编它。
 
