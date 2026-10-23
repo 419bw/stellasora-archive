@@ -23,8 +23,6 @@ import collections
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 sys.path.insert(0, SCRIPT_DIR)
-import graph_layout
-import chapter_path
 
 sys.stdout.reconfigure(encoding='utf-8')
 OUT = os.path.join(ROOT, 'story_docs')

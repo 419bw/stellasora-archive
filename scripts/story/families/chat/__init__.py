@@ -21,7 +21,7 @@ import os
 import json
 import collections
 
-import phone_chat
+from . import phone_chat
 
 from context import lang_of
 from sink import write

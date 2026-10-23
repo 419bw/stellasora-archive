@@ -126,8 +126,10 @@ stellasora-archive/
 │   │   ├── sink.py          # SidecarSink：侧车记录（record_page/record_node/写 beats/对账），文件工具 write/safe_name
 │   │   ├── aggregate.py     # 收尾落盘：_data 侧车 / 覆盖对账（MOUNTS 自动汇总）/ 诊断 / 对账报告
 │   │   ├── families/        # 一族一模块（13 族）：文件头声明 NEEDS/MOUNTS，统一契约 build(ctx, sink)；
-│   │   │                    # __init__.py 的 FAMILY_ORDER 是执行顺序唯一声明处（加族=加族文件+一行）
-│   │   ├── phone_chat.py    # 心链（手机聊天）提取：SetGroupId 切段 + 回复抉择分支归属 + 聊天渲染
+│   │   │                    # __init__.py 的 FAMILY_ORDER 是执行顺序唯一声明处（加族=加族文件+一行）。
+│   │   │                    # 唯一例外是 chat 族为子包（families/chat/）：心链实现体量大
+│   │   │                    # （切段+分支归属+渲染+诊断），拆为 __init__（族声明+build）
+│   │   │                    # 与 phone_chat.py（实现），全仓仅此一个消费方故收进族内
 │   │   ├── release_gate.py  # 未开放内容门控（按官方 OpenTime/StartTime 过滤发布面）
 │   │   ├── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
 │   │   └── pipeline/        # 编译管线（自上而下单向依赖，无环）

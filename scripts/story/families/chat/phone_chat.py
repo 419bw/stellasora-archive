@@ -14,7 +14,7 @@
   "平铺不推帧"是既定设计（`STev_03_01` 等已渲染活动剧照此输出，改推帧会撞
   `docs/` 冻结基线的字节锁），所以心链只在自家渲染里补「若选…」分支标记。
 
-产物由 `build_story.build_chat()` 写盘（本模块不碰文件系统、不读数据表）：
+产物由本包 `__init__.py` 的 `build()` 写盘（本模块不碰文件系统、不读数据表）：
     story_docs/_chat/PM<编号>.md          一段一节（63 个，扁平摆放）
     story_docs/_chat/_index.md           总索引
     story_docs/_chat/_diagnostics.json   兜底登记
