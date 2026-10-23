@@ -592,61 +592,6 @@ def build_chat(ctx):
     return stats
 
 
-def build_storysets(ctx):
-    """StorySet* tables mount the side-story collections (STsp_<chapter>_<part>).
-
-    Tab (栏目) -> Chapter (故事集) -> Section (小节); tab 1 is the site-wide "全部"
-    filter, not a category, so chapters are filed under their real tab only.
-    """
-    BIN_SST_TAB = ctx.table('BIN', 'StorySetTab')
-    BIN_SST_CHAPTER = ctx.table('BIN', 'StorySetChapter')
-    BIN_SST_SECTION = ctx.table('BIN', 'StorySetSection')
-    LANG_SST_TAB = ctx.lang_table('LANG', 'StorySetTab')
-    LANG_SST_CHAPTER = ctx.lang_table('LANG', 'StorySetChapter')
-    LANG_SST_SECTION = ctx.lang_table('LANG', 'StorySetSection')
-    stats = collections.Counter()
-    tabs = {r['Id']: lang_of(LANG_SST_TAB, r.get('TabName', ''))
-            for r in rows_of(BIN_SST_TAB) if not r.get('IsAll')}
-    sections = collections.defaultdict(list)
-    for s in rows_of(BIN_SST_SECTION):
-        sections[s['ChapterId']].append(s)
-    for chap in rows_of(BIN_SST_CHAPTER):
-        secs = sections.get(chap['Id'])
-        if not secs:
-            continue
-        cname = lang_of(LANG_SST_CHAPTER, chap.get('Name', ''))
-        cno = lang_of(LANG_SST_CHAPTER, chap.get('Title', ''))
-        tab = tabs.get(chap.get('TabId'), '未分类')
-        folder = os.path.join(OUT, 'storysets', safe_name(tab),
-                              safe_name('%s_%s' % (chap['Id'], cname)))
-        for s in secs:
-            parsed = ctx.extract_script(s.get('AVGId'))
-            if not parsed:
-                continue
-            idx = lang_of(LANG_SST_SECTION, s.get('Title', ''))
-            desc = lang_of(LANG_SST_SECTION, s.get('Desc', ''))
-            info = [
-                "- **所属故事集**：%s《%s》" % (cno, cname),
-                "- **栏目**：%s" % tab,
-                "- **小节 ID**：`%s`" % s['Id'],
-                "- **AVG 剧本**：`%s`" % s.get('AVGId'),
-            ]
-            path = os.path.join(folder, 'sections',
-                                safe_name('%s_%s' % (s['Id'], idx or desc)) + '.md')
-            doc = PageDoc("# %s" % (desc or idx), info, parsed['meta']['recap'],
-                          "逐句台词", parsed['beats'], info_title="故事集小节信息",
-                          meta=parsed['meta'])
-            write(path, page_markdown(doc))
-            record_page('storysets', path, doc, s['Id'], desc or idx, code=idx,
-                        group={'kind': 'storyset', 'id': chap['Id'], 'label': cname,
-                               'no': cno, 'tab': tab},
-                        stems=[s.get('AVGId')],
-                        page='storysets/%s/%s.html' % (chap['Id'], s['Id']))
-            stats['sections'] += 1
-            stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
-    return stats
-
-
 def build_orphan_battles(ctx, used):
     """BBm* scripts no stage row points at.
 
@@ -855,8 +800,8 @@ def main():
     import families.discs as _fam_discs
     _fam_discs.build(ctx, _migrated_sink(ctx))
     print("Parsing 故事集支线 (storysets) scripts...")
-    st = build_storysets(ctx)
-    print("  故事集支线：小节=%d 台词行=%d" % (st['sections'], st['lines']))
+    import families.storysets as _fam_storysets
+    _fam_storysets.build(ctx, _migrated_sink(ctx))
     # 已搬迁族（顺序须与 FAMILY_ORDER 一致：prologue → dispatch → anecdotes
     # → returnee → soldier → chat）
     print("Parsing 序章 (prologue) scripts...")
