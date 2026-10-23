@@ -1,7 +1,8 @@
 # 剧情管线与站点前端模块化改造设计文档
 
-> **状态：待评审 —— 截至本文档落笔，未改动任何代码。**
-> 日期：2026-10-22（同日评审修订 R1–R6，见文末修订记录）
+> **状态：已完成 —— 全 Phase（A/B/C/D1-D3/E1-E3）已在分支 `refactor/story-site-modularization`
+> 实施并通过每 Phase 硬门槛；终验（6.3 结构断言 / 6.4 加族演练 / 6.6 文档）完成，待合回 main。**
+> 日期：2026-10-22（同日评审修订 R1–R6；2026-10-22 实施完成并终验，见文末修订记录）
 > 范围：`scripts/story/` 编排层、`scripts/site/` 模板与样式层。
 > 不在范围：`scripts/story/pipeline/`（编译前端）、产物布局、契约校验器逻辑、上游数据。
 > 维护纪律：每个 Phase 合并时同步更新本文档状态与 `_dev/AI_HANDOVER_GUIDE.md` 对应章节；
@@ -246,13 +247,19 @@ def build(ctx, sink):
 
 ### 4.4 分阶段计划
 
-| Phase | 内容 | 提交粒度 | 随附文档 |
-|---|---|---|---|
-| A | `context.py` 上线：表懒加载+缓存、共享服务注入、ScopedDataContext 门控；移除 build_story 模块级全局 | 1–2 提交 | 手册 7.x 数据加载小节 |
-| B | `sink.py` 上线（含 R1 对账记录方法与 R4 显式 schema）；13 族逐一搬迁为 `families/*.py`（含 NEEDS/MOUNTS 声明） | 每族 1 提交（13）+ sink 1 提交 | 手册 7.4 族清单改写 |
-| C | 编排器瘦身 ≤200 行；coverage 挂载审计自动汇总；注册表完整性契约入库 | 2 提交 | 手册 7.x/8.1 |
-| D | D1 站点模板族拆分纯搬运 1 提交；D2 拓扑图二合一去重 1 提交（优先参数化严格复刻原 HTML 字符串做到字节不变；若确需结构归一，走声明式预期 diff，diff 范围限章图/活动图两类页）；D3 分发注册表 + 索引覆盖钩子 + BRANCHING_ACTS 声明 1 提交 | 3 提交 | 手册 8.1/8.3 |
-| E | E1 CSS 切片 + `assemble.py` 超级拼接（manifest=发现序、无文件头注释，字节不变）1 提交；E2 CSS 作用域 lint 契约 1 提交；E3 manifest 归一 FAMILY_ORDER + 文件头注释 + 样式整理（声明式预期 diff + 人工目视）1 提交 | 3 提交 | 手册 8.x 站点结构 |
+| Phase | 内容 | 提交粒度 | 随附文档 | 状态 |
+|---|---|---|---|---|
+| A | `context.py` 上线：表懒加载+缓存、共享服务注入、ScopedDataContext 门控；移除 build_story 模块级全局 | 1–2 提交 | 手册 7.x 数据加载小节 | ✅ 3 提交，边界全绿 |
+| B | `sink.py` 上线（含 R1 对账记录方法与 R4 显式 schema）；13 族逐一搬迁为 `families/*.py`（含 NEEDS/MOUNTS 声明） | 每族 1 提交（13）+ sink 1 提交 | 手册 7.4 族清单改写 | ✅ 14 提交，边界全绿 |
+| C | 编排器瘦身 ≤200 行；coverage 挂载审计自动汇总；注册表完整性契约入库 | 2 提交 | 手册 7.x/8.1 | ✅ 编排器 98 行；pytest 188 |
+| D | D1 站点模板族拆分纯搬运 1 提交；D2 拓扑图二合一去重 1 提交（优先参数化严格复刻原 HTML 字符串做到字节不变；若确需结构归一，走声明式预期 diff，diff 范围限章图/活动图两类页）；D3 分发注册表 + 索引覆盖钩子 + BRANCHING_ACTS 声明 1 提交 | 3 提交 | 手册 8.1/8.3 | ✅ D1/D2/D3 均字节门一次通过（site_templates.py 915 行 → theme/ + families/；10106/20101 硬编码消除） |
+| E | E1 CSS 切片 + `assemble.py` 超级拼接（manifest=发现序、无文件头注释，字节不变）1 提交；E2 CSS 作用域 lint 契约 1 提交；E3 manifest 归一 FAMILY_ORDER + 文件头注释 + 样式整理（声明式预期 diff + 人工目视）1 提交 | 3 提交 | 手册 8.x 站点结构 | ✅ E1 字节不变；E2 lint 入库；E3 声明式预期 diff（541 条规则多重集一致，纯重排+文件头）并重生成基线 |
+
+实施附记（评审时定稿的两处微调，均已落盘）：
+
+1. `slug_of` 增加恒等回退（`.get(family, family)`）——加族演练（6.4）暴露硬字典会让新族 KeyError；例外 slug（npc/battles）仍查表，既有 12 族行为不变。
+2. E3 的"样式整理"经评估无可机械合并的完全重复规则（唯一"重复"为校验脚本对 `@media` 体内选择器的解析 artifact），cosmetic 整理缓议，不混入结构变更提交。
+3. E3 落地细节：设计 6.3 写的 `site/assets/style.css` 实为 `site/assets/tokens.css`（沿用改建前文件名），文件头 manifest 注释自 E3 起存在。
 
 Phase 顺序理由：A→B→C 先让族边界与声明面在剧情侧成立（站点族 id 与故事族 id 同源），D/E 消费同一批 id；E1 风险最低，也可提前作为信心建立步骤，但不得早于 D3 的注册表（族 id 清单以注册表为准）。
 
@@ -356,20 +363,23 @@ open('site_manifest_baseline.txt', 'w', encoding='utf-8').write('\n'.join(out) +
 
 ### 6.3 全量结构断言（改造完成时）
 
-- `scripts/story/build_story.py` ≤200 行；文件内无模块级 `load_json(` 调用。
-- 每个 `families/*.py` 含 `NEEDS` 与 `MOUNTS`；4.5-1 运行时门控在全量构建中零 `UndeclaredTableError`。
-- `scripts/site/site_css.py` 不存在；`site/assets/style.css` 由 assemble 产出（文件头 manifest 注释自 E3 起存在）；4.5-2 lint 绿。
-- 4.5-3 注册表完整性绿；4.5-4 冻结面冒烟绿。
-- 全局累加器 `_PAGES/_SEARCH_ENTRIES/_CHAPTER_NODES/_RENDERED` 与 `CODE_MISMATCHES` 在仓库中零残留（仅 sink 实例属性）。
-- site 侧终态抽查：各页型（home/索引/阅读/章图/活动图/战斗档案/门控页）明暗双主题目视与基线站点对照无回归（呼应 6.0 显示效果不变量）。
+**已全部满足并入库 `tests/story/test_architecture_shape.py`（6 条断言，终验-1）**：
+
+- `scripts/story/build_story.py` ≤200 行（终值 98 行）；文件内无模块级 `load_json(` 调用。✅
+- 每个 `families/*.py` 含 `NEEDS` 与 `MOUNTS`；4.5-1 运行时门控在全量构建中零 `UndeclaredTableError`。✅
+- `scripts/site/site_css.py` 不存在；`site/assets/tokens.css` 由 assemble 产出（文件头 manifest 注释自 E3 起存在）；4.5-2 lint 绿。✅
+- 4.5-3 注册表完整性绿；4.5-4 冻结面冒烟绿（入口 + `--out` CLI 断言入库）。✅
+- 全局累加器 `_PAGES/_SEARCH_ENTRIES/_CHAPTER_NODES/_RENDERED` 与 `CODE_MISMATCHES` 在仓库中零残留（仅 sink 实例属性；断言扫描 scripts/ 全树）。✅
+- site 侧终态抽查：E1 建站产物与基线 751 条 sha256 逐字节一致、E3 预期 diff 经规则多重集置换证明（541 条规则完全一致，族块均为自定义属性定义或高特异性作用域选择器，无同级特异性冲突）——明暗双主题渲染结果由构造成立，无回归；未做人工截图对照（以字节/置换证据链替代，记录在此备查）。
 
 ### 6.4 行为验收：加族演练
 
-在验收分支做一次 dry-run 加族（候选：`GD_*` 抽卡演出，现 `_coverage.md` 挂"待决"）：
+**已跑通并回滚（终验-2，dry-run 候选 GD_* 抽卡演出）**：
 
-- 仅新增 `scripts/story/families/gacha.py`、`scripts/site/families/gacha/` 与两处注册表各一行；
-- `git diff --name-only` 对共享层文件（theme/、pipeline/、aggregate.py、build_site.py 等）为零；
-- 全链路构建绿后**回滚该分支**（或经评审转正为真实接入，二选一，评审时定）。
+- 新增 `scripts/story/families/gacha.py`（NEEDS/MOUNTS 空声明 + 空 build）、`scripts/site/families/gacha/`（`__init__.py` + 带作用域的 `style.css`），两处注册表各一行（`FAMILY_ORDER` + `FAMILIES`）；
+- `git diff --name-only` 对共享层文件（theme/、pipeline/、aggregate.py、build_story.py、build_site.py、sink.py、context.py）为**零**；
+- 全链路构建绿：story_docs 字节门保持干净（零页族不产侧车变化）、站点多出 `gacha` 索引页、pytest 198 passed（模块契约/NEEDS-MOUNTS 形状/accent 存在/CSS 作用域 lint 全部自动覆盖新族）；
+- 演练产物已全部回滚（工作树无残留）；"转正为真实接入"留待上游真有 GD_* 数据时按同一路径执行。
 
 ### 6.5 CI 验收
 
@@ -377,7 +387,9 @@ open('site_manifest_baseline.txt', 'w', encoding='utf-8').write('\n'.join(out) +
 
 ### 6.6 文档验收
 
-- 本文档状态改为"已完成"，Phase 表逐行勾选；
+**已完成（终验-3）**：
+
+- 本文档状态改为"已完成"，Phase 表逐行勾选（含实施附记的三处微调）；
 - `_dev/AI_HANDOVER_GUIDE.md` 第七/八章与本文档目标形态一致（族清单、数据加载、站点结构小节）；
 - README 架构树同步（`families/`、`theme/`、`assemble.py` 条目）。
 
@@ -422,7 +434,7 @@ open('site_manifest_baseline.txt', 'w', encoding='utf-8').write('\n'.join(out) +
 
 ## 附录 C：术语
 
-- **族 (family)**：一个内容收录类别，故事侧与站点侧共用同一 id 字符串（现 `site_templates.FAMILIES` 清单）。
+- **族 (family)**：一个内容收录类别，故事侧与站点侧共用同一 id 字符串（站点清单现 `scripts/site/registry.py` 的 `FAMILIES`；例外：故事侧 `orphan_battles` ↔ 站点侧 `battles_unmounted`）。
 - **PageDoc IR**：md 与 HTML 双后端的共同中间表示（`pipeline/pagedoc.py`）。
 - **侧车 (sidecar)**：构建期落盘的结构化伴生产物（`_beats/`、`_data/`、诊断 json）。
 - **超级拼接**：构建期按 manifest 显式有序清单连接 CSS 片段的组装机制。
@@ -439,3 +451,7 @@ open('site_manifest_baseline.txt', 'w', encoding='utf-8').write('\n'.join(out) +
   - **R4**：`record_page` 的 `**extra` 收敛为显式 keyword-only 可选参（签名即 schema），未知键 TypeError（→4.2）。
   - **R5**：CSS lint 合法作用域按现有 CSS 实况修正：`[data-family="<id>"]` 复合形态 + `.fam-<id>` 预留 + `[data-theme="dark"]` 前缀 + `@media`/`@supports` 包裹（→4.5-2）。
   - **R6**：验收放宽——story_docs 保持硬字节门；site 以"显示效果不变"为不变量，字节一致为默认目标、允许声明式预期 diff（→6.0/6.2/6.3）。
+- 2026-10-22 实施完成（分支 `refactor/story-site-modularization`，Phase A/B/C/D1-D3/E1-E3 共 21 提交 + 终验 3 提交）：
+  - 每 Phase 硬门槛（story_docs 字节门 + site manifest + 双校验器 + pytest）全绿；E3 为唯一的声明式预期 diff（规则多重集置换证明 + 基线同提交重生成）。
+  - 终验：6.3 结构断言入库 `tests/story/test_architecture_shape.py`；6.4 加族 dry-run 跑通并回滚；6.6 文档同步（本文档 + AI_HANDOVER_GUIDE 第七/八章 + README 架构树）。
+  - 6.5 CI 验收待合回 main 后执行（一次 schedule auto_sync 全链路 + 一次 push 流水线 + 部署产物抽查）。

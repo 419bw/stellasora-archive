@@ -386,6 +386,15 @@ Lua 字符串里的 `\"`、`\t` 转义也没还原，直接漏进产物文本。
   先前推测的"教学关"不成立，`TutorialLevel`/`TutorialLevelFloor` 引的是 `TrainingLevels_01`。
 
 ### 7.4 已接入的剧本族
+
+> **模块化落位（Phase B/C，2026-10-22）**：一族一文件 `scripts/story/families/<id>.py`，
+> 统一契约 `build(ctx, sink) -> collections.Counter`；文件头声明 `NEEDS`（运行时门控白名单，
+> 见 7.0）与 `MOUNTS`（(表, 字段) 挂载对，由 `aggregate.write_coverage` 自动汇总——
+> 挂载审计不再有双份真相）。执行顺序唯一声明处是 `families/__init__.py` 的 `FAMILY_ORDER`
+> （同时决定 `sections.json` 的 pages 追加序）；编排器 `build_story.py` 仅剩零特判循环，
+> **加族 = 加一个族文件 + `FAMILY_ORDER` 一行**（dry-run 演练实证见设计文档 6.4）。
+> 13 族：`main`/`events`/`characters`/`npc_bonds`/`discs`/`storysets`/`prologue`/
+> `dispatch`/`anecdotes`/`returnee`/`soldier`/`chat`/`orphan_battles`。
 | 族 | 文件数 | 挂载源（字段名实测，别再猜） | 产物目录 |
 |---|---|---|---|
 | 角色个人剧情 | 120 篇（129 行） | `Plot.json`：`AvgId`+`Char`+`UnlockAffinityLevel`(1/5/10)+`Name`/`Desc` 文案键 | `story_docs/characters/<角色号>_<姓名>/sections/` |
@@ -540,10 +549,10 @@ story_docs/
 尺子自己的坑（已踩）：`unescape_lua` 用 `s.strip('"')` 会把 `"……\""` 结尾的反斜杠留成野字符，
 必须只剥首尾各一个引号再单遍反转义，否则会假报 CG_126_03 一处分歧。
 
-接**新家族/新板块**（如本轮 `dispatch`）的登记点，改一处漏一处会红：
-① `scripts/story/build_story.py` 加 `build_*()` + 进 `main()` 的 builder 元组；② `scripts/site/site_templates.py`
-的 `FAMILIES` / `FAMILY_META`(code/span) / `slug_of` 三张表；③ `tests/story/validate_site.py` 契约 `I` 的
-"家族索引页"slug 清单是**硬编码**的（`expected` 集合里那行三/四元组），新 slug 不加进去会被判"未登记的页面"。
+接**新家族/新板块**的登记点，改一处漏一处会红（Phase B/D 模块化后已从"改编排器+改 coverage+改站点共享文件"收敛为）：
+① `scripts/story/families/<id>.py` 新族文件 + `families/__init__.py` 的 `FAMILY_ORDER` 加一行；
+② `scripts/site/registry.py` 的 `FAMILIES` 加一行（URL slug 有例外才动 `slug_of`，否则恒等回退）+ 新建 `scripts/site/families/<id>/style.css`（选择器带本族作用域，lint 把守）；
+③ `tests/story/validate_site.py` 契约 `I` 的 expected slug 元组**也要加一行**——它是**故意的双份真相**：校验器不读注册表（独立真值，防注册表写错校验也跟着错），所以加族的最后一手是同步它。
 `release_gate` 对未知家族 fail-open，非开放家族不用动它。
 
 ### 7.9 台词的显示通道（查清了，决定不显示）
@@ -580,6 +589,46 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
 ---
 
 ## 八、 站点与数据契约（`build_site.py` / `graph_layout.py` / `tests/story/`）
+
+### 8.0 站点结构（Phase D/E，2026-10-22 模块化后）
+
+`scripts/site/` 从"单文件堆叠"拆为注册表 + 公共组件 + 族片段三层，`build_site.py` 只做驱动：
+
+```
+scripts/site/
+├── registry.py          族注册表：FAMILIES（族序=导航/bento 展示序）、FAMILY_META、
+│                         slug_of（例外 slug 查表，其余恒等于族 id）、STATE_LABEL
+├── theme/               公共页型与组件（一族不独占的全部在此）
+│   ├── layout.py        页面骨架 + helper（depth_of/rel/full_title/node_state_*）
+│   ├── gate.py          未开放门控 UI（locked_*）
+│   ├── home.py          首页（bento 总汇总）
+│   ├── index.py         默认二级索引（main 被覆盖，见下）
+│   ├── reading.py       对话展示牌板（全族共用）
+│   ├── battle.py        战斗档案页（main+events 双消费）
+│   ├── graph.py         拓扑图共用骨架：连线层/卡片层/列锚点/map 容器
+│   └── tokens.css base.css graph_base.css   （E1 起 CSS 切片）
+├── families/<id>/       族级片段：style.css（accent+条纹，选择器必须带本族作用域，
+│                         lint 把守）+ 可选 templates.py（main 的章图组装与索引覆盖
+│                         INDEX_OVERRIDE、events 的活动图组装与 BRANCHING_ACTS 声明）
+├── assemble.py          (family, kind) 模板分发注册表 render() + CSS 超级拼接
+│                         assemble_css()（块级 manifest：tokens→base→graph_base→
+│                         FAMILY_ORDER；片段内 @@ 为块分隔，拼接时剔除）
+├── build_site.py        驱动：侧车 → release_gate → render() 分发 → 落盘（零族特判）
+├── site_js.py / render_html.py / graph_layout.py / release_gate.py（后者住 scripts/story/）
+```
+
+几条落地纪律（改动前必读）：
+
+- **加族只动两处注册表各一行**：`scripts/story/families/__init__.py` 的 `FAMILY_ORDER`
+  与 `scripts/site/registry.py` 的 `FAMILIES`，外加两个族文件（dry-run 演练实证，
+  共享层 diff 为零，见设计文档 6.4）。
+- **族间差异是参数不是结构**：切换条/lede/`data-family` 走组件入参；结构差异（特别篇平铺）
+  留族组装层。拓扑图两页型共用 `theme/graph.py`，防两处规则漂移。
+- **CSS 只改片段不改产物**：`site/assets/tokens.css` 是拼接生成的（首部有 manifest 注释），
+  手改会在下次构建被覆盖；族样式必须带 `[data-family="<id|slug>"]`/`.fam-<id>` 作用域，
+  theme/ 片段不得定义族令牌具体值（两条都有 pytest 把守）。
+- `build_site.py` 的 `sys.path` 顺序是 `scripts/site` 在前、`scripts/story` 在后——
+  两侧各有一个 `families` 包，顺序反了会互相掩蔽。
 
 ### 8.1 数据流
 `build_story.py` 在写 md 的同一次解析里顺手记录结构化侧车（`record_page` / `record_node`），
@@ -785,7 +834,7 @@ memory / flash / back 命名的指令，"回忆"这个语义不在数据里，�
   ④ 占位徽标原先用 `!important` 盖 `.grp-count` 的填充配色，和 `clip-path + ::before` 的实现冲突，
      改设 `--grp-accent` / `--chap-accent` 吃既有设计令牌。
 - 2026-10-05（CI 自动提交的更新日志会改源文件里的首页"更新时间"串，例如 `fcc9228`：
-  只碰 README 与 `site_templates.py` 的 `home_page` 文案，与功能改动不同行， rebase 不会冲突）。
+  只碰 README 与 `scripts/site/theme/home.py` 的 `home_page` 文案，与功能改动不同行， rebase 不会冲突）。
 - 2026-10-09：**接入历史条件分支**（PR #4）。新增 `pipeline/conditions.py`，`IfUnlock`/`IfTrue`/`CheckBE`
   三族指令不再被丢弃，改为渲染成「历史条件分支」标记 + 汇合点，正文相同的相邻分支自动合并。
   `extract_beats` 增加可选 `conditions` 参数；`fold_animations` 改为按条件边界分段，避免淡入帧跨分支错误折叠。

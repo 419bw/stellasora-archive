@@ -121,7 +121,12 @@ stellasora-archive/
 ├── docs/                    # 遗留生成器的冻结输出，被 git 跟踪；仅供历史对照契约，见下文说明
 ├── scripts/                 # 构建与维护脚本工具集
 │   ├── story/               # 剧情抽取与拓扑计算模块
-│   │   ├── build_story.py   # 编排器：解析上游数据源 -> 生成 Markdown 与侧车数据
+│   │   ├── build_story.py   # 编排器（≤200 行零特判循环）：建 ctx/sink，按 FAMILY_ORDER 调族，无模块级副作用
+│   │   ├── context.py       # DataContext：表懒加载+缓存、共享服务一次构造注入、ScopedDataContext NEEDS 门控
+│   │   ├── sink.py          # SidecarSink：侧车记录（record_page/record_node/写 beats/对账），文件工具 write/safe_name
+│   │   ├── aggregate.py     # 收尾落盘：_data 侧车 / 覆盖对账（MOUNTS 自动汇总）/ 诊断 / 对账报告
+│   │   ├── families/        # 一族一模块（13 族）：文件头声明 NEEDS/MOUNTS，统一契约 build(ctx, sink)；
+│   │   │                    # __init__.py 的 FAMILY_ORDER 是执行顺序唯一声明处（加族=加族文件+一行）
 │   │   ├── phone_chat.py    # 心链（手机聊天）提取：SetGroupId 切段 + 回复抉择分支归属 + 聊天渲染
 │   │   ├── release_gate.py  # 未开放内容门控（按官方 OpenTime/StartTime 过滤发布面）
 │   │   ├── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
@@ -138,9 +143,12 @@ stellasora-archive/
 │   │       ├── render_md.py   # Stage 4a 后端：人审真源 Markdown（字节锁）
 │   │       └── domain.py      # 主角 id / 显示名等官方口径常量
 │   ├── site/                # 静态站点生成引擎
-│   │   ├── build_site.py    # 驱动模板生成全部 HTML 静态页面（消费前先过 release_gate）
-│   │   ├── site_templates.py# 拓扑图、剧情阅读牌板、战斗档案等页面模板
-│   │   ├── site_css.py      # 设计规范 Tokens 与全局样式
+│   │   ├── build_site.py    # 驱动（零族特判）：侧车 -> release_gate -> render() 分发 -> 落盘
+│   │   ├── registry.py      # 族注册表：FAMILIES（展示序）/ FAMILY_META / slug_of / STATE_LABEL
+│   │   ├── theme/           # 公共页型与组件：layout/gate/home/index/reading/battle/graph + tokens/base/graph_base CSS
+│   │   ├── families/        # 一族一目录：style.css（accent，选择器带本族作用域）+ 可选 templates.py
+│   │   │                    # （main 章图组装与索引覆盖 INDEX_OVERRIDE、events 活动图组装与 BRANCHING_ACTS）
+│   │   ├── assemble.py      # (family, kind) 模板分发注册表 render() + CSS 超级拼接 assemble_css()
 │   │   ├── site_js.py       # 离线检索、拓扑图手势交互等前端脚本
 │   │   └── render_html.py   # PageDoc 侧车（_beats/*.json）-> HTML 正文与 Ruby 注音
 │   ├── automation/          # 自动化持续集成模块
@@ -162,7 +170,7 @@ stellasora-archive/
 
 `docs/` 是**早期原型生成器** `scripts/tools/build_wiki.py` 的冻结输出，约 5 MB，**仍在 git 跟踪下**。它的初衷是把剧情库做成"渐进式披露、便于 AI 检索"的知识库（Wiki-grade progressive disclosure knowledge base），后来主链路切换到 `story_docs/` + 静态站方案，`docs/` 便不再参与构建。
 
-它今天唯一的用途是：`tests/story/validate_story.py` 的历史对照契约以它为基线，用来盯住"新实现没有悄悄改掉已评审内容"。因此：
+它今天只作为历史资料保留（`validate_story.py` 的"历史对照"契约已于 2026-10-20 退役——`story_docs/` 本身在 git 里，`git diff -- story_docs/` 就是更贴近的对照，不再需要手工白名单）。因此：
 
 - **不要手工编辑** `docs/`（改了会让历史对照失真）；
 - **不要删除** `docs/`（对照契约会直接失败）；

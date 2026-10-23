@@ -65,8 +65,8 @@ flowchart TD
     subgraph SitePipeline["静态站引擎 (scripts/site/)"]
         D1["release_gate：未开放内容门控"]
         D2["render_html：beat IR → HTML 正文 + ruby 注音"]
-        D3["site_templates：拓扑图 / 阅读牌板 / 战斗档案"]
-        D4["site_css / site_js：设计令牌 / 离线检索 / 拓扑手势"]
+        D3["registry + theme/ + families/：族注册表 / 公共页型 / 族片段"]
+        D4["assemble：(family, kind) 分发 + CSS 超级拼接；site_js：离线检索 / 拓扑手势"]
     end
 
     subgraph Output["发布产物 (site/)"]
@@ -190,8 +190,7 @@ flowchart TD
 | **剧情处理** | `scripts/story/graph_layout.py` | 节点关系 (`sid/parents`) | 列、轨道、SVG 坐标 | DAG 分层拓扑几何纯函数（无 IO） |
 | **剧情处理** | `scripts/story/release_gate.py` | 官方 `OpenTime`/`StartTime` | 过滤后的 pages/chapters | 未开放内容门控：只出占位与提示页，零台词泄露 |
 | **静态站点** | `scripts/site/build_site.py` | `story_docs/_data/` + `_beats/` | `site/` 全量静态页面 | 站点编译主入口（消费前先过 release_gate） |
-| **静态站点** | `scripts/site/site_templates.py` | 关卡元数据与排版内容 | 结构化 HTML 字符串 | 拓扑图、剧情阅读牌板、战斗档案等页面模板 |
-| **静态站点** | `scripts/site/site_css.py` | 设计规范 Tokens | `site/assets/tokens.css` | 主题变量、深浅色、牌板、SVG 拓扑样式 |
+| **静态站点** | `scripts/site/registry.py` + `theme/` + `families/` + `assemble.py` | 关卡元数据与排版内容 | 结构化 HTML 字符串 / `site/assets/tokens.css` | 族注册表；公共页型（layout/gate/home/index/reading/battle/graph）；族片段（accent CSS + 章图/活动图组装）；(family, kind) 分发与 CSS 超级拼接 |
 | **静态站点** | `scripts/site/site_js.py` | 前端交互事件 | `site/assets/site.js` | 离线即时检索、拓扑平移拖拽缩放、回到顶部 |
 | **静态站点** | `scripts/site/render_html.py` | `story_docs/_beats/*.json`（PageDoc 侧车） | 干净的 HTML 片段 | beat IR → 正文 HTML、抉择/分支锚点与 `<ruby><rt>` 注音转换 |
 | **自动化CI** | `scripts/automation/auto_sync.py` | GitHub 上游最新提交 | 全量增量更新 & CI 产物 | 自动化监控两上游变更，提取差异并触发自动化发布（`check=True`，故生成器不可抛异常） |
