@@ -18,3 +18,8 @@
 - **No Conversational Leftovers:** NEVER leave meta-comments referencing the current prompt, task, or refactoring process (e.g., `// Updated as requested`, `// Fixed bug here`, `// Added new logic`). Write comments as if the code has always existed in its final state.
 - **Restrained Docstrings:** Add formal docstrings (`/** ... */` or `"""..."""`) ONLY to complex public APIs or exported module interfaces. Skip boilerplate `@param`/`@return` blocks on internal helpers, simple functions, or self-evident type signatures.
 - **Keep It Concise:** A comment should never be longer than the code it describes unless documenting a critical architectural constraint or complex algorithm (e.g., complex Regex, bitwise math, lock-free concurrency).
+
+### Repo Documentation Structure (Progressive Disclosure, Anti-Bloat)
+- **Index + Chapters:** `_dev/AI_HANDOVER_GUIDE.md` and `_dev/OPERATION_MANUAL.md` are thin indexes; chapter bodies live in `_dev/guide/` and `_dev/manual/` chapter files. When adding or revising manual content, write it into the matching chapter file and update the index row — NEVER append body prose to an index.
+- **Size Cap:** No single Markdown document should grow past ~300 lines. When one does (or a new topic would push it past), split by topic into separate files with a thin index instead of growing the file further.
+- **Keep Referenced Paths and Chapter Numbers Stable:** Code comments, commit messages, and byte-locked generator sources (`scripts/story/pipeline/diagnostics.py`, `scripts/story/families/chat/phone_chat.py`) reference these docs by path and chapter number (`3.5`, `7.6`, 「兜底与诊断策略」). When reorganizing docs, never rename referenced paths or renumber chapters — the original path must stay resolvable through the index.
