@@ -109,8 +109,11 @@ class SidecarSink:
         ]
         if major_choices:
             rec['major_choices'] = major_choices
+        # 可选键的写入顺序 = 各调用点原 **extra 的传参顺序并集（npc_bonds 是
+        # affinity→hint、main 是 hint→aim，取 affinity 在 hint 前的单一正序可同时
+        # 满足两者；键序即 sections.json 的字段序，动了就是字节回退）。
         for key, value in (('story_id', story_id), ('kind', kind), ('parents', parents),
-                           ('hint', hint), ('aim', aim), ('affinity', affinity),
+                           ('affinity', affinity), ('hint', hint), ('aim', aim),
                            ('twins', twins), ('prose_lines', prose_lines), ('cast', cast),
                            ('weight', weight), ('notes', notes), ('table_refs', table_refs),
                            ('mount_note', mount_note), ('text_chars', text_chars)):
