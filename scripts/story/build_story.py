@@ -416,50 +416,6 @@ def build_events(ctx):
 # rows_of / field_lang 已移入 context.py（ctx.rows / ctx.field_lang 同语义）。
 
 
-def build_character_plots(ctx):
-    """Plot.json mounts each traveller's personal story (CG_<char>_<part>).
-
-    Three parts per character, gated at affinity 1 / 5 / 10. Costume reissues register
-    their own Plot rows against the same script, so rows are grouped by script and the
-    titled row owns the page while the others are listed on it.
-    """
-    BIN_PLOT = ctx.table('BIN', 'Plot')
-    LANG_PLOT = ctx.lang_table('LANG', 'Plot')
-    stats = collections.Counter()
-    by_stem = collections.OrderedDict()
-    for r in rows_of(BIN_PLOT):
-        by_stem.setdefault(r.get('AvgId'), []).append(r)
-    for stem, group in by_stem.items():
-        parsed = ctx.extract_script(stem)
-        if not parsed:
-            continue
-        owner = next((r for r in group if field_lang(LANG_PLOT, r)), group[0])
-        cname = ctx.character_name(owner.get('Char'))
-        title = field_lang(LANG_PLOT, owner) or stem
-        info = [
-            "- **所属角色**：%s（角色编号 `%s`）" % (cname or '未知', owner.get('Char')),
-            "- **解锁条件**：好感等级 %s" % owner.get('UnlockAffinityLevel'),
-            "- **剧情档案 ID**：`%s`" % owner['Id'],
-            "- **AVG 剧本**：`%s`" % stem,
-        ]
-        twins = [ctx.character_name(r.get('Char')) for r in group if r is not owner]
-        if twins:
-            info.append("- **复用此剧本的档案**：%s" % "、".join(x for x in twins if x))
-        folder = os.path.join(OUT, 'characters',
-                              safe_name('%s_%s' % (owner.get('Char'), cname or stem)))
-        path = os.path.join(folder, 'sections', safe_name('%s_%s' % (owner['Id'], title)) + '.md')
-        doc = PageDoc("# %s" % title, info, parsed['meta']['recap'], "逐句台词",
-                      parsed['beats'], info_title="剧情档案信息", meta=parsed['meta'])
-        write(path, page_markdown(doc))
-        record_page('characters', path, doc, owner['Id'], title,
-                    group={'kind': 'character', 'id': owner.get('Char'), 'label': cname},
-                    stems=[stem], page='characters/%s/%s.html' % (owner.get('Char'), owner['Id']),
-                    affinity=owner.get('UnlockAffinityLevel'), twins=twins)
-        stats['sections'] += 1
-        stats['lines'] += sum(1 for b in parsed['beats'] if b['k'] in ('talk', 'bubble'))
-    return stats
-
-
 def build_npc_plots(ctx):
     """NPCAffinityPlot.json mounts the star-tower staff bond stories (CG_npc<id>_<part>)."""
     BIN_NPC_PLOT = ctx.table('BIN', 'NPCAffinityPlot')
@@ -790,10 +746,12 @@ def main():
     print("Parsing event story scripts...")
     estat = build_events(ctx)
     print("  sections=%(sections)s lines=%(lines)s" % estat)
-    for label, fn in (("角色个人剧情", build_character_plots),
-                      ("星塔 NPC 好感剧情", build_npc_plots)):
-        st = fn(ctx)
-        print("  %s：小节=%d 台词行=%d" % (label, st['sections'], st['lines']))
+    print("Parsing 角色个人剧情 (characters) scripts...")
+    import families.characters as _fam_characters
+    _fam_characters.build(ctx, _migrated_sink(ctx))
+    print("Parsing 星塔 NPC 好感剧情 (npc_bonds) scripts...")
+    st = build_npc_plots(ctx)
+    print("  星塔 NPC 好感剧情：小节=%d 台词行=%d" % (st['sections'], st['lines']))
     # 已搬迁族（顺序须与 FAMILY_ORDER 一致：discs → storysets → prologue → dispatch
     # → anecdotes → returnee → soldier → chat）
     print("Parsing 唱片剧情 (discs) scripts...")
