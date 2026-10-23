@@ -14,7 +14,7 @@
   "平铺不推帧"是既定设计（`STev_03_01` 等已渲染活动剧照此输出，改推帧会撞
   `docs/` 冻结基线的字节锁），所以心链只在自家渲染里补「若选…」分支标记。
 
-产物由 `build_story.build_chat()` 写盘（本模块不碰文件系统、不读数据表）：
+产物由本包 `__init__.py` 的 `build()` 写盘（本模块不碰文件系统、不读数据表）：
     story_docs/_chat/PM<编号>.md          一段一节（63 个，扁平摆放）
     story_docs/_chat/_index.md           总索引
     story_docs/_chat/_diagnostics.json   兜底登记
@@ -387,8 +387,8 @@ def render_index_md(contacts):
     """总索引：一行一个心链剧本 + 合计 + 口径说明。"""
     lines = [
         '# 心链聊天总索引', '',
-        '> 游戏内「心链」（手机聊天）功能的全篇文本存档，由 `scripts/story/build_story.py` 的',
-        '> `build_chat()` 随主构建自动生成。**不进静态站点**——`_` 前缀目录在本仓库的约定是',
+        '> 游戏内「心链」（手机聊天）功能的全篇文本存档，由 chat 族随主构建自动生成。',
+        '> **不进静态站点**——`_` 前缀目录在本仓库的约定是',
         '> "生成物但非站点页"（与 `_coverage.md` / `_battle_reconciliation.md` 同义），',
         '> validate_site 的 G2 与 validate_story 的 A/C/F 都不收编它。', '',
         '再生命令：`python scripts/story/build_story.py`', '',

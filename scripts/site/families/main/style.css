@@ -1,0 +1,47 @@
+/* Specific theme colors and stripes per bento card */
+.bento-card[data-slug="main"] {
+  --card-theme: #0284C7;
+  --card-theme-stripe: rgba(2, 132, 199, 0.18);
+}
+/* @@ */
+
+[data-theme="dark"] .bento-card[data-slug="main"] {
+  --card-theme: #38BDF8;
+  --card-theme-stripe: rgba(56, 189, 248, 0.22);
+}
+/* @@ */
+.chapsel[data-family="main"] {
+  --chapsel-accent: #0284C7;
+  --chapsel-accent-dark: #38BDF8;
+}
+/* @@ */
+.anchors[data-family="main"] {
+  --anchors-accent: #0284C7;
+  --anchors-accent-dark: #38BDF8;
+}
+/* @@ */
+/* 拓扑连线颜色按板块精准区分 */
+.map[data-family="main"] .edge.story { stroke: #0284C7; }
+[data-theme="dark"] .map[data-family="main"] .edge.story { stroke: #38BDF8; }
+/* @@ */
+/* 主线剧情节点 (天蓝色) */
+.map[data-family="main"] .node.story {
+  border-left-color: #0284C7;
+}
+.map[data-family="main"] .node.story .state {
+  color: #0284C7;
+}
+.map[data-family="main"] .node.story:hover {
+  border-color: #0284C7;
+  box-shadow: 0 3px 0 #0284C7, 0 6px 14px rgba(2, 132, 199, 0.15);
+}
+[data-theme="dark"] .map[data-family="main"] .node.story {
+  border-left-color: #38BDF8;
+}
+[data-theme="dark"] .map[data-family="main"] .node.story .state {
+  color: #38BDF8;
+}
+[data-theme="dark"] .map[data-family="main"] .node.story:hover {
+  border-color: #38BDF8;
+  box-shadow: 0 3px 0 #38BDF8, 0 6px 14px rgba(56, 189, 248, 0.25);
+}

@@ -1,0 +1,19 @@
+.bento-card[data-slug="npc"] {
+  --card-theme: #7C3AED;
+  --card-theme-stripe: rgba(124, 58, 237, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="npc"] {
+  --card-theme: #A78BFA;
+  --card-theme-stripe: rgba(167, 139, 250, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="npc"] {
+  --grp-accent: #7C3AED;
+  --grp-accent-stripe: rgba(124, 58, 237, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="npc"] {
+  --grp-accent: #A78BFA;
+  --grp-accent-stripe: rgba(167, 139, 250, 0.22);
+}

@@ -26,8 +26,8 @@ import json
 import os
 
 __all__ = [
-    'story_lines', 'chapter_line', 'chapter_line_info', 'is_special',
-    'resolve_chapter_slug', 'build_slug_map', 'node_page', 'chapter_page',
+    'story_lines', 'story_lines_from_tables', 'chapter_line', 'chapter_line_info',
+    'is_special', 'resolve_chapter_slug', 'build_slug_map', 'node_page', 'chapter_page',
 ]
 
 
@@ -48,14 +48,13 @@ def _as_int(value):
     return None
 
 
-def story_lines(bin_dir, lang_dir):
-    """``StoryLine.json`` -> ``{line_id: {id, title, subtitle, sort_index, icon}}``.
+def story_lines_from_tables(rows, lang):
+    """两张已加载的 StoryLine 表 -> ``{line_id: {id, title, subtitle, sort_index, icon}}``。
 
-    表缺失时返回空 dict：时间线是本次上游新增的维度，老快照没有这张表，
-    消费端按"只有一条未命名时间线"降级即可，不该因此构建失败。
+    与 ``story_lines`` 同一套逻辑；表版供经 ctx.table() 取数的调用方
+    （context.DataContext）使用，使读取落进表登记簿、可被声明面对账。
+    表缺失时传入空 dict，同样降级为空结果。
     """
-    rows = _read(os.path.join(bin_dir, 'StoryLine.json'))
-    lang = _read(os.path.join(lang_dir, 'StoryLine.json'))
     out = {}
     for key, row in rows.items():
         lid = _as_int(key)
@@ -70,6 +69,16 @@ def story_lines(bin_dir, lang_dir):
             'icon': row.get('Icon'),
         }
     return out
+
+
+def story_lines(bin_dir, lang_dir):
+    """目录版薄壳：裸读两张表后委托表版（校验器与单测继续用这个签名）。
+
+    表缺失时降级为空 dict：时间线是上游较新增的维度，老快照没有这张表，
+    消费端按"只有一条未命名时间线"处理即可，不该因此构建失败。
+    """
+    return story_lines_from_tables(_read(os.path.join(bin_dir, 'StoryLine.json')),
+                                   _read(os.path.join(lang_dir, 'StoryLine.json')))
 
 
 def chapter_line(cdef):

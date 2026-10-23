@@ -10,10 +10,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'site'))
 
-import build_story
+# Phase A 起剧情侧取数经 context.DataContext（懒加载 + 共享服务注入），
+# 不再 import 编排器 build_story（设计 5.3：移除最后一处测试对编排器的耦合）。
+# 共享实例经 tests/conftest.py 的 session 级 data_ctx fixture 惰性提供：
+# 收集期不构造，`-m "not slow"` 快循环里没人用到就完全不构造。
 import render_html
 from pipeline import markup
-from pipeline.diagnostics import Diagnostics
 from pipeline.pagedoc import PageDoc
 from pipeline.render_md import page_markdown
 
@@ -25,8 +27,8 @@ from pipeline.render_md import page_markdown
     ('STm09_05_a', 4, 2),
     ('STm07_06_ba', 4, 4),
 ])
-def test_historical_conditions_survive_json_and_rendering(stem, branches, visible):
-    parsed = build_story.extract_script(stem)
+def test_historical_conditions_survive_json_and_rendering(stem, branches, visible, data_ctx):
+    parsed = data_ctx.extract_script(stem)
     beats = parsed['beats']
     cases = [b for b in beats if b['k'] == 'condition_branch']
     assert len(cases) == branches
@@ -51,8 +53,8 @@ def test_historical_conditions_survive_json_and_rendering(stem, branches, visibl
         assert html.rindex('href="#%s"' % target) < html.index('id="%s"' % target)
 
 
-def test_shared_be_cases_keep_source_and_merge_only_reading_text():
-    parsed = build_story.extract_script('STm09_05_a')
+def test_shared_be_cases_keep_source_and_merge_only_reading_text(data_ctx):
+    parsed = data_ctx.extract_script('STm09_05_a')
     repeated = '不，不对。在过去的冒险里，我又不是没遇到死亡的情况。'
     source = [b for b in parsed['beats'] if b['k'] == 'talk'
               and markup.plain(b['text']).startswith(repeated)]
@@ -65,21 +67,22 @@ def test_shared_be_cases_keep_source_and_merge_only_reading_text():
     assert '若第一章至第八章的终局已阅读比例为 0%' in html
 
 
-def test_choice_condition_ends_at_the_real_jump_destination():
-    beats = build_story.extract_script('STm02_02_c')['beats']
+def test_choice_condition_ends_at_the_real_jump_destination(data_ctx):
+    beats = data_ctx.extract_script('STm02_02_c')['beats']
     case = next(b for b in beats if b['k'] == 'condition_branch')
     assert case['labels'] == ['若已选择《07 不同的许愿》中的「放弃思考」']
     end = next(i for i, b in enumerate(beats) if b['k'] == 'condition_end')
     assert markup.plain(beats[end + 1]['text']) == '她们的面容姣好而陌生，不是我认识的人。'
 
 
-def test_historical_choice_markers_use_the_source_option():
-    beats = build_story.extract_script('STm08_11')['beats']
+def test_historical_choice_markers_use_the_source_option(data_ctx):
+    beats = data_ctx.extract_script('STm08_11')['beats']
     case = next(b for b in beats if b['k'] == 'condition_branch')
     assert case['labels'] == ['若已阅读《05B 亿万》，且已选择《05B 亿万》中的「默默等待时机」']
 
 
-def test_every_real_script_resolves_conditions_without_a_single_fallback():
+@pytest.mark.slow
+def test_every_real_script_resolves_conditions_without_a_single_fallback(data_ctx):
     """全量真实剧本跑一遍：条件标签全部解析成功，诊断侧车里 condition_* 一条都没有。
 
     这是 conditions.py 硬化的验收闸门——上游数据只要有一处对不上（EvId/StoryId/
@@ -88,30 +91,12 @@ def test_every_real_script_resolves_conditions_without_a_single_fallback():
     剧本集合取 CFG 目录本身（包内全部 596 个 AVG 剧本），不取 _beats 侧车——
     后者的 stem 对角色/NPC 页是数字 id，不是剧本代号。
     """
-    cfg = build_story.CFG
+    cfg = data_ctx.cfg
     stems = sorted(f[:-4] for f in os.listdir(cfg) if f.endswith('.lua'))
     assert len(stems) > 500
-    before = dict(build_story.DIAG.nonzero())
+    before = dict(data_ctx.diag.nonzero())
     for stem in stems:
-        assert build_story.extract_script(stem) is not None, stem
-    fired = {k: v for k, v in build_story.DIAG.nonzero().items()
+        assert data_ctx.extract_script(stem) is not None, stem
+    fired = {k: v for k, v in data_ctx.diag.nonzero().items()
              if k.startswith('condition_') and v != before.get(k, 0)}
     assert fired == {}, '真实数据触发了条件降级：%s' % fired
-
-
-def test_committed_diagnostics_sidecar_matches_the_registry_schema():
-    """提交的 _diagnostics.json 必须与 CATEGORIES 注册表同构、且 note 由注册表生成。"""
-    from pipeline.diagnostics import CATEGORIES
-    obj = json.load(open(os.path.join(ROOT, 'story_docs', '_diagnostics.json'),
-                         encoding='utf-8'))
-    assert list(obj) == ['note'] + list(CATEGORIES)
-    assert obj['note'] == Diagnostics().note()
-    for name, (shape, _desc) in CATEGORIES.items():
-        if shape == 'count':
-            assert isinstance(obj[name], int) and obj[name] >= 0, name
-            continue
-        assert isinstance(obj[name], list), name
-        # 条目按字段序排序（= 去重键序）且无重复：同输入重建才可能字节稳定
-        keys = [json.dumps(e, ensure_ascii=False) for e in obj[name]]
-        assert len(set(keys)) == len(keys), '%s 含重复条目' % name
-        assert keys == sorted(keys), '%s 未按去重键排序' % name

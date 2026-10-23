@@ -1,0 +1,19 @@
+.bento-card[data-slug="discs"] {
+  --card-theme: #9333EA;
+  --card-theme-stripe: rgba(147, 51, 234, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="discs"] {
+  --card-theme: #C084FC;
+  --card-theme-stripe: rgba(192, 132, 252, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="discs"] {
+  --grp-accent: #9333EA;
+  --grp-accent-stripe: rgba(147, 51, 234, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="discs"] {
+  --grp-accent: #C084FC;
+  --grp-accent-stripe: rgba(192, 132, 252, 0.22);
+}

@@ -41,6 +41,8 @@ python scripts/site/build_site.py
 python tests/story/validate_site.py
 ```
 
+日常改动的快循环用 `python -m pytest tests/ -q -m "not slow"`（秒级；全量语料集成用例带 `slow` 标记，push/验收前跑不带 `-m` 的全量）。本地快检 `validate_story.py` 可设 `STELLA_DIAG_REBUILD=0` 跳过其中的子进程全量重建。
+
 如需本地预览，可进入 `site/` 目录直接用浏览器打开 `index.html`（检索索引在首次使用搜索框时按需加载，动态 script 注入，离线可用）。
 
 ---
@@ -55,7 +57,7 @@ python tests/story/validate_site.py
 推送（push）事件下的流水线：收集提交生成更新日志 → 全量单元测试 → 两份契约校验 → 构建静态站 → 部署。
 定时（schedule）事件改为跑 `scripts/automation/auto_sync.py`，由它自己完成构建与提交。
 
-`auto_sync.py` 以 `check=True` 运行生成器，因此**生成器任何未捕获异常都会让整条流水线停止**。管线的对应方针是"降级不崩 + 必登记"，详见 `_dev/AI_HANDOVER_GUIDE.md` 的「兜底与诊断策略」一节。
+`auto_sync.py` 以 `check=True` 运行生成器，因此**生成器任何未捕获异常都会让整条流水线停止**。管线的对应方针是"降级不崩 + 必登记"，详见 `_dev/guide/ch7-story-pipeline.md`（交接手册「兜底与诊断策略」章）。
 
 ---
 
@@ -121,8 +123,15 @@ stellasora-archive/
 ├── docs/                    # 遗留生成器的冻结输出，被 git 跟踪；仅供历史对照契约，见下文说明
 ├── scripts/                 # 构建与维护脚本工具集
 │   ├── story/               # 剧情抽取与拓扑计算模块
-│   │   ├── build_story.py   # 编排器：解析上游数据源 -> 生成 Markdown 与侧车数据
-│   │   ├── phone_chat.py    # 心链（手机聊天）提取：SetGroupId 切段 + 回复抉择分支归属 + 聊天渲染
+│   │   ├── build_story.py   # 编排器（≤200 行零特判循环）：建 ctx/sink，按 FAMILY_ORDER 调族，无模块级副作用
+│   │   ├── context.py       # DataContext：表懒加载+缓存、共享服务一次构造注入、ScopedDataContext NEEDS 门控（透传白名单+构建末端打烊对账）
+│   │   ├── sink.py          # SidecarSink：侧车记录（record_page/record_node/写 beats/对账），文件工具 write/safe_name
+│   │   ├── aggregate.py     # 收尾落盘：_data 侧车 / 覆盖对账（MOUNTS 自动汇总）/ 诊断 / 对账报告
+│   │   ├── families/        # 一族一模块（13 族）：文件头声明 NEEDS/MOUNTS，统一契约 build(ctx, sink)；
+│   │   │                    # __init__.py 的 FAMILY_ORDER 是执行顺序唯一声明处（加族=加族文件+一行）。
+│   │   │                    # 唯一例外是 chat 族为子包（families/chat/）：心链实现体量大
+│   │   │                    # （切段+分支归属+渲染+诊断），拆为 __init__（族声明+build）
+│   │   │                    # 与 phone_chat.py（实现），全仓仅此一个消费方故收进族内
 │   │   ├── release_gate.py  # 未开放内容门控（按官方 OpenTime/StartTime 过滤发布面）
 │   │   ├── graph_layout.py  # DAG 分层拓扑几何纯函数（坐标与连线计算）
 │   │   └── pipeline/        # 编译管线（自上而下单向依赖，无环）
@@ -138,9 +147,12 @@ stellasora-archive/
 │   │       ├── render_md.py   # Stage 4a 后端：人审真源 Markdown（字节锁）
 │   │       └── domain.py      # 主角 id / 显示名等官方口径常量
 │   ├── site/                # 静态站点生成引擎
-│   │   ├── build_site.py    # 驱动模板生成全部 HTML 静态页面（消费前先过 release_gate）
-│   │   ├── site_templates.py# 拓扑图、剧情阅读牌板、战斗档案等页面模板
-│   │   ├── site_css.py      # 设计规范 Tokens 与全局样式
+│   │   ├── build_site.py    # 驱动（零族特判）：侧车 -> release_gate -> render() 分发 -> 落盘
+│   │   ├── registry.py      # 族注册表：FAMILIES（展示序）/ FAMILY_META / slug_of / STATE_LABEL
+│   │   ├── theme/           # 公共页型与组件：layout/gate/home/index/reading/battle/graph + tokens/base/graph_base CSS
+│   │   ├── families/        # 一族一目录：style.css（accent，选择器带本族作用域）+ 可选 templates.py
+│   │   │                    # （main 章图组装与索引覆盖 INDEX_OVERRIDE、events 活动图组装与 BRANCHING_ACTS）
+│   │   ├── assemble.py      # (family, kind) 模板分发注册表 render() + CSS 超级拼接 assemble_css()
 │   │   ├── site_js.py       # 离线检索、拓扑图手势交互等前端脚本
 │   │   └── render_html.py   # PageDoc 侧车（_beats/*.json）-> HTML 正文与 Ruby 注音
 │   ├── automation/          # 自动化持续集成模块
@@ -154,7 +166,7 @@ stellasora-archive/
 ├── tests/                   # 测试套件
 │   ├── story/               # 地面真相严格契约与变异测试（两份校验器 + pytest）
 │   └── automation/          # 自动化与变更日志单元测试
-├── _dev/                    # 维护者文档：AI_HANDOVER_GUIDE.md（实现细节与踩坑）、OPERATION_MANUAL.md（操作手册）
+├── _dev/                    # 维护者文档（渐进式披露）：AI_HANDOVER_GUIDE.md 与 OPERATION_MANUAL.md 是索引，正文分册在 guide/ 与 manual/
 └── .github/workflows/       # GitHub Actions 自动化构建与定时同步流水线
 ```
 
@@ -162,10 +174,10 @@ stellasora-archive/
 
 `docs/` 是**早期原型生成器** `scripts/tools/build_wiki.py` 的冻结输出，约 5 MB，**仍在 git 跟踪下**。它的初衷是把剧情库做成"渐进式披露、便于 AI 检索"的知识库（Wiki-grade progressive disclosure knowledge base），后来主链路切换到 `story_docs/` + 静态站方案，`docs/` 便不再参与构建。
 
-它今天唯一的用途是：`tests/story/validate_story.py` 的历史对照契约以它为基线，用来盯住"新实现没有悄悄改掉已评审内容"。因此：
+它今天只作为历史资料保留（`validate_story.py` 的"历史对照"契约已于 2026-10-20 退役——`story_docs/` 本身在 git 里，`git diff -- story_docs/` 就是更贴近的对照，不再需要手工白名单）。因此：
 
-- **不要手工编辑** `docs/`（改了会让历史对照失真）；
-- **不要删除** `docs/`（对照契约会直接失败）；
+- **不要手工编辑** `docs/`（纯历史资料，改了没有校验器会报，但会污染历史记录）；
+- **不要删除** `docs/`（仍在 git 跟踪下，是早期知识库形态的历史存档）；
 - 它是可再生的（`python scripts/tools/build_wiki.py`），但重新生成前先想清是否要重置历史基线。
 
 > 提示：在 `scripts/` 根目录下提供了 `build_site.py`、`build_story.py` 与 `auto_sync.py` 的轻量转发器，直接在根目录执行旧命令依然 100% 兼容。`build_wiki.py` **没有**转发器，需写全 `scripts/tools/build_wiki.py`。

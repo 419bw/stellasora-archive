@@ -163,6 +163,7 @@ def _corpus_strings():
             yield path, a['prose']
 
 
+@pytest.mark.slow
 def test_full_corpus_roundtrip_and_html_oracle():
     """Check every published text retains its markup and annotation count."""
     emph = re.compile(r'</?[bi]>')

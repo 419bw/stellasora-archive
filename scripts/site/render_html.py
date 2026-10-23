@@ -5,12 +5,15 @@ import re
 import sys
 from html import escape
 
-# markup 编译器住在剧情管线包里（scripts/story/pipeline/markup.py）；build_site
-# 已把 scripts/story 注入 sys.path（graph_layout/release_gate 同此先例），这里
-# 兜底保证本模块可独立导入（对拍脚本、pytest）。
+# markup 编译器住在剧情管线包里（scripts/story/pipeline/markup.py）。兜底保证
+# 本模块可独立导入（对拍脚本、pytest）：scripts/story 不在 path 上就补上。
+# 必须 append 不能 insert(0)：站点侧自有 families 包（Phase D1 拆分），insert(0)
+# 会让剧情侧 families 掩蔽站点侧，随后 ``families.main.templates`` 之类全部错位
+# （报 'families.main' is not a package）。build_site 已预置 story 时守卫整体
+# 跳过，行为不变；站点进程的约定就是 scripts/site 排在 scripts/story 之前。
 _STORY_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'story')
 if _STORY_DIR not in sys.path:
-    sys.path.insert(0, _STORY_DIR)
+    sys.path.append(_STORY_DIR)
 from pipeline import markup  # noqa: E402
 from pipeline.diagnostics import warn  # noqa: E402
 from pipeline.conditions import reading_beats  # noqa: E402

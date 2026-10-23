@@ -1,0 +1,19 @@
+.bento-card[data-slug="returnee"] {
+  --card-theme: #C026D3;
+  --card-theme-stripe: rgba(192, 38, 211, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .bento-card[data-slug="returnee"] {
+  --card-theme: #F0ABFC;
+  --card-theme-stripe: rgba(240, 171, 252, 0.22);
+}
+/* @@ */
+.grp-grid[data-family="returnee"] {
+  --grp-accent: #C026D3;
+  --grp-accent-stripe: rgba(192, 38, 211, 0.18);
+}
+/* @@ */
+[data-theme="dark"] .grp-grid[data-family="returnee"] {
+  --grp-accent: #F0ABFC;
+  --grp-accent-stripe: rgba(240, 171, 252, 0.22);
+}
