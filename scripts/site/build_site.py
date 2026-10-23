@@ -6,7 +6,8 @@
 Refactored modular structure (Phase D/E):
   - registry.py:           族注册表（FAMILIES/FAMILY_META/slug_of/SLUG_ALIAS）。
   - theme/:                公共组件——layout（页面骨架+helper）、gate（未开放门控）、
-                           home/index/reading/graph/battle 六类页型模板。
+                           graph（拓扑图共用骨架：连线/卡片/列锚点/map）、
+                           home/index/reading/battle 四类页型模板。
   - families/<id>/:        族级模板片段与钩子（INDEX_OVERRIDE/BRANCHING_ACTS）。
   - assemble.py:           CSS 超级拼接（theme/tokens|base|graph_base + families/*/style.css）。
   - site_css.py / site_js.py / render_html.py / graph_layout.py: 其余既有模块。
@@ -40,9 +41,10 @@ from theme.gate import locked_notice_page  # noqa: E402
 from theme.home import home_page  # noqa: E402
 from theme.index import family_index  # noqa: E402
 from theme.reading import script_page  # noqa: E402
-from theme.graph import chapter_graph_page, activity_graph_page  # noqa: E402
 from theme.battle import battle_archive_page  # noqa: E402
-from families.main.templates import main_index  # noqa: E402
+# Phase D2：章图/活动拓扑组装层落位各自族包（theme/graph.py 只留共用骨架组件）
+from families.main.templates import chapter_graph_page, main_index  # noqa: E402
+from families.events.templates import activity_graph_page  # noqa: E402
 
 SRC = os.path.join(ROOT, 'story_docs')
 DATA = os.path.join(SRC, '_data')
