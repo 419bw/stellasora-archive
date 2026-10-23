@@ -52,78 +52,89 @@ def render(family, kind, *args, **kwargs):
 # （从 1 计）。分隔注释只存在于源片段，拼接入产物时剔除。
 BLOCK_SEP = '/* @@ */'
 
-# (片段文件, 块号) 有序清单 = 原 site_css.py 样式块的发现序——族块天然夹杂
-# （bento 浅色整批 → 深色整批、grp 浅色整批 → 深色整批、拓扑族块四散），
-# 故 manifest 必须到块级才能既保发现序又一族一文件。E1 拼接待产物与拆分前
-# 逐字节一致（不注入文件头注释）；E3 才归一为 tokens → base → graph_base →
-# FAMILY_ORDER 并注入清单注释，走声明式预期 diff。
+# (片段文件, 块号) 有序清单。E3 起归一为 tokens → base → graph_base →
+# FAMILY_ORDER（站点族序；orphan_battles ↔ battles_unmounted、chat 无站点片段），
+# 取代 E1 的发现序——族块在原文件里天然夹杂（bento 浅色整批 → 深色整批、拓扑族块
+# 四散），文件级拼接无法同时保序与一族一文件，故 manifest 到块级：片段文件内以
+# 独占一行 BLOCK_SEP 分块，拼接入产物时剔除。归一走的是声明式预期 diff（规则集
+# 不变、仅排序 + 文件头注释），审阅通过后才刷新 _dev/site_manifest_baseline.txt。
 CSS_MANIFEST = [
-    ('theme/base.css', 1),
     ('theme/tokens.css', 1),
+    ('theme/base.css', 1),
     ('theme/base.css', 2),
-    ('families/main/style.css', 1),
-    ('families/characters/style.css', 1),
-    ('families/events/style.css', 1),
-    ('families/discs/style.css', 1),
-    ('families/storysets/style.css', 1),
-    ('families/npc_bonds/style.css', 1),
-    ('families/prologue/style.css', 1),
-    ('families/battles_unmounted/style.css', 1),
-    ('families/dispatch/style.css', 1),
-    ('families/anecdotes/style.css', 1),
-    ('families/returnee/style.css', 1),
-    ('families/soldier/style.css', 1),
-    ('families/main/style.css', 2),
-    ('families/characters/style.css', 2),
-    ('families/events/style.css', 2),
-    ('families/discs/style.css', 2),
-    ('families/storysets/style.css', 2),
-    ('families/npc_bonds/style.css', 2),
-    ('families/prologue/style.css', 2),
-    ('families/battles_unmounted/style.css', 2),
-    ('families/dispatch/style.css', 2),
-    ('families/anecdotes/style.css', 2),
-    ('families/returnee/style.css', 2),
-    ('families/soldier/style.css', 2),
     ('theme/base.css', 3),
-    ('families/events/style.css', 3),
-    ('families/characters/style.css', 3),
-    ('families/storysets/style.css', 3),
-    ('families/discs/style.css', 3),
-    ('families/npc_bonds/style.css', 3),
-    ('families/prologue/style.css', 3),
-    ('families/battles_unmounted/style.css', 3),
-    ('families/dispatch/style.css', 3),
-    ('families/anecdotes/style.css', 3),
-    ('families/returnee/style.css', 3),
-    ('families/soldier/style.css', 3),
-    ('families/events/style.css', 4),
-    ('families/characters/style.css', 4),
-    ('families/storysets/style.css', 4),
-    ('families/discs/style.css', 4),
-    ('families/npc_bonds/style.css', 4),
-    ('families/prologue/style.css', 4),
-    ('families/battles_unmounted/style.css', 4),
-    ('families/dispatch/style.css', 4),
-    ('families/anecdotes/style.css', 4),
-    ('families/returnee/style.css', 4),
-    ('families/soldier/style.css', 4),
     ('theme/base.css', 4),
-    ('theme/graph_base.css', 1),
-    ('families/main/style.css', 3),
-    ('families/events/style.css', 5),
-    ('theme/graph_base.css', 2),
-    ('families/main/style.css', 4),
-    ('families/events/style.css', 6),
-    ('theme/graph_base.css', 3),
-    ('families/main/style.css', 5),
-    ('families/events/style.css', 7),
-    ('theme/graph_base.css', 4),
-    ('families/main/style.css', 6),
-    ('families/events/style.css', 8),
-    ('theme/graph_base.css', 5),
     ('theme/base.css', 5),
+    ('theme/graph_base.css', 1),
+    ('theme/graph_base.css', 2),
+    ('theme/graph_base.css', 3),
+    ('theme/graph_base.css', 4),
+    ('theme/graph_base.css', 5),
+    ('families/main/style.css', 1),
+    ('families/main/style.css', 2),
+    ('families/main/style.css', 3),
+    ('families/main/style.css', 4),
+    ('families/main/style.css', 5),
+    ('families/main/style.css', 6),
+    ('families/events/style.css', 1),
+    ('families/events/style.css', 2),
+    ('families/events/style.css', 3),
+    ('families/events/style.css', 4),
+    ('families/events/style.css', 5),
+    ('families/events/style.css', 6),
+    ('families/events/style.css', 7),
+    ('families/events/style.css', 8),
+    ('families/characters/style.css', 1),
+    ('families/characters/style.css', 2),
+    ('families/characters/style.css', 3),
+    ('families/characters/style.css', 4),
+    ('families/npc_bonds/style.css', 1),
+    ('families/npc_bonds/style.css', 2),
+    ('families/npc_bonds/style.css', 3),
+    ('families/npc_bonds/style.css', 4),
+    ('families/discs/style.css', 1),
+    ('families/discs/style.css', 2),
+    ('families/discs/style.css', 3),
+    ('families/discs/style.css', 4),
+    ('families/storysets/style.css', 1),
+    ('families/storysets/style.css', 2),
+    ('families/storysets/style.css', 3),
+    ('families/storysets/style.css', 4),
+    ('families/prologue/style.css', 1),
+    ('families/prologue/style.css', 2),
+    ('families/prologue/style.css', 3),
+    ('families/prologue/style.css', 4),
+    ('families/dispatch/style.css', 1),
+    ('families/dispatch/style.css', 2),
+    ('families/dispatch/style.css', 3),
+    ('families/dispatch/style.css', 4),
+    ('families/anecdotes/style.css', 1),
+    ('families/anecdotes/style.css', 2),
+    ('families/anecdotes/style.css', 3),
+    ('families/anecdotes/style.css', 4),
+    ('families/returnee/style.css', 1),
+    ('families/returnee/style.css', 2),
+    ('families/returnee/style.css', 3),
+    ('families/returnee/style.css', 4),
+    ('families/soldier/style.css', 1),
+    ('families/soldier/style.css', 2),
+    ('families/soldier/style.css', 3),
+    ('families/soldier/style.css', 4),
+    ('families/battles_unmounted/style.css', 1),
+    ('families/battles_unmounted/style.css', 2),
+    ('families/battles_unmounted/style.css', 3),
+    ('families/battles_unmounted/style.css', 4),
 ]
+
+# 注入产物首部的 manifest 注释（E3 起；内容稳定，不含时间戳等易变量）
+CSS_HEADER = """/*
+ * StellaSora 剧情知识库 · 站点样式——由 scripts/site/assemble.py 拼接生成，勿手改。
+ * 清单序：theme/tokens.css → theme/base.css → theme/graph_base.css
+ *          → families/<id>/style.css（FAMILY_ORDER 序，orphan_battles→battles_unmounted）。
+ * 片段文件内以独占一行块分隔线分块（拼接入产物时剔除）；族样式须带本族作用域，
+ * 由 tests/story/test_registry_integrity.py 的 CSS 作用域 lint 把守。
+ */
+"""
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -139,11 +150,11 @@ def _css_blocks(rel_path):
 
 
 def assemble_css():
-    """按 CSS_MANIFEST（发现序）拼接全部片段，返回与拆分前逐字节一致的 CSS。"""
+    """按 CSS_MANIFEST 顺序拼接全部片段，返回站点样式（首部带 manifest 注释）。"""
     out = []
     for rel_path, n in CSS_MANIFEST:
         blocks = _css_blocks(rel_path)
         if not 1 <= n <= len(blocks):
             raise IndexError('%s 缺块 %d（共 %d 块）' % (rel_path, n, len(blocks)))
         out.append(blocks[n - 1])
-    return '\n' + '\n'.join(out) + '\n'
+    return CSS_HEADER + '\n' + '\n'.join(out) + '\n'
