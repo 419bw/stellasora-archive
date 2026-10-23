@@ -7,9 +7,12 @@
   3. MOUNTS 引用的表在 data/ 里真实存在（上游不会凭空多表）；
   4. sections.json（git 跟踪的侧车快照）出现的每个 family 都有对应族模块；
   5. 站点侧每个族 id 都有 CSS accent 片段（依赖 Phase E1 的 CSS_MANIFEST 落位，缺则 skip）；
-  6. 站点分发表覆盖 kind taxonomy 全集（Phase D3，子进程隔离 import）。
+  6. 站点分发表覆盖 kind taxonomy 全集（Phase D3，子进程隔离 import）；
+  7. CSS 作用域 lint（Phase E2）：族片段选择器必须带本族作用域组件，
+     theme/ 片段不得定义族令牌具体值。
 """
 import os
+import re
 import sys
 import json
 import subprocess
@@ -96,6 +99,87 @@ def test_family_css_accent_exists():
         site_id = FAMILY_TO_SITE.get(fam_id, fam_id)
         assert os.path.exists(os.path.join(fam_dir, site_id, 'style.css')), \
             '站点侧缺 %s 族 accent 片段' % site_id
+
+
+# ---------------------------------------------------------------------------
+# Phase E2：CSS 作用域 lint（设计 4.5-2）
+# ---------------------------------------------------------------------------
+
+# 站点 slug 与族 id 的差异（与 registry.slug_of 同源；CSS 用 data-slug/data-family 挂 slug）
+SITE_SLUG = {'npc_bonds': 'npc', 'battles_unmounted': 'battles'}
+
+# 族令牌：具体值只允许出现在族片段里；theme/ 只可 var() 引用（如 .grp.locked 的
+# --grp-accent: var(--locked)），防拼接顺序退化为隐性 cascade 耦合。
+FAMILY_TOKENS = ('grp-accent', 'grp-accent-stripe', 'card-theme', 'card-theme-stripe',
+                 'chapsel-accent', 'chapsel-accent-dark', 'anchors-accent',
+                 'anchors-accent-dark')
+
+
+def _css_preludes(text):
+    """产出全部 rule 前置（选择器或 @ 规则）；剔除注释，声明体不入列。"""
+    text = re.sub(r'/\*.*?\*/', '', text, flags=re.S)
+    preludes, buf = [], []
+    for ch in text:
+        if ch == '{':
+            preludes.append(''.join(buf).strip())
+            buf = []
+        elif ch == '}':
+            buf = []          # 声明体到此丢弃，下一前置重新起算
+        else:
+            buf.append(ch)
+    return [p for p in preludes if p]
+
+
+def test_css_family_fragments_are_scoped():
+    """族 style.css 每条选择器必须含本族作用域组件（设计 4.5-2）。
+
+    作用域组件：``[data-family="<id|slug>"]``、``[data-slug="<id|slug>"]``
+    或 ``.fam-<id>``（未来 markup 预留）；``[data-theme="dark"]`` 前缀与
+    ``@media``/``@supports`` 外层包裹放行——暗色 accent 覆盖即此形态。
+    """
+    fam_root = os.path.join(ROOT, 'scripts', 'site', 'families')
+    checked = 0
+    for fam_id in FAMILY_ORDER:
+        if fam_id == 'chat':              # 心链自外于站点
+            continue
+        site_id = FAMILY_TO_SITE.get(fam_id, fam_id)
+        path = os.path.join(fam_root, site_id, 'style.css')
+        if not os.path.exists(path):
+            continue                      # 存在性由 accent 契约管，这里只 lint 有片段的
+        scope_values = {site_id, SITE_SLUG.get(site_id, site_id)}
+        tokens = (['data-family="%s"' % v for v in sorted(scope_values)]
+                  + ['data-slug="%s"' % v for v in sorted(scope_values)]
+                  + ['.fam-%s' % site_id])
+        with open(path, encoding='utf-8') as f:
+            text = f.read()
+        for prelude in _css_preludes(text):
+            if prelude.startswith('@'):   # @media/@supports 等外层包裹
+                continue
+            for sel in prelude.split(','):
+                sel = sel.strip()
+                if not sel:
+                    continue
+                assert any(tok in sel for tok in tokens), \
+                    '%s/style.css 选择器缺本族作用域: %s' % (site_id, sel)
+                checked += 1
+    assert checked > 0, '一个族片段都没检到，lint 形同虚设'
+
+
+def test_css_theme_fragments_define_no_family_tokens():
+    """theme/ 片段不得定义族令牌具体值（var() 引用共享令牌除外）。"""
+    theme_dir = os.path.join(ROOT, 'scripts', 'site', 'theme')
+    pat = re.compile(r'--(%s)\s*:\s*([^;}]+)' % '|'.join(FAMILY_TOKENS))
+    hits = []
+    for name in sorted(os.listdir(theme_dir)):
+        if not name.endswith('.css'):
+            continue
+        with open(os.path.join(theme_dir, name), encoding='utf-8') as f:
+            text = re.sub(r'/\*.*?\*/', '', f.read(), flags=re.S)
+        for m in pat.finditer(text):
+            value = m.group(2).strip()
+            if not value.startswith('var('):
+                hits.append('%s: --%s: %s' % (name, m.group(1), value))
+    assert not hits, 'theme/ 片段定义了族令牌具体值: %s' % hits
 
 
 def test_site_dispatch_table_covers_kind_taxonomy():
