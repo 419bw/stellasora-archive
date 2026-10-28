@@ -9,7 +9,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 sys.path.insert(0, os.path.join(ROOT, 'scripts', 'story'))
 
 from pipeline import text_rules  # noqa: E402
-from pipeline.passes import _related  # noqa: E402
+from pipeline.command_ir import Command  # noqa: E402
+from pipeline.passes import fold_animations  # noqa: E402
 
 
 @pytest.fixture(autouse=True)
@@ -63,16 +64,26 @@ def test_layout_tags_still_stripped():
     assert text_rules.clean_dialogue('<align=left>……</align>') == '……'
 
 
-def test_sig_excludes_emph():
-    """Compare fade frames by text while retaining ruby content."""
-    s1 = text_rules._sig('<alpha=#22><i><b>Y</b></i>')
-    s2 = text_rules._sig('<i><b>Y O</b></i>')
-    assert s1 == 'Y' and s2 == 'YO'
-    assert _related(s1, s2)          # 'Y' in 'YO' —— 折叠链不断
-    # 若签名含标签，'<i><b>Y</b></i>' in '<i><b>YO</b></i>' 不成立 → 链断。
-    # ruby 是内容，保留在签名里：
-    assert text_rules._sig('魔<r=x></r>王') == '魔<r=x></r>王'
-    assert text_rules._sig('<r=·>非</r>常') == '<r=·>非</r>常'
+def _talk(idx, text):
+    return Command(idx, 'SetTalk', [None, None, text])
+
+
+def test_fade_frames_ignore_emphasis_when_folding():
+    commands = [
+        _talk(0, '<i><b>Y O</b></i>'),
+        _talk(1, '_NOT_IN_LOG_<alpha=#22><i><b>Y</b></i>'),
+        _talk(2, '_NOT_IN_LOG_<i><b>Y O</b></i>'),
+    ]
+    assert fold_animations(commands, text_rules.default_compiler()) == {1, 2}
+
+
+@pytest.mark.parametrize('rubied, plain', [
+    ('魔<r=x></r>王', '魔王'),
+    ('<r=·>非</r>常', '非常'),
+])
+def test_ruby_prevents_folding_into_different_logged_text(rubied, plain):
+    commands = [_talk(0, '_NOT_IN_LOG_' + rubied), _talk(1, plain)]
+    assert fold_animations(commands, text_rules.default_compiler()) == set()
 
 
 def test_emph_and_ruby_coexist():

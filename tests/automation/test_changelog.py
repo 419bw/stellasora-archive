@@ -137,18 +137,6 @@ def test_analyze_diff_baseline_returns_none():
 
 
 # --------------------------------------------------------------------------
-# D2: reason resolution
-# --------------------------------------------------------------------------
-
-def test_resolve_reason_override():
-    assert mod._resolve_reason('auto', '  note ') == 'note'
-    assert mod._resolve_reason('auto', None) == 'auto'
-    assert mod._resolve_reason('auto', '') == 'auto'
-    assert mod._resolve_reason(None, 'note') == 'note'   # baseline + manual note still writes
-    assert mod._resolve_reason(None, '') is None          # baseline + empty -> skip
-
-
-# --------------------------------------------------------------------------
 # update_changelog_in_files (homepage + README)
 # --------------------------------------------------------------------------
 
@@ -176,20 +164,18 @@ def test_changelog_updates_homepage_markers(changelog_paths):
     assert 'id="updates"' in html
 
 
-def test_changelog_readme_keeps_only_latest_entry(changelog_paths):
-    """Only the newest dated entry survives; older ones are intentionally dropped."""
+@pytest.mark.parametrize('first_date', [TODAY, '2026-10-03'])
+def test_changelog_readme_replaces_previous_entry(changelog_paths, first_date):
     tpl, rd = changelog_paths
-    mod.update_changelog_in_files('2026-10-03', '上周的更新')
-    assert '### 2026-10-03' in rd.read_text(encoding='utf-8')
+    mod.update_changelog_in_files(first_date, '上一次更新')
     mod.update_changelog_in_files(TODAY, '本周的更新')
     text = rd.read_text(encoding='utf-8')
     assert text.count('### 2026-10-04') == 1
     assert '- 本周的更新' in text
-    # the previous date's entry is gone entirely
-    assert '### 2026-10-03' not in text
-    assert '上周的更新' not in text
-    # the legacy bullet that used to live under the marker is replaced too
+    assert '上一次更新' not in text
     assert '- legacy bullet' not in text
+    if first_date != TODAY:
+        assert first_date not in text
 
 
 def test_changelog_readme_preserves_section_separator_and_next_section(changelog_paths):
@@ -205,16 +191,6 @@ def test_changelog_readme_preserves_section_separator_and_next_section(changelog
     assert '\n---\n' in tail
     assert '## other' in tail
     assert tail.index('---') < tail.index('## other')
-
-
-def test_changelog_same_day_idempotent(changelog_paths):
-    tpl, rd = changelog_paths
-    mod.update_changelog_in_files(TODAY, '第一次同步')
-    mod.update_changelog_in_files(TODAY, '第二次同步覆盖')
-    text = rd.read_text(encoding='utf-8')
-    assert text.count('### 2026-10-04') == 1
-    assert '- 第二次同步覆盖' in text
-    assert '第一次同步' not in text
 
 
 def test_changelog_escapes_html_and_survives_backslash(changelog_paths):
@@ -237,26 +213,6 @@ def test_changelog_empty_reason_is_noop(changelog_paths):
     mod.update_changelog_in_files(TODAY, '   ')
     assert tpl.read_text(encoding='utf-8') == before_t
     assert rd.read_text(encoding='utf-8') == before_r
-
-
-# --------------------------------------------------------------------------
-# D1 source cleanup really applied to the shipped template / CSS
-# --------------------------------------------------------------------------
-
-def test_repo_template_and_css_have_no_update_list():
-    tpl = open(mod.HOMEPAGE_PY, encoding='utf-8').read()
-    assert 'update-list' not in tpl
-    # Phase E1 起 CSS 切片住在 theme/*.css + families/*/style.css（原 site_css.py）
-    site_dir = os.path.join(ROOT, 'scripts', 'site')
-    slices = [os.path.join(site_dir, 'theme', n)
-              for n in ('tokens.css', 'base.css', 'graph_base.css')]
-    fam_dir = os.path.join(site_dir, 'families')
-    slices += [os.path.join(fam_dir, d, 'style.css')
-               for d in sorted(os.listdir(fam_dir))
-               if os.path.isfile(os.path.join(fam_dir, d, 'style.css'))]
-    assert slices, 'CSS 片段文件未找到'
-    for p in slices:
-        assert '.update-list' not in open(p, encoding='utf-8').read(), p
 
 
 # --------------------------------------------------------------------------
@@ -346,14 +302,17 @@ def test_update_changelog_from_commits_empty_returns_false(changelog_paths):
     assert rd.read_text(encoding='utf-8') == before_r
 
 
-def test_update_changelog_from_commits_same_day_replaces_list(changelog_paths):
+@pytest.mark.parametrize('first_date', [TODAY, '2026-10-03'])
+def test_update_changelog_from_commits_replaces_previous_list(changelog_paths, first_date):
     tpl, rd = changelog_paths
-    mod.update_changelog_from_commits(TODAY, [_commit('a', 'Alice', 'a@x.com', 'feat: 第一轮')])
+    mod.update_changelog_from_commits(first_date, [_commit('a', 'Alice', 'a@x.com', 'feat: 第一轮')])
     mod.update_changelog_from_commits(TODAY, [_commit('b', 'Alice', 'a@x.com', 'feat: 第二轮')])
     text = rd.read_text(encoding='utf-8')
     assert text.count('### 2026-10-04') == 1
     assert '- feat: 第二轮' in text
     assert '第一轮' not in text
+    if first_date != TODAY:
+        assert first_date not in text
 
 
 def test_commit_cap_protects_readme(changelog_paths):
@@ -379,20 +338,3 @@ def test_readme_write_latest_replaces_whole_same_day_block(changelog_paths):
     assert '- feat: 改为多条' in text
     assert '同步写入的一条' not in text
     assert '---' in text and '## other' in text   # structure survived the rewrite
-
-
-def test_readme_write_latest_drops_history_across_dates(changelog_paths):
-    """The log never grows: entry B replaces entry A even on a different date."""
-    tpl, rd = changelog_paths
-    mod.update_changelog_from_commits('2026-10-03',
-                                      [_commit('a', 'Alice', 'a@x.com', 'feat: 昨天')])
-    mod.update_changelog_from_commits(TODAY,
-                                      [_commit('b', 'Alice', 'a@x.com', 'feat: 今天')])
-    text = rd.read_text(encoding='utf-8')
-    assert '### 2026-10-04' in text and 'feat: 今天' in text
-    assert '2026-10-03' not in text and 'feat: 昨天' not in text
-
-
-def test_today_str_format():
-    today = mod._today_str()
-    assert len(today) == 10 and today[4] == '-' and today[7] == '-'

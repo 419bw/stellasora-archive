@@ -129,20 +129,15 @@ def test_unknown_control_marker_is_logged_and_registered(caplog):
     assert entries == [{'marker': '==NEW_MARKER==', 'text': raw}]   # 侧车也一条
 
 
-def test_known_preset_word_is_not_registered():
+@pytest.mark.parametrize('raw, expected, entries', [
+    ('说$1234啊', '说你好啊', []),
+    ('价值 $9999 金币', '价值 $9999 金币', [{'word': '9999', 'text': '价值 $9999 金币'}]),
+])
+def test_preset_word_resolution_and_unknown_registration(raw, expected, entries):
     diag = Diagnostics()
     compiler = markup.TextCompiler({}, {'1234': '你好'}, diagnostics=diag)
-    assert compiler.compile('说$1234啊').to_data() == '说你好啊'
-    assert diag.entries('unknown_preset_words') == []
-
-
-def test_unknown_preset_word_keeps_the_token_and_registers_it():
-    diag = Diagnostics()
-    compiler = markup.TextCompiler({}, {'1234': '你好'}, diagnostics=diag)
-    text = compiler.compile('价值 $9999 金币')
-    assert text.to_data() == '价值 $9999 金币'
-    assert diag.entries('unknown_preset_words') == [
-        {'word': '9999', 'text': '价值 $9999 金币'}]
+    assert compiler.compile(raw).to_data() == expected
+    assert diag.entries('unknown_preset_words') == entries
 
 
 def test_emph_counters_go_through_the_collector():
@@ -183,92 +178,88 @@ def _catalog(diag=None, **overrides):
     return ConditionCatalog(tables, language, commands, _compiler(), diagnostics=diag)
 
 
-def test_unknown_story_id_falls_back_to_the_raw_id_and_registers():
+@pytest.mark.parametrize('ident, expected, diagnostic', [
+    ('STm01_01', '《01 梦醒时分》', None),
+    ('NO_SUCH_STORY', 'NO_SUCH_STORY',
+     ('condition_story_unknown', [{'ident': 'NO_SUCH_STORY'}])),
+])
+def test_story_resolution_and_unknown_registration(ident, expected, diagnostic):
     diag = Diagnostics()
-    assert _catalog(diag).story('NO_SUCH_STORY') == 'NO_SUCH_STORY'
-    assert diag.entries('condition_story_unknown') == [{'ident': 'NO_SUCH_STORY'}]
+    assert _catalog(diag).story(ident) == expected
+    if diagnostic is None:
+        assert not diag
+    else:
+        category, entries = diagnostic
+        assert diag.entries(category) == entries
 
 
-def test_known_story_id_still_renders_the_full_title():
-    assert _catalog().story('STm01_01') == '《01 梦醒时分》'
-
-
-def test_unknown_condition_id_keeps_its_label_and_registers():
+@pytest.mark.parametrize('ident, overrides, expected, diagnostic', [
+    ('C01_01', {}, '已阅读《01 梦醒时分》', None),
+    ('NO_SUCH_COND', {}, '解锁条件 NO_SUCH_COND 成立',
+     ('condition_unlock_unknown', [{'ident': 'NO_SUCH_COND'}])),
+    ('C99', {'tables': {'StoryCondition': {
+        '9': {'Id': 9, 'ConditionId': 'C99', 'AchieveIds': [498]}}}},
+     '已完成成就「498」', ('condition_achievement_unknown', [{'achieve_id': '498'}])),
+    ('C99', {
+        'tables': {
+            'StoryCondition': {'9': {'Id': 9, 'ConditionId': 'C99', 'AchieveIds': [498]}},
+            'Achievement': {'498': {'Id': 498, 'Title': 'Achievement.498.1'}},
+        },
+        'language': {'Achievement': {'Achievement.498.1': '初次探索'}},
+    }, '已完成成就「初次探索」', None),
+])
+def test_unlock_resolution_and_unknown_registration(ident, overrides, expected, diagnostic):
     diag = Diagnostics()
-    assert _catalog(diag).unlock('NO_SUCH_COND') == '解锁条件 NO_SUCH_COND 成立'
-    assert diag.entries('condition_unlock_unknown') == [{'ident': 'NO_SUCH_COND'}]
+    assert _catalog(diag, **overrides).unlock(ident) == expected
+    if diagnostic is None:
+        assert not diag
+    else:
+        category, entries = diagnostic
+        assert diag.entries(category) == entries
 
 
-def test_known_condition_id_is_unchanged():
-    assert _catalog().unlock('C01_01') == '已阅读《01 梦醒时分》'
-
-
-def test_unknown_achievement_degrades_instead_of_key_error():
+@pytest.mark.parametrize('ev_id, overrides, expected, diagnostic', [
+    ('E101', {}, ('item', '已取得「放弃思考」'), None),
+    ('E999', {}, ('item', '已取得「E999」'),
+     ('condition_evidence_unknown', [{'ev_id': 'E999', 'missing': 'row'}])),
+    ('E101', {'tables': {'StoryEvidence': {'1': {'Id': 1, 'EvId': 'E101'}}}},
+     ('item', '已取得「E101」'), ('condition_evidence_unknown', [{'ev_id': 'E101'}])),
+])
+def test_evidence_resolution_and_unknown_registration(ev_id, overrides, expected, diagnostic):
     diag = Diagnostics()
-    tables = {'StoryCondition': {'9': {'Id': 9, 'ConditionId': 'C99', 'AchieveIds': [498]}}}
-    assert _catalog(diag, tables=tables).unlock('C99') == '已完成成就「498」'
-    assert diag.entries('condition_achievement_unknown') == [{'achieve_id': '498'}]
-
-
-def test_known_achievement_resolves_through_the_language_table():
-    tables = {'StoryCondition': {'9': {'Id': 9, 'ConditionId': 'C99', 'AchieveIds': [498]}}}
-    tables['Achievement'] = {'498': {'Id': 498, 'Title': 'Achievement.498.1'}}
-    language = {'Achievement': {'Achievement.498.1': '初次探索'}}
-    assert _catalog(tables=tables, language=language).unlock('C99') == '已完成成就「初次探索」'
-
-
-def test_unknown_evidence_id_degrades_instead_of_key_error():
-    diag = Diagnostics()
-    kind, label = _catalog(diag).evidence_condition('E999')
-    assert (kind, label) == ('item', '已取得「E999」')
-    assert diag.entries('condition_evidence_unknown') == [
-        {'ev_id': 'E999', 'missing': 'row'}]
-
-
-def test_evidence_row_without_name_degrades_and_registers():
-    diag = Diagnostics()
-    tables = {'StoryEvidence': {'1': {'Id': 1, 'EvId': 'E101'}}}   # 缺 Name
-    assert _catalog(diag, tables=tables).evidence_condition('E101') == ('item', '已取得「E101」')
-    assert diag.entries('condition_evidence_unknown') == [{'ev_id': 'E101'}]
-
-
-def test_known_evidence_id_is_unchanged():
-    assert _catalog().evidence_condition('E101') == ('item', '已取得「放弃思考」')
-
-
-def test_missing_choice_command_degrades_instead_of_stop_iteration():
-    diag = Diagnostics()
-    label = _catalog(diag).choice(('g', 0, 'STm01_01', 'a_1', 'A'))
-    assert label == '已选择《01 梦醒时分》中的选项'
-    assert diag.entries('condition_choice_frame_missing') == [
-        {'stem': 'STm01_01', 'cmd': 'SetMajorChoice', 'group': 'a_1'}]
+    assert _catalog(diag, **overrides).evidence_condition(ev_id) == expected
+    if diagnostic is None:
+        assert not diag
+    else:
+        category, entries = diagnostic
+        assert diag.entries(category) == entries
 
 
 def _major_commands(stem=None):
     return [Command(0, 'SetMajorChoice', ['a_1', 'AvgChoice_item_01', '放弃思考', 'E101'])]
 
 
-def test_out_of_range_choice_option_is_skipped_and_registered():
+@pytest.mark.parametrize('item, commands, expected, diagnostic', [
+    ('A', _major_commands, '已选择《01 梦醒时分》中的「放弃思考」', None),
+    ('A', None, '已选择《01 梦醒时分》中的选项',
+     ('condition_choice_frame_missing',
+      [{'stem': 'STm01_01', 'cmd': 'SetMajorChoice', 'group': 'a_1'}])),
+    ('C', _major_commands, '已选择《01 梦醒时分》中的选项',
+     ('condition_choice_option_missing',
+      [{'stem': 'STm01_01', 'group': 'a_1', 'item': 'C'}])),
+    ('A+', _major_commands, '已选择《01 梦醒时分》中的「放弃思考」',
+     ('condition_choice_option_missing',
+      [{'stem': 'STm01_01', 'group': 'a_1', 'item': '(空)'}])),
+])
+def test_choice_resolution_and_unknown_registration(item, commands, expected, diagnostic):
     diag = Diagnostics()
-    label = _catalog(diag, commands=_major_commands).choice(('g', 0, 'STm01_01', 'a_1', 'C'))
-    assert label == '已选择《01 梦醒时分》中的选项'
-    assert diag.entries('condition_choice_option_missing') == [
-        {'stem': 'STm01_01', 'group': 'a_1', 'item': 'C'}]
-
-
-def test_empty_choice_option_is_skipped_and_registered():
-    diag = Diagnostics()
-    label = _catalog(diag, commands=_major_commands).choice(('g', 0, 'STm01_01', 'a_1', 'A+'))
-    assert label == '已选择《01 梦醒时分》中的「放弃思考」'
-    assert diag.entries('condition_choice_option_missing') == [
-        {'stem': 'STm01_01', 'group': 'a_1', 'item': '(空)'}]
-
-
-def test_valid_choice_option_label_is_unchanged():
-    diag = Diagnostics()
-    assert _catalog(diag, commands=_major_commands).choice(
-        ('g', 0, 'STm01_01', 'a_1', 'A')) == '已选择《01 梦醒时分》中的「放弃思考」'
-    assert not diag
+    overrides = {} if commands is None else {'commands': commands}
+    assert _catalog(diag, **overrides).choice(('g', 0, 'STm01_01', 'a_1', item)) == expected
+    if diagnostic is None:
+        assert not diag
+    else:
+        category, entries = diagnostic
+        assert diag.entries(category) == entries
 
 
 def test_unknown_be_case_degrades_instead_of_key_error():
