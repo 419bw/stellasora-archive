@@ -1,7 +1,7 @@
 {
  "meta": {
   "chapters": 11,
-  "nodes": 219,
+  "nodes": 220,
   "pages": 694,
   "source": "Story.json",
   "edge_field": "ParentStoryId",
@@ -7572,28 +7572,6 @@
     },
     {
      "sid": 1116,
-     "story_id": "BAm10001_BT02",
-     "code": "BT02",
-     "title": "敬请期待",
-     "desc": "敬请期待",
-     "aim": "",
-     "kind": "battle",
-     "is_branch": false,
-     "is_last": false,
-     "memory": null,
-     "has_evidence": false,
-     "condition": "Cm10001_BT02",
-     "parents": [],
-     "stems": {
-      "story": null,
-      "bubble": null
-     },
-     "state": "released",
-     "time": null,
-     "page": "main/chsp11/BAm10001_BT02.html"
-    },
-    {
-     "sid": 1117,
      "story_id": "STm10001_15",
      "code": "15",
      "title": "敬请期待",
@@ -7613,6 +7591,28 @@
      "state": "unreleased",
      "time": null,
      "page": null
+    },
+    {
+     "sid": 1117,
+     "story_id": "BAm10001_BT02",
+     "code": "BT02",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "battle",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_BT02",
+     "parents": [],
+     "stems": {
+      "story": null,
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/BAm10001_BT02.html"
     },
     {
      "sid": 1118,
@@ -7682,28 +7682,6 @@
     },
     {
      "sid": 1121,
-     "story_id": "BAm10001_BT03",
-     "code": "BT03",
-     "title": "敬请期待",
-     "desc": "敬请期待",
-     "aim": "",
-     "kind": "battle",
-     "is_branch": false,
-     "is_last": false,
-     "memory": null,
-     "has_evidence": false,
-     "condition": "Cm10001_BT03",
-     "parents": [],
-     "stems": {
-      "story": null,
-      "bubble": null
-     },
-     "state": "released",
-     "time": null,
-     "page": "main/chsp11/BAm10001_BT03.html"
-    },
-    {
-     "sid": 1122,
      "story_id": "STm10001_19",
      "code": "19",
      "title": "敬请期待",
@@ -7725,6 +7703,28 @@
      "page": null
     },
     {
+     "sid": 1122,
+     "story_id": "BAm10001_BT03",
+     "code": "BT03",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "battle",
+     "is_branch": false,
+     "is_last": false,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_BT03",
+     "parents": [],
+     "stems": {
+      "story": null,
+      "bubble": null
+     },
+     "state": "released",
+     "time": null,
+     "page": "main/chsp11/BAm10001_BT03.html"
+    },
+    {
      "sid": 1123,
      "story_id": "STm10001_20",
      "code": "20",
@@ -7733,13 +7733,35 @@
      "aim": "",
      "kind": "story",
      "is_branch": false,
-     "is_last": true,
+     "is_last": false,
      "memory": null,
      "has_evidence": false,
      "condition": "Cm10001_20",
      "parents": [],
      "stems": {
       "story": "STm10001_20",
+      "bubble": null
+     },
+     "state": "unreleased",
+     "time": null,
+     "page": null
+    },
+    {
+     "sid": 1124,
+     "story_id": "STm10001_21",
+     "code": "尾声",
+     "title": "敬请期待",
+     "desc": "敬请期待",
+     "aim": "",
+     "kind": "story",
+     "is_branch": false,
+     "is_last": true,
+     "memory": null,
+     "has_evidence": false,
+     "condition": "Cm10001_21",
+     "parents": [],
+     "stems": {
+      "story": "STm10001_21",
       "bubble": null
      },
      "state": "unreleased",
