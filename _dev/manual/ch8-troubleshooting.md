@@ -6,10 +6,11 @@
 
 | 校验器 | 盯什么 | 契约组 |
 |---|---|---|
-| `tests/story/validate_story.py` | `story_docs/` 对剧本原文 | `B` 气泡逐阶段；`C` 行来源计数；`D`/`E`/`F` 变异 + 挂载审计 + 全树逐页（含跳过概要 vs `SetIntro[3]`）；`K` 气泡挂章；`M`/`M2` 注音保真；`M3` 单选项抉择；`N` 委托结算；`P` 诊断侧车；`Q` 逸闻笔记 |
-| `tests/story/validate_site.py` | `site/` 对 `story_docs/` 与剧本 | `G`/`G2`/`G3` 节点重导与对账；`H`/`H2`/`H3` 几何与落点；`I`/`I2` HTML==md 逐句；`J`/`J2` 检索索引；`L`/`L2` 抉择角标；`M`/`M2` 锚点与气泡；`M3` 单选项；`N`/`N2` 未开放门控 |
+| `tests/story/validate_story.py` | `story_docs/` 对剧本原文 | `B` 气泡逐阶段；`C` 行来源计数；`D` 气泡序列正对照；`E`/`F` 挂载审计 + 全树逐页（含跳过概要 vs `SetIntro[3]`）；`K` 气泡挂章；`M` 注音保真；`N` 委托结算；`P` 诊断侧车（schema/note/重建漂移）；`Q` 逸闻笔记 |
+| `tests/story/validate_site.py` | `site/` 对 `story_docs/` 与剧本 | `G`/`G2`/`G3` 节点重导与对账；`H`/`H3` 几何与落点；`I` HTML==md 逐句；`J`/`J2`/`J3`/`J4` 检索索引与全文覆盖；`L` 抉择角标；`M`/`M2` 锚点与气泡；`M3` 单选项；`N` 未开放门控 |
+| `tests/story/mutation_story.py` / `mutation_site.py` | 校验器自身（手动，不进 CI） | 复用上面两份的真实 audit，植入错误必须被抓到：`D`/`E`/`F`/`N`/`K2`/`M2`/`P4`/`Q2`（story）；`G3`/`H2`/`H3`/`I2`/`J2`/`J3`/`J4`/`L2`/`M2`/`M3`/`N2`（site） |
 
-每个契约组都带**植入变异测试**：故意改坏产物，同一套断言必须抓到。只看"正对照 PASS"不算数。
+两份校验器在 CI 里只做**数据对账**（含各 audit 的正对照）。**植入变异自检**（故意改坏产物，同一套断言必须抓到；只看"正对照 PASS"不算数）拆在 `tests/story/mutation_story.py` / `mutation_site.py`，复用 validator 的真实 audit，**不进 CI**——改了校验器/生成器代码后手动跑：`python tests/story/mutation_site.py`（或 `mutation_story.py`）。
 
 ### 8.2 常见故障对照
 

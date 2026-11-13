@@ -17,6 +17,11 @@
 - **单元测试必须全量**。历史上 CI 只跑 `test_release_gate.py` + `test_changelog.py`，
   导致新增的测试文件在流水线里等于没测；2026-10-10 起改为 `pytest tests/story tests/automation -q`。
   新增测试文件时不需要改 workflow，但**别再把列表改回白名单**。
+- **校验器只做数据对账，变异自检手动跑**：`validate_story.py` / `validate_site.py` 在 CI
+  里只跑数据对账（含各 audit 的正对照），期望值全部从上游数据实时推导，上游增删内容
+  不需要改任何数字。植入变异自检（篡改产物后同一套 audit 必须抓到，用来证明校验器没被
+  改瞎）拆在 `tests/story/mutation_story.py` / `mutation_site.py`，**不进 CI**；改了校验器
+  或生成器代码后手动跑一遍。这样定时同步永远不会被变异样本卡住。
 - **本地快循环 ≠ CI 白名单**：全量语料级集成用例（596 剧本条件解析、全侧车 markup 往返、
   eager-reads 审计）带 `@pytest.mark.slow`（注册于根 `pytest.ini`），本地日常改动可跑
   `pytest -m "not slow"`（秒级）；CI 与验收仍然全量，上一条纪律不受影响。

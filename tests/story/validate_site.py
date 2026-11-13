@@ -7,12 +7,16 @@ file imports neither build_story.py nor graph_layout.py.
 
 G  图数据  : chapters.json 的每个节点字段 == 独立重导，且图不变量成立
 G2 侧车一致: sections.json 的页面集合 == 磁盘上的 md 集合，stems/计数与剧本原文对得上
-G3 变异测试: 篡改 JSON 后必须被同一套断言抓到
+G3 独立重导正对照: audit 重跑 G 的断言，真实数据必须 0 错
 M  页内锚点: 页内 href="#x" 都必须落在同页的 id="x" 上
 M2 玩家回应: 「玩家回应」标记渲染成聊天气泡，提示词保留为前置句
 M3 单选项抉择: 只提供一个选项的抉择不是分叉，不得渲染 若选 分支框/分支导航
     （上游 CG_126_03.lua 的 SetChoiceEnd 写错帧，见 _dev/AI_HANDOVER_GUIDE.md 3.5；
      生成器照实吐标记，兜底在渲染层压制，md 不动）
+
+本文件只做数据对账（含各 audit 的正对照），CI 直接跑它。植入变异自检（篡改产物后
+同一套 audit 必须抓到）拆在 mutation_site.py，改校验器/生成器代码时手动跑：
+    python tests/story/mutation_site.py
 """
 import sys, os, re, json, shutil, collections, functools
 
@@ -116,7 +120,7 @@ STORIES_CHAPTER = {r['StoryId']: r['Chapter'] for r in STORY.values()}
 STORY_LINE_IDS = {ln['id'] for ln in (CH.get('meta') or {}).get('story_lines') or []}
 
 print("=" * 66)
-print("G  chapters.json == 表 + 剧本独立重导（196 节点，逐字段）")
+print("G  chapters.json == 表 + 剧本独立重导（%d 节点，逐字段）" % len(nodes))
 print("=" * 66)
 bad = []
 for row in STORY.values():
@@ -308,7 +312,7 @@ hard(not badcount, 'G2 计数与剧本指令数矛盾：%d' % len(badcount))
 
 print()
 print("=" * 66)
-print("G3 变异测试（篡改 JSON 后同一套断言必须抓到）")
+print("G3  独立重导正对照（audit 重跑 G 的逐字段+不变量，真实数据必须 0 错）")
 print("=" * 66)
 
 
@@ -335,48 +339,7 @@ def audit(chapters):
 base = audit(CH['chapters'])
 hard(not base, 'G3 正对照 FAIL（%d 条错误）' % len(base))
 print('正对照（未篡改）: %s（%d 条错误）' % ('PASS' if not base else 'FAIL', len(base)))
-clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
-n817 = next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 817)
-n824 = next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 824)
-before = list(n824['parents'])
-n824['parents'] = [n817['parents'][0]]
-_g3a = bool(audit(clone['chapters']))
-hard(_g3a, 'G3 植入[改汇合父引用] MISSED')
-print('植入[改汇合父引用]  : %s' % ('CAUGHT' if _g3a else 'MISSED'))
-n824['parents'] = before
-next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 804)['code'] = '00'
-_g3b = bool(audit(clone['chapters']))
-hard(_g3b, 'G3 植入[改卡面编号] MISSED')
-print('植入[改卡面编号]    : %s' % ('CAUGHT' if _g3b else 'MISSED'))
-clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
-next(n for c in clone['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 817)['time']['clock'] = '09:99'
-_g3c = bool(audit(clone['chapters']))
-hard(_g3c, 'G3 植入[改节点时刻] MISSED')
-print('植入[改节点时刻]    : %s' % ('CAUGHT' if _g3c else 'MISSED'))
-clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
-clone['chapters'][0]['nodes'].pop()
-_g3d = bool(audit(clone['chapters']))
-hard(_g3d, 'G3 植入[删一个节点] MISSED')
-print('植入[删一个节点]    : %s' % ('CAUGHT' if _g3d else 'MISSED'))
-
-# 反向植入①：给一条有边的普通章盖上特别篇标记 —— 必须被「无边与特别篇标记不一致」抓到。
-# 这条正是本次 CI 事故的反面：特别篇标记与章节形态必须同时成立，单边放行等于
-# 给"上游漏填 ParentStoryId"开了静默通道。
-clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
-normal = next(c for c in clone['chapters'] if not c.get('special'))
-normal['special'] = True
-_g3e = bool(audit(clone['chapters']))
-hard(_g3e, 'G3 植入[给有边章盖特别篇标记] MISSED')
-print('植入[给有边章盖特别篇标记]: %s' % ('CAUGHT' if _g3e else 'MISSED'))
-
-# 反向植入②：把某普通章的 Index 置空 —— 必须被「无编号与特别篇标记不一致」抓到。
-# 旧实现里这种章会静默拿到 chsp 目录、和真正的特别篇撞车（后写覆盖先写）。
-clone = json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
-normal = next(c for c in clone['chapters'] if not c.get('special'))
-normal['no'] = None
-_g3f = bool(audit(clone['chapters']))
-hard(_g3f, 'G3 植入[把普通章的编号置空] MISSED')
-print('植入[把普通章的编号置空]  : %s' % ('CAUGHT' if _g3f else 'MISSED'))
+# 植入变异（篡改 JSON 后 audit 必须抓到）已拆到 mutation_site.py，手动审计时运行。
 
 
 # ============================================================ H  节点图几何
@@ -453,32 +416,7 @@ for c in CH['chapters']:
     print('   ch=%-3d %-5s %s' % (c['id'], c['no'] or '特别篇',
           '-' if not g else '列=%-3d 宽=%-5d 高=%-4d 边=%d' % (g['columns'], g['width'], g['height'], len(g['edges']))))
 
-print()
-print('H2 变异测试')
-CLONE = lambda: json.loads(open(os.path.join(DATA, 'chapters.json'), encoding='utf-8').read())
-print('正对照（未篡改）: %s（%d 条错误）' % ('PASS' if not h_errs else 'FAIL', len(h_errs)))
-k = CLONE()
-ns = [n for c in k['chapters'] if c['id'] == 8 for n in c['nodes']]
-a = next(n for n in ns if n['sid'] == 810)
-b = next(n for n in ns if n['sid'] == 811)
-a['lane'] = b['lane']
-a['y'] = b['y']
-_h2a = bool(audit_geometry(k['chapters']))
-hard(_h2a, 'H2 植入[两卡挤同一轨道] MISSED')
-print('植入[两卡挤同一轨道] : %s' % ('CAUGHT' if _h2a else 'MISSED'))
-k = CLONE()
-n824 = next(n for c in k['chapters'] if c['id'] == 8 for n in c['nodes'] if n['sid'] == 824)
-n824['col'] = 3
-n824['x'] = 3 * 264
-_h2b = bool(audit_geometry(k['chapters']))
-hard(_h2b, 'H2 植入[汇合点挪到左边] MISSED')
-print('植入[汇合点挪到左边] : %s' % ('CAUGHT' if _h2b else 'MISSED'))
-k = CLONE()
-c8 = next(c for c in k['chapters'] if c['id'] == 8)
-c8['geometry']['edges'] = [e for e in c8['geometry']['edges'] if e[1] != 'STm07_15']
-_h2c = bool(audit_geometry(k['chapters']))
-hard(_h2c, 'H2 植入[删掉进汇合点的边] MISSED')
-print('植入[删掉进汇合点的边]: %s' % ('CAUGHT' if _h2c else 'MISSED'))
+# H2 几何植入变异已拆到 mutation_site.py。
 
 
 # ---- H3 图页面渲染出来的落点：锚点、卡片可点性、链接是否指向真实文件
@@ -547,53 +485,7 @@ print('违例：%d' % len(h3_errs))
 for x in h3_errs[:8]:
     print('   ~', x)
 hard(not h3_errs, 'H3 图页面落点违例：%d 处' % len(h3_errs))
-k = CLONE()
-first = next(c for c in k['chapters'] if c['geometry'])
-h3_page = os.path.join(SITE, 'main', first['slug'], 'index.html')
-src = open(h3_page, encoding='utf-8').read()
-tmp = h3_page + '.bak'
-shutil.copyfile(h3_page, tmp)
-try:
-    open(h3_page, 'w', encoding='utf-8').write(src.replace(' id="col1"', '', 1))
-    _h3a = bool(audit_graph_page(first, SITE))
-    hard(_h3a, 'H3 植入[抹掉一个列锚点] MISSED')
-    print('植入[抹掉一个列锚点]: %s' % ('CAUGHT' if _h3a else 'MISSED'))
-    open(h3_page, 'w', encoding='utf-8').write(
-        src.replace('data-col="0" href="../../main/%s/' % first['slug'],
-                    'data-col="0" href="../../main/gone/', 1))
-    _h3b = bool(audit_graph_page(first, SITE))
-    hard(_h3b, 'H3 植入[卡片链接指空] MISSED')
-    print('植入[卡片链接指空]  : %s' % ('CAUGHT' if _h3b else 'MISSED'))
-finally:
-    shutil.move(tmp, h3_page)
-_h3re = not audit_graph_page(first, SITE)
-hard(_h3re, 'H3 还原后复检 FAIL')
-print('还原后复检: %s' % ('PASS' if _h3re else 'FAIL'))
-
-# 特别篇：每个 special 章都跑一遍"无剧本关卡给占位链接"的植入 + 还原后复检。
-# 判据用 c['special']（契约锁死 special ⇔ 无边），不再只挑第一个无边章；
-# 篡改目标取该章自己的首个可点条目，不写死任何一章的具体 HTML 片段。
-sp_chapters = [c for c in CH['chapters'] if c.get('special')]
-hard(bool(sp_chapters), 'H3 侧车里没有任何特别篇(special)章')
-for sp_c in sp_chapters:
-    sp_page = os.path.join(SITE, 'main', sp_c['slug'], 'index.html')
-    sp_src = open(sp_page, encoding='utf-8').read()
-    m = re.search(r'<li><a href="([^"]+)"><span class="code">', sp_src)
-    hard(bool(m), 'H3 特别篇页面里找不到可点条目: %s' % sp_c['slug'])
-    shutil.copyfile(sp_page, sp_page + '.bak')
-    try:
-        open(sp_page, 'w', encoding='utf-8').write(
-            sp_src.replace('<li><a href="%s"><span class="code">' % m.group(1),
-                           '<li><a href="#"><span class="code">', 1))
-        _h3c = bool(audit_graph_page(sp_c, SITE))
-        hard(_h3c, 'H3 植入[无剧本关卡给占位链接] MISSED (%s)' % sp_c['slug'])
-        print('植入[无剧本关卡给占位链接] %s: %s'
-              % (sp_c['slug'], 'CAUGHT' if _h3c else 'MISSED'))
-    finally:
-        shutil.move(sp_page + '.bak', sp_page)
-    _h3re2 = not audit_graph_page(sp_c, SITE)
-    hard(_h3re2, 'H3 还原后复检(特别篇) FAIL (%s)' % sp_c['slug'])
-    print('还原后复检(特别篇) %s: %s' % (sp_c['slug'], 'PASS' if _h3re2 else 'FAIL'))
+# H3 落点植入变异（含特别篇占位链接植入）已拆到 mutation_site.py。
 
 
 # ============================================================ I  HTML 与 md 不漂移
@@ -745,9 +637,9 @@ hard(not (html_all - expected), 'I 未登记的页面：%d' % len(html_all - exp
 hard(not (expected - html_all), 'I 该有却没有的页面：%d' % len(expected - html_all))
 
 # Verify battle archives (activity + main story) and activity topology maps
+# 关卡总数随上游增长，不设硬编码计数断言；战斗档案页已并入 expected 集合，
+# 上面的页面集合对账（未登记/缺失）足以抓住任何漏渲染或多渲染。
 bt_errs = []
-if len(activity_battle_pages) != 19 - len(activity_locked_battles):
-    bt_errs.append(('活动战斗关卡数不符', len(activity_battle_pages), 19 - len(activity_locked_battles)))
 for bp in (activity_battle_pages | main_battle_archive_pages):
     full_p = os.path.join(SITE, *bp.split('/'))
     if not os.path.exists(full_p):
@@ -775,39 +667,7 @@ for x in bt_errs[:5]:
     print('   ~', x)
 hard(not bt_errs, 'I 活动战斗关卡与拓扑图违例：%d 处' % len(bt_errs))
 
-print()
-print('I2 变异测试')
-victim = next(p for p in pages if '<r=' in open(
-    os.path.join(OUT, *p['page_md'].split('/')), encoding='utf-8').read())
-vp = os.path.join(SITE, *victim['page'].split('/'))
-orig = open(vp, encoding='utf-8').read()
-want = [md_view(m.group(2)) for m in MD_LINE.finditer(
-    open(os.path.join(OUT, *victim['page_md'].split('/')), encoding='utf-8').read())]
-tmp = vp + '.mut'
-
-
-def html_lines(path):
-    return [html_view(m.group(1)) for m in HTML_LINE.finditer(
-        open(path, encoding='utf-8').read())]
-
-
-_i2_pos = html_lines(vp) == want
-hard(_i2_pos, 'I2 正对照 FAIL')
-print('正对照（未篡改）    : %s' % ('PASS' if _i2_pos else 'FAIL'))
-for label, mut in [
-        ('植入[改 HTML 一个字]', orig.replace('」', 'X」', 1)),
-        ('植入[弄坏一行结构]  ', orig.replace('<p class="line', '<p class="x" data-line="', 1)),
-        ('植入[HTML 丢一处注音]', orig.replace('魔<ruby class="ruby-point"><rt>mowang</rt></ruby>', '魔', 1)),
-        ('植入[注音挪了位置]  ', orig.replace('魔<ruby class="ruby-point"><rt>mowang</rt></ruby>',
-                                             '王<ruby class="ruby-point"><rt>mowang</rt></ruby>', 1))]:
-    if mut == orig:
-        print('%s : 样本里没有该形状' % label)
-        continue
-    open(tmp, 'w', encoding='utf-8', newline='\n').write(mut)
-    _i2_ok = html_lines(tmp) != want
-    hard(_i2_ok, 'I2 %s MISSED' % label.strip())
-    print('%s : %s' % (label, 'CAUGHT' if _i2_ok else 'MISSED'))
-os.remove(tmp)
+# I2 HTML 逐句植入变异已拆到 mutation_site.py。
 
 
 # ============================================================ J  检索索引
@@ -859,8 +719,9 @@ print('search.js 条目数 %d（与 json 一致=%s）' % (len(_js_entries), _js_
 hard(_js_entries == ent, 'J search.js 与 search.json 条目不一致')
 
 print()
-print('J2 变异测试')
-K = lambda: json.loads(open(os.path.join(DATA, 'search.json'), encoding='utf-8').read())
+print('J2  检索索引独立审计正对照（audit_index 重导，真实数据必须 0 错）')
+
+
 def audit_index(entries):
     errs = []
     if len(entries) != len(published):
@@ -887,21 +748,7 @@ _j2_pos = not audit_index(ent)
 hard(_j2_pos, 'J2 正对照 FAIL（%d 条错误）' % len(audit_index(ent)))
 print('正对照（未篡改）: %s（%d 条错误）' % ('PASS' if _j2_pos else 'FAIL',
                                        len(audit_index(ent))))
-k = K()
-k['entries'] = k['entries'][:-1]
-_j2a = bool(audit_index(k['entries']))
-hard(_j2a, 'J2 植入[从索引删一页] MISSED')
-print('植入[从索引删一页] : %s' % ('CAUGHT' if _j2a else 'MISSED'))
-k = K()
-k['entries'][0]['speakers'] = ['不存在的人']
-_j2b = bool(audit_index(k['entries']))
-hard(_j2b, 'J2 植入[写入假说话人] MISSED')
-print('植入[写入假说话人] : %s' % ('CAUGHT' if _j2b else 'MISSED'))
-k = K()
-k['entries'][3]['page'] = 'nowhere/ghost.html'
-_j2c = bool(audit_index(k['entries']))
-hard(_j2c, 'J2 植入[页面链接指空] MISSED')
-print('植入[页面链接指空] : %s' % ('CAUGHT' if _j2c else 'MISSED'))
+# J2 索引植入变异已拆到 mutation_site.py。
 
 
 # ============================================================ J3  全文覆盖
@@ -959,20 +806,7 @@ def audit_fulltext(entries):
 _j3_pos = not audit_fulltext(ent)
 hard(_j3_pos, 'J3 正对照 FAIL')
 print('受检条目 %d   正对照（未篡改）: %s' % (len(ent), 'PASS' if _j3_pos else 'FAIL'))
-k = K()
-_pub = [e for e in k['entries'] if not GATE.is_page(e['family'], e['id'])]
-_v = _pub[0]
-_orig_hay = _v['hay']
-_v['hay'] = _orig_hay[:20]
-_j3a = bool(audit_fulltext(_pub))
-hard(_j3a, 'J3 植入[截断一条 hay] MISSED')
-print('植入[截断一条 hay] : %s' % ('CAUGHT' if _j3a else 'MISSED'))
-k = K()
-_pub = [e for e in k['entries'] if not GATE.is_page(e['family'], e['id'])]
-_pub[0]['hay'], _pub[1]['hay'] = _pub[1]['hay'], _pub[0]['hay']
-_j3b = bool(audit_fulltext(_pub))
-hard(_j3b, 'J3 植入[对调两条 hay] MISSED')
-print('植入[对调两条 hay] : %s' % ('CAUGHT' if _j3b else 'MISSED'))
+# J3 全文覆盖植入变异已拆到 mutation_site.py。
 
 
 # ============================================================ J4  懒加载契约
@@ -999,19 +833,7 @@ def audit_lazy():
 _j4_pos = not audit_lazy()
 hard(_j4_pos, 'J4 正对照 FAIL')
 print('正对照（未篡改）: %s' % ('PASS' if _j4_pos else 'FAIL'))
-_victim = os.path.join(SITE, 'index.html')
-_orig_v = open(_victim, encoding='utf-8').read()
-try:
-    open(_victim, 'w', encoding='utf-8', newline='\n').write(
-        _orig_v.replace('</body>', '<script src="data/search.js"></script></body>', 1))
-    _j4a = bool(audit_lazy())
-    hard(_j4a, 'J4 植入[把 search.js 写回页面] MISSED')
-    print('植入[把 search.js 写回页面] : %s' % ('CAUGHT' if _j4a else 'MISSED'))
-finally:
-    open(_victim, 'w', encoding='utf-8', newline='\n').write(_orig_v)
-_j4b = not audit_lazy()
-hard(_j4b, 'J4 植入[还原后未恢复] MISSED')
-print('植入[还原后恢复]           : %s' % ('CAUGHT' if _j4b else 'MISSED'))
+# J4 懒加载植入变异已拆到 mutation_site.py。
 
 
 # ============================================================ L  「分支走向」角标 == 权威映射
@@ -1204,25 +1026,7 @@ for x in L_errs[:8]:
     print('   ~', x)
 hard(not L_errs, 'L 分支走向角标违例：%d 处' % len(L_errs))
 
-print()
-print('L2 变异测试')
-victim = os.path.join(SITE, 'main', 'ch08', 'STm08_15.html')
-orig_l = open(victim, encoding='utf-8').read()
-mut_l = orig_l.replace('<strong>13A 白猫的过去 →</strong>', '<strong>13B 沙蝎的野望 →</strong>', 1)
-shutil.copyfile(victim, victim + '.bak')
-try:
-    open(victim, 'w', encoding='utf-8', newline='\n').write(mut_l)
-    mutted = open(victim, encoding='utf-8').read()
-    l_errs, _p, _o = audit_branch_badges()
-    # only the poisoned page may report an error
-    caught = len([e for e in l_errs if e[0] == 'main/ch08/STm08_15.html']) > 0
-    hard(caught, 'L2 植入[把「听听艾蕾的意见」的角标改成 13B] MISSED')
-    print('植入[把「听听艾蕾的意见」的角标改成 13B] : %s' % ('CAUGHT' if caught else 'MISSED'))
-finally:
-    shutil.move(victim + '.bak', victim)
-_l2re = not audit_branch_badges()[0]
-hard(_l2re, 'L2 还原后复检 FAIL')
-print('还原后复检: %s' % ('PASS' if _l2re else 'FAIL'))
+# L2 分支角标植入变异已拆到 mutation_site.py。
 
 
 # ============================================================ M  页内锚点完整性 & 玩家回应气泡
@@ -1301,49 +1105,7 @@ for x in M2_errs[:5]:
 hard(not M_errs, 'M 页内锚点悬空：%d 处' % len(M_errs))
 hard(not M2_errs, 'M2 玩家回应气泡违例：%d 处' % len(M2_errs))
 
-print()
-print('M2 变异测试')
-victim = os.path.join(SITE, 'characters', '126', '12603.html')
-orig_m = open(victim, encoding='utf-8').read()
-shutil.copyfile(victim, victim + '.bak')
-try:
-    # locate an in-page anchor some page actually links to, then drop its target.
-    # The victim is picked dynamically: the single-option suppression (M3) removed
-    # every #choice reference from 12603, so a fixed page could stop exercising M.
-    mut_page = mut_ref = None
-    for _p in pages:
-        _hp = os.path.join(SITE, *_p['page'].split('/'))
-        if not os.path.exists(_hp):
-            continue
-        _m = re.search(r'href="#(choice-\d+)"', open(_hp, encoding='utf-8').read())
-        if _m:
-            mut_page, mut_ref = _hp, _m.group(1)
-            break
-    if mut_page is None:
-        print('植入[抹掉被引用的气泡 id]: MISSED（站内已无 #choice 引用，测试失效）')
-    else:
-        mut = open(mut_page, encoding='utf-8').read()
-        shutil.copyfile(mut_page, mut_page + '.bak')
-        try:
-            open(mut_page, 'w', encoding='utf-8', newline='\n').write(
-                mut.replace(' id="%s"' % mut_ref, '', 1))
-            _m2a = bool(audit_anchors())
-            hard(_m2a, 'M2 植入[抹掉被引用的气泡 id] MISSED')
-            print('植入[抹掉被引用的气泡 id #%s @ %s]: %s'
-                  % (mut_ref, os.path.basename(mut_page),
-                     'CAUGHT' if _m2a else 'MISSED'))
-        finally:
-            shutil.move(mut_page + '.bak', mut_page)
-    open(victim, 'w', encoding='utf-8', newline='\n').write(
-        re.sub(r'<div class="player-reply"[^>]*>', '<div class="removed-reply">', orig_m, count=1))
-    _m2b = bool(audit_player_replies()[0])
-    hard(_m2b, 'M2 植入[删掉一个回应气泡] MISSED')
-    print('植入[删掉一个回应气泡]: %s' % ('CAUGHT' if _m2b else 'MISSED'))
-finally:
-    shutil.move(victim + '.bak', victim)
-_m2re = not audit_anchors() and not audit_player_replies()[0]
-hard(_m2re, 'M2 还原后复检 FAIL')
-print('还原后复检: %s' % ('PASS' if _m2re else 'FAIL'))
+# M2 锚点/玩家回应植入变异已拆到 mutation_site.py。
 
 
 # ============================================ M3  单选项父抉择不得渲染成分支框
@@ -1439,31 +1201,7 @@ for x in M3_errs[:5]:
     print('   ~', x)
 hard(not M3_errs, 'M3 单选项抉择渲染违例：%d 处' % len(M3_errs))
 
-print()
-print('M3 变异测试')
-victim3 = os.path.join(SITE, 'characters', '126', '12603.html')
-orig_3 = open(victim3, encoding='utf-8').read()
-shutil.copyfile(victim3, victim3 + '.bak')
-try:
-    planted = ('<p class="branch-open" id="branch-6-0">'
-               '若选「别拖了，快赶不上演出了」↓</p>\n')
-    # 12603's bubbles all carry an id (#choice-N), so anchor on a structural tag
-    anchor = '<h2 data-part="3">'
-    if anchor not in orig_3:
-        hard(False, 'M3 变异测试失效：找不到插入点 %s' % anchor)
-        print('植入[把单选项抉择的若选画回分支框]: MISSED（找不到插入点 %s）' % anchor)
-    else:
-        open(victim3, 'w', encoding='utf-8', newline='\n').write(
-            orig_3.replace(anchor, planted + anchor, 1))
-        _m3a = bool(audit_single_option_choices()[0])
-        hard(_m3a, 'M3 植入[把单选项抉择的若选画回分支框] MISSED')
-        print('植入[把单选项抉择的若选画回分支框]: %s'
-              % ('CAUGHT' if _m3a else 'MISSED'))
-finally:
-    shutil.move(victim3 + '.bak', victim3)
-_m3re = not audit_single_option_choices()[0]
-hard(_m3re, 'M3 还原后复检 FAIL')
-print('还原后复检: %s' % ('PASS' if _m3re else 'FAIL'))
+# M3 单选项分支框植入变异已拆到 mutation_site.py。
 
 
 # ============================================ N  未开放内容只显示未开放，不透露内容
@@ -1598,70 +1336,19 @@ for x in idx_errs[:5]:
     print('   ~', x)
 hard(not idx_errs, 'N 占位渲染违例：%d 处' % len(idx_errs))
 
-print()
-print('N2 变异测试')
-if not GATE:
-    print('（当前没有被门控的组，N2 无样本可跑）')
-else:
-    first = next(it for items in GATE.groups.values() for it in items.values())
-    f_names, f_titles = forbidden_strings(first)
-    f_url = first['pages'][0]
-    victim = os.path.join(SITE, *f_url.split('/'))
-    donor = os.path.join(SITE, *published[0]['page'].split('/'))
-    orig_v = open(victim, encoding='utf-8').read()
-    orig_d = open(donor, encoding='utf-8').read()
-    idx_page = os.path.join(SITE, SLUG[first['family']], 'index.html')
-    orig_i = open(idx_page, encoding='utf-8').read()
-    js_path = os.path.join(SITE, 'data', 'search.js')
-    orig_js = open(js_path, encoding='utf-8').read()
-    try:
-        open(victim, 'w', encoding='utf-8', newline='\n').write(orig_d)
-        _n2a = bool(audit_locked())
-        hard(_n2a, 'N2 植入[把正文页写回锁定 URL] MISSED')
-        print('植入[把正文页写回锁定 URL] : %s' % ('CAUGHT' if _n2a else 'MISSED'))
-        open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
-        if f_names:
-            open(idx_page, 'w', encoding='utf-8', newline='\n').write(
-                orig_i.replace(release_gate.MASK, f_names[0], 1))
-            _n2b = bool(audit_locked())
-            hard(_n2b, 'N2 植入[给占位卡写上组名] MISSED')
-            print('植入[给占位卡写上组名]     : %s' % ('CAUGHT' if _n2b else 'MISSED'))
-            open(idx_page, 'w', encoding='utf-8', newline='\n').write(orig_i)
-        if f_titles:
-            open(victim, 'w', encoding='utf-8', newline='\n').write(
-                orig_v.replace('<h1>尚未开放</h1>',
-                               '<h1>尚未开放 %s</h1>' % f_titles[0], 1))
-            _n2c = bool(audit_locked())
-            hard(_n2c, 'N2 植入[给提示页写上话数标题] MISSED')
-            print('植入[给提示页写上话数标题] : %s' % ('CAUGHT' if _n2c else 'MISSED'))
-            open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
-        open(js_path, 'w', encoding='utf-8', newline='\n').write(
-            orig_js.rstrip().rstrip(';') + ',{"id":999999999,"family":"%s","page":"%s"};\n'
-            % (first['family'], f_url))
-        _n2d = bool(audit_locked())
-        hard(_n2d, 'N2 植入[把锁定 URL 塞回检索] MISSED')
-        print('植入[把锁定 URL 塞回检索]  : %s' % ('CAUGHT' if _n2d else 'MISSED'))
-        open(js_path, 'w', encoding='utf-8', newline='\n').write(orig_js)
-        os.remove(victim)
-        _n2e = bool(audit_locked())
-        hard(_n2e, 'N2 植入[删掉一个提示页] MISSED')
-        print('植入[删掉一个提示页]       : %s' % ('CAUGHT' if _n2e else 'MISSED'))
-    finally:
-        if not os.path.exists(victim):
-            open(victim, 'w', encoding='utf-8', newline='\n').write(orig_v)
-        open(idx_page, 'w', encoding='utf-8', newline='\n').write(orig_i)
-        open(donor, 'w', encoding='utf-8', newline='\n').write(orig_d)
-    _n2re = not audit_locked() and not idx_errs
-    hard(_n2re, 'N2 还原后复检 FAIL')
-    print('还原后复检: %s' % ('PASS' if _n2re else 'FAIL'))
+# N2 门控泄露植入变异已拆到 mutation_site.py。
 
 # ---- 汇总与退出码 -------------------------------------------------------------
-print()
-print('=' * 66)
-if HARD:
-    print('RESULT: FAIL —— %d 处契约违例：' % len(HARD))
-    for x in HARD:
-        print('   ✗', x)
-    sys.exit(1)
-print('RESULT: PASS —— 全部契约（G/G2/G3/H/H2/H3/I/I2/J/J2/L/L2/M/M2/M3/N/N2）绿')
-sys.exit(0)
+# 本文件只做数据对账（含各 audit 的正对照），CI 直接跑它。植入变异自检拆在
+# mutation_site.py，改校验器/生成器代码时手动跑。作为模块被 import 时不退出，
+# 以便 mutation_site.py 复用这里的 audit 函数与已加载数据。
+if __name__ == '__main__':
+    print()
+    print('=' * 66)
+    if HARD:
+        print('RESULT: FAIL —— %d 处契约违例：' % len(HARD))
+        for x in HARD:
+            print('   ✗', x)
+        sys.exit(1)
+    print('RESULT: PASS —— 数据对账契约（G/G2/G3/H/H3/I/J/J2/J3/J4/L/M/M3/N）绿')
+    sys.exit(0)

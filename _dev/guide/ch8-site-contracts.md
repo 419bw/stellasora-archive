@@ -104,8 +104,10 @@ scripts/site/
 ### 8.3 契约总表（`tests/story/`，两份都不 import 生成器）
 
 `validate_story.py`（story_docs 侧）与 `validate_site.py`（site 侧）是两套独立的契约集，
-**都不 import 生成器**，只读产物 + 独立重解上游，且每个检查组都带**植入变异测试**
-（故意改坏产物，同一套断言必须抓到；只看"正对照 PASS"不算数）。
+**都不 import 生成器**，只读产物 + 独立重解上游，CI 里只做**数据对账**（含各 audit 的
+正对照，期望值全部从上游实时推导）。**植入变异自检**（故意改坏产物，同一套断言必须抓到；
+只看"正对照 PASS"不算数）拆在 `mutation_story.py` / `mutation_site.py`，复用 validator 的
+真实 audit 函数，**不进 CI**，改校验器/生成器代码后手动跑（见 5 章）。
 
 **`validate_story.py`** 覆盖：战斗气泡逐阶段完整性、气泡剧本的挂载语义（说话人必须出自该章演员表）、
 增量行来源计数与指令数对等、逐页台词序列对齐剧本原文（含跳过概要 vs `SetIntro[3]`）、
