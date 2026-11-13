@@ -1,0 +1,904 @@
+{
+ "heading": "# 11 许愿与祭品",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1112`　**编号**：`11`",
+  "- **关卡名称**：许愿与祭品",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_11`",
+  "- **关卡描述**：你以为你有特殊的许愿技巧。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "天冬说起了埃摩守夜人的品行问题，令艾琳娜大为震撼。\n艾琳娜想复活死去的战友，天冬认为魔法或许愿都有极大风险。\n你用曾在星塔许愿的经验，尝试向“高塔”许愿，却身陷险境……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "天冬说起了埃摩守夜人的品行问题，令艾琳娜大为震撼。\n艾琳娜想复活死去的战友，天冬认为魔法或许愿都有极大风险。\n你用曾在星塔许愿的经验，尝试向“高塔”许愿，却身陷险境……",
+  "episode": "第十一话",
+  "title": "许愿与祭品"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "18:50",
+   "date": "5月 26日",
+   "place": "菲兰尼斯岛外 林间墓地"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "没有火灾的时候，守夜人要想办法制造火灾，然后向附近受到火灾威胁的居民收取救火费？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "地段好的房子烧起来的时候，就趁机向屋主压价，用十分之一的价格拿到房契后再救火，等到火灭后把房子修好出售？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "抓到小偷时先清点赃物，那些贵人家里会放着不少见不得光的东西，失主愿意出大价钱封守夜人的口？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不要真的处罚那些机敏的小偷，惩戒后放掉就好，没有他们，谁还会请守夜人抓贼呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这都是什么歪门邪道的赚钱方法啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "埃摩的守夜人一直都是这么干的哦，连司祭们都给他们交过救火费呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "连……连司祭都……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "司祭也不想惹麻烦嘛，虽然那些守夜人加在一起也不是一名司祭的对手，但身旁总有一群蚊子飞来飞去也很烦不是么，又不能随便杀掉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "况且，那个程度的救火费对司祭来说也不算什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有司祭带头，其他人自然也能乖乖交钱，原来别的城邦的守夜人是这样赚钱的，难怪天冬说——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "怎么会吃力不讨好？有了权力还怕没有金币吗？至于艾琳娜为什么穷成这个样子，我就不知道了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，你说的这些人根本不是守夜人，这是勒索犯，对，这帮人的所作所为完全是敲诈勒索。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "此等邪恶，肮脏的方法……我身为菲兰尼斯守夜人的队长，绝对不会用的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我没想让你用啦，我只是介绍一下埃摩<r=就你那正直到呆瓜的脑袋，根本做不了这个的，完全做不了></r>守夜人是怎么赚钱的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "顺便也给两位解释一下，为什么菲兰尼斯的守夜人都跑干净了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，你一个人可以不计较得失，可以不要报酬，但绝大多数人还是要吃饭的。城邦不给俸禄，守夜人自然自己想办法喽。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "能不能发动菲兰尼斯的大家来帮你？孩子失踪这种事……大家肯定都很害怕吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "抱歉，这个也很难做到，你们也看到了……岛内的人们对守夜人有很大的敌意……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "岛外的居民对我还算友善，可他们必须每天不停工作才能买得起当天的面包，实在是无力支援我们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "就算对方有能力支援我们，我们也没办法让他们帮忙，让不会魔法的普通人去抓凶恶的奴隶贩子可不是个好主意。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在两位愿意加入守夜人之前，我的确也无计可施，但两位来了，我就有办法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，天冬，岛外的巡逻能拜托你们吗？露露会告诉你们要怎么做的，请放心，现在菲兰尼斯绝大部分时间都很安宁。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "失踪案由我独自调查，我会乔装打扮住到岛内，每天晚上暗中巡视街道。只要坚持下去，一定能发现犯人的踪迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只有你一个人吗？那岛内白天怎么办？那些人也可能会在白天行动吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "也由我暗中巡视。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你一个人怎么又盯白天，又盯晚上？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不睡觉就可以了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请不要为我担心，在角斗场的时候，三五天不睡觉的时候也是有的，我已经习惯了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可是……没人知道调查多久才能有结果，难道就这么一直熬下去？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不论是为了菲兰尼斯的安宁，还是为了实现同伴们的愿望，我会坚持住的，也必须坚持住——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我无法忍受，无辜的小孩子被绑架。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "另外，过去的一年里，我已经积攒了很多功绩，只要这次能顺利抓到犯人，我就能获得进入高塔许愿的机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬说得对，过去的那场角斗我无论如何努力，都没办法改变结果，悔恨是没有用的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那么，为了让未来的自己不再悔恨，我应该加倍努力，干好眼前的每一件事，抓住每一个机会！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个积极的心态倒是很尘沙……不过……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "您能告诉我关于“复活魔法”的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜想许的到底是什么愿望……不会是我想的那个吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，失踪案的情况我们明白了。顺便问一句，你想为同伴许的愿望是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我想复活她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然是这个愿望。复活死人这种事情……就算有魔法，直觉上也不是什么好事……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "许愿“复活”么，天冬……你和我说过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "报答什么的……也可以用别的办法吧。那可是许愿啊，什么愿望都可以实现的许愿啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道你们的许愿和我理解的许愿不太一样，可是……“复活”这种事情也能用许愿实现吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这……我，我不确定，“复活”涉及到肉体和灵魂的保存，一向是最危险的魔法领域，几乎没人敢研究。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "有记载的几个研究这方面的魔法师……其中最好的下场是一事无成空耗一生，真的研究出一点名堂的人，无一例外，全都在诅咒中变成了怪物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "高塔的确实现过很多离奇的愿望。有人通过许愿烧干了一座大湖，有人用许愿毁灭了一座城邦，还有人靠着许愿一下子就飞到了世界的尽头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "飞到世界尽头……如果这里的星塔这么神通广大，我有没有可能利用许愿回到原来的世界呢？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "但只有“复活”，圣女学校里从来没讲过相关的案例，我也没听说过有谁这么许愿过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那就让我来做第一个许愿的人吧，就算没有成功……也算是为后来者探了路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对劲……天冬没有听过许愿“复活”，也可能不是没人这么许愿过，而是所有类似的许愿都导致了很糟糕的后果，知道的人都选择闭口不谈。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜靠着一腔孤勇去许这种怎么看都需要绝大代价的愿望，肯定不会有好结果……我得想个办法拦住她——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，你不是一直在询问我许愿的技巧吗？那在你攒够功绩之前，就让我亲自为你展示一次吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果一切顺利，我们还能一并解决菲兰尼斯的失踪案。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "哎？你也要许愿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔王，你想要干什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "两位，菲兰尼斯的高塔只有圣女和司祭才能进入许愿，那像我这样的“见习司祭”，是不是也可以进入呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一天后",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "09:00",
+   "date": "5月 27日",
+   "place": "菲兰尼斯岛内 星塔大门"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "见习司祭，你确定你要为一个失踪案许愿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "确定。我为了感悟魔法，临时成为了菲兰尼斯的守夜人。那么，解决案件就是我的工作，感谢两位给我这个机会，让我能借用贵处的高塔许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "进入高塔的通道不是随机出现在某处的升降机，是一扇巨大的门……这些人用魔法固定住了升降机的位置吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "唔……真是高风亮节，你将来肯定能成为一名优秀的司祭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "你当然有权进入借用高塔许愿，不过……你的祭品呢？我怎么没看到？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "请两位放心，我有特殊许愿技巧，并不需要祭品。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "不……不需要祭品？！这怎么可能？没有祭品……高塔根本不会回应你的祈求。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没问题的，我已经成功许愿很多次了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "和尘沙她们一起爬塔许愿的时候，其实也要付出祭品——宝贵的记忆，只不过……因为我有“王权”和棋子的权能，只需献上复制的记忆即可。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里的高塔外形和星塔一模一样，可是，用同样的方法许愿到底管不管用，我的“魔力绝缘”的体质能不能对抗高塔的索取……我也没什么把握。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管怎么说，比起毫无经验的艾琳娜和从“祭品”位置上逃出来的天冬，我是那个最适合去许愿的人了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "见习司祭，此话当真？如果你真的可以不用祭品许愿成功，这……这可是能改变诺瓦的大事，请务必让我们在现场观摩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可以，但我也想让我的两位同伴在现场观摩，艾琳娜想要学习一下我许愿的方式，用在她自己的许愿上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬之前在魔法研究中帮了我很多，我的许愿方式不一定稳定，还需要她在旁边协助。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "按照菲兰尼斯的规矩，骑士在非亲自许愿时不能踏入高塔，自由民没有资格踏入高塔。但……既然你请求了，又有合理的理由，我想应该为你破一次例。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感谢您的宽宏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "三位，请跟我来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "喂喂喂，魔王，我还以为你有什么妙计，结果就这样直接去许愿？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我明明和你说过，许愿是要献上祭品的，我亲眼见识过的……每个愿望至少要消耗一个圣女！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "消耗一个圣女……是让一名圣女完全失忆吧？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想……那是许愿的方法不对，以及许的愿望过于宏大了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你这家伙真不听劝。说好了，如果你出现什么问题……我可不管你哦，可不要指望我会冒着暴露身份的危险去救你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心吧，我许过很多次愿，只要控制许愿的内容，就算高塔真的要从我这里拿走什么东西，我也能全身而退。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "三位，我们到了，这里就是许愿的祭台了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "祭台……嗯，应该是指放许愿箱的台子吧……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那……那是……什么？一张王座？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "见习司祭，你为何如此惊讶，那个座位是许愿时祭品坐的位置，你既然已经许愿了很多次，对此应该非常熟悉了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，对，我的确很熟。请各位留在这里，我一个人上去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有许愿箱……只有一个好像在哪里见过的石头王座，这边的高塔和我见过的星塔完全不同啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "科佩里乌斯和圣女都在看着我，这个时候可不能露怯。冷静下来仔细想想，既然都是许愿……内在逻辑的差距应该不会太大。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只要我控制住许愿的内容，就不会出问题。况且，这可能是我回到原来世界的唯一希望了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我带着略有忐忑的心情坐在冰冷的座位上，念出了昨晚想好的祷词。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "万能的高塔，请赐予我五十个基于光学成像原理和光电转换传输模拟信号的，可以实时看到四周情况的摄像神器，以及通过无线信号连接的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "莱塔，见习司祭在说什么，你听得懂吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": {
+    "cn_f": "她好像在描述一种魔法道具，用的都是……都是我从未听过的词……",
+    "cn_m": "他好像在描述一种魔法道具，用的都是……都是我从未听过的词……"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": {
+    "cn_f": "也就是说……见习司祭改良了祷词？这么年轻就能改良复杂的祷词，她可不简单，但只改良祷词就能不用祭品许愿么……",
+    "cn_m": "也就是说……见习司祭改良了祷词？这么年轻就能改良复杂的祷词，他可不简单，但只改良祷词就能不用祭品许愿么……"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，魔王已经念了三分钟祷词了，许愿的内容需要这么详细吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "一，一般不是的，这种许愿方法我从未见过……快看，魔王背后的巨大星星逐渐亮了起来，高塔回应了她的祈求。",
+    "cn_m": "一，一般不是的，这种许愿方法我从未见过……快看，魔王背后的巨大星星逐渐亮了起来，高塔回应了他的祈求。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……此组神器可用魔力供能。以上，就是我的愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（呼，终于念完了，按照旅人的经验，越准确的祷词对记忆的消耗越小，也越容易许愿到想要的东西。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（我的这份超长超详细祷词，已经做到了极致，高塔应该不会为难我吧……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔王，快下来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（从王座上起身）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不行，我动不了了！我被吸在座位上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "王座深处涌出一股可怕的力量，把我牢牢吸在座位上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我的神志依旧清明，但我的气力……我的生命力正顺着冰冷的、能够吸食血肉的座椅，飞快地从我的身体中流入高塔里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔——这座塔到底是怎么回事，为什么许愿会变成这样……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们……别过来，危险！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我的视线被无边的黑暗吞噬，最后的话语没有拦住冲上来的天冬和艾琳娜。我最后看到的是……她们两人牢牢地把我抱在怀中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

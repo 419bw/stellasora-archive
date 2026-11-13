@@ -1,0 +1,1631 @@
+{
+ "heading": "# 尾声 过去之事正如未来之事",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1123`　**编号**：`尾声`",
+  "- **关卡名称**：过去之事正如未来之事",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_20`",
+  "- **关卡描述**：在这漫长旅途的最后，你终于推开了窄门。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "硝烟散去，立约后的你也就此告别这段如梦似幻的旅途；\n跨越漫长的孤寂，此刻的你，在鸢尾的祈祷声中醒来——\n过去与未来交汇，这份真实与温度将铭刻你心……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "硝烟散去，立约后的你也就此告别这段如梦似幻的旅途；\n跨越漫长的孤寂，此刻的你，在鸢尾的祈祷声中醒来——\n过去与未来交汇，这份真实与温度将铭刻你心……",
+  "episode": "尾声",
+  "title": "过去之事正如未来之事"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "魔王，不要睡，睁开眼睛看着我！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "求求你，睁开眼睛……别睡过去",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "尘……尘沙……",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你……你受了很重的伤吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我的伤没关系的，根本不疼。魔王，我们赢了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "赢了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我的许愿……被高塔接受了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嗯，虽然不知道你许下了什么愿望，但我和科佩里乌斯战斗的时候，他突然就失去了高塔赐予的魔力，那一刻，我就知道你成功了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我许下的是你的愿望，尘沙……是你们所有人在角斗场里未竟的执念。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我的愿望……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "希望下辈子再也不要成为奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳，我的能力有限，没办法让诺瓦一下子就变成这样……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但至少……从今以后，在高塔里——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不会有人再能强迫他人许愿，每个人都能自由地决定自己的愿望和未来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "高塔里……没有奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别，别那么用力抱我啊，很疼的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "魔王，不……魔<r=BOSS></r>王，你是我此生此世不可替代的光芒，我不要你消失！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "消失……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我用尽全力，低头看向自己的身体，我的双腿已经消失不见，仅剩的左臂也在逐渐化为尘埃，向着高远的高塔顶端飞去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呵，我许下了那么不讲道理的愿望，被高塔拿走一切也是理所当然。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要哭，尘沙，我不喜欢看你的泪水，我只想看到你的笑脸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我……嗯，对不起，我会笑的，我会笑……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这才对……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有天冬、露露、莱塔，你们也要笑，毕竟……是我们赢了不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "对，我们赢了，你切断了魔力供给，我破坏了法阵核心，尘沙斩断了他们最后的挣扎，奥林匹娅丑陋又庞大的身体得不到足够的魔力，被未完成的世界级魔法反噬，化为了碎片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "关在石棺里的市民们正在苏醒，大家的身体看起来都还好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "或许是因为你许下的愿望，他们甚至……没有失忆，生命力和灵魂也没有受损。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，既然是这样的结果，我想……我的选择应该没有错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你真傻，为什么不为自己许一个愿望！你明明可以许——用这些魔力为代价，送你自己回家！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那样的话，我不就和那两个人一样糟糕了吗？就算我能用这种方法回家，也会被同伴们讨厌的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唔……我的身体……抱歉，好像来不及和你们一一告别了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "别说傻话，许愿箱！快把魔<r=BOSS></r>王放进许愿箱，我们不会让你死的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这个箱子能够保护住你的灵魂，总有一天，我们会想办法重塑你的身体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "记住我的歌声，魔王！那是引路的钥匙，记住——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "??:??",
+   "date": "??月 ??日",
+   "place": "???? 白色房间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里是……白色房间，我又回到了这里。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "果然，只要我还持有“国王棋子”我就能回到这里，截肢的右臂恢复了，就连破损的衣物也完好如初，没有恢复的只有……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这只手机。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没有“王权”，我没办法打开眼前的大门，难道……我要像之前那样，去找另一扇门吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那扇门后，是菲兰尼斯……还是别的什么地方。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙、天冬……你们还好吗？我们合力击败了奥林匹娅和科佩里乌斯，可菲兰尼斯的事情应该没那么简单就能结束，比起“逃到”这里的我，辛苦的是你们才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有……尘沙、鸢尾、琥珀，你们还好吗？在你们眼里，我应该是莫名其妙地一个人和安琪对抗，然后被凄惨地抓住吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你不在，她们一点也不好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我知道，我知道会是这样……可是……哎？谁在说话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "负责照料你的护士贝缇丽，来，配合一下，我帮你检查一下灵魂的完整性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝……贝缇丽？你怎么在这里？你能不能帮我打开那扇门，或者带我离开这个房间？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "很抱歉，这超出了我的工作范畴，我的职责只是为你做例行检查，来，撩开衣服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我，我没病……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "我只是要听一听灵魂内部的情况，如果你拒绝，那我只能用手术刀切开看了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别，你听，你听，嘶——听诊器好凉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说起来，珀尔娜和维嘉尔呢？你知道她们两个去哪了吗？还有，我好像是第一次在白色房间里遇到你？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "我只会去有人需要治疗的地方，白色房间显然不属于那样的地方，这次是例外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "好，检查完毕，你的灵魂百分之百完整，我还有别的病人，先走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，贝缇丽！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "哎呀哎呀，好让人遗憾呢，人家在这个房间里待了这么久，魔<r=mowang></r>王大人都没想过要抓人家的手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "结果，第一次在这里遇到贝缇丽就春心萌动了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "果然还是人靠衣装吗？维嘉尔，我们这身衣服是不是太朴素了？应该穿一些更有冲击力的衣服，这样魔<r=mowang></r>王大人才会对我们更感兴趣不是吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "珀尔娜……维嘉尔……你们之前去哪了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "我们啊，受人之托藏起来了。不过在解释那件事之前，我要先用一点小小的魔法——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "隐藏着黑暗力量的星塔员工啊，在魔<r=mowang></r>王大人面前显示我们真正的姿态吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "噫——珀尔娜，你做什么啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，这是……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "魔<r=mowang></r>王大人果然对兔女郎装感兴趣！维嘉尔，以后我们都穿这个出场吧，这样一来魔<r=mowang></r>王大人就没心思问东问西了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "是，是吗？但果然还是应该为之前藏起来的事情向魔<r=mowang></r>王大人道歉才行，魔<r=mowang></r>王大人，请把我们藏起来的那件事当做不存在吧，可以吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "喂！你们两个别想蒙混过关！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜&维嘉尔",
+   "text": "对，对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼，道歉就不必了，以后不要乱穿衣服，弄得我都没办法心平气和地和你们讲话了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜&维嘉尔",
+   "text": "是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，你们能不能告诉我，之前我身上发生的事情到底是怎么回事？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么我会在白色房间的深处找到另一扇门，为什么那扇门通向很久很久之前的菲莱？你们又为什么要藏起来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "白色房间是由“国王棋子”所创造出的，位于星塔中的，时间和空间的交界点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "但是，白色房间还有另一个，您不知道的名字——“魔<r=mowang></r>王许愿箱的内侧”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "这里连接着您的许愿箱，许愿箱是塑造您身体的所在，这里是您灵魂歇脚的所在。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "您找到的不是“另一扇门”，您找到的是某个时间点的许愿箱，箱子已经塑造好了您的身体，只差装入您的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我找到的那扇门……的确就是许愿箱盖子的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "您推开盖<r=门></r>子进入许愿箱，灵魂进入身体，自然会在那个身体所在的菲兰尼斯醒来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "您拯救了菲兰尼斯，但身体化为了灰烬，灵魂就又回到了白色房间，回到了这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "正因为您的灵魂“歇脚”于此，您才拥有“魔力绝缘”的体质，凡人的魔力是无法抵达这里，影响到您坚不可摧的灵魂的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "不管在外面受到何种伤害，只要您的灵魂保持完整，您在这里就永远是您最完美的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，等一下，你们说的这些听起来很合理，但是……如果我真的是你们说的这种情况，我为什么会失忆躺在许愿箱里，被空白旅团找到？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "失忆？您为什么觉得自己失忆了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那当然是因为……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "因为别人都这样和您说？因为这是听上去最合理的猜测？还是因为……各种传说、戏剧中的主角总是失忆着开始冒险？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我在梦里……回忆起了一些遥远的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "那真的是您回忆起的事情吗？还是……您偶然，或者被安排好做的梦呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "总之，您是特别的，白色房间说到底也只是您“歇脚”的地方，您的记忆和您灵魂的真正所在，我们也不清楚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "只能模糊的知道，应该是在很远，很安全的地方，连星<r=高塔></r>塔都触碰不到的地方，所以，诺瓦的一切手段，都没有能力让您失忆。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "所以，您在菲兰尼斯许愿的时候，星<r=高塔></r>塔能拿走的也只有您的生命力，而无法触及您的灵魂，虽然，星<r=高塔></r>塔应该很渴望触碰您的灵魂才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "您可以想一想，您从沙漠的许愿箱里醒来后，失去过记忆吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "完全没有，哪怕是那些已经被改变的悲惨命运，我也全都记得……明明那些事已经不会发生了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "因为您的灵魂曾经完整经历过那段旅程，所以您会记得。在诺瓦，也只有您会记得。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "您就像一位在星塔和诺瓦之间，在昨天、今天、明天中不断旅行的旅人，很浪漫，也很孤独。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我并不孤独，我有很多很好的同伴，她们记得不记得那些事，都不会影响我们之间的感情和信任。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "可是，在“王权”损坏的现在，您在这里什么都做不到哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "“国王棋子”赋予您“棋手”权能，安琪也没有夺走您对“国王棋子”的所有权，所以，现在的您依旧可以进入白色房间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "但是，“悔棋”这件事是靠“王权”实现的，没有“王权”为您储存的“命运的三叉路口的坐标”，您是没办法打开大门，回到您爱着的那些同伴身边的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们有办法修好“王权”吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "维修那种级别的神器……可是禁忌的知识，在“保密协议”的限制下，我们没办法告诉您的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "况且，这里是灵魂的“歇脚”处，就算我们告诉你具体方法，你也没办法在这里去维修一台位于现实中的手机。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "如果维塔还在，她倒是可以靠着自身的灵魂，在白色房间里维持“王权”的最佳状态，可惜……她已经把自己格式化了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那……你们既然能从星塔来到白色房间，自然也有办法从白色房间回到星塔吧？你们能带我回去吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "当然可以，只要您成为星塔员工就没问题了，是成为正式员工，不是在便利店吃了不该吃的东西后成为的那种“临时工”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "那样的话，我们立刻就能带你从这里出去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "突然间这么积极……你们和我说了这么多，不会就是为了劝诱我成为星塔员工吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "成为星塔员工有什么不好吗？您可以获得和星塔同等的生命，不会受伤，不会生病，星塔里的所有房间和商品都可以尽情使用。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "并且，您还能永远，永远地守护您的同伴。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "听起来很美好呢，但是我……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "拒绝！一定要拒绝！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝，贝缇丽？你怎么回来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "作为负责照料你的护士，我必须对你的健康负责，有人想劝诱你去做非常不健康的工作，我当然要阻止。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝缇丽",
+   "text": "那种上七休零，没有节假日，没有保险和福利，不能辞职，甚至没有吃饭和睡觉时间的正式工，你不会真的想去吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "贝缇丽，谢谢你的提醒。放心吧，我从一开始就没有想走这条路。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "留在星塔里给旅人引路猜谜，帮旅人消除伤痛和疲惫，经营一家能帮助旅人爬塔的便利店，其实这些工作我还挺有兴趣的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "感谢你们的邀请，未来的某一天，等我实现了全部的愿望后，我愿意来星塔里和你们一起工作。但是，我和大家约好了——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不是逃避，这只是暂时的……暂时的离你们而去，既然“逃出米拉什”、“抓住安琪”、“彻底击溃委员会”这三条路都行不通。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我只能用无尽的“悔棋”来实验出所有的可能性，最终找到拯救所有人的方法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙，再等我一会吧，就一小会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我必须得回去，我已经让她们等得太久了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "可是，您没有坐标，是绝对打不开这扇大门的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那我就继续找下去好了，既然我能寻找到通向菲兰尼斯的许愿箱，我想……我也能找到通向别的地方的许愿箱回到诺瓦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "然后，不管我要等待多少年，不管我要历经多少艰险，不管我要走多远的路，我都会回到那个时刻，好好地抱住……为我担惊受怕，为我不顾一切的她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有，我要把“王权”和维塔恢复原样，只有这样，我才算是找到了“拯救所有人”的方法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "从菲兰尼斯回来后，您变了很多呢，魔<r=mowang></r>王大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我变了么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "变得更开朗了，原来的您总是因为想要救下更多的同伴而皱紧眉头，现在的您……依旧想要帮助所有人，却不再皱眉，就好像……您有了可以信赖，可以放心依靠的人一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我的确有了可以放心依靠的人……不，我一直都有。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是过去的我，总是自大地认为……我是魔<r=BOSS></r>王，我拥有白色房间，我掌握“恩赐印章”，我理应承担更多的责任，用最完美的方式去解决一切问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "直到我抵达了菲兰尼斯，如果那座城邦真的是不知多少年前的菲莱，那个世界真的是不知道多少年前的诺瓦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么……从那个残酷的高塔，那个残酷的时代到现在这个略带温情的世界，其中的转变，绝非是一个人的功劳。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我也只是一粒沙，许下自己愿望的一粒沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比起用无尽的思考去折磨自己，让同伴担忧，不如怀抱希望，继续前进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "希望……您的希望从何而来？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想，每一粒沙子，都有它所爱的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "失败了，维嘉尔，我们彻底失败了啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": {
+    "cn_f": "不仅没能在这个最好的时机劝诱魔<r=mowang></r>王大人，还让她悟出了“命运坐标”的本质。",
+    "cn_m": "不仅没能在这个最好的时机劝诱魔<r=mowang></r>王大人，还让他悟出了“命运坐标”的本质。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": {
+    "cn_f": "这不是理所应当的吗？毕竟，她可是我们的魔<r=mowang></r>王大人。",
+    "cn_m": "这不是理所应当的吗？毕竟，他可是我们的魔<r=mowang></r>王大人。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "维嘉尔",
+   "text": "听，魔<r=mowang></r>王大人，有人给您发来了新的“命运坐标”，您无需再去找寻不知存在于何处的许愿箱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "珀尔娜",
+   "text": "这份爱与希望，就是您回家的钥匙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "翡冷翠大人，我们并不想为难您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "但贵公司的关键控制人去世这件事势必会对我们的合作造成不可预计的影响，趁着您参加葬礼的机会，我方想要取消之前订下的粮食订单。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "请您再考虑一下，今年菲莱的粮食大丰收，贵司的订单肯定能保质保量，按时交付。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "抱歉，这是公司元老院的决定，我今天和您联络并非是商议，而是告知。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "翡冷翠大人，背靠大树才好乘凉，您不考虑换一家公司任职吗……比如天穹保险？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "为什么这么说？就算生意谈不成，两位也不用这样贬低我和菲莱公司吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "抱歉，抱歉，您误解我的意思了，实话和您说吧，公司元老院决定取消订单并不是对贵公司履行订单能力有怀疑，而是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "菲莱公司使用的“恩赐印章”源于魔王协议……现在魔王协议的首席执行官魔<r=BOSS></r>王被异端组织拯救委员会公开杀害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "这的确是骇人听闻的暴行，诺瓦各界对贵公司深表同情和哀悼，但您也知道，公司在利益面前从来不讲道义和对错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "魔王协议持有三枚“恩赐印章”的消息已经在埃摩传开了，在失去了屡战屡胜的魔<r=BOSS></r>王后，魔王协议无异于一座堆满财宝却敞开大门的屋子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "据我所知，已经有四五个势力准备发动“公司战争”抢夺“恩赐印章”，以您的才华，如果您肯来天穹保险，那么我保证您能进入元老院，同时执掌公司南部大区的全部业务。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "各位旅人的实力，我们珀圣创伤早有耳闻，如果各位愿意选择我们，魔王协议能给的我们也能给，还会给双倍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "难道说，各位真的要把自己绑在魔王协议这艘马上就要沉没的船上吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "我宁可与这艘船一同沉入深渊，也不会背弃我们之间的誓言。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "你们这些公司是怎么回事？恩赐意志组织的大会已经投票证明魔<r=BOSS></r>王并非是毁灭世界的魔<r=mowang></r>王，你们到底想要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "我们天穹保险在大会上还投了“魔<r=BOSS></r>王不是魔<r=mowang></r>王”的票呢，可是站在你们这边的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "但生意就是生意，你们手里的“恩赐印章”我们不取，其他公司也会来取。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公尸骨未寒，两位就做出此等逼迫之事，若尔等执意如此，那妾身便只能用刀刃来作答了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "外面好乱，他们在吵什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "抢劫，他们想，抢劫魔<r=BOSS></r>王的棋子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "不可饶恕，竟然在魔<r=BOSS></r>王的葬礼上做出这种事。这些人……还有逃走的拯救委员会，我一个都不会放过！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾，我们去把他们赶走，扔得远远的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "你们说……魔<r=BOSS></r>王，真的死了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王的头……我们都看到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "万一，我们看错了呢，万一……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "尘沙、琥珀，我们再许一次愿吧，就像沙漠里那样，我们把魔<r=BOSS></r>王许愿回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "……好吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾&尘沙&琥珀",
+   "text": "万能的恩赐之神啊，我虔诚地向您许下愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾&尘沙&琥珀",
+   "text": "请赐予我们——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "能够战胜任何敌人的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "能够赚到很多钱的神器。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "能够一直，一直……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "一直……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": {
+    "cn_f": "对不起，根本没办法许下这个愿望啊！魔<r=BOSS></r>王她真的，真的已经死了！我没办法像鸢尾你那样骗自己啊！",
+    "cn_m": "对不起，根本没办法许下这个愿望啊！魔<r=BOSS></r>王他真的，真的已经死了！我没办法像鸢尾你那样骗自己啊！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "鸢尾，你唱的是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "挽歌……艾蕾妈妈很久很久以前唱过一次的……挽歌。鸢尾没有骗自己……我们，已经没有魔<r=BOSS></r>王了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": {
+    "cn_f": "我们已经没有魔<r=BOSS></r>王了……都是我不好，都是我当时许下了这样的愿望，所以她才一直在实现我们的愿望！",
+    "cn_m": "我们已经没有魔<r=BOSS></r>王了……都是我不好，都是我当时许下了这样的愿望，所以他才一直在实现我们的愿望！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "如果要重来一次，我只想许愿——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": {
+    "cn_f": "许愿让她一直，一直都在我们身边啊！",
+    "cn_m": "许愿让他一直，一直都在我们身边啊！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "尘沙、鸢尾，许愿箱……许愿箱亮起来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "呵呵，各位的气势很足嘛。不过，三天前你们配合黎明近卫冲进刑场，抢回魔<r=BOSS></r>王尸体的事情，我们已经调查清楚了。各位可是人人带伤。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "魔<r=BOSS></r>王的刀刃——千都世，脏腑受损。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "魔<r=BOSS></r>王忠诚的伙伴——花令旅团，过度施法，精神衰竭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "雏菊孤儿院的院长——艾蕾，手臂骨折。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾蕾",
+   "text": "我用牙齿咬着武器，也能把你们杀光。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "哎呀，谈判完全破裂了呢，那我只能代表天穹保险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": "我代表珀圣创伤，向魔王协议宣——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "谁要和魔王协议宣战？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "魔……魔<r=BOSS></r>王？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "严肃的公司代表",
+   "text": {
+    "cn_f": "她，她没死！",
+    "cn_m": "他，他没死！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的公司代表",
+   "text": "撤，快撤，我们中计了，这家伙想用假死骗我们宣战！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "翡冷翠",
+   "text": "魔<r=BOSS></r>王……真的是你？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冬香",
+   "text": "师父……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "夏花",
+   "text": "魔王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "抱歉，我回来晚了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "魔<r=BOSS></r>王……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我就知道，我就知道……我就知道你绝对不会丢下我们的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "欢迎回来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "♫ 「请对我说『我回来了』」 \n演唱：鸢尾（CV：夏吉优子）\n作词：WakatsujiSubaru 作曲：DekaDai",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

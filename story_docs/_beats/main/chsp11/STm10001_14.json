@@ -1,0 +1,1341 @@
+{
+ "heading": "# 14 短暂的日常",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1115`　**编号**：`14`",
+  "- **关卡名称**：短暂的日常",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_14`",
+  "- **关卡描述**：时间缓缓流逝，你的心中满是担忧与思念……",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "这是来到菲兰尼斯后，你与艾琳娜、天冬首次得以喘息的片刻。\n你与艾琳娜在此期间还解决了贵族倒卖奴隶的案件。\n回归的方法依旧不明，彼此迷茫的二人继续了解着彼此……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "这是来到菲兰尼斯后，你与艾琳娜、天冬首次得以喘息的片刻。\n你与艾琳娜在此期间还解决了贵族倒卖奴隶的案件。\n回归的方法依旧不明，彼此迷茫的二人继续了解着彼此……",
+  "episode": "第十四话",
+  "title": "短暂的日常"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "10:00",
+   "date": "6月 10日",
+   "place": "菲兰尼斯岛外 森林深处"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "光焰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬老师，我的闪光术施放得怎么样？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "很棒，你的闪光术水平已经很高了，就算是我，也不一定能比你施放得标准。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我们检查一下其他魔法吧，来个造水术试试？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "出现吧——涌动的泉水——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "好闪，闪得我眼泪都出来了，你这造水术好另类啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对，对不起，我好像放错魔法了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那就来个点燃术吧，试着点燃这树叶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "火焰——回应我的呼唤——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "烧，烧起来了，但完全是因为你的闪光术太强了，光线被你的剑反光聚焦到这片树叶上了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "怎么回事？我不是教给你施法的方式了吗？为什么放出来的都是闪光术啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那个……我也不知道是怎么回事，我明明心里想的是造水和点燃，但魔法释放出来就是这样了，是不是我理解得不对啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "哈……我对着一棵树讲课，说不定都比对着你讲课有效果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬老师，请，请不要生气。我觉得我还是掌握了一些新的……新的东西的。请看——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "光焰，斩！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "现在，我能把闪光术附着在剑气上砍出去，这样就算在夜里，也能照亮远方的敌人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "还，还有这招——塑光！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我能把光芒凝聚成一把剑，就算失去了武器，也能继续战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "嗯……平心而论的确是不错的魔法，但是——到头来还是闪光术啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，你不是没有魔法天赋，只是魔法女神和你开了个玩笑，把你的天赋都分配在闪光术上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "你的意思是……我可能一辈子只能学会这一个法术了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "最多……两三个吧，不过，你可以试着像刚才做的那样，让闪光术衍生出不同的形态和变体，也能解决不少问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我是没什么可教你的了，你可以找人对练一下，找找灵感。我回去继续研究“许愿箱”啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "谢谢你，天冬老师！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，你有空吗？要不要来练一会剑？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘶——今天就不了，不知道为什么，我的胳膊和腰好疼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "扭伤了吗？让我看看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，不要啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要揉那里，好酸，好疼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "坚持一下——很快你就舒服了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜——这怎么可能舒服……嗯？好像，好像的确……酸疼的感觉消失了很多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "是我不好，昨天做的事情有点超出你的体力了——猛烈运动完又突然进入浴池泡了那么久，疲劳都积攒在肌肉里了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我再帮你按一下吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，那就拜托你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "感受着肩膀上熟悉的按摩手法，我闭上了双眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "或许是失踪案里的并肩作战让我们互相信任；",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "或许是美味的庆功宴拉近了我们的距离；",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "又或许是我们本就同病相怜，都有着无法言说的秘密和愿望……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "不知不觉间，我们三人的距离近了很多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "天冬教艾琳娜施法技巧，",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜给天冬做菲兰尼斯的向导，带着天冬转遍了这座“完美之城”的大街小巷。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我因为长期帮尘沙做菜，自己多少也会一点，竟然一跃成为守夜人里最会做饭的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜向我请教厨艺，作为回报，她每天都带着我练习我那完全不通的剑术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "闲下来的时候，天冬总是钻在我的许愿箱里，她说自己很快就能研究明白箱子的秘密。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我帮着艾琳娜破获了一起贩奴大案——大贵族卡里古拉绑架菲兰尼斯的自由民，把他们贩卖到别的城邦做奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我今天之所以浑身酸痛，就是因为昨天为了躲避奴隶贩子，身体还没放松下来就直接和艾琳娜一起钻进了浴池。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘶——好舒服——这个手法和尘沙好像啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我摇摇头，赶出脑海里这种荒诞不经的想法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜……不是尘沙，虽然艾琳娜并不介意我把她当成尘沙，但不管怎么说，这样都是不礼貌的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "从许愿箱里醒来到现在已经大半个月了，我还是没弄明白我是怎么通过许愿箱来到菲兰尼斯，又应该怎么回去？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "难道……我真的只能去高塔里许愿，许愿回到过去的世界？可是……这里的高塔会索要高额的代价，我究竟要付出什么代价，才能实现这样的愿望？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "尘沙、鸢尾、琥珀……还有大家，你们还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔<r=BOSS></r>王，你在想什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我在想……故乡的同伴，嗯？艾琳娜，你刚刚叫我什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔<r=BOSS></r>王啊。我们一起袭击奴隶贩子的马车时你用的那个称呼，这是你在故乡的称呼吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "你刚才幸福地笑了一下，然后很快又露出忧郁的眼神，我猜到你在想家，所以就喊你魔<r=BOSS></r>王了。或许……这样能让你好过一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢谢你，艾琳娜。不过，你要是叫我魔<r=BOSS></r>王，那你可就是魔<r=BOSS></r>王座下的黑骑士了——袭击马车的时候，你用的是这个称呼哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "黑骑士这种称呼……不管听多少次都很堕落，但是……如果是魔<r=你></r>王的黑骑士，我并不介意接受这个称呼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "毕竟，我已经离不开你做的饭了，也很享受和你一起……用不那么“符合规则”的办法，去做我们应该做的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "如果，这就是“堕落”的话，我想你已经成功了，我已经心甘情愿地“堕落”了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咳咳咳，“引诱堕落”什么的是天冬说着玩的，艾琳娜，你别当真。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "“当真”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔<r=BOSS></r>王，你说，什么才是……“真”呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在角斗场被人叫做十八号的时候，我想要一个“真”的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那时的我，觉得“余音”这个名字不够“真”，是用来出售自己的标签，只有一个有名有姓，和看台上的观众一样的名字才是“真”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "然后，我得到了一个那样的名字——艾琳娜·柯罗西。有人说艾琳娜的含义是“光明”和“希望”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "也有人说这个名字是为了纪念我在大角斗场获胜的那场战斗，艾琳娜源于大家对大角斗场中间那块沙地的称呼的谐音。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "但不管怎么样，我有了和观众们一样的名字，我觉得……自己可以成为一名真正的“骑士”，一名守夜人，守护菲兰尼斯来报答奥林匹娅大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "所以，我恪守传统，我尽全力做好每一件……我能看到的事情，救下每一个我有机会伸出援手的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "担心我和天冬是出逃的奴隶，所以把我们带到菲兰尼斯……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哪怕只有一个人，也要坚持调查失踪案……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "遇到和自己素昧平生的奴隶，也会想办法解救。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜的确一直是这么做的，但是……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "但是，在天冬告诉我……埃摩的守夜人是怎么赚钱后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在我看到绑架孩子的犯人是菲兰尼斯的“骑士”，贩卖菲兰尼斯同胞的犯人是元老院家族后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我，我有点弄不明白了……我不确定……自己照这样做下去，到底能不能成为真正的“骑士”和真正的守夜人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "如果……我看到的那些人就是自己未来的模样。那我所追寻的目标……又有什么意义呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "反倒是遇到了你们，逐渐“堕落”后，我们真的帮到了……需要帮助的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "可是……魔王你不是真正的司祭，天冬舍弃了圣女的身份，为什么，你们这样的好人，反倒没有站在那条大家都称颂的光明大道上呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我到底……应该怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜的疑惑和我那时差不多啊。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "但是……如果我们没办法在一个月的时间里找到证明我身份的证据……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "害怕连累大家，对未知的明天的恐惧几乎把自己压垮……艾琳娜虽然没有表现出来，但她能和我倾诉这些，说明她压力也很大吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，我没办法直接回答你这个问题。你听过我讲的那个——我被一个组织认定是“毁灭世界的魔<r=mowang></r>王”的事吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "嗯，之前你讲自己经历的时候提到过，那些人真是无知，如果你是毁灭世界的魔<r=mowang></r>王，那些残酷对待奴隶，把他人当成物件的家伙又是什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那时候，我也像你一样，看不清自己眼前的路，弄不清自己的身份，也不知道怎么做才是对的，直到我的同伴和我说——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "总之，魔<r=BOSS></r>王。我听说那个安琪判断你是魔<r=mowang></r>王的一个依据是——你一直在帮助别人，一直在做好事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "如果，这样的你是魔<r=mowang></r>王......那我们觉得，这样也挺好的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "就是这么回事！这样的魔<r=mowang></r>王多来点才好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，你有着完美的同伴呢，她们说得对——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这样的魔<r=mowang></r>王多来点才好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我不知道你是怎么理解“骑士”和“守夜人”这两个词的，我只想告诉你——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "一个词的意义是读这个词的人赋予它的，而不是它赋予一个人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果你对“骑士”、“守夜人”的定义和其他人并不相同，那就不同好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "重要的是——你知道脚下的路是自己选择的，并且不会后悔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "自己选择的路……不会后悔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果你没办法一下子想通，那我还有一个简单的临时办法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你在违背传统时……把自己当成另一个人就好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "安琪要抓“毁灭世界的魔<r=mowang></r>王”和我这个“经营着一家微型公司的魔<r=BOSS></r>王”有什么关系？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然这是在骗自己，但有的时候……只要能让自己好过一点，骗一下也没什么问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "另一个人……比如，和你一起“堕落”的时候，我就不再是“菲兰尼斯的守夜人”，而是“魔<r=BOSS></r>王座下的黑骑士”。嗯，我完全明白了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "来人听着，我是魔<r=BOSS></r>王座下的黑骑士，黑暗降临！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "没什么气势呢……这个怎么样？我是魔<r=BOSS></r>王座下的黑骑士，感受痛苦吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "唔，好像也不太适合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃，你在做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我想给“黑骑士”想一句代表性的狂言，我听露露给我讲的那些史诗里……反派角色都会在关键时刻说出一句话，让人们记住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这样一来，别人也不会把“黑骑士”和“守夜人”弄混了，可是，我刚刚想的那两句都太普通了……魔<r=BOSS></r>王，你有什么好点子吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜突然变得好积极，她好像……乐在其中？难道她喜欢角色扮演？嘛，只要能让她积极起来的话……就随她去吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "她想要的“名台词”……之前在幸运绿洲号的藏书里看到过类似的句子……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "personality",
+   "prompt": "用哪一句合适呢？……",
+   "options": [
+    [
+     "有关“勇气”的名言。",
+     "",
+     ""
+    ],
+    [
+     "有关“智慧”的名言。",
+     "",
+     ""
+    ],
+    [
+     "有关“牺牲”的名言。",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "branch_open",
+   "option": "有关“勇气”的名言。"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有了，我在龙裔的故事里看到过一句话，应该很合适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请赐教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大丈夫生居天地间，岂能郁郁久居人下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "哦，好有气势的话，这是在表达难以遏制的疯狂野心吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是的，虽然说话的人是位武力超群的男性将军，“大丈夫”这个称呼不太适合你，但这句话的确很适合“黑骑士”这样的角色。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "赞同，每天把“下克上”挂在嘴边的黑骑士，肯定能让人印象深刻！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔<r=BOSS></r>王，我来练习一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "本骑士生居天地间，岂能郁郁久居人下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇，不妙，这种感觉很不妙啊，怎么有种随时会被杀掉的感觉。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "艾琳娜队长，终于找到你了，你交给我的任务已经完成啦。嗯？魔王也在啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "咦？两位贴得那么近，是在谈什么机密的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咳咳，露露，你辛苦了。我们的确是在谈一些……非常重要的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "有关“智慧”的名言。"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有了，我在谷风的故事里看到过一句话，应该很合适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请赐教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "战场之上，节操乃是兵家大忌。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这句话的意思是……要随时准备好转变阵营吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "是的，这是一位王者在评价一位善于打破常规、精于权谋的智者时所说的话。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "原来如此，魔<r=BOSS></r>王，你是在暗示我应该放弃奥林匹娅大人，转投到你的麾下。我听懂了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃，这个……其实……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果艾琳娜能和我成为……空白旅团那样的关系当然是很好啦，但我还不至于卑鄙到当面挖墙脚，可是……这里不能否认吧，会被误解的！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没错，我是魔<r=BOSS></r>王嘛，我当然想要获得世界上最棒的人才，而你，就是我的目标！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "好“堕落”的邀请呢，不过……你的心意我收到了，我并不讨厌……你邀请我。只是，现在我还有要向奥林匹娅大人报答的恩情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "艾琳娜队长，终于找到你了，你交给我的任务已经完成啦。嗯？魔王也在啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "咦？两位贴的那么近，是在谈什么机密的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咳咳，露露，你辛苦了。我们的确是在谈一些……非常重要的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "branch_open",
+   "option": "有关“牺牲”的名言。"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有了，我在某本轻松愉快的故事里看到过一句话，应该很合适。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请赐教。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咕……杀了我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "杀，杀了我？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，这是英姿飒爽的女骑士被人俘虏的时候，英勇求死的话语。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咕……杀了我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不不，要再屈辱一点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咕……杀了我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "差不多了，再自己找找感觉？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咕……杀了我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对对对，就是这个，我要的就是这个！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔<r=BOSS></r>王，你根本没有在认真帮我想，你就是想听我说这句话吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，这个……不是这样的，艾琳娜，你听我解释。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "你的身体不是还在疼吗？请让我再给你按摩一下，这次我会用出全力的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不要啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "咕……杀了我吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "艾琳娜队长，终于找到你了，你交给我的任务已经完成啦。嗯？魔王也在啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "咦？两位贴的那么近，是在谈什么机密的事情吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "咳咳，露露，你辛苦了。我们的确是在谈一些……非常重要的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "merge",
+   "count": 3,
+   "forks": 1,
+   "silent": []
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "明白，你让我查的事情的确非常严重，魔王也在帮你的忙吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？出了什么严重的事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "我们在岩洞里救出来的那些人，除了那三名菲兰尼斯的孩子之外，果然都有问题——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "她们都是过去被奥林匹娅大人赐名的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

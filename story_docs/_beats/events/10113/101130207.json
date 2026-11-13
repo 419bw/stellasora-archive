@@ -1,0 +1,668 @@
+{
+ "heading": "# 06 地图之外的东西",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：执笔展卷，勾勒未名之境（活动编号 10113）",
+  "- **关卡 ID**：`101130207`",
+  "- **AVG 剧本**：`STev_13_06`",
+  "- **关卡描述**：无需一个人肩负起一切。"
+ ],
+ "recap": "优叶向你吐露了自己的心声——原来这次考察的意义，不只是测绘、编纂地理志，更是为了……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "优叶向你吐露了自己的心声——原来这次考察的意义，不只是测绘、编纂地理志，更是为了……",
+  "episode": "第六话",
+  "title": "地图之外的东西"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嚼嚼嚼……呃，是胡萝卜……算了，嚼嚼嚼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "再来一口。啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "优叶双手摊开地图，聚精会神地看着。我把勺子递到她嘴边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "啊姆……嚼嚼嚼、嚼嚼嚼……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "简直就像只等待投喂的雏鸟，能够激起无尽的保护欲，这感觉真是奇妙……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对！为什么会变成这个样子……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "……唔、唔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "大家白天都累坏了吧。今晚我来守夜~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "那就拜托魔<r=BOSS></r>王了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "魔<r=BOSS></r>王晚安~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，晚安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？身后有奇怪的动静……是动物？还是……魔物？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不管了，总之试试科洛妮丝调配的气味趋避药水。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嘿！看招……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "咳、咳咳！好、好冲的味道……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "优、优叶？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "科洛妮丝小姐……真是位了不起的医生……连这种东西都做得出来……\n咳咳咳！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对不起！我以为有什么魔物闯进营地了……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "身体没有不舒服吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "咳……没事……缓过来了。刚才有一瞬间差点失去意识，脑海中闪过被三十只麝雉围着跳舞的画面……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "那段往事……真不愿回忆起来呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然很好奇三十只麝雉跳舞的情景……但看她一脸难受的样子，看来还是不要细问比较好。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对、对了，我们给你留了晚饭，要不换个地方吃吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "晚饭……说起来，我今天还什么都没吃呢。\n稍等一下，我要带点东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "优叶手里的东西看着眼熟，似乎下午才见过来着……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……啊，想起来了。是我带回营地的那箱地图。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不是去吃饭吗？怎么带这么多地图？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "吃饭的空当也能看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "优叶，别只顾着看地图。先把饭吃了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "好。我马上就看完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "唉，这句话你都说了几遍了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "如果你一直这个样子，我可就要动手把饭塞进你嘴里了哦？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "那就麻烦你了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "什、什么……！你说真的？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "就这么办吧。你来喂我的话，我的两只手空出来，就能多翻几页地图了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我准备好了，啊——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好吧好吧，那、那我真的塞了哦？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "谢谢你，魔<r=BOSS></r>王。还有，多谢款待。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好厉害，看地图的姿势完全没变过……还真和蜜柑她们说的一样，是个地图脑袋。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "火山口附近的坡度不好判定……图上只能暂时留白了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别着急。时间还够。等完成了基础勘探，再慢慢补全不就好了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我听蜜柑说，明天拿到薇洛记录的数据，就能向天穹保险和联合种业报告结果了，对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嗯，计划是这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "比原定计划还早了一天。可看你的表情，好像还有什么心事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "魔<r=BOSS></r>王……其实我有个习惯，每当我心情不好的时候就喜欢看地图。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "只要盯着流畅的等高线，那些讨厌的事就能忘得一干二净。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "可这次，明明已经看了这么久，心情好像还是没有变好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，有什么烦心事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "今天，我看到松鼠了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "啊，是被我吓跑的那两只小松鼠吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "为什么这里会有松鼠呢。而且这座海山上竟然还长出了一大片森林——这也太不正常了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "花铃以前跟我说过，要对大海怀有敬畏之心——海面看着风平浪静，海面下可未必如此。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我想，荒野也是一样的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "一直以来，我画地图只记录目之所及的地形、地貌、等高线，一切我亲眼所见之物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我原以为填满地图上的空白就足够了。可来到这座海山之后，我才发现……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "仅凭现在这张地图，根本说服不了自己，也说服不了任何人相信这里很危险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "……可是，我除了画地图，又能做些什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "优叶，考察队可不是只有你自己在孤军奋战哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "有分析地质样本的专家，也有研究生物种群的生物学家。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那些\"地图画不出来的东西\"，同伴们会替你补上的！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这不正是我们组建考察队的意义所在吗？我想，也是蜜柑编写这期地理志专题的初衷？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你画的地图，会为接下来的考察打下坚实的基础。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "才不是什么“只会画地图”。\n你已经作为团队的一员，把分内工作做得很出色了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "魔<r=BOSS></r>王……我好像，犯了和蜜柑一样的错……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "呜、呜呜……太好了。谢谢你，优叶……还有……对不起。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "我一直以为只有自己在乎这本杂志，是我小看了你的决心。亏我还满口说什么“这是大家一起组起来的队伍”……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "明明是最近才发生的事……可事情一落到自己头上，还真是当局者迷啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "看来我们的队长，还有很大的进步空间呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过在大家眼里，你早就做得够好了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "……我会努力的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "呼哈~……魔<r=BOSS></r>王，我来换班了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我和优叶也刚好聊完~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "诶？优叶看地图的时候竟然会和别人聊天？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "今天怪事真是一桩接一桩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我有点困，先去休息了。晚安，蜜柑、魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我也去睡了。晚安，蜜柑、优叶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "嗯——？这两个人，怎么怪怪的……发生什么事了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

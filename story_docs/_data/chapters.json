@@ -1,8 +1,8 @@
 {
  "meta": {
   "chapters": 11,
-  "nodes": 220,
-  "pages": 694,
+  "nodes": 219,
+  "pages": 726,
   "source": "Story.json",
   "edge_field": "ParentStoryId",
   "story_lines": [
@@ -7464,8 +7464,8 @@
      "sid": 1111,
      "story_id": "STm10001_10",
      "code": "10",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "天真的守夜人",
+     "desc": "她一直都停在此处，所以她步履维艰。",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7478,16 +7478,19 @@
       "story": "STm10001_10",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "18:30",
+      "date": "5月 26日"
+     },
+     "page": "main/chsp11/STm10001_10.html"
     },
     {
      "sid": 1112,
      "story_id": "STm10001_11",
      "code": "11",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "许愿与祭品",
+     "desc": "你以为你有特殊的许愿技巧。",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7500,16 +7503,19 @@
       "story": "STm10001_11",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "18:50",
+      "date": "5月 26日"
+     },
+     "page": "main/chsp11/STm10001_11.html"
     },
     {
      "sid": 1113,
      "story_id": "STm10001_12",
      "code": "12",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "我的身体",
+     "desc": "悲鸣的泡沫从幽暗的谜底缓缓升起……",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7522,16 +7528,19 @@
       "story": "STm10001_12",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "14:00",
+      "date": "6月 2日"
+     },
+     "page": "main/chsp11/STm10001_12.html"
     },
     {
      "sid": 1114,
      "story_id": "STm10001_13",
      "code": "13",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "地下的真相",
+     "desc": "“你们是菲兰尼斯的荣耀。”",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7544,16 +7553,19 @@
       "story": "STm10001_13",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "16:40",
+      "date": "6月 2日"
+     },
+     "page": "main/chsp11/STm10001_13.html"
     },
     {
      "sid": 1115,
      "story_id": "STm10001_14",
      "code": "14",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "短暂的日常",
+     "desc": "时间缓缓流逝，你的心中满是担忧与思念……",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7566,16 +7578,19 @@
       "story": "STm10001_14",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "10:00",
+      "date": "6月 10日"
+     },
+     "page": "main/chsp11/STm10001_14.html"
     },
     {
      "sid": 1116,
      "story_id": "STm10001_15",
      "code": "15",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "高塔之下",
+     "desc": "灵魂支起王座——永恒的雨已然落下。",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7588,16 +7603,19 @@
       "story": "STm10001_15",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "11:00",
+      "date": "6月 10日"
+     },
+     "page": "main/chsp11/STm10001_15.html"
     },
     {
      "sid": 1117,
      "story_id": "BAm10001_BT02",
      "code": "BT02",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "决斗人偶",
+     "desc": "这一尊尊冰冷的躯壳却挥舞着熟悉的剑路。",
      "aim": "",
      "kind": "battle",
      "is_branch": false,
@@ -7608,7 +7626,7 @@
      "parents": [],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm10001_BT02"
      },
      "state": "released",
      "time": null,
@@ -7618,8 +7636,8 @@
      "sid": 1118,
      "story_id": "STm10001_16",
      "code": "16",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "奴隶",
+     "desc": "他们虽告别了镣铐，却主动用未来做了交易。",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7632,16 +7650,19 @@
       "story": "STm10001_16",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "17:00",
+      "date": "6月 10日"
+     },
+     "page": "main/chsp11/STm10001_16.html"
     },
     {
      "sid": 1119,
      "story_id": "STm10001_17",
      "code": "17",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "埋葬与新生",
+     "desc": "哪怕对手是神明……也总会有办法吧？",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7654,16 +7675,19 @@
       "story": "STm10001_17",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "18:00",
+      "date": "6月 10日"
+     },
+     "page": "main/chsp11/STm10001_17.html"
     },
     {
      "sid": 1120,
      "story_id": "STm10001_18",
      "code": "18",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "白虹贯日",
+     "desc": "她亮出剑锋，却被往昔所缠。",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7676,16 +7700,19 @@
       "story": "STm10001_18",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "state": "released",
+     "time": {
+      "clock": "05:40",
+      "date": "6月 11日"
+     },
+     "page": "main/chsp11/STm10001_18.html"
     },
     {
      "sid": 1121,
      "story_id": "STm10001_19",
      "code": "19",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "一粒沙的愿望",
+     "desc": "“记住我的名字。”",
      "aim": "",
      "kind": "story",
      "is_branch": false,
@@ -7698,16 +7725,16 @@
       "story": "STm10001_19",
       "bubble": null
      },
-     "state": "unreleased",
+     "state": "released",
      "time": null,
-     "page": null
+     "page": "main/chsp11/STm10001_19.html"
     },
     {
      "sid": 1122,
      "story_id": "BAm10001_BT03",
      "code": "BT03",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "title": "微尘破晓",
+     "desc": "从来如此，便是对吗？",
      "aim": "",
      "kind": "battle",
      "is_branch": false,
@@ -7718,7 +7745,7 @@
      "parents": [],
      "stems": {
       "story": null,
-      "bubble": null
+      "bubble": "BBm10001_BT03"
      },
      "state": "released",
      "time": null,
@@ -7727,13 +7754,13 @@
     {
      "sid": 1123,
      "story_id": "STm10001_20",
-     "code": "20",
-     "title": "敬请期待",
-     "desc": "敬请期待",
+     "code": "尾声",
+     "title": "过去之事正如未来之事",
+     "desc": "在这漫长旅途的最后，你终于推开了窄门。",
      "aim": "",
      "kind": "story",
      "is_branch": false,
-     "is_last": false,
+     "is_last": true,
      "memory": null,
      "has_evidence": false,
      "condition": "Cm10001_20",
@@ -7742,31 +7769,12 @@
       "story": "STm10001_20",
       "bubble": null
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
-    },
-    {
-     "sid": 1124,
-     "story_id": "STm10001_21",
-     "code": "尾声",
-     "title": "敬请期待",
-     "desc": "敬请期待",
-     "aim": "",
-     "kind": "story",
-     "is_branch": false,
-     "is_last": true,
-     "memory": null,
-     "has_evidence": false,
-     "condition": "Cm10001_21",
-     "parents": [],
-     "stems": {
-      "story": "STm10001_21",
-      "bubble": null
+     "state": "released",
+     "time": {
+      "clock": "??:??",
+      "date": "??月 ??日"
      },
-     "state": "unreleased",
-     "time": null,
-     "page": null
+     "page": "main/chsp11/STm10001_20.html"
     }
    ]
   }

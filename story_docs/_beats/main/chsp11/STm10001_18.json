@@ -1,0 +1,1469 @@
+{
+ "heading": "# 18 白虹贯日",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1120`　**编号**：`18`",
+  "- **关卡名称**：白虹贯日",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_18`",
+  "- **关卡描述**：她亮出剑锋，却被往昔所缠。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "为求得制胜之机，艾琳娜假意“悔过”呈上断臂接近科佩里乌斯。\n她放弃原名，唤自己为“尘沙”，逼迫科佩里乌斯解放居民灵魂。\n但科佩里乌斯竟唤出了尘沙伙伴们的灵魂用于束缚尘沙……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "为求得制胜之机，艾琳娜假意“悔过”呈上断臂接近科佩里乌斯。\n她放弃原名，唤自己为“尘沙”，逼迫科佩里乌斯解放居民灵魂。\n但科佩里乌斯竟唤出了尘沙伙伴们的灵魂用于束缚尘沙……",
+  "episode": "第十八话",
+  "title": "白虹贯日"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "05:40",
+   "date": "6月 11日",
+   "place": "菲兰尼斯岛外 无名道路"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "穿，穿好了，但这样好难走路啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作灵敏的人偶",
+   "text": "莱塔，要不要我的手臂过去帮你？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "不，不用了，我可不想被你那和触手一样的手臂贴上，准备好，魔王来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们是莱塔和……露露？你们怎么变成人偶了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "才没有变成人偶，我们只是套了个人偶的壳子，好押送着你混进高塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作灵敏的人偶",
+   "text": "说起来，你怎么去了这么长时间，还满头大汗的，你和艾……不对，不对，现在应该叫尘沙队长了……你们在做什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "刻墓碑。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "哦，原来是刻墓碑啊，我明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真的是在刻墓碑啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "不用解释，我懂，我懂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哈……真是的，我们还是说正事吧，只有你们两个加上我，就算假装是押送也不行吧？我这张脸一下子就被认出来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作灵敏的人偶",
+   "text": "早就准备好了，大家，出来吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "他们都是躲起来的市民，得知我们要去破坏奥林匹娅和科佩里乌斯的邪恶计划后，主动来帮我们的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这很危险啊！你们跟去的话……很可能再也回不来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被救的奴隶少女",
+   "text": "我们不怕危险，如果不是守夜人救了我，又把我接回家细心照顾，我早就死在菲兰尼斯的大街上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被救的奴隶少女",
+   "text": "我认出您了，您也是当时救了我的人，我愿意为了掩护您冒这个险。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岛外的住户",
+   "text": "对，正因为有尘沙队长在，我们岛外的街道才一年没有火灾，也没有盗贼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "激动的公民",
+   "text": "谁带给我们安宁，谁在破坏我们的幸福，我们还是分得清的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "岛外的住户",
+   "text": "与其被那些人偶带走，不如拼一把，就算我们不擅长战斗，但掩护您这种小事我们还是做得到的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作笨拙的人偶",
+   "text": "魔王，我们已经告诉了他们尘沙的新名字，他们不会被科佩里乌斯的魔法利用的，菲兰尼斯的大家站在我们这边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲兰尼斯的大家站在我们这边……就像，星塔竞拍时那样。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "动作灵敏的人偶",
+   "text": "魔王，走吧，我们去解放那些被关在高塔里的人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯，我们走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "05:50",
+   "date": "6月 11日",
+   "place": "菲兰尼斯岛外 近湖的森林"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呼，呼，呼——我来了，尘沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，你跑到什么地方去了？再晚一点的话，就赶不上约定的时间了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我去找魔王借了一些头发，破坏遍布全城的法阵用得上，这还是你给我的启示呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "哦，你想用我破坏地下法阵时的办法，但浴场的法阵里未必有那么合适的位置吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我当然会把你的办法稍作修改啦，来，帮我把魔王的头发绑在手腕上和缠在我自己的头发里，然后把我打晕吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "打，打晕？为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "魔王的计划是——我们带着她被截肢的那段手臂作为信物，假装向科佩里乌斯投降，然后伺机破坏吧。",
+    "cn_m": "魔王的计划是——我们带着他被截肢的那段手臂作为信物，假装向科佩里乌斯投降，然后伺机破坏吧。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "但你仔细想想，我们两个人联手，连一个不会魔法的魔王都抓不住，只切下来一只受伤的手臂，这种谎话对方会信吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不信。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "就是嘛，魔王的计策挺狠的，我甚至觉得她就算没有受那么重的伤，没有截肢，也会主动砍断自己的手臂，让我们拿着当信物的。",
+    "cn_m": "就是嘛，魔王的计策挺狠的，我甚至觉得他就算没有受那么重的伤，没有截肢，也会主动砍断自己的手臂，让我们拿着当信物的。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "但她的计策只对自己狠，她不舍得用同样的力度要求我们，所以，我就只能自己要求自己了——",
+    "cn_m": "但他的计策只对自己狠，他不舍得用同样的力度要求我们，所以，我就只能自己要求自己了——"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "你把我打晕，说我和莱塔想带着魔王逃走，你杀死了莱塔抓到了我，魔王的手臂也被你砍断，只可惜她掉进了湖里。",
+    "cn_m": "你把我打晕，说我和莱塔想带着魔王逃走，你杀死了莱塔抓到了我，魔王的手臂也被你砍断，只可惜他掉进了湖里。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "奥林匹娅说让我“全权管理她所拥有的魔力”，实际上是想把我拿去当什么法阵核心吧。你把我一起献上去，他们绝对会欢喜的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这样太危险了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "没事啦，只要他们敢把我扔进法阵当核心，魔王的头发就能给他们好看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "况且，谁不危险呢，我们的计划九死一生，可她自己承担的却是十死无生的那个位置，想要许下改变高塔规则的愿望，到底要付出多少东西才够……",
+    "cn_m": "况且，谁不危险呢，我们的计划九死一生，可他自己承担的却是十死无生的那个位置，想要许下改变高塔规则的愿望，到底要付出多少东西才够……"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": {
+    "cn_f": "如果魔王没有回来，我会付出我的生命去许愿，许愿让她和我的伙伴一起复活。",
+    "cn_m": "如果魔王没有回来，我会付出我的生命去许愿，许愿让他和我的伙伴一起复活。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "按照莱塔所说，我是拥有传奇经历的人，我的寿命和灵魂应该能让高塔满意吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "魔王如果真的是从未来回来的人，那她可要比你传奇，况且……你关心的“复活”许愿，我也去请教莱塔了。",
+    "cn_m": "魔王如果真的是从未来回来的人，那他可要比你传奇，况且……你关心的“复活”许愿，我也去请教莱塔了。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "她负责管理高塔，的确接触过一些我在学校里没学到的“许愿某人复活”的案例……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "但那些案例无一例外都失败了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "莱塔说，那是因为躯体死亡后，除非有人能在死亡的前一刻用魔法控制住灵魂，否则灵魂很快就会逸散。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "向高塔许愿，高塔也找不回已经不存在的灵魂，只能按照许愿者的愿望随便拼凑一个塞进尸体，结果站起来的根本是不能被称为人的怪物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "竟然是这样……原来，高塔也有做不到的事情。我的愿望从一开始就没有结果，可这样的话……魔王要怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "许愿箱，科佩里乌斯亲口说“那是比半神的命匣还要神奇的神物”，半神的命匣是保存半神灵魂的魔法道具，所以……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我们只要能抢回许愿箱，就能救下魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "正是如此，快把我打晕，然后拼死一搏吧，在我晕倒的时间里，就靠你了哦，尘沙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "交给我吧，我一定会斩断奥林匹娅和科佩里乌斯的疯狂计划。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "尘沙抱起晕倒的天冬，向着通向岛内的滑索走去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "还未明亮起的树林里，伫立的墓碑上不知何时多了一个歪歪扭扭的名字……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "新的名字固执而笨拙地与另外两个名字保持着距离，但终究还是在一块石头上完成了团聚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:00",
+   "date": "6月 11日",
+   "place": "菲兰尼斯岛内 奥林匹娅大浴场"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "科佩里乌斯，我的晋升仪式准备得如何了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "一切都按计划进行，您全新的身体已经在浴场内准备好了，最后一批菲兰尼斯的市民也已经进入高塔，准备为您的晋升仪式献上一份力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "很好，“奇迹人偶”寻到了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "刚刚有人偶向我汇报，您的守夜人已经重新回到了您的身边，还给您带来了礼物，想必她应该有所斩获。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "呵呵，不愧是我看重的人，那时，我还计划过占据她的身体达成“完美”，但结果还是你制作的人偶身体更胜一筹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "谢大人称赞，您要见她一面吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "不必了，时辰已到，我要进入新的身体了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "“奇迹人偶”要怎么样运用到我的新身体上，就交给你了，科佩里乌斯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "遵命，能亲手制作半神的身体，是臣下此生燃尽灵魂也换不来的无上荣耀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "艾琳娜，你来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "科佩里乌斯大人，属下擅自前往高塔，还因为堕落圣女的误导和您拔剑相对，差点耽误了奥林匹娅大人晋升半神的伟业，几乎铸成大错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "属下已经知错了，特来向大人请罪。属下不求获得原谅，但请让属下继续为奥林匹娅大人，为菲兰尼斯的明天尽一份力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "请罪？真是意外啊。我看你和堕落圣女以及那个“奇迹人偶”相处得很好嘛，你又是个重感情的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "奥林匹娅大人的确附身在人偶上联络你，可那就是顺手为之，没想到你真的会回来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "科佩里乌斯大人……属下之前被堕落圣女和魔王迷惑，沉溺在虚假的幸福之中。多亏您的人偶点醒了我，让我不至于继续迷失下去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "属下忠于的始终是奥林匹娅大人的理想，只有实现奥林匹娅大人的理想，属下才能实现愿望。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵，说得不错。那么，“奇迹人偶”你抓到了吗？你不会就这么空手来“请罪”吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "“奇迹人偶”一事，属下已有斩获，在汇报那件事之前，属下还抓住了堕落圣女天冬，请您验看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "表情冷峻的守夜人打开身旁的毯子，抱起昏迷的天冬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "哦，不错不错，你竟然能猜透奥林匹娅大人的心思，把她也抓回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你打得够狠啊，这家伙看上去得晕上一阵子，但以防万一——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "伟大的魔法之神……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "将寒冷与痛苦降临于天冬，压制她的理智与双眼。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "哼，这样一来，她至少一周内都不会醒来。你把她沉入这边的浴池，我要用她的身体替换现在法阵的核心。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "遵命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "天冬从守夜人的臂弯中沉入浴池，落在池底刻印的法阵上，充满魔力的池水此刻成为魔法最好的导体……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "星塔的魔力源源不断地注入到这个浴池中，又通过池水输送到菲兰尼斯的每一条河流中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "这件事办得不错。我相信你认罪的诚意。不过，“奇迹人偶”到底怎么样了？那才是我真正关心的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "请容属下解释……奥林匹娅大人附身的人偶出现后，天冬和莱塔意识到魔王……也就是大人口中的“奇迹人偶”的重要性。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "她们想以“奇迹人偶”作为筹码和您谈判，为自己争取离开菲兰尼斯的机会。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "属下和她们死斗了一场，抓获了堕落圣女，但“奇迹人偶”被莱塔抱着，两个人一起跌入了湖中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "跌入湖中？！你怎么能让珍贵的“奇迹人偶”跑掉！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": {
+    "cn_f": "你也好，那个堕落圣女也好，一百个你们加在一起也比不上她的价值。",
+    "cn_m": "你也好，那个堕落圣女也好，一百个你们加在一起也比不上他的价值。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "大人请息怒，属下并没有让她们跑掉，请看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "这……这是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "守夜人从身后拿出了一卷裹尸布，里面装着一支扭曲弯折，但依旧白净如玉的手臂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": {
+    "cn_f": "当时，天冬被属下抓到，莱塔想要携带“奇迹人偶”从湖中逃走，属下阻拦不及，只能挥出一剑，杀掉她们。",
+    "cn_m": "当时，天冬被属下抓到，莱塔想要携带“奇迹人偶”从湖中逃走，属下阻拦不及，只能挥出一剑，杀掉他们。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": {
+    "cn_f": "属下那一剑砍断了“奇迹人偶”的右臂，同时把莱塔拦腰斩成两段，她们的尸体沉入大湖，属下只来得及抓到这支手臂。",
+    "cn_m": "属下那一剑砍断了“奇迹人偶”的右臂，同时把莱塔拦腰斩成两段，他们的尸体沉入大湖，属下只来得及抓到这支手臂。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "原来如此，被砍掉一臂又掉入湖里，就算是“奇迹人偶”恐怕也没办法生还。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵呵，你做得好啊，只要人没跑掉，尸体沉湖什么的根本不是问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": {
+    "cn_f": "你们，现在立刻去湖里打捞“奇迹人偶”的尸体，我要她身上的全部东西！哪怕是掉进湖里的一根头发，也要给我带回来！",
+    "cn_m": "你们，现在立刻去湖里打捞“奇迹人偶”的尸体，我要他身上的全部东西！哪怕是掉进湖里的一根头发，也要给我带回来！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "浴场里的人偶们",
+   "text": "喏！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "艾琳娜，快把那支断臂呈上来，我要好好地欣赏和研究一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "遵命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "科佩里乌斯摩挲着魔王的断臂，完全沉迷在其中，兜帽下的面孔闪烁着诡异的光……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "他完全没有意识到守夜人已经趁着这个机会，站到了他的身后。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "哦？这具断臂的切口上，竟然还残留着肌肉痉挛的痕迹。明明只是具人偶，却被赋予了与人类无异的躯体，连如此细微的神经反应都模拟得生动逼真。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "不过，过分追求极致的真实，可不见得是什么好事呢。——像这样被硬生生斩断手臂，想必会品尝到超乎想象的剧痛吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:30",
+   "date": "6月 11日",
+   "place": "菲兰尼斯岛内 祭台之间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（嘶——明明已经切掉了……为什么还在疼啊！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我在莱塔和露露的掩护下，用尽最后的力气，爬上冰冷的“祭台”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（这里……布满了石棺，那两个疯子真的把十万人都塞进了高塔里，大家帮我冲开了人偶的拦截，我得快一点。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（不知道……艾琳娜，不，现在应该叫她“尘沙”了，不知道她和天冬那边还顺利吗？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（糟糕……是因为失血过多吗？脑子转不动了……得想个办法。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（用力掐住伤口）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（咕——好疼，不过这样一来就清醒了。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（接下来的事情，只有我能做到。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（按照记忆里爬塔的经验，星塔需要的并非人的生命，而是人的记忆。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（……相反，死去的人是不会创造新的记忆的，如果我的推测是对的，那么星塔……或者说这里的高塔，应该能够接受我想要许的那个……超乎想象的愿望。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（尘沙、天冬，等着吧，我一定会改变这个扭曲的世界！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我下意识举起已经不存在的右臂，向着巨大的十字星，默念起最后的祷词。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "08:40",
+   "date": "6月 11日",
+   "place": "菲兰尼斯岛内 奥林匹娅大浴场"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "光焰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "咕——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "艾琳娜……你竟敢偷袭我，奥林匹娅的理想，你的愿望……你都不要了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "我不会再把自己的愿望寄托在别人的身上，更不会用别人的生命作为实现愿望的代价。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "我依旧忠于“这个世界不应该有奴隶”的理想，背叛理想的人……不，说谎的人是她才对！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "科佩里乌斯，你们才是祸乱一切的人，受死吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵呵，我只是忠实地完成奥林匹娅大人的命令，协助她追求完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你带来的昏迷的堕落圣女和“奇迹人偶”的手臂都不是假货……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你为了刺杀我，付出的代价是不是太多了？艾琳娜。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "悔过的守夜人",
+   "text": "你的话也太多了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵呵呵，艾琳娜，你真的觉得你赢了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你接受了奥林匹娅大人的赐名，你的身体和灵魂都是奥林匹娅大人的所有物——由我代管的所有物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你，只是我们掌心中的人偶罢了，竟然试图反抗我。名契合一——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "科佩里乌斯，没用的，我已经放弃了那个虚伪的名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": {
+    "cn_f": "我不是被你们控制的艾琳娜·柯罗西，我是尘沙，是代替魔王的伙伴守护她的，菲兰尼斯的尘沙！",
+    "cn_m": "我不是被你们控制的艾琳娜·柯罗西，我是尘沙，是代替魔王的伙伴守护他的，菲兰尼斯的尘沙！"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "哈哈哈，你以为随便改一个名字，就能摆脱奥林匹娅大人的“名契合一”？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "天真，愚蠢，拙劣，你依旧是那个毫无魔法天分的角斗场奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "名字，不只是一个人的“代号”。还是你自己……以及所有和你有羁绊的人的共同认知。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你以为魔法的关键、束缚住你的东西是“艾琳娜·柯罗西 ”这个名字？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "其实你身上那些无用的羁绊，多余的情感才是束缚着你的锁链。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "而那些羁绊和情感，正是来自你最亲密的那些人，你没办法下手的那些人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "艾琳娜，你自顾自地放弃名字跑到我的面前想要刺杀我，真是自掘坟墓！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "名契合一，以奥林匹娅之名",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "对艾琳娜·柯罗西降下永恒的枷锁——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "咦？魔法……为什么没有效果？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "自掘坟墓的人是你，科佩里乌斯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "你让城里的大家陷入深眠，你把人们变成了你魔力的来源。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "失去了意识的人们根本认不出我，如果你想打倒我，就把拘束着城内居民灵魂的魔法撤掉吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "腿，我的腿断掉了……这可是奥林匹娅大人亲手给我做的身体，竟然被你毁坏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "明白了，我都明白了。这是那位堕落圣女、又或者“奇迹人偶”出的主意吧，你们还是懂一点魔法的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你们先是改变了你对自己的认知，接着又发现了魔法的漏洞——没办法把单个人放出来。我想要利用市民的灵魂就必须中止魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "最后，再以身为饵，送你来暗杀我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "好计策，好计策，但是，那又如何？我可是菲兰尼斯的大司祭，是尊者奥林匹娅大人座下第一人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "高塔，回应我的祈愿",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "名契合一，以奥林匹娅之名",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "对艾琳娜·柯罗西降下永恒的枷锁——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "够了，科佩里乌斯，就算你能从高塔里获得源源不断的魔力，那种无意义的魔法也挡不住“拂晓”！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "三条闪耀着魔法光芒的透明丝线从浴场墙外射入，其中两条一左一右钉入尘沙的手臂，最后一条缠上了尘沙的脖子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "刚才明明无效的……为什么……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "菲兰尼斯市民的灵魂，的确都被束缚在魔法中，但我手里还有几个认识你的“藏品”嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "随着科佩里乌斯的手势，三个人偶走进浴场。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "丝线骤然绷紧，尘沙的双手以一种不自然的方式剧烈摆动，吊起，就像有一只无形的巨手在空中粗暴地拉扯着她的双臂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "是之前遇到的……人偶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵呵，不认识了吗？这是你在角斗场的同伴啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "回想一年前，我告诉她们你从奥林匹娅大人那里获得了一个真正的名字的时候，她们开心的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "可惜，那时我制作活人人偶的手艺还不过关，在她们被连续不断的角斗折磨死后，没来得及剥下她们的皮，只能借助高塔的力量，勉强把她们的灵魂碎片放进木偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "科佩里乌斯！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "奥林匹娅大人，曾打算把你作为她的新容器，所以按理来说，和你亲密的同伴们应该是不可能活下来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "你明白了吗？我是把她们的灵魂救了，你应该感谢我才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "请安心吧。这次一定，会谨慎地操纵你的身体，用你自己的手亲自将你的皮肤仔细剥下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "我会做出一个一眼看上去看不出是人偶的，完美无缺的“艾琳娜·柯罗西”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵呵……这么做的话，你就可以跟曾经的伙伴一起，\n并排陈列在我的收藏中了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "杀了你……！只有你，我一定要亲手杀了你！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "竟然还能动，何等坚韧的精神力啊。只不过伤到你的身体也并不是我所希望的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "就这样稍微睡一会儿吧，我也需要花费一点时间来修补我的身体。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "呵呵……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "那么，做个好梦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

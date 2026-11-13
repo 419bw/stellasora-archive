@@ -1,0 +1,2442 @@
+{
+ "heading": "# 15 高塔之下",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1116`　**编号**：`15`",
+  "- **关卡名称**：高塔之下",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_15`",
+  "- **关卡描述**：灵魂支起王座——永恒的雨已然落下。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "结合证据，艾琳娜怀疑科佩里乌斯隐瞒了可怖的真相。\n莱塔护送你们暗中出城的计划败露，与科佩里乌斯正面冲突。\n靠着莱塔与天冬的魔法配合，你们暂时逃离……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "结合证据，艾琳娜怀疑科佩里乌斯隐瞒了可怖的真相。\n莱塔护送你们暗中出城的计划败露，与科佩里乌斯正面冲突。\n靠着莱塔与天冬的魔法配合，你们暂时逃离……",
+  "episode": "第十五话",
+  "title": "高塔之下"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "11:00",
+   "date": "6月 10日",
+   "place": "菲兰尼斯岛外 闲置的囚车"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔法之神，请赐予我能够安全逃离菲兰尼斯的宝物吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔法之神，我是您虔诚的信徒天冬，请满足我的愿望，让我能获得无数的金币，财宝吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（唔……完全没用，虽然魔王说这东西叫做“许愿箱”，但不管我怎么许愿，箱子都没回应啊。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（但是，我记得第一次看到这个箱子时，这个东西的确是有反应的——）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（好倒霉，好倒霉，我都躲到这种超级偏僻的高塔里了，怎么还会遇到守夜人啊。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（那家伙还叫我什么“堕落圣女”，我从埃摩逃出来后就藏在这里了，要说堕落……每天窝在这里也挺堕落的，但我没杀过人啊！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的守夜人",
+   "text": "光焰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（追，追得还挺快。我设置在下层的陷阱法阵都被破解……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（不，那家伙直接踩中了陷阱，然后硬扛过去了，这是什么怪物啊！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（怎么办，怎么办？我肯定会被抓回埃摩，我才不要为别人许愿，我不想死，我存的金币还没花完呢！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（无，无路可走了，先躲到祭台的后面吧！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（咦？这是什么？这里什么时候有个箱子……要不然，我就藏在这里面吧，总比一下子就被抓到好，万一那个守夜人没搜这边呢……）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔法之神在上，魔法之神在上，请保佑我，让我在这个箱子里得到拯救吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（呜——箱子怎么亮了？！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的守夜人",
+   "text": "在那边！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（该死的箱子，你亮什么亮啊，这不就全暴露了？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "冷静的守夜人",
+   "text": "堕落圣女，你已经无路可逃了，把双手放在我看得到的地方……从座椅后面出来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（等一下，这里面怎么有个人，脸还挺好看的……咿——身体凉凉的，是……是尸体吗？我，我好像有办法了！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "尸体大人，对不起，为了能活下去，我只能借你一用了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（那时候……我向魔法之神的祈祷算许愿吗？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（是我把魔王许愿出来了？还是说……魔法之神的意思是……我能从魔王那里得到拯救？）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "（哈，我真是想太多了，她虽然人不错，脸也不错……嗯，身材也不错。但拯救什么的……这也太夸张了，我有什么需要她来拯救啊。）",
+    "cn_m": "（哈，我真是想太多了，他虽然人不错，脸也不错……嗯，身材也不错。但拯救什么的……这也太夸张了，我有什么需要他来拯救啊。）"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": {
+    "cn_f": "（明明是她需要我研究明白“许愿箱”，找到回故乡的线索，是我“拯救”她才对！）",
+    "cn_m": "（明明是他需要我研究明白“许愿箱”，找到回故乡的线索，是我“拯救”他才对！）"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（不过，这个箱子也够诡异的，我向里面注入的魔力像是掉进了无底洞一样……完全违背了“魔力不会凭空产生，也不会凭空消失”的魔法学基本原理。）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "（再研究下去，魔法学就要不存在了！）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "喵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "咦？哪来的小猫？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可爱的黑猫",
+   "text": "呜咪~喵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你在蹭我啊，好可爱，呼，摸着你柔顺的毛发，心中的烦闷都飞走了呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "为了表达谢意，请在这里等我哦，我去给你拿小鱼干。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "可爱的黑猫",
+   "text": "喵~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "黑猫乖巧地叫了一声，一边舔着爪子，一边目送天冬啪嗒啪嗒地跑进因苏拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "然后，她似乎想起了什么，轻盈地跳上了“许愿箱”的盖子……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "从没盖严的缝隙处钻了进去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "11:10",
+   "date": "6月 10日",
+   "place": "菲兰尼斯岛外 破旧因苏拉"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "小鱼干，小鱼干，你在哪里~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呜哇，艾琳娜在柜子里存了多少自己烤的面包啊，不知道的还以为是一柜子盾牌呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，我们回来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "欢迎回来，嗯？你们的表情怎么这么严肃？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，你还记得岩洞里我们救出的那些人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "当然记得，那三个孩子已经回家了吧，其他人在科佩里乌斯大人那休养了一段时间，现在已经恢复得差不多了，暂时住在岛内，等待他们各自家乡的人来接他们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "说起来，奥林匹娅大人什么时候晋位半神啊，我还期待着赏赐呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那件事或许还有内情，这几天……我发现了一些疑点。各位请看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "库阿尔塔，你感觉怎么样？昨晚做噩梦了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乖巧的女儿",
+   "text": "没有了，爸爸，我昨晚睡得很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "那就好，魔法之神和奥林匹娅大人会保佑你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "你出去玩吧，记得今天去找铁匠把脖子上的镣铐取下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乖巧的女儿",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……失踪的三个孩子之一，看起来已经完全恢复了嘛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "嗯，这是她和父亲在家门前的大街上的对话，请各位再看看这个。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "库阿尔塔，你感觉怎么样？昨晚做噩梦了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乖巧的女儿",
+   "text": "没有了，爸爸，我昨晚睡得很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "那就好，魔法之神和奥林匹娅大人会保佑你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "你出去玩吧，记得今天去找铁匠把脖子上的镣铐取下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乖巧的女儿",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "艾琳娜，你放错了吧？这不就是刚才那段？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这就是问题所在，我播放的并不是同一段“影像”，而是昨天和前天早上同一时刻的两段影像。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你，你在说什么？那对父女的对话、姿态和动作完全一致啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "只，只是巧合吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那请各位再看一段吧，这是大前天的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "库阿尔塔，你感觉怎么样？昨晚做噩梦了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乖巧的女儿",
+   "text": "没有了，爸爸，我昨晚睡得很好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "那就好，魔法之神和奥林匹娅大人会保佑你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "温柔的父亲",
+   "text": "你出去玩吧，记得今天去找铁匠把脖子上的镣铐取下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "乖巧的女儿",
+   "text": "好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这，这是什么啊，这对父女三天里一直重复着同样的对话？并且看她脖子上的镣铐，这孩子始终也没去找铁匠。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不止三天，五天前我就发现了他们这种奇怪的行为，并且是我们救出的三个孩子和她们的家人都出现了同样的情况。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我本以为是岩洞里控制魔法的后遗症，就去找科佩里乌斯大人询问……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "科佩里乌斯大人，另外四十七个人有出现这样的症状吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "艾琳娜，奥林匹娅大人不是让你休假吗？为什么你还在调查这个已经完结的案子？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "啊，这个……我只是……只是有些放心不下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "那三个孩子回家时我已经给她们做过检查了，身体和精神都很健康哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "另外四十七个人虽然还没完全康复，但完全没有你说的那种情况发生，请放心吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "反倒是你的气色很差啊，艾琳娜。你这些天并没有休假吧。我想……你说的那些事情可能是你太疲惫看错了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "看错了……我应该不会看错。科佩里乌斯大人，我能不能去看看那四十七个人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜，你信不过我吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "当，当然不是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "那就好，回家休息吧。别忘了，你还在休假中哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "被科佩里乌斯大人拒绝后，我就录下了这些影像，我觉得三天的影像足以证明我说的是真的。可是，当我想再去找一次科佩里乌斯大人时……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "你犹豫了",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "对，我犹豫了，我告诉自己“要等露露那边的调查结果”，实际上……我是不知道应该怎么办了。所以，才会去找你聊那些事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，不要继续查了，这起案件的后续工作你已经移交给了科佩里乌斯，和守夜人无关了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "可是，这么大的疑点……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那也不是你的工作了，你没听说过那句话么——鞋匠，别管鞋以外的事。守夜人也是一样。再说了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "总不能什么都查吧，万一查出点什么呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "正好你在休假，不如我们一起去菲兰尼斯城外游览一下吧，艾琳娜、魔王、露露，还有我，我们都去。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "怎么突然提起游览的事情……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "请进。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "崭新的人偶",
+   "text": "艾琳娜队长、见习司祭大人，自由民天冬，三位好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "崭新的人偶",
+   "text": "在下受圣女之托，邀请三位前往高塔，圣女在那里等着你们，想和三位讨论一下有关许愿的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "讨论许愿的事情……这么突然？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "明白了，请稍等一下，我们整理一下衣服。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "崭新的人偶",
+   "text": "遵命，在下准备了马车，在门口等待三位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "圣女为什么会在这个时候找我们？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "不清楚，但我们还是去吧。克洛迪娅·莱塔是个好人……她不会谋害我们的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:30",
+   "date": "6月 10日",
+   "place": "菲兰尼斯岛内 星塔大门"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，你一会一定要听我的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那个古怪的科佩里乌斯的确不值得相信，从头到脚散发着一种人偶的感觉，但是，克洛迪娅·莱塔除了说话比较尖酸刻薄，为人喜欢奢侈炫耀之外，绝对是个好人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "你可以把你调查到的疑点告诉她，然后让她转呈半年来都没见过你的奥林匹娅大人，你守夜人的职责就算完成了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "然后，我们就借着你休假的机会去菲兰尼斯城外散散心。对了，干脆我带你们回到我住了三年的那座高塔吧，那里面还有好多我的魔法道具呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，你好像很紧张？我的确对科佩里乌斯大人的做法抱有微词，他显然对我们隐瞒了一些事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "但如果我把那些事情通过圣女大人呈报，我就违反了纪律，并且也会给圣女大人增加困惑吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "喂喂喂，你现在怎么又正经起来了，你不是都被魔王引诱得堕落了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "堕落的是“魔<r=BOSS></r>王的黑骑士”，和“菲兰尼斯的守夜人”没有关系。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这是在玩什么扮演游戏啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬……又回到一开始相遇时，时刻想要逃走的那种状态了。她到底发现了什么？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，说说你的担忧吧。你知道艾琳娜向来把保护菲兰尼斯当做自己的责任。你不说清楚，她不可能答应你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这座城邦有问题，艾琳娜，我们刚到菲兰尼斯的时候，你这么说过吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "数年前，统治菲兰尼斯的尊者奥林匹娅大人释放了全部的奴隶，给予奴隶们公民身份。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在那之后，城中之人以善意和友爱互相维系，菲兰尼斯也日渐兴旺，成为“完璧之城”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "竟，竟然释放了全部的奴隶，那原本由奴隶做的工作怎么办？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "奥林匹娅大人制作了很多魔法人偶，这些人偶承担了原本由奴隶做的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "一开始，我还不信世界上会有这么好的尊者，直到我进入菲兰尼斯，这里的各种辛苦的工作的确都被人偶包办了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "岛内的人们过着富足的生活，有充足的闲暇来研究艺术、武艺、以及文学。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "岛外的人们更加辛苦，每天都要为明天的面包奔波，但你们知道吗？在埃摩城，至少有四分之一的人没办法住在有屋顶的地方，也没有新鲜的面包吃。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "如果说菲兰尼斯和别的城邦有什么不一样的地方，那就是老人似乎有点多，很多老爷爷老奶奶在家门口晒太阳，当然，这也说明了这里的富足，别的城邦很难有这么多老人活到这个年纪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这都是魔法的伟力吧。菲兰尼斯虽然算不上真正的“完美”，但和你口中的埃摩城比起来，自称一句“完美”也不过分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔王，你真是……完全不懂魔法呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔法学最基本的一条原理——魔力不会凭空产生，也不会凭空消失。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "以艾琳娜为例，她施放闪光术的魔力完全是在日积月累的生活和锻炼中，积累在她的身体中的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "如果她把自己身体里的魔力储备都用完了，那她就根本没办法放出魔法，只能等着身体慢慢积累。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那么问题来了，驱动这些人偶的魔力是从哪里来的呢？总不能是从天上掉下来的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "是从水里来的。数年前，奥林匹娅大人和科佩里乌斯大人在岛上发现了一处充满魔力的泉水，“浴场测试”用的水就是从那口泉水里引来的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，菲兰尼斯是靠着大自然的馈赠来驱动人偶的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，你亲眼看到过那处泉水吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "没，没有……守护泉水并非我的职责。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我想也是……如果菲兰尼斯真有那种神奇的，能咕嘟咕嘟冒出魔力的泉水，菲兰尼斯的主人就不会还是奥林匹娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "你这是……什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "我的意思是——真有这种超级宝贵的泉水，菲兰尼斯早就有半神降临了！那些半神虽然懒得管诺瓦的杂事，但对于魔力可是渴求得很呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "还有，你不是带着我走遍了菲兰尼斯的大街小巷吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这座城邦……处处都有魔法阵的痕迹，公开的理由是——用于给人偶供给魔力，但你们不觉得太小题大做了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不，不觉得。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "没，没概念。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "真是说不通，总之……原本我看到这些可疑的地方只是担忧，毕竟这是菲兰尼斯的事情，我和魔王只是两名过客，艾琳娜你也只来了不到一年。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "然而……今天看了艾琳娜你记录的那些“影像”后……你们不觉得，那对父女的行为很像……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "人偶吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "人……人偶……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "更具体的事情我还没想明白，但这绝对非常古怪啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "啊，真是的……和你们在一起的这段日子里我都失去了过去对危险的敏锐感了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "所以，我们走吧，趁着坏事还没找上门！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "抱歉，抱歉，让三位久等了，如果让重要的客人就这么回去了，没有办法进行接下来的商谈，可是我的失职呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "圣女大人，午安。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "午安，见习司祭大人，艾琳娜队长，还有天冬，欢迎再次来到高塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "圣女来了……虽然天冬很不安，但还是先处理完这边的事情后再和天冬讨论吧。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "今天邀请各位前来，是想商讨两件与许愿有关的事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "第一件，艾琳娜，你获得的那次许愿机会，你计划好何时使用了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "圣女大人，非常抱歉。我虽然已经想好了许愿的内容，但我还没弄清楚如何设计祷词，所以，我暂时无法决定许愿时间。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "那么，你打算用什么作为许愿代价呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "菲兰尼斯之外，富有的奴隶主用奴隶作为许愿的代价，贵族们命令圣女为自己许愿，菲兰尼斯不允许存在奴隶，所以，你想使用圣女为自己许愿吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不，我不想。看到见习司祭大人许愿后，我就下定了决心——我绝对不会把他人当做许愿的代价，我会亲口许愿，自己支付代价。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "艾琳娜，你拥有高洁的灵魂，是一位真正的“骑士”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "我今天想和各位商讨的第二件事，或许能让你在许愿时减少一些代价。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "见习司祭大人，您可以把您那种特殊的许愿技巧传授给圣女吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "特殊的许愿技巧……你是指我许愿时念的祷词吗？那个祷词并不能避免支付代价，你也看到了，我被高塔拿走了很多的……寿命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "的确如此，但我这几天仔细评估了您许愿出的神赐器物，那件器物只需要注入少量魔力，就能达成“持续施放三十个侦查法术”才能实现的效果。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "况且，同时间持续施放三十个侦查法术……只有大司祭这样的魔法师才能做得到。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "这种强大的神赐器物如果用我们的方法许愿，很可能需要五到十名圣女才能实现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "所以，您的许愿方法对我们非常重要，我知道让您让出这种珍贵的技术是个过分的要求，您如果有什么需求，我会尽力满足。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个，我能问一下吗？你所说的“需要五到十名圣女”具体是指——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "圣女的许愿很少一次成功，而不管成功与否，不管高塔给出的回报是否是许愿者想要的， 圣女的灵魂和肉体都会被作为代价献祭给高塔，在祭台上化为灰烬。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "化为灰烬……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "那当火焰燃尽，你会费心去关照那堆已经冷掉的灰烬吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不，不会吧……最多看看有没有余火，以免引起火灾。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "呵，我们圣女就是那种用完后就没人关心的“物件”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "所以，天冬才会用灰烬和物件来形容圣女么……这样的规则也太残酷了。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那些圣女，以及被当做代价的奴隶甚至不是为了自己的愿望牺牲……不对，应该是“被消耗掉”，这样的世界……不管怎么想都不对劲。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "精确撰写祷词的确能减少代价，虽然被拿走寿命和记忆也很残酷，但总归能帮上她们一些。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我没有什么需求，如果能让你们在许愿时少付出一点代价，我很愿意和你们交流许愿技术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "在下代表全体圣女，感谢您的慷慨和仁慈，您对我们的恩情，圣女会永远记得。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "那么，请各位跟我进入高塔吧，我想请您在祭台前为我讲解您那特殊的许愿技术。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "scene",
+   "time": "12:45",
+   "date": "6月 10日",
+   "place": "菲兰尼斯岛内 祭台之间"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "圣女大人，为什么你们管这个座位叫做“祭台”？不管怎么看，这都是一个石椅，从华贵程度来说，甚至可以说是王座。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "多年前，高塔降临在大地之上，第一个走进高塔的人听到了神明的声音——\n“凡人，献上你崭新的勇气吧，在此座上许下愿望，循此苦旅，以达星辰。”",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "某种意义上，如果许愿者真的支付得起代价，那么这个“祭台”真的能让许愿者君临天下，所以，你觉得它像王座也很正常。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此，那我可以开始讲解我的许愿方法了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "见习司祭大人，或者我应该直接称呼您为魔王才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "您的许愿方法的确对我们很有帮助，但我欺骗了各位，我请各位来并不是商议这件事的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "圣女们，出来吧——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "咦？这……这是……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "这三位是我的后辈，我用魔法暂时改变了她们的外形，把她们弄成你们的样子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "现在，她们三位会走出高塔，由人偶护送，回到你们居住的因苏拉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "你们马上换上这些衣服，在高塔外的人偶离开后立刻前往码头，那里有一艘船在等着你们，把你们带到埃摩。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "圣女大人，您这是什么意思，我是菲兰尼斯的守夜人，直接听命于奥林匹娅大人。你为什么要……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "没时间解释了，我把你们叫到这里才和你们说这些话，是因为这里是唯一不会有人偶盯着我的地方，你们直接看身边的石棺里有什么吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "这……这是……那个孩子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，这边也有……是影像里的那个男人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这里也是，我们救出的三个孩子，以及她们的家人都躺在这些棺材里熟睡。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "为什么会这样，我昨天早晨，不，今天去练习魔法的路上……我还看到她们了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "我不知道你看到的是什么，但昨天晚上我发现她们在这里的时候，她们应该已经被运进来有些时日……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "推算一下大概就是你们在岩洞里救出这三个孩子的转天，这些人就被运进来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "这些人都中了昏睡魔法，我无法叫醒，并且他们一直处在持续的许愿状态中。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "持续的许愿状态……这是什么意思？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "天冬，我没时间解释，你们该换衣服走了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "还有，我没想到你竟然会在菲兰尼斯待这么长时间，以你过去三年的敏锐，我还以为你在我帮你打掩护后，早就应该逃回你那个高塔里的安乐窝才对。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "什，什么……高塔里的安乐窝？克洛迪娅你，你在说什么？你都知道什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "如果我们还有机会再见面的话，我会把一切都告诉你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "不好，是科佩里乌斯，他为什么这么快……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "你们三个，快躲进靠近门口的空石棺里，我会想办法拖住那家伙，你们趁机逃走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔王，艾琳娜，快过来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "天冬拉住我们的手，以我们从未见过的速度钻进了一口打开的石棺里，拉上了半掩的盖子，只留下一小道缝隙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜，这里也太挤了，真的能装下三个人吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "忍耐一下吧，这种时候哪里有的选。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃——抱歉，艾琳娜，我好像按到你的头了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不用道歉，你没有按到我的头。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "傻瓜，你按到的是人家的胸！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "对，对对对对不起！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "不要乱动了，你的胳膊放在这里，并不会影响我们一会掀开棺材盖子的动作，就放在这里吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "嘘，安静，科佩里乌斯来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "圣女大人，我听说你在高塔里邀请了客人，怎么没有通知我啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "大司祭，高塔内部是由圣女管理的，没有我的准许，哪怕是您也不能擅自进入。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "您现在直入高塔，已经违反了奥林匹娅大人的规则，您想要做什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "呵呵，奥林匹娅大人就在这里，我只是随行罢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "奥林匹娅大人！在下不知您亲临高塔，有失远迎，请恕罪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那个人就是奥林匹娅吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "看衣着的确是奥林匹娅大人……但是……她和半年前……给我的感觉完全不一样了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": {
+    "cn_f": "平身吧，莱塔。你邀请来的三位客人在哪里？我想见见她们。",
+    "cn_m": "平身吧，莱塔。你邀请来的三位客人在哪里？我想见见他们。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": {
+    "cn_f": "禀报大人，在您抵达之前，见习司祭大人她们就已经离开高塔了。",
+    "cn_m": "禀报大人，在您抵达之前，见习司祭大人他们就已经离开高塔了。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "离开？离开的不是你的三位后辈吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "三位圣女装扮成见习司祭的样子前往岛外，哎呀哎呀，这可是“堕落圣女”事件的重演啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "要不是我及时发现，并且把她们当场抓捕，我们菲兰尼斯的“完美”之名就有了污点，圣女大人，这件事你作何解释呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "……那三位圣女在哪里？我要见她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "别着急，你很快就能见到她们，在石棺里见到她们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "就算是她们这样的“罪人”，菲兰尼斯也不会抛弃她们，我会把她们“物尽其用”，让她们也为菲兰尼斯的完美献出一份力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "邪恶的灵魂魔法……奥林匹娅大人，科佩里乌斯在用邪术残害菲兰尼斯的子民。请您立刻出手将其制伏，把他下狱问罪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "嘎吱——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "奥……奥林匹娅大人？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "啊，抱歉，抱歉，今天早晨起来，我忘记给奥林匹娅大人上发条了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "请稍等，我这就让奥林匹娅大人亲自回答你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "科佩里乌斯拿出一枚闪着金光的发条旋钮，插入奥林匹娅的胸前。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那家伙对奥林匹娅大人做了什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "别冲动，艾琳娜，那家伙身边都是人偶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "咯哒——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "莱塔，科佩里乌斯并没有残害菲兰尼斯的子民。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "他只是让我的子民用一种更有效率的方法建设菲兰尼斯，只有这样，菲兰尼斯才能保持现在的完美，只有这样，我才能登阶成为半神，让菲兰尼斯永远完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "科佩里乌斯……你疯了，你真的疯了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "你竟然用禁忌的灵魂魔法控制了你效忠的尊者，你知道这是何等罪过吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "哦呀，克洛迪娅·莱塔，你误解了一件事，我并没有掌握灵魂魔法，那是半神都未能熟练掌握的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "我只是……向高塔献祭了自己，获得了超凡的人偶技术而已。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "我本想通过让奥林匹娅大人成为半神来证明自己，但是……就在奥林匹娅大人的城邦级魔法已经日臻完美，马上就能施放世界级魔法，成为尊贵的半神的时候——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "那个“见习司祭”来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "科佩里乌斯为什么会提到我？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": {
+    "cn_f": "我在她的身上看到了奇迹……不，那是无法用我们凡人的语言形容的技术。",
+    "cn_m": "我在他的身上看到了奇迹……不，那是无法用我们凡人的语言形容的技术。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": {
+    "cn_f": "呵呵呵，我的技术在她那绝对完美的身体面前就像是一个蹩脚小丑耍出来的戏法。",
+    "cn_m": "呵呵呵，我的技术在他那绝对完美的身体面前就像是一个蹩脚小丑耍出来的戏法。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "克洛迪娅·莱塔，交出来，你把那个“奇迹人偶”藏在哪里了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "科佩里乌斯，你疯得好彻底，见习司祭魔王是毫无疑问的人类。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "呵呵，能造出汝等凡夫俗子辨认不出的人类身体，不就是完美的身体吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": {
+    "cn_f": "今天上午，趁着你邀请她们的机会，我已经夺得了那个“许愿箱”，那是比半神的命匣还要神奇的神物，结果就被她们那么随便地放在囚车里。",
+    "cn_m": "今天上午，趁着你邀请他们的机会，我已经夺得了那个“许愿箱”，那是比半神的命匣还要神奇的神物，结果就被他们那么随便地放在囚车里。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "有了这个，只要再获得魔王的身体，我一定能让奥林匹娅大人变成诺瓦最完美的半神，甚至……篡夺魔法之神的神位也不是不可能。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": {
+    "cn_f": "别想了，见习司祭她们已经被我秘密送走了，你在我这里得不到答案的。",
+    "cn_m": "别想了，见习司祭他们已经被我秘密送走了，你在我这里得不到答案的。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "克洛迪娅·莱塔，你还真是天真。别忘了，你的名字也受赐于奥林匹娅大人！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "那又如何？我是高塔的圣女，我向高塔祈愿是为了诺瓦的福祉，不是你这种疯子的工具。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "我并不是要和你辩论，克洛迪娅·莱塔。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "我只想告诉你——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "菲兰尼斯在下雨。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "奥林匹娅大人的魔法已经启动，你不愿意告诉我的事情，我会自己来拿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "高塔，回应我的祈愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "名契合一，以奥林匹娅之名",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "对克洛迪娅·莱塔降下永恒的枷锁——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "咕……这是……什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "姓名是连接着灵魂的标签，你接受了奥林匹娅大人的赐名，就是奥林匹娅大人的所有物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "一切被打上标签的存在，都由奥林匹娅大人掌握。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "而我，奥林匹娅大人的大司祭，会代管一切。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，我们必须去帮忙。科佩里乌斯在用邪恶的魔法侵蚀圣女！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "现在还不是时候，再等一下，克洛迪娅那家伙不可能就这么束手就擒！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被控制的莱塔",
+   "text": "我，我是克洛迪娅·莱塔，我是奥林匹娅大人忠诚的圣女。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "魔王藏在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被控制的莱塔",
+   "text": "最靠近门口的石棺里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": {
+    "cn_f": "很好，我的人偶们，去抓住那个“奇迹人偶”，死活不论，我只要她的身体。",
+    "cn_m": "很好，我的人偶们，去抓住那个“奇迹人偶”，死活不论，我只要他的身体。"
+   },
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被控制的莱塔",
+   "text": "法阵调率停止，灵魂炽解倒数开始，十，九，八……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "什，什么？这家伙在记忆里植入了自毁法术？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "被控制的莱塔",
+   "text": "七、六、五……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "可恶，虽然她全身的魔力引爆了也伤不到我，但这里……这些重要的石棺……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "逆转法术，名契分离！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "名契分离！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "艾琳娜，就是现在——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "光焰，斩！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科佩里乌斯",
+   "text": "我，我的手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "尘归尘，土归土。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "以魔法之神的名义，湮灭。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "干，干掉了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "当然，克洛迪娅，你这家伙的配合还蛮好嘛。我们双人施放的完美湮灭术，哪怕是半神挨上这一下都得回去休息一年。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "奥林匹娅大人，您还好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "天冬，圣女大人，科佩里乌斯死了，他控制奥林匹娅大人的魔法是不是也应该解除了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "科佩里乌斯，看起来那么厉害……这么容易就被打倒了？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等一下，这是什么奇怪的声音？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这些废弃人偶好顽强啊，艾琳娜冲进森林之前明明已经把它们都砍倒了……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "结果这些家伙竟然自动爬到一起，把各自还能用的肢体拆下来重新组装，组装出五个新的人偶。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不对，地上那些被砍成两半的人偶在自行组装！",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "碍事的守夜人，要不是你砍断了我的双手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "尘归尘，土归土，以魔法之神的名义，湮灭！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "快躲开，艾琳娜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（挡在艾琳娜身前）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "呜——我的胳膊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我，我没事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "这里的人偶太多了，我们没办法和他战斗。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "趁这家伙的腿还没拼好，我们快走！艾琳娜，我来断后，保护魔王走。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "明白，我们在“余音”那里见！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

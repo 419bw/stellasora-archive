@@ -1,0 +1,908 @@
+{
+ "heading": "# 07 海山下的秘密",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：执笔展卷，勾勒未名之境（活动编号 10113）",
+  "- **关卡 ID**：`101130208`",
+  "- **AVG 剧本**：`STev_13_07`",
+  "- **关卡描述**：数据不会骗人。"
+ ],
+ "recap": "经过多日的考察，优叶和蜜柑、科洛妮丝得出了一个意料之外的结论——这座海山实际上是活动中的巨型生物，大家必须尽快撤离。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "经过多日的考察，优叶和蜜柑、科洛妮丝得出了一个意料之外的结论——这座海山实际上是活动中的巨型生物，大家必须尽快撤离。",
+  "episode": "第七话",
+  "title": "海山下的秘密"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哦……薇洛发消息来了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是什么？满屏幕都是数据，完全看不懂啊……这些都能转化成地图上的线条？优叶还真是厉害。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "魔<r=BOSS></r>王，收到薇洛的消息了吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "真是巧，我正想去找你呢……嗯？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "……出什么事了，大家怎么都愁眉苦脸的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我要用薇洛的数据确认一件重要的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "但愿事态没有我们预想的那么糟……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "和出海前记录的数据相比有什么变化吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "偏移量已大幅超出预设误差范围……蜜柑，说不定真和我们刚才的猜想一致。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "科洛妮丝小姐也是这么想的吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "当然。这想法有多荒唐，连我自己都清楚。可薇洛发来的数据变化，恰好证实了我们的猜想。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你们三个，这是在打什么哑谜？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "薇洛发来的数据难道出了什么问题？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "数据本身没问题。但是让我们确认了一件事。那就是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这座海山，是活的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "提心吊胆的员工",
+   "text": "经理，咱们真要乖乖听地理协会的话，就在这儿干等着？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "说什么傻话。你以为我怕的是地理协会？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "那帮穷鬼，我根本没放在眼里。一天到晚就想着远海开拓……哼，高风险低回报，蠢到了极点。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "提心吊胆的员工",
+   "text": "不过，远海听起来挺厉害的呀……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "那我现在就开了你，让你也加入她们好不好？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "提心吊胆的员工",
+   "text": "还是不了、不了，我挺喜欢现在的工作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "要不是她们勾搭上了恩赐意志来妨碍我们，咱们这会儿说不定早就到了星塔，把任务办完了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "啧……元老院的那些大人物可不会因为恩赐意志几张纸就容忍咱们延期。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "必须想个补救措施……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气喘吁吁的员工",
+   "text": "经、经理！不愧是您，果然料事如神。天穹保险那帮人真的在搞什么小动作！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "气喘吁吁的员工",
+   "text": "侦察班说，他们的负责人派雇佣的旅人带了一大堆工具进了森林……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "什么？！赶紧派人跟上去！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "你是说……这些晶钻是你们在森林里捡到的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "是啊部长。停工这三天闲着也是闲着，我就进森林转了转……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "那林子里有好几根奇奇怪怪的矿石柱子，我还没靠近，就发现地上撒着好些圆溜溜的东西。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "我捡起来一看——竟然是晶钻！那边还多的是呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "晶钻……你确定晶钻长这样吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "我以前听一个去过米拉什的朋友说过，大概就长这样吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "部长！哪怕只挖一根柱子上的晶钻，咱们都赚翻了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "唔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "部长，您看，就在这前面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "森林里竟然有矿石柱子…………怎么看怎么诡异……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "啊？！联合种业！你们在这儿干什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "你们做什么，我们就做什么。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "没想到这座海山还埋着这么多宝贝……这趟真没白来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "你不觉得有哪里不太对劲吗？地理协会的人可是警告过的……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "管他的。只要把晶钻交上去，元老院就不会找我追责了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "小的们，立马开挖！他们不要，那就全归我们！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业的员工们",
+   "text": "收到！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "兴奋的旅人",
+   "text": "经理，咱们就眼睁睁看着联合种业把宝贝全抢走吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "……不行，我们也上！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "海山……是活的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "你也知道，我们让薇洛留在海岸的岬角，替我们采集基准测试用的数据。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "正常来说，这两天她从陆地观测到的海山坐标，不该出现这么大的出入。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "毕竟一座岛屿或海山，不可能在短短两天里发生肉眼可见的水平位移。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可你们刚才说什么——偏移量超出预设误差？也就是说……这座海山在动？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这是第一个依据。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "第二个依据，是我手上这份地质样本。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "结果显示……我们脚下的土地，成分绝大部分都是某种海洋动物的甲壳残骸，还带有大量生物魔法的痕迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "我和科洛妮丝小姐一致认为，那些残骸很像海龟的盾片和骨板。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "居然有像山那么大的海龟……我实在想象不出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵，可骨片是不会说谎的哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "数据也是。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等，那照你们的推测……我们现在正站在一只巨大海龟的背上？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "三人",
+   "text": "总结得很到位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "星塔出现时，一定会导致周遭环境发生巨变。这只巨龟原本待在海底，可能是受到半个月前海中星塔的影响，才被迫浮上了海面。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "而且加上它体型巨大，露出的器官又酷似火山，才被渔民当成了一座海山。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "只是松鼠和森林的疑问，还没解开……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "抱歉打断一下。我和琥珀昨天的发现，好像还没跟你们说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "累了吗？还能跟得上吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "哼，小意思。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "再往上爬一点，崖壁上有生物筑巢的痕迹。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "巢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "这是……蛋？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵，看来加入考察队是个正确的决定。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "手机带了吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "嗯。来，茄子。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "多谢~巢边上那些骨头和排泄物，也顺便帮我收集一下好吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "都、都要吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "呵呵，当然了。这些全都是宝贵的实验样本，能借此了解这座巢穴的主人——火龙。这种机会千载难逢哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "火龙？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "嗯，不过严格来说，现在大陆上所谓的龙，其实和蜥蜴同属有鳞目爬行动物……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "嗯，记录好了，如假包换的火龙蛋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "准确说，是火蜥蜴蛋。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "这只大海龟，大概被火龙当成了适合筑巢的海山吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你看到的松鼠，也许是火龙抓来给幼龙练习捕猎的活靶子。而这些小动物身上通常会携带着一些种子对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "确实有可能。此外，土壤样本里的魔力浓度也很高。说不定就是靠着海龟自带的生物魔法，种子和小动物才得以在短时间里飞速成长，形成了种群。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑、优叶",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "山一样大的海龟，还有火龙……真是惊人的发现。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "那还等什么！我也想看看火蜥蜴的巢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "等等，蜜柑。在弄清大海龟和火龙的习性之前，得先提醒那些公司的人别乱来。省得他们沉不住气乱搞事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "对哦！差点把这事忘了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "怎、怎么回事……！地震？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "呜哇……不，这不是地震。应该是那只海龟动了起来……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "那边有叫声。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业的员工们",
+   "text": "哇啊啊啊啊？！！！！！！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "什么声音？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "呀啊啊啊啊——出什么事了？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "冷静点，只是地震！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "你们几个别想偷懒，快点继续钻！钻完之前谁也别想跑！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业的员工们",
+   "text": "诶诶诶诶——？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "住手！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "乱动那根柱子很危险，所有人把手里的钻头放下！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "你们在搞什么鬼啊？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人",
+   "text": "那个……我们就想采一点晶钻……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那不是晶钻。真的晶钻，我在米拉什见过不少。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险代表&联合种业经理",
+   "text": "不是晶钻……？！那是什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你们刚才钻的根本不是矿柱，是我们脚下这只海龟背上的器官哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "害怕的旅人&联合种业员工",
+   "text": "哈？？？？脚下的？？？？海龟？？？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "你们闹出这么大动静，外面的火龙大概也要回巢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险代表&联合种业经理",
+   "text": "哈？？？？火龙？？？？还有巢？？？？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "细节等会儿再解释。当务之急是想办法离开这里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "啊……已经来不及了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "蜜柑，你带魔<r=BOSS></r>王和这里的所有人去找尘沙她们。我和科洛妮丝来拦住这家伙。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "打不过就撤，千万别硬撑啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "科洛妮丝",
+   "text": "能这么近观察小可爱……呵呵，真让人开心得不得了。来吧，快来陪我玩玩吧~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

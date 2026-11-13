@@ -1,0 +1,708 @@
+{
+ "heading": "# 04 被遗忘的委派",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：执笔展卷，勾勒未名之境（活动编号 10113）",
+  "- **关卡 ID**：`101130205`",
+  "- **AVG 剧本**：`STev_13_04`",
+  "- **关卡描述**：这是一桩，尘封已久的委派。"
+ ],
+ "recap": "你灵机一动联系上贝修莉娜，借恩赐意志名义向几位公司代表施压，成功为考察队争取到了数日的勘探时间。",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你灵机一动联系上贝修莉娜，借恩赐意志名义向几位公司代表施压，成功为考察队争取到了数日的勘探时间。",
+  "episode": "第四话",
+  "title": "被遗忘的委派"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "天穹保险那帮人，居然这么快就盯上了那座星塔……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "都给我打起精神来！抓紧时间把据点建好！接下来的调查，绝不能让他们抢占先机！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业员工们",
+   "text": "是！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "匆忙的联合种业员工",
+   "text": "哎哎哎，别挡道。经理的话没听见？不想被扣工资就麻利点干活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "匆忙的联合种业员工",
+   "text": "天、天天天穹保险的人来了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "哟，天穹保险的。敢这么大摇大摆地找上门来，我们联合种业真是被你们给看扁了啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "哼，这句话倒也没说错。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "你说什么？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "失礼了，是我们拜托他带路过来的，希望能和联合种业的各位谈谈。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "你们又是哪家公司的？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我是地理协会考察队队长，优叶。那座海中星塔的坐标，是我记录的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "海中星塔的记录者？……行，有什么事就说吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "原来如此，星塔的入口就藏在一个大漩涡里……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "果然，针对陆地星塔的那套经验完全用不上。我们必须调整一下那座星塔的危险评级。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "看来各位已经充分认识到其中风险了，我在此有一个请求。如果要把这座海山当据点，一定要谨慎对待。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这座海山，此前没有任何一张地图记录过。它的危险程度不亚于那座星塔，甚至可能更高。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "地图上没标，怎么就危险了？地图漏标个岛、漏标座山也是常有的事，这算什么问题。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不是的，记录海中星塔坐标的同时，我也在同步更新沉寂海的地图。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我能确定，至少这片海域的地图上，不可能漏掉这么大一座海山。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "哼，我还是之前那句话。仅凭地图上没标这样肤浅的理由，天穹保险是绝对不可能离开的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "一旦撤离，意味着我们需要驻扎在更远的岛屿、甚至回到岸边才能休整。如此一来，调查进度必将遭受严重的延误。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "我们也一样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各位的顾虑确实不无道理。但地理协会劝各位撤离，也是依照恩赐意志的章程办事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "公司代表们",
+   "text": "章程？别开玩笑了，我们可从来没听说过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我可没胡说。咳……正好我现在已经和恩赐意志的负责人联系上了，让她亲自来为大家说明一下吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "天穹保险、联合种业的各位午安♪\n恩赐意志采购部——可爱的贝修莉娜负责为您说明~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "采购部……就是专管星塔竞拍工作的那个部门？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "听说各位对新登记的那座海中星塔很感兴趣……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "采购部有必要重申一下星塔事前调查的流程，以确保各位在安全的环境下开展调查。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "公司代表们",
+   "text": "……明白了，您请说。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "恩赐意志早年规定：新出现的星塔，周边环境调查全权委托地理协会；各家公司与旅团均有义务配合。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "另外，如遇紧急情况，由地理协会指挥避难与撤离。这项规定至今仍然有效，官方公文中亦有明文记载。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "我要求公开相关文件，我们要核实真伪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "当然可以。相关文件的照片，我已经发给现场的空白旅团了，通讯结束后各位即可查看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "书面文件原件如有需要，稍后可用跨城邦通讯联系我，我们会安排寄到各家公司总部。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "公司代表们",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "各位身上的调查任务压力都很大，这我都明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "队长，基础环境调查要花几天？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "三天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么各位，请给我们考察队三天时间。等我们把这座海山的危险彻底排除，届时你们再进驻。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "可一旦查出异常，请各位听我方指示立刻撤离——这样如何？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "公司代表们",
+   "text": "……好吧，就三天。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还有，这三天里，请不要擅自单独行动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "公司代表们",
+   "text": "这、这也太……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "如果仍有任何不清楚的地方，随时可以通过考察队联系恩赐意志哦♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "公司代表们",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢了，贝修莉娜，帮大忙了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "不客气，有需要随时联系。那么各位，我先失陪了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是那份文件的照片。麻烦两位把这个消息转达给各自公司的人吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天穹保险公司代表",
+   "text": "哼，那是自然。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "联合种业公司经理",
+   "text": "全体停工！现在召开紧急会议！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "这下……终于能安心展开考察了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嗯，真是多亏了魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "魔<r=BOSS></r>王，我刚才的表现还不错吧？事情有没有顺利解决？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "当然，没有辜负你的出场~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "呵呵~还是魔<r=BOSS></r>王厉害，连我都不知道恩赐意志还有这么一条章程。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "感谢您的联络！可爱的贝修莉娜为您服务♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗨，好久不见，是我~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "哎呀，原来是魔<r=BOSS></r>王！今天找可爱的贝修莉娜有什么事啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "其实我现在正在协助地理协会处理一件委托……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "哦哦，这么说来确实还挺棘手的。有我能帮上忙的地方吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我想请你找一份过去的星塔竞拍相关文件。\n特别是恩赐意志针对“新出现的星塔”该怎么处理的那部分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "明白了，我马上去一趟档案室找找看。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "不过魔<r=BOSS></r>王，你怎么知道恩赐意志有这方面的记录？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "因为我以前见过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "还记得上次菲莱那场星塔竞拍会吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那时候相关文件我都翻过一遍了，开采条款里有一条，写的就是对地理协会的委任细则。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "只是这条规章现在有没有失效，得拜托你帮我确认一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "原来是这样。我找到文件后，也会向领导确认一遍。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "如今诺瓦大陆的星塔数量趋于稳定，新塔的产生本该是极为罕见的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "那么久以前定下的委任居然还有效，说实话我也很意外。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "加上各个公司和旅团也有相对成熟的应对手段，恩赐意志便大幅简化了前期的调查流程。已经没有人在乎地理协会的环境勘探了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶＆蜜柑",
+   "text": "…………",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "啊，抱歉！我不是那个意思……！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "贝修莉娜小姐没说错。我这个地理协会的人，也从没见过那条委任记录。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "没关系，这回不就重新补录好了吗。和画地图一样，纠错、补漏，记录才会更准确。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "本以为你只是个地图狂，没想到脑子转得还挺快～",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "魔<r=BOSS></r>王为我们争到了三天。抓紧开始勘探吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "嗯。这不只是为了《诺瓦地理志》的这期专辑，同样也是……我们地理协会的使命。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "既然各位的问题都解决了，那就再好不过了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "谢了，贝修莉娜。这次让你代表恩赐意志出面，事后不会给你惹上什么麻烦吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "放心好了，贝修莉娜做事，哪次没有请示过领导~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "走的全都是正规流程，谁也挑不出毛病~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "贝修莉娜",
+   "text": "那么各位，调查加油哦♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

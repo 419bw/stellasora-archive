@@ -1,0 +1,1441 @@
+{
+ "heading": "# 16 奴隶",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属篇章**：特别篇《完璧之庭·微尘破晓》（前星塔历 4 年）",
+  "- **关卡 ID**：`1118`　**编号**：`16`",
+  "- **关卡名称**：奴隶",
+  "- **关卡类型**：剧情关卡",
+  "- **AVG 剧本**：`STm10001_16`",
+  "- **关卡描述**：他们虽告别了镣铐，却主动用未来做了交易。",
+  "- **通关目标**：推进主线剧情"
+ ],
+ "recap": "你的右臂为保护艾琳娜而重伤……于是你果断选择了断臂求生。\n得知科佩里乌斯和奥林匹娅的阴谋和魔法将会扩散到整个世界，\n你终于意识到，此刻所处之地正是“遥远的过去”……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你的右臂为保护艾琳娜而重伤……于是你果断选择了断臂求生。\n得知科佩里乌斯和奥林匹娅的阴谋和魔法将会扩散到整个世界，\n你终于意识到，此刻所处之地正是“遥远的过去”……",
+  "episode": "第十六话",
+  "title": "奴隶"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "scene",
+   "time": "17:00",
+   "date": "6月 10日",
+   "place": "菲兰尼斯岛外 林间墓地"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，咬住我的肩膀，你的右臂已经保不住了，为了救你，我必须帮你截肢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不用解释了，我完全相信你的判断。你砍吧，我忍得住。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "别逞强，你折断的骨头都从皮肤里穿出来了，截肢的疼痛可不是靠意志力就能忍过去的，这里没有干净的布料给你咬，我又不想看你把舌头咬下来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好，好吧，那……不好意思了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "choice",
+   "kind": "generic",
+   "prompt": "",
+   "options": [
+    [
+     "（咬住艾琳娜的肩膀）",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "我小心地扶着已经痛到麻木的右臂，轻轻咬住艾琳娜为我裸露出来的肩膀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我要切下去了，魔王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "呜——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "碎裂的骨片戳刺神经的刺痛",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "肿胀的肌肉撑开皮肤的胀痛",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "断裂的肌腱无处凭依的闷痛",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "瞬间被灼热的烫烙所覆盖",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "无数把尖刀狠狠搅进了大脑的剧痛，将我的意识生生绞碎",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "等我回过神来的时候，我不受控制的牙齿\n已经刺破了艾琳娜的肌肤",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "止血带，草药……呼，血止住了。魔王……抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你道歉什么，我的骨头和血管都断成几段了，几个小时过去……手臂早就坏死了，正如你所说，不砍下来的话， 坏死肌肉里产生的毒素就能把我毒死……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在高塔里救了我的人是你，献祭寿命为我换来神赐器物的是你……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "在我犹疑不定的时候安慰我，帮我指明道路的人也是你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜系好衣服，遮住被我咬出血痕的肩膀。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "但我却没有……保护住你，反倒砍断了你的手臂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你身为魔<r=BOSS></r>王的黑骑士，这种时候还啰嗦就没意思了。呵，这条手臂砍掉后，我反而好受了一些，只剩下伤口灼烧的刺痛了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你要是觉得抱歉，那就等你下次受伤的时候，我给你治疗，到时候我下手肯定比你狠，当然，我也会把肩膀给你咬的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我一定很认真地咬住你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "喂喂喂，我听到了什么虎狼之词，我们现在可是在逃跑啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "天冬，圣女大人，还有露露……你们没事太好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "怎么会没事啊？！岛上的人偶比下水道的蜚蠊还多！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我们是通过滑索出岛的，岛上的情况怎么样了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "很糟糕，先是没来由地乌云密布，下起了倾盆大雨，紧接着就从湖里爬出来好多人偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "岛上原有的人偶也不听指挥，反过来攻击大家，就算我折断了它们的四肢，它们也蠕动着还要攻击我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "幸好我那还有不少你烤的面包，我用那些面包作为盾牌，才和天冬还有圣女大人逃了出来。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "是啊，要不是遇到了露露，你们可就见不到可爱温柔的我了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "哎？魔王你的胳膊怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "科佩里乌斯的湮灭术好像还是有一部分起效了，高塔里我冲上去挡的那一下，直接让我的右臂完蛋了，不得已只能截肢了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "如果湮灭术真的起效了，你就不是截肢了……而是直接化为灰尘了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "魔王，请让我检查一下。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "嗯……明白了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "你的“魔力绝缘”体质的确让自己不受湮灭术影响，但却没办法挡住魔法额外产生的冲击力，你上衣右侧已经完全消失了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "那些布料湮灭时放出来的冲击力，直接扭曲了你的右臂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "下一次，可不要以为自己“魔力绝缘”就冲上去了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此……幸好你在高塔里给了我们额外的衣服，要不然我现在只能裸体和你们相见了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "哈……魔王，你受了那么重的伤，还有心情开玩笑啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "过去，有个很重要的同伴对我说过——笑着也好，哭着也好，我们面对的都是同样的事情……那为什么不笑一笑，让自己开心一点呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "别那么大惊小怪，天冬，只是丢了一条胳膊而已，更重的伤我也受过……不还是活下来了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "逃出岛后，我们的情况依旧危险……比起这条胳膊，更重要的是我们下面要怎么行动。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "圣女大人，你能告诉我们菲兰尼斯到底出了什么事吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "各位不用尊称我为大人……叫我莱塔就好。今天上午，我本想帮你们逃出菲兰尼斯的，没想到科佩里乌斯已经加强了他对人偶的控制，反倒让各位陷入险境，非常抱歉。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "那不是你的错，科佩里乌斯为什么要背叛奥林匹娅大人，还残忍地把奥林匹娅大人变成了人偶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "为了追求“完美”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "此事说来话长，我从头开始讲吧，天冬，你之前不是问我——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "什，什么……高塔里的安乐窝？克洛迪娅你，你在说什么？你都知道什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "听完我接下来要说的事情，你就明白了。只是……我不确定知道这些对你来说是好是坏……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "三年前，天冬作为埃摩圣女学校最优秀的毕业生从许愿仪式的祭台上逃走，我们这一届的圣女都受到了连坐惩罚——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "我们被学校“发配”到各城邦的高塔里，我们无权进行神圣的许愿，我们唯一的职责就是调查天冬的去向。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "只有抓到天冬，才能洗清我们身上的“污点”，重新参与许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "我被派往的城邦是——菲兰尼斯。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "- 三年前 -\n菲兰尼斯高塔 门前",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新来的圣女",
+   "text": "克洛迪娅·莱塔……不不不，奥林匹娅大人，我不能接受这个名字。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新来的圣女",
+   "text": "我是有污点的圣女，根本没有资格领受克劳狄家族的姓氏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "克劳狄家族的家主已经同意了，我不认为高贵的姓氏能赋予庸人高贵的品德，但毫无疑问，一位真正高贵的灵魂，足以配享一个高贵的姓氏。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "从今天开始，你来负责菲兰尼斯的许愿事宜，你需要有这样一个姓氏，这样那些贵族才能对你保持尊重。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "新来的圣女",
+   "text": "可是……我在抓到“堕落圣女”之前，是不能参与许愿的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "那是埃摩的规矩，这里是菲兰尼斯，人们不应该为她们没做过的事情受到惩罚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "我在菲兰尼斯解放了奴隶，现在我决定解放圣女，未来，菲兰尼斯不会再把圣女当做柴薪，我们会推行全新的，没有人牺牲的许愿方法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "奥林匹娅……并不是单纯用“利益”拉拢人，而是用“理想”拉拢人，对莱塔也好，对艾琳娜也好，她给出的条件完美地击中了对方心中的真正需求。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，正如天冬所说——",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "魔法学最基本的一条原理——魔力不会凭空产生，也不会凭空消失。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个世界上真的有“不需要牺牲”的许愿方法吗？",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "在那之后，我的主要工作就是推行那种——“没有人牺牲的许愿方法”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "- 三年前 -\n菲兰尼斯高塔 祭台之间",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "万能的高塔，请满足我卑微的愿望——我自愿献上我的三十年寿命和等量的灵魂，请给予科佩里乌斯大人等量的魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "成，成功了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "感谢你的付出，这是五百枚金币，请拿好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "谢，谢谢圣女大人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "小心，你刚刚失去了太多的生命力和灵魂，你的身体很虚弱。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "没，没关系，我休息，休息一下就好。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "你为什么要许下这个愿望？三十年的寿命和灵魂……是你未来人生的一半，甚至一多半……很快，许愿的效果就会在你身上显现，你会变得衰老，也会忘记许多事情。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "因为值得啊，圣女大人，像我这样的平民……能找到的最好的工作，佣金也就是每月一枚金币。五百枚金币，就算我不吃不喝也得赚上四十年，现在我一次就拿到了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "我可以用这笔金币去做点小生意，去买一栋有喷泉和小花园的小房子，让家人过上……更快乐的生活，你觉得……这不值得吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "这……我明白了，人偶，送这位勇敢的公民回家，愿魔法之神眷顾你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "年轻的菲兰尼斯公民",
+   "text": "圣女大人，您真是太慷慨了，也愿魔法之神眷顾您。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "圣女大人，您做得很不错，我已经获得了新的魔力，可以驱动更多的人偶为菲兰尼斯做出贡献了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "大司祭大人……我们这么做真的对吗？奥林匹娅大人明明想要的是——全新的，没有人牺牲的许愿方法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "当然是对的，这不是“牺牲”，这是交换，价格公道的交换。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "菲兰尼斯的奴隶获得了自由，成为了公民和自由民；公民和自由民出卖一些小小的利益，换来更加优渥的生活。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "他们奉献的魔力，我会全部用在建设菲兰尼斯上。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "菲兰尼斯越完美，菲兰尼斯的人们越幸福；",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "大司祭科佩里乌斯",
+   "text": "菲兰尼斯的人们越幸福，菲兰尼斯就越完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "这就对了，驱动人偶的魔力不会凭空产生，既然没有什么饱含魔力的天然泉水，那么就一定有别的魔力获取方式。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "那为什么要解放奴隶呢？虽然我支持解放奴隶，但从科佩里乌斯的角度想：驱使奴隶去许愿的话……就不用给金币了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "因为献祭同样数量的寿命和灵魂，一个奴隶获得的魔力只有一个幸福的公民的十分之一。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "嗯？为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "有人说高塔更垂青无瑕的躯壳和健全的灵魂，也有人说灵魂的重量和寿命的密度是不同的。我们圣女在许愿中也有类似的经验——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "成绩越好的，生活越丰富的，情感越充沛的圣女，许愿的效力越大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "奥林匹娅之所以释放菲兰尼斯的奴隶，只是为了拥有更多的高质量灵魂，好让他们通过许愿换取更多的魔力……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "圣女莱塔，你最近的工作做得很不错，但你总是劝诫前来许愿的人，想让他们在许愿时少付出一点寿命和灵魂，这是为什么？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "启禀大人，在下认为如果许愿者付出的寿命和灵魂太多，那么他在许愿后就会迅速衰老，无法胜任原有的工作，这对菲兰尼斯的完美是不利的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "呵呵，你的心意是极好的，但你这么做反而是在拖慢菲兰尼斯抵达完美的脚步哦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "圣女莱塔",
+   "text": "在……在下不明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "能换取大量魔力的高质量肉体和灵魂，需要许愿者拥有传奇的人生，或是过着物质和精神都很富足的生活。前者可遇不可求，后者所需的金币是惊人的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "菲兰尼斯的人们从我们这里获得金币，过上富足的生活。他们想要维持这种生活，就不得不献上自己的寿命和灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "他们不再是奴隶主的奴隶，而是金币的奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "衰老到无法胜任原有的工作并不是一件坏事，这样他们就会逼迫受过他们恩惠的家人前来许愿，以维持富足的生活，也给菲兰尼斯提供了源源不绝的魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "这就是，菲兰尼斯的“魔力之泉”啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "金……金币的奴隶……奥林匹娅解除我们的奴隶身份，只是为了更好地从我们身上获得魔力吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "也更“便宜”，如果她以奴隶主的姿态去赐予奴隶富足的生活，其耗费的金币，远比让人们在欲望驱动下自行压榨昂贵得多。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这就是菲兰尼斯“解放奴隶”和“完璧之城”的真相吗？奥林匹娅只是把所需的“代价”掩藏在了城邦华丽美好的表象之下。",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "如果到此为止，我想……我还是可以压制自己的不安，继续做菲兰尼斯的圣女的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "但后面发生的事情，尤其是各位来到菲兰尼斯后揭露出的可怕真相，让我不得不向埃摩圣女学校汇报菲兰尼斯发生的一切了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这个“完璧之城”已经要维持不下去了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "哎？魔王……你怎么知道？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "之前天冬说过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "如果说菲兰尼斯和别的城邦有什么不一样的地方，那就是老人似乎有点多，很多老爷爷老奶奶在家门口晒太阳，当然，这也说明了这里的富足，别的城邦很难有这么多老人活到这个年纪。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "结合你所说的通过许愿获得魔力的方法……大概猜到了一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "莱塔，一个人献出三十年寿命和灵魂换来的魔力，能驱动多少人偶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "三十名人偶一个月的普通活动，如果要用人偶战斗或者进行消耗比较大的工作，时间还要缩短。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "菲兰尼斯有多少人和多少人偶？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "十万人和三万人偶，如果加上你们在森林中看到的废弃人偶，那数量还要大于三万。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "那么，就是简单的数学题了。三万名人偶活动一个月，需要让一千人许愿，一年就是一万两千人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "莱塔，你来菲兰尼斯有三年了吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "嗯，差一点三年，至少有三万六千人在许愿中被消耗了……成为了老人，而他们的孩子还远没有长大。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "怎么会……这样，奥林匹娅大人……不，她不配被称为大人……她向我所说的理想都是假的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "是假的，几个月前，我发现菲兰尼斯有人口买卖的迹象，但不管怎么调查，也找不到买卖奴隶的证据。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "直到你们闯进地下岩洞，我才意识到……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "天冬",
+   "text": "奥林匹娅和科佩里乌斯根本看不上奴隶，他们要用别的城邦的公民或者自由民换取魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "嗯，他们为了便于绑架这些人，甚至研究了邪恶的“名契合一”魔法——只要是被他们赐名过，并且还在用这个名字，就会轻易被他们的法术所控制。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "这些人都像艾琳娜你一样，是被他们精挑细选出来的，可以换来更多魔力的——拥有传奇人生的人，里面还有几个是失踪多日的，其他城邦的“堕落圣女”案件受害者。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "奥林匹娅和科佩里乌斯把那些人的灵魂和大量的人偶连接，让他们每天都许下一个愿望，只换取足够那些人偶一天使用的魔力，以维持菲兰尼斯表面的繁荣。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "你们越说越可怕了，奥林匹娅和科佩里乌斯到底要做什么啊？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我都能算清楚的数学题，奥林匹娅和科佩里乌斯没道理算不明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "他们或许的确想要把菲兰尼斯建成“完璧之城”，或许的确想要抵达“完美”，但这座城和他们追求的“完美”里，肯定没有他们之外的人的位置。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "解放奴隶，换取魔力，驱动人偶，这一套看似“完美”的城邦运行办法……最初就只能维持三年左右，那么，三年之期已满的现在，他们肯定会有更大的动作。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "露露你刚才说……岛上乌云密布下起大雨，并且有很多人偶爬上了岛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "露露",
+   "text": "对……超级可怕的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "莱塔，虽然高塔和许愿由圣女管理，但没有你在，也可以许愿对吧？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "是……我们只是管理着高塔大门的钥匙，以及许愿的资格，许愿这件事本身……只要坐在祭台上，谁都可以许愿。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呼……被控制住的，精打细算每天许愿的人们，聚集起来的人偶，以及直到露露去调查那四十七个人的名字才对我们动手的做法……都说明，他们很需要魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "他们从角斗场里拯救艾琳娜，无视天冬和我的可疑身份，也是觉得我们都有着传奇的人生，可以成为“魔力储备”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "接下来，他们恐怕会强迫菲兰尼斯的所有人许愿，为他们贡献魔力吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "见习司祭大人，不，还是叫您“奇迹人偶”吧，您真是个聪慧的人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "谁！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "你的庇主，尊者奥林匹娅。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "奥林匹娅……你所追求的“完美”就是这样的吗？你骗了我，骗了菲兰尼斯的所有人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "骗？不不，艾琳娜，是你从未理解我的所作所为。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "在诺瓦，力量是唯一的公理，诺瓦人也好，绒绒人也好，甚至不是人的纯粹魔法造物也好，只要能施放城邦级魔法就能成为尊者，只要能施放世界级魔法就能成为半神。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "反之，如果什么力量都没有，即使我解放了他们，他们也会被别人抓走，再次成为奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "我会保护他们，菲兰尼斯会保护他们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "如果你战死了呢？如果菲兰尼斯的尊者不是我了呢？又如果菲兰尼斯不存在了呢？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "就算这些事情都没发生，难道——他们就一辈子不踏出菲兰尼斯了吗？那和自己把自己关进囚车有什么区别。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "所以，我必须变得强大，成为半神。我必须带着菲兰尼斯的所有人一起强大，这就是我所追求的，真正的完美。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "为此，我要求科佩里乌斯改造了我的身体，现在这个身体虽然多有不便，但可以容纳菲兰尼斯十万人的灵魂。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "莱塔",
+   "text": "不是科佩里乌斯害了你，奥林匹娅，你从一开始就是这么想的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "这当然不是我最初的想法，只是在试过了各种方法后，我认为这是最好的方法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "我和菲兰尼斯的十万人通过高塔结成一体，在那之后，我便是城，城便是我。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "我掌握的魔力可以让我把“名契合一”扩展到全诺瓦，成为世界级魔法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "到时候，就不是我赐予名字的人才会听我的话，只要我知道那个人的名字，他就会接受我的教诲，变得温和善良，不再奴役奴隶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "艾琳娜，你是无畏的利刃，忠诚的坚盾，我想让你率领我的人偶，护卫在我的身边。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "天冬，你使用那块石头储存魔力的点子非常巧妙，我欣赏你的魔法才能，想要让你全权管理我所拥有的魔力。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "莱塔，你是一位善良的圣女，如果全诺瓦的高塔都由你来管理，一定会减少很多很多悲剧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "所以啊，只要你们能把“奇迹人偶”带来浴场献给我，我就会接纳你们，在“完璧之城”里给你们留好位置，让你们成为“完美”的一部分。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尊者奥林匹娅",
+   "text": "各位，拥抱“完美”，和我一同征服所有的城邦，统治世界，创造历史吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "一派胡言！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "光焰！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "艾琳娜的长剑扫过奥林匹娅的脖颈，然而，闪着金光的剑刃只切开了一道虚影，虚影背后，是一具被切断头颅的人偶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，我们被发现了，得赶快离开这里。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "一同征服所有的城邦\n\n统治世界……创造历史……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么，为什么我会再次听到这些话？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "艾琳娜",
+   "text": "魔王，你怎么了？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "达尔茜娅",
+   "text": "您当然是陛下，唯有您，才是真正的魔<r=mowang></r>王。我达尔茜娅在此起誓，将向您献上永恒的忠诚。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "岛上的星塔、非人的大军、把人作为燃料的邪术、忍辱负重的盟友，还有……抵达城邦的旅人推动了一切的发展。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "为什么……为什么所有的事情都能对上……我到底……在哪里？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "主公说要扮演断臂英雄。既然如此，就必须砍下一只手。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "千都世",
+   "text": "但妾身无法眼睁睁看着主公砍下手臂，伤及贵体。所以，如果要砍就砍妾身的手吧……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "等等……！我只说要扮演断臂英雄，没说要真的切下来一只胳膊啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "总之，如果“重演历史”就是打开隐藏房间的钥匙，那么空白旅团找到我的时候，应该也在无意中做了类似的事。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "断臂……重演历史……难道……菲兰尼斯就是过去的菲莱？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "这是……巧合？还是说……我所经历的一切……都是有人为我写好的剧本？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}

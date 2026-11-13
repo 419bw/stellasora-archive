@@ -3,7 +3,7 @@
  "counts": {
   "empty_segment_skipped": 1,
   "jump_index_out_of_range": 1,
-  "segment_without_chat_row": 40,
+  "segment_without_chat_row": 41,
   "unbalanced_choice": 3
  },
  "categories": {
@@ -162,6 +162,10 @@
    },
    {
     "stem": "PM16001",
+    "gid": "08"
+   },
+   {
+    "stem": "PM16101",
     "gid": "08"
    },
    {

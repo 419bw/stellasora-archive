@@ -1,0 +1,868 @@
+{
+ "heading": "# 01 出发，前往沉寂海",
+ "info_title": "关卡信息",
+ "info": [
+  "- **所属活动**：执笔展卷，勾勒未名之境（活动编号 10113）",
+  "- **关卡 ID**：`101130201`",
+  "- **AVG 剧本**：`STev_13_01`",
+  "- **关卡描述**：新的海山冒险即将展开？！"
+ ],
+ "recap": "你应邀来到协会之家，得知优叶与《诺瓦地理志》编辑蜜柑计划对海中神秘出现的巨型海山展开实地考察。为了能集齐考察队的成员，你向她们推荐了一名专业医生……",
+ "body_title": "逐句台词",
+ "meta": {
+  "recap": "你应邀来到协会之家，得知优叶与《诺瓦地理志》编辑蜜柑计划对海中神秘出现的巨型海山展开实地考察。为了能集齐考察队的成员，你向她们推荐了一名专业医生……",
+  "episode": "第一话",
+  "title": "出发，前往沉寂海"
+ },
+ "appendix": null,
+ "beats": [
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "编号：9970807-01\n\n中心点坐标：（7.2，-98.6）\n提交日期：九九七年热月十四日\n\n责任人：地理协会测绘员 优叶",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "低沉的男声",
+   "text": "据说就在半个月前，沉寂海上突然出现了一座星塔。如今这座星塔的坐标已被恩赐意志登记在册。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "低沉的男声",
+   "text": "海里的星塔，可不是随随便便就能碰上的……我们天穹保险，绝对不能错过。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "与此同时",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的男声",
+   "text": "只要能抢先查清底细、上报元老院，想必是大功一件。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "狡诈的男声",
+   "text": "毕竟盯上这座星塔的，可不止我们联合种业一家……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "齐声",
+   "text": "必须赶在其他公司入场之前先下手为强！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "旁白",
+   "text": "与此同时",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "爽朗的女声",
+   "text": "你们就是空白旅团？初次见面，我是地理协会的会长，彼岸。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你好，彼岸会长。\n我是空白旅团的魔王，我身边这几位是——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "尘沙、鸢尾，还有琥珀，对吧。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "我听薇洛说起过你们，听说大家平时帮协会解决了不少问题啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "前阵子优叶交上来的那份“海中星塔”调查报告里，也提到了你们空白旅团的名字呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "哇哦，看来我们如今也算是小有名气的旅团了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "所以这次我才特意通过薇洛联系你们，也是希望空白旅团能接下地理协会的委托——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "加入我们的考察队。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "考察队？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "彼岸",
+   "text": "委托的具体内容，就让这次考察队的队长来给你们讲解吧。有请我们的队长——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "大家，好久不见啦。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "众人",
+   "text": "优叶！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "你来得正好，我这儿有样东西，是花铃托我转交给你的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "给我的？会是什么呢……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "好像是花铃亲手给你制定的最新一版“晕船特训疗程”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "花铃说你经常不在协会，就托我带来了。这下总算顺利交到你手上了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "谢谢花铃，也谢谢你们。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "不过，之前让我骑寄居蟹什么的，未免也太强人所难了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "放心，这次有希娅帮你把过关，骑寄居蟹那几项都删掉了，全都是很正常的训练项目。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "那就好……这次目的地是沉寂海，我真的不想再晕船了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呜哇……又要坐船啊~",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "是的。我们这次考察队的目的地，就在之前那座海中星塔附近。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "其实就在上周，贝林港的协会之家传来了一条情报。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "据出海的渔夫们说，那座星塔出现后没多久，沉寂海的海面上就冒出了一座巨大的“海山”。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "我们对照了沉寂海的地形图，发现那确实是一座从未记录过的海山。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "更何况半个月前我们经过那儿时，还什么都没有呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "综合来看，这座海山十有八九是最近才突然冒出来的。不仅如此……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我在《诺瓦地理志》上看到过，海山一般是不会露出海面的吧？这事儿还真是奇怪……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "鸢尾也是杂志的读者？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "是的！毕竟协会之家里的《诺瓦地理志》可以免费看嘛！我每期都不落下，还记了好多笔记呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "编辑部的大家要是听到，肯定会乐坏的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "总之鸢尾小姐说得没错。编辑部的地质专家也是同样的看法。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "所以为了做一期彻底揭开这座怪海山之谜的专题，我们才决定组织一支考察队，前去实地考察。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来是跟《诺瓦地理志》有关的委托啊。那可是旅人里超有人气的杂志，不过好像有阵子没出新刊了……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这个嘛……说来也是有不少难处的。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "本来这考察队该从协会内部抽人的，可事情紧急，塞尔斯泰附近的协会成员就只有我们几个……所以才求助于空白旅团的各位。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。可我们在地理考察上的经验远不及协会里的专家，真的没问题吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "恰恰相反，缺了各位，这支考察队根本就组建不起来！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "三人",
+   "text": "我们？真的吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "尘沙的厨艺有目共睹。不管是航海途中还是上岸之后，伙食方面都能高枕无忧了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "嘿嘿，哪里哪里……不过这么一说我好像还是有点厉害的啦～♪",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "鸢尾心细，又擅长算术。文件和情报的处理肯定会高效很多！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我、我哪有那么厉害啊……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "琥珀是未知的魔物……不对。呃，潜伏在……稍等一下，我看下备忘录。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "琥珀具备超一流的摄影技术，而这次考察很可能会碰上潜伏在暗处的未知魔物，正需要像琥珀小姐这样身手敏捷、能随机应变的人来帮我们拍摄影像！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "……谢谢你。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "嗯嗯，就是这样。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "你怎么在这儿就掉链子了！夸人也让你夸得磕磕巴巴的，这样要怎么展现出我们的诚意啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "这可是蜜柑足足写了五页、精心打磨出来的《空白旅团彩虹屁大作战～把心地善良的魔<r=BOSS></r>王哄得团团转、用最低委托费请他们来调查的完美计划～》，你怎么能忘词呢！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "字太多了……我怎么都背不下来……对不起。都怪我，把彩虹屁作战给搞砸了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "还能挽回，现在放弃还太早了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "？？？",
+   "text": "空白旅团的各位，请一定要相信我们——我们真的、真的很需要大家的帮助！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "蜜柑，这也是完美计划的一部分吗？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "这是备用计划。要是彩虹屁作战失败，就让纳茨顶上，靠她平时采购练出来的砍价本事去打动心地善良的魔<r=BOSS></r>王。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "我们就在旁边随时观察情况、见缝插针地帮腔吧！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "明白。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "呃，这位是……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "哎呀失礼了，还没自我介绍呢！我是协会的机械师纳茨，兼任此次考察队的航海员。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "顺便介绍一下，这位是蜜柑。她既是协会的地质学家、《诺瓦地理志》的编辑，还是这期专题的撰稿人，同时还在考察队里负责地质勘探工作！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "啊呜、初、初次见面，我叫蜜柑，我们还是头一回见面吧，那、那个，请、请多多指教！啊，抱歉——我刚是不是已经报过名字了？总、总之请多多关照！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "她一见陌生人就这样，处熟了就正常了！哈哈哈哈……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "这位大家都认识，队长兼测绘员兼导航员——优叶。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "每个人都身兼数职啊……",
+   "thought": true,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "还有被我们硬拉进来的通信兼后勤支援，薇洛。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "诶！薇洛也来？！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "薇洛",
+   "text": "我最近正好在塞尔斯泰处理海中星塔的报告，就顺道过来搭把手了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "现在我们的团队，就只等你们这最关键的四位加入啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我们四个？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "厨师、记录员、摄影师，还有……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "随时随地都能联系上所有人的万能联络员、为大家带来好运的吉祥物——魔<r=BOSS></r>王！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "（好长一串头衔……话说吉祥物也太过分了吧~）",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "蜜柑翻遍了这两年塞尔斯泰收集的所有旅团报告，发现自从魔<r=BOSS></r>王加入后，空白旅团的委托完成率竟然高达惊人的百分之百！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "哦哦~好像还真是这样！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "我记账时也发现了，自从魔<r=BOSS></r>王加入我们，旅团的经费可是宽裕了不少呢。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "所以我们特别想借魔<r=BOSS></r>王的好运和大家的专业本领，才拜托薇洛联系你们的。\n只不过……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "就协会和编辑部现在的经济状况，能拨给考察队的预算几乎是零。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "这半个月我们好不容易东拼西凑攒了点钱，可扣掉船只修理费、神器采购费和各种开销后……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "剩下的这点钱，要雇人去接一个危险度未知的委托，差得实在太远了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "纳茨",
+   "text": "所以……这次的委托报酬，能不能给我们算便宜点啊！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "可以的话，最好能控制在我们的预算——\n四万零一千二百九十四朵拉以内……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "或者可不可以先打个欠条！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来如此。你们前面铺垫了这么一大堆，都是因为手头紧啊。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "牵扯到报酬问题，我也得听听大家的意见。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "我没问题！反正能和薇洛一起去探索新地方，太开心啦！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "鸢尾",
+   "text": "其实我刚当旅人那会儿，很多野外知识都是从《诺瓦地理志》上学来的……所以请一定让我出份力！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "喜欢，《地理志》上介绍的小动物。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "琥珀",
+   "text": "我也给杂志寄过，不少野外生物的照片。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "尘沙",
+   "text": "那期杂志，琥珀一直宝贝似的收在小绿的书架上，对吧～？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "原来还有这么一段故事……",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "既然大家都赞成，那委托费我们就意思意思，只收个四朵拉好了。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "三人",
+   "text": "赞成！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶、蜜柑、纳茨",
+   "text": "太感谢大家了！",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "不过，按考察队的分工来看，我总觉得还差一个人。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "虽然在场的都是老练的旅人，但为了安全，最好还是配一名随队专属医生。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "优叶",
+   "text": "这一点我们也想过——",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "蜜柑",
+   "text": "就剩下这四万零一千二百九十朵拉的预算，真能雇得到医生吗……？",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "我刚好有个人选。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  },
+  {
+   "k": "talk",
+   "speaker": "魔王",
+   "text": "说不定……还能帮你们把委托费再省下来一些。",
+   "thought": false,
+   "sticker": false,
+   "channel": "talk"
+  }
+ ]
+}
