@@ -9,6 +9,7 @@ the two env overrides) without touching story_docs/ or site/.
 import json
 import os
 import sys
+from datetime import timedelta
 
 import pytest
 
@@ -93,23 +94,46 @@ def test_gate_on_means_default(monkeypatch):
 
 
 # ------------------------------------------------------------------ real upstream data
-def test_gate_finds_the_real_storyset_18():
-    """The story set that is actually closed in the pack today."""
+# 真实数据契约从原始表独立重导期望门控集合，不再写死组号/页数：上游新增未开放组
+# （新故事集/活动/主线章）只会让期望集合自然变大，不会把测试打红。门控规则本身
+# （时间比较、fail-open、有页才占位）由下方合成表用例钉死。
+_GATED_SPEC = {
+    'storysets': ('StorySetChapter', 'OpenTime', 'StorySetSection', 'ChapterId'),
+    'main': ('StoryChapter', 'OpenTime', 'Story', 'Chapter'),
+    'events': ('ActivityGroup', 'StartTime', 'ActivityStory', 'ChapterId'),
+}
+
+
+def _table(name):
+    return rg._read(os.path.join(BIN, name + '.json'))
+
+
+def _expected_locked(family, at):
+    """原始表里 at 时刻仍未开放、且包内有页面的组（独立于 gate 重导，口径与 gate 一致）。"""
+    chap_tbl, time_fld, page_tbl, page_fk = _GATED_SPEC[family]
+    pages = list(_table(page_tbl).values())
+    # gate 只统计「真正承载页面」的行：主线看 StoryId，其余看 Id 主键。
+    pages = [r for r in pages
+             if (r.get('StoryId') if family == 'main' else r.get('Id') is not None)]
+    has_pages = {str(r.get(page_fk)) for r in pages}
+    expected = set()
+    for r in _table(chap_tbl).values():
+        cid = r.get('Id')
+        ot = rg.parse_iso(r.get(time_fld))
+        if cid is not None and ot is not None and ot > at and str(cid) in has_pages:
+            expected.add(int(cid))
+    return expected
+
+
+def test_gate_matches_upstream_open_times():
+    """门控锁住的组 == 原始表说还没开放的组；占位描述符不得泄露组名。"""
     gate = rg.load_gate(at=AT)
-    items = gate.items('storysets')
-    assert [i['id'] for i in items] == [1018]
-    item = items[0]
-    assert item['no'] == '#18'
-    assert item['preview'] == '诺瓦异闻 #18'
-    assert item['open_text'] == '2026-10-13 12:00'
-    assert item['is_high_light'] is True
-    assert item['pages'] == ['storysets/1018/101801.html',
-                             'storysets/1018/101802.html',
-                             'storysets/1018/101803.html']
-    # the descriptor must not be able to spoil anything
-    assert 'name' not in item
-    for bad in ('眠于秋分之日', '第一话', '第二话', '第三话'):
-        assert bad not in repr(item)
+    for family in _GATED_SPEC:
+        items = gate.items(family)
+        assert {i['id'] for i in items} == _expected_locked(family, AT), family
+        for item in items:
+            assert 'name' not in item   # 描述符刻意不带组名，防剧透
+            assert item['pages']        # 被锁的组必须保护真实 URL
 
 
 def test_mask_text_matches_the_client():
@@ -118,23 +142,15 @@ def test_mask_text_matches_the_client():
     assert rg.MASK == uit['UIText.StorySet_Chapter_Empty.1']
 
 
-def test_gate_leaves_everything_else_alone():
-    gate = rg.load_gate(at=AT)
-    assert gate.items('main') == []          # all mainline chapters are open
-    assert gate.items('events') == []        # so is every activity in the pack
-    assert not gate.is_group('main', 10)
-    assert not gate.is_group('events', 10112)
-    assert not gate.is_page('storysets', 100101)   # a released story set stays reachable
-    assert gate.is_page('storysets', 101801)
-    assert gate.is_group('storysets', 1018)
-    assert gate.is_group('storysets', '1018')
-    assert not gate.is_group('storysets', 'nope')
-
-
-def test_gate_auto_unlocks_after_open_time():
-    gate = rg.load_gate(at=rg.parse_iso('2026-10-13T12:00:01+08:00'))
-    assert gate.items('storysets') == []
-    assert not gate.is_page('storysets', 101801)
+def test_gate_auto_unlocks_after_every_open_time():
+    """把时钟拨到包内最晚开放时间之后，所有组都必须解锁（不写死具体日期）。"""
+    times = [rg.parse_iso(r.get(fld))
+             for tbl, fld, _p, _fk in _GATED_SPEC.values()
+             for r in _table(tbl).values()]
+    times = [t for t in times if t is not None]
+    if not times:
+        pytest.skip('包内没有任何开放时间')
+    gate = rg.load_gate(at=max(times) + timedelta(seconds=1))
     assert gate.page_urls() == []
     assert not gate
 
