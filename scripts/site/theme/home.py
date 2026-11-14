@@ -45,9 +45,9 @@ def home_page(pages, personality_data):
   <div class="hero-badge-wrap">
     <a class="hero-update-pill" href="#updates">
       <span class="pill-dot"></span>
-      <span class="pill-date">2026-11-14</span>
+      <span class="pill-date">2026-11-15</span>
       <span class="pill-sep">·</span>
-      <span class="pill-text">上次更新：更新主线剧情、限时活动、旅人专属故事、秘闻、故事集支线、逸闻笔记、其他剧情，新增 32 篇内容</span>
+      <span class="pill-text">上次更新：上游数据与剧本文案修正</span>
       <span class="pill-arrow">↓</span>
     </a>
   </div>
@@ -89,10 +89,10 @@ def home_page(pages, personality_data):
       </div>
       <div class="update-date-badge">
         <span class="dot"></span>
-        <span>更新时间：2026-11-14</span>
+        <span>更新时间：2026-11-15</span>
       </div>
     </div>
-    <div class="update-summary">更新主线剧情、限时活动、旅人专属故事、秘闻、故事集支线、逸闻笔记、其他剧情，新增 32 篇内容</div>
+    <div class="update-summary">上游数据与剧本文案修正</div>
   </div>
 </section>
 """ % ''.join(bento_items), 0, '')
