@@ -223,6 +223,6 @@ scripts/site/
 
 **摘要来源**：阅读页取侧车 `preview` 官方概要（`layout.meta_desc()` 折叠全角空格/换行、150 字截断），缺省兜底组名 + 标题；索引/拓扑页用现成族/章简介；战斗档案取官方 `desc`；未开放提示页用固定通用句。首页定位句不写死规模数字。
 
-**门控纪律（红线）**：sitemap URL 集与 description **只消费门控过滤后**的 `pages`/`chapters`/`act_battle_pages`，不列未开放 URL、不含未开放组名。`validate_site.py` S 组审计（sitemap 集合 == 独立重导的发布面、robots/404、逐页 head 标签）+ `mutation_site.py` S2 植入（未开放 URL 塞进 sitemap / 删一条 URL 必须 CAUGHT）把守。注意 `robots.txt` 是 `.txt`，在 `audit_locked` 扫描范围内，内容必须通用；`sitemap.xml` 虽不在 `read_site()` 扫描范围，门控纪律同样适用。
+**门控纪律（红线）**：sitemap URL 集与 description **只消费门控过滤后**的 `pages`/`chapters`/`act_battle_pages`，不列未开放 URL、不含未开放组名。`validate_site.py` S 组审计**只守一条核心不变量**：sitemap 与未开放 URL 零交集（8.5 纪律 4 在新发布面的延伸）；`mutation_site.py` S2 植入「未开放 URL 塞进 sitemap 必须 CAUGHT」验其牙齿。description/canonical/robots 措辞等样板卫生检查**刻意不进契约层**（AGENTS.md 高 ROI 原则：生成器样板坏则全站同坏，构建抽查即可，逐页持久化回归属膨胀）。注意 `robots.txt` 是 `.txt`，在 `audit_locked` 扫描范围内，内容必须通用；`sitemap.xml` 虽不在 `read_site()` 扫描范围，门控纪律同样适用。
 
 **验收口径**：本改动属「声明式预期 diff」（6.2-2）——全页 HTML 仅 head 变化（body 逐字节一致）+ 3 个新根文件，基线同提交刷新。百度不消费 robots.txt 的 Sitemap 声明，新页靠内链发现；Bing 自动发现。站长平台提交 / IndexNow / 百度 API 推送均不在本期（用户选定零手动方案）。

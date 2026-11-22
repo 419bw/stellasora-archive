@@ -13,8 +13,7 @@ M2 玩家回应: 「玩家回应」标记渲染成聊天气泡，提示词保留
 M3 单选项抉择: 只提供一个选项的抉择不是分叉，不得渲染 若选 分支框/分支导航
     （上游 CG_126_03.lua 的 SetChoiceEnd 写错帧，见 _dev/AI_HANDOVER_GUIDE.md 3.5；
      生成器照实吐标记，兜底在渲染层压制，md 不动）
-S  SEO产物 : sitemap.xml/robots.txt/404.html 与逐页 head 标签（description/canonical），
-    sitemap URL 集合 == 已发布页面（期望集独立重导，未开放 URL 绝不入内）
+S  sitemap门控: sitemap 与未开放 URL 零交集（门控红线在 SEO 发布面的延伸，8.5 纪律 4）
 
 本文件只做数据对账（含各 audit 的正对照），CI 直接跑它。植入变异自检（篡改产物后
 同一套 audit 必须抓到）拆在 mutation_site.py，改校验器/生成器代码时手动跑：
@@ -1341,83 +1340,39 @@ hard(not idx_errs, 'N 占位渲染违例：%d 处' % len(idx_errs))
 
 # N2 门控泄露植入变异已拆到 mutation_site.py。
 
-# ---- S SEO 产物（sitemap/robots/404/逐页 head 标签）------------------------------
-# 期望 URL 集合复用 I 审计的 expected（独立重导）减去门控占位页与 404：
-# sitemap 只列已发布页面，未开放 URL 绝不入内（门控纪律，见 guide ch8 8.6）。
+# ---- S sitemap 门控（未开放 URL 零混入）------------------------------------------
+# 门控红线在 SEO 发布面上的延伸（8.5 纪律 4）：sitemap 是新的对外发布面，
+# 未开放 URL 绝不入内。只守这一条核心不变量——description/canonical/robots 等
+# 样板输出的卫生检查不进契约层（AGENTS.md 高 ROI 原则，构建时抽查即可）。
 SEO_BASE = 'https://stellasora-archive.pages.dev/'
 SEO_NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 
 
-def audit_seo(sitemap_xml=None, robots_txt=None):
-    errs = []
-    published_urls = expected - set(GATE.page_urls()) - {'404.html'}
+def audit_seo(sitemap_xml=None):
     sm = sitemap_xml
     if sm is None:
         sm_path = os.path.join(SITE, 'sitemap.xml')
-        if not os.path.exists(sm_path):
-            errs.append(('sitemap.xml 缺失',))
-            sm = ''
-        else:
-            sm = open(sm_path, encoding='utf-8').read()
-    locs = []
-    if sm:
-        try:
-            locs = [e.text or '' for e in ET.fromstring(sm).findall(SEO_NS + 'url/' + SEO_NS + 'loc')]
-        except ET.ParseError as e:
-            errs.append(('sitemap.xml 解析失败', str(e)))
-    want = {SEO_BASE + u for u in published_urls}
-    got = set(locs)
-    if len(locs) != len(got):
-        errs.append(('sitemap 重复 URL', len(locs) - len(got)))
-    for u in sorted(got - want)[:5]:
-        errs.append(('sitemap 多出 URL（未开放或非发布面）', u))
-    for u in sorted(want - got)[:5]:
-        errs.append(('sitemap 缺少 URL', u))
-    for u in sorted(got):
-        if not u.startswith(SEO_BASE):
-            errs.append(('sitemap loc 非本站基准', u))
-        if '/data/' in u or '/assets/' in u:
-            errs.append(('sitemap 列入资源目录', u))
-    rb = robots_txt
-    if rb is None:
-        rb_path = os.path.join(SITE, 'robots.txt')
-        rb = open(rb_path, encoding='utf-8').read() if os.path.exists(rb_path) else None
-    if rb is None:
-        errs.append(('robots.txt 缺失',))
-    else:
-        if 'Disallow: /data/' not in rb:
-            errs.append(('robots.txt 缺少 /data/ 屏蔽',))
-        if ('Sitemap: ' + SEO_BASE + 'sitemap.xml') not in rb:
-            errs.append(('robots.txt 缺少 Sitemap 声明',))
-    nf_path = os.path.join(SITE, '404.html')
-    if not os.path.exists(nf_path):
-        errs.append(('404.html 缺失',))
-    elif 'noindex' not in open(nf_path, encoding='utf-8').read():
-        errs.append(('404.html 缺少 noindex',))
-    for u in sorted(published_urls):
-        hp = os.path.join(SITE, *u.split('/'))
-        if not os.path.exists(hp):
-            continue  # 缺文件已由 I 审计报告
-        head = open(hp, encoding='utf-8').read().split('</head>', 1)[0]
-        if '<meta name="description"' not in head:
-            errs.append(('页面缺少 description', u))
-        canon = SEO_BASE + ('' if u == 'index.html' else u)
-        if ('<link rel="canonical" href="%s">' % canon) not in head:
-            errs.append(('页面 canonical 缺失或指向不符', u))
-    return errs
+        sm = open(sm_path, encoding='utf-8').read() if os.path.exists(sm_path) else ''
+    try:
+        locs = [e.text or '' for e in ET.fromstring(sm).findall(SEO_NS + 'url/' + SEO_NS + 'loc')] if sm else []
+    except ET.ParseError as e:
+        # 文件反序列化是边界：读不懂的 sitemap 无从审计，直接判违例
+        return [('sitemap.xml 解析失败', str(e))]
+    locked = {SEO_BASE + u for u in GATE.page_urls()}
+    return [('sitemap 混入未开放 URL', u) for u in sorted(set(locs) & locked)]
 
 
 print()
 print('=' * 66)
-print('S  SEO 产物：sitemap/robots/404 与逐页 head 标签')
+print('S  sitemap 门控：未开放 URL 零混入')
 print('=' * 66)
 s_errs = audit_seo()
-print('SEO 违例：%d' % len(s_errs))
+print('sitemap 门控违例：%d' % len(s_errs))
 for x in s_errs[:8]:
     print('   ~', x)
-hard(not s_errs, 'S SEO 产物违例：%d 处' % len(s_errs))
+hard(not s_errs, 'S sitemap 门控违例：%d 处' % len(s_errs))
 
-# S2 SEO 产物植入变异已拆到 mutation_site.py。
+# S2 sitemap 门控植入变异已拆到 mutation_site.py。
 
 # ---- 汇总与退出码 -------------------------------------------------------------
 # 本文件只做数据对账（含各 audit 的正对照），CI 直接跑它。植入变异自检拆在
