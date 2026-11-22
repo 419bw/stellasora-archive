@@ -17,6 +17,7 @@ import os
 import json
 import collections
 import shutil
+from datetime import datetime, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRIPTS_DIR = os.path.dirname(SCRIPT_DIR)
@@ -33,8 +34,8 @@ import release_gate
 from pipeline.diagnostics import warn  # noqa: E402
 
 # Phase D1：模板层按主题拆包（原 site_templates.py 单文件 915 行 → theme/ + families/）。
-from registry import FAMILIES, FAMILY_NAME, slug_of  # noqa: E402
-from theme.layout import depth_of, node_state_class, rel  # noqa: E402
+from registry import FAMILIES, FAMILY_NAME, SITE_BASE, slug_of  # noqa: E402
+from theme.layout import depth_of, layout, node_state_class, rel  # noqa: E402
 from theme.gate import locked_notice_page  # noqa: E402
 # Phase D3：页型渲染统一走 assemble.py 的 (family, kind) 分发表，main() 零特判；
 # BRANCHING_ACTS 声明随活动族模板落位（消灭 10106/20101 硬编码）。
@@ -552,6 +553,37 @@ def main():
         cur_branches = branch_index.get(page_rel)
         html = render(rec.get('family'), 'reading', rec, doc, nav_info=cur_nav, branch_targets=cur_branches)
         write(os.path.join(SITE, page_rel.replace('/', os.sep)), html)
+
+    # 5. SEO artifacts (sitemap / robots / 404). The URL set shares the SAME
+    #    gate-filtered sources as the rendering above: a still-locked group's
+    #    URLs must never reach search engines (guide ch8, 8.5/8.6).
+    seo_urls = {'index.html'}
+    seo_urls.update('%s/index.html' % slug_of(f) for f, _n, _i in FAMILIES)
+    seo_urls.update('main/%s/index.html' % c['slug'] for c in chapters)
+    seo_urls.update('events/%d/index.html' % a['id'] for a in BRANCHING_ACTS
+                    if not gate.is_group('events', a['id']))
+    seo_urls.update(n['page'] for n in main_battle_nodes)
+    seo_urls.update(bp['page'] for bp in act_battle_pages)
+    seo_urls.update(rec['page'] for rec in pages)
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in sorted(seo_urls):
+        sm.append('<url><loc>%s%s</loc><lastmod>%s</lastmod></url>' % (SITE_BASE, u, today))
+    sm.append('</urlset>')
+    write(os.path.join(SITE, 'sitemap.xml'), '\n'.join(sm))
+    # /data/ holds the full-text search sidecars: crawlable duplicates of the
+    # reading pages, so spiders are kept out (browser JS loading is unaffected).
+    write(os.path.join(SITE, 'robots.txt'),
+          'User-agent: *\nAllow: /\nDisallow: /data/\n\nSitemap: %ssitemap.xml' % SITE_BASE)
+    # Without a 404.html Cloudflare Pages serves index.html with 200 for any
+    # unmatched route (soft-404); this page turns those into real 404s.
+    write(os.path.join(SITE, '404.html'), layout(
+        '页面不存在',
+        '<h1>页面不存在</h1>\n'
+        '<p class="lede">您访问的页面不存在或已被移除。</p>\n'
+        '<p class="aside"><a href="index.html">返回首页</a>，或使用顶部导航进入各剧情板块。</p>',
+        0, '', desc='您访问的页面不存在或已被移除。', robots='noindex'))
 
     graphs = len(chapters) + len(BRANCHING_ACTS)
     battle_pages_total = len(main_battle_nodes) + len(act_battle_pages)

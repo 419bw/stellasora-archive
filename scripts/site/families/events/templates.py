@@ -47,4 +47,5 @@ def activity_graph_page(act_info, all_branching_acts):
         '活动关卡拓扑连线图　收录 %d 个剧情与战斗节点　含多分支抉择路线' % len(nodes),
         switch,
         '活动关卡拓扑分支图，支持鼠标拖拽平移与列锚点定位；点击卡片可查阅对应活动剧本。',
-        nodes, g)
+        nodes, g, path=page,
+        desc='%s《%s》活动关卡拓扑图：含多分支抉择路线与逐关剧情全文入口。' % (act_name, act_title))

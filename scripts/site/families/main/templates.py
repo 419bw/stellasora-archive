@@ -6,6 +6,7 @@ Phase D1 纯搬运（main_index / _chapter_card 函数体逐字不动）；分�
 Phase D2 迁入 chapter_graph_page 组装层（拓扑骨架用 theme.graph.graph_map_page，
 特别篇平铺分支留在此层）。
 """
+from registry import FAMILY_META
 from theme.layout import depth_of, esc, layout, node_state_label, rel
 from theme.graph import graph_map_page
 from theme.gate import _locked_card
@@ -94,7 +95,9 @@ def chapter_graph_page(c, all_chapters):
                 '<p class="aside">特别篇各关卡按剧情推进顺序排列展示。</p>'
                 '<ul class="plain linelist">%s</ul>'
                 % (esc(c['name'] or '特别篇'), esc(c['title']), lede, switch, items_html))
-        return layout(c['name'] or '特别篇', body, d, crumb)
+        return layout(c['name'] or '特别篇', body, d, crumb, path=page,
+                      desc='%s《%s》特别篇：按剧情推进顺序收录逐话剧本全文。'
+                           % (c['name'] or '特别篇', c['title']))
 
     unreleased = sum(1 for n in c['nodes'] if n['state'] == 'unreleased')
     lede = '%s　节点 %d　已开放 %d　战斗 %d%s' % (
@@ -107,7 +110,8 @@ def chapter_graph_page(c, all_chapters):
         '%s《%s》' % (esc(c['name']), esc(c['title'])), lede, switch,
         '支持拖拽平移与滚轮缩放，点击节点可查阅剧本全文；「未开放」表示该分支路线暂未开放；'
         '「无对白剧本」表示该关卡为纯战斗关卡，无剧情对白。',
-        c['nodes'], g)
+        c['nodes'], g, path=page,
+        desc='%s《%s》关卡拓扑图：分支抉择、多结局路线与逐话剧本全文入口。' % (c['name'], c['title']))
 
 
 def _chapter_card(c):
@@ -196,7 +200,8 @@ def main_index(chapters, locked_items=()):
 </div>
 </div>
 """ % ('\n'.join(wheel), '\n'.join(panes))
-    return layout('主线剧情', body, d, crumb)
+    return layout('主线剧情', body, d, crumb, path='main/index.html',
+                  desc=FAMILY_META['main']['desc'])
 
 
 # 覆盖默认二级索引（D3 分发注册表读这个钩子；main 用时间线轮盘索引）

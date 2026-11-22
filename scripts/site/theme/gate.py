@@ -64,7 +64,8 @@ def locked_notice_page(item, page):
 <p class="lede">该篇章尚未在游戏内开放，本站暂不收录其剧情内容。</p>
 <div class="locked-notice">%s</div>
 <p class="aside">官方开放后，本页会自动更新为完整剧情档案。</p>
-""" % ''.join(rows), d, crumb)
+""" % ''.join(rows), d, crumb, path=page,
+        desc='该篇章尚未在游戏内开放，开放后本页将自动更新为完整剧情档案。')
 
 
 def _locked_card(item):

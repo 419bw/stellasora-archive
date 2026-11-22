@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """战斗档案页（Phase D1 从 site_templates.py 拆出，函数体逐字不动）。"""
 from registry import FAMILY_NAME, slug_of
-from theme.layout import clean_subtitle, depth_of, esc, layout
+from theme.layout import clean_subtitle, depth_of, esc, layout, meta_desc
 
 
 def battle_archive_page(stage, nav_info=None):
@@ -110,4 +110,7 @@ def battle_archive_page(stage, nav_info=None):
        esc(cond_display), esc(stage.get('desc') or '暂无简介'),
        esc(notice_desc), story_nav_html)
        
-    return layout(page_title, body, d, crumb)
+    return layout(page_title, body, d, crumb, path=page,
+                  desc=meta_desc(stage.get('desc'),
+                                 fallback='%s %s 纯战斗关卡档案：官方简介、解锁条件与前后流程导航。'
+                                          % (chapter_name, page_title)))

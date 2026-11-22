@@ -3,7 +3,7 @@
 import collections
 
 from registry import FAMILY_NAME, slug_of
-from theme.layout import depth_of, esc, full_title, layout, rel
+from theme.layout import depth_of, esc, full_title, layout, meta_desc, rel
 from theme.gate import locked_block
 
 
@@ -93,4 +93,4 @@ def family_index(family, intro, pages_in_family, locked_items=()):
 %s
 <div class="grp-grid" data-family="%s">%s</div>
 """ % (FAMILY_NAME[family], esc(intro), slug_of(family), '../' * d, toolbar, slug_of(family), ''.join(blocks)),
-        d, crumb)
+        d, crumb, path=page, desc=meta_desc(intro))

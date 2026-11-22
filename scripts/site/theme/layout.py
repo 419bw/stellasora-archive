@@ -2,7 +2,7 @@
 """页面骨架与通用 helper（Phase D1 从 site_templates.py 拆出，函数体逐字不动）。"""
 from html import escape
 
-from registry import FAMILIES, FAMILY_NAME, STATE_LABEL, slug_of
+from registry import FAMILIES, FAMILY_NAME, SITE_BASE, STATE_LABEL, slug_of
 
 
 esc = escape
@@ -75,16 +75,30 @@ def node_state_class(n):
     return 'story'
 
 
-def layout(title, body, depth, crumb, note=''):
+def meta_desc(text, fallback=''):
+    # str.split() 一并折叠全角空格与换行：官方 preview 带排版空白，入 head 前必须清洗
+    s = ' '.join((text or '').split()) or ' '.join((fallback or '').split())
+    return s[:150] + ('…' if len(s) > 150 else '')
+
+
+def layout(title, body, depth, crumb, note='', path='', desc='', robots=''):
     root = '../' * depth
     nav_links = ''.join('<a href="%s%s/index.html">%s</a>' % (root, slug_of(f), n)
                         for f, n, _ in FAMILIES)
+    seo = ''
+    if desc:
+        seo += '<meta name="description" content="%s">\n' % esc(desc)
+    if path:
+        # 首页 canonical 归一到根 URL；子页保留与站内链接一致的 index.html 形态
+        seo += '<link rel="canonical" href="%s">\n' % (SITE_BASE + ('' if path == 'index.html' else path))
+    if robots:
+        seo += '<meta name="robots" content="%s">\n' % esc(robots)
     return """<!DOCTYPE html>
 <html lang="zh-CN"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%s · 星塔旅人 剧情档案</title>
-<link rel="icon" href="%sassets/icon_story.png" type="image/png">
+%s<link rel="icon" href="%sassets/icon_story.png" type="image/png">
 <link rel="stylesheet" href="%sassets/tokens.css">
 <script>
 (function(){
@@ -129,7 +143,7 @@ def layout(title, body, depth, crumb, note=''):
 </button>
 <script src="%sassets/site.js"></script>
 </body></html>
-""" % (esc(title), root, root,
+""" % (esc(title), seo, root, root,
        root, root, nav_links,
        ('<nav class="crumb">%s</nav>\n' % crumb) if crumb else '', body,
        root, ((' · ' + esc(note)) if note else ''),

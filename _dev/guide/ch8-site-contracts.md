@@ -209,3 +209,20 @@ scripts/site/
 `StoryPreview.ShowTime = 2026-10-06`，而章级 `StoryChapter.OpenTime` 是 2026-09-29（早过了）。
 缓释事实：未开放那部分剧本上游还没进包（`STm09_0x_c/_d`、`BBm09_BT04/BT05` 包里没有），没有正文可漏。
 真要治得等上游给节点级字段，别用猜的。
+
+### 8.6 SEO 产物（sitemap / robots / 404 / 逐页 head 标签）
+
+2026-11-23 加入的 P0 SEO 基础设施，全部由 `build_site.py` 构建时生成，随每次发版自动更新，零手动维护：
+
+| 产物 | 内容 |
+|---|---|
+| `site/sitemap.xml` | 全部已发布 URL（首页 + 12 族索引 + 章/活动拓扑 + 战斗档案 + 阅读页），`lastmod` = 构建当日（UTC），单文件 |
+| `site/robots.txt` | 放行全站、`Disallow: /data/`（search.js 等侧车含全量台词，蜘蛛收录会成正文页的重复内容；浏览器 JS 加载不受影响）、`Sitemap:` 声明（Bingbot 自动发现入口） |
+| `site/404.html` | `noindex`、无 canonical。没有它时 Cloudflare Pages 对任意未匹配路径回 200 + 首页（SPA 回退，软 404）；有它才回真 404 |
+| 逐页 head | `meta description` + `canonical`（绝对 URL；首页归一到根 URL，子页保留与站内链接一致的 `index.html` 形态），统一经 `theme/layout.py` 的 `path`/`desc`/`robots` 参数注入 |
+
+**摘要来源**：阅读页取侧车 `preview` 官方概要（`layout.meta_desc()` 折叠全角空格/换行、150 字截断），缺省兜底组名 + 标题；索引/拓扑页用现成族/章简介；战斗档案取官方 `desc`；未开放提示页用固定通用句。首页定位句不写死规模数字。
+
+**门控纪律（红线）**：sitemap URL 集与 description **只消费门控过滤后**的 `pages`/`chapters`/`act_battle_pages`，不列未开放 URL、不含未开放组名。`validate_site.py` S 组审计（sitemap 集合 == 独立重导的发布面、robots/404、逐页 head 标签）+ `mutation_site.py` S2 植入（未开放 URL 塞进 sitemap / 删一条 URL 必须 CAUGHT）把守。注意 `robots.txt` 是 `.txt`，在 `audit_locked` 扫描范围内，内容必须通用；`sitemap.xml` 虽不在 `read_site()` 扫描范围，门控纪律同样适用。
+
+**验收口径**：本改动属「声明式预期 diff」（6.2-2）——全页 HTML 仅 head 变化（body 逐字节一致）+ 3 个新根文件，基线同提交刷新。百度不消费 robots.txt 的 Sitemap 声明，新页靠内链发现；Bing 自动发现。站长平台提交 / IndexNow / 百度 API 推送均不在本期（用户选定零手动方案）。

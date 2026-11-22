@@ -66,7 +66,7 @@ def _graph_anchors(nodes, g, pad=24):
                    for col in range(g['columns']))
 
 
-def graph_map_page(title, crumb, depth, family, heading, lede, switch, aside, nodes, g, pad=24):
+def graph_map_page(title, crumb, depth, family, heading, lede, switch, aside, nodes, g, pad=24, path='', desc=''):
     """拓扑图页骨架：切换条 + 列锚点 + 平铺 SVG 连线层 + 绝对定位卡片层。
 
     ``family`` 同时写进 nav/anchors/map 三处 ``data-family``（CSS 作用域选择器
@@ -89,4 +89,4 @@ def graph_map_page(title, crumb, depth, family, heading, lede, switch, aside, no
        g['width'] + pad * 2, g['height'] + pad * 2,
        g['width'] + pad * 2, g['height'] + pad * 2,
        _graph_paths(nodes, g, pad), _graph_cards(nodes, g, pad, depth), aside)
-    return layout(title, body, depth, crumb)
+    return layout(title, body, depth, crumb, path=path, desc=desc)

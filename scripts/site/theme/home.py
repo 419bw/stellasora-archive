@@ -95,4 +95,7 @@ def home_page(pages, personality_data):
     <div class="update-summary">上游数据与剧本文案修正</div>
   </div>
 </section>
-""" % ''.join(bento_items), 0, '')
+""" % ''.join(bento_items), 0, '',
+        path='index.html',
+        desc='《星塔旅人》非官方剧情档案库：完整收录主线、活动、角色个人剧情等官方剧本全文，'
+             '含分支抉择、多结局与关卡拓扑图，随游戏版本自动更新。')

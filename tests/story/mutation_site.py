@@ -380,6 +380,28 @@ else:
     hard(_n2re, 'N2 还原后复检 FAIL')
     print('还原后复检: %s' % ('PASS' if _n2re else 'FAIL'))
 
+# ---- S2 SEO 产物植入 -----------------------------------------------------------
+print()
+print('S2 变异测试')
+sm_path = os.path.join(SITE, 'sitemap.xml')
+orig_sm = open(sm_path, encoding='utf-8').read()
+if GATE:
+    locked_url = next(it for items in GATE.groups.values() for it in items.values())['pages'][0]
+else:
+    locked_url = 'storysets/9999/999901.html'
+plant = '<url><loc>%s%s</loc></url>' % (SEO_BASE, locked_url)
+_s2a = bool(audit_seo(sitemap_xml=orig_sm.replace('</urlset>', plant + '</urlset>')))
+hard(_s2a, 'S2 植入[把未开放 URL 塞进 sitemap] MISSED')
+print('植入[把未开放 URL 塞进 sitemap]: %s' % ('CAUGHT' if _s2a else 'MISSED'))
+first_start = orig_sm.index('<url>')
+first_end = orig_sm.index('</url>') + len('</url>')
+_s2b = bool(audit_seo(sitemap_xml=orig_sm[:first_start] + orig_sm[first_end:]))
+hard(_s2b, 'S2 植入[删掉 sitemap 一个 URL] MISSED')
+print('植入[删掉 sitemap 一个 URL]    : %s' % ('CAUGHT' if _s2b else 'MISSED'))
+_s2re = not audit_seo()
+hard(_s2re, 'S2 还原后复检 FAIL')
+print('还原后复检: %s' % ('PASS' if _s2re else 'FAIL'))
+
 # ---- 汇总 ---------------------------------------------------------------------
 print()
 print('=' * 66)

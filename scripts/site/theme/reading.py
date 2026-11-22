@@ -5,7 +5,7 @@ import json
 import render_html
 
 from registry import FAMILY_NAME, slug_of
-from theme.layout import clean_subtitle, depth_of, esc, full_title, layout
+from theme.layout import clean_subtitle, depth_of, esc, full_title, layout, meta_desc
 
 
 def script_page(rec, doc, nav_info=None, branch_targets=None):
@@ -87,4 +87,8 @@ def script_page(rec, doc, nav_info=None, branch_targets=None):
 %s%s
 """ % (aside, esc(rec['family']),
        json.dumps(rec['counts'], ensure_ascii=False), body,
-       story_nav_html, cast_html), d, crumb)
+       story_nav_html, cast_html), d, crumb,
+        path=page,
+        desc=meta_desc(rec.get('preview') or rec.get('recap'),
+                       fallback='%s %s 官方剧本全文与分支抉择，收录于星塔旅人剧情档案。'
+                                % (g.get('label') or '', full_title(rec.get('code'), rec.get('title')))))

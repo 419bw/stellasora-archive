@@ -7,6 +7,10 @@ FAMILIES 的顺序即首页 bento 与导航的展示序；slug_of 是族 id → 
 """
 
 
+# 站点基准 URL（canonical / sitemap / robots 的单一来源；线上域名与 README 一致）
+SITE_BASE = 'https://stellasora-archive.pages.dev/'
+
+
 FAMILIES = [
     ('main', '主线剧情', '全线剧情拓扑、分支抉择与终局推演。'),
     ('events', '活动剧情', '各期主题活动的关卡剧情全文与阶段收录。'),
