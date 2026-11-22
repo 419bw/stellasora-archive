@@ -47,7 +47,7 @@ def home_page(pages, personality_data):
       <span class="pill-dot"></span>
       <span class="pill-date">2026-11-23</span>
       <span class="pill-sep">·</span>
-      <span class="pill-text">上次更新：同步 3 项代码更新</span>
+      <span class="pill-text">上次更新：同步 2 项代码更新</span>
       <span class="pill-arrow">↓</span>
     </a>
   </div>
@@ -92,7 +92,7 @@ def home_page(pages, personality_data):
         <span>更新时间：2026-11-23</span>
       </div>
     </div>
-    <div class="update-summary">同步 3 项代码更新</div>
+    <div class="update-summary">同步 2 项代码更新</div>
   </div>
 </section>
 """ % ''.join(bento_items), 0, '',

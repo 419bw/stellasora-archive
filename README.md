@@ -100,9 +100,8 @@ python tests/story/validate_site.py
 ## 最近更新记录
 
 ### 2026-11-23
-- docs: AGENTS.md 增补编码与代码评审纪律（契约驱动、反膨胀）
-- feat(site): P0 SEO — 全页 head 注入 description/canonical，新增 sitemap/robots/404
-- test: 门控测试改为数据驱动，移除写死组号的脆性快照
+- docs: AGENTS.md 测试纪律措辞泛化——unit tests → verification/checks
+- refactor(test): S 审计瘦身至门控子集——只守 sitemap 未开放 URL 零交集
 
 ---
 
