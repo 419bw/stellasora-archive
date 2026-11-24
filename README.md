@@ -99,9 +99,8 @@ python tests/story/validate_site.py
 
 ## 最近更新记录
 
-### 2026-11-23
-- docs: AGENTS.md 测试纪律措辞泛化——unit tests → verification/checks
-- refactor(test): S 审计瘦身至门控子集——只守 sitemap 未开放 URL 零交集
+### 2026-11-25
+- 上游数据与剧本文案修正
 
 ---
 
