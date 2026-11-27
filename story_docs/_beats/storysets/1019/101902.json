@@ -11,15 +11,15 @@
  "body_title": "逐句台词",
  "meta": {
   "recap": "在玻璃工艺品摊前，两人认出了儿时同款的玻璃项链，各自买下戴上。而此时，颁奖广播响起，人潮涌向中央……",
-  "episode": "第一话记忆回想",
-  "title": "比\"宝石\"更耀眼的 其一"
+  "episode": "第二话",
+  "title": "比“宝石”更耀眼的 其二"
  },
  "appendix": null,
  "beats": [
   {
    "k": "talk",
    "speaker": "旁白",
-   "text": "农业大会当天——",
+   "text": "展销大会当天——",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -171,7 +171,7 @@
   {
    "k": "talk",
    "speaker": "红宝石",
-   "text": "哼哼♪菲莱办活动，不管庆典还是展会，卖这个的这摊子绝对少不了～",
+   "text": "哼哼♪菲莱办活动，不管庆典还是展会，卖这个的摊子绝对少不了～",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "结果找着找，我们的目标就变成了抓小鱼。最后虽然没有找到宝石，但依旧玩得很开心。",
+   "text": "结果找着找着，我们的目标就变成了抓小鱼。最后虽然没有找到宝石，但依旧玩得很开心。",
    "thought": false,
    "sticker": false,
    "channel": "talk"

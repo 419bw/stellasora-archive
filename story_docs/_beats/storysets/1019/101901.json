@@ -587,7 +587,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "最近要这么多文书工作，想必你们也累坏了吧。辛苦你们两个了。",
+   "text": "最近要处理这么多文书工作，想必你们也累坏了吧。辛苦你们两个了。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -619,7 +619,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "其他，今天叫你们来，是有件事想拜托你们。",
+   "text": "其实，今天叫你们来，是有件事想拜托你们。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -627,7 +627,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "“菲莱农业大会”，你们熟悉吗？",
+   "text": "“农产品展销大会”，你们熟悉吗？",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -643,7 +643,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "当然，菲莱农业大会是联合种业主办的一年一度的农产品大会，菲莱各地农户都会报名参加，对吧。",
+   "text": "当然，农产品展销大会是联合种业主办的年度活动，菲莱各地农户都会报名参加，对吧。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -659,7 +659,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "所以这次的农业大会的意义非同一般。菲莱公司头一回自己举办，我想把会场的安保交给信得过的人。",
+   "text": "所以这次的展销大会的意义非同一般。菲莱公司头一回自己举办，我想把会场的安保交给信得过的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -723,7 +723,7 @@
   {
    "k": "talk",
    "speaker": "翡冷翠",
-   "text": "既然总公司在背后插手，这件事就只能交给一个我信得过的人。",
+   "text": "既然总公司在背后插手，这件事就只能交给我信得过的人。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -739,7 +739,7 @@
   {
    "k": "talk",
    "speaker": "蓝宝石",
-   "text": "请包在我们身上吧……同样的失误，我绝不会再犯第二次。",
+   "text": "就请交给我们吧……同样的失误，我绝不会再犯第二次。",
    "thought": false,
    "sticker": false,
    "channel": "talk"
@@ -747,7 +747,7 @@
   {
    "k": "talk",
    "speaker": "红宝石",
-   "text": "没问题！我们一定会守护好农业大会的！",
+   "text": "没问题！我们一定会守护好展销大会的！",
    "thought": false,
    "sticker": false,
    "channel": "talk"
